@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['iac_5falgorithm_5fnone',['IAC_ALGORITHM_NONE',['../idle_8h.html#ab1ea8198724c67cdd9bbefe7fea1cc9b',1,'idle.h']]],
+  ['iac_5falgorithm_5fonoff',['IAC_ALGORITHM_ONOFF',['../idle_8h.html#a9b72143529f752a2bf664b46f4fcf931',1,'idle.h']]],
+  ['iac_5falgorithm_5fpwm_5fcl',['IAC_ALGORITHM_PWM_CL',['../idle_8h.html#a1bcda133a16e73f6ae468f40ffd40393',1,'idle.h']]],
+  ['iac_5falgorithm_5fpwm_5fol',['IAC_ALGORITHM_PWM_OL',['../idle_8h.html#ae23cfb3457565cb0290ffd296df340a6',1,'idle.h']]],
+  ['iac_5falgorithm_5fstep_5fcl',['IAC_ALGORITHM_STEP_CL',['../idle_8h.html#a75d8494d0933400c71188f5422613325',1,'idle.h']]],
+  ['iac_5falgorithm_5fstep_5fol',['IAC_ALGORITHM_STEP_OL',['../idle_8h.html#aa256dd0f8bf874c2419b6630a08f4993',1,'idle.h']]],
+  ['idle_5ftable_5fsize',['IDLE_TABLE_SIZE',['../idle_8h.html#ab25afe45a12d1b7ec45a7538c814cf60',1,'idle.h']]],
+  ['ign_5fmode_5frotary',['IGN_MODE_ROTARY',['../globals_8h.html#abab979403475a6da7b9148990ddfd2fa',1,'globals.h']]],
+  ['ign_5fmode_5fsequential',['IGN_MODE_SEQUENTIAL',['../globals_8h.html#a8d20de9e04c86cc49232565dcac13534',1,'globals.h']]],
+  ['ign_5fmode_5fsingle',['IGN_MODE_SINGLE',['../globals_8h.html#a0cbf76150adc24da61cf60b684d829e1',1,'globals.h']]],
+  ['ign_5fmode_5fwasted',['IGN_MODE_WASTED',['../globals_8h.html#a8df8409776c88f2c2ed0e66fd5509e85',1,'globals.h']]],
+  ['ign_5fmode_5fwastedcop',['IGN_MODE_WASTEDCOP',['../globals_8h.html#a55d621c1a35d4e69599bb874cd15de65',1,'globals.h']]],
+  ['ignition_5frefresh_5fthreshold',['IGNITION_REFRESH_THRESHOLD',['../scheduler_8h.html#aa7b94ad3c3f8966d9b73903d218e08e6',1,'scheduler.h']]],
+  ['ignitionlimits',['ignitionLimits',['../crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a',1,'crankMaths.h']]],
+  ['ignmappage',['ignMapPage',['../comms_8h.html#a6894142189f915452e053994b95d07fb',1,'comms.h']]],
+  ['ignsetpage',['ignSetPage',['../comms_8h.html#ac578dae9dba8affd61d2f47d25e61854',1,'comms.h']]],
+  ['inj_5fbanked',['INJ_BANKED',['../globals_8h.html#a2efcdcc2f4185aa75aa2049266c379d3',1,'globals.h']]],
+  ['inj_5fpaired',['INJ_PAIRED',['../globals_8h.html#a0901d1f94a267fac053ae69186c5aedb',1,'globals.h']]],
+  ['inj_5fsemisequential',['INJ_SEMISEQUENTIAL',['../globals_8h.html#a1e46299aba6e2a353b020afc55b7dcc1',1,'globals.h']]],
+  ['inj_5fsequential',['INJ_SEQUENTIAL',['../globals_8h.html#a6e740690b21f81a3ba79cb0de5921f6f',1,'globals.h']]],
+  ['interruptsafe',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]]
+];

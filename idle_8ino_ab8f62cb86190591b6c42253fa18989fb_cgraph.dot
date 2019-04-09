@@ -1,0 +1,29 @@
+digraph "idleControl"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="idleControl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="initialiseIdle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#aca4d348119424a7474843489e1b62b3c",tooltip=" "];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="enableIdle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a",tooltip=" "];
+  Node18 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="percentage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$maths_8h.html#ad15d7632e1bee5ab5f88b05896b4a94e",tooltip=" "];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="table2D_getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$table_8h.html#a462f96f099a0c20647d0a29e96e2e80c",tooltip=" "];
+  Node17 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="disableIdle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#a973320d318312cf550fd8fbf1c797bbe",tooltip=" "];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="checkForStepping",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#a4053de9017b2bb17d6328131c7045408",tooltip=" "];
+  Node22 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="isStepperHomed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4",tooltip=" "];
+  Node22 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="doStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$idle_8ino.html#ad4337269d8ccf10b0a3e6791f55f0740",tooltip=" "];
+}

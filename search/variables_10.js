@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['realtime_5fbase_5faddress',['realtime_base_address',['../structconfig9.html#ada84f6a432c16cde3e6d6632db6d83f2',1,'config9::realtime_base_address()'],['../globals_8h.html#a83941768f8eef55d0aa69edffbf700a1',1,'realtime_base_address():&#160;globals.h']]],
+  ['req_5ffuel_5fus',['req_fuel_uS',['../speeduino_8h.html#a3b20dbd79052be063c030cbe38344b94',1,'speeduino.h']]],
+  ['reqfuel',['reqFuel',['../structconfig2.html#a64d156720d93b250317ccdefd179503d',1,'config2::reqFuel()'],['../globals_8h.html#a2d816bdfc79868e9bf9ff2875cdf9477',1,'reqFuel():&#160;globals.h']]],
+  ['requestcount',['requestCount',['../comms_8h.html#a154d82e943826b19ae76406a2ba8ad6f',1,'comms.h']]],
+  ['resetcontrol',['resetControl',['../structconfig4.html#ad258fdd67478e78a744739722ab4c5e1',1,'config4::resetControl()'],['../globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl():&#160;globals.h']]],
+  ['resetcontrolpin',['resetControlPin',['../structconfig4.html#a0dbe4850b2ec9f99c2423261de1d94e6',1,'config4::resetControlPin()'],['../globals_8h.html#ac3e4c33f09845ecf55478952dfe9f995',1,'resetControlPin():&#160;globals.h']]],
+  ['revolutionone',['revolutionOne',['../decoders_8h.html#afce12e6bb920a5a0e061554aa2959221',1,'decoders.h']]],
+  ['revolutiontime',['revolutionTime',['../globals_8h.html#af132ab2aede03e9cfe5b035d9f688908',1,'globals.h']]],
+  ['rollingcutcounter',['rollingCutCounter',['../speeduino_8h.html#abbc82bbfca4938d905e62e04dd74b6aa',1,'speeduino.h']]],
+  ['rollingcutlastrev',['rollingCutLastRev',['../speeduino_8h.html#af66793f211884912e6ad8a7df795dc01',1,'speeduino.h']]],
+  ['rotarysplitbins',['rotarySplitBins',['../structconfig10.html#ab21d22f544655d8ec01b50173ad735d1',1,'config10::rotarySplitBins()'],['../globals_8h.html#ae64738591701f57cba050a9ed5757e73',1,'rotarySplitBins():&#160;globals.h']]],
+  ['rotarysplittable',['rotarySplitTable',['../globals_8h.html#aaf93b65da6c8c6cf8cca5b86c003aa1c',1,'globals.h']]],
+  ['rotarysplitvalues',['rotarySplitValues',['../structconfig10.html#a1d6329e6cde496dec192da046d9a4401',1,'config10::rotarySplitValues()'],['../globals_8h.html#abe66c99f57e67299002d396bb4b5abab',1,'rotarySplitValues():&#160;globals.h']]],
+  ['rotarytype',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10::rotaryType()'],['../globals_8h.html#ae155e74de98ef095b627a8340c5a6bde',1,'rotaryType():&#160;globals.h']]],
+  ['rpm',['RPM',['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses']]],
+  ['rpmdelta',['rpmDelta',['../crank_maths_8h.html#a9c18d1792dc4e9448e75d44fb92b65a5',1,'crankMaths.h']]],
+  ['rpmdot',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
+  ['runsecs',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]]
+];
