@@ -33,5 +33,5 @@ var searchData=
   ['loop66ms',['loop66ms',['../timers_8h.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.h']]],
   ['loop_5ftimer',['LOOP_TIMER',['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'globals.h']]],
   ['loopsec',['loopSec',['../timers_8h.html#a1321f3ca7623708598b3751940e9b343',1,'timers.h']]],
-  ['loopspersecond',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
+  ['loopspersecond',['loopsPerSecond',['../structstatuses.html#afeb67d1b61c1a12dc414da24c44b54bd',1,'statuses']]]
 ];
