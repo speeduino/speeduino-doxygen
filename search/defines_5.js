@@ -8,5 +8,6 @@ var searchData=
   ['fasttimetoangle',['fastTimeToAngle',['../crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c',1,'crankMaths.h']]],
   ['four_5fstroke',['FOUR_STROKE',['../globals_8h.html#a463952c75637544fb111dcb01dc9df16',1,'globals.h']]],
   ['fuel_5fpump_5foff',['FUEL_PUMP_OFF',['../globals_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'globals.h']]],
-  ['fuel_5fpump_5fon',['FUEL_PUMP_ON',['../globals_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'globals.h']]]
+  ['fuel_5fpump_5fon',['FUEL_PUMP_ON',['../globals_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'globals.h']]],
+  ['fuelmap2page',['fuelMap2Page',['../comms_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'comms.h']]]
 ];

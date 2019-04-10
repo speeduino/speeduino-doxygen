@@ -53,10 +53,13 @@ var searchData=
   ['fpprimed',['fpPrimed',['../globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'globals.h']]],
   ['fpprimetime',['fpPrimeTime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'globals.h']]],
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
+  ['fuel2algorithm',['fuel2Algorithm',['../structconfig10.html#a5155c9f92e88f41758ff6a4568f4b6df',1,'config10::fuel2Algorithm()'],['../globals_8h.html#a13c134ebbc8687a426ea1f86fee5f3df',1,'fuel2Algorithm():&#160;globals.h']]],
+  ['fuel2mode',['fuel2Mode',['../structconfig10.html#adedb4caa25cc29358bcad1d4ade4436e',1,'config10::fuel2Mode()'],['../globals_8h.html#a7fc93ed44c911fa807136607d48309b0',1,'fuel2Mode():&#160;globals.h']]],
   ['fuel_5fpump_5foff',['FUEL_PUMP_OFF',['../globals_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'globals.h']]],
   ['fuel_5fpump_5fon',['FUEL_PUMP_ON',['../globals_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'globals.h']]],
   ['fuelalgorithm',['fuelAlgorithm',['../structconfig2.html#a1e6fb4dedc8053432ec2390291a9d820',1,'config2::fuelAlgorithm()'],['../globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379',1,'fuelAlgorithm():&#160;globals.h']]],
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
+  ['fuelmap2page',['fuelMap2Page',['../comms_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'comms.h']]],
   ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'speeduino.h']]],
   ['fuelpumpon',['fuelPumpOn',['../structstatuses.html#a6b992916376ec154bd56fa7f8fbd0d6f',1,'statuses']]],
   ['fuelpumppin',['fuelPumpPin',['../structconfig4.html#a0e79b037e038ebad983fdec70be766a4',1,'config4::fuelPumpPin()'],['../globals_8h.html#a853f94bf35975c4fc4592dc114c96c44',1,'fuelPumpPin():&#160;globals.h']]],
@@ -73,5 +76,6 @@ var searchData=
   ['fuelschedule7',['fuelSchedule7',['../scheduler_8h.html#a63644ab5fc043eb36d69dc004b7a4117',1,'scheduler.h']]],
   ['fuelschedule8',['fuelSchedule8',['../scheduler_8h.html#abbab37c77c649f0eb304c46e915b9a00',1,'scheduler.h']]],
   ['fueltable',['fuelTable',['../globals_8h.html#a6e23e7d5be06ffdb1e5b70ba2bf01896',1,'globals.h']]],
+  ['fueltable2',['fuelTable2',['../globals_8h.html#ad38a76d7b3fb61b974e66c0121ad8ef1',1,'globals.h']]],
   ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]]
 ];

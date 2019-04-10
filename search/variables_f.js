@@ -70,7 +70,7 @@ var searchData=
   ['previouslooptime',['previousLoopTime',['../globals_8h.html#a8c1270967c0f23dcc46f4ff54808795c',1,'previousLoopTime():&#160;speeduino.h'],['../speeduino_8h.html#a8c1270967c0f23dcc46f4ff54808795c',1,'previousLoopTime():&#160;speeduino.h']]],
   ['primarytriggeredge',['primaryTriggerEdge',['../globals_8h.html#ad21da4add9e24d2b2f0ea27ff73bf5d9',1,'globals.h']]],
   ['primepulse',['primePulse',['../structconfig2.html#acdcd47726c8b769a2a240a2032a7c70f',1,'config2::primePulse()'],['../globals_8h.html#a720c9593ec06d134485bfd927e62f4b3',1,'primePulse():&#160;globals.h']]],
-  ['progmem',['PROGMEM',['../comms_8h.html#a4678e63753af438068cadfea9ff54025',1,'PROGMEM():&#160;comms.h'],['../globals_8h.html#a9aec7bb1e7f36287b6b6f1333bb90d3c',1,'PROGMEM():&#160;globals.h']]],
+  ['progmem',['PROGMEM',['../comms_8h.html#a4678e63753af438068cadfea9ff54025',1,'PROGMEM():&#160;comms.h'],['../globals_8h.html#a795dfdb739aacf4957feb7773e47a912',1,'PROGMEM():&#160;globals.h']]],
   ['pump_5fpin_5fmask',['pump_pin_mask',['../globals_8h.html#a00358650db9a742f99d0332aa29261f0',1,'globals.h']]],
   ['pump_5fpin_5fport',['pump_pin_port',['../globals_8h.html#a730fa811a051e2caa1d108493467bd7a',1,'globals.h']]],
   ['pw1',['PW1',['../structstatuses.html#a4b0034de3a0462c2fe42fbfdc0c24146',1,'statuses']]],
