@@ -51,6 +51,7 @@ var searchData=
   ['idle_5fpwm_5fstate',['idle_pwm_state',['../idle_8h.html#a8b4b852ecc9711a151cc540864083fe7',1,'idle.h']]],
   ['idle_5fpwm_5ftarget_5fvalue',['idle_pwm_target_value',['../idle_8h.html#a29c5636152a17149cf504cbbe78aaf5e',1,'idle.h']]],
   ['idle_5ftable_5fsize',['IDLE_TABLE_SIZE',['../idle_8h.html#ab25afe45a12d1b7ec45a7538c814cf60',1,'idle.h']]],
+  ['idleadvancetable',['IDLEAdvanceTable',['../globals_8h.html#a233b51ffa6a2004497ecbfd373f40021',1,'globals.h']]],
   ['idlecontrol',['idleControl',['../auxiliaries_8h.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino'],['../idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino']]],
   ['idlecounter',['idleCounter',['../idle_8h.html#a3d4973c359cd8f7ad4076c841b6b5db2',1,'idle.h']]],
   ['idleduty',['idleDuty',['../structstatuses.html#a1517680af7abd19ace4a84a6d6c4039c',1,'statuses']]],

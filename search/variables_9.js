@@ -42,6 +42,7 @@ var searchData=
   ['idle_5fpwm_5fmax_5fcount',['idle_pwm_max_count',['../idle_8h.html#ad033ae4068955a7927c2ddcf47bf1389',1,'idle.h']]],
   ['idle_5fpwm_5fstate',['idle_pwm_state',['../idle_8h.html#a8b4b852ecc9711a151cc540864083fe7',1,'idle.h']]],
   ['idle_5fpwm_5ftarget_5fvalue',['idle_pwm_target_value',['../idle_8h.html#a29c5636152a17149cf504cbbe78aaf5e',1,'idle.h']]],
+  ['idleadvancetable',['IDLEAdvanceTable',['../globals_8h.html#a233b51ffa6a2004497ecbfd373f40021',1,'globals.h']]],
   ['idlecounter',['idleCounter',['../idle_8h.html#a3d4973c359cd8f7ad4076c841b6b5db2',1,'idle.h']]],
   ['idleduty',['idleDuty',['../structstatuses.html#a1517680af7abd19ace4a84a6d6c4039c',1,'statuses']]],
   ['idlefreq',['idleFreq',['../structconfig6.html#a117bdf49867adba62d6bb428a2dd476a',1,'config6::idleFreq()'],['../globals_8h.html#a33fb0eef7b832d1da2ea32a8e66bcaa7',1,'idleFreq():&#160;globals.h']]],
