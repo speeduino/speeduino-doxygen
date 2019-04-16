@@ -107,6 +107,7 @@ Macros</h2></td></tr>
 <tr class="memitem:abaf8f9a9147dc095eb424b8020cc3f26"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#abaf8f9a9147dc095eb424b8020cc3f26">KNOCK_MODE_ANALOG</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:abaf8f9a9147dc095eb424b8020cc3f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546e9cb3295371234f60dcf3beae19dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">ADC_FILTER</a>(input, alpha, prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
+<tr class="memdesc:a546e9cb3295371234f60dcf3beae19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from <a href="http://playground.arduino.cc/Main/Smooth">http://playground.arduino.cc/Main/Smooth</a> But removes the use of floats and uses 8 bits of fixed precision.  <a href="#a546e9cb3295371234f60dcf3beae19dd">More...</a><br/></td></tr>
 <tr class="separator:a546e9cb3295371234f60dcf3beae19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bc90e7a8cfe0270adb88eb49e15517b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>(pin)&#160;&#160;&#160;( (pin == <a class="el" href="globals_8h.html#a8ea43fd1f04c488f5322147c51219b9f">pinInjector1</a>) || (pin == <a class="el" href="globals_8h.html#a561165a765cfbf61d8b3e8d8bf134f3e">pinInjector2</a>) || (pin == <a class="el" href="globals_8h.html#a533c314b0e28e2abb6a6b2d91305e9da">pinInjector3</a>) || (pin == <a class="el" href="globals_8h.html#af6bd1083e2f273177d4cc9826c34ff70">pinInjector4</a>) )</td></tr>
 <tr class="separator:a9bc90e7a8cfe0270adb88eb49e15517b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,8 +136,8 @@ Functions</h2></td></tr>
 <tr class="separator:af6d90525c9e6c5514dd98142ac8ef943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a675a36c43ce440456254784257241b50"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a675a36c43ce440456254784257241b50">readAuxdigital</a> (uint8_t digitalPin)</td></tr>
 <tr class="separator:a675a36c43ce440456254784257241b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac11c2fd02e9e88fd2fdbecc5e2e83b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ac11c2fd02e9e88fd2fdbecc5e2e83b8f">readCLT</a> ()</td></tr>
-<tr class="separator:ac11c2fd02e9e88fd2fdbecc5e2e83b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6782c4a498aa5217dabe373e41340f37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a6782c4a498aa5217dabe373e41340f37">readCLT</a> (bool=true)</td></tr>
+<tr class="separator:a6782c4a498aa5217dabe373e41340f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36c7f6f5425dabac20568f42029139f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a36c7f6f5425dabac20568f42029139f8">readIAT</a> ()</td></tr>
 <tr class="separator:a36c7f6f5425dabac20568f42029139f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa2344c6602c1f289015e19145aaf60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#abaa2344c6602c1f289015e19145aaf60">readO2</a> ()</td></tr>
@@ -201,6 +202,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from <a href="http://playground.arduino.cc/Main/Smooth">http://playground.arduino.cc/Main/Smooth</a> But removes the use of floats and uses 8 bits of fixed precision. </p>
 
 </div>
 </div>
@@ -522,14 +525,15 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ac11c2fd02e9e88fd2fdbecc5e2e83b8f"></a>
+<a class="anchor" id="a6782c4a498aa5217dabe373e41340f37"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void readCLT </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"> = <code>true</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -538,8 +542,8 @@ Here is the caller graph for this function:</div>
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_cgraph.png" border="0" usemap="#sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_cgraph" alt=""/></div>
-<map name="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_cgraph" id="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_cgraph">
+<div class="center"><img src="sensors_8h_a6782c4a498aa5217dabe373e41340f37_cgraph.png" border="0" usemap="#sensors_8h_a6782c4a498aa5217dabe373e41340f37_cgraph" alt=""/></div>
+<map name="sensors_8h_a6782c4a498aa5217dabe373e41340f37_cgraph" id="sensors_8h_a6782c4a498aa5217dabe373e41340f37_cgraph">
 <area shape="rect" id="node2" href="maths_8h.html#a5499f75c411ea2ee0f8080899f440526" title="fastMap1023toX" alt="" coords="125,5,243,32"/></map>
 </div>
 </p>
@@ -547,8 +551,8 @@ Here is the call graph for this function:</div>
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_icgraph.png" border="0" usemap="#sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_icgraph" alt=""/></div>
-<map name="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_icgraph" id="sensors_8h_ac11c2fd02e9e88fd2fdbecc5e2e83b8f_icgraph">
+<div class="center"><img src="sensors_8h_a6782c4a498aa5217dabe373e41340f37_icgraph.png" border="0" usemap="#sensors_8h_a6782c4a498aa5217dabe373e41340f37_icgraph" alt=""/></div>
+<map name="sensors_8h_a6782c4a498aa5217dabe373e41340f37_icgraph" id="sensors_8h_a6782c4a498aa5217dabe373e41340f37_icgraph">
 <area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="126,5,210,32"/><area shape="rect" id="node4" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="145,56,191,83"/><area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="259,5,314,32"/></map>
 </div>
 </p>
