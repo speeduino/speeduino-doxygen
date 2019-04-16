@@ -40,6 +40,7 @@ var searchData=
   ['chunkcomplete',['chunkComplete',['../comms_8h.html#a2579ec6aed1903a19a732839086d9fd7',1,'comms.h']]],
   ['chunkpending',['chunkPending',['../comms_8h.html#ab691ea6bc6e723003f66796b3cd24df9',1,'comms.h']]],
   ['chunksize',['chunkSize',['../comms_8h.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'comms.h']]],
+  ['clidletarget',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],
   ['cltadc',['cltADC',['../structstatuses.html#a8bcd9b49bd9ee12b63a4eb29ad9639d5',1,'statuses']]],
   ['cltadvancetable',['CLTAdvanceTable',['../globals_8h.html#a7f68d16676a0c9978199c12f3a13d6d9',1,'globals.h']]],
   ['cltadvbins',['cltAdvBins',['../structconfig4.html#a5e417d513ad7c579602cf759ea09cf48',1,'config4::cltAdvBins()'],['../globals_8h.html#a089ceb1ecbcf05d433d291944986437d',1,'cltAdvBins():&#160;globals.h']]],

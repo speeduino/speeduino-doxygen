@@ -56,6 +56,7 @@ var searchData=
   ['chunkpending',['chunkPending',['../comms_8h.html#ab691ea6bc6e723003f66796b3cd24df9',1,'comms.h']]],
   ['chunksize',['chunkSize',['../comms_8h.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'comms.h']]],
   ['clearerror',['clearError',['../errors_8ino.html#ac3717793f00b202a528bba324183cfbe',1,'errors.ino']]],
+  ['clidletarget',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],
   ['closed_5floop_5fboost',['CLOSED_LOOP_BOOST',['../globals_8h.html#aa8a2d06ef12d53416a4756a00b5ba742',1,'globals.h']]],
   ['closeinjector1',['closeInjector1',['../scheduled_i_o_8h.html#abe5e80affbc0f42629c03f3d65ba7514',1,'scheduledIO.h']]],
   ['closeinjector1and4',['closeInjector1and4',['../scheduled_i_o_8h.html#a38a92c20ee37f6041928ee0270da379c',1,'scheduledIO.h']]],

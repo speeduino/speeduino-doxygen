@@ -175,6 +175,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aac11d4acc049940066078367c504ff89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1517680af7abd19ace4a84a6d6c4039c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a1517680af7abd19ace4a84a6d6c4039c">idleDuty</a></td></tr>
 <tr class="separator:a1517680af7abd19ace4a84a6d6c4039c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e936fdea2bc2724dc462cf09bed38e6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6">CLIdleTarget</a></td></tr>
+<tr class="separator:a1e936fdea2bc2724dc462cf09bed38e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16ea33ccc24360848dfc2f9b5b23cbb5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a16ea33ccc24360848dfc2f9b5b23cbb5">idleUpActive</a></td></tr>
 <tr class="separator:a16ea33ccc24360848dfc2f9b5b23cbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62b76c01c564465bf631e595d4ba9fab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a62b76c01c564465bf631e595d4ba9fab">fanOn</a></td></tr>
@@ -278,6 +280,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Signed 8 bit as advance can now go negative (ATDC) </p>
 
 </div>
 </div>
@@ -338,6 +341,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of battery voltage enrichment currently being applied </p>
 
 </div>
 </div>
@@ -350,6 +354,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The current BRV in volts (multiplied by 10. Eg 12.5V = 125) </p>
 
 </div>
 </div>
@@ -389,6 +394,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1e936fdea2bc2724dc462cf09bed38e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte statuses::CLIdleTarget</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The target idle RPM (when closed loop idle control is active) </p>
+
+</div>
+</div>
 <a class="anchor" id="a8bcd9b49bd9ee12b63a4eb29ad9639d5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -410,6 +428,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The RPM at which the clutch was last depressed. Used for distinguishing between launch control and flat shift </p>
 
 </div>
 </div>
@@ -446,6 +465,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The total current corrections % amount </p>
 
 </div>
 </div>
@@ -458,6 +478,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The actual cranking RPM limit. This is derived from the value in the config page, but saves us multiplying it everytime it's used (Config page value is stored divided by 10) </p>
 
 </div>
 </div>
@@ -470,6 +491,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Current CAN channel, defaults to 0 </p>
 
 </div>
 </div>
@@ -494,6 +516,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of correction being applied to the dwell time. </p>
 
 </div>
 </div>
@@ -506,6 +529,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of closed loop AFR enrichment currently being applied </p>
 
 </div>
 </div>
@@ -554,6 +578,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ethanol reading (if enabled). 0 = No ethanol, 100 = pure ethanol. Eg E85 = 85. </p>
 
 </div>
 </div>
@@ -566,6 +591,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Whether or not the fan is turned on </p>
 
 </div>
 </div>
@@ -590,6 +616,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Amount of boost added based on flex </p>
 
 </div>
 </div>
@@ -602,6 +629,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Amount of correction being applied to compensate for ethanol content </p>
 
 </div>
 </div>
@@ -614,6 +642,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Amount of additional advance being applied based on flex. Note the type as this allows for negative values </p>
 
 </div>
 </div>
@@ -650,6 +679,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Indicator showing the current status of the fuel pump </p>
 
 </div>
 </div>
@@ -698,6 +728,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of inlet air temperature adjustment currently being applied </p>
 
 </div>
 </div>
@@ -710,6 +741,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The current idle duty cycle amount if PWM idle is selected and active </p>
 
 </div>
 </div>
@@ -722,6 +754,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Either the current steps or current duty cycle for the idle control. </p>
 
 </div>
 </div>
@@ -734,6 +767,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Whether the externally controlled idle up is currently active </p>
 
 </div>
 </div>
@@ -782,6 +816,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of correction being applied if launch control is active </p>
 
 </div>
 </div>
@@ -794,6 +829,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Indicator showing whether hard launch control adjustments are active </p>
 
 </div>
 </div>
@@ -806,6 +842,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Indicator showing whether soft launch control adjustments are active </p>
 
 </div>
 </div>
@@ -830,6 +867,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A performance indicator showing the number of main loops that are being executed each second </p>
 
 </div>
 </div>
@@ -866,6 +904,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Number of fuel and ignition channels. </p>
 
 </div>
 </div>
@@ -1070,6 +1109,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Counter of seconds since cranking commenced (overflows at 255 obviously) </p>
 
 </div>
 </div>
@@ -1082,6 +1122,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Counter incrementing once per second. Will overflow after 255 and begin again. This is used by TunerStudio to maintain comms sync </p>
 
 </div>
 </div>
@@ -1118,6 +1159,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A counter for how many revolutions have been completed since sync was achieved. </p>
 
 </div>
 </div>
@@ -1166,6 +1208,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of accleration enrichment currently being applied </p>
 
 </div>
 </div>
@@ -1178,6 +1221,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The target end time used whenever TAE is turned on </p>
 
 </div>
 </div>
@@ -1310,6 +1354,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The amount of warmup enrichment currently being applied </p>
 
 </div>
 </div>
