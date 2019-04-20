@@ -110,11 +110,17 @@ Functions</h2></td></tr>
 <tr class="separator:ab377618c27647931cad9f4d41e265686"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4424361d51ae7116eecd6412cca0bd46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46">receiveValue</a> (uint16_t <a class="el" href="comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c">valueOffset</a>, byte newValue)</td></tr>
 <tr class="separator:a4424361d51ae7116eecd6412cca0bd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e205052c562f10d8797191f21ff41e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#ad9e205052c562f10d8797191f21ff41e">sendPage</a> (bool useChar)</td></tr>
-<tr class="separator:ad9e205052c562f10d8797191f21ff41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage</a> ()</td></tr>
+<tr class="memdesc:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packs the data within the current page (As set with the 'P' command) into a buffer and sends it.  <a href="#a4f99cc48bb26e2f99ed3d4b2c1269ef7">More...</a><br/></td></tr>
+<tr class="separator:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaabc3de716acfb21773f61e5444c20c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#aaabc3de716acfb21773f61e5444c20c4">sendPageASCII</a> ()</td></tr>
+<tr class="memdesc:aaabc3de716acfb21773f61e5444c20c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it...">sendPage()</a>, however data is sent in human readable format.  <a href="#aaabc3de716acfb21773f61e5444c20c4">More...</a><br/></td></tr>
+<tr class="separator:aaabc3de716acfb21773f61e5444c20c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2">getPageValue</a> (byte page, uint16_t valueAddress)</td></tr>
+<tr class="memdesc:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a single value from a memory page, with data aligned as per the ini file.  <a href="#a125363d7447ad23d1678d1a9a6a9c0a2">More...</a><br/></td></tr>
 <tr class="separator:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9262c29790543b70f25aa2912caa45fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc">receiveCalibration</a> (byte tableID)</td></tr>
+<tr class="memdesc:a9262c29790543b70f25aa2912caa45fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory.  <a href="#a9262c29790543b70f25aa2912caa45fc">More...</a><br/></td></tr>
 <tr class="separator:a9262c29790543b70f25aa2912caa45fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d8d468253ff9ab12fe39c359f1094f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a14d8d468253ff9ab12fe39c359f1094f">sendToothLog</a> (bool useChar)</td></tr>
 <tr class="separator:a14d8d468253ff9ab12fe39c359f1094f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +150,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="comms_8ino_ab8982e36e76fb7a0600ece003e4631db_cgraph.png" border="0" usemap="#comms_8ino_ab8982e36e76fb7a0600ece003e4631db_cgraph" alt=""/></div>
 <map name="comms_8ino_ab8982e36e76fb7a0600ece003e4631db_cgraph" id="comms_8ino_ab8982e36e76fb7a0600ece003e4631db_cgraph">
-<area shape="rect" id="node2" href="comms_8ino.html#ab377618c27647931cad9f4d41e265686" title="sendValuesLegacy" alt="" coords="139,5,271,32"/><area shape="rect" id="node3" href="comms_8ino.html#a41e3c73d47beaa7a18cc978eb3e89e49" title="sendValues" alt="" coords="160,56,251,83"/><area shape="rect" id="node5" href="storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40" title="writeAllConfig" alt="" coords="154,107,257,133"/><area shape="rect" id="node7" href="storage_8h.html#a2b3daa967fcf9b48410920143dcb5219" title="writeConfig" alt="" coords="161,157,249,184"/><area shape="rect" id="node8" href="comms_8ino.html#a1f8112fe04261fb00a689fbd96afd606" title="testComm" alt="" coords="164,208,247,235"/><area shape="rect" id="node9" href="utils_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c" title="calculateCRC32" alt="" coords="146,259,265,285"/><area shape="rect" id="node11" href="comms_8ino.html#ab85f7cb98fa974ed88b4c859ea1d3f44" title="commandButtons" alt="" coords="143,309,267,336"/><area shape="rect" id="node16" href="decoders_8h.html#af8f31abd69f3747f44a6491a2a3b94dd" title="loggerPrimaryISR" alt="" coords="143,360,268,387"/><area shape="rect" id="node18" href="decoders_8h.html#a24b99eef5e31c2d80415ea0dedb705e5" title="loggerSecondaryISR" alt="" coords="134,411,277,437"/><area shape="rect" id="node19" href="comms_8ino.html#ad9e205052c562f10d8797191f21ff41e" title="sendPage" alt="" coords="165,461,245,488"/><area shape="rect" id="node20" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2" title="getPageValue" alt="" coords="154,512,257,539"/><area shape="rect" id="node21" href="comms_8ino.html#a14d8d468253ff9ab12fe39c359f1094f" title="sendToothLog" alt="" coords="153,563,257,589"/><area shape="rect" id="node22" href="comms_8ino.html#aef27fab15e75454b7849c08ae33a8706" title="sendCompositeLog" alt="" coords="138,613,273,640"/><area shape="rect" id="node23" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="receiveCalibration" alt="" coords="142,664,269,691"/><area shape="rect" id="node25" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="149,715,261,741"/><area shape="rect" id="node26" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46" title="receiveValue" alt="" coords="157,765,254,792"/><area shape="rect" id="node4" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="351,56,447,83"/><area shape="rect" id="node6" href="storage_8ino.html#a2dac7ee796d1f4a9438a1a0a3f0adc70" title="writeConfig" alt="" coords="355,107,443,133"/><area shape="rect" id="node10" href="comms_8h.html#a6e4de3f94bb4f623d4c68cf0e2d8bf2d" title="getPageValue" alt="" coords="347,157,450,184"/><area shape="rect" id="node12" href="scheduled_i_o_8h.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="341,208,456,235"/><area shape="rect" id="node13" href="scheduled_i_o_8h.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="341,259,456,285"/><area shape="rect" id="node14" href="scheduled_i_o_8h.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="341,309,456,336"/><area shape="rect" id="node15" href="scheduled_i_o_8h.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="341,360,456,387"/><area shape="rect" id="node17" href="decoders_8ino.html#aa9e6155c9870e39e1118af203a4cee9a" title="addToothLogEntry" alt="" coords="335,411,463,437"/><area shape="rect" id="node24" href="storage_8h.html#a97fbbc7754a04f5f0c4ef85f13128c1c" title="storeCalibrationValue" alt="" coords="325,664,472,691"/></map>
+<area shape="rect" id="node2" href="comms_8ino.html#ab377618c27647931cad9f4d41e265686" title="sendValuesLegacy" alt="" coords="139,5,271,32"/><area shape="rect" id="node3" href="comms_8ino.html#a41e3c73d47beaa7a18cc978eb3e89e49" title="sendValues" alt="" coords="160,56,251,83"/><area shape="rect" id="node5" href="storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40" title="writeAllConfig" alt="" coords="154,107,257,133"/><area shape="rect" id="node7" href="storage_8h.html#a2b3daa967fcf9b48410920143dcb5219" title="writeConfig" alt="" coords="161,157,249,184"/><area shape="rect" id="node8" href="comms_8ino.html#a1f8112fe04261fb00a689fbd96afd606" title="testComm" alt="" coords="164,208,247,235"/><area shape="rect" id="node9" href="utils_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c" title="calculateCRC32" alt="" coords="146,259,265,285"/><area shape="rect" id="node11" href="comms_8ino.html#ab85f7cb98fa974ed88b4c859ea1d3f44" title="commandButtons" alt="" coords="143,309,267,336"/><area shape="rect" id="node16" href="decoders_8h.html#af8f31abd69f3747f44a6491a2a3b94dd" title="loggerPrimaryISR" alt="" coords="143,360,268,387"/><area shape="rect" id="node18" href="decoders_8h.html#a24b99eef5e31c2d80415ea0dedb705e5" title="loggerSecondaryISR" alt="" coords="134,411,277,437"/><area shape="rect" id="node19" href="comms_8ino.html#aaabc3de716acfb21773f61e5444c20c4" title="Similar to sendPage(), however data is sent in human readable format. " alt="" coords="147,461,263,488"/><area shape="rect" id="node20" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2" title="Retrieves a single value from a memory page, with data aligned as per the ini file. " alt="" coords="154,512,257,539"/><area shape="rect" id="node21" href="comms_8ino.html#a14d8d468253ff9ab12fe39c359f1094f" title="sendToothLog" alt="" coords="153,563,257,589"/><area shape="rect" id="node22" href="comms_8ino.html#aef27fab15e75454b7849c08ae33a8706" title="sendCompositeLog" alt="" coords="138,613,273,640"/><area shape="rect" id="node23" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memo..." alt="" coords="142,664,269,691"/><area shape="rect" id="node25" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="149,715,261,741"/><area shape="rect" id="node26" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it..." alt="" coords="165,765,245,792"/><area shape="rect" id="node27" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46" title="receiveValue" alt="" coords="157,816,254,843"/><area shape="rect" id="node4" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="351,56,447,83"/><area shape="rect" id="node6" href="storage_8ino.html#a2dac7ee796d1f4a9438a1a0a3f0adc70" title="writeConfig" alt="" coords="355,107,443,133"/><area shape="rect" id="node10" href="comms_8h.html#a6e4de3f94bb4f623d4c68cf0e2d8bf2d" title="Retrieves a single value from a memory page, with data aligned as per the ini file. " alt="" coords="347,157,450,184"/><area shape="rect" id="node12" href="scheduled_i_o_8h.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="341,208,456,235"/><area shape="rect" id="node13" href="scheduled_i_o_8h.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="341,259,456,285"/><area shape="rect" id="node14" href="scheduled_i_o_8h.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="341,309,456,336"/><area shape="rect" id="node15" href="scheduled_i_o_8h.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="341,360,456,387"/><area shape="rect" id="node17" href="decoders_8ino.html#aa9e6155c9870e39e1118af203a4cee9a" title="addToothLogEntry" alt="" coords="335,411,463,437"/><area shape="rect" id="node24" href="storage_8h.html#a97fbbc7754a04f5f0c4ef85f13128c1c" title="storeCalibrationValue" alt="" coords="325,664,472,691"/></map>
 </div>
 </p>
 
@@ -217,6 +223,16 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Retrieves a single value from a memory page, with data aligned as per the ini file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page</td><td>The page number to retrieve data from </td></tr>
+    <tr><td class="paramname">valueAddress</td><td>The address in the page that should be returned. This is as per the page definition in the ini </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>byte The requested value </dd></dl>
+
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -241,6 +257,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tableID</td><td>Which calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -321,26 +345,55 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="ad9e205052c562f10d8797191f21ff41e"></a>
+<a class="anchor" id="a4f99cc48bb26e2f99ed3d4b2c1269ef7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void sendPage </td>
           <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>useChar</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Packs the data within the current page (As set with the 'P' command) into a buffer and sends it. </p>
+<p>Note that some translation of the data is required to lay it out in the way Megasqurit / TunerStudio expect it Data is sent in binary format, as defined by in each page in the ini </p>
+
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8ino_ad9e205052c562f10d8797191f21ff41e_icgraph.png" border="0" usemap="#comms_8ino_ad9e205052c562f10d8797191f21ff41e_icgraph" alt=""/></div>
-<map name="comms_8ino_ad9e205052c562f10d8797191f21ff41e_icgraph" id="comms_8ino_ad9e205052c562f10d8797191f21ff41e_icgraph">
+<div class="center"><img src="comms_8ino_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph.png" border="0" usemap="#comms_8ino_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph" alt=""/></div>
+<map name="comms_8ino_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph" id="comms_8ino_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph">
 <area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="134,5,213,32"/><area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="262,5,309,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aaabc3de716acfb21773f61e5444c20c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendPageASCII </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Similar to <a class="el" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it...">sendPage()</a>, however data is sent in human readable format. </p>
+<p>This is used for testing only (Not used by TunerStudio) in order to see current map and config data without the need for TunerStudio. </p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8ino_aaabc3de716acfb21773f61e5444c20c4_icgraph.png" border="0" usemap="#comms_8ino_aaabc3de716acfb21773f61e5444c20c4_icgraph" alt=""/></div>
+<map name="comms_8ino_aaabc3de716acfb21773f61e5444c20c4_icgraph" id="comms_8ino_aaabc3de716acfb21773f61e5444c20c4_icgraph">
+<area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="171,5,250,32"/><area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="299,5,346,32"/></map>
 </div>
 </p>
 
