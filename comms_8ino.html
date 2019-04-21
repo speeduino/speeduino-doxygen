@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <tr class="separator:a41e3c73d47beaa7a18cc978eb3e89e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab377618c27647931cad9f4d41e265686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#ab377618c27647931cad9f4d41e265686">sendValuesLegacy</a> ()</td></tr>
 <tr class="separator:ab377618c27647931cad9f4d41e265686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4424361d51ae7116eecd6412cca0bd46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46">receiveValue</a> (uint16_t <a class="el" href="comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c">valueOffset</a>, byte newValue)</td></tr>
+<tr class="memitem:a4424361d51ae7116eecd6412cca0bd46"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46">receiveValue</a> (uint16_t valueOffset, byte newValue)</td></tr>
 <tr class="separator:a4424361d51ae7116eecd6412cca0bd46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage</a> ()</td></tr>
 <tr class="memdesc:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packs the data within the current page (As set with the 'P' command) into a buffer and sends it.  <a href="#a4f99cc48bb26e2f99ed3d4b2c1269ef7">More...</a><br/></td></tr>
@@ -144,6 +144,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>&lt; THe memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries </p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>

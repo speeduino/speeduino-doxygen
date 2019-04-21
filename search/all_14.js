@@ -3,7 +3,6 @@ var searchData=
   ['valid_5fmap_5fmax',['VALID_MAP_MAX',['../globals_8h.html#a90a51c7015ee8de34915ea323950f98b',1,'globals.h']]],
   ['valid_5fmap_5fmin',['VALID_MAP_MIN',['../globals_8h.html#a1ac572a4a78896607b1fc34777ea9c1e',1,'globals.h']]],
   ['validtrigger',['validTrigger',['../decoders_8h.html#a24bcd396a25e0b8e7862fe388767b9c7',1,'decoders.h']]],
-  ['valueoffset',['valueOffset',['../comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c',1,'comms.h']]],
   ['values',['values',['../structtable2_d.html#a6990f08fc471cb67a0088bf5553be45c',1,'table2D::values()'],['../structtable3_d.html#a2a13d26f896806065bcb8686ca31376b',1,'table3D::values()']]],
   ['values16',['values16',['../structtable2_d.html#ae5f4bbddc273268d641ca65a3b1b5b1e',1,'table2D']]],
   ['valuesize',['valueSize',['../structtable2_d.html#a6437fa4cc10414e263c0075aa00ef2fa',1,'table2D']]],
