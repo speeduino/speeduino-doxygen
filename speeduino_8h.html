@@ -104,6 +104,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a8ba3f43b67e5536f763c0911c2de0d84"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a8ba3f43b67e5536f763c0911c2de0d84">getVE</a> ()</td></tr>
 <tr class="memdesc:a8ba3f43b67e5536f763c0911c2de0d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varies based on the fuel algorithm selected (speed density, alpha-n etc)  <a href="#a8ba3f43b67e5536f763c0911c2de0d84">More...</a><br/></td></tr>
 <tr class="separator:a8ba3f43b67e5536f763c0911c2de0d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a44883567136feaf073e8a179adc32"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a84a44883567136feaf073e8a179adc32">getVE2</a> ()</td></tr>
+<tr class="memdesc:a84a44883567136feaf073e8a179adc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up and returns the VE value from the secondary fuel table.  <a href="#a84a44883567136feaf073e8a179adc32">More...</a><br/></td></tr>
+<tr class="separator:a84a44883567136feaf073e8a179adc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c8f52de96bd5799f6c766514fd4b52e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a1c8f52de96bd5799f6c766514fd4b52e">getAdvance</a> ()</td></tr>
 <tr class="memdesc:a1c8f52de96bd5799f6c766514fd4b52e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a lookup of the ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured.  <a href="#a1c8f52de96bd5799f6c766514fd4b52e">More...</a><br/></td></tr>
 <tr class="separator:a1c8f52de96bd5799f6c766514fd4b52e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -410,6 +413,43 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="speeduino_8h_a8ba3f43b67e5536f763c0911c2de0d84_icgraph.png" border="0" usemap="#speeduino_8h_a8ba3f43b67e5536f763c0911c2de0d84_icgraph" alt=""/></div>
 <map name="speeduino_8h_a8ba3f43b67e5536f763c0911c2de0d84_icgraph" id="speeduino_8h_a8ba3f43b67e5536f763c0911c2de0d84_icgraph">
 <area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="113,5,159,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a84a44883567136feaf073e8a179adc32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte getVE2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Looks up and returns the VE value from the secondary fuel table. </p>
+<p>This performs largely the same operations as <a class="el" href="speeduino_8ino.html#a8ba3f43b67e5536f763c0911c2de0d84" title="Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varie...">getVE()</a> however the lookup is of the secondary fuel table and uses the secondary load source </p>
+<dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
+
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph.png" border="0" usemap="#speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph" alt=""/></div>
+<map name="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph" id="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph">
+<area shape="rect" id="node2" href="table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f" title="get3DTableValue" alt="" coords="120,5,243,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph.png" border="0" usemap="#speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph" alt=""/></div>
+<map name="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph" id="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="121,5,167,32"/></map>
 </div>
 </p>
 

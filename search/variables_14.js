@@ -1,10 +1,12 @@
 var searchData=
 [
   ['validtrigger',['validTrigger',['../decoders_8h.html#a24bcd396a25e0b8e7862fe388767b9c7',1,'decoders.h']]],
+  ['valueoffset',['valueOffset',['../comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c',1,'comms.h']]],
   ['values',['values',['../structtable2_d.html#a6990f08fc471cb67a0088bf5553be45c',1,'table2D::values()'],['../structtable3_d.html#a2a13d26f896806065bcb8686ca31376b',1,'table3D::values()']]],
   ['values16',['values16',['../structtable2_d.html#ae5f4bbddc273268d641ca65a3b1b5b1e',1,'table2D']]],
   ['valuesize',['valueSize',['../structtable2_d.html#a6437fa4cc10414e263c0075aa00ef2fa',1,'table2D']]],
   ['ve',['VE',['../structstatuses.html#a7b03d5829c0be6d5ea91c25cacb1d637',1,'statuses']]],
+  ['ve2',['VE2',['../structstatuses.html#a341115175b2502dd0a672663edd51703',1,'statuses']]],
   ['voltagecorrectionbins',['voltageCorrectionBins',['../structconfig6.html#a625fdb020aad0987a72a7899d242a424',1,'config6::voltageCorrectionBins()'],['../globals_8h.html#a38188c08cb22f38c347583e69c08617b',1,'voltageCorrectionBins():&#160;globals.h']]],
   ['vvt_5fpin_5fmask',['vvt_pin_mask',['../auxiliaries_8h.html#aeaed87cb39d07f025f1c4a6a1feb76fb',1,'auxiliaries.h']]],
   ['vvt_5fpin_5fport',['vvt_pin_port',['../auxiliaries_8h.html#a5299c285b7e8391410f2ebac1442fcd2',1,'auxiliaries.h']]],

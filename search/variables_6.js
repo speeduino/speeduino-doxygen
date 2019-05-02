@@ -47,6 +47,7 @@ var searchData=
   ['fuel2mode',['fuel2Mode',['../structconfig10.html#adedb4caa25cc29358bcad1d4ade4436e',1,'config10::fuel2Mode()'],['../globals_8h.html#a7fc93ed44c911fa807136607d48309b0',1,'fuel2Mode():&#160;globals.h']]],
   ['fuelalgorithm',['fuelAlgorithm',['../structconfig2.html#a1e6fb4dedc8053432ec2390291a9d820',1,'config2::fuelAlgorithm()'],['../globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379',1,'fuelAlgorithm():&#160;globals.h']]],
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
+  ['fuelload2',['fuelLoad2',['../structstatuses.html#aa5976939f0de5cb03dfd053b4145b3b8',1,'statuses']]],
   ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'speeduino.h']]],
   ['fuelpumpon',['fuelPumpOn',['../structstatuses.html#a6b992916376ec154bd56fa7f8fbd0d6f',1,'statuses']]],
   ['fuelpumppin',['fuelPumpPin',['../structconfig4.html#a0e79b037e038ebad983fdec70be766a4',1,'config4::fuelPumpPin()'],['../globals_8h.html#a853f94bf35975c4fc4592dc114c96c44',1,'fuelPumpPin():&#160;globals.h']]],
