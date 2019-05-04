@@ -122,6 +122,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa35126735ffcc878db31d94641627d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af31fc7e0d5831be31517d983bdd105c2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#af31fc7e0d5831be31517d983bdd105c2">tpsDOT</a></td></tr>
 <tr class="separator:af31fc7e0d5831be31517d983bdd105c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73aa213322d7ba1c44ef1f450ab796fe"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a73aa213322d7ba1c44ef1f450ab796fe">mapDOT</a></td></tr>
+<tr class="separator:a73aa213322d7ba1c44ef1f450ab796fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab03beec6b24b72197a78cc48828a36df"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ab03beec6b24b72197a78cc48828a36df">rpmDOT</a></td></tr>
 <tr class="separator:ab03beec6b24b72197a78cc48828a36df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b03d5829c0be6d5ea91c25cacb1d637"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a7b03d5829c0be6d5ea91c25cacb1d637">VE</a></td></tr>
@@ -910,6 +912,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a73aa213322d7ba1c44ef1f450ab796fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte statuses::mapDOT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>MAP delta over time. Measures the kpa per second that the MAP is changing. Value is divided by 10 to be stored in a byte </p>
+
+</div>
+</div>
 <a class="anchor" id="ab1de521ecc78ae591f89cac3b33bf8bd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1285,6 +1300,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The current TPS reading (0% - 100%). Is the tpsADC value after the calibration is applied </p>
 
 </div>
 </div>
@@ -1309,6 +1325,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>0-255 byte representation of the TPS. Downsampled from the original 10-bit reading, but before any calibration is applied </p>
 
 </div>
 </div>
@@ -1321,6 +1338,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>TPS delta over time. Measures the % per second that the TPS is changing. Value is divided by 10 to be stored in a byte </p>
 
 </div>
 </div>
@@ -1333,6 +1351,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The previous TPS reading </p>
 
 </div>
 </div>

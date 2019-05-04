@@ -11,6 +11,7 @@ var searchData=
   ['adcfilter_5ftps',['ADCFILTER_TPS',['../structconfig4.html#aa753f66340f0414db0d748c00a26d5a6',1,'config4::ADCFILTER_TPS()'],['../globals_8h.html#a5d7c9cd9cb6d4edc9661f142a7a86e94',1,'ADCFILTER_TPS():&#160;globals.h']]],
   ['addtoothlogentry',['addToothLogEntry',['../decoders_8h.html#a8d3595910d8656bfdda8fa5aa9fe85c5',1,'addToothLogEntry(unsigned long, bool):&#160;decoders.h'],['../decoders_8ino.html#aa9e6155c9870e39e1118af203a4cee9a',1,'addToothLogEntry(unsigned long toothTime, bool whichTooth):&#160;decoders.ino']]],
   ['advance',['advance',['../structstatuses.html#a4a50e4af8c3d7c15c08a76ec00163091',1,'statuses']]],
+  ['aetime',['aeTime',['../structconfig2.html#a9640fa96798272f168c0ecd40440634f',1,'config2::aeTime()'],['../globals_8h.html#ae7a0bc5cb688a5d4a400450851c53510',1,'aeTime():&#160;globals.h']]],
   ['afrmappage',['afrMapPage',['../comms_8h.html#a662ceae37f8f17a64d85551afb7889c0',1,'comms.h']]],
   ['afrnextcycle',['AFRnextCycle',['../corrections_8h.html#a365d04368a5e15407146629c2df4a254',1,'corrections.h']]],
   ['afrsetpage',['afrSetPage',['../comms_8h.html#aaee843271a3f806326d7b94fad9b89bd',1,'comms.h']]],

@@ -1,11 +1,15 @@
 var searchData=
 [
+  ['maebins',['maeBins',['../structconfig4.html#ab1943ffa758ab42d36b8289df7e08954',1,'config4::maeBins()'],['../globals_8h.html#ab0bfe3bc0c677712d144d62f9e0ea389',1,'maeBins():&#160;globals.h']]],
+  ['maerates',['maeRates',['../structconfig4.html#a4f820547aaea5a3c94790bcc952edc92',1,'config4::maeRates()'],['../globals_8h.html#ad80799b62b4aab966830aedd0154f25d',1,'maeRates():&#160;globals.h']]],
+  ['maethresh',['maeThresh',['../structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1',1,'config2::maeThresh()'],['../globals_8h.html#adf9f2873c203446e80edfd655a1b9f81',1,'maeThresh():&#160;globals.h']]],
   ['mainloopcount',['mainLoopCount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'globals.h']]],
   ['map',['MAP',['../structstatuses.html#adbf7841ecb42302848f968f2a1f9933e',1,'statuses']]],
   ['map_5fpage_5fsize',['MAP_PAGE_SIZE',['../globals_8h.html#a9ca152de23783b290f91253c91779c92',1,'globals.h']]],
   ['mapadc',['mapADC',['../structstatuses.html#a7e498b4fee93dece347e79296cc4cd24',1,'statuses']]],
   ['mapcount',['MAPcount',['../sensors_8h.html#a450cd4aeaf32bf15248ae63251205c3e',1,'sensors.h']]],
   ['mapcurrev',['MAPcurRev',['../sensors_8h.html#a41a6d3db258530109514a22b068118bb',1,'sensors.h']]],
+  ['mapdot',['mapDOT',['../structstatuses.html#a73aa213322d7ba1c44ef1f450ab796fe',1,'statuses']]],
   ['maperrorcount',['mapErrorCount',['../sensors_8h.html#aa32d9cc92a334afe210692f1f2c22ea7',1,'sensors.h']]],
   ['mapmax',['mapMax',['../structconfig2.html#a65310ae4d0d93337ab7abda90ce1601c',1,'config2::mapMax()'],['../globals_8h.html#aaef6a90f89d2b40ea9fcf846357ba07d',1,'mapMax():&#160;globals.h']]],
   ['mapmin',['mapMin',['../structconfig2.html#ad5219c5520d10879a0dc578263acbf45',1,'config2::mapMin()'],['../globals_8h.html#a3bcd70c457f16a66af45bb643893eed4',1,'mapMin():&#160;globals.h']]],

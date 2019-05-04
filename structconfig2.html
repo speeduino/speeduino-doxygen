@@ -115,12 +115,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:acd051e850cba23b3fbd2215af5c68e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae279de908260c527ca2160a74b0d32c3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#ae279de908260c527ca2160a74b0d32c3">tachoDuration</a></td></tr>
 <tr class="separator:ae279de908260c527ca2160a74b0d32c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55a856e3c9044d2baffe11a180c81338"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a55a856e3c9044d2baffe11a180c81338">unused2_18</a></td></tr>
-<tr class="separator:a55a856e3c9044d2baffe11a180c81338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95fdd220ad72f16cf7249aa3555459a1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1">maeThresh</a></td></tr>
+<tr class="separator:a95fdd220ad72f16cf7249aa3555459a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e09de14633f4f1cf75c67a885db7153"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a5e09de14633f4f1cf75c67a885db7153">tpsThresh</a></td></tr>
 <tr class="separator:a5e09de14633f4f1cf75c67a885db7153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9402bdf00e855375ce94db8b9eabec8c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a9402bdf00e855375ce94db8b9eabec8c">taeTime</a></td></tr>
-<tr class="separator:a9402bdf00e855375ce94db8b9eabec8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9640fa96798272f168c0ecd40440634f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a9640fa96798272f168c0ecd40440634f">aeTime</a></td></tr>
+<tr class="separator:a9640fa96798272f168c0ecd40440634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cc55a35df5fa324224feb0f8e17ccf5"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a8cc55a35df5fa324224feb0f8e17ccf5">displayType</a>: 3</td></tr>
 <tr class="separator:a8cc55a35df5fa324224feb0f8e17ccf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a421d9dddcc8ed67372d7c96481972e82"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a421d9dddcc8ed67372d7c96481972e82">display1</a>: 3</td></tr>
@@ -266,6 +266,18 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>This mostly covers off variables that are required for fuel. </p>
 <p>See the ini file for further reference </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a9640fa96798272f168c0ecd40440634f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte config2::aeTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac6e1eb8a0dc9d6c21dfbe5a7e866e33f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -854,6 +866,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a95fdd220ad72f16cf7249aa3555459a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte config2::maeThresh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The MAPdot threshold that must be exceeded before AE is engaged </p>
+
+</div>
+</div>
 <a class="anchor" id="a65310ae4d0d93337ab7abda90ce1601c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1106,18 +1131,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9402bdf00e855375ce94db8b9eabec8c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">byte config2::taeTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a0d241e1133f8c9d270eebbd57fa4e415"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1151,6 +1164,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The TPSdot threshold that must be exceeded before AE is engaged </p>
 
 </div>
 </div>
@@ -1160,18 +1174,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">byte config2::unused2_1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a55a856e3c9044d2baffe11a180c81338"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">byte config2::unused2_18</td>
         </tr>
       </table>
 </div><div class="memdoc">

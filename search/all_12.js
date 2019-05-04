@@ -26,7 +26,6 @@ var searchData=
   ['taetable',['taeTable',['../globals_8h.html#ab870130af2c18e5a63d65754518130ab',1,'globals.h']]],
   ['taetapermax',['taeTaperMax',['../structconfig2.html#ad1808d23a70a7a313c9cdc7a930944e8',1,'config2::taeTaperMax()'],['../globals_8h.html#a8130504ff75b69d2f880a836c8d1f992',1,'taeTaperMax():&#160;globals.h']]],
   ['taetapermin',['taeTaperMin',['../structconfig2.html#aa987d370a62dede6afd6fe81473dc1bb',1,'config2::taeTaperMin()'],['../globals_8h.html#a29a460a91a00318b4685fe6863cbc3a0',1,'taeTaperMin():&#160;globals.h']]],
-  ['taetime',['taeTime',['../structconfig2.html#a9402bdf00e855375ce94db8b9eabec8c',1,'config2::taeTime()'],['../globals_8h.html#a9e70789985e3460428af6289ac9971cc',1,'taeTime():&#160;globals.h']]],
   ['taevalues',['taeValues',['../structconfig4.html#a661ec7d63fb6c8696207c2f9f5f481ae',1,'config4::taeValues()'],['../globals_8h.html#a30dc81ffbac1d1abe028563e246a3bae',1,'taeValues():&#160;globals.h']]],
   ['targetgap',['targetGap',['../decoders_8h.html#a581f2bcc9bef8295750b0da5e024b572',1,'decoders.h']]],
   ['targetgap2',['targetGap2',['../decoders_8h.html#ac1d19fb1ad4f6a7772547c99a869be10',1,'decoders.h']]],
