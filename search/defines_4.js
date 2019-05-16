@@ -76,7 +76,6 @@ var searchData=
   ['eeprom_5fpage_5fcrc32',['EEPROM_PAGE_CRC32',['../storage_8h.html#a30f2c441fcd6eee70204fa7cf8e30ffb',1,'storage.h']]],
   ['ego_5falgorithm_5fpid',['EGO_ALGORITHM_PID',['../globals_8h.html#a1894295a43156838e22f5ff303f03ad2',1,'globals.h']]],
   ['ego_5falgorithm_5fsimple',['EGO_ALGORITHM_SIMPLE',['../globals_8h.html#ab40c96eec03cf7b4c580be94c3fdf321',1,'globals.h']]],
-  ['enginesquirtspercycle',['engineSquirtsPerCycle',['../globals_8h.html#a2d4498cf3af6768a9090806d0e7a3729',1,'globals.h']]],
   ['err_5fbat_5fhigh',['ERR_BAT_HIGH',['../errors_8h.html#a09fefe71794296201cc39825c4d16854',1,'errors.h']]],
   ['err_5fbat_5flow',['ERR_BAT_LOW',['../errors_8h.html#a315ba1df931fdce654efb51c967e9f7a',1,'errors.h']]],
   ['err_5fclt_5fgnd',['ERR_CLT_GND',['../errors_8h.html#ad5dcc096ba611fa02424a8618f53e8e3',1,'errors.h']]],
