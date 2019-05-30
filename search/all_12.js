@@ -22,8 +22,6 @@ var searchData=
   ['tachopin',['tachoPin',['../structconfig2.html#a2120109a567d615ca6a2ae8bb0b476d3',1,'config2::tachoPin()'],['../globals_8h.html#a6f1a54b40ea34e7fdaab7da6d7f9f08e',1,'tachoPin():&#160;globals.h']]],
   ['taebins',['taeBins',['../structconfig4.html#a15b9f44d912bcebc4aa483adc69563d8',1,'config4::taeBins()'],['../globals_8h.html#aeb5c13b66bb509daefbe7833a95f5f69',1,'taeBins():&#160;globals.h']]],
   ['taetable',['taeTable',['../globals_8h.html#ab870130af2c18e5a63d65754518130ab',1,'globals.h']]],
-  ['taetapermax',['taeTaperMax',['../structconfig2.html#ad1808d23a70a7a313c9cdc7a930944e8',1,'config2::taeTaperMax()'],['../globals_8h.html#a8130504ff75b69d2f880a836c8d1f992',1,'taeTaperMax():&#160;globals.h']]],
-  ['taetapermin',['taeTaperMin',['../structconfig2.html#aa987d370a62dede6afd6fe81473dc1bb',1,'config2::taeTaperMin()'],['../globals_8h.html#a29a460a91a00318b4685fe6863cbc3a0',1,'taeTaperMin():&#160;globals.h']]],
   ['taethresh',['taeThresh',['../structconfig2.html#ab596e26210d1d50227766ac649865bf1',1,'config2::taeThresh()'],['../globals_8h.html#aa15420f774e818c08e0c94d8d981304e',1,'taeThresh():&#160;globals.h']]],
   ['taevalues',['taeValues',['../structconfig4.html#a661ec7d63fb6c8696207c2f9f5f481ae',1,'config4::taeValues()'],['../globals_8h.html#a30dc81ffbac1d1abe028563e246a3bae',1,'taeValues():&#160;globals.h']]],
   ['targetgap',['targetGap',['../decoders_8h.html#a581f2bcc9bef8295750b0da5e024b572',1,'decoders.h']]],

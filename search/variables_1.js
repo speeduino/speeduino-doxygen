@@ -11,6 +11,8 @@ var searchData=
   ['aeamount',['AEamount',['../structstatuses.html#a26f2fc99da74d0cb13d23e756f7083a6',1,'statuses']]],
   ['aeendtime',['AEEndTime',['../structstatuses.html#a2ce210f7cab43d6ad75e621dff17c7e8',1,'statuses']]],
   ['aemode',['aeMode',['../structconfig2.html#aeacf4447fe9215fdc52bc970a12e4c21',1,'config2::aeMode()'],['../globals_8h.html#a23217fd739a1c2a171395c33cb8b1f66',1,'aeMode():&#160;globals.h']]],
+  ['aetapermax',['aeTaperMax',['../structconfig2.html#ae0d994b2d37ca1afbf4c082f87f7b2dd',1,'config2::aeTaperMax()'],['../globals_8h.html#a67402ab7f3faa67f1985886e6f05f347',1,'aeTaperMax():&#160;globals.h']]],
+  ['aetapermin',['aeTaperMin',['../structconfig2.html#a3983cad7243c64656830ac1673110143',1,'config2::aeTaperMin()'],['../globals_8h.html#a9711f393a19c16035a85076e2e0377c9',1,'aeTaperMin():&#160;globals.h']]],
   ['aetime',['aeTime',['../structconfig2.html#a9640fa96798272f168c0ecd40440634f',1,'config2::aeTime()'],['../globals_8h.html#ae7a0bc5cb688a5d4a400450851c53510',1,'aeTime():&#160;globals.h']]],
   ['afrnextcycle',['AFRnextCycle',['../corrections_8h.html#a365d04368a5e15407146629c2df4a254',1,'corrections.h']]],
   ['afrtable',['afrTable',['../globals_8h.html#abbf760ecc3f7b10ca580fb0e986a60be',1,'globals.h']]],
