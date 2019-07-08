@@ -1,7 +1,6 @@
 var searchData=
 [
   ['disableidle',['disableIdle',['../idle_8h.html#a973320d318312cf550fd8fbf1c797bbe',1,'disableIdle():&#160;idle.h'],['../idle_8ino.html#a973320d318312cf550fd8fbf1c797bbe',1,'disableIdle():&#160;idle.ino']]],
-  ['divs10',['divs10',['../maths_8ino.html#a64ef029c36aea6aac7f2ed70be573850',1,'maths.ino']]],
   ['divs100',['divs100',['../maths_8h.html#a4bd8487f8c37e43331d827f7235fb1eb',1,'divs100(long):&#160;maths.ino'],['../maths_8ino.html#a3cbc021492e2aea19330a97a20dbafa9',1,'divs100(long n):&#160;maths.ino']]],
   ['divu10',['divu10',['../maths_8ino.html#a14cd442deafa15661a264ec968edad00',1,'maths.ino']]],
   ['divu100',['divu100',['../maths_8h.html#a451ae7b9eed033e117a46ccd83983a87',1,'divu100(unsigned long):&#160;maths.ino'],['../maths_8ino.html#a2c8e3d63c9bb479c0f7dc176514030e9',1,'divu100(unsigned long n):&#160;maths.ino']]],

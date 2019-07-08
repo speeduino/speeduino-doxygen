@@ -116,13 +116,13 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(a, b)&#160;&#160;&#160;((a) |= (1&lt;&lt;(b)))</td></tr>
+<tr class="memitem:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(a, b)&#160;&#160;&#160;((a) |= (1U&lt;&lt;(b)))</td></tr>
 <tr class="separator:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(a, b)&#160;&#160;&#160;((a) &amp;= ~(1&lt;&lt;(b)))</td></tr>
+<tr class="memitem:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(a, b)&#160;&#160;&#160;((a) &amp;= ~(1U&lt;&lt;(b)))</td></tr>
 <tr class="separator:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76fdd8cbc1fedd623886785637bc334d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(var, pos)&#160;&#160;&#160;!!((var) &amp; (1&lt;&lt;(pos)))</td></tr>
+<tr class="memitem:a76fdd8cbc1fedd623886785637bc334d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(var, pos)&#160;&#160;&#160;!!((var) &amp; (1U&lt;&lt;(pos)))</td></tr>
 <tr class="separator:a76fdd8cbc1fedd623886785637bc334d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(c)&#160;&#160;&#160;noInterrupts(); c interrupts();</td></tr>
+<tr class="memitem:a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(c)&#160;&#160;&#160;(noInterrupts(); {c} interrupts();)</td></tr>
 <tr class="separator:a862109559b900adee5fc54a117a98766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1bdc2263b1a4272baa3897ea6eba85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3a1bdc2263b1a4272baa3897ea6eba85">MS_IN_MINUTE</a>&#160;&#160;&#160;60000</td></tr>
 <tr class="separator:a3a1bdc2263b1a4272baa3897ea6eba85"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -856,6 +856,8 @@ Variables</h2></td></tr>
 <tr class="separator:ab0bfe3bc0c677712d144d62f9e0ea389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80799b62b4aab966830aedd0154f25d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad80799b62b4aab966830aedd0154f25d">maeRates</a> [4]</td></tr>
 <tr class="separator:ad80799b62b4aab966830aedd0154f25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1aec5f64891feaa32805d1032b325ac"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad1aec5f64891feaa32805d1032b325ac">batVoltCorrect</a></td></tr>
+<tr class="separator:ad1aec5f64891feaa32805d1032b325ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed48016f5e5a4aa382b8f72675ff5e4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0ed48016f5e5a4aa382b8f72675ff5e4">egoAlgorithm</a></td></tr>
 <tr class="separator:a0ed48016f5e5a4aa382b8f72675ff5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307b1c51e811a29b150c20a2fa12b105"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a307b1c51e811a29b150c20a2fa12b105">egoType</a></td></tr>
@@ -1445,7 +1447,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;!!((var) &amp; (1&lt;&lt;(pos)))</td>
+          <td></td><td>&#160;&#160;&#160;!!((var) &amp; (1U&lt;&lt;(pos)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1471,7 +1473,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) &amp;= ~(1&lt;&lt;(b)))</td>
+          <td></td><td>&#160;&#160;&#160;((a) &amp;= ~(1U&lt;&lt;(b)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1593,7 +1595,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) |= (1&lt;&lt;(b)))</td>
+          <td></td><td>&#160;&#160;&#160;((a) |= (1U&lt;&lt;(b)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2419,7 +2421,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">c</td><td>)</td>
-          <td>&#160;&#160;&#160;noInterrupts(); c interrupts();</td>
+          <td>&#160;&#160;&#160;(noInterrupts(); {c} interrupts();)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3186,6 +3188,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad1aec5f64891feaa32805d1032b325ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int8_t batVoltCorrect</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Battery voltage calibration offset </p>
 
 </div>
 </div>

@@ -108,9 +108,9 @@ Macros</h2></td></tr>
 <tr class="separator:a6de8020b8ba79cc9175db141a52f44d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
 <tr class="separator:a60ecc58cbe7e51c63d83631692059bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)time * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
+<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
 <tr class="separator:a0c9780afacb74596f5c270694b3b9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)angle) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? (angle - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( (angle &lt; 0) ? (angle + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : angle) )</td></tr>
+<tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td></tr>
 <tr class="separator:ac783172fb35e2a758ba17f7cabda528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -223,7 +223,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">time</td><td>)</td>
-          <td>&#160;&#160;&#160;(((unsigned long)time * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
+          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -239,7 +239,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">angle</td><td>)</td>
-          <td>&#160;&#160;&#160;( (((int16_t)angle) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? (angle - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( (angle &lt; 0) ? (angle + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : angle) )</td>
+          <td>&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td>
         </tr>
       </table>
 </div><div class="memdoc">

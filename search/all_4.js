@@ -28,7 +28,6 @@ var searchData=
   ['displaytype',['displayType',['../structconfig2.html#a8cc55a35df5fa324224feb0f8e17ccf5',1,'config2::displayType()'],['../globals_8h.html#a7d32cd320ff30049d34ed9f865c605e9',1,'displayType():&#160;globals.h']]],
   ['div_5fround_5fclosest',['DIV_ROUND_CLOSEST',['../maths_8h.html#a57fc13eb777500b3e22d3ff457cfd0d7',1,'maths.h']]],
   ['divider',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2::divider()'],['../globals_8h.html#a0506a5905c5a24856d968577f8d10491',1,'divider():&#160;globals.h']]],
-  ['divs10',['divs10',['../maths_8ino.html#a64ef029c36aea6aac7f2ed70be573850',1,'maths.ino']]],
   ['divs100',['divs100',['../maths_8h.html#a4bd8487f8c37e43331d827f7235fb1eb',1,'divs100(long):&#160;maths.ino'],['../maths_8ino.html#a3cbc021492e2aea19330a97a20dbafa9',1,'divs100(long n):&#160;maths.ino']]],
   ['divu10',['divu10',['../maths_8ino.html#a14cd442deafa15661a264ec968edad00',1,'maths.ino']]],
   ['divu100',['divu100',['../maths_8h.html#a451ae7b9eed033e117a46ccd83983a87',1,'divu100(unsigned long):&#160;maths.ino'],['../maths_8ino.html#a2c8e3d63c9bb479c0f7dc176514030e9',1,'divu100(unsigned long n):&#160;maths.ino']]],

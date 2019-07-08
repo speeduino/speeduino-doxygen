@@ -9,6 +9,7 @@ var searchData=
   ['batadc',['batADC',['../structstatuses.html#a7d8a66c38c70bdfe8013a8f859ab7adc',1,'statuses']]],
   ['batcorrection',['batCorrection',['../structstatuses.html#a4951c58340caddad83e473cb274208d8',1,'statuses']]],
   ['battery10',['battery10',['../structstatuses.html#a8d7eae01c5f8284f889bf4c246a259da',1,'statuses']]],
+  ['batvoltcorrect',['batVoltCorrect',['../structconfig4.html#abe34979ab0005b0dc0495f309a0338fc',1,'config4::batVoltCorrect()'],['../globals_8h.html#ad1aec5f64891feaa32805d1032b325ac',1,'batVoltCorrect():&#160;globals.h']]],
   ['boost_5fcl_5ftarget_5fboost',['boost_cl_target_boost',['../auxiliaries_8h.html#ad526633fccbd3def9d1c5b02cad2dcaf',1,'auxiliaries.h']]],
   ['boost_5fpin_5fmask',['boost_pin_mask',['../auxiliaries_8h.html#a62d9c25555ffd27b936bac2891a079cd',1,'auxiliaries.h']]],
   ['boost_5fpin_5fport',['boost_pin_port',['../auxiliaries_8h.html#ad47f76516a0fb0249bae4e1c8ff76678',1,'auxiliaries.h']]],

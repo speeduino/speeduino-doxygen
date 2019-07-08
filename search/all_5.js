@@ -117,7 +117,7 @@ var searchData=
   ['endschedulesetbydecoder',['endScheduleSetByDecoder',['../struct_schedule.html#a375419294f1950c106c86a30add0892d',1,'Schedule']]],
   ['endtrailingcoilcharge1',['endTrailingCoilCharge1',['../scheduled_i_o_8h.html#a5203efc81b88e8a0a192871f3d7f0f32',1,'endTrailingCoilCharge1():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a5203efc81b88e8a0a192871f3d7f0f32',1,'endTrailingCoilCharge1():&#160;scheduledIO.ino']]],
   ['endtrailingcoilcharge2',['endTrailingCoilCharge2',['../scheduled_i_o_8h.html#af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5',1,'endTrailingCoilCharge2():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5',1,'endTrailingCoilCharge2():&#160;scheduledIO.ino']]],
-  ['engine',['engine',['../structstatuses.html#ae50e9e51ed2ae836563352666065cb0b',1,'statuses']]],
+  ['engine',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],
   ['err_5fbat_5fhigh',['ERR_BAT_HIGH',['../errors_8h.html#a09fefe71794296201cc39825c4d16854',1,'errors.h']]],
   ['err_5fbat_5flow',['ERR_BAT_LOW',['../errors_8h.html#a315ba1df931fdce654efb51c967e9f7a',1,'errors.h']]],

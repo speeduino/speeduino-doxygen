@@ -11,6 +11,7 @@ var searchData=
   ['batadc',['batADC',['../structstatuses.html#a7d8a66c38c70bdfe8013a8f859ab7adc',1,'statuses']]],
   ['batcorrection',['batCorrection',['../structstatuses.html#a4951c58340caddad83e473cb274208d8',1,'statuses']]],
   ['battery10',['battery10',['../structstatuses.html#a8d7eae01c5f8284f889bf4c246a259da',1,'statuses']]],
+  ['batvoltcorrect',['batVoltCorrect',['../structconfig4.html#abe34979ab0005b0dc0495f309a0338fc',1,'config4::batVoltCorrect()'],['../globals_8h.html#ad1aec5f64891feaa32805d1032b325ac',1,'batVoltCorrect():&#160;globals.h']]],
   ['begincoil1and3charge',['beginCoil1and3Charge',['../scheduled_i_o_8h.html#a6fba542e23d95898722be7a7591d8eae',1,'beginCoil1and3Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a6fba542e23d95898722be7a7591d8eae',1,'beginCoil1and3Charge():&#160;scheduledIO.ino']]],
   ['begincoil1charge',['beginCoil1Charge',['../scheduled_i_o_8h.html#acf25f256ada83e0792477503d2da9a35',1,'beginCoil1Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35',1,'beginCoil1Charge():&#160;scheduledIO.ino']]],
   ['begincoil2and4charge',['beginCoil2and4Charge',['../scheduled_i_o_8h.html#a8c4dcb8a1c70181dde711c617360bb38',1,'beginCoil2and4Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a8c4dcb8a1c70181dde711c617360bb38',1,'beginCoil2and4Charge():&#160;scheduledIO.ino']]],
