@@ -21,7 +21,7 @@ var searchData=
   ['sendcompositelog',['sendCompositeLog',['../comms_8ino.html#aef27fab15e75454b7849c08ae33a8706',1,'comms.ino']]],
   ['sendpage',['sendPage',['../comms_8h.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7',1,'sendPage():&#160;comms.ino'],['../comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7',1,'sendPage():&#160;comms.ino']]],
   ['sendpageascii',['sendPageASCII',['../comms_8h.html#aaabc3de716acfb21773f61e5444c20c4',1,'sendPageASCII():&#160;comms.ino'],['../comms_8ino.html#aaabc3de716acfb21773f61e5444c20c4',1,'sendPageASCII():&#160;comms.ino']]],
-  ['sendtoothlog',['sendToothLog',['../comms_8h.html#a486857df8eafd7dd6d5bff1f2544b85b',1,'sendToothLog(bool):&#160;comms.ino'],['../comms_8ino.html#a14d8d468253ff9ab12fe39c359f1094f',1,'sendToothLog(bool useChar):&#160;comms.ino']]],
+  ['sendtoothlog',['sendToothLog',['../comms_8h.html#aaedae9c5ef655f86833b68e4b8c0924a',1,'sendToothLog():&#160;comms.ino'],['../comms_8ino.html#aaedae9c5ef655f86833b68e4b8c0924a',1,'sendToothLog():&#160;comms.ino']]],
   ['sendvalues',['sendValues',['../comms_8h.html#a0b2320d5e589080075b8372402bf9483',1,'sendValues(uint16_t, uint16_t, byte, byte):&#160;comms.ino'],['../comms_8ino.html#a41e3c73d47beaa7a18cc978eb3e89e49',1,'sendValues(uint16_t offset, uint16_t packetLength, byte cmd, byte portNum):&#160;comms.ino']]],
   ['sendvalueslegacy',['sendValuesLegacy',['../comms_8h.html#ab377618c27647931cad9f4d41e265686',1,'sendValuesLegacy():&#160;comms.ino'],['../comms_8ino.html#ab377618c27647931cad9f4d41e265686',1,'sendValuesLegacy():&#160;comms.ino']]],
   ['sensors_2eh',['sensors.h',['../sensors_8h.html',1,'']]],
