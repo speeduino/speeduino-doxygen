@@ -19,6 +19,7 @@ var searchData=
   ['launchingsoft',['launchingSoft',['../structstatuses.html#a0fce485c6edfe1e8261d85097888dc97',1,'statuses']]],
   ['launchpin',['launchPin',['../structconfig6.html#a93c772c234cd01381f3f78f0fc7679d7',1,'config6::launchPin()'],['../globals_8h.html#a2bc8d58eb691a687bcbfba5aa539a755',1,'launchPin():&#160;globals.h']]],
   ['lbuffer',['Lbuffer',['../cancomms_8h.html#ab423d0e0645e36c155e9063c388f3202',1,'cancomms.h']]],
+  ['legacymap',['legacyMAP',['../structconfig2.html#a766445aaa1318f3732ffe2232a7c8ef2',1,'config2::legacyMAP()'],['../globals_8h.html#a9c4fbd687444a24d1c61a3ba2a7ca4fb',1,'legacyMAP():&#160;globals.h']]],
   ['lessairdirection',['lessAirDirection',['../struct_stepper_idle.html#ae625045c826c34c6c0ac6dc52d12ca47',1,'StepperIdle']]],
   ['lnchctrltps',['lnchCtrlTPS',['../structconfig10.html#a7edb2f1c8927b87660b3ca711d6edd0f',1,'config10::lnchCtrlTPS()'],['../globals_8h.html#a9edf214a954bca5a601fe221c34d7952',1,'lnchCtrlTPS():&#160;globals.h']]],
   ['lnchfueladd',['lnchFuelAdd',['../structconfig6.html#a97caffa839d421ffe6ef0fda54daa76b',1,'config6::lnchFuelAdd()'],['../globals_8h.html#af1c5bcd6637528feec88b5e6d61f8715',1,'lnchFuelAdd():&#160;globals.h']]],
