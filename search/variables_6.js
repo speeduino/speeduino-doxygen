@@ -45,6 +45,8 @@ var searchData=
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
   ['fuel2algorithm',['fuel2Algorithm',['../structconfig10.html#a5155c9f92e88f41758ff6a4568f4b6df',1,'config10::fuel2Algorithm()'],['../globals_8h.html#a13c134ebbc8687a426ea1f86fee5f3df',1,'fuel2Algorithm():&#160;globals.h']]],
   ['fuel2mode',['fuel2Mode',['../structconfig10.html#adedb4caa25cc29358bcad1d4ade4436e',1,'config10::fuel2Mode()'],['../globals_8h.html#a7fc93ed44c911fa807136607d48309b0',1,'fuel2Mode():&#160;globals.h']]],
+  ['fuel2switchvalue',['fuel2SwitchValue',['../structconfig10.html#a3c68de65d17b17a2163f56ba9b9aaadd',1,'config10::fuel2SwitchValue()'],['../globals_8h.html#af6768a7a5d614451e1775da11f342b56',1,'fuel2SwitchValue():&#160;globals.h']]],
+  ['fuel2switchvariable',['fuel2SwitchVariable',['../structconfig10.html#a93c281f6ab21f4e4886622aa148bd497',1,'config10::fuel2SwitchVariable()'],['../globals_8h.html#aa4be96057bc921d6de40aad7f5d90076',1,'fuel2SwitchVariable():&#160;globals.h']]],
   ['fuelalgorithm',['fuelAlgorithm',['../structconfig2.html#a1e6fb4dedc8053432ec2390291a9d820',1,'config2::fuelAlgorithm()'],['../globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379',1,'fuelAlgorithm():&#160;globals.h']]],
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
   ['fuelload2',['fuelLoad2',['../structstatuses.html#aa5976939f0de5cb03dfd053b4145b3b8',1,'statuses']]],

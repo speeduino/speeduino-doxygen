@@ -8,6 +8,7 @@ var searchData=
   ['lastoutput',['lastOutput',['../structtable2_d.html#a659c4aeaa64a39a01f1ab05c7082bdd7',1,'table2D']]],
   ['lastrpm_5f100ms',['lastRPM_100ms',['../timers_8h.html#a62308a8f5625eee6429f4ffd7198071c',1,'timers.h']]],
   ['lasttoothcalcadvance',['lastToothCalcAdvance',['../decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb',1,'decoders.h']]],
+  ['lastvvttime',['lastVVTtime',['../decoders_8h.html#a51f002cf3dcff77083db11e4a6e49ac1',1,'decoders.h']]],
   ['lastxmax',['lastXMax',['../structtable2_d.html#a29892cbd63d5bec3b17f43b62c8cb64d',1,'table2D::lastXMax()'],['../structtable3_d.html#a0ccc7ac5dca138fb0f39cce32cf0b722',1,'table3D::lastXMax()']]],
   ['lastxmin',['lastXMin',['../structtable2_d.html#a3f9b2c61a2b3697695ef3b2ee39c980f',1,'table2D::lastXMin()'],['../structtable3_d.html#af9fac7d93ba3d8adf283f3b44fe8ab6a',1,'table3D::lastXMin()']]],
   ['lastymax',['lastYMax',['../structtable3_d.html#af6bae3d26a3034ad8762a41945c24605',1,'table3D']]],
