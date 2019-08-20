@@ -20,6 +20,7 @@ var searchData=
   ['pinemap',['pinEMAP',['../globals_8h.html#a7bacaa82514f053011654edc29d28bcf',1,'globals.h']]],
   ['pinfan',['pinFan',['../globals_8h.html#a22d616037351905f8c0ee8d9cdac172b',1,'globals.h']]],
   ['pinflex',['pinFlex',['../globals_8h.html#a881676bf3546a0b2d7bec83e8d50d45b',1,'globals.h']]],
+  ['pinfuel2input',['pinFuel2Input',['../globals_8h.html#ae0f214a3add5f78020cdbab65c26fa81',1,'globals.h']]],
   ['pinfuelpump',['pinFuelPump',['../globals_8h.html#a12049f71fe7d040de459811b9682b23f',1,'globals.h']]],
   ['piniat',['pinIAT',['../globals_8h.html#a8aad45e9d20a38a3a6c0ede5c1deb671',1,'globals.h']]],
   ['pinidle1',['pinIdle1',['../globals_8h.html#aa3344d2dbdbdf7ec37da1e36d28b71a3',1,'globals.h']]],

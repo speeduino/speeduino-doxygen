@@ -27,7 +27,6 @@ var searchData=
   ['targetgap',['targetGap',['../decoders_8h.html#a581f2bcc9bef8295750b0da5e024b572',1,'decoders.h']]],
   ['targetgap2',['targetGap2',['../decoders_8h.html#ac1d19fb1ad4f6a7772547c99a869be10',1,'decoders.h']]],
   ['targetidlestep',['targetIdleStep',['../struct_stepper_idle.html#a0c9435ef965954e6b2af9ea17a088932',1,'StepperIdle']]],
-  ['targetvvtangle',['targetVVTAngle',['../structstatuses.html#ab85e524f00f44c579ed5949c6b8119f3',1,'statuses']]],
   ['testactive',['testActive',['../structstatuses.html#a256bd5d4b8e6608bd4b66d61d5588516',1,'statuses']]],
   ['testcomm',['testComm',['../comms_8h.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.ino'],['../comms_8ino.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.ino']]],
   ['testoutputs',['testOutputs',['../structstatuses.html#a0bc844869d887815ce0cca0ddd1bf846',1,'statuses']]],
