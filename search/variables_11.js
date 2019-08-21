@@ -23,7 +23,7 @@ var searchData=
   ['stagingmode',['stagingMode',['../structconfig10.html#ae024405c609f67068e0af6953a751e2a',1,'config10::stagingMode()'],['../globals_8h.html#ae0ae412e006ef54dbda81fd47e45eee2',1,'stagingMode():&#160;globals.h']]],
   ['stagingtable',['stagingTable',['../globals_8h.html#a2ded3ff6e7c762f6ca22949679aaf629',1,'globals.h']]],
   ['startcallback',['StartCallback',['../struct_schedule.html#ae4e0d298ceb206b31a964e58f526fd5e',1,'Schedule']]],
-  ['startcompare',['startCompare',['../struct_schedule.html#ab0a31c7f926be6c73b8f76b9957acdf6',1,'Schedule']]],
+  ['startcompare',['startCompare',['../struct_schedule.html#a4712d480ffbe9a36382078ec85a69a57',1,'Schedule']]],
   ['startrevolutions',['startRevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses']]],
   ['starttime',['startTime',['../struct_schedule.html#a301080ad6376b86ec1af438d101fae50',1,'Schedule']]],
   ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule']]],
