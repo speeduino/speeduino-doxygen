@@ -39,6 +39,6 @@ var searchData=
   ['getrpm_5fnon360',['getRPM_non360',['../decoders_8h.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino'],['../decoders_8ino.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino']]],
   ['getrpm_5fsubaru67',['getRPM_Subaru67',['../decoders_8h.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino']]],
   ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'decoders.h']]],
-  ['getve',['getVE',['../speeduino_8h.html#a8ba3f43b67e5536f763c0911c2de0d84',1,'getVE():&#160;speeduino.ino'],['../speeduino_8ino.html#a8ba3f43b67e5536f763c0911c2de0d84',1,'getVE():&#160;speeduino.ino']]],
+  ['getve1',['getVE1',['../speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino'],['../speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino']]],
   ['getve2',['getVE2',['../speeduino_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino'],['../speeduino_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino']]]
 ];
