@@ -2,7 +2,7 @@ var searchData=
 [
   ['idlecontrol',['idleControl',['../auxiliaries_8h.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino'],['../idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino']]],
   ['idleinterrupt',['idleInterrupt',['../idle_8h.html#ab1a252aeac5e63dfcc7b0ec9119d5cbd',1,'idleInterrupt():&#160;idle.h'],['../idle_8ino.html#ab1a252aeac5e63dfcc7b0ec9119d5cbd',1,'idleInterrupt():&#160;idle.ino']]],
-  ['if',['if',['../speeduino_8ino.html#a7fa8276399c0c9d553bd2f9773982371',1,'speeduino.ino']]],
+  ['if',['if',['../speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1',1,'speeduino.ino']]],
   ['initialiseadc',['initialiseADC',['../sensors_8h.html#a73c5e9627f05d5ad6eac06b8dc05a02b',1,'initialiseADC():&#160;sensors.ino'],['../sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b',1,'initialiseADC():&#160;sensors.ino']]],
   ['initialiseall',['initialiseAll',['../init_8h.html#a566feb76074886ed4a5416301db3d193',1,'initialiseAll():&#160;init.ino'],['../init_8ino.html#a566feb76074886ed4a5416301db3d193',1,'initialiseAll():&#160;init.ino']]],
   ['initialiseauxpwm',['initialiseAuxPWM',['../auxiliaries_8h.html#a058a74aeacf1d90199b5022c2e0006e6',1,'initialiseAuxPWM():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a058a74aeacf1d90199b5022c2e0006e6',1,'initialiseAuxPWM():&#160;auxiliaries.ino']]],
