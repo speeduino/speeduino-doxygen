@@ -34,6 +34,7 @@ var searchData=
   ['ncanretry',['nCanretry',['../cancomms_8h.html#a24f4e3822387d533928f93a05c6282ec',1,'cancomms.h']]],
   ['nchannels',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
   ['ncylinders',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2::nCylinders()'],['../globals_8h.html#a3d5070d2a24970525726a142976cb599',1,'nCylinders():&#160;globals.h']]],
+  ['new_5fcan_5fpacket_5fsize',['NEW_CAN_PACKET_SIZE',['../cancomms_8h.html#a938ff26019a31d5d003e577a8683086c',1,'cancomms.h']]],
   ['nextendcompare',['nextEndCompare',['../struct_schedule.html#a84e1bd77eff3eb8cbb326ec442532f9a',1,'Schedule']]],
   ['nextstartcompare',['nextStartCompare',['../struct_schedule.html#afc49c35cf19d403d48fa4c23ae1f6365',1,'Schedule']]],
   ['ninjectors',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2::nInjectors()'],['../globals_8h.html#afff89f62b918d71810ba4580e5a3bdec',1,'nInjectors():&#160;globals.h']]],
