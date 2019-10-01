@@ -20,6 +20,7 @@ var searchData=
   ['iaccranksteps',['iacCrankSteps',['../structconfig6.html#a353125ecd4d3a2fd8250490acc5cf75a',1,'config6::iacCrankSteps()'],['../globals_8h.html#a340f7d5512e185c636dc70ff04f6a857',1,'iacCrankSteps():&#160;globals.h']]],
   ['iaccrankstepstable',['iacCrankStepsTable',['../idle_8h.html#a24ff08b97a38fc4a7496db9c96e96644',1,'idle.h']]],
   ['iacfasttemp',['iacFastTemp',['../structconfig6.html#a53fa4637743e519f8599df78582f382e',1,'config6::iacFastTemp()'],['../globals_8h.html#ad9a99a29971b8ca074e839c6815c8029',1,'iacFastTemp():&#160;globals.h']]],
+  ['iacmaxsteps',['iacMaxSteps',['../structconfig9.html#aee31d2b8f7ba5672f9bc2dc7e6ac0137',1,'config9::iacMaxSteps()'],['../globals_8h.html#a8372c8a185aeed6ebed74d5092830d8c',1,'iacMaxSteps():&#160;globals.h']]],
   ['iacolpwmval',['iacOLPWMVal',['../structconfig6.html#aa1899d527ae3f3d913cb0422292a5570',1,'config6::iacOLPWMVal()'],['../globals_8h.html#ab33ed5a8fbb3801e62414adb513719a1',1,'iacOLPWMVal():&#160;globals.h']]],
   ['iacolstepval',['iacOLStepVal',['../structconfig6.html#a7e1b4ced6e5c086292976d3a611c5326',1,'config6::iacOLStepVal()'],['../globals_8h.html#ae4f923e61a04f0ff8b783468b13273bb',1,'iacOLStepVal():&#160;globals.h']]],
   ['iacpwmdir',['iacPWMdir',['../structconfig6.html#a9da98fc1613acb00b9c0d12ff8bd21ca',1,'config6::iacPWMdir()'],['../globals_8h.html#a0e6b41aee793ed68831773b2da092624',1,'iacPWMdir():&#160;globals.h']]],
