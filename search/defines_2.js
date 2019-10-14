@@ -30,6 +30,7 @@ var searchData=
   ['composite_5flog_5fsec',['COMPOSITE_LOG_SEC',['../globals_8h.html#a431e2ee5e86cfcaced30910a12bce755',1,'globals.h']]],
   ['composite_5flog_5fsync',['COMPOSITE_LOG_SYNC',['../globals_8h.html#a9ed43d5dc0d5eb6458783c08fd15343a',1,'globals.h']]],
   ['composite_5flog_5ftrig',['COMPOSITE_LOG_TRIG',['../globals_8h.html#a2f22363e59728610f22daa7e24916d17',1,'globals.h']]],
+  ['concats',['CONCATS',['../utils_8h.html#a488cbcbe0030859394b41c0cb1617f47',1,'utils.h']]],
   ['crank_5fspeed',['CRANK_SPEED',['../decoders_8h.html#ad65f66535246db8717c9d10fba32a7c0',1,'decoders.h']]],
   ['crankmath_5fmethod_5f2nd_5fderivative',['CRANKMATH_METHOD_2ND_DERIVATIVE',['../crank_maths_8h.html#a6de8020b8ba79cc9175db141a52f44d6',1,'crankMaths.h']]],
   ['crankmath_5fmethod_5falpha_5fbeta',['CRANKMATH_METHOD_ALPHA_BETA',['../crank_maths_8h.html#a9945a7484e877e2a5bef621259844809',1,'crankMaths.h']]],
