@@ -66,7 +66,7 @@ var searchData=
   ['pintrigger2',['pinTrigger2',['../globals_8h.html#a18a8717fbf36f4169602422e5ab63ef9',1,'globals.h']]],
   ['pintrigger3',['pinTrigger3',['../globals_8h.html#a0247d84fdc266d9278396e1d07e2b1aa',1,'globals.h']]],
   ['pinvvt_5f1',['pinVVT_1',['../globals_8h.html#aac55f6a9243ce7472b9efca18c44344d',1,'globals.h']]],
-  ['pinvvt_5f2',['pinVVt_2',['../globals_8h.html#a523fb19812a9eb07983c2e4ac98f6378',1,'globals.h']]],
+  ['pinvvt_5f2',['pinVVT_2',['../globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158',1,'globals.h']]],
   ['previousclutchtrigger',['previousClutchTrigger',['../globals_8h.html#a5c105ef1fad1e927319ea7956737cc1c',1,'globals.h']]],
   ['previouslooptime',['previousLoopTime',['../globals_8h.html#a8c1270967c0f23dcc46f4ff54808795c',1,'previousLoopTime():&#160;speeduino.h'],['../speeduino_8h.html#a8c1270967c0f23dcc46f4ff54808795c',1,'previousLoopTime():&#160;speeduino.h']]],
   ['primarytriggeredge',['primaryTriggerEdge',['../globals_8h.html#ad21da4add9e24d2b2f0ea27ff73bf5d9',1,'globals.h']]],

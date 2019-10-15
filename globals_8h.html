@@ -352,6 +352,16 @@ Macros</h2></td></tr>
 <tr class="separator:ae12c40b3b2496ea64cbd1f626d4a5817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ca152de23783b290f91253c91779c92"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9ca152de23783b290f91253c91779c92">MAP_PAGE_SIZE</a>&#160;&#160;&#160;288</td></tr>
 <tr class="separator:a9ca152de23783b290f91253c91779c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc90e7a8cfe0270adb88eb49e15517b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>(pin)&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a8ea43fd1f04c488f5322147c51219b9f">pinInjector1</a>) || ((pin) == <a class="el" href="globals_8h.html#a561165a765cfbf61d8b3e8d8bf134f3e">pinInjector2</a>) || ((pin) == <a class="el" href="globals_8h.html#a533c314b0e28e2abb6a6b2d91305e9da">pinInjector3</a>) || ((pin) == <a class="el" href="globals_8h.html#af6bd1083e2f273177d4cc9826c34ff70">pinInjector4</a>) )</td></tr>
+<tr class="separator:a9bc90e7a8cfe0270adb88eb49e15517b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c65172bbab65c5261e7a15e3191f11f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>(pin)&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a8a6e1f6fba2f0b2b47703e027143d4ec">pinCoil1</a>) || ((pin) == <a class="el" href="globals_8h.html#aeb511e6eea8a635fd37b04bde9f45789">pinCoil2</a>) || ((pin) == <a class="el" href="globals_8h.html#a703aca2a766f599405de81dea21e5ef1">pinCoil3</a>) || ((pin) == <a class="el" href="globals_8h.html#a15569dd7b2eb96e1539e34ea9b3c346b">pinCoil4</a>) )</td></tr>
+<tr class="separator:a1c65172bbab65c5261e7a15e3191f11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c6db48e18128ef4fff4df5e1438388d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>(pin)&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a783dd3492868a39beaca836ba76e3cac">pinCLT</a>) || ((pin) == <a class="el" href="globals_8h.html#a8aad45e9d20a38a3a6c0ede5c1deb671">pinIAT</a>) || ((pin) == <a class="el" href="globals_8h.html#a5d21bbebce5ccb2a690f5bc43ca1f523">pinMAP</a>) || ((pin) == <a class="el" href="globals_8h.html#a19394b4f039d761f98105dae64d93010">pinTPS</a>) || ((pin) == <a class="el" href="globals_8h.html#a7d7a279cda21c1a27449143e85e7ceb1">pinO2</a>) || ((pin) == <a class="el" href="globals_8h.html#a2b6a9627ddc53169fe33a8d96d33d996">pinBat</a>) )</td></tr>
+<tr class="separator:a6c6db48e18128ef4fff4df5e1438388d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4954515b3dc81a0b180511cfbc8bcef9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4954515b3dc81a0b180511cfbc8bcef9">pinIsUsed</a>(pin)&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) )</td></tr>
+<tr class="separator:a4954515b3dc81a0b180511cfbc8bcef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ab3ba772025be135f18a3419ba6c36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>(pin)&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a12049f71fe7d040de459811b9682b23f">pinFuelPump</a>) || ((pin) == <a class="el" href="globals_8h.html#a22d616037351905f8c0ee8d9cdac172b">pinFan</a>) || ((pin) == <a class="el" href="globals_8h.html#aac55f6a9243ce7472b9efca18c44344d">pinVVT_1</a>) || ((pin) == <a class="el" href="globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158">pinVVT_2</a>) || ((pin) == <a class="el" href="globals_8h.html#a6ac806de7b5f1296db541587dec52e65">pinBoost</a>) || ((pin) == <a class="el" href="globals_8h.html#aa3344d2dbdbdf7ec37da1e36d28b71a3">pinIdle1</a>) || ((pin) == <a class="el" href="globals_8h.html#ab87cc9df2fa4e06d04951678cde2a648">pinIdle2</a>) || ((pin) == <a class="el" href="globals_8h.html#a2e9371fb43bfb4c570b58436ddbdd81c">pinTachOut</a>) )</td></tr>
+<tr class="separator:aa1ab3ba772025be135f18a3419ba6c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -1392,8 +1402,8 @@ Variables</h2></td></tr>
 <tr class="separator:a6ac806de7b5f1296db541587dec52e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac55f6a9243ce7472b9efca18c44344d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aac55f6a9243ce7472b9efca18c44344d">pinVVT_1</a></td></tr>
 <tr class="separator:aac55f6a9243ce7472b9efca18c44344d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523fb19812a9eb07983c2e4ac98f6378"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a523fb19812a9eb07983c2e4ac98f6378">pinVVt_2</a></td></tr>
-<tr class="separator:a523fb19812a9eb07983c2e4ac98f6378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a343ea2f23c3fec36aa9cdf1eeb0e2158"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158">pinVVT_2</a></td></tr>
+<tr class="separator:a343ea2f23c3fec36aa9cdf1eeb0e2158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22d616037351905f8c0ee8d9cdac172b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a22d616037351905f8c0ee8d9cdac172b">pinFan</a></td></tr>
 <tr class="separator:a22d616037351905f8c0ee8d9cdac172b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81250b536ee4caa65256151d32c759f0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a81250b536ee4caa65256151d32c759f0">pinStepperDir</a></td></tr>
@@ -2924,6 +2934,96 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define OPEN_LOOP_BOOST&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c65172bbab65c5261e7a15e3191f11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c65172bbab65c5261e7a15e3191f11f">&#9670;&nbsp;</a></span>pinIsIgnition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pinIsIgnition</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a8a6e1f6fba2f0b2b47703e027143d4ec">pinCoil1</a>) || ((pin) == <a class="el" href="globals_8h.html#aeb511e6eea8a635fd37b04bde9f45789">pinCoil2</a>) || ((pin) == <a class="el" href="globals_8h.html#a703aca2a766f599405de81dea21e5ef1">pinCoil3</a>) || ((pin) == <a class="el" href="globals_8h.html#a15569dd7b2eb96e1539e34ea9b3c346b">pinCoil4</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9bc90e7a8cfe0270adb88eb49e15517b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc90e7a8cfe0270adb88eb49e15517b">&#9670;&nbsp;</a></span>pinIsInjector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pinIsInjector</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a8ea43fd1f04c488f5322147c51219b9f">pinInjector1</a>) || ((pin) == <a class="el" href="globals_8h.html#a561165a765cfbf61d8b3e8d8bf134f3e">pinInjector2</a>) || ((pin) == <a class="el" href="globals_8h.html#a533c314b0e28e2abb6a6b2d91305e9da">pinInjector3</a>) || ((pin) == <a class="el" href="globals_8h.html#af6bd1083e2f273177d4cc9826c34ff70">pinInjector4</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1ab3ba772025be135f18a3419ba6c36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ab3ba772025be135f18a3419ba6c36">&#9670;&nbsp;</a></span>pinIsOutput</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pinIsOutput</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a12049f71fe7d040de459811b9682b23f">pinFuelPump</a>) || ((pin) == <a class="el" href="globals_8h.html#a22d616037351905f8c0ee8d9cdac172b">pinFan</a>) || ((pin) == <a class="el" href="globals_8h.html#aac55f6a9243ce7472b9efca18c44344d">pinVVT_1</a>) || ((pin) == <a class="el" href="globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158">pinVVT_2</a>) || ((pin) == <a class="el" href="globals_8h.html#a6ac806de7b5f1296db541587dec52e65">pinBoost</a>) || ((pin) == <a class="el" href="globals_8h.html#aa3344d2dbdbdf7ec37da1e36d28b71a3">pinIdle1</a>) || ((pin) == <a class="el" href="globals_8h.html#ab87cc9df2fa4e06d04951678cde2a648">pinIdle2</a>) || ((pin) == <a class="el" href="globals_8h.html#a2e9371fb43bfb4c570b58436ddbdd81c">pinTachOut</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c6db48e18128ef4fff4df5e1438388d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6db48e18128ef4fff4df5e1438388d">&#9670;&nbsp;</a></span>pinIsSensor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pinIsSensor</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8h.html#a783dd3492868a39beaca836ba76e3cac">pinCLT</a>) || ((pin) == <a class="el" href="globals_8h.html#a8aad45e9d20a38a3a6c0ede5c1deb671">pinIAT</a>) || ((pin) == <a class="el" href="globals_8h.html#a5d21bbebce5ccb2a690f5bc43ca1f523">pinMAP</a>) || ((pin) == <a class="el" href="globals_8h.html#a19394b4f039d761f98105dae64d93010">pinTPS</a>) || ((pin) == <a class="el" href="globals_8h.html#a7d7a279cda21c1a27449143e85e7ceb1">pinO2</a>) || ((pin) == <a class="el" href="globals_8h.html#a2b6a9627ddc53169fe33a8d96d33d996">pinBat</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4954515b3dc81a0b180511cfbc8bcef9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4954515b3dc81a0b180511cfbc8bcef9">&#9670;&nbsp;</a></span>pinIsUsed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pinIsUsed</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pin</td><td>)</td>
+          <td>&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -8818,14 +8918,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a523fb19812a9eb07983c2e4ac98f6378"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a523fb19812a9eb07983c2e4ac98f6378">&#9670;&nbsp;</a></span>pinVVt_2</h2>
+<a id="a343ea2f23c3fec36aa9cdf1eeb0e2158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a343ea2f23c3fec36aa9cdf1eeb0e2158">&#9670;&nbsp;</a></span>pinVVT_2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">byte pinVVt_2</td>
+          <td class="memname">byte pinVVT_2</td>
         </tr>
       </table>
 </div><div class="memdoc">
