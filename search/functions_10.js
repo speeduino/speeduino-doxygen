@@ -1,7 +1,9 @@
 var searchData=
 [
+  ['table2d_5fgetaxisvalue',['table2D_getAxisValue',['../table_8h.html#a6a8daf1da79ae9a3930f6b7082a83184',1,'table2D_getAxisValue(struct table2D, byte):&#160;table.h'],['../table_8ino.html#a44415f1af3b8aea925ce421079d102d0',1,'table2D_getAxisValue(struct table2D *fromTable, byte X_in):&#160;table.ino']]],
+  ['table2d_5fgetrawvalue',['table2D_getRawValue',['../table_8h.html#afa1e727250195ccbd1fd0d3e65f21052',1,'table2D_getRawValue(struct table2D, byte):&#160;table.h'],['../table_8ino.html#a41d05a9817e967d15de0c75a6e208db0',1,'table2D_getRawValue(struct table2D *fromTable, byte X_index):&#160;table.ino']]],
   ['table2d_5fgetvalue',['table2D_getValue',['../table_8h.html#a462f96f099a0c20647d0a29e96e2e80c',1,'table2D_getValue(struct table2D *fromTable, int):&#160;table.ino'],['../table_8ino.html#aca579548a50a96679efa1b76a5b68e2b',1,'table2D_getValue(struct table2D *fromTable, int X_in):&#160;table.ino']]],
-  ['table2d_5fsetsize',['table2D_setSize',['../table_8h.html#acbe7e41abf4fb936c53a04b1f4b1860d',1,'table2D_setSize(struct table2D, byte):&#160;table.h'],['../table_8ino.html#acb7d52cd77278adcd447bceeb9c81246',1,'table2D_setSize(struct table2D *targetTable, byte newSize):&#160;table.ino']]],
+  ['table2d_5fsetsize',['table2D_setSize',['../table_8h.html#acbe7e41abf4fb936c53a04b1f4b1860d',1,'table.h']]],
   ['table3d_5fsetsize',['table3D_setSize',['../table_8h.html#a4fff98d22db63bf11f5bf49ec60d31c7',1,'table3D_setSize(struct table3D *targetTable, byte):&#160;table.ino'],['../table_8ino.html#aeea29e9fe4a65a33ab4a928ac89d3cb0',1,'table3D_setSize(struct table3D *targetTable, byte newSize):&#160;table.ino']]],
   ['testcomm',['testComm',['../comms_8h.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.ino'],['../comms_8ino.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.ino']]],
   ['timetoangle',['timeToAngle',['../crank_maths_8h.html#abdf69861deca8590442873de0ab4acf8',1,'timeToAngle(unsigned long, byte):&#160;crankMaths.ino'],['../crank_maths_8ino.html#aea969ecaec6440bba97fb67c8af1501e',1,'timeToAngle(unsigned long time, byte method):&#160;crankMaths.ino']]],

@@ -37,7 +37,7 @@ var searchData=
   ['auxinpina',['Auxinpina',['../structconfig9.html#a9b35198ddd09c28cbf77d90cbb6f0780',1,'config9::Auxinpina()'],['../globals_8h.html#a882640a6085fc0413ed1a210c65607b7',1,'Auxinpina():&#160;globals.h']]],
   ['auxinpinb',['Auxinpinb',['../structconfig9.html#acf1e3d10aaca69311e6475cadda9e76c',1,'config9::Auxinpinb()'],['../globals_8h.html#aa6024efb90865870ce0f48c2be63c000',1,'Auxinpinb():&#160;globals.h']]],
   ['auxisenabled',['auxIsEnabled',['../sensors_8h.html#ae6887b4f1dbc4e0f70d5e73f4b97b446',1,'sensors.h']]],
-  ['axisx',['axisX',['../structtable2_d.html#aa80839eb7e81f7008e500c66a8a39e35',1,'table2D::axisX()'],['../structtable3_d.html#ab5fa34c7ed1eb5c71171b3c8870d51be',1,'table3D::axisX()']]],
-  ['axisx16',['axisX16',['../structtable2_d.html#aadfef8bd9dd001c095413e3d048aaf8b',1,'table2D']]],
+  ['axissize',['axisSize',['../structtable2_d.html#af5e2d709c4d22aae47872188dc08d921',1,'table2D']]],
+  ['axisx',['axisX',['../structtable2_d.html#a369c3ffe225b8c6ebaaa4f6814862b83',1,'table2D::axisX()'],['../structtable3_d.html#ab5fa34c7ed1eb5c71171b3c8870d51be',1,'table3D::axisX()']]],
   ['axisy',['axisY',['../structtable3_d.html#ab2509a7f8ed14a44378da17eba1e626c',1,'table3D']]]
 ];
