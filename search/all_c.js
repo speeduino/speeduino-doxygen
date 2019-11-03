@@ -21,6 +21,7 @@ var searchData=
   ['mapsample',['mapSample',['../structconfig2.html#a3eb52c8ac1c314ff10a7c0f213478ad1',1,'config2::mapSample()'],['../globals_8h.html#aec2ce6b8bd9d47b5921103efaa39ae9f',1,'mapSample():&#160;globals.h']]],
   ['maths_2eh',['maths.h',['../maths_8h.html',1,'']]],
   ['maths_2eino',['maths.ino',['../maths_8ino.html',1,'']]],
+  ['max_5fcorrections',['MAX_CORRECTIONS',['../corrections_8ino.html#ac7dd55262dab852d952b64628012127c',1,'corrections.ino']]],
   ['max_5ferrors',['MAX_ERRORS',['../errors_8h.html#aee6f4b0b74820d727dd8fba4f5efa061',1,'errors.h']]],
   ['max_5frpm',['MAX_RPM',['../globals_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'globals.h']]],
   ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'decoders.h']]],
