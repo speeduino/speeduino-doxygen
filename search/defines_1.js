@@ -2,6 +2,8 @@ var searchData=
 [
   ['baro_5fmax',['BARO_MAX',['../sensors_8h.html#a84f969a66daab08c19a3710213bf9749',1,'sensors.h']]],
   ['baro_5fmin',['BARO_MIN',['../sensors_8h.html#a0e5b50132b45c470470f4641fd09b2f9',1,'sensors.h']]],
+  ['battv_5fcor_5fmode_5fopentime',['BATTV_COR_MODE_OPENTIME',['../globals_8h.html#a01a36bde7af2d98d6ca5f285e6d9385b',1,'globals.h']]],
+  ['battv_5fcor_5fmode_5fwhole',['BATTV_COR_MODE_WHOLE',['../globals_8h.html#a820389a51bf0a8ccc70dba5e9ee0c002',1,'globals.h']]],
   ['bit_5fcheck',['BIT_CHECK',['../globals_8h.html#a76fdd8cbc1fedd623886785637bc334d',1,'globals.h']]],
   ['bit_5fclear',['BIT_CLEAR',['../globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0',1,'globals.h']]],
   ['bit_5fengine_5facc',['BIT_ENGINE_ACC',['../globals_8h.html#ab1c548cbf950cae247066490cd7fa54f',1,'globals.h']]],
