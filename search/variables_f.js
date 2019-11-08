@@ -16,6 +16,7 @@ var searchData=
   ['pincoil6',['pinCoil6',['../globals_8h.html#acaedeb3e4150080abef8b8bfc56c47be',1,'globals.h']]],
   ['pincoil7',['pinCoil7',['../globals_8h.html#af9a94b45efb540df74f1f523522bf531',1,'globals.h']]],
   ['pincoil8',['pinCoil8',['../globals_8h.html#a75d2c2c0d61e2e9f9bbcca4cd62bc871',1,'globals.h']]],
+  ['pinctps',['pinCTPS',['../globals_8h.html#a5cf32b6acd9559a1dfcc081b3e2614ef',1,'globals.h']]],
   ['pindisplayreset',['pinDisplayReset',['../globals_8h.html#aa67d1500f2ffa0c16d741a72b3c53126',1,'globals.h']]],
   ['pinemap',['pinEMAP',['../globals_8h.html#a7bacaa82514f053011654edc29d28bcf',1,'globals.h']]],
   ['pinfan',['pinFan',['../globals_8h.html#a22d616037351905f8c0ee8d9cdac172b',1,'globals.h']]],

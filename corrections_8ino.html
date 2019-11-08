@@ -126,6 +126,8 @@ Functions</h2></td></tr>
 <tr class="separator:a48d1d2ae11cd91eb57a6c7e6bc61fdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d37e842b8cbd7f6e8a9e042a0b28e19"><td class="memItemLeft" align="right" valign="top">static int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a1d37e842b8cbd7f6e8a9e042a0b28e19">correctionCLTadvance</a> (int8_t advance)</td></tr>
 <tr class="separator:a1d37e842b8cbd7f6e8a9e042a0b28e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88440b92d99f30030cd26e876c3e210d"><td class="memItemLeft" align="right" valign="top">static int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a88440b92d99f30030cd26e876c3e210d">correctionIdleAdvance</a> (int8_t advance)</td></tr>
+<tr class="separator:a88440b92d99f30030cd26e876c3e210d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b4843d731253af035f4e7a5c4e34c97"><td class="memItemLeft" align="right" valign="top">static int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a1b4843d731253af035f4e7a5c4e34c97">correctionSoftRevLimit</a> (int8_t advance)</td></tr>
 <tr class="separator:a1b4843d731253af035f4e7a5c4e34c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada6c15d9caef9e9f7e266c964e6285f9"><td class="memItemLeft" align="right" valign="top">static int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#ada6c15d9caef9e9f7e266c964e6285f9">correctionNitrous</a> (int8_t advance)</td></tr>
@@ -787,6 +789,52 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a88440b92d99f30030cd26e876c3e210d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88440b92d99f30030cd26e876c3e210d">&#9670;&nbsp;</a></span>correctionIdleAdvance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int8_t correctionIdleAdvance </td>
+          <td>(</td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_cgraph.png" border="0" usemap="#corrections_8ino_a88440b92d99f30030cd26e876c3e210d_cgraph" alt=""/></div>
+<map name="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_cgraph" id="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_cgraph">
+<area shape="rect" id="node2" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="220,31,357,57"/>
+<area shape="rect" id="node3" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="405,5,571,32"/>
+<area shape="rect" id="node4" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="405,56,571,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_icgraph.png" border="0" usemap="#corrections_8ino_a88440b92d99f30030cd26e876c3e210d_icgraph" alt=""/></div>
+<map name="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_icgraph" id="corrections_8ino_a88440b92d99f30030cd26e876c3e210d_icgraph">
+<area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="220,5,335,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a1c8f52de96bd5799f6c766514fd4b52e" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="383,5,481,32"/>
+<area shape="rect" id="node4" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="529,5,580,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a6d2e97d2015b30a6bad1390238e78ab8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d2e97d2015b30a6bad1390238e78ab8">&#9670;&nbsp;</a></span>correctionKnock()</h2>
 
@@ -1013,16 +1061,17 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="corrections_8ino.html#a18ae54266369c0e78436f3526dda729e" title="correctionFlexTiming" alt="" coords="201,5,359,32"/>
 <area shape="rect" id="node6" href="corrections_8ino.html#a48d1d2ae11cd91eb57a6c7e6bc61fdc5" title="correctionIATretard" alt="" coords="208,56,352,83"/>
 <area shape="rect" id="node7" href="corrections_8ino.html#a1d37e842b8cbd7f6e8a9e042a0b28e19" title="correctionCLTadvance" alt="" coords="199,107,361,133"/>
-<area shape="rect" id="node8" href="corrections_8ino.html#a1b4843d731253af035f4e7a5c4e34c97" title="correctionSoftRevLimit" alt="" coords="195,157,365,184"/>
-<area shape="rect" id="node9" href="corrections_8ino.html#ada6c15d9caef9e9f7e266c964e6285f9" title="correctionNitrous" alt="" coords="213,208,347,235"/>
-<area shape="rect" id="node10" href="corrections_8ino.html#a686340f126b1f80039d49a7be18673c4" title="correctionSoftLaunch" alt="" coords="201,259,359,285"/>
-<area shape="rect" id="node11" href="corrections_8ino.html#acc36e137b072c1eeb0d0c33cc2b3163e" title="correctionSoftFlatShift" alt="" coords="197,309,363,336"/>
-<area shape="rect" id="node12" href="corrections_8ino.html#a6d2e97d2015b30a6bad1390238e78ab8" title="correctionKnock" alt="" coords="217,360,343,387"/>
-<area shape="rect" id="node13" href="corrections_8ino.html#ae8ecbe20726ff92d5d5a16b8f29f85c5" title="correctionFixedTiming" alt="" coords="197,411,363,437"/>
-<area shape="rect" id="node14" href="corrections_8ino.html#afd681a5985c06751d68a447e5c3b363c" title="correctionCrankingFixedTiming" alt="" coords="168,461,392,488"/>
-<area shape="rect" id="node3" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="440,81,577,108"/>
-<area shape="rect" id="node4" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="625,56,791,83"/>
-<area shape="rect" id="node5" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="625,107,791,133"/>
+<area shape="rect" id="node8" href="corrections_8ino.html#a88440b92d99f30030cd26e876c3e210d" title="correctionIdleAdvance" alt="" coords="197,157,363,184"/>
+<area shape="rect" id="node9" href="corrections_8ino.html#a1b4843d731253af035f4e7a5c4e34c97" title="correctionSoftRevLimit" alt="" coords="195,208,365,235"/>
+<area shape="rect" id="node10" href="corrections_8ino.html#ada6c15d9caef9e9f7e266c964e6285f9" title="correctionNitrous" alt="" coords="213,259,347,285"/>
+<area shape="rect" id="node11" href="corrections_8ino.html#a686340f126b1f80039d49a7be18673c4" title="correctionSoftLaunch" alt="" coords="201,309,359,336"/>
+<area shape="rect" id="node12" href="corrections_8ino.html#acc36e137b072c1eeb0d0c33cc2b3163e" title="correctionSoftFlatShift" alt="" coords="197,360,363,387"/>
+<area shape="rect" id="node13" href="corrections_8ino.html#a6d2e97d2015b30a6bad1390238e78ab8" title="correctionKnock" alt="" coords="217,411,343,437"/>
+<area shape="rect" id="node14" href="corrections_8ino.html#ae8ecbe20726ff92d5d5a16b8f29f85c5" title="correctionFixedTiming" alt="" coords="197,461,363,488"/>
+<area shape="rect" id="node15" href="corrections_8ino.html#afd681a5985c06751d68a447e5c3b363c" title="correctionCrankingFixedTiming" alt="" coords="168,512,392,539"/>
+<area shape="rect" id="node3" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="440,107,577,133"/>
+<area shape="rect" id="node4" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="625,81,791,108"/>
+<area shape="rect" id="node5" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="625,132,791,159"/>
 </map>
 </div>
 <div class="dynheader">
