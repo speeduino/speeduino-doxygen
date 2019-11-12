@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cacheisvalid',['cacheIsValid',['../structtable3_d.html#a968d89857af73c67a0ab7a8190af8597',1,'table3D']]],
   ['cachetime',['cacheTime',['../structtable2_d.html#a628a7ddc655e3556f0423b431f9d3851',1,'table2D']]],
   ['cancmdfail',['cancmdfail',['../cancomms_8h.html#aeaaca3c597afd98c1bef3806ea31373a',1,'cancomms.h']]],
   ['canin',['canin',['../structstatuses.html#a0d82f18e278ad454662a593c9201fe73',1,'statuses']]],
@@ -52,7 +53,6 @@ var searchData=
   ['cmdpending',['cmdPending',['../comms_8h.html#addbed4f59e24864228a0745aeb96b2e9',1,'comms.h']]],
   ['coilhigh',['coilHIGH',['../scheduled_i_o_8h.html#aff22d364847ac0036d469def4eadf94b',1,'scheduledIO.h']]],
   ['coillow',['coilLOW',['../scheduled_i_o_8h.html#a0a608a1611eb74521eb52ef5ecd29fe1',1,'scheduledIO.h']]],
-  ['compare',['compare',['../struct_schedule.html#acd9609c90afd19d0148af040c9194c9d',1,'Schedule']]],
   ['completedhomesteps',['completedHomeSteps',['../idle_8h.html#a502e8f4e37a2bfb2e7f11b00ef3443a7',1,'idle.h']]],
   ['compositelasttoothtime',['compositeLastToothTime',['../decoders_8h.html#a9f0a01957757abebca528646d68457a2',1,'decoders.h']]],
   ['compositelogenabled',['compositeLogEnabled',['../structstatuses.html#a2cc2d9b707e195afbfcccaaa6f0287b2',1,'statuses']]],
@@ -64,7 +64,6 @@ var searchData=
   ['configpage9',['configPage9',['../globals_8h.html#aaeee1f66f241f5b98ce64b8790121b89',1,'configPage9():&#160;speeduino.h'],['../speeduino_8h.html#aaeee1f66f241f5b98ce64b8790121b89',1,'configPage9():&#160;speeduino.h']]],
   ['coolant',['coolant',['../structstatuses.html#a7a9f35075a213a363be285a3988a32da',1,'statuses']]],
   ['corrections',['corrections',['../structstatuses.html#a446d4083c348113f21724705f4b93404',1,'statuses']]],
-  ['counter',['counter',['../struct_schedule.html#adbf652eb05e8badea4a8a9532dfa7147',1,'Schedule']]],
   ['crank_5fangle_5fmax',['CRANK_ANGLE_MAX',['../globals_8h.html#af48e0e42870a3560b50553d91f287bf2',1,'globals.h']]],
   ['crank_5fangle_5fmax_5fign',['CRANK_ANGLE_MAX_IGN',['../globals_8h.html#a05ecb2a5633f0c516044bb487c411d57',1,'globals.h']]],
   ['crank_5fangle_5fmax_5finj',['CRANK_ANGLE_MAX_INJ',['../globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b',1,'globals.h']]],

@@ -21,7 +21,7 @@ var searchData=
   ['displayb2',['displayB2',['../structconfig2.html#af87051fbbac8c7944e2aa04e11489790',1,'config2::displayB2()'],['../globals_8h.html#adc611f16ce55f1992b57c18b583244ae',1,'displayB2():&#160;globals.h']]],
   ['displaytype',['displayType',['../structconfig2.html#a8cc55a35df5fa324224feb0f8e17ccf5',1,'config2::displayType()'],['../globals_8h.html#a7d32cd320ff30049d34ed9f865c605e9',1,'displayType():&#160;globals.h']]],
   ['divider',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2::divider()'],['../globals_8h.html#a0506a5905c5a24856d968577f8d10491',1,'divider():&#160;globals.h']]],
-  ['duration',['duration',['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule']]],
+  ['duration',['duration',['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule::duration()'],['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()']]],
   ['dutylim',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2::dutyLim()'],['../globals_8h.html#a56ec7e572a92ba7adf3229dd8321dc40',1,'dutyLim():&#160;globals.h']]],
   ['dwell',['dwell',['../structstatuses.html#ad88511c6e07bcf4d5e0c9d67f11298f0',1,'statuses']]],
   ['dwellcorrection',['dwellCorrection',['../structstatuses.html#a01a2a98b8225c2f64b68cd19364debb8',1,'statuses']]],

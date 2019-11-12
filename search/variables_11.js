@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['schedulesset',['schedulesSet',['../struct_schedule.html#aa84914c30d7659179897bd91c94b2421',1,'Schedule']]],
+  ['schedulesset',['schedulesSet',['../struct_schedule.html#aa84914c30d7659179897bd91c94b2421',1,'Schedule::schedulesSet()'],['../struct_fuel_schedule.html#a78d5297afc86a03eb04d942fe77ca5f3',1,'FuelSchedule::schedulesSet()']]],
   ['secl',['secl',['../structstatuses.html#a739c35982fbfc585684cb2daa53d1575',1,'statuses']]],
   ['secondarylasttoothtime',['secondaryLastToothTime',['../decoders_8h.html#a9e6b984eae540372f54e1d00c0798fd5',1,'decoders.h']]],
   ['secondarylasttoothtime1',['secondaryLastToothTime1',['../decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'decoders.h']]],
@@ -23,10 +23,10 @@ var searchData=
   ['stagingmode',['stagingMode',['../structconfig10.html#ae024405c609f67068e0af6953a751e2a',1,'config10::stagingMode()'],['../globals_8h.html#ae0ae412e006ef54dbda81fd47e45eee2',1,'stagingMode():&#160;globals.h']]],
   ['stagingtable',['stagingTable',['../globals_8h.html#a2ded3ff6e7c762f6ca22949679aaf629',1,'globals.h']]],
   ['startcallback',['StartCallback',['../struct_schedule.html#a33c7ff86fc7c5feea3500e6dd31509c1',1,'Schedule']]],
-  ['startcompare',['startCompare',['../struct_schedule.html#a4712d480ffbe9a36382078ec85a69a57',1,'Schedule']]],
+  ['startcompare',['startCompare',['../struct_schedule.html#a4712d480ffbe9a36382078ec85a69a57',1,'Schedule::startCompare()'],['../struct_fuel_schedule.html#a586613f0d105f2eeab096659c06845ac',1,'FuelSchedule::startCompare()']]],
   ['startrevolutions',['startRevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses']]],
   ['starttime',['startTime',['../struct_schedule.html#a301080ad6376b86ec1af438d101fae50',1,'Schedule']]],
-  ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule']]],
+  ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status()'],['../struct_fuel_schedule.html#a6e994d391f21557753d0d5886ade69db',1,'FuelSchedule::Status()']]],
   ['status1',['status1',['../structstatuses.html#afef8ab3c80d8236b9a1346d8d50619ff',1,'statuses']]],
   ['status3',['status3',['../structstatuses.html#aade22c620b3f0ce777951c1698adf8de',1,'statuses']]],
   ['stepperstatus',['stepperStatus',['../struct_stepper_idle.html#a74d81abd204873af010d8b4dc85ea7ab',1,'StepperIdle']]],

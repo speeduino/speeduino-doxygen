@@ -30,11 +30,10 @@ var searchData=
   ['ncanretry',['nCanretry',['../cancomms_8h.html#a24f4e3822387d533928f93a05c6282ec',1,'cancomms.h']]],
   ['nchannels',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
   ['ncylinders',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2::nCylinders()'],['../globals_8h.html#a3d5070d2a24970525726a142976cb599',1,'nCylinders():&#160;globals.h']]],
-  ['nextendcompare',['nextEndCompare',['../struct_schedule.html#a84e1bd77eff3eb8cbb326ec442532f9a',1,'Schedule']]],
-  ['nextstartcompare',['nextStartCompare',['../struct_schedule.html#afc49c35cf19d403d48fa4c23ae1f6365',1,'Schedule']]],
+  ['nextendcompare',['nextEndCompare',['../struct_schedule.html#a84e1bd77eff3eb8cbb326ec442532f9a',1,'Schedule::nextEndCompare()'],['../struct_fuel_schedule.html#ae4d69ada019813a0fc31990f0162bc59',1,'FuelSchedule::nextEndCompare()']]],
+  ['nextstartcompare',['nextStartCompare',['../struct_schedule.html#afc49c35cf19d403d48fa4c23ae1f6365',1,'Schedule::nextStartCompare()'],['../struct_fuel_schedule.html#aaca25ff4806c9fdc2e7c0d94902d7c02',1,'FuelSchedule::nextStartCompare()']]],
   ['ninjectors',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2::nInjectors()'],['../globals_8h.html#afff89f62b918d71810ba4580e5a3bdec',1,'nInjectors():&#160;globals.h']]],
   ['nitrous_5fstatus',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'globals.h']]],
-  ['nsquirts',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nullschedule',['nullSchedule',['../scheduler_8h.html#afe509c098a269572785fa5c706d97b80',1,'scheduler.h']]]
+  ['nsquirts',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
 ];

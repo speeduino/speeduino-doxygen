@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['cacheisvalid',['cacheIsValid',['../structtable3_d.html#a968d89857af73c67a0ab7a8190af8597',1,'table3D']]],
   ['cachetime',['cacheTime',['../structtable2_d.html#a628a7ddc655e3556f0423b431f9d3851',1,'table2D']]],
   ['calculatecrc32',['calculateCRC32',['../utils_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c',1,'calculateCRC32(byte):&#160;utils.ino'],['../utils_8ino.html#a1c3c943ecc3b01dfc3fe02c7d405b149',1,'calculateCRC32(byte pageNo):&#160;utils.ino']]],
   ['calculateinjector2startangle',['calculateInjector2StartAngle',['../speeduino_8h.html#abeacd9031d2d6a10295e8e615b919623',1,'calculateInjector2StartAngle(unsigned int):&#160;speeduino.ino'],['../speeduino_8ino.html#ae5aac63f52ac194db84e3a161a1327db',1,'calculateInjector2StartAngle(unsigned int PWdivTimerPerDegree):&#160;speeduino.ino']]],
@@ -92,7 +93,6 @@ var searchData=
   ['commandbuttons',['commandButtons',['../comms_8h.html#aa681e55a28edb40c30657ca3119d32b2',1,'commandButtons():&#160;comms.h'],['../comms_8ino.html#ab85f7cb98fa974ed88b4c859ea1d3f44',1,'commandButtons(int buttonCommand):&#160;comms.ino']]],
   ['comms_2eh',['comms.h',['../comms_8h.html',1,'']]],
   ['comms_2eino',['comms.ino',['../comms_8ino.html',1,'']]],
-  ['compare',['compare',['../struct_schedule.html#acd9609c90afd19d0148af040c9194c9d',1,'Schedule']]],
   ['completedhomesteps',['completedHomeSteps',['../idle_8h.html#a502e8f4e37a2bfb2e7f11b00ef3443a7',1,'idle.h']]],
   ['composite_5flog_5fpri',['COMPOSITE_LOG_PRI',['../globals_8h.html#ad628e44cecb9b8dfde7269676118c63f',1,'globals.h']]],
   ['composite_5flog_5fsec',['COMPOSITE_LOG_SEC',['../globals_8h.html#a431e2ee5e86cfcaced30910a12bce755',1,'globals.h']]],
@@ -143,7 +143,6 @@ var searchData=
   ['correctionsoftlaunch',['correctionSoftLaunch',['../corrections_8h.html#a4b80d85bbd0c845f8ca65c295a76adcb',1,'correctionSoftLaunch(int8_t):&#160;corrections.h'],['../corrections_8ino.html#a686340f126b1f80039d49a7be18673c4',1,'correctionSoftLaunch(int8_t advance):&#160;corrections.ino']]],
   ['correctionsoftrevlimit',['correctionSoftRevLimit',['../corrections_8h.html#ae34bcd79709fe6bfd1a4d9ec79ef5868',1,'correctionSoftRevLimit(int8_t):&#160;corrections.h'],['../corrections_8ino.html#a1b4843d731253af035f4e7a5c4e34c97',1,'correctionSoftRevLimit(int8_t advance):&#160;corrections.ino']]],
   ['correctionwue',['correctionWUE',['../corrections_8h.html#aab81202659211fc1e5332b6f52a99ee6',1,'correctionWUE() __attribute__((always_inline)):&#160;corrections.h'],['../corrections_8ino.html#a90d4ce735bc1991a69187708a23acd59',1,'correctionWUE():&#160;corrections.ino']]],
-  ['counter',['counter',['../struct_schedule.html#adbf652eb05e8badea4a8a9532dfa7147',1,'Schedule']]],
   ['crank_5fangle_5fmax',['CRANK_ANGLE_MAX',['../globals_8h.html#af48e0e42870a3560b50553d91f287bf2',1,'globals.h']]],
   ['crank_5fangle_5fmax_5fign',['CRANK_ANGLE_MAX_IGN',['../globals_8h.html#a05ecb2a5633f0c516044bb487c411d57',1,'globals.h']]],
   ['crank_5fangle_5fmax_5finj',['CRANK_ANGLE_MAX_INJ',['../globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b',1,'globals.h']]],

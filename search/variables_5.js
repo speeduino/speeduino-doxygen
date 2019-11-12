@@ -26,7 +26,7 @@ var searchData=
   ['enable_5fintcan',['enable_intcan',['../structconfig9.html#a789618e5c8b703ed22a5fe275f9644e7',1,'config9::enable_intcan()'],['../globals_8h.html#aa9db41b72b13a62965598ae3a3969648',1,'enable_intcan():&#160;globals.h']]],
   ['enable_5fsecondaryserial',['enable_secondarySerial',['../structconfig9.html#a216f8259e9ee1eb447329bcee29e657f',1,'config9::enable_secondarySerial()'],['../globals_8h.html#acc9a7475bbfc44e03bc5491f1d439040',1,'enable_secondarySerial():&#160;globals.h']]],
   ['endcallback',['EndCallback',['../struct_schedule.html#a6b5e98bbafd6d4b3aea0a68f7cc27af9',1,'Schedule']]],
-  ['endcompare',['endCompare',['../struct_schedule.html#aae2d51d1e0b737ea878b2bb0a399f8ed',1,'Schedule']]],
+  ['endcompare',['endCompare',['../struct_schedule.html#aae2d51d1e0b737ea878b2bb0a399f8ed',1,'Schedule::endCompare()'],['../struct_fuel_schedule.html#a590ff7abcf13d79cb532950b08bc2f1b',1,'FuelSchedule::endCompare()']]],
   ['endschedulesetbydecoder',['endScheduleSetByDecoder',['../struct_schedule.html#a375419294f1950c106c86a30add0892d',1,'Schedule']]],
   ['engine',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],

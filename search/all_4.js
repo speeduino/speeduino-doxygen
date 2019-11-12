@@ -34,7 +34,7 @@ var searchData=
   ['docrankspeedcalcs',['doCrankSpeedCalcs',['../crank_maths_8h.html#a3fe1ff1a1682b0bf9a82acbb0810058b',1,'doCrankSpeedCalcs():&#160;crankMaths.ino'],['../crank_maths_8ino.html#a3fe1ff1a1682b0bf9a82acbb0810058b',1,'doCrankSpeedCalcs():&#160;crankMaths.ino']]],
   ['dostep',['doStep',['../idle_8h.html#ad4337269d8ccf10b0a3e6791f55f0740',1,'doStep():&#160;idle.h'],['../idle_8ino.html#ad4337269d8ccf10b0a3e6791f55f0740',1,'doStep():&#160;idle.ino']]],
   ['doupdates',['doUpdates',['../updates_8h.html#ace4f6db079412afb6f5e07de0ba0e45e',1,'doUpdates():&#160;updates.ino'],['../updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e',1,'doUpdates():&#160;updates.ino']]],
-  ['duration',['duration',['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule']]],
+  ['duration',['duration',['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule::duration()'],['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()']]],
   ['dutylim',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2::dutyLim()'],['../globals_8h.html#a56ec7e572a92ba7adf3229dd8321dc40',1,'dutyLim():&#160;globals.h']]],
   ['dwell',['dwell',['../structstatuses.html#ad88511c6e07bcf4d5e0c9d67f11298f0',1,'statuses']]],
   ['dwellcorrection',['dwellCorrection',['../structstatuses.html#a01a2a98b8225c2f64b68cd19364debb8',1,'statuses']]],
