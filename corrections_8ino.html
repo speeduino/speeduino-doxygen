@@ -95,9 +95,9 @@ Functions</h2></td></tr>
 <tr class="separator:ac5127886b813661bc774e50fa7398822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac54bebeb925271bf303034c59bc64a86"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#ac54bebeb925271bf303034c59bc64a86">correctionASE</a> ()</td></tr>
 <tr class="separator:ac54bebeb925271bf303034c59bc64a86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a944c7a13fa06c6afa886d20727688228"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a944c7a13fa06c6afa886d20727688228">correctionAccel</a> ()</td></tr>
-<tr class="memdesc:a944c7a13fa06c6afa886d20727688228"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration enrichment correction calculation.  <a href="#a944c7a13fa06c6afa886d20727688228">More...</a><br /></td></tr>
-<tr class="separator:a944c7a13fa06c6afa886d20727688228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d4ca93138cc0eace4ddc8940bb454a"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a35d4ca93138cc0eace4ddc8940bb454a">correctionAccel</a> ()</td></tr>
+<tr class="memdesc:a35d4ca93138cc0eace4ddc8940bb454a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration enrichment correction calculation.  <a href="#a35d4ca93138cc0eace4ddc8940bb454a">More...</a><br /></td></tr>
+<tr class="separator:a35d4ca93138cc0eace4ddc8940bb454a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee28af119b8d374d2829f97ad623263"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#a7ee28af119b8d374d2829f97ad623263">correctionFloodClear</a> ()</td></tr>
 <tr class="separator:a7ee28af119b8d374d2829f97ad623263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb1dc6635e87adc43581179926e02fec"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8ino.html#abb1dc6635e87adc43581179926e02fec">correctionBatVoltage</a> ()</td></tr>
@@ -166,8 +166,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a944c7a13fa06c6afa886d20727688228"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a944c7a13fa06c6afa886d20727688228">&#9670;&nbsp;</a></span>correctionAccel()</h2>
+<a id="a35d4ca93138cc0eace4ddc8940bb454a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d4ca93138cc0eace4ddc8940bb454a">&#9670;&nbsp;</a></span>correctionAccel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,7 +176,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int16_t correctionAccel </td>
+          <td class="memname">static uint16_t correctionAccel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -191,12 +191,12 @@ Variables</h2></td></tr>
 
 <p>Acceleration enrichment correction calculation. </p>
 <p>Calculates the % change of the throttle over time (%/second) and performs a lookup based on this When the enrichment is turned on, it runs at that amount for a fixed period of time (taeTime)</p>
-<dl class="section return"><dt>Returns</dt><dd>int16_t The Acceleration enrichment modifier as a %. 100% = No modification. As the maximum enrichment amount is +255%, the overall return value from this function can be 100+255=355. Hence this function returns a int16_t rather than byte </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>uint16_t The Acceleration enrichment modifier as a %. 100% = No modification. As the maximum enrichment amount is +255%, the overall return value from this function can be 100+255=355. Hence this function returns a uint16_t rather than byte </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="corrections_8ino_a944c7a13fa06c6afa886d20727688228_cgraph.png" border="0" usemap="#corrections_8ino_a944c7a13fa06c6afa886d20727688228_cgraph" alt=""/></div>
-<map name="corrections_8ino_a944c7a13fa06c6afa886d20727688228_cgraph" id="corrections_8ino_a944c7a13fa06c6afa886d20727688228_cgraph">
+<div class="center"><img src="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_cgraph.png" border="0" usemap="#corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_cgraph" alt=""/></div>
+<map name="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_cgraph" id="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_cgraph">
 <area shape="rect" id="node2" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="176,31,313,57"/>
 <area shape="rect" id="node5" href="maths_8h.html#ad15d7632e1bee5ab5f88b05896b4a94e" title="percentage" alt="" coords="197,81,292,108"/>
 <area shape="rect" id="node3" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="361,5,527,32"/>
@@ -206,8 +206,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="corrections_8ino_a944c7a13fa06c6afa886d20727688228_icgraph.png" border="0" usemap="#corrections_8ino_a944c7a13fa06c6afa886d20727688228_icgraph" alt=""/></div>
-<map name="corrections_8ino_a944c7a13fa06c6afa886d20727688228_icgraph" id="corrections_8ino_a944c7a13fa06c6afa886d20727688228_icgraph">
+<div class="center"><img src="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_icgraph.png" border="0" usemap="#corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_icgraph" alt=""/></div>
+<map name="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_icgraph" id="corrections_8ino_a35d4ca93138cc0eace4ddc8940bb454a_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#a27b96950fe79d10ec18a7643a077d5f1" title="correctionsFuel" alt="" coords="176,5,296,32"/>
 </map>
 </div>
@@ -1019,7 +1019,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node8" href="corrections_8ino.html#ac54bebeb925271bf303034c59bc64a86" title="correctionASE" alt="" coords="211,81,323,108"/>
 <area shape="rect" id="node9" href="corrections_8ino.html#ac5127886b813661bc774e50fa7398822" title="correctionCranking" alt="" coords="194,132,339,159"/>
 <area shape="rect" id="node10" href="maths_8h.html#ae15c95d7eff51a68cae87d097bd6eb48" title="powint" alt="" coords="233,436,300,463"/>
-<area shape="rect" id="node11" href="corrections_8ino.html#a944c7a13fa06c6afa886d20727688228" title="Acceleration enrichment correction calculation. " alt="" coords="205,385,328,412"/>
+<area shape="rect" id="node11" href="corrections_8ino.html#a35d4ca93138cc0eace4ddc8940bb454a" title="Acceleration enrichment correction calculation. " alt="" coords="205,385,328,412"/>
 <area shape="rect" id="node13" href="corrections_8ino.html#a7ee28af119b8d374d2829f97ad623263" title="correctionFloodClear" alt="" coords="189,487,345,513"/>
 <area shape="rect" id="node14" href="corrections_8ino.html#a513b7249243f23af81e77f24a8a4269f" title="correctionAFRClosedLoop" alt="" coords="173,537,360,564"/>
 <area shape="rect" id="node16" href="corrections_8ino.html#abb1dc6635e87adc43581179926e02fec" title="correctionBatVoltage" alt="" coords="187,183,346,209"/>

@@ -88,7 +88,7 @@ var searchData=
   ['progmem',['PROGMEM',['../comms_8h.html#a4678e63753af438068cadfea9ff54025',1,'PROGMEM():&#160;comms.h'],['../globals_8h.html#a795dfdb739aacf4957feb7773e47a912',1,'PROGMEM():&#160;globals.h']]],
   ['pump_5fpin_5fmask',['pump_pin_mask',['../globals_8h.html#a00358650db9a742f99d0332aa29261f0',1,'globals.h']]],
   ['pump_5fpin_5fport',['pump_pin_port',['../globals_8h.html#a730fa811a051e2caa1d108493467bd7a',1,'globals.h']]],
-  ['pw',['PW',['../speeduino_8h.html#aea6e20ae30e4d32ea2528cd270053183',1,'PW(int REQ_FUEL, byte VE, long MAP, int corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#aea6e20ae30e4d32ea2528cd270053183',1,'PW(int REQ_FUEL, byte VE, long MAP, int corrections, int injOpen):&#160;speeduino.ino']]],
+  ['pw',['PW',['../speeduino_8h.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino']]],
   ['pw1',['PW1',['../structstatuses.html#a4b0034de3a0462c2fe42fbfdc0c24146',1,'statuses']]],
   ['pw2',['PW2',['../structstatuses.html#ab65f5fbc52da5a0a1a321e8ef24908d0',1,'statuses']]],
   ['pw3',['PW3',['../structstatuses.html#a136508f4dbfcd333a88a7069f864db03',1,'statuses']]],

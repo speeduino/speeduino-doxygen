@@ -4,5 +4,5 @@ var searchData=
   ['pintranslate',['pinTranslate',['../utils_8h.html#ab608460fe7e692f13759a8e8d208af81',1,'pinTranslate(byte):&#160;utils.ino'],['../utils_8ino.html#a902a38c221583a605c8d412e24483096',1,'pinTranslate(byte rawPin):&#160;utils.ino']]],
   ['popqueue',['popQueue',['../scheduler_8h.html#a13ccea36db51231f277cc9133f43703b',1,'scheduler.h']]],
   ['powint',['powint',['../maths_8h.html#ae15c95d7eff51a68cae87d097bd6eb48',1,'powint(int, unsigned int):&#160;maths.ino'],['../maths_8ino.html#a3ef6b9233d5c96cc2f0946edbcbec9fb',1,'powint(int factor, unsigned int exponent):&#160;maths.ino']]],
-  ['pw',['PW',['../speeduino_8h.html#aea6e20ae30e4d32ea2528cd270053183',1,'PW(int REQ_FUEL, byte VE, long MAP, int corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#aea6e20ae30e4d32ea2528cd270053183',1,'PW(int REQ_FUEL, byte VE, long MAP, int corrections, int injOpen):&#160;speeduino.ino']]]
+  ['pw',['PW',['../speeduino_8h.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino']]]
 ];

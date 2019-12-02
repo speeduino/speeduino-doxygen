@@ -8,7 +8,7 @@ var searchData=
   ['adcfilter_5fo2',['ADCFILTER_O2',['../structconfig4.html#a5655bafd503df41b6e5d8c8ecd708a12',1,'config4::ADCFILTER_O2()'],['../globals_8h.html#ac7902cc3acd743f7222188b43f89976d',1,'ADCFILTER_O2():&#160;globals.h']]],
   ['adcfilter_5ftps',['ADCFILTER_TPS',['../structconfig4.html#aa753f66340f0414db0d748c00a26d5a6',1,'config4::ADCFILTER_TPS()'],['../globals_8h.html#a5d7c9cd9cb6d4edc9661f142a7a86e94',1,'ADCFILTER_TPS():&#160;globals.h']]],
   ['advance',['advance',['../structstatuses.html#a4a50e4af8c3d7c15c08a76ec00163091',1,'statuses']]],
-  ['aeamount',['AEamount',['../structstatuses.html#a26f2fc99da74d0cb13d23e756f7083a6',1,'statuses']]],
+  ['aeamount',['AEamount',['../structstatuses.html#aeb122a2ea38979cb835a5e24b70f1654',1,'statuses']]],
   ['aeendtime',['AEEndTime',['../structstatuses.html#a2ce210f7cab43d6ad75e621dff17c7e8',1,'statuses']]],
   ['aemode',['aeMode',['../structconfig2.html#aeacf4447fe9215fdc52bc970a12e4c21',1,'config2::aeMode()'],['../globals_8h.html#a23217fd739a1c2a171395c33cb8b1f66',1,'aeMode():&#160;globals.h']]],
   ['aetapermax',['aeTaperMax',['../structconfig2.html#ae0d994b2d37ca1afbf4c082f87f7b2dd',1,'config2::aeTaperMax()'],['../globals_8h.html#a67402ab7f3faa67f1985886e6f05f347',1,'aeTaperMax():&#160;globals.h']]],
