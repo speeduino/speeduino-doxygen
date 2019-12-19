@@ -4,7 +4,6 @@ var searchData=
   ['sec_5ftrigger_5fsingle',['SEC_TRIGGER_SINGLE',['../globals_8h.html#a5674a74a588ec9830f15b27392904f44',1,'globals.h']]],
   ['seqfuelpage',['seqFuelPage',['../comms_8h.html#a2390a3e93194eb3613602fffae68baa0',1,'comms.h']]],
   ['serial_5fbuffer_5fthreshold',['SERIAL_BUFFER_THRESHOLD',['../globals_8h.html#a6b790444384f7a3c57b495edbec62048',1,'globals.h']]],
-  ['serial_5fpacket_5fsize',['SERIAL_PACKET_SIZE',['../comms_8h.html#a2e64679e800ee28d22c48edbf87b78c1',1,'comms.h']]],
   ['short',['SHORT',['../decoders_8h.html#a9fbb14850a9f176447733a089071cd70',1,'decoders.h']]],
   ['simple_5fboost_5fd',['SIMPLE_BOOST_D',['../auxiliaries_8h.html#a7e97860f92291f8439b060e35c82a417',1,'auxiliaries.h']]],
   ['simple_5fboost_5fi',['SIMPLE_BOOST_I',['../auxiliaries_8h.html#af836c2282a1aa7edbae3cef8ae432bdb',1,'auxiliaries.h']]],
