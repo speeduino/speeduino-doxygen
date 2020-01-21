@@ -63,7 +63,7 @@ var searchData=
   ['configpage6',['configPage6',['../globals_8h.html#ad2eb2083468e98f610294cd25458f578',1,'configPage6():&#160;speeduino.h'],['../speeduino_8h.html#ad2eb2083468e98f610294cd25458f578',1,'configPage6():&#160;speeduino.h']]],
   ['configpage9',['configPage9',['../globals_8h.html#aaeee1f66f241f5b98ce64b8790121b89',1,'configPage9():&#160;speeduino.h'],['../speeduino_8h.html#aaeee1f66f241f5b98ce64b8790121b89',1,'configPage9():&#160;speeduino.h']]],
   ['coolant',['coolant',['../structstatuses.html#a7a9f35075a213a363be285a3988a32da',1,'statuses']]],
-  ['corrections',['corrections',['../structstatuses.html#a446d4083c348113f21724705f4b93404',1,'statuses']]],
+  ['corrections',['corrections',['../structstatuses.html#aa245b2696e156287330c3aae3aa7cf2c',1,'statuses']]],
   ['crank_5fangle_5fmax',['CRANK_ANGLE_MAX',['../globals_8h.html#af48e0e42870a3560b50553d91f287bf2',1,'globals.h']]],
   ['crank_5fangle_5fmax_5fign',['CRANK_ANGLE_MAX_IGN',['../globals_8h.html#a05ecb2a5633f0c516044bb487c411d57',1,'globals.h']]],
   ['crank_5fangle_5fmax_5finj',['CRANK_ANGLE_MAX_INJ',['../globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b',1,'globals.h']]],
