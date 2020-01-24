@@ -20,7 +20,7 @@ var searchData=
   ['aetapermin',['aeTaperMin',['../structconfig2.html#a3983cad7243c64656830ac1673110143',1,'config2::aeTaperMin()'],['../globals_8h.html#a9711f393a19c16035a85076e2e0377c9',1,'aeTaperMin():&#160;globals.h']]],
   ['aetime',['aeTime',['../structconfig2.html#a9640fa96798272f168c0ecd40440634f',1,'config2::aeTime()'],['../globals_8h.html#ae7a0bc5cb688a5d4a400450851c53510',1,'aeTime():&#160;globals.h']]],
   ['afrmappage',['afrMapPage',['../comms_8h.html#a662ceae37f8f17a64d85551afb7889c0',1,'comms.h']]],
-  ['afrnextcycle',['AFRnextCycle',['../corrections_8h.html#a365d04368a5e15407146629c2df4a254',1,'corrections.h']]],
+  ['afrnextcycle',['AFRnextCycle',['../corrections_8h.html#a365d04368a5e15407146629c2df4a254',1,'AFRnextCycle():&#160;corrections.ino'],['../corrections_8ino.html#a365d04368a5e15407146629c2df4a254',1,'AFRnextCycle():&#160;corrections.ino']]],
   ['afrsetpage',['afrSetPage',['../comms_8h.html#aaee843271a3f806326d7b94fad9b89bd',1,'comms.h']]],
   ['afrtable',['afrTable',['../globals_8h.html#abbf760ecc3f7b10ca580fb0e986a60be',1,'afrTable():&#160;globals.ino'],['../globals_8ino.html#abbf760ecc3f7b10ca580fb0e986a60be',1,'afrTable():&#160;globals.ino']]],
   ['afrtarget',['afrTarget',['../structstatuses.html#aac11d4acc049940066078367c504ff89',1,'statuses']]],
