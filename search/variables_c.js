@@ -2,9 +2,9 @@ var searchData=
 [
   ['maebins',['maeBins',['../structconfig4.html#ab1943ffa758ab42d36b8289df7e08954',1,'config4::maeBins()'],['../globals_8h.html#ab0bfe3bc0c677712d144d62f9e0ea389',1,'maeBins():&#160;globals.h']]],
   ['maerates',['maeRates',['../structconfig4.html#a4f820547aaea5a3c94790bcc952edc92',1,'config4::maeRates()'],['../globals_8h.html#ad80799b62b4aab966830aedd0154f25d',1,'maeRates():&#160;globals.h']]],
-  ['maetable',['maeTable',['../globals_8h.html#acc234b73ba07ba528c085b083abb3e56',1,'globals.h']]],
+  ['maetable',['maeTable',['../globals_8h.html#acc234b73ba07ba528c085b083abb3e56',1,'maeTable():&#160;globals.ino'],['../globals_8ino.html#acc234b73ba07ba528c085b083abb3e56',1,'maeTable():&#160;globals.ino']]],
   ['maethresh',['maeThresh',['../structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1',1,'config2::maeThresh()'],['../globals_8h.html#adf9f2873c203446e80edfd655a1b9f81',1,'maeThresh():&#160;globals.h']]],
-  ['mainloopcount',['mainLoopCount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'globals.h']]],
+  ['mainloopcount',['mainLoopCount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino'],['../globals_8ino.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino']]],
   ['map',['MAP',['../structstatuses.html#adbf7841ecb42302848f968f2a1f9933e',1,'statuses']]],
   ['map_5ftime',['MAP_time',['../sensors_8h.html#a69bc1b9a9664fa2780dc055fe2063d0b',1,'sensors.h']]],
   ['mapadc',['mapADC',['../structstatuses.html#a7e498b4fee93dece347e79296cc4cd24',1,'statuses']]],
@@ -21,6 +21,6 @@ var searchData=
   ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'decoders.h']]],
   ['maxignoutputs',['maxIgnOutputs',['../speeduino_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'speeduino.h']]],
   ['moreairdirection',['moreAirDirection',['../struct_stepper_idle.html#a96534484ac7ff76a376465d93dd08f51',1,'StepperIdle']]],
-  ['ms_5fcounter',['ms_counter',['../globals_8h.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'globals.h']]],
+  ['ms_5fcounter',['ms_counter',['../globals_8h.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino'],['../globals_8ino.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino']]],
   ['multiplymap',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2::multiplyMAP()'],['../globals_8h.html#ac34373f1455a7163a5fd889b551f2108',1,'multiplyMAP():&#160;globals.h']]]
 ];

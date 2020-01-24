@@ -34,6 +34,6 @@ var searchData=
   ['nextstartcompare',['nextStartCompare',['../struct_schedule.html#afc49c35cf19d403d48fa4c23ae1f6365',1,'Schedule::nextStartCompare()'],['../struct_fuel_schedule.html#aaca25ff4806c9fdc2e7c0d94902d7c02',1,'FuelSchedule::nextStartCompare()']]],
   ['ninjectors',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2::nInjectors()'],['../globals_8h.html#afff89f62b918d71810ba4580e5a3bdec',1,'nInjectors():&#160;globals.h']]],
   ['nitrous_5fstatus',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'globals.h']]],
+  ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino'],['../globals_8ino.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino']]],
   ['nsquirts',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
 ];

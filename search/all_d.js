@@ -43,7 +43,7 @@ var searchData=
   ['nitrous_5fstage2',['NITROUS_STAGE2',['../globals_8h.html#a2b90e1db9e12cf7ae1e9a9a917abcf0b',1,'globals.h']]],
   ['nitrous_5fstatus',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['nitrouscontrol',['nitrousControl',['../auxiliaries_8h.html#ad3358193976d1ce7a0c9e63b046cd4ea',1,'nitrousControl():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#ad3358193976d1ce7a0c9e63b046cd4ea',1,'nitrousControl():&#160;auxiliaries.ino']]],
-  ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'globals.h']]],
+  ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino'],['../globals_8ino.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino']]],
   ['nsquirts',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
   ['nullcallback',['nullCallback',['../scheduled_i_o_8h.html#a34032325b571ff60682217adbf73ad37',1,'nullCallback():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a34032325b571ff60682217adbf73ad37',1,'nullCallback():&#160;scheduledIO.ino']]],
   ['num_5fpages',['NUM_PAGES',['../globals_8h.html#ae12c40b3b2496ea64cbd1f626d4a5817',1,'globals.h']]]

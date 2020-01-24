@@ -2,7 +2,7 @@ var searchData=
 [
   ['get3dtablevalue',['get3DTableValue',['../table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f',1,'get3DTableValue(struct table3D *fromTable, int, int):&#160;table.ino'],['../table_8ino.html#a0a23080af7923be625ea14352abe41b2',1,'get3DTableValue(struct table3D *fromTable, int Y_in, int X_in):&#160;table.ino']]],
   ['getadvance',['getAdvance',['../speeduino_8h.html#a1c8f52de96bd5799f6c766514fd4b52e',1,'getAdvance():&#160;speeduino.ino'],['../speeduino_8ino.html#a1c8f52de96bd5799f6c766514fd4b52e',1,'getAdvance():&#160;speeduino.ino']]],
-  ['getcamangle_5fmiata9905',['getCamAngle_Miata9905',['../decoders_8ino.html#a354200d8541d200032672dc7164e5a48',1,'decoders.ino']]],
+  ['getcamangle_5fmiata9905',['getCamAngle_Miata9905',['../decoders_8h.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino'],['../decoders_8ino.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino']]],
   ['getcrankangle_5f24x',['getCrankAngle_24X',['../decoders_8h.html#aea1c925a266404754eebef5a3526390f',1,'getCrankAngle_24X():&#160;decoders.ino'],['../decoders_8ino.html#aea1c925a266404754eebef5a3526390f',1,'getCrankAngle_24X():&#160;decoders.ino']]],
   ['getcrankangle_5f4g63',['getCrankAngle_4G63',['../decoders_8h.html#a7fb83cd972765bf823efa6762456c078',1,'getCrankAngle_4G63():&#160;decoders.ino'],['../decoders_8ino.html#a7fb83cd972765bf823efa6762456c078',1,'getCrankAngle_4G63():&#160;decoders.ino']]],
   ['getcrankangle_5faudi135',['getCrankAngle_Audi135',['../decoders_8h.html#a08143852e4fde9bfed2c88ec4d5326a4',1,'getCrankAngle_Audi135():&#160;decoders.ino'],['../decoders_8ino.html#a08143852e4fde9bfed2c88ec4d5326a4',1,'getCrankAngle_Audi135():&#160;decoders.ino']]],

@@ -46,6 +46,6 @@ var searchData=
   ['vvtloadsource',['vvtLoadSource',['../structconfig6.html#a234f603f7f5266b0c5a6c140a4862918',1,'config6::vvtLoadSource()'],['../globals_8h.html#a02c4cc4c3ba71459dd56761803c9808e',1,'vvtLoadSource():&#160;globals.h']]],
   ['vvtmode',['vvtMode',['../structconfig6.html#ab74b7b01069e84b4696abd1769d3ca30',1,'config6::vvtMode()'],['../globals_8h.html#aabd98712917fc6a220aeccfcf9fbbe53',1,'vvtMode():&#160;globals.h']]],
   ['vvtpin',['vvtPin',['../structconfig6.html#a2f5d888891c65b5185dc1e5eca5d5dff',1,'config6::vvtPin()'],['../globals_8h.html#a76f2e5fa0afaac8228bf1aa4904980bc',1,'vvtPin():&#160;globals.h']]],
-  ['vvttable',['vvtTable',['../globals_8h.html#a1efa5dc61805625c01843f178ff0dc29',1,'globals.h']]],
+  ['vvttable',['vvtTable',['../globals_8h.html#a1efa5dc61805625c01843f178ff0dc29',1,'vvtTable():&#160;globals.ino'],['../globals_8ino.html#a1efa5dc61805625c01843f178ff0dc29',1,'vvtTable():&#160;globals.ino']]],
   ['vvttargetangle',['vvtTargetAngle',['../structstatuses.html#ac5d568bb537cd193368452d4d114f9ba',1,'statuses']]]
 ];
