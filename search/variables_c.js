@@ -18,7 +18,7 @@ var searchData=
   ['mapmin',['mapMin',['../structconfig2.html#ad5219c5520d10879a0dc578263acbf45',1,'config2::mapMin()'],['../globals_8h.html#a3bcd70c457f16a66af45bb643893eed4',1,'mapMin():&#160;globals.h']]],
   ['maprunningvalue',['MAPrunningValue',['../sensors_8h.html#a23cf0ede13c4e52428acc18aac1a0a79',1,'sensors.h']]],
   ['mapsample',['mapSample',['../structconfig2.html#a3eb52c8ac1c314ff10a7c0f213478ad1',1,'config2::mapSample()'],['../globals_8h.html#aec2ce6b8bd9d47b5921103efaa39ae9f',1,'mapSample():&#160;globals.h']]],
-  ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'decoders.h']]],
+  ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino'],['../decoders_8ino.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino']]],
   ['maxignoutputs',['maxIgnOutputs',['../speeduino_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'speeduino.h']]],
   ['moreairdirection',['moreAirDirection',['../struct_stepper_idle.html#a96534484ac7ff76a376465d93dd08f51',1,'StepperIdle']]],
   ['ms_5fcounter',['ms_counter',['../globals_8h.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino'],['../globals_8ino.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino']]],

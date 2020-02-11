@@ -1,14 +1,14 @@
 var searchData=
 [
   ['last250msloopcount',['last250msLoopCount',['../timers_8h.html#af63e608fdc59708993fd72d45a799c30',1,'timers.h']]],
-  ['lastcrankanglecalc',['lastCrankAngleCalc',['../decoders_8h.html#a46952ea963287eebcdf8ddf6425d3ce8',1,'decoders.h']]],
-  ['lastgap',['lastGap',['../decoders_8h.html#a6c79b70e0eb86cd98ddf348af152c761',1,'decoders.h']]],
+  ['lastcrankanglecalc',['lastCrankAngleCalc',['../decoders_8h.html#a46952ea963287eebcdf8ddf6425d3ce8',1,'lastCrankAngleCalc():&#160;decoders.ino'],['../decoders_8ino.html#a46952ea963287eebcdf8ddf6425d3ce8',1,'lastCrankAngleCalc():&#160;decoders.ino']]],
+  ['lastgap',['lastGap',['../decoders_8h.html#a6c79b70e0eb86cd98ddf348af152c761',1,'lastGap():&#160;decoders.ino'],['../decoders_8ino.html#a6c79b70e0eb86cd98ddf348af152c761',1,'lastGap():&#160;decoders.ino']]],
   ['lastinput',['lastInput',['../structtable2_d.html#acf14b82c3ba593b774233246615fd9ee',1,'table2D']]],
   ['lastknockcount',['lastKnockCount',['../corrections_8h.html#a9bc2ede5aabe604d0b6b40b9c7f5e828',1,'lastKnockCount():&#160;corrections.ino'],['../corrections_8ino.html#a9bc2ede5aabe604d0b6b40b9c7f5e828',1,'lastKnockCount():&#160;corrections.ino']]],
   ['lastoutput',['lastOutput',['../structtable2_d.html#a659c4aeaa64a39a01f1ab05c7082bdd7',1,'table2D::lastOutput()'],['../structtable3_d.html#a73ec425693940ed4046526f8f14b54c4',1,'table3D::lastOutput()']]],
   ['lastrpm_5f100ms',['lastRPM_100ms',['../timers_8h.html#a62308a8f5625eee6429f4ffd7198071c',1,'timers.h']]],
-  ['lasttoothcalcadvance',['lastToothCalcAdvance',['../decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb',1,'decoders.h']]],
-  ['lastvvttime',['lastVVTtime',['../decoders_8h.html#a51f002cf3dcff77083db11e4a6e49ac1',1,'decoders.h']]],
+  ['lasttoothcalcadvance',['lastToothCalcAdvance',['../decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb',1,'lastToothCalcAdvance():&#160;decoders.ino'],['../decoders_8ino.html#a8c7e13e7b183a9af5b0c67acc59276cb',1,'lastToothCalcAdvance():&#160;decoders.ino']]],
+  ['lastvvttime',['lastVVTtime',['../decoders_8h.html#a51f002cf3dcff77083db11e4a6e49ac1',1,'lastVVTtime():&#160;decoders.ino'],['../decoders_8ino.html#a51f002cf3dcff77083db11e4a6e49ac1',1,'lastVVTtime():&#160;decoders.ino']]],
   ['lastxinput',['lastXInput',['../structtable3_d.html#ac418c0982ebdf70f58817b56af79f89d',1,'table3D']]],
   ['lastxmax',['lastXMax',['../structtable2_d.html#a29892cbd63d5bec3b17f43b62c8cb64d',1,'table2D::lastXMax()'],['../structtable3_d.html#a0ccc7ac5dca138fb0f39cce32cf0b722',1,'table3D::lastXMax()']]],
   ['lastxmin',['lastXMin',['../structtable2_d.html#a3f9b2c61a2b3697695ef3b2ee39c980f',1,'table2D::lastXMin()'],['../structtable3_d.html#af9fac7d93ba3d8adf283f3b44fe8ab6a',1,'table3D::lastXMin()']]],

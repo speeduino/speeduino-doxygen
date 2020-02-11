@@ -15,7 +15,7 @@ var searchData=
   ['egotemp',['egoTemp',['../structconfig6.html#a0008dc38d91a57d1319bf2ffaeba4d29',1,'config6::egoTemp()'],['../globals_8h.html#ae94f7fcf92a23eb55ba9fd07441467b4',1,'egoTemp():&#160;globals.h']]],
   ['egotpsmax',['egoTPSMax',['../structconfig6.html#a09bb391bc73062f1c693f40f08a21eed',1,'config6::egoTPSMax()'],['../globals_8h.html#a9e935ae3629176bcf02590ab58dc6964',1,'egoTPSMax():&#160;globals.h']]],
   ['egotype',['egoType',['../structconfig6.html#a2e013946e642f65806b5c86d6c9dcf20',1,'config6::egoType()'],['../globals_8h.html#a307b1c51e811a29b150c20a2fa12b105',1,'egoType():&#160;globals.h']]],
-  ['elapsedtime',['elapsedTime',['../decoders_8h.html#a8151acb3eb15cc87572029c33dee53b2',1,'decoders.h']]],
+  ['elapsedtime',['elapsedTime',['../decoders_8h.html#a8151acb3eb15cc87572029c33dee53b2',1,'elapsedTime():&#160;decoders.ino'],['../decoders_8ino.html#a8151acb3eb15cc87572029c33dee53b2',1,'elapsedTime():&#160;decoders.ino']]],
   ['emap',['EMAP',['../structstatuses.html#a13158740e1d514820fb30bffcf9a749f',1,'statuses']]],
   ['emapadc',['EMAPADC',['../structstatuses.html#a89d3129507b15d1c63c62692859c1bd6',1,'statuses']]],
   ['emapmax',['EMAPMax',['../structconfig2.html#a3a638884ce32b708662fbc75b98d0ad0',1,'config2::EMAPMax()'],['../globals_8h.html#ab4e7e037c814067a08d22ab510e32260',1,'EMAPMax():&#160;globals.h']]],

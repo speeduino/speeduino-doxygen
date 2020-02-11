@@ -24,7 +24,7 @@ var searchData=
   ['max_5fcorrections',['MAX_CORRECTIONS',['../corrections_8ino.html#ac7dd55262dab852d952b64628012127c',1,'corrections.ino']]],
   ['max_5ferrors',['MAX_ERRORS',['../errors_8h.html#aee6f4b0b74820d727dd8fba4f5efa061',1,'errors.h']]],
   ['max_5frpm',['MAX_RPM',['../globals_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'globals.h']]],
-  ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'decoders.h']]],
+  ['max_5fstall_5ftime',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino'],['../decoders_8ino.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino']]],
   ['maxignoutputs',['maxIgnOutputs',['../speeduino_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'speeduino.h']]],
   ['min_5fcycles_5ffor_5fendcompare',['MIN_CYCLES_FOR_ENDCOMPARE',['../decoders_8ino.html#a7cafbc75494e9d7e2499a404179a56f3',1,'decoders.ino']]],
   ['moreairdirection',['moreAirDirection',['../struct_stepper_idle.html#a96534484ac7ff76a376465d93dd08f51',1,'StepperIdle']]],

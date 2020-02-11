@@ -71,7 +71,8 @@ $(function() {
 <div class="title">decoders.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+</div>
 <p><a href="decoders_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -326,8 +327,6 @@ Variables</h2></td></tr>
 <tr class="separator:a12ba0c126afbba58197cef779341f356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ab83917beed0d0b20bbe3a2c9aa3b14"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a0ab83917beed0d0b20bbe3a2c9aa3b14">triggerSetEndTeeth</a> )()</td></tr>
 <tr class="separator:a0ab83917beed0d0b20bbe3a2c9aa3b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178">MAX_STALL_TIME</a> = 500000UL</td></tr>
-<tr class="separator:a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9026a9c5d90202a2c5edf446c18311c0"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a9026a9c5d90202a2c5edf446c18311c0">curTime</a></td></tr>
 <tr class="separator:a9026a9c5d90202a2c5edf446c18311c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac18ba0a2c1dbaf6235400f7fd4023743"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ac18ba0a2c1dbaf6235400f7fd4023743">curGap</a></td></tr>
@@ -342,33 +341,35 @@ Variables</h2></td></tr>
 <tr class="separator:a581f2bcc9bef8295750b0da5e024b572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f0a01957757abebca528646d68457a2"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a9f0a01957757abebca528646d68457a2">compositeLastToothTime</a></td></tr>
 <tr class="separator:a9f0a01957757abebca528646d68457a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a936cbc258e2a25acd9d1976b40d3c069"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a936cbc258e2a25acd9d1976b40d3c069">toothCurrentCount</a> = 0</td></tr>
+<tr class="memitem:a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178">MAX_STALL_TIME</a></td></tr>
+<tr class="separator:a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a936cbc258e2a25acd9d1976b40d3c069"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a936cbc258e2a25acd9d1976b40d3c069">toothCurrentCount</a></td></tr>
 <tr class="separator:a936cbc258e2a25acd9d1976b40d3c069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a850b5bd646b55b24342c9b2fb552f16a"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a850b5bd646b55b24342c9b2fb552f16a">toothSystemCount</a> = 0</td></tr>
+<tr class="memitem:a850b5bd646b55b24342c9b2fb552f16a"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a850b5bd646b55b24342c9b2fb552f16a">toothSystemCount</a></td></tr>
 <tr class="separator:a850b5bd646b55b24342c9b2fb552f16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b364049047b5c3f2d551b06d6402308"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a5b364049047b5c3f2d551b06d6402308">toothSystemLastToothTime</a> = 0</td></tr>
+<tr class="memitem:a5b364049047b5c3f2d551b06d6402308"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a5b364049047b5c3f2d551b06d6402308">toothSystemLastToothTime</a></td></tr>
 <tr class="separator:a5b364049047b5c3f2d551b06d6402308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1016cfc7bbb3d0431923926e7feb5481"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a1016cfc7bbb3d0431923926e7feb5481">toothLastToothTime</a> = 0</td></tr>
+<tr class="memitem:a1016cfc7bbb3d0431923926e7feb5481"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a1016cfc7bbb3d0431923926e7feb5481">toothLastToothTime</a></td></tr>
 <tr class="separator:a1016cfc7bbb3d0431923926e7feb5481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4d9c0dc167e08696c7e059de46e8f2a9">toothLastSecToothTime</a> = 0</td></tr>
+<tr class="memitem:a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4d9c0dc167e08696c7e059de46e8f2a9">toothLastSecToothTime</a></td></tr>
 <tr class="separator:a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabb6a1901d1bf5d76e6965f5ec287bf3"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aabb6a1901d1bf5d76e6965f5ec287bf3">toothLastMinusOneToothTime</a> = 0</td></tr>
+<tr class="memitem:aabb6a1901d1bf5d76e6965f5ec287bf3"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aabb6a1901d1bf5d76e6965f5ec287bf3">toothLastMinusOneToothTime</a></td></tr>
 <tr class="separator:aabb6a1901d1bf5d76e6965f5ec287bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a95a751afeadca40b511a443141244"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a14a95a751afeadca40b511a443141244">toothLastMinusOneSecToothTime</a> = 0</td></tr>
+<tr class="memitem:a14a95a751afeadca40b511a443141244"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a14a95a751afeadca40b511a443141244">toothLastMinusOneSecToothTime</a></td></tr>
 <tr class="separator:a14a95a751afeadca40b511a443141244"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d19fb1ad4f6a7772547c99a869be10"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ac1d19fb1ad4f6a7772547c99a869be10">targetGap2</a></td></tr>
 <tr class="separator:ac1d19fb1ad4f6a7772547c99a869be10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a6dce932427a5d9e0256d40ffb01af"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aa0a6dce932427a5d9e0256d40ffb01af">toothOneTime</a> = 0</td></tr>
+<tr class="memitem:aa0a6dce932427a5d9e0256d40ffb01af"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aa0a6dce932427a5d9e0256d40ffb01af">toothOneTime</a></td></tr>
 <tr class="separator:aa0a6dce932427a5d9e0256d40ffb01af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeac5cbe5557c16b1ea5e4c579988f8e"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#afeac5cbe5557c16b1ea5e4c579988f8e">toothOneMinusOneTime</a> = 0</td></tr>
+<tr class="memitem:afeac5cbe5557c16b1ea5e4c579988f8e"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#afeac5cbe5557c16b1ea5e4c579988f8e">toothOneMinusOneTime</a></td></tr>
 <tr class="separator:afeac5cbe5557c16b1ea5e4c579988f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afce12e6bb920a5a0e061554aa2959221"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#afce12e6bb920a5a0e061554aa2959221">revolutionOne</a> = 0</td></tr>
+<tr class="memitem:afce12e6bb920a5a0e061554aa2959221"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#afce12e6bb920a5a0e061554aa2959221">revolutionOne</a></td></tr>
 <tr class="separator:afce12e6bb920a5a0e061554aa2959221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7670219a37eedbce147e5e742d315c0"><td class="memItemLeft" align="right" valign="top">volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aa7670219a37eedbce147e5e742d315c0">secondaryToothCount</a></td></tr>
 <tr class="separator:aa7670219a37eedbce147e5e742d315c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e6b984eae540372f54e1d00c0798fd5"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a9e6b984eae540372f54e1d00c0798fd5">secondaryLastToothTime</a> = 0</td></tr>
+<tr class="memitem:a9e6b984eae540372f54e1d00c0798fd5"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a9e6b984eae540372f54e1d00c0798fd5">secondaryLastToothTime</a></td></tr>
 <tr class="separator:a9e6b984eae540372f54e1d00c0798fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c30a9adbcc5e2df52ea05e8c412b888"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888">secondaryLastToothTime1</a> = 0</td></tr>
+<tr class="memitem:a7c30a9adbcc5e2df52ea05e8c412b888"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888">secondaryLastToothTime1</a></td></tr>
 <tr class="separator:a7c30a9adbcc5e2df52ea05e8c412b888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0450050a6b203cb8eee006a13ca3353"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ae0450050a6b203cb8eee006a13ca3353">triggerActualTeeth</a></td></tr>
 <tr class="separator:ae0450050a6b203cb8eee006a13ca3353"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -382,17 +383,17 @@ Variables</h2></td></tr>
 <tr class="separator:a1e41d141c0ac1d7ee51cb113b2c435e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83ab70950b5f173f97f7ba745af7b47d"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a83ab70950b5f173f97f7ba745af7b47d">triggerToothAngle</a></td></tr>
 <tr class="separator:a83ab70950b5f173f97f7ba745af7b47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae80eb084abb8d1250ce076824353f659"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ae80eb084abb8d1250ce076824353f659">triggerToothAngleIsCorrect</a> = false</td></tr>
+<tr class="memitem:ae80eb084abb8d1250ce076824353f659"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ae80eb084abb8d1250ce076824353f659">triggerToothAngleIsCorrect</a></td></tr>
 <tr class="separator:ae80eb084abb8d1250ce076824353f659"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e54fcad7f7d745202e811045120842b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a1e54fcad7f7d745202e811045120842b">secondDerivEnabled</a> = false</td></tr>
+<tr class="memitem:a1e54fcad7f7d745202e811045120842b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a1e54fcad7f7d745202e811045120842b">secondDerivEnabled</a></td></tr>
 <tr class="separator:a1e54fcad7f7d745202e811045120842b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d018ef97f19ddbb5dc92ef2b81ce5b4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4">decoderIsSequential</a></td></tr>
 <tr class="separator:a4d018ef97f19ddbb5dc92ef2b81ce5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e295e6575aaeaf2b619b58ddffe54db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4e295e6575aaeaf2b619b58ddffe54db">decoderIsLowRes</a> = false</td></tr>
+<tr class="memitem:a4e295e6575aaeaf2b619b58ddffe54db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a4e295e6575aaeaf2b619b58ddffe54db">decoderIsLowRes</a></td></tr>
 <tr class="separator:a4e295e6575aaeaf2b619b58ddffe54db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f755322c23cc6caa2f4e5b8b8518af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a26f755322c23cc6caa2f4e5b8b8518af">decoderHasSecondary</a> = false</td></tr>
+<tr class="memitem:a26f755322c23cc6caa2f4e5b8b8518af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a26f755322c23cc6caa2f4e5b8b8518af">decoderHasSecondary</a></td></tr>
 <tr class="separator:a26f755322c23cc6caa2f4e5b8b8518af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4d11ccf93ba53f0e33436dd328b131f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f">decoderHasFixedCrankingTiming</a> = false</td></tr>
+<tr class="memitem:ab4d11ccf93ba53f0e33436dd328b131f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f">decoderHasFixedCrankingTiming</a></td></tr>
 <tr class="separator:ab4d11ccf93ba53f0e33436dd328b131f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16c057b337892e5c1999ebc7425f52b3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a16c057b337892e5c1999ebc7425f52b3">checkSyncToothCount</a></td></tr>
 <tr class="separator:a16c057b337892e5c1999ebc7425f52b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -400,17 +401,17 @@ Variables</h2></td></tr>
 <tr class="separator:a8151acb3eb15cc87572029c33dee53b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46952ea963287eebcdf8ddf6425d3ce8"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a46952ea963287eebcdf8ddf6425d3ce8">lastCrankAngleCalc</a></td></tr>
 <tr class="separator:a46952ea963287eebcdf8ddf6425d3ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c7e13e7b183a9af5b0c67acc59276cb"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb">lastToothCalcAdvance</a> = 99</td></tr>
+<tr class="memitem:a8c7e13e7b183a9af5b0c67acc59276cb"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb">lastToothCalcAdvance</a></td></tr>
 <tr class="separator:a8c7e13e7b183a9af5b0c67acc59276cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f002cf3dcff77083db11e4a6e49ac1"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a51f002cf3dcff77083db11e4a6e49ac1">lastVVTtime</a></td></tr>
 <tr class="separator:a51f002cf3dcff77083db11e4a6e49ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7469679479a5caed5bcc8041c8db58ff"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a7469679479a5caed5bcc8041c8db58ff">ignition1EndTooth</a> = 0</td></tr>
+<tr class="memitem:a7469679479a5caed5bcc8041c8db58ff"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a7469679479a5caed5bcc8041c8db58ff">ignition1EndTooth</a></td></tr>
 <tr class="separator:a7469679479a5caed5bcc8041c8db58ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a983e9155188659bb0aca6c4b5f39d5be"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a983e9155188659bb0aca6c4b5f39d5be">ignition2EndTooth</a> = 0</td></tr>
+<tr class="memitem:a983e9155188659bb0aca6c4b5f39d5be"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a983e9155188659bb0aca6c4b5f39d5be">ignition2EndTooth</a></td></tr>
 <tr class="separator:a983e9155188659bb0aca6c4b5f39d5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5894b128263b9ce8a6cd069f138f8b0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ad5894b128263b9ce8a6cd069f138f8b0">ignition3EndTooth</a> = 0</td></tr>
+<tr class="memitem:ad5894b128263b9ce8a6cd069f138f8b0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ad5894b128263b9ce8a6cd069f138f8b0">ignition3EndTooth</a></td></tr>
 <tr class="separator:ad5894b128263b9ce8a6cd069f138f8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0bcbbdfe81f7ba67b86411c572b0609"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#af0bcbbdfe81f7ba67b86411c572b0609">ignition4EndTooth</a> = 0</td></tr>
+<tr class="memitem:af0bcbbdfe81f7ba67b86411c572b0609"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#af0bcbbdfe81f7ba67b86411c572b0609">ignition4EndTooth</a></td></tr>
 <tr class="separator:af0bcbbdfe81f7ba67b86411c572b0609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aaa51bf35506156bc61d7abbfa6296e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a5aaa51bf35506156bc61d7abbfa6296e">toothAngles</a> [24]</td></tr>
 <tr class="separator:a5aaa51bf35506156bc61d7abbfa6296e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3961,7 +3962,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool decoderHasFixedCrankingTiming = false</td>
+          <td class="memname">bool decoderHasFixedCrankingTiming</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3975,7 +3976,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool decoderHasSecondary = false</td>
+          <td class="memname">bool decoderHasSecondary</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3989,7 +3990,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool decoderIsLowRes = false</td>
+          <td class="memname">bool decoderIsLowRes</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4059,7 +4060,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t ignition1EndTooth = 0</td>
+          <td class="memname">uint16_t ignition1EndTooth</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4073,7 +4074,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t ignition2EndTooth = 0</td>
+          <td class="memname">uint16_t ignition2EndTooth</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4087,7 +4088,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t ignition3EndTooth = 0</td>
+          <td class="memname">uint16_t ignition3EndTooth</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4101,7 +4102,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t ignition4EndTooth = 0</td>
+          <td class="memname">uint16_t ignition4EndTooth</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4143,7 +4144,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int16_t lastToothCalcAdvance = 99</td>
+          <td class="memname">int16_t lastToothCalcAdvance</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4171,7 +4172,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long MAX_STALL_TIME = 500000UL</td>
+          <td class="memname">unsigned long MAX_STALL_TIME</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4185,7 +4186,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile bool revolutionOne = 0</td>
+          <td class="memname">volatile bool revolutionOne</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4199,7 +4200,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long secondaryLastToothTime = 0</td>
+          <td class="memname">volatile unsigned long secondaryLastToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4213,7 +4214,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long secondaryLastToothTime1 = 0</td>
+          <td class="memname">volatile unsigned long secondaryLastToothTime1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4241,7 +4242,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool secondDerivEnabled = false</td>
+          <td class="memname">bool secondDerivEnabled</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4297,7 +4298,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint16_t toothCurrentCount = 0</td>
+          <td class="memname">volatile uint16_t toothCurrentCount</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4311,7 +4312,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothLastMinusOneSecToothTime = 0</td>
+          <td class="memname">volatile unsigned long toothLastMinusOneSecToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4325,7 +4326,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothLastMinusOneToothTime = 0</td>
+          <td class="memname">volatile unsigned long toothLastMinusOneToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4339,7 +4340,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothLastSecToothTime = 0</td>
+          <td class="memname">volatile unsigned long toothLastSecToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4353,7 +4354,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothLastToothTime = 0</td>
+          <td class="memname">volatile unsigned long toothLastToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4367,7 +4368,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothOneMinusOneTime = 0</td>
+          <td class="memname">volatile unsigned long toothOneMinusOneTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4381,7 +4382,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothOneTime = 0</td>
+          <td class="memname">volatile unsigned long toothOneTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4395,7 +4396,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile byte toothSystemCount = 0</td>
+          <td class="memname">volatile byte toothSystemCount</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4409,7 +4410,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long toothSystemLastToothTime = 0</td>
+          <td class="memname">volatile unsigned long toothSystemLastToothTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4535,7 +4536,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile bool triggerToothAngleIsCorrect = false</td>
+          <td class="memname">volatile bool triggerToothAngleIsCorrect</td>
         </tr>
       </table>
 </div><div class="memdoc">

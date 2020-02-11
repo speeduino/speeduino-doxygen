@@ -1,10 +1,10 @@
 var searchData=
 [
   ['data_5fstructure_5fversion',['data_structure_version',['../globals_8h.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino'],['../globals_8ino.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino']]],
-  ['decoderhasfixedcrankingtiming',['decoderHasFixedCrankingTiming',['../decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoders.h']]],
-  ['decoderhassecondary',['decoderHasSecondary',['../decoders_8h.html#a26f755322c23cc6caa2f4e5b8b8518af',1,'decoders.h']]],
-  ['decoderislowres',['decoderIsLowRes',['../decoders_8h.html#a4e295e6575aaeaf2b619b58ddffe54db',1,'decoders.h']]],
-  ['decoderissequential',['decoderIsSequential',['../decoders_8h.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4',1,'decoders.h']]],
+  ['decoderhasfixedcrankingtiming',['decoderHasFixedCrankingTiming',['../decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino'],['../decoders_8ino.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino']]],
+  ['decoderhassecondary',['decoderHasSecondary',['../decoders_8h.html#a26f755322c23cc6caa2f4e5b8b8518af',1,'decoderHasSecondary():&#160;decoders.ino'],['../decoders_8ino.html#a26f755322c23cc6caa2f4e5b8b8518af',1,'decoderHasSecondary():&#160;decoders.ino']]],
+  ['decoderislowres',['decoderIsLowRes',['../decoders_8h.html#a4e295e6575aaeaf2b619b58ddffe54db',1,'decoderIsLowRes():&#160;decoders.ino'],['../decoders_8ino.html#a4e295e6575aaeaf2b619b58ddffe54db',1,'decoderIsLowRes():&#160;decoders.ino']]],
+  ['decoderissequential',['decoderIsSequential',['../decoders_8h.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4',1,'decoderIsSequential():&#160;decoders.ino'],['../decoders_8ino.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4',1,'decoderIsSequential():&#160;decoders.ino']]],
   ['degreesperusx2048',['degreesPeruSx2048',['../crank_maths_8h.html#a484bc581d731d8ef7947f9aef754fe1b',1,'crankMaths.h']]],
   ['degreesperusx32768',['degreesPeruSx32768',['../crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'crankMaths.h']]],
   ['deltatoothcount',['deltaToothCount',['../crank_maths_8h.html#a600359aee213ad7b155d39ba7bb03f91',1,'crankMaths.h']]],
