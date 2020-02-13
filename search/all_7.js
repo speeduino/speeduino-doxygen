@@ -41,7 +41,7 @@ var searchData=
   ['getrpm_5fnissan360',['getRPM_Nissan360',['../decoders_8h.html#a49ee1dea293f13e9d8918042abdb339c',1,'getRPM_Nissan360():&#160;decoders.ino'],['../decoders_8ino.html#a49ee1dea293f13e9d8918042abdb339c',1,'getRPM_Nissan360():&#160;decoders.ino']]],
   ['getrpm_5fnon360',['getRPM_non360',['../decoders_8h.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino'],['../decoders_8ino.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino']]],
   ['getrpm_5fsubaru67',['getRPM_Subaru67',['../decoders_8h.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino']]],
-  ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'decoders.h']]],
+  ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino']]],
   ['getve1',['getVE1',['../speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino'],['../speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino']]],
   ['getve2',['getVE2',['../speeduino_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino'],['../speeduino_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino']]],
   ['ghigh',['Ghigh',['../cancomms_8h.html#ac08f64a138533ea4637bf1fdc01b73f5',1,'cancomms.h']]],
