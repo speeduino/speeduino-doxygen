@@ -98,6 +98,8 @@ Functions</h2></td></tr>
 <tr class="separator:a46a9d65dcd3ae2e91a29b9f7d99f394d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c678665f346749376f9f8c3f26f121b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a8c678665f346749376f9f8c3f26f121b">calculateInjector5StartAngle</a> (unsigned int)</td></tr>
 <tr class="separator:a8c678665f346749376f9f8c3f26f121b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee805aade0c2279ffd85251494174991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#aee805aade0c2279ffd85251494174991">calculateIgnitionAngles</a> (int)</td></tr>
+<tr class="separator:aee805aade0c2279ffd85251494174991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -205,6 +207,42 @@ Variables</h2></td></tr>
 <p>This file contains the main system loop of the Speeduino core and thus much of the logic of the fuel and ignition algorithms is contained within this It is where calls to all the auxilliary control systems, sensor reads, comms etc are made</p>
 <p>It also contains the <a class="el" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a> function that is called by the bootloader on system startup </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="aee805aade0c2279ffd85251494174991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee805aade0c2279ffd85251494174991">&#9670;&nbsp;</a></span>calculateIgnitionAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void calculateIgnitionAngles </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="speeduino_8h_aee805aade0c2279ffd85251494174991_cgraph.png" border="0" usemap="#speeduino_8h_aee805aade0c2279ffd85251494174991_cgraph" alt=""/></div>
+<map name="speeduino_8h_aee805aade0c2279ffd85251494174991_cgraph" id="speeduino_8h_aee805aade0c2279ffd85251494174991_cgraph">
+<area shape="rect" id="node2" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="228,31,365,57"/>
+<area shape="rect" id="node3" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="413,5,579,32"/>
+<area shape="rect" id="node4" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="413,56,579,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="speeduino_8h_aee805aade0c2279ffd85251494174991_icgraph.png" border="0" usemap="#speeduino_8h_aee805aade0c2279ffd85251494174991_icgraph" alt=""/></div>
+<map name="speeduino_8h_aee805aade0c2279ffd85251494174991_icgraph" id="speeduino_8h_aee805aade0c2279ffd85251494174991_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="228,5,279,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="abeacd9031d2d6a10295e8e615b919623"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abeacd9031d2d6a10295e8e615b919623">&#9670;&nbsp;</a></span>calculateInjector2StartAngle()</h2>
 
