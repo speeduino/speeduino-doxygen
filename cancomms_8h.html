@@ -83,17 +83,21 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0e685b052c76997b9db44a05286a700c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a0e685b052c76997b9db44a05286a700c">canCommand</a> ()</td></tr>
-<tr class="separator:a0e685b052c76997b9db44a05286a700c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74ebc077c71190a67eb90dcbf24130c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#ae74ebc077c71190a67eb90dcbf24130c">secondserial_Command</a> ()</td></tr>
+<tr class="separator:ae74ebc077c71190a67eb90dcbf24130c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1d7c8158f3200b7536a476eed0cbc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a5f1d7c8158f3200b7536a476eed0cbc4">sendcanValues</a> (uint16_t offset, uint16_t packetLength, byte cmd, byte portNum)</td></tr>
 <tr class="separator:a5f1d7c8158f3200b7536a476eed0cbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80695de8b0f1a51fa32db8fd150e581"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#aa80695de8b0f1a51fa32db8fd150e581">can_Command</a> ()</td></tr>
+<tr class="separator:aa80695de8b0f1a51fa32db8fd150e581"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaedf59c4501a2aa6e3f7256988daeb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a> (uint8_t cmdtype, uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress)</td></tr>
 <tr class="separator:abaedf59c4501a2aa6e3f7256988daeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010c96151bfe00e2f7cb2f218148ed7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a010c96151bfe00e2f7cb2f218148ed7b">obd_response</a> (uint8_t therequestedPID, uint8_t therequestedPIDlow, uint8_t therequestedPIDhigh)</td></tr>
+<tr class="separator:a010c96151bfe00e2f7cb2f218148ed7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2f6e46da44ae2c585dd883d615202e77"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a2f6e46da44ae2c585dd883d615202e77">currentcanCommand</a></td></tr>
-<tr class="separator:a2f6e46da44ae2c585dd883d615202e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49031f6a163879c545ed86f44f6e9c16"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a49031f6a163879c545ed86f44f6e9c16">currentsecondserialCommand</a></td></tr>
+<tr class="separator:a49031f6a163879c545ed86f44f6e9c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab513727c21cbd6362b2464ff39244749"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#ab513727c21cbd6362b2464ff39244749">currentCanPage</a> = 1</td></tr>
 <tr class="separator:ab513727c21cbd6362b2464ff39244749"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f4e3822387d533928f93a05c6282ec"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cancomms_8h.html#a24f4e3822387d533928f93a05c6282ec">nCanretry</a> = 0</td></tr>
@@ -143,14 +147,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a0e685b052c76997b9db44a05286a700c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e685b052c76997b9db44a05286a700c">&#9670;&nbsp;</a></span>canCommand()</h2>
+<a id="aa80695de8b0f1a51fa32db8fd150e581"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80695de8b0f1a51fa32db8fd150e581">&#9670;&nbsp;</a></span>can_Command()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void canCommand </td>
+          <td class="memname">void can_Command </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -160,19 +164,95 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="cancomms_8h_a0e685b052c76997b9db44a05286a700c_cgraph.png" border="0" usemap="#cancomms_8h_a0e685b052c76997b9db44a05286a700c_cgraph" alt=""/></div>
-<map name="cancomms_8h_a0e685b052c76997b9db44a05286a700c_cgraph" id="cancomms_8h_a0e685b052c76997b9db44a05286a700c_cgraph">
-<area shape="rect" id="node2" href="cancomms_8ino.html#a4862af77fe584dfc12088631c39a0b86" title="sendcanValues" alt="" coords="165,31,284,57"/>
-<area shape="rect" id="node3" href="maths_8h.html#a451ae7b9eed033e117a46ccd83983a87" title="divu100" alt="" coords="347,5,422,32"/>
-<area shape="rect" id="node4" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="332,56,437,83"/>
+<div class="center"><img src="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_cgraph.png" border="0" usemap="#cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_cgraph" alt=""/></div>
+<map name="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_cgraph" id="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_cgraph">
+<area shape="rect" id="node2" href="cancomms_8ino.html#a4b7351ea8783032d898cba50d42737f9" title="obd_response" alt="" coords="172,5,284,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="cancomms_8h_a0e685b052c76997b9db44a05286a700c_icgraph.png" border="0" usemap="#cancomms_8h_a0e685b052c76997b9db44a05286a700c_icgraph" alt=""/></div>
-<map name="cancomms_8h_a0e685b052c76997b9db44a05286a700c_icgraph" id="cancomms_8h_a0e685b052c76997b9db44a05286a700c_icgraph">
-<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="165,5,216,32"/>
+<div class="center"><img src="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_icgraph.png" border="0" usemap="#cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_icgraph" alt=""/></div>
+<map name="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_icgraph" id="cancomms_8h_aa80695de8b0f1a51fa32db8fd150e581_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="172,5,223,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a010c96151bfe00e2f7cb2f218148ed7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010c96151bfe00e2f7cb2f218148ed7b">&#9670;&nbsp;</a></span>obd_response()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void obd_response </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>therequestedPID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>therequestedPIDlow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>therequestedPIDhigh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cancomms_8h_a010c96151bfe00e2f7cb2f218148ed7b_icgraph.png" border="0" usemap="#cancomms_8h_a010c96151bfe00e2f7cb2f218148ed7b_icgraph" alt=""/></div>
+<map name="cancomms_8h_a010c96151bfe00e2f7cb2f218148ed7b_icgraph" id="cancomms_8h_a010c96151bfe00e2f7cb2f218148ed7b_icgraph">
+<area shape="rect" id="node2" href="cancomms_8ino.html#aa80695de8b0f1a51fa32db8fd150e581" title="can_Command" alt="" coords="165,5,284,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="332,5,383,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae74ebc077c71190a67eb90dcbf24130c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae74ebc077c71190a67eb90dcbf24130c">&#9670;&nbsp;</a></span>secondserial_Command()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void secondserial_Command </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_cgraph.png" border="0" usemap="#cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_cgraph" alt=""/></div>
+<map name="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_cgraph" id="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_cgraph">
+<area shape="rect" id="node2" href="cancomms_8ino.html#a4862af77fe584dfc12088631c39a0b86" title="sendcanValues" alt="" coords="232,31,351,57"/>
+<area shape="rect" id="node3" href="maths_8h.html#a451ae7b9eed033e117a46ccd83983a87" title="divu100" alt="" coords="414,5,489,32"/>
+<area shape="rect" id="node4" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="399,56,504,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_icgraph.png" border="0" usemap="#cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_icgraph" alt=""/></div>
+<map name="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_icgraph" id="cancomms_8h_ae74ebc077c71190a67eb90dcbf24130c_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="232,5,283,32"/>
 </map>
 </div>
 
@@ -283,8 +363,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="cancomms_8h_a5f1d7c8158f3200b7536a476eed0cbc4_icgraph.png" border="0" usemap="#cancomms_8h_a5f1d7c8158f3200b7536a476eed0cbc4_icgraph" alt=""/></div>
 <map name="cancomms_8h_a5f1d7c8158f3200b7536a476eed0cbc4_icgraph" id="cancomms_8h_a5f1d7c8158f3200b7536a476eed0cbc4_icgraph">
-<area shape="rect" id="node2" href="cancomms_8ino.html#a0e685b052c76997b9db44a05286a700c" title="canCommand" alt="" coords="172,5,284,32"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="332,5,383,32"/>
+<area shape="rect" id="node2" href="cancomms_8ino.html#ae74ebc077c71190a67eb90dcbf24130c" title="secondserial_Command" alt="" coords="172,5,351,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="399,5,449,32"/>
 </map>
 </div>
 
@@ -333,20 +413,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2f6e46da44ae2c585dd883d615202e77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f6e46da44ae2c585dd883d615202e77">&#9670;&nbsp;</a></span>currentcanCommand</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t currentcanCommand</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab513727c21cbd6362b2464ff39244749"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab513727c21cbd6362b2464ff39244749">&#9670;&nbsp;</a></span>currentCanPage</h2>
 
@@ -355,6 +421,20 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">uint8_t currentCanPage = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a49031f6a163879c545ed86f44f6e9c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49031f6a163879c545ed86f44f6e9c16">&#9670;&nbsp;</a></span>currentsecondserialCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t currentsecondserialCommand</td>
         </tr>
       </table>
 </div><div class="memdoc">

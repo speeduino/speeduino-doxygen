@@ -1,6 +1,7 @@
 var searchData=
 [
   ['saveconfig',['saveConfig',['../comms_8h.html#a688d00bbabd28fbaf9e0c50eca3adeae',1,'comms.h']]],
+  ['secondserial_5fcommand',['secondserial_Command',['../cancomms_8h.html#ae74ebc077c71190a67eb90dcbf24130c',1,'secondserial_Command():&#160;cancomms.ino'],['../cancomms_8ino.html#ae74ebc077c71190a67eb90dcbf24130c',1,'secondserial_Command():&#160;cancomms.ino']]],
   ['sendcancommand',['sendCancommand',['../cancomms_8h.html#abaedf59c4501a2aa6e3f7256988daeb3',1,'sendCancommand(uint8_t cmdtype, uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress):&#160;cancomms.ino'],['../cancomms_8ino.html#aba6b98badfa79c5487bc5b3c6008c7e9',1,'sendCancommand(uint8_t cmdtype, uint16_t canaddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress):&#160;cancomms.ino']]],
   ['sendcanvalues',['sendcanValues',['../cancomms_8h.html#a5f1d7c8158f3200b7536a476eed0cbc4',1,'sendcanValues(uint16_t offset, uint16_t packetLength, byte cmd, byte portNum):&#160;cancomms.ino'],['../cancomms_8ino.html#a4862af77fe584dfc12088631c39a0b86',1,'sendcanValues(uint16_t offset, uint16_t packetLength, byte cmd, byte portType):&#160;cancomms.ino']]],
   ['sendcompositelog',['sendCompositeLog',['../comms_8h.html#aef27fab15e75454b7849c08ae33a8706',1,'sendCompositeLog():&#160;comms.ino'],['../comms_8ino.html#aef27fab15e75454b7849c08ae33a8706',1,'sendCompositeLog():&#160;comms.ino']]],
