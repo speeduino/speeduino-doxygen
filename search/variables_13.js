@@ -45,7 +45,6 @@ var searchData=
   ['unused10_5f68',['unused10_68',['../structconfig9.html#a5cb389e02de5f08294a0d271706a3080',1,'config9::unused10_68()'],['../globals_8h.html#a10c5c15a9ae526fcdeda08b494e78278',1,'unused10_68():&#160;globals.h']]],
   ['unused11_5f123_5f191',['unused11_123_191',['../structconfig10.html#a971f7e3eea7dbe300edb5f3a90b73dc6',1,'config10::unused11_123_191()'],['../globals_8h.html#a312e3a0b5bd9d0109d94e9846f723797',1,'unused11_123_191():&#160;globals.h']]],
   ['unused1_5f3c',['unused1_3c',['../structconfig2.html#afc25673c74902346f73f8141d3aaae47',1,'config2::unused1_3c()'],['../globals_8h.html#a8a0bf0c179b38be1776a9253458f5137',1,'unused1_3c():&#160;globals.h']]],
-  ['unused2_5f0',['unused2_0',['../structconfig2.html#aacd814a7605f45f8f6bb4ba6c168d9bf',1,'config2::unused2_0()'],['../globals_8h.html#ac25f9e5c6382d4f791fe8b95980cd2eb',1,'unused2_0():&#160;globals.h']]],
   ['unused2_5f1',['unused2_1',['../structconfig2.html#a6a69959377469230cbc52d2826b17679',1,'config2::unused2_1()'],['../globals_8h.html#a808a0cd4c69befaf8ac5636f964a18e3',1,'unused2_1():&#160;globals.h']]],
   ['unused2_5f2',['unused2_2',['../structconfig2.html#ae4d19b41a132c21eccd9e3601564b9d5',1,'config2::unused2_2()'],['../globals_8h.html#a63767925032a2f254c7beb8b111cd984',1,'unused2_2():&#160;globals.h']]],
   ['unused2_5f39',['unused2_39',['../structconfig2.html#af4b2ef0e83f7b558516cabe26c8776ea',1,'config2::unused2_39()'],['../globals_8h.html#a07ce3e2fb34a01d9277e3c07c86924c0',1,'unused2_39():&#160;globals.h']]],

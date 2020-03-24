@@ -46,5 +46,6 @@ var searchData=
   ['rpmdelta',['rpmDelta',['../crank_maths_8h.html#a9c18d1792dc4e9448e75d44fb92b65a5',1,'crankMaths.h']]],
   ['rpmdot',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
   ['running',['RUNNING',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'scheduler.h']]],
-  ['runsecs',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]]
+  ['runsecs',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10',['runSecsX10',['../globals_8h.html#a29197160dd9dbb42a990b1fc58329669',1,'runSecsX10():&#160;globals.ino'],['../globals_8ino.html#a29197160dd9dbb42a990b1fc58329669',1,'runSecsX10():&#160;globals.ino']]]
 ];
