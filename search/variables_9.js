@@ -63,7 +63,7 @@ var searchData=
   ['idleload',['idleLoad',['../structstatuses.html#acdb392d9fd0df7f69570c4d1124ff54a',1,'statuses']]],
   ['idleon',['idleOn',['../idle_8h.html#a1524e6afb86c3952d4552e9abe2de8aa',1,'idle.h']]],
   ['idlestepper',['idleStepper',['../idle_8h.html#ade7b38d1e8feac00386abec2e1fac754',1,'idle.h']]],
-  ['idletapersize',['idleTaperSize',['../structconfig2.html#a076012f326a5704ecb5c2452046da1b1',1,'config2::idleTaperSize()'],['../globals_8h.html#a5ea269df1c053c2817f78930818a6642',1,'idleTaperSize():&#160;globals.h']]],
+  ['idletapertime',['idleTaperTime',['../structconfig2.html#ae80926a4c6276d5d93402006bb39a3f4',1,'config2::idleTaperTime()'],['../globals_8h.html#a0dfc61d807b68005c7bd5e71f660091d',1,'idleTaperTime():&#160;globals.h']]],
   ['idletargettable',['idleTargetTable',['../globals_8h.html#ad6be7b60640d9427ea4a0444abd99825',1,'idleTargetTable():&#160;globals.ino'],['../globals_8ino.html#ad6be7b60640d9427ea4a0444abd99825',1,'idleTargetTable():&#160;globals.ino']]],
   ['idleupactive',['idleUpActive',['../structstatuses.html#a16ea33ccc24360848dfc2f9b5b23cbb5',1,'statuses']]],
   ['idleupadder',['idleUpAdder',['../structconfig2.html#a824c0a914e756485f21ee62b36fbd66a',1,'config2::idleUpAdder()'],['../globals_8h.html#aa75b189ef4c3a3a186e3a7d2c0584672',1,'idleUpAdder():&#160;globals.h']]],
