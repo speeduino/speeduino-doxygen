@@ -15,7 +15,7 @@ var searchData=
   ['reado2',['readO2',['../sensors_8h.html#abaa2344c6602c1f289015e19145aaf60',1,'readO2():&#160;sensors.ino'],['../sensors_8ino.html#abaa2344c6602c1f289015e19145aaf60',1,'readO2():&#160;sensors.ino']]],
   ['reado2_5f2',['readO2_2',['../sensors_8h.html#a5bbdb739b2e66680b0459b47eef4d09b',1,'readO2_2():&#160;sensors.ino'],['../sensors_8ino.html#a5bbdb739b2e66680b0459b47eef4d09b',1,'readO2_2():&#160;sensors.ino']]],
   ['readpagecrc32',['readPageCRC32',['../storage_8h.html#a335db842124a03bdd77bb0222b106fd6',1,'readPageCRC32(byte):&#160;storage.ino'],['../storage_8ino.html#aa1596a5e18b8f2792051ccaaec4f7b71',1,'readPageCRC32(byte pageNo):&#160;storage.ino']]],
-  ['readtps',['readTPS',['../sensors_8h.html#ad942ccf9ccea3be1e541646dc4945a99',1,'readTPS():&#160;sensors.ino'],['../sensors_8ino.html#ad942ccf9ccea3be1e541646dc4945a99',1,'readTPS():&#160;sensors.ino']]],
+  ['readtps',['readTPS',['../sensors_8h.html#abe6b81033419b88b8aee5362a3891dba',1,'readTPS(bool=true):&#160;sensors.ino'],['../sensors_8ino.html#aaa1334feb8262c5513115ceaaf2c8f74',1,'readTPS(bool useFilter):&#160;sensors.ino']]],
   ['ready',['READY',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9a6564f2f3e15be06b670547bbcaaf0798',1,'timers.h']]],
   ['realtime_5fbase_5faddress',['realtime_base_address',['../structconfig9.html#ada84f6a432c16cde3e6d6632db6d83f2',1,'config9::realtime_base_address()'],['../globals_8h.html#a83941768f8eef55d0aa69edffbf700a1',1,'realtime_base_address():&#160;globals.h']]],
   ['receivecalibration',['receiveCalibration',['../comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451',1,'receiveCalibration(byte):&#160;comms.ino'],['../comms_8ino.html#a9262c29790543b70f25aa2912caa45fc',1,'receiveCalibration(byte tableID):&#160;comms.ino']]],
