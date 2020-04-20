@@ -20,6 +20,7 @@ var searchData=
   ['getcrankangle_5fnon360',['getCrankAngle_non360',['../decoders_8h.html#a404404c6e853a90a87263b68d3d34fcd',1,'getCrankAngle_non360():&#160;decoders.ino'],['../decoders_8ino.html#a404404c6e853a90a87263b68d3d34fcd',1,'getCrankAngle_non360():&#160;decoders.ino']]],
   ['getcrankangle_5fsubaru67',['getCrankAngle_Subaru67',['../decoders_8h.html#a1a21ba166acb802b82e87a10654d72d2',1,'getCrankAngle_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#a1a21ba166acb802b82e87a10654d72d2',1,'getCrankAngle_Subaru67():&#160;decoders.ino']]],
   ['getcrankangle_5fthirtysixminus222',['getCrankAngle_ThirtySixMinus222',['../decoders_8h.html#a07aaad916ec6e8e71cd1327053477d71',1,'getCrankAngle_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#a07aaad916ec6e8e71cd1327053477d71',1,'getCrankAngle_ThirtySixMinus222():&#160;decoders.ino']]],
+  ['getgear',['getGear',['../sensors_8ino.html#a8f75a64219ff8fde23bae8137587b69a',1,'sensors.ino']]],
   ['getnexterror',['getNextError',['../errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2',1,'getNextError():&#160;errors.ino'],['../errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2',1,'getNextError():&#160;errors.ino']]],
   ['getpagevalue',['getPageValue',['../comms_8h.html#a6e4de3f94bb4f623d4c68cf0e2d8bf2d',1,'getPageValue(byte, uint16_t):&#160;comms.ino'],['../comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2',1,'getPageValue(byte page, uint16_t valueAddress):&#160;comms.ino']]],
   ['getrpm_5f24x',['getRPM_24X',['../decoders_8h.html#ab9b8246d743901eb44588511a37b19a0',1,'getRPM_24X():&#160;decoders.ino'],['../decoders_8ino.html#ab9b8246d743901eb44588511a37b19a0',1,'getRPM_24X():&#160;decoders.ino']]],
@@ -39,6 +40,7 @@ var searchData=
   ['getrpm_5fnon360',['getRPM_non360',['../decoders_8h.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino'],['../decoders_8ino.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino']]],
   ['getrpm_5fsubaru67',['getRPM_Subaru67',['../decoders_8h.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino']]],
   ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino']]],
+  ['getspeed',['getSpeed',['../sensors_8ino.html#a51bbf590550aa8ecee9510de409e7e00',1,'sensors.ino']]],
   ['getve1',['getVE1',['../speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino'],['../speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino']]],
   ['getve2',['getVE2',['../speeduino_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino'],['../speeduino_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino']]]
 ];

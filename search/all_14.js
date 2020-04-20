@@ -15,6 +15,7 @@ var searchData=
   ['vss',['vss',['../structstatuses.html#a61726072912fe6f6a84e6e2558fc9805',1,'statuses']]],
   ['vssenable',['vssEnable',['../structconfig2.html#a59584636d7858a5f20e3d7fa57d2af0e',1,'config2::vssEnable()'],['../globals_8h.html#ab0dcef61a55028a9b56aad91c65ce606',1,'vssEnable():&#160;globals.h']]],
   ['vsspullup',['vssPullup',['../structconfig2.html#ac2dd1e59d80929cf4a2a92c7e61c5a04',1,'config2::vssPullup()'],['../globals_8h.html#a5ab6d10bf53fa3be0c2bd0684b19b04b',1,'vssPullup():&#160;globals.h']]],
+  ['vsspulse',['vssPulse',['../sensors_8ino.html#ac61935e9606518571da703b5ea3a2474',1,'sensors.ino']]],
   ['vsspulsesperkm',['vssPulsesPerKm',['../structconfig2.html#a280f5b2eeb45fc4dd14686462ba98011',1,'config2::vssPulsesPerKm()'],['../globals_8h.html#a161d197473b990da59ad7db2c12a6a43',1,'vssPulsesPerKm():&#160;globals.h']]],
   ['vssratio1',['vssRatio1',['../structconfig2.html#ae432b7663bf3a0a5f196890b7c00bd28',1,'config2::vssRatio1()'],['../globals_8h.html#af830e79eaee78106665f3e4ba12276a9',1,'vssRatio1():&#160;globals.h']]],
   ['vssratio2',['vssRatio2',['../structconfig2.html#ab6f8315f0c759adfa9c6650e59fdb190',1,'config2::vssRatio2()'],['../globals_8h.html#a994a079695d8f58c8c31d00fc4054f08',1,'vssRatio2():&#160;globals.h']]],
