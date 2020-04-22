@@ -103,7 +103,7 @@ var searchData=
   ['coilhigh',['coilHIGH',['../scheduled_i_o_8h.html#aff22d364847ac0036d469def4eadf94b',1,'scheduledIO.h']]],
   ['coillow',['coilLOW',['../scheduled_i_o_8h.html#a0a608a1611eb74521eb52ef5ecd29fe1',1,'scheduledIO.h']]],
   ['command',['command',['../comms_8h.html#ab8982e36e76fb7a0600ece003e4631db',1,'command():&#160;comms.ino'],['../comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db',1,'command():&#160;comms.ino']]],
-  ['commandbuttons',['commandButtons',['../comms_8h.html#a4b3ca38e7e2fe40e7f82a4b7d7f0669d',1,'commandButtons(int16_t):&#160;comms.h'],['../comms_8ino.html#ab85f7cb98fa974ed88b4c859ea1d3f44',1,'commandButtons(int buttonCommand):&#160;comms.ino']]],
+  ['commandbuttons',['commandButtons',['../comms_8h.html#a4b3ca38e7e2fe40e7f82a4b7d7f0669d',1,'comms.h']]],
   ['comms_2eh',['comms.h',['../comms_8h.html',1,'']]],
   ['comms_2eino',['comms.ino',['../comms_8ino.html',1,'']]],
   ['completedhomesteps',['completedHomeSteps',['../idle_8h.html#a502e8f4e37a2bfb2e7f11b00ef3443a7',1,'idle.h']]],
