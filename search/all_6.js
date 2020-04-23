@@ -75,7 +75,7 @@ var searchData=
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
   ['fuelload2',['fuelLoad2',['../structstatuses.html#aa5976939f0de5cb03dfd053b4145b3b8',1,'statuses']]],
   ['fuelmap2page',['fuelMap2Page',['../comms_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'comms.h']]],
-  ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'speeduino.h']]],
+  ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino'],['../speeduino_8ino.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino']]],
   ['fuelpumpon',['fuelPumpOn',['../structstatuses.html#a6b992916376ec154bd56fa7f8fbd0d6f',1,'statuses']]],
   ['fuelpumppin',['fuelPumpPin',['../structconfig4.html#a0e79b037e038ebad983fdec70be766a4',1,'config4::fuelPumpPin()'],['../globals_8h.html#a853f94bf35975c4fc4592dc114c96c44',1,'fuelPumpPin():&#160;globals.h']]],
   ['fuelschedule',['FuelSchedule',['../struct_fuel_schedule.html',1,'']]],

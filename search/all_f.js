@@ -75,6 +75,7 @@ var searchData=
   ['pintrigger',['pinTrigger',['../globals_8h.html#a7f4858230128aedeb4be4f34058a8c58',1,'pinTrigger():&#160;globals.ino'],['../globals_8ino.html#a7f4858230128aedeb4be4f34058a8c58',1,'pinTrigger():&#160;globals.ino']]],
   ['pintrigger2',['pinTrigger2',['../globals_8h.html#a18a8717fbf36f4169602422e5ab63ef9',1,'pinTrigger2():&#160;globals.ino'],['../globals_8ino.html#a18a8717fbf36f4169602422e5ab63ef9',1,'pinTrigger2():&#160;globals.ino']]],
   ['pintrigger3',['pinTrigger3',['../globals_8h.html#a0247d84fdc266d9278396e1d07e2b1aa',1,'pinTrigger3():&#160;globals.ino'],['../globals_8ino.html#a0247d84fdc266d9278396e1d07e2b1aa',1,'pinTrigger3():&#160;globals.ino']]],
+  ['pinvss',['pinVSS',['../globals_8h.html#a098f702137cff9534e2550439a403042',1,'pinVSS():&#160;globals.ino'],['../globals_8ino.html#a098f702137cff9534e2550439a403042',1,'pinVSS():&#160;globals.ino']]],
   ['pinvvt_5f1',['pinVVT_1',['../globals_8h.html#aac55f6a9243ce7472b9efca18c44344d',1,'pinVVT_1():&#160;globals.ino'],['../globals_8ino.html#aac55f6a9243ce7472b9efca18c44344d',1,'pinVVT_1():&#160;globals.ino']]],
   ['pinvvt_5f2',['pinVVT_2',['../globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158',1,'pinVVT_2():&#160;globals.ino'],['../globals_8ino.html#a343ea2f23c3fec36aa9cdf1eeb0e2158',1,'pinVVT_2():&#160;globals.ino']]],
   ['popqueue',['popQueue',['../scheduler_8h.html#a13ccea36db51231f277cc9133f43703b',1,'scheduler.h']]],

@@ -53,7 +53,7 @@ var searchData=
   ['fuelalgorithm',['fuelAlgorithm',['../structconfig2.html#a1e6fb4dedc8053432ec2390291a9d820',1,'config2::fuelAlgorithm()'],['../globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379',1,'fuelAlgorithm():&#160;globals.h']]],
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
   ['fuelload2',['fuelLoad2',['../structstatuses.html#aa5976939f0de5cb03dfd053b4145b3b8',1,'statuses']]],
-  ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'speeduino.h']]],
+  ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino'],['../speeduino_8ino.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino']]],
   ['fuelpumpon',['fuelPumpOn',['../structstatuses.html#a6b992916376ec154bd56fa7f8fbd0d6f',1,'statuses']]],
   ['fuelpumppin',['fuelPumpPin',['../structconfig4.html#a0e79b037e038ebad983fdec70be766a4',1,'config4::fuelPumpPin()'],['../globals_8h.html#a853f94bf35975c4fc4592dc114c96c44',1,'fuelPumpPin():&#160;globals.h']]],
   ['fuelschedule1',['fuelSchedule1',['../scheduler_8h.html#aa2fb1ff9030999139baf10625e6c2a87',1,'fuelSchedule1():&#160;scheduler.ino'],['../scheduler_8ino.html#aa2fb1ff9030999139baf10625e6c2a87',1,'fuelSchedule1():&#160;scheduler.ino']]],

@@ -73,23 +73,24 @@ $(function() {
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduled_i_o_8h_source.html">scheduledIO.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac34e49c74a46269aa5e94e8c71a7bc5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b">TS_CommandButtonsHandler</a> (int buttonCommand)</td></tr>
-<tr class="separator:ac34e49c74a46269aa5e94e8c71a7bc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3303d5680b126dd8f366965487aabaa5"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_t_s___command_button_handler_8ino.html#a3303d5680b126dd8f366965487aabaa5">TS_CommandButtonsHandler</a> (int buttonCommand)</td></tr>
+<tr class="separator:a3303d5680b126dd8f366965487aabaa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Header file for the TunerStudio command handler The command handler manages all the inputs FROM TS which are issued when a command button is clicked by the user </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ac34e49c74a46269aa5e94e8c71a7bc5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac34e49c74a46269aa5e94e8c71a7bc5b">&#9670;&nbsp;</a></span>TS_CommandButtonsHandler()</h2>
+<a id="a3303d5680b126dd8f366965487aabaa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3303d5680b126dd8f366965487aabaa5">&#9670;&nbsp;</a></span>TS_CommandButtonsHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void TS_CommandButtonsHandler </td>
+          <td class="memname">uint16_t TS_CommandButtonsHandler </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>buttonCommand</em></td><td>)</td>
@@ -97,11 +98,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buttonCommand</td><td>The command number of the button that was clicked. See TS_CommendButtonHandler.h for a list of button IDs </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint16_t If the button command remains incomplete (IE When it must wait for a certain action to complete) the return value is eqaul to the button ID. Otherwise this function returns 0 </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_cgraph.png" border="0" usemap="#_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_cgraph" alt=""/></div>
-<map name="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_cgraph" id="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_cgraph">
+<div class="center"><img src="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_cgraph.png" border="0" usemap="#_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_cgraph" alt=""/></div>
+<map name="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_cgraph" id="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_cgraph">
 <area shape="rect" id="node2" href="scheduled_i_o_8h.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="273,5,398,32"/>
 <area shape="rect" id="node3" href="scheduled_i_o_8h.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="273,56,398,83"/>
 <area shape="rect" id="node4" href="scheduled_i_o_8h.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="273,107,398,133"/>
@@ -154,8 +162,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_icgraph.png" border="0" usemap="#_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_icgraph" alt=""/></div>
-<map name="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_icgraph" id="_t_s___command_button_handler_8ino_ac34e49c74a46269aa5e94e8c71a7bc5b_icgraph">
+<div class="center"><img src="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_icgraph.png" border="0" usemap="#_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_icgraph" alt=""/></div>
+<map name="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_icgraph" id="_t_s___command_button_handler_8ino_a3303d5680b126dd8f366965487aabaa5_icgraph">
 <area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="267,5,353,32"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="401,5,452,32"/>
 </map>
