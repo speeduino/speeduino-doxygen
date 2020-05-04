@@ -85,6 +85,7 @@ var searchData=
   ['bit_5ftimer_5f1hz',['BIT_TIMER_1HZ',['../globals_8h.html#ae7a7715fb960d9b554109d35d4f2e015',1,'globals.h']]],
   ['bit_5ftimer_5f30hz',['BIT_TIMER_30HZ',['../globals_8h.html#a1da51eb60e6af062219be18c4c082c3a',1,'globals.h']]],
   ['bit_5ftimer_5f4hz',['BIT_TIMER_4HZ',['../globals_8h.html#ac47de8d6aa20586a60b104ddab0de6f2',1,'globals.h']]],
+  ['bit_5ftoggle',['BIT_TOGGLE',['../globals_8h.html#a117dd62b706ad8c85c76ed08c9292cef',1,'globals.h']]],
   ['board_5favr2560_2eh',['board_avr2560.h',['../board__avr2560_8h.html',1,'']]],
   ['board_5favr2560_2eino',['board_avr2560.ino',['../board__avr2560_8ino.html',1,'']]],
   ['board_5fstm32_5fgeneric_2eh',['board_stm32_generic.h',['../board__stm32__generic_8h.html',1,'']]],

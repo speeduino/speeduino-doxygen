@@ -102,6 +102,8 @@ Macros</h2></td></tr>
 <tr class="separator:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76fdd8cbc1fedd623886785637bc334d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(var,  pos)&#160;&#160;&#160;!!((var) &amp; (1U&lt;&lt;(pos)))</td></tr>
 <tr class="separator:a76fdd8cbc1fedd623886785637bc334d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117dd62b706ad8c85c76ed08c9292cef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a117dd62b706ad8c85c76ed08c9292cef">BIT_TOGGLE</a>(var,  pos)&#160;&#160;&#160;((var)^= 1UL &lt;&lt; (pos))</td></tr>
+<tr class="separator:a117dd62b706ad8c85c76ed08c9292cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(c)&#160;&#160;&#160;(noInterrupts(); {c} interrupts();)</td></tr>
 <tr class="separator:a862109559b900adee5fc54a117a98766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1bdc2263b1a4272baa3897ea6eba85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3a1bdc2263b1a4272baa3897ea6eba85">MS_IN_MINUTE</a>&#160;&#160;&#160;60000</td></tr>
@@ -622,6 +624,14 @@ Variables</h2></td></tr>
 <tr class="separator:a0899ead1d490b4e1fe51150721f9b88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49404e6dfc26294958977ca9bb237a02"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a49404e6dfc26294958977ca9bb237a02">runSecsX10</a></td></tr>
 <tr class="separator:a49404e6dfc26294958977ca9bb237a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73e27da69bd895118aae004eb0640e88"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a73e27da69bd895118aae004eb0640e88">HWTest_INJ</a></td></tr>
+<tr class="separator:a73e27da69bd895118aae004eb0640e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df81dd4ab0133415aa4794f782c24c4"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1df81dd4ab0133415aa4794f782c24c4">HWTest_INJ_50pc</a></td></tr>
+<tr class="separator:a1df81dd4ab0133415aa4794f782c24c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3995e40e6c7c3fb6e7d9d7bc515c151"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151">HWTest_IGN</a></td></tr>
+<tr class="separator:aa3995e40e6c7c3fb6e7d9d7bc515c151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc85cb39a45d3b625b455e429478285"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aedc85cb39a45d3b625b455e429478285">HWTest_IGN_50pc</a></td></tr>
+<tr class="separator:aedc85cb39a45d3b625b455e429478285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c8e1f148cca41784838dc5e4d5effdb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb">resetControl</a></td></tr>
 <tr class="separator:a6c8e1f148cca41784838dc5e4d5effdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242654f754c0d3eec14d536259ed96b8"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a242654f754c0d3eec14d536259ed96b8">TIMER_mask</a></td></tr>
@@ -2302,6 +2312,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define BIT_TIMER_4HZ&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a117dd62b706ad8c85c76ed08c9292cef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117dd62b706ad8c85c76ed08c9292cef">&#9670;&nbsp;</a></span>BIT_TOGGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BIT_TOGGLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pos&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((var)^= 1UL &lt;&lt; (pos))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6044,6 +6082,66 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3995e40e6c7c3fb6e7d9d7bc515c151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3995e40e6c7c3fb6e7d9d7bc515c151">&#9670;&nbsp;</a></span>HWTest_IGN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile byte HWTest_IGN</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Each bit in this variable represents one of the ignition channels and it's HW test status </p>
+
+</div>
+</div>
+<a id="aedc85cb39a45d3b625b455e429478285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc85cb39a45d3b625b455e429478285">&#9670;&nbsp;</a></span>HWTest_IGN_50pc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile byte HWTest_IGN_50pc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Each bit in this variable represents one of the ignition channels and it's 50% HW test status </p>
+
+</div>
+</div>
+<a id="a73e27da69bd895118aae004eb0640e88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73e27da69bd895118aae004eb0640e88">&#9670;&nbsp;</a></span>HWTest_INJ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile byte HWTest_INJ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Each bit in this variable represents one of the injector channels and it's HW test status </p>
+
+</div>
+</div>
+<a id="a1df81dd4ab0133415aa4794f782c24c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df81dd4ab0133415aa4794f782c24c4">&#9670;&nbsp;</a></span>HWTest_INJ_50pc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile byte HWTest_INJ_50pc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Each bit in this variable represents one of the injector channels and it's 50% HW test status </p>
 
 </div>
 </div>
