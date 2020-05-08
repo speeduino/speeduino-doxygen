@@ -10,6 +10,8 @@ var searchData=
   ['simple_5fboost_5fp',['SIMPLE_BOOST_P',['../auxiliaries_8h.html#a9f143e315acc65b79c5267d6e5bc7be7',1,'auxiliaries.h']]],
   ['size_5fbyte',['SIZE_BYTE',['../globals_8h.html#ab51e982ba3dd0fcb3f2f5c4f1006197b',1,'globals.h']]],
   ['size_5fint',['SIZE_INT',['../globals_8h.html#a6e9340affe2ce06ae958bd5ce9c7fd4d',1,'globals.h']]],
+  ['soft_5flimit_5ffixed',['SOFT_LIMIT_FIXED',['../globals_8h.html#a9b02a76e4f295158516d1b854701d96c',1,'globals.h']]],
+  ['soft_5flimit_5frelative',['SOFT_LIMIT_RELATIVE',['../globals_8h.html#a63163302f0f29e72041ea8218e37860f',1,'globals.h']]],
   ['staging_5fmode_5fauto',['STAGING_MODE_AUTO',['../globals_8h.html#a439eba0516d9b67912c0fc4867526392',1,'globals.h']]],
   ['staging_5fmode_5ftable',['STAGING_MODE_TABLE',['../globals_8h.html#abb88d12f9f2f06e74018be7bb0a699a7',1,'globals.h']]],
   ['stepper_5fbackward',['STEPPER_BACKWARD',['../idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.h']]],

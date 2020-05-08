@@ -322,6 +322,10 @@ Macros</h2></td></tr>
 <tr class="separator:a37831f487dad7c1f20ec7f88978b1a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8a2d06ef12d53416a4756a00b5ba742"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa8a2d06ef12d53416a4756a00b5ba742">CLOSED_LOOP_BOOST</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:aa8a2d06ef12d53416a4756a00b5ba742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b02a76e4f295158516d1b854701d96c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9b02a76e4f295158516d1b854701d96c">SOFT_LIMIT_FIXED</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a9b02a76e4f295158516d1b854701d96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63163302f0f29e72041ea8218e37860f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a63163302f0f29e72041ea8218e37860f">SOFT_LIMIT_RELATIVE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a63163302f0f29e72041ea8218e37860f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41d6f5cff2d753af25be4f65794b530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab41d6f5cff2d753af25be4f65794b530">VVT_MODE_ONOFF</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ab41d6f5cff2d753af25be4f65794b530"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a610d6126490fdd5a10bbf5dbd838e4d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a610d6126490fdd5a10bbf5dbd838e4d0">VVT_MODE_OPEN_LOOP</a>&#160;&#160;&#160;1</td></tr>
@@ -648,6 +652,8 @@ Variables</h2></td></tr>
 <tr class="separator:a23217fd739a1c2a171395c33cb8b1f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab266557a1d549082be913b4d2edb15a1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab266557a1d549082be913b4d2edb15a1">battVCorMode</a></td></tr>
 <tr class="separator:ab266557a1d549082be913b4d2edb15a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade339ae0d1d552cb27a2a267a1ae66ef"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade339ae0d1d552cb27a2a267a1ae66ef">SoftLimitMode</a></td></tr>
+<tr class="separator:ade339ae0d1d552cb27a2a267a1ae66ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0bf0c179b38be1776a9253458f5137"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8a0bf0c179b38be1776a9253458f5137">unused1_3c</a></td></tr>
 <tr class="separator:a8a0bf0c179b38be1776a9253458f5137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42184453d6f4128baaafeac67728a8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">wueValues</a> [10]</td></tr>
@@ -3364,6 +3370,34 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define SIZE_INT&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9b02a76e4f295158516d1b854701d96c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b02a76e4f295158516d1b854701d96c">&#9670;&nbsp;</a></span>SOFT_LIMIT_FIXED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SOFT_LIMIT_FIXED&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63163302f0f29e72041ea8218e37860f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63163302f0f29e72041ea8218e37860f">&#9670;&nbsp;</a></span>SOFT_LIMIT_RELATIVE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SOFT_LIMIT_RELATIVE&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9928,6 +9962,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">byte secondaryTriggerEdge</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade339ae0d1d552cb27a2a267a1ae66ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade339ae0d1d552cb27a2a267a1ae66ef">&#9670;&nbsp;</a></span>SoftLimitMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte SoftLimitMode</td>
         </tr>
       </table>
 </div><div class="memdoc">
