@@ -53,5 +53,6 @@ var searchData=
   ['correctionsoftrevlimit',['correctionSoftRevLimit',['../corrections_8h.html#a98f088367cb316a5a3baca3bd2195ba1',1,'correctionSoftRevLimit(int8_t):&#160;corrections.ino'],['../corrections_8ino.html#a6faae52d40cbf76c64b801882338a98a',1,'correctionSoftRevLimit(int8_t advance):&#160;corrections.ino']]],
   ['correctionwue',['correctionWUE',['../corrections_8h.html#a3ff5b940d7359bd9ff03c6d87d9c0705',1,'correctionWUE():&#160;corrections.ino'],['../corrections_8ino.html#a3ff5b940d7359bd9ff03c6d87d9c0705',1,'correctionWUE():&#160;corrections.ino']]],
   ['crankinggetrpm',['crankingGetRPM',['../decoders_8h.html#a4425e73f527b0288d73cb9017b7e9690',1,'crankingGetRPM(byte):&#160;decoders.h'],['../decoders_8ino.html#a52c2d1d162956e7affceada050de88cd',1,'crankingGetRPM(byte totalTeeth):&#160;decoders.ino']]],
-  ['createlog',['createLog',['../logger_8h.html#a4e0d82d62bdb38659a1404baa8de5882',1,'createLog(uint8_t *array):&#160;logger.ino'],['../logger_8ino.html#a4082a089a57349587131c357b745dde3',1,'createLog(uint8_t *logBuffer):&#160;logger.ino']]]
+  ['createlog',['createLog',['../logger_8h.html#a4e0d82d62bdb38659a1404baa8de5882',1,'createLog(uint8_t *array):&#160;logger.ino'],['../logger_8ino.html#a4082a089a57349587131c357b745dde3',1,'createLog(uint8_t *logBuffer):&#160;logger.ino']]],
+  ['createsdlog',['createSDLog',['../logger_8h.html#ab5c6cf77fa8fad46c7ca6e865f7c62ca',1,'logger.h']]]
 ];

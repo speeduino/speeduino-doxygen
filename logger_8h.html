@@ -78,13 +78,17 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a412b9fb00056eedfd7abea937207928d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a412b9fb00056eedfd7abea937207928d">LOG_ENTRY_SIZE</a>&#160;&#160;&#160;101</td></tr>
+<tr class="memitem:a412b9fb00056eedfd7abea937207928d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a412b9fb00056eedfd7abea937207928d">LOG_ENTRY_SIZE</a>&#160;&#160;&#160;104</td></tr>
 <tr class="separator:a412b9fb00056eedfd7abea937207928d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a105e5b5ebbe2ea26e8e49dbdca6f6154"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a105e5b5ebbe2ea26e8e49dbdca6f6154">SD_LOG_ENTRY_SIZE</a>&#160;&#160;&#160;104</td></tr>
+<tr class="separator:a105e5b5ebbe2ea26e8e49dbdca6f6154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a4e0d82d62bdb38659a1404baa8de5882"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a4e0d82d62bdb38659a1404baa8de5882">createLog</a> (uint8_t *array)</td></tr>
 <tr class="separator:a4e0d82d62bdb38659a1404baa8de5882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5c6cf77fa8fad46c7ca6e865f7c62ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#ab5c6cf77fa8fad46c7ca6e865f7c62ca">createSDLog</a> (uint8_t *array)</td></tr>
+<tr class="separator:ab5c6cf77fa8fad46c7ca6e865f7c62ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>File for generating log files and meta data. </p>
@@ -98,11 +102,26 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define LOG_ENTRY_SIZE&#160;&#160;&#160;101</td>
+          <td class="memname">#define LOG_ENTRY_SIZE&#160;&#160;&#160;104</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <p>The size of the live data packet. This MUST match ochBlockSize setting in the ini file </p>
+
+</div>
+</div>
+<a id="a105e5b5ebbe2ea26e8e49dbdca6f6154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a105e5b5ebbe2ea26e8e49dbdca6f6154">&#9670;&nbsp;</a></span>SD_LOG_ENTRY_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_LOG_ENTRY_SIZE&#160;&#160;&#160;104</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The size of the live data packet used by the SD car. </p>
 
 </div>
 </div>
@@ -130,6 +149,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node2" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="140,5,245,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="ab5c6cf77fa8fad46c7ca6e865f7c62ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c6cf77fa8fad46c7ca6e865f7c62ca">&#9670;&nbsp;</a></span>createSDLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void createSDLog </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>array</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

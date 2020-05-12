@@ -85,7 +85,7 @@ Macros</h2></td></tr>
 <tr class="separator:a9ce3b4cfba89b0ae5dfa8a4f62633b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaf8f9a9147dc095eb424b8020cc3f26"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#abaf8f9a9147dc095eb424b8020cc3f26">KNOCK_MODE_ANALOG</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:abaf8f9a9147dc095eb424b8020cc3f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a02d55c320840c9f60cf3b53c50ed34d1">VSS_GEAR_HYSTERESIS</a>&#160;&#160;&#160;2</td></tr>
+<tr class="memitem:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a02d55c320840c9f60cf3b53c50ed34d1">VSS_GEAR_HYSTERESIS</a>&#160;&#160;&#160;5</td></tr>
 <tr class="separator:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546e9cb3295371234f60dcf3beae19dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">ADC_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
 <tr class="memdesc:a546e9cb3295371234f60dcf3beae19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from playground.arduino.cc/Main/Smooth But removes the use of floats and uses 8 bits of fixed precision.  <a href="#a546e9cb3295371234f60dcf3beae19dd">More...</a><br /></td></tr>
@@ -108,6 +108,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ac61935e9606518571da703b5ea3a2474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ac61935e9606518571da703b5ea3a2474">vssPulse</a> ()</td></tr>
 <tr class="memdesc:ac61935e9606518571da703b5ea3a2474"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ISR function for VSS pulses.  <a href="#ac61935e9606518571da703b5ea3a2474">More...</a><br /></td></tr>
 <tr class="separator:ac61935e9606518571da703b5ea3a2474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51bbf590550aa8ecee9510de409e7e00"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a51bbf590550aa8ecee9510de409e7e00">getSpeed</a> ()</td></tr>
+<tr class="separator:a51bbf590550aa8ecee9510de409e7e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f75a64219ff8fde23bae8137587b69a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a8f75a64219ff8fde23bae8137587b69a">getGear</a> ()</td></tr>
+<tr class="separator:a8f75a64219ff8fde23bae8137587b69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d90525c9e6c5514dd98142ac8ef943"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#af6d90525c9e6c5514dd98142ac8ef943">readAuxanalog</a> (uint8_t analogPin)</td></tr>
 <tr class="separator:af6d90525c9e6c5514dd98142ac8ef943"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a675a36c43ce440456254784257241b50"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a675a36c43ce440456254784257241b50">readAuxdigital</a> (uint8_t digitalPin)</td></tr>
@@ -153,10 +157,10 @@ Variables</h2></td></tr>
 <tr class="separator:a69bc1b9a9664fa2780dc055fe2063d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0200bd9aa8dfd73f57c4b73785aa8e5"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#af0200bd9aa8dfd73f57c4b73785aa8e5">MAPlast_time</a></td></tr>
 <tr class="separator:af0200bd9aa8dfd73f57c4b73785aa8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af93edfef06bea43d3b830b976276e874"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#af93edfef06bea43d3b830b976276e874">vssLastPulseTime</a></td></tr>
-<tr class="separator:af93edfef06bea43d3b830b976276e874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a723966427ba8b9e6ca850d1876315f17"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a723966427ba8b9e6ca850d1876315f17">vssLastMinusOnePulseTime</a></td></tr>
-<tr class="separator:a723966427ba8b9e6ca850d1876315f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a927dffe2fe3ac66743170aa6e75447fe"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a927dffe2fe3ac66743170aa6e75447fe">vssLastPulseTime</a></td></tr>
+<tr class="separator:a927dffe2fe3ac66743170aa6e75447fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df8667d3288d7a730f5139bc63267c7"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a7df8667d3288d7a730f5139bc63267c7">vssLastMinusOnePulseTime</a></td></tr>
+<tr class="separator:a7df8667d3288d7a730f5139bc63267c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32d9cc92a334afe210692f1f2c22ea7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#aa32d9cc92a334afe210692f1f2c22ea7">mapErrorCount</a> = 0</td></tr>
 <tr class="separator:aa32d9cc92a334afe210692f1f2c22ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642aa130b71f28170566f1fb7f08a1d5"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a642aa130b71f28170566f1fb7f08a1d5">iatErrorCount</a> = 0</td></tr>
@@ -264,7 +268,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VSS_GEAR_HYSTERESIS&#160;&#160;&#160;2</td>
+          <td class="memname">#define VSS_GEAR_HYSTERESIS&#160;&#160;&#160;5</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -293,6 +297,56 @@ Here is the caller graph for this function:</div>
 <map name="sensors_8h_afc4c1603c3188812d718d348d28cf276_icgraph" id="sensors_8h_afc4c1603c3188812d718d348d28cf276_icgraph">
 <area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="135,5,229,32"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="277,5,336,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8f75a64219ff8fde23bae8137587b69a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f75a64219ff8fde23bae8137587b69a">&#9670;&nbsp;</a></span>getGear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte getGear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="sensors_8h_a8f75a64219ff8fde23bae8137587b69a_icgraph.png" border="0" usemap="#sensors_8h_a8f75a64219ff8fde23bae8137587b69a_icgraph" alt=""/></div>
+<map name="sensors_8h_a8f75a64219ff8fde23bae8137587b69a_icgraph" id="sensors_8h_a8f75a64219ff8fde23bae8137587b69a_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="128,5,179,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a51bbf590550aa8ecee9510de409e7e00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51bbf590550aa8ecee9510de409e7e00">&#9670;&nbsp;</a></span>getSpeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t getSpeed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="sensors_8h_a51bbf590550aa8ecee9510de409e7e00_icgraph.png" border="0" usemap="#sensors_8h_a51bbf590550aa8ecee9510de409e7e00_icgraph" alt=""/></div>
+<map name="sensors_8h_a51bbf590550aa8ecee9510de409e7e00_icgraph" id="sensors_8h_a51bbf590550aa8ecee9510de409e7e00_icgraph">
+<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="136,5,187,32"/>
 </map>
 </div>
 
@@ -962,14 +1016,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a723966427ba8b9e6ca850d1876315f17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a723966427ba8b9e6ca850d1876315f17">&#9670;&nbsp;</a></span>vssLastMinusOnePulseTime</h2>
+<a id="a7df8667d3288d7a730f5139bc63267c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df8667d3288d7a730f5139bc63267c7">&#9670;&nbsp;</a></span>vssLastMinusOnePulseTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long vssLastMinusOnePulseTime</td>
+          <td class="memname">volatile unsigned long vssLastMinusOnePulseTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -977,14 +1031,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af93edfef06bea43d3b830b976276e874"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af93edfef06bea43d3b830b976276e874">&#9670;&nbsp;</a></span>vssLastPulseTime</h2>
+<a id="a927dffe2fe3ac66743170aa6e75447fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927dffe2fe3ac66743170aa6e75447fe">&#9670;&nbsp;</a></span>vssLastPulseTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long vssLastPulseTime</td>
+          <td class="memname">volatile unsigned long vssLastPulseTime</td>
         </tr>
       </table>
 </div><div class="memdoc">

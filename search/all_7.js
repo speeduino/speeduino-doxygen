@@ -1,6 +1,7 @@
 var searchData=
 [
   ['gdata',['Gdata',['../cancomms_8h.html#a22e1d52b3a119f2c90d00f060214ae5c',1,'cancomms.h']]],
+  ['gear',['gear',['../structstatuses.html#a6cbc535835703d8f4b05de0e914479fd',1,'statuses']]],
   ['get3dtablevalue',['get3DTableValue',['../table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f',1,'get3DTableValue(struct table3D *fromTable, int, int):&#160;table.ino'],['../table_8ino.html#a0a23080af7923be625ea14352abe41b2',1,'get3DTableValue(struct table3D *fromTable, int Y_in, int X_in):&#160;table.ino']]],
   ['getadvance',['getAdvance',['../speeduino_8h.html#a1c8f52de96bd5799f6c766514fd4b52e',1,'getAdvance():&#160;speeduino.ino'],['../speeduino_8ino.html#a1c8f52de96bd5799f6c766514fd4b52e',1,'getAdvance():&#160;speeduino.ino']]],
   ['getcamangle_5fmiata9905',['getCamAngle_Miata9905',['../decoders_8h.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino'],['../decoders_8ino.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino']]],
@@ -22,7 +23,7 @@ var searchData=
   ['getcrankangle_5fnon360',['getCrankAngle_non360',['../decoders_8h.html#a404404c6e853a90a87263b68d3d34fcd',1,'getCrankAngle_non360():&#160;decoders.ino'],['../decoders_8ino.html#a404404c6e853a90a87263b68d3d34fcd',1,'getCrankAngle_non360():&#160;decoders.ino']]],
   ['getcrankangle_5fsubaru67',['getCrankAngle_Subaru67',['../decoders_8h.html#a1a21ba166acb802b82e87a10654d72d2',1,'getCrankAngle_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#a1a21ba166acb802b82e87a10654d72d2',1,'getCrankAngle_Subaru67():&#160;decoders.ino']]],
   ['getcrankangle_5fthirtysixminus222',['getCrankAngle_ThirtySixMinus222',['../decoders_8h.html#a07aaad916ec6e8e71cd1327053477d71',1,'getCrankAngle_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#a07aaad916ec6e8e71cd1327053477d71',1,'getCrankAngle_ThirtySixMinus222():&#160;decoders.ino']]],
-  ['getgear',['getGear',['../sensors_8ino.html#a8f75a64219ff8fde23bae8137587b69a',1,'sensors.ino']]],
+  ['getgear',['getGear',['../sensors_8h.html#a8f75a64219ff8fde23bae8137587b69a',1,'getGear():&#160;sensors.ino'],['../sensors_8ino.html#a8f75a64219ff8fde23bae8137587b69a',1,'getGear():&#160;sensors.ino']]],
   ['getnexterror',['getNextError',['../errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2',1,'getNextError():&#160;errors.ino'],['../errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2',1,'getNextError():&#160;errors.ino']]],
   ['getpagevalue',['getPageValue',['../comms_8h.html#a6e4de3f94bb4f623d4c68cf0e2d8bf2d',1,'getPageValue(byte, uint16_t):&#160;comms.ino'],['../comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2',1,'getPageValue(byte page, uint16_t valueAddress):&#160;comms.ino']]],
   ['getrpm',['getRPM',['../decoders_8h.html#a8c1f8aa1c59b7c728b9d0e02a1bb0041',1,'getRPM():&#160;decoders.ino'],['../decoders_8ino.html#a8c1f8aa1c59b7c728b9d0e02a1bb0041',1,'getRPM():&#160;decoders.ino']]],
@@ -43,7 +44,7 @@ var searchData=
   ['getrpm_5fnon360',['getRPM_non360',['../decoders_8h.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino'],['../decoders_8ino.html#afdc8dac2da78abb4ed4d196dedb1a443',1,'getRPM_non360():&#160;decoders.ino']]],
   ['getrpm_5fsubaru67',['getRPM_Subaru67',['../decoders_8h.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino'],['../decoders_8ino.html#ae64f0cadb0a5fa7c7a8fc87ebf8d2c27',1,'getRPM_Subaru67():&#160;decoders.ino']]],
   ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino']]],
-  ['getspeed',['getSpeed',['../sensors_8ino.html#a51bbf590550aa8ecee9510de409e7e00',1,'sensors.ino']]],
+  ['getspeed',['getSpeed',['../sensors_8h.html#a51bbf590550aa8ecee9510de409e7e00',1,'getSpeed():&#160;sensors.ino'],['../sensors_8ino.html#a51bbf590550aa8ecee9510de409e7e00',1,'getSpeed():&#160;sensors.ino']]],
   ['getve1',['getVE1',['../speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino'],['../speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino']]],
   ['getve2',['getVE2',['../speeduino_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino'],['../speeduino_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino']]],
   ['ghigh',['Ghigh',['../cancomms_8h.html#ac08f64a138533ea4637bf1fdc01b73f5',1,'cancomms.h']]],

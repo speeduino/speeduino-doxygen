@@ -8,6 +8,7 @@ var searchData=
   ['scheduler_2eino',['scheduler.ino',['../scheduler_8ino.html',1,'']]],
   ['schedulesset',['schedulesSet',['../struct_schedule.html#aa84914c30d7659179897bd91c94b2421',1,'Schedule::schedulesSet()'],['../struct_fuel_schedule.html#a78d5297afc86a03eb04d942fe77ca5f3',1,'FuelSchedule::schedulesSet()']]],
   ['schedulestatus',['ScheduleStatus',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54',1,'scheduler.h']]],
+  ['sd_5flog_5fentry_5fsize',['SD_LOG_ENTRY_SIZE',['../logger_8h.html#a105e5b5ebbe2ea26e8e49dbdca6f6154',1,'logger.h']]],
   ['sd_5flogger_2eh',['SD_logger.h',['../_s_d__logger_8h.html',1,'']]],
   ['sd_5flogger_2eino',['SD_logger.ino',['../_s_d__logger_8ino.html',1,'']]],
   ['sec_5ftrigger_5f4_5f1',['SEC_TRIGGER_4_1',['../globals_8h.html#a0f43e661d7315d876a457dfdf208a328',1,'globals.h']]],

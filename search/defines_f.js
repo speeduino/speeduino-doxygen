@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['sd_5flog_5fentry_5fsize',['SD_LOG_ENTRY_SIZE',['../logger_8h.html#a105e5b5ebbe2ea26e8e49dbdca6f6154',1,'logger.h']]],
   ['sec_5ftrigger_5f4_5f1',['SEC_TRIGGER_4_1',['../globals_8h.html#a0f43e661d7315d876a457dfdf208a328',1,'globals.h']]],
   ['sec_5ftrigger_5fsingle',['SEC_TRIGGER_SINGLE',['../globals_8h.html#a5674a74a588ec9830f15b27392904f44',1,'globals.h']]],
   ['seqfuelpage',['seqFuelPage',['../comms_8h.html#a2390a3e93194eb3613602fffae68baa0',1,'comms.h']]],

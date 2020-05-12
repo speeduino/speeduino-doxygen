@@ -185,6 +185,7 @@ var searchData=
   ['crankrpm',['crankRPM',['../structstatuses.html#addffd5f8b9833a8e9e946c204b76641e',1,'statuses::crankRPM()'],['../structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae',1,'config4::crankRPM()'],['../globals_8h.html#aef898f8b883749f63caa8e3f3038e1cd',1,'crankRPM():&#160;globals.h']]],
   ['crc32',['CRC32',['../utils_8ino.html#ad49b23f6fe9a42d29402d8683b5860c2',1,'utils.ino']]],
   ['createlog',['createLog',['../logger_8h.html#a4e0d82d62bdb38659a1404baa8de5882',1,'createLog(uint8_t *array):&#160;logger.ino'],['../logger_8ino.html#a4082a089a57349587131c357b745dde3',1,'createLog(uint8_t *logBuffer):&#160;logger.ino']]],
+  ['createsdlog',['createSDLog',['../logger_8h.html#ab5c6cf77fa8fad46c7ca6e865f7c62ca',1,'logger.h']]],
   ['ctpsactive',['CTPSActive',['../structstatuses.html#a1d5be696cda2a111b30ea9c3a44f4ca3',1,'statuses']]],
   ['ctpsenabled',['CTPSEnabled',['../structconfig2.html#a5e782553bb6e48d9220f879000f8615c',1,'config2::CTPSEnabled()'],['../globals_8h.html#a20c31a3e882dea879a862e0533a10093',1,'CTPSEnabled():&#160;globals.h']]],
   ['ctpspin',['CTPSPin',['../structconfig2.html#a951990f10eeb303f8b75d61f8c58545d',1,'config2::CTPSPin()'],['../globals_8h.html#a987658088f707b8844c16079dc2cf354',1,'CTPSPin():&#160;globals.h']]],
