@@ -13,6 +13,7 @@ var searchData=
   ['fanpwmbins',['fanPWMBins',['../structconfig6.html#ae7160b9e343b52392beb6cc7da3053f7',1,'config6::fanPWMBins()'],['../globals_8h.html#a36d7063adcafd1e7445c4aef9dde5232',1,'fanPWMBins():&#160;globals.h']]],
   ['fansp',['fanSP',['../structconfig6.html#a21728259df36434a966de3bf43dc3697',1,'config6::fanSP()'],['../globals_8h.html#a72d0661ce0d8eb1cfb654c97df59e6b8',1,'fanSP():&#160;globals.h']]],
   ['fanunused',['fanUnused',['../structconfig2.html#ab0962a70d62d0afcbdd9e82a15618231',1,'config2::fanUnused()'],['../globals_8h.html#a17d698869ebbc3d2da3761026a665c71',1,'fanUnused():&#160;globals.h']]],
+  ['fanwhencranking',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2::fanWhenCranking()'],['../globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2',1,'fanWhenCranking():&#160;globals.h']]],
   ['fanwhenoff',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2::fanWhenOff()'],['../globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72',1,'fanWhenOff():&#160;globals.h']]],
   ['fixang',['FixAng',['../structconfig4.html#afd9fde15111d45388e2b19f568103c0a',1,'config4::FixAng()'],['../globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff',1,'FixAng():&#160;globals.h']]],
   ['fixangenable',['fixAngEnable',['../structconfig2.html#ac59aebab192641059276fa40878779fa',1,'config2::fixAngEnable()'],['../globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3',1,'fixAngEnable():&#160;globals.h']]],

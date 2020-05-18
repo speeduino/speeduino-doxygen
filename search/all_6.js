@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['fan_5foff',['FAN_OFF',['../auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef',1,'auxiliaries.h']]],
+  ['fan_5fon',['FAN_ON',['../auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe',1,'auxiliaries.h']]],
   ['fan_5fpin_5fhigh',['FAN_PIN_HIGH',['../auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f',1,'auxiliaries.h']]],
   ['fan_5fpin_5flow',['FAN_PIN_LOW',['../auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0',1,'auxiliaries.h']]],
   ['fan_5fpin_5fmask',['fan_pin_mask',['../auxiliaries_8h.html#a8e1fd727a9874e13d7859f53f4b8808c',1,'auxiliaries.h']]],
@@ -16,6 +18,7 @@ var searchData=
   ['fanpwmbins',['fanPWMBins',['../structconfig6.html#ae7160b9e343b52392beb6cc7da3053f7',1,'config6::fanPWMBins()'],['../globals_8h.html#a36d7063adcafd1e7445c4aef9dde5232',1,'fanPWMBins():&#160;globals.h']]],
   ['fansp',['fanSP',['../structconfig6.html#a21728259df36434a966de3bf43dc3697',1,'config6::fanSP()'],['../globals_8h.html#a72d0661ce0d8eb1cfb654c97df59e6b8',1,'fanSP():&#160;globals.h']]],
   ['fanunused',['fanUnused',['../structconfig2.html#ab0962a70d62d0afcbdd9e82a15618231',1,'config2::fanUnused()'],['../globals_8h.html#a17d698869ebbc3d2da3761026a665c71',1,'fanUnused():&#160;globals.h']]],
+  ['fanwhencranking',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2::fanWhenCranking()'],['../globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2',1,'fanWhenCranking():&#160;globals.h']]],
   ['fanwhenoff',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2::fanWhenOff()'],['../globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72',1,'fanWhenOff():&#160;globals.h']]],
   ['fastdegreestous',['fastDegreesToUS',['../crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad',1,'crankMaths.h']]],
   ['fastmap',['fastMap',['../maths_8ino.html#aa47ccafa439aaf6348e7a0c6fe480cf2',1,'maths.ino']]],

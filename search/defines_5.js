@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['fan_5foff',['FAN_OFF',['../auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef',1,'auxiliaries.h']]],
+  ['fan_5fon',['FAN_ON',['../auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe',1,'auxiliaries.h']]],
   ['fan_5fpin_5fhigh',['FAN_PIN_HIGH',['../auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f',1,'auxiliaries.h']]],
   ['fan_5fpin_5flow',['FAN_PIN_LOW',['../auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0',1,'auxiliaries.h']]],
   ['fastdegreestous',['fastDegreesToUS',['../crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad',1,'crankMaths.h']]],

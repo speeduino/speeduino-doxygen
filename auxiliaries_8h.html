@@ -104,6 +104,10 @@ Macros</h2></td></tr>
 <tr class="separator:ad32a9c226eea4c1504663f277e33843c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8h.html#a588ef54468fef94f052f20cafb3ec008">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8h.html#a590bb6b47e5d17acb22b28b82d0451b2">n2o_arming_pin_mask</a>) ? true : false)</td></tr>
 <tr class="separator:aa319e9011ba23adbaec669b487182a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab55b7b24ff068319d2661b3e223f8efe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe">FAN_ON</a>()&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td></tr>
+<tr class="separator:ab55b7b24ff068319d2661b3e223f8efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef">FAN_OFF</a>()&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td></tr>
+<tr class="separator:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -212,6 +216,40 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#ad47f76516a0fb0249bae4e1c8ff76678">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#a62d9c25555ffd27b936bac2891a079cd">boost_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2aa0f0bf8f39de92f6b85b9976fbfbef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aa0f0bf8f39de92f6b85b9976fbfbef">&#9670;&nbsp;</a></span>FAN_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FAN_OFF</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab55b7b24ff068319d2661b3e223f8efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab55b7b24ff068319d2661b3e223f8efe">&#9670;&nbsp;</a></span>FAN_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FAN_ON</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
