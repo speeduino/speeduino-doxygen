@@ -2,6 +2,7 @@ var searchData=
 [
   ['valid_5fmap_5fmax',['VALID_MAP_MAX',['../globals_8h.html#a90a51c7015ee8de34915ea323950f98b',1,'globals.h']]],
   ['valid_5fmap_5fmin',['VALID_MAP_MIN',['../globals_8h.html#a1ac572a4a78896607b1fc34777ea9c1e',1,'globals.h']]],
+  ['validatemap',['validateMAP',['../sensors_8h.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.h'],['../sensors_8ino.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.ino']]],
   ['validtrigger',['validTrigger',['../decoders_8h.html#a24bcd396a25e0b8e7862fe388767b9c7',1,'validTrigger():&#160;decoders.ino'],['../decoders_8ino.html#a24bcd396a25e0b8e7862fe388767b9c7',1,'validTrigger():&#160;decoders.ino']]],
   ['valueoffset',['valueOffset',['../comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c',1,'comms.h']]],
   ['values',['values',['../structtable2_d.html#ab24c842839c2367746d60a73aa94e1e3',1,'table2D::values()'],['../structtable3_d.html#a2a13d26f896806065bcb8686ca31376b',1,'table3D::values()']]],
