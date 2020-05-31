@@ -35,6 +35,7 @@ var searchData=
   ['asecounttable',['ASECountTable',['../globals_8h.html#a7d32d499813c3369d137245b5bd52c1c',1,'ASECountTable():&#160;globals.ino'],['../globals_8ino.html#a7d32d499813c3369d137245b5bd52c1c',1,'ASECountTable():&#160;globals.ino']]],
   ['asepct',['asePct',['../structconfig2.html#a806bb38b169edd5ba9111b6e9cf499ad',1,'config2::asePct()'],['../globals_8h.html#ade4f7d266cea15ae43661bde60107afc',1,'asePct():&#160;globals.h']]],
   ['asetable',['ASETable',['../globals_8h.html#afb34cf5f5cb7be8b7f030fba2b5ddce7',1,'ASETable():&#160;globals.ino'],['../globals_8ino.html#afb34cf5f5cb7be8b7f030fba2b5ddce7',1,'ASETable():&#160;globals.ino']]],
+  ['asetaperstart',['aseTaperStart',['../corrections_8h.html#a87c51dc73d913f64d8e97d127490c53d',1,'aseTaperStart():&#160;corrections.ino'],['../corrections_8ino.html#a87c51dc73d913f64d8e97d127490c53d',1,'aseTaperStart():&#160;corrections.ino']]],
   ['asetapertime',['aseTaperTime',['../structconfig2.html#a7c992e4620c219f75f4feb7a2a1c85d3',1,'config2::aseTaperTime()'],['../globals_8h.html#a4f53f9920e1e7811d578105f91fb3069',1,'aseTaperTime():&#160;globals.h']]],
   ['asevalue',['ASEValue',['../structstatuses.html#a096124988d98c74d6904b3f63d3d7e59',1,'statuses']]],
   ['auxiliaries_2eh',['auxiliaries.h',['../auxiliaries_8h.html',1,'']]],
