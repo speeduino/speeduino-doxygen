@@ -55,6 +55,7 @@ var searchData=
   ['checkforstepping',['checkForStepping',['../idle_8h.html#a4053de9017b2bb17d6328131c7045408',1,'checkForStepping():&#160;idle.h'],['../idle_8ino.html#a4053de9017b2bb17d6328131c7045408',1,'checkForStepping():&#160;idle.ino']]],
   ['checkoilpressurelimit',['checkOilPressureLimit',['../engine_protection_8h.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino']]],
   ['checkpertoothtiming',['checkPerToothTiming',['../decoders_8ino.html#a774e532eee73c42bba21b8a29618c074',1,'decoders.ino']]],
+  ['checkrevlimit',['checkRevLimit',['../engine_protection_8h.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino']]],
   ['checksynctoothcount',['checkSyncToothCount',['../decoders_8h.html#a16c057b337892e5c1999ebc7425f52b3',1,'checkSyncToothCount():&#160;decoders.ino'],['../decoders_8ino.html#a16c057b337892e5c1999ebc7425f52b3',1,'checkSyncToothCount():&#160;decoders.ino']]],
   ['chunkcomplete',['chunkComplete',['../comms_8h.html#a2579ec6aed1903a19a732839086d9fd7',1,'comms.h']]],
   ['chunkpending',['chunkPending',['../comms_8h.html#ab691ea6bc6e723003f66796b3cd24df9',1,'comms.h']]],

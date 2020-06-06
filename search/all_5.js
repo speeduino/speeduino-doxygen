@@ -133,6 +133,7 @@ var searchData=
   ['engineprotection_2eino',['engineProtection.ino',['../engine_protection_8ino.html',1,'']]],
   ['engineprotectmaxrpm',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4::engineProtectMaxRPM()'],['../globals_8h.html#a4d685a726614089abe79e29f288f0f21',1,'engineProtectMaxRPM():&#160;globals.h']]],
   ['engineprotectstatus',['engineProtectStatus',['../structstatuses.html#aeb7008eff0ce97393a0edf2bdc639d34',1,'statuses']]],
+  ['engineprotecttype',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6::engineProtectType()'],['../globals_8h.html#a334f7c26cb0de04fc053cfd4f1301b3d',1,'engineProtectType():&#160;globals.h']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],
   ['err_5fbat_5fhigh',['ERR_BAT_HIGH',['../errors_8h.html#a09fefe71794296201cc39825c4d16854',1,'errors.h']]],
   ['err_5fbat_5flow',['ERR_BAT_LOW',['../errors_8h.html#a315ba1df931fdce654efb51c967e9f7a',1,'errors.h']]],

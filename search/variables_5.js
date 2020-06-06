@@ -31,6 +31,7 @@ var searchData=
   ['engine',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
   ['engineprotectmaxrpm',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4::engineProtectMaxRPM()'],['../globals_8h.html#a4d685a726614089abe79e29f288f0f21',1,'engineProtectMaxRPM():&#160;globals.h']]],
   ['engineprotectstatus',['engineProtectStatus',['../structstatuses.html#aeb7008eff0ce97393a0edf2bdc639d34',1,'statuses']]],
+  ['engineprotecttype',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6::engineProtectType()'],['../globals_8h.html#a334f7c26cb0de04fc053cfd4f1301b3d',1,'engineProtectType():&#160;globals.h']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],
   ['errorcodes',['errorCodes',['../errors_8h.html#a235045d66228ec6dd620f460ae2900ed',1,'errors.h']]],
   ['errorcount',['errorCount',['../errors_8h.html#ade561dc645a1d7c5a999e7eb49e37c65',1,'errors.h']]],

@@ -23,7 +23,7 @@ var searchData=
   ['boost_5fpwm_5fstate',['boost_pwm_state',['../auxiliaries_8h.html#a890f54cc385e3554e1e9ae3962cfa1aa',1,'auxiliaries.h']]],
   ['boost_5fpwm_5ftarget_5fvalue',['boost_pwm_target_value',['../auxiliaries_8h.html#a6b5cb46c773772a82e1cbd8428cedd71',1,'auxiliaries.h']]],
   ['boostcounter',['boostCounter',['../auxiliaries_8h.html#a7ebe05f2127c34539d0fa832ed7c5839',1,'auxiliaries.h']]],
-  ['boostcuttype',['boostCutType',['../structconfig6.html#aca87ae70a0204e90c9460af0b8b85e70',1,'config6::boostCutType()'],['../globals_8h.html#ad73f44acd8d4a498300a12fa2fe62ea8',1,'boostCutType():&#160;globals.h']]],
+  ['boostcutenabled',['boostCutEnabled',['../structconfig6.html#ac33ea5b41c26c0974b28eb5ebba28662',1,'config6::boostCutEnabled()'],['../globals_8h.html#a12fb7009729a7d00955c8b31d521b5d7',1,'boostCutEnabled():&#160;globals.h']]],
   ['boostduty',['boostDuty',['../structstatuses.html#a88a87b361621c3cae045a7e966d01169',1,'statuses']]],
   ['boostenabled',['boostEnabled',['../structconfig6.html#a10d8ea32706493d84f711d92f768946d',1,'config6::boostEnabled()'],['../globals_8h.html#af3d68a69954aec2161d69a51d78d9e0c',1,'boostEnabled():&#160;globals.h']]],
   ['boostfreq',['boostFreq',['../structconfig6.html#a124a4a935e774e04d84abfa712d5183d',1,'config6::boostFreq()'],['../globals_8h.html#aa4b71a6d07436b50793aedb7b9f6ca86',1,'boostFreq():&#160;globals.h']]],
