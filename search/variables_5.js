@@ -29,6 +29,8 @@ var searchData=
   ['endcompare',['endCompare',['../struct_schedule.html#aae2d51d1e0b737ea878b2bb0a399f8ed',1,'Schedule::endCompare()'],['../struct_fuel_schedule.html#a590ff7abcf13d79cb532950b08bc2f1b',1,'FuelSchedule::endCompare()']]],
   ['endschedulesetbydecoder',['endScheduleSetByDecoder',['../struct_schedule.html#a375419294f1950c106c86a30add0892d',1,'Schedule']]],
   ['engine',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
+  ['engineprotectmaxrpm',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4::engineProtectMaxRPM()'],['../globals_8h.html#a4d685a726614089abe79e29f288f0f21',1,'engineProtectMaxRPM():&#160;globals.h']]],
+  ['engineprotectstatus',['engineProtectStatus',['../structstatuses.html#aeb7008eff0ce97393a0edf2bdc639d34',1,'statuses']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],
   ['errorcodes',['errorCodes',['../errors_8h.html#a235045d66228ec6dd620f460ae2900ed',1,'errors.h']]],
   ['errorcount',['errorCount',['../errors_8h.html#ade561dc645a1d7c5a999e7eb49e37c65',1,'errors.h']]],

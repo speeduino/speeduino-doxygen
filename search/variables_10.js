@@ -17,6 +17,7 @@ var searchData=
   ['rotarytype',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10::rotaryType()'],['../globals_8h.html#ae155e74de98ef095b627a8340c5a6bde',1,'rotaryType():&#160;globals.h']]],
   ['rpm',['RPM',['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses']]],
   ['rpmdelta',['rpmDelta',['../crank_maths_8h.html#a9c18d1792dc4e9448e75d44fb92b65a5',1,'crankMaths.h']]],
+  ['rpmdiv100',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
   ['rpmdot',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
   ['runsecs',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
   ['runsecsx10',['runSecsX10',['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino'],['../globals_8ino.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino']]]

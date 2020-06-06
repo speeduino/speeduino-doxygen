@@ -13,5 +13,9 @@ var searchData=
   ['oilpressureenable',['oilPressureEnable',['../structconfig10.html#ac049ffcf4fc80d8c37a6cfed9cf45b55',1,'config10::oilPressureEnable()'],['../globals_8h.html#ae96f2a1b79be24cbd33747af6a3648fc',1,'oilPressureEnable():&#160;globals.h']]],
   ['oilpressuremax',['oilPressureMax',['../structconfig10.html#a84c692c609dc442f218395baec438add',1,'config10::oilPressureMax()'],['../globals_8h.html#ad991cb4b251297286a110636db22913c',1,'oilPressureMax():&#160;globals.h']]],
   ['oilpressuremin',['oilPressureMin',['../structconfig10.html#a6593b7d44bdc773f261c50c1944f7ed3',1,'config10::oilPressureMin()'],['../globals_8h.html#ad95a3318f1a652be6348a4568623db25',1,'oilPressureMin():&#160;globals.h']]],
-  ['oilpressurepin',['oilPressurePin',['../structconfig10.html#a252c4b956377f492e2acd0ceee3d0492',1,'config10::oilPressurePin()'],['../globals_8h.html#a24ac04f9a1170a0b81b8b546df90e360',1,'oilPressurePin():&#160;globals.h']]]
+  ['oilpressurepin',['oilPressurePin',['../structconfig10.html#a252c4b956377f492e2acd0ceee3d0492',1,'config10::oilPressurePin()'],['../globals_8h.html#a24ac04f9a1170a0b81b8b546df90e360',1,'oilPressurePin():&#160;globals.h']]],
+  ['oilpressureprotecttable',['oilPressureProtectTable',['../globals_8h.html#a8757ef7aa5051bb40189d9564f0c57df',1,'oilPressureProtectTable():&#160;globals.ino'],['../globals_8ino.html#a8757ef7aa5051bb40189d9564f0c57df',1,'oilPressureProtectTable():&#160;globals.ino']]],
+  ['oilpressureprotenbl',['oilPressureProtEnbl',['../structconfig10.html#a3ee567632080feb9f4e890f0acc2d703',1,'config10::oilPressureProtEnbl()'],['../globals_8h.html#a7959eeeb551b4d7b03f477e558d525e1',1,'oilPressureProtEnbl():&#160;globals.h']]],
+  ['oilpressureprotmins',['oilPressureProtMins',['../structconfig10.html#addb48a96074bbda557fdeae4c79a4e9f',1,'config10::oilPressureProtMins()'],['../globals_8h.html#aeefb49d8bf0e8372d0f55b8fa9f343d4',1,'oilPressureProtMins():&#160;globals.h']]],
+  ['oilpressureprotrpm',['oilPressureProtRPM',['../structconfig10.html#a2092b8cd212681376da95dfa8c15cbcd',1,'config10::oilPressureProtRPM()'],['../globals_8h.html#a40b4e3765cdebb3ee189ff0945b8395f',1,'oilPressureProtRPM():&#160;globals.h']]]
 ];
