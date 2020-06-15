@@ -5,6 +5,7 @@ var searchData=
   ['o2_5f2adc',['O2_2ADC',['../structstatuses.html#ad00e73bbe740c796c70f8b701eeb90d3',1,'statuses']]],
   ['o2adc',['O2ADC',['../structstatuses.html#a8b83de680404eeb2430d3998692fb411',1,'statuses']]],
   ['o2calibrationtable',['o2CalibrationTable',['../globals_8h.html#a1e0c14f053668dce5a7474df6a3199c2',1,'o2CalibrationTable():&#160;globals.ino'],['../globals_8ino.html#a1e0c14f053668dce5a7474df6a3199c2',1,'o2CalibrationTable():&#160;globals.ino']]],
+  ['o2calibrationtable_5fnew',['o2CalibrationTable_new',['../globals_8h.html#a87f1cdcb87a282cf76684917accde556',1,'globals.h']]],
   ['obd_5faddress',['obd_address',['../structconfig9.html#aa5f564132e429c1cc32f2559ef8856c2',1,'config9::obd_address()'],['../globals_8h.html#a3e1c57626cf731e817ec1c6868052c9b',1,'obd_address():&#160;globals.h']]],
   ['obd_5fresponse',['obd_response',['../cancomms_8h.html#a010c96151bfe00e2f7cb2f218148ed7b',1,'obd_response(uint8_t therequestedPID, uint8_t therequestedPIDlow, uint8_t therequestedPIDhigh):&#160;cancomms.ino'],['../cancomms_8ino.html#a4b7351ea8783032d898cba50d42737f9',1,'obd_response(uint8_t thePIDmode, uint8_t therequestedPIDlow, uint8_t therequestedPIDhigh):&#160;cancomms.ino']]],
   ['odd_5ffire',['ODD_FIRE',['../globals_8h.html#ae1cd409f4712fff605f01fa6af3a835a',1,'globals.h']]],
