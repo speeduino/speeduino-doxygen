@@ -2,6 +2,7 @@ var searchData=
 [
   ['schedulesset',['schedulesSet',['../struct_schedule.html#aa84914c30d7659179897bd91c94b2421',1,'Schedule::schedulesSet()'],['../struct_fuel_schedule.html#a78d5297afc86a03eb04d942fe77ca5f3',1,'FuelSchedule::schedulesSet()']]],
   ['secl',['secl',['../structstatuses.html#a739c35982fbfc585684cb2daa53d1575',1,'statuses']]],
+  ['seclx10',['seclx10',['../globals_8h.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10():&#160;globals.ino'],['../globals_8ino.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10():&#160;globals.ino']]],
   ['secondarylasttoothtime',['secondaryLastToothTime',['../decoders_8h.html#a9e6b984eae540372f54e1d00c0798fd5',1,'secondaryLastToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a9e6b984eae540372f54e1d00c0798fd5',1,'secondaryLastToothTime():&#160;decoders.ino']]],
   ['secondarylasttoothtime1',['secondaryLastToothTime1',['../decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1():&#160;decoders.ino'],['../decoders_8ino.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1():&#160;decoders.ino']]],
   ['secondarytoothcount',['secondaryToothCount',['../decoders_8h.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount():&#160;decoders.ino'],['../decoders_8ino.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount():&#160;decoders.ino']]],
