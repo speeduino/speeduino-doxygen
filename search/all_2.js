@@ -36,6 +36,7 @@ var searchData=
   ['begincoil6charge',['beginCoil6Charge',['../scheduled_i_o_8h.html#adf24b72ad6886167d0959c71da84c159',1,'beginCoil6Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159',1,'beginCoil6Charge():&#160;scheduledIO.ino']]],
   ['begincoil7charge',['beginCoil7Charge',['../scheduled_i_o_8h.html#a6c0e8ea097a33f425e164313a059884f',1,'beginCoil7Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f',1,'beginCoil7Charge():&#160;scheduledIO.ino']]],
   ['begincoil8charge',['beginCoil8Charge',['../scheduled_i_o_8h.html#a86520d1a64970cb43cbdfc13223c3a1b',1,'beginCoil8Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b',1,'beginCoil8Charge():&#160;scheduledIO.ino']]],
+  ['begininjectorpriming',['beginInjectorPriming',['../scheduler_8h.html#a79a0c739931b40c386eccc38f997d10d',1,'beginInjectorPriming():&#160;scheduler.ino'],['../scheduler_8ino.html#a79a0c739931b40c386eccc38f997d10d',1,'beginInjectorPriming():&#160;scheduler.ino']]],
   ['begintrailingcoilcharge',['beginTrailingCoilCharge',['../scheduled_i_o_8h.html#a54f5c78849aff7ae581375346a002904',1,'beginTrailingCoilCharge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a54f5c78849aff7ae581375346a002904',1,'beginTrailingCoilCharge():&#160;scheduledIO.ino']]],
   ['bit_5fcheck',['BIT_CHECK',['../globals_8h.html#a76fdd8cbc1fedd623886785637bc334d',1,'globals.h']]],
   ['bit_5fclear',['BIT_CLEAR',['../globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0',1,'globals.h']]],

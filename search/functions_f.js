@@ -33,7 +33,6 @@ var searchData=
   ['setqueue',['setQueue',['../scheduler_8h.html#ad6497505c62552a23434add244770232',1,'scheduler.h']]],
   ['setresetcontrolpinstate',['setResetControlPinState',['../utils_8h.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utils.ino'],['../utils_8ino.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utils.ino']]],
   ['setup',['setup',['../speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'speeduino.ino']]],
-  ['startpriming',['StartPriming',['../scheduler_8h.html#a843fa04d8200f63e394b691502f1873a',1,'StartPriming():&#160;scheduler.ino'],['../scheduler_8ino.html#a843fa04d8200f63e394b691502f1873a',1,'StartPriming():&#160;scheduler.ino']]],
   ['stdgetrpm',['stdGetRPM',['../decoders_8h.html#aa1a5ebf618e7ff3e3b3ad5beb9e4a08d',1,'stdGetRPM(uint16_t):&#160;decoders.h'],['../decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81',1,'stdGetRPM(uint16_t degreesOver):&#160;decoders.ino']]],
   ['storecalibrationvalue',['storeCalibrationValue',['../storage_8h.html#a97fbbc7754a04f5f0c4ef85f13128c1c',1,'storeCalibrationValue(uint16_t, byte):&#160;storage.ino'],['../storage_8ino.html#a9eb42ab8f110baa42a1efbde1df64c63',1,'storeCalibrationValue(uint16_t location, byte value):&#160;storage.ino']]],
   ['storeeepromversion',['storeEEPROMVersion',['../storage_8h.html#a3160da8d2e4e5126af369123c57eec55',1,'storeEEPROMVersion(byte):&#160;storage.ino'],['../storage_8ino.html#afc52f348f929632166603de11617428d',1,'storeEEPROMVersion(byte newVersion):&#160;storage.ino']]],

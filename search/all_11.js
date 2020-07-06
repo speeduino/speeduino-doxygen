@@ -88,7 +88,6 @@ var searchData=
   ['stagingtable',['stagingTable',['../globals_8h.html#a2ded3ff6e7c762f6ca22949679aaf629',1,'stagingTable():&#160;globals.ino'],['../globals_8ino.html#a2ded3ff6e7c762f6ca22949679aaf629',1,'stagingTable():&#160;globals.ino']]],
   ['startcallback',['StartCallback',['../struct_schedule.html#a33c7ff86fc7c5feea3500e6dd31509c1',1,'Schedule']]],
   ['startcompare',['startCompare',['../struct_schedule.html#a4712d480ffbe9a36382078ec85a69a57',1,'Schedule::startCompare()'],['../struct_fuel_schedule.html#a586613f0d105f2eeab096659c06845ac',1,'FuelSchedule::startCompare()']]],
-  ['startpriming',['StartPriming',['../scheduler_8h.html#a843fa04d8200f63e394b691502f1873a',1,'StartPriming():&#160;scheduler.ino'],['../scheduler_8ino.html#a843fa04d8200f63e394b691502f1873a',1,'StartPriming():&#160;scheduler.ino']]],
   ['startrevolutions',['startRevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses']]],
   ['starttime',['startTime',['../struct_schedule.html#a301080ad6376b86ec1af438d101fae50',1,'Schedule']]],
   ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status()'],['../struct_fuel_schedule.html#a6e994d391f21557753d0d5886ade69db',1,'FuelSchedule::Status()']]],
