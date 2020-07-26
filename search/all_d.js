@@ -37,6 +37,7 @@ var searchData=
   ['new_5fcan_5fpacket_5fsize',['NEW_CAN_PACKET_SIZE',['../cancomms_8h.html#a938ff26019a31d5d003e577a8683086c',1,'cancomms.h']]],
   ['nextendcompare',['nextEndCompare',['../struct_schedule.html#a84e1bd77eff3eb8cbb326ec442532f9a',1,'Schedule::nextEndCompare()'],['../struct_fuel_schedule.html#ae4d69ada019813a0fc31990f0162bc59',1,'FuelSchedule::nextEndCompare()']]],
   ['nextstartcompare',['nextStartCompare',['../struct_schedule.html#afc49c35cf19d403d48fa4c23ae1f6365',1,'Schedule::nextStartCompare()'],['../struct_fuel_schedule.html#aaca25ff4806c9fdc2e7c0d94902d7c02',1,'FuelSchedule::nextStartCompare()']]],
+  ['nextvvt',['nextVVT',['../auxiliaries_8h.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.h']]],
   ['ninjectors',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2::nInjectors()'],['../globals_8h.html#afff89f62b918d71810ba4580e5a3bdec',1,'nInjectors():&#160;globals.h']]],
   ['nitrous_5fboth',['NITROUS_BOTH',['../globals_8h.html#af40d036c521e97956fbc3e38493193fd',1,'globals.h']]],
   ['nitrous_5foff',['NITROUS_OFF',['../globals_8h.html#a80972618ee06818b20a2d2dba28f01d2',1,'globals.h']]],
