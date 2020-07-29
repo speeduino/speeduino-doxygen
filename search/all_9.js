@@ -54,7 +54,7 @@ var searchData=
   ['idle_5fpwm_5fcur_5fvalue',['idle_pwm_cur_value',['../idle_8h.html#a1d6a9734c098c30fceca6b35657ae5cd',1,'idle.h']]],
   ['idle_5fpwm_5fmax_5fcount',['idle_pwm_max_count',['../idle_8h.html#ad033ae4068955a7927c2ddcf47bf1389',1,'idle.h']]],
   ['idle_5fpwm_5fstate',['idle_pwm_state',['../idle_8h.html#a8b4b852ecc9711a151cc540864083fe7',1,'idle.h']]],
-  ['idle_5fpwm_5ftarget_5fvalue',['idle_pwm_target_value',['../idle_8h.html#a29c5636152a17149cf504cbbe78aaf5e',1,'idle.h']]],
+  ['idle_5fpwm_5ftarget_5fvalue',['idle_pwm_target_value',['../idle_8h.html#a76ffd1832bd2ef5129e5d6c074a4a15b',1,'idle.h']]],
   ['idle_5ftable_5fsize',['IDLE_TABLE_SIZE',['../idle_8h.html#ab25afe45a12d1b7ec45a7538c814cf60',1,'idle.h']]],
   ['idleadvalgorithm',['idleAdvAlgorithm',['../structconfig2.html#aab238032992cd1672802ddb3789043ab',1,'config2::idleAdvAlgorithm()'],['../globals_8h.html#ae9b7dfb5f03a03cd298831f3fb761087',1,'idleAdvAlgorithm():&#160;globals.h']]],
   ['idleadvancetable',['idleAdvanceTable',['../globals_8h.html#a571ee7ca28fd59e82255ceba11e06bff',1,'idleAdvanceTable():&#160;globals.ino'],['../globals_8ino.html#a571ee7ca28fd59e82255ceba11e06bff',1,'idleAdvanceTable():&#160;globals.ino']]],
