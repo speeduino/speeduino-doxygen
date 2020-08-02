@@ -192,6 +192,8 @@ var searchData=
   ['injtiming',['injTiming',['../structconfig2.html#a072ff3488b57f09dd4e1e1b092717807',1,'config2::injTiming()'],['../globals_8h.html#adc1c04b0f22e09c1381311d9fb9fe37d',1,'injTiming():&#160;globals.h']]],
   ['injtype',['injType',['../structconfig2.html#abeb9950523e9a7d5aa7a89223f3162a9',1,'config2::injType()'],['../globals_8h.html#a111eb1cd4245a4e12399886246796c7b',1,'injType():&#160;globals.h']]],
   ['injvoltagecorrectionvalues',['injVoltageCorrectionValues',['../structconfig6.html#ae9e31775dd546437da86b103b8755e12',1,'config6::injVoltageCorrectionValues()'],['../globals_8h.html#a164041de508064a93236619aac422149',1,'injVoltageCorrectionValues():&#160;globals.h']]],
+  ['inprogresslength',['inProgressLength',['../comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'comms.h']]],
+  ['inprogressoffset',['inProgressOffset',['../comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'comms.h']]],
   ['intcan_5favailable',['intcan_available',['../structconfig9.html#acff1397196165d05dfc2207a401576aa',1,'config9::intcan_available()'],['../globals_8h.html#aa7077a9e36bec03da20ce05fc83085dc',1,'intcan_available():&#160;globals.h']]],
   ['ismap',['isMap',['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'comms.h']]]
 ];

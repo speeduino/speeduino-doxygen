@@ -159,6 +159,12 @@ Variables</h2></td></tr>
 <tr class="separator:afaac3668f47034ddb078ad650bd5fb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03d1c7913db6b3a2500df25ce13bf36c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a03d1c7913db6b3a2500df25ce13bf36c">tsCanId</a> = 0</td></tr>
 <tr class="separator:a03d1c7913db6b3a2500df25ce13bf36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b7771575e4a0302df37d8d270fa71f3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3">inProgressOffset</a></td></tr>
+<tr class="separator:a2b7771575e4a0302df37d8d270fa71f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9702c5a3efdcb97b6b3445669981d30b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b">inProgressLength</a></td></tr>
+<tr class="separator:a9702c5a3efdcb97b6b3445669981d30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea83ccac29db15feaba2dee90ed4b93b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aea83ccac29db15feaba2dee90ed4b93b">serialInProgress</a> = false</td></tr>
+<tr class="separator:aea83ccac29db15feaba2dee90ed4b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4678e63753af438068cadfea9ff54025"><td class="memItemLeft" align="right" valign="top">const char pageTitles []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a4678e63753af438068cadfea9ff54025">PROGMEM</a></td></tr>
 <tr class="separator:a4678e63753af438068cadfea9ff54025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -741,7 +747,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="comms_8h_a0b2320d5e589080075b8372402bf9483_icgraph.png" border="0" usemap="#comms_8h_a0b2320d5e589080075b8372402bf9483_icgraph" alt=""/></div>
 <map name="comms_8h_a0b2320d5e589080075b8372402bf9483_icgraph" id="comms_8h_a0b2320d5e589080075b8372402bf9483_icgraph">
 <area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="149,5,236,32"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="284,5,335,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="284,31,335,57"/>
 </map>
 </div>
 
@@ -889,6 +895,34 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a9702c5a3efdcb97b6b3445669981d30b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9702c5a3efdcb97b6b3445669981d30b">&#9670;&nbsp;</a></span>inProgressLength</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte inProgressLength</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b7771575e4a0302df37d8d270fa71f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7771575e4a0302df37d8d270fa71f3">&#9670;&nbsp;</a></span>inProgressOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte inProgressOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a83957882b06af23f432c60467de4c0ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83957882b06af23f432c60467de4c0ea">&#9670;&nbsp;</a></span>isMap</h2>
 
@@ -930,6 +964,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p>The number of times the A command has been issued. This is used to track whether a reset has recently been performed on the controller </p>
+
+</div>
+</div>
+<a id="aea83ccac29db15feaba2dee90ed4b93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea83ccac29db15feaba2dee90ed4b93b">&#9670;&nbsp;</a></span>serialInProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool serialInProgress = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

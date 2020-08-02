@@ -8,6 +8,7 @@ var searchData=
   ['secondarytoothcount',['secondaryToothCount',['../decoders_8h.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount():&#160;decoders.ino'],['../decoders_8ino.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount():&#160;decoders.ino']]],
   ['secondarytriggeredge',['secondaryTriggerEdge',['../globals_8h.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge():&#160;globals.ino'],['../globals_8ino.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge():&#160;globals.ino']]],
   ['secondderivenabled',['secondDerivEnabled',['../decoders_8h.html#a1e54fcad7f7d745202e811045120842b',1,'secondDerivEnabled():&#160;decoders.ino'],['../decoders_8ino.html#a1e54fcad7f7d745202e811045120842b',1,'secondDerivEnabled():&#160;decoders.ino']]],
+  ['serialinprogress',['serialInProgress',['../comms_8h.html#aea83ccac29db15feaba2dee90ed4b93b',1,'comms.h']]],
   ['softlimitmode',['SoftLimitMode',['../structconfig2.html#a8ed64f2793a82f0e5139aff5c98d5ef3',1,'config2::SoftLimitMode()'],['../globals_8h.html#ade339ae0d1d552cb27a2a267a1ae66ef',1,'SoftLimitMode():&#160;globals.h']]],
   ['softlimmax',['SoftLimMax',['../structconfig4.html#a45deb291cbf936066ec4dcf0081ecec1',1,'config4::SoftLimMax()'],['../globals_8h.html#a978e06421f5670d0bed3324b15014627',1,'SoftLimMax():&#160;globals.h']]],
   ['softlimretard',['SoftLimRetard',['../structconfig4.html#a96c132cfd4c2a0b19a4d2c5d7f16d0e0',1,'config4::SoftLimRetard()'],['../globals_8h.html#a1a101344471a3e40f133cb7c8ddbf106',1,'SoftLimRetard():&#160;globals.h']]],

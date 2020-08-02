@@ -253,6 +253,8 @@ var searchData=
   ['injtiming',['injTiming',['../structconfig2.html#a072ff3488b57f09dd4e1e1b092717807',1,'config2::injTiming()'],['../globals_8h.html#adc1c04b0f22e09c1381311d9fb9fe37d',1,'injTiming():&#160;globals.h']]],
   ['injtype',['injType',['../structconfig2.html#abeb9950523e9a7d5aa7a89223f3162a9',1,'config2::injType()'],['../globals_8h.html#a111eb1cd4245a4e12399886246796c7b',1,'injType():&#160;globals.h']]],
   ['injvoltagecorrectionvalues',['injVoltageCorrectionValues',['../structconfig6.html#ae9e31775dd546437da86b103b8755e12',1,'config6::injVoltageCorrectionValues()'],['../globals_8h.html#a164041de508064a93236619aac422149',1,'injVoltageCorrectionValues():&#160;globals.h']]],
+  ['inprogresslength',['inProgressLength',['../comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'comms.h']]],
+  ['inprogressoffset',['inProgressOffset',['../comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'comms.h']]],
   ['instanteneousmapreading',['instanteneousMAPReading',['../sensors_8h.html#adce2419f4d2fdb9179dfc6cee874cbce',1,'instanteneousMAPReading() __attribute__((always_inline)):&#160;sensors.h'],['../sensors_8ino.html#affce98e8f3e9d23f7746d2f1d322b539',1,'instanteneousMAPReading():&#160;sensors.ino']]],
   ['intcan_5favailable',['intcan_available',['../structconfig9.html#acff1397196165d05dfc2207a401576aa',1,'config9::intcan_available()'],['../globals_8h.html#aa7077a9e36bec03da20ce05fc83085dc',1,'intcan_available():&#160;globals.h']]],
   ['interruptsafe',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]],

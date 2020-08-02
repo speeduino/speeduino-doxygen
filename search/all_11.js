@@ -33,6 +33,7 @@ var searchData=
   ['sensors_2eino',['sensors.ino',['../sensors_8ino.html',1,'']]],
   ['seqfuelpage',['seqFuelPage',['../comms_8h.html#a2390a3e93194eb3613602fffae68baa0',1,'comms.h']]],
   ['serial_5fbuffer_5fthreshold',['SERIAL_BUFFER_THRESHOLD',['../globals_8h.html#a6b790444384f7a3c57b495edbec62048',1,'globals.h']]],
+  ['serialinprogress',['serialInProgress',['../comms_8h.html#aea83ccac29db15feaba2dee90ed4b93b',1,'comms.h']]],
   ['seterror',['setError',['../errors_8h.html#a8c5defb609be14d74c06439f4e2c1102',1,'setError(byte):&#160;errors.ino'],['../errors_8ino.html#ad6095f9f937b1450f817851fd897ae47',1,'setError(byte errorID):&#160;errors.ino']]],
   ['setfilter',['setFilter',['../decoders_8h.html#a194396414ab3e2c81114662b5d3c1000',1,'setFilter(unsigned long):&#160;decoders.h'],['../decoders_8ino.html#a7e47fa64b01c6c1908f133f37313b25e',1,'setFilter(unsigned long curGap):&#160;decoders.ino']]],
   ['setfuelschedule',['setFuelSchedule',['../scheduler_8ino.html#a3f8938b88e6830bef6dfe52713c785e4',1,'scheduler.ino']]],
