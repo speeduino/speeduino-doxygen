@@ -5,7 +5,6 @@ var searchData=
   ['cam_5fspeed',['CAM_SPEED',['../decoders_8h.html#ab91512fde255a648fe16920b3d94911b',1,'decoders.h']]],
   ['can_5fpacket_5fsize',['CAN_PACKET_SIZE',['../cancomms_8h.html#a5b3d468da785ea5505d05e9a91182fbe',1,'cancomms.h']]],
   ['canbuspage',['canbusPage',['../comms_8h.html#a545bbe1325da09a68c8ba13e18875b77',1,'comms.h']]],
-  ['checkpertoothtiming',['checkPerToothTiming',['../decoders_8ino.html#a774e532eee73c42bba21b8a29618c074',1,'decoders.ino']]],
   ['closed_5floop_5fboost',['CLOSED_LOOP_BOOST',['../globals_8h.html#aa8a2d06ef12d53416a4756a00b5ba742',1,'globals.h']]],
   ['coil1high',['coil1High',['../scheduled_i_o_8h.html#acbde6d3ba864a7c446d5aff05b753932',1,'scheduledIO.h']]],
   ['coil1low',['coil1Low',['../scheduled_i_o_8h.html#ae7ddd2b0183c9421498d8ba1f274fc5f',1,'scheduledIO.h']]],
