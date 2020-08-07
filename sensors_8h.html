@@ -87,6 +87,8 @@ Macros</h2></td></tr>
 <tr class="separator:abaf8f9a9147dc095eb424b8020cc3f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a02d55c320840c9f60cf3b53c50ed34d1">VSS_GEAR_HYSTERESIS</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ab3e37a136cdf9174ecfb254ff4c7f9a6">VSS_SAMPLES</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546e9cb3295371234f60dcf3beae19dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">ADC_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
 <tr class="memdesc:a546e9cb3295371234f60dcf3beae19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from playground.arduino.cc/Main/Smooth But removes the use of floats and uses 8 bits of fixed precision.  <a href="#a546e9cb3295371234f60dcf3beae19dd">More...</a><br /></td></tr>
 <tr class="separator:a546e9cb3295371234f60dcf3beae19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -167,6 +169,10 @@ Variables</h2></td></tr>
 <tr class="separator:a927dffe2fe3ac66743170aa6e75447fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7df8667d3288d7a730f5139bc63267c7"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a7df8667d3288d7a730f5139bc63267c7">vssLastMinusOnePulseTime</a></td></tr>
 <tr class="separator:a7df8667d3288d7a730f5139bc63267c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e0b762a98182df1993080d871e04e7"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#aa3e0b762a98182df1993080d871e04e7">vssTotalTime</a></td></tr>
+<tr class="separator:aa3e0b762a98182df1993080d871e04e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2624fd7a138d5a03cc0a393c368cd8a7"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a2624fd7a138d5a03cc0a393c368cd8a7">vssCount</a></td></tr>
+<tr class="separator:a2624fd7a138d5a03cc0a393c368cd8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32d9cc92a334afe210692f1f2c22ea7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#aa32d9cc92a334afe210692f1f2c22ea7">mapErrorCount</a> = 0</td></tr>
 <tr class="separator:aa32d9cc92a334afe210692f1f2c22ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642aa130b71f28170566f1fb7f08a1d5"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a642aa130b71f28170566f1fb7f08a1d5">iatErrorCount</a> = 0</td></tr>
@@ -275,6 +281,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define VSS_GEAR_HYSTERESIS&#160;&#160;&#160;10</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab3e37a136cdf9174ecfb254ff4c7f9a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e37a136cdf9174ecfb254ff4c7f9a6">&#9670;&nbsp;</a></span>VSS_SAMPLES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VSS_SAMPLES&#160;&#160;&#160;8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1103,6 +1123,20 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a2624fd7a138d5a03cc0a393c368cd8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2624fd7a138d5a03cc0a393c368cd8a7">&#9670;&nbsp;</a></span>vssCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile byte vssCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7df8667d3288d7a730f5139bc63267c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7df8667d3288d7a730f5139bc63267c7">&#9670;&nbsp;</a></span>vssLastMinusOnePulseTime</h2>
 
@@ -1114,7 +1148,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The times of the last VSS_NUM_SAMPLES pulses of the VSS are stored in this array </p>
+<p>The time of the last VSS_NUM_SAMPLES pulses of the VSS are stored in this array </p>
 
 </div>
 </div>
@@ -1129,7 +1163,22 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The times of the last VSS_NUM_SAMPLES pulses of the VSS are stored in this array </p>
+<p>The time of the last VSS pulse of the VSS </p>
+
+</div>
+</div>
+<a id="aa3e0b762a98182df1993080d871e04e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3e0b762a98182df1993080d871e04e7">&#9670;&nbsp;</a></span>vssTotalTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned long vssTotalTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cumulative count of the last VSS_SAMPLES number of pulses </p>
 
 </div>
 </div>

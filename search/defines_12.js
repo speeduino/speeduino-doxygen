@@ -5,6 +5,7 @@ var searchData=
   ['vemappage',['veMapPage',['../comms_8h.html#ac08555b37f8b765abcf15bb9871c39bf',1,'comms.h']]],
   ['vesetpage',['veSetPage',['../comms_8h.html#ae0859a89352534458f9cef6a2d8c0f36',1,'comms.h']]],
   ['vss_5fgear_5fhysteresis',['VSS_GEAR_HYSTERESIS',['../sensors_8h.html#a02d55c320840c9f60cf3b53c50ed34d1',1,'sensors.h']]],
+  ['vss_5fsamples',['VSS_SAMPLES',['../sensors_8h.html#ab3e37a136cdf9174ecfb254ff4c7f9a6',1,'sensors.h']]],
   ['vvt1_5fpin_5fhigh',['VVT1_PIN_HIGH',['../auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65',1,'auxiliaries.h']]],
   ['vvt1_5fpin_5flow',['VVT1_PIN_LOW',['../auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5',1,'auxiliaries.h']]],
   ['vvt2_5fpin_5fhigh',['VVT2_PIN_HIGH',['../auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1',1,'auxiliaries.h']]],
