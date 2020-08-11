@@ -99,10 +99,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2">getPageValue</a> (byte page, uint16_t valueAddress)</td></tr>
 <tr class="memdesc:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves a single value from a memory page, with data aligned as per the ini file.  <a href="#a125363d7447ad23d1678d1a9a6a9c0a2">More...</a><br /></td></tr>
 <tr class="separator:a125363d7447ad23d1678d1a9a6a9c0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a572ced5645311c94d7e80086a072c000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a572ced5645311c94d7e80086a072c000">receiveCalibration_old</a> (byte tableID)</td></tr>
-<tr class="memdesc:a572ced5645311c94d7e80086a072c000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory.  <a href="#a572ced5645311c94d7e80086a072c000">More...</a><br /></td></tr>
-<tr class="separator:a572ced5645311c94d7e80086a072c000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9262c29790543b70f25aa2912caa45fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc">receiveCalibration</a> (byte tableID)</td></tr>
+<tr class="memdesc:a9262c29790543b70f25aa2912caa45fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory.  <a href="#a9262c29790543b70f25aa2912caa45fc">More...</a><br /></td></tr>
 <tr class="separator:a9262c29790543b70f25aa2912caa45fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedae9c5ef655f86833b68e4b8c0924a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8ino.html#aaedae9c5ef655f86833b68e4b8c0924a">sendToothLog</a> ()</td></tr>
 <tr class="separator:aaedae9c5ef655f86833b68e4b8c0924a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,7 +142,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node44" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2" title="Retrieves a single value from a memory page, with data aligned as per the ini file. " alt="" coords="191,1044,302,1071"/>
 <area shape="rect" id="node45" href="comms_8ino.html#aaedae9c5ef655f86833b68e4b8c0924a" title="sendToothLog" alt="" coords="191,1095,302,1121"/>
 <area shape="rect" id="node46" href="comms_8ino.html#aef27fab15e75454b7849c08ae33a8706" title="sendCompositeLog" alt="" coords="173,1145,320,1172"/>
-<area shape="rect" id="node47" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="receiveCalibration" alt="" coords="176,1247,317,1273"/>
+<area shape="rect" id="node47" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memo..." alt="" coords="176,1247,317,1273"/>
 <area shape="rect" id="node48" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="407,1677,533,1704"/>
 <area shape="rect" id="node49" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it..." alt="" coords="205,1297,289,1324"/>
 <area shape="rect" id="node50" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46" title="receiveValue" alt="" coords="193,1348,300,1375"/>
@@ -256,6 +254,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tableID</td><td>Which calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -271,40 +277,6 @@ Here is the caller graph for this function:</div>
 <map name="comms_8ino_a9262c29790543b70f25aa2912caa45fc_icgraph" id="comms_8ino_a9262c29790543b70f25aa2912caa45fc_icgraph">
 <area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="195,5,281,32"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="329,5,380,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a572ced5645311c94d7e80086a072c000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a572ced5645311c94d7e80086a072c000">&#9670;&nbsp;</a></span>receiveCalibration_old()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void receiveCalibration_old </td>
-          <td>(</td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>tableID</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">tableID</td><td>Which calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8ino_a572ced5645311c94d7e80086a072c000_cgraph.png" border="0" usemap="#comms_8ino_a572ced5645311c94d7e80086a072c000_cgraph" alt=""/></div>
-<map name="comms_8ino_a572ced5645311c94d7e80086a072c000_cgraph" id="comms_8ino_a572ced5645311c94d7e80086a072c000_cgraph">
-<area shape="rect" id="node2" href="storage_8h.html#a97fbbc7754a04f5f0c4ef85f13128c1c" title="storeCalibrationValue" alt="" coords="221,5,384,32"/>
 </map>
 </div>
 

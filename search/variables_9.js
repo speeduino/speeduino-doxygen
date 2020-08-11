@@ -30,7 +30,7 @@ var searchData=
   ['iatadc',['iatADC',['../structstatuses.html#a1c58742468330847d4b3abab5ae65ef9',1,'statuses']]],
   ['iatcalibration_5fbins',['iatCalibration_bins',['../globals_8h.html#a79e94df53c6648c9e2cf681b2c6847af',1,'iatCalibration_bins():&#160;globals.ino'],['../globals_8ino.html#a79e94df53c6648c9e2cf681b2c6847af',1,'iatCalibration_bins():&#160;globals.ino']]],
   ['iatcalibration_5fvalues',['iatCalibration_values',['../globals_8h.html#afa9be5adbcf72d0e99ff16e814257b17',1,'iatCalibration_values():&#160;globals.ino'],['../globals_8ino.html#afa9be5adbcf72d0e99ff16e814257b17',1,'iatCalibration_values():&#160;globals.ino']]],
-  ['iatcalibrationtable_5fnew',['iatCalibrationTable_new',['../globals_8h.html#a725c7bb5c44a331ad9b85af260ff3a16',1,'iatCalibrationTable_new():&#160;globals.ino'],['../globals_8ino.html#a725c7bb5c44a331ad9b85af260ff3a16',1,'iatCalibrationTable_new():&#160;globals.ino']]],
+  ['iatcalibrationtable',['iatCalibrationTable',['../globals_8h.html#a3d6f23e78f20975982370046ff2ddb27',1,'iatCalibrationTable():&#160;globals.ino'],['../globals_8ino.html#a3d6f23e78f20975982370046ff2ddb27',1,'iatCalibrationTable():&#160;globals.ino']]],
   ['iatcorrection',['iatCorrection',['../structstatuses.html#ad42d7fc1c1e21ff741f58b7e04442484',1,'statuses']]],
   ['iatdensitycorrectiontable',['IATDensityCorrectionTable',['../globals_8h.html#ab0ed6b1f05c7b7b831ccf0709ad06ac7',1,'IATDensityCorrectionTable():&#160;globals.ino'],['../globals_8ino.html#ab0ed6b1f05c7b7b831ccf0709ad06ac7',1,'IATDensityCorrectionTable():&#160;globals.ino']]],
   ['iaterrorcount',['iatErrorCount',['../sensors_8h.html#a642aa130b71f28170566f1fb7f08a1d5',1,'sensors.h']]],

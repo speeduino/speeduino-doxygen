@@ -49,7 +49,7 @@ var searchData=
   ['cltadvvalues',['cltAdvValues',['../structconfig4.html#a75ca1496dec1fbc796d915cdfb45b13d',1,'config4::cltAdvValues()'],['../globals_8h.html#a1222afeb26783cd766ef36acf1c9f761',1,'cltAdvValues():&#160;globals.h']]],
   ['cltcalibration_5fbins',['cltCalibration_bins',['../globals_8h.html#ae8ee13a439ad92277daba85ff2d0a8c2',1,'cltCalibration_bins():&#160;globals.ino'],['../globals_8ino.html#ae8ee13a439ad92277daba85ff2d0a8c2',1,'cltCalibration_bins():&#160;globals.ino']]],
   ['cltcalibration_5fvalues',['cltCalibration_values',['../globals_8h.html#ac61d2c611a64aa1dcf10568c63146cbb',1,'cltCalibration_values():&#160;globals.ino'],['../globals_8ino.html#ac61d2c611a64aa1dcf10568c63146cbb',1,'cltCalibration_values():&#160;globals.ino']]],
-  ['cltcalibrationtable_5fnew',['cltCalibrationTable_new',['../globals_8h.html#a3cabb8aa4c5492f27618acb0369a702a',1,'cltCalibrationTable_new():&#160;globals.ino'],['../globals_8ino.html#a3cabb8aa4c5492f27618acb0369a702a',1,'cltCalibrationTable_new():&#160;globals.ino']]],
+  ['cltcalibrationtable',['cltCalibrationTable',['../globals_8h.html#af795d0d95da202c398bd38f8bfa94689',1,'cltCalibrationTable():&#160;globals.ino'],['../globals_8ino.html#af795d0d95da202c398bd38f8bfa94689',1,'cltCalibrationTable():&#160;globals.ino']]],
   ['clterrorcount',['cltErrorCount',['../sensors_8h.html#a00bcb076836d8f537a847d8350fad924',1,'sensors.h']]],
   ['clutchengagedrpm',['clutchEngagedRPM',['../structstatuses.html#a810925baef608fbb5aa5ea13d7ce4801',1,'statuses']]],
   ['clutchtrigger',['clutchTrigger',['../globals_8h.html#a0448804f0d02b9a7a99c2027c1451c3e',1,'clutchTrigger():&#160;globals.ino'],['../globals_8ino.html#a0448804f0d02b9a7a99c2027c1451c3e',1,'clutchTrigger():&#160;globals.ino']]],

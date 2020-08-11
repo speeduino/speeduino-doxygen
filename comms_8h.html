@@ -123,6 +123,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aaabc3de716acfb21773f61e5444c20c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it...">sendPage()</a>, however data is sent in human readable format.  <a href="#aaabc3de716acfb21773f61e5444c20c4">More...</a><br /></td></tr>
 <tr class="separator:aaabc3de716acfb21773f61e5444c20c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a87ee164e2fe3eb17a57910d9531451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451">receiveCalibration</a> (byte)</td></tr>
+<tr class="memdesc:a9a87ee164e2fe3eb17a57910d9531451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory.  <a href="#a9a87ee164e2fe3eb17a57910d9531451">More...</a><br /></td></tr>
 <tr class="separator:a9a87ee164e2fe3eb17a57910d9531451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaedae9c5ef655f86833b68e4b8c0924a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aaedae9c5ef655f86833b68e4b8c0924a">sendToothLog</a> ()</td></tr>
 <tr class="separator:aaedae9c5ef655f86833b68e4b8c0924a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,7 +374,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node44" href="comms_8ino.html#a125363d7447ad23d1678d1a9a6a9c0a2" title="Retrieves a single value from a memory page, with data aligned as per the ini file. " alt="" coords="191,1044,302,1071"/>
 <area shape="rect" id="node45" href="comms_8ino.html#aaedae9c5ef655f86833b68e4b8c0924a" title="sendToothLog" alt="" coords="191,1095,302,1121"/>
 <area shape="rect" id="node46" href="comms_8ino.html#aef27fab15e75454b7849c08ae33a8706" title="sendCompositeLog" alt="" coords="173,1145,320,1172"/>
-<area shape="rect" id="node47" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="receiveCalibration" alt="" coords="176,1247,317,1273"/>
+<area shape="rect" id="node47" href="comms_8ino.html#a9262c29790543b70f25aa2912caa45fc" title="Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memo..." alt="" coords="176,1247,317,1273"/>
 <area shape="rect" id="node48" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="407,1677,533,1704"/>
 <area shape="rect" id="node49" href="comms_8ino.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it..." alt="" coords="205,1297,289,1324"/>
 <area shape="rect" id="node50" href="comms_8ino.html#a4424361d51ae7116eecd6412cca0bd46" title="receiveValue" alt="" coords="193,1348,300,1375"/>
@@ -498,11 +499,19 @@ Here is the caller graph for this function:</div>
           <td class="memname">void receiveCalibration </td>
           <td>(</td>
           <td class="paramtype">byte&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>tableID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tableID</td><td>Which calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

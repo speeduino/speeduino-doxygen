@@ -5,6 +5,7 @@ var searchData=
   ['eeprom_5fcalibration_5fiat',['EEPROM_CALIBRATION_IAT',['../storage_8h.html#abe5e585d2b85b8b0d6f6e84e56fb91c6',1,'storage.h']]],
   ['eeprom_5fcalibration_5fiat_5fold',['EEPROM_CALIBRATION_IAT_OLD',['../storage_8h.html#a57709c961266782984325e4f388f415d',1,'storage.h']]],
   ['eeprom_5fcalibration_5fo2',['EEPROM_CALIBRATION_O2',['../storage_8h.html#afb395f3adf65eaad052499a5aac655c0',1,'storage.h']]],
+  ['eeprom_5fcalibration_5fo2_5fold',['EEPROM_CALIBRATION_O2_OLD',['../storage_8h.html#ae00868ed86b6eab1fb740cf37d04812e',1,'storage.h']]],
   ['eeprom_5fconfig10_5fend',['EEPROM_CONFIG10_END',['../storage_8h.html#ad0546573739c9890fca25dc7d65a0787',1,'storage.h']]],
   ['eeprom_5fconfig10_5fstart',['EEPROM_CONFIG10_START',['../storage_8h.html#a87b6d5e3f186b4178d0449745832c77d',1,'storage.h']]],
   ['eeprom_5fconfig11_5fend',['EEPROM_CONFIG11_END',['../storage_8h.html#abdab04b5cb19dbd8e7af19b636aed4cf',1,'storage.h']]],
