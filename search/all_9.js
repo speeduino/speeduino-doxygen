@@ -176,6 +176,7 @@ var searchData=
   ['ignmappage',['ignMapPage',['../comms_8h.html#a6894142189f915452e053994b95d07fb',1,'comms.h']]],
   ['ignsetpage',['ignSetPage',['../comms_8h.html#ac578dae9dba8affd61d2f47d25e61854',1,'comms.h']]],
   ['includeafr',['includeAFR',['../structconfig2.html#afa9ed2839798c0cf326b3276c26fb23c',1,'config2::includeAFR()'],['../globals_8h.html#a879efb0c9d51c2521b2dba65f1f64fb4',1,'includeAFR():&#160;globals.h']]],
+  ['incorporateafr',['incorporateAFR',['../structconfig2.html#ace47c83764283db1ad454bdd6d0e06e4',1,'config2::incorporateAFR()'],['../globals_8h.html#adb4c72df9f9adb62893922a449f779e0',1,'incorporateAFR():&#160;globals.h']]],
   ['indinjang',['indInjAng',['../structconfig2.html#ad36c73275a9b223c756a3e951977c46d',1,'config2::indInjAng()'],['../globals_8h.html#ab9d2daf541a21cba9bb9c1f7570f295d',1,'indInjAng():&#160;globals.h']]],
   ['init_2eh',['init.h',['../init_8h.html',1,'']]],
   ['init_2eino',['init.ino',['../init_8ino.html',1,'']]],
