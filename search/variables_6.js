@@ -15,6 +15,9 @@ var searchData=
   ['fanunused',['fanUnused',['../structconfig2.html#ab0962a70d62d0afcbdd9e82a15618231',1,'config2::fanUnused()'],['../globals_8h.html#a17d698869ebbc3d2da3761026a665c71',1,'fanUnused():&#160;globals.h']]],
   ['fanwhencranking',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2::fanWhenCranking()'],['../globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2',1,'fanWhenCranking():&#160;globals.h']]],
   ['fanwhenoff',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2::fanWhenOff()'],['../globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72',1,'fanWhenOff():&#160;globals.h']]],
+  ['firstcomptype',['firstCompType',['../structcmp_operation.html#a4d21c57b722c4036b14c73c18b357bd4',1,'cmpOperation']]],
+  ['firstdatain',['firstDataIn',['../structconfig13.html#aff029c9771255f64ba98cc0ef82c5f2e',1,'config13::firstDataIn()'],['../globals_8h.html#a4c9227b6214afb8309bb47eac3c2bb14',1,'firstDataIn():&#160;globals.h']]],
+  ['firsttarget',['firstTarget',['../structconfig13.html#a1aaa3790a92fc3af54d2a9a6a09fd778',1,'config13::firstTarget()'],['../globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe',1,'firstTarget():&#160;globals.h']]],
   ['fixang',['FixAng',['../structconfig4.html#afd9fde15111d45388e2b19f568103c0a',1,'config4::FixAng()'],['../globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff',1,'FixAng():&#160;globals.h']]],
   ['fixangenable',['fixAngEnable',['../structconfig2.html#ac59aebab192641059276fa40878779fa',1,'config2::fixAngEnable()'],['../globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3',1,'fixAngEnable():&#160;globals.h']]],
   ['fixedcrankingoverride',['fixedCrankingOverride',['../globals_8h.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino'],['../globals_8ino.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino']]],
@@ -44,6 +47,7 @@ var searchData=
   ['fpprimed',['fpPrimed',['../globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino'],['../globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino']]],
   ['fpprimetime',['fpPrimeTime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino'],['../globals_8ino.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino']]],
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
+  ['fsintindex',['fsIntIndex',['../globals_8h.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino']]],
   ['fuel2algorithm',['fuel2Algorithm',['../structconfig10.html#a5155c9f92e88f41758ff6a4568f4b6df',1,'config10::fuel2Algorithm()'],['../globals_8h.html#a13c134ebbc8687a426ea1f86fee5f3df',1,'fuel2Algorithm():&#160;globals.h']]],
   ['fuel2inputpin',['fuel2InputPin',['../structconfig10.html#a193f335d429c57fd3bc31004c1bfa69d',1,'config10::fuel2InputPin()'],['../globals_8h.html#a33202c59e33ae1e00a322ca3c0bd76fb',1,'fuel2InputPin():&#160;globals.h']]],
   ['fuel2inputpolarity',['fuel2InputPolarity',['../structconfig10.html#a180e4d4bd542300fb8fa021bcdda9d14',1,'config10::fuel2InputPolarity()'],['../globals_8h.html#a7cf2c64af0c68dcf927e661cfcf62a0d',1,'fuel2InputPolarity():&#160;globals.h']]],
@@ -72,5 +76,6 @@ var searchData=
   ['fuelschedule8',['fuelSchedule8',['../scheduler_8h.html#ab5b6bb173b94dc59b3580476fe628029',1,'fuelSchedule8():&#160;scheduler.ino'],['../scheduler_8ino.html#ab5b6bb173b94dc59b3580476fe628029',1,'fuelSchedule8():&#160;scheduler.ino']]],
   ['fueltable',['fuelTable',['../globals_8h.html#a6e23e7d5be06ffdb1e5b70ba2bf01896',1,'fuelTable():&#160;globals.ino'],['../globals_8ino.html#a6e23e7d5be06ffdb1e5b70ba2bf01896',1,'fuelTable():&#160;globals.ino']]],
   ['fueltable2',['fuelTable2',['../globals_8h.html#ad38a76d7b3fb61b974e66c0121ad8ef1',1,'fuelTable2():&#160;globals.ino'],['../globals_8ino.html#ad38a76d7b3fb61b974e66c0121ad8ef1',1,'fuelTable2():&#160;globals.ino']]],
-  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]]
+  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]],
+  ['fullstatus',['fullStatus',['../globals_8h.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino'],['../globals_8ino.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino']]]
 ];

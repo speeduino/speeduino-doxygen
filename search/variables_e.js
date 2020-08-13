@@ -19,5 +19,10 @@ var searchData=
   ['oilpressureprotecttable',['oilPressureProtectTable',['../globals_8h.html#a8757ef7aa5051bb40189d9564f0c57df',1,'oilPressureProtectTable():&#160;globals.ino'],['../globals_8ino.html#a8757ef7aa5051bb40189d9564f0c57df',1,'oilPressureProtectTable():&#160;globals.ino']]],
   ['oilpressureprotenbl',['oilPressureProtEnbl',['../structconfig10.html#a3ee567632080feb9f4e890f0acc2d703',1,'config10::oilPressureProtEnbl()'],['../globals_8h.html#a7959eeeb551b4d7b03f477e558d525e1',1,'oilPressureProtEnbl():&#160;globals.h']]],
   ['oilpressureprotmins',['oilPressureProtMins',['../structconfig10.html#addb48a96074bbda557fdeae4c79a4e9f',1,'config10::oilPressureProtMins()'],['../globals_8h.html#aeefb49d8bf0e8372d0f55b8fa9f343d4',1,'oilPressureProtMins():&#160;globals.h']]],
-  ['oilpressureprotrpm',['oilPressureProtRPM',['../structconfig10.html#a2092b8cd212681376da95dfa8c15cbcd',1,'config10::oilPressureProtRPM()'],['../globals_8h.html#a40b4e3765cdebb3ee189ff0945b8395f',1,'oilPressureProtRPM():&#160;globals.h']]]
+  ['oilpressureprotrpm',['oilPressureProtRPM',['../structconfig10.html#a2092b8cd212681376da95dfa8c15cbcd',1,'config10::oilPressureProtRPM()'],['../globals_8h.html#a40b4e3765cdebb3ee189ff0945b8395f',1,'oilPressureProtRPM():&#160;globals.h']]],
+  ['operation',['operation',['../structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33',1,'config13::operation()'],['../globals_8h.html#a5ac7d3f3130d0c68cf1eaf4b7b7faf4f',1,'operation():&#160;globals.h']]],
+  ['outputdelay',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13::outputDelay()'],['../globals_8h.html#afb86d7ee164ae07124e185968d1d8cb2',1,'outputDelay():&#160;globals.h']]],
+  ['outputinverted',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13::outputInverted()'],['../globals_8h.html#ad33b5b5d2c63fca22683cd6463397dba',1,'outputInverted():&#160;globals.h']]],
+  ['outputpin',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13::outputPin()'],['../globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926',1,'outputPin():&#160;globals.h'],['../utils_8h.html#a5ef1ba0972f29e69a5e8f99972e69630',1,'outputPin():&#160;utils.h']]],
+  ['outputsstatus',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]]
 ];

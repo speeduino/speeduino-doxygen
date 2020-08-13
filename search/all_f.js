@@ -93,6 +93,8 @@ var searchData=
   ['primingdelay',['primingDelay',['../structconfig2.html#ae347c1dd6fbb916f2eeb1cf7058e367c',1,'config2::primingDelay()'],['../globals_8h.html#a0cb88b0cfa950b68f4465db485086222',1,'primingDelay():&#160;globals.h']]],
   ['primingpulsetable',['PrimingPulseTable',['../globals_8h.html#a09defe13fdb5a2a182bcfbd350af0dbd',1,'PrimingPulseTable():&#160;globals.ino'],['../globals_8ino.html#a09defe13fdb5a2a182bcfbd350af0dbd',1,'PrimingPulseTable():&#160;globals.ino']]],
   ['progmem',['PROGMEM',['../comms_8h.html#a4678e63753af438068cadfea9ff54025',1,'PROGMEM():&#160;comms.h'],['../globals_8h.html#a795dfdb739aacf4957feb7773e47a912',1,'PROGMEM():&#160;comms.h'],['../globals_8ino.html#a795dfdb739aacf4957feb7773e47a912',1,'PROGMEM():&#160;globals.ino']]],
+  ['progoutspage',['progOutsPage',['../comms_8h.html#ad8c831178aad78b1308d2df78971c8d2',1,'comms.h']]],
+  ['programmableiogetdata',['ProgrammableIOGetData',['../utils_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utils.ino'],['../utils_8ino.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utils.ino']]],
   ['protect_5fcut_5fboth',['PROTECT_CUT_BOTH',['../globals_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'globals.h']]],
   ['protect_5fcut_5ffuel',['PROTECT_CUT_FUEL',['../globals_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'globals.h']]],
   ['protect_5fcut_5fign',['PROTECT_CUT_IGN',['../globals_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'globals.h']]],

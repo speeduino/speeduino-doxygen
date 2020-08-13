@@ -43,5 +43,10 @@ var searchData=
   ['openinjector5',['openInjector5',['../scheduled_i_o_8h.html#ae23dca6392c4b5d1c363e40a5a1e5e6a',1,'openInjector5():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#ae23dca6392c4b5d1c363e40a5a1e5e6a',1,'openInjector5():&#160;scheduledIO.ino']]],
   ['openinjector6',['openInjector6',['../scheduled_i_o_8h.html#ac2f9b55e75dc43146bb9bdc5e7d2de04',1,'openInjector6():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#ac2f9b55e75dc43146bb9bdc5e7d2de04',1,'openInjector6():&#160;scheduledIO.ino']]],
   ['openinjector7',['openInjector7',['../scheduled_i_o_8h.html#aa25e823cfa503b43e1630d9196186d8e',1,'openInjector7():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#aa25e823cfa503b43e1630d9196186d8e',1,'openInjector7():&#160;scheduledIO.ino']]],
-  ['openinjector8',['openInjector8',['../scheduled_i_o_8h.html#a45ff26f8488532dfb3ef00335fa25375',1,'openInjector8():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375',1,'openInjector8():&#160;scheduledIO.ino']]]
+  ['openinjector8',['openInjector8',['../scheduled_i_o_8h.html#a45ff26f8488532dfb3ef00335fa25375',1,'openInjector8():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375',1,'openInjector8():&#160;scheduledIO.ino']]],
+  ['operation',['operation',['../structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33',1,'config13::operation()'],['../globals_8h.html#a5ac7d3f3130d0c68cf1eaf4b7b7faf4f',1,'operation():&#160;globals.h']]],
+  ['outputdelay',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13::outputDelay()'],['../globals_8h.html#afb86d7ee164ae07124e185968d1d8cb2',1,'outputDelay():&#160;globals.h']]],
+  ['outputinverted',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13::outputInverted()'],['../globals_8h.html#ad33b5b5d2c63fca22683cd6463397dba',1,'outputInverted():&#160;globals.h']]],
+  ['outputpin',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13::outputPin()'],['../globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926',1,'outputPin():&#160;globals.h'],['../utils_8h.html#a5ef1ba0972f29e69a5e8f99972e69630',1,'outputPin():&#160;utils.h']]],
+  ['outputsstatus',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]]
 ];

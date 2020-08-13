@@ -20,6 +20,8 @@ var searchData=
   ['eeprom_5fconfig12_5fxsize',['EEPROM_CONFIG12_XSIZE',['../storage_8h.html#a151c9031f1a8e3c87312e0813507fa7e',1,'storage.h']]],
   ['eeprom_5fconfig12_5fybins',['EEPROM_CONFIG12_YBINS',['../storage_8h.html#a0581ba7db7beb9a61d8f51dd044afc64',1,'storage.h']]],
   ['eeprom_5fconfig12_5fysize',['EEPROM_CONFIG12_YSIZE',['../storage_8h.html#a2d86f4801fabd2ee31e1786613002386',1,'storage.h']]],
+  ['eeprom_5fconfig13_5fend',['EEPROM_CONFIG13_END',['../storage_8h.html#a79957a3f13354e33402bc861897a2849',1,'storage.h']]],
+  ['eeprom_5fconfig13_5fstart',['EEPROM_CONFIG13_START',['../storage_8h.html#a0c95ef59a60587f57ddd0fe7eda4c4ab',1,'storage.h']]],
   ['eeprom_5fconfig1_5fmap',['EEPROM_CONFIG1_MAP',['../storage_8h.html#a99a9c363e83201ebfafc3932b1a36357',1,'storage.h']]],
   ['eeprom_5fconfig1_5fxbins',['EEPROM_CONFIG1_XBINS',['../storage_8h.html#a80dee5184c4b4d6f77c016b79c958921',1,'storage.h']]],
   ['eeprom_5fconfig1_5fxsize',['EEPROM_CONFIG1_XSIZE',['../storage_8h.html#a26da4e61da7c86dedd9fd3adf8132fd0',1,'storage.h']]],

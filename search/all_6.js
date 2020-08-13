@@ -25,6 +25,9 @@ var searchData=
   ['fastmap1023tox',['fastMap1023toX',['../maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7',1,'fastMap1023toX():&#160;maths.h'],['../maths_8h.html#a5499f75c411ea2ee0f8080899f440526',1,'fastMap1023toX(int, int):&#160;maths.h']]],
   ['fastmap10bit',['fastMap10Bit',['../maths_8h.html#a75b8618bbbc73031d200d1424e0252d6',1,'maths.h']]],
   ['fasttimetoangle',['fastTimeToAngle',['../crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c',1,'crankMaths.h']]],
+  ['firstcomptype',['firstCompType',['../structcmp_operation.html#a4d21c57b722c4036b14c73c18b357bd4',1,'cmpOperation']]],
+  ['firstdatain',['firstDataIn',['../structconfig13.html#aff029c9771255f64ba98cc0ef82c5f2e',1,'config13::firstDataIn()'],['../globals_8h.html#a4c9227b6214afb8309bb47eac3c2bb14',1,'firstDataIn():&#160;globals.h']]],
+  ['firsttarget',['firstTarget',['../structconfig13.html#a1aaa3790a92fc3af54d2a9a6a09fd778',1,'config13::firstTarget()'],['../globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe',1,'firstTarget():&#160;globals.h']]],
   ['fixang',['FixAng',['../structconfig4.html#afd9fde15111d45388e2b19f568103c0a',1,'config4::FixAng()'],['../globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff',1,'FixAng():&#160;globals.h']]],
   ['fixangenable',['fixAngEnable',['../structconfig2.html#ac59aebab192641059276fa40878779fa',1,'config2::fixAngEnable()'],['../globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3',1,'fixAngEnable():&#160;globals.h']]],
   ['fixedcrankingoverride',['fixedCrankingOverride',['../globals_8h.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino'],['../globals_8ino.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino']]],
@@ -56,6 +59,7 @@ var searchData=
   ['fpprimed',['fpPrimed',['../globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino'],['../globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino']]],
   ['fpprimetime',['fpPrimeTime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino'],['../globals_8ino.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino']]],
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
+  ['fsintindex',['fsIntIndex',['../globals_8h.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino']]],
   ['fuel2_5fcondition_5feth',['FUEL2_CONDITION_ETH',['../globals_8h.html#aa8e5bb17900fbcf0d719f9c06288841c',1,'globals.h']]],
   ['fuel2_5fcondition_5fmap',['FUEL2_CONDITION_MAP',['../globals_8h.html#a3b53dc9d9be4a826142363466808eac0',1,'globals.h']]],
   ['fuel2_5fcondition_5frpm',['FUEL2_CONDITION_RPM',['../globals_8h.html#a9bb4013e5b2458813164801166650ee6',1,'globals.h']]],
@@ -97,5 +101,6 @@ var searchData=
   ['fuelschedule8',['fuelSchedule8',['../scheduler_8h.html#ab5b6bb173b94dc59b3580476fe628029',1,'fuelSchedule8():&#160;scheduler.ino'],['../scheduler_8ino.html#ab5b6bb173b94dc59b3580476fe628029',1,'fuelSchedule8():&#160;scheduler.ino']]],
   ['fueltable',['fuelTable',['../globals_8h.html#a6e23e7d5be06ffdb1e5b70ba2bf01896',1,'fuelTable():&#160;globals.ino'],['../globals_8ino.html#a6e23e7d5be06ffdb1e5b70ba2bf01896',1,'fuelTable():&#160;globals.ino']]],
   ['fueltable2',['fuelTable2',['../globals_8h.html#ad38a76d7b3fb61b974e66c0121ad8ef1',1,'fuelTable2():&#160;globals.ino'],['../globals_8ino.html#ad38a76d7b3fb61b974e66c0121ad8ef1',1,'fuelTable2():&#160;globals.ino']]],
-  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]]
+  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]],
+  ['fullstatus',['fullStatus',['../globals_8h.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino'],['../globals_8ino.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino']]]
 ];
