@@ -22,5 +22,6 @@ var searchData=
   ['maxignoutputs',['maxIgnOutputs',['../speeduino_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;speeduino.ino'],['../speeduino_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;speeduino.ino']]],
   ['moreairdirection',['moreAirDirection',['../struct_stepper_idle.html#a96534484ac7ff76a376465d93dd08f51',1,'StepperIdle']]],
   ['ms_5fcounter',['ms_counter',['../globals_8h.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino'],['../globals_8ino.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino']]],
-  ['multiplymap',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2::multiplyMAP()'],['../globals_8h.html#ac34373f1455a7163a5fd889b551f2108',1,'multiplyMAP():&#160;globals.h']]]
+  ['multiplymap',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2::multiplyMAP()'],['../globals_8h.html#ac34373f1455a7163a5fd889b551f2108',1,'multiplyMAP():&#160;globals.h']]],
+  ['multiplymap_5fold',['multiplyMAP_old',['../structconfig2.html#a190201af6c84c8b4bd0de1ac612b81ad',1,'config2::multiplyMAP_old()'],['../globals_8h.html#ad44d76713d7b406ba5ff21c9a6db16b6',1,'multiplyMAP_old():&#160;globals.h']]]
 ];

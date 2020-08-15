@@ -31,7 +31,6 @@ var searchData=
   ['fixang',['FixAng',['../structconfig4.html#afd9fde15111d45388e2b19f568103c0a',1,'config4::FixAng()'],['../globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff',1,'FixAng():&#160;globals.h']]],
   ['fixangenable',['fixAngEnable',['../structconfig2.html#ac59aebab192641059276fa40878779fa',1,'config2::fixAngEnable()'],['../globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3',1,'fixAngEnable():&#160;globals.h']]],
   ['fixedcrankingoverride',['fixedCrankingOverride',['../globals_8h.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino'],['../globals_8ino.html#a4c046e7a68123add2c1a3a53eddd74b6',1,'fixedCrankingOverride():&#160;globals.ino']]],
-  ['fixedmultiplymap',['fixedMultiplyMAP',['../structconfig2.html#a172162f2ee88a18c9d8504188cffa7b1',1,'config2::fixedMultiplyMAP()'],['../globals_8h.html#a62c055d9b064df445f81a707575adb04',1,'fixedMultiplyMAP():&#160;globals.h']]],
   ['flatsarm',['flatSArm',['../structconfig6.html#a015c3bc2c697b92e56e63f6e07c16f10',1,'config6::flatSArm()'],['../globals_8h.html#ae7b43d59b87ff36cda7a890fdf109289',1,'flatSArm():&#160;globals.h']]],
   ['flatsenable',['flatSEnable',['../structconfig6.html#a1f77d6519781f0588b705f377ff94208',1,'config6::flatSEnable()'],['../globals_8h.html#a8560001ad6d4a68d5b4fc68812877698',1,'flatSEnable():&#160;globals.h']]],
   ['flatshiftinghard',['flatShiftingHard',['../structstatuses.html#a2e43efd53f0ad250c31c15a43e741c3f',1,'statuses']]],
