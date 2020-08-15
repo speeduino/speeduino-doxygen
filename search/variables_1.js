@@ -9,6 +9,7 @@ var searchData=
   ['adcfilter_5ftps',['ADCFILTER_TPS',['../structconfig4.html#aa753f66340f0414db0d748c00a26d5a6',1,'config4::ADCFILTER_TPS()'],['../globals_8h.html#a5d7c9cd9cb6d4edc9661f142a7a86e94',1,'ADCFILTER_TPS():&#160;globals.h']]],
   ['advance',['advance',['../structstatuses.html#a4a50e4af8c3d7c15c08a76ec00163091',1,'statuses']]],
   ['aeamount',['AEamount',['../structstatuses.html#aeb122a2ea38979cb835a5e24b70f1654',1,'statuses']]],
+  ['aeapplymode',['aeApplyMode',['../structconfig2.html#a749bb94e83ee3ac99350aee2e05ea601',1,'config2::aeApplyMode()'],['../globals_8h.html#a347157de7caed3bbde19bb1297859e47',1,'aeApplyMode():&#160;globals.h']]],
   ['aecoldpct',['aeColdPct',['../structconfig2.html#a97b1d465e528ee81e5dcd9cb69a07b64',1,'config2::aeColdPct()'],['../globals_8h.html#a6d2c1878531cf06f500aa23a06430737',1,'aeColdPct():&#160;globals.h']]],
   ['aecoldtapermax',['aeColdTaperMax',['../structconfig2.html#a01445343dfcc49e284a8520bc73e6640',1,'config2::aeColdTaperMax()'],['../globals_8h.html#ab25df1efff9fce1aaffcb9d43c93fa83',1,'aeColdTaperMax():&#160;globals.h']]],
   ['aecoldtapermin',['aeColdTaperMin',['../structconfig2.html#aa51c6804ea97536488e7fbd660d6c202',1,'config2::aeColdTaperMin()'],['../globals_8h.html#adba29acabb7dcefe98af0d06bb03af3c',1,'aeColdTaperMin():&#160;globals.h']]],
