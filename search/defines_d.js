@@ -9,5 +9,6 @@ var searchData=
   ['protect_5fcut_5fboth',['PROTECT_CUT_BOTH',['../globals_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'globals.h']]],
   ['protect_5fcut_5ffuel',['PROTECT_CUT_FUEL',['../globals_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'globals.h']]],
   ['protect_5fcut_5fign',['PROTECT_CUT_IGN',['../globals_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'globals.h']]],
-  ['protect_5fcut_5foff',['PROTECT_CUT_OFF',['../globals_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'globals.h']]]
+  ['protect_5fcut_5foff',['PROTECT_CUT_OFF',['../globals_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'globals.h']]],
+  ['protect_5fio_5ferror',['PROTECT_IO_ERROR',['../globals_8h.html#a72c2a852d9f69f1ac163350fcf0b2401',1,'globals.h']]]
 ];

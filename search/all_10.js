@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['read_5fflex',['READ_FLEX',['../sensors_8h.html#a943c6a4ab8a31f750ae41e1e50d8a5cc',1,'sensors.h']]],
   ['read_5fn2o_5farm_5fpin',['READ_N2O_ARM_PIN',['../auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22',1,'auxiliaries.h']]],
   ['read_5fpri_5ftrigger',['READ_PRI_TRIGGER',['../decoders_8h.html#a66dc33369201e4f94f1069c0363e7693',1,'decoders.h']]],
   ['read_5fsec_5ftrigger',['READ_SEC_TRIGGER',['../decoders_8h.html#a937eaa5bfe2e2b7fae59fbd48759d51a',1,'decoders.h']]],

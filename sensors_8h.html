@@ -89,6 +89,8 @@ Macros</h2></td></tr>
 <tr class="separator:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ab3e37a136cdf9174ecfb254ff4c7f9a6">VSS_SAMPLES</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a943c6a4ab8a31f750ae41e1e50d8a5cc">READ_FLEX</a>()&#160;&#160;&#160;digitalRead(<a class="el" href="globals_8ino.html#a881676bf3546a0b2d7bec83e8d50d45b">pinFlex</a>)</td></tr>
+<tr class="separator:a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546e9cb3295371234f60dcf3beae19dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">ADC_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
 <tr class="memdesc:a546e9cb3295371234f60dcf3beae19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from playground.arduino.cc/Main/Smooth But removes the use of floats and uses 8 bits of fixed precision.  <a href="#a546e9cb3295371234f60dcf3beae19dd">More...</a><br /></td></tr>
 <tr class="separator:a546e9cb3295371234f60dcf3beae19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +141,10 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aa8017c1c1d748c2a0ccedd19aab068c6"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#aa8017c1c1d748c2a0ccedd19aab068c6">flexCounter</a> = 0</td></tr>
 <tr class="separator:aa8017c1c1d748c2a0ccedd19aab068c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b34f862f2593ed8f7b1926bb92d6261"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a2b34f862f2593ed8f7b1926bb92d6261">flexStartTime</a></td></tr>
+<tr class="separator:a2b34f862f2593ed8f7b1926bb92d6261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9d716d4d338e11b5b45ba32da66bf3"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a9c9d716d4d338e11b5b45ba32da66bf3">flexPulseWidth</a></td></tr>
+<tr class="separator:a9c9d716d4d338e11b5b45ba32da66bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55faada3ae98f68d4fba5bedc9ce9c43"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a55faada3ae98f68d4fba5bedc9ce9c43">knockCounter</a> = 0</td></tr>
 <tr class="separator:a55faada3ae98f68d4fba5bedc9ce9c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2edf9c4a532d4ce421ca6c38a68aee3"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ad2edf9c4a532d4ce421ca6c38a68aee3">knockAngle</a></td></tr>
@@ -267,6 +273,23 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define KNOCK_MODE_DIGITAL&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a943c6a4ab8a31f750ae41e1e50d8a5cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a943c6a4ab8a31f750ae41e1e50d8a5cc">&#9670;&nbsp;</a></span>READ_FLEX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_FLEX</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;digitalRead(<a class="el" href="globals_8ino.html#a881676bf3546a0b2d7bec83e8d50d45b">pinFlex</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -939,6 +962,34 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">volatile byte flexCounter = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c9d716d4d338e11b5b45ba32da66bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9d716d4d338e11b5b45ba32da66bf3">&#9670;&nbsp;</a></span>flexPulseWidth</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned long flexPulseWidth</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b34f862f2593ed8f7b1926bb92d6261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b34f862f2593ed8f7b1926bb92d6261">&#9670;&nbsp;</a></span>flexStartTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned long flexStartTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
