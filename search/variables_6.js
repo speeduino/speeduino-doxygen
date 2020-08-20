@@ -16,7 +16,7 @@ var searchData=
   ['fanwhencranking',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2::fanWhenCranking()'],['../globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2',1,'fanWhenCranking():&#160;globals.h']]],
   ['fanwhenoff',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2::fanWhenOff()'],['../globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72',1,'fanWhenOff():&#160;globals.h']]],
   ['firstcomptype',['firstCompType',['../structcmp_operation.html#a4d21c57b722c4036b14c73c18b357bd4',1,'cmpOperation']]],
-  ['firstdatain',['firstDataIn',['../structconfig13.html#aff029c9771255f64ba98cc0ef82c5f2e',1,'config13::firstDataIn()'],['../globals_8h.html#a4c9227b6214afb8309bb47eac3c2bb14',1,'firstDataIn():&#160;globals.h']]],
+  ['firstdatain',['firstDataIn',['../structconfig13.html#abcd731410d43745a24addab73472f34b',1,'config13::firstDataIn()'],['../globals_8h.html#af03fbb7985751749a7f90d41c3985b34',1,'firstDataIn():&#160;globals.h']]],
   ['firsttarget',['firstTarget',['../structconfig13.html#a1aaa3790a92fc3af54d2a9a6a09fd778',1,'config13::firstTarget()'],['../globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe',1,'firstTarget():&#160;globals.h']]],
   ['fixang',['FixAng',['../structconfig4.html#afd9fde15111d45388e2b19f568103c0a',1,'config4::FixAng()'],['../globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff',1,'FixAng():&#160;globals.h']]],
   ['fixangenable',['fixAngEnable',['../structconfig2.html#ac59aebab192641059276fa40878779fa',1,'config2::fixAngEnable()'],['../globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3',1,'fixAngEnable():&#160;globals.h']]],
