@@ -145,6 +145,7 @@ var searchData=
   ['ignitionschedule7',['ignitionSchedule7',['../scheduler_8h.html#a139a7ba94bf49419dd6004087fc04d3a',1,'ignitionSchedule7():&#160;scheduler.ino'],['../scheduler_8ino.html#a139a7ba94bf49419dd6004087fc04d3a',1,'ignitionSchedule7():&#160;scheduler.ino']]],
   ['ignitionschedule8',['ignitionSchedule8',['../scheduler_8h.html#aff5e8c03a998148988fa19f435e2ca3c',1,'ignitionSchedule8():&#160;scheduler.ino'],['../scheduler_8ino.html#aff5e8c03a998148988fa19f435e2ca3c',1,'ignitionSchedule8():&#160;scheduler.ino']]],
   ['ignitiontable',['ignitionTable',['../globals_8h.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino'],['../globals_8ino.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino']]],
+  ['ignitiontable2',['ignitionTable2',['../globals_8h.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino'],['../globals_8ino.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino']]],
   ['ignload',['ignLoad',['../structstatuses.html#ac60524a71048115c3b6e660beecd9663',1,'statuses']]],
   ['includeafr',['includeAFR',['../structconfig2.html#afa9ed2839798c0cf326b3276c26fb23c',1,'config2::includeAFR()'],['../globals_8h.html#a879efb0c9d51c2521b2dba65f1f64fb4',1,'includeAFR():&#160;globals.h']]],
   ['incorporateafr',['incorporateAFR',['../structconfig2.html#ace47c83764283db1ad454bdd6d0e06e4',1,'config2::incorporateAFR()'],['../globals_8h.html#adb4c72df9f9adb62893922a449f779e0',1,'incorporateAFR():&#160;globals.h']]],

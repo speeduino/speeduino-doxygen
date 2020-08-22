@@ -11,6 +11,8 @@ var searchData=
   ['adcfilter_5ftps',['ADCFILTER_TPS',['../structconfig4.html#aa753f66340f0414db0d748c00a26d5a6',1,'config4::ADCFILTER_TPS()'],['../globals_8h.html#a5d7c9cd9cb6d4edc9661f142a7a86e94',1,'ADCFILTER_TPS():&#160;globals.h']]],
   ['addtoothlogentry',['addToothLogEntry',['../decoders_8h.html#a8d3595910d8656bfdda8fa5aa9fe85c5',1,'addToothLogEntry(unsigned long, bool):&#160;decoders.h'],['../decoders_8ino.html#aa9e6155c9870e39e1118af203a4cee9a',1,'addToothLogEntry(unsigned long toothTime, bool whichTooth):&#160;decoders.ino']]],
   ['advance',['advance',['../structstatuses.html#a4a50e4af8c3d7c15c08a76ec00163091',1,'statuses']]],
+  ['advance1',['advance1',['../structstatuses.html#a8fbbc9e427f0bbfadd50299db8586668',1,'statuses']]],
+  ['advance2',['advance2',['../structstatuses.html#a5aeaf88a9972235864249d2c6b314660',1,'statuses']]],
   ['ae_5fmode_5fadder',['AE_MODE_ADDER',['../globals_8h.html#aeef9fc7747ab1475e74e5ca7e5c5c791',1,'globals.h']]],
   ['ae_5fmode_5fmap',['AE_MODE_MAP',['../globals_8h.html#a41b7653dd4515c44c9832f8adc797009',1,'globals.h']]],
   ['ae_5fmode_5fmultiplier',['AE_MODE_MULTIPLIER',['../globals_8h.html#a279c9e02fc958f29d83d6e859b1bb100',1,'globals.h']]],
