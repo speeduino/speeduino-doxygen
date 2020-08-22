@@ -11,6 +11,8 @@ var searchData=
   ['table3d_5fsetsize',['table3D_setSize',['../table_8h.html#a4fff98d22db63bf11f5bf49ec60d31c7',1,'table3D_setSize(struct table3D *targetTable, byte):&#160;table.ino'],['../table_8ino.html#aeea29e9fe4a65a33ab4a928ac89d3cb0',1,'table3D_setSize(struct table3D *targetTable, byte newSize):&#160;table.ino']]],
   ['table_5fload_5fmultiplier',['TABLE_LOAD_MULTIPLIER',['../table_8h.html#a4363dbad34db4cdd9574f72267f84d1a',1,'table.h']]],
   ['table_5frpm_5fmultiplier',['TABLE_RPM_MULTIPLIER',['../table_8h.html#a8779fbb2ff7e835a154977b0dec34787',1,'table.h']]],
+  ['table_5fshift_5ffactor',['TABLE_SHIFT_FACTOR',['../table_8h.html#a8867c18e8fb6575ec9aad331e7a287a6',1,'table.h']]],
+  ['table_5fshift_5fpower',['TABLE_SHIFT_POWER',['../table_8h.html#a10ad3b459278aa854b840360f258a86f',1,'table.h']]],
   ['tach_5fpin_5fmask',['tach_pin_mask',['../globals_8h.html#ae9e7c5417ac9a7081e3e0c51899536a9',1,'tach_pin_mask():&#160;globals.ino'],['../globals_8ino.html#ae9e7c5417ac9a7081e3e0c51899536a9',1,'tach_pin_mask():&#160;globals.ino']]],
   ['tach_5fpin_5fport',['tach_pin_port',['../globals_8h.html#a336b604f45cf7e9ebe42b3c766f152e1',1,'tach_pin_port():&#160;globals.ino'],['../globals_8ino.html#a336b604f45cf7e9ebe42b3c766f152e1',1,'tach_pin_port():&#160;globals.ino']]],
   ['tacho_5fpulse_5fhigh',['TACHO_PULSE_HIGH',['../timers_8h.html#a875ca956caff6c349e6bac8de2248801',1,'timers.h']]],

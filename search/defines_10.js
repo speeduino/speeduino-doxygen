@@ -2,6 +2,8 @@ var searchData=
 [
   ['table_5fload_5fmultiplier',['TABLE_LOAD_MULTIPLIER',['../table_8h.html#a4363dbad34db4cdd9574f72267f84d1a',1,'table.h']]],
   ['table_5frpm_5fmultiplier',['TABLE_RPM_MULTIPLIER',['../table_8h.html#a8779fbb2ff7e835a154977b0dec34787',1,'table.h']]],
+  ['table_5fshift_5ffactor',['TABLE_SHIFT_FACTOR',['../table_8h.html#a8867c18e8fb6575ec9aad331e7a287a6',1,'table.h']]],
+  ['table_5fshift_5fpower',['TABLE_SHIFT_POWER',['../table_8h.html#a10ad3b459278aa854b840360f258a86f',1,'table.h']]],
   ['tacho_5fpulse_5fhigh',['TACHO_PULSE_HIGH',['../timers_8h.html#a875ca956caff6c349e6bac8de2248801',1,'timers.h']]],
   ['tacho_5fpulse_5flow',['TACHO_PULSE_LOW',['../timers_8h.html#ae960c1b872e48dfd99082e08af16cb07',1,'timers.h']]],
   ['tooth_5fcam',['TOOTH_CAM',['../decoders_8h.html#a0a5d90e5a768a19b64032dea04e01fce',1,'decoders.h']]],
