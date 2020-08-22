@@ -55,6 +55,7 @@ var searchData=
   ['toothlastsectoothtime',['toothLastSecToothTime',['../decoders_8h.html#a4d9c0dc167e08696c7e059de46e8f2a9',1,'toothLastSecToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a4d9c0dc167e08696c7e059de46e8f2a9',1,'toothLastSecToothTime():&#160;decoders.ino']]],
   ['toothlasttoothtime',['toothLastToothTime',['../decoders_8h.html#a1016cfc7bbb3d0431923926e7feb5481',1,'toothLastToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a1016cfc7bbb3d0431923926e7feb5481',1,'toothLastToothTime():&#160;decoders.ino']]],
   ['toothlogenabled',['toothLogEnabled',['../structstatuses.html#a384939d98fc023a004a8e3e7c62be025',1,'statuses']]],
+  ['toothlogsendinprogress',['toothLogSendInProgress',['../comms_8h.html#ae116c41617c4cf7cd2c3fc40096a2b27',1,'comms.h']]],
   ['toothoneminusonetime',['toothOneMinusOneTime',['../decoders_8h.html#afeac5cbe5557c16b1ea5e4c579988f8e',1,'toothOneMinusOneTime():&#160;decoders.ino'],['../decoders_8ino.html#afeac5cbe5557c16b1ea5e4c579988f8e',1,'toothOneMinusOneTime():&#160;decoders.ino']]],
   ['toothonetime',['toothOneTime',['../decoders_8h.html#aa0a6dce932427a5d9e0256d40ffb01af',1,'toothOneTime():&#160;decoders.ino'],['../decoders_8ino.html#aa0a6dce932427a5d9e0256d40ffb01af',1,'toothOneTime():&#160;decoders.ino']]],
   ['toothsystemcount',['toothSystemCount',['../decoders_8h.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino'],['../decoders_8ino.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino']]],

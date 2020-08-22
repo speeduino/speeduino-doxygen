@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['calculatecrc32',['calculateCRC32',['../utils_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c',1,'calculateCRC32(byte):&#160;utils.ino'],['../utils_8ino.html#a1c3c943ecc3b01dfc3fe02c7d405b149',1,'calculateCRC32(byte pageNo):&#160;utils.ino']]],
+  ['calculatecrc32',['calculateCRC32',['../utilities_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c',1,'calculateCRC32(byte):&#160;utilities.ino'],['../utilities_8ino.html#a1c3c943ecc3b01dfc3fe02c7d405b149',1,'calculateCRC32(byte pageNo):&#160;utilities.ino']]],
   ['calculateignitionangles',['calculateIgnitionAngles',['../speeduino_8h.html#aee805aade0c2279ffd85251494174991',1,'calculateIgnitionAngles(int):&#160;speeduino.ino'],['../speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e',1,'calculateIgnitionAngles(int dwellAngle):&#160;speeduino.ino']]],
   ['calculateinjectorstartangle',['calculateInjectorStartAngle',['../speeduino_8h.html#a409800872996dcb76ec097b9923976e1',1,'calculateInjectorStartAngle(uint16_t, int16_t):&#160;speeduino.ino'],['../speeduino_8ino.html#a8ad4d9d4d3947f090e587f7da4693fb6',1,'calculateInjectorStartAngle(uint16_t PWdivTimerPerDegree, int16_t injChannelDegrees):&#160;speeduino.ino']]],
   ['can_5fcommand',['can_Command',['../cancomms_8h.html#aa80695de8b0f1a51fa32db8fd150e581',1,'can_Command():&#160;cancomms.ino'],['../cancomms_8ino.html#aa80695de8b0f1a51fa32db8fd150e581',1,'can_Command():&#160;cancomms.ino']]],
@@ -10,7 +10,7 @@ var searchData=
   ['checkforstepping',['checkForStepping',['../idle_8h.html#a4053de9017b2bb17d6328131c7045408',1,'checkForStepping():&#160;idle.h'],['../idle_8ino.html#a4053de9017b2bb17d6328131c7045408',1,'checkForStepping():&#160;idle.ino']]],
   ['checkoilpressurelimit',['checkOilPressureLimit',['../engine_protection_8h.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino']]],
   ['checkpertoothtiming',['checkPerToothTiming',['../decoders_8ino.html#a62a160e1172b583d383d8ca212f5a3f8',1,'decoders.ino']]],
-  ['checkprogrammableio',['checkProgrammableIO',['../utils_8h.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utils.ino'],['../utils_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utils.ino']]],
+  ['checkprogrammableio',['checkProgrammableIO',['../utilities_8h.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino'],['../utilities_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino']]],
   ['checkrevlimit',['checkRevLimit',['../engine_protection_8h.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino']]],
   ['clearerror',['clearError',['../errors_8ino.html#ac3717793f00b202a528bba324183cfbe',1,'errors.ino']]],
   ['closeinjector1',['closeInjector1',['../scheduled_i_o_8h.html#a537c5f9e674ca45d9595303042938916',1,'closeInjector1():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916',1,'closeInjector1():&#160;scheduledIO.ino']]],

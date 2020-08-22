@@ -62,6 +62,6 @@ var searchData=
   ['useemap',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6::useEMAP()'],['../globals_8h.html#a516a848fd692c804e525b194c69a1bd9',1,'useEMAP():&#160;globals.h']]],
   ['useextbaro',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6::useExtBaro()'],['../globals_8h.html#a32ca43bf4bf666767fe348fa8fd76889',1,'useExtBaro():&#160;globals.h']]],
   ['useresync',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4::useResync()'],['../globals_8h.html#ad33467d48ec0c49d1b3f1dd4e18d90c8',1,'useResync():&#160;globals.h']]],
-  ['utils_2eh',['utils.h',['../utils_8h.html',1,'']]],
-  ['utils_2eino',['utils.ino',['../utils_8ino.html',1,'']]]
+  ['utilities_2eh',['utilities.h',['../utilities_8h.html',1,'']]],
+  ['utilities_2eino',['utilities.ino',['../utilities_8ino.html',1,'']]]
 ];
