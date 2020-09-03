@@ -22,6 +22,7 @@ var searchData=
   ['ign_5fmode_5fwastedcop',['IGN_MODE_WASTEDCOP',['../globals_8h.html#a55d621c1a35d4e69599bb874cd15de65',1,'globals.h']]],
   ['ignition_5frefresh_5fthreshold',['IGNITION_REFRESH_THRESHOLD',['../scheduler_8h.html#aa7b94ad3c3f8966d9b73903d218e08e6',1,'scheduler.h']]],
   ['ignitionlimits',['ignitionLimits',['../crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a',1,'crankMaths.h']]],
+  ['ignmap2page',['ignMap2Page',['../comms_8h.html#afbcb6179c8ca25837c6cdd51147c4c58',1,'comms.h']]],
   ['ignmappage',['ignMapPage',['../comms_8h.html#a6894142189f915452e053994b95d07fb',1,'comms.h']]],
   ['ignsetpage',['ignSetPage',['../comms_8h.html#ac578dae9dba8affd61d2f47d25e61854',1,'comms.h']]],
   ['inj1_5fcmd_5fbit',['INJ1_CMD_BIT',['../globals_8h.html#a01f08065982382c7cb7a8b7058d9ba02',1,'globals.h']]],

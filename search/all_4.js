@@ -1,6 +1,8 @@
 var searchData=
 [
   ['data_5fstructure_5fversion',['data_structure_version',['../globals_8h.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino'],['../globals_8ino.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino']]],
+  ['datarate',['dataRate',['../comms_8h.html#a9ab6ebf5982994aabbd46be6e5501b35',1,'comms.h']]],
+  ['dataratecounter',['dataRateCounter',['../comms_8h.html#a51d085007fcead33e1deeb0d72285f65',1,'comms.h']]],
   ['deactive',['DEACTIVE',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9aa6b784b2b2bbb43e39250f30d610d72e',1,'timers.h']]],
   ['decoderhasfixedcrankingtiming',['decoderHasFixedCrankingTiming',['../decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino'],['../decoders_8ino.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino']]],
   ['decoderhassecondary',['decoderHasSecondary',['../decoders_8h.html#a26f755322c23cc6caa2f4e5b8b8518af',1,'decoderHasSecondary():&#160;decoders.ino'],['../decoders_8ino.html#a26f755322c23cc6caa2f4e5b8b8518af',1,'decoderHasSecondary():&#160;decoders.ino']]],
