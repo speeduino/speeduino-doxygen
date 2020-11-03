@@ -17,7 +17,7 @@ var searchData=
   ['bit_5fset',['BIT_SET',['../globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9',1,'globals.h']]],
   ['bit_5fspark2_5fflatsh',['BIT_SPARK2_FLATSH',['../globals_8h.html#ae6776aa68d50c6745b12354b846d9818',1,'globals.h']]],
   ['bit_5fspark2_5fflatss',['BIT_SPARK2_FLATSS',['../globals_8h.html#a9dc366f56cd44ccd90b3b60229f94c61',1,'globals.h']]],
-  ['bit_5fspark2_5funused3',['BIT_SPARK2_UNUSED3',['../globals_8h.html#aabf647d3510d14d7c7818cc3fe811f79',1,'globals.h']]],
+  ['bit_5fspark2_5fspark2_5factive',['BIT_SPARK2_SPARK2_ACTIVE',['../globals_8h.html#a67089c231af7462e177e613652a975ae',1,'globals.h']]],
   ['bit_5fspark2_5funused4',['BIT_SPARK2_UNUSED4',['../globals_8h.html#a5f5ba7d00a94661c9f37e384ee8428a8',1,'globals.h']]],
   ['bit_5fspark2_5funused5',['BIT_SPARK2_UNUSED5',['../globals_8h.html#a235943274465c3d6cb21d77f6287df56',1,'globals.h']]],
   ['bit_5fspark2_5funused6',['BIT_SPARK2_UNUSED6',['../globals_8h.html#a112f3afcc1364f2081cfcb98707e868c',1,'globals.h']]],

@@ -2,7 +2,7 @@ var searchData=
 [
   ['get3dtablevalue',['get3DTableValue',['../table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f',1,'get3DTableValue(struct table3D *fromTable, int, int):&#160;table.ino'],['../table_8ino.html#a0a23080af7923be625ea14352abe41b2',1,'get3DTableValue(struct table3D *fromTable, int Y_in, int X_in):&#160;table.ino']]],
   ['getadvance1',['getAdvance1',['../speeduino_8h.html#a4d2f3e170c39f954862220a8ebb76dfb',1,'getAdvance1():&#160;speeduino.ino'],['../speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb',1,'getAdvance1():&#160;speeduino.ino']]],
-  ['getadvance2',['getAdvance2',['../speeduino_8h.html#ab7746198d140c5ef7bf726f020fb04cb',1,'getAdvance2():&#160;speeduino.ino'],['../speeduino_8ino.html#ab7746198d140c5ef7bf726f020fb04cb',1,'getAdvance2():&#160;speeduino.ino']]],
+  ['getadvance2',['getAdvance2',['../secondary_tables_8h.html#ab7746198d140c5ef7bf726f020fb04cb',1,'getAdvance2():&#160;secondaryTables.ino'],['../secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb',1,'getAdvance2():&#160;secondaryTables.ino']]],
   ['getcamangle_5fmiata9905',['getCamAngle_Miata9905',['../decoders_8h.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino'],['../decoders_8ino.html#a354200d8541d200032672dc7164e5a48',1,'getCamAngle_Miata9905():&#160;decoders.ino']]],
   ['getcrankangle_5f24x',['getCrankAngle_24X',['../decoders_8h.html#aea1c925a266404754eebef5a3526390f',1,'getCrankAngle_24X():&#160;decoders.ino'],['../decoders_8ino.html#aea1c925a266404754eebef5a3526390f',1,'getCrankAngle_24X():&#160;decoders.ino']]],
   ['getcrankangle_5f420a',['getCrankAngle_420a',['../decoders_8h.html#af10c2553e258151ecde508c6103e3771',1,'getCrankAngle_420a():&#160;decoders.ino'],['../decoders_8ino.html#af10c2553e258151ecde508c6103e3771',1,'getCrankAngle_420a():&#160;decoders.ino']]],
@@ -49,5 +49,5 @@ var searchData=
   ['getrpm_5fthirtysixminus222',['getRPM_ThirtySixMinus222',['../decoders_8h.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino'],['../decoders_8ino.html#ace842dcbbca6e75841cfbbd3344c44b6',1,'getRPM_ThirtySixMinus222():&#160;decoders.ino']]],
   ['getspeed',['getSpeed',['../sensors_8h.html#a51bbf590550aa8ecee9510de409e7e00',1,'getSpeed():&#160;sensors.ino'],['../sensors_8ino.html#a51bbf590550aa8ecee9510de409e7e00',1,'getSpeed():&#160;sensors.ino']]],
   ['getve1',['getVE1',['../speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino'],['../speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038',1,'getVE1():&#160;speeduino.ino']]],
-  ['getve2',['getVE2',['../speeduino_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino'],['../speeduino_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;speeduino.ino']]]
+  ['getve2',['getVE2',['../secondary_tables_8h.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;secondaryTables.ino'],['../secondary_tables_8ino.html#a84a44883567136feaf073e8a179adc32',1,'getVE2():&#160;secondaryTables.ino']]]
 ];

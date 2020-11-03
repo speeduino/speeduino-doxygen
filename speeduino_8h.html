@@ -84,15 +84,9 @@ Functions</h2></td></tr>
 <tr class="memitem:aa4f6389d213ee4abeefee599a0658038"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#aa4f6389d213ee4abeefee599a0658038">getVE1</a> ()</td></tr>
 <tr class="memdesc:aa4f6389d213ee4abeefee599a0658038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varies based on the fuel algorithm selected (speed density, alpha-n etc)  <a href="#aa4f6389d213ee4abeefee599a0658038">More...</a><br /></td></tr>
 <tr class="separator:aa4f6389d213ee4abeefee599a0658038"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84a44883567136feaf073e8a179adc32"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a84a44883567136feaf073e8a179adc32">getVE2</a> ()</td></tr>
-<tr class="memdesc:a84a44883567136feaf073e8a179adc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Looks up and returns the VE value from the secondary fuel table.  <a href="#a84a44883567136feaf073e8a179adc32">More...</a><br /></td></tr>
-<tr class="separator:a84a44883567136feaf073e8a179adc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2f3e170c39f954862220a8ebb76dfb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a4d2f3e170c39f954862220a8ebb76dfb">getAdvance1</a> ()</td></tr>
 <tr class="memdesc:a4d2f3e170c39f954862220a8ebb76dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a lookup of the ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured.  <a href="#a4d2f3e170c39f954862220a8ebb76dfb">More...</a><br /></td></tr>
 <tr class="separator:a4d2f3e170c39f954862220a8ebb76dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7746198d140c5ef7bf726f020fb04cb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#ab7746198d140c5ef7bf726f020fb04cb">getAdvance2</a> ()</td></tr>
-<tr class="memdesc:ab7746198d140c5ef7bf726f020fb04cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a lookup of the second ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured.  <a href="#ab7746198d140c5ef7bf726f020fb04cb">More...</a><br /></td></tr>
-<tr class="separator:ab7746198d140c5ef7bf726f020fb04cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409800872996dcb76ec097b9923976e1"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#a409800872996dcb76ec097b9923976e1">calculateInjectorStartAngle</a> (uint16_t, int16_t)</td></tr>
 <tr class="separator:a409800872996dcb76ec097b9923976e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee805aade0c2279ffd85251494174991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8h.html#aee805aade0c2279ffd85251494174991">calculateIgnitionAngles</a> (int)</td></tr>
@@ -293,58 +287,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab7746198d140c5ef7bf726f020fb04cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7746198d140c5ef7bf726f020fb04cb">&#9670;&nbsp;</a></span>getAdvance2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">byte getAdvance2 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Performs a lookup of the second ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured. </p>
-<dl class="section return"><dt>Returns</dt><dd>byte The current target advance value in degrees </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_cgraph.png" border="0" usemap="#speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_cgraph" alt=""/></div>
-<map name="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_cgraph" id="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_cgraph">
-<area shape="rect" id="node2" href="table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f" title="get3DTableValue" alt="" coords="160,233,291,260"/>
-<area shape="rect" id="node3" href="corrections_8h.html#ad4dd839eb4dc4a7b15f9cb42259cb45a" title="correctionsIgn" alt="" coords="168,284,283,311"/>
-<area shape="rect" id="node4" href="corrections_8ino.html#aee1d4fbb202adcbcd7897ec4f5a4d61a" title="correctionFlexTiming" alt="" coords="371,5,530,32"/>
-<area shape="rect" id="node8" href="corrections_8ino.html#ad953149fa573f0dd108e59ac2d94a324" title="correctionWMITiming" alt="" coords="371,56,531,83"/>
-<area shape="rect" id="node9" href="corrections_8ino.html#a4e39632048b767d4e99dff044e438d93" title="correctionIATretard" alt="" coords="379,107,523,133"/>
-<area shape="rect" id="node10" href="corrections_8ino.html#aae8b7388343e8a625ac01e5ebf0b646c" title="correctionCLTadvance" alt="" coords="369,157,532,184"/>
-<area shape="rect" id="node11" href="corrections_8ino.html#abd2e82b2ab54719cc924e58520d18386" title="correctionIdleAdvance" alt="" coords="367,208,534,235"/>
-<area shape="rect" id="node12" href="corrections_8ino.html#a6faae52d40cbf76c64b801882338a98a" title="correctionSoftRevLimit" alt="" coords="365,259,536,285"/>
-<area shape="rect" id="node13" href="corrections_8ino.html#ad5078507a4afa59141d9fef911f6aabe" title="correctionNitrous" alt="" coords="383,309,518,336"/>
-<area shape="rect" id="node14" href="corrections_8ino.html#a22aae0540f512c30d8db1d58e1464850" title="correctionSoftLaunch" alt="" coords="371,360,530,387"/>
-<area shape="rect" id="node15" href="corrections_8ino.html#ad2cc7a83e39f10167f63e7eaf2ec5170" title="correctionSoftFlatShift" alt="" coords="367,411,534,437"/>
-<area shape="rect" id="node16" href="corrections_8ino.html#aa11cf073fd170a6954f78ce498d5ab96" title="correctionKnock" alt="" coords="387,461,514,488"/>
-<area shape="rect" id="node17" href="corrections_8ino.html#a28fd470690407ed9f2febf7682310e77" title="correctionFixedTiming" alt="" coords="367,512,534,539"/>
-<area shape="rect" id="node18" href="corrections_8ino.html#a772dfea7ea13932573c8dbbc0933ca02" title="correctionCrankingFixedTiming" alt="" coords="339,563,563,589"/>
-<area shape="rect" id="node5" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="611,132,748,159"/>
-<area shape="rect" id="node6" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="796,107,961,133"/>
-<area shape="rect" id="node7" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="796,157,961,184"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_icgraph.png" border="0" usemap="#speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_icgraph" alt=""/></div>
-<map name="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_icgraph" id="speeduino_8h_ab7746198d140c5ef7bf726f020fb04cb_icgraph">
-<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="160,5,211,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="aa4f6389d213ee4abeefee599a0658038"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4f6389d213ee4abeefee599a0658038">&#9670;&nbsp;</a></span>getVE1()</h2>
 
@@ -375,42 +317,6 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="speeduino_8h_aa4f6389d213ee4abeefee599a0658038_icgraph.png" border="0" usemap="#speeduino_8h_aa4f6389d213ee4abeefee599a0658038_icgraph" alt=""/></div>
 <map name="speeduino_8h_aa4f6389d213ee4abeefee599a0658038_icgraph" id="speeduino_8h_aa4f6389d213ee4abeefee599a0658038_icgraph">
-<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="121,5,172,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a84a44883567136feaf073e8a179adc32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84a44883567136feaf073e8a179adc32">&#9670;&nbsp;</a></span>getVE2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">byte getVE2 </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Looks up and returns the VE value from the secondary fuel table. </p>
-<p>This performs largely the same operations as getVE() however the lookup is of the secondary fuel table and uses the secondary load source </p><dl class="section return"><dt>Returns</dt><dd>byte </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph.png" border="0" usemap="#speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph" alt=""/></div>
-<map name="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph" id="speeduino_8h_a84a44883567136feaf073e8a179adc32_cgraph">
-<area shape="rect" id="node2" href="table_8h.html#abcb4d91b651f8d47cbaae711ed938a0f" title="get3DTableValue" alt="" coords="121,5,252,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph.png" border="0" usemap="#speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph" alt=""/></div>
-<map name="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph" id="speeduino_8h_a84a44883567136feaf073e8a179adc32_icgraph">
 <area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="121,5,172,32"/>
 </map>
 </div>
