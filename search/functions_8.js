@@ -14,6 +14,7 @@ var searchData=
   ['initialiseschedulers',['initialiseSchedulers',['../scheduler_8h.html#a96b6832dde269a23d3ca231c2e7e2e08',1,'initialiseSchedulers():&#160;scheduler.ino'],['../scheduler_8ino.html#a96b6832dde269a23d3ca231c2e7e2e08',1,'initialiseSchedulers():&#160;scheduler.ino']]],
   ['initialisetimers',['initialiseTimers',['../timers_8h.html#a1810db7313ccf1b647a57d8c978c25c6',1,'initialiseTimers():&#160;timers.ino'],['../timers_8ino.html#a1810db7313ccf1b647a57d8c978c25c6',1,'initialiseTimers():&#160;timers.ino']]],
   ['initialisetriggers',['initialiseTriggers',['../init_8h.html#a88674b99a08fb6841af61763600797cd',1,'initialiseTriggers():&#160;init.ino'],['../init_8ino.html#a88674b99a08fb6841af61763600797cd',1,'initialiseTriggers():&#160;init.ino']]],
+  ['initmc33810',['initMC33810',['../acc__mc33810_8h.html#a40a24bf98e5ce45ca43dc0f6a8d4a26f',1,'initMC33810():&#160;acc_mc33810.ino'],['../acc__mc33810_8ino.html#a40a24bf98e5ce45ca43dc0f6a8d4a26f',1,'initMC33810():&#160;acc_mc33810.ino']]],
   ['instanteneousmapreading',['instanteneousMAPReading',['../sensors_8h.html#adce2419f4d2fdb9179dfc6cee874cbce',1,'instanteneousMAPReading() __attribute__((always_inline)):&#160;sensors.h'],['../sensors_8ino.html#affce98e8f3e9d23f7746d2f1d322b539',1,'instanteneousMAPReading():&#160;sensors.ino']]],
   ['isstepperhomed',['isStepperHomed',['../idle_8h.html#a56814ab9d1d2ed9468d5109474332ff4',1,'isStepperHomed():&#160;idle.h'],['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'isStepperHomed():&#160;idle.ino']]]
 ];

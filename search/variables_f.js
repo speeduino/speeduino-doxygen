@@ -41,6 +41,8 @@ var searchData=
   ['pinmap',['pinMAP',['../globals_8h.html#a5d21bbebce5ccb2a690f5bc43ca1f523',1,'pinMAP():&#160;globals.ino'],['../globals_8ino.html#a5d21bbebce5ccb2a690f5bc43ca1f523',1,'pinMAP():&#160;globals.ino']]],
   ['pinmap2',['pinMAP2',['../globals_8h.html#ad4d46080a6bb7f8e17fefc040e63c2a6',1,'pinMAP2():&#160;globals.ino'],['../globals_8ino.html#ad4d46080a6bb7f8e17fefc040e63c2a6',1,'pinMAP2():&#160;globals.ino']]],
   ['pinmapping',['pinMapping',['../structconfig2.html#aaa639bb97df66c4f0aca60fea75a8856',1,'config2::pinMapping()'],['../globals_8h.html#ae371048322e1c7d406c379a15754fffc',1,'pinMapping():&#160;globals.h']]],
+  ['pinmc33810_5f1_5fcs',['pinMC33810_1_CS',['../globals_8h.html#addef36a7a652283feea9d9b3d4bea8a0',1,'globals.h']]],
+  ['pinmc33810_5f2_5fcs',['pinMC33810_2_CS',['../globals_8h.html#a0547607a714a758545c13e54005c5de0',1,'globals.h']]],
   ['pino2',['pinO2',['../globals_8h.html#a7d7a279cda21c1a27449143e85e7ceb1',1,'pinO2():&#160;globals.ino'],['../globals_8ino.html#a7d7a279cda21c1a27449143e85e7ceb1',1,'pinO2():&#160;globals.ino']]],
   ['pino2_5f2',['pinO2_2',['../globals_8h.html#a3268cc0d8b3ef390d3565ce026e54971',1,'pinO2_2():&#160;globals.ino'],['../globals_8ino.html#a3268cc0d8b3ef390d3565ce026e54971',1,'pinO2_2():&#160;globals.ino']]],
   ['pinoilpressure',['pinOilPressure',['../globals_8h.html#af0d639a152217fb32eb8224fd3e12ff4',1,'pinOilPressure():&#160;globals.ino'],['../globals_8ino.html#af0d639a152217fb32eb8224fd3e12ff4',1,'pinOilPressure():&#160;globals.ino']]],
