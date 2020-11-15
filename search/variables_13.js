@@ -50,7 +50,7 @@ var searchData=
   ['unused12_5f1',['unused12_1',['../structconfig13.html#a74c3c413d1361c6c56158c139d54bfbb',1,'config13::unused12_1()'],['../globals_8h.html#a75f6bec7451b6bf906fd5db7668400bf',1,'unused12_1():&#160;globals.h']]],
   ['unused12_5f106_5f127',['unused12_106_127',['../structconfig13.html#a4f1348e794092231f251ca1df8ab7769',1,'config13::unused12_106_127()'],['../globals_8h.html#ad7b5142a6fd83819f308a83e4c5a9677',1,'unused12_106_127():&#160;globals.h']]],
   ['unused1_5f3c',['unused1_3c',['../structconfig2.html#afc25673c74902346f73f8141d3aaae47',1,'config2::unused1_3c()'],['../globals_8h.html#a8a0bf0c179b38be1776a9253458f5137',1,'unused1_3c():&#160;globals.h']]],
-  ['unused2_5f95',['unused2_95',['../structconfig2.html#aec708d06f1321b7fbb2915aa583ee726',1,'config2::unused2_95()'],['../globals_8h.html#aeb6acbe23f30ea103dea6ca5808684ac',1,'unused2_95():&#160;globals.h']]],
+  ['unused2_5f95',['unused2_95',['../structconfig2.html#ae4736a6cce243d1dd1f877f2f1dd4284',1,'config2::unused2_95()'],['../globals_8h.html#acfbc4e5e15075707e274d6cae9730c5c',1,'unused2_95():&#160;globals.h']]],
   ['unused4_5f120',['unused4_120',['../structconfig4.html#af9d3f78afd4adf3cd73d598d5ba771f7',1,'config4::unused4_120()'],['../globals_8h.html#a15d50af429a1341939be1b79b9fa80c8',1,'unused4_120():&#160;globals.h']]],
   ['unused_5f13',['unused_13',['../structconfig13.html#a3b80fbfc51cc9dba9b3aa92d819eadc0',1,'config13::unused_13()'],['../globals_8h.html#a38f14703fd0a38649575378b78c11c2b',1,'unused_13():&#160;globals.h']]],
   ['usedwelllim',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4::useDwellLim()'],['../globals_8h.html#a90cc76bfa7a2820158f7b0e194b76259',1,'useDwellLim():&#160;globals.h']]],

@@ -24,6 +24,7 @@ var searchData=
   ['tachooutputflag',['tachoOutputFlag',['../timers_8h.html#a1406c2c99a043c02419c75026a3cbd2d',1,'timers.h']]],
   ['tachooutputstatus',['TachoOutputStatus',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9',1,'timers.h']]],
   ['tachopin',['tachoPin',['../structconfig2.html#a2120109a567d615ca6a2ae8bb0b476d3',1,'config2::tachoPin()'],['../globals_8h.html#a6f1a54b40ea34e7fdaab7da6d7f9f08e',1,'tachoPin():&#160;globals.h']]],
+  ['tachosweepmaxrpm',['tachoSweepMaxRPM',['../structconfig2.html#ab3462fa8a69bb750b8f0f979085f5b7e',1,'config2::tachoSweepMaxRPM()'],['../globals_8h.html#a492b2acaf82893652e7254c9898c6320',1,'tachoSweepMaxRPM():&#160;globals.h']]],
   ['taebins',['taeBins',['../structconfig4.html#a15b9f44d912bcebc4aa483adc69563d8',1,'config4::taeBins()'],['../globals_8h.html#aeb5c13b66bb509daefbe7833a95f5f69',1,'taeBins():&#160;globals.h']]],
   ['taetable',['taeTable',['../globals_8h.html#ab870130af2c18e5a63d65754518130ab',1,'taeTable():&#160;globals.ino'],['../globals_8ino.html#ab870130af2c18e5a63d65754518130ab',1,'taeTable():&#160;globals.ino']]],
   ['taethresh',['taeThresh',['../structconfig2.html#ab596e26210d1d50227766ac649865bf1',1,'config2::taeThresh()'],['../globals_8h.html#aa15420f774e818c08e0c94d8d981304e',1,'taeThresh():&#160;globals.h']]],
