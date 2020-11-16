@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">scheduledIO.ino File Reference</div>  </div>
@@ -73,7 +74,43 @@ $(function() {
 <code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="acc__mc33810_8h_source.html">acc_mc33810.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a06c07417512b05b6349d8276dd5c3523"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a06c07417512b05b6349d8276dd5c3523">openInjector1_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> |= (<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td></tr>
+<tr class="separator:a06c07417512b05b6349d8276dd5c3523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa948bef96c4ddd9d951af65338e85446"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#aa948bef96c4ddd9d951af65338e85446">closeInjector1_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td></tr>
+<tr class="separator:aa948bef96c4ddd9d951af65338e85446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa85b24b25e20ca4e2f38d0ef6c9b67"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7fa85b24b25e20ca4e2f38d0ef6c9b67">openInjector2_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> |= (<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td></tr>
+<tr class="separator:a7fa85b24b25e20ca4e2f38d0ef6c9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8043276cc2104e2208f15c2fb998eec9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a8043276cc2104e2208f15c2fb998eec9">closeInjector2_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td></tr>
+<tr class="separator:a8043276cc2104e2208f15c2fb998eec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a727d316369dbca8a907354abf295fc37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a727d316369dbca8a907354abf295fc37">openInjector3_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> |= (<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td></tr>
+<tr class="separator:a727d316369dbca8a907354abf295fc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71858b50c078cd03090f0ff7246331d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#ab71858b50c078cd03090f0ff7246331d">closeInjector3_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td></tr>
+<tr class="separator:ab71858b50c078cd03090f0ff7246331d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a835a3fac23253ef395e22868f6bcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a83a835a3fac23253ef395e22868f6bcd">openInjector4_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> |= (<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td></tr>
+<tr class="separator:a83a835a3fac23253ef395e22868f6bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b41e6cd8562e9d85a4d0e6fb43df93"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a07b41e6cd8562e9d85a4d0e6fb43df93">closeInjector4_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td></tr>
+<tr class="separator:a07b41e6cd8562e9d85a4d0e6fb43df93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af418e6443f8e0a24cce4c292b4f2c0f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#af418e6443f8e0a24cce4c292b4f2c0f7">openInjector5_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> |= (<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td></tr>
+<tr class="separator:af418e6443f8e0a24cce4c292b4f2c0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c74724cb118b734bda818e23108dfe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a9c74724cb118b734bda818e23108dfe3">closeInjector5_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td></tr>
+<tr class="separator:a9c74724cb118b734bda818e23108dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a973f4c95a32bd59ea3ea7873bd6b9fa6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a973f4c95a32bd59ea3ea7873bd6b9fa6">openInjector6_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> |= (<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td></tr>
+<tr class="separator:a973f4c95a32bd59ea3ea7873bd6b9fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3144d55668ec783b56c5b38cc6e2a940"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a3144d55668ec783b56c5b38cc6e2a940">closeInjector6_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td></tr>
+<tr class="separator:a3144d55668ec783b56c5b38cc6e2a940"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0a1a83c48069af964c9cd9a7732002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7c0a1a83c48069af964c9cd9a7732002">openInjector7_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> |= (<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td></tr>
+<tr class="separator:a7c0a1a83c48069af964c9cd9a7732002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f2053a82888576eea778113f8f8b941"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a2f2053a82888576eea778113f8f8b941">closeInjector7_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td></tr>
+<tr class="separator:a2f2053a82888576eea778113f8f8b941"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a861288e737cf8b19baaa362a512f2477"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a861288e737cf8b19baaa362a512f2477">openInjector8_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> |= (<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td></tr>
+<tr class="separator:a861288e737cf8b19baaa362a512f2477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a318eee8d235f1291aabcff16f9df57af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a318eee8d235f1291aabcff16f9df57af">closeInjector8_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td></tr>
+<tr class="separator:a318eee8d235f1291aabcff16f9df57af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1fdda257fce2c0666fb5342a13cb3f9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f">openInjector1</a> ()</td></tr>
@@ -221,6 +258,279 @@ Functions</h2></td></tr>
 <tr class="memitem:a34032325b571ff60682217adbf73ad37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a34032325b571ff60682217adbf73ad37">nullCallback</a> ()</td></tr>
 <tr class="separator:a34032325b571ff60682217adbf73ad37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aa948bef96c4ddd9d951af65338e85446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa948bef96c4ddd9d951af65338e85446">&#9670;&nbsp;</a></span>closeInjector1_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector1_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8043276cc2104e2208f15c2fb998eec9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8043276cc2104e2208f15c2fb998eec9">&#9670;&nbsp;</a></span>closeInjector2_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector2_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab71858b50c078cd03090f0ff7246331d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71858b50c078cd03090f0ff7246331d">&#9670;&nbsp;</a></span>closeInjector3_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector3_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07b41e6cd8562e9d85a4d0e6fb43df93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b41e6cd8562e9d85a4d0e6fb43df93">&#9670;&nbsp;</a></span>closeInjector4_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector4_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c74724cb118b734bda818e23108dfe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c74724cb118b734bda818e23108dfe3">&#9670;&nbsp;</a></span>closeInjector5_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector5_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3144d55668ec783b56c5b38cc6e2a940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3144d55668ec783b56c5b38cc6e2a940">&#9670;&nbsp;</a></span>closeInjector6_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector6_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f2053a82888576eea778113f8f8b941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f2053a82888576eea778113f8f8b941">&#9670;&nbsp;</a></span>closeInjector7_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector7_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a318eee8d235f1291aabcff16f9df57af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a318eee8d235f1291aabcff16f9df57af">&#9670;&nbsp;</a></span>closeInjector8_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define closeInjector8_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a06c07417512b05b6349d8276dd5c3523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c07417512b05b6349d8276dd5c3523">&#9670;&nbsp;</a></span>openInjector1_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector1_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> |= (<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fa85b24b25e20ca4e2f38d0ef6c9b67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa85b24b25e20ca4e2f38d0ef6c9b67">&#9670;&nbsp;</a></span>openInjector2_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector2_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> |= (<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a727d316369dbca8a907354abf295fc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a727d316369dbca8a907354abf295fc37">&#9670;&nbsp;</a></span>openInjector3_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector3_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> |= (<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83a835a3fac23253ef395e22868f6bcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a835a3fac23253ef395e22868f6bcd">&#9670;&nbsp;</a></span>openInjector4_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector4_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> |= (<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af418e6443f8e0a24cce4c292b4f2c0f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af418e6443f8e0a24cce4c292b4f2c0f7">&#9670;&nbsp;</a></span>openInjector5_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector5_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> |= (<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a973f4c95a32bd59ea3ea7873bd6b9fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973f4c95a32bd59ea3ea7873bd6b9fa6">&#9670;&nbsp;</a></span>openInjector6_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector6_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> |= (<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c0a1a83c48069af964c9cd9a7732002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c0a1a83c48069af964c9cd9a7732002">&#9670;&nbsp;</a></span>openInjector7_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector7_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> |= (<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a861288e737cf8b19baaa362a512f2477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a861288e737cf8b19baaa362a512f2477">&#9670;&nbsp;</a></span>openInjector8_DIRECT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define openInjector8_DIRECT</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> |= (<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6fba542e23d95898722be7a7591d8eae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fba542e23d95898722be7a7591d8eae">&#9670;&nbsp;</a></span>beginCoil1and3Charge()</h2>

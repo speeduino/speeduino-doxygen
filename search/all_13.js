@@ -49,7 +49,6 @@ var searchData=
   ['unused11_5f187_5f191',['unused11_187_191',['../structconfig10.html#ac373fe4355558b9c69dc1abc396e7414',1,'config10::unused11_187_191()'],['../globals_8h.html#a17285f7d56b74d18a707688d1de09fc9',1,'unused11_187_191():&#160;globals.h']]],
   ['unused12_5f1',['unused12_1',['../structconfig13.html#a74c3c413d1361c6c56158c139d54bfbb',1,'config13::unused12_1()'],['../globals_8h.html#a75f6bec7451b6bf906fd5db7668400bf',1,'unused12_1():&#160;globals.h']]],
   ['unused12_5f106_5f127',['unused12_106_127',['../structconfig13.html#a4f1348e794092231f251ca1df8ab7769',1,'config13::unused12_106_127()'],['../globals_8h.html#ad7b5142a6fd83819f308a83e4c5a9677',1,'unused12_106_127():&#160;globals.h']]],
-  ['unused1_5f3c',['unused1_3c',['../structconfig2.html#afc25673c74902346f73f8141d3aaae47',1,'config2::unused1_3c()'],['../globals_8h.html#a8a0bf0c179b38be1776a9253458f5137',1,'unused1_3c():&#160;globals.h']]],
   ['unused2_5f95',['unused2_95',['../structconfig2.html#ae4736a6cce243d1dd1f877f2f1dd4284',1,'config2::unused2_95()'],['../globals_8h.html#acfbc4e5e15075707e274d6cae9730c5c',1,'unused2_95():&#160;globals.h']]],
   ['unused4_5f120',['unused4_120',['../structconfig4.html#af9d3f78afd4adf3cd73d598d5ba771f7',1,'config4::unused4_120()'],['../globals_8h.html#a15d50af429a1341939be1b79b9fa80c8',1,'unused4_120():&#160;globals.h']]],
   ['unused_5f13',['unused_13',['../structconfig13.html#a3b80fbfc51cc9dba9b3aa92d819eadc0',1,'config13::unused_13()'],['../globals_8h.html#a38f14703fd0a38649575378b78c11c2b',1,'unused_13():&#160;globals.h']]],
@@ -62,6 +61,7 @@ var searchData=
   ['useemap',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6::useEMAP()'],['../globals_8h.html#a516a848fd692c804e525b194c69a1bd9',1,'useEMAP():&#160;globals.h']]],
   ['useextbaro',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6::useExtBaro()'],['../globals_8h.html#a32ca43bf4bf666767fe348fa8fd76889',1,'useExtBaro():&#160;globals.h']]],
   ['useresync',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4::useResync()'],['../globals_8h.html#ad33467d48ec0c49d1b3f1dd4e18d90c8',1,'useResync():&#160;globals.h']]],
+  ['usetachosweep',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2::useTachoSweep()'],['../globals_8h.html#ac26ff5f2bec14abbe7517d7f70e8c38e',1,'useTachoSweep():&#160;globals.h']]],
   ['utilities_2eh',['utilities.h',['../utilities_8h.html',1,'']]],
   ['utilities_2eino',['utilities.ino',['../utilities_8ino.html',1,'']]]
 ];
