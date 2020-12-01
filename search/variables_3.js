@@ -55,8 +55,6 @@ var searchData=
   ['clutchengagedrpm',['clutchEngagedRPM',['../structstatuses.html#a810925baef608fbb5aa5ea13d7ce4801',1,'statuses']]],
   ['clutchtrigger',['clutchTrigger',['../globals_8h.html#a0448804f0d02b9a7a99c2027c1451c3e',1,'clutchTrigger():&#160;globals.ino'],['../globals_8ino.html#a0448804f0d02b9a7a99c2027c1451c3e',1,'clutchTrigger():&#160;globals.ino']]],
   ['cmdpending',['cmdPending',['../comms_8h.html#addbed4f59e24864228a0745aeb96b2e9',1,'comms.h']]],
-  ['coilhigh',['coilHIGH',['../scheduled_i_o_8h.html#aff22d364847ac0036d469def4eadf94b',1,'scheduledIO.h']]],
-  ['coillow',['coilLOW',['../scheduled_i_o_8h.html#a0a608a1611eb74521eb52ef5ecd29fe1',1,'scheduledIO.h']]],
   ['completedhomesteps',['completedHomeSteps',['../idle_8h.html#a502e8f4e37a2bfb2e7f11b00ef3443a7',1,'idle.h']]],
   ['compositelasttoothtime',['compositeLastToothTime',['../decoders_8h.html#a9f0a01957757abebca528646d68457a2',1,'compositeLastToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a9f0a01957757abebca528646d68457a2',1,'compositeLastToothTime():&#160;decoders.ino']]],
   ['compositelogenabled',['compositeLogEnabled',['../structstatuses.html#a2cc2d9b707e195afbfcccaaa6f0287b2',1,'statuses']]],

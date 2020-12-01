@@ -57,5 +57,7 @@ var searchData=
   ['ghigh',['Ghigh',['../cancomms_8h.html#ac08f64a138533ea4637bf1fdc01b73f5',1,'cancomms.h']]],
   ['globals_2eh',['globals.h',['../globals_8h.html',1,'']]],
   ['globals_2eino',['globals.ino',['../globals_8ino.html',1,'']]],
-  ['glow',['Glow',['../cancomms_8h.html#ac124e5bc41488ac4cd2d4635bc31aab1',1,'cancomms.h']]]
+  ['glow',['Glow',['../cancomms_8h.html#ac124e5bc41488ac4cd2d4635bc31aab1',1,'cancomms.h']]],
+  ['going_5fhigh',['GOING_HIGH',['../globals_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'globals.h']]],
+  ['going_5flow',['GOING_LOW',['../globals_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'globals.h']]]
 ];

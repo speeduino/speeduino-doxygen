@@ -64,7 +64,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">scheduledIO.ino File Reference</div>  </div>
@@ -76,41 +75,6 @@ $(function() {
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="acc__mc33810_8h_source.html">acc_mc33810.h</a>&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a06c07417512b05b6349d8276dd5c3523"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a06c07417512b05b6349d8276dd5c3523">openInjector1_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> |= (<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td></tr>
-<tr class="separator:a06c07417512b05b6349d8276dd5c3523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa948bef96c4ddd9d951af65338e85446"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#aa948bef96c4ddd9d951af65338e85446">closeInjector1_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td></tr>
-<tr class="separator:aa948bef96c4ddd9d951af65338e85446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fa85b24b25e20ca4e2f38d0ef6c9b67"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7fa85b24b25e20ca4e2f38d0ef6c9b67">openInjector2_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> |= (<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td></tr>
-<tr class="separator:a7fa85b24b25e20ca4e2f38d0ef6c9b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8043276cc2104e2208f15c2fb998eec9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a8043276cc2104e2208f15c2fb998eec9">closeInjector2_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td></tr>
-<tr class="separator:a8043276cc2104e2208f15c2fb998eec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a727d316369dbca8a907354abf295fc37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a727d316369dbca8a907354abf295fc37">openInjector3_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> |= (<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td></tr>
-<tr class="separator:a727d316369dbca8a907354abf295fc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71858b50c078cd03090f0ff7246331d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#ab71858b50c078cd03090f0ff7246331d">closeInjector3_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td></tr>
-<tr class="separator:ab71858b50c078cd03090f0ff7246331d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83a835a3fac23253ef395e22868f6bcd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a83a835a3fac23253ef395e22868f6bcd">openInjector4_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> |= (<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td></tr>
-<tr class="separator:a83a835a3fac23253ef395e22868f6bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b41e6cd8562e9d85a4d0e6fb43df93"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a07b41e6cd8562e9d85a4d0e6fb43df93">closeInjector4_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td></tr>
-<tr class="separator:a07b41e6cd8562e9d85a4d0e6fb43df93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af418e6443f8e0a24cce4c292b4f2c0f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#af418e6443f8e0a24cce4c292b4f2c0f7">openInjector5_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> |= (<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td></tr>
-<tr class="separator:af418e6443f8e0a24cce4c292b4f2c0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c74724cb118b734bda818e23108dfe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a9c74724cb118b734bda818e23108dfe3">closeInjector5_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td></tr>
-<tr class="separator:a9c74724cb118b734bda818e23108dfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973f4c95a32bd59ea3ea7873bd6b9fa6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a973f4c95a32bd59ea3ea7873bd6b9fa6">openInjector6_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> |= (<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td></tr>
-<tr class="separator:a973f4c95a32bd59ea3ea7873bd6b9fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3144d55668ec783b56c5b38cc6e2a940"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a3144d55668ec783b56c5b38cc6e2a940">closeInjector6_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td></tr>
-<tr class="separator:a3144d55668ec783b56c5b38cc6e2a940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c0a1a83c48069af964c9cd9a7732002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7c0a1a83c48069af964c9cd9a7732002">openInjector7_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> |= (<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td></tr>
-<tr class="separator:a7c0a1a83c48069af964c9cd9a7732002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f2053a82888576eea778113f8f8b941"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a2f2053a82888576eea778113f8f8b941">closeInjector7_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td></tr>
-<tr class="separator:a2f2053a82888576eea778113f8f8b941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a861288e737cf8b19baaa362a512f2477"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a861288e737cf8b19baaa362a512f2477">openInjector8_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> |= (<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td></tr>
-<tr class="separator:a861288e737cf8b19baaa362a512f2477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a318eee8d235f1291aabcff16f9df57af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a318eee8d235f1291aabcff16f9df57af">closeInjector8_DIRECT</a>()&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td></tr>
-<tr class="separator:a318eee8d235f1291aabcff16f9df57af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1fdda257fce2c0666fb5342a13cb3f9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f">openInjector1</a> ()</td></tr>
@@ -145,6 +109,38 @@ Functions</h2></td></tr>
 <tr class="separator:a45ff26f8488532dfb3ef00335fa25375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a102469a84fef8ac8c08427a6d1059bf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2">closeInjector8</a> ()</td></tr>
 <tr class="separator:a102469a84fef8ac8c08427a6d1059bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15404b3e9f5b65705d4c502687dcbab1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a15404b3e9f5b65705d4c502687dcbab1">injector1Toggle</a> ()</td></tr>
+<tr class="separator:a15404b3e9f5b65705d4c502687dcbab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2545bcd08a2bc8df64c61a990b9517c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a2545bcd08a2bc8df64c61a990b9517c3">injector2Toggle</a> ()</td></tr>
+<tr class="separator:a2545bcd08a2bc8df64c61a990b9517c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5489fbffe1a7e6fa72545c2e12a142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a9c5489fbffe1a7e6fa72545c2e12a142">injector3Toggle</a> ()</td></tr>
+<tr class="separator:a9c5489fbffe1a7e6fa72545c2e12a142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9845da81f761bda58c2ce9f1925a56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a8f9845da81f761bda58c2ce9f1925a56">injector4Toggle</a> ()</td></tr>
+<tr class="separator:a8f9845da81f761bda58c2ce9f1925a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4442b3e48f9c92bb21c9c9ea24723db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#af4442b3e48f9c92bb21c9c9ea24723db">injector5Toggle</a> ()</td></tr>
+<tr class="separator:af4442b3e48f9c92bb21c9c9ea24723db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a145c52c7ae7ca57422681a4c06499bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a145c52c7ae7ca57422681a4c06499bdc">injector6Toggle</a> ()</td></tr>
+<tr class="separator:a145c52c7ae7ca57422681a4c06499bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4277d72d4fd15e49fc31644d80a0311e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a4277d72d4fd15e49fc31644d80a0311e">injector7Toggle</a> ()</td></tr>
+<tr class="separator:a4277d72d4fd15e49fc31644d80a0311e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94709a98882835f6c4a86519496115ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a94709a98882835f6c4a86519496115ea">injector8Toggle</a> ()</td></tr>
+<tr class="separator:a94709a98882835f6c4a86519496115ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d773042d8f59bbccbfce8d2ee7cfe0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7d773042d8f59bbccbfce8d2ee7cfe0f">coil1Toggle</a> ()</td></tr>
+<tr class="separator:a7d773042d8f59bbccbfce8d2ee7cfe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583445377d6944c7d8214b2407b28ab2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a583445377d6944c7d8214b2407b28ab2">coil2Toggle</a> ()</td></tr>
+<tr class="separator:a583445377d6944c7d8214b2407b28ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac80b1c2ab9cf689cf827c65d0d4e4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a1ac80b1c2ab9cf689cf827c65d0d4e4a">coil3Toggle</a> ()</td></tr>
+<tr class="separator:a1ac80b1c2ab9cf689cf827c65d0d4e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73536430fea42b08eebf4cc98c777b36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a73536430fea42b08eebf4cc98c777b36">coil4Toggle</a> ()</td></tr>
+<tr class="separator:a73536430fea42b08eebf4cc98c777b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14a7201718c9023455199cfc49270fa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a14a7201718c9023455199cfc49270fa8">coil5Toggle</a> ()</td></tr>
+<tr class="separator:a14a7201718c9023455199cfc49270fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7b3ffcbef9890d72cc8467a690ec1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a5b7b3ffcbef9890d72cc8467a690ec1b">coil6Toggle</a> ()</td></tr>
+<tr class="separator:a5b7b3ffcbef9890d72cc8467a690ec1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a756cc4bb85f50e64dd28c1ccde202adf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a756cc4bb85f50e64dd28c1ccde202adf">coil7Toggle</a> ()</td></tr>
+<tr class="separator:a756cc4bb85f50e64dd28c1ccde202adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d78e55a1f0b0e602e4dda14add198f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#ac1d78e55a1f0b0e602e4dda14add198f">coil8Toggle</a> ()</td></tr>
+<tr class="separator:ac1d78e55a1f0b0e602e4dda14add198f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94f161a9e6b54c9670d99335b7486a56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a94f161a9e6b54c9670d99335b7486a56">openInjector1and4</a> ()</td></tr>
 <tr class="separator:a94f161a9e6b54c9670d99335b7486a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d16029b2235a38ea8f5e3ea064cef44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a7d16029b2235a38ea8f5e3ea064cef44">closeInjector1and4</a> ()</td></tr>
@@ -258,279 +254,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a34032325b571ff60682217adbf73ad37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o_8ino.html#a34032325b571ff60682217adbf73ad37">nullCallback</a> ()</td></tr>
 <tr class="separator:a34032325b571ff60682217adbf73ad37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa948bef96c4ddd9d951af65338e85446"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa948bef96c4ddd9d951af65338e85446">&#9670;&nbsp;</a></span>closeInjector1_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector1_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8043276cc2104e2208f15c2fb998eec9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8043276cc2104e2208f15c2fb998eec9">&#9670;&nbsp;</a></span>closeInjector2_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector2_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab71858b50c078cd03090f0ff7246331d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab71858b50c078cd03090f0ff7246331d">&#9670;&nbsp;</a></span>closeInjector3_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector3_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a07b41e6cd8562e9d85a4d0e6fb43df93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b41e6cd8562e9d85a4d0e6fb43df93">&#9670;&nbsp;</a></span>closeInjector4_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector4_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>);  <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c74724cb118b734bda818e23108dfe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c74724cb118b734bda818e23108dfe3">&#9670;&nbsp;</a></span>closeInjector5_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector5_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3144d55668ec783b56c5b38cc6e2a940"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3144d55668ec783b56c5b38cc6e2a940">&#9670;&nbsp;</a></span>closeInjector6_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector6_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2f2053a82888576eea778113f8f8b941"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f2053a82888576eea778113f8f8b941">&#9670;&nbsp;</a></span>closeInjector7_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector7_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a318eee8d235f1291aabcff16f9df57af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a318eee8d235f1291aabcff16f9df57af">&#9670;&nbsp;</a></span>closeInjector8_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define closeInjector8_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> &amp;= ~(<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a06c07417512b05b6349d8276dd5c3523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06c07417512b05b6349d8276dd5c3523">&#9670;&nbsp;</a></span>openInjector1_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector1_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a> |= (<a class="el" href="globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#aa7ffc8a88b0ef32d95e227a923209b23">BIT_STATUS1_INJ1</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7fa85b24b25e20ca4e2f38d0ef6c9b67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fa85b24b25e20ca4e2f38d0ef6c9b67">&#9670;&nbsp;</a></span>openInjector2_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector2_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a4ed7984a3e058295d8499058c2a1a4b7">inj2_pin_port</a> |= (<a class="el" href="globals_8ino.html#ae38550a23b1fe90ea9e56f127a746810">inj2_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#abb6cab00d59d327025a4093e7c42e1e1">BIT_STATUS1_INJ2</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a727d316369dbca8a907354abf295fc37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a727d316369dbca8a907354abf295fc37">&#9670;&nbsp;</a></span>openInjector3_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector3_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac3e8f138b7de4c80714ef9b53930389a">inj3_pin_port</a> |= (<a class="el" href="globals_8ino.html#ab0d846bd67d902664ed862ae133d2327">inj3_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7196683a84199a57d40ab6965e4fb1ab">BIT_STATUS1_INJ3</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a83a835a3fac23253ef395e22868f6bcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a835a3fac23253ef395e22868f6bcd">&#9670;&nbsp;</a></span>openInjector4_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector4_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a1924a90602b0302931377529464c2e01">inj4_pin_port</a> |= (<a class="el" href="globals_8ino.html#a5e907cf660952b1551b3546572ef4c62">inj4_pin_mask</a>); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.status1, <a class="el" href="globals_8h.html#a7d13dbb4a0700275aed189160cff171e">BIT_STATUS1_INJ4</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af418e6443f8e0a24cce4c292b4f2c0f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af418e6443f8e0a24cce4c292b4f2c0f7">&#9670;&nbsp;</a></span>openInjector5_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector5_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a43af3ecdd2289bf6f4f3f02529d50dbf">inj5_pin_port</a> |= (<a class="el" href="globals_8ino.html#a31a963d533a10c89fb1ecfc1b75b6030">inj5_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a973f4c95a32bd59ea3ea7873bd6b9fa6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a973f4c95a32bd59ea3ea7873bd6b9fa6">&#9670;&nbsp;</a></span>openInjector6_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector6_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a95bc648a3b2eb2d630a5b327708c2afa">inj6_pin_port</a> |= (<a class="el" href="globals_8ino.html#aa389cba40f0fc6804c20171325f4118d">inj6_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7c0a1a83c48069af964c9cd9a7732002"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c0a1a83c48069af964c9cd9a7732002">&#9670;&nbsp;</a></span>openInjector7_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector7_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#a15bd6b7f257dd28728db3a32aef4b587">inj7_pin_port</a> |= (<a class="el" href="globals_8ino.html#accd38a52b04f6e22809d4396446011a1">inj7_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a861288e737cf8b19baaa362a512f2477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a861288e737cf8b19baaa362a512f2477">&#9670;&nbsp;</a></span>openInjector8_DIRECT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define openInjector8_DIRECT</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{ *<a class="el" href="globals_8ino.html#ac508d25bf369cb86bd8a82209a3f96a5">inj8_pin_port</a> |= (<a class="el" href="globals_8ino.html#a498c3afcc7bff1efdd3da1dec866728d">inj8_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6fba542e23d95898722be7a7591d8eae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6fba542e23d95898722be7a7591d8eae">&#9670;&nbsp;</a></span>beginCoil1and3Charge()</h2>
@@ -547,13 +270,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_cgraph" id="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title="beginCoil1Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title="beginCoil3Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_icgraph" id="scheduled_i_o_8ino_a6fba542e23d95898722be7a7591d8eae_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -574,13 +305,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_cgraph" id="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title="beginCoil1Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title="beginCoil4Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_icgraph" id="scheduled_i_o_8ino_a75e060fa5e05ceb1cb848a7eb9005769_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -601,13 +340,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_cgraph" id="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title="beginCoil1Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title="beginCoil5Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_icgraph" id="scheduled_i_o_8ino_a561b9ea7e48bed85d9214e818db71907_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -640,12 +387,14 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_acf25f256ada83e0792477503d2da9a35_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_acf25f256ada83e0792477503d2da9a35_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_acf25f256ada83e0792477503d2da9a35_icgraph" id="scheduled_i_o_8ino_acf25f256ada83e0792477503d2da9a35_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,62,547,88"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a6fba542e23d95898722be7a7591d8eae" title="beginCoil1and3Charge" alt="" coords="213,36,382,63"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a75e060fa5e05ceb1cb848a7eb9005769" title="beginCoil1and4Charge" alt="" coords="213,87,382,114"/>
+<area shape="rect" id="node6" href="scheduled_i_o_8ino.html#a561b9ea7e48bed85d9214e818db71907" title="beginCoil1and5Charge" alt="" coords="213,138,382,164"/>
+<area shape="rect" id="node7" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,188,404,215"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,62,653,88"/>
+<area shape="rect" id="node8" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,188,543,215"/>
+<area shape="rect" id="node9" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,188,649,215"/>
 </map>
 </div>
 
@@ -666,13 +415,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_cgraph" id="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title="beginCoil2Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title="beginCoil4Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_icgraph" id="scheduled_i_o_8ino_a8c4dcb8a1c70181dde711c617360bb38_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -693,13 +450,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_cgraph" id="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title="beginCoil2Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title="beginCoil5Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_icgraph" id="scheduled_i_o_8ino_a29259bcf6306f6c1255d2dfb043f12ba_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -720,13 +485,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_cgraph" id="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title="beginCoil2Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title="beginCoil6Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_icgraph" id="scheduled_i_o_8ino_aee062446b1fa4841327dfdfacf67785b_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -759,12 +532,15 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a0a629b44923100e7cc3267ba0c5c0979_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a0a629b44923100e7cc3267ba0c5c0979_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a0a629b44923100e7cc3267ba0c5c0979_icgraph" id="scheduled_i_o_8ino_a0a629b44923100e7cc3267ba0c5c0979_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,92,547,119"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a54f5c78849aff7ae581375346a002904" title="beginTrailingCoilCharge" alt="" coords="209,42,385,68"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a8c4dcb8a1c70181dde711c617360bb38" title="beginCoil2and4Charge" alt="" coords="213,92,382,119"/>
+<area shape="rect" id="node6" href="scheduled_i_o_8ino.html#a29259bcf6306f6c1255d2dfb043f12ba" title="beginCoil2and5Charge" alt="" coords="213,143,382,170"/>
+<area shape="rect" id="node7" href="scheduled_i_o_8ino.html#aee062446b1fa4841327dfdfacf67785b" title="beginCoil2and6Charge" alt="" coords="213,194,382,220"/>
+<area shape="rect" id="node8" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,244,404,271"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,92,653,119"/>
+<area shape="rect" id="node9" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,244,543,271"/>
+<area shape="rect" id="node10" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,244,649,271"/>
 </map>
 </div>
 
@@ -785,13 +561,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_cgraph" id="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title="beginCoil3Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title="beginCoil6Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_icgraph" id="scheduled_i_o_8ino_a491571a21cf1d4029139e5c4459a0580_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -812,13 +596,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_cgraph" id="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title="beginCoil3Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title="beginCoil7Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_icgraph" id="scheduled_i_o_8ino_a8340718b9fae98a238e7fd76008183de_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -851,12 +643,15 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_ae415855f4dde3c92b5ad00e0f4df02c9_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_ae415855f4dde3c92b5ad00e0f4df02c9_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_ae415855f4dde3c92b5ad00e0f4df02c9_icgraph" id="scheduled_i_o_8ino_ae415855f4dde3c92b5ad00e0f4df02c9_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,92,547,119"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a5203efc81b88e8a0a192871f3d7f0f32" title="endTrailingCoilCharge1" alt="" coords="211,42,383,68"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a6fba542e23d95898722be7a7591d8eae" title="beginCoil1and3Charge" alt="" coords="213,92,382,119"/>
+<area shape="rect" id="node6" href="scheduled_i_o_8ino.html#a491571a21cf1d4029139e5c4459a0580" title="beginCoil3and6Charge" alt="" coords="213,143,382,170"/>
+<area shape="rect" id="node7" href="scheduled_i_o_8ino.html#a8340718b9fae98a238e7fd76008183de" title="beginCoil3and7Charge" alt="" coords="213,194,382,220"/>
+<area shape="rect" id="node8" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,244,404,271"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,92,653,119"/>
+<area shape="rect" id="node9" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,244,543,271"/>
+<area shape="rect" id="node10" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,244,649,271"/>
 </map>
 </div>
 
@@ -877,13 +672,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_cgraph" id="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title="beginCoil4Charge" alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title="beginCoil8Charge" alt="" coords="223,56,360,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_icgraph" id="scheduled_i_o_8ino_a7ef559e9161bc1b0c36545cc58068578_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="428,5,523,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="223,31,380,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="571,5,629,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="223,5,317,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="365,5,424,32"/>
 </map>
 </div>
 
@@ -916,12 +719,14 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a9943314d8d7921de326005af97c9591e_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a9943314d8d7921de326005af97c9591e_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a9943314d8d7921de326005af97c9591e_icgraph" id="scheduled_i_o_8ino_a9943314d8d7921de326005af97c9591e_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,62,547,88"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a8c4dcb8a1c70181dde711c617360bb38" title="beginCoil2and4Charge" alt="" coords="213,36,382,63"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a75e060fa5e05ceb1cb848a7eb9005769" title="beginCoil1and4Charge" alt="" coords="213,87,382,114"/>
+<area shape="rect" id="node6" href="scheduled_i_o_8ino.html#a7ef559e9161bc1b0c36545cc58068578" title="beginCoil4and8Charge" alt="" coords="213,138,382,164"/>
+<area shape="rect" id="node7" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,188,404,215"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,62,653,88"/>
+<area shape="rect" id="node8" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,188,543,215"/>
+<area shape="rect" id="node9" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,188,649,215"/>
 </map>
 </div>
 
@@ -954,12 +759,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a05b5730ef36f0e260a0024b362c1af32_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a05b5730ef36f0e260a0024b362c1af32_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a05b5730ef36f0e260a0024b362c1af32_icgraph" id="scheduled_i_o_8ino_a05b5730ef36f0e260a0024b362c1af32_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,30,547,56"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a29259bcf6306f6c1255d2dfb043f12ba" title="beginCoil2and5Charge" alt="" coords="213,30,382,56"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a561b9ea7e48bed85d9214e818db71907" title="beginCoil1and5Charge" alt="" coords="213,80,382,107"/>
+<area shape="rect" id="node6" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,131,404,158"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,30,653,56"/>
+<area shape="rect" id="node7" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,131,543,158"/>
+<area shape="rect" id="node8" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,131,649,158"/>
 </map>
 </div>
 
@@ -992,12 +798,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_adf24b72ad6886167d0959c71da84c159_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_adf24b72ad6886167d0959c71da84c159_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_adf24b72ad6886167d0959c71da84c159_icgraph" id="scheduled_i_o_8ino_adf24b72ad6886167d0959c71da84c159_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,81,649,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,30,547,56"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a491571a21cf1d4029139e5c4459a0580" title="beginCoil3and6Charge" alt="" coords="213,30,382,56"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#aee062446b1fa4841327dfdfacf67785b" title="beginCoil2and6Charge" alt="" coords="213,80,382,107"/>
+<area shape="rect" id="node6" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,131,404,158"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,30,653,56"/>
+<area shape="rect" id="node7" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,131,543,158"/>
+<area shape="rect" id="node8" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="599,131,649,158"/>
 </map>
 </div>
 
@@ -1031,7 +838,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="scheduled_i_o_8ino_a6c0e8ea097a33f425e164313a059884f_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a6c0e8ea097a33f425e164313a059884f_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a6c0e8ea097a33f425e164313a059884f_icgraph" id="scheduled_i_o_8ino_a6c0e8ea097a33f425e164313a059884f_icgraph">
 <area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a8340718b9fae98a238e7fd76008183de" title="beginCoil3and7Charge" alt="" coords="213,31,382,57"/>
 <area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
 <area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
@@ -1069,7 +876,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="scheduled_i_o_8ino_a86520d1a64970cb43cbdfc13223c3a1b_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a86520d1a64970cb43cbdfc13223c3a1b_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a86520d1a64970cb43cbdfc13223c3a1b_icgraph" id="scheduled_i_o_8ino_a86520d1a64970cb43cbdfc13223c3a1b_icgraph">
 <area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="452,5,547,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="219,31,376,57"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a7ef559e9161bc1b0c36545cc58068578" title="beginCoil4and8Charge" alt="" coords="213,31,382,57"/>
 <area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="191,81,404,108"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="595,5,653,32"/>
 <area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="456,81,543,108"/>
@@ -1102,13 +909,20 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_cgraph" id="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title="beginCoil2Charge" alt="" coords="229,5,367,32"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_icgraph" id="scheduled_i_o_8ino_a54f5c78849aff7ae581375346a002904_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="435,5,529,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="229,31,387,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="577,5,636,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="229,5,324,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="372,5,431,32"/>
 </map>
 </div>
 
@@ -1743,6 +1557,270 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a7d773042d8f59bbccbfce8d2ee7cfe0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d773042d8f59bbccbfce8d2ee7cfe0f">&#9670;&nbsp;</a></span>coil1Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil1Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a7d773042d8f59bbccbfce8d2ee7cfe0f_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7d773042d8f59bbccbfce8d2ee7cfe0f_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a7d773042d8f59bbccbfce8d2ee7cfe0f_icgraph" id="scheduled_i_o_8ino_a7d773042d8f59bbccbfce8d2ee7cfe0f_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a583445377d6944c7d8214b2407b28ab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a583445377d6944c7d8214b2407b28ab2">&#9670;&nbsp;</a></span>coil2Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil2Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a583445377d6944c7d8214b2407b28ab2_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a583445377d6944c7d8214b2407b28ab2_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a583445377d6944c7d8214b2407b28ab2_icgraph" id="scheduled_i_o_8ino_a583445377d6944c7d8214b2407b28ab2_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1ac80b1c2ab9cf689cf827c65d0d4e4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac80b1c2ab9cf689cf827c65d0d4e4a">&#9670;&nbsp;</a></span>coil3Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil3Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a1ac80b1c2ab9cf689cf827c65d0d4e4a_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a1ac80b1c2ab9cf689cf827c65d0d4e4a_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a1ac80b1c2ab9cf689cf827c65d0d4e4a_icgraph" id="scheduled_i_o_8ino_a1ac80b1c2ab9cf689cf827c65d0d4e4a_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a73536430fea42b08eebf4cc98c777b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73536430fea42b08eebf4cc98c777b36">&#9670;&nbsp;</a></span>coil4Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil4Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a73536430fea42b08eebf4cc98c777b36_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a73536430fea42b08eebf4cc98c777b36_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a73536430fea42b08eebf4cc98c777b36_icgraph" id="scheduled_i_o_8ino_a73536430fea42b08eebf4cc98c777b36_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a14a7201718c9023455199cfc49270fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14a7201718c9023455199cfc49270fa8">&#9670;&nbsp;</a></span>coil5Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil5Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a14a7201718c9023455199cfc49270fa8_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a14a7201718c9023455199cfc49270fa8_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a14a7201718c9023455199cfc49270fa8_icgraph" id="scheduled_i_o_8ino_a14a7201718c9023455199cfc49270fa8_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5b7b3ffcbef9890d72cc8467a690ec1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7b3ffcbef9890d72cc8467a690ec1b">&#9670;&nbsp;</a></span>coil6Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil6Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a5b7b3ffcbef9890d72cc8467a690ec1b_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a5b7b3ffcbef9890d72cc8467a690ec1b_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a5b7b3ffcbef9890d72cc8467a690ec1b_icgraph" id="scheduled_i_o_8ino_a5b7b3ffcbef9890d72cc8467a690ec1b_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a756cc4bb85f50e64dd28c1ccde202adf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a756cc4bb85f50e64dd28c1ccde202adf">&#9670;&nbsp;</a></span>coil7Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil7Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a756cc4bb85f50e64dd28c1ccde202adf_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a756cc4bb85f50e64dd28c1ccde202adf_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a756cc4bb85f50e64dd28c1ccde202adf_icgraph" id="scheduled_i_o_8ino_a756cc4bb85f50e64dd28c1ccde202adf_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1d78e55a1f0b0e602e4dda14add198f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d78e55a1f0b0e602e4dda14add198f">&#9670;&nbsp;</a></span>coil8Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void coil8Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_ac1d78e55a1f0b0e602e4dda14add198f_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_ac1d78e55a1f0b0e602e4dda14add198f_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_ac1d78e55a1f0b0e602e4dda14add198f_icgraph" id="scheduled_i_o_8ino_ac1d78e55a1f0b0e602e4dda14add198f_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="148,5,263,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a4558d0273f058799ce3eab86f67a0804"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4558d0273f058799ce3eab86f67a0804">&#9670;&nbsp;</a></span>endCoil1and3Charge()</h2>
 
@@ -1758,13 +1836,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_cgraph" id="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_icgraph" id="scheduled_i_o_8ino_a4558d0273f058799ce3eab86f67a0804_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1785,13 +1871,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_cgraph" id="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_icgraph" id="scheduled_i_o_8ino_a49596e87b0b3f1b53eea0f2bbfea6206_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1812,13 +1906,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_cgraph" id="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title="endCoil5Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_icgraph" id="scheduled_i_o_8ino_a2b8e7bd91722f2832597d294c4bc2696_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1851,19 +1953,21 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_ad7e35a10f2e2961c345180ad47d5e5de_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_ad7e35a10f2e2961c345180ad47d5e5de_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_ad7e35a10f2e2961c345180ad47d5e5de_icgraph" id="scheduled_i_o_8ino_ad7e35a10f2e2961c345180ad47d5e5de_icgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,203,382,230"/>
-<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,51,740,78"/>
-<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,254,347,281"/>
-<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,305,364,331"/>
-<area shape="rect" id="node9" href="decoders_8ino.html#a4c3ff042e4542a73335d38d6086f24cd" title="triggerPri_MazdaAU" alt="" coords="210,355,361,382"/>
-<area shape="rect" id="node10" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,102,361,129"/>
-<area shape="rect" id="node11" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,153,359,179"/>
-<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="440,51,597,78"/>
-<area shape="rect" id="node13" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,406,392,433"/>
-<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,229,583,255"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,291,718,318"/>
-<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,51,847,78"/>
-<area shape="rect" id="node14" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,355,562,382"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,309,382,336"/>
+<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,107,740,133"/>
+<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,360,347,387"/>
+<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,411,364,437"/>
+<area shape="rect" id="node9" href="decoders_8ino.html#a4c3ff042e4542a73335d38d6086f24cd" title="triggerPri_MazdaAU" alt="" coords="210,461,361,488"/>
+<area shape="rect" id="node10" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,208,361,235"/>
+<area shape="rect" id="node11" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,259,359,285"/>
+<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a4558d0273f058799ce3eab86f67a0804" title="endCoil1and3Charge" alt="" coords="440,157,597,184"/>
+<area shape="rect" id="node13" href="scheduled_i_o_8ino.html#a49596e87b0b3f1b53eea0f2bbfea6206" title="endCoil1and4Charge" alt="" coords="440,5,597,32"/>
+<area shape="rect" id="node14" href="scheduled_i_o_8ino.html#a2b8e7bd91722f2832597d294c4bc2696" title="endCoil1and5Charge" alt="" coords="440,56,597,83"/>
+<area shape="rect" id="node15" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,512,392,539"/>
+<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,335,583,361"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,397,718,424"/>
+<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,107,847,133"/>
+<area shape="rect" id="node16" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,461,562,488"/>
 </map>
 </div>
 
@@ -1884,13 +1988,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_cgraph" id="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_icgraph" id="scheduled_i_o_8ino_a00e299f0bbebf546830bdf42afeb36b6_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1911,13 +2023,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_cgraph" id="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title="endCoil5Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_icgraph" id="scheduled_i_o_8ino_a691ec61c2ddac534803720998de8ae08_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1938,13 +2058,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_cgraph" id="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title="endCoil6Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_icgraph" id="scheduled_i_o_8ino_aa6f358a190a05a895d09d55354e23645_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -1977,19 +2105,23 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a6805d98db9948de052d0ae7a82ef1e96_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a6805d98db9948de052d0ae7a82ef1e96_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a6805d98db9948de052d0ae7a82ef1e96_icgraph" id="scheduled_i_o_8ino_a6805d98db9948de052d0ae7a82ef1e96_icgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,203,382,230"/>
-<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,51,740,78"/>
-<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,254,347,281"/>
-<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,305,364,331"/>
-<area shape="rect" id="node9" href="decoders_8ino.html#a4c3ff042e4542a73335d38d6086f24cd" title="triggerPri_MazdaAU" alt="" coords="210,355,361,382"/>
-<area shape="rect" id="node10" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,102,361,129"/>
-<area shape="rect" id="node11" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,153,359,179"/>
-<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="440,51,597,78"/>
-<area shape="rect" id="node13" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,406,392,433"/>
-<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,229,583,255"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,291,718,318"/>
-<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,51,847,78"/>
-<area shape="rect" id="node14" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,355,562,382"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,413,382,439"/>
+<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="660,159,755,186"/>
+<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,463,347,490"/>
+<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,514,364,541"/>
+<area shape="rect" id="node9" href="decoders_8ino.html#a4c3ff042e4542a73335d38d6086f24cd" title="triggerPri_MazdaAU" alt="" coords="210,565,361,591"/>
+<area shape="rect" id="node10" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,311,361,338"/>
+<area shape="rect" id="node11" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,362,359,389"/>
+<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a5203efc81b88e8a0a192871f3d7f0f32" title="endTrailingCoilCharge1" alt="" coords="440,159,612,186"/>
+<area shape="rect" id="node13" href="scheduled_i_o_8ino.html#af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5" title="endTrailingCoilCharge2" alt="" coords="440,210,612,237"/>
+<area shape="rect" id="node14" href="scheduled_i_o_8ino.html#a00e299f0bbebf546830bdf42afeb36b6" title="endCoil2and4Charge" alt="" coords="447,261,605,287"/>
+<area shape="rect" id="node15" href="scheduled_i_o_8ino.html#a691ec61c2ddac534803720998de8ae08" title="endCoil2and5Charge" alt="" coords="447,7,605,34"/>
+<area shape="rect" id="node16" href="scheduled_i_o_8ino.html#aa6f358a190a05a895d09d55354e23645" title="endCoil2and6Charge" alt="" coords="447,58,605,85"/>
+<area shape="rect" id="node17" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,615,392,642"/>
+<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="461,438,591,465"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="682,501,733,527"/>
+<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="803,159,861,186"/>
+<area shape="rect" id="node18" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="483,565,569,591"/>
 </map>
 </div>
 
@@ -2010,13 +2142,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_cgraph" id="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title="endCoil6Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_icgraph" id="scheduled_i_o_8ino_a7412e5cfaa1b8acb785475cde7c560be_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -2037,13 +2177,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_cgraph" id="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title="endCoil7Charge" alt="" coords="211,56,336,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_icgraph" id="scheduled_i_o_8ino_a8e9b1aa92a78ce08438d5701aaf636a0_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="416,5,511,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="211,31,368,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="559,5,617,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="211,5,305,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="353,5,412,32"/>
 </map>
 </div>
 
@@ -2076,18 +2224,21 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a6145292aa56773025108b2ecd22444c2_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a6145292aa56773025108b2ecd22444c2_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a6145292aa56773025108b2ecd22444c2_icgraph" id="scheduled_i_o_8ino_a6145292aa56773025108b2ecd22444c2_icgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,199,382,225"/>
-<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,47,740,73"/>
-<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,249,347,276"/>
-<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,300,364,327"/>
-<area shape="rect" id="node9" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,97,361,124"/>
-<area shape="rect" id="node10" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,148,359,175"/>
-<area shape="rect" id="node11" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="440,47,597,73"/>
-<area shape="rect" id="node12" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,351,392,377"/>
-<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,199,583,225"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,249,718,276"/>
-<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,47,847,73"/>
-<area shape="rect" id="node13" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,300,562,327"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,360,382,387"/>
+<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="660,132,755,159"/>
+<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,411,347,437"/>
+<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,461,364,488"/>
+<area shape="rect" id="node9" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,259,361,285"/>
+<area shape="rect" id="node10" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,309,359,336"/>
+<area shape="rect" id="node11" href="scheduled_i_o_8ino.html#af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5" title="endTrailingCoilCharge2" alt="" coords="440,157,612,184"/>
+<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a4558d0273f058799ce3eab86f67a0804" title="endCoil1and3Charge" alt="" coords="447,208,605,235"/>
+<area shape="rect" id="node13" href="scheduled_i_o_8ino.html#a7412e5cfaa1b8acb785475cde7c560be" title="endCoil3and6Charge" alt="" coords="447,5,605,32"/>
+<area shape="rect" id="node14" href="scheduled_i_o_8ino.html#a8e9b1aa92a78ce08438d5701aaf636a0" title="endCoil3and7Charge" alt="" coords="447,56,605,83"/>
+<area shape="rect" id="node15" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,512,392,539"/>
+<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="461,360,591,387"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="682,411,733,437"/>
+<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="803,132,861,159"/>
+<area shape="rect" id="node16" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="483,461,569,488"/>
 </map>
 </div>
 
@@ -2112,42 +2263,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a4587405e791c2481c5a9a0db0dcc850c_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a4587405e791c2481c5a9a0db0dcc850c_cgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a4587405e791c2481c5a9a0db0dcc850c_cgraph" id="scheduled_i_o_8ino_a4587405e791c2481c5a9a0db0dcc850c_cgraph">
-<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title="beginCoil1Charge" alt="" coords="230,5,367,32"/>
-<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title="endCoil1Charge" alt="" coords="236,56,361,83"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title="beginCoil2Charge" alt="" coords="230,107,367,133"/>
-<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="236,157,361,184"/>
-<area shape="rect" id="node6" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title="beginCoil3Charge" alt="" coords="230,208,367,235"/>
-<area shape="rect" id="node7" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="236,259,361,285"/>
-<area shape="rect" id="node8" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title="beginCoil4Charge" alt="" coords="230,309,367,336"/>
-<area shape="rect" id="node9" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="236,360,361,387"/>
-<area shape="rect" id="node10" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title="beginCoil5Charge" alt="" coords="230,411,367,437"/>
-<area shape="rect" id="node11" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title="endCoil5Charge" alt="" coords="236,461,361,488"/>
-<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title="beginCoil6Charge" alt="" coords="230,512,367,539"/>
-<area shape="rect" id="node13" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title="endCoil6Charge" alt="" coords="236,563,361,589"/>
-<area shape="rect" id="node14" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title="beginCoil7Charge" alt="" coords="230,613,367,640"/>
-<area shape="rect" id="node15" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title="endCoil7Charge" alt="" coords="236,664,361,691"/>
-<area shape="rect" id="node16" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title="beginCoil8Charge" alt="" coords="230,715,367,741"/>
-<area shape="rect" id="node17" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title="endCoil8Charge" alt="" coords="236,765,361,792"/>
-<area shape="rect" id="node18" href="scheduled_i_o_8ino.html#a54f5c78849aff7ae581375346a002904" title="beginTrailingCoilCharge" alt="" coords="211,816,387,843"/>
-<area shape="rect" id="node19" href="scheduled_i_o_8ino.html#a5203efc81b88e8a0a192871f3d7f0f32" title="endTrailingCoilCharge1" alt="" coords="213,867,385,893"/>
-<area shape="rect" id="node20" href="scheduled_i_o_8ino.html#af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5" title="endTrailingCoilCharge2" alt="" coords="213,917,385,944"/>
-<area shape="rect" id="node21" href="scheduled_i_o_8ino.html#a6fba542e23d95898722be7a7591d8eae" title="beginCoil1and3Charge" alt="" coords="214,968,383,995"/>
-<area shape="rect" id="node22" href="scheduled_i_o_8ino.html#a4558d0273f058799ce3eab86f67a0804" title="endCoil1and3Charge" alt="" coords="220,1019,377,1045"/>
-<area shape="rect" id="node23" href="scheduled_i_o_8ino.html#a8c4dcb8a1c70181dde711c617360bb38" title="beginCoil2and4Charge" alt="" coords="214,1069,383,1096"/>
-<area shape="rect" id="node24" href="scheduled_i_o_8ino.html#a00e299f0bbebf546830bdf42afeb36b6" title="endCoil2and4Charge" alt="" coords="220,1120,377,1147"/>
-<area shape="rect" id="node25" href="scheduled_i_o_8ino.html#a75e060fa5e05ceb1cb848a7eb9005769" title="beginCoil1and4Charge" alt="" coords="214,1171,383,1197"/>
-<area shape="rect" id="node26" href="scheduled_i_o_8ino.html#a49596e87b0b3f1b53eea0f2bbfea6206" title="endCoil1and4Charge" alt="" coords="220,1221,377,1248"/>
-<area shape="rect" id="node27" href="scheduled_i_o_8ino.html#a29259bcf6306f6c1255d2dfb043f12ba" title="beginCoil2and5Charge" alt="" coords="214,1272,383,1299"/>
-<area shape="rect" id="node28" href="scheduled_i_o_8ino.html#a691ec61c2ddac534803720998de8ae08" title="endCoil2and5Charge" alt="" coords="220,1323,377,1349"/>
-<area shape="rect" id="node29" href="scheduled_i_o_8ino.html#a491571a21cf1d4029139e5c4459a0580" title="beginCoil3and6Charge" alt="" coords="214,1373,383,1400"/>
-<area shape="rect" id="node30" href="scheduled_i_o_8ino.html#a7412e5cfaa1b8acb785475cde7c560be" title="endCoil3and6Charge" alt="" coords="220,1424,377,1451"/>
-<area shape="rect" id="node31" href="scheduled_i_o_8ino.html#a561b9ea7e48bed85d9214e818db71907" title="beginCoil1and5Charge" alt="" coords="214,1475,383,1501"/>
-<area shape="rect" id="node32" href="scheduled_i_o_8ino.html#a2b8e7bd91722f2832597d294c4bc2696" title="endCoil1and5Charge" alt="" coords="220,1525,377,1552"/>
-<area shape="rect" id="node33" href="scheduled_i_o_8ino.html#aee062446b1fa4841327dfdfacf67785b" title="beginCoil2and6Charge" alt="" coords="214,1576,383,1603"/>
-<area shape="rect" id="node34" href="scheduled_i_o_8ino.html#aa6f358a190a05a895d09d55354e23645" title="endCoil2and6Charge" alt="" coords="220,1627,377,1653"/>
-<area shape="rect" id="node35" href="scheduled_i_o_8ino.html#a8340718b9fae98a238e7fd76008183de" title="beginCoil3and7Charge" alt="" coords="214,1677,383,1704"/>
-<area shape="rect" id="node36" href="scheduled_i_o_8ino.html#a8e9b1aa92a78ce08438d5701aaf636a0" title="endCoil3and7Charge" alt="" coords="220,1728,377,1755"/>
-<area shape="rect" id="node37" href="scheduled_i_o_8ino.html#a7ef559e9161bc1b0c36545cc58068578" title="beginCoil4and8Charge" alt="" coords="214,1779,383,1805"/>
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title="endCoil4Charge" alt="" coords="211,5,336,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title="endCoil8Charge" alt="" coords="211,56,336,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2189,18 +2306,20 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_afdfbcd505571589eca16cf40fdd71431_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_afdfbcd505571589eca16cf40fdd71431_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_afdfbcd505571589eca16cf40fdd71431_icgraph" id="scheduled_i_o_8ino_afdfbcd505571589eca16cf40fdd71431_icgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,199,382,225"/>
-<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,47,740,73"/>
-<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,249,347,276"/>
-<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,300,364,327"/>
-<area shape="rect" id="node9" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,97,361,124"/>
-<area shape="rect" id="node10" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,148,359,175"/>
-<area shape="rect" id="node11" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="440,47,597,73"/>
-<area shape="rect" id="node12" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,351,392,377"/>
-<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,199,583,225"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,249,718,276"/>
-<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,47,847,73"/>
-<area shape="rect" id="node13" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,300,562,327"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#a33d147f2871f0ee81c8a592100b0b256" title="triggerPri_BasicDistributor" alt="" coords="189,309,382,336"/>
+<area shape="rect" id="node4" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="645,107,740,133"/>
+<area shape="rect" id="node7" href="decoders_8ino.html#a8abef053d4b8f941bd66e4878bdda75d" title="triggerPri_4G63" alt="" coords="224,360,347,387"/>
+<area shape="rect" id="node8" href="decoders_8ino.html#a93ef02ba8bdba65533a9a09923451b0d" title="triggerPri_Miata9905" alt="" coords="207,411,364,437"/>
+<area shape="rect" id="node9" href="decoders_8ino.html#a29cf1ae5699d56d740612f287e07890c" title="triggerPri_Subaru67" alt="" coords="210,208,361,235"/>
+<area shape="rect" id="node10" href="decoders_8ino.html#ac2c9d40360f08a52ec10ac4308e021e4" title="triggerPri_Daihatsu" alt="" coords="212,259,359,285"/>
+<area shape="rect" id="node11" href="scheduled_i_o_8ino.html#a00e299f0bbebf546830bdf42afeb36b6" title="endCoil2and4Charge" alt="" coords="440,157,597,184"/>
+<area shape="rect" id="node12" href="scheduled_i_o_8ino.html#a49596e87b0b3f1b53eea0f2bbfea6206" title="endCoil1and4Charge" alt="" coords="440,5,597,32"/>
+<area shape="rect" id="node13" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="440,56,597,83"/>
+<area shape="rect" id="node14" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,461,392,488"/>
+<area shape="rect" id="node3" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="454,309,583,336"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="667,360,718,387"/>
+<area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="788,107,847,133"/>
+<area shape="rect" id="node15" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="475,411,562,437"/>
 </map>
 </div>
 
@@ -2233,12 +2352,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a9516aeb60f621698eb9357f6f283b35c_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a9516aeb60f621698eb9357f6f283b35c_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a9516aeb60f621698eb9357f6f283b35c_icgraph" id="scheduled_i_o_8ino_a9516aeb60f621698eb9357f6f283b35c_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="440,5,535,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="207,31,364,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,81,392,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="583,5,641,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="444,81,531,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="587,81,637,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="440,30,535,57"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a691ec61c2ddac534803720998de8ae08" title="endCoil2and5Charge" alt="" coords="207,30,364,57"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#a2b8e7bd91722f2832597d294c4bc2696" title="endCoil1and5Charge" alt="" coords="207,81,364,107"/>
+<area shape="rect" id="node6" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,131,392,158"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="583,30,641,57"/>
+<area shape="rect" id="node7" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="444,131,531,158"/>
+<area shape="rect" id="node8" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="587,131,637,158"/>
 </map>
 </div>
 
@@ -2271,12 +2391,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_ae47aa998727ab8aba5355fca1fd3f01b_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_ae47aa998727ab8aba5355fca1fd3f01b_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_ae47aa998727ab8aba5355fca1fd3f01b_icgraph" id="scheduled_i_o_8ino_ae47aa998727ab8aba5355fca1fd3f01b_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="440,5,535,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="207,31,364,57"/>
-<area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,81,392,108"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="583,5,641,32"/>
-<area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="444,81,531,108"/>
-<area shape="rect" id="node7" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="587,81,637,108"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="440,30,535,57"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a7412e5cfaa1b8acb785475cde7c560be" title="endCoil3and6Charge" alt="" coords="207,30,364,57"/>
+<area shape="rect" id="node5" href="scheduled_i_o_8ino.html#aa6f358a190a05a895d09d55354e23645" title="endCoil2and6Charge" alt="" coords="207,81,364,107"/>
+<area shape="rect" id="node6" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,131,392,158"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="583,30,641,57"/>
+<area shape="rect" id="node7" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="444,131,531,158"/>
+<area shape="rect" id="node8" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="587,131,637,158"/>
 </map>
 </div>
 
@@ -2310,7 +2431,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="scheduled_i_o_8ino_a7a9c5e6729a869684c5fbe32cc0dd5fa_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a7a9c5e6729a869684c5fbe32cc0dd5fa_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a7a9c5e6729a869684c5fbe32cc0dd5fa_icgraph" id="scheduled_i_o_8ino_a7a9c5e6729a869684c5fbe32cc0dd5fa_icgraph">
 <area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="440,5,535,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="207,31,364,57"/>
+<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a8e9b1aa92a78ce08438d5701aaf636a0" title="endCoil3and7Charge" alt="" coords="207,31,364,57"/>
 <area shape="rect" id="node5" href="_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b" title="TS_CommandButtonsHandler" alt="" coords="179,81,392,108"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="583,5,641,32"/>
 <area shape="rect" id="node6" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="444,81,531,108"/>
@@ -2381,13 +2502,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_cgraph" id="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="231,5,357,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title="beginCoil3Charge" alt="" coords="225,56,363,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_icgraph" id="scheduled_i_o_8ino_a5203efc81b88e8a0a192871f3d7f0f32_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="431,5,525,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="225,31,383,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="573,5,632,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="225,5,320,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="368,5,427,32"/>
 </map>
 </div>
 
@@ -2416,13 +2545,285 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_cgraph.png" border="0" usemap="#scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_cgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_cgraph" id="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_cgraph">
+<area shape="rect" id="node2" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title="endCoil2Charge" alt="" coords="225,5,351,32"/>
+<area shape="rect" id="node3" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title="endCoil3Charge" alt="" coords="225,56,351,83"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_icgraph" alt=""/></div>
 <map name="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_icgraph" id="scheduled_i_o_8ino_af0cc85b3a4a7b3eb78c4fb7d4ca0d2a5_icgraph">
-<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="431,5,525,32"/>
-<area shape="rect" id="node4" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title="endCoil4and8Charge" alt="" coords="225,31,383,57"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="573,5,632,32"/>
+<area shape="rect" id="node2" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="225,5,320,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="368,5,427,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a15404b3e9f5b65705d4c502687dcbab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15404b3e9f5b65705d4c502687dcbab1">&#9670;&nbsp;</a></span>injector1Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector1Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a15404b3e9f5b65705d4c502687dcbab1_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a15404b3e9f5b65705d4c502687dcbab1_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a15404b3e9f5b65705d4c502687dcbab1_icgraph" id="scheduled_i_o_8ino_a15404b3e9f5b65705d4c502687dcbab1_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2545bcd08a2bc8df64c61a990b9517c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2545bcd08a2bc8df64c61a990b9517c3">&#9670;&nbsp;</a></span>injector2Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector2Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a2545bcd08a2bc8df64c61a990b9517c3_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a2545bcd08a2bc8df64c61a990b9517c3_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a2545bcd08a2bc8df64c61a990b9517c3_icgraph" id="scheduled_i_o_8ino_a2545bcd08a2bc8df64c61a990b9517c3_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9c5489fbffe1a7e6fa72545c2e12a142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5489fbffe1a7e6fa72545c2e12a142">&#9670;&nbsp;</a></span>injector3Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector3Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a9c5489fbffe1a7e6fa72545c2e12a142_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a9c5489fbffe1a7e6fa72545c2e12a142_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a9c5489fbffe1a7e6fa72545c2e12a142_icgraph" id="scheduled_i_o_8ino_a9c5489fbffe1a7e6fa72545c2e12a142_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8f9845da81f761bda58c2ce9f1925a56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9845da81f761bda58c2ce9f1925a56">&#9670;&nbsp;</a></span>injector4Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector4Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a8f9845da81f761bda58c2ce9f1925a56_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a8f9845da81f761bda58c2ce9f1925a56_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a8f9845da81f761bda58c2ce9f1925a56_icgraph" id="scheduled_i_o_8ino_a8f9845da81f761bda58c2ce9f1925a56_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af4442b3e48f9c92bb21c9c9ea24723db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4442b3e48f9c92bb21c9c9ea24723db">&#9670;&nbsp;</a></span>injector5Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector5Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_af4442b3e48f9c92bb21c9c9ea24723db_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_af4442b3e48f9c92bb21c9c9ea24723db_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_af4442b3e48f9c92bb21c9c9ea24723db_icgraph" id="scheduled_i_o_8ino_af4442b3e48f9c92bb21c9c9ea24723db_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a145c52c7ae7ca57422681a4c06499bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a145c52c7ae7ca57422681a4c06499bdc">&#9670;&nbsp;</a></span>injector6Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector6Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a145c52c7ae7ca57422681a4c06499bdc_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a145c52c7ae7ca57422681a4c06499bdc_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a145c52c7ae7ca57422681a4c06499bdc_icgraph" id="scheduled_i_o_8ino_a145c52c7ae7ca57422681a4c06499bdc_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4277d72d4fd15e49fc31644d80a0311e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4277d72d4fd15e49fc31644d80a0311e">&#9670;&nbsp;</a></span>injector7Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector7Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a4277d72d4fd15e49fc31644d80a0311e_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a4277d72d4fd15e49fc31644d80a0311e_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a4277d72d4fd15e49fc31644d80a0311e_icgraph" id="scheduled_i_o_8ino_a4277d72d4fd15e49fc31644d80a0311e_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a94709a98882835f6c4a86519496115ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94709a98882835f6c4a86519496115ea">&#9670;&nbsp;</a></span>injector8Toggle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void injector8Toggle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduled_i_o_8ino_a94709a98882835f6c4a86519496115ea_icgraph.png" border="0" usemap="#scheduled_i_o_8ino_a94709a98882835f6c4a86519496115ea_icgraph" alt=""/></div>
+<map name="scheduled_i_o_8ino_a94709a98882835f6c4a86519496115ea_icgraph" id="scheduled_i_o_8ino_a94709a98882835f6c4a86519496115ea_icgraph">
+<area shape="rect" id="node2" href="timers_8ino.html#ae69bcc31c5bd2d5e2c7d008cb1ce7632" title="oneMSInterval" alt="" coords="175,5,289,32"/>
 </map>
 </div>
 
