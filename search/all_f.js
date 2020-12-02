@@ -46,6 +46,7 @@ var searchData=
   ['pinisoutput',['pinIsOutput',['../globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36',1,'globals.h']]],
   ['pinissensor',['pinIsSensor',['../globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d',1,'globals.h']]],
   ['pinisused',['pinIsUsed',['../globals_8h.html#a4954515b3dc81a0b180511cfbc8bcef9',1,'globals.h']]],
+  ['pinisvalid',['pinIsValid',['../utilities_8h.html#a7f685f90e94e47998207ccd04be18473',1,'utilities.h']]],
   ['pinlaunch',['pinLaunch',['../globals_8h.html#a79a5ac2ab6c40d4c52618a6db80cde92',1,'pinLaunch():&#160;globals.ino'],['../globals_8ino.html#a79a5ac2ab6c40d4c52618a6db80cde92',1,'pinLaunch():&#160;globals.ino']]],
   ['pinmap',['pinMAP',['../globals_8h.html#a5d21bbebce5ccb2a690f5bc43ca1f523',1,'pinMAP():&#160;globals.ino'],['../globals_8ino.html#a5d21bbebce5ccb2a690f5bc43ca1f523',1,'pinMAP():&#160;globals.ino']]],
   ['pinmap2',['pinMAP2',['../globals_8h.html#ad4d46080a6bb7f8e17fefc040e63c2a6',1,'pinMAP2():&#160;globals.ino'],['../globals_8ino.html#ad4d46080a6bb7f8e17fefc040e63c2a6',1,'pinMAP2():&#160;globals.ino']]],

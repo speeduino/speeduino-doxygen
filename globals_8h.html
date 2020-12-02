@@ -471,7 +471,7 @@ Macros</h2></td></tr>
 <tr class="separator:a6c6db48e18128ef4fff4df5e1438388d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1ab3ba772025be135f18a3419ba6c36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>(pin)&#160;&#160;&#160;( ((pin) == <a class="el" href="globals_8ino.html#a12049f71fe7d040de459811b9682b23f">pinFuelPump</a>) || ((pin) == <a class="el" href="globals_8ino.html#a22d616037351905f8c0ee8d9cdac172b">pinFan</a>) || ((pin) == <a class="el" href="globals_8ino.html#aac55f6a9243ce7472b9efca18c44344d">pinVVT_1</a>) || ((pin) == <a class="el" href="globals_8ino.html#a343ea2f23c3fec36aa9cdf1eeb0e2158">pinVVT_2</a>) || ((pin) == <a class="el" href="globals_8ino.html#a6ac806de7b5f1296db541587dec52e65">pinBoost</a>) || ((pin) == <a class="el" href="globals_8ino.html#aa3344d2dbdbdf7ec37da1e36d28b71a3">pinIdle1</a>) || ((pin) == <a class="el" href="globals_8ino.html#ab87cc9df2fa4e06d04951678cde2a648">pinIdle2</a>) || ((pin) == <a class="el" href="globals_8ino.html#a2e9371fb43bfb4c570b58436ddbdd81c">pinTachOut</a>) )</td></tr>
 <tr class="separator:aa1ab3ba772025be135f18a3419ba6c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4954515b3dc81a0b180511cfbc8bcef9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4954515b3dc81a0b180511cfbc8bcef9">pinIsUsed</a>(pin)&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) || <a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>((pin)) )</td></tr>
+<tr class="memitem:a4954515b3dc81a0b180511cfbc8bcef9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4954515b3dc81a0b180511cfbc8bcef9">pinIsUsed</a>(pin)&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) || <a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>((pin)) || pinIsReserved((pin)) )</td></tr>
 <tr class="separator:a4954515b3dc81a0b180511cfbc8bcef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -987,8 +987,12 @@ Variables</h2></td></tr>
 <tr class="separator:a492b2acaf82893652e7254c9898c6320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cb88b0cfa950b68f4465db485086222"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0cb88b0cfa950b68f4465db485086222">primingDelay</a></td></tr>
 <tr class="separator:a0cb88b0cfa950b68f4465db485086222"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfbc4e5e15075707e274d6cae9730c5c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acfbc4e5e15075707e274d6cae9730c5c">unused2_95</a> [7]</td></tr>
-<tr class="separator:acfbc4e5e15075707e274d6cae9730c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18271e047fb65586a32748051bc75a90"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18271e047fb65586a32748051bc75a90">iacTPSlimit</a></td></tr>
+<tr class="separator:a18271e047fb65586a32748051bc75a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa16c9823e40c0ce33ce57da2c65c44c8"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa16c9823e40c0ce33ce57da2c65c44c8">iacRPMlimitHysteresis</a></td></tr>
+<tr class="separator:aa16c9823e40c0ce33ce57da2c65c44c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50e8a1036935d31a7ad4c7fc45c712e1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a50e8a1036935d31a7ad4c7fc45c712e1">unused2_95</a> [5]</td></tr>
+<tr class="separator:a50e8a1036935d31a7ad4c7fc45c712e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d49f3db156290a4b7fee34f26350dfc"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a2d49f3db156290a4b7fee34f26350dfc">triggerAngle</a></td></tr>
 <tr class="separator:a2d49f3db156290a4b7fee34f26350dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0da40143cc9ddf2bb15d1893f61dff"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff">FixAng</a></td></tr>
@@ -3898,7 +3902,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">pin</td><td>)</td>
-          <td>&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) || <a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>((pin)) )</td>
+          <td>&#160;&#160;&#160;( <a class="el" href="globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b">pinIsInjector</a>((pin)) || <a class="el" href="globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f">pinIsIgnition</a>((pin)) || <a class="el" href="globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d">pinIsSensor</a>((pin)) || <a class="el" href="globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36">pinIsOutput</a>((pin)) || pinIsReserved((pin)) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -7660,6 +7664,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="aa16c9823e40c0ce33ce57da2c65c44c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa16c9823e40c0ce33ce57da2c65c44c8">&#9670;&nbsp;</a></span>iacRPMlimitHysteresis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte iacRPMlimitHysteresis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1ff6d806f1b7c90a4fa3ac96f50a3398"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ff6d806f1b7c90a4fa3ac96f50a3398">&#9670;&nbsp;</a></span>iacStepHome</h2>
 
@@ -7710,6 +7728,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">byte iacStepTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18271e047fb65586a32748051bc75a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18271e047fb65586a32748051bc75a90">&#9670;&nbsp;</a></span>iacTPSlimit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">byte iacTPSlimit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13257,14 +13289,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acfbc4e5e15075707e274d6cae9730c5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfbc4e5e15075707e274d6cae9730c5c">&#9670;&nbsp;</a></span>unused2_95</h2>
+<a id="a50e8a1036935d31a7ad4c7fc45c712e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50e8a1036935d31a7ad4c7fc45c712e1">&#9670;&nbsp;</a></span>unused2_95</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">byte unused2_95[7]</td>
+          <td class="memname">byte unused2_95[5]</td>
         </tr>
       </table>
 </div><div class="memdoc">

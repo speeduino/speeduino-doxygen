@@ -29,6 +29,7 @@ var searchData=
   ['reset_5fcontrol_5fprevent_5falways',['RESET_CONTROL_PREVENT_ALWAYS',['../globals_8h.html#a3ac27c34997a68b892a9947cd9b303d2',1,'globals.h']]],
   ['reset_5fcontrol_5fprevent_5fwhen_5frunning',['RESET_CONTROL_PREVENT_WHEN_RUNNING',['../globals_8h.html#ade9160a6203bf92398c23304419ea7c8',1,'globals.h']]],
   ['reset_5fcontrol_5fserial_5fcommand',['RESET_CONTROL_SERIAL_COMMAND',['../globals_8h.html#a6a4f7dd3cf33e3d32ac00f5c316fde08',1,'globals.h']]],
+  ['resetconfigpages',['resetConfigPages',['../storage_8h.html#ab5565e6188dc7ba5e0ec6471e0769e3c',1,'resetConfigPages():&#160;storage.ino'],['../storage_8ino.html#ab5565e6188dc7ba5e0ec6471e0769e3c',1,'resetConfigPages():&#160;storage.ino']]],
   ['resetcontrol',['resetControl',['../globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl():&#160;globals.ino'],['../globals_8ino.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl():&#160;globals.ino']]],
   ['resetcontrolconfig',['resetControlConfig',['../structconfig4.html#afe47b134962ff13a38467d04b4967162',1,'config4::resetControlConfig()'],['../globals_8h.html#aa30abdd3b5d2b09b460a739f7971ba04',1,'resetControlConfig():&#160;globals.h']]],
   ['resetcontrolpin',['resetControlPin',['../structconfig4.html#a0dbe4850b2ec9f99c2423261de1d94e6',1,'config4::resetControlPin()'],['../globals_8h.html#ac3e4c33f09845ecf55478952dfe9f995',1,'resetControlPin():&#160;globals.h']]],

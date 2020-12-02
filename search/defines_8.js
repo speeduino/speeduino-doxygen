@@ -4,6 +4,7 @@ var searchData=
   ['iac_5falgorithm_5fonoff',['IAC_ALGORITHM_ONOFF',['../idle_8h.html#a9b72143529f752a2bf664b46f4fcf931',1,'idle.h']]],
   ['iac_5falgorithm_5fpwm_5fcl',['IAC_ALGORITHM_PWM_CL',['../idle_8h.html#a1bcda133a16e73f6ae468f40ffd40393',1,'idle.h']]],
   ['iac_5falgorithm_5fpwm_5fol',['IAC_ALGORITHM_PWM_OL',['../idle_8h.html#ae23cfb3457565cb0290ffd296df340a6',1,'idle.h']]],
+  ['iac_5falgorithm_5fpwm_5folcl',['IAC_ALGORITHM_PWM_OLCL',['../idle_8h.html#a926985b89f3290fdbd9eac08537032a2',1,'idle.h']]],
   ['iac_5falgorithm_5fstep_5fcl',['IAC_ALGORITHM_STEP_CL',['../idle_8h.html#a75d8494d0933400c71188f5422613325',1,'idle.h']]],
   ['iac_5falgorithm_5fstep_5fol',['IAC_ALGORITHM_STEP_OL',['../idle_8h.html#aa256dd0f8bf874c2419b6630a08f4993',1,'idle.h']]],
   ['idle_5ftable_5fsize',['IDLE_TABLE_SIZE',['../idle_8h.html#ab25afe45a12d1b7ec45a7538c814cf60',1,'idle.h']]],
