@@ -94,6 +94,14 @@ Macros</h2></td></tr>
 <tr class="separator:aa8ee49347ad040c1ca90973604c66010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44b598e2879e2664d728dc760bbcbbb1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#a562e8ee4589dbbb7e963697a4596647e">vvt2_pin_mask</a>)</td></tr>
 <tr class="separator:a44b598e2879e2664d728dc760bbcbbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9a459995728bbdd82cbf5bfcc2ef849b">VVT1_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a> (<a class="el" href="globals_8h.html#a333d2a2d56340f699486b394e1f76279">configPage6.vvtPWMdir</a> == 0) { <a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>(); } else { <a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>(); }</td></tr>
+<tr class="separator:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa8ec4cff1410792abfae713385e0b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afa8ec4cff1410792abfae713385e0b88">VVT1_PIN_OFF</a>()&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a> (<a class="el" href="globals_8h.html#a333d2a2d56340f699486b394e1f76279">configPage6.vvtPWMdir</a> == 0) { <a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>() ; } else { <a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>(); }</td></tr>
+<tr class="separator:afa8ec4cff1410792abfae713385e0b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe8c3722b6ed2f4fa80ba8af587ea52"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2fe8c3722b6ed2f4fa80ba8af587ea52">VVT2_PIN_ON</a>()&#160;&#160;&#160;{}</td></tr>
+<tr class="separator:a2fe8c3722b6ed2f4fa80ba8af587ea52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bda37c25813d19db23d98b456822093"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0bda37c25813d19db23d98b456822093">VVT2_PIN_OFF</a>()&#160;&#160;&#160;{}</td></tr>
+<tr class="separator:a0bda37c25813d19db23d98b456822093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#a8e1fd727a9874e13d7859f53f4b8808c">fan_pin_mask</a>)</td></tr>
 <tr class="separator:ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#a8e1fd727a9874e13d7859f53f4b8808c">fan_pin_mask</a>)</td></tr>
@@ -475,6 +483,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="afa8ec4cff1410792abfae713385e0b88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa8ec4cff1410792abfae713385e0b88">&#9670;&nbsp;</a></span>VVT1_PIN_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VVT1_PIN_OFF</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a> (<a class="el" href="globals_8h.html#a333d2a2d56340f699486b394e1f76279">configPage6.vvtPWMdir</a> == 0) { <a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>() ; } else { <a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>(); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a459995728bbdd82cbf5bfcc2ef849b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a459995728bbdd82cbf5bfcc2ef849b">&#9670;&nbsp;</a></span>VVT1_PIN_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VVT1_PIN_ON</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a> (<a class="el" href="globals_8h.html#a333d2a2d56340f699486b394e1f76279">configPage6.vvtPWMdir</a> == 0) { <a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>(); } else { <a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>(); }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a44b598e2879e2664d728dc760bbcbbb1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44b598e2879e2664d728dc760bbcbbb1">&#9670;&nbsp;</a></span>VVT2_PIN_HIGH</h2>
 
@@ -503,6 +545,40 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#a562e8ee4589dbbb7e963697a4596647e">vvt2_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bda37c25813d19db23d98b456822093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bda37c25813d19db23d98b456822093">&#9670;&nbsp;</a></span>VVT2_PIN_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VVT2_PIN_OFF</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2fe8c3722b6ed2f4fa80ba8af587ea52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fe8c3722b6ed2f4fa80ba8af587ea52">&#9670;&nbsp;</a></span>VVT2_PIN_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VVT2_PIN_ON</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{}</td>
         </tr>
       </table>
 </div><div class="memdoc">
