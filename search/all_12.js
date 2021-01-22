@@ -62,6 +62,8 @@ var searchData=
   ['toothsystemcount',['toothSystemCount',['../decoders_8h.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino'],['../decoders_8ino.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino']]],
   ['toothsystemlasttoothtime',['toothSystemLastToothTime',['../decoders_8h.html#a5b364049047b5c3f2d551b06d6402308',1,'toothSystemLastToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a5b364049047b5c3f2d551b06d6402308',1,'toothSystemLastToothTime():&#160;decoders.ino']]],
   ['tps',['TPS',['../structstatuses.html#abe58b9ed61f7f5eb4dfd9ca2792b22dd',1,'statuses']]],
+  ['tps_5frateofchange',['TPS_rateOfChange',['../corrections_8h.html#acf59a3c1b8f3a491021939ff5d215527',1,'corrections.h']]],
+  ['tps_5fread_5ffrequency',['TPS_READ_FREQUENCY',['../sensors_8h.html#a8c08f026ab10562b8bb3f257f76946bc',1,'sensors.h']]],
   ['tps_5ftime',['TPS_time',['../sensors_8h.html#ac39deb96768199693e906b0673a1ea53',1,'sensors.h']]],
   ['tpsadc',['tpsADC',['../structstatuses.html#aa35126735ffcc878db31d94641627d9f',1,'statuses']]],
   ['tpsdot',['tpsDOT',['../structstatuses.html#af31fc7e0d5831be31517d983bdd105c2',1,'statuses']]],
@@ -237,6 +239,7 @@ var searchData=
   ['ts_5fcommandbuttonhandler_2eh',['TS_CommandButtonHandler.h',['../_t_s___command_button_handler_8h.html',1,'']]],
   ['ts_5fcommandbuttonhandler_2eino',['TS_CommandButtonHandler.ino',['../_t_s___command_button_handler_8ino.html',1,'']]],
   ['ts_5fcommandbuttonshandler',['TS_CommandButtonsHandler',['../_t_s___command_button_handler_8h.html#a2d6642f2aedddf44a0e3b8d8a37c19be',1,'TS_CommandButtonsHandler(int):&#160;TS_CommandButtonHandler.ino'],['../_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b',1,'TS_CommandButtonsHandler(int buttonCommand):&#160;TS_CommandButtonHandler.ino']]],
+  ['ts_5fsd_5fstatus',['TS_SD_Status',['../structstatuses.html#a67ad67005a0c69432ce21ca4fb80e8b5',1,'statuses']]],
   ['tscanid',['tsCanId',['../comms_8h.html#a03d1c7913db6b3a2500df25ce13bf36c',1,'comms.h']]],
   ['two_5fstroke',['TWO_STROKE',['../globals_8h.html#ad2b65a5cb4c34cbcaf4c059d3efc5940',1,'globals.h']]]
 ];

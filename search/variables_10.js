@@ -19,6 +19,8 @@ var searchData=
   ['rpmdelta',['rpmDelta',['../crank_maths_8h.html#a9c18d1792dc4e9448e75d44fb92b65a5',1,'crankMaths.h']]],
   ['rpmdiv100',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
   ['rpmdot',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
+  ['rtc_5fmode',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2::rtc_mode()'],['../globals_8h.html#a6b404bd63d8e20d1221236afb0c91978',1,'rtc_mode():&#160;globals.h']]],
+  ['rtc_5ftrim',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2::rtc_trim()'],['../globals_8h.html#adb0e149aa9e0a87c77c28feee8898973',1,'rtc_trim():&#160;globals.h']]],
   ['runsecs',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
   ['runsecsx10',['runSecsX10',['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino'],['../globals_8ino.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino']]]
 ];

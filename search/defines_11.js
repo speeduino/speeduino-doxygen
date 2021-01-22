@@ -10,6 +10,7 @@ var searchData=
   ['tooth_5fcrank',['TOOTH_CRANK',['../decoders_8h.html#aff7def3029c429bbdc07a487e8afe9cf',1,'decoders.h']]],
   ['tooth_5flog_5fbuffer',['TOOTH_LOG_BUFFER',['../globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88',1,'globals.h']]],
   ['tooth_5flog_5fsize',['TOOTH_LOG_SIZE',['../globals_8h.html#a49ace293e0ae63863e3a0358ad205578',1,'globals.h']]],
+  ['tps_5fread_5ffrequency',['TPS_READ_FREQUENCY',['../sensors_8h.html#a8c08f026ab10562b8bb3f257f76946bc',1,'sensors.h']]],
   ['ts_5fcmd_5fign1_5f50pc',['TS_CMD_IGN1_50PC',['../_t_s___command_button_handler_8h.html#a70e4f33bda055efa9f43540963e84e99',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fign1_5foff',['TS_CMD_IGN1_OFF',['../_t_s___command_button_handler_8h.html#ad7316a79a100019b6dee7da8cc2cde62',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fign1_5fon',['TS_CMD_IGN1_ON',['../_t_s___command_button_handler_8h.html#a1340d9e70a9827f9daa78d00cc102cc4',1,'TS_CommandButtonHandler.h']]],

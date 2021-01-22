@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['activatemapdot',['activateMAPDOT',['../corrections_8h.html#ab14debd118ef673c24ce5e16a43b809a',1,'corrections.h']]],
+  ['activatetpsdot',['activateTPSDOT',['../corrections_8h.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'corrections.h']]],
   ['adcfilter_5fbaro',['ADCFILTER_BARO',['../structconfig4.html#a2dcf9cd76b035eff2f1be4726c848683',1,'config4::ADCFILTER_BARO()'],['../globals_8h.html#a782185902e59f30956c24118920afe29',1,'ADCFILTER_BARO():&#160;globals.h']]],
   ['adcfilter_5fbat',['ADCFILTER_BAT',['../structconfig4.html#a31b2f6c264cd702315353eafda3bec91',1,'config4::ADCFILTER_BAT()'],['../globals_8h.html#a1471f8029d0109451b6eec0185a8d5c6',1,'ADCFILTER_BAT():&#160;globals.h']]],
   ['adcfilter_5fclt',['ADCFILTER_CLT',['../structconfig4.html#ac552e9a987454f076702137e9dc665f4',1,'config4::ADCFILTER_CLT()'],['../globals_8h.html#a22972df84de36a3131ea263f36d4b67a',1,'ADCFILTER_CLT():&#160;globals.h']]],
