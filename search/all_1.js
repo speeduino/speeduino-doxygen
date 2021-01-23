@@ -2,8 +2,8 @@ var searchData=
 [
   ['acc_5fmc33810_2eh',['acc_mc33810.h',['../acc__mc33810_8h.html',1,'']]],
   ['acc_5fmc33810_2eino',['acc_mc33810.ino',['../acc__mc33810_8ino.html',1,'']]],
-  ['activatemapdot',['activateMAPDOT',['../corrections_8h.html#ab14debd118ef673c24ce5e16a43b809a',1,'corrections.h']]],
-  ['activatetpsdot',['activateTPSDOT',['../corrections_8h.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'corrections.h']]],
+  ['activatemapdot',['activateMAPDOT',['../corrections_8h.html#ab14debd118ef673c24ce5e16a43b809a',1,'activateMAPDOT():&#160;corrections.ino'],['../corrections_8ino.html#ab14debd118ef673c24ce5e16a43b809a',1,'activateMAPDOT():&#160;corrections.ino']]],
+  ['activatetpsdot',['activateTPSDOT',['../corrections_8h.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT():&#160;corrections.ino'],['../corrections_8ino.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT():&#160;corrections.ino']]],
   ['active',['ACTIVE',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9a33cf1d8ef1d06ee698a7fabf40eb3a7f',1,'timers.h']]],
   ['adc_5ffilter',['ADC_FILTER',['../sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd',1,'sensors.h']]],
   ['adcfilter_5fbaro',['ADCFILTER_BARO',['../structconfig4.html#a2dcf9cd76b035eff2f1be4726c848683',1,'config4::ADCFILTER_BARO()'],['../globals_8h.html#a782185902e59f30956c24118920afe29',1,'ADCFILTER_BARO():&#160;globals.h']]],

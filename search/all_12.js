@@ -62,7 +62,7 @@ var searchData=
   ['toothsystemcount',['toothSystemCount',['../decoders_8h.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino'],['../decoders_8ino.html#a850b5bd646b55b24342c9b2fb552f16a',1,'toothSystemCount():&#160;decoders.ino']]],
   ['toothsystemlasttoothtime',['toothSystemLastToothTime',['../decoders_8h.html#a5b364049047b5c3f2d551b06d6402308',1,'toothSystemLastToothTime():&#160;decoders.ino'],['../decoders_8ino.html#a5b364049047b5c3f2d551b06d6402308',1,'toothSystemLastToothTime():&#160;decoders.ino']]],
   ['tps',['TPS',['../structstatuses.html#abe58b9ed61f7f5eb4dfd9ca2792b22dd',1,'statuses']]],
-  ['tps_5frateofchange',['TPS_rateOfChange',['../corrections_8h.html#acf59a3c1b8f3a491021939ff5d215527',1,'corrections.h']]],
+  ['tps_5frateofchange',['TPS_rateOfChange',['../corrections_8h.html#acf59a3c1b8f3a491021939ff5d215527',1,'TPS_rateOfChange():&#160;corrections.ino'],['../corrections_8ino.html#acf59a3c1b8f3a491021939ff5d215527',1,'TPS_rateOfChange():&#160;corrections.ino']]],
   ['tps_5fread_5ffrequency',['TPS_READ_FREQUENCY',['../sensors_8h.html#a8c08f026ab10562b8bb3f257f76946bc',1,'sensors.h']]],
   ['tps_5ftime',['TPS_time',['../sensors_8h.html#ac39deb96768199693e906b0673a1ea53',1,'sensors.h']]],
   ['tpsadc',['tpsADC',['../structstatuses.html#aa35126735ffcc878db31d94641627d9f',1,'statuses']]],

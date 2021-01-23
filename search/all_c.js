@@ -7,7 +7,7 @@ var searchData=
   ['mainloopcount',['mainLoopCount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino'],['../globals_8ino.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino']]],
   ['map',['MAP',['../structstatuses.html#adbf7841ecb42302848f968f2a1f9933e',1,'statuses']]],
   ['map_5fpage_5fsize',['MAP_PAGE_SIZE',['../globals_8h.html#a9ca152de23783b290f91253c91779c92',1,'globals.h']]],
-  ['map_5frateofchange',['MAP_rateOfChange',['../corrections_8h.html#a57854beacb2d02a4a7176443192528e4',1,'corrections.h']]],
+  ['map_5frateofchange',['MAP_rateOfChange',['../corrections_8h.html#a57854beacb2d02a4a7176443192528e4',1,'MAP_rateOfChange():&#160;corrections.ino'],['../corrections_8ino.html#a57854beacb2d02a4a7176443192528e4',1,'MAP_rateOfChange():&#160;corrections.ino']]],
   ['map_5ftime',['MAP_time',['../sensors_8h.html#a69bc1b9a9664fa2780dc055fe2063d0b',1,'sensors.h']]],
   ['mapadc',['mapADC',['../structstatuses.html#a7e498b4fee93dece347e79296cc4cd24',1,'statuses']]],
   ['mapcount',['MAPcount',['../sensors_8h.html#a450cd4aeaf32bf15248ae63251205c3e',1,'sensors.h']]],
