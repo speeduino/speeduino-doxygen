@@ -6,6 +6,7 @@ var searchData=
   ['hardrevlim',['HardRevLim',['../structconfig4.html#a8fd4e0c8ea7e7bdccf477ed696aafff1',1,'config4::HardRevLim()'],['../globals_8h.html#ab9069a9c14a64dc728472f6f4b324af6',1,'HardRevLim():&#160;globals.h']]],
   ['hasnextschedule',['hasNextSchedule',['../struct_schedule.html#a5880ab34c3fa5c0ca67f689dd1392b28',1,'Schedule::hasNextSchedule()'],['../struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137',1,'FuelSchedule::hasNextSchedule()']]],
   ['hassync',['hasSync',['../structstatuses.html#a0ce7170b804d912db6b41bf19ded367a',1,'statuses']]],
+  ['heap_5falloc',['heap_alloc',['../table_8ino.html#aaa2cc79b82c8732c9a15e6efc2a694f9',1,'table.ino']]],
   ['hwtest_5fign',['HWTest_IGN',['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino'],['../globals_8ino.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino']]],
   ['hwtest_5fign_5f50pc',['HWTest_IGN_50pc',['../globals_8h.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino'],['../globals_8ino.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino']]],
   ['hwtest_5finj',['HWTest_INJ',['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino'],['../globals_8ino.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino']]],
