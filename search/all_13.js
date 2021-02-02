@@ -52,7 +52,6 @@ var searchData=
   ['unused2_5f95',['unused2_95',['../structconfig2.html#a2185372d5cb47abe8e77b267ea13baac',1,'config2::unused2_95()'],['../globals_8h.html#ad254a10f240beac6e98557ecb5d775c8',1,'unused2_95():&#160;globals.h']]],
   ['unused4_5f120',['unused4_120',['../structconfig4.html#af9d3f78afd4adf3cd73d598d5ba771f7',1,'config4::unused4_120()'],['../globals_8h.html#a15d50af429a1341939be1b79b9fa80c8',1,'unused4_120():&#160;globals.h']]],
   ['unused_5f13',['unused_13',['../structconfig13.html#a3b80fbfc51cc9dba9b3aa92d819eadc0',1,'config13::unused_13()'],['../globals_8h.html#a38f14703fd0a38649575378b78c11c2b',1,'unused_13():&#160;globals.h']]],
-  ['updatefullstatus',['updateFullStatus',['../comms_8h.html#a5b339657cea20cb6b272e3b4cf8ce440',1,'updateFullStatus():&#160;comms.ino'],['../comms_8ino.html#a5b339657cea20cb6b272e3b4cf8ce440',1,'updateFullStatus():&#160;comms.ino']]],
   ['updates_2eh',['updates.h',['../updates_8h.html',1,'']]],
   ['updates_2eino',['updates.ino',['../updates_8ino.html',1,'']]],
   ['us_5fin_5fminute',['US_IN_MINUTE',['../globals_8h.html#a0b0d4589738b2ad1c84c5821bc8027e9',1,'globals.h']]],

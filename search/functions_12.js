@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['validatemap',['validateMAP',['../sensors_8h.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.h'],['../sensors_8ino.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.ino']]],
-  ['vsspulse',['vssPulse',['../sensors_8h.html#ac61935e9606518571da703b5ea3a2474',1,'vssPulse():&#160;sensors.ino'],['../sensors_8ino.html#ac61935e9606518571da703b5ea3a2474',1,'vssPulse():&#160;sensors.ino']]],
-  ['vvtcontrol',['vvtControl',['../auxiliaries_8h.html#adc12024b0e15526b60ec8c2721eb7165',1,'vvtControl():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#adc12024b0e15526b60ec8c2721eb7165',1,'vvtControl():&#160;auxiliaries.ino']]],
-  ['vvtinterrupt',['vvtInterrupt',['../auxiliaries_8h.html#a9a5b8c20f4941675b2089ef1474ee4d8',1,'vvtInterrupt():&#160;auxiliaries.h'],['../auxiliaries_8ino.html#a9a5b8c20f4941675b2089ef1474ee4d8',1,'vvtInterrupt():&#160;auxiliaries.ino']]]
+  ['wmicontrol',['wmiControl',['../auxiliaries_8h.html#aa5098532802ea899b4c06d301e2571b7',1,'wmiControl():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#aa5098532802ea899b4c06d301e2571b7',1,'wmiControl():&#160;auxiliaries.ino']]],
+  ['writeallconfig',['writeAllConfig',['../storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.ino'],['../storage_8ino.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.ino']]],
+  ['writecalibration',['writeCalibration',['../storage_8h.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.ino'],['../storage_8ino.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.ino']]],
+  ['writecalibration_5fnew',['writeCalibration_new',['../storage_8h.html#a5b97d81cd62e15935845f61d5d8a8a08',1,'storage.h']]],
+  ['writeconfig',['writeConfig',['../storage_8h.html#a2b3daa967fcf9b48410920143dcb5219',1,'writeConfig(byte):&#160;storage.ino'],['../storage_8ino.html#a2dac7ee796d1f4a9438a1a0a3f0adc70',1,'writeConfig(byte tableNum):&#160;storage.ino']]]
 ];

@@ -64,7 +64,7 @@ var searchData=
   ['fpprimed',['fpPrimed',['../globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino'],['../globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino']]],
   ['fpprimetime',['fpPrimeTime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino'],['../globals_8ino.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino']]],
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
-  ['fsintindex',['fsIntIndex',['../globals_8h.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino']]],
+  ['fsintindex',['fsIntIndex',['../globals_8h.html#aa0abf7818184b3b01b2b4d63a5bb5532',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#aa0abf7818184b3b01b2b4d63a5bb5532',1,'fsIntIndex():&#160;globals.ino']]],
   ['fuel2_5fcondition_5feth',['FUEL2_CONDITION_ETH',['../globals_8h.html#aa8e5bb17900fbcf0d719f9c06288841c',1,'globals.h']]],
   ['fuel2_5fcondition_5fmap',['FUEL2_CONDITION_MAP',['../globals_8h.html#a3b53dc9d9be4a826142363466808eac0',1,'globals.h']]],
   ['fuel2_5fcondition_5frpm',['FUEL2_CONDITION_RPM',['../globals_8h.html#a9bb4013e5b2458813164801166650ee6',1,'globals.h']]],
@@ -111,6 +111,5 @@ var searchData=
   ['fueltempcorrection',['fuelTempCorrection',['../structstatuses.html#ab06efbc4ecd3b9927630ff3ed37a6260',1,'statuses']]],
   ['fueltemptable',['fuelTempTable',['../globals_8h.html#a186479171f33f487158eced1ffe47ac7',1,'fuelTempTable():&#160;globals.ino'],['../globals_8ino.html#a186479171f33f487158eced1ffe47ac7',1,'fuelTempTable():&#160;globals.ino']]],
   ['fueltempvalues',['fuelTempValues',['../structconfig10.html#a0c65177aca9253b3ed033e8af01daca8',1,'config10::fuelTempValues()'],['../globals_8h.html#ab451ee6346a88fb09b0bb673d7aefd5e',1,'fuelTempValues():&#160;globals.h']]],
-  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]],
-  ['fullstatus',['fullStatus',['../globals_8h.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino'],['../globals_8ino.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino']]]
+  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]]
 ];

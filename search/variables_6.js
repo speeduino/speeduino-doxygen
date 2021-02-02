@@ -52,7 +52,7 @@ var searchData=
   ['fpprimed',['fpPrimed',['../globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino'],['../globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4',1,'fpPrimed():&#160;globals.ino']]],
   ['fpprimetime',['fpPrimeTime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino'],['../globals_8ino.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime():&#160;globals.ino']]],
   ['freeram',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
-  ['fsintindex',['fsIntIndex',['../globals_8h.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#a9e8b1db71743add4ff19264597029246',1,'fsIntIndex():&#160;globals.ino']]],
+  ['fsintindex',['fsIntIndex',['../globals_8h.html#aa0abf7818184b3b01b2b4d63a5bb5532',1,'fsIntIndex():&#160;globals.ino'],['../globals_8ino.html#aa0abf7818184b3b01b2b4d63a5bb5532',1,'fsIntIndex():&#160;globals.ino']]],
   ['fuel2algorithm',['fuel2Algorithm',['../structconfig10.html#a5155c9f92e88f41758ff6a4568f4b6df',1,'config10::fuel2Algorithm()'],['../globals_8h.html#a13c134ebbc8687a426ea1f86fee5f3df',1,'fuel2Algorithm():&#160;globals.h']]],
   ['fuel2inputpin',['fuel2InputPin',['../structconfig10.html#a193f335d429c57fd3bc31004c1bfa69d',1,'config10::fuel2InputPin()'],['../globals_8h.html#a33202c59e33ae1e00a322ca3c0bd76fb',1,'fuel2InputPin():&#160;globals.h']]],
   ['fuel2inputpolarity',['fuel2InputPolarity',['../structconfig10.html#a180e4d4bd542300fb8fa021bcdda9d14',1,'config10::fuel2InputPolarity()'],['../globals_8h.html#a7cf2c64af0c68dcf927e661cfcf62a0d',1,'fuel2InputPolarity():&#160;globals.h']]],
@@ -86,6 +86,5 @@ var searchData=
   ['fueltempcorrection',['fuelTempCorrection',['../structstatuses.html#ab06efbc4ecd3b9927630ff3ed37a6260',1,'statuses']]],
   ['fueltemptable',['fuelTempTable',['../globals_8h.html#a186479171f33f487158eced1ffe47ac7',1,'fuelTempTable():&#160;globals.ino'],['../globals_8ino.html#a186479171f33f487158eced1ffe47ac7',1,'fuelTempTable():&#160;globals.ino']]],
   ['fueltempvalues',['fuelTempValues',['../structconfig10.html#a0c65177aca9253b3ed033e8af01daca8',1,'config10::fuelTempValues()'],['../globals_8h.html#ab451ee6346a88fb09b0bb673d7aefd5e',1,'fuelTempValues():&#160;globals.h']]],
-  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]],
-  ['fullstatus',['fullStatus',['../globals_8h.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino'],['../globals_8ino.html#a79741603d0a73a1c54c6a3912f9f503a',1,'fullStatus():&#160;globals.ino']]]
+  ['fueltrimenabled',['fuelTrimEnabled',['../structconfig6.html#aaa3c6ba2ab627286d8a4b4cdf0ffac62',1,'config6::fuelTrimEnabled()'],['../globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447',1,'fuelTrimEnabled():&#160;globals.h']]]
 ];
