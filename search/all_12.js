@@ -257,7 +257,7 @@ var searchData=
   ['ts_5fcmd_5fvss_5fratio6',['TS_CMD_VSS_RATIO6',['../_t_s___command_button_handler_8h.html#a6a89eebaa708eea2e9c9d799588d1b68',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcommandbuttonhandler_2eh',['TS_CommandButtonHandler.h',['../_t_s___command_button_handler_8h.html',1,'']]],
   ['ts_5fcommandbuttonhandler_2eino',['TS_CommandButtonHandler.ino',['../_t_s___command_button_handler_8ino.html',1,'']]],
-  ['ts_5fcommandbuttonshandler',['TS_CommandButtonsHandler',['../_t_s___command_button_handler_8h.html#a2d6642f2aedddf44a0e3b8d8a37c19be',1,'TS_CommandButtonsHandler(int):&#160;TS_CommandButtonHandler.ino'],['../_t_s___command_button_handler_8ino.html#ac34e49c74a46269aa5e94e8c71a7bc5b',1,'TS_CommandButtonsHandler(int buttonCommand):&#160;TS_CommandButtonHandler.ino']]],
+  ['ts_5fcommandbuttonshandler',['TS_CommandButtonsHandler',['../_t_s___command_button_handler_8h.html#a420c8155eaca6f6bdc6a9937ba36c446',1,'TS_CommandButtonsHandler(uint16_t):&#160;TS_CommandButtonHandler.ino'],['../_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8',1,'TS_CommandButtonsHandler(uint16_t buttonCommand):&#160;TS_CommandButtonHandler.ino']]],
   ['ts_5fsd_5fstatus',['TS_SD_Status',['../structstatuses.html#a67ad67005a0c69432ce21ca4fb80e8b5',1,'statuses']]],
   ['tscanid',['tsCanId',['../comms_8h.html#a03d1c7913db6b3a2500df25ce13bf36c',1,'comms.h']]],
   ['two_5fstroke',['TWO_STROKE',['../globals_8h.html#ad2b65a5cb4c34cbcaf4c059d3efc5940',1,'globals.h']]]
