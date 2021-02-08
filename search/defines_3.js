@@ -1,4 +1,24 @@
 var searchData=
 [
+  ['decoder_5f24x',['DECODER_24X',['../decoders_8h.html#a6fb76ffd3fd56c27e078244d986549be',1,'decoders.h']]],
+  ['decoder_5f36_5f2_5f1',['DECODER_36_2_1',['../decoders_8h.html#a66a964bc596020ad18228d4b10219531',1,'decoders.h']]],
+  ['decoder_5f36_5f2_5f2_5f2',['DECODER_36_2_2_2',['../decoders_8h.html#ad9e97ee9b891a8a01920a266103a5d4b',1,'decoders.h']]],
+  ['decoder_5f420a',['DECODER_420A',['../decoders_8h.html#a28f8bae629d19ccf0128b75a0cb3a10d',1,'decoders.h']]],
+  ['decoder_5f4g63',['DECODER_4G63',['../decoders_8h.html#a3d000ba2fb4020629586dd18ff1f4b0a',1,'decoders.h']]],
+  ['decoder_5faudi135',['DECODER_AUDI135',['../decoders_8h.html#a795ffe72afedd3f7aef6be790db7aeb8',1,'decoders.h']]],
+  ['decoder_5fbasic_5fdistributor',['DECODER_BASIC_DISTRIBUTOR',['../decoders_8h.html#a2635332e160d782dcb622437340b787f',1,'decoders.h']]],
+  ['decoder_5fdaihatsu_5fplus1',['DECODER_DAIHATSU_PLUS1',['../decoders_8h.html#a9eda6a8b071797c7deba4c989864c742',1,'decoders.h']]],
+  ['decoder_5fdual_5fwheel',['DECODER_DUAL_WHEEL',['../decoders_8h.html#a3077137eb2863f3547b669fd492d5566',1,'decoders.h']]],
+  ['decoder_5fgm7x',['DECODER_GM7X',['../decoders_8h.html#a7345865d05a07268e79f665d07afcd7d',1,'decoders.h']]],
+  ['decoder_5fharley',['DECODER_HARLEY',['../decoders_8h.html#acd143f47c96043e8cd77f256892f3456',1,'decoders.h']]],
+  ['decoder_5fhonda_5fd17',['DECODER_HONDA_D17',['../decoders_8h.html#a57d2689cb0646a5132a43cff1ee8827f',1,'decoders.h']]],
+  ['decoder_5fjeep2000',['DECODER_JEEP2000',['../decoders_8h.html#a22857c67171efcc204b11f8828b5bbfc',1,'decoders.h']]],
+  ['decoder_5fmazda_5fau',['DECODER_MAZDA_AU',['../decoders_8h.html#a386578d58c0a0d8bd30a747093c03509',1,'decoders.h']]],
+  ['decoder_5fmiata_5f9905',['DECODER_MIATA_9905',['../decoders_8h.html#a14bd3ff17604f4df0bafb91f8257fda1',1,'decoders.h']]],
+  ['decoder_5fmissing_5ftooth',['DECODER_MISSING_TOOTH',['../decoders_8h.html#a72cf7d601de218204303b95c75077ade',1,'decoders.h']]],
+  ['decoder_5fnissan_5f360',['DECODER_NISSAN_360',['../decoders_8h.html#ae13906b9c57e366849778f03898a9a88',1,'decoders.h']]],
+  ['decoder_5fnon360',['DECODER_NON360',['../decoders_8h.html#a3b1deb81e6ab497c1f981cbe9ca34471',1,'decoders.h']]],
+  ['decoder_5fsubaru_5f67',['DECODER_SUBARU_67',['../decoders_8h.html#a991e65a5326ee0ec5757578be52cd532',1,'decoders.h']]],
+  ['decoder_5fweber',['DECODER_WEBER',['../decoders_8h.html#ab20dd7483676c65b9e6f944c44873c34',1,'decoders.h']]],
   ['div_5fround_5fclosest',['DIV_ROUND_CLOSEST',['../maths_8h.html#a57fc13eb777500b3e22d3ff457cfd0d7',1,'maths.h']]]
 ];
