@@ -53,6 +53,7 @@ var searchData=
   ['unused4_5f120',['unused4_120',['../structconfig4.html#af9d3f78afd4adf3cd73d598d5ba771f7',1,'config4::unused4_120()'],['../globals_8h.html#a15d50af429a1341939be1b79b9fa80c8',1,'unused4_120():&#160;globals.h']]],
   ['unused_5f13',['unused_13',['../structconfig13.html#a3b80fbfc51cc9dba9b3aa92d819eadc0',1,'config13::unused_13()'],['../globals_8h.html#a38f14703fd0a38649575378b78c11c2b',1,'unused_13():&#160;globals.h']]],
   ['usedwelllim',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4::useDwellLim()'],['../globals_8h.html#a90cc76bfa7a2820158f7b0e194b76259',1,'useDwellLim():&#160;globals.h']]],
+  ['usedwellmap',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2::useDwellMap()'],['../globals_8h.html#ab8a8b1a225c424741fc03cf30a4ffe58',1,'useDwellMap():&#160;globals.h']]],
   ['useemap',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6::useEMAP()'],['../globals_8h.html#a516a848fd692c804e525b194c69a1bd9',1,'useEMAP():&#160;globals.h']]],
   ['useextbaro',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6::useExtBaro()'],['../globals_8h.html#a32ca43bf4bf666767fe348fa8fd76889',1,'useExtBaro():&#160;globals.h']]],
   ['useresync',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4::useResync()'],['../globals_8h.html#ad33467d48ec0c49d1b3f1dd4e18d90c8',1,'useResync():&#160;globals.h']]],

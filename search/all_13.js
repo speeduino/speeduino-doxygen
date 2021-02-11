@@ -57,6 +57,7 @@ var searchData=
   ['us_5fin_5fminute',['US_IN_MINUTE',['../globals_8h.html#a0b0d4589738b2ad1c84c5821bc8027e9',1,'globals.h']]],
   ['use_5fign_5frefresh',['USE_IGN_REFRESH',['../scheduler_8h.html#a5e5e7065ac68865b7edd56eb92a2e164',1,'scheduler.h']]],
   ['usedwelllim',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4::useDwellLim()'],['../globals_8h.html#a90cc76bfa7a2820158f7b0e194b76259',1,'useDwellLim():&#160;globals.h']]],
+  ['usedwellmap',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2::useDwellMap()'],['../globals_8h.html#ab8a8b1a225c424741fc03cf30a4ffe58',1,'useDwellMap():&#160;globals.h']]],
   ['useemap',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6::useEMAP()'],['../globals_8h.html#a516a848fd692c804e525b194c69a1bd9',1,'useEMAP():&#160;globals.h']]],
   ['useextbaro',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6::useExtBaro()'],['../globals_8h.html#a32ca43bf4bf666767fe348fa8fd76889',1,'useExtBaro():&#160;globals.h']]],
   ['useresync',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4::useResync()'],['../globals_8h.html#ad33467d48ec0c49d1b3f1dd4e18d90c8',1,'useResync():&#160;globals.h']]],
