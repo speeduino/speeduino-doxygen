@@ -20,6 +20,7 @@ var searchData=
   ['decoder_5fmissing_5ftooth',['DECODER_MISSING_TOOTH',['../decoders_8h.html#a72cf7d601de218204303b95c75077ade',1,'decoders.h']]],
   ['decoder_5fnissan_5f360',['DECODER_NISSAN_360',['../decoders_8h.html#ae13906b9c57e366849778f03898a9a88',1,'decoders.h']]],
   ['decoder_5fnon360',['DECODER_NON360',['../decoders_8h.html#a3b1deb81e6ab497c1f981cbe9ca34471',1,'decoders.h']]],
+  ['decoder_5fst170',['DECODER_ST170',['../decoders_8h.html#a5ab4d07b0943e8d1d2774ce6d2f266e4',1,'decoders.h']]],
   ['decoder_5fsubaru_5f67',['DECODER_SUBARU_67',['../decoders_8h.html#a991e65a5326ee0ec5757578be52cd532',1,'decoders.h']]],
   ['decoder_5fweber',['DECODER_WEBER',['../decoders_8h.html#ab20dd7483676c65b9e6f944c44873c34',1,'decoders.h']]],
   ['decoderhasfixedcrankingtiming',['decoderHasFixedCrankingTiming',['../decoders_8h.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino'],['../decoders_8ino.html#ab4d11ccf93ba53f0e33436dd328b131f',1,'decoderHasFixedCrankingTiming():&#160;decoders.ino']]],
