@@ -187,6 +187,7 @@ var searchData=
   ['ignitiontable',['ignitionTable',['../globals_8h.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino'],['../globals_8ino.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino']]],
   ['ignitiontable2',['ignitionTable2',['../globals_8h.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino'],['../globals_8ino.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino']]],
   ['ignload',['ignLoad',['../structstatuses.html#ac60524a71048115c3b6e660beecd9663',1,'statuses']]],
+  ['ignload2',['ignLoad2',['../structstatuses.html#ab8fa48f473045c98041bcf828959fb17',1,'statuses']]],
   ['ignmap2page',['ignMap2Page',['../comms_8h.html#afbcb6179c8ca25837c6cdd51147c4c58',1,'comms.h']]],
   ['ignmappage',['ignMapPage',['../comms_8h.html#a6894142189f915452e053994b95d07fb',1,'comms.h']]],
   ['ignsetpage',['ignSetPage',['../comms_8h.html#ac578dae9dba8affd61d2f47d25e61854',1,'comms.h']]],

@@ -159,6 +159,7 @@ var searchData=
   ['ignitiontable',['ignitionTable',['../globals_8h.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino'],['../globals_8ino.html#a30064545ba7389c46acf2d7986f970e2',1,'ignitionTable():&#160;globals.ino']]],
   ['ignitiontable2',['ignitionTable2',['../globals_8h.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino'],['../globals_8ino.html#ae7cd222c10f07a9a7055e07cb19d5058',1,'ignitionTable2():&#160;globals.ino']]],
   ['ignload',['ignLoad',['../structstatuses.html#ac60524a71048115c3b6e660beecd9663',1,'statuses']]],
+  ['ignload2',['ignLoad2',['../structstatuses.html#ab8fa48f473045c98041bcf828959fb17',1,'statuses']]],
   ['includeafr',['includeAFR',['../structconfig2.html#afa9ed2839798c0cf326b3276c26fb23c',1,'config2::includeAFR()'],['../globals_8h.html#a879efb0c9d51c2521b2dba65f1f64fb4',1,'includeAFR():&#160;globals.h']]],
   ['incorporateafr',['incorporateAFR',['../structconfig2.html#ace47c83764283db1ad454bdd6d0e06e4',1,'config2::incorporateAFR()'],['../globals_8h.html#adb4c72df9f9adb62893922a449f779e0',1,'incorporateAFR():&#160;globals.h']]],
   ['indinjang',['indInjAng',['../structconfig2.html#ad36c73275a9b223c756a3e951977c46d',1,'config2::indInjAng()'],['../globals_8h.html#ab9d2daf541a21cba9bb9c1f7570f295d',1,'indInjAng():&#160;globals.h']]],
