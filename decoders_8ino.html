@@ -95,8 +95,8 @@ Functions</h2></td></tr>
 <tr class="separator:a68415dc74fbfa8e4e43e4249cc988e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e47fa64b01c6c1908f133f37313b25e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8ino.html#a7e47fa64b01c6c1908f133f37313b25e">setFilter</a> (unsigned long <a class="el" href="decoders_8ino.html#ac18ba0a2c1dbaf6235400f7fd4023743">curGap</a>)</td></tr>
 <tr class="separator:a7e47fa64b01c6c1908f133f37313b25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c2d1d162956e7affceada050de88cd"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd">crankingGetRPM</a> (byte totalTeeth)</td></tr>
-<tr class="separator:a52c2d1d162956e7affceada050de88cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc806ad5d6297eb31ad69ff9945b97a8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8">crankingGetRPM</a> (byte totalTeeth, uint16_t degreesOver)</td></tr>
+<tr class="separator:adc806ad5d6297eb31ad69ff9945b97a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62a160e1172b583d383d8ca212f5a3f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8ino.html#a62a160e1172b583d383d8ca212f5a3f8">checkPerToothTiming</a> (int16_t crankAngle, uint16_t currentTooth)</td></tr>
 <tr class="separator:a62a160e1172b583d383d8ca212f5a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5680f0930cef991664953059185343a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8ino.html#ac5680f0930cef991664953059185343a">triggerSetup_missingTooth</a> ()</td></tr>
@@ -575,8 +575,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a52c2d1d162956e7affceada050de88cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52c2d1d162956e7affceada050de88cd">&#9670;&nbsp;</a></span>crankingGetRPM()</h2>
+<a id="adc806ad5d6297eb31ad69ff9945b97a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc806ad5d6297eb31ad69ff9945b97a8">&#9670;&nbsp;</a></span>crankingGetRPM()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,8 +588,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">static int crankingGetRPM </td>
           <td>(</td>
           <td class="paramtype">byte&#160;</td>
-          <td class="paramname"><em>totalTeeth</em></td><td>)</td>
+          <td class="paramname"><em>totalTeeth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>degreesOver</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -601,8 +611,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="decoders_8ino_a52c2d1d162956e7affceada050de88cd_icgraph.png" border="0" usemap="#decoders_8ino_a52c2d1d162956e7affceada050de88cd_icgraph" alt=""/></div>
-<map name="decoders_8ino_a52c2d1d162956e7affceada050de88cd_icgraph" id="decoders_8ino_a52c2d1d162956e7affceada050de88cd_icgraph">
+<div class="center"><img src="decoders_8ino_adc806ad5d6297eb31ad69ff9945b97a8_icgraph.png" border="0" usemap="#decoders_8ino_adc806ad5d6297eb31ad69ff9945b97a8_icgraph" alt=""/></div>
+<map name="decoders_8ino_adc806ad5d6297eb31ad69ff9945b97a8_icgraph" id="decoders_8ino_adc806ad5d6297eb31ad69ff9945b97a8_icgraph">
 <area shape="rect" id="node2" href="decoders_8ino.html#a24f13ea3eb4b96cf1097093e2dafed01" title="getRPM_missingTooth" alt="" coords="200,5,364,32"/>
 <area shape="rect" id="node7" href="decoders_8ino.html#a24c87633977032652f1da57af1a358e4" title="getRPM_DualWheel" alt="" coords="207,56,357,83"/>
 <area shape="rect" id="node8" href="decoders_8ino.html#a7ba16109552349ffb665012631ce146b" title="getRPM_BasicDistributor" alt="" coords="191,107,373,133"/>
@@ -1482,7 +1492,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_a7ba16109552349ffb665012631ce146b_cgraph.png" border="0" usemap="#decoders_8ino_a7ba16109552349ffb665012631ce146b_cgraph" alt=""/></div>
 <map name="decoders_8ino_a7ba16109552349ffb665012631ce146b_cgraph" id="decoders_8ino_a7ba16109552349ffb665012631ce146b_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="236,5,365,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="236,5,365,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="254,56,347,83"/>
 </map>
 </div>
@@ -1555,7 +1565,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_a24c87633977032652f1da57af1a358e4_cgraph.png" border="0" usemap="#decoders_8ino_a24c87633977032652f1da57af1a358e4_cgraph" alt=""/></div>
 <map name="decoders_8ino_a24c87633977032652f1da57af1a358e4_cgraph" id="decoders_8ino_a24c87633977032652f1da57af1a358e4_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="203,5,332,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="203,5,332,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="221,56,314,83"/>
 </map>
 </div>
@@ -1592,7 +1602,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_a160f1d39d3e702d2c4639a9ff5b196d0_cgraph.png" border="0" usemap="#decoders_8ino_a160f1d39d3e702d2c4639a9ff5b196d0_cgraph" alt=""/></div>
 <map name="decoders_8ino_a160f1d39d3e702d2c4639a9ff5b196d0_cgraph" id="decoders_8ino_a160f1d39d3e702d2c4639a9ff5b196d0_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="200,5,329,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="200,5,329,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="218,56,311,83"/>
 </map>
 </div>
@@ -1845,7 +1855,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_a24f13ea3eb4b96cf1097093e2dafed01_cgraph.png" border="0" usemap="#decoders_8ino_a24f13ea3eb4b96cf1097093e2dafed01_cgraph" alt=""/></div>
 <map name="decoders_8ino_a24f13ea3eb4b96cf1097093e2dafed01_cgraph" id="decoders_8ino_a24f13ea3eb4b96cf1097093e2dafed01_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="217,5,347,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="217,5,347,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="235,56,329,83"/>
 </map>
 </div>
@@ -1910,7 +1920,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_afdc8dac2da78abb4ed4d196dedb1a443_cgraph.png" border="0" usemap="#decoders_8ino_afdc8dac2da78abb4ed4d196dedb1a443_cgraph" alt=""/></div>
 <map name="decoders_8ino_afdc8dac2da78abb4ed4d196dedb1a443_cgraph" id="decoders_8ino_afdc8dac2da78abb4ed4d196dedb1a443_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="180,5,309,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="180,5,309,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="198,56,291,83"/>
 </map>
 </div>
@@ -1983,7 +1993,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_a25e9bec0c4bfc9aad7664e8a5712fb51_cgraph.png" border="0" usemap="#decoders_8ino_a25e9bec0c4bfc9aad7664e8a5712fb51_cgraph" alt=""/></div>
 <map name="decoders_8ino_a25e9bec0c4bfc9aad7664e8a5712fb51_cgraph" id="decoders_8ino_a25e9bec0c4bfc9aad7664e8a5712fb51_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="244,5,373,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="244,5,373,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="262,56,355,83"/>
 </map>
 </div>
@@ -2009,7 +2019,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="decoders_8ino_ace842dcbbca6e75841cfbbd3344c44b6_cgraph.png" border="0" usemap="#decoders_8ino_ace842dcbbca6e75841cfbbd3344c44b6_cgraph" alt=""/></div>
 <map name="decoders_8ino_ace842dcbbca6e75841cfbbd3344c44b6_cgraph" id="decoders_8ino_ace842dcbbca6e75841cfbbd3344c44b6_cgraph">
-<area shape="rect" id="node2" href="decoders_8ino.html#a52c2d1d162956e7affceada050de88cd" title="crankingGetRPM" alt="" coords="252,5,381,32"/>
+<area shape="rect" id="node2" href="decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8" title="crankingGetRPM" alt="" coords="252,5,381,32"/>
 <area shape="rect" id="node3" href="decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81" title="stdGetRPM" alt="" coords="270,56,363,83"/>
 </map>
 </div>
