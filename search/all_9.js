@@ -256,6 +256,8 @@ var searchData=
   ['inj_5fpaired',['INJ_PAIRED',['../globals_8h.html#a0901d1f94a267fac053ae69186c5aedb',1,'globals.h']]],
   ['inj_5fsemisequential',['INJ_SEMISEQUENTIAL',['../globals_8h.html#a1e46299aba6e2a353b020afc55b7dcc1',1,'globals.h']]],
   ['inj_5fsequential',['INJ_SEQUENTIAL',['../globals_8h.html#a6e740690b21f81a3ba79cb0de5921f6f',1,'globals.h']]],
+  ['inj_5ftype_5fport',['INJ_TYPE_PORT',['../globals_8h.html#a56609a9b7fac240cda26720f3681c7a9',1,'globals.h']]],
+  ['inj_5ftype_5ftbody',['INJ_TYPE_TBODY',['../globals_8h.html#ae155292da41a7d142e05fe20226b2aeb',1,'globals.h']]],
   ['injang',['injAng',['../structconfig2.html#a963b45be85ff3c3a35a022319b8626d9',1,'config2::injAng()'],['../globals_8h.html#aac53f836085ec653cf025cf5ff9ea1ce',1,'injAng():&#160;globals.h']]],
   ['injangle',['injAngle',['../structstatuses.html#ad6187c4e49425ad9dccdb3600662d4b4',1,'statuses']]],
   ['injangrpm',['injAngRPM',['../structconfig2.html#a3ec7948dd9373a2ba5a85e5def054ff9',1,'config2::injAngRPM()'],['../globals_8h.html#a6360494ecab6e9d126365515c9fb4dec',1,'injAngRPM():&#160;globals.h']]],

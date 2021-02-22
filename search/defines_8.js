@@ -38,6 +38,8 @@ var searchData=
   ['inj_5fpaired',['INJ_PAIRED',['../globals_8h.html#a0901d1f94a267fac053ae69186c5aedb',1,'globals.h']]],
   ['inj_5fsemisequential',['INJ_SEMISEQUENTIAL',['../globals_8h.html#a1e46299aba6e2a353b020afc55b7dcc1',1,'globals.h']]],
   ['inj_5fsequential',['INJ_SEQUENTIAL',['../globals_8h.html#a6e740690b21f81a3ba79cb0de5921f6f',1,'globals.h']]],
+  ['inj_5ftype_5fport',['INJ_TYPE_PORT',['../globals_8h.html#a56609a9b7fac240cda26720f3681c7a9',1,'globals.h']]],
+  ['inj_5ftype_5ftbody',['INJ_TYPE_TBODY',['../globals_8h.html#ae155292da41a7d142e05fe20226b2aeb',1,'globals.h']]],
   ['injector1toggle_5fdirect',['injector1Toggle_DIRECT',['../scheduled_i_o_8h.html#a8ed062076a5a295086d8090b4c8956e0',1,'scheduledIO.h']]],
   ['injector1toggle_5fmc33810',['injector1Toggle_MC33810',['../acc__mc33810_8h.html#a1e75f02e63bc97a9385af3c2925ca234',1,'acc_mc33810.h']]],
   ['injector2toggle_5fdirect',['injector2Toggle_DIRECT',['../scheduled_i_o_8h.html#a20777f630e122e0f7204dbea24ffe5a7',1,'scheduledIO.h']]],
