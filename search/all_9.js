@@ -68,6 +68,7 @@ var searchData=
   ['idleadvrpm',['idleAdvRPM',['../structconfig2.html#a764c6867944de2100c2bf63d0551f319',1,'config2::idleAdvRPM()'],['../globals_8h.html#a18dc75683c5c372a5426a75ea9c4504c',1,'idleAdvRPM():&#160;globals.h']]],
   ['idleadvtps',['idleAdvTPS',['../structconfig2.html#ac3c8e6a9544a63e2ab28183d5a6a020b',1,'config2::idleAdvTPS()'],['../globals_8h.html#a3c71ecbf21cab030afaff14f00bc5653',1,'idleAdvTPS():&#160;globals.h']]],
   ['idleadvvalues',['idleAdvValues',['../structconfig4.html#a4fd9fdc99282bcb0b84ecb6d9104934e',1,'config4::idleAdvValues()'],['../globals_8h.html#a48fbc59034fc6572b6e4d28812253821',1,'idleAdvValues():&#160;globals.h']]],
+  ['idleadvvss',['idleAdvVss',['../structconfig2.html#a4bc89cffa9ef574c53a083ad766f5087',1,'config2::idleAdvVss()'],['../globals_8h.html#a7c900c761007b19e3330a1e6fc18b559',1,'idleAdvVss():&#160;globals.h']]],
   ['idlecontrol',['idleControl',['../auxiliaries_8h.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino'],['../idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino']]],
   ['idlecounter',['idleCounter',['../idle_8h.html#a3d4973c359cd8f7ad4076c841b6b5db2',1,'idle.h']]],
   ['idleduty',['idleDuty',['../structstatuses.html#a1517680af7abd19ace4a84a6d6c4039c',1,'statuses']]],
