@@ -24,6 +24,7 @@ var searchData=
   ['sd_5fwrite_5fsec_5flength',['SD_WRITE_SEC_LENGTH',['../comms_8h.html#ae041d3d558a870c0ddc750c3e3bedaee',1,'comms.h']]],
   ['sd_5fwrite_5fsec_5foffset',['SD_WRITE_SEC_OFFSET',['../comms_8h.html#a8b7778dd1399618d19fd420c0511887d',1,'comms.h']]],
   ['sec_5ftrigger_5f4_5f1',['SEC_TRIGGER_4_1',['../globals_8h.html#a0f43e661d7315d876a457dfdf208a328',1,'globals.h']]],
+  ['sec_5ftrigger_5fpoll',['SEC_TRIGGER_POLL',['../globals_8h.html#a1193cca729ce9ccbdcec690c6c8964f2',1,'globals.h']]],
   ['sec_5ftrigger_5fsingle',['SEC_TRIGGER_SINGLE',['../globals_8h.html#a5674a74a588ec9830f15b27392904f44',1,'globals.h']]],
   ['seqfuelpage',['seqFuelPage',['../comms_8h.html#a2390a3e93194eb3613602fffae68baa0',1,'comms.h']]],
   ['serial_5fbuffer_5fthreshold',['SERIAL_BUFFER_THRESHOLD',['../globals_8h.html#a6b790444384f7a3c57b495edbec62048',1,'globals.h']]],

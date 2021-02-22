@@ -88,6 +88,7 @@ var searchData=
   ['pinwmiempty',['pinWMIEmpty',['../globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970',1,'pinWMIEmpty():&#160;globals.ino'],['../globals_8ino.html#a8ab8128857677bc7fbe70b3762c5b970',1,'pinWMIEmpty():&#160;globals.ino']]],
   ['pinwmienabled',['pinWMIEnabled',['../globals_8h.html#a60c1df0ba1e66a947f4df628dd5f274f',1,'pinWMIEnabled():&#160;globals.ino'],['../globals_8ino.html#a60c1df0ba1e66a947f4df628dd5f274f',1,'pinWMIEnabled():&#160;globals.ino']]],
   ['pinwmiindicator',['pinWMIIndicator',['../globals_8h.html#a9814eb4d6fed2e73a9f71cf8c99c23b1',1,'pinWMIIndicator():&#160;globals.ino'],['../globals_8ino.html#a9814eb4d6fed2e73a9f71cf8c99c23b1',1,'pinWMIIndicator():&#160;globals.ino']]],
+  ['polllevelpolarity',['PollLevelPolarity',['../structconfig4.html#aefea8dcca3c029fedf1fa898c7f93f99',1,'config4::PollLevelPolarity()'],['../globals_8h.html#abb6fc1b5db10023625969faa18e8f3a6',1,'PollLevelPolarity():&#160;globals.h']]],
   ['popqueue',['popQueue',['../scheduler_8h.html#a13ccea36db51231f277cc9133f43703b',1,'scheduler.h']]],
   ['powint',['powint',['../maths_8h.html#ae15c95d7eff51a68cae87d097bd6eb48',1,'powint(int, unsigned int):&#160;maths.ino'],['../maths_8ino.html#a3ef6b9233d5c96cc2f0946edbcbec9fb',1,'powint(int factor, unsigned int exponent):&#160;maths.ino']]],
   ['previousclutchtrigger',['previousClutchTrigger',['../globals_8h.html#a5c105ef1fad1e927319ea7956737cc1c',1,'previousClutchTrigger():&#160;globals.ino'],['../globals_8ino.html#a5c105ef1fad1e927319ea7956737cc1c',1,'previousClutchTrigger():&#160;globals.ino']]],

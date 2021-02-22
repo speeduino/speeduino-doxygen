@@ -34,6 +34,7 @@ var searchData=
   ['sd_5fwrite_5fsec_5flength',['SD_WRITE_SEC_LENGTH',['../comms_8h.html#ae041d3d558a870c0ddc750c3e3bedaee',1,'comms.h']]],
   ['sd_5fwrite_5fsec_5foffset',['SD_WRITE_SEC_OFFSET',['../comms_8h.html#a8b7778dd1399618d19fd420c0511887d',1,'comms.h']]],
   ['sec_5ftrigger_5f4_5f1',['SEC_TRIGGER_4_1',['../globals_8h.html#a0f43e661d7315d876a457dfdf208a328',1,'globals.h']]],
+  ['sec_5ftrigger_5fpoll',['SEC_TRIGGER_POLL',['../globals_8h.html#a1193cca729ce9ccbdcec690c6c8964f2',1,'globals.h']]],
   ['sec_5ftrigger_5fsingle',['SEC_TRIGGER_SINGLE',['../globals_8h.html#a5674a74a588ec9830f15b27392904f44',1,'globals.h']]],
   ['secl',['secl',['../structstatuses.html#a739c35982fbfc585684cb2daa53d1575',1,'statuses']]],
   ['seclx10',['seclx10',['../globals_8h.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10():&#160;globals.ino'],['../globals_8ino.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10():&#160;globals.ino']]],
