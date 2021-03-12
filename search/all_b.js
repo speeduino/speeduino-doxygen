@@ -43,7 +43,7 @@ var searchData=
   ['loggersecondaryisr',['loggerSecondaryISR',['../decoders_8h.html#a24b99eef5e31c2d80415ea0dedb705e5',1,'loggerSecondaryISR():&#160;decoders.ino'],['../decoders_8ino.html#a24b99eef5e31c2d80415ea0dedb705e5',1,'loggerSecondaryISR():&#160;decoders.ino']]],
   ['long',['LONG',['../decoders_8h.html#acaa7b8a7167a8214f499c71c413ddcca',1,'decoders.h']]],
   ['longrpm',['longRPM',['../structstatuses.html#a950c168f3abcc4e7be1eb8fcbbb229b1',1,'statuses']]],
-  ['loop',['loop',['../speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'speeduino.ino']]],
+  ['loop',['loop',['../speeduino_8h.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;speeduino.ino'],['../speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f',1,'loop():&#160;speeduino.ino']]],
   ['loop100ms',['loop100ms',['../timers_8h.html#abee157bd72540348338826e26f4ff526',1,'timers.h']]],
   ['loop250ms',['loop250ms',['../timers_8h.html#a98a956b21f0c584520ccc45c501b98d8',1,'timers.h']]],
   ['loop33ms',['loop33ms',['../timers_8h.html#abb944e77bfd49a4c2699d59a178a17ec',1,'timers.h']]],

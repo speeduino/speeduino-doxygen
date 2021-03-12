@@ -84,7 +84,7 @@ var searchData=
   ['setpinmapping',['setPinMapping',['../init_8h.html#a83d91ac4ac165c8eb1e569ebbf69e7b2',1,'setPinMapping(byte):&#160;init.ino'],['../init_8ino.html#a86db22b96dc0b6738580853545476dd7',1,'setPinMapping(byte boardID):&#160;init.ino']]],
   ['setqueue',['setQueue',['../scheduler_8h.html#ad6497505c62552a23434add244770232',1,'scheduler.h']]],
   ['setresetcontrolpinstate',['setResetControlPinState',['../utilities_8h.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utilities.ino'],['../utilities_8ino.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utilities.ino']]],
-  ['setup',['setup',['../speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'speeduino.ino']]],
+  ['setup',['setup',['../speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;speeduino.ino'],['../speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;speeduino.ino']]],
   ['short',['SHORT',['../decoders_8h.html#a9fbb14850a9f176447733a089071cd70',1,'decoders.h']]],
   ['simple_5fboost_5fd',['SIMPLE_BOOST_D',['../auxiliaries_8h.html#a7e97860f92291f8439b060e35c82a417',1,'auxiliaries.h']]],
   ['simple_5fboost_5fi',['SIMPLE_BOOST_I',['../auxiliaries_8h.html#af836c2282a1aa7edbae3cef8ae432bdb',1,'auxiliaries.h']]],

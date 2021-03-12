@@ -2,6 +2,8 @@ var searchData=
 [
   ['board_5favr2560_2eh',['board_avr2560.h',['../board__avr2560_8h.html',1,'']]],
   ['board_5favr2560_2eino',['board_avr2560.ino',['../board__avr2560_8ino.html',1,'']]],
+  ['board_5fsame51_2eh',['board_same51.h',['../board__same51_8h.html',1,'']]],
+  ['board_5fsame51_2eino',['board_same51.ino',['../board__same51_8ino.html',1,'']]],
   ['board_5fstm32_5fgeneric_2eh',['board_stm32_generic.h',['../board__stm32__generic_8h.html',1,'']]],
   ['board_5fstm32_5fgeneric_2eino',['board_stm32_generic.ino',['../board__stm32__generic_8ino.html',1,'']]],
   ['board_5fstm32_5fofficial_2eh',['board_stm32_official.h',['../board__stm32__official_8h.html',1,'']]],
