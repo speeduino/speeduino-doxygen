@@ -47,5 +47,5 @@ var searchData=
   ['stgcycles',['StgCycles',['../structconfig4.html#a15bf258370909917a4f075b66c01fe02',1,'config4::StgCycles()'],['../globals_8h.html#a66ac9e4f3283b1b3b5839f8cbd5f3291',1,'StgCycles():&#160;globals.h']]],
   ['stoich',['stoich',['../structconfig2.html#ab97d94aaffe9d86b49e971a24cef5268',1,'config2::stoich()'],['../globals_8h.html#a1fa336dd8076d902dd8865c7ee5c62a4',1,'stoich():&#160;globals.h']]],
   ['strokes',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2::strokes()'],['../globals_8h.html#a8f88f7ea9c654949a9bb3f3cc6263808',1,'strokes():&#160;globals.h']]],
-  ['synclosscounter',['syncLossCounter',['../structstatuses.html#a5e4595c9aa770e5f8f75506b72aab755',1,'statuses']]]
+  ['synclosscounter',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
 ];

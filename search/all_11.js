@@ -156,5 +156,5 @@ var searchData=
   ['storepagecrc32',['storePageCRC32',['../storage_8h.html#ac51b880ff80ca08a9c924ab3978a0b53',1,'storePageCRC32(byte, uint32_t):&#160;storage.ino'],['../storage_8ino.html#a271455bf7991d09f4363e773d39bf9ef',1,'storePageCRC32(byte pageNo, uint32_t crc32_val):&#160;storage.ino']]],
   ['strokes',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2::strokes()'],['../globals_8h.html#a8f88f7ea9c654949a9bb3f3cc6263808',1,'strokes():&#160;globals.h']]],
   ['swap',['SWAP',['../scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186',1,'scheduler.h']]],
-  ['synclosscounter',['syncLossCounter',['../structstatuses.html#a5e4595c9aa770e5f8f75506b72aab755',1,'statuses']]]
+  ['synclosscounter',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
 ];
