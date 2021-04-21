@@ -86,7 +86,7 @@ var searchData=
   ['fuelalgorithm',['fuelAlgorithm',['../structconfig2.html#a1e6fb4dedc8053432ec2390291a9d820',1,'config2::fuelAlgorithm()'],['../globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379',1,'fuelAlgorithm():&#160;globals.h']]],
   ['fuelload',['fuelLoad',['../structstatuses.html#ab099a9fb1e1eb871836fab5e6fbcbbb0',1,'statuses']]],
   ['fuelload2',['fuelLoad2',['../structstatuses.html#aa5976939f0de5cb03dfd053b4145b3b8',1,'statuses']]],
-  ['fuelmap2page',['fuelMap2Page',['../comms_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'comms.h']]],
+  ['fuelmap2page',['fuelMap2Page',['../pages_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'pages.h']]],
   ['fuelon',['fuelOn',['../speeduino_8h.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino'],['../speeduino_8ino.html#a49abe9dbfb79ad17c395ba783ed7d5c7',1,'fuelOn():&#160;speeduino.ino']]],
   ['fuelpressure',['fuelPressure',['../structstatuses.html#a80e3b73f448eed0378b0468126090c37',1,'statuses']]],
   ['fuelpressureenable',['fuelPressureEnable',['../structconfig10.html#a4b3e649108cbd13aa81ba46449cd8295',1,'config10::fuelPressureEnable()'],['../globals_8h.html#a1340350c73d79744c769d0a95efb461f',1,'fuelPressureEnable():&#160;globals.h']]],

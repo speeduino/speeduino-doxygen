@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['schedulestatus',['ScheduleStatus',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54',1,'scheduler.h']]],
-  ['stepperstatus',['StepperStatus',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c',1,'idle.h']]]
+  ['entity_5ftype',['entity_type',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3',1,'pages.h']]]
 ];

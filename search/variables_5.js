@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['eepromwritespending',['eepromWritesPending',['../storage_8h.html#aaf8ba209ce169eb65cf0d163c1ac3850',1,'storage.h']]],
+  ['eepromwritespending',['eepromWritesPending',['../storage_8h.html#aaf8ba209ce169eb65cf0d163c1ac3850',1,'eepromWritesPending():&#160;storage.ino'],['../storage_8ino.html#aaf8ba209ce169eb65cf0d163c1ac3850',1,'eepromWritesPending():&#160;storage.ino']]],
   ['ego_5fmax',['ego_max',['../structconfig6.html#a8cb7f13b98a88a74bba1506bf846e6ff',1,'config6::ego_max()'],['../globals_8h.html#a7b305e0be56cad6efc6e3b75ed83a24c',1,'ego_max():&#160;globals.h']]],
   ['ego_5fmin',['ego_min',['../structconfig6.html#ab8a9116820c6e9a876689616816ae13b',1,'config6::ego_min()'],['../globals_8h.html#abe80da06096f6f7229f03b146750e9ae',1,'ego_min():&#160;globals.h']]],
   ['ego_5fsdelay',['ego_sdelay',['../structconfig6.html#af9d358b5ae1733556ef4db558448e801',1,'config6::ego_sdelay()'],['../globals_8h.html#af5711fca364ddb20d4367cda82ee03f0',1,'ego_sdelay():&#160;globals.h']]],
@@ -33,8 +33,8 @@ var searchData=
   ['engineprotectstatus',['engineProtectStatus',['../structstatuses.html#aeb7008eff0ce97393a0edf2bdc639d34',1,'statuses']]],
   ['engineprotecttype',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6::engineProtectType()'],['../globals_8h.html#a334f7c26cb0de04fc053cfd4f1301b3d',1,'engineProtectType():&#160;globals.h']]],
   ['enginetype',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2::engineType()'],['../globals_8h.html#a460ec3631859b3d116c67438712971a0',1,'engineType():&#160;globals.h']]],
-  ['errorcodes',['errorCodes',['../errors_8h.html#a235045d66228ec6dd620f460ae2900ed',1,'errors.h']]],
-  ['errorcount',['errorCount',['../errors_8h.html#ade561dc645a1d7c5a999e7eb49e37c65',1,'errors.h']]],
+  ['errorcodes',['errorCodes',['../errors_8ino.html#a235045d66228ec6dd620f460ae2900ed',1,'errors.ino']]],
+  ['errorcount',['errorCount',['../errors_8ino.html#ade561dc645a1d7c5a999e7eb49e37c65',1,'errors.ino']]],
   ['errorid',['errorID',['../structpacked_error.html#a3d66aa5d5729f9f18858f0395a0e3a7f',1,'packedError']]],
   ['errornum',['errorNum',['../structpacked_error.html#a7a36edacfeaffc573e72c92db6d19695',1,'packedError']]],
   ['ethanolpct',['ethanolPct',['../structstatuses.html#aea9edff465617a0fdb909aa596e89b7f',1,'statuses']]]

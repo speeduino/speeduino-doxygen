@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['pad_5fcrc',['pad_crc',['../page__crc_8cpp.html#a9b48e55317b0a0e82f6eeef9972fdbb0',1,'page_crc.cpp']]],
+  ['page_5fbegin',['page_begin',['../pages_8h.html#a06fec3cc7c60b26061ff7bf8a55606ca',1,'pages.h']]],
   ['percentage',['percentage',['../maths_8h.html#ad15d7632e1bee5ab5f88b05896b4a94e',1,'percentage(byte, unsigned long):&#160;maths.ino'],['../maths_8ino.html#a5fe79fb2acb41c931dd8f5c610e9c47b',1,'percentage(byte x, unsigned long y):&#160;maths.ino']]],
   ['pintranslate',['pinTranslate',['../utilities_8h.html#ab608460fe7e692f13759a8e8d208af81',1,'pinTranslate(byte):&#160;utilities.ino'],['../utilities_8ino.html#a902a38c221583a605c8d412e24483096',1,'pinTranslate(byte rawPin):&#160;utilities.ino']]],
   ['pintranslateanalog',['pinTranslateAnalog',['../utilities_8h.html#add77dd3b64e4cb9ec0dd0d499c2d65db',1,'pinTranslateAnalog(byte):&#160;utilities.ino'],['../utilities_8ino.html#a6124d351ef67e3b99b6f491713b88f11',1,'pinTranslateAnalog(byte rawPin):&#160;utilities.ino']]],

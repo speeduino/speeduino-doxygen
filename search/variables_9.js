@@ -164,6 +164,7 @@ var searchData=
   ['includeafr',['includeAFR',['../structconfig2.html#afa9ed2839798c0cf326b3276c26fb23c',1,'config2::includeAFR()'],['../globals_8h.html#a879efb0c9d51c2521b2dba65f1f64fb4',1,'includeAFR():&#160;globals.h']]],
   ['incorporateafr',['incorporateAFR',['../structconfig2.html#ace47c83764283db1ad454bdd6d0e06e4',1,'config2::incorporateAFR()'],['../globals_8h.html#adb4c72df9f9adb62893922a449f779e0',1,'incorporateAFR():&#160;globals.h']]],
   ['indinjang',['indInjAng',['../structconfig2.html#ad36c73275a9b223c756a3e951977c46d',1,'config2::indInjAng()'],['../globals_8h.html#ab9d2daf541a21cba9bb9c1f7570f295d',1,'indInjAng():&#160;globals.h']]],
+  ['ini_5fpage_5fsizes',['ini_page_sizes',['../pages_8cpp.html#a69b5c258a41f3169c7032a608ff84619',1,'pages.cpp']]],
   ['initialisationcomplete',['initialisationComplete',['../globals_8h.html#af53c632d8a54d6e0ba15cf5534cffd34',1,'initialisationComplete():&#160;globals.ino'],['../globals_8ino.html#af53c632d8a54d6e0ba15cf5534cffd34',1,'initialisationComplete():&#160;globals.ino']]],
   ['inj1_5fpin_5fmask',['inj1_pin_mask',['../globals_8h.html#af86132d973faf2e5a61485637dbd8aa8',1,'inj1_pin_mask():&#160;globals.ino'],['../globals_8ino.html#af86132d973faf2e5a61485637dbd8aa8',1,'inj1_pin_mask():&#160;globals.ino']]],
   ['inj1_5fpin_5fport',['inj1_pin_port',['../globals_8h.html#a33091f454b3a945c60fefe5a846650d6',1,'inj1_pin_port():&#160;globals.ino'],['../globals_8ino.html#a33091f454b3a945c60fefe5a846650d6',1,'inj1_pin_port():&#160;globals.ino']]],
@@ -210,10 +211,10 @@ var searchData=
   ['injtiming',['injTiming',['../structconfig2.html#a072ff3488b57f09dd4e1e1b092717807',1,'config2::injTiming()'],['../globals_8h.html#adc1c04b0f22e09c1381311d9fb9fe37d',1,'injTiming():&#160;globals.h']]],
   ['injtype',['injType',['../structconfig2.html#abeb9950523e9a7d5aa7a89223f3162a9',1,'config2::injType()'],['../globals_8h.html#a111eb1cd4245a4e12399886246796c7b',1,'injType():&#160;globals.h']]],
   ['injvoltagecorrectionvalues',['injVoltageCorrectionValues',['../structconfig6.html#ae9e31775dd546437da86b103b8755e12',1,'config6::injVoltageCorrectionValues()'],['../globals_8h.html#a164041de508064a93236619aac422149',1,'injVoltageCorrectionValues():&#160;globals.h']]],
-  ['inprogresscompositetime',['inProgressCompositeTime',['../comms_8h.html#aea43c59e51e0460f913bf3452a16374c',1,'comms.h']]],
-  ['inprogresslength',['inProgressLength',['../comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'comms.h']]],
-  ['inprogressoffset',['inProgressOffset',['../comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'comms.h']]],
+  ['inprogresscompositetime',['inProgressCompositeTime',['../comms_8cpp.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms.cpp'],['../comms_8h.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms.cpp']]],
+  ['inprogresslength',['inProgressLength',['../comms_8cpp.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms.cpp'],['../comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms.cpp']]],
+  ['inprogressoffset',['inProgressOffset',['../comms_8cpp.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms.cpp'],['../comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms.cpp']]],
   ['intcan_5favailable',['intcan_available',['../structconfig9.html#acff1397196165d05dfc2207a401576aa',1,'config9::intcan_available()'],['../globals_8h.html#aa7077a9e36bec03da20ce05fc83085dc',1,'intcan_available():&#160;globals.h']]],
-  ['iodelay',['ioDelay',['../utilities_8h.html#ad100b34f30bf81bfefe3a8f3a32c980a',1,'utilities.h']]],
-  ['ismap',['isMap',['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'comms.h']]]
+  ['iodelay',['ioDelay',['../utilities_8h.html#ad100b34f30bf81bfefe3a8f3a32c980a',1,'ioDelay():&#160;utilities.ino'],['../utilities_8ino.html#ad100b34f30bf81bfefe3a8f3a32c980a',1,'ioDelay():&#160;utilities.ino']]],
+  ['ismap',['isMap',['../comms_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp'],['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp']]]
 ];

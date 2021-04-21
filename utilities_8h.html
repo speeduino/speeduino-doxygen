@@ -101,6 +101,12 @@ Macros</h2></td></tr>
 <tr class="separator:ab35e2e2f875c2e7733409be15168d4bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a1a752789029cdf9ea74a180e7132a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a2a1a752789029cdf9ea74a180e7132a9">BITWISE_XOR</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a2a1a752789029cdf9ea74a180e7132a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4987dd6844197a1b6267f4261ae70cf3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(x)&#160;&#160;&#160;(sizeof(x) / sizeof (x[0]))</td></tr>
+<tr class="separator:a4987dd6844197a1b6267f4261ae70cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e1a3bd105504f0829c7e3eef19e9546"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a9e1a3bd105504f0829c7e3eef19e9546">_end_range_address</a>(array)&#160;&#160;&#160;(array + <a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(array))</td></tr>
+<tr class="separator:a9e1a3bd105504f0829c7e3eef19e9546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701909f6fd8f5015960239ca57e31ebf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a701909f6fd8f5015960239ca57e31ebf">_end_range_byte_address</a>(array)&#160;&#160;&#160;(((byte*)array) + sizeof(array))</td></tr>
+<tr class="separator:a701909f6fd8f5015960239ca57e31ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -110,8 +116,6 @@ Functions</h2></td></tr>
 <tr class="separator:ab608460fe7e692f13759a8e8d208af81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add77dd3b64e4cb9ec0dd0d499c2d65db"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#add77dd3b64e4cb9ec0dd0d499c2d65db">pinTranslateAnalog</a> (byte)</td></tr>
 <tr class="separator:add77dd3b64e4cb9ec0dd0d499c2d65db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e992d71202cc2ec9d25d7e5506fe4c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a92e992d71202cc2ec9d25d7e5506fe4c">calculateCRC32</a> (byte)</td></tr>
-<tr class="separator:a92e992d71202cc2ec9d25d7e5506fe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ab3a222e7265c9e9734bdb5c1947ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a2ab3a222e7265c9e9734bdb5c1947ed8">initialiseProgrammableIO</a> ()</td></tr>
 <tr class="separator:a2ab3a222e7265c9e9734bdb5c1947ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a81ec17875ac2ddf7fe0ca5d3e7e695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695">checkProgrammableIO</a> ()</td></tr>
@@ -123,10 +127,64 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ad100b34f30bf81bfefe3a8f3a32c980a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#ad100b34f30bf81bfefe3a8f3a32c980a">ioDelay</a> [sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td></tr>
 <tr class="separator:ad100b34f30bf81bfefe3a8f3a32c980a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f685f90e94e47998207ccd04be18473"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a7f685f90e94e47998207ccd04be18473">pinIsValid</a> = 0</td></tr>
+<tr class="memitem:a7f685f90e94e47998207ccd04be18473"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8h.html#a7f685f90e94e47998207ccd04be18473">pinIsValid</a></td></tr>
 <tr class="separator:a7f685f90e94e47998207ccd04be18473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a4987dd6844197a1b6267f4261ae70cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4987dd6844197a1b6267f4261ae70cf3">&#9670;&nbsp;</a></span>_countof</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _countof</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;(sizeof(x) / sizeof (x[0]))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e1a3bd105504f0829c7e3eef19e9546"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1a3bd105504f0829c7e3eef19e9546">&#9670;&nbsp;</a></span>_end_range_address</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _end_range_address</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">array</td><td>)</td>
+          <td>&#160;&#160;&#160;(array + <a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(array))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a701909f6fd8f5015960239ca57e31ebf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701909f6fd8f5015960239ca57e31ebf">&#9670;&nbsp;</a></span>_end_range_byte_address</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _end_range_byte_address</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">array</td><td>)</td>
+          <td>&#160;&#160;&#160;(((byte*)array) + sizeof(array))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a99426959cd3c37c7afa7783892c671b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99426959cd3c37c7afa7783892c671b0">&#9670;&nbsp;</a></span>BITWISE_AND</h2>
 
@@ -310,41 +368,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a92e992d71202cc2ec9d25d7e5506fe4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92e992d71202cc2ec9d25d7e5506fe4c">&#9670;&nbsp;</a></span>calculateCRC32()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t calculateCRC32 </td>
-          <td>(</td>
-          <td class="paramtype">byte&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_cgraph.png" border="0" usemap="#utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_cgraph" alt=""/></div>
-<map name="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_cgraph" id="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_cgraph">
-<area shape="rect" id="node2" href="comms_8h.html#a6e4de3f94bb4f623d4c68cf0e2d8bf2d" title="Retrieves a single value from a memory page, with data aligned as per the ini file. " alt="" coords="176,5,287,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_icgraph.png" border="0" usemap="#utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_icgraph" alt=""/></div>
-<map name="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_icgraph" id="utilities_8h_a92e992d71202cc2ec9d25d7e5506fe4c_icgraph">
-<area shape="rect" id="node2" href="comms_8ino.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="176,5,263,32"/>
-<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="311,5,361,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a8a81ec17875ac2ddf7fe0ca5d3e7e695"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a81ec17875ac2ddf7fe0ca5d3e7e695">&#9670;&nbsp;</a></span>checkProgrammableIO()</h2>
 
@@ -365,7 +388,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="utilities_8h_a8a81ec17875ac2ddf7fe0ca5d3e7e695_cgraph.png" border="0" usemap="#utilities_8h_a8a81ec17875ac2ddf7fe0ca5d3e7e695_cgraph" alt=""/></div>
 <map name="utilities_8h_a8a81ec17875ac2ddf7fe0ca5d3e7e695_cgraph" id="utilities_8h_a8a81ec17875ac2ddf7fe0ca5d3e7e695_cgraph">
 <area shape="rect" id="node2" href="utilities_8ino.html#a6d65d36c291073121ae86496d6a6f73b" title="ProgrammableIOGetData" alt="" coords="224,5,411,32"/>
-<area shape="rect" id="node3" href="comms_8h.html#ac1aef5263ad5495065132d4548cdc36f" title="getStatusEntry" alt="" coords="459,5,577,32"/>
+<area shape="rect" id="node3" href="comms_8cpp.html#a5207492e896884807ec7f1172877dd85" title="getStatusEntry" alt="" coords="459,5,577,32"/>
 <area shape="rect" id="node4" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="625,5,731,32"/>
 </map>
 </div>
@@ -482,7 +505,7 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="utilities_8h_a6d65d36c291073121ae86496d6a6f73b_cgraph.png" border="0" usemap="#utilities_8h_a6d65d36c291073121ae86496d6a6f73b_cgraph" alt=""/></div>
 <map name="utilities_8h_a6d65d36c291073121ae86496d6a6f73b_cgraph" id="utilities_8h_a6d65d36c291073121ae86496d6a6f73b_cgraph">
-<area shape="rect" id="node2" href="comms_8h.html#ac1aef5263ad5495065132d4548cdc36f" title="getStatusEntry" alt="" coords="240,5,359,32"/>
+<area shape="rect" id="node2" href="comms_8cpp.html#a5207492e896884807ec7f1172877dd85" title="getStatusEntry" alt="" coords="240,5,359,32"/>
 <area shape="rect" id="node3" href="errors_8h.html#abccf9c417b2edfa7f393aa16431aa9d2" title="getNextError" alt="" coords="407,5,512,32"/>
 </map>
 </div>
@@ -547,7 +570,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t pinIsValid = 0</td>
+          <td class="memname">uint8_t pinIsValid</td>
         </tr>
       </table>
 </div><div class="memdoc">

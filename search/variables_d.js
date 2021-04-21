@@ -27,7 +27,7 @@ var searchData=
   ['n2o_5fstage2_5fpin_5fport',['n2o_stage2_pin_port',['../auxiliaries_8h.html#a2db3b7f53f22fad712a120a32d40bb0d',1,'auxiliaries.h']]],
   ['n2o_5fstage2_5fretard',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10::n2o_stage2_retard()'],['../globals_8h.html#a0c249608858c793332257dc6a096a7d2',1,'n2o_stage2_retard():&#160;globals.h']]],
   ['n2o_5fstage2_5funused',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10::n2o_stage2_unused()'],['../globals_8h.html#a21479038f17f8c964fa17611a60796fb',1,'n2o_stage2_unused():&#160;globals.h']]],
-  ['ncanretry',['nCanretry',['../cancomms_8h.html#a24f4e3822387d533928f93a05c6282ec',1,'cancomms.h']]],
+  ['ncanretry',['nCanretry',['../cancomms_8ino.html#a24f4e3822387d533928f93a05c6282ec',1,'cancomms.ino']]],
   ['nchannels',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
   ['ncylinders',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2::nCylinders()'],['../globals_8h.html#a3d5070d2a24970525726a142976cb599',1,'nCylinders():&#160;globals.h']]],
   ['nextendcompare',['nextEndCompare',['../struct_schedule.html#a84e1bd77eff3eb8cbb326ec442532f9a',1,'Schedule::nextEndCompare()'],['../struct_fuel_schedule.html#ae4d69ada019813a0fc31990f0162bc59',1,'FuelSchedule::nextEndCompare()']]],
@@ -35,6 +35,5 @@ var searchData=
   ['nextvvt',['nextVVT',['../auxiliaries_8h.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.h']]],
   ['ninjectors',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2::nInjectors()'],['../globals_8h.html#afff89f62b918d71810ba4580e5a3bdec',1,'nInjectors():&#160;globals.h']]],
   ['nitrous_5fstatus',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['npage_5fsize',['npage_size',['../globals_8h.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino'],['../globals_8ino.html#adf8049fd1d621fdc27657c09aea7a257',1,'npage_size():&#160;globals.ino']]],
   ['nsquirts',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
 ];

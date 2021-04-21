@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['load_5fsource_5fimapemap',['LOAD_SOURCE_IMAPEMAP',['../globals_8h.html#a04277a311dc9fb0237a17471be83a5a4',1,'globals.h']]],
-  ['load_5fsource_5fmap',['LOAD_SOURCE_MAP',['../globals_8h.html#a2a7d7b22fc171b3436d343000bbd0862',1,'globals.h']]],
-  ['load_5fsource_5ftps',['LOAD_SOURCE_TPS',['../globals_8h.html#aca8fe29ceb08897d70ad76ff85903819',1,'globals.h']]],
-  ['log_5fentry_5fsize',['LOG_ENTRY_SIZE',['../logger_8h.html#a412b9fb00056eedfd7abea937207928d',1,'logger.h']]],
-  ['long',['LONG',['../decoders_8h.html#acaa7b8a7167a8214f499c71c413ddcca',1,'decoders.h']]]
+  ['knock_5fmode_5fanalog',['KNOCK_MODE_ANALOG',['../globals_8h.html#abaf8f9a9147dc095eb424b8020cc3f26',1,'KNOCK_MODE_ANALOG():&#160;globals.h'],['../sensors_8h.html#abaf8f9a9147dc095eb424b8020cc3f26',1,'KNOCK_MODE_ANALOG():&#160;sensors.h']]],
+  ['knock_5fmode_5fdigital',['KNOCK_MODE_DIGITAL',['../globals_8h.html#a9ce3b4cfba89b0ae5dfa8a4f62633b12',1,'KNOCK_MODE_DIGITAL():&#160;globals.h'],['../sensors_8h.html#a9ce3b4cfba89b0ae5dfa8a4f62633b12',1,'KNOCK_MODE_DIGITAL():&#160;sensors.h']]],
+  ['knock_5fmode_5foff',['KNOCK_MODE_OFF',['../globals_8h.html#a95d10ed64e6b4563d522fe480759eff8',1,'globals.h']]]
 ];

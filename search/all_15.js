@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['warmuppage',['warmupPage',['../comms_8h.html#ab82b7a3d9ae02af17727c986bfc9f139',1,'comms.h']]],
+  ['warmuppage',['warmupPage',['../pages_8h.html#ab82b7a3d9ae02af17727c986bfc9f139',1,'pages.h']]],
   ['wmi_5fmode_5fclosedloop',['WMI_MODE_CLOSEDLOOP',['../globals_8h.html#af247189e3788d7c7bf94925e15200395',1,'globals.h']]],
   ['wmi_5fmode_5fopenloop',['WMI_MODE_OPENLOOP',['../globals_8h.html#a374622ff3203926200c7e9a3e7eecee4',1,'globals.h']]],
   ['wmi_5fmode_5fproportional',['WMI_MODE_PROPORTIONAL',['../globals_8h.html#aa4a0c93f574f3dbbcdd5f41fd0b80949',1,'globals.h']]],
@@ -23,7 +23,7 @@ var searchData=
   ['wmiindicatorpolarity',['wmiIndicatorPolarity',['../structconfig10.html#aec572337d5348e8eaece65dffe966ac4',1,'config10::wmiIndicatorPolarity()'],['../globals_8h.html#a785c88153f19832189d5a1b4c4bff983',1,'wmiIndicatorPolarity():&#160;globals.h']]],
   ['wmimap',['wmiMAP',['../structconfig10.html#aeef225bf45a56fb654d49692c89d2944',1,'config10::wmiMAP()'],['../globals_8h.html#abd7bf72034f12bea27e235002725bf2d',1,'wmiMAP():&#160;globals.h']]],
   ['wmimap2',['wmiMAP2',['../structconfig10.html#ab5ddd493149ee756153711316f68436b',1,'config10::wmiMAP2()'],['../globals_8h.html#af3e79ffdff1f13581e9937a64b50a5e5',1,'wmiMAP2():&#160;globals.h']]],
-  ['wmimappage',['wmiMapPage',['../comms_8h.html#a0af99f996e418397d4814d6930d00bfc',1,'comms.h']]],
+  ['wmimappage',['wmiMapPage',['../pages_8h.html#a0af99f996e418397d4814d6930d00bfc',1,'pages.h']]],
   ['wmimode',['wmiMode',['../structconfig10.html#ad8d4e29e8a95f6efcb81a9b8fba2aaf1',1,'config10::wmiMode()'],['../globals_8h.html#abcdae91b569b7b14e665b0b1970c5057',1,'wmiMode():&#160;globals.h']]],
   ['wmioffset',['wmiOffset',['../structconfig10.html#a0e8a1f44bb6a6ad0c071bcb64a3625f7',1,'config10::wmiOffset()'],['../globals_8h.html#a6879395440706694d321703e33e9da48',1,'wmiOffset():&#160;globals.h']]],
   ['wmipw',['wmiPW',['../structstatuses.html#a96a3a7d21679524d69b8d3570776d8c8',1,'statuses']]],

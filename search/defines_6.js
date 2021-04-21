@@ -1,5 +1,24 @@
 var searchData=
 [
-  ['going_5fhigh',['GOING_HIGH',['../globals_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'globals.h']]],
-  ['going_5flow',['GOING_LOW',['../globals_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'globals.h']]]
+  ['fan_5foff',['FAN_OFF',['../auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef',1,'auxiliaries.h']]],
+  ['fan_5fon',['FAN_ON',['../auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe',1,'auxiliaries.h']]],
+  ['fan_5fpin_5fhigh',['FAN_PIN_HIGH',['../auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f',1,'auxiliaries.h']]],
+  ['fan_5fpin_5flow',['FAN_PIN_LOW',['../auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0',1,'auxiliaries.h']]],
+  ['fastdegreestous',['fastDegreesToUS',['../crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad',1,'crankMaths.h']]],
+  ['fastmap1023tox',['fastMap1023toX',['../maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7',1,'maths.h']]],
+  ['fastmap10bit',['fastMap10Bit',['../maths_8h.html#a75b8618bbbc73031d200d1424e0252d6',1,'maths.h']]],
+  ['fasttimetoangle',['fastTimeToAngle',['../crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c',1,'crankMaths.h']]],
+  ['four_5fstroke',['FOUR_STROKE',['../globals_8h.html#a463952c75637544fb111dcb01dc9df16',1,'globals.h']]],
+  ['fuel2_5fcondition_5feth',['FUEL2_CONDITION_ETH',['../globals_8h.html#aa8e5bb17900fbcf0d719f9c06288841c',1,'globals.h']]],
+  ['fuel2_5fcondition_5fmap',['FUEL2_CONDITION_MAP',['../globals_8h.html#a3b53dc9d9be4a826142363466808eac0',1,'globals.h']]],
+  ['fuel2_5fcondition_5frpm',['FUEL2_CONDITION_RPM',['../globals_8h.html#a9bb4013e5b2458813164801166650ee6',1,'globals.h']]],
+  ['fuel2_5fcondition_5ftps',['FUEL2_CONDITION_TPS',['../globals_8h.html#ad526cf2ca20bb74886eb777a039c7bb0',1,'globals.h']]],
+  ['fuel2_5fmode_5fadd',['FUEL2_MODE_ADD',['../globals_8h.html#ab8f15246d7e3e3e7e70c994978f50a2d',1,'globals.h']]],
+  ['fuel2_5fmode_5fconditional_5fswitch',['FUEL2_MODE_CONDITIONAL_SWITCH',['../globals_8h.html#a84119030528823d278795ec3518ca910',1,'globals.h']]],
+  ['fuel2_5fmode_5finput_5fswitch',['FUEL2_MODE_INPUT_SWITCH',['../globals_8h.html#ac040b39db706bbddd75e14dca927cf0f',1,'globals.h']]],
+  ['fuel2_5fmode_5fmultiply',['FUEL2_MODE_MULTIPLY',['../globals_8h.html#a091301a9dae253d6d60a6c651e3a9afe',1,'globals.h']]],
+  ['fuel2_5fmode_5foff',['FUEL2_MODE_OFF',['../globals_8h.html#a348caa2610febc6d452c3536e2266f37',1,'globals.h']]],
+  ['fuel_5fpump_5foff',['FUEL_PUMP_OFF',['../globals_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'globals.h']]],
+  ['fuel_5fpump_5fon',['FUEL_PUMP_ON',['../globals_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'globals.h']]],
+  ['fuelmap2page',['fuelMap2Page',['../pages_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'pages.h']]]
 ];

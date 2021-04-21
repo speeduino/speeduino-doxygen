@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['tachooutputstatus',['TachoOutputStatus',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9',1,'timers.h']]]
+  ['schedulestatus',['ScheduleStatus',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54',1,'scheduler.h']]],
+  ['stepperstatus',['StepperStatus',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c',1,'idle.h']]]
 ];

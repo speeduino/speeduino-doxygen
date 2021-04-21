@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['read_5fflex',['READ_FLEX',['../sensors_8h.html#a943c6a4ab8a31f750ae41e1e50d8a5cc',1,'sensors.h']]],
-  ['read_5fn2o_5farm_5fpin',['READ_N2O_ARM_PIN',['../auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22',1,'auxiliaries.h']]],
-  ['read_5fpri_5ftrigger',['READ_PRI_TRIGGER',['../decoders_8h.html#a66dc33369201e4f94f1069c0363e7693',1,'decoders.h']]],
-  ['read_5fsec_5ftrigger',['READ_SEC_TRIGGER',['../decoders_8h.html#a937eaa5bfe2e2b7fae59fbd48759d51a',1,'decoders.h']]],
-  ['reset_5fcontrol_5fdisabled',['RESET_CONTROL_DISABLED',['../globals_8h.html#a8de0cf41bd8a368cef4d0174008b9b44',1,'globals.h']]],
-  ['reset_5fcontrol_5fprevent_5falways',['RESET_CONTROL_PREVENT_ALWAYS',['../globals_8h.html#a3ac27c34997a68b892a9947cd9b303d2',1,'globals.h']]],
-  ['reset_5fcontrol_5fprevent_5fwhen_5frunning',['RESET_CONTROL_PREVENT_WHEN_RUNNING',['../globals_8h.html#ade9160a6203bf92398c23304419ea7c8',1,'globals.h']]],
-  ['reset_5fcontrol_5fserial_5fcommand',['RESET_CONTROL_SERIAL_COMMAND',['../globals_8h.html#a6a4f7dd3cf33e3d32ac00f5c316fde08',1,'globals.h']]],
-  ['rotary_5fign_5ffc',['ROTARY_IGN_FC',['../globals_8h.html#ac955a2677e4ef713799bcf5cdafe4b7e',1,'globals.h']]],
-  ['rotary_5fign_5ffd',['ROTARY_IGN_FD',['../globals_8h.html#abf88cbdc6d197ad53afce89efa524450',1,'globals.h']]],
-  ['rotary_5fign_5frx8',['ROTARY_IGN_RX8',['../globals_8h.html#a55b74edb59b51bc4cc6eb8416b8f410e',1,'globals.h']]]
+  ['pinisignition',['pinIsIgnition',['../globals_8h.html#a1c65172bbab65c5261e7a15e3191f11f',1,'globals.h']]],
+  ['pinisinjector',['pinIsInjector',['../globals_8h.html#a9bc90e7a8cfe0270adb88eb49e15517b',1,'globals.h']]],
+  ['pinisoutput',['pinIsOutput',['../globals_8h.html#aa1ab3ba772025be135f18a3419ba6c36',1,'globals.h']]],
+  ['pinissensor',['pinIsSensor',['../globals_8h.html#a6c6db48e18128ef4fff4df5e1438388d',1,'globals.h']]],
+  ['pinisused',['pinIsUsed',['../globals_8h.html#a4954515b3dc81a0b180511cfbc8bcef9',1,'globals.h']]],
+  ['progoutspage',['progOutsPage',['../pages_8h.html#ad8c831178aad78b1308d2df78971c8d2',1,'pages.h']]],
+  ['protect_5fcut_5fboth',['PROTECT_CUT_BOTH',['../globals_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'globals.h']]],
+  ['protect_5fcut_5ffuel',['PROTECT_CUT_FUEL',['../globals_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'globals.h']]],
+  ['protect_5fcut_5fign',['PROTECT_CUT_IGN',['../globals_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'globals.h']]],
+  ['protect_5fcut_5foff',['PROTECT_CUT_OFF',['../globals_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'globals.h']]],
+  ['protect_5fio_5ferror',['PROTECT_IO_ERROR',['../globals_8h.html#a72c2a852d9f69f1ac163350fcf0b2401',1,'globals.h']]]
 ];

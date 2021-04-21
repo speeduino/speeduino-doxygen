@@ -139,6 +139,6 @@ var searchData=
   ['boosttable',['boostTable',['../globals_8h.html#add83d681b77a90c7a449482870d24099',1,'boostTable():&#160;globals.ino'],['../globals_8ino.html#add83d681b77a90c7a449482870d24099',1,'boostTable():&#160;globals.ino']]],
   ['boosttarget',['boostTarget',['../structstatuses.html#a6905ad52e3e59bfa80680a1c288791d7',1,'statuses']]],
   ['boosttype',['boostType',['../structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016',1,'config4::boostType()'],['../globals_8h.html#a6f39f9743bf4ad009324e1bf21097e60',1,'boostType():&#160;globals.h']]],
-  ['boostvvtpage',['boostvvtPage',['../comms_8h.html#a36631b0c2f2ea02c3dc863611da5f1cf',1,'comms.h']]],
+  ['boostvvtpage',['boostvvtPage',['../pages_8h.html#a36631b0c2f2ea02c3dc863611da5f1cf',1,'pages.h']]],
   ['bootloadercaps',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4::bootloaderCaps()'],['../globals_8h.html#a27b9edc4839c8c27a1f09c4acb492c8a',1,'bootloaderCaps():&#160;globals.h']]]
 ];
