@@ -82,7 +82,7 @@ var searchData=
   ['vvtcounter',['vvtCounter',['../auxiliaries_8h.html#ad6484d55169d38b365629ef73541c62f',1,'auxiliaries.h']]],
   ['vvtenabled',['vvtEnabled',['../structconfig6.html#ac245316ae4abca44103962c5bf9b00f6',1,'config6::vvtEnabled()'],['../globals_8h.html#acaa58d8fcf8ee99dfa18bea4c3b85d2a',1,'vvtEnabled():&#160;globals.h']]],
   ['vvtfreq',['vvtFreq',['../structconfig6.html#a0529d6f46bd7fe3923c49874407ae2de',1,'config6::vvtFreq()'],['../globals_8h.html#a469cf9eec116a928e99fb3b34c0b8bd8',1,'vvtFreq():&#160;globals.h']]],
-  ['vvtinterrupt',['vvtInterrupt',['../auxiliaries_8h.html#a9a5b8c20f4941675b2089ef1474ee4d8',1,'vvtInterrupt():&#160;auxiliaries.h'],['../auxiliaries_8ino.html#a9a5b8c20f4941675b2089ef1474ee4d8',1,'vvtInterrupt():&#160;auxiliaries.ino']]],
+  ['vvtinterrupt',['vvtInterrupt',['../auxiliaries_8h.html#a70863e2d22769bc21fd33dcba0837c7f',1,'vvtInterrupt():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a70863e2d22769bc21fd33dcba0837c7f',1,'vvtInterrupt():&#160;auxiliaries.ino']]],
   ['vvtloadsource',['vvtLoadSource',['../structconfig6.html#a234f603f7f5266b0c5a6c140a4862918',1,'config6::vvtLoadSource()'],['../globals_8h.html#a02c4cc4c3ba71459dd56761803c9808e',1,'vvtLoadSource():&#160;globals.h']]],
   ['vvtmode',['vvtMode',['../structconfig6.html#ab74b7b01069e84b4696abd1769d3ca30',1,'config6::vvtMode()'],['../globals_8h.html#aabd98712917fc6a220aeccfcf9fbbe53',1,'vvtMode():&#160;globals.h']]],
   ['vvtpwmdir',['vvtPWMdir',['../structconfig6.html#a92d87a8e778df123eb790e4f298823f3',1,'config6::vvtPWMdir()'],['../globals_8h.html#a333d2a2d56340f699486b394e1f76279',1,'vvtPWMdir():&#160;globals.h']]],

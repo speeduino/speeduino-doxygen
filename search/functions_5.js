@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['enableidle',['enableIdle',['../idle_8h.html#a36e66b40229b22fda00d5e7fcd67da1a',1,'enableIdle():&#160;idle.h'],['../idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a',1,'enableIdle():&#160;idle.ino']]],
+  ['enableidle',['enableIdle',['../idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a',1,'idle.ino']]],
   ['endcoil1and3charge',['endCoil1and3Charge',['../scheduled_i_o_8h.html#a4558d0273f058799ce3eab86f67a0804',1,'endCoil1and3Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a4558d0273f058799ce3eab86f67a0804',1,'endCoil1and3Charge():&#160;scheduledIO.ino']]],
   ['endcoil1and4charge',['endCoil1and4Charge',['../scheduled_i_o_8h.html#a49596e87b0b3f1b53eea0f2bbfea6206',1,'endCoil1and4Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a49596e87b0b3f1b53eea0f2bbfea6206',1,'endCoil1and4Charge():&#160;scheduledIO.ino']]],
   ['endcoil1and5charge',['endCoil1and5Charge',['../scheduled_i_o_8h.html#a2b8e7bd91722f2832597d294c4bc2696',1,'endCoil1and5Charge():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a2b8e7bd91722f2832597d294c4bc2696',1,'endCoil1and5Charge():&#160;scheduledIO.ino']]],

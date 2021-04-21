@@ -118,20 +118,10 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aca4d348119424a7474843489e1b62b3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#aca4d348119424a7474843489e1b62b3c">initialiseIdle</a> ()</td></tr>
 <tr class="separator:aca4d348119424a7474843489e1b62b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b89edb80762b952e3fa34c609a3802b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a0b89edb80762b952e3fa34c609a3802b">initialiseIdleUpOutput</a> ()</td></tr>
-<tr class="separator:a0b89edb80762b952e3fa34c609a3802b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a973320d318312cf550fd8fbf1c797bbe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a973320d318312cf550fd8fbf1c797bbe">disableIdle</a> ()</td></tr>
-<tr class="separator:a973320d318312cf550fd8fbf1c797bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36e66b40229b22fda00d5e7fcd67da1a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a36e66b40229b22fda00d5e7fcd67da1a">enableIdle</a> ()</td></tr>
-<tr class="separator:a36e66b40229b22fda00d5e7fcd67da1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56814ab9d1d2ed9468d5109474332ff4"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a56814ab9d1d2ed9468d5109474332ff4">isStepperHomed</a> ()</td></tr>
-<tr class="separator:a56814ab9d1d2ed9468d5109474332ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4053de9017b2bb17d6328131c7045408"><td class="memItemLeft" align="right" valign="top">static byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a4053de9017b2bb17d6328131c7045408">checkForStepping</a> ()</td></tr>
-<tr class="separator:a4053de9017b2bb17d6328131c7045408"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4337269d8ccf10b0a3e6791f55f0740"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ad4337269d8ccf10b0a3e6791f55f0740">doStep</a> ()</td></tr>
-<tr class="separator:ad4337269d8ccf10b0a3e6791f55f0740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a252aeac5e63dfcc7b0ec9119d5cbd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ab1a252aeac5e63dfcc7b0ec9119d5cbd">idleInterrupt</a> ()</td></tr>
-<tr class="separator:ab1a252aeac5e63dfcc7b0ec9119d5cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8445d0c9e76aec0f868dbc9d206f37ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a8445d0c9e76aec0f868dbc9d206f37ca">disableIdle</a> ()</td></tr>
+<tr class="separator:a8445d0c9e76aec0f868dbc9d206f37ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b9e014ea31885fb59eeb78bd5be0ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a07b9e014ea31885fb59eeb78bd5be0ac">idleInterrupt</a> ()</td></tr>
+<tr class="separator:a07b9e014ea31885fb59eeb78bd5be0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -354,135 +344,57 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a4053de9017b2bb17d6328131c7045408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4053de9017b2bb17d6328131c7045408">&#9670;&nbsp;</a></span>checkForStepping()</h2>
+<a id="a8445d0c9e76aec0f868dbc9d206f37ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8445d0c9e76aec0f868dbc9d206f37ca">&#9670;&nbsp;</a></span>disableIdle()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static byte checkForStepping </td>
+          <td class="memname">void disableIdle </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_cgraph.png" border="0" usemap="#idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_cgraph" alt=""/></div>
+<map name="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_cgraph" id="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_cgraph">
+<area shape="rect" id="node2" href="idle_8ino.html#a4053de9017b2bb17d6328131c7045408" title="checkForStepping" alt="" coords="147,5,284,32"/>
+<area shape="rect" id="node3" href="idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4" title="isStepperHomed" alt="" coords="150,56,281,83"/>
+<area shape="rect" id="node4" href="table_8h.html#a462f96f099a0c20647d0a29e96e2e80c" title="table2D_getValue" alt="" coords="147,107,284,133"/>
+<area shape="rect" id="node5" href="table_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="332,81,497,108"/>
+<area shape="rect" id="node6" href="table_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed. " alt="" coords="332,132,497,159"/>
+</map>
 </div>
-</div>
-<a id="a973320d318312cf550fd8fbf1c797bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a973320d318312cf550fd8fbf1c797bbe">&#9670;&nbsp;</a></span>disableIdle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void disableIdle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="idle_8h_a973320d318312cf550fd8fbf1c797bbe_icgraph.png" border="0" usemap="#idle_8h_a973320d318312cf550fd8fbf1c797bbe_icgraph" alt=""/></div>
-<map name="idle_8h_a973320d318312cf550fd8fbf1c797bbe_icgraph" id="idle_8h_a973320d318312cf550fd8fbf1c797bbe_icgraph">
-<area shape="rect" id="node2" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="147,5,197,32"/>
+<div class="center"><img src="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_icgraph.png" border="0" usemap="#idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_icgraph" alt=""/></div>
+<map name="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_icgraph" id="idle_8h_a8445d0c9e76aec0f868dbc9d206f37ca_icgraph">
+<area shape="rect" id="node2" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title="idleControl" alt="" coords="147,5,240,32"/>
+<area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="288,31,339,57"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ad4337269d8ccf10b0a3e6791f55f0740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4337269d8ccf10b0a3e6791f55f0740">&#9670;&nbsp;</a></span>doStep()</h2>
+<a id="a07b9e014ea31885fb59eeb78bd5be0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b9e014ea31885fb59eeb78bd5be0ac">&#9670;&nbsp;</a></span>idleInterrupt()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void doStep </td>
+          <td class="memname">void idleInterrupt </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a36e66b40229b22fda00d5e7fcd67da1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36e66b40229b22fda00d5e7fcd67da1a">&#9670;&nbsp;</a></span>enableIdle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void enableIdle </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1a252aeac5e63dfcc7b0ec9119d5cbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1a252aeac5e63dfcc7b0ec9119d5cbd">&#9670;&nbsp;</a></span>idleInterrupt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void idleInterrupt </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
@@ -523,61 +435,6 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node5" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="299,107,357,133"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a0b89edb80762b952e3fa34c609a3802b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b89edb80762b952e3fa34c609a3802b">&#9670;&nbsp;</a></span>initialiseIdleUpOutput()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void initialiseIdleUpOutput </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="idle_8h_a0b89edb80762b952e3fa34c609a3802b_icgraph.png" border="0" usemap="#idle_8h_a0b89edb80762b952e3fa34c609a3802b_icgraph" alt=""/></div>
-<map name="idle_8h_a0b89edb80762b952e3fa34c609a3802b_icgraph" id="idle_8h_a0b89edb80762b952e3fa34c609a3802b_icgraph">
-<area shape="rect" id="node2" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c" title="initialiseIdle" alt="" coords="217,56,320,83"/>
-<area shape="rect" id="node3" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title="idleControl" alt="" coords="369,5,462,32"/>
-<area shape="rect" id="node5" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="368,107,463,133"/>
-<area shape="rect" id="node7" href="sensors_8ino.html#a9d238af3280503ab8185551275ab1e22" title="readBat" alt="" coords="379,56,452,83"/>
-<area shape="rect" id="node4" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="515,31,565,57"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title="setup" alt="" coords="511,107,569,133"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a56814ab9d1d2ed9468d5109474332ff4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56814ab9d1d2ed9468d5109474332ff4">&#9670;&nbsp;</a></span>isStepperHomed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static byte isStepperHomed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>

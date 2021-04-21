@@ -125,7 +125,7 @@ var searchData=
   ['boostduty',['boostDuty',['../structstatuses.html#a88a87b361621c3cae045a7e966d01169',1,'statuses']]],
   ['boostenabled',['boostEnabled',['../structconfig6.html#a10d8ea32706493d84f711d92f768946d',1,'config6::boostEnabled()'],['../globals_8h.html#af3d68a69954aec2161d69a51d78d9e0c',1,'boostEnabled():&#160;globals.h']]],
   ['boostfreq',['boostFreq',['../structconfig6.html#a124a4a935e774e04d84abfa712d5183d',1,'config6::boostFreq()'],['../globals_8h.html#aa4b71a6d07436b50793aedb7b9f6ca86',1,'boostFreq():&#160;globals.h']]],
-  ['boostinterrupt',['boostInterrupt',['../auxiliaries_8h.html#afcff229052fbb3e7286131cf31268219',1,'boostInterrupt():&#160;auxiliaries.h'],['../auxiliaries_8ino.html#afcff229052fbb3e7286131cf31268219',1,'boostInterrupt():&#160;auxiliaries.ino']]],
+  ['boostinterrupt',['boostInterrupt',['../auxiliaries_8h.html#ab973dbf393a510361e71991a7d52831d',1,'boostInterrupt():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#ab973dbf393a510361e71991a7d52831d',1,'boostInterrupt():&#160;auxiliaries.ino']]],
   ['boostintv',['boostIntv',['../structconfig10.html#a78603816cdc81c71b2dab0766c5d0542',1,'config10::boostIntv()'],['../globals_8h.html#afba892f8c7d9502cbe83ff529a894163',1,'boostIntv():&#160;globals.h']]],
   ['boostkd',['boostKD',['../structconfig6.html#a76e4cde01bd2d5899180898d7aeff920',1,'config6::boostKD()'],['../globals_8h.html#afe1e924b56ad865cc695080cf4b51b57',1,'boostKD():&#160;globals.h']]],
   ['boostki',['boostKI',['../structconfig6.html#a32be3c1476bceca9bc9af91fe353d375',1,'config6::boostKI()'],['../globals_8h.html#a083a66028cd54125ef3c1b55a6fbe6a1',1,'boostKI():&#160;globals.h']]],
