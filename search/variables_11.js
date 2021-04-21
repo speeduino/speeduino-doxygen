@@ -45,6 +45,7 @@ var searchData=
   ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status()'],['../struct_fuel_schedule.html#a6e994d391f21557753d0d5886ade69db',1,'FuelSchedule::Status()']]],
   ['status1',['status1',['../structstatuses.html#afef8ab3c80d8236b9a1346d8d50619ff',1,'statuses']]],
   ['status3',['status3',['../structstatuses.html#aade22c620b3f0ce777951c1698adf8de',1,'statuses']]],
+  ['status4',['status4',['../structstatuses.html#a5d646327db8f8e8f1f9cb2d59bd3277f',1,'statuses']]],
   ['stepperstatus',['stepperStatus',['../struct_stepper_idle.html#a74d81abd204873af010d8b4dc85ea7ab',1,'StepperIdle']]],
   ['stepstarttime',['stepStartTime',['../struct_stepper_idle.html#a48abedea5bf28f2efcd071ce631ce418',1,'StepperIdle']]],
   ['stgcycles',['StgCycles',['../structconfig4.html#a15bf258370909917a4f075b66c01fe02',1,'config4::StgCycles()'],['../globals_8h.html#a66ac9e4f3283b1b3b5839f8cbd5f3291',1,'StgCycles():&#160;globals.h']]],

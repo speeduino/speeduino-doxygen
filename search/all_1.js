@@ -40,6 +40,8 @@ var searchData=
   ['afrtarget',['afrTarget',['../structstatuses.html#aac11d4acc049940066078367c504ff89',1,'statuses']]],
   ['airdenbins',['airDenBins',['../structconfig6.html#af168d2160efd8656f853295a3159d3e3',1,'config6::airDenBins()'],['../globals_8h.html#a49dae6a84e710518f80b5bcaa3b7a4d7',1,'airDenBins():&#160;globals.h']]],
   ['airdenrates',['airDenRates',['../structconfig6.html#a4fd080b8f7db23e90807e3249b3c9d43',1,'config6::airDenRates()'],['../globals_8h.html#aac600ae747ac456415af342405d7f750',1,'airDenRates():&#160;globals.h']]],
+  ['angle_5ffilter',['ANGLE_FILTER',['../decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8',1,'decoders.h']]],
+  ['anglefilter_5fvvt',['ANGLEFILTER_VVT',['../structconfig4.html#affdd82923d6cbda4964026982989beaa',1,'config4::ANGLEFILTER_VVT()'],['../globals_8h.html#aefdd3c7464f24efe2af423719b99ef7f',1,'ANGLEFILTER_VVT():&#160;globals.h']]],
   ['angletotime',['angleToTime',['../crank_maths_8h.html#a5dad73a94df03d8d87bcf28bbe4fea79',1,'angleToTime(int16_t, byte):&#160;crankMaths.ino'],['../crank_maths_8ino.html#af529f8c199532a9520f670ff5503c3ba',1,'angleToTime(int16_t angle, byte method):&#160;crankMaths.ino']]],
   ['asebins',['aseBins',['../structconfig2.html#ac6e1eb8a0dc9d6c21dfbe5a7e866e33f',1,'config2::aseBins()'],['../globals_8h.html#a564a6cebfcfdf43942ef6a5230db79e2',1,'aseBins():&#160;globals.h']]],
   ['asecount',['aseCount',['../structconfig2.html#a0188b4fe416fa65f0ba422fa296f44d2',1,'config2::aseCount()'],['../globals_8h.html#a53c86d5a18acbda56b2d9cb34b56bd64',1,'aseCount():&#160;globals.h']]],

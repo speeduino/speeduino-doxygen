@@ -144,6 +144,7 @@ var searchData=
   ['status',['Status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status()'],['../struct_fuel_schedule.html#a6e994d391f21557753d0d5886ade69db',1,'FuelSchedule::Status()']]],
   ['status1',['status1',['../structstatuses.html#afef8ab3c80d8236b9a1346d8d50619ff',1,'statuses']]],
   ['status3',['status3',['../structstatuses.html#aade22c620b3f0ce777951c1698adf8de',1,'statuses']]],
+  ['status4',['status4',['../structstatuses.html#a5d646327db8f8e8f1f9cb2d59bd3277f',1,'statuses']]],
   ['statuses',['statuses',['../structstatuses.html',1,'']]],
   ['stdgetrpm',['stdGetRPM',['../decoders_8ino.html#a68415dc74fbfa8e4e43e4249cc988e81',1,'decoders.ino']]],
   ['stepper_5fbackward',['STEPPER_BACKWARD',['../idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.h']]],

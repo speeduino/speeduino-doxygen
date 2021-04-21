@@ -11,7 +11,6 @@ var searchData=
   ['wmiadvenabled',['wmiAdvEnabled',['../structconfig10.html#a160e179b7080480b9a4e3983914d284d',1,'config10::wmiAdvEnabled()'],['../globals_8h.html#a14bf7a41296d6eb3771e2a85b6427d7b',1,'wmiAdvEnabled():&#160;globals.h']]],
   ['wmiadvtable',['wmiAdvTable',['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino'],['../globals_8ino.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino']]],
   ['wmicontrol',['wmiControl',['../auxiliaries_8h.html#aa5098532802ea899b4c06d301e2571b7',1,'wmiControl():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#aa5098532802ea899b4c06d301e2571b7',1,'wmiControl():&#160;auxiliaries.ino']]],
-  ['wmiempty',['wmiEmpty',['../structstatuses.html#ab198d19df4b795cf48fe29b30ae09b82',1,'statuses']]],
   ['wmiemptyenabled',['wmiEmptyEnabled',['../structconfig10.html#adf24e41adae25cf246058a076acf0dbc',1,'config10::wmiEmptyEnabled()'],['../globals_8h.html#a19c6878eaa0720f18f50441cb89732fd',1,'wmiEmptyEnabled():&#160;globals.h']]],
   ['wmiemptypin',['wmiEmptyPin',['../structconfig10.html#af249fc63101063f657ffcc361ca0d93c',1,'config10::wmiEmptyPin()'],['../globals_8h.html#a60d64e9ce422bcac6c64273e875ff5e6',1,'wmiEmptyPin():&#160;globals.h']]],
   ['wmiemptypolarity',['wmiEmptyPolarity',['../structconfig10.html#a3c1be013c03d5d8ba905ca2a58ce0d47',1,'config10::wmiEmptyPolarity()'],['../globals_8h.html#a82f4adf2358e17532e2f7125488729fd',1,'wmiEmptyPolarity():&#160;globals.h']]],
