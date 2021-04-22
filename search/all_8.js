@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['halfpercentage',['halfpercentage',['../maths_8ino.html#ac4fd5def57980a7e082d99998bd953a2',1,'maths.ino']]],
+  ['halfpercentage',['halfPercentage',['../maths_8h.html#a6f55220b279174d95d07be213e9bdfdb',1,'halfPercentage(byte, unsigned long):&#160;maths.ino'],['../maths_8ino.html#a4820f4ced16fef2545c65e9e9ebf90eb',1,'halfPercentage(byte x, unsigned long y):&#160;maths.ino']]],
   ['hard_5fcut_5ffull',['HARD_CUT_FULL',['../globals_8h.html#a0094bc4bc07923fb65184765b960f321',1,'globals.h']]],
   ['hard_5fcut_5frolling',['HARD_CUT_ROLLING',['../globals_8h.html#a8228f056ee5af5bb673a3b2af7b9aa6d',1,'globals.h']]],
   ['hardcuttype',['hardCutType',['../structconfig2.html#af989c8af7130ed85731ca4c31ae44c4e',1,'config2::hardCutType()'],['../globals_8h.html#acd4967d5ebcc60e35a9280fecd86ea60',1,'hardCutType():&#160;globals.h']]],
