@@ -84,7 +84,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html">statuses</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html">config2</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This mostly covers off variables that are required for fuel.  <a href="structconfig2.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html">config4</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -468,14 +467,18 @@ Macros</h2></td></tr>
 <tr class="memitem:a84d5a1d4e9dc4260ba76f044dc22caf0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a84d5a1d4e9dc4260ba76f044dc22caf0">ENGINE_PROTECT_BIT_AFR</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a84d5a1d4e9dc4260ba76f044dc22caf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6818c8663b6e1efdd2cacbabf810c2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae6818c8663b6e1efdd2cacbabf810c2c">CALIBRATION_TABLE_SIZE</a>&#160;&#160;&#160;512</td></tr>
+<tr class="memdesc:ae6818c8663b6e1efdd2cacbabf810c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calibration table size for CLT, IAT, O2.  <a href="#ae6818c8663b6e1efdd2cacbabf810c2c">More...</a><br /></td></tr>
 <tr class="separator:ae6818c8663b6e1efdd2cacbabf810c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d46d98f00a9feb31cdc771a21b91c67"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7d46d98f00a9feb31cdc771a21b91c67">CALIBRATION_TEMPERATURE_OFFSET</a>&#160;&#160;&#160;40</td></tr>
 <tr class="separator:a7d46d98f00a9feb31cdc771a21b91c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e817fc9ea7d66640a4f42b1ea7e9a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a31e817fc9ea7d66640a4f42b1ea7e9a6">OFFSET_FUELTRIM</a>&#160;&#160;&#160;127</td></tr>
+<tr class="memdesc:a31e817fc9ea7d66640a4f42b1ea7e9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fuel trim tables are offset by 128 to allow for -128 to +128 values.  <a href="#a31e817fc9ea7d66640a4f42b1ea7e9a6">More...</a><br /></td></tr>
 <tr class="separator:a31e817fc9ea7d66640a4f42b1ea7e9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8d48ffa23ed01c0efe4237511231109"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa8d48ffa23ed01c0efe4237511231109">OFFSET_IGNITION</a>&#160;&#160;&#160;40</td></tr>
+<tr class="memdesc:aa8d48ffa23ed01c0efe4237511231109"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignition values from the main spark table are offset 40 degrees downards to allow for negative spark timing.  <a href="#aa8d48ffa23ed01c0efe4237511231109">More...</a><br /></td></tr>
 <tr class="separator:aa8d48ffa23ed01c0efe4237511231109"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b790444384f7a3c57b495edbec62048"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6b790444384f7a3c57b495edbec62048">SERIAL_BUFFER_THRESHOLD</a>&#160;&#160;&#160;32</td></tr>
+<tr class="memdesc:a6b790444384f7a3c57b495edbec62048"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the serial buffer is filled to greater than this threshold value, the serial processing operations will be performed more urgently in order to avoid it overflowing. Serial buffer is 64 bytes long, so the threshold is set at half this as a reasonable figure.  <a href="#a6b790444384f7a3c57b495edbec62048">More...</a><br /></td></tr>
 <tr class="separator:a6b790444384f7a3c57b495edbec62048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f016ed83860c0188fab78d655997b6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3f016ed83860c0188fab78d655997b6f">FUEL_PUMP_ON</a>()&#160;&#160;&#160;*<a class="el" href="globals_8ino.html#a730fa811a051e2caa1d108493467bd7a">pump_pin_port</a> |= (<a class="el" href="globals_8ino.html#a00358650db9a742f99d0332aa29261f0">pump_pin_mask</a>)</td></tr>
 <tr class="separator:a3f016ed83860c0188fab78d655997b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -504,84 +507,123 @@ Variables</h2></td></tr>
 <tr class="memitem:a210e00350a2fd93687924cb3df3c0a4c"><td class="memItemLeft" align="right" valign="top">const byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a210e00350a2fd93687924cb3df3c0a4c">data_structure_version</a></td></tr>
 <tr class="separator:a210e00350a2fd93687924cb3df3c0a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e23e7d5be06ffdb1e5b70ba2bf01896"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6e23e7d5be06ffdb1e5b70ba2bf01896">fuelTable</a></td></tr>
+<tr class="memdesc:a6e23e7d5be06ffdb1e5b70ba2bf01896"><td class="mdescLeft">&#160;</td><td class="mdescRight">16x16 fuel map  <a href="#a6e23e7d5be06ffdb1e5b70ba2bf01896">More...</a><br /></td></tr>
 <tr class="separator:a6e23e7d5be06ffdb1e5b70ba2bf01896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad38a76d7b3fb61b974e66c0121ad8ef1"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad38a76d7b3fb61b974e66c0121ad8ef1">fuelTable2</a></td></tr>
+<tr class="memdesc:ad38a76d7b3fb61b974e66c0121ad8ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">16x16 fuel map  <a href="#ad38a76d7b3fb61b974e66c0121ad8ef1">More...</a><br /></td></tr>
 <tr class="separator:ad38a76d7b3fb61b974e66c0121ad8ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30064545ba7389c46acf2d7986f970e2"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a30064545ba7389c46acf2d7986f970e2">ignitionTable</a></td></tr>
+<tr class="memdesc:a30064545ba7389c46acf2d7986f970e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">16x16 ignition map  <a href="#a30064545ba7389c46acf2d7986f970e2">More...</a><br /></td></tr>
 <tr class="separator:a30064545ba7389c46acf2d7986f970e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7cd222c10f07a9a7055e07cb19d5058"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae7cd222c10f07a9a7055e07cb19d5058">ignitionTable2</a></td></tr>
+<tr class="memdesc:ae7cd222c10f07a9a7055e07cb19d5058"><td class="mdescLeft">&#160;</td><td class="mdescRight">16x16 ignition map  <a href="#ae7cd222c10f07a9a7055e07cb19d5058">More...</a><br /></td></tr>
 <tr class="separator:ae7cd222c10f07a9a7055e07cb19d5058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbf760ecc3f7b10ca580fb0e986a60be"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#abbf760ecc3f7b10ca580fb0e986a60be">afrTable</a></td></tr>
+<tr class="memdesc:abbf760ecc3f7b10ca580fb0e986a60be"><td class="mdescLeft">&#160;</td><td class="mdescRight">16x16 afr target map  <a href="#abbf760ecc3f7b10ca580fb0e986a60be">More...</a><br /></td></tr>
 <tr class="separator:abbf760ecc3f7b10ca580fb0e986a60be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ded3ff6e7c762f6ca22949679aaf629"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a2ded3ff6e7c762f6ca22949679aaf629">stagingTable</a></td></tr>
+<tr class="memdesc:a2ded3ff6e7c762f6ca22949679aaf629"><td class="mdescLeft">&#160;</td><td class="mdescRight">8x8 fuel staging table  <a href="#a2ded3ff6e7c762f6ca22949679aaf629">More...</a><br /></td></tr>
 <tr class="separator:a2ded3ff6e7c762f6ca22949679aaf629"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add83d681b77a90c7a449482870d24099"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#add83d681b77a90c7a449482870d24099">boostTable</a></td></tr>
+<tr class="memdesc:add83d681b77a90c7a449482870d24099"><td class="mdescLeft">&#160;</td><td class="mdescRight">8x8 boost map  <a href="#add83d681b77a90c7a449482870d24099">More...</a><br /></td></tr>
 <tr class="separator:add83d681b77a90c7a449482870d24099"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1efa5dc61805625c01843f178ff0dc29"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1efa5dc61805625c01843f178ff0dc29">vvtTable</a></td></tr>
+<tr class="memdesc:a1efa5dc61805625c01843f178ff0dc29"><td class="mdescLeft">&#160;</td><td class="mdescRight">8x8 vvt map  <a href="#a1efa5dc61805625c01843f178ff0dc29">More...</a><br /></td></tr>
 <tr class="separator:a1efa5dc61805625c01843f178ff0dc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237c278bbdb97285f34b0ef34e8f875e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a237c278bbdb97285f34b0ef34e8f875e">vvt2Table</a></td></tr>
+<tr class="memdesc:a237c278bbdb97285f34b0ef34e8f875e"><td class="mdescLeft">&#160;</td><td class="mdescRight">8x8 vvt2 map  <a href="#a237c278bbdb97285f34b0ef34e8f875e">More...</a><br /></td></tr>
 <tr class="separator:a237c278bbdb97285f34b0ef34e8f875e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af12938a7c88cc25896f6a113d8df2b95"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af12938a7c88cc25896f6a113d8df2b95">wmiTable</a></td></tr>
+<tr class="memdesc:af12938a7c88cc25896f6a113d8df2b95"><td class="mdescLeft">&#160;</td><td class="mdescRight">8x8 wmi map  <a href="#af12938a7c88cc25896f6a113d8df2b95">More...</a><br /></td></tr>
 <tr class="separator:af12938a7c88cc25896f6a113d8df2b95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbb767510f80b151a8ca5c57a77fc307"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#abbb767510f80b151a8ca5c57a77fc307">trim1Table</a></td></tr>
+<tr class="memdesc:abbb767510f80b151a8ca5c57a77fc307"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 1 map  <a href="#abbb767510f80b151a8ca5c57a77fc307">More...</a><br /></td></tr>
 <tr class="separator:abbb767510f80b151a8ca5c57a77fc307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a27621370fef80fed1d5c00eb2cb08"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af4a27621370fef80fed1d5c00eb2cb08">trim2Table</a></td></tr>
+<tr class="memdesc:af4a27621370fef80fed1d5c00eb2cb08"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 2 map  <a href="#af4a27621370fef80fed1d5c00eb2cb08">More...</a><br /></td></tr>
 <tr class="separator:af4a27621370fef80fed1d5c00eb2cb08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa688b7a6df2c173d8e190f1427a9e59c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa688b7a6df2c173d8e190f1427a9e59c">trim3Table</a></td></tr>
+<tr class="memdesc:aa688b7a6df2c173d8e190f1427a9e59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 3 map  <a href="#aa688b7a6df2c173d8e190f1427a9e59c">More...</a><br /></td></tr>
 <tr class="separator:aa688b7a6df2c173d8e190f1427a9e59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e12d3cf1f6321b6c04775a651d5c462"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5e12d3cf1f6321b6c04775a651d5c462">trim4Table</a></td></tr>
+<tr class="memdesc:a5e12d3cf1f6321b6c04775a651d5c462"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 4 map  <a href="#a5e12d3cf1f6321b6c04775a651d5c462">More...</a><br /></td></tr>
 <tr class="separator:a5e12d3cf1f6321b6c04775a651d5c462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5441ff26ca98ef7c0c0ba588271d16d2"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5441ff26ca98ef7c0c0ba588271d16d2">trim5Table</a></td></tr>
+<tr class="memdesc:a5441ff26ca98ef7c0c0ba588271d16d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 5 map  <a href="#a5441ff26ca98ef7c0c0ba588271d16d2">More...</a><br /></td></tr>
 <tr class="separator:a5441ff26ca98ef7c0c0ba588271d16d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d480492424d409659ec3cba40dc58fd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0d480492424d409659ec3cba40dc58fd">trim6Table</a></td></tr>
+<tr class="memdesc:a0d480492424d409659ec3cba40dc58fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 6 map  <a href="#a0d480492424d409659ec3cba40dc58fd">More...</a><br /></td></tr>
 <tr class="separator:a0d480492424d409659ec3cba40dc58fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18b5f118998d61617a2cbe2aeb3e63ac"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18b5f118998d61617a2cbe2aeb3e63ac">trim7Table</a></td></tr>
+<tr class="memdesc:a18b5f118998d61617a2cbe2aeb3e63ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 7 map  <a href="#a18b5f118998d61617a2cbe2aeb3e63ac">More...</a><br /></td></tr>
 <tr class="separator:a18b5f118998d61617a2cbe2aeb3e63ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177d3222fc65042036379d7f4fcfa6e5"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a177d3222fc65042036379d7f4fcfa6e5">trim8Table</a></td></tr>
+<tr class="memdesc:a177d3222fc65042036379d7f4fcfa6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">6x6 Fuel trim 8 map  <a href="#a177d3222fc65042036379d7f4fcfa6e5">More...</a><br /></td></tr>
 <tr class="separator:a177d3222fc65042036379d7f4fcfa6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a648781b9d7c63f3b72490c03e376ece7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable3_d.html">table3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a648781b9d7c63f3b72490c03e376ece7">dwellTable</a></td></tr>
+<tr class="memdesc:a648781b9d7c63f3b72490c03e376ece7"><td class="mdescLeft">&#160;</td><td class="mdescRight">4x4 Dwell map  <a href="#a648781b9d7c63f3b72490c03e376ece7">More...</a><br /></td></tr>
 <tr class="separator:a648781b9d7c63f3b72490c03e376ece7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab870130af2c18e5a63d65754518130ab"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab870130af2c18e5a63d65754518130ab">taeTable</a></td></tr>
+<tr class="memdesc:ab870130af2c18e5a63d65754518130ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin TPS Acceleration Enrichment map (2D)  <a href="#ab870130af2c18e5a63d65754518130ab">More...</a><br /></td></tr>
 <tr class="separator:ab870130af2c18e5a63d65754518130ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc234b73ba07ba528c085b083abb3e56"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acc234b73ba07ba528c085b083abb3e56">maeTable</a></td></tr>
 <tr class="separator:acc234b73ba07ba528c085b083abb3e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5085c0b67e738994a9093ba342bf01e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af5085c0b67e738994a9093ba342bf01e">WUETable</a></td></tr>
+<tr class="memdesc:af5085c0b67e738994a9093ba342bf01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">10 bin Warm Up Enrichment map (2D)  <a href="#af5085c0b67e738994a9093ba342bf01e">More...</a><br /></td></tr>
 <tr class="separator:af5085c0b67e738994a9093ba342bf01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb34cf5f5cb7be8b7f030fba2b5ddce7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#afb34cf5f5cb7be8b7f030fba2b5ddce7">ASETable</a></td></tr>
+<tr class="memdesc:afb34cf5f5cb7be8b7f030fba2b5ddce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin After Start Enrichment map (2D)  <a href="#afb34cf5f5cb7be8b7f030fba2b5ddce7">More...</a><br /></td></tr>
 <tr class="separator:afb34cf5f5cb7be8b7f030fba2b5ddce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d32d499813c3369d137245b5bd52c1c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7d32d499813c3369d137245b5bd52c1c">ASECountTable</a></td></tr>
+<tr class="memdesc:a7d32d499813c3369d137245b5bd52c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin After Start duration map (2D)  <a href="#a7d32d499813c3369d137245b5bd52c1c">More...</a><br /></td></tr>
 <tr class="separator:a7d32d499813c3369d137245b5bd52c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09defe13fdb5a2a182bcfbd350af0dbd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a09defe13fdb5a2a182bcfbd350af0dbd">PrimingPulseTable</a></td></tr>
+<tr class="memdesc:a09defe13fdb5a2a182bcfbd350af0dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin Priming pulsewidth map (2D)  <a href="#a09defe13fdb5a2a182bcfbd350af0dbd">More...</a><br /></td></tr>
 <tr class="separator:a09defe13fdb5a2a182bcfbd350af0dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b419c9fe0c660810e41ce70947de22"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a79b419c9fe0c660810e41ce70947de22">crankingEnrichTable</a></td></tr>
+<tr class="memdesc:a79b419c9fe0c660810e41ce70947de22"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin cranking Enrichment map (2D)  <a href="#a79b419c9fe0c660810e41ce70947de22">More...</a><br /></td></tr>
 <tr class="separator:a79b419c9fe0c660810e41ce70947de22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810e57c26ce5e6adae9b737c473baa3f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f">dwellVCorrectionTable</a></td></tr>
+<tr class="memdesc:a810e57c26ce5e6adae9b737c473baa3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin dwell voltage correction (2D)  <a href="#a810e57c26ce5e6adae9b737c473baa3f">More...</a><br /></td></tr>
 <tr class="separator:a810e57c26ce5e6adae9b737c473baa3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a0dc97f0612c40d825cf27ecc5d8525"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8a0dc97f0612c40d825cf27ecc5d8525">injectorVCorrectionTable</a></td></tr>
+<tr class="memdesc:a8a0dc97f0612c40d825cf27ecc5d8525"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin injector voltage correction (2D)  <a href="#a8a0dc97f0612c40d825cf27ecc5d8525">More...</a><br /></td></tr>
 <tr class="separator:a8a0dc97f0612c40d825cf27ecc5d8525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab619f7e2b0c050729a8b47492d85f62a"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab619f7e2b0c050729a8b47492d85f62a">injectorAngleTable</a></td></tr>
+<tr class="memdesc:ab619f7e2b0c050729a8b47492d85f62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">4 bin injector angle curve (2D)  <a href="#ab619f7e2b0c050729a8b47492d85f62a">More...</a><br /></td></tr>
 <tr class="separator:ab619f7e2b0c050729a8b47492d85f62a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0ed6b1f05c7b7b831ccf0709ad06ac7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab0ed6b1f05c7b7b831ccf0709ad06ac7">IATDensityCorrectionTable</a></td></tr>
+<tr class="memdesc:ab0ed6b1f05c7b7b831ccf0709ad06ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">9 bin inlet air temperature density correction (2D)  <a href="#ab0ed6b1f05c7b7b831ccf0709ad06ac7">More...</a><br /></td></tr>
 <tr class="separator:ab0ed6b1f05c7b7b831ccf0709ad06ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff71d4b8ac30eef2feb5ebe0722bf4ba"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aff71d4b8ac30eef2feb5ebe0722bf4ba">baroFuelTable</a></td></tr>
+<tr class="memdesc:aff71d4b8ac30eef2feb5ebe0722bf4ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">8 bin baro correction curve (2D)  <a href="#aff71d4b8ac30eef2feb5ebe0722bf4ba">More...</a><br /></td></tr>
 <tr class="separator:aff71d4b8ac30eef2feb5ebe0722bf4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab130fff4f76a201a7b93ec6284715b94"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab130fff4f76a201a7b93ec6284715b94">IATRetardTable</a></td></tr>
+<tr class="memdesc:ab130fff4f76a201a7b93ec6284715b94"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin ignition adjustment based on inlet air temperature (2D)  <a href="#ab130fff4f76a201a7b93ec6284715b94">More...</a><br /></td></tr>
 <tr class="separator:ab130fff4f76a201a7b93ec6284715b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6be7b60640d9427ea4a0444abd99825"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad6be7b60640d9427ea4a0444abd99825">idleTargetTable</a></td></tr>
+<tr class="memdesc:ad6be7b60640d9427ea4a0444abd99825"><td class="mdescLeft">&#160;</td><td class="mdescRight">10 bin idle target table for idle timing (2D)  <a href="#ad6be7b60640d9427ea4a0444abd99825">More...</a><br /></td></tr>
 <tr class="separator:ad6be7b60640d9427ea4a0444abd99825"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571ee7ca28fd59e82255ceba11e06bff"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a571ee7ca28fd59e82255ceba11e06bff">idleAdvanceTable</a></td></tr>
+<tr class="memdesc:a571ee7ca28fd59e82255ceba11e06bff"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin idle advance adjustment table based on RPM difference (2D)  <a href="#a571ee7ca28fd59e82255ceba11e06bff">More...</a><br /></td></tr>
 <tr class="separator:a571ee7ca28fd59e82255ceba11e06bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f68d16676a0c9978199c12f3a13d6d9"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7f68d16676a0c9978199c12f3a13d6d9">CLTAdvanceTable</a></td></tr>
+<tr class="memdesc:a7f68d16676a0c9978199c12f3a13d6d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin ignition adjustment based on coolant temperature (2D)  <a href="#a7f68d16676a0c9978199c12f3a13d6d9">More...</a><br /></td></tr>
 <tr class="separator:a7f68d16676a0c9978199c12f3a13d6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf93b65da6c8c6cf8cca5b86c003aa1c"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aaf93b65da6c8c6cf8cca5b86c003aa1c">rotarySplitTable</a></td></tr>
+<tr class="memdesc:aaf93b65da6c8c6cf8cca5b86c003aa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">8 bin ignition split curve for rotary leading/trailing (2D)  <a href="#aaf93b65da6c8c6cf8cca5b86c003aa1c">More...</a><br /></td></tr>
 <tr class="separator:aaf93b65da6c8c6cf8cca5b86c003aa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18159c92a343adeb462b1b3cb0a5677a"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18159c92a343adeb462b1b3cb0a5677a">flexFuelTable</a></td></tr>
+<tr class="memdesc:a18159c92a343adeb462b1b3cb0a5677a"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin flex fuel correction table for fuel adjustments (2D)  <a href="#a18159c92a343adeb462b1b3cb0a5677a">More...</a><br /></td></tr>
 <tr class="separator:a18159c92a343adeb462b1b3cb0a5677a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a437bdab21992ad51a6896fb946d5c652"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a437bdab21992ad51a6896fb946d5c652">flexAdvTable</a></td></tr>
+<tr class="memdesc:a437bdab21992ad51a6896fb946d5c652"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin flex fuel correction table for timing advance (2D)  <a href="#a437bdab21992ad51a6896fb946d5c652">More...</a><br /></td></tr>
 <tr class="separator:a437bdab21992ad51a6896fb946d5c652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a2554bfd3ddb4dfc40043a02119478"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18a2554bfd3ddb4dfc40043a02119478">flexBoostTable</a></td></tr>
+<tr class="memdesc:a18a2554bfd3ddb4dfc40043a02119478"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin flex fuel correction table for boost adjustments (2D)  <a href="#a18a2554bfd3ddb4dfc40043a02119478">More...</a><br /></td></tr>
 <tr class="separator:a18a2554bfd3ddb4dfc40043a02119478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a186479171f33f487158eced1ffe47ac7"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a186479171f33f487158eced1ffe47ac7">fuelTempTable</a></td></tr>
+<tr class="memdesc:a186479171f33f487158eced1ffe47ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin flex fuel correction table for fuel adjustments (2D)  <a href="#a186479171f33f487158eced1ffe47ac7">More...</a><br /></td></tr>
 <tr class="separator:a186479171f33f487158eced1ffe47ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7230a340e6c4eced887fd567febb6142"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7230a340e6c4eced887fd567febb6142">knockWindowStartTable</a></td></tr>
 <tr class="separator:a7230a340e6c4eced887fd567febb6142"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -590,8 +632,10 @@ Variables</h2></td></tr>
 <tr class="memitem:a8757ef7aa5051bb40189d9564f0c57df"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8757ef7aa5051bb40189d9564f0c57df">oilPressureProtectTable</a></td></tr>
 <tr class="separator:a8757ef7aa5051bb40189d9564f0c57df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa997072392ac83c02c3a9062b1a87823"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa997072392ac83c02c3a9062b1a87823">wmiAdvTable</a></td></tr>
+<tr class="memdesc:aa997072392ac83c02c3a9062b1a87823"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 bin wmi correction table for timing advance (2D)  <a href="#aa997072392ac83c02c3a9062b1a87823">More...</a><br /></td></tr>
 <tr class="separator:aa997072392ac83c02c3a9062b1a87823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33091f454b3a945c60fefe5a846650d6"><td class="memItemLeft" align="right" valign="top">volatile PORT_TYPE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a></td></tr>
+<tr class="memdesc:a33091f454b3a945c60fefe5a846650d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">volatile inj*_pin_port and inj*_pin_mask vars are for the direct port manipulation of the injectors, coils and aux outputs.  <a href="#a33091f454b3a945c60fefe5a846650d6">More...</a><br /></td></tr>
 <tr class="separator:a33091f454b3a945c60fefe5a846650d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af86132d973faf2e5a61485637dbd8aa8"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af86132d973faf2e5a61485637dbd8aa8">inj1_pin_mask</a></td></tr>
 <tr class="separator:af86132d973faf2e5a61485637dbd8aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -676,6 +720,7 @@ Variables</h2></td></tr>
 <tr class="memitem:ac2e3d8222f1a57310c7a2315ff2e6a16"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ac2e3d8222f1a57310c7a2315ff2e6a16">triggerSec_pin_mask</a></td></tr>
 <tr class="separator:ac2e3d8222f1a57310c7a2315ff2e6a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266e3ac3b3188fa7b1df57b1decdb69f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a266e3ac3b3188fa7b1df57b1decdb69f">channel1InjEnabled</a></td></tr>
+<tr class="memdesc:a266e3ac3b3188fa7b1df57b1decdb69f"><td class="mdescLeft">&#160;</td><td class="mdescRight">These need to be here as they are used in both <a class="el" href="speeduino_8ino.html">speeduino.ino</a> and <a class="el" href="scheduler_8ino.html">scheduler.ino</a>.  <a href="#a266e3ac3b3188fa7b1df57b1decdb69f">More...</a><br /></td></tr>
 <tr class="separator:a266e3ac3b3188fa7b1df57b1decdb69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3776b8847a9ee0fbaf0bd45517cbe3eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3776b8847a9ee0fbaf0bd45517cbe3eb">channel2InjEnabled</a></td></tr>
 <tr class="separator:a3776b8847a9ee0fbaf0bd45517cbe3eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -724,10 +769,13 @@ Variables</h2></td></tr>
 <tr class="memitem:a8c3a9f07cc05fe417d216182c2c4e559"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8c3a9f07cc05fe417d216182c2c4e559">ignition8StartAngle</a></td></tr>
 <tr class="separator:a8c3a9f07cc05fe417d216182c2c4e559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memItemLeft" align="right" valign="top">const byte <a class="el" href="globals_8ino.html#a795dfdb739aacf4957feb7773e47a912">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4148535e1459fe7ee9ec8bf1f645e4ec">fsIntIndex</a> [34]</td></tr>
+<tr class="memdesc:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">int (member) indexes in fullStatus array  <a href="#a4148535e1459fe7ee9ec8bf1f645e4ec">More...</a><br /></td></tr>
 <tr class="separator:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af53c632d8a54d6e0ba15cf5534cffd34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af53c632d8a54d6e0ba15cf5534cffd34">initialisationComplete</a></td></tr>
+<tr class="memdesc:af53c632d8a54d6e0ba15cf5534cffd34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether the <a class="el" href="speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a> function has run completely (true = has run)  <a href="#af53c632d8a54d6e0ba15cf5534cffd34">More...</a><br /></td></tr>
 <tr class="separator:af53c632d8a54d6e0ba15cf5534cffd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5afda543e68de000ad4ae9c0aea10374"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5afda543e68de000ad4ae9c0aea10374">fpPrimeTime</a></td></tr>
+<tr class="memdesc:a5afda543e68de000ad4ae9c0aea10374"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time (in seconds, based on <a class="el" href="structstatuses.html#a739c35982fbfc585684cb2daa53d1575">statuses::secl</a>) that the fuel pump started priming.  <a href="#a5afda543e68de000ad4ae9c0aea10374">More...</a><br /></td></tr>
 <tr class="separator:a5afda543e68de000ad4ae9c0aea10374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44f3f762f2000a037d22c24424c70e7"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad44f3f762f2000a037d22c24424c70e7">mainLoopCount</a></td></tr>
 <tr class="separator:ad44f3f762f2000a037d22c24424c70e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -744,14 +792,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a5c105ef1fad1e927319ea7956737cc1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5c105ef1fad1e927319ea7956737cc1c">previousClutchTrigger</a></td></tr>
 <tr class="separator:a5c105ef1fad1e927319ea7956737cc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09414e6288d67c52b988ae454500bc06"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> [<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td></tr>
+<tr class="memdesc:a09414e6288d67c52b988ae454500bc06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tooth trigger history - delta time (in uS) from last tooth (Indexed by <a class="el" href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a>)  <a href="#a09414e6288d67c52b988ae454500bc06">More...</a><br /></td></tr>
 <tr class="separator:a09414e6288d67c52b988ae454500bc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b9a450973f1be53394a7dcb4762170"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a26b9a450973f1be53394a7dcb4762170">compositeLogHistory</a> [<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td></tr>
 <tr class="separator:a26b9a450973f1be53394a7dcb4762170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a85eccf7d26c44990d8c237ac5ac88bb4">fpPrimed</a></td></tr>
+<tr class="memdesc:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether or not the fuel pump priming has been completed yet.  <a href="#a85eccf7d26c44990d8c237ac5ac88bb4">More...</a><br /></td></tr>
 <tr class="separator:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4a95c264ed019fb2470288728caae2f"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af4a95c264ed019fb2470288728caae2f">injPrimed</a></td></tr>
+<tr class="memdesc:af4a95c264ed019fb2470288728caae2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether or not the injectors priming has been completed yet.  <a href="#af4a95c264ed019fb2470288728caae2f">More...</a><br /></td></tr>
 <tr class="separator:af4a95c264ed019fb2470288728caae2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="memItemLeft" align="right" valign="top">volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a></td></tr>
+<tr class="memdesc:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current index to <a class="el" href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> array.  <a href="#a406ba2c8645f7c8ffd3ccb8a01e9f167">More...</a><br /></td></tr>
 <tr class="separator:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79df539f0c7eaa5f815e18757dc5c771"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a79df539f0c7eaa5f815e18757dc5c771">toothHistorySerialIndex</a></td></tr>
 <tr class="separator:a79df539f0c7eaa5f815e18757dc5c771"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -772,6 +824,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a05ecb2a5633f0c516044bb487c411d57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a></td></tr>
 <tr class="separator:a05ecb2a5633f0c516044bb487c411d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0899ead1d490b4e1fe51150721f9b88b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b">CRANK_ANGLE_MAX_INJ</a></td></tr>
+<tr class="memdesc:a0899ead1d490b4e1fe51150721f9b88b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of crank degrees that the system track over. 360 for wasted / timed batch and 720 for sequential.  <a href="#a0899ead1d490b4e1fe51150721f9b88b">More...</a><br /></td></tr>
 <tr class="separator:a0899ead1d490b4e1fe51150721f9b88b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49404e6dfc26294958977ca9bb237a02"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a49404e6dfc26294958977ca9bb237a02">runSecsX10</a></td></tr>
 <tr class="separator:a49404e6dfc26294958977ca9bb237a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -786,6 +839,7 @@ Variables</h2></td></tr>
 <tr class="memitem:aedc85cb39a45d3b625b455e429478285"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aedc85cb39a45d3b625b455e429478285">HWTest_IGN_50pc</a></td></tr>
 <tr class="separator:aedc85cb39a45d3b625b455e429478285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c8e1f148cca41784838dc5e4d5effdb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb">resetControl</a></td></tr>
+<tr class="memdesc:a6c8e1f148cca41784838dc5e4d5effdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">resetControl needs to be here (as global) because using the config page (4) directly can prevent burning the setting  <a href="#a6c8e1f148cca41784838dc5e4d5effdb">More...</a><br /></td></tr>
 <tr class="separator:a6c8e1f148cca41784838dc5e4d5effdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242654f754c0d3eec14d536259ed96b8"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a242654f754c0d3eec14d536259ed96b8">TIMER_mask</a></td></tr>
 <tr class="separator:a242654f754c0d3eec14d536259ed96b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -806,18 +860,25 @@ Variables</h2></td></tr>
 <tr class="memitem:ac26ff5f2bec14abbe7517d7f70e8c38e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ac26ff5f2bec14abbe7517d7f70e8c38e">useTachoSweep</a></td></tr>
 <tr class="separator:ac26ff5f2bec14abbe7517d7f70e8c38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a347157de7caed3bbde19bb1297859e47"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a347157de7caed3bbde19bb1297859e47">aeApplyMode</a></td></tr>
+<tr class="memdesc:a347157de7caed3bbde19bb1297859e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration enrichment calc mode: 0 = Multiply | 1 = Add (AE_MODE_ADDER)  <a href="#a347157de7caed3bbde19bb1297859e47">More...</a><br /></td></tr>
 <tr class="separator:a347157de7caed3bbde19bb1297859e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac34373f1455a7163a5fd889b551f2108"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ac34373f1455a7163a5fd889b551f2108">multiplyMAP</a></td></tr>
+<tr class="memdesc:ac34373f1455a7163a5fd889b551f2108"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAP value processing: 0 = off, 1 = div by currentStatus.baro, 2 = div by 100 (to gain usable value)  <a href="#ac34373f1455a7163a5fd889b551f2108">More...</a><br /></td></tr>
 <tr class="separator:ac34373f1455a7163a5fd889b551f2108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42184453d6f4128baaafeac67728a8c6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">wueValues</a> [10]</td></tr>
+<tr class="memdesc:a42184453d6f4128baaafeac67728a8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warm up enrichment array (10 bytes, transferred to <a class="el" href="globals_8ino.html#af5085c0b67e738994a9093ba342bf01e">WUETable</a>)  <a href="#a42184453d6f4128baaafeac67728a8c6">More...</a><br /></td></tr>
 <tr class="separator:a42184453d6f4128baaafeac67728a8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bfbb10f496a32c09df86ff15801e464"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3bfbb10f496a32c09df86ff15801e464">crankingPct</a></td></tr>
+<tr class="memdesc:a3bfbb10f496a32c09df86ff15801e464"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, <a class="el" href="updates_8ino.html">updates.ino</a>)  <a href="#a3bfbb10f496a32c09df86ff15801e464">More...</a><br /></td></tr>
 <tr class="separator:a3bfbb10f496a32c09df86ff15801e464"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae371048322e1c7d406c379a15754fffc"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae371048322e1c7d406c379a15754fffc">pinMapping</a></td></tr>
+<tr class="memdesc:ae371048322e1c7d406c379a15754fffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The board / ping mapping number / id to be used (See: <a class="el" href="init_8ino.html#a86db22b96dc0b6738580853545476dd7">setPinMapping</a> in <a class="el" href="init_8ino.html">init.ino</a>)  <a href="#ae371048322e1c7d406c379a15754fffc">More...</a><br /></td></tr>
 <tr class="separator:ae371048322e1c7d406c379a15754fffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f1a54b40ea34e7fdaab7da6d7f9f08e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6f1a54b40ea34e7fdaab7da6d7f9f08e">tachoPin</a></td></tr>
+<tr class="memdesc:a6f1a54b40ea34e7fdaab7da6d7f9f08e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom pin setting for tacho output (if != 0, override copied to pinTachOut, which defaults to board assigned tach pin)  <a href="#a6f1a54b40ea34e7fdaab7da6d7f9f08e">More...</a><br /></td></tr>
 <tr class="separator:a6f1a54b40ea34e7fdaab7da6d7f9f08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeffc9eaba8d4299ecd527d17c0d03552"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aeffc9eaba8d4299ecd527d17c0d03552">tachoDiv</a></td></tr>
+<tr class="memdesc:aeffc9eaba8d4299ecd527d17c0d03552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to change the tacho speed ("half speed tacho" ?)  <a href="#aeffc9eaba8d4299ecd527d17c0d03552">More...</a><br /></td></tr>
 <tr class="separator:aeffc9eaba8d4299ecd527d17c0d03552"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b27c32f353ef8a5c4fd38877b92f2ef"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0b27c32f353ef8a5c4fd38877b92f2ef">tachoDuration</a></td></tr>
 <tr class="separator:a0b27c32f353ef8a5c4fd38877b92f2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -848,6 +909,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a0506a5905c5a24856d968577f8d10491"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0506a5905c5a24856d968577f8d10491">divider</a></td></tr>
 <tr class="separator:a0506a5905c5a24856d968577f8d10491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc1c04b0f22e09c1381311d9fb9fe37d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#adc1c04b0f22e09c1381311d9fb9fe37d">injTiming</a></td></tr>
+<tr class="memdesc:adc1c04b0f22e09c1381311d9fb9fe37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injector timing (aka. injector staging) 0=simultaneous, 1=alternating.  <a href="#adc1c04b0f22e09c1381311d9fb9fe37d">More...</a><br /></td></tr>
 <tr class="separator:adc1c04b0f22e09c1381311d9fb9fe37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad44d76713d7b406ba5ff21c9a6db16b6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad44d76713d7b406ba5ff21c9a6db16b6">multiplyMAP_old</a></td></tr>
 <tr class="separator:ad44d76713d7b406ba5ff21c9a6db16b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -860,38 +922,52 @@ Variables</h2></td></tr>
 <tr class="memitem:ab9d2daf541a21cba9bb9c1f7570f295d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab9d2daf541a21cba9bb9c1f7570f295d">indInjAng</a></td></tr>
 <tr class="separator:ab9d2daf541a21cba9bb9c1f7570f295d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3560b0f7d53daefe16def5b9a303c625"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3560b0f7d53daefe16def5b9a303c625">injOpen</a></td></tr>
+<tr class="memdesc:a3560b0f7d53daefe16def5b9a303c625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injector opening time (ms * 10)  <a href="#a3560b0f7d53daefe16def5b9a303c625">More...</a><br /></td></tr>
 <tr class="separator:a3560b0f7d53daefe16def5b9a303c625"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac53f836085ec653cf025cf5ff9ea1ce"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aac53f836085ec653cf025cf5ff9ea1ce">injAng</a> [4]</td></tr>
 <tr class="separator:aac53f836085ec653cf025cf5ff9ea1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec2ce6b8bd9d47b5921103efaa39ae9f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aec2ce6b8bd9d47b5921103efaa39ae9f">mapSample</a></td></tr>
+<tr class="memdesc:aec2ce6b8bd9d47b5921103efaa39ae9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAP sampling method (0=Instantaneous, 1=Cycle Average, 2=Cycle Minimum, 4=Ign. event average, See <a class="el" href="sensors_8ino.html">sensors.ino</a>)  <a href="#aec2ce6b8bd9d47b5921103efaa39ae9f">More...</a><br /></td></tr>
 <tr class="separator:aec2ce6b8bd9d47b5921103efaa39ae9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f88f7ea9c654949a9bb3f3cc6263808"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8f88f7ea9c654949a9bb3f3cc6263808">strokes</a></td></tr>
+<tr class="memdesc:a8f88f7ea9c654949a9bb3f3cc6263808"><td class="mdescLeft">&#160;</td><td class="mdescRight">Engine cycle type: four-stroke (0) / two-stroke (1)  <a href="#a8f88f7ea9c654949a9bb3f3cc6263808">More...</a><br /></td></tr>
 <tr class="separator:a8f88f7ea9c654949a9bb3f3cc6263808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a111eb1cd4245a4e12399886246796c7b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a111eb1cd4245a4e12399886246796c7b">injType</a></td></tr>
+<tr class="memdesc:a111eb1cd4245a4e12399886246796c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Injector type 0=Port (INJ_TYPE_PORT), 1=Throttle Body / TBI (INJ_TYPE_TBODY)  <a href="#a111eb1cd4245a4e12399886246796c7b">More...</a><br /></td></tr>
 <tr class="separator:a111eb1cd4245a4e12399886246796c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d5070d2a24970525726a142976cb599"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3d5070d2a24970525726a142976cb599">nCylinders</a></td></tr>
+<tr class="memdesc:a3d5070d2a24970525726a142976cb599"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of cylinders.  <a href="#a3d5070d2a24970525726a142976cb599">More...</a><br /></td></tr>
 <tr class="separator:a3d5070d2a24970525726a142976cb599"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f8ee2b15c9feb3a6707b0375d5f5379"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3f8ee2b15c9feb3a6707b0375d5f5379">fuelAlgorithm</a></td></tr>
+<tr class="memdesc:a3f8ee2b15c9feb3a6707b0375d5f5379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel algorithm - 0=Manifold pressure/MAP (LOAD_SOURCE_MAP, default, proven), 1=Throttle/TPS (LOAD_SOURCE_TPS), 2=IMAP/EMAP (LOAD_SOURCE_IMAPEMAP)  <a href="#a3f8ee2b15c9feb3a6707b0375d5f5379">More...</a><br /></td></tr>
 <tr class="separator:a3f8ee2b15c9feb3a6707b0375d5f5379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff41b0f89192cfb344212529da2b7e3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3">fixAngEnable</a></td></tr>
+<tr class="memdesc:a0ff41b0f89192cfb344212529da2b7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether fixed/locked timing is enabled (0=diable, 1=enable, See <a class="el" href="globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff">configPage4::FixAng</a>)  <a href="#a0ff41b0f89192cfb344212529da2b7e3">More...</a><br /></td></tr>
 <tr class="separator:a0ff41b0f89192cfb344212529da2b7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afff89f62b918d71810ba4580e5a3bdec"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#afff89f62b918d71810ba4580e5a3bdec">nInjectors</a></td></tr>
+<tr class="memdesc:afff89f62b918d71810ba4580e5a3bdec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of injectors.  <a href="#afff89f62b918d71810ba4580e5a3bdec">More...</a><br /></td></tr>
 <tr class="separator:afff89f62b918d71810ba4580e5a3bdec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a460ec3631859b3d116c67438712971a0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a460ec3631859b3d116c67438712971a0">engineType</a></td></tr>
+<tr class="memdesc:a460ec3631859b3d116c67438712971a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Engine crank/ign phasing type: 0=even fire, 1=odd fire.  <a href="#a460ec3631859b3d116c67438712971a0">More...</a><br /></td></tr>
 <tr class="separator:a460ec3631859b3d116c67438712971a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed828d483a6a75d1bad0efcb03640013"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aed828d483a6a75d1bad0efcb03640013">flexEnabled</a></td></tr>
+<tr class="memdesc:aed828d483a6a75d1bad0efcb03640013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Flex fuel sensing (pin / interrupt)  <a href="#aed828d483a6a75d1bad0efcb03640013">More...</a><br /></td></tr>
 <tr class="separator:aed828d483a6a75d1bad0efcb03640013"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4fbd687444a24d1c61a3ba2a7ca4fb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9c4fbd687444a24d1c61a3ba2a7ca4fb">legacyMAP</a></td></tr>
+<tr class="memdesc:a9c4fbd687444a24d1c61a3ba2a7ca4fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy MAP reading behavior.  <a href="#a9c4fbd687444a24d1c61a3ba2a7ca4fb">More...</a><br /></td></tr>
 <tr class="separator:a9c4fbd687444a24d1c61a3ba2a7ca4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a1853817d57c7bc30cd4cd4516ac3a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a94a1853817d57c7bc30cd4cd4516ac3a">baroCorr</a></td></tr>
 <tr class="separator:a94a1853817d57c7bc30cd4cd4516ac3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae947d2f618e8c9ecbe2aef2f08a50f99"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae947d2f618e8c9ecbe2aef2f08a50f99">injLayout</a></td></tr>
 <tr class="separator:ae947d2f618e8c9ecbe2aef2f08a50f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d40e06c0a8ad7d28e82a3f6d9b5c73"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a71d40e06c0a8ad7d28e82a3f6d9b5c73">perToothIgn</a></td></tr>
+<tr class="memdesc:a71d40e06c0a8ad7d28e82a3f6d9b5c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Experimental / New ign. mode ... (?) (See <a class="el" href="decoders_8ino.html">decoders.ino</a>)  <a href="#a71d40e06c0a8ad7d28e82a3f6d9b5c73">More...</a><br /></td></tr>
 <tr class="separator:a71d40e06c0a8ad7d28e82a3f6d9b5c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af40498f140ae6d784b92a96eb7906d92"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af40498f140ae6d784b92a96eb7906d92">dfcoEnabled</a></td></tr>
+<tr class="memdesc:af40498f140ae6d784b92a96eb7906d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not DFCO (deceleration fuel cut-off) is turned on.  <a href="#af40498f140ae6d784b92a96eb7906d92">More...</a><br /></td></tr>
 <tr class="separator:af40498f140ae6d784b92a96eb7906d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab25df1efff9fce1aaffcb9d43c93fa83"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab25df1efff9fce1aaffcb9d43c93fa83">aeColdTaperMax</a></td></tr>
+<tr class="memdesc:ab25df1efff9fce1aaffcb9d43c93fa83"><td class="mdescLeft">&#160;</td><td class="mdescRight">AE cold modifier, taper end temp (no modifier applied, was primePulse in early versions)  <a href="#ab25df1efff9fce1aaffcb9d43c93fa83">More...</a><br /></td></tr>
 <tr class="separator:ab25df1efff9fce1aaffcb9d43c93fa83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ec7e572a92ba7adf3229dd8321dc40"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a56ec7e572a92ba7adf3229dd8321dc40">dutyLim</a></td></tr>
 <tr class="separator:a56ec7e572a92ba7adf3229dd8321dc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -910,14 +986,19 @@ Variables</h2></td></tr>
 <tr class="memitem:aaef6a90f89d2b40ea9fcf846357ba07d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aaef6a90f89d2b40ea9fcf846357ba07d">mapMax</a></td></tr>
 <tr class="separator:aaef6a90f89d2b40ea9fcf846357ba07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad29f359a5019f1dc133c48a70f091484"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad29f359a5019f1dc133c48a70f091484">fpPrime</a></td></tr>
+<tr class="memdesc:ad29f359a5019f1dc133c48a70f091484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time (In seconds) that the fuel pump should be primed for on power up.  <a href="#ad29f359a5019f1dc133c48a70f091484">More...</a><br /></td></tr>
 <tr class="separator:ad29f359a5019f1dc133c48a70f091484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fa336dd8076d902dd8865c7ee5c62a4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1fa336dd8076d902dd8865c7ee5c62a4">stoich</a></td></tr>
+<tr class="memdesc:a1fa336dd8076d902dd8865c7ee5c62a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stoichiometric ratio (x10, so e.g. 14.7 =&gt; 147)  <a href="#a1fa336dd8076d902dd8865c7ee5c62a4">More...</a><br /></td></tr>
 <tr class="separator:a1fa336dd8076d902dd8865c7ee5c62a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1788496f8b8df342d2387ab90a70ae1b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1788496f8b8df342d2387ab90a70ae1b">oddfire2</a></td></tr>
+<tr class="memdesc:a1788496f8b8df342d2387ab90a70ae1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ATDC angle of channel 2 for oddfire.  <a href="#a1788496f8b8df342d2387ab90a70ae1b">More...</a><br /></td></tr>
 <tr class="separator:a1788496f8b8df342d2387ab90a70ae1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa99e0ee52038e01605e53a518813e2b3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa99e0ee52038e01605e53a518813e2b3">oddfire3</a></td></tr>
+<tr class="memdesc:aa99e0ee52038e01605e53a518813e2b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ATDC angle of channel 3 for oddfire.  <a href="#aa99e0ee52038e01605e53a518813e2b3">More...</a><br /></td></tr>
 <tr class="separator:aa99e0ee52038e01605e53a518813e2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3930a463be287124a8a947e514242033"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3930a463be287124a8a947e514242033">oddfire4</a></td></tr>
+<tr class="memdesc:a3930a463be287124a8a947e514242033"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ATDC angle of channel 4 for oddfire.  <a href="#a3930a463be287124a8a947e514242033">More...</a><br /></td></tr>
 <tr class="separator:a3930a463be287124a8a947e514242033"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6fad6febff43bcce92d32ab60b3f5ac"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae6fad6febff43bcce92d32ab60b3f5ac">idleUpPin</a></td></tr>
 <tr class="separator:ae6fad6febff43bcce92d32ab60b3f5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -946,22 +1027,29 @@ Variables</h2></td></tr>
 <tr class="memitem:ab4e7e037c814067a08d22ab510e32260"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab4e7e037c814067a08d22ab510e32260">EMAPMax</a></td></tr>
 <tr class="separator:ab4e7e037c814067a08d22ab510e32260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4db1b6aa67c3cb367fc1d5aeb3a37a72"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72">fanWhenOff</a></td></tr>
+<tr class="memdesc:a4db1b6aa67c3cb367fc1d5aeb3a37a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allow running fan with engine off: 0 = Only run fan when engine is running, 1 = Allow even with engine off.  <a href="#a4db1b6aa67c3cb367fc1d5aeb3a37a72">More...</a><br /></td></tr>
 <tr class="separator:a4db1b6aa67c3cb367fc1d5aeb3a37a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e1e093c743ce9c329801d2a37cd62d2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2">fanWhenCranking</a></td></tr>
+<tr class="memdesc:a4e1e093c743ce9c329801d2a37cd62d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the fan output will stay on when the engine is cranking (0=force off, 1=allow on)  <a href="#a4e1e093c743ce9c329801d2a37cd62d2">More...</a><br /></td></tr>
 <tr class="separator:a4e1e093c743ce9c329801d2a37cd62d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8a8b1a225c424741fc03cf30a4ffe58"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab8a8b1a225c424741fc03cf30a4ffe58">useDwellMap</a></td></tr>
+<tr class="memdesc:ab8a8b1a225c424741fc03cf30a4ffe58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting to change between fixed dwell value and dwell map (0=Fixed value from <a class="el" href="globals_8h.html#a211738550a40de5704e491367af6b71a">configPage4::dwellRun</a>, 1=Use <a class="el" href="globals_8ino.html#a648781b9d7c63f3b72490c03e376ece7">dwellTable</a>)  <a href="#ab8a8b1a225c424741fc03cf30a4ffe58">More...</a><br /></td></tr>
 <tr class="separator:ab8a8b1a225c424741fc03cf30a4ffe58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17d698869ebbc3d2da3761026a665c71"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a17d698869ebbc3d2da3761026a665c71">fanUnused</a></td></tr>
 <tr class="separator:a17d698869ebbc3d2da3761026a665c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b404bd63d8e20d1221236afb0c91978"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6b404bd63d8e20d1221236afb0c91978">rtc_mode</a></td></tr>
 <tr class="separator:a6b404bd63d8e20d1221236afb0c91978"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb4c72df9f9adb62893922a449f779e0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#adb4c72df9f9adb62893922a449f779e0">incorporateAFR</a></td></tr>
+<tr class="memdesc:adb4c72df9f9adb62893922a449f779e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable AFR target (stoich/afrtgt) compensation in PW calculation.  <a href="#adb4c72df9f9adb62893922a449f779e0">More...</a><br /></td></tr>
 <tr class="separator:adb4c72df9f9adb62893922a449f779e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade4f7d266cea15ae43661bde60107afc"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade4f7d266cea15ae43661bde60107afc">asePct</a> [4]</td></tr>
+<tr class="memdesc:ade4f7d266cea15ae43661bde60107afc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afterstart enrichment values (%)  <a href="#ade4f7d266cea15ae43661bde60107afc">More...</a><br /></td></tr>
 <tr class="separator:ade4f7d266cea15ae43661bde60107afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53c86d5a18acbda56b2d9cb34b56bd64"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a53c86d5a18acbda56b2d9cb34b56bd64">aseCount</a> [4]</td></tr>
+<tr class="memdesc:a53c86d5a18acbda56b2d9cb34b56bd64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afterstart enrichment cycles. This is the number of ignition cycles that the afterstart enrichment % lasts for.  <a href="#a53c86d5a18acbda56b2d9cb34b56bd64">More...</a><br /></td></tr>
 <tr class="separator:a53c86d5a18acbda56b2d9cb34b56bd64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a564a6cebfcfdf43942ef6a5230db79e2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a564a6cebfcfdf43942ef6a5230db79e2">aseBins</a> [4]</td></tr>
+<tr class="memdesc:a564a6cebfcfdf43942ef6a5230db79e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afterstart enrichment temperatures (x-axis) for (target) enrichment values.  <a href="#a564a6cebfcfdf43942ef6a5230db79e2">More...</a><br /></td></tr>
 <tr class="separator:a564a6cebfcfdf43942ef6a5230db79e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e4b09c12862647e730be32277fd6982"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5e4b09c12862647e730be32277fd6982">primePulse</a> [4]</td></tr>
 <tr class="separator:a5e4b09c12862647e730be32277fd6982"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -992,10 +1080,13 @@ Variables</h2></td></tr>
 <tr class="memitem:a34786365cdd7f6b7a8a91c715f76096e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a34786365cdd7f6b7a8a91c715f76096e">dfcoMinCLT</a></td></tr>
 <tr class="separator:a34786365cdd7f6b7a8a91c715f76096e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0298f980ea2513b135c4a11ccff882"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aad0298f980ea2513b135c4a11ccff882">vssMode</a></td></tr>
+<tr class="memdesc:aad0298f980ea2513b135c4a11ccff882"><td class="mdescLeft">&#160;</td><td class="mdescRight">VSS (Vehicle speed sensor) mode (0=none, 1=CANbus, 2,3=Interrupt driven)  <a href="#aad0298f980ea2513b135c4a11ccff882">More...</a><br /></td></tr>
 <tr class="separator:aad0298f980ea2513b135c4a11ccff882"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32fd25c282f3ab27a9de6883cd81fd52"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a32fd25c282f3ab27a9de6883cd81fd52">vssPin</a></td></tr>
+<tr class="memdesc:a32fd25c282f3ab27a9de6883cd81fd52"><td class="mdescLeft">&#160;</td><td class="mdescRight">VSS (Vehicle speed sensor) pin number.  <a href="#a32fd25c282f3ab27a9de6883cd81fd52">More...</a><br /></td></tr>
 <tr class="separator:a32fd25c282f3ab27a9de6883cd81fd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a161d197473b990da59ad7db2c12a6a43"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a161d197473b990da59ad7db2c12a6a43">vssPulsesPerKm</a></td></tr>
+<tr class="memdesc:a161d197473b990da59ad7db2c12a6a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">VSS (Vehicle speed sensor) pulses per Km.  <a href="#a161d197473b990da59ad7db2c12a6a43">More...</a><br /></td></tr>
 <tr class="separator:a161d197473b990da59ad7db2c12a6a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac853ed6dc9209450d1336b45b126a33a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ac853ed6dc9209450d1336b45b126a33a">vssSmoothing</a></td></tr>
 <tr class="separator:ac853ed6dc9209450d1336b45b126a33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1032,30 +1123,42 @@ Variables</h2></td></tr>
 <tr class="memitem:aec4180f9312faf2112389c27a4d0e063"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aec4180f9312faf2112389c27a4d0e063">unused2_95</a> [3]</td></tr>
 <tr class="separator:aec4180f9312faf2112389c27a4d0e063"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d49f3db156290a4b7fee34f26350dfc"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a2d49f3db156290a4b7fee34f26350dfc">triggerAngle</a></td></tr>
+<tr class="memdesc:a2d49f3db156290a4b7fee34f26350dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle (ATDC) when tooth No:1 on the primary wheel sends signal (-360 to +360 deg.)  <a href="#a2d49f3db156290a4b7fee34f26350dfc">More...</a><br /></td></tr>
 <tr class="separator:a2d49f3db156290a4b7fee34f26350dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd0da40143cc9ddf2bb15d1893f61dff"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff">FixAng</a></td></tr>
+<tr class="memdesc:acd0da40143cc9ddf2bb15d1893f61dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed Ignition angle value (enabled by <a class="el" href="globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3">configPage2::fixAngEnable</a>, copied to ignFixValue, Negative values allowed, See <a class="el" href="corrections_8ino.html">corrections.ino</a>)  <a href="#acd0da40143cc9ddf2bb15d1893f61dff">More...</a><br /></td></tr>
 <tr class="separator:acd0da40143cc9ddf2bb15d1893f61dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e6a5c0236c339c6f91402d00a028a58"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4e6a5c0236c339c6f91402d00a028a58">CrankAng</a></td></tr>
+<tr class="memdesc:a4e6a5c0236c339c6f91402d00a028a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed start-up/cranking ignition angle (See: <a class="el" href="corrections_8ino.html">corrections.ino</a>)  <a href="#a4e6a5c0236c339c6f91402d00a028a58">More...</a><br /></td></tr>
 <tr class="separator:a4e6a5c0236c339c6f91402d00a028a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05b85ae92dfe01d59dafe69158f4964a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a05b85ae92dfe01d59dafe69158f4964a">TrigAngMul</a></td></tr>
+<tr class="memdesc:a05b85ae92dfe01d59dafe69158f4964a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier for non evenly divisible tooth counts.  <a href="#a05b85ae92dfe01d59dafe69158f4964a">More...</a><br /></td></tr>
 <tr class="separator:a05b85ae92dfe01d59dafe69158f4964a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af206dab24f076947d26fe36c7ff86e9d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af206dab24f076947d26fe36c7ff86e9d">TrigEdge</a></td></tr>
+<tr class="memdesc:af206dab24f076947d26fe36c7ff86e9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary (RPM1) Trigger Edge - 0 - RISING, 1 = FALLING (Copied from this config to primaryTriggerEdge)  <a href="#af206dab24f076947d26fe36c7ff86e9d">More...</a><br /></td></tr>
 <tr class="separator:af206dab24f076947d26fe36c7ff86e9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeef6b9eff41f3bdaf17fcb5d1075881b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aeef6b9eff41f3bdaf17fcb5d1075881b">TrigSpeed</a></td></tr>
+<tr class="memdesc:aeef6b9eff41f3bdaf17fcb5d1075881b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary (RPM1) Trigger speed - 0 = crank speed (CRANK_SPEED), 1 = cam speed (CAM_SPEED), See <a class="el" href="decoders_8ino.html">decoders.ino</a>.  <a href="#aeef6b9eff41f3bdaf17fcb5d1075881b">More...</a><br /></td></tr>
 <tr class="separator:aeef6b9eff41f3bdaf17fcb5d1075881b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af205e58deee63d0541e1d4fb7b81dafa"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af205e58deee63d0541e1d4fb7b81dafa">IgInv</a></td></tr>
+<tr class="memdesc:af205e58deee63d0541e1d4fb7b81dafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignition signal invert (?) (GOING_LOW=0 (default by <a class="el" href="init_8ino.html">init.ino</a>) / GOING_HIGH=1 )  <a href="#af205e58deee63d0541e1d4fb7b81dafa">More...</a><br /></td></tr>
 <tr class="separator:af205e58deee63d0541e1d4fb7b81dafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06628ab70e4a4db0ac90732297f236d1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a06628ab70e4a4db0ac90732297f236d1">TrigPattern</a></td></tr>
+<tr class="memdesc:a06628ab70e4a4db0ac90732297f236d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder configured (DECODER_MISSING_TOOTH, DECODER_BASIC_DISTRIBUTOR, DECODER_GM7X, ... See <a class="el" href="init_8ino.html">init.ino</a>)  <a href="#a06628ab70e4a4db0ac90732297f236d1">More...</a><br /></td></tr>
 <tr class="separator:a06628ab70e4a4db0ac90732297f236d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66dffce9a3cadc35a4ffc47003cce66c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a66dffce9a3cadc35a4ffc47003cce66c">TrigEdgeSec</a></td></tr>
+<tr class="memdesc:a66dffce9a3cadc35a4ffc47003cce66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secondary (RPM2) Trigger Edge (See RPM1)  <a href="#a66dffce9a3cadc35a4ffc47003cce66c">More...</a><br /></td></tr>
 <tr class="separator:a66dffce9a3cadc35a4ffc47003cce66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a853f94bf35975c4fc4592dc114c96c44"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a853f94bf35975c4fc4592dc114c96c44">fuelPumpPin</a></td></tr>
+<tr class="memdesc:a853f94bf35975c4fc4592dc114c96c44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel pump pin (copied as override to pinFuelPump, defaults to board default, See: <a class="el" href="init_8ino.html">init.ino</a>)  <a href="#a853f94bf35975c4fc4592dc114c96c44">More...</a><br /></td></tr>
 <tr class="separator:a853f94bf35975c4fc4592dc114c96c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33467d48ec0c49d1b3f1dd4e18d90c8"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad33467d48ec0c49d1b3f1dd4e18d90c8">useResync</a></td></tr>
 <tr class="separator:ad33467d48ec0c49d1b3f1dd4e18d90c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22619e75333c34addc17d5ec515b5037"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a22619e75333c34addc17d5ec515b5037">sparkDur</a></td></tr>
+<tr class="memdesc:a22619e75333c34addc17d5ec515b5037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spark duration in ms * 10.  <a href="#a22619e75333c34addc17d5ec515b5037">More...</a><br /></td></tr>
 <tr class="separator:a22619e75333c34addc17d5ec515b5037"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac65c6ec562870b07b77c87a681ad6f9b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ac65c6ec562870b07b77c87a681ad6f9b">trigPatternSec</a></td></tr>
+<tr class="memdesc:ac65c6ec562870b07b77c87a681ad6f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode for Missing tooth secondary trigger - 0=single tooth cam wheel (SEC_TRIGGER_SINGLE), 1=4-1 (SEC_TRIGGER_4_1) or 2=poll level mode (SEC_TRIGGER_POLL)  <a href="#ac65c6ec562870b07b77c87a681ad6f9b">More...</a><br /></td></tr>
 <tr class="separator:ac65c6ec562870b07b77c87a681ad6f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb6fc1b5db10023625969faa18e8f3a6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#abb6fc1b5db10023625969faa18e8f3a6">PollLevelPolarity</a></td></tr>
 <tr class="separator:abb6fc1b5db10023625969faa18e8f3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1068,6 +1171,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a66ac9e4f3283b1b3b5839f8cbd5f3291"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a66ac9e4f3283b1b3b5839f8cbd5f3291">StgCycles</a></td></tr>
 <tr class="separator:a66ac9e4f3283b1b3b5839f8cbd5f3291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f39f9743bf4ad009324e1bf21097e60"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6f39f9743bf4ad009324e1bf21097e60">boostType</a></td></tr>
+<tr class="memdesc:a6f39f9743bf4ad009324e1bf21097e60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost Control type: 0=Open loop (OPEN_LOOP_BOOST), 1=closed loop (CLOSED_LOOP_BOOST)  <a href="#a6f39f9743bf4ad009324e1bf21097e60">More...</a><br /></td></tr>
 <tr class="separator:a6f39f9743bf4ad009324e1bf21097e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90cc76bfa7a2820158f7b0e194b76259"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a90cc76bfa7a2820158f7b0e194b76259">useDwellLim</a></td></tr>
 <tr class="separator:a90cc76bfa7a2820158f7b0e194b76259"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1078,40 +1182,57 @@ Variables</h2></td></tr>
 <tr class="memitem:a3fbcd0aae323387ee7b283dae670bdf3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3fbcd0aae323387ee7b283dae670bdf3">ignCranklock</a></td></tr>
 <tr class="separator:a3fbcd0aae323387ee7b283dae670bdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae769621efca323cebd940d0d5b2335d4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae769621efca323cebd940d0d5b2335d4">dwellCrank</a></td></tr>
+<tr class="memdesc:ae769621efca323cebd940d0d5b2335d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dwell time whilst cranking.  <a href="#ae769621efca323cebd940d0d5b2335d4">More...</a><br /></td></tr>
 <tr class="separator:ae769621efca323cebd940d0d5b2335d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a211738550a40de5704e491367af6b71a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a211738550a40de5704e491367af6b71a">dwellRun</a></td></tr>
+<tr class="memdesc:a211738550a40de5704e491367af6b71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dwell time whilst running.  <a href="#a211738550a40de5704e491367af6b71a">More...</a><br /></td></tr>
 <tr class="separator:a211738550a40de5704e491367af6b71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a778f4daa4d2c8fa9e87cd287da83560f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a778f4daa4d2c8fa9e87cd287da83560f">triggerTeeth</a></td></tr>
+<tr class="memdesc:a778f4daa4d2c8fa9e87cd287da83560f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full count of teeth on the trigger wheel if there were no gaps.  <a href="#a778f4daa4d2c8fa9e87cd287da83560f">More...</a><br /></td></tr>
 <tr class="separator:a778f4daa4d2c8fa9e87cd287da83560f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7487e0e7d68f6082ccda55545ec01b83"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7487e0e7d68f6082ccda55545ec01b83">triggerMissingTeeth</a></td></tr>
+<tr class="memdesc:a7487e0e7d68f6082ccda55545ec01b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of the tooth gap (ie number of missing teeth)  <a href="#a7487e0e7d68f6082ccda55545ec01b83">More...</a><br /></td></tr>
 <tr class="separator:a7487e0e7d68f6082ccda55545ec01b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef898f8b883749f63caa8e3f3038e1cd"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aef898f8b883749f63caa8e3f3038e1cd">crankRPM</a></td></tr>
+<tr class="memdesc:aef898f8b883749f63caa8e3f3038e1cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM below which the engine is considered to be cranking.  <a href="#aef898f8b883749f63caa8e3f3038e1cd">More...</a><br /></td></tr>
 <tr class="separator:aef898f8b883749f63caa8e3f3038e1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8662b5cb62166c9d87c1d0b8db1b64c9"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8662b5cb62166c9d87c1d0b8db1b64c9">floodClear</a></td></tr>
+<tr class="memdesc:a8662b5cb62166c9d87c1d0b8db1b64c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS (raw adc count? % ?) value that triggers flood clear mode (No fuel whilst cranking, See <a class="el" href="corrections_8h.html#a7303204aac17cf3fb38bc5cbc54852a9">correctionFloodClear()</a>)  <a href="#a8662b5cb62166c9d87c1d0b8db1b64c9">More...</a><br /></td></tr>
 <tr class="separator:a8662b5cb62166c9d87c1d0b8db1b64c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18be6a0936783e6698e7216f3aec1f6a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18be6a0936783e6698e7216f3aec1f6a">SoftRevLim</a></td></tr>
+<tr class="memdesc:a18be6a0936783e6698e7216f3aec1f6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Soft rev limit (RPM/100)  <a href="#a18be6a0936783e6698e7216f3aec1f6a">More...</a><br /></td></tr>
 <tr class="separator:a18be6a0936783e6698e7216f3aec1f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a101344471a3e40f133cb7c8ddbf106"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1a101344471a3e40f133cb7c8ddbf106">SoftLimRetard</a></td></tr>
+<tr class="memdesc:a1a101344471a3e40f133cb7c8ddbf106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount soft limit (ignition) retard (degrees)  <a href="#a1a101344471a3e40f133cb7c8ddbf106">More...</a><br /></td></tr>
 <tr class="separator:a1a101344471a3e40f133cb7c8ddbf106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978e06421f5670d0bed3324b15014627"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a978e06421f5670d0bed3324b15014627">SoftLimMax</a></td></tr>
+<tr class="memdesc:a978e06421f5670d0bed3324b15014627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time the soft limit can run (units ?)  <a href="#a978e06421f5670d0bed3324b15014627">More...</a><br /></td></tr>
 <tr class="separator:a978e06421f5670d0bed3324b15014627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9069a9c14a64dc728472f6f4b324af6"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab9069a9c14a64dc728472f6f4b324af6">HardRevLim</a></td></tr>
+<tr class="memdesc:ab9069a9c14a64dc728472f6f4b324af6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hard rev limit (RPM/100)  <a href="#ab9069a9c14a64dc728472f6f4b324af6">More...</a><br /></td></tr>
 <tr class="separator:ab9069a9c14a64dc728472f6f4b324af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5c13b66bb509daefbe7833a95f5f69"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aeb5c13b66bb509daefbe7833a95f5f69">taeBins</a> [4]</td></tr>
+<tr class="memdesc:aeb5c13b66bb509daefbe7833a95f5f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS based acceleration enrichment bins (Unit: %/s)  <a href="#aeb5c13b66bb509daefbe7833a95f5f69">More...</a><br /></td></tr>
 <tr class="separator:aeb5c13b66bb509daefbe7833a95f5f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30dc81ffbac1d1abe028563e246a3bae"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a30dc81ffbac1d1abe028563e246a3bae">taeValues</a> [4]</td></tr>
+<tr class="memdesc:a30dc81ffbac1d1abe028563e246a3bae"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS based acceleration enrichment rates (Unit: % to add), values matched to thresholds of taeBins.  <a href="#a30dc81ffbac1d1abe028563e246a3bae">More...</a><br /></td></tr>
 <tr class="separator:a30dc81ffbac1d1abe028563e246a3bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39acf6bec9563c41818813d7bf9d7e86"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a39acf6bec9563c41818813d7bf9d7e86">wueBins</a> [10]</td></tr>
+<tr class="memdesc:a39acf6bec9563c41818813d7bf9d7e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warmup Enrichment bins (Values are in <a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">configPage2::wueValues</a> OLD:configTable1)  <a href="#a39acf6bec9563c41818813d7bf9d7e86">More...</a><br /></td></tr>
 <tr class="separator:a39acf6bec9563c41818813d7bf9d7e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9419674374b527470e56b1df89d9301"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa9419674374b527470e56b1df89d9301">dwellLimit</a></td></tr>
 <tr class="separator:aa9419674374b527470e56b1df89d9301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af53c6d0ce1242bfbbd378d77058b14"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3af53c6d0ce1242bfbbd378d77058b14">dwellCorrectionValues</a> [6]</td></tr>
+<tr class="memdesc:a3af53c6d0ce1242bfbbd378d77058b14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correction table for dwell vs battery voltage.  <a href="#a3af53c6d0ce1242bfbbd378d77058b14">More...</a><br /></td></tr>
 <tr class="separator:a3af53c6d0ce1242bfbbd378d77058b14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97f46be17eaac1cfabb98f56d1cc7efe"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a97f46be17eaac1cfabb98f56d1cc7efe">iatRetBins</a> [6]</td></tr>
+<tr class="memdesc:a97f46be17eaac1cfabb98f56d1cc7efe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlet Air Temp timing retard curve bins (Unit: ...)  <a href="#a97f46be17eaac1cfabb98f56d1cc7efe">More...</a><br /></td></tr>
 <tr class="separator:a97f46be17eaac1cfabb98f56d1cc7efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af24f5010516e9d5eebed35b5eae43e52"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af24f5010516e9d5eebed35b5eae43e52">iatRetValues</a> [6]</td></tr>
+<tr class="memdesc:af24f5010516e9d5eebed35b5eae43e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlet Air Temp timing retard curve values (Unit: ...)  <a href="#af24f5010516e9d5eebed35b5eae43e52">More...</a><br /></td></tr>
 <tr class="separator:af24f5010516e9d5eebed35b5eae43e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ed0ca8b1869af701a3d9b73962416c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af6ed0ca8b1869af701a3d9b73962416c">dfcoRPM</a></td></tr>
+<tr class="memdesc:af6ed0ca8b1869af701a3d9b73962416c"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM at which DFCO turns off/on at.  <a href="#af6ed0ca8b1869af701a3d9b73962416c">More...</a><br /></td></tr>
 <tr class="separator:af6ed0ca8b1869af701a3d9b73962416c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83df3602ac5c6ee635ba1d64924d13b7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a83df3602ac5c6ee635ba1d64924d13b7">dfcoHyster</a></td></tr>
 <tr class="separator:a83df3602ac5c6ee635ba1d64924d13b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1168,10 +1289,13 @@ Variables</h2></td></tr>
 <tr class="memitem:a236c4b5849d3cde5db5a3fde70fb4b56"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a236c4b5849d3cde5db5a3fde70fb4b56">unused4_124</a> [3]</td></tr>
 <tr class="separator:a236c4b5849d3cde5db5a3fde70fb4b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ed48016f5e5a4aa382b8f72675ff5e4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0ed48016f5e5a4aa382b8f72675ff5e4">egoAlgorithm</a></td></tr>
+<tr class="memdesc:a0ed48016f5e5a4aa382b8f72675ff5e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">EGO Algorithm - Simple, PID, No correction.  <a href="#a0ed48016f5e5a4aa382b8f72675ff5e4">More...</a><br /></td></tr>
 <tr class="separator:a0ed48016f5e5a4aa382b8f72675ff5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307b1c51e811a29b150c20a2fa12b105"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a307b1c51e811a29b150c20a2fa12b105">egoType</a></td></tr>
+<tr class="memdesc:a307b1c51e811a29b150c20a2fa12b105"><td class="mdescLeft">&#160;</td><td class="mdescRight">EGO Sensor Type 0=Disabled/None, 1=Narrowband, 2=Wideband.  <a href="#a307b1c51e811a29b150c20a2fa12b105">More...</a><br /></td></tr>
 <tr class="separator:a307b1c51e811a29b150c20a2fa12b105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3d68a69954aec2161d69a51d78d9e0c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af3d68a69954aec2161d69a51d78d9e0c">boostEnabled</a></td></tr>
+<tr class="memdesc:af3d68a69954aec2161d69a51d78d9e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost control enabled 0 =off, 1 = on.  <a href="#af3d68a69954aec2161d69a51d78d9e0c">More...</a><br /></td></tr>
 <tr class="separator:af3d68a69954aec2161d69a51d78d9e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaa58d8fcf8ee99dfa18bea4c3b85d2a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acaa58d8fcf8ee99dfa18bea4c3b85d2a">vvtEnabled</a></td></tr>
 <tr class="separator:acaa58d8fcf8ee99dfa18bea4c3b85d2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1184,14 +1308,19 @@ Variables</h2></td></tr>
 <tr class="memitem:a80d00829719f035aeefa2e089dc24ce3"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a80d00829719f035aeefa2e089dc24ce3">egoKD</a></td></tr>
 <tr class="separator:a80d00829719f035aeefa2e089dc24ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae94f7fcf92a23eb55ba9fd07441467b4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae94f7fcf92a23eb55ba9fd07441467b4">egoTemp</a></td></tr>
+<tr class="memdesc:ae94f7fcf92a23eb55ba9fd07441467b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temperature above which closed loop is enabled.  <a href="#ae94f7fcf92a23eb55ba9fd07441467b4">More...</a><br /></td></tr>
 <tr class="separator:ae94f7fcf92a23eb55ba9fd07441467b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a511642f4d95c4cf728251170e5ff178f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a511642f4d95c4cf728251170e5ff178f">egoCount</a></td></tr>
+<tr class="memdesc:a511642f4d95c4cf728251170e5ff178f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of ignition cylces per (ego AFR ?) step.  <a href="#a511642f4d95c4cf728251170e5ff178f">More...</a><br /></td></tr>
 <tr class="separator:a511642f4d95c4cf728251170e5ff178f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabd98712917fc6a220aeccfcf9fbbe53"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aabd98712917fc6a220aeccfcf9fbbe53">vvtMode</a></td></tr>
+<tr class="memdesc:aabd98712917fc6a220aeccfcf9fbbe53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Valid VVT modes are 'on/off', 'open loop' and 'closed loop'.  <a href="#aabd98712917fc6a220aeccfcf9fbbe53">More...</a><br /></td></tr>
 <tr class="separator:aabd98712917fc6a220aeccfcf9fbbe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02c4cc4c3ba71459dd56761803c9808e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a02c4cc4c3ba71459dd56761803c9808e">vvtLoadSource</a></td></tr>
+<tr class="memdesc:a02c4cc4c3ba71459dd56761803c9808e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load source for VVT (TPS or MAP)  <a href="#a02c4cc4c3ba71459dd56761803c9808e">More...</a><br /></td></tr>
 <tr class="separator:a02c4cc4c3ba71459dd56761803c9808e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333d2a2d56340f699486b394e1f76279"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a333d2a2d56340f699486b394e1f76279">vvtPWMdir</a></td></tr>
+<tr class="memdesc:a333d2a2d56340f699486b394e1f76279"><td class="mdescLeft">&#160;</td><td class="mdescRight">VVT direction (normal or reverse)  <a href="#a333d2a2d56340f699486b394e1f76279">More...</a><br /></td></tr>
 <tr class="separator:a333d2a2d56340f699486b394e1f76279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ae0ba89592444a513fc613cf39067bc"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5ae0ba89592444a513fc613cf39067bc">vvtCLUseHold</a></td></tr>
 <tr class="separator:a5ae0ba89592444a513fc613cf39067bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1202,26 +1331,34 @@ Variables</h2></td></tr>
 <tr class="memitem:a6aed9fe01f23fb8018e3cc1dcfbb28ad"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6aed9fe01f23fb8018e3cc1dcfbb28ad">egoLimit</a></td></tr>
 <tr class="separator:a6aed9fe01f23fb8018e3cc1dcfbb28ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe80da06096f6f7229f03b146750e9ae"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#abe80da06096f6f7229f03b146750e9ae">ego_min</a></td></tr>
+<tr class="memdesc:abe80da06096f6f7229f03b146750e9ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum amount the closed loop EGO control will vary the fueling.  <a href="#abe80da06096f6f7229f03b146750e9ae">More...</a><br /></td></tr>
 <tr class="separator:abe80da06096f6f7229f03b146750e9ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b305e0be56cad6efc6e3b75ed83a24c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7b305e0be56cad6efc6e3b75ed83a24c">ego_max</a></td></tr>
+<tr class="memdesc:a7b305e0be56cad6efc6e3b75ed83a24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">AFR must be above this for closed loop to function.  <a href="#a7b305e0be56cad6efc6e3b75ed83a24c">More...</a><br /></td></tr>
 <tr class="separator:a7b305e0be56cad6efc6e3b75ed83a24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5711fca364ddb20d4367cda82ee03f0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af5711fca364ddb20d4367cda82ee03f0">ego_sdelay</a></td></tr>
+<tr class="memdesc:af5711fca364ddb20d4367cda82ee03f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">AFR must be below this for closed loop to function.  <a href="#af5711fca364ddb20d4367cda82ee03f0">More...</a><br /></td></tr>
 <tr class="separator:af5711fca364ddb20d4367cda82ee03f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37c0e90e0f05513aa9a9eef246cca709"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a37c0e90e0f05513aa9a9eef246cca709">egoRPM</a></td></tr>
+<tr class="memdesc:a37c0e90e0f05513aa9a9eef246cca709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time in seconds after engine starts that closed loop becomes available.  <a href="#a37c0e90e0f05513aa9a9eef246cca709">More...</a><br /></td></tr>
 <tr class="separator:a37c0e90e0f05513aa9a9eef246cca709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e935ae3629176bcf02590ab58dc6964"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9e935ae3629176bcf02590ab58dc6964">egoTPSMax</a></td></tr>
+<tr class="memdesc:a9e935ae3629176bcf02590ab58dc6964"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM must be above this for closed loop to function.  <a href="#a9e935ae3629176bcf02590ab58dc6964">More...</a><br /></td></tr>
 <tr class="separator:a9e935ae3629176bcf02590ab58dc6964"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06a43d7182cdcf3ca7f23733e0b37c85"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a06a43d7182cdcf3ca7f23733e0b37c85">vvt1Pin</a></td></tr>
+<tr class="memdesc:a06a43d7182cdcf3ca7f23733e0b37c85"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS must be below this for closed loop to function.  <a href="#a06a43d7182cdcf3ca7f23733e0b37c85">More...</a><br /></td></tr>
 <tr class="separator:a06a43d7182cdcf3ca7f23733e0b37c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ca43bf4bf666767fe348fa8fd76889"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a32ca43bf4bf666767fe348fa8fd76889">useExtBaro</a></td></tr>
 <tr class="separator:a32ca43bf4bf666767fe348fa8fd76889"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa1b01ed99b2fa513f29ca0ad246f481"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aaa1b01ed99b2fa513f29ca0ad246f481">boostMode</a></td></tr>
 <tr class="separator:aaa1b01ed99b2fa513f29ca0ad246f481"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf854f095f493d24a871cc0a07b6c872"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acf854f095f493d24a871cc0a07b6c872">boostPin</a></td></tr>
+<tr class="memdesc:acf854f095f493d24a871cc0a07b6c872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost control mode: 0=Simple (BOOST_MODE_SIMPLE) or 1=full (BOOST_MODE_FULL)  <a href="#acf854f095f493d24a871cc0a07b6c872">More...</a><br /></td></tr>
 <tr class="separator:acf854f095f493d24a871cc0a07b6c872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e6a15963b84f891871e047c523e12ee"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5e6a15963b84f891871e047c523e12ee">unused_bit</a></td></tr>
 <tr class="separator:a5e6a15963b84f891871e047c523e12ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516a848fd692c804e525b194c69a1bd9"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a516a848fd692c804e525b194c69a1bd9">useEMAP</a></td></tr>
+<tr class="memdesc:a516a848fd692c804e525b194c69a1bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable EMAP.  <a href="#a516a848fd692c804e525b194c69a1bd9">More...</a><br /></td></tr>
 <tr class="separator:a516a848fd692c804e525b194c69a1bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38188c08cb22f38c347583e69c08617b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a38188c08cb22f38c347583e69c08617b">voltageCorrectionBins</a> [6]</td></tr>
 <tr class="separator:a38188c08cb22f38c347583e69c08617b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1234,12 +1371,16 @@ Variables</h2></td></tr>
 <tr class="memitem:aa4b71a6d07436b50793aedb7b9f6ca86"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aa4b71a6d07436b50793aedb7b9f6ca86">boostFreq</a></td></tr>
 <tr class="separator:aa4b71a6d07436b50793aedb7b9f6ca86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a469cf9eec116a928e99fb3b34c0b8bd8"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a469cf9eec116a928e99fb3b34c0b8bd8">vvtFreq</a></td></tr>
+<tr class="memdesc:a469cf9eec116a928e99fb3b34c0b8bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency of the boost PWM valve.  <a href="#a469cf9eec116a928e99fb3b34c0b8bd8">More...</a><br /></td></tr>
 <tr class="separator:a469cf9eec116a928e99fb3b34c0b8bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33fb0eef7b832d1da2ea32a8e66bcaa7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a33fb0eef7b832d1da2ea32a8e66bcaa7">idleFreq</a></td></tr>
+<tr class="memdesc:a33fb0eef7b832d1da2ea32a8e66bcaa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency of the vvt PWM valve.  <a href="#a33fb0eef7b832d1da2ea32a8e66bcaa7">More...</a><br /></td></tr>
 <tr class="separator:a33fb0eef7b832d1da2ea32a8e66bcaa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bc8d58eb691a687bcbfba5aa539a755"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a2bc8d58eb691a687bcbfba5aa539a755">launchPin</a></td></tr>
+<tr class="memdesc:a2bc8d58eb691a687bcbfba5aa539a755"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch (control ?) pin.  <a href="#a2bc8d58eb691a687bcbfba5aa539a755">More...</a><br /></td></tr>
 <tr class="separator:a2bc8d58eb691a687bcbfba5aa539a755"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c842965d15f9fcfd3a43fa987b28d32"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6c842965d15f9fcfd3a43fa987b28d32">launchEnabled</a></td></tr>
+<tr class="memdesc:a6c842965d15f9fcfd3a43fa987b28d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch ...???... (control?) enabled.  <a href="#a6c842965d15f9fcfd3a43fa987b28d32">More...</a><br /></td></tr>
 <tr class="separator:a6c842965d15f9fcfd3a43fa987b28d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f56d633e37eab5bd28bfd7156135ed"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a40f56d633e37eab5bd28bfd7156135ed">launchHiLo</a></td></tr>
 <tr class="separator:a40f56d633e37eab5bd28bfd7156135ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1258,6 +1399,7 @@ Variables</h2></td></tr>
 <tr class="memitem:a33129721864fc195228b7a504cb1d4e7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a33129721864fc195228b7a504cb1d4e7">idleKD</a></td></tr>
 <tr class="separator:a33129721864fc195228b7a504cb1d4e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4ad5e3d2a1f3c8819ea922c55d8a86c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae4ad5e3d2a1f3c8819ea922c55d8a86c">boostLimit</a></td></tr>
+<tr class="memdesc:ae4ad5e3d2a1f3c8819ea922c55d8a86c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost limit (Kpa). Stored value is actual (kPa) value divided by 2, allowing kPa values up to 511.  <a href="#ae4ad5e3d2a1f3c8819ea922c55d8a86c">More...</a><br /></td></tr>
 <tr class="separator:ae4ad5e3d2a1f3c8819ea922c55d8a86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e2bee08b734ff5b0771f28ca984d51"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae2e2bee08b734ff5b0771f28ca984d51">boostKP</a></td></tr>
 <tr class="separator:ae2e2bee08b734ff5b0771f28ca984d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1268,10 +1410,12 @@ Variables</h2></td></tr>
 <tr class="memitem:aaa9ceaf75405c6d18a6f5ca843abf7eb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aaa9ceaf75405c6d18a6f5ca843abf7eb">lnchPullRes</a></td></tr>
 <tr class="separator:aaa9ceaf75405c6d18a6f5ca843abf7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cb918d91088f5fe53717807059662b7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0cb918d91088f5fe53717807059662b7">iacPWMrun</a></td></tr>
+<tr class="memdesc:a0cb918d91088f5fe53717807059662b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the PWM idle valve before engine is cranked over (0 = off, 1 = on)  <a href="#a0cb918d91088f5fe53717807059662b7">More...</a><br /></td></tr>
 <tr class="separator:a0cb918d91088f5fe53717807059662b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a296b97dd8c08551086e7c8c4fdd11447"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a296b97dd8c08551086e7c8c4fdd11447">fuelTrimEnabled</a></td></tr>
 <tr class="separator:a296b97dd8c08551086e7c8c4fdd11447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8560001ad6d4a68d5b4fc68812877698"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8560001ad6d4a68d5b4fc68812877698">flatSEnable</a></td></tr>
+<tr class="memdesc:a8560001ad6d4a68d5b4fc68812877698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flat shift enable.  <a href="#a8560001ad6d4a68d5b4fc68812877698">More...</a><br /></td></tr>
 <tr class="separator:a8560001ad6d4a68d5b4fc68812877698"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a972bdee2f7d55feceb2872a7a2e67921"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a972bdee2f7d55feceb2872a7a2e67921">baroPin</a></td></tr>
 <tr class="separator:a972bdee2f7d55feceb2872a7a2e67921"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1602,8 +1746,10 @@ Variables</h2></td></tr>
 <tr class="memitem:ad369c286e2a195cfead45c0c75e9a029"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad369c286e2a195cfead45c0c75e9a029">crankingEnrichTaper</a></td></tr>
 <tr class="separator:ad369c286e2a195cfead45c0c75e9a029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1340350c73d79744c769d0a95efb461f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1340350c73d79744c769d0a95efb461f">fuelPressureEnable</a></td></tr>
+<tr class="memdesc:a1340350c73d79744c769d0a95efb461f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable fuel pressure sensing from an analog pin (<a class="el" href="globals_8ino.html#ae200ce860b62d2e3cc83edf27aae63f5">pinFuelPressure</a>)  <a href="#a1340350c73d79744c769d0a95efb461f">More...</a><br /></td></tr>
 <tr class="separator:a1340350c73d79744c769d0a95efb461f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae96f2a1b79be24cbd33747af6a3648fc"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae96f2a1b79be24cbd33747af6a3648fc">oilPressureEnable</a></td></tr>
+<tr class="memdesc:ae96f2a1b79be24cbd33747af6a3648fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable oil pressure sensing from an analog pin (<a class="el" href="globals_8ino.html#af0d639a152217fb32eb8224fd3e12ff4">pinOilPressure</a>)  <a href="#ae96f2a1b79be24cbd33747af6a3648fc">More...</a><br /></td></tr>
 <tr class="separator:ae96f2a1b79be24cbd33747af6a3648fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7959eeeb551b4d7b03f477e558d525e1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7959eeeb551b4d7b03f477e558d525e1">oilPressureProtEnbl</a></td></tr>
 <tr class="separator:a7959eeeb551b4d7b03f477e558d525e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1694,70 +1840,98 @@ Variables</h2></td></tr>
 <tr class="memitem:a603f00f74db354e2e14b9bb3f1b57112"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcmp_operation.html">cmpOperation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a603f00f74db354e2e14b9bb3f1b57112">__attribute__</a></td></tr>
 <tr class="separator:a603f00f74db354e2e14b9bb3f1b57112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33b5b5d2c63fca22683cd6463397dba"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad33b5b5d2c63fca22683cd6463397dba">outputInverted</a></td></tr>
+<tr class="memdesc:ad33b5b5d2c63fca22683cd6463397dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert (on/off) value before writing to output pin (for all programmable I/O:s?).  <a href="#ad33b5b5d2c63fca22683cd6463397dba">More...</a><br /></td></tr>
 <tr class="separator:ad33b5b5d2c63fca22683cd6463397dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75f6bec7451b6bf906fd5db7668400bf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a75f6bec7451b6bf906fd5db7668400bf">unused12_1</a></td></tr>
 <tr class="separator:a75f6bec7451b6bf906fd5db7668400bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fe18598d9428ffaf734cb8f58e0926"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">outputPin</a> [8]</td></tr>
+<tr class="memdesc:a12fe18598d9428ffaf734cb8f58e0926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable(0) or enable (set to valid pin number) Programmable Pin (output/target pin to set)  <a href="#a12fe18598d9428ffaf734cb8f58e0926">More...</a><br /></td></tr>
 <tr class="separator:a12fe18598d9428ffaf734cb8f58e0926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb86d7ee164ae07124e185968d1d8cb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#afb86d7ee164ae07124e185968d1d8cb2">outputDelay</a> [8]</td></tr>
+<tr class="memdesc:afb86d7ee164ae07124e185968d1d8cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output write delay for each programmable I/O (Unit: 0.1S ?)  <a href="#afb86d7ee164ae07124e185968d1d8cb2">More...</a><br /></td></tr>
 <tr class="separator:afb86d7ee164ae07124e185968d1d8cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af03fbb7985751749a7f90d41c3985b34"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af03fbb7985751749a7f90d41c3985b34">firstDataIn</a> [8]</td></tr>
+<tr class="memdesc:af03fbb7985751749a7f90d41c3985b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of first I/O vars to compare.  <a href="#af03fbb7985751749a7f90d41c3985b34">More...</a><br /></td></tr>
 <tr class="separator:af03fbb7985751749a7f90d41c3985b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa3260647b3cd6427ef0ac1474b1266"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0aa3260647b3cd6427ef0ac1474b1266">secondDataIn</a> [8]</td></tr>
+<tr class="memdesc:a0aa3260647b3cd6427ef0ac1474b1266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of second I/O vars to compare.  <a href="#a0aa3260647b3cd6427ef0ac1474b1266">More...</a><br /></td></tr>
 <tr class="separator:a0aa3260647b3cd6427ef0ac1474b1266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f14703fd0a38649575378b78c11c2b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a38f14703fd0a38649575378b78c11c2b">unused_13</a> [16]</td></tr>
 <tr class="separator:a38f14703fd0a38649575378b78c11c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d150f46cbb4f893361df2135d7b81fe"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe">firstTarget</a> [8]</td></tr>
+<tr class="memdesc:a6d150f46cbb4f893361df2135d7b81fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">first target value to compare with numeric comp  <a href="#a6d150f46cbb4f893361df2135d7b81fe">More...</a><br /></td></tr>
 <tr class="separator:a6d150f46cbb4f893361df2135d7b81fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49210f8960991c80ee6cba9d4edb5a02"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a49210f8960991c80ee6cba9d4edb5a02">secondTarget</a> [8]</td></tr>
+<tr class="memdesc:a49210f8960991c80ee6cba9d4edb5a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">second target value to compare with bitwise op  <a href="#a49210f8960991c80ee6cba9d4edb5a02">More...</a><br /></td></tr>
 <tr class="separator:a49210f8960991c80ee6cba9d4edb5a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ac7d3f3130d0c68cf1eaf4b7b7faf4f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcmp_operation.html">cmpOperation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5ac7d3f3130d0c68cf1eaf4b7b7faf4f">operation</a> [8]</td></tr>
+<tr class="memdesc:a5ac7d3f3130d0c68cf1eaf4b7b7faf4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">I/O variable comparison operations (See <a class="el" href="structcmp_operation.html">cmpOperation</a>)  <a href="#a5ac7d3f3130d0c68cf1eaf4b7b7faf4f">More...</a><br /></td></tr>
 <tr class="separator:a5ac7d3f3130d0c68cf1eaf4b7b7faf4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab77ac337b45495b4e69c6fd2391b9ddf"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ab77ac337b45495b4e69c6fd2391b9ddf">candID</a> [8]</td></tr>
+<tr class="memdesc:ab77ac337b45495b4e69c6fd2391b9ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actual CAN ID need 16bits, this is a placeholder.  <a href="#ab77ac337b45495b4e69c6fd2391b9ddf">More...</a><br /></td></tr>
 <tr class="separator:ab77ac337b45495b4e69c6fd2391b9ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7b5142a6fd83819f308a83e4c5a9677"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad7b5142a6fd83819f308a83e4c5a9677">unused12_106_127</a> [22]</td></tr>
 <tr class="separator:ad7b5142a6fd83819f308a83e4c5a9677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ea43fd1f04c488f5322147c51219b9f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8ea43fd1f04c488f5322147c51219b9f">pinInjector1</a></td></tr>
+<tr class="memdesc:a8ea43fd1f04c488f5322147c51219b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Various pin numbering (Injectors, Ign outputs, CAS, Cam, Sensors. etc.) assignments.  <a href="#a8ea43fd1f04c488f5322147c51219b9f">More...</a><br /></td></tr>
 <tr class="separator:a8ea43fd1f04c488f5322147c51219b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a561165a765cfbf61d8b3e8d8bf134f3e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a561165a765cfbf61d8b3e8d8bf134f3e">pinInjector2</a></td></tr>
+<tr class="memdesc:a561165a765cfbf61d8b3e8d8bf134f3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 2.  <a href="#a561165a765cfbf61d8b3e8d8bf134f3e">More...</a><br /></td></tr>
 <tr class="separator:a561165a765cfbf61d8b3e8d8bf134f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a533c314b0e28e2abb6a6b2d91305e9da"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a533c314b0e28e2abb6a6b2d91305e9da">pinInjector3</a></td></tr>
+<tr class="memdesc:a533c314b0e28e2abb6a6b2d91305e9da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 3.  <a href="#a533c314b0e28e2abb6a6b2d91305e9da">More...</a><br /></td></tr>
 <tr class="separator:a533c314b0e28e2abb6a6b2d91305e9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6bd1083e2f273177d4cc9826c34ff70"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af6bd1083e2f273177d4cc9826c34ff70">pinInjector4</a></td></tr>
+<tr class="memdesc:af6bd1083e2f273177d4cc9826c34ff70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 4.  <a href="#af6bd1083e2f273177d4cc9826c34ff70">More...</a><br /></td></tr>
 <tr class="separator:af6bd1083e2f273177d4cc9826c34ff70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ce7656fd744c84b32c61f40bcdfe1d5"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a9ce7656fd744c84b32c61f40bcdfe1d5">pinInjector5</a></td></tr>
+<tr class="memdesc:a9ce7656fd744c84b32c61f40bcdfe1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 5.  <a href="#a9ce7656fd744c84b32c61f40bcdfe1d5">More...</a><br /></td></tr>
 <tr class="separator:a9ce7656fd744c84b32c61f40bcdfe1d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8030ba64a9de06a88410ab8d84d8903a"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8030ba64a9de06a88410ab8d84d8903a">pinInjector6</a></td></tr>
+<tr class="memdesc:a8030ba64a9de06a88410ab8d84d8903a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 6.  <a href="#a8030ba64a9de06a88410ab8d84d8903a">More...</a><br /></td></tr>
 <tr class="separator:a8030ba64a9de06a88410ab8d84d8903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc3d304a57b51f9451e3d5016fcc26f7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acc3d304a57b51f9451e3d5016fcc26f7">pinInjector7</a></td></tr>
+<tr class="memdesc:acc3d304a57b51f9451e3d5016fcc26f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 7.  <a href="#acc3d304a57b51f9451e3d5016fcc26f7">More...</a><br /></td></tr>
 <tr class="separator:acc3d304a57b51f9451e3d5016fcc26f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acba371ef305cc37dfc0187e1e84dab22"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acba371ef305cc37dfc0187e1e84dab22">pinInjector8</a></td></tr>
+<tr class="memdesc:acba371ef305cc37dfc0187e1e84dab22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output pin injector 8.  <a href="#acba371ef305cc37dfc0187e1e84dab22">More...</a><br /></td></tr>
 <tr class="separator:acba371ef305cc37dfc0187e1e84dab22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1be7b2cb0702c7384c5d1f18d1d5b980"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a1be7b2cb0702c7384c5d1f18d1d5b980">injectorOutputControl</a></td></tr>
 <tr class="separator:a1be7b2cb0702c7384c5d1f18d1d5b980"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a6e1f6fba2f0b2b47703e027143d4ec"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8a6e1f6fba2f0b2b47703e027143d4ec">pinCoil1</a></td></tr>
+<tr class="memdesc:a8a6e1f6fba2f0b2b47703e027143d4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 1.  <a href="#a8a6e1f6fba2f0b2b47703e027143d4ec">More...</a><br /></td></tr>
 <tr class="separator:a8a6e1f6fba2f0b2b47703e027143d4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb511e6eea8a635fd37b04bde9f45789"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aeb511e6eea8a635fd37b04bde9f45789">pinCoil2</a></td></tr>
+<tr class="memdesc:aeb511e6eea8a635fd37b04bde9f45789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 2.  <a href="#aeb511e6eea8a635fd37b04bde9f45789">More...</a><br /></td></tr>
 <tr class="separator:aeb511e6eea8a635fd37b04bde9f45789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a703aca2a766f599405de81dea21e5ef1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a703aca2a766f599405de81dea21e5ef1">pinCoil3</a></td></tr>
+<tr class="memdesc:a703aca2a766f599405de81dea21e5ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 3.  <a href="#a703aca2a766f599405de81dea21e5ef1">More...</a><br /></td></tr>
 <tr class="separator:a703aca2a766f599405de81dea21e5ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15569dd7b2eb96e1539e34ea9b3c346b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a15569dd7b2eb96e1539e34ea9b3c346b">pinCoil4</a></td></tr>
+<tr class="memdesc:a15569dd7b2eb96e1539e34ea9b3c346b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 4.  <a href="#a15569dd7b2eb96e1539e34ea9b3c346b">More...</a><br /></td></tr>
 <tr class="separator:a15569dd7b2eb96e1539e34ea9b3c346b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e324a1731df2076ac7800527e53831e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a5e324a1731df2076ac7800527e53831e">pinCoil5</a></td></tr>
+<tr class="memdesc:a5e324a1731df2076ac7800527e53831e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 5.  <a href="#a5e324a1731df2076ac7800527e53831e">More...</a><br /></td></tr>
 <tr class="separator:a5e324a1731df2076ac7800527e53831e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaedeb3e4150080abef8b8bfc56c47be"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#acaedeb3e4150080abef8b8bfc56c47be">pinCoil6</a></td></tr>
+<tr class="memdesc:acaedeb3e4150080abef8b8bfc56c47be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 6.  <a href="#acaedeb3e4150080abef8b8bfc56c47be">More...</a><br /></td></tr>
 <tr class="separator:acaedeb3e4150080abef8b8bfc56c47be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9a94b45efb540df74f1f523522bf531"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af9a94b45efb540df74f1f523522bf531">pinCoil7</a></td></tr>
+<tr class="memdesc:af9a94b45efb540df74f1f523522bf531"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 7.  <a href="#af9a94b45efb540df74f1f523522bf531">More...</a><br /></td></tr>
 <tr class="separator:af9a94b45efb540df74f1f523522bf531"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75d2c2c0d61e2e9f9bbcca4cd62bc871"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a75d2c2c0d61e2e9f9bbcca4cd62bc871">pinCoil8</a></td></tr>
+<tr class="memdesc:a75d2c2c0d61e2e9f9bbcca4cd62bc871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin for coil 8.  <a href="#a75d2c2c0d61e2e9f9bbcca4cd62bc871">More...</a><br /></td></tr>
 <tr class="separator:a75d2c2c0d61e2e9f9bbcca4cd62bc871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ff36ad5c7004ea9340b46dda7d5433"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a46ff36ad5c7004ea9340b46dda7d5433">ignitionOutputControl</a></td></tr>
 <tr class="separator:a46ff36ad5c7004ea9340b46dda7d5433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f4858230128aedeb4be4f34058a8c58"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a7f4858230128aedeb4be4f34058a8c58">pinTrigger</a></td></tr>
+<tr class="memdesc:a7f4858230128aedeb4be4f34058a8c58"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM1 (Typically CAS=crankshaft angle sensor) pin.  <a href="#a7f4858230128aedeb4be4f34058a8c58">More...</a><br /></td></tr>
 <tr class="separator:a7f4858230128aedeb4be4f34058a8c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18a8717fbf36f4169602422e5ab63ef9"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a18a8717fbf36f4169602422e5ab63ef9">pinTrigger2</a></td></tr>
+<tr class="memdesc:a18a8717fbf36f4169602422e5ab63ef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM2 (Typically the Cam Sensor) pin.  <a href="#a18a8717fbf36f4169602422e5ab63ef9">More...</a><br /></td></tr>
 <tr class="separator:a18a8717fbf36f4169602422e5ab63ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0247d84fdc266d9278396e1d07e2b1aa"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0247d84fdc266d9278396e1d07e2b1aa">pinTrigger3</a></td></tr>
+<tr class="memdesc:a0247d84fdc266d9278396e1d07e2b1aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the 2nd cam sensor pin  <a href="#a0247d84fdc266d9278396e1d07e2b1aa">More...</a><br /></td></tr>
 <tr class="separator:a0247d84fdc266d9278396e1d07e2b1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19394b4f039d761f98105dae64d93010"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a19394b4f039d761f98105dae64d93010">pinTPS</a></td></tr>
 <tr class="separator:a19394b4f039d761f98105dae64d93010"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1830,10 +2004,13 @@ Variables</h2></td></tr>
 <tr class="memitem:a6ac806de7b5f1296db541587dec52e65"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6ac806de7b5f1296db541587dec52e65">pinBoost</a></td></tr>
 <tr class="separator:a6ac806de7b5f1296db541587dec52e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac55f6a9243ce7472b9efca18c44344d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aac55f6a9243ce7472b9efca18c44344d">pinVVT_1</a></td></tr>
+<tr class="memdesc:aac55f6a9243ce7472b9efca18c44344d"><td class="mdescLeft">&#160;</td><td class="mdescRight">vvt (variable valve timing) output 1  <a href="#aac55f6a9243ce7472b9efca18c44344d">More...</a><br /></td></tr>
 <tr class="separator:aac55f6a9243ce7472b9efca18c44344d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a343ea2f23c3fec36aa9cdf1eeb0e2158"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a343ea2f23c3fec36aa9cdf1eeb0e2158">pinVVT_2</a></td></tr>
+<tr class="memdesc:a343ea2f23c3fec36aa9cdf1eeb0e2158"><td class="mdescLeft">&#160;</td><td class="mdescRight">vvt (variable valve timing) output 2  <a href="#a343ea2f23c3fec36aa9cdf1eeb0e2158">More...</a><br /></td></tr>
 <tr class="separator:a343ea2f23c3fec36aa9cdf1eeb0e2158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22d616037351905f8c0ee8d9cdac172b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a22d616037351905f8c0ee8d9cdac172b">pinFan</a></td></tr>
+<tr class="memdesc:a22d616037351905f8c0ee8d9cdac172b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cooling fan output (on/off? See: <a class="el" href="auxiliaries_8ino.html">auxiliaries.ino</a>)  <a href="#a22d616037351905f8c0ee8d9cdac172b">More...</a><br /></td></tr>
 <tr class="separator:a22d616037351905f8c0ee8d9cdac172b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81250b536ee4caa65256151d32c759f0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a81250b536ee4caa65256151d32c759f0">pinStepperDir</a></td></tr>
 <tr class="separator:a81250b536ee4caa65256151d32c759f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1900,7 +2077,22 @@ Variables</h2></td></tr>
 <tr class="memitem:a2a7cacecbcfcb7a19e1c3c2068fbeebb"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a2a7cacecbcfcb7a19e1c3c2068fbeebb">o2CalibrationTable</a></td></tr>
 <tr class="separator:a2a7cacecbcfcb7a19e1c3c2068fbeebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Global defines, macros, struct definitions (<a class="el" href="structstatuses.html">statuses</a>, <a class="el" href="structconfig2.html">config2</a>, <a class="el" href="structconfig4.html">config4</a>, config*), extern-definitions (for globally accessible vars).</p>
+<h3>Note on configuration struct layouts</h3>
+<p>Once the struct members have been assigned to certain "role" (in certain SW version), they should not be "moved around" as the structs are stored onto EEPROM as-is and the offset and size of member needs to remain constant. Also removing existing struct members would disturb layouts. Because of this a certain amount unused old members will be left into the structs. For the storage related reasons also the bit fields are defined in byte-size (or multiple of ...) chunks.</p>
+<h3>Config Structs and 2D, 3D Tables</h3>
+<p>The config* structures contain information coming from tuning SW (e.g. TS) for 2D and 3D tables, where looked up value is not a result of direct array lookup, but from interpolation algorithm. Because of standard, reusable interpolation routines associated with structs <a class="el" href="structtable2_d.html">table2D</a> and <a class="el" href="structtable3_d.html">table3D</a>, the values from config are copied from config* structs to <a class="el" href="structtable2_d.html">table2D</a> (<a class="el" href="structtable3_d.html">table3D</a> destined configurations are not stored in config* structures).</p>
+<h3>Board choice</h3>
+<p>There's a C-preprocessor based "#if defined" logic present in this header file based on the Arduino IDE compiler set CPU (+board?) type, e.g. <code>__AVR_ATmega2560__</code>. This respectively drives (withi it's "#if defined ..." block):</p><ul>
+<li>The setting of various BOARD_* C-preprocessor variables (e.g. BOARD_MAX_ADC_PINS)</li>
+<li>Setting of BOARD_H (Board header) file (e.g. "board_avr2560.h"), which is later used to include the header file<ul>
+<li>Seems Arduino ide implicitly compiles and links respective .ino file (by it's internal build/compilation rules) (?)</li>
+</ul>
+</li>
+<li>Setting of CPU (?) CORE_* variables (e.g. CORE_AVR), that is used across codebase to distinguish CPU. </li>
+</ul>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aeef9fc7747ab1475e74e5ca7e5c5c791"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeef9fc7747ab1475e74e5ca7e5c5c791">&#9670;&nbsp;</a></span>AE_MODE_ADDER</h2>
 
@@ -2879,6 +3071,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Calibration table size for CLT, IAT, O2. </p>
+
 </div>
 </div>
 <a id="a7d46d98f00a9feb31cdc771a21b91c67"></a>
@@ -2892,6 +3086,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>All temperature measurements are stored offset by 40 degrees. This is so we can use an unsigned byte (0-255) to represent temperature ranges from -40 to 215 </p>
 
 </div>
 </div>
@@ -3784,6 +3979,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The maximum rpm that the ECU will attempt to run at. It is NOT related to the rev limiter, but is instead dictates how fast certain operations will be allowed to run. Lower number gives better performance </p>
 
 </div>
 </div>
@@ -3925,6 +4121,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The fuel trim tables are offset by 128 to allow for -128 to +128 values. </p>
+
 </div>
 </div>
 <a id="aa8d48ffa23ed01c0efe4237511231109"></a>
@@ -3938,6 +4136,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Ignition values from the main spark table are offset 40 degrees downards to allow for negative spark timing. </p>
 
 </div>
 </div>
@@ -4294,6 +4494,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>When the serial buffer is filled to greater than this threshold value, the serial processing operations will be performed more urgently in order to avoid it overflowing. Serial buffer is 64 bytes long, so the threshold is set at half this as a reasonable figure. </p>
 
 </div>
 </div>
@@ -4861,6 +5063,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Acceleration enrichment calc mode: 0 = Multiply | 1 = Add (AE_MODE_ADDER) </p>
+
 </div>
 </div>
 <a id="a6d2c1878531cf06f500aa23a06430737"></a>
@@ -4888,6 +5092,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>AE cold modifier, taper end temp (no modifier applied, was primePulse in early versions) </p>
 
 </div>
 </div>
@@ -4974,6 +5180,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>16x16 afr target map </p>
+
 </div>
 </div>
 <a id="a49dae6a84e710518f80b5bcaa3b7a4d7"></a>
@@ -5030,6 +5238,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Afterstart enrichment temperatures (x-axis) for (target) enrichment values. </p>
+
 </div>
 </div>
 <a id="a53c86d5a18acbda56b2d9cb34b56bd64"></a>
@@ -5043,6 +5253,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Afterstart enrichment cycles. This is the number of ignition cycles that the afterstart enrichment % lasts for. </p>
 
 </div>
 </div>
@@ -5058,6 +5270,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>4 bin After Start duration map (2D) </p>
+
 </div>
 </div>
 <a id="ade4f7d266cea15ae43661bde60107afc"></a>
@@ -5072,6 +5286,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Afterstart enrichment values (%) </p>
+
 </div>
 </div>
 <a id="afb34cf5f5cb7be8b7f030fba2b5ddce7"></a>
@@ -5085,6 +5301,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>4 bin After Start Enrichment map (2D) </p>
 
 </div>
 </div>
@@ -5170,6 +5388,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>8 bin baro correction curve (2D) </p>
+
 </div>
 </div>
 <a id="afcd7cbeb164deb3f8e864b0a014dd2e7"></a>
@@ -5253,7 +5473,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Battery voltage calibration offset </p>
+<p>Battery voltage calibration offset (Given as 10x value, e.g. 2v =&gt; 20) </p>
 
 </div>
 </div>
@@ -5282,6 +5502,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Boost control enabled 0 =off, 1 = on. </p>
 
 </div>
 </div>
@@ -5367,6 +5589,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Boost limit (Kpa). Stored value is actual (kPa) value divided by 2, allowing kPa values up to 511. </p>
+
 </div>
 </div>
 <a id="a184a1363b1b0ea8784569cf350fcdabf"></a>
@@ -5423,6 +5647,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Boost control mode: 0=Simple (BOOST_MODE_SIMPLE) or 1=full (BOOST_MODE_FULL) </p>
+
 </div>
 </div>
 <a id="ab553ceca89b57e51b80639dd7b912bd9"></a>
@@ -5451,6 +5677,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>8x8 boost map </p>
+
 </div>
 </div>
 <a id="a6f39f9743bf4ad009324e1bf21097e60"></a>
@@ -5464,6 +5692,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Boost Control type: 0=Open loop (OPEN_LOOP_BOOST), 1=closed loop (CLOSED_LOOP_BOOST) </p>
 
 </div>
 </div>
@@ -5492,6 +5722,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Actual CAN ID need 16bits, this is a placeholder. </p>
 
 </div>
 </div>
@@ -5619,6 +5851,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>These need to be here as they are used in both <a class="el" href="speeduino_8ino.html">speeduino.ino</a> and <a class="el" href="scheduler_8ino.html">scheduler.ino</a>. </p>
+
 </div>
 </div>
 <a id="a3776b8847a9ee0fbaf0bd45517cbe3eb"></a>
@@ -5730,6 +5964,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6 bin ignition adjustment based on coolant temperature (2D) </p>
 
 </div>
 </div>
@@ -5958,6 +6194,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The number of crank degrees that the system track over. 360 for wasted / timed batch and 720 for sequential. </p>
+
 </div>
 </div>
 <a id="a4e6a5c0236c339c6f91402d00a028a58"></a>
@@ -5971,6 +6209,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Fixed start-up/cranking ignition angle (See: <a class="el" href="corrections_8ino.html">corrections.ino</a>) </p>
 
 </div>
 </div>
@@ -5999,6 +6239,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>4 bin cranking Enrichment map (2D) </p>
 
 </div>
 </div>
@@ -6042,6 +6284,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, <a class="el" href="updates_8ino.html">updates.ino</a>) </p>
+
 </div>
 </div>
 <a id="aef898f8b883749f63caa8e3f3038e1cd"></a>
@@ -6055,6 +6299,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>RPM below which the engine is considered to be cranking. </p>
 
 </div>
 </div>
@@ -6126,7 +6372,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>The master global status struct. Contains all values that are updated frequently and used across modules </p>
+<p>The master global "live" status struct. Contains all values that are updated frequently and used across modules </p>
 
 </div>
 </div>
@@ -6170,6 +6416,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether or not DFCO (deceleration fuel cut-off) is turned on. </p>
+
 </div>
 </div>
 <a id="a83df3602ac5c6ee635ba1d64924d13b7"></a>
@@ -6211,6 +6459,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>RPM at which DFCO turns off/on at. </p>
 
 </div>
 </div>
@@ -6380,6 +6630,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Correction table for dwell vs battery voltage. </p>
+
 </div>
 </div>
 <a id="ae769621efca323cebd940d0d5b2335d4"></a>
@@ -6393,6 +6645,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Dwell time whilst cranking. </p>
 
 </div>
 </div>
@@ -6422,6 +6676,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Dwell time whilst running. </p>
+
 </div>
 </div>
 <a id="a648781b9d7c63f3b72490c03e376ece7"></a>
@@ -6435,6 +6691,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>4x4 Dwell map </p>
 
 </div>
 </div>
@@ -6450,6 +6708,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6 bin dwell voltage correction (2D) </p>
+
 </div>
 </div>
 <a id="a7b305e0be56cad6efc6e3b75ed83a24c"></a>
@@ -6463,6 +6723,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>AFR must be above this for closed loop to function. </p>
 
 </div>
 </div>
@@ -6478,6 +6740,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Maximum amount the closed loop EGO control will vary the fueling. </p>
+
 </div>
 </div>
 <a id="af5711fca364ddb20d4367cda82ee03f0"></a>
@@ -6491,6 +6755,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>AFR must be below this for closed loop to function. </p>
 
 </div>
 </div>
@@ -6506,6 +6772,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>EGO Algorithm - Simple, PID, No correction. </p>
+
 </div>
 </div>
 <a id="a511642f4d95c4cf728251170e5ff178f"></a>
@@ -6519,6 +6787,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The number of ignition cylces per (ego AFR ?) step. </p>
 
 </div>
 </div>
@@ -6590,6 +6860,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Time in seconds after engine starts that closed loop becomes available. </p>
+
 </div>
 </div>
 <a id="ae94f7fcf92a23eb55ba9fd07441467b4"></a>
@@ -6603,6 +6875,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The temperature above which closed loop is enabled. </p>
 
 </div>
 </div>
@@ -6618,6 +6892,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>RPM must be above this for closed loop to function. </p>
+
 </div>
 </div>
 <a id="a307b1c51e811a29b150c20a2fa12b105"></a>
@@ -6631,6 +6907,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>EGO Sensor Type 0=Disabled/None, 1=Narrowband, 2=Wideband. </p>
 
 </div>
 </div>
@@ -6758,6 +7036,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Engine crank/ign phasing type: 0=even fire, 1=odd fire. </p>
+
 </div>
 </div>
 <a id="a39b0cc47b55806f3f545154fc6672a98"></a>
@@ -6884,6 +7164,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set whether the fan output will stay on when the engine is cranking (0=force off, 1=allow on) </p>
+
 </div>
 </div>
 <a id="a4db1b6aa67c3cb367fc1d5aeb3a37a72"></a>
@@ -6897,6 +7179,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Allow running fan with engine off: 0 = Only run fan when engine is running, 1 = Allow even with engine off. </p>
 
 </div>
 </div>
@@ -6912,6 +7196,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set of first I/O vars to compare. </p>
+
 </div>
 </div>
 <a id="a6d150f46cbb4f893361df2135d7b81fe"></a>
@@ -6925,6 +7211,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>first target value to compare with numeric comp </p>
 
 </div>
 </div>
@@ -6940,6 +7228,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fixed Ignition angle value (enabled by <a class="el" href="globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3">configPage2::fixAngEnable</a>, copied to ignFixValue, Negative values allowed, See <a class="el" href="corrections_8ino.html">corrections.ino</a>) </p>
+
 </div>
 </div>
 <a id="a0ff41b0f89192cfb344212529da2b7e3"></a>
@@ -6953,6 +7243,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Whether fixed/locked timing is enabled (0=diable, 1=enable, See <a class="el" href="globals_8h.html#acd0da40143cc9ddf2bb15d1893f61dff">configPage4::FixAng</a>) </p>
 
 </div>
 </div>
@@ -6995,6 +7287,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Flat shift enable. </p>
 
 </div>
 </div>
@@ -7094,6 +7388,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6 bin flex fuel correction table for timing advance (2D) </p>
+
 </div>
 </div>
 <a id="aee2f360625dc7a6ce9597331aa524caf"></a>
@@ -7136,6 +7432,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6 bin flex fuel correction table for boost adjustments (2D) </p>
+
 </div>
 </div>
 <a id="aed828d483a6a75d1bad0efcb03640013"></a>
@@ -7149,6 +7447,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enable Flex fuel sensing (pin / interrupt) </p>
 
 </div>
 </div>
@@ -7220,6 +7520,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6 bin flex fuel correction table for fuel adjustments (2D) </p>
+
 </div>
 </div>
 <a id="a8662b5cb62166c9d87c1d0b8db1b64c9"></a>
@@ -7233,6 +7535,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TPS (raw adc count? % ?) value that triggers flood clear mode (No fuel whilst cranking, See <a class="el" href="corrections_8h.html#a7303204aac17cf3fb38bc5cbc54852a9">correctionFloodClear()</a>) </p>
 
 </div>
 </div>
@@ -7248,6 +7552,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Time (In seconds) that the fuel pump should be primed for on power up. </p>
+
 </div>
 </div>
 <a id="a85eccf7d26c44990d8c237ac5ac88bb4"></a>
@@ -7261,6 +7567,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tracks whether or not the fuel pump priming has been completed yet. </p>
 
 </div>
 </div>
@@ -7276,6 +7584,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The time (in seconds, based on <a class="el" href="structstatuses.html#a739c35982fbfc585684cb2daa53d1575">statuses::secl</a>) that the fuel pump started priming. </p>
+
 </div>
 </div>
 <a id="a4148535e1459fe7ee9ec8bf1f645e4ec"></a>
@@ -7289,6 +7599,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>int (member) indexes in fullStatus array </p>
 
 </div>
 </div>
@@ -7402,6 +7714,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fuel algorithm - 0=Manifold pressure/MAP (LOAD_SOURCE_MAP, default, proven), 1=Throttle/TPS (LOAD_SOURCE_TPS), 2=IMAP/EMAP (LOAD_SOURCE_IMAPEMAP) </p>
+
 </div>
 </div>
 <a id="a1340350c73d79744c769d0a95efb461f"></a>
@@ -7415,6 +7729,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enable fuel pressure sensing from an analog pin (<a class="el" href="globals_8ino.html#ae200ce860b62d2e3cc83edf27aae63f5">pinFuelPressure</a>) </p>
 
 </div>
 </div>
@@ -7472,6 +7788,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fuel pump pin (copied as override to pinFuelPump, defaults to board default, See: <a class="el" href="init_8ino.html">init.ino</a>) </p>
+
 </div>
 </div>
 <a id="a6e23e7d5be06ffdb1e5b70ba2bf01896"></a>
@@ -7486,6 +7804,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>16x16 fuel map </p>
+
 </div>
 </div>
 <a id="ad38a76d7b3fb61b974e66c0121ad8ef1"></a>
@@ -7499,6 +7819,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>16x16 fuel map </p>
 
 </div>
 </div>
@@ -7527,6 +7849,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6 bin flex fuel correction table for fuel adjustments (2D) </p>
 
 </div>
 </div>
@@ -7583,6 +7907,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Hard rev limit (RPM/100) </p>
 
 </div>
 </div>
@@ -7868,6 +8194,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Run the PWM idle valve before engine is cranked over (0 = off, 1 = on) </p>
+
 </div>
 </div>
 <a id="aa16c9823e40c0ce33ce57da2c65c44c8"></a>
@@ -8009,6 +8337,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>9 bin inlet air temperature density correction (2D) </p>
+
 </div>
 </div>
 <a id="ab130fff4f76a201a7b93ec6284715b94"></a>
@@ -8022,6 +8352,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6 bin ignition adjustment based on inlet air temperature (2D) </p>
 
 </div>
 </div>
@@ -8037,6 +8369,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Inlet Air Temp timing retard curve bins (Unit: ...) </p>
+
 </div>
 </div>
 <a id="af24f5010516e9d5eebed35b5eae43e52"></a>
@@ -8050,6 +8384,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Inlet Air Temp timing retard curve values (Unit: ...) </p>
 
 </div>
 </div>
@@ -8078,6 +8414,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6 bin idle advance adjustment table based on RPM difference (2D) </p>
 
 </div>
 </div>
@@ -8191,6 +8529,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Frequency of the vvt PWM valve. </p>
+
 </div>
 </div>
 <a id="a33129721864fc195228b7a504cb1d4e7"></a>
@@ -8260,6 +8600,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>10 bin idle target table for idle timing (2D) </p>
 
 </div>
 </div>
@@ -8372,6 +8714,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Ignition signal invert (?) (GOING_LOW=0 (default by <a class="el" href="init_8ino.html">init.ino</a>) / GOING_HIGH=1 ) </p>
 
 </div>
 </div>
@@ -8919,6 +9263,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Specifies whether the coils are controlled directly (Via an IO pin) or using something like the MC33810. 0 = Direct (OUTPUT_CONTROL_DIRECT), 10 = MC33810 (OUTPUT_CONTROL_MC33810) </p>
 
 </div>
 </div>
@@ -8934,6 +9279,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>16x16 ignition map </p>
+
 </div>
 </div>
 <a id="ae7cd222c10f07a9a7055e07cb19d5058"></a>
@@ -8947,6 +9294,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>16x16 ignition map </p>
 
 </div>
 </div>
@@ -8976,6 +9325,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Enable AFR target (stoich/afrtgt) compensation in PW calculation. </p>
+
 </div>
 </div>
 <a id="ab9d2daf541a21cba9bb9c1f7570f295d"></a>
@@ -9004,6 +9355,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Tracks whether the <a class="el" href="speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a> function has run completely (true = has run) </p>
+
 </div>
 </div>
 <a id="af86132d973faf2e5a61485637dbd8aa8"></a>
@@ -9031,6 +9384,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>volatile inj*_pin_port and inj*_pin_mask vars are for the direct port manipulation of the injectors, coils and aux outputs. </p>
 
 </div>
 </div>
@@ -9270,6 +9625,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>4 bin injector angle curve (2D) </p>
+
 </div>
 </div>
 <a id="a1be7b2cb0702c7384c5d1f18d1d5b980"></a>
@@ -9283,6 +9640,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Specifies whether the injectors are controlled directly (Via an IO pin) or using something like the MC33810. 0 = Direct (OUTPUT_CONTROL_DIRECT), 10 = MC33810 (OUTPUT_CONTROL_MC33810) </p>
 
 </div>
 </div>
@@ -9298,6 +9656,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6 bin injector voltage correction (2D) </p>
+
 </div>
 </div>
 <a id="ae947d2f618e8c9ecbe2aef2f08a50f99"></a>
@@ -9311,6 +9671,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Injector Layout - 0=INJ_PAIRED (#outputs == #cyls/2, timed over 1 crank rev), 1=INJ_SEMISEQUENTIAL (like paired, but #outputs == #cyls, only for 4 cyl), 2=INJ_BANKED (2 outputs are used), 3=INJ_SEQUENTIAL (#ouputs == #cyls, timed over full cycle, 2 crank revs) </p>
 
 </div>
 </div>
@@ -9326,6 +9687,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Injector opening time (ms * 10) </p>
+
 </div>
 </div>
 <a id="af4a95c264ed019fb2470288728caae2f"></a>
@@ -9339,6 +9702,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tracks whether or not the injectors priming has been completed yet. </p>
 
 </div>
 </div>
@@ -9354,6 +9719,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Injector timing (aka. injector staging) 0=simultaneous, 1=alternating. </p>
+
 </div>
 </div>
 <a id="a111eb1cd4245a4e12399886246796c7b"></a>
@@ -9367,6 +9734,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Injector type 0=Port (INJ_TYPE_PORT), 1=Throttle Body / TBI (INJ_TYPE_TBODY) </p>
 
 </div>
 </div>
@@ -9718,6 +10087,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Launch ...???... (control?) enabled. </p>
+
 </div>
 </div>
 <a id="a40f56d633e37eab5bd28bfd7156135ed"></a>
@@ -9746,6 +10117,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Launch (control ?) pin. </p>
+
 </div>
 </div>
 <a id="a9c4fbd687444a24d1c61a3ba2a7ca4fb"></a>
@@ -9759,6 +10132,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Legacy MAP reading behavior. </p>
 
 </div>
 </div>
@@ -9973,6 +10348,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>MAP sampling method (0=Instantaneous, 1=Cycle Average, 2=Cycle Minimum, 4=Ign. event average, See <a class="el" href="sensors_8ino.html">sensors.ino</a>) </p>
+
 </div>
 </div>
 <a id="ad123bb0cb70f5322b8792acd4628fd1e"></a>
@@ -10000,6 +10377,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>MAP value processing: 0 = off, 1 = div by currentStatus.baro, 2 = div by 100 (to gain usable value) </p>
 
 </div>
 </div>
@@ -10323,6 +10702,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Number of cylinders. </p>
+
 </div>
 </div>
 <a id="afff89f62b918d71810ba4580e5a3bdec"></a>
@@ -10336,6 +10717,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Number of injectors. </p>
 
 </div>
 </div>
@@ -10408,6 +10791,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The ATDC angle of channel 2 for oddfire. </p>
+
 </div>
 </div>
 <a id="aa99e0ee52038e01605e53a518813e2b3"></a>
@@ -10421,6 +10806,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The ATDC angle of channel 3 for oddfire. </p>
 
 </div>
 </div>
@@ -10436,6 +10823,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The ATDC angle of channel 4 for oddfire. </p>
+
 </div>
 </div>
 <a id="ae96f2a1b79be24cbd33747af6a3648fc"></a>
@@ -10449,6 +10838,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enable oil pressure sensing from an analog pin (<a class="el" href="globals_8ino.html#af0d639a152217fb32eb8224fd3e12ff4">pinOilPressure</a>) </p>
 
 </div>
 </div>
@@ -10562,6 +10953,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>I/O variable comparison operations (See <a class="el" href="structcmp_operation.html">cmpOperation</a>) </p>
+
 </div>
 </div>
 <a id="afb86d7ee164ae07124e185968d1d8cb2"></a>
@@ -10575,6 +10968,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Output write delay for each programmable I/O (Unit: 0.1S ?) </p>
 
 </div>
 </div>
@@ -10590,6 +10985,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Invert (on/off) value before writing to output pin (for all programmable I/O:s?). </p>
+
 </div>
 </div>
 <a id="a12fe18598d9428ffaf734cb8f58e0926"></a>
@@ -10604,6 +11001,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Disable(0) or enable (set to valid pin number) Programmable Pin (output/target pin to set) </p>
+
 </div>
 </div>
 <a id="a71d40e06c0a8ad7d28e82a3f6d9b5c73"></a>
@@ -10617,6 +11016,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Experimental / New ign. mode ... (?) (See <a class="el" href="decoders_8ino.html">decoders.ino</a>) </p>
 
 </div>
 </div>
@@ -10688,6 +11089,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Pin for coil 1. </p>
+
 </div>
 </div>
 <a id="aeb511e6eea8a635fd37b04bde9f45789"></a>
@@ -10701,6 +11104,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pin for coil 2. </p>
 
 </div>
 </div>
@@ -10716,6 +11121,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Pin for coil 3. </p>
+
 </div>
 </div>
 <a id="a15569dd7b2eb96e1539e34ea9b3c346b"></a>
@@ -10729,6 +11136,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pin for coil 4. </p>
 
 </div>
 </div>
@@ -10744,6 +11153,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Pin for coil 5. </p>
+
 </div>
 </div>
 <a id="acaedeb3e4150080abef8b8bfc56c47be"></a>
@@ -10757,6 +11168,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pin for coil 6. </p>
 
 </div>
 </div>
@@ -10772,6 +11185,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Pin for coil 7. </p>
+
 </div>
 </div>
 <a id="a75d2c2c0d61e2e9f9bbcca4cd62bc871"></a>
@@ -10785,6 +11200,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Pin for coil 8. </p>
 
 </div>
 </div>
@@ -10841,6 +11258,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Cooling fan output (on/off? See: <a class="el" href="auxiliaries_8ino.html">auxiliaries.ino</a>) </p>
 
 </div>
 </div>
@@ -10996,6 +11415,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Various pin numbering (Injectors, Ign outputs, CAS, Cam, Sensors. etc.) assignments. </p>
+<p>Output pin injector 1 </p>
+
 </div>
 </div>
 <a id="a561165a765cfbf61d8b3e8d8bf134f3e"></a>
@@ -11009,6 +11431,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Output pin injector 2. </p>
 
 </div>
 </div>
@@ -11024,6 +11448,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Output pin injector 3. </p>
+
 </div>
 </div>
 <a id="af6bd1083e2f273177d4cc9826c34ff70"></a>
@@ -11037,6 +11463,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Output pin injector 4. </p>
 
 </div>
 </div>
@@ -11052,6 +11480,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Output pin injector 5. </p>
+
 </div>
 </div>
 <a id="a8030ba64a9de06a88410ab8d84d8903a"></a>
@@ -11065,6 +11495,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Output pin injector 6. </p>
 
 </div>
 </div>
@@ -11080,6 +11512,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Output pin injector 7. </p>
+
 </div>
 </div>
 <a id="acba371ef305cc37dfc0187e1e84dab22"></a>
@@ -11093,6 +11527,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Output pin injector 8. </p>
 
 </div>
 </div>
@@ -11149,6 +11585,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The board / ping mapping number / id to be used (See: <a class="el" href="init_8ino.html#a86db22b96dc0b6738580853545476dd7">setPinMapping</a> in <a class="el" href="init_8ino.html">init.ino</a>) </p>
 
 </div>
 </div>
@@ -11542,6 +11980,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>RPM1 (Typically CAS=crankshaft angle sensor) pin. </p>
+
 </div>
 </div>
 <a id="a18a8717fbf36f4169602422e5ab63ef9"></a>
@@ -11556,6 +11996,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>RPM2 (Typically the Cam Sensor) pin. </p>
+
 </div>
 </div>
 <a id="a0247d84fdc266d9278396e1d07e2b1aa"></a>
@@ -11569,6 +12011,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>the 2nd cam sensor pin </p>
 
 </div>
 </div>
@@ -11598,6 +12042,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>vvt (variable valve timing) output 1 </p>
+
 </div>
 </div>
 <a id="a343ea2f23c3fec36aa9cdf1eeb0e2158"></a>
@@ -11611,6 +12057,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>vvt (variable valve timing) output 2 </p>
 
 </div>
 </div>
@@ -11767,6 +12215,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>4 bin Priming pulsewidth map (2D) </p>
+
 </div>
 </div>
 <a id="a795dfdb739aacf4957feb7773e47a912"></a>
@@ -11851,6 +12301,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>resetControl needs to be here (as global) because using the config page (4) directly can prevent burning the setting </p>
+
 </div>
 </div>
 <a id="aa30abdd3b5d2b09b460a739f7971ba04"></a>
@@ -11878,6 +12330,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Which method of reset control to use - 0=Disabled (RESET_CONTROL_DISABLED), 1=Prevent When Running (RESET_CONTROL_PREVENT_WHEN_RUNNING), 2=Prevent Always (RESET_CONTROL_PREVENT_ALWAYS), 3=Serial Command (RESET_CONTROL_SERIAL_COMMAND) - Copied to resetControl (See <a class="el" href="init_8ino.html">init.ino</a>, <a class="el" href="utilities_8ino.html">utilities.ino</a>) </p>
 
 </div>
 </div>
@@ -11920,6 +12373,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>8 bin ignition split curve for rotary leading/trailing (2D) </p>
 
 </div>
 </div>
@@ -12035,6 +12490,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set of second I/O vars to compare. </p>
+
 </div>
 </div>
 <a id="a49210f8960991c80ee6cba9d4edb5a02"></a>
@@ -12048,6 +12505,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>second target value to compare with bitwise op </p>
 
 </div>
 </div>
@@ -12077,6 +12536,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Time the soft limit can run (units ?) </p>
+
 </div>
 </div>
 <a id="a1a101344471a3e40f133cb7c8ddbf106"></a>
@@ -12091,6 +12552,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Amount soft limit (ignition) retard (degrees) </p>
+
 </div>
 </div>
 <a id="a18be6a0936783e6698e7216f3aec1f6a"></a>
@@ -12104,6 +12567,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Soft rev limit (RPM/100) </p>
 
 </div>
 </div>
@@ -12217,6 +12682,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Spark duration in ms * 10. </p>
+
 </div>
 </div>
 <a id="acdb19cedd2f2d05c9e4543a49f4b25b2"></a>
@@ -12315,6 +12782,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>8x8 fuel staging table </p>
+
 </div>
 </div>
 <a id="a66ac9e4f3283b1b3b5839f8cbd5f3291"></a>
@@ -12343,6 +12812,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Stoichiometric ratio (x10, so e.g. 14.7 =&gt; 147) </p>
+
 </div>
 </div>
 <a id="a8f88f7ea9c654949a9bb3f3cc6263808"></a>
@@ -12356,6 +12827,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Engine cycle type: four-stroke (0) / two-stroke (1) </p>
 
 </div>
 </div>
@@ -12399,6 +12872,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Whether to change the tacho speed ("half speed tacho" ?) </p>
+
 </div>
 </div>
 <a id="a0b27c32f353ef8a5c4fd38877b92f2ef"></a>
@@ -12426,6 +12901,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Custom pin setting for tacho output (if != 0, override copied to pinTachOut, which defaults to board assigned tach pin) </p>
 
 </div>
 </div>
@@ -12455,6 +12932,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>TPS based acceleration enrichment bins (Unit: %/s) </p>
+
 </div>
 </div>
 <a id="ab870130af2c18e5a63d65754518130ab"></a>
@@ -12468,6 +12947,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>4 bin TPS Acceleration Enrichment map (2D) </p>
 
 </div>
 </div>
@@ -12497,6 +12978,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TPS based acceleration enrichment rates (Unit: % to add), values matched to thresholds of taeBins. </p>
 
 </div>
 </div>
@@ -12554,6 +13037,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Tooth trigger history - delta time (in uS) from last tooth (Indexed by <a class="el" href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a>) </p>
+
 </div>
 </div>
 <a id="a406ba2c8645f7c8ffd3ccb8a01e9f167"></a>
@@ -12567,6 +13052,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Current index to <a class="el" href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> array. </p>
 
 </div>
 </div>
@@ -12624,6 +13111,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Multiplier for non evenly divisible tooth counts. </p>
+
 </div>
 </div>
 <a id="af206dab24f076947d26fe36c7ff86e9d"></a>
@@ -12638,6 +13127,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Primary (RPM1) Trigger Edge - 0 - RISING, 1 = FALLING (Copied from this config to primaryTriggerEdge) </p>
+
 </div>
 </div>
 <a id="a66dffce9a3cadc35a4ffc47003cce66c"></a>
@@ -12651,6 +13142,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Secondary (RPM2) Trigger Edge (See RPM1) </p>
 
 </div>
 </div>
@@ -12680,6 +13173,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Angle (ATDC) when tooth No:1 on the primary wheel sends signal (-360 to +360 deg.) </p>
+
 </div>
 </div>
 <a id="adb8f7f47170ef6b88539d645bc67593e"></a>
@@ -12693,6 +13188,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition/Spark output mode - 0=Wasted spark (IGN_MODE_WASTED), 1=single channel (IGN_MODE_SINGLE), 2=Wasted COP (IGN_MODE_WASTEDCOP), 3=Sequential (IGN_MODE_SEQUENTIAL), 4=Rotary (IGN_MODE_ROTARY) </p>
 
 </div>
 </div>
@@ -12707,6 +13203,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The size of the tooth gap (ie number of missing teeth) </p>
 
 </div>
 </div>
@@ -12778,6 +13276,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The full count of teeth on the trigger wheel if there were no gaps. </p>
+
 </div>
 </div>
 <a id="a06628ab70e4a4db0ac90732297f236d1"></a>
@@ -12791,6 +13291,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Decoder configured (DECODER_MISSING_TOOTH, DECODER_BASIC_DISTRIBUTOR, DECODER_GM7X, ... See <a class="el" href="init_8ino.html">init.ino</a>) </p>
 
 </div>
 </div>
@@ -12806,6 +13308,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Mode for Missing tooth secondary trigger - 0=single tooth cam wheel (SEC_TRIGGER_SINGLE), 1=4-1 (SEC_TRIGGER_4_1) or 2=poll level mode (SEC_TRIGGER_POLL) </p>
+
 </div>
 </div>
 <a id="aeef6b9eff41f3bdaf17fcb5d1075881b"></a>
@@ -12819,6 +13323,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Primary (RPM1) Trigger speed - 0 = crank speed (CRANK_SPEED), 1 = cam speed (CAM_SPEED), See <a class="el" href="decoders_8ino.html">decoders.ino</a>. </p>
 
 </div>
 </div>
@@ -12834,6 +13340,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6x6 Fuel trim 1 map </p>
+
 </div>
 </div>
 <a id="af4a27621370fef80fed1d5c00eb2cb08"></a>
@@ -12847,6 +13355,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6x6 Fuel trim 2 map </p>
 
 </div>
 </div>
@@ -12862,6 +13372,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6x6 Fuel trim 3 map </p>
+
 </div>
 </div>
 <a id="a5e12d3cf1f6321b6c04775a651d5c462"></a>
@@ -12875,6 +13387,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6x6 Fuel trim 4 map </p>
 
 </div>
 </div>
@@ -12890,6 +13404,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6x6 Fuel trim 5 map </p>
+
 </div>
 </div>
 <a id="a0d480492424d409659ec3cba40dc58fd"></a>
@@ -12903,6 +13419,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6x6 Fuel trim 6 map </p>
 
 </div>
 </div>
@@ -12918,6 +13436,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>6x6 Fuel trim 7 map </p>
+
 </div>
 </div>
 <a id="a177d3222fc65042036379d7f4fcfa6e5"></a>
@@ -12931,6 +13451,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6x6 Fuel trim 8 map </p>
 
 </div>
 </div>
@@ -13702,6 +14224,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Setting to change between fixed dwell value and dwell map (0=Fixed value from <a class="el" href="globals_8h.html#a211738550a40de5704e491367af6b71a">configPage4::dwellRun</a>, 1=Use <a class="el" href="globals_8ino.html#a648781b9d7c63f3b72490c03e376ece7">dwellTable</a>) </p>
+
 </div>
 </div>
 <a id="a516a848fd692c804e525b194c69a1bd9"></a>
@@ -13715,6 +14239,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Enable EMAP. </p>
 
 </div>
 </div>
@@ -13786,6 +14312,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>VSS (Vehicle speed sensor) mode (0=none, 1=CANbus, 2,3=Interrupt driven) </p>
+
 </div>
 </div>
 <a id="a32fd25c282f3ab27a9de6883cd81fd52"></a>
@@ -13800,6 +14328,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>VSS (Vehicle speed sensor) pin number. </p>
+
 </div>
 </div>
 <a id="a161d197473b990da59ad7db2c12a6a43"></a>
@@ -13813,6 +14343,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>VSS (Vehicle speed sensor) pulses per Km. </p>
 
 </div>
 </div>
@@ -13926,6 +14458,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>TPS must be below this for closed loop to function. </p>
+
 </div>
 </div>
 <a id="a54f9544b03ab7b82e57020ecf2aa41fa"></a>
@@ -13995,6 +14529,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>8x8 vvt2 map </p>
 
 </div>
 </div>
@@ -14178,6 +14714,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Frequency of the boost PWM valve. </p>
+
 </div>
 </div>
 <a id="a02c4cc4c3ba71459dd56761803c9808e"></a>
@@ -14191,6 +14729,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Load source for VVT (TPS or MAP) </p>
 
 </div>
 </div>
@@ -14206,6 +14746,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Valid VVT modes are 'on/off', 'open loop' and 'closed loop'. </p>
+
 </div>
 </div>
 <a id="a333d2a2d56340f699486b394e1f76279"></a>
@@ -14220,6 +14762,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>VVT direction (normal or reverse) </p>
+
 </div>
 </div>
 <a id="a1efa5dc61805625c01843f178ff0dc29"></a>
@@ -14233,6 +14777,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>8x8 vvt map </p>
 
 </div>
 </div>
@@ -14289,6 +14835,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>6 bin wmi correction table for timing advance (2D) </p>
 
 </div>
 </div>
@@ -14500,6 +15048,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>8x8 wmi map </p>
+
 </div>
 </div>
 <a id="af5754570fb305dc2d8fe70641b047528"></a>
@@ -14528,6 +15078,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Warmup Enrichment bins (Values are in <a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">configPage2::wueValues</a> OLD:configTable1) </p>
+
 </div>
 </div>
 <a id="af5085c0b67e738994a9093ba342bf01e"></a>
@@ -14542,6 +15094,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>10 bin Warm Up Enrichment map (2D) </p>
+
 </div>
 </div>
 <a id="a42184453d6f4128baaafeac67728a8c6"></a>
@@ -14555,6 +15109,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Warm up enrichment array (10 bytes, transferred to <a class="el" href="globals_8ino.html#af5085c0b67e738994a9093ba342bf01e">WUETable</a>) </p>
 
 </div>
 </div>

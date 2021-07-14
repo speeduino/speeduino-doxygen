@@ -214,7 +214,7 @@ Variables</h2></td></tr>
 <tr class="memitem:aff5e8c03a998148988fa19f435e2ca3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aff5e8c03a998148988fa19f435e2ca3c">ignitionSchedule8</a></td></tr>
 <tr class="separator:aff5e8c03a998148988fa19f435e2ca3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">IgnitionCallbacks</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>These are the function pointers that get called to begin and end the ignition coil charging. They are required for the various spark output modes </p>
+<tr><td colspan="2"><div class="groupText"><p>These are the (global) function pointers that get called to begin and end the ignition coil charging. They are required for the various spark output modes. </p>
 </div></td></tr>
 <tr class="memitem:ac469c035751af0cc3af7fae227c474cb"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ac469c035751af0cc3af7fae227c474cb">ign1StartFunction</a> )()</td></tr>
 <tr class="separator:ac469c035751af0cc3af7fae227c474cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,7 +249,27 @@ Variables</h2></td></tr>
 <tr class="memitem:aa6df5a5dd2022813a0c98c53595fe742"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa6df5a5dd2022813a0c98c53595fe742">ign8EndFunction</a> )()</td></tr>
 <tr class="separator:aa6df5a5dd2022813a0c98c53595fe742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Injector and Ignition (on/off) scheduling (structs).</p>
+<p>This scheduler is designed to maintain 2 schedules for use by the fuel and ignition systems. It functions by waiting for the overflow vectors from each of the timers in use to overflow, which triggers an interrupt.</p>
+<h2>Technical</h2>
+<p>Currently I am prescaling the 16-bit timers to 256 for injection and 64 for ignition. This means that the counter increments every 16us (injection) / 4uS (ignition) and will overflow every 1048576uS. </p><pre class="fragment">Max Period = (Prescale)*(1/Frequency)*(2^17)
+</pre><p>For more details see <a href="https://playground.arduino.cc/Code/Timer1/">https://playground.arduino.cc/Code/Timer1/</a> (OLD: <a href="http://playground.arduino.cc/code/timer1">http://playground.arduino.cc/code/timer1</a> ). This means that the precision of the scheduler is:</p>
+<ul>
+<li>16uS (+/- 8uS of target) for fuel</li>
+<li>4uS (+/- 2uS) for ignition</li>
+</ul>
+<h2>Features</h2>
+<p>This differs from most other schedulers in that its calls are non-recurring (ie when you schedule an event at a certain time and once it has occurred, it will not reoccur unless you explicitely ask/re-register for it). Each timer can have only 1 callback associated with it at any given time. If you call the setCallback function a 2nd time, the original schedule will be overwritten and not occur.</p>
+<h2>Timer identification</h2>
+<p>Arduino timers usage for injection and ignition schedules:</p><ul>
+<li>timer3 is used for schedule 1(?) (fuel 1,2,3,4 ign 7,8)</li>
+<li>timer4 is used for schedule 2(?) (fuel 5,6 ign 4,5,6)</li>
+<li>timer5 is used ... (fuel 7,8, ign 1,2,3)</li>
+</ul>
+<p>Timers 3,4 and 5 are 16-bit timers (ie count to 65536). See page 136 of the processors datasheet: <a href="http://www.atmel.com/Images/doc2549.pdf">http://www.atmel.com/Images/doc2549.pdf</a> .</p>
+<p>256 prescale gives tick every 16uS. 256 prescale gives overflow every 1048576uS (This means maximum wait time is 1.0485 seconds). </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aa7b94ad3c3f8966d9b73903d218e08e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7b94ad3c3f8966d9b73903d218e08e6">&#9670;&nbsp;</a></span>IGNITION_REFRESH_THRESHOLD</h2>
 
@@ -318,6 +338,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p><a class="el" href="struct_schedule.html">Schedule</a> statuses.</p><ul>
+<li>OFF - <a class="el" href="struct_schedule.html">Schedule</a> turned off and there is no scheduled plan</li>
+<li>PENDING - There's a scheduled plan, but is has not started to run yet</li>
+<li>STAGED - (???, Not used)</li>
+<li>RUNNING - <a class="el" href="struct_schedule.html">Schedule</a> is currently running </li>
+</ul>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75"></a>OFF&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73"></a>PENDING&#160;</td><td class="fielddoc"></td></tr>
@@ -342,6 +368,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Perform the injector priming pulses. Set these to run at an arbitrary time in the future (100us). The prime pulse value is in ms*10, so need to multiple by 100 to get to uS </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

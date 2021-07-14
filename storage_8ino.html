@@ -95,14 +95,19 @@ Functions</h2></td></tr>
 <tr class="memitem:aa1596a5e18b8f2792051ccaaec4f7b71"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#aa1596a5e18b8f2792051ccaaec4f7b71">readPageCRC32</a> (byte pageNo)</td></tr>
 <tr class="separator:aa1596a5e18b8f2792051ccaaec4f7b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0d3fa76548baa671184809ce8440ba"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#a2a0d3fa76548baa671184809ce8440ba">readLastBaro</a> ()</td></tr>
+<tr class="memdesc:a2a0d3fa76548baa671184809ce8440ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read last stored barometer reading from EEPROM.  <a href="#a2a0d3fa76548baa671184809ce8440ba">More...</a><br /></td></tr>
 <tr class="separator:a2a0d3fa76548baa671184809ce8440ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#a1a092e980b5f5fc36f2d33b5c79d6405">storeLastBaro</a> (byte newValue)</td></tr>
+<tr class="memdesc:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write last acquired arometer reading to EEPROM.  <a href="#a1a092e980b5f5fc36f2d33b5c79d6405">More...</a><br /></td></tr>
 <tr class="separator:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9eb42ab8f110baa42a1efbde1df64c63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#a9eb42ab8f110baa42a1efbde1df64c63">storeCalibrationValue</a> (uint16_t location, byte value)</td></tr>
+<tr class="memdesc:a9eb42ab8f110baa42a1efbde1df64c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store calibration value byte into EEPROM (offset "location").  <a href="#a9eb42ab8f110baa42a1efbde1df64c63">More...</a><br /></td></tr>
 <tr class="separator:a9eb42ab8f110baa42a1efbde1df64c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf46bc73c6a4df33773c6a4ce207191c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#aaf46bc73c6a4df33773c6a4ce207191c">readEEPROMVersion</a> ()</td></tr>
+<tr class="memdesc:aaf46bc73c6a4df33773c6a4ce207191c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read EEPROM current data format version (from offset EEPROM_DATA_VERSION).  <a href="#aaf46bc73c6a4df33773c6a4ce207191c">More...</a><br /></td></tr>
 <tr class="separator:aaf46bc73c6a4df33773c6a4ce207191c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc52f348f929632166603de11617428d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#afc52f348f929632166603de11617428d">storeEEPROMVersion</a> (byte newVersion)</td></tr>
+<tr class="memdesc:afc52f348f929632166603de11617428d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store EEPROM current data format version (to offset EEPROM_DATA_VERSION).  <a href="#afc52f348f929632166603de11617428d">More...</a><br /></td></tr>
 <tr class="separator:afc52f348f929632166603de11617428d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -110,7 +115,9 @@ Variables</h2></td></tr>
 <tr class="memitem:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8ino.html#aaf8ba209ce169eb65cf0d163c1ac3850">eepromWritesPending</a> = false</td></tr>
 <tr class="separator:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Lower level ConfigPage*, Table2D, Table3D and EEPROM storage operations. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a369be74b7836bb9eb5a57c95db8d3052"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a369be74b7836bb9eb5a57c95db8d3052">&#9670;&nbsp;</a></span>loadCalibration()</h2>
 
@@ -125,6 +132,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Read the calibration information from EEPROM. This is separate from the config load as the calibrations do not exist as pages within the ini file for Tuner Studio. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -151,6 +159,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Load all config tables from storage. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -179,6 +188,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Read EEPROM current data format version (from offset EEPROM_DATA_VERSION). </p>
+
 </div>
 </div>
 <a id="a2a0d3fa76548baa671184809ce8440ba"></a>
@@ -195,6 +206,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Read last stored barometer reading from EEPROM. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -222,6 +235,12 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Retrieves and returns the 4 byte CRC32 checksum for a given page from EEPROM. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pageNo</td><td>- Config page number </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -247,6 +266,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Reset all configPage* structs (2,4,6,9,10,13) and write them full of null-bytes. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -294,6 +314,8 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
+<p>Store calibration value byte into EEPROM (offset "location"). </p>
+
 </div>
 </div>
 <a id="afc52f348f929632166603de11617428d"></a>
@@ -311,6 +333,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Store EEPROM current data format version (to offset EEPROM_DATA_VERSION). </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -339,6 +363,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Write last acquired arometer reading to EEPROM. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -376,6 +402,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Write CRC32 checksum to EEPROM. Takes a page number and CRC32 value then stores it in the relevant place in EEPROM Note: Each pages requires 4 bytes for its CRC32. These are stored in reverse page order (ie the last page is store first in EEPROM). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pageNo</td><td>- Config page number </td></tr>
+    <tr><td class="paramname">crc32_val</td><td>- CRC32 checksum </td></tr>
+  </table>
+  </dd>
+</dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -401,6 +434,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Write all config pages to EEPROM. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -440,13 +474,14 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Write calibration tables to EEPROM. This takes the values in the 3 calibration tables (Coolant, Inlet temp and O2) and saves them to the EEPROM. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8ino_ac3efa003544375926eb7d8d88cf19523_icgraph.png" border="0" usemap="#storage_8ino_ac3efa003544375926eb7d8d88cf19523_icgraph" alt=""/></div>
 <map name="storage_8ino_ac3efa003544375926eb7d8d88cf19523_icgraph" id="storage_8ino_ac3efa003544375926eb7d8d88cf19523_icgraph">
 <area shape="rect" id="node2" href="comms_8h.html#ab8982e36e76fb7a0600ece003e4631db" title="command" alt="" coords="373,5,460,32"/>
-<area shape="rect" id="node4" href="comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451" title="Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memo..." alt="" coords="180,31,321,57"/>
+<area shape="rect" id="node4" href="comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451" title="receiveCalibration" alt="" coords="180,31,321,57"/>
 <area shape="rect" id="node5" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title="doUpdates" alt="" coords="205,81,297,108"/>
 <area shape="rect" id="node3" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="516,5,567,32"/>
 <area shape="rect" id="node6" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title="initialiseAll" alt="" coords="369,81,464,108"/>
@@ -471,6 +506,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Write a table or map to EEPROM storage. Takes the current configuration (config pages and maps) and writes them to EEPROM as per the layout defined in <a class="el" href="storage_8h.html">storage.h</a>. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

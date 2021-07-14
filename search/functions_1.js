@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addtoothlogentry',['addToothLogEntry',['../decoders_8ino.html#aa9e6155c9870e39e1118af203a4cee9a',1,'decoders.ino']]],
+  ['addtoothlogentry',['addToothLogEntry',['../group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a',1,'decoders.ino']]],
   ['advance',['advance',['../pages_8h.html#a5a72453b79576e4855834673719536c8',1,'pages.h']]],
   ['advance_5faxis',['advance_axis',['../table__iterator_8h.html#abba1dd025c111884afb9dee5d64ea7e8',1,'table_iterator.h']]],
   ['advance_5frow',['advance_row',['../table__iterator_8h.html#af2d4966303f71d8c1ba5ab31086c374a',1,'table_iterator.h']]],

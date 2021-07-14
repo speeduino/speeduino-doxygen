@@ -135,13 +135,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a688d00bbabd28fbaf9e0c50eca3adeae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a688d00bbabd28fbaf9e0c50eca3adeae">saveConfig</a> ()</td></tr>
 <tr class="separator:a688d00bbabd28fbaf9e0c50eca3adeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage</a> ()</td></tr>
-<tr class="memdesc:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packs the data within the current page (As set with the 'P' command) into a buffer and sends it.  <a href="#a4f99cc48bb26e2f99ed3d4b2c1269ef7">More...</a><br /></td></tr>
 <tr class="separator:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabc3de716acfb21773f61e5444c20c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aaabc3de716acfb21773f61e5444c20c4">sendPageASCII</a> ()</td></tr>
-<tr class="memdesc:aaabc3de716acfb21773f61e5444c20c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it...">sendPage()</a>, however data is sent in human readable format.  <a href="#aaabc3de716acfb21773f61e5444c20c4">More...</a><br /></td></tr>
 <tr class="separator:aaabc3de716acfb21773f61e5444c20c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a87ee164e2fe3eb17a57910d9531451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451">receiveCalibration</a> (byte)</td></tr>
-<tr class="memdesc:a9a87ee164e2fe3eb17a57910d9531451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory.  <a href="#a9a87ee164e2fe3eb17a57910d9531451">More...</a><br /></td></tr>
 <tr class="separator:a9a87ee164e2fe3eb17a57910d9531451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc8e8b623b8af266ae951edd96ade37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#adc8e8b623b8af266ae951edd96ade37b">sendToothLog</a> (uint8_t)</td></tr>
 <tr class="separator:adc8e8b623b8af266ae951edd96ade37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -517,6 +514,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Processes the incoming data on the serial buffer based on the command sent. Can be either data for a new command or a continuation of data for command that is already in progress:</p><ul>
+<li>cmdPending = If a command has started but is wairing on further data to complete</li>
+<li>chunkPending = Specifically for the new receive value method where TS will send a known number of contiguous bytes to be written to a table</li>
+</ul>
+<p>Comands are single byte (letter symbol) commands. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -529,9 +531,9 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node18" href="comms_8cpp.html#a1f8112fe04261fb00a689fbd96afd606" title="testComm" alt="" coords="201,841,292,868"/>
 <area shape="rect" id="node19" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title="calculateCRC32" alt="" coords="185,943,308,969"/>
 <area shape="rect" id="node25" href="_t_s___command_button_handler_8h.html#a420c8155eaca6f6bdc6a9937ba36c446" title="TS_CommandButtonsHandler" alt="" coords="140,715,353,741"/>
-<area shape="rect" id="node33" href="decoders_8h.html#af8f31abd69f3747f44a6491a2a3b94dd" title="loggerPrimaryISR" alt="" coords="179,993,314,1020"/>
-<area shape="rect" id="node34" href="decoders_8h.html#a24b99eef5e31c2d80415ea0dedb705e5" title="loggerSecondaryISR" alt="" coords="171,1044,323,1071"/>
-<area shape="rect" id="node35" href="comms_8cpp.html#aaabc3de716acfb21773f61e5444c20c4" title="Similar to sendPage(), however data is sent in human readable format. " alt="" coords="187,1095,306,1121"/>
+<area shape="rect" id="node33" href="group__dec__uni.html#gaf8f31abd69f3747f44a6491a2a3b94dd" title="loggerPrimaryISR" alt="" coords="179,993,314,1020"/>
+<area shape="rect" id="node34" href="group__dec__uni.html#ga24b99eef5e31c2d80415ea0dedb705e5" title="loggerSecondaryISR" alt="" coords="171,1044,323,1071"/>
+<area shape="rect" id="node35" href="comms_8cpp.html#aaabc3de716acfb21773f61e5444c20c4" title="sendPageASCII" alt="" coords="187,1095,306,1121"/>
 <area shape="rect" id="node36" href="pages_8h.html#aea9a6a80a7774cf740628d632b9734a6" title="getPageValue" alt="" coords="191,1145,302,1172"/>
 <area shape="rect" id="node37" href="rtc__common_8h.html#ac4a92ad796ddfa5c995791ff97ecefab" title="rtc_getSecond" alt="" coords="189,1196,304,1223"/>
 <area shape="rect" id="node38" href="rtc__common_8h.html#a28a45d8fadb901b319dd274a3e35249f" title="rtc_getMinute" alt="" coords="191,1247,302,1273"/>
@@ -542,9 +544,9 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node43" href="rtc__common_8h.html#a34dfabafd33ed94d17cf0720d36ca4a8" title="rtc_getYear" alt="" coords="199,1500,294,1527"/>
 <area shape="rect" id="node44" href="comms_8cpp.html#a6bdc3f8437af1ed0e5f20218366b3e58" title="sendToothLog" alt="" coords="191,1551,302,1577"/>
 <area shape="rect" id="node45" href="comms_8cpp.html#a04e88798d4ae7971f5641409724b2d6d" title="sendCompositeLog" alt="" coords="173,1601,320,1628"/>
-<area shape="rect" id="node46" href="comms_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title="Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memo..." alt="" coords="176,1652,317,1679"/>
+<area shape="rect" id="node46" href="comms_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title="receiveCalibration" alt="" coords="176,1652,317,1679"/>
 <area shape="rect" id="node47" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="401,1677,528,1704"/>
-<area shape="rect" id="node48" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it..." alt="" coords="205,892,289,919"/>
+<area shape="rect" id="node48" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="sendPage" alt="" coords="205,892,289,919"/>
 <area shape="rect" id="node49" href="pages_8h.html#af21f52defb535d26cf2bfac859885c53" title="setPageValue" alt="" coords="192,1753,301,1780"/>
 <area shape="rect" id="node50" href="rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65" title="rtc_setTime" alt="" coords="197,1804,296,1831"/>
 <area shape="rect" id="node3" href="table__iterator_8h.html#a476a13f82c424f83e1fc4a25044a1de1" title="at_end" alt="" coords="431,5,498,32"/>
@@ -612,11 +614,22 @@ Here is the caller graph for this function:</div>
           <td class="memname">byte getStatusEntry </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>byteNum</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Send a numbered byte-field (partial field in case of mul;ti-byte fields) from "current status" structure. Notes on fields:</p><ul>
+<li>Numbered field will be fields from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a>, but not at all in the internal order of strct (e.g. field RPM value, number 14 will be 2nd field in struct)</li>
+<li>The fields stored in multi-byte types will be accessed lowbyte and highbyte separately (e.g. PW1 will be broken into numbered byte-fields 75,76) <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">byteNum</td><td>- byte-Field number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Field value in 1 byte size struct fields or 1 byte partial value (chunk) on multibyte fields. </dd></dl>
+</li>
+</ul>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -655,11 +668,10 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Processes an incoming stream of calibration data from TunerStudio. Result is store in EEPROM and memory. </p>
+<p>Processes an incoming stream of calibration data (for CLT, IAT or O2) from TunerStudio. Result is store in EEPROM and memory.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tableID</td><td>Which calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
+    <tr><td class="paramname">tableID</td><td>- calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
   </table>
   </dd>
 </dl>
@@ -732,9 +744,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Packs the data within the current page (As set with the 'P' command) into a buffer and sends it. </p>
-<p>Note that some translation of the data is required to lay it out in the way Megasqurit / TunerStudio expect it Data is sent in binary format, as defined by in each page in the ini </p>
+<p>Pack the data within the current page (As set with the 'P' command) into a buffer and send it.</p>
+<p>Creates a page iterator by <a class="el" href="pages_8h.html#a06fec3cc7c60b26061ff7bf8a55606ca">page_begin()</a> (See: <a class="el" href="pages_8cpp.html">pages.cpp</a>). Sends page given in <a class="el" href="comms_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a>.</p>
+<p>Note that some translation of the data is required to lay it out in the way Megasqurit / TunerStudio expect it. Data is sent in binary format, as defined by in each page in the speeduino.ini. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -770,8 +782,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Similar to <a class="el" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title="Packs the data within the current page (As set with the &#39;P&#39; command) into a buffer and sends it...">sendPage()</a>, however data is sent in human readable format. </p>
+<p>Send page as ASCII for debugging purposes. Similar to <a class="el" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage()</a>, however data is sent in human readable format. Sends page given in <a class="el" href="comms_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a>.</p>
 <p>This is used for testing only (Not used by TunerStudio) in order to see current map and config data without the need for TunerStudio. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -813,25 +824,25 @@ Here is the caller graph for this function:</div>
           <td class="memname">void sendValues </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>packetLength</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">byte&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>cmd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">byte&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>portNum</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -840,6 +851,16 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Send a status record back to tuning/logging SW. This will "live" information from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a> struct. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">offset</td><td>- Start field number </td></tr>
+    <tr><td class="paramname">packetLength</td><td>- Length of actual message (after possible ack/confirm headers) </td></tr>
+    <tr><td class="paramname">cmd</td><td>- ??? - Will be used as some kind of ack on CANSerial </td></tr>
+    <tr><td class="paramname">portNum</td><td>- Port number (0=Serial, 3=CANSerial) E.g. tuning sw command 'A' (Send all values) will send data from field number 0, LOG_ENTRY_SIZE fields. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the current values of a fixed group of variables </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -957,7 +978,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether or not the current chucnk write is complete or not </p>
+<p>Whether or not the current chucnk write is complete or not</p>
+<p>Whether or not the current chunk write is complete or not </p>
 
 </div>
 </div>
@@ -1159,7 +1181,8 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>THe memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries </p>
+<p>THe memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries</p>
+<p>The memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries </p>
 
 </div>
 </div>

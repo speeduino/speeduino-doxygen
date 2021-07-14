@@ -96,6 +96,27 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initialize Speeduino for the main loop. Top level init entrypoint for all initializations:</p><ul>
+<li>Intialize and set sizes of 3D tables</li>
+<li>Load config from EEPROM, update config structures to current version of SW if needed.</li>
+<li>Initialize board (The initBoard() is for board X implemented in board_X.ino file)</li>
+<li>Initialize timers (See <a class="el" href="timers_8ino.html">timers.ino</a>)</li>
+<li>Perform optional SD card and RTC battery inits</li>
+<li>Load calibrarion tables from EEPROM</li>
+<li>Perform pin mapping (calling <a class="el" href="init_8h.html#a83d91ac4ac165c8eb1e569ebbf69e7b2">setPinMapping()</a> based on <a class="el" href="structconfig2.html#aaa639bb97df66c4f0aca60fea75a8856">config2::pinMapping</a>)</li>
+<li>Stop any coil charging and close injectors</li>
+<li>Intialize schedulers, Idle, Fan, auxPWM, Corrections, AD-conversions, Programmable I/O</li>
+<li>Intialize baro (ambient pressure) by reading MAP (before engine runs)</li>
+<li>Intialize triggers (by <a class="el" href="init_8h.html#a88674b99a08fb6841af61763600797cd">initialiseTriggers()</a> )</li>
+<li>Perform cyl. count based initializations (<a class="el" href="structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f">config2::nCylinders</a>)</li>
+<li>Perform injection and spark mode based setup<ul>
+<li>Assign injector open/close and coil charge begin/end functions to their dedicated global vars</li>
+</ul>
+</li>
+<li>Perform fuel pressure priming by turning fuel pump on</li>
+<li>Read CLT and TPS sensors to have cranking pulsewidths computed correctly</li>
+<li>Mark Initialization completed (this flag-marking is used in code to prevent after-init changes) </li>
+</ul>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -121,6 +142,11 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initialize the chosen trigger decoder.</p><ul>
+<li>Set Interrput numbers triggerInterrupt, triggerInterrupt2 and triggerInterrupt3 by pin their numbers (based on board CORE_* define)</li>
+<li>Call decoder specific setup function triggerSetup_*() (by <a class="el" href="structconfig4.html#aecc64a98725c5c25a721ca6e6fde2bbe">config4::TrigPattern</a>, set to one of the DECODER_* defines) and do any additional initializations needed.</li>
+</ul>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Explain why triggerSetup_*() alone cannot do all the setup, but there's ~10+ lines worth of extra init for each of decoders. </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -144,11 +170,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">void setPinMapping </td>
           <td>(</td>
           <td class="paramtype">byte&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>boardID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Set board / microcontroller specfic pin mappings / assignments. The boardID is switch-case compared against raw boardID integers (not enum or #define:d label, and probably no need for that either) which are originated from tuning SW (e.g. TS) set values and are avilable in reference/speeduino.ini (See pinLayout, note also that numbering is not contiguous here). </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

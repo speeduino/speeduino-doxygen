@@ -72,30 +72,42 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a9cd2904e2646bd3903642aa1bc09439b"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a9cd2904e2646bd3903642aa1bc09439b">triggerAngle</a></td></tr>
+<tr class="memdesc:a9cd2904e2646bd3903642aa1bc09439b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle (ATDC) when tooth No:1 on the primary wheel sends signal (-360 to +360 deg.)  <a href="#a9cd2904e2646bd3903642aa1bc09439b">More...</a><br /></td></tr>
 <tr class="separator:a9cd2904e2646bd3903642aa1bc09439b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd9fde15111d45388e2b19f568103c0a"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#afd9fde15111d45388e2b19f568103c0a">FixAng</a></td></tr>
+<tr class="memdesc:afd9fde15111d45388e2b19f568103c0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed Ignition angle value (enabled by <a class="el" href="globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3">configPage2::fixAngEnable</a>, copied to ignFixValue, Negative values allowed, See <a class="el" href="corrections_8ino.html">corrections.ino</a>)  <a href="#afd9fde15111d45388e2b19f568103c0a">More...</a><br /></td></tr>
 <tr class="separator:afd9fde15111d45388e2b19f568103c0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af748636ebd0bbb4afaa456f9586242ff"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#af748636ebd0bbb4afaa456f9586242ff">CrankAng</a></td></tr>
+<tr class="memdesc:af748636ebd0bbb4afaa456f9586242ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fixed start-up/cranking ignition angle (See: <a class="el" href="corrections_8ino.html">corrections.ino</a>)  <a href="#af748636ebd0bbb4afaa456f9586242ff">More...</a><br /></td></tr>
 <tr class="separator:af748636ebd0bbb4afaa456f9586242ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee5db4ba9b4642fa304433d9b86244f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a9ee5db4ba9b4642fa304433d9b86244f">TrigAngMul</a></td></tr>
+<tr class="memdesc:a9ee5db4ba9b4642fa304433d9b86244f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier for non evenly divisible tooth counts.  <a href="#a9ee5db4ba9b4642fa304433d9b86244f">More...</a><br /></td></tr>
 <tr class="separator:a9ee5db4ba9b4642fa304433d9b86244f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f7ee9de31b8a2d30362b827cee1a608"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a2f7ee9de31b8a2d30362b827cee1a608">TrigEdge</a>: 1</td></tr>
+<tr class="memdesc:a2f7ee9de31b8a2d30362b827cee1a608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary (RPM1) Trigger Edge - 0 - RISING, 1 = FALLING (Copied from this config to primaryTriggerEdge)  <a href="#a2f7ee9de31b8a2d30362b827cee1a608">More...</a><br /></td></tr>
 <tr class="separator:a2f7ee9de31b8a2d30362b827cee1a608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1009ac75b26322b6f6fe2e2711022df"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#ac1009ac75b26322b6f6fe2e2711022df">TrigSpeed</a>: 1</td></tr>
+<tr class="memdesc:ac1009ac75b26322b6f6fe2e2711022df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Primary (RPM1) Trigger speed - 0 = crank speed (CRANK_SPEED), 1 = cam speed (CAM_SPEED), See <a class="el" href="decoders_8ino.html">decoders.ino</a>.  <a href="#ac1009ac75b26322b6f6fe2e2711022df">More...</a><br /></td></tr>
 <tr class="separator:ac1009ac75b26322b6f6fe2e2711022df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a347d1d0ebf95b1ce99ac7f795e726291"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a347d1d0ebf95b1ce99ac7f795e726291">IgInv</a>: 1</td></tr>
+<tr class="memdesc:a347d1d0ebf95b1ce99ac7f795e726291"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignition signal invert (?) (GOING_LOW=0 (default by <a class="el" href="init_8ino.html">init.ino</a>) / GOING_HIGH=1 )  <a href="#a347d1d0ebf95b1ce99ac7f795e726291">More...</a><br /></td></tr>
 <tr class="separator:a347d1d0ebf95b1ce99ac7f795e726291"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc64a98725c5c25a721ca6e6fde2bbe"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#aecc64a98725c5c25a721ca6e6fde2bbe">TrigPattern</a>: 5</td></tr>
+<tr class="memdesc:aecc64a98725c5c25a721ca6e6fde2bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decoder configured (DECODER_MISSING_TOOTH, DECODER_BASIC_DISTRIBUTOR, DECODER_GM7X, ... See <a class="el" href="init_8ino.html">init.ino</a>)  <a href="#aecc64a98725c5c25a721ca6e6fde2bbe">More...</a><br /></td></tr>
 <tr class="separator:aecc64a98725c5c25a721ca6e6fde2bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3489e0881c488aa5a0b7d6315fb54c7"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#af3489e0881c488aa5a0b7d6315fb54c7">TrigEdgeSec</a>: 1</td></tr>
+<tr class="memdesc:af3489e0881c488aa5a0b7d6315fb54c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secondary (RPM2) Trigger Edge (See RPM1)  <a href="#af3489e0881c488aa5a0b7d6315fb54c7">More...</a><br /></td></tr>
 <tr class="separator:af3489e0881c488aa5a0b7d6315fb54c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e79b037e038ebad983fdec70be766a4"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a0e79b037e038ebad983fdec70be766a4">fuelPumpPin</a>: 6</td></tr>
+<tr class="memdesc:a0e79b037e038ebad983fdec70be766a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel pump pin (copied as override to pinFuelPump, defaults to board default, See: <a class="el" href="init_8ino.html">init.ino</a>)  <a href="#a0e79b037e038ebad983fdec70be766a4">More...</a><br /></td></tr>
 <tr class="separator:a0e79b037e038ebad983fdec70be766a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea19422586e920c0ea9052c4e96aa83b"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#aea19422586e920c0ea9052c4e96aa83b">useResync</a>: 1</td></tr>
 <tr class="separator:aea19422586e920c0ea9052c4e96aa83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60815ecf14db04c7a2cf9602c11ae0a5"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a60815ecf14db04c7a2cf9602c11ae0a5">sparkDur</a></td></tr>
+<tr class="memdesc:a60815ecf14db04c7a2cf9602c11ae0a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spark duration in ms * 10.  <a href="#a60815ecf14db04c7a2cf9602c11ae0a5">More...</a><br /></td></tr>
 <tr class="separator:a60815ecf14db04c7a2cf9602c11ae0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae629b470a7855c23c2afd215a8d74e68"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#ae629b470a7855c23c2afd215a8d74e68">trigPatternSec</a>: 7</td></tr>
+<tr class="memdesc:ae629b470a7855c23c2afd215a8d74e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode for Missing tooth secondary trigger - 0=single tooth cam wheel (SEC_TRIGGER_SINGLE), 1=4-1 (SEC_TRIGGER_4_1) or 2=poll level mode (SEC_TRIGGER_POLL)  <a href="#ae629b470a7855c23c2afd215a8d74e68">More...</a><br /></td></tr>
 <tr class="separator:ae629b470a7855c23c2afd215a8d74e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefea8dcca3c029fedf1fa898c7f93f99"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#aefea8dcca3c029fedf1fa898c7f93f99">PollLevelPolarity</a>: 1</td></tr>
 <tr class="separator:aefea8dcca3c029fedf1fa898c7f93f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,6 +120,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a15bf258370909917a4f075b66c01fe02"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a15bf258370909917a4f075b66c01fe02">StgCycles</a></td></tr>
 <tr class="separator:a15bf258370909917a4f075b66c01fe02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadb6009dcdce33b505aeccccd8ec0016"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016">boostType</a>: 1</td></tr>
+<tr class="memdesc:aadb6009dcdce33b505aeccccd8ec0016"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost Control type: 0=Open loop (OPEN_LOOP_BOOST), 1=closed loop (CLOSED_LOOP_BOOST)  <a href="#aadb6009dcdce33b505aeccccd8ec0016">More...</a><br /></td></tr>
 <tr class="separator:aadb6009dcdce33b505aeccccd8ec0016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97f238fcef7dfb04e88d631f68f08aaa"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa">useDwellLim</a>: 1</td></tr>
 <tr class="separator:a97f238fcef7dfb04e88d631f68f08aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,40 +131,57 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af79479b41a71ae0e94744327e91fd4a2"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#af79479b41a71ae0e94744327e91fd4a2">ignCranklock</a>: 1</td></tr>
 <tr class="separator:af79479b41a71ae0e94744327e91fd4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5bcfaa6837aefa93b59aa59dc7347fbe"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a5bcfaa6837aefa93b59aa59dc7347fbe">dwellCrank</a></td></tr>
+<tr class="memdesc:a5bcfaa6837aefa93b59aa59dc7347fbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dwell time whilst cranking.  <a href="#a5bcfaa6837aefa93b59aa59dc7347fbe">More...</a><br /></td></tr>
 <tr class="separator:a5bcfaa6837aefa93b59aa59dc7347fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d224562591626d97cc4e890edaee56f"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a9d224562591626d97cc4e890edaee56f">dwellRun</a></td></tr>
+<tr class="memdesc:a9d224562591626d97cc4e890edaee56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dwell time whilst running.  <a href="#a9d224562591626d97cc4e890edaee56f">More...</a><br /></td></tr>
 <tr class="separator:a9d224562591626d97cc4e890edaee56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a209b3fb815ee9b67f247e733740debab"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a209b3fb815ee9b67f247e733740debab">triggerTeeth</a></td></tr>
+<tr class="memdesc:a209b3fb815ee9b67f247e733740debab"><td class="mdescLeft">&#160;</td><td class="mdescRight">The full count of teeth on the trigger wheel if there were no gaps.  <a href="#a209b3fb815ee9b67f247e733740debab">More...</a><br /></td></tr>
 <tr class="separator:a209b3fb815ee9b67f247e733740debab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada6104e3844ac2abca089cf47b3f27b8"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#ada6104e3844ac2abca089cf47b3f27b8">triggerMissingTeeth</a></td></tr>
+<tr class="memdesc:ada6104e3844ac2abca089cf47b3f27b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of the tooth gap (ie number of missing teeth)  <a href="#ada6104e3844ac2abca089cf47b3f27b8">More...</a><br /></td></tr>
 <tr class="separator:ada6104e3844ac2abca089cf47b3f27b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47cf89db0bfb840cdf1188ce249a9dae"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae">crankRPM</a></td></tr>
+<tr class="memdesc:a47cf89db0bfb840cdf1188ce249a9dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM below which the engine is considered to be cranking.  <a href="#a47cf89db0bfb840cdf1188ce249a9dae">More...</a><br /></td></tr>
 <tr class="separator:a47cf89db0bfb840cdf1188ce249a9dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4876a8a84a661e8fede8d75fbcc72025"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a4876a8a84a661e8fede8d75fbcc72025">floodClear</a></td></tr>
+<tr class="memdesc:a4876a8a84a661e8fede8d75fbcc72025"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS (raw adc count? % ?) value that triggers flood clear mode (No fuel whilst cranking, See <a class="el" href="corrections_8h.html#a7303204aac17cf3fb38bc5cbc54852a9">correctionFloodClear()</a>)  <a href="#a4876a8a84a661e8fede8d75fbcc72025">More...</a><br /></td></tr>
 <tr class="separator:a4876a8a84a661e8fede8d75fbcc72025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812d30608f1f4d9c17bc8409d7258f32"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a812d30608f1f4d9c17bc8409d7258f32">SoftRevLim</a></td></tr>
+<tr class="memdesc:a812d30608f1f4d9c17bc8409d7258f32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Soft rev limit (RPM/100)  <a href="#a812d30608f1f4d9c17bc8409d7258f32">More...</a><br /></td></tr>
 <tr class="separator:a812d30608f1f4d9c17bc8409d7258f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c132cfd4c2a0b19a4d2c5d7f16d0e0"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a96c132cfd4c2a0b19a4d2c5d7f16d0e0">SoftLimRetard</a></td></tr>
+<tr class="memdesc:a96c132cfd4c2a0b19a4d2c5d7f16d0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount soft limit (ignition) retard (degrees)  <a href="#a96c132cfd4c2a0b19a4d2c5d7f16d0e0">More...</a><br /></td></tr>
 <tr class="separator:a96c132cfd4c2a0b19a4d2c5d7f16d0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45deb291cbf936066ec4dcf0081ecec1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a45deb291cbf936066ec4dcf0081ecec1">SoftLimMax</a></td></tr>
+<tr class="memdesc:a45deb291cbf936066ec4dcf0081ecec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time the soft limit can run (units ?)  <a href="#a45deb291cbf936066ec4dcf0081ecec1">More...</a><br /></td></tr>
 <tr class="separator:a45deb291cbf936066ec4dcf0081ecec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fd4e0c8ea7e7bdccf477ed696aafff1"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a8fd4e0c8ea7e7bdccf477ed696aafff1">HardRevLim</a></td></tr>
+<tr class="memdesc:a8fd4e0c8ea7e7bdccf477ed696aafff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hard rev limit (RPM/100)  <a href="#a8fd4e0c8ea7e7bdccf477ed696aafff1">More...</a><br /></td></tr>
 <tr class="separator:a8fd4e0c8ea7e7bdccf477ed696aafff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15b9f44d912bcebc4aa483adc69563d8"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a15b9f44d912bcebc4aa483adc69563d8">taeBins</a> [4]</td></tr>
+<tr class="memdesc:a15b9f44d912bcebc4aa483adc69563d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS based acceleration enrichment bins (Unit: %/s)  <a href="#a15b9f44d912bcebc4aa483adc69563d8">More...</a><br /></td></tr>
 <tr class="separator:a15b9f44d912bcebc4aa483adc69563d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a661ec7d63fb6c8696207c2f9f5f481ae"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a661ec7d63fb6c8696207c2f9f5f481ae">taeValues</a> [4]</td></tr>
+<tr class="memdesc:a661ec7d63fb6c8696207c2f9f5f481ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS based acceleration enrichment rates (Unit: % to add), values matched to thresholds of taeBins.  <a href="#a661ec7d63fb6c8696207c2f9f5f481ae">More...</a><br /></td></tr>
 <tr class="separator:a661ec7d63fb6c8696207c2f9f5f481ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35f1fff1823a5bf4a86bfc7a3b924eda"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda">wueBins</a> [10]</td></tr>
+<tr class="memdesc:a35f1fff1823a5bf4a86bfc7a3b924eda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warmup Enrichment bins (Values are in <a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">configPage2::wueValues</a> OLD:configTable1)  <a href="#a35f1fff1823a5bf4a86bfc7a3b924eda">More...</a><br /></td></tr>
 <tr class="separator:a35f1fff1823a5bf4a86bfc7a3b924eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac858ca96fd01bcd6305e04554fd3dcdd"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#ac858ca96fd01bcd6305e04554fd3dcdd">dwellLimit</a></td></tr>
 <tr class="separator:ac858ca96fd01bcd6305e04554fd3dcdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa1fff04611d377f79ba1344c9fa3545"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#afa1fff04611d377f79ba1344c9fa3545">dwellCorrectionValues</a> [6]</td></tr>
+<tr class="memdesc:afa1fff04611d377f79ba1344c9fa3545"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correction table for dwell vs battery voltage.  <a href="#afa1fff04611d377f79ba1344c9fa3545">More...</a><br /></td></tr>
 <tr class="separator:afa1fff04611d377f79ba1344c9fa3545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69db3fe387858d407465aaf1701dbc80"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a69db3fe387858d407465aaf1701dbc80">iatRetBins</a> [6]</td></tr>
+<tr class="memdesc:a69db3fe387858d407465aaf1701dbc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlet Air Temp timing retard curve bins (Unit: ...)  <a href="#a69db3fe387858d407465aaf1701dbc80">More...</a><br /></td></tr>
 <tr class="separator:a69db3fe387858d407465aaf1701dbc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6dd280776368e4187e7c5e8472dc24d"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#ad6dd280776368e4187e7c5e8472dc24d">iatRetValues</a> [6]</td></tr>
+<tr class="memdesc:ad6dd280776368e4187e7c5e8472dc24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inlet Air Temp timing retard curve values (Unit: ...)  <a href="#ad6dd280776368e4187e7c5e8472dc24d">More...</a><br /></td></tr>
 <tr class="separator:ad6dd280776368e4187e7c5e8472dc24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0db78224b4ddc80d2c33ca09858e3767"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a0db78224b4ddc80d2c33ca09858e3767">dfcoRPM</a></td></tr>
+<tr class="memdesc:a0db78224b4ddc80d2c33ca09858e3767"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM at which DFCO turns off/on at.  <a href="#a0db78224b4ddc80d2c33ca09858e3767">More...</a><br /></td></tr>
 <tr class="separator:a0db78224b4ddc80d2c33ca09858e3767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62f401f0dd00e2dbb27555a47c65b2ee"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a62f401f0dd00e2dbb27555a47c65b2ee">dfcoHyster</a></td></tr>
 <tr class="separator:a62f401f0dd00e2dbb27555a47c65b2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +238,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a33f390e6ca95083fa9b692f2b29e0a63"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig4.html#a33f390e6ca95083fa9b692f2b29e0a63">unused4_124</a> [3]</td></tr>
 <tr class="separator:a33f390e6ca95083fa9b692f2b29e0a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Page 4 of the config - variables required for ignition and rpm/crank phase /cam phase decoding. See the ini file for further reference. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="a2dcf9cd76b035eff2f1be4726c848683"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2dcf9cd76b035eff2f1be4726c848683">&#9670;&nbsp;</a></span>ADCFILTER_BARO</h2>
 
@@ -360,7 +392,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Battery voltage calibration offset </p>
+<p>Battery voltage calibration offset (Given as 10x value, e.g. 2v =&gt; 20) </p>
 
 </div>
 </div>
@@ -375,6 +407,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Boost Control type: 0=Open loop (OPEN_LOOP_BOOST), 1=closed loop (CLOSED_LOOP_BOOST) </p>
 
 </div>
 </div>
@@ -434,6 +468,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fixed start-up/cranking ignition angle (See: <a class="el" href="corrections_8ino.html">corrections.ino</a>) </p>
+
 </div>
 </div>
 <a id="a47cf89db0bfb840cdf1188ce249a9dae"></a>
@@ -447,6 +483,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>RPM below which the engine is considered to be cranking. </p>
 
 </div>
 </div>
@@ -476,6 +514,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>RPM at which DFCO turns off/on at. </p>
+
 </div>
 </div>
 <a id="a1b60ea86d0aa4705a00f7e17c78d8c70"></a>
@@ -504,6 +544,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Correction table for dwell vs battery voltage. </p>
+
 </div>
 </div>
 <a id="a5bcfaa6837aefa93b59aa59dc7347fbe"></a>
@@ -517,6 +559,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Dwell time whilst cranking. </p>
 
 </div>
 </div>
@@ -546,6 +590,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Dwell time whilst running. </p>
+
 </div>
 </div>
 <a id="a15915e055b03b29d8b64b28e79fa6361"></a>
@@ -574,6 +620,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fixed Ignition angle value (enabled by <a class="el" href="globals_8h.html#a0ff41b0f89192cfb344212529da2b7e3">configPage2::fixAngEnable</a>, copied to ignFixValue, Negative values allowed, See <a class="el" href="corrections_8ino.html">corrections.ino</a>) </p>
+
 </div>
 </div>
 <a id="a4876a8a84a661e8fede8d75fbcc72025"></a>
@@ -587,6 +635,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TPS (raw adc count? % ?) value that triggers flood clear mode (No fuel whilst cranking, See <a class="el" href="corrections_8h.html#a7303204aac17cf3fb38bc5cbc54852a9">correctionFloodClear()</a>) </p>
 
 </div>
 </div>
@@ -602,6 +652,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Fuel pump pin (copied as override to pinFuelPump, defaults to board default, See: <a class="el" href="init_8ino.html">init.ino</a>) </p>
+
 </div>
 </div>
 <a id="a8fd4e0c8ea7e7bdccf477ed696aafff1"></a>
@@ -615,6 +667,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Hard rev limit (RPM/100) </p>
 
 </div>
 </div>
@@ -630,6 +684,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Inlet Air Temp timing retard curve bins (Unit: ...) </p>
+
 </div>
 </div>
 <a id="ad6dd280776368e4187e7c5e8472dc24d"></a>
@@ -643,6 +699,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Inlet Air Temp timing retard curve values (Unit: ...) </p>
 
 </div>
 </div>
@@ -685,6 +743,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Ignition signal invert (?) (GOING_LOW=0 (default by <a class="el" href="init_8ino.html">init.ino</a>) / GOING_HIGH=1 ) </p>
 
 </div>
 </div>
@@ -813,6 +873,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Which method of reset control to use - 0=Disabled (RESET_CONTROL_DISABLED), 1=Prevent When Running (RESET_CONTROL_PREVENT_WHEN_RUNNING), 2=Prevent Always (RESET_CONTROL_PREVENT_ALWAYS), 3=Serial Command (RESET_CONTROL_SERIAL_COMMAND) - Copied to resetControl (See <a class="el" href="init_8ino.html">init.ino</a>, <a class="el" href="utilities_8ino.html">utilities.ino</a>) </p>
 
 </div>
 </div>
@@ -828,6 +889,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Time the soft limit can run (units ?) </p>
+
 </div>
 </div>
 <a id="a96c132cfd4c2a0b19a4d2c5d7f16d0e0"></a>
@@ -841,6 +904,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Amount soft limit (ignition) retard (degrees) </p>
 
 </div>
 </div>
@@ -856,6 +921,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Soft rev limit (RPM/100) </p>
+
 </div>
 </div>
 <a id="a60815ecf14db04c7a2cf9602c11ae0a5"></a>
@@ -869,6 +936,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Spark duration in ms * 10. </p>
 
 </div>
 </div>
@@ -912,6 +981,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>TPS based acceleration enrichment bins (Unit: %/s) </p>
+
 </div>
 </div>
 <a id="a661ec7d63fb6c8696207c2f9f5f481ae"></a>
@@ -925,6 +996,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TPS based acceleration enrichment rates (Unit: % to add), values matched to thresholds of taeBins. </p>
 
 </div>
 </div>
@@ -940,6 +1013,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Multiplier for non evenly divisible tooth counts. </p>
+
 </div>
 </div>
 <a id="a2f7ee9de31b8a2d30362b827cee1a608"></a>
@@ -953,6 +1028,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Primary (RPM1) Trigger Edge - 0 - RISING, 1 = FALLING (Copied from this config to primaryTriggerEdge) </p>
 
 </div>
 </div>
@@ -968,6 +1045,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Secondary (RPM2) Trigger Edge (See RPM1) </p>
+
 </div>
 </div>
 <a id="a9cd2904e2646bd3903642aa1bc09439b"></a>
@@ -982,6 +1061,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Angle (ATDC) when tooth No:1 on the primary wheel sends signal (-360 to +360 deg.) </p>
+
 </div>
 </div>
 <a id="ae748150312a685b852691280e33b9daf"></a>
@@ -995,6 +1076,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition/Spark output mode - 0=Wasted spark (IGN_MODE_WASTED), 1=single channel (IGN_MODE_SINGLE), 2=Wasted COP (IGN_MODE_WASTEDCOP), 3=Sequential (IGN_MODE_SEQUENTIAL), 4=Rotary (IGN_MODE_ROTARY) </p>
 
 </div>
 </div>
@@ -1010,6 +1092,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The size of the tooth gap (ie number of missing teeth) </p>
+
 </div>
 </div>
 <a id="a209b3fb815ee9b67f247e733740debab"></a>
@@ -1023,6 +1107,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The full count of teeth on the trigger wheel if there were no gaps. </p>
 
 </div>
 </div>
@@ -1038,6 +1124,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Decoder configured (DECODER_MISSING_TOOTH, DECODER_BASIC_DISTRIBUTOR, DECODER_GM7X, ... See <a class="el" href="init_8ino.html">init.ino</a>) </p>
+
 </div>
 </div>
 <a id="ae629b470a7855c23c2afd215a8d74e68"></a>
@@ -1052,6 +1140,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Mode for Missing tooth secondary trigger - 0=single tooth cam wheel (SEC_TRIGGER_SINGLE), 1=4-1 (SEC_TRIGGER_4_1) or 2=poll level mode (SEC_TRIGGER_POLL) </p>
+
 </div>
 </div>
 <a id="ac1009ac75b26322b6f6fe2e2711022df"></a>
@@ -1065,6 +1155,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Primary (RPM1) Trigger speed - 0 = crank speed (CRANK_SPEED), 1 = cam speed (CAM_SPEED), See <a class="el" href="decoders_8ino.html">decoders.ino</a>. </p>
 
 </div>
 </div>
@@ -1163,6 +1255,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Warmup Enrichment bins (Values are in <a class="el" href="globals_8h.html#a42184453d6f4128baaafeac67728a8c6">configPage2::wueValues</a> OLD:configTable1) </p>
 
 </div>
 </div>

@@ -84,10 +84,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a82b0d12e4412f994abe591ef88c32cd9"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8h.html#a82b0d12e4412f994abe591ef88c32cd9">correctionCranking</a> ()</td></tr>
 <tr class="separator:a82b0d12e4412f994abe591ef88c32cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb5887423ec5d91bc397734d564d036e"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8h.html#adb5887423ec5d91bc397734d564d036e">correctionASE</a> ()</td></tr>
-<tr class="memdesc:adb5887423ec5d91bc397734d564d036e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afer Start Enrichment calculation.  <a href="#adb5887423ec5d91bc397734d564d036e">More...</a><br /></td></tr>
 <tr class="separator:adb5887423ec5d91bc397734d564d036e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2c66e6e11888d88d75ea9302f6831b6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8h.html#af2c66e6e11888d88d75ea9302f6831b6">correctionAccel</a> ()</td></tr>
-<tr class="memdesc:af2c66e6e11888d88d75ea9302f6831b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration enrichment correction calculation.  <a href="#af2c66e6e11888d88d75ea9302f6831b6">More...</a><br /></td></tr>
 <tr class="separator:af2c66e6e11888d88d75ea9302f6831b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7303204aac17cf3fb38bc5cbc54852a9"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8h.html#a7303204aac17cf3fb38bc5cbc54852a9">correctionFloodClear</a> ()</td></tr>
 <tr class="separator:a7303204aac17cf3fb38bc5cbc54852a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,10 +174,10 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Acceleration enrichment correction calculation. </p>
+<p>Acceleration enrichment correction calculation.</p>
 <p>Calculates the % change of the throttle over time (%/second) and performs a lookup based on this Coolant-based modifier is applied on the top of this. When the enrichment is turned on, it runs at that amount for a fixed period of time (taeTime)</p>
-<dl class="section return"><dt>Returns</dt><dd>uint16_t The Acceleration enrichment modifier as a %. 100% = No modification. As the maximum enrichment amount is +255% and maximum cold adjustment for this is 255%, the overall return value from this function can be 100+(255*255/100)=750. Hence this function returns a uint16_t rather than byte </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>uint16_t The Acceleration enrichment modifier as a %. 100% = No modification.</dd></dl>
+<p>As the maximum enrichment amount is +255% and maximum cold adjustment for this is 255%, the overall return value from this function can be 100+(255*255/100)=750. Hence this function returns a uint16_t rather than byte. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -218,6 +216,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Lookup the AFR target table and perform either a simple or PID adjustment based on this.</p>
+<p>Simple (Best suited to narrowband sensors): If the O2 sensor reports that the mixture is lean/rich compared to the desired AFR target, it will make a 1% adjustment It then waits &lt;egoDelta&gt; number of ignition events and compares O2 against the target table again. If it is still lean/rich then the adjustment is increased to 2%.</p>
+<p>This continues until either:</p><ul>
+<li>the O2 reading flips from lean to rich, at which point the adjustment cycle starts again at 1% or</li>
+<li>the adjustment amount increases to &lt;egoLimit&gt; at which point it stays at this level until the O2 state (rich/lean) changes</li>
+</ul>
+<p>PID (Best suited to wideband sensors): </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -253,9 +258,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Afer Start Enrichment calculation. </p>
-<p>This is a short period (Usually &lt;20 seconds) immediately after the engine first fires (But not when cranking) where an additional amount of fuel is added (Over and above the WUE amount)</p>
+<p>Afer Start Enrichment calculation. This is a short period (Usually &lt;20 seconds) immediately after the engine first fires (But not when cranking) where an additional amount of fuel is added (Over and above the WUE amount).</p>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t The After Start Enrichment modifier as a %. 100% = No modification. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -294,7 +297,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>A percentage value indicating the amount the fueling should be changed based on the barometric reading. 100 = No change. 110 = 10% increase. 90 = 10% decrease </dd></dl>
+<p>Correction for current baromtetric / ambient pressure. </p><dl class="section return"><dt>Returns</dt><dd>A percentage value indicating the amount the fueling should be changed based on the barometric reading. 100 = No change. 110 = 10% increase. 90 = 10% decrease </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -332,6 +335,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Battery Voltage correction. Uses a 2D enrichment table (WUETable) where the X axis is engine temp and the Y axis is the amount of extra fuel to add. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -365,11 +369,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionCLTadvance </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition correction for coolant temperature (CLT). </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -388,7 +393,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_ad8ed2565353825f626c1d4009cf76336_icgraph" id="corrections_8h_ad8ed2565353825f626c1d4009cf76336_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="216,31,331,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="379,5,485,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="573,56,680,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="573,56,680,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="533,5,720,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="768,31,819,57"/>
 </map>
@@ -410,6 +415,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Cranking Enrichment corrections. Additional fuel % to be added when the engine is cranking </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -443,11 +449,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionCrankingFixedTiming </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Correct ignition timing to configured fixed value to use during craning. Must be called near end to override all other corrections. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -463,7 +470,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_abe170699b8c51dd2e141cf1559b4b6ca_icgraph" id="corrections_8h_abe170699b8c51dd2e141cf1559b4b6ca_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="277,31,392,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="440,5,547,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="635,56,741,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="635,56,741,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="595,5,781,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="829,31,880,57"/>
 </map>
@@ -508,11 +515,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionFixedTiming </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Correct ignition timing to configured fixed value. Must be called near end to override all other corrections. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -528,7 +536,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a0a6eb564ed59a5591dc818720b8b9329_icgraph" id="corrections_8h_a0a6eb564ed59a5591dc818720b8b9329_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="220,31,335,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="383,5,489,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="577,56,684,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="577,56,684,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="537,5,724,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="772,31,823,57"/>
 </map>
@@ -550,6 +558,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Flex fuel adjustment to vary fuel based on ethanol content. The amount of extra fuel required is a linear relationship based on the % of ethanol. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -606,7 +615,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_ad363ae274ec06b71b73e896e129a0c88_icgraph" id="corrections_8h_ad363ae274ec06b71b73e896e129a0c88_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="212,31,327,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="375,5,481,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="569,56,676,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="569,56,676,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="529,5,716,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="764,31,815,57"/>
 </map>
@@ -628,6 +637,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Simple check to see whether we are cranking with the TPS above the flood clear threshold. </p><dl class="section return"><dt>Returns</dt><dd>100 (not cranking and thus no need for flood-clear) or 0 (Engine cranking and TPS above <a class="el" href="structconfig4.html#a4876a8a84a661e8fede8d75fbcc72025">config4::floodClear</a> limit). </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -691,6 +701,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Simple temperature based corrections lookup based on the inlet air temperature (IAT). This corrects for changes in air density from movement of the temperature. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -724,11 +735,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionIATretard </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition correction for inlet air temperature (IAT). </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -747,7 +759,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a79ddf48c12c4fd084934764c51573ba3_icgraph" id="corrections_8h_a79ddf48c12c4fd084934764c51573ba3_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="197,31,312,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="360,5,467,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="555,56,661,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="555,56,661,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="515,5,701,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="749,31,800,57"/>
 </map>
@@ -765,11 +777,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionIdleAdvance </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition Idle advance correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -788,7 +801,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a9a8fd520a517f1a2762e6da82e13386b_icgraph" id="corrections_8h_a9a8fd520a517f1a2762e6da82e13386b_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="220,31,335,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="383,5,489,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="577,56,684,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="577,56,684,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="537,5,724,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="772,31,823,57"/>
 </map>
@@ -806,11 +819,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionKnock </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition knock (retard) correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -828,7 +842,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_aca27fd4c40ce9286439051f2e323661b_icgraph" id="corrections_8h_aca27fd4c40ce9286439051f2e323661b_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="180,31,295,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="343,5,449,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="537,56,644,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="537,56,644,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="497,5,684,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="732,31,783,57"/>
 </map>
@@ -850,6 +864,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Launch control has a setting to increase the fuel load to assist in bringing up boost. This simple check applies the extra fuel if we're currently launching </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -873,11 +888,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionNitrous </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition Nitrous oxide correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -893,7 +909,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_ac59546912e40f2afc0ec7658411423f9_icgraph" id="corrections_8h_ac59546912e40f2afc0ec7658411423f9_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="188,31,303,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="351,5,457,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="545,56,652,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="545,56,652,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="505,5,692,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="740,31,791,57"/>
 </map>
@@ -916,6 +932,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition Dwell Correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -952,16 +969,17 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Dispatch calculations for all fuel related corrections. Calls all the other corrections functions and combines their results. This is the only function that should be called from anywhere outside the file </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8h_a16e594117d8ff29651f625e7adfe221b_cgraph.png" border="0" usemap="#corrections_8h_a16e594117d8ff29651f625e7adfe221b_cgraph" alt=""/></div>
 <map name="corrections_8h_a16e594117d8ff29651f625e7adfe221b_cgraph" id="corrections_8h_a16e594117d8ff29651f625e7adfe221b_cgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#a3ff5b940d7359bd9ff03c6d87d9c0705" title="correctionWUE" alt="" coords="207,31,326,57"/>
-<area shape="rect" id="node8" href="corrections_8ino.html#adb5887423ec5d91bc397734d564d036e" title="Afer Start Enrichment calculation. " alt="" coords="211,81,323,108"/>
+<area shape="rect" id="node8" href="corrections_8ino.html#adb5887423ec5d91bc397734d564d036e" title="correctionASE" alt="" coords="211,81,323,108"/>
 <area shape="rect" id="node9" href="corrections_8ino.html#a82b0d12e4412f994abe591ef88c32cd9" title="correctionCranking" alt="" coords="194,132,339,159"/>
 <area shape="rect" id="node10" href="maths_8h.html#ae15c95d7eff51a68cae87d097bd6eb48" title="powint" alt="" coords="233,487,300,513"/>
-<area shape="rect" id="node11" href="corrections_8ino.html#af2c66e6e11888d88d75ea9302f6831b6" title="Acceleration enrichment correction calculation. " alt="" coords="205,436,328,463"/>
+<area shape="rect" id="node11" href="corrections_8ino.html#af2c66e6e11888d88d75ea9302f6831b6" title="correctionAccel" alt="" coords="205,436,328,463"/>
 <area shape="rect" id="node13" href="corrections_8ino.html#a7303204aac17cf3fb38bc5cbc54852a9" title="correctionFloodClear" alt="" coords="189,537,345,564"/>
 <area shape="rect" id="node14" href="corrections_8ino.html#ae173fe7ac981c66b19d8806b5f111094" title="correctionAFRClosedLoop" alt="" coords="173,588,360,615"/>
 <area shape="rect" id="node16" href="corrections_8ino.html#a58e4b039c55b00bca2aef23235798b06" title="correctionBatVoltage" alt="" coords="187,183,346,209"/>
@@ -1001,11 +1019,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionsIgn </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"><em>advance</em></td><td>)</td>
+          <td class="paramname"><em>base_advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Dispatch calculations for all ignition related corrections. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">base_advance</td><td>- Base ignition advance (deg. ?) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Advance considering all (~12) individual corrections </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1035,7 +1060,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="corrections_8h_ad4dd839eb4dc4a7b15f9cb42259cb45a_icgraph.png" border="0" usemap="#corrections_8h_ad4dd839eb4dc4a7b15f9cb42259cb45a_icgraph" alt=""/></div>
 <map name="corrections_8h_ad4dd839eb4dc4a7b15f9cb42259cb45a_icgraph" id="corrections_8h_ad4dd839eb4dc4a7b15f9cb42259cb45a_icgraph">
 <area shape="rect" id="node2" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="168,5,275,32"/>
-<area shape="rect" id="node5" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="363,56,469,83"/>
+<area shape="rect" id="node5" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="363,56,469,83"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="323,5,509,32"/>
 <area shape="rect" id="node4" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="557,31,608,57"/>
 </map>
@@ -1053,11 +1078,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionSoftFlatShift </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition correction for soft flat shift. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1073,7 +1099,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_aff82d7b0fd2101b1ed54c8f47c806f46_icgraph" id="corrections_8h_aff82d7b0fd2101b1ed54c8f47c806f46_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="220,31,335,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="383,5,489,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="577,56,684,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="577,56,684,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="537,5,724,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="772,31,823,57"/>
 </map>
@@ -1091,11 +1117,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionSoftLaunch </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition soft launch correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1111,7 +1138,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a1787f8221381c98345c0c041eb6df44f_icgraph" id="corrections_8h_a1787f8221381c98345c0c041eb6df44f_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="212,31,327,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="375,5,481,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="569,56,676,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="569,56,676,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="529,5,716,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="764,31,815,57"/>
 </map>
@@ -1129,11 +1156,12 @@ Here is the caller graph for this function:</div>
           <td class="memname">int8_t correctionSoftRevLimit </td>
           <td>(</td>
           <td class="paramtype">int8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>advance</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Ignition soft revlimit correction. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1149,7 +1177,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a98f088367cb316a5a3baca3bd2195ba1_icgraph" id="corrections_8h_a98f088367cb316a5a3baca3bd2195ba1_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="224,31,339,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="387,5,493,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="581,56,688,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="581,56,688,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="541,5,728,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="776,31,827,57"/>
 </map>
@@ -1190,7 +1218,7 @@ Here is the caller graph for this function:</div>
 <map name="corrections_8h_a0dc2a239fd77b0831b0dfcd2cefd09d7_icgraph" id="corrections_8h_a0dc2a239fd77b0831b0dfcd2cefd09d7_icgraph">
 <area shape="rect" id="node2" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title="correctionsIgn" alt="" coords="213,31,328,57"/>
 <area shape="rect" id="node3" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="376,5,483,32"/>
-<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="Performs a lookup of the ignition advance table. The values used to look this up will be RPM and what..." alt="" coords="571,56,677,83"/>
+<area shape="rect" id="node6" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title="getAdvance1" alt="" coords="571,56,677,83"/>
 <area shape="rect" id="node4" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title="calculateSecondarySpark" alt="" coords="531,5,717,32"/>
 <area shape="rect" id="node5" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title="loop" alt="" coords="765,31,816,57"/>
 </map>
@@ -1212,6 +1240,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Warm Up Enrichment (WUE) corrections. Uses a 2D enrichment table (WUETable) where the X axis is engine temp and the Y axis is the amount of extra fuel to add </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1251,6 +1280,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initialize instances and vars related to corrections (at ECU boot-up). </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

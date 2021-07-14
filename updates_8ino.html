@@ -83,7 +83,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ace4f6db079412afb6f5e07de0ba0e45e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e">doUpdates</a> ()</td></tr>
 <tr class="separator:ace4f6db079412afb6f5e07de0ba0e45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>EEPROM Storage updates. </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a3e241f6a9fc66e45880cb69062ded84e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e241f6a9fc66e45880cb69062ded84e">&#9670;&nbsp;</a></span>CURRENT_DATA_VERSION</h2>
 
@@ -113,13 +115,14 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Store and load various configs to/from EEPROM considering the the data format versions of various SW generations. This routine is used for doing any data conversions that are required during firmware changes. This prevents users getting difference reports in TS when such a data change occurs. It also can be used for setting good values when there are viarables that move locations in the ini. When a user skips multiple firmware versions at a time, this will roll through the updates 1 at a time. The <a class="el" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e">doUpdates()</a> uses may lower level routines from Arduino EEPROM library and <a class="el" href="storage_8ino.html">storage.ino</a> to carry out EEPROM storage tasks. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="updates_8ino_ace4f6db079412afb6f5e07de0ba0e45e_cgraph.png" border="0" usemap="#updates_8ino_ace4f6db079412afb6f5e07de0ba0e45e_cgraph" alt=""/></div>
 <map name="updates_8ino_ace4f6db079412afb6f5e07de0ba0e45e_cgraph" id="updates_8ino_ace4f6db079412afb6f5e07de0ba0e45e_cgraph">
 <area shape="rect" id="node2" href="storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40" title="writeAllConfig" alt="" coords="167,56,281,83"/>
-<area shape="rect" id="node6" href="storage_8h.html#a3160da8d2e4e5126af369123c57eec55" title="storeEEPROMVersion" alt="" coords="145,107,303,133"/>
+<area shape="rect" id="node6" href="storage_8h.html#a3160da8d2e4e5126af369123c57eec55" title="Store EEPROM current data format version (to offset EEPROM_DATA_VERSION). " alt="" coords="145,107,303,133"/>
 <area shape="rect" id="node7" href="storage_8h.html#ad5ed6ddd9940c0097cc91774056df1c2" title="loadConfig" alt="" coords="179,157,269,184"/>
 <area shape="rect" id="node8" href="storage_8h.html#ac3efa003544375926eb7d8d88cf19523" title="writeCalibration" alt="" coords="161,208,287,235"/>
 <area shape="rect" id="node3" href="storage_8ino.html#a2dac7ee796d1f4a9438a1a0a3f0adc70" title="writeConfig" alt="" coords="379,5,475,32"/>

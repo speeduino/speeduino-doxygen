@@ -98,7 +98,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a7f685f90e94e47998207ccd04be18473"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a7f685f90e94e47998207ccd04be18473">pinIsValid</a> = 0</td></tr>
 <tr class="separator:a7f685f90e94e47998207ccd04be18473"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Custom Programmable I/O. The config related to Programmable I/O is found on configPage13 (of type <a class="el" href="structconfig13.html">config13</a>). </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a8a81ec17875ac2ddf7fe0ca5d3e7e695"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a81ec17875ac2ddf7fe0ca5d3e7e695">&#9670;&nbsp;</a></span>checkProgrammableIO()</h2>
 
@@ -113,6 +115,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Check all (8) programmable I/O:s and carry out action on output pin as needed. Compare 2 (16 bit) vars in a way configured by config13.cmpOperation. Use <a class="el" href="utilities_8ino.html#a6d65d36c291073121ae86496d6a6f73b">ProgrammableIOGetData()</a> to get 2 vars to compare. Skip all programmable I/O:s where output pin is set 0 (meaning: not programmed). </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -175,6 +178,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Translate between the pin list that appears in TS and the actual pin numbers. For the <b>digital IO</b>, this will simply return the same number as the rawPin value as those are mapped directly. For <b>analog pins</b>, it will translate them into the correct internal pin number. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rawPin</td><td>- High level pin number </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Translated / usable pin number </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -203,6 +213,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Translate a pin number (0 - 22) to the relevant Ax (analog) pin reference. This is required as some ARM chips do not have all analog pins in order (EG pin A15 != A14 + 1). </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -231,6 +242,13 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Get single I/O data var (from currentStatus) for comparison. Uses member offset index <a class="el" href="globals_8ino.html#a4148535e1459fe7ee9ec8bf1f645e4ec">fsIntIndex</a> to lookup realtime 'live' data from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>- Field index/number (?) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>16 bit (int) result </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

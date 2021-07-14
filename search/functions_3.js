@@ -20,7 +20,7 @@ var searchData=
   ['checkengineprotect',['checkEngineProtect',['../engine_protection_8h.html#a1499790d45bee5cc76fc43070d8b4d0f',1,'checkEngineProtect():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a1499790d45bee5cc76fc43070d8b4d0f',1,'checkEngineProtect():&#160;engineProtection.ino']]],
   ['checkforstepping',['checkForStepping',['../idle_8ino.html#a4053de9017b2bb17d6328131c7045408',1,'idle.ino']]],
   ['checkoilpressurelimit',['checkOilPressureLimit',['../engine_protection_8h.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a183e1b1d5ec0623497c4ae80c0e494b9',1,'checkOilPressureLimit():&#160;engineProtection.ino']]],
-  ['checkpertoothtiming',['checkPerToothTiming',['../decoders_8ino.html#a62a160e1172b583d383d8ca212f5a3f8',1,'decoders.ino']]],
+  ['checkpertoothtiming',['checkPerToothTiming',['../group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8',1,'decoders.ino']]],
   ['checkprogrammableio',['checkProgrammableIO',['../utilities_8h.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino'],['../utilities_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino']]],
   ['checkrevlimit',['checkRevLimit',['../engine_protection_8h.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino']]],
   ['clearerror',['clearError',['../errors_8ino.html#ac3717793f00b202a528bba324183cfbe',1,'errors.ino']]],
@@ -85,7 +85,7 @@ var searchData=
   ['correctionsoftrevlimit',['correctionSoftRevLimit',['../corrections_8h.html#a98f088367cb316a5a3baca3bd2195ba1',1,'correctionSoftRevLimit(int8_t):&#160;corrections.ino'],['../corrections_8ino.html#a6faae52d40cbf76c64b801882338a98a',1,'correctionSoftRevLimit(int8_t advance):&#160;corrections.ino']]],
   ['correctionwmitiming',['correctionWMITiming',['../corrections_8h.html#a0dc2a239fd77b0831b0dfcd2cefd09d7',1,'correctionWMITiming(int8_t):&#160;corrections.ino'],['../corrections_8ino.html#ad953149fa573f0dd108e59ac2d94a324',1,'correctionWMITiming(int8_t advance):&#160;corrections.ino']]],
   ['correctionwue',['correctionWUE',['../corrections_8h.html#a3ff5b940d7359bd9ff03c6d87d9c0705',1,'correctionWUE():&#160;corrections.ino'],['../corrections_8ino.html#a3ff5b940d7359bd9ff03c6d87d9c0705',1,'correctionWUE():&#160;corrections.ino']]],
-  ['crankinggetrpm',['crankingGetRPM',['../decoders_8ino.html#adc806ad5d6297eb31ad69ff9945b97a8',1,'decoders.ino']]],
+  ['crankinggetrpm',['crankingGetRPM',['../group__dec__uni.html#gadc806ad5d6297eb31ad69ff9945b97a8',1,'decoders.ino']]],
   ['createlog',['createLog',['../logger_8h.html#a4e0d82d62bdb38659a1404baa8de5882',1,'createLog(uint8_t *array):&#160;logger.ino'],['../logger_8ino.html#a4082a089a57349587131c357b745dde3',1,'createLog(uint8_t *logBuffer):&#160;logger.ino']]],
   ['createsdlog',['createSDLog',['../logger_8h.html#ab5c6cf77fa8fad46c7ca6e865f7c62ca',1,'logger.h']]]
 ];

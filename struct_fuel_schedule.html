@@ -72,14 +72,19 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab9d1ae652998191d020f8358570cc806"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806">duration</a></td></tr>
+<tr class="memdesc:ab9d1ae652998191d020f8358570cc806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scheduled duration (uS ?)  <a href="#ab9d1ae652998191d020f8358570cc806">More...</a><br /></td></tr>
 <tr class="separator:ab9d1ae652998191d020f8358570cc806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e994d391f21557753d0d5886ade69db"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54">ScheduleStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#a6e994d391f21557753d0d5886ade69db">Status</a></td></tr>
+<tr class="memdesc:a6e994d391f21557753d0d5886ade69db"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_schedule.html">Schedule</a> status: OFF, PENDING, STAGED, RUNNING.  <a href="#a6e994d391f21557753d0d5886ade69db">More...</a><br /></td></tr>
 <tr class="separator:a6e994d391f21557753d0d5886ade69db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78d5297afc86a03eb04d942fe77ca5f3"><td class="memItemLeft" align="right" valign="top">volatile byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#a78d5297afc86a03eb04d942fe77ca5f3">schedulesSet</a></td></tr>
+<tr class="memdesc:a78d5297afc86a03eb04d942fe77ca5f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A counter of how many times the schedule has been set.  <a href="#a78d5297afc86a03eb04d942fe77ca5f3">More...</a><br /></td></tr>
 <tr class="separator:a78d5297afc86a03eb04d942fe77ca5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a586613f0d105f2eeab096659c06845ac"><td class="memItemLeft" align="right" valign="top">volatile COMPARE_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#a586613f0d105f2eeab096659c06845ac">startCompare</a></td></tr>
+<tr class="memdesc:a586613f0d105f2eeab096659c06845ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The counter value of the timer when this will start.  <a href="#a586613f0d105f2eeab096659c06845ac">More...</a><br /></td></tr>
 <tr class="separator:a586613f0d105f2eeab096659c06845ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a590ff7abcf13d79cb532950b08bc2f1b"><td class="memItemLeft" align="right" valign="top">volatile COMPARE_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#a590ff7abcf13d79cb532950b08bc2f1b">endCompare</a></td></tr>
+<tr class="memdesc:a590ff7abcf13d79cb532950b08bc2f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The counter value of the timer when this will end.  <a href="#a590ff7abcf13d79cb532950b08bc2f1b">More...</a><br /></td></tr>
 <tr class="separator:a590ff7abcf13d79cb532950b08bc2f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaca25ff4806c9fdc2e7c0d94902d7c02"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#aaca25ff4806c9fdc2e7c0d94902d7c02">nextStartCompare</a></td></tr>
 <tr class="separator:aaca25ff4806c9fdc2e7c0d94902d7c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -88,7 +93,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acf9b8f521fcd4e19d0686473f55cf137"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137">hasNextSchedule</a> = false</td></tr>
 <tr class="separator:acf9b8f521fcd4e19d0686473f55cf137"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Fuel injection schedule. Fuel schedules don't use the callback pointers, or the startTime/endScheduleSetByDecoder variables. They are removed in this struct to save RAM. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="ab9d1ae652998191d020f8358570cc806"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9d1ae652998191d020f8358570cc806">&#9670;&nbsp;</a></span>duration</h2>
 
@@ -100,6 +107,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Scheduled duration (uS ?) </p>
 
 </div>
 </div>
@@ -114,6 +123,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The counter value of the timer when this will end. </p>
 
 </div>
 </div>
@@ -171,6 +182,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>A counter of how many times the schedule has been set. </p>
+
 </div>
 </div>
 <a id="a586613f0d105f2eeab096659c06845ac"></a>
@@ -185,6 +198,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The counter value of the timer when this will start. </p>
+
 </div>
 </div>
 <a id="a6e994d391f21557753d0d5886ade69db"></a>
@@ -198,6 +213,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><a class="el" href="struct_schedule.html">Schedule</a> status: OFF, PENDING, STAGED, RUNNING. </p>
 
 </div>
 </div>

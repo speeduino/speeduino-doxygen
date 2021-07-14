@@ -103,10 +103,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7460d44a013c2900845cfd018fbe491a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the required pulsewidth time (in us) given the current system state.  <a href="#a7460d44a013c2900845cfd018fbe491a">More...</a><br /></td></tr>
 <tr class="separator:a7460d44a013c2900845cfd018fbe491a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4f6389d213ee4abeefee599a0658038"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#aa4f6389d213ee4abeefee599a0658038">getVE1</a> ()</td></tr>
-<tr class="memdesc:aa4f6389d213ee4abeefee599a0658038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varies based on the fuel algorithm selected (speed density, alpha-n etc)  <a href="#aa4f6389d213ee4abeefee599a0658038">More...</a><br /></td></tr>
 <tr class="separator:aa4f6389d213ee4abeefee599a0658038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2f3e170c39f954862220a8ebb76dfb"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb">getAdvance1</a> ()</td></tr>
-<tr class="memdesc:a4d2f3e170c39f954862220a8ebb76dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a lookup of the ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured.  <a href="#a4d2f3e170c39f954862220a8ebb76dfb">More...</a><br /></td></tr>
 <tr class="separator:a4d2f3e170c39f954862220a8ebb76dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad4d9d4d3947f090e587f7da4693fb6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#a8ad4d9d4d3947f090e587f7da4693fb6">calculateInjectorStartAngle</a> (uint16_t PWdivTimerPerDegree, int16_t injChannelDegrees)</td></tr>
 <tr class="separator:a8ad4d9d4d3947f090e587f7da4693fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,7 +202,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a893db7275843064fb9d10a3fc2d61ab6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#a893db7275843064fb9d10a3fc2d61ab6">staged_req_fuel_mult_sec</a> = 0</td></tr>
 <tr class="separator:a893db7275843064fb9d10a3fc2d61ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Speeduino initialization and main loop. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="af1d8b84eb120327835937e4296b44a8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1d8b84eb120327835937e4296b44a8d">&#9670;&nbsp;</a></span>calculateIgnitionAngle1()</h2>
 
@@ -492,6 +492,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Calculate the Ignition angles for all cylinders (based on <a class="el" href="structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f">config2::nCylinders</a>). both start and end angles are calculated for each channel. Also the mode of ignition firing - wasted spark vs. dedicated spark per cyl. - is considered here. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -571,8 +572,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Performs a lookup of the ignition advance table. The values used to look this up will be RPM and whatever load source the user has configured. </p>
+<p>Lookup the ignition advance from 3D ignition table. The values used to look this up will be RPM and whatever load source the user has configured.</p>
 <dl class="section return"><dt>Returns</dt><dd>byte The current target advance value in degrees </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -624,8 +624,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varies based on the fuel algorithm selected (speed density, alpha-n etc) </p>
+<p>Lookup the current VE value from the primary 3D fuel map. The Y axis value used for this lookup varies based on the fuel algorithm selected (speed density, alpha-n etc).</p>
 <dl class="section return"><dt>Returns</dt><dd>byte The current VE value </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -687,6 +686,20 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Speeduino main loop.</p>
+<p>Main loop chores (roughly in order they are preformed):</p><ul>
+<li>Check if serial comms or tooth logging are in progress (send or reveive, prioritize communication)</li>
+<li>Record loop timing vars</li>
+<li>Check tooth time, update <a class="el" href="structstatuses.html">statuses</a> (currentStatus) variables</li>
+<li>Read sensors</li>
+<li>get VE for fuel calcs and spark advance for ignition</li>
+<li>Check crank/cam/tooth/timing sync (skip remaining ops if out-of-sync)</li>
+<li>execute <a class="el" href="crank_maths_8h.html#a3fe1ff1a1682b0bf9a82acbb0810058b">doCrankSpeedCalcs()</a></li>
+</ul>
+<p>single byte variable <a class="el" href="globals_8ino.html#a958501f2836dfbcc03a94b46b68490dd">LOOP_TIMER</a> plays a big part here as:</p><ul>
+<li>it contains expire-bits for interval based frequency driven events (e.g. 15Hz, 4Hz, 1Hz)</li>
+<li>Can be tested for certain frequency interval being expired by (eg) <a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK(LOOP_TIMER, BIT_TIMER_15HZ)</a> </li>
+</ul>
 
 </div>
 </div>
@@ -810,8 +823,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" id="node33" href="utilities_8h.html#a2ab3a222e7265c9e9734bdb5c1947ed8" title="initialiseProgrammableIO" alt="" coords="258,1525,446,1552"/>
 <area shape="rect" id="node34" href="sensors_8h.html#adce2419f4d2fdb9179dfc6cee874cbce" title="instanteneousMAPReading" alt="" coords="255,1576,449,1603"/>
 <area shape="rect" id="node35" href="sensors_8h.html#a7af34132dd44d54c84eb42dfc7d722c9" title="readBaro" alt="" coords="311,1627,393,1653"/>
-<area shape="rect" id="node36" href="storage_8h.html#ae0b063b0b13b59184d21d345582fea84" title="storeLastBaro" alt="" coords="296,1677,408,1704"/>
-<area shape="rect" id="node37" href="storage_8h.html#a2a0d3fa76548baa671184809ce8440ba" title="readLastBaro" alt="" coords="298,1728,406,1755"/>
+<area shape="rect" id="node36" href="storage_8h.html#ae0b063b0b13b59184d21d345582fea84" title="Write last acquired arometer reading to EEPROM. " alt="" coords="296,1677,408,1704"/>
+<area shape="rect" id="node37" href="storage_8h.html#a2a0d3fa76548baa671184809ce8440ba" title="Read last stored barometer reading from EEPROM. " alt="" coords="298,1728,406,1755"/>
 <area shape="rect" id="node38" href="sensors_8h.html#afc4c1603c3188812d718d348d28cf276" title="flexPulse" alt="" coords="311,1779,393,1805"/>
 <area shape="rect" id="node39" href="sensors_8h.html#ac61935e9606518571da703b5ea3a2474" title="The ISR function for VSS pulses. " alt="" coords="313,1829,391,1856"/>
 <area shape="rect" id="node40" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title="initialiseTriggers" alt="" coords="287,1880,417,1907"/>

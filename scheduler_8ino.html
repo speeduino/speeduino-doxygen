@@ -208,7 +208,22 @@ Variables</h2></td></tr>
 <tr class="memitem:aa6df5a5dd2022813a0c98c53595fe742"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8ino.html#aa6df5a5dd2022813a0c98c53595fe742">ign8EndFunction</a> )()</td></tr>
 <tr class="separator:aa6df5a5dd2022813a0c98c53595fe742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Injector and Ignition (on/off) scheduling (functions). There is usually 8 functions for cylinders 1-8 with same naming pattern.</p>
+<h2>Scheduling structures</h2>
+<p>Structures <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> and <a class="el" href="struct_schedule.html">Schedule</a> describe (from <a class="el" href="scheduler_8h.html">scheduler.h</a>) describe the scheduling info for Fuel and Ignition respectively. They contain duration, current activity status, start timing, end timing, callbacks to carry out action, etc.</p>
+<h2>Scheduling Functions</h2>
+<p>For Injection:</p><ul>
+<li>setFuelSchedule*(tout,dur) - <b>Setup</b> schedule for (next) injection on the channel</li>
+<li>inj*StartFunction() - Execute <b>start</b> of injection (Interrupt handler)</li>
+<li>inj*EndFunction() - Execute <b>end</b> of injection (interrupt handler)</li>
+</ul>
+<p>For Ignition (has more complex schedule setup):</p><ul>
+<li>setIgnitionSchedule*(cb_st,tout,dur,cb_end) - <b>Setup</b> schedule for (next) ignition on the channel</li>
+<li>ign*StartFunction() - Execute <b>start</b> of ignition (Interrupt handler)</li>
+<li>ign*EndFunction() - Execute <b>end</b> of ignition (Interrupt handler) </li>
+</ul>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a79a0c739931b40c386eccc38f997d10d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79a0c739931b40c386eccc38f997d10d">&#9670;&nbsp;</a></span>beginInjectorPriming()</h2>
 
@@ -223,6 +238,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Perform the injector priming pulses. Set these to run at an arbitrary time in the future (100us). The prime pulse value is in ms*10, so need to multiple by 100 to get to uS </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
