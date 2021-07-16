@@ -16,6 +16,7 @@ var searchData=
   ['fanwhencranking',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2::fanWhenCranking()'],['../globals_8h.html#a4e1e093c743ce9c329801d2a37cd62d2',1,'fanWhenCranking():&#160;globals.h']]],
   ['fanwhenoff',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2::fanWhenOff()'],['../globals_8h.html#a4db1b6aa67c3cb367fc1d5aeb3a37a72',1,'fanWhenOff():&#160;globals.h']]],
   ['feedforwardterm',['FeedForwardTerm',['../idle_8h.html#a5bf8ab4ddb77f8413a73ca35154e5d21',1,'idle.h']]],
+  ['filter_5fflex',['FILTER_FLEX',['../structconfig4.html#ab244a01ca8010bcff9eb89707d31862d',1,'config4::FILTER_FLEX()'],['../globals_8h.html#a1e27f11a2b5c5f2e71b779c4f1cf7194',1,'FILTER_FLEX():&#160;globals.h']]],
   ['firstcomptype',['firstCompType',['../structcmp_operation.html#a4d21c57b722c4036b14c73c18b357bd4',1,'cmpOperation']]],
   ['firstdatain',['firstDataIn',['../structconfig13.html#abcd731410d43745a24addab73472f34b',1,'config13::firstDataIn()'],['../globals_8h.html#af03fbb7985751749a7f90d41c3985b34',1,'firstDataIn():&#160;globals.h']]],
   ['firsttarget',['firstTarget',['../structconfig13.html#a1aaa3790a92fc3af54d2a9a6a09fd778',1,'config13::firstTarget()'],['../globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe',1,'firstTarget():&#160;globals.h']]],

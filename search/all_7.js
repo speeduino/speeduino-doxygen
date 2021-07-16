@@ -27,6 +27,7 @@ var searchData=
   ['fastmap10bit',['fastMap10Bit',['../maths_8h.html#a75b8618bbbc73031d200d1424e0252d6',1,'maths.h']]],
   ['fasttimetoangle',['fastTimeToAngle',['../crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c',1,'crankMaths.h']]],
   ['feedforwardterm',['FeedForwardTerm',['../idle_8h.html#a5bf8ab4ddb77f8413a73ca35154e5d21',1,'idle.h']]],
+  ['filter_5fflex',['FILTER_FLEX',['../structconfig4.html#ab244a01ca8010bcff9eb89707d31862d',1,'config4::FILTER_FLEX()'],['../globals_8h.html#a1e27f11a2b5c5f2e71b779c4f1cf7194',1,'FILTER_FLEX():&#160;globals.h']]],
   ['firstcomptype',['firstCompType',['../structcmp_operation.html#a4d21c57b722c4036b14c73c18b357bd4',1,'cmpOperation']]],
   ['firstdatain',['firstDataIn',['../structconfig13.html#abcd731410d43745a24addab73472f34b',1,'config13::firstDataIn()'],['../globals_8h.html#af03fbb7985751749a7f90d41c3985b34',1,'firstDataIn():&#160;globals.h']]],
   ['firsttarget',['firstTarget',['../structconfig13.html#a1aaa3790a92fc3af54d2a9a6a09fd778',1,'config13::firstTarget()'],['../globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe',1,'firstTarget():&#160;globals.h']]],
