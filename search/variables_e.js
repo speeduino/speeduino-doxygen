@@ -24,5 +24,6 @@ var searchData=
   ['outputdelay',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13::outputDelay()'],['../globals_8h.html#afb86d7ee164ae07124e185968d1d8cb2',1,'outputDelay():&#160;globals.h']]],
   ['outputinverted',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13::outputInverted()'],['../globals_8h.html#ad33b5b5d2c63fca22683cd6463397dba',1,'outputInverted():&#160;globals.h']]],
   ['outputpin',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13::outputPin()'],['../globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926',1,'outputPin():&#160;globals.h']]],
-  ['outputsstatus',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]]
+  ['outputsstatus',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
+  ['outputtimelimit',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13::outputTimeLimit()'],['../globals_8h.html#a3644fcb8516c58595274ab94ec3595ae',1,'outputTimeLimit():&#160;globals.h']]]
 ];

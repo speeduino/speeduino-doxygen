@@ -93,10 +93,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad100b34f30bf81bfefe3a8f3a32c980a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#ad100b34f30bf81bfefe3a8f3a32c980a">ioDelay</a> [sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td></tr>
-<tr class="separator:ad100b34f30bf81bfefe3a8f3a32c980a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d7256e104b86308261ce36c9b59e841"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a4d7256e104b86308261ce36c9b59e841">ioDelay</a> [sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td></tr>
+<tr class="separator:a4d7256e104b86308261ce36c9b59e841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9a9042a24ad455befc9c8f84ccc13b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a7b9a9042a24ad455befc9c8f84ccc13b">ioOutDelay</a> [sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td></tr>
+<tr class="separator:a7b9a9042a24ad455befc9c8f84ccc13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f685f90e94e47998207ccd04be18473"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a7f685f90e94e47998207ccd04be18473">pinIsValid</a> = 0</td></tr>
 <tr class="separator:a7f685f90e94e47998207ccd04be18473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97791285a46319239c269812dd10f06f"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a97791285a46319239c269812dd10f06f">currentRuleStatus</a> = 0</td></tr>
+<tr class="separator:a97791285a46319239c269812dd10f06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Custom Programmable I/O. The config related to Programmable I/O is found on configPage13 (of type <a class="el" href="structconfig13.html">config13</a>). </p>
@@ -242,7 +246,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get single I/O data var (from currentStatus) for comparison. Uses member offset index <a class="el" href="globals_8ino.html#a4148535e1459fe7ee9ec8bf1f645e4ec">fsIntIndex</a> to lookup realtime 'live' data from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Get single I/O data var (from currentStatus) for comparison. Uses member offset index <a class="el" href="globals_8ino.html#a34e79f550e6f16bc1e77ec227e47c847">fsIntIndex</a> to lookup realtime 'live' data from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>- Field index/number (?) </td></tr>
   </table>
@@ -298,14 +302,42 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ad100b34f30bf81bfefe3a8f3a32c980a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad100b34f30bf81bfefe3a8f3a32c980a">&#9670;&nbsp;</a></span>ioDelay</h2>
+<a id="a97791285a46319239c269812dd10f06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97791285a46319239c269812dd10f06f">&#9670;&nbsp;</a></span>currentRuleStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t ioDelay[sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td>
+          <td class="memname">uint8_t currentRuleStatus = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d7256e104b86308261ce36c9b59e841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d7256e104b86308261ce36c9b59e841">&#9670;&nbsp;</a></span>ioDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ioDelay[sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7b9a9042a24ad455befc9c8f84ccc13b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9a9042a24ad455befc9c8f84ccc13b">&#9670;&nbsp;</a></span>ioOutDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ioOutDelay[sizeof(<a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">configPage13.outputPin</a>)]</td>
         </tr>
       </table>
 </div><div class="memdoc">

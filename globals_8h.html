@@ -108,6 +108,8 @@ Macros</h2></td></tr>
 <tr class="separator:a76fdd8cbc1fedd623886785637bc334d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a117dd62b706ad8c85c76ed08c9292cef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a117dd62b706ad8c85c76ed08c9292cef">BIT_TOGGLE</a>(var,  pos)&#160;&#160;&#160;((var)^= 1UL &lt;&lt; (pos))</td></tr>
 <tr class="separator:a117dd62b706ad8c85c76ed08c9292cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011484a60e91f633573a1b3b757ae354"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a011484a60e91f633573a1b3b757ae354">BIT_WRITE</a>(var,  pos,  bitvalue)&#160;&#160;&#160;((bitvalue) ? <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(var, pos) : bitClear(var, pos))</td></tr>
+<tr class="separator:a011484a60e91f633573a1b3b757ae354"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(c)&#160;&#160;&#160;(noInterrupts(); {c} interrupts();)</td></tr>
 <tr class="separator:a862109559b900adee5fc54a117a98766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1bdc2263b1a4272baa3897ea6eba85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3a1bdc2263b1a4272baa3897ea6eba85">MS_IN_MINUTE</a>&#160;&#160;&#160;60000</td></tr>
@@ -768,9 +770,9 @@ Variables</h2></td></tr>
 <tr class="separator:ab37377cf3a4fc6f448b84da236b88235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c3a9f07cc05fe417d216182c2c4e559"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a8c3a9f07cc05fe417d216182c2c4e559">ignition8StartAngle</a></td></tr>
 <tr class="separator:a8c3a9f07cc05fe417d216182c2c4e559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memItemLeft" align="right" valign="top">const byte <a class="el" href="globals_8ino.html#a795dfdb739aacf4957feb7773e47a912">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a4148535e1459fe7ee9ec8bf1f645e4ec">fsIntIndex</a> [34]</td></tr>
-<tr class="memdesc:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">int (member) indexes in fullStatus array  <a href="#a4148535e1459fe7ee9ec8bf1f645e4ec">More...</a><br /></td></tr>
-<tr class="separator:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07eab5c34339265827cc1763264d0e7"><td class="memItemLeft" align="right" valign="top">const byte <a class="el" href="globals_8ino.html#a795dfdb739aacf4957feb7773e47a912">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af07eab5c34339265827cc1763264d0e7">fsIntIndex</a> [33]</td></tr>
+<tr class="memdesc:af07eab5c34339265827cc1763264d0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">int (member) indexes in fullStatus array  <a href="#af07eab5c34339265827cc1763264d0e7">More...</a><br /></td></tr>
+<tr class="separator:af07eab5c34339265827cc1763264d0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af53c632d8a54d6e0ba15cf5534cffd34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af53c632d8a54d6e0ba15cf5534cffd34">initialisationComplete</a></td></tr>
 <tr class="memdesc:af53c632d8a54d6e0ba15cf5534cffd34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether the <a class="el" href="speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a> function has run completely (true = has run)  <a href="#af53c632d8a54d6e0ba15cf5534cffd34">More...</a><br /></td></tr>
 <tr class="separator:af53c632d8a54d6e0ba15cf5534cffd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1846,15 +1848,16 @@ Variables</h2></td></tr>
 <tr class="memitem:a603f00f74db354e2e14b9bb3f1b57112"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structcmp_operation.html">cmpOperation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a603f00f74db354e2e14b9bb3f1b57112">__attribute__</a></td></tr>
 <tr class="separator:a603f00f74db354e2e14b9bb3f1b57112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33b5b5d2c63fca22683cd6463397dba"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ad33b5b5d2c63fca22683cd6463397dba">outputInverted</a></td></tr>
-<tr class="memdesc:ad33b5b5d2c63fca22683cd6463397dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert (on/off) value before writing to output pin (for all programmable I/O:s?).  <a href="#ad33b5b5d2c63fca22683cd6463397dba">More...</a><br /></td></tr>
+<tr class="memdesc:ad33b5b5d2c63fca22683cd6463397dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invert (on/off) value before writing to output pin (for all programmable I/O:s).  <a href="#ad33b5b5d2c63fca22683cd6463397dba">More...</a><br /></td></tr>
 <tr class="separator:ad33b5b5d2c63fca22683cd6463397dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75f6bec7451b6bf906fd5db7668400bf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a75f6bec7451b6bf906fd5db7668400bf">unused12_1</a></td></tr>
-<tr class="separator:a75f6bec7451b6bf906fd5db7668400bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09039649d2c0cdbdcadc2df7152ecb76"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a09039649d2c0cdbdcadc2df7152ecb76">kindOfLimiting</a></td></tr>
+<tr class="memdesc:a09039649d2c0cdbdcadc2df7152ecb76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Select which kind of output limiting are active (0 - minimum | 1 - maximum)  <a href="#a09039649d2c0cdbdcadc2df7152ecb76">More...</a><br /></td></tr>
+<tr class="separator:a09039649d2c0cdbdcadc2df7152ecb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12fe18598d9428ffaf734cb8f58e0926"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a12fe18598d9428ffaf734cb8f58e0926">outputPin</a> [8]</td></tr>
 <tr class="memdesc:a12fe18598d9428ffaf734cb8f58e0926"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable(0) or enable (set to valid pin number) Programmable Pin (output/target pin to set)  <a href="#a12fe18598d9428ffaf734cb8f58e0926">More...</a><br /></td></tr>
 <tr class="separator:a12fe18598d9428ffaf734cb8f58e0926"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb86d7ee164ae07124e185968d1d8cb2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#afb86d7ee164ae07124e185968d1d8cb2">outputDelay</a> [8]</td></tr>
-<tr class="memdesc:afb86d7ee164ae07124e185968d1d8cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output write delay for each programmable I/O (Unit: 0.1S ?)  <a href="#afb86d7ee164ae07124e185968d1d8cb2">More...</a><br /></td></tr>
+<tr class="memdesc:afb86d7ee164ae07124e185968d1d8cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output write delay for each programmable I/O (Unit: 0.1S)  <a href="#afb86d7ee164ae07124e185968d1d8cb2">More...</a><br /></td></tr>
 <tr class="separator:afb86d7ee164ae07124e185968d1d8cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af03fbb7985751749a7f90d41c3985b34"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af03fbb7985751749a7f90d41c3985b34">firstDataIn</a> [8]</td></tr>
 <tr class="memdesc:af03fbb7985751749a7f90d41c3985b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of first I/O vars to compare.  <a href="#af03fbb7985751749a7f90d41c3985b34">More...</a><br /></td></tr>
@@ -1862,8 +1865,11 @@ Variables</h2></td></tr>
 <tr class="memitem:a0aa3260647b3cd6427ef0ac1474b1266"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0aa3260647b3cd6427ef0ac1474b1266">secondDataIn</a> [8]</td></tr>
 <tr class="memdesc:a0aa3260647b3cd6427ef0ac1474b1266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set of second I/O vars to compare.  <a href="#a0aa3260647b3cd6427ef0ac1474b1266">More...</a><br /></td></tr>
 <tr class="separator:a0aa3260647b3cd6427ef0ac1474b1266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f14703fd0a38649575378b78c11c2b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a38f14703fd0a38649575378b78c11c2b">unused_13</a> [16]</td></tr>
-<tr class="separator:a38f14703fd0a38649575378b78c11c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3644fcb8516c58595274ab94ec3595ae"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3644fcb8516c58595274ab94ec3595ae">outputTimeLimit</a> [8]</td></tr>
+<tr class="memdesc:a3644fcb8516c58595274ab94ec3595ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output delay for each programmable I/O, kindOfLimiting bit dependant(Unit: 0.1S)  <a href="#a3644fcb8516c58595274ab94ec3595ae">More...</a><br /></td></tr>
+<tr class="separator:a3644fcb8516c58595274ab94ec3595ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafbde4886db9e55b7ac8fd8a3dcc41d4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aafbde4886db9e55b7ac8fd8a3dcc41d4">unused_13</a> [8]</td></tr>
+<tr class="separator:aafbde4886db9e55b7ac8fd8a3dcc41d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d150f46cbb4f893361df2135d7b81fe"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a6d150f46cbb4f893361df2135d7b81fe">firstTarget</a> [8]</td></tr>
 <tr class="memdesc:a6d150f46cbb4f893361df2135d7b81fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">first target value to compare with numeric comp  <a href="#a6d150f46cbb4f893361df2135d7b81fe">More...</a><br /></td></tr>
 <tr class="separator:a6d150f46cbb4f893361df2135d7b81fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3031,6 +3037,40 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td>&#160;&#160;&#160;((var)^= 1UL &lt;&lt; (pos))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a011484a60e91f633573a1b3b757ae354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a011484a60e91f633573a1b3b757ae354">&#9670;&nbsp;</a></span>BIT_WRITE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BIT_WRITE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pos, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">bitvalue&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((bitvalue) ? <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(var, pos) : bitClear(var, pos))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -7706,14 +7746,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a4148535e1459fe7ee9ec8bf1f645e4ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4148535e1459fe7ee9ec8bf1f645e4ec">&#9670;&nbsp;</a></span>fsIntIndex</h2>
+<a id="af07eab5c34339265827cc1763264d0e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07eab5c34339265827cc1763264d0e7">&#9670;&nbsp;</a></span>fsIntIndex</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const byte <a class="el" href="globals_8ino.html#a795dfdb739aacf4957feb7773e47a912">PROGMEM</a> fsIntIndex[34]</td>
+          <td class="memname">const byte <a class="el" href="globals_8ino.html#a795dfdb739aacf4957feb7773e47a912">PROGMEM</a> fsIntIndex[33]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -9885,6 +9925,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a09039649d2c0cdbdcadc2df7152ecb76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09039649d2c0cdbdcadc2df7152ecb76">&#9670;&nbsp;</a></span>kindOfLimiting</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t kindOfLimiting</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Select which kind of output limiting are active (0 - minimum | 1 - maximum) </p>
+
+</div>
+</div>
 <a id="ac67363afc5bc073a66257ef96fa31890"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac67363afc5bc073a66257ef96fa31890">&#9670;&nbsp;</a></span>knock_count</h2>
 
@@ -11101,7 +11157,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Output write delay for each programmable I/O (Unit: 0.1S ?) </p>
+<p>Output write delay for each programmable I/O (Unit: 0.1S) </p>
 
 </div>
 </div>
@@ -11117,7 +11173,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Invert (on/off) value before writing to output pin (for all programmable I/O:s?). </p>
+<p>Invert (on/off) value before writing to output pin (for all programmable I/O:s). </p>
 
 </div>
 </div>
@@ -11134,6 +11190,22 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Disable(0) or enable (set to valid pin number) Programmable Pin (output/target pin to set) </p>
+
+</div>
+</div>
+<a id="a3644fcb8516c58595274ab94ec3595ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3644fcb8516c58595274ab94ec3595ae">&#9670;&nbsp;</a></span>outputTimeLimit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t outputTimeLimit[8]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output delay for each programmable I/O, kindOfLimiting bit dependant(Unit: 0.1S) </p>
 
 </div>
 </div>
@@ -14148,20 +14220,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a75f6bec7451b6bf906fd5db7668400bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75f6bec7451b6bf906fd5db7668400bf">&#9670;&nbsp;</a></span>unused12_1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t unused12_1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad7b5142a6fd83819f308a83e4c5a9677"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad7b5142a6fd83819f308a83e4c5a9677">&#9670;&nbsp;</a></span>unused12_106_127</h2>
 
@@ -14204,14 +14262,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a38f14703fd0a38649575378b78c11c2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f14703fd0a38649575378b78c11c2b">&#9670;&nbsp;</a></span>unused_13</h2>
+<a id="aafbde4886db9e55b7ac8fd8a3dcc41d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafbde4886db9e55b7ac8fd8a3dcc41d4">&#9670;&nbsp;</a></span>unused_13</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t unused_13[16]</td>
+          <td class="memname">uint8_t unused_13[8]</td>
         </tr>
       </table>
 </div><div class="memdoc">

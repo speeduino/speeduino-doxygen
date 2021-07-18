@@ -95,6 +95,7 @@ var searchData=
   ['bit_5ftimer_5f30hz',['BIT_TIMER_30HZ',['../globals_8h.html#a1da51eb60e6af062219be18c4c082c3a',1,'globals.h']]],
   ['bit_5ftimer_5f4hz',['BIT_TIMER_4HZ',['../globals_8h.html#ac47de8d6aa20586a60b104ddab0de6f2',1,'globals.h']]],
   ['bit_5ftoggle',['BIT_TOGGLE',['../globals_8h.html#a117dd62b706ad8c85c76ed08c9292cef',1,'globals.h']]],
+  ['bit_5fwrite',['BIT_WRITE',['../globals_8h.html#a011484a60e91f633573a1b3b757ae354',1,'globals.h']]],
   ['bitwise',['bitwise',['../structcmp_operation.html#af5e6b00b1107a09c804812af74a75e63',1,'cmpOperation']]],
   ['bitwise_5fand',['BITWISE_AND',['../utilities_8h.html#a99426959cd3c37c7afa7783892c671b0',1,'utilities.h']]],
   ['bitwise_5fdisabled',['BITWISE_DISABLED',['../utilities_8h.html#ae83304aeb54d84c56097cf41eb686fdc',1,'utilities.h']]],

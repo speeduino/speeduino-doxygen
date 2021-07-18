@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['kindoflimiting',['kindOfLimiting',['../structconfig13.html#a6facf4c44c833dab012e4a9a575e5577',1,'config13::kindOfLimiting()'],['../globals_8h.html#a09039649d2c0cdbdcadc2df7152ecb76',1,'kindOfLimiting():&#160;globals.h']]],
   ['knock_5fcount',['knock_count',['../structconfig10.html#ac95418b2de1c6a6c4f85e73ef005261b',1,'config10::knock_count()'],['../globals_8h.html#ac67363afc5bc073a66257ef96fa31890',1,'knock_count():&#160;globals.h']]],
   ['knock_5fduration',['knock_duration',['../structconfig10.html#ab3aa9e631d2a73c702b355f5e95a28e9',1,'config10::knock_duration()'],['../globals_8h.html#a14c75aa3212de2c3b520b8fb4af1bf21',1,'knock_duration():&#160;globals.h']]],
   ['knock_5ffirststep',['knock_firstStep',['../structconfig10.html#a668e9a1237255e4b3e1520e122da607a',1,'config10::knock_firstStep()'],['../globals_8h.html#a32c78550e2d15a7fb82370132eb81cdc',1,'knock_firstStep():&#160;globals.h']]],
