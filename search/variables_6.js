@@ -26,7 +26,7 @@ var searchData=
   ['flatsarm',['flatSArm',['../structconfig6.html#a015c3bc2c697b92e56e63f6e07c16f10',1,'config6::flatSArm()'],['../globals_8h.html#ae7b43d59b87ff36cda7a890fdf109289',1,'flatSArm():&#160;globals.h']]],
   ['flatsenable',['flatSEnable',['../structconfig6.html#a1f77d6519781f0588b705f377ff94208',1,'config6::flatSEnable()'],['../globals_8h.html#a8560001ad6d4a68d5b4fc68812877698',1,'flatSEnable():&#160;globals.h']]],
   ['flatshiftinghard',['flatShiftingHard',['../structstatuses.html#a2e43efd53f0ad250c31c15a43e741c3f',1,'statuses']]],
-  ['flatsretard',['flatSRetard',['../structconfig6.html#a832732a9f8f5a8223d65cd1861577add',1,'config6::flatSRetard()'],['../globals_8h.html#a07d7b4aef440b51a3290f0edc1dcac50',1,'flatSRetard():&#160;globals.h']]],
+  ['flatsretard',['flatSRetard',['../structconfig6.html#acef5e5edd2a1fcda8692189c020dc70a',1,'config6::flatSRetard()'],['../globals_8h.html#a83fa122e9da31794f4b66c710a7d6967',1,'flatSRetard():&#160;globals.h']]],
   ['flatssoftwin',['flatSSoftWin',['../structconfig6.html#ab929ebc82c9fe2723316abe9ff3bb8a3',1,'config6::flatSSoftWin()'],['../globals_8h.html#aed17f4f99320287ffec101f489161716',1,'flatSSoftWin():&#160;globals.h']]],
   ['flex_5fpin_5fmask',['flex_pin_mask',['../globals_8h.html#a32e0b8f1887a81a87f8dc1442b6b2b0d',1,'flex_pin_mask():&#160;globals.ino'],['../globals_8ino.html#a32e0b8f1887a81a87f8dc1442b6b2b0d',1,'flex_pin_mask():&#160;globals.ino']]],
   ['flex_5fpin_5fport',['flex_pin_port',['../globals_8h.html#a2202540afbc4b78522371be5b77ea296',1,'flex_pin_port():&#160;globals.ino'],['../globals_8ino.html#a2202540afbc4b78522371be5b77ea296',1,'flex_pin_port():&#160;globals.ino']]],
