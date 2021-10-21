@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['basic_20distributor',['Basic Distributor',['../group__dec__dist.html',1,'']]]
+  ['basic_20distributor_0',['Basic Distributor',['../group__dec__dist.html',1,'']]]
 ];

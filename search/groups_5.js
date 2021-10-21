@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gm_2024x',['GM 24X',['../group__dec__gm.html',1,'']]],
-  ['gm7x',['GM7X',['../group__dec__gm7x.html',1,'']]]
+  ['ford_20st170_20_2801_2d04_20focus_29_0',['Ford ST170 (01-04 Focus)',['../group__dec__ford__st170.html',1,'']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['subaru_206_2f7',['Subaru 6/7',['../group__dec__subaru__6__7.html',1,'']]]
+  ['nissan_20360_20tooth_20on_20cam_0',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
+  ['non_2d360_20dual_20wheel_1',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weber_2dmarelli',['Weber-Marelli',['../group__dec__weber__marelli.html',1,'']]]
+  ['universal_20decoder_20routines_0',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]]
 ];
