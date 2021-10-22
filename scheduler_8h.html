@@ -70,6 +70,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">scheduler.h File Reference</div></div>
@@ -94,6 +95,15 @@ Macros</h2></td></tr>
 <tr class="separator:aa7b94ad3c3f8966d9b73903d218e08e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186">SWAP</a>(x,  y)&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[y] &lt; tmpQueue[x]) { unsigned int tmp = tmpQueue[x]; tmpQueue[x] = tmpQueue[y]; tmpQueue[y] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[x]; queue[x] = queue[y]; queue[y] = tmpS; }</td></tr>
 <tr class="separator:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae47578e47c890aeec4d5ba7fdfc68e54"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54">ScheduleStatus</a> { <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75">OFF</a>
+, <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73">PENDING</a>
+, <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a4a286d1028261c97a77ae79784da3281">STAGED</a>
+, <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304">RUNNING</a>
+ }</td></tr>
+<tr class="separator:ae47578e47c890aeec4d5ba7fdfc68e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -133,10 +143,8 @@ Functions</h2></td></tr>
 <tr class="separator:a6458184ce02bbd3e4c24a84e5ab7859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02e282e997465ea6a1bbe71cd28011e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a02e282e997465ea6a1bbe71cd28011e4">setIgnitionSchedule8</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
 <tr class="separator:a02e282e997465ea6a1bbe71cd28011e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a132e7930f23115e507d02b538cc91e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a132e7930f23115e507d02b538cc91e86">refreshIgnitionSchedule1</a> (unsigned long timeToEnd) <a class="el" href="timers_8h.html#af5c3afdf670e1bb666ee3dbf9b2be90c">__attribute__</a>((always_inline))</td></tr>
+<tr class="memitem:a132e7930f23115e507d02b538cc91e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a132e7930f23115e507d02b538cc91e86">refreshIgnitionSchedule1</a> (unsigned long timeToEnd) <a class="el" href="pages_8cpp.html#ab11067dc0721986612d170fdb243045e">__attribute__</a>((always_inline))</td></tr>
 <tr class="separator:a132e7930f23115e507d02b538cc91e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c3afdf670e1bb666ee3dbf9b2be90c"><td class="memItemLeft" align="right" valign="top">enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#af5c3afdf670e1bb666ee3dbf9b2be90c">__attribute__</a> ((__packed__))</td></tr>
-<tr class="separator:af5c3afdf670e1bb666ee3dbf9b2be90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6497505c62552a23434add244770232"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ad6497505c62552a23434add244770232">setQueue</a> (volatile <a class="el" href="struct_schedule.html">Schedule</a> *queue[], <a class="el" href="struct_schedule.html">Schedule</a> *schedule1, <a class="el" href="struct_schedule.html">Schedule</a> *schedule2, unsigned int CNT)</td></tr>
 <tr class="separator:ad6497505c62552a23434add244770232"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13ccea36db51231f277cc9133f43703b"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a13ccea36db51231f277cc9133f43703b">popQueue</a> (volatile <a class="el" href="struct_schedule.html">Schedule</a> *queue[])</td></tr>
@@ -176,8 +184,6 @@ Variables</h2></td></tr>
 <tr class="separator:a20faad8541734681371174fb66294792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40f3da43598f1d341b4fbd4da1929f9a"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a40f3da43598f1d341b4fbd4da1929f9a">inj8EndFunction</a> )()</td></tr>
 <tr class="separator:a40f3da43598f1d341b4fbd4da1929f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae47578e47c890aeec4d5ba7fdfc68e54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54">ScheduleStatus</a></td></tr>
-<tr class="separator:ae47578e47c890aeec4d5ba7fdfc68e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2fb1ff9030999139baf10625e6c2a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa2fb1ff9030999139baf10625e6c2a87">fuelSchedule1</a></td></tr>
 <tr class="separator:aa2fb1ff9030999139baf10625e6c2a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22f100c462bb3cae0c90e0bef78ec76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ad22f100c462bb3cae0c90e0bef78ec76">fuelSchedule2</a></td></tr>
@@ -323,19 +329,15 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="af5c3afdf670e1bb666ee3dbf9b2be90c" name="af5c3afdf670e1bb666ee3dbf9b2be90c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5c3afdf670e1bb666ee3dbf9b2be90c">&#9670;&nbsp;</a></span>__attribute__()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae47578e47c890aeec4d5ba7fdfc68e54" name="ae47578e47c890aeec4d5ba7fdfc68e54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae47578e47c890aeec4d5ba7fdfc68e54">&#9670;&nbsp;</a></span>ScheduleStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum __attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(__packed__)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54">ScheduleStatus</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -345,9 +347,16 @@ Variables</h2></td></tr>
 <li>STAGED - (???, Not used)</li>
 <li>RUNNING - <a class="el" href="struct_schedule.html">Schedule</a> is currently running </li>
 </ul>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75" name="ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75"></a>OFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73" name="ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73"></a>PENDING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54a4a286d1028261c97a77ae79784da3281" name="ae47578e47c890aeec4d5ba7fdfc68e54a4a286d1028261c97a77ae79784da3281"></a>STAGED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304" name="ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304"></a>RUNNING&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a79a0c739931b40c386eccc38f997d10d" name="a79a0c739931b40c386eccc38f997d10d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79a0c739931b40c386eccc38f997d10d">&#9670;&nbsp;</a></span>beginInjectorPriming()</h2>
 
@@ -2383,20 +2392,6 @@ Here is the caller graph for this function:</div>
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae47578e47c890aeec4d5ba7fdfc68e54" name="ae47578e47c890aeec4d5ba7fdfc68e54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae47578e47c890aeec4d5ba7fdfc68e54">&#9670;&nbsp;</a></span>ScheduleStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ScheduleStatus</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>

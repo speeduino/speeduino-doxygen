@@ -70,6 +70,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">idle.h File Reference</div></div>
@@ -108,10 +109,16 @@ Macros</h2></td></tr>
 <tr class="memitem:ab25afe45a12d1b7ec45a7538c814cf60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ab25afe45a12d1b7ec45a7538c814cf60">IDLE_TABLE_SIZE</a>&#160;&#160;&#160;10</td></tr>
 <tr class="separator:ab25afe45a12d1b7ec45a7538c814cf60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c">StepperStatus</a> { <a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502">SOFF</a>
+, <a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6">STEPPING</a>
+, <a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696">COOLING</a>
+ }</td></tr>
+<tr class="separator:ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af5c3afdf670e1bb666ee3dbf9b2be90c"><td class="memItemLeft" align="right" valign="top">enum&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#af5c3afdf670e1bb666ee3dbf9b2be90c">__attribute__</a> ((__packed__))</td></tr>
-<tr class="separator:af5c3afdf670e1bb666ee3dbf9b2be90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca4d348119424a7474843489e1b62b3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#aca4d348119424a7474843489e1b62b3c">initialiseIdle</a> ()</td></tr>
 <tr class="separator:aca4d348119424a7474843489e1b62b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b89edb80762b952e3fa34c609a3802b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a0b89edb80762b952e3fa34c609a3802b">initialiseIdleUpOutput</a> ()</td></tr>
@@ -123,8 +130,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c">StepperStatus</a></td></tr>
-<tr class="separator:ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0724ac5d9f6c9e61a75c6f078afdc024"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a0724ac5d9f6c9e61a75c6f078afdc024">iacClosedLoopTable</a></td></tr>
 <tr class="separator:a0724ac5d9f6c9e61a75c6f078afdc024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49ae009996bacf8f0b70bbc5eb620f1e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a49ae009996bacf8f0b70bbc5eb620f1e">iacPWMTable</a></td></tr>
@@ -321,25 +326,27 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="af5c3afdf670e1bb666ee3dbf9b2be90c" name="af5c3afdf670e1bb666ee3dbf9b2be90c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5c3afdf670e1bb666ee3dbf9b2be90c">&#9670;&nbsp;</a></span>__attribute__()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ae818db0cc84bf646086fdd76ce4a2f1c" name="ae818db0cc84bf646086fdd76ce4a2f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae818db0cc84bf646086fdd76ce4a2f1c">&#9670;&nbsp;</a></span>StepperStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum __attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(__packed__)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">enum <a class="el" href="idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c">StepperStatus</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502" name="ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502"></a>SOFF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6" name="ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6"></a>STEPPING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696" name="ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696"></a>COOLING&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a8445d0c9e76aec0f868dbc9d206f37ca" name="a8445d0c9e76aec0f868dbc9d206f37ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8445d0c9e76aec0f868dbc9d206f37ca">&#9670;&nbsp;</a></span>disableIdle()</h2>
 
@@ -842,20 +849,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">byte idleUpOutputLOW = LOW</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae818db0cc84bf646086fdd76ce4a2f1c" name="ae818db0cc84bf646086fdd76ce4a2f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae818db0cc84bf646086fdd76ce4a2f1c">&#9670;&nbsp;</a></span>StepperStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">StepperStatus</td>
         </tr>
       </table>
 </div><div class="memdoc">

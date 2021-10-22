@@ -116,7 +116,7 @@ Macros</h2></td></tr>
 <tr class="separator:adfa2d5d1e244c1e6845235a9d2586508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e636d5f98e15dd8eee0edbe0735f7fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>&#160;&#160;&#160;  { nullptr, 0, 0, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }</td></tr>
 <tr class="separator:a2e636d5f98e15dd8eee0edbe0735f7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540547f2a2368fd0441bf9b38e61d80d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a540547f2a2368fd0441bf9b38e61d80d">CREATE_PAGE_END</a>(pageNum,  pageSize)&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = End }</td></tr>
+<tr class="memitem:a540547f2a2368fd0441bf9b38e61d80d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a540547f2a2368fd0441bf9b38e61d80d">CREATE_PAGE_END</a>(pageNum,  pageSize)&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a667876a6f108081ad524d7d29d23d506">End</a> }</td></tr>
 <tr class="separator:a540547f2a2368fd0441bf9b38e61d80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829e73920bf29b255b2dfee76dc7505e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a829e73920bf29b255b2dfee76dc7505e">END_OF_PAGE</a>(pageNum,  pageSize)</td></tr>
 <tr class="separator:a829e73920bf29b255b2dfee76dc7505e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,7 +128,7 @@ Macros</h2></td></tr>
 <tr class="separator:aa213eb252ecf3bd247d06f7358550ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc1631ebc62d10d4e38dd6afd674813b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#afc1631ebc62d10d4e38dd6afd674813b">TABLE_YAXIS</a>(offset,  startByte,  pTable,  tableSize)</td></tr>
 <tr class="separator:afc1631ebc62d10d4e38dd6afd674813b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71010a7afae4133256f738fc9033cef5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(table_type,  pageNum,  startByte,  tableSize)&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = Table }</td></tr>
+<tr class="memitem:a71010a7afae4133256f738fc9033cef5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(table_type,  pageNum,  startByte,  tableSize)&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3abdc82221e2bc2a210036a9bf0bb088b3">Table</a> }</td></tr>
 <tr class="separator:a71010a7afae4133256f738fc9033cef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb44479f0fddf333f484dbfe1cc71406"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#abb44479f0fddf333f484dbfe1cc71406">CHECK_TABLE</a>(offset,  startByte,  pTable,  tableSize,  pageNum)</td></tr>
 <tr class="separator:abb44479f0fddf333f484dbfe1cc71406"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,9 +197,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (offset &lt; (startByte)+blockSize) \</div>
 <div class="line">  { \</div>
-<div class="line">    return { <a class="code hl_define" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = (startByte), .size = blockSize, .type = NoEntity }; \</div>
+<div class="line">    return { <a class="code hl_define" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = (startByte), .size = blockSize, .type = <a class="code hl_enumvalue" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3">NoEntity</a> }; \</div>
 <div class="line">  }</div>
 <div class="ttc" id="apages_8cpp_html_a2e636d5f98e15dd8eee0edbe0735f7fd"><div class="ttname"><a href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a></div><div class="ttdeci">#define NULL_TABLE</div><div class="ttdef"><b>Definition:</b> pages.cpp:84</div></div>
+<div class="ttc" id="apages_8h_html_a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3"><div class="ttname"><a href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3">NoEntity</a></div><div class="ttdeci">@ NoEntity</div><div class="ttdef"><b>Definition:</b> pages.h:57</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -248,9 +249,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (offset &lt; (startByte)+blockSize) \</div>
 <div class="line">  { \</div>
-<div class="line">    return { { (<a class="code hl_struct" href="structtable3_d.html">table3D</a>*)pDataBlock, 0, 0, <a class="code hl_enumvalue" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }, .page = pageNum, .start = (startByte), .size = blockSize, .type = Raw }; \</div>
+<div class="line">    return { { (<a class="code hl_struct" href="structtable3_d.html">table3D</a>*)pDataBlock, 0, 0, <a class="code hl_enumvalue" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }, .page = pageNum, .start = (startByte), .size = blockSize, .type = <a class="code hl_enumvalue" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23">Raw</a> }; \</div>
 <div class="line">  }</div>
 <div class="ttc" id="apages_8cpp_html_a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd"><div class="ttname"><a href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a></div><div class="ttdeci">@ TableSectionNone</div><div class="ttdef"><b>Definition:</b> pages.cpp:34</div></div>
+<div class="ttc" id="apages_8h_html_a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23"><div class="ttname"><a href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23">Raw</a></div><div class="ttdeci">@ Raw</div><div class="ttdef"><b>Definition:</b> pages.h:55</div></div>
 <div class="ttc" id="astructtable3_d_html"><div class="ttname"><a href="structtable3_d.html">table3D</a></div><div class="ttdef"><b>Definition:</b> table.h:80</div></div>
 </div><!-- fragment -->
 </div>
@@ -341,7 +343,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = End }</td>
+          <td></td><td>&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a667876a6f108081ad524d7d29d23d506">End</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -630,7 +632,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = Table }</td>
+          <td></td><td>&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3abdc82221e2bc2a210036a9bf0bb088b3">Table</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">
