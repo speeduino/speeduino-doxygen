@@ -32,7 +32,7 @@ var searchData=
   ['setignitionschedule8_29',['setIgnitionSchedule8',['../scheduler_8h.html#a02e282e997465ea6a1bbe71cd28011e4',1,'setIgnitionSchedule8(void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)()):&#160;scheduler.ino'],['../scheduler_8ino.html#a02e282e997465ea6a1bbe71cd28011e4',1,'setIgnitionSchedule8(void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)()):&#160;scheduler.ino']]],
   ['setpagevalue_30',['setPageValue',['../pages_8h.html#af21f52defb535d26cf2bfac859885c53',1,'pages.h']]],
   ['setpinmapping_31',['setPinMapping',['../init_8h.html#a83d91ac4ac165c8eb1e569ebbf69e7b2',1,'setPinMapping(byte):&#160;init.ino'],['../init_8ino.html#a86db22b96dc0b6738580853545476dd7',1,'setPinMapping(byte boardID):&#160;init.ino']]],
-  ['setqueue_32',['setQueue',['../scheduler_8h.html#ad6497505c62552a23434add244770232',1,'scheduler.h']]],
+  ['setqueue_32',['setQueue',['../scheduler_8h.html#af4c0950b5b94b5f175c20df449d33ee4',1,'scheduler.h']]],
   ['setresetcontrolpinstate_33',['setResetControlPinState',['../utilities_8h.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utilities.ino'],['../utilities_8ino.html#a26809182d6251133ee964916037979ed',1,'setResetControlPinState():&#160;utilities.ino']]],
   ['setup_34',['setup',['../speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;speeduino.ino'],['../speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d',1,'setup():&#160;speeduino.ino']]],
   ['stdgetrpm_35',['stdGetRPM',['../group__dec__uni.html#ga68415dc74fbfa8e4e43e4249cc988e81',1,'decoders.ino']]],
