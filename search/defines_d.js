@@ -8,6 +8,5 @@ var searchData=
   ['nitrous_5fboth_5',['NITROUS_BOTH',['../globals_8h.html#af40d036c521e97956fbc3e38493193fd',1,'globals.h']]],
   ['nitrous_5foff_6',['NITROUS_OFF',['../globals_8h.html#a80972618ee06818b20a2d2dba28f01d2',1,'globals.h']]],
   ['nitrous_5fstage1_7',['NITROUS_STAGE1',['../globals_8h.html#aa75be79f7eee8079150e7c564b4097ab',1,'globals.h']]],
-  ['nitrous_5fstage2_8',['NITROUS_STAGE2',['../globals_8h.html#a2b90e1db9e12cf7ae1e9a9a917abcf0b',1,'globals.h']]],
-  ['null_5ftable_9',['NULL_TABLE',['../pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd',1,'pages.cpp']]]
+  ['nitrous_5fstage2_8',['NITROUS_STAGE2',['../globals_8h.html#a2b90e1db9e12cf7ae1e9a9a917abcf0b',1,'globals.h']]]
 ];

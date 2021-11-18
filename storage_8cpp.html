@@ -70,16 +70,14 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">storage.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="table_8h_source.html">table.h</a>&quot;</code><br />
+<code>#include &lt;EEPROM_LIB_H&gt;</code><br />
 <code>#include &quot;<a class="el" href="storage_8h_source.html">storage.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="table__iterator_8h_source.html">table_iterator.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -110,43 +108,36 @@ Macros</h2></td></tr>
 <tr class="memitem:a3883bd7685c795fc06ed435efa83dc2e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3883bd7685c795fc06ed435efa83dc2e">EEPROM_LAST_BARO</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>-1)</td></tr>
 <tr class="separator:a3883bd7685c795fc06ed435efa83dc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a3c5629e3790dc0ac73d6eddd138721eb"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3c5629e3790dc0ac73d6eddd138721eb">write_location</a></td></tr>
-<tr class="separator:a3c5629e3790dc0ac73d6eddd138721eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8e6e37ed40a3dbde0c5c234d715334d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3">isEepromWritePending</a> ()</td></tr>
 <tr class="separator:a8e6e37ed40a3dbde0c5c234d715334d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac98869315dfb66d34ce1b2015f8afc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40">writeAllConfig</a> ()</td></tr>
 <tr class="separator:ac98869315dfb66d34ce1b2015f8afc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1901e041ed9416fe50cdd037cb7b1611"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611">update</a> (uint8_t value, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
-<tr class="separator:a1901e041ed9416fe50cdd037cb7b1611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6eaa41918f7086113b3ec0330d36f82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82">write_range</a> (const byte *pStart, const byte *pEnd, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
+<tr class="memitem:ae6eaa41918f7086113b3ec0330d36f82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82">write_range</a> (const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pStart, const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pEnd, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
 <tr class="separator:ae6eaa41918f7086113b3ec0330d36f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f0875b3cc9e1127caa7ba6e1479d6a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a">write</a> (const <a class="el" href="structtable__row__t.html">table_row_t</a> &amp;row, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
-<tr class="separator:a26f0875b3cc9e1127caa7ba6e1479d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af46c8e1e79bca7196bb5e16d359c6c2d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#af46c8e1e79bca7196bb5e16d359c6c2d">write</a> (<a class="el" href="structtable__row__iterator__t.html">table_row_iterator_t</a> it, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
-<tr class="separator:af46c8e1e79bca7196bb5e16d359c6c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a447be79bbc8ecad20b178ecaa9b25b34"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a447be79bbc8ecad20b178ecaa9b25b34">write</a> (<a class="el" href="structtable__axis__iterator__t.html">table_axis_iterator_t</a> it, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
-<tr class="separator:a447be79bbc8ecad20b178ecaa9b25b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29e3eb66e5024e0025b1ebd94c6731b0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0">writeTable</a> (const <a class="el" href="structtable3_d.html">table3D</a> *pTable, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
-<tr class="separator:a29e3eb66e5024e0025b1ebd94c6731b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b27f7e2000e55ad4df08b717ef8bbe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe">write</a> (const <a class="el" href="classtable__row__iterator.html">table_row_iterator</a> &amp;row, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
+<tr class="separator:a26b27f7e2000e55ad4df08b717ef8bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9d49faffe70e707152dc88e3b4c2ac4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4">write</a> (<a class="el" href="classtable__value__iterator.html">table_value_iterator</a> it, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
+<tr class="separator:ac9d49faffe70e707152dc88e3b4c2ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae747ea4be6494a109d22d1bb6e6a95f3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae747ea4be6494a109d22d1bb6e6a95f3">write</a> (<a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> it, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
+<tr class="separator:ae747ea4be6494a109d22d1bb6e6a95f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeadd741ad30b298dcb7c14af4c922b18"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18">writeTable</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> key, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
+<tr class="separator:aeadd741ad30b298dcb7c14af4c922b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43e4485fee4923fb039076254df6c689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689">writeConfig</a> (uint8_t pageNum)</td></tr>
 <tr class="separator:a43e4485fee4923fb039076254df6c689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5565e6188dc7ba5e0ec6471e0769e3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ab5565e6188dc7ba5e0ec6471e0769e3c">resetConfigPages</a> ()</td></tr>
 <tr class="separator:ab5565e6188dc7ba5e0ec6471e0769e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afedd9b61e6b3ae913521b3ad606e4dc8"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8">load_range</a> (eeprom_address_t address, byte *pFirst, const byte *pLast)</td></tr>
+<tr class="memitem:afedd9b61e6b3ae913521b3ad606e4dc8"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8">load_range</a> (eeprom_address_t address, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pFirst, const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pLast)</td></tr>
 <tr class="separator:afedd9b61e6b3ae913521b3ad606e4dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b145ac14f05131b65c4dc6fe70853b6"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5b145ac14f05131b65c4dc6fe70853b6">load</a> (<a class="el" href="structtable__row__t.html">table_row_t</a> row, eeprom_address_t address)</td></tr>
-<tr class="separator:a5b145ac14f05131b65c4dc6fe70853b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8356bf2af70b770fadc91a53fd1959ab"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a8356bf2af70b770fadc91a53fd1959ab">load</a> (<a class="el" href="structtable__row__iterator__t.html">table_row_iterator_t</a> it, eeprom_address_t address)</td></tr>
-<tr class="separator:a8356bf2af70b770fadc91a53fd1959ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b592e3d2a5fa1e930d0fc74b3758ffe"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a6b592e3d2a5fa1e930d0fc74b3758ffe">load</a> (<a class="el" href="structtable__axis__iterator__t.html">table_axis_iterator_t</a> it, eeprom_address_t address)</td></tr>
-<tr class="separator:a6b592e3d2a5fa1e930d0fc74b3758ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae03bb6e660cebf87059b97f5b7eaf18e"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae03bb6e660cebf87059b97f5b7eaf18e">loadTable</a> (<a class="el" href="structtable3_d.html">table3D</a> *pTable, eeprom_address_t address)</td></tr>
-<tr class="separator:ae03bb6e660cebf87059b97f5b7eaf18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb030fa711a9054b4474bb927cfe909d"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d">load</a> (<a class="el" href="classtable__row__iterator.html">table_row_iterator</a> row, eeprom_address_t address)</td></tr>
+<tr class="separator:abb030fa711a9054b4474bb927cfe909d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd684627571cbd2762e31a6e64485393"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#afd684627571cbd2762e31a6e64485393">load</a> (<a class="el" href="classtable__value__iterator.html">table_value_iterator</a> it, eeprom_address_t address)</td></tr>
+<tr class="separator:afd684627571cbd2762e31a6e64485393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad315385a19ebd6b5129020050e6ee795"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ad315385a19ebd6b5129020050e6ee795">load</a> (<a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> it, eeprom_address_t address)</td></tr>
+<tr class="separator:ad315385a19ebd6b5129020050e6ee795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778ec92498a8aeb21d21b6ac68c05de9"><td class="memItemLeft" align="right" valign="top">static eeprom_address_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9">loadTable</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> key, eeprom_address_t address)</td></tr>
+<tr class="separator:a778ec92498a8aeb21d21b6ac68c05de9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ed6ddd9940c0097cc91774056df1c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2">loadConfig</a> ()</td></tr>
 <tr class="separator:ad5ed6ddd9940c0097cc91774056df1c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369be74b7836bb9eb5a57c95db8d3052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a369be74b7836bb9eb5a57c95db8d3052">loadCalibration</a> ()</td></tr>
@@ -159,16 +150,16 @@ Functions</h2></td></tr>
 <tr class="separator:a57f1423d06ff792b7c73b636677600e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0f76cee417a1d1470e56244370e01a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aad0f76cee417a1d1470e56244370e01a">readPageCRC32</a> (uint8_t pageNum)</td></tr>
 <tr class="separator:aad0f76cee417a1d1470e56244370e01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a0d3fa76548baa671184809ce8440ba"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">readLastBaro</a> ()</td></tr>
+<tr class="memitem:a2a0d3fa76548baa671184809ce8440ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">readLastBaro</a> ()</td></tr>
 <tr class="memdesc:a2a0d3fa76548baa671184809ce8440ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read last stored barometer reading from EEPROM.  <a href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">More...</a><br /></td></tr>
 <tr class="separator:a2a0d3fa76548baa671184809ce8440ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a1a092e980b5f5fc36f2d33b5c79d6405">storeLastBaro</a> (byte newValue)</td></tr>
+<tr class="memitem:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a1a092e980b5f5fc36f2d33b5c79d6405">storeLastBaro</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> newValue)</td></tr>
 <tr class="memdesc:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write last acquired arometer reading to EEPROM.  <a href="storage_8cpp.html#a1a092e980b5f5fc36f2d33b5c79d6405">More...</a><br /></td></tr>
 <tr class="separator:a1a092e980b5f5fc36f2d33b5c79d6405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf46bc73c6a4df33773c6a4ce207191c"><td class="memItemLeft" align="right" valign="top">byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aaf46bc73c6a4df33773c6a4ce207191c">readEEPROMVersion</a> ()</td></tr>
+<tr class="memitem:aaf46bc73c6a4df33773c6a4ce207191c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aaf46bc73c6a4df33773c6a4ce207191c">readEEPROMVersion</a> ()</td></tr>
 <tr class="memdesc:aaf46bc73c6a4df33773c6a4ce207191c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read EEPROM current data format version (from offset EEPROM_DATA_VERSION).  <a href="storage_8cpp.html#aaf46bc73c6a4df33773c6a4ce207191c">More...</a><br /></td></tr>
 <tr class="separator:aaf46bc73c6a4df33773c6a4ce207191c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc52f348f929632166603de11617428d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#afc52f348f929632166603de11617428d">storeEEPROMVersion</a> (byte newVersion)</td></tr>
+<tr class="memitem:afc52f348f929632166603de11617428d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#afc52f348f929632166603de11617428d">storeEEPROMVersion</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> newVersion)</td></tr>
 <tr class="memdesc:afc52f348f929632166603de11617428d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store EEPROM current data format version (to offset EEPROM_DATA_VERSION).  <a href="storage_8cpp.html#afc52f348f929632166603de11617428d">More...</a><br /></td></tr>
 <tr class="separator:afc52f348f929632166603de11617428d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -320,21 +311,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a3c5629e3790dc0ac73d6eddd138721eb" name="a3c5629e3790dc0ac73d6eddd138721eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c5629e3790dc0ac73d6eddd138721eb">&#9670;&nbsp;</a></span>write_location</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structwrite__location.html">write_location</a> <a class="el" href="structwrite__location.html">write_location</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a50a589cf49dc3944e137f010e2ff8b9b" name="a50a589cf49dc3944e137f010e2ff8b9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a50a589cf49dc3944e137f010e2ff8b9b">&#9670;&nbsp;</a></span>compute_crc_address()</h2>
@@ -365,7 +341,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="storage_8cpp_a50a589cf49dc3944e137f010e2ff8b9b_cgraph.png" border="0" usemap="#astorage_8cpp_a50a589cf49dc3944e137f010e2ff8b9b_cgraph" alt=""/></div>
 <map name="astorage_8cpp_a50a589cf49dc3944e137f010e2ff8b9b_cgraph" id="astorage_8cpp_a50a589cf49dc3944e137f010e2ff8b9b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,156,32"/>
-<area shape="rect" href="pages_8h.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="204,5,308,32"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="204,5,308,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -407,8 +383,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6b592e3d2a5fa1e930d0fc74b3758ffe" name="a6b592e3d2a5fa1e930d0fc74b3758ffe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b592e3d2a5fa1e930d0fc74b3758ffe">&#9670;&nbsp;</a></span>load() <span class="overload">[1/3]</span></h2>
+<a id="ad315385a19ebd6b5129020050e6ee795" name="ad315385a19ebd6b5129020050e6ee795"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad315385a19ebd6b5129020050e6ee795">&#9670;&nbsp;</a></span>load() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,7 +395,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static eeprom_address_t load </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable__axis__iterator__t.html">table_axis_iterator_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td>
           <td class="paramname"><em>it</em>, </td>
         </tr>
         <tr>
@@ -443,19 +419,17 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a6b592e3d2a5fa1e930d0fc74b3758ffe_cgraph.png" border="0" usemap="#astorage_8cpp_a6b592e3d2a5fa1e930d0fc74b3758ffe_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a6b592e3d2a5fa1e930d0fc74b3758ffe_cgraph" id="astorage_8cpp_a6b592e3d2a5fa1e930d0fc74b3758ffe_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,52,83"/>
-<area shape="rect" href="table__iterator_8h.html#a4c683bf07ce9ac2417ef15cb24bd0e6f" title=" " alt="" coords="100,5,201,32"/>
-<area shape="rect" href="table__iterator_8h.html#a476a13f82c424f83e1fc4a25044a1de1" title=" " alt="" coords="120,56,181,83"/>
-<area shape="rect" href="table__iterator_8h.html#aeecbcc1fe36ca18e0bcc2185df343b14" title=" " alt="" coords="111,107,190,133"/>
+<div class="center"><img src="storage_8cpp_ad315385a19ebd6b5129020050e6ee795_cgraph.png" border="0" usemap="#astorage_8cpp_ad315385a19ebd6b5129020050e6ee795_cgraph" alt=""/></div>
+<map name="astorage_8cpp_ad315385a19ebd6b5129020050e6ee795_cgraph" id="astorage_8cpp_ad315385a19ebd6b5129020050e6ee795_cgraph">
+<area shape="rect" title=" " alt="" coords="5,13,52,39"/>
+<area shape="rect" href="classtable__axis__iterator.html#a6e6256ac904f25006b8e6ef22dc3b9ca" title="Test for end of iteration." alt="" coords="100,5,227,47"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a8356bf2af70b770fadc91a53fd1959ab" name="a8356bf2af70b770fadc91a53fd1959ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8356bf2af70b770fadc91a53fd1959ab">&#9670;&nbsp;</a></span>load() <span class="overload">[2/3]</span></h2>
+<a id="abb030fa711a9054b4474bb927cfe909d" name="abb030fa711a9054b4474bb927cfe909d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb030fa711a9054b4474bb927cfe909d">&#9670;&nbsp;</a></span>load() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,56 +440,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static eeprom_address_t load </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable__row__iterator__t.html">table_row_iterator_t</a>&#160;</td>
-          <td class="paramname"><em>it</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">eeprom_address_t&#160;</td>
-          <td class="paramname"><em>address</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a8356bf2af70b770fadc91a53fd1959ab_cgraph.png" border="0" usemap="#astorage_8cpp_a8356bf2af70b770fadc91a53fd1959ab_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a8356bf2af70b770fadc91a53fd1959ab_cgraph" id="astorage_8cpp_a8356bf2af70b770fadc91a53fd1959ab_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,52,108"/>
-<area shape="rect" href="table__iterator_8h.html#a04f989b2a94c36498279bf12fcd005fa" title=" " alt="" coords="100,5,199,32"/>
-<area shape="rect" href="table__iterator_8h.html#a476a13f82c424f83e1fc4a25044a1de1" title=" " alt="" coords="119,56,180,83"/>
-<area shape="rect" href="table__iterator_8h.html#aa6f9bcc2156d0052cefcf19a0bea9340" title=" " alt="" coords="115,107,183,133"/>
-<area shape="rect" href="storage_8cpp.html#a5b145ac14f05131b65c4dc6fe70853b6" title=" " alt="" coords="126,157,173,184"/>
-<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="247,157,332,184"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a5b145ac14f05131b65c4dc6fe70853b6" name="a5b145ac14f05131b65c4dc6fe70853b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b145ac14f05131b65c4dc6fe70853b6">&#9670;&nbsp;</a></span>load() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static eeprom_address_t load </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable__row__t.html">table_row_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtable__row__iterator.html">table_row_iterator</a>&#160;</td>
           <td class="paramname"><em>row</em>, </td>
         </tr>
         <tr>
@@ -539,24 +464,73 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_cgraph.png" border="0" usemap="#astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_cgraph" id="astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="100,5,185,32"/>
+<div class="center"><img src="storage_8cpp_abb030fa711a9054b4474bb927cfe909d_cgraph.png" border="0" usemap="#astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_cgraph" alt=""/></div>
+<map name="astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_cgraph" id="astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,52,57"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="100,5,252,32"/>
+<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="133,56,219,83"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_icgraph.png" border="0" usemap="#astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_icgraph" id="astorage_8cpp_a5b145ac14f05131b65c4dc6fe70853b6_icgraph">
+<div class="center"><img src="storage_8cpp_abb030fa711a9054b4474bb927cfe909d_icgraph.png" border="0" usemap="#astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_icgraph" alt=""/></div>
+<map name="astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_icgraph" id="astorage_8cpp_abb030fa711a9054b4474bb927cfe909d_icgraph">
 <area shape="rect" title=" " alt="" coords="631,31,677,57"/>
-<area shape="rect" href="storage_8cpp.html#a8356bf2af70b770fadc91a53fd1959ab" title=" " alt="" coords="520,5,567,32"/>
-<area shape="rect" href="storage_8cpp.html#ae03bb6e660cebf87059b97f5b7eaf18e" title=" " alt="" coords="504,56,583,83"/>
+<area shape="rect" href="storage_8cpp.html#afd684627571cbd2762e31a6e64485393" title=" " alt="" coords="520,5,567,32"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="504,56,583,83"/>
 <area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="373,56,456,83"/>
 <area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="240,31,325,57"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,56,192,83"/>
 <area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,56,60,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afd684627571cbd2762e31a6e64485393" name="afd684627571cbd2762e31a6e64485393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd684627571cbd2762e31a6e64485393">&#9670;&nbsp;</a></span>load() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static eeprom_address_t load </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtable__value__iterator.html">table_value_iterator</a>&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">eeprom_address_t&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_afd684627571cbd2762e31a6e64485393_cgraph.png" border="0" usemap="#astorage_8cpp_afd684627571cbd2762e31a6e64485393_cgraph" alt=""/></div>
+<map name="astorage_8cpp_afd684627571cbd2762e31a6e64485393_cgraph" id="astorage_8cpp_afd684627571cbd2762e31a6e64485393_cgraph">
+<area shape="rect" title=" " alt="" coords="5,42,52,69"/>
+<area shape="rect" href="classtable__value__iterator.html#a427eaf34c3380810392861e1497d231f" title="Test for end of iteration." alt="" coords="100,5,235,47"/>
+<area shape="rect" href="storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d" title=" " alt="" coords="144,71,191,98"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="283,46,435,73"/>
+<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="316,97,401,123"/>
 </map>
 </div>
 
@@ -580,13 +554,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">byte *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *&#160;</td>
           <td class="paramname"><em>pFirst</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const byte *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *&#160;</td>
           <td class="paramname"><em>pLast</em>&#160;</td>
         </tr>
         <tr>
@@ -615,10 +589,10 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="storage_8cpp_afedd9b61e6b3ae913521b3ad606e4dc8_icgraph.png" border="0" usemap="#astorage_8cpp_afedd9b61e6b3ae913521b3ad606e4dc8_icgraph" alt=""/></div>
 <map name="astorage_8cpp_afedd9b61e6b3ae913521b3ad606e4dc8_icgraph" id="astorage_8cpp_afedd9b61e6b3ae913521b3ad606e4dc8_icgraph">
 <area shape="rect" title=" " alt="" coords="725,81,811,108"/>
-<area shape="rect" href="storage_8cpp.html#a5b145ac14f05131b65c4dc6fe70853b6" title=" " alt="" coords="631,56,677,83"/>
+<area shape="rect" href="storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d" title=" " alt="" coords="631,56,677,83"/>
 <area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="373,81,456,108"/>
-<area shape="rect" href="storage_8cpp.html#a8356bf2af70b770fadc91a53fd1959ab" title=" " alt="" coords="520,5,567,32"/>
-<area shape="rect" href="storage_8cpp.html#ae03bb6e660cebf87059b97f5b7eaf18e" title=" " alt="" coords="504,56,583,83"/>
+<area shape="rect" href="storage_8cpp.html#afd684627571cbd2762e31a6e64485393" title=" " alt="" coords="520,5,567,32"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="504,56,583,83"/>
 <area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="240,56,325,83"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,81,192,108"/>
 <area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,81,60,108"/>
@@ -675,15 +649,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_ad5ed6ddd9940c0097cc91774056df1c2_cgraph.png" border="0" usemap="#astorage_8cpp_ad5ed6ddd9940c0097cc91774056df1c2_cgraph" alt=""/></div>
 <map name="astorage_8cpp_ad5ed6ddd9940c0097cc91774056df1c2_cgraph" id="astorage_8cpp_ad5ed6ddd9940c0097cc91774056df1c2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,88,57"/>
-<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="427,5,513,32"/>
-<area shape="rect" href="storage_8cpp.html#ae03bb6e660cebf87059b97f5b7eaf18e" title=" " alt="" coords="136,81,215,108"/>
-<area shape="rect" href="storage_8cpp.html#a5b145ac14f05131b65c4dc6fe70853b6" title=" " alt="" coords="283,31,330,57"/>
-<area shape="rect" href="table__iterator_8h.html#aacb264d71648005dcfb05392177a6abe" title=" " alt="" coords="263,81,351,108"/>
-<area shape="rect" href="table__iterator_8h.html#aab94a4995da6aecc42099105ddf02702" title=" " alt="" coords="273,132,340,159"/>
-<area shape="rect" href="table__iterator_8h.html#a231c770533a96b1226ce494854d70432" title=" " alt="" coords="271,183,342,209"/>
-<area shape="rect" href="table__iterator_8h.html#a81b21d7b5ab5cb9e1a102b68ea77adcb" title=" " alt="" coords="399,132,541,159"/>
-<area shape="rect" href="table__iterator_8h.html#aa5a60eb69a3575b81a19d8777bb6bc0a" title=" " alt="" coords="399,183,541,209"/>
+<area shape="rect" title=" " alt="" coords="5,68,88,95"/>
+<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="432,5,517,32"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="136,131,215,157"/>
+<area shape="rect" href="storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d" title=" " alt="" coords="283,56,330,83"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="263,131,351,157"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="273,205,340,232"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="273,280,340,307"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="399,56,551,83"/>
 </map>
 </div>
 <div class="dynheader">
@@ -700,8 +673,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ae03bb6e660cebf87059b97f5b7eaf18e" name="ae03bb6e660cebf87059b97f5b7eaf18e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae03bb6e660cebf87059b97f5b7eaf18e">&#9670;&nbsp;</a></span>loadTable()</h2>
+<a id="a778ec92498a8aeb21d21b6ac68c05de9" name="a778ec92498a8aeb21d21b6ac68c05de9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778ec92498a8aeb21d21b6ac68c05de9">&#9670;&nbsp;</a></span>loadTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -712,8 +685,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static eeprom_address_t loadTable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable3_d.html">table3D</a> *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -736,23 +715,22 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_cgraph.png" border="0" usemap="#astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_cgraph" alt=""/></div>
-<map name="astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_cgraph" id="astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,84,108"/>
-<area shape="rect" href="storage_8cpp.html#a5b145ac14f05131b65c4dc6fe70853b6" title=" " alt="" coords="153,5,199,32"/>
-<area shape="rect" href="table__iterator_8h.html#aacb264d71648005dcfb05392177a6abe" title=" " alt="" coords="132,56,220,83"/>
-<area shape="rect" href="table__iterator_8h.html#aab94a4995da6aecc42099105ddf02702" title=" " alt="" coords="143,107,209,133"/>
-<area shape="rect" href="table__iterator_8h.html#a231c770533a96b1226ce494854d70432" title=" " alt="" coords="141,157,211,184"/>
-<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="297,5,382,32"/>
-<area shape="rect" href="table__iterator_8h.html#a81b21d7b5ab5cb9e1a102b68ea77adcb" title=" " alt="" coords="268,107,411,133"/>
-<area shape="rect" href="table__iterator_8h.html#aa5a60eb69a3575b81a19d8777bb6bc0a" title=" " alt="" coords="268,157,411,184"/>
+<div class="center"><img src="storage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_cgraph.png" border="0" usemap="#astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_cgraph" alt=""/></div>
+<map name="astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_cgraph" id="astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,143,84,169"/>
+<area shape="rect" href="storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d" title=" " alt="" coords="153,31,199,57"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="132,105,220,132"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="143,180,209,207"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="143,255,209,281"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="268,5,420,32"/>
+<area shape="rect" href="storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8" title=" " alt="" coords="301,56,387,83"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_icgraph.png" border="0" usemap="#astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_icgraph" alt=""/></div>
-<map name="astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_icgraph" id="astorage_8cpp_ae03bb6e660cebf87059b97f5b7eaf18e_icgraph">
+<div class="center"><img src="storage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_icgraph.png" border="0" usemap="#astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_icgraph" alt=""/></div>
+<map name="astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_icgraph" id="astorage_8cpp_a778ec92498a8aeb21d21b6ac68c05de9_icgraph">
 <area shape="rect" title=" " alt="" coords="504,31,583,57"/>
 <area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="373,31,456,57"/>
 <area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="240,5,325,32"/>
@@ -770,7 +748,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">byte readEEPROMVersion </td>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> readEEPROMVersion </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -800,7 +778,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">byte readLastBaro </td>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> readLastBaro </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -852,7 +830,7 @@ Here is the call graph for this function:</div>
 <map name="astorage_8cpp_aad0f76cee417a1d1470e56244370e01a_cgraph" id="astorage_8cpp_aad0f76cee417a1d1470e56244370e01a_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,124,32"/>
 <area shape="rect" href="storage_8cpp.html#a50a589cf49dc3944e137f010e2ff8b9b" title=" " alt="" coords="172,5,323,32"/>
-<area shape="rect" href="pages_8h.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="371,5,475,32"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="371,5,475,32"/>
 </map>
 </div>
 
@@ -879,9 +857,9 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="storage_8cpp_ab5565e6188dc7ba5e0ec6471e0769e3c_cgraph.png" border="0" usemap="#astorage_8cpp_ab5565e6188dc7ba5e0ec6471e0769e3c_cgraph" alt=""/></div>
 <map name="astorage_8cpp_ab5565e6188dc7ba5e0ec6471e0769e3c_cgraph" id="astorage_8cpp_ab5565e6188dc7ba5e0ec6471e0769e3c_cgraph">
 <area shape="rect" title=" " alt="" coords="5,56,129,83"/>
-<area shape="rect" href="pages_8h.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="194,5,265,32"/>
-<area shape="rect" href="pages_8h.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="177,56,281,83"/>
-<area shape="rect" href="pages_8h.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="185,107,273,133"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="194,5,265,32"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="177,56,281,83"/>
+<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="185,107,273,133"/>
 </map>
 </div>
 <div class="dynheader">
@@ -906,7 +884,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void storeEEPROMVersion </td>
           <td>(</td>
-          <td class="paramtype">byte&#160;</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
           <td class="paramname"><em>newVersion</em></td><td>)</td>
           <td></td>
         </tr>
@@ -937,7 +915,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void storeLastBaro </td>
           <td>(</td>
-          <td class="paramtype">byte&#160;</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
           <td class="paramname"><em>newValue</em></td><td>)</td>
           <td></td>
         </tr>
@@ -999,73 +977,14 @@ Here is the call graph for this function:</div>
 <map name="astorage_8cpp_a57f1423d06ff792b7c73b636677600e8_cgraph" id="astorage_8cpp_a57f1423d06ff792b7c73b636677600e8_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,128,32"/>
 <area shape="rect" href="storage_8cpp.html#a50a589cf49dc3944e137f010e2ff8b9b" title=" " alt="" coords="176,5,327,32"/>
-<area shape="rect" href="pages_8h.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="375,5,479,32"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="375,5,479,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a1901e041ed9416fe50cdd037cb7b1611" name="a1901e041ed9416fe50cdd037cb7b1611"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1901e041ed9416fe50cdd037cb7b1611">&#9670;&nbsp;</a></span>update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> update </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structwrite__location.html">write_location</a>&#160;</td>
-          <td class="paramname"><em>location</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Update byte to EEPROM by first comparing content and the need to write it. We only ever write to the EEPROM where the new value is different from the currently stored byte This is due to the limited write life of the EEPROM (Approximately 100,000 writes) </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a1901e041ed9416fe50cdd037cb7b1611_icgraph.png" border="0" usemap="#astorage_8cpp_a1901e041ed9416fe50cdd037cb7b1611_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a1901e041ed9416fe50cdd037cb7b1611_icgraph" id="astorage_8cpp_a1901e041ed9416fe50cdd037cb7b1611_icgraph">
-<area shape="rect" title=" " alt="" coords="1128,31,1189,57"/>
-<area shape="rect" href="storage_8cpp.html#a447be79bbc8ecad20b178ecaa9b25b34" title=" " alt="" coords="1010,5,1061,32"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="991,56,1080,83"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="892,81,943,108"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="627,81,713,108"/>
-<area shape="rect" href="storage_8cpp.html#af46c8e1e79bca7196bb5e16d359c6c2d" title=" " alt="" coords="777,81,828,108"/>
-<area shape="rect" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0" title=" " alt="" coords="761,132,844,159"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,31,327,57"/>
-<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,183,336,209"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="384,56,579,83"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="431,107,532,133"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,69,173,96"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,145,192,172"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,145,60,172"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="245,132,331,159"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a26f0875b3cc9e1127caa7ba6e1479d6a" name="a26f0875b3cc9e1127caa7ba6e1479d6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26f0875b3cc9e1127caa7ba6e1479d6a">&#9670;&nbsp;</a></span>write() <span class="overload">[1/3]</span></h2>
+<a id="a26b27f7e2000e55ad4df08b717ef8bbe" name="a26b27f7e2000e55ad4df08b717ef8bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b27f7e2000e55ad4df08b717ef8bbe">&#9670;&nbsp;</a></span>write() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1076,7 +995,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> write </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structtable__row__t.html">table_row_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classtable__row__iterator.html">table_row_iterator</a> &amp;&#160;</td>
           <td class="paramname"><em>row</em>, </td>
         </tr>
         <tr>
@@ -1100,21 +1019,23 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_cgraph.png" border="0" usemap="#astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_cgraph" id="astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,56,32"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="104,5,193,32"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="241,5,303,32"/>
+<div class="center"><img src="storage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_cgraph.png" border="0" usemap="#astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_cgraph" alt=""/></div>
+<map name="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_cgraph" id="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="104,5,256,32"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="135,56,225,83"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="313,19,442,61"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="304,85,451,112"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_icgraph.png" border="0" usemap="#astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_icgraph" id="astorage_8cpp_a26f0875b3cc9e1127caa7ba6e1479d6a_icgraph">
+<div class="center"><img src="storage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph.png" border="0" usemap="#astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph" alt=""/></div>
+<map name="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph" id="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph">
 <area shape="rect" title=" " alt="" coords="892,32,943,59"/>
-<area shape="rect" href="storage_8cpp.html#af46c8e1e79bca7196bb5e16d359c6c2d" title=" " alt="" coords="777,7,828,33"/>
-<area shape="rect" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0" title=" " alt="" coords="761,57,844,84"/>
+<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="777,7,828,33"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="761,57,844,84"/>
 <area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="627,57,713,84"/>
 <area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,7,327,33"/>
 <area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,159,336,185"/>
@@ -1129,8 +1050,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a447be79bbc8ecad20b178ecaa9b25b34" name="a447be79bbc8ecad20b178ecaa9b25b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a447be79bbc8ecad20b178ecaa9b25b34">&#9670;&nbsp;</a></span>write() <span class="overload">[2/3]</span></h2>
+<a id="ae747ea4be6494a109d22d1bb6e6a95f3" name="ae747ea4be6494a109d22d1bb6e6a95f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae747ea4be6494a109d22d1bb6e6a95f3">&#9670;&nbsp;</a></span>write() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1141,7 +1062,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable__axis__iterator__t.html">table_axis_iterator_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td>
           <td class="paramname"><em>it</em>, </td>
         </tr>
         <tr>
@@ -1165,20 +1086,19 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a447be79bbc8ecad20b178ecaa9b25b34_cgraph.png" border="0" usemap="#astorage_8cpp_a447be79bbc8ecad20b178ecaa9b25b34_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a447be79bbc8ecad20b178ecaa9b25b34_cgraph" id="astorage_8cpp_a447be79bbc8ecad20b178ecaa9b25b34_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,56,108"/>
-<area shape="rect" href="table__iterator_8h.html#a4c683bf07ce9ac2417ef15cb24bd0e6f" title=" " alt="" coords="104,5,205,32"/>
-<area shape="rect" href="table__iterator_8h.html#a476a13f82c424f83e1fc4a25044a1de1" title=" " alt="" coords="124,56,185,83"/>
-<area shape="rect" href="table__iterator_8h.html#a317b2b590fc0154daba11f37b5bd6326" title=" " alt="" coords="115,107,194,133"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="124,157,185,184"/>
+<div class="center"><img src="storage_8cpp_ae747ea4be6494a109d22d1bb6e6a95f3_cgraph.png" border="0" usemap="#astorage_8cpp_ae747ea4be6494a109d22d1bb6e6a95f3_cgraph" alt=""/></div>
+<map name="astorage_8cpp_ae747ea4be6494a109d22d1bb6e6a95f3_cgraph" id="astorage_8cpp_ae747ea4be6494a109d22d1bb6e6a95f3_cgraph">
+<area shape="rect" title=" " alt="" coords="5,78,56,105"/>
+<area shape="rect" href="classtable__axis__iterator.html#a6e6256ac904f25006b8e6ef22dc3b9ca" title="Test for end of iteration." alt="" coords="114,5,241,47"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="113,71,242,112"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="104,137,251,163"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="af46c8e1e79bca7196bb5e16d359c6c2d" name="af46c8e1e79bca7196bb5e16d359c6c2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af46c8e1e79bca7196bb5e16d359c6c2d">&#9670;&nbsp;</a></span>write() <span class="overload">[3/3]</span></h2>
+<a id="ac9d49faffe70e707152dc88e3b4c2ac4" name="ac9d49faffe70e707152dc88e3b4c2ac4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9d49faffe70e707152dc88e3b4c2ac4">&#9670;&nbsp;</a></span>write() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1189,7 +1109,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structtable__row__iterator__t.html">table_row_iterator_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classtable__value__iterator.html">table_value_iterator</a>&#160;</td>
           <td class="paramname"><em>it</em>, </td>
         </tr>
         <tr>
@@ -1213,15 +1133,15 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_af46c8e1e79bca7196bb5e16d359c6c2d_cgraph.png" border="0" usemap="#astorage_8cpp_af46c8e1e79bca7196bb5e16d359c6c2d_cgraph" alt=""/></div>
-<map name="astorage_8cpp_af46c8e1e79bca7196bb5e16d359c6c2d_cgraph" id="astorage_8cpp_af46c8e1e79bca7196bb5e16d359c6c2d_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,56,108"/>
-<area shape="rect" href="table__iterator_8h.html#a04f989b2a94c36498279bf12fcd005fa" title=" " alt="" coords="104,5,203,32"/>
-<area shape="rect" href="table__iterator_8h.html#a476a13f82c424f83e1fc4a25044a1de1" title=" " alt="" coords="123,56,184,83"/>
-<area shape="rect" href="table__iterator_8h.html#aa6f9bcc2156d0052cefcf19a0bea9340" title=" " alt="" coords="119,107,187,133"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="128,157,179,184"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="251,157,340,184"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="388,157,449,184"/>
+<div class="center"><img src="storage_8cpp_ac9d49faffe70e707152dc88e3b4c2ac4_cgraph.png" border="0" usemap="#astorage_8cpp_ac9d49faffe70e707152dc88e3b4c2ac4_cgraph" alt=""/></div>
+<map name="astorage_8cpp_ac9d49faffe70e707152dc88e3b4c2ac4_cgraph" id="astorage_8cpp_ac9d49faffe70e707152dc88e3b4c2ac4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,71,56,98"/>
+<area shape="rect" href="classtable__value__iterator.html#a427eaf34c3380810392861e1497d231f" title="Test for end of iteration." alt="" coords="104,5,239,47"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="495,85,625,127"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="146,122,197,149"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="287,122,439,149"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="318,173,407,199"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="487,173,633,199"/>
 </map>
 </div>
 
@@ -1239,13 +1159,13 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> write_range </td>
           <td>(</td>
-          <td class="paramtype">const byte *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *&#160;</td>
           <td class="paramname"><em>pStart</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const byte *&#160;</td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *&#160;</td>
           <td class="paramname"><em>pEnd</em>, </td>
         </tr>
         <tr>
@@ -1271,8 +1191,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_cgraph.png" border="0" usemap="#astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_cgraph" alt=""/></div>
 <map name="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_cgraph" id="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,95,32"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="143,5,204,32"/>
+<area shape="rect" title=" " alt="" coords="5,42,95,69"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="151,5,281,47"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="143,71,289,98"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1281,10 +1202,10 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="storage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph.png" border="0" usemap="#astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph" alt=""/></div>
 <map name="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph" id="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph">
 <area shape="rect" title=" " alt="" coords="991,32,1080,59"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="892,57,943,84"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="892,57,943,84"/>
 <area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="627,57,713,84"/>
-<area shape="rect" href="storage_8cpp.html#af46c8e1e79bca7196bb5e16d359c6c2d" title=" " alt="" coords="777,57,828,84"/>
-<area shape="rect" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0" title=" " alt="" coords="761,108,844,135"/>
+<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="777,57,828,84"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="761,108,844,135"/>
 <area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,7,327,33"/>
 <area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,159,336,185"/>
 <area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="384,32,579,59"/>
@@ -1318,18 +1239,18 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_cgraph.png" border="0" usemap="#astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_cgraph" alt=""/></div>
 <map name="astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_cgraph" id="astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,107,57"/>
-<area shape="rect" href="pages_8h.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="155,5,259,32"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="163,56,250,83"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="600,56,689,83"/>
-<area shape="rect" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0" title=" " alt="" coords="307,107,389,133"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="764,56,825,83"/>
-<area shape="rect" href="table__iterator_8h.html#aacb264d71648005dcfb05392177a6abe" title=" " alt="" coords="437,56,525,83"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="456,107,507,133"/>
-<area shape="rect" href="table__iterator_8h.html#aab94a4995da6aecc42099105ddf02702" title=" " alt="" coords="448,157,515,184"/>
-<area shape="rect" href="table__iterator_8h.html#a231c770533a96b1226ce494854d70432" title=" " alt="" coords="446,208,517,235"/>
-<area shape="rect" href="table__iterator_8h.html#a81b21d7b5ab5cb9e1a102b68ea77adcb" title=" " alt="" coords="573,157,716,184"/>
-<area shape="rect" href="table__iterator_8h.html#aa5a60eb69a3575b81a19d8777bb6bc0a" title=" " alt="" coords="573,208,716,235"/>
+<area shape="rect" title=" " alt="" coords="5,38,107,65"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="155,13,259,39"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="163,63,250,90"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="782,5,911,47"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="605,67,694,94"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="307,189,389,215"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="773,71,920,98"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="437,138,525,165"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="456,189,507,215"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="448,263,515,290"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="448,338,515,365"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="573,189,725,215"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1401,16 +1322,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_a43e4485fee4923fb039076254df6c689_cgraph.png" border="0" usemap="#astorage_8cpp_a43e4485fee4923fb039076254df6c689_cgraph" alt=""/></div>
 <map name="astorage_8cpp_a43e4485fee4923fb039076254df6c689_cgraph" id="astorage_8cpp_a43e4485fee4923fb039076254df6c689_cgraph">
-<area shape="rect" title=" " alt="" coords="5,21,92,47"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="433,21,523,47"/>
-<area shape="rect" href="storage_8cpp.html#a29e3eb66e5024e0025b1ebd94c6731b0" title=" " alt="" coords="140,71,223,98"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="597,21,659,47"/>
-<area shape="rect" href="table__iterator_8h.html#aacb264d71648005dcfb05392177a6abe" title=" " alt="" coords="271,21,359,47"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="289,71,340,98"/>
-<area shape="rect" href="table__iterator_8h.html#aab94a4995da6aecc42099105ddf02702" title=" " alt="" coords="281,122,348,149"/>
-<area shape="rect" href="table__iterator_8h.html#a231c770533a96b1226ce494854d70432" title=" " alt="" coords="279,173,350,199"/>
-<area shape="rect" href="table__iterator_8h.html#a81b21d7b5ab5cb9e1a102b68ea77adcb" title=" " alt="" coords="407,122,549,149"/>
-<area shape="rect" href="table__iterator_8h.html#aa5a60eb69a3575b81a19d8777bb6bc0a" title=" " alt="" coords="407,173,549,199"/>
+<area shape="rect" title=" " alt="" coords="5,63,92,90"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="615,5,745,47"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="438,67,527,94"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="140,189,223,215"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="607,71,753,98"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="271,138,359,165"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="289,189,340,215"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="281,263,348,290"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="281,338,348,365"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="407,189,559,215"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1432,8 +1353,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a29e3eb66e5024e0025b1ebd94c6731b0" name="a29e3eb66e5024e0025b1ebd94c6731b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29e3eb66e5024e0025b1ebd94c6731b0">&#9670;&nbsp;</a></span>writeTable()</h2>
+<a id="aeadd741ad30b298dcb7c14af4c922b18" name="aeadd741ad30b298dcb7c14af4c922b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeadd741ad30b298dcb7c14af4c922b18">&#9670;&nbsp;</a></span>writeTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1444,8 +1365,14 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">static <a class="el" href="structwrite__location.html">write_location</a> writeTable </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structtable3_d.html">table3D</a> *&#160;</td>
+          <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1468,24 +1395,24 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_cgraph.png" border="0" usemap="#astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_cgraph" alt=""/></div>
-<map name="astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_cgraph" id="astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,88,108"/>
-<area shape="rect" href="table__iterator_8h.html#aacb264d71648005dcfb05392177a6abe" title=" " alt="" coords="136,5,224,32"/>
-<area shape="rect" href="storage_8cpp.html#a26f0875b3cc9e1127caa7ba6e1479d6a" title=" " alt="" coords="155,56,205,83"/>
-<area shape="rect" href="table__iterator_8h.html#aab94a4995da6aecc42099105ddf02702" title=" " alt="" coords="147,107,213,133"/>
-<area shape="rect" href="table__iterator_8h.html#a231c770533a96b1226ce494854d70432" title=" " alt="" coords="145,157,215,184"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="299,56,388,83"/>
-<area shape="rect" href="storage_8cpp.html#a1901e041ed9416fe50cdd037cb7b1611" title=" " alt="" coords="463,56,524,83"/>
-<area shape="rect" href="table__iterator_8h.html#a81b21d7b5ab5cb9e1a102b68ea77adcb" title=" " alt="" coords="272,107,415,133"/>
-<area shape="rect" href="table__iterator_8h.html#aa5a60eb69a3575b81a19d8777bb6bc0a" title=" " alt="" coords="272,157,415,184"/>
+<div class="center"><img src="storage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_cgraph.png" border="0" usemap="#astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_cgraph" alt=""/></div>
+<map name="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_cgraph" id="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_cgraph">
+<area shape="rect" title=" " alt="" coords="5,117,88,144"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="136,29,224,56"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="155,80,205,107"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="147,155,213,181"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="147,229,213,256"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="272,55,424,81"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="303,105,393,132"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="481,69,610,110"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="472,135,619,161"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_icgraph.png" border="0" usemap="#astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_icgraph" id="astorage_8cpp_a29e3eb66e5024e0025b1ebd94c6731b0_icgraph">
+<div class="center"><img src="storage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph.png" border="0" usemap="#astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph" alt=""/></div>
+<map name="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph" id="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph">
 <area shape="rect" title=" " alt="" coords="761,57,844,84"/>
 <area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="627,57,713,84"/>
 <area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,7,327,33"/>

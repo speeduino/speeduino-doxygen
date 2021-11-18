@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['idlecontrol_0',['idleControl',['../idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino'],['../auxiliaries_8h.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino']]],
-  ['idleinterrupt_1',['idleInterrupt',['../idle_8ino.html#a07b9e014ea31885fb59eeb78bd5be0ac',1,'idleInterrupt():&#160;idle.ino'],['../idle_8h.html#a07b9e014ea31885fb59eeb78bd5be0ac',1,'idleInterrupt():&#160;idle.ino']]],
+  ['idlecontrol_0',['idleControl',['../auxiliaries_8h.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino'],['../idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb',1,'idleControl():&#160;idle.ino']]],
+  ['idleinterrupt_1',['idleInterrupt',['../idle_8h.html#a07b9e014ea31885fb59eeb78bd5be0ac',1,'idleInterrupt():&#160;idle.ino'],['../idle_8ino.html#a07b9e014ea31885fb59eeb78bd5be0ac',1,'idleInterrupt():&#160;idle.ino']]],
   ['if_2',['if',['../speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1',1,'speeduino.ino']]],
   ['initialiseadc_3',['initialiseADC',['../sensors_8h.html#a73c5e9627f05d5ad6eac06b8dc05a02b',1,'initialiseADC():&#160;sensors.ino'],['../sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b',1,'initialiseADC():&#160;sensors.ino']]],
   ['initialiseall_4',['initialiseAll',['../init_8h.html#a566feb76074886ed4a5416301db3d193',1,'initialiseAll():&#160;init.ino'],['../init_8ino.html#a566feb76074886ed4a5416301db3d193',1,'initialiseAll():&#160;init.ino']]],
   ['initialiseauxpwm_5',['initialiseAuxPWM',['../auxiliaries_8h.html#a058a74aeacf1d90199b5022c2e0006e6',1,'initialiseAuxPWM():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a058a74aeacf1d90199b5022c2e0006e6',1,'initialiseAuxPWM():&#160;auxiliaries.ino']]],
-  ['initialisecorrections_6',['initialiseCorrections',['../corrections_8h.html#ad43d145920da658dbdf1ca61437bdd65',1,'initialiseCorrections():&#160;corrections.ino'],['../corrections_8ino.html#ad43d145920da658dbdf1ca61437bdd65',1,'initialiseCorrections():&#160;corrections.ino']]],
+  ['initialisecorrections_6',['initialiseCorrections',['../corrections_8ino.html#ad43d145920da658dbdf1ca61437bdd65',1,'initialiseCorrections():&#160;corrections.ino'],['../corrections_8h.html#ad43d145920da658dbdf1ca61437bdd65',1,'initialiseCorrections():&#160;corrections.ino']]],
   ['initialisedisplay_7',['initialiseDisplay',['../display_8h.html#a9f5b7a336bd9676f45854f1b9b8947fd',1,'display.h']]],
   ['initialisefan_8',['initialiseFan',['../auxiliaries_8h.html#a1ae70a247d788207e39e41849fa4b6a3',1,'initialiseFan():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a1ae70a247d788207e39e41849fa4b6a3',1,'initialiseFan():&#160;auxiliaries.ino']]],
   ['initialiseidle_9',['initialiseIdle',['../idle_8h.html#aca4d348119424a7474843489e1b62b3c',1,'initialiseIdle():&#160;idle.ino'],['../idle_8ino.html#aca4d348119424a7474843489e1b62b3c',1,'initialiseIdle():&#160;idle.ino']]],
@@ -21,12 +21,14 @@ var searchData=
   ['injector2toggle_18',['injector2Toggle',['../scheduled_i_o_8h.html#a2545bcd08a2bc8df64c61a990b9517c3',1,'injector2Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a2545bcd08a2bc8df64c61a990b9517c3',1,'injector2Toggle():&#160;scheduledIO.ino']]],
   ['injector3toggle_19',['injector3Toggle',['../scheduled_i_o_8h.html#a9c5489fbffe1a7e6fa72545c2e12a142',1,'injector3Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a9c5489fbffe1a7e6fa72545c2e12a142',1,'injector3Toggle():&#160;scheduledIO.ino']]],
   ['injector4toggle_20',['injector4Toggle',['../scheduled_i_o_8h.html#a8f9845da81f761bda58c2ce9f1925a56',1,'injector4Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a8f9845da81f761bda58c2ce9f1925a56',1,'injector4Toggle():&#160;scheduledIO.ino']]],
-  ['injector5toggle_21',['injector5Toggle',['../scheduled_i_o_8ino.html#af4442b3e48f9c92bb21c9c9ea24723db',1,'injector5Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8h.html#af4442b3e48f9c92bb21c9c9ea24723db',1,'injector5Toggle():&#160;scheduledIO.ino']]],
+  ['injector5toggle_21',['injector5Toggle',['../scheduled_i_o_8h.html#af4442b3e48f9c92bb21c9c9ea24723db',1,'injector5Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#af4442b3e48f9c92bb21c9c9ea24723db',1,'injector5Toggle():&#160;scheduledIO.ino']]],
   ['injector6toggle_22',['injector6Toggle',['../scheduled_i_o_8h.html#a145c52c7ae7ca57422681a4c06499bdc',1,'injector6Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a145c52c7ae7ca57422681a4c06499bdc',1,'injector6Toggle():&#160;scheduledIO.ino']]],
   ['injector7toggle_23',['injector7Toggle',['../scheduled_i_o_8h.html#a4277d72d4fd15e49fc31644d80a0311e',1,'injector7Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a4277d72d4fd15e49fc31644d80a0311e',1,'injector7Toggle():&#160;scheduledIO.ino']]],
   ['injector8toggle_24',['injector8Toggle',['../scheduled_i_o_8h.html#a94709a98882835f6c4a86519496115ea',1,'injector8Toggle():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a94709a98882835f6c4a86519496115ea',1,'injector8Toggle():&#160;scheduledIO.ino']]],
   ['instanteneousmapreading_25',['instanteneousMAPReading',['../sensors_8h.html#adce2419f4d2fdb9179dfc6cee874cbce',1,'instanteneousMAPReading() __attribute__((always_inline)):&#160;sensors.h'],['../sensors_8ino.html#affce98e8f3e9d23f7746d2f1d322b539',1,'instanteneousMAPReading():&#160;sensors.ino']]],
-  ['is2byteentry_26',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
-  ['iseepromwritepending_27',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
-  ['isstepperhomed_28',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
+  ['int16_5fref_26',['int16_ref',['../classint16__ref.html#a0d4a2e1b7861e373a03f24f2b001c7a6',1,'int16_ref']]],
+  ['invalidate_5fcache_27',['invalidate_cache',['../table3d__interpolate_8h.html#accc601294637ff4e86d3e9acd3608096',1,'table3d_interpolate.h']]],
+  ['is2byteentry_28',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
+  ['iseepromwritepending_29',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
+  ['isstepperhomed_30',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
 ];

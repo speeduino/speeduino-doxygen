@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['table3d_5fsection_5ft_0',['table3D_section_t',['../pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7',1,'pages.cpp']]],
-  ['tachooutputstatus_1',['TachoOutputStatus',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9',1,'timers.h']]]
+  ['schedulestatus_0',['ScheduleStatus',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54',1,'scheduler.h']]],
+  ['stepperstatus_1',['StepperStatus',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1c',1,'idle.h']]]
 ];

@@ -45,7 +45,7 @@ var searchData=
   ['boostmode_42',['boostMode',['../structconfig6.html#a1596707d4fe7e5b792de6ca601c9db62',1,'config6::boostMode()'],['../globals_8h.html#aaa1b01ed99b2fa513f29ca0ad246f481',1,'boostMode():&#160;globals.h']]],
   ['boostpin_43',['boostPin',['../globals_8h.html#acf854f095f493d24a871cc0a07b6c872',1,'boostPin():&#160;globals.h'],['../structconfig6.html#affae77efa7b1d4db094a551c936f0142',1,'config6::boostPin()']]],
   ['boostsens_44',['boostSens',['../structconfig10.html#aac52cb34d266af948f3abc9be440b56d',1,'config10::boostSens()'],['../globals_8h.html#ab553ceca89b57e51b80639dd7b912bd9',1,'boostSens():&#160;globals.h']]],
-  ['boosttable_45',['boostTable',['../globals_8h.html#add83d681b77a90c7a449482870d24099',1,'boostTable():&#160;globals.ino'],['../globals_8ino.html#add83d681b77a90c7a449482870d24099',1,'boostTable():&#160;globals.ino']]],
+  ['boosttable_45',['boostTable',['../globals_8h.html#a4aa707e2bbbabb72de5f8d3a6b59cccb',1,'boostTable():&#160;globals.ino'],['../globals_8ino.html#a4aa707e2bbbabb72de5f8d3a6b59cccb',1,'boostTable():&#160;globals.ino']]],
   ['boosttarget_46',['boostTarget',['../structstatuses.html#a6905ad52e3e59bfa80680a1c288791d7',1,'statuses']]],
   ['boosttype_47',['boostType',['../globals_8h.html#a6f39f9743bf4ad009324e1bf21097e60',1,'boostType():&#160;globals.h'],['../structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016',1,'config4::boostType()']]],
   ['bootloadercaps_48',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4::bootloaderCaps()'],['../globals_8h.html#a27b9edc4839c8c27a1f09c4acb492c8a',1,'bootloaderCaps():&#160;globals.h']]]

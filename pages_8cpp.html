@@ -70,7 +70,6 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">pages.cpp File Reference</div></div>
@@ -79,133 +78,108 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utilities_8h_source.html">utilities.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="table__iterator_8h_source.html">table_iterator.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable__entity__t.html">table_entity_t</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structentity__t.html">entity_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classoffset__to__table.html">offset_to_table&lt; table_t &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a4d1977455d904f20b68afe016db9affe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(size)&#160;&#160;&#160;((uint16_t)size*(uint16_t)size)</td></tr>
-<tr class="separator:a4d1977455d904f20b68afe016db9affe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f93333bd8d973e2f3dada78ce542262"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(size)&#160;&#160;&#160;(<a class="el" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(size)+(uint16_t)size)</td></tr>
-<tr class="separator:a7f93333bd8d973e2f3dada78ce542262"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6754f1b13683116028ed9fe8d2589d6f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a6754f1b13683116028ed9fe8d2589d6f">TABLE_AXISY_END</a>(size)&#160;&#160;&#160;(<a class="el" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(size)+(uint16_t)size)</td></tr>
-<tr class="separator:a6754f1b13683116028ed9fe8d2589d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdf0c1ba2c7d369ff97f444683f4c3ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(size)&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#a6754f1b13683116028ed9fe8d2589d6f">TABLE_AXISY_END</a>(size)</td></tr>
-<tr class="separator:abdf0c1ba2c7d369ff97f444683f4c3ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0c99cad676e5468aa3e4812d5161095"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#af0c99cad676e5468aa3e4812d5161095">TABLE16_SIZE</a>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(16)</td></tr>
-<tr class="separator:af0c99cad676e5468aa3e4812d5161095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4079e391d65091c26b898362ead6c57c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a4079e391d65091c26b898362ead6c57c">TABLE8_SIZE</a>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(8)</td></tr>
-<tr class="separator:a4079e391d65091c26b898362ead6c57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad24e9a6671bbaa0d765994f21188c575"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ad24e9a6671bbaa0d765994f21188c575">TABLE6_SIZE</a>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(6)</td></tr>
-<tr class="separator:ad24e9a6671bbaa0d765994f21188c575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ba2be754dbf7ccf09f17693c33fe3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a46ba2be754dbf7ccf09f17693c33fe3d">TABLE4_SIZE</a>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(4)</td></tr>
-<tr class="separator:a46ba2be754dbf7ccf09f17693c33fe3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62636a28dbcc6895336deaa8c4756f19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a62636a28dbcc6895336deaa8c4756f19">OFFSET_TOVALUE_YINDEX</a>(offset,  size)&#160;&#160;&#160;((uint8_t)((size-1) - (offset / size)))</td></tr>
-<tr class="separator:a62636a28dbcc6895336deaa8c4756f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6f5575551a982ba9be7601dd71f06b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ab6f5575551a982ba9be7601dd71f06b2">OFFSET_TOVALUE_XINDEX</a>(offset,  size)&#160;&#160;&#160;((uint8_t)(offset % size))</td></tr>
-<tr class="separator:ab6f5575551a982ba9be7601dd71f06b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7592df6f251849354ea4db2a3ddf87f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a7592df6f251849354ea4db2a3ddf87f3">OFFSET_TOAXIS_XINDEX</a>(offset,  size)&#160;&#160;&#160;((uint8_t)(offset - <a class="el" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(size)))</td></tr>
-<tr class="separator:a7592df6f251849354ea4db2a3ddf87f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa2d5d1e244c1e6845235a9d2586508"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#adfa2d5d1e244c1e6845235a9d2586508">OFFSET_TOAXIS_YINDEX</a>(offset,  size)&#160;&#160;&#160;((uint8_t)((size-1) - (offset - <a class="el" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(size))))</td></tr>
-<tr class="separator:adfa2d5d1e244c1e6845235a9d2586508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e636d5f98e15dd8eee0edbe0735f7fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>&#160;&#160;&#160;  { nullptr, 0, 0, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }</td></tr>
-<tr class="separator:a2e636d5f98e15dd8eee0edbe0735f7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a540547f2a2368fd0441bf9b38e61d80d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a540547f2a2368fd0441bf9b38e61d80d">CREATE_PAGE_END</a>(pageNum,  pageSize)&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a667876a6f108081ad524d7d29d23d506">End</a> }</td></tr>
-<tr class="separator:a540547f2a2368fd0441bf9b38e61d80d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a829e73920bf29b255b2dfee76dc7505e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a829e73920bf29b255b2dfee76dc7505e">END_OF_PAGE</a>(pageNum,  pageSize)</td></tr>
-<tr class="separator:a829e73920bf29b255b2dfee76dc7505e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423acd60e7ed59a9a91a900a5d2637ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a423acd60e7ed59a9a91a900a5d2637ba">CHECK_NOENTITY</a>(offset,  startByte,  blockSize,  pageNum)</td></tr>
-<tr class="separator:a423acd60e7ed59a9a91a900a5d2637ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c93f1f8208d43e4f180f4dcc26fc7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a04c93f1f8208d43e4f180f4dcc26fc7a">TABLE_VALUE</a>(offset,  startByte,  pTable,  tableSize)</td></tr>
-<tr class="separator:a04c93f1f8208d43e4f180f4dcc26fc7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa213eb252ecf3bd247d06f7358550ef8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aa213eb252ecf3bd247d06f7358550ef8">TABLE_XAXIS</a>(offset,  startByte,  pTable,  tableSize)</td></tr>
-<tr class="separator:aa213eb252ecf3bd247d06f7358550ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc1631ebc62d10d4e38dd6afd674813b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#afc1631ebc62d10d4e38dd6afd674813b">TABLE_YAXIS</a>(offset,  startByte,  pTable,  tableSize)</td></tr>
-<tr class="separator:afc1631ebc62d10d4e38dd6afd674813b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71010a7afae4133256f738fc9033cef5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(table_type,  pageNum,  startByte,  tableSize)&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3abdc82221e2bc2a210036a9bf0bb088b3">Table</a> }</td></tr>
-<tr class="separator:a71010a7afae4133256f738fc9033cef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb44479f0fddf333f484dbfe1cc71406"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#abb44479f0fddf333f484dbfe1cc71406">CHECK_TABLE</a>(offset,  startByte,  pTable,  tableSize,  pageNum)</td></tr>
-<tr class="separator:abb44479f0fddf333f484dbfe1cc71406"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23bcbfe4a2abaa9bc9035ee4fd6d79e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a23bcbfe4a2abaa9bc9035ee4fd6d79e9">CHECK_RAW</a>(offset,  startByte,  pDataBlock,  blockSize,  pageNum)</td></tr>
-<tr class="separator:a23bcbfe4a2abaa9bc9035ee4fd6d79e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a302a8ae8a4f17f89f4290d3d71e7a8b7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7">table3D_section_t</a> { <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7a050889cfb2c606473596b8f70f702769">Value</a>
-, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7af3c7c89a35519fc18f8f08e003511745">axisX</a>
-, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7a2a651c2cb6994eb244ca3298e8c54755">axisY</a>
-, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a>
- }</td></tr>
-<tr class="separator:a302a8ae8a4f17f89f4290d3d71e7a8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae509eccab2e4bd9b3be0b3712a5a492e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ae509eccab2e4bd9b3be0b3712a5a492e">_ENTITY_START</a>(entityNum)&#160;&#160;&#160;entity ## entityNum ## Start</td></tr>
+<tr class="separator:ae509eccab2e4bd9b3be0b3712a5a492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276fddbeb0a0e61851b0a3eab5843107"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum)&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#ae509eccab2e4bd9b3be0b3712a5a492e">_ENTITY_START</a>(entityNum)</td></tr>
+<tr class="separator:a276fddbeb0a0e61851b0a3eab5843107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563a05b64c257a56a37df65ac249b3cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a563a05b64c257a56a37df65ac249b3cf">DECLARE_NEXT_ENTITY_START</a>(entityIndex,  entitySize)&#160;&#160;&#160;  constexpr uint16_t <a class="el" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>( <a class="el" href="utilities_8h.html#a4f7b05e2e26ec587b6021f7f6d471432">PP_INC</a>(entityIndex) ) = <a class="el" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityIndex)+entitySize;</td></tr>
+<tr class="separator:a563a05b64c257a56a37df65ac249b3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51bd6d049b0fcf28afca9b41e47e541"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#af51bd6d049b0fcf28afca9b41e47e541">END_OF_PAGE</a>(pageNum,  entityNum)</td></tr>
+<tr class="separator:af51bd6d049b0fcf28afca9b41e47e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac206646326801904e2e372eb2bfe0868"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ac206646326801904e2e372eb2bfe0868">CHECK_TABLE</a>(pageNum,  <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>,  pTable,  entityNum)</td></tr>
+<tr class="separator:ac206646326801904e2e372eb2bfe0868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ab271716bed72ab98ac3bdee4f8f4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ac9ab271716bed72ab98ac3bdee4f8f4c">CHECK_RAW</a>(pageNum,  <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>,  pDataBlock,  blockSize,  entityNum)</td></tr>
+<tr class="separator:ac9ab271716bed72ab98ac3bdee4f8f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a74076d0f1333d789ee00883481c127a3"><td class="memTemplParams" colspan="2">template&lt;class table_t &gt; </td></tr>
+<tr class="memitem:a74076d0f1333d789ee00883481c127a3"><td class="memTemplItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a74076d0f1333d789ee00883481c127a3">get_table_value_end</a> ()</td></tr>
+<tr class="separator:a74076d0f1333d789ee00883481c127a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49bc246b59d1ae0ba5ff2d000658cb36"><td class="memTemplParams" colspan="2">template&lt;class table_t &gt; </td></tr>
+<tr class="memitem:a49bc246b59d1ae0ba5ff2d000658cb36"><td class="memTemplItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a49bc246b59d1ae0ba5ff2d000658cb36">get_table_axisx_end</a> ()</td></tr>
+<tr class="separator:a49bc246b59d1ae0ba5ff2d000658cb36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a666fea52e4d082b7fe8cab80955cf065"><td class="memTemplParams" colspan="2">template&lt;class table_t &gt; </td></tr>
+<tr class="memitem:a666fea52e4d082b7fe8cab80955cf065"><td class="memTemplItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a> (const table_t *)</td></tr>
+<tr class="separator:a666fea52e4d082b7fe8cab80955cf065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad58ee4d998ae91b63cbdac8d71a14e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7">get_raw_location</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;entity, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>)</td></tr>
+<tr class="separator:aad58ee4d998ae91b63cbdac8d71a14e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5534094638143ae505c514bbe6f7f44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44">get_table_value</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;entity, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>)</td></tr>
+<tr class="separator:ab5534094638143ae505c514bbe6f7f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68490804cfe005aacc24d210427cfd07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07">get_value</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;entity, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>)</td></tr>
+<tr class="separator:a68490804cfe005aacc24d210427cfd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ebb52ff5a02797a96615a762818a1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a">set_table_value</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;entity, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> new_value)</td></tr>
+<tr class="separator:ab6ebb52ff5a02797a96615a762818a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed876950de5472374d3121726e1ca03e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e">set_value</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;entity, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> value, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>)</td></tr>
+<tr class="separator:aed876950de5472374d3121726e1ca03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69720010f4cb7013287c0db9a5f4fac4"><td class="memTemplParams" colspan="2">template&lt;uint8_t pageNum, uint16_t min&gt; </td></tr>
 <tr class="memitem:a69720010f4cb7013287c0db9a5f4fac4"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a69720010f4cb7013287c0db9a5f4fac4">check_size</a> ()</td></tr>
 <tr class="separator:a69720010f4cb7013287c0db9a5f4fac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab11067dc0721986612d170fdb243045e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ab11067dc0721986612d170fdb243045e">__attribute__</a> ((always_inline)) <a class="el" href="structentity__t.html">entity_t</a> map_page_offset_to_entity_inline(uint8_t pageNumber</td></tr>
-<tr class="separator:ab11067dc0721986612d170fdb243045e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7651cccfa51cb2b5038b289315751ab4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a> (uint8_t pageNum, uint16_t start)</td></tr>
+<tr class="separator:a7651cccfa51cb2b5038b289315751ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab2db17bbe02a4339a55498f41761d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a5ab2db17bbe02a4339a55498f41761d0">create_table_iterator</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> key, uint8_t pageNum, uint16_t start, uint16_t size)</td></tr>
+<tr class="separator:a5ab2db17bbe02a4339a55498f41761d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed83f12b2a86639856758325f3a50d12"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a> (void *pBuffer, uint8_t pageNum, uint16_t start, uint16_t size)</td></tr>
+<tr class="separator:aed83f12b2a86639856758325f3a50d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9965cb83517b46e06998569f277d87c7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a9965cb83517b46e06998569f277d87c7">__attribute__</a> ((always_inline)) <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> map_page_offset_to_entity(uint8_t pageNumber</td></tr>
+<tr class="separator:a9965cb83517b46e06998569f277d87c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816f826167bf9bf6b3a5057bffd64eab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a816f826167bf9bf6b3a5057bffd64eab">switch</a> (pageNumber)</td></tr>
+<tr class="separator:a816f826167bf9bf6b3a5057bffd64eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab938b605ab6bfc744ec663ab1c053ca4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4">getPageCount</a> ()</td></tr>
+<tr class="separator:ab938b605ab6bfc744ec663ab1c053ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55967413d2f9a104839ae6cca6daafe3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3">getPageSize</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> pageNum)</td></tr>
+<tr class="separator:a55967413d2f9a104839ae6cca6daafe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21f52defb535d26cf2bfac859885c53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53">setPageValue</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> pageNum, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> value)</td></tr>
+<tr class="separator:af21f52defb535d26cf2bfac859885c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9a6a80a7774cf740628d632b9734a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6">getPageValue</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> pageNum, uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>)</td></tr>
+<tr class="separator:aea9a6a80a7774cf740628d632b9734a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06fec3cc7c60b26061ff7bf8a55606ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca">page_begin</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> pageNum)</td></tr>
+<tr class="separator:a06fec3cc7c60b26061ff7bf8a55606ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a72453b79576e4855834673719536c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8">advance</a> (const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;it)</td></tr>
+<tr class="separator:a5a72453b79576e4855834673719536c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b2d35dd11c67e13efa9d35288ff39ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__value__iterator.html">table_value_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad">rows_begin</a> (const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;it)</td></tr>
+<tr class="separator:a3b2d35dd11c67e13efa9d35288ff39ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a284e4718ba9c532137b73c1f028ae9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9">x_begin</a> (const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;it)</td></tr>
+<tr class="separator:a8a284e4718ba9c532137b73c1f028ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033fab4a3a3c70450c1673c775507dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4">y_begin</a> (const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;it)</td></tr>
+<tr class="separator:a033fab4a3a3c70450c1673c775507dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aa26c7a8ca15f343e9f0252834430445f"><td class="memItemLeft" align="right" valign="top">constexpr const uint16_t <a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#aa26c7a8ca15f343e9f0252834430445f">ini_page_sizes</a> [] = { 0, 128, 288, 288, 128, 288, 128, 240, 384, 192, 192, 288, 192, 128, 288 }</td></tr>
 <tr class="separator:aa26c7a8ca15f343e9f0252834430445f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac681806181c80437cfab37335f62ff39"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a></td></tr>
+<tr class="separator:ac681806181c80437cfab37335f62ff39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a423acd60e7ed59a9a91a900a5d2637ba" name="a423acd60e7ed59a9a91a900a5d2637ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a423acd60e7ed59a9a91a900a5d2637ba">&#9670;&nbsp;</a></span>CHECK_NOENTITY</h2>
+<a id="ae509eccab2e4bd9b3be0b3712a5a492e" name="ae509eccab2e4bd9b3be0b3712a5a492e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae509eccab2e4bd9b3be0b3712a5a492e">&#9670;&nbsp;</a></span>_ENTITY_START</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CHECK_NOENTITY</td>
+          <td class="memname">#define _ENTITY_START</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">blockSize, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pageNum&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname">entityNum</td><td>)</td>
+          <td>&#160;&#160;&#160;entity ## entityNum ## Start</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (offset &lt; (startByte)+blockSize) \</div>
-<div class="line">  { \</div>
-<div class="line">    return { <a class="code hl_define" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = (startByte), .size = blockSize, .type = <a class="code hl_enumvalue" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3">NoEntity</a> }; \</div>
-<div class="line">  }</div>
-<div class="ttc" id="apages_8cpp_html_a2e636d5f98e15dd8eee0edbe0735f7fd"><div class="ttname"><a href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a></div><div class="ttdeci">#define NULL_TABLE</div><div class="ttdef"><b>Definition:</b> pages.cpp:84</div></div>
-<div class="ttc" id="apages_8h_html_a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3"><div class="ttname"><a href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3">NoEntity</a></div><div class="ttdeci">@ NoEntity</div><div class="ttdef"><b>Definition:</b> pages.h:57</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a23bcbfe4a2abaa9bc9035ee4fd6d79e9" name="a23bcbfe4a2abaa9bc9035ee4fd6d79e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23bcbfe4a2abaa9bc9035ee4fd6d79e9">&#9670;&nbsp;</a></span>CHECK_RAW</h2>
+<a id="ac9ab271716bed72ab98ac3bdee4f8f4c" name="ac9ab271716bed72ab98ac3bdee4f8f4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9ab271716bed72ab98ac3bdee4f8f4c">&#9670;&nbsp;</a></span>CHECK_RAW</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,13 +188,13 @@ Variables</h2></td></tr>
           <td class="memname">#define CHECK_RAW</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
+          <td class="paramname">pageNum, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
+          <td class="paramname"><a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -238,7 +212,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pageNum&#160;</td>
+          <td class="paramname">entityNum&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -247,18 +221,19 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (offset &lt; (startByte)+blockSize) \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<a class="code hl_variable" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a> &lt; <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum)+blockSize) \</div>
 <div class="line">  { \</div>
-<div class="line">    return { { (<a class="code hl_struct" href="structtable3_d.html">table3D</a>*)pDataBlock, 0, 0, <a class="code hl_enumvalue" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }, .page = pageNum, .start = (startByte), .size = blockSize, .type = <a class="code hl_enumvalue" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23">Raw</a> }; \</div>
-<div class="line">  }</div>
-<div class="ttc" id="apages_8cpp_html_a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd"><div class="ttname"><a href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a></div><div class="ttdeci">@ TableSectionNone</div><div class="ttdef"><b>Definition:</b> pages.cpp:34</div></div>
-<div class="ttc" id="apages_8h_html_a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23"><div class="ttname"><a href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a5bdc2d0b1113f3630fc502864541fc23">Raw</a></div><div class="ttdeci">@ Raw</div><div class="ttdef"><b>Definition:</b> pages.h:55</div></div>
-<div class="ttc" id="astructtable3_d_html"><div class="ttname"><a href="structtable3_d.html">table3D</a></div><div class="ttdef"><b>Definition:</b> table.h:80</div></div>
+<div class="line">    return <a class="code hl_function" href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a>(pDataBlock, pageNum, <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum), blockSize);\</div>
+<div class="line">  } \</div>
+<div class="line">  DECLARE_NEXT_ENTITY_START(entityNum, blockSize)</div>
+<div class="ttc" id="apages_8cpp_html_a276fddbeb0a0e61851b0a3eab5843107"><div class="ttname"><a href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a></div><div class="ttdeci">#define ENTITY_START_VAR(entityNum)</div><div class="ttdef"><b>Definition:</b> pages.cpp:206</div></div>
+<div class="ttc" id="apages_8cpp_html_ac681806181c80437cfab37335f62ff39"><div class="ttname"><a href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a></div><div class="ttdeci">static uint16_t offset</div><div class="ttdef"><b>Definition:</b> pages.cpp:296</div></div>
+<div class="ttc" id="apages_8cpp_html_aed83f12b2a86639856758325f3a50d12"><div class="ttname"><a href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a></div><div class="ttdeci">const page_iterator_t create_raw_iterator(void *pBuffer, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:268</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="abb44479f0fddf333f484dbfe1cc71406" name="abb44479f0fddf333f484dbfe1cc71406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb44479f0fddf333f484dbfe1cc71406">&#9670;&nbsp;</a></span>CHECK_TABLE</h2>
+<a id="ac206646326801904e2e372eb2bfe0868" name="ac206646326801904e2e372eb2bfe0868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac206646326801904e2e372eb2bfe0868">&#9670;&nbsp;</a></span>CHECK_TABLE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,13 +242,13 @@ Variables</h2></td></tr>
           <td class="memname">#define CHECK_TABLE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
+          <td class="paramname">pageNum, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
+          <td class="paramname"><a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -285,13 +260,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">tableSize, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pageNum&#160;</td>
+          <td class="paramname">entityNum&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -300,58 +269,48 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (offset &lt; (startByte)+<a class="code hl_define" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(tableSize)) \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<a class="code hl_variable" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a> &lt; <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum)+<a class="code hl_function" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a>(pTable)) \</div>
 <div class="line">  { \</div>
-<div class="line">    return <a class="code hl_define" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(<a class="code hl_define" href="pages_8cpp.html#a04c93f1f8208d43e4f180f4dcc26fc7a">TABLE_VALUE</a>(offset, startByte, pTable, tableSize), pageNum, startByte, tableSize); \</div>
+<div class="line">    return <a class="code hl_function" href="pages_8cpp.html#a5ab2db17bbe02a4339a55498f41761d0">create_table_iterator</a>(pTable, (pTable)-&gt;type_key, \</div>
+<div class="line">                                  pageNum, \</div>
+<div class="line">                                  <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum), <a class="code hl_function" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a>(pTable)); \</div>
 <div class="line">  } \</div>
-<div class="line">  if (offset &lt; (startByte)+<a class="code hl_define" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(tableSize)) \</div>
-<div class="line">  { \</div>
-<div class="line">    return <a class="code hl_define" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(<a class="code hl_define" href="pages_8cpp.html#aa213eb252ecf3bd247d06f7358550ef8">TABLE_XAXIS</a>(offset, startByte, pTable, tableSize), pageNum, startByte, tableSize); \</div>
-<div class="line">  } \</div>
-<div class="line">  if (offset &lt; (startByte)+<a class="code hl_define" href="pages_8cpp.html#a6754f1b13683116028ed9fe8d2589d6f">TABLE_AXISY_END</a>(tableSize)) \</div>
-<div class="line">  { \</div>
-<div class="line">    return <a class="code hl_define" href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a>(<a class="code hl_define" href="pages_8cpp.html#afc1631ebc62d10d4e38dd6afd674813b">TABLE_YAXIS</a>(offset, startByte, pTable, tableSize), pageNum, startByte, tableSize); \</div>
-<div class="line">  }</div>
-<div class="ttc" id="apages_8cpp_html_a04c93f1f8208d43e4f180f4dcc26fc7a"><div class="ttname"><a href="pages_8cpp.html#a04c93f1f8208d43e4f180f4dcc26fc7a">TABLE_VALUE</a></div><div class="ttdeci">#define TABLE_VALUE(offset, startByte, pTable, tableSize)</div><div class="ttdef"><b>Definition:</b> pages.cpp:103</div></div>
-<div class="ttc" id="apages_8cpp_html_a4d1977455d904f20b68afe016db9affe"><div class="ttname"><a href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a></div><div class="ttdeci">#define TABLE_VALUE_END(size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:64</div></div>
-<div class="ttc" id="apages_8cpp_html_a6754f1b13683116028ed9fe8d2589d6f"><div class="ttname"><a href="pages_8cpp.html#a6754f1b13683116028ed9fe8d2589d6f">TABLE_AXISY_END</a></div><div class="ttdeci">#define TABLE_AXISY_END(size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:66</div></div>
-<div class="ttc" id="apages_8cpp_html_a71010a7afae4133256f738fc9033cef5"><div class="ttname"><a href="pages_8cpp.html#a71010a7afae4133256f738fc9033cef5">TABLE_ENTITY</a></div><div class="ttdeci">#define TABLE_ENTITY(table_type, pageNum, startByte, tableSize)</div><div class="ttdef"><b>Definition:</b> pages.cpp:121</div></div>
-<div class="ttc" id="apages_8cpp_html_a7f93333bd8d973e2f3dada78ce542262"><div class="ttname"><a href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a></div><div class="ttdeci">#define TABLE_AXISX_END(size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:65</div></div>
-<div class="ttc" id="apages_8cpp_html_aa213eb252ecf3bd247d06f7358550ef8"><div class="ttname"><a href="pages_8cpp.html#aa213eb252ecf3bd247d06f7358550ef8">TABLE_XAXIS</a></div><div class="ttdeci">#define TABLE_XAXIS(offset, startByte, pTable, tableSize)</div><div class="ttdef"><b>Definition:</b> pages.cpp:109</div></div>
-<div class="ttc" id="apages_8cpp_html_afc1631ebc62d10d4e38dd6afd674813b"><div class="ttname"><a href="pages_8cpp.html#afc1631ebc62d10d4e38dd6afd674813b">TABLE_YAXIS</a></div><div class="ttdeci">#define TABLE_YAXIS(offset, startByte, pTable, tableSize)</div><div class="ttdef"><b>Definition:</b> pages.cpp:115</div></div>
+<div class="line">  DECLARE_NEXT_ENTITY_START(entityNum, <a class="code hl_function" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a>(pTable))</div>
+<div class="ttc" id="apages_8cpp_html_a5ab2db17bbe02a4339a55498f41761d0"><div class="ttname"><a href="pages_8cpp.html#a5ab2db17bbe02a4339a55498f41761d0">create_table_iterator</a></div><div class="ttdeci">const page_iterator_t create_table_iterator(void *pTable, table_type_t key, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:244</div></div>
+<div class="ttc" id="apages_8cpp_html_a666fea52e4d082b7fe8cab80955cf065"><div class="ttname"><a href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a></div><div class="ttdeci">constexpr uint16_t get_table_axisy_end(const table_t *)</div><div class="ttdef"><b>Definition:</b> pages.cpp:43</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a540547f2a2368fd0441bf9b38e61d80d" name="a540547f2a2368fd0441bf9b38e61d80d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a540547f2a2368fd0441bf9b38e61d80d">&#9670;&nbsp;</a></span>CREATE_PAGE_END</h2>
+<a id="a563a05b64c257a56a37df65ac249b3cf" name="a563a05b64c257a56a37df65ac249b3cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563a05b64c257a56a37df65ac249b3cf">&#9670;&nbsp;</a></span>DECLARE_NEXT_ENTITY_START</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CREATE_PAGE_END</td>
+          <td class="memname">#define DECLARE_NEXT_ENTITY_START</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pageNum, </td>
+          <td class="paramname">entityIndex, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pageSize&#160;</td>
+          <td class="paramname">entitySize&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  { <a class="el" href="pages_8cpp.html#a2e636d5f98e15dd8eee0edbe0735f7fd">NULL_TABLE</a>, .page = pageNum, .start = 0, .size = pageSize, .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3a667876a6f108081ad524d7d29d23d506">End</a> }</td>
+          <td></td><td>&#160;&#160;&#160;  constexpr uint16_t <a class="el" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>( <a class="el" href="utilities_8h.html#a4f7b05e2e26ec587b6021f7f6d471432">PP_INC</a>(entityIndex) ) = <a class="el" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityIndex)+entitySize;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a829e73920bf29b255b2dfee76dc7505e" name="a829e73920bf29b255b2dfee76dc7505e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a829e73920bf29b255b2dfee76dc7505e">&#9670;&nbsp;</a></span>END_OF_PAGE</h2>
+<a id="af51bd6d049b0fcf28afca9b41e47e541" name="af51bd6d049b0fcf28afca9b41e47e541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af51bd6d049b0fcf28afca9b41e47e541">&#9670;&nbsp;</a></span>END_OF_PAGE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +325,7 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pageSize&#160;</td>
+          <td class="paramname">entityNum&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -375,462 +334,33 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  check_size&lt;pageNum, pageSize&gt;(); \</div>
-<div class="line">  return <a class="code hl_define" href="pages_8cpp.html#a540547f2a2368fd0441bf9b38e61d80d">CREATE_PAGE_END</a>(pageNum, pageSize);</div>
-<div class="ttc" id="apages_8cpp_html_a540547f2a2368fd0441bf9b38e61d80d"><div class="ttname"><a href="pages_8cpp.html#a540547f2a2368fd0441bf9b38e61d80d">CREATE_PAGE_END</a></div><div class="ttdeci">#define CREATE_PAGE_END(pageNum, pageSize)</div><div class="ttdef"><b>Definition:</b> pages.cpp:87</div></div>
+<b>Value:</b><div class="fragment"><div class="line">  check_size&lt;pageNum, ENTITY_START_VAR(entityNum)&gt;(); \</div>
+<div class="line">  return <a class="code hl_function" href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a>(pageNum, <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum)); \</div>
+<div class="ttc" id="apages_8cpp_html_a7651cccfa51cb2b5038b289315751ab4"><div class="ttname"><a href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a></div><div class="ttdeci">const page_iterator_t create_end_iterator(uint8_t pageNum, uint16_t start)</div><div class="ttdef"><b>Definition:</b> pages.cpp:225</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a2e636d5f98e15dd8eee0edbe0735f7fd" name="a2e636d5f98e15dd8eee0edbe0735f7fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e636d5f98e15dd8eee0edbe0735f7fd">&#9670;&nbsp;</a></span>NULL_TABLE</h2>
+<a id="a276fddbeb0a0e61851b0a3eab5843107" name="a276fddbeb0a0e61851b0a3eab5843107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276fddbeb0a0e61851b0a3eab5843107">&#9670;&nbsp;</a></span>ENTITY_START_VAR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NULL_TABLE&#160;&#160;&#160;  { nullptr, 0, 0, <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd">TableSectionNone</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7592df6f251849354ea4db2a3ddf87f3" name="a7592df6f251849354ea4db2a3ddf87f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7592df6f251849354ea4db2a3ddf87f3">&#9670;&nbsp;</a></span>OFFSET_TOAXIS_XINDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OFFSET_TOAXIS_XINDEX</td>
+          <td class="memname">#define ENTITY_START_VAR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((uint8_t)(offset - <a class="el" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(size)))</td>
+          <td class="paramname">entityNum</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#ae509eccab2e4bd9b3be0b3712a5a492e">_ENTITY_START</a>(entityNum)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="adfa2d5d1e244c1e6845235a9d2586508" name="adfa2d5d1e244c1e6845235a9d2586508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa2d5d1e244c1e6845235a9d2586508">&#9670;&nbsp;</a></span>OFFSET_TOAXIS_YINDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OFFSET_TOAXIS_YINDEX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((uint8_t)((size-1) - (offset - <a class="el" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(size))))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab6f5575551a982ba9be7601dd71f06b2" name="ab6f5575551a982ba9be7601dd71f06b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6f5575551a982ba9be7601dd71f06b2">&#9670;&nbsp;</a></span>OFFSET_TOVALUE_XINDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OFFSET_TOVALUE_XINDEX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((uint8_t)(offset % size))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62636a28dbcc6895336deaa8c4756f19" name="a62636a28dbcc6895336deaa8c4756f19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62636a28dbcc6895336deaa8c4756f19">&#9670;&nbsp;</a></span>OFFSET_TOVALUE_YINDEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OFFSET_TOVALUE_YINDEX</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((uint8_t)((size-1) - (offset / size)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af0c99cad676e5468aa3e4812d5161095" name="af0c99cad676e5468aa3e4812d5161095"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0c99cad676e5468aa3e4812d5161095">&#9670;&nbsp;</a></span>TABLE16_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE16_SIZE&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(16)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a46ba2be754dbf7ccf09f17693c33fe3d" name="a46ba2be754dbf7ccf09f17693c33fe3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ba2be754dbf7ccf09f17693c33fe3d">&#9670;&nbsp;</a></span>TABLE4_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE4_SIZE&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad24e9a6671bbaa0d765994f21188c575" name="ad24e9a6671bbaa0d765994f21188c575"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad24e9a6671bbaa0d765994f21188c575">&#9670;&nbsp;</a></span>TABLE6_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE6_SIZE&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(6)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4079e391d65091c26b898362ead6c57c" name="a4079e391d65091c26b898362ead6c57c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4079e391d65091c26b898362ead6c57c">&#9670;&nbsp;</a></span>TABLE8_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE8_SIZE&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(8)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7f93333bd8d973e2f3dada78ce542262" name="a7f93333bd8d973e2f3dada78ce542262"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f93333bd8d973e2f3dada78ce542262">&#9670;&nbsp;</a></span>TABLE_AXISX_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_AXISX_END</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="pages_8cpp.html#a4d1977455d904f20b68afe016db9affe">TABLE_VALUE_END</a>(size)+(uint16_t)size)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6754f1b13683116028ed9fe8d2589d6f" name="a6754f1b13683116028ed9fe8d2589d6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6754f1b13683116028ed9fe8d2589d6f">&#9670;&nbsp;</a></span>TABLE_AXISY_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_AXISY_END</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="pages_8cpp.html#a7f93333bd8d973e2f3dada78ce542262">TABLE_AXISX_END</a>(size)+(uint16_t)size)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a71010a7afae4133256f738fc9033cef5" name="a71010a7afae4133256f738fc9033cef5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71010a7afae4133256f738fc9033cef5">&#9670;&nbsp;</a></span>TABLE_ENTITY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_ENTITY</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">table_type, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pageNum, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">tableSize&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;  { table_type, .page = pageNum, .start = (startByte), .size = <a class="el" href="pages_8cpp.html#abdf0c1ba2c7d369ff97f444683f4c3ad">TABLE_SIZE</a>(tableSize), .type = <a class="el" href="pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3abdc82221e2bc2a210036a9bf0bb088b3">Table</a> }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abdf0c1ba2c7d369ff97f444683f4c3ad" name="abdf0c1ba2c7d369ff97f444683f4c3ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdf0c1ba2c7d369ff97f444683f4c3ad">&#9670;&nbsp;</a></span>TABLE_SIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_SIZE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="pages_8cpp.html#a6754f1b13683116028ed9fe8d2589d6f">TABLE_AXISY_END</a>(size)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04c93f1f8208d43e4f180f4dcc26fc7a" name="a04c93f1f8208d43e4f180f4dcc26fc7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c93f1f8208d43e4f180f4dcc26fc7a">&#9670;&nbsp;</a></span>TABLE_VALUE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_VALUE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pTable, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">tableSize&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  { pTable, \</div>
-<div class="line">    OFFSET_TOVALUE_XINDEX((offset-(startByte)), tableSize), \</div>
-<div class="line">    OFFSET_TOVALUE_YINDEX((offset-(startByte)), tableSize), \</div>
-<div class="line">    Value }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4d1977455d904f20b68afe016db9affe" name="a4d1977455d904f20b68afe016db9affe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d1977455d904f20b68afe016db9affe">&#9670;&nbsp;</a></span>TABLE_VALUE_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_VALUE_END</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">size</td><td>)</td>
-          <td>&#160;&#160;&#160;((uint16_t)size*(uint16_t)size)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa213eb252ecf3bd247d06f7358550ef8" name="aa213eb252ecf3bd247d06f7358550ef8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa213eb252ecf3bd247d06f7358550ef8">&#9670;&nbsp;</a></span>TABLE_XAXIS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_XAXIS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pTable, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">tableSize&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  { pTable, \</div>
-<div class="line">    OFFSET_TOAXIS_XINDEX((offset-(startByte)), tableSize), \</div>
-<div class="line">    0U, \</div>
-<div class="line">    axisX }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afc1631ebc62d10d4e38dd6afd674813b" name="afc1631ebc62d10d4e38dd6afd674813b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc1631ebc62d10d4e38dd6afd674813b">&#9670;&nbsp;</a></span>TABLE_YAXIS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_YAXIS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">offset, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">startByte, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">pTable, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">tableSize&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  { pTable, \</div>
-<div class="line">    0U, \</div>
-<div class="line">    OFFSET_TOAXIS_YINDEX((offset-(startByte)), tableSize), \</div>
-<div class="line">    axisY }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a302a8ae8a4f17f89f4290d3d71e7a8b7" name="a302a8ae8a4f17f89f4290d3d71e7a8b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a302a8ae8a4f17f89f4290d3d71e7a8b7">&#9670;&nbsp;</a></span>table3D_section_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="pages_8cpp.html#a302a8ae8a4f17f89f4290d3d71e7a8b7">table3D_section_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a302a8ae8a4f17f89f4290d3d71e7a8b7a050889cfb2c606473596b8f70f702769" name="a302a8ae8a4f17f89f4290d3d71e7a8b7a050889cfb2c606473596b8f70f702769"></a>Value&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a302a8ae8a4f17f89f4290d3d71e7a8b7af3c7c89a35519fc18f8f08e003511745" name="a302a8ae8a4f17f89f4290d3d71e7a8b7af3c7c89a35519fc18f8f08e003511745"></a>axisX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a302a8ae8a4f17f89f4290d3d71e7a8b7a2a651c2cb6994eb244ca3298e8c54755" name="a302a8ae8a4f17f89f4290d3d71e7a8b7a2a651c2cb6994eb244ca3298e8c54755"></a>axisY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd" name="a302a8ae8a4f17f89f4290d3d71e7a8b7ac7f6f15abeb98630e2b1442540039bcd"></a>TableSectionNone&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ab11067dc0721986612d170fdb243045e" name="ab11067dc0721986612d170fdb243045e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab11067dc0721986612d170fdb243045e">&#9670;&nbsp;</a></span>__attribute__()</h2>
+<a id="a9965cb83517b46e06998569f277d87c7" name="a9965cb83517b46e06998569f277d87c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9965cb83517b46e06998569f277d87c7">&#9670;&nbsp;</a></span>__attribute__()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -852,6 +382,62 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a72453b79576e4855834673719536c8" name="a5a72453b79576e4855834673719536c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a72453b79576e4855834673719536c8">&#9670;&nbsp;</a></span>advance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> advance </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Moves the iterator to the next sub-entity on the page </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">it</td><td>The current iterator </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a5a72453b79576e4855834673719536c8_icgraph.png" border="0" usemap="#apages_8cpp_a5a72453b79576e4855834673719536c8_icgraph" alt=""/></div>
+<map name="apages_8cpp_a5a72453b79576e4855834673719536c8_icgraph" id="apages_8cpp_a5a72453b79576e4855834673719536c8_icgraph">
+<area shape="rect" title=" " alt="" coords="864,385,935,412"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="659,5,773,32"/>
+<area shape="rect" href="corrections_8ino.html#aae8b7388343e8a625ac01e5ebf0b646c" title=" " alt="" coords="639,107,793,133"/>
+<area shape="rect" href="corrections_8ino.html#abb6e25cc6b33ea84b9ecfaec0aa06d46" title=" " alt="" coords="464,385,568,412"/>
+<area shape="rect" href="corrections_8ino.html#a772dfea7ea13932573c8dbbc0933ca02" title=" " alt="" coords="616,208,816,235"/>
+<area shape="rect" href="corrections_8ino.html#a28fd470690407ed9f2febf7682310e77" title=" " alt="" coords="641,259,791,285"/>
+<area shape="rect" href="corrections_8ino.html#aee1d4fbb202adcbcd7897ec4f5a4d61a" title=" " alt="" coords="645,309,787,336"/>
+<area shape="rect" href="corrections_8ino.html#a4e39632048b767d4e99dff044e438d93" title=" " alt="" coords="649,360,783,387"/>
+<area shape="rect" href="corrections_8ino.html#abd2e82b2ab54719cc924e58520d18386" title=" " alt="" coords="641,411,791,437"/>
+<area shape="rect" href="corrections_8ino.html#aa11cf073fd170a6954f78ce498d5ab96" title=" " alt="" coords="658,461,774,488"/>
+<area shape="rect" href="corrections_8ino.html#ad5078507a4afa59141d9fef911f6aabe" title=" " alt="" coords="655,512,777,539"/>
+<area shape="rect" href="corrections_8ino.html#ad2cc7a83e39f10167f63e7eaf2ec5170" title=" " alt="" coords="640,563,792,589"/>
+<area shape="rect" href="corrections_8ino.html#a22aae0540f512c30d8db1d58e1464850" title=" " alt="" coords="643,613,789,640"/>
+<area shape="rect" href="corrections_8ino.html#a6faae52d40cbf76c64b801882338a98a" title=" " alt="" coords="639,664,793,691"/>
+<area shape="rect" href="corrections_8ino.html#ad953149fa573f0dd108e59ac2d94a324" title=" " alt="" coords="643,715,789,741"/>
+<area shape="rect" href="storage_8cpp.html#ab5565e6188dc7ba5e0ec6471e0769e3c" title=" " alt="" coords="654,765,778,792"/>
+<area shape="rect" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title=" " alt="" coords="676,56,756,83"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="477,56,555,83"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,335,52,361"/>
+<area shape="rect" href="speeduino_8ino.html#a4d2f3e170c39f954862220a8ebb76dfb" title=" " alt="" coords="135,335,234,361"/>
+<area shape="rect" href="secondary_tables_8ino.html#ab7746198d140c5ef7bf726f020fb04cb" title="Performs a lookup of the second ignition advance table. The values used to look this up will be RPM a..." alt="" coords="317,385,416,412"/>
+<area shape="rect" href="secondary_tables_8ino.html#afe459f7dfd7d4017df569a40f57b1484" title=" " alt="" coords="100,385,269,412"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="474,765,558,792"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="339,765,394,792"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -882,6 +468,899 @@ template&lt;uint8_t pageNum, uint16_t min&gt; </div>
 
 </div>
 </div>
+<a id="a7651cccfa51cb2b5038b289315751ab4" name="a7651cccfa51cb2b5038b289315751ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7651cccfa51cb2b5038b289315751ab4">&#9670;&nbsp;</a></span>create_end_iterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> create_end_iterator </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>start</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed83f12b2a86639856758325f3a50d12" name="aed83f12b2a86639856758325f3a50d12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed83f12b2a86639856758325f3a50d12">&#9670;&nbsp;</a></span>create_raw_iterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> create_raw_iterator </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pBuffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ab2db17bbe02a4339a55498f41761d0" name="a5ab2db17bbe02a4339a55498f41761d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ab2db17bbe02a4339a55498f41761d0">&#9670;&nbsp;</a></span>create_table_iterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> create_table_iterator </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>pTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aad58ee4d998ae91b63cbdac8d71a14e7" name="aad58ee4d998ae91b63cbdac8d71a14e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad58ee4d998ae91b63cbdac8d71a14e7">&#9670;&nbsp;</a></span>get_raw_location()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> &amp; get_raw_location </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_aad58ee4d998ae91b63cbdac8d71a14e7_icgraph.png" border="0" usemap="#apages_8cpp_aad58ee4d998ae91b63cbdac8d71a14e7_icgraph" alt=""/></div>
+<map name="apages_8cpp_aad58ee4d998ae91b63cbdac8d71a14e7_icgraph" id="apages_8cpp_aad58ee4d998ae91b63cbdac8d71a14e7_icgraph">
+<area shape="rect" title=" " alt="" coords="504,31,624,57"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="377,5,456,32"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="377,56,456,83"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,31,179,57"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,31,52,57"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="227,56,329,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a49bc246b59d1ae0ba5ff2d000658cb36" name="a49bc246b59d1ae0ba5ff2d000658cb36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49bc246b59d1ae0ba5ff2d000658cb36">&#9670;&nbsp;</a></span>get_table_axisx_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class table_t &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t get_table_axisx_end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a666fea52e4d082b7fe8cab80955cf065" name="a666fea52e4d082b7fe8cab80955cf065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666fea52e4d082b7fe8cab80955cf065">&#9670;&nbsp;</a></span>get_table_axisy_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class table_t &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t get_table_axisy_end </td>
+          <td>(</td>
+          <td class="paramtype">const table_t *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5534094638143ae505c514bbe6f7f44" name="ab5534094638143ae505c514bbe6f7f44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5534094638143ae505c514bbe6f7f44">&#9670;&nbsp;</a></span>get_table_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> get_table_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_ab5534094638143ae505c514bbe6f7f44_icgraph.png" border="0" usemap="#apages_8cpp_ab5534094638143ae505c514bbe6f7f44_icgraph" alt=""/></div>
+<map name="apages_8cpp_ab5534094638143ae505c514bbe6f7f44_icgraph" id="apages_8cpp_ab5534094638143ae505c514bbe6f7f44_icgraph">
+<area shape="rect" title=" " alt="" coords="504,5,617,32"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="377,5,456,32"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a74076d0f1333d789ee00883481c127a3" name="a74076d0f1333d789ee00883481c127a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74076d0f1333d789ee00883481c127a3">&#9670;&nbsp;</a></span>get_table_value_end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class table_t &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t get_table_value_end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68490804cfe005aacc24d210427cfd07" name="a68490804cfe005aacc24d210427cfd07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68490804cfe005aacc24d210427cfd07">&#9670;&nbsp;</a></span>get_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> get_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a68490804cfe005aacc24d210427cfd07_cgraph.png" border="0" usemap="#apages_8cpp_a68490804cfe005aacc24d210427cfd07_cgraph" alt=""/></div>
+<map name="apages_8cpp_a68490804cfe005aacc24d210427cfd07_cgraph" id="apages_8cpp_a68490804cfe005aacc24d210427cfd07_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,84,57"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="132,5,252,32"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="135,56,249,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a68490804cfe005aacc24d210427cfd07_icgraph.png" border="0" usemap="#apages_8cpp_a68490804cfe005aacc24d210427cfd07_icgraph" alt=""/></div>
+<map name="apages_8cpp_a68490804cfe005aacc24d210427cfd07_icgraph" id="apages_8cpp_a68490804cfe005aacc24d210427cfd07_icgraph">
+<area shape="rect" title=" " alt="" coords="377,5,456,32"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab938b605ab6bfc744ec663ab1c053ca4" name="ab938b605ab6bfc744ec663ab1c053ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab938b605ab6bfc744ec663ab1c053ca4">&#9670;&nbsp;</a></span>getPageCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t getPageCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Page count, as defined in the INI file </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_ab938b605ab6bfc744ec663ab1c053ca4_icgraph.png" border="0" usemap="#apages_8cpp_ab938b605ab6bfc744ec663ab1c053ca4_icgraph" alt=""/></div>
+<map name="apages_8cpp_ab938b605ab6bfc744ec663ab1c053ca4_icgraph" id="apages_8cpp_ab938b605ab6bfc744ec663ab1c053ca4_icgraph">
+<area shape="rect" title=" " alt="" coords="609,107,713,133"/>
+<area shape="rect" href="storage_8cpp.html#a50a589cf49dc3944e137f010e2ff8b9b" title=" " alt="" coords="411,56,561,83"/>
+<area shape="rect" href="storage_8cpp.html#ab5565e6188dc7ba5e0ec6471e0769e3c" title=" " alt="" coords="424,107,548,133"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="435,183,537,209"/>
+<area shape="rect" href="storage_8cpp.html#aad0f76cee417a1d1470e56244370e01a" title=" " alt="" coords="242,5,361,32"/>
+<area shape="rect" href="storage_8cpp.html#a57f1423d06ff792b7c73b636677600e8" title=" " alt="" coords="240,56,363,83"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,145,192,172"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,145,60,172"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="262,208,341,235"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,221,173,248"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="259,157,344,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a55967413d2f9a104839ae6cca6daafe3" name="a55967413d2f9a104839ae6cca6daafe3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55967413d2f9a104839ae6cca6daafe3">&#9670;&nbsp;</a></span>getPageSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t getPageSize </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>pageNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Page size in bytes </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pageNum</td><td>The page number </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a55967413d2f9a104839ae6cca6daafe3_icgraph.png" border="0" usemap="#apages_8cpp_a55967413d2f9a104839ae6cca6daafe3_icgraph" alt=""/></div>
+<map name="apages_8cpp_a55967413d2f9a104839ae6cca6daafe3_icgraph" id="apages_8cpp_a55967413d2f9a104839ae6cca6daafe3_icgraph">
+<area shape="rect" title=" " alt="" coords="389,5,484,32"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="227,5,341,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aea9a6a80a7774cf740628d632b9734a6" name="aea9a6a80a7774cf740628d632b9734a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9a6a80a7774cf740628d632b9734a6">&#9670;&nbsp;</a></span>getPageValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> getPageValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Gets a single value from a page, with data aligned as per the ini file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pageNum</td><td>The page number to retrieve data from. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>The address in the page that should be returned. This is as per the page definition in the ini. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_aea9a6a80a7774cf740628d632b9734a6_cgraph.png" border="0" usemap="#apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_cgraph" alt=""/></div>
+<map name="apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_cgraph" id="apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,108,57"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="156,31,235,57"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="283,5,403,32"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="286,56,399,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_aea9a6a80a7774cf740628d632b9734a6_icgraph.png" border="0" usemap="#apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_icgraph" alt=""/></div>
+<map name="apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_icgraph" id="apages_8cpp_aea9a6a80a7774cf740628d632b9734a6_icgraph">
+<area shape="rect" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a06fec3cc7c60b26061ff7bf8a55606ca" name="a06fec3cc7c60b26061ff7bf8a55606ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fec3cc7c60b26061ff7bf8a55606ca">&#9670;&nbsp;</a></span>page_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> page_begin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>pageNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Initiates iteration over a pages entities. Test <code>entity.type==End</code> to determine the end of the page. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pageNum</td><td>The page number to iterate over. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a06fec3cc7c60b26061ff7bf8a55606ca_icgraph.png" border="0" usemap="#apages_8cpp_a06fec3cc7c60b26061ff7bf8a55606ca_icgraph" alt=""/></div>
+<map name="apages_8cpp_a06fec3cc7c60b26061ff7bf8a55606ca_icgraph" id="apages_8cpp_a06fec3cc7c60b26061ff7bf8a55606ca_icgraph">
+<area shape="rect" title=" " alt="" coords="412,56,500,83"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="245,5,359,32"/>
+<area shape="rect" href="storage_8cpp.html#ab5565e6188dc7ba5e0ec6471e0769e3c" title=" " alt="" coords="240,107,364,133"/>
+<area shape="rect" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title=" " alt="" coords="262,56,342,83"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="111,31,189,57"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,31,56,57"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,107,192,133"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,107,60,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a3b2d35dd11c67e13efa9d35288ff39ad" name="a3b2d35dd11c67e13efa9d35288ff39ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b2d35dd11c67e13efa9d35288ff39ad">&#9670;&nbsp;</a></span>rows_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtable__value__iterator.html">table_value_iterator</a> rows_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Convert page iterator to table value iterator. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_cgraph.png" border="0" usemap="#apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_cgraph" alt=""/></div>
+<map name="apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_cgraph" id="apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,93,56"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_icgraph.png" border="0" usemap="#apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_icgraph" alt=""/></div>
+<map name="apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_icgraph" id="apages_8cpp_a3b2d35dd11c67e13efa9d35288ff39ad_icgraph">
+<area shape="rect" title=" " alt="" coords="952,132,1040,159"/>
+<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="772,63,904,89"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="799,221,877,248"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="797,132,879,159"/>
+<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="627,44,724,71"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="424,5,539,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,56,327,83"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,81,173,108"/>
+<area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="440,259,523,285"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="245,157,331,184"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,208,192,235"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,208,60,235"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="632,132,719,159"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,208,336,235"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="384,107,579,133"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="431,157,532,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab6ebb52ff5a02797a96615a762818a1a" name="ab6ebb52ff5a02797a96615a762818a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ebb52ff5a02797a96615a762818a1a">&#9670;&nbsp;</a></span>set_table_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_table_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>new_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_ab6ebb52ff5a02797a96615a762818a1a_icgraph.png" border="0" usemap="#apages_8cpp_ab6ebb52ff5a02797a96615a762818a1a_icgraph" alt=""/></div>
+<map name="apages_8cpp_ab6ebb52ff5a02797a96615a762818a1a_icgraph" id="apages_8cpp_ab6ebb52ff5a02797a96615a762818a1a_icgraph">
+<area shape="rect" title=" " alt="" coords="504,5,617,32"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="377,5,456,32"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aed876950de5472374d3121726e1ca03e" name="aed876950de5472374d3121726e1ca03e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed876950de5472374d3121726e1ca03e">&#9670;&nbsp;</a></span>set_value()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void set_value </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_aed876950de5472374d3121726e1ca03e_cgraph.png" border="0" usemap="#apages_8cpp_aed876950de5472374d3121726e1ca03e_cgraph" alt=""/></div>
+<map name="apages_8cpp_aed876950de5472374d3121726e1ca03e_cgraph" id="apages_8cpp_aed876950de5472374d3121726e1ca03e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,84,57"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="132,5,252,32"/>
+<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="135,56,249,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_aed876950de5472374d3121726e1ca03e_icgraph.png" border="0" usemap="#apages_8cpp_aed876950de5472374d3121726e1ca03e_icgraph" alt=""/></div>
+<map name="apages_8cpp_aed876950de5472374d3121726e1ca03e_icgraph" id="apages_8cpp_aed876950de5472374d3121726e1ca03e_icgraph">
+<area shape="rect" title=" " alt="" coords="377,5,456,32"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af21f52defb535d26cf2bfac859885c53" name="af21f52defb535d26cf2bfac859885c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af21f52defb535d26cf2bfac859885c53">&#9670;&nbsp;</a></span>setPageValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setPageValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>pageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Sets a single value from a page, with data aligned as per the ini file </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pageNum</td><td>The page number to retrieve data from. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">offset</td><td>The address in the page that should be returned. This is as per the page definition in the ini. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>The new value </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_af21f52defb535d26cf2bfac859885c53_cgraph.png" border="0" usemap="#apages_8cpp_af21f52defb535d26cf2bfac859885c53_cgraph" alt=""/></div>
+<map name="apages_8cpp_af21f52defb535d26cf2bfac859885c53_cgraph" id="apages_8cpp_af21f52defb535d26cf2bfac859885c53_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,108,57"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="156,31,235,57"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="283,5,403,32"/>
+<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="286,56,399,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_af21f52defb535d26cf2bfac859885c53_icgraph.png" border="0" usemap="#apages_8cpp_af21f52defb535d26cf2bfac859885c53_icgraph" alt=""/></div>
+<map name="apages_8cpp_af21f52defb535d26cf2bfac859885c53_icgraph" id="apages_8cpp_af21f52defb535d26cf2bfac859885c53_icgraph">
+<area shape="rect" title=" " alt="" coords="227,5,329,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="100,5,179,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a816f826167bf9bf6b3a5057bffd64eab" name="a816f826167bf9bf6b3a5057bffd64eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816f826167bf9bf6b3a5057bffd64eab">&#9670;&nbsp;</a></span>switch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">switch </td>
+          <td>(</td>
+          <td class="paramtype">pageNumber&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a284e4718ba9c532137b73c1f028ae9" name="a8a284e4718ba9c532137b73c1f028ae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a284e4718ba9c532137b73c1f028ae9">&#9670;&nbsp;</a></span>x_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> x_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Convert page iterator to table x axis iterator. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_cgraph.png" border="0" usemap="#apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_cgraph" alt=""/></div>
+<map name="apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_cgraph" id="apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,72,56"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_icgraph.png" border="0" usemap="#apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_icgraph" alt=""/></div>
+<map name="apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_icgraph" id="apages_8cpp_a8a284e4718ba9c532137b73c1f028ae9_icgraph">
+<area shape="rect" title=" " alt="" coords="952,132,1019,159"/>
+<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="772,63,904,89"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="799,221,877,248"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="797,132,879,159"/>
+<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="627,44,724,71"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="424,5,539,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,56,327,83"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,81,173,108"/>
+<area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="440,259,523,285"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="245,157,331,184"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,208,192,235"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,208,60,235"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="632,132,719,159"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,208,336,235"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="384,107,579,133"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="431,157,532,184"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a033fab4a3a3c70450c1673c775507dd4" name="a033fab4a3a3c70450c1673c775507dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a033fab4a3a3c70450c1673c775507dd4">&#9670;&nbsp;</a></span>y_begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> y_begin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>it</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Convert page iterator to table y axis iterator. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a033fab4a3a3c70450c1673c775507dd4_cgraph.png" border="0" usemap="#apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_cgraph" alt=""/></div>
+<map name="apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_cgraph" id="apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,72,56"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pages_8cpp_a033fab4a3a3c70450c1673c775507dd4_icgraph.png" border="0" usemap="#apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_icgraph" alt=""/></div>
+<map name="apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_icgraph" id="apages_8cpp_a033fab4a3a3c70450c1673c775507dd4_icgraph">
+<area shape="rect" title=" " alt="" coords="952,132,1019,159"/>
+<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="772,63,904,89"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="799,221,877,248"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="797,132,879,159"/>
+<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="627,44,724,71"/>
+<area shape="rect" href="page__crc_8cpp.html#a89c50710cc6dfcd80f6488c7cd297875" title=" " alt="" coords="424,5,539,32"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="249,56,327,83"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,81,173,108"/>
+<area shape="rect" href="storage_8cpp.html#ad5ed6ddd9940c0097cc91774056df1c2" title=" " alt="" coords="440,259,523,285"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="245,157,331,184"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,208,192,235"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,208,60,235"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="632,132,719,159"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="240,208,336,235"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="384,107,579,133"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="431,157,532,184"/>
+</map>
+</div>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="aa26c7a8ca15f343e9f0252834430445f" name="aa26c7a8ca15f343e9f0252834430445f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa26c7a8ca15f343e9f0252834430445f">&#9670;&nbsp;</a></span>ini_page_sizes</h2>
@@ -903,6 +1382,23 @@ template&lt;uint8_t pageNum, uint16_t min&gt; </div>
 </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ac681806181c80437cfab37335f62ff39" name="ac681806181c80437cfab37335f62ff39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac681806181c80437cfab37335f62ff39">&#9670;&nbsp;</a></span>offset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t offset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{</div>
+<div class="line">  </div>
+<div class="line">  <span class="keyword">static</span> <span class="keyword">constexpr</span> uint16_t <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(0) = 0U</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

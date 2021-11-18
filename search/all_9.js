@@ -8,10 +8,9 @@ var searchData=
   ['harley_20davidson_5',['Harley Davidson',['../group__dec__harley.html',1,'']]],
   ['hasnextschedule_6',['hasNextSchedule',['../struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137',1,'FuelSchedule::hasNextSchedule()'],['../struct_schedule.html#a5880ab34c3fa5c0ca67f689dd1392b28',1,'Schedule::hasNextSchedule()']]],
   ['hassync_7',['hasSync',['../structstatuses.html#a0ce7170b804d912db6b41bf19ded367a',1,'statuses']]],
-  ['heap_5falloc_8',['heap_alloc',['../table_8ino.html#ac29d8044030c7a7bbf6051acef1dbae4',1,'table.ino']]],
-  ['honda_20d17_9',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
-  ['hwtest_5fign_10',['HWTest_IGN',['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino'],['../globals_8ino.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino']]],
-  ['hwtest_5fign_5f50pc_11',['HWTest_IGN_50pc',['../globals_8h.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino'],['../globals_8ino.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino']]],
-  ['hwtest_5finj_12',['HWTest_INJ',['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino'],['../globals_8ino.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino']]],
-  ['hwtest_5finj_5f50pc_13',['HWTest_INJ_50pc',['../globals_8h.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino'],['../globals_8ino.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino']]]
+  ['honda_20d17_8',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
+  ['hwtest_5fign_9',['HWTest_IGN',['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino'],['../globals_8ino.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino']]],
+  ['hwtest_5fign_5f50pc_10',['HWTest_IGN_50pc',['../globals_8h.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino'],['../globals_8ino.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino']]],
+  ['hwtest_5finj_11',['HWTest_INJ',['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino'],['../globals_8ino.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino']]],
+  ['hwtest_5finj_5f50pc_12',['HWTest_INJ_50pc',['../globals_8h.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino'],['../globals_8ino.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino']]]
 ];
