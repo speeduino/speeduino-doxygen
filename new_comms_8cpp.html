@@ -94,8 +94,8 @@ Functions</h2></td></tr>
 <tr class="separator:a2fb2eb2b13bc6122f9c89d000e2d7d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6eb845a7ec6ff913f8ede60edd706e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9">sendSerialReturnCode</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> returnCode)</td></tr>
 <tr class="separator:ac6eb845a7ec6ff913f8ede60edd706e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0907b2edb9232ab4d3817063ff82c4f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a0907b2edb9232ab4d3817063ff82c4f0">sendSerialPayload</a> (void *payload, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> payloadLength)</td></tr>
-<tr class="separator:a0907b2edb9232ab4d3817063ff82c4f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83941691bcb801365a86fb3817739f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a83941691bcb801365a86fb3817739f6e">sendSerialPayload</a> (void *payload, uint16_t payloadLength)</td></tr>
+<tr class="separator:a83941691bcb801365a86fb3817739f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd">processSerialCommand</a> ()</td></tr>
 <tr class="separator:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b9c65e306c07808f46097ef93cb910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a95b9c65e306c07808f46097ef93cb910">generateLiveValues</a> (uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, uint16_t packetLength)</td></tr>
@@ -117,8 +117,6 @@ Variables</h2></td></tr>
 <tr class="separator:a4e2a74b832369f6ffec57d6227671b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3b5e4b87a46aad938a517102e1bacb5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#aa3b5e4b87a46aad938a517102e1bacb5">serialCRC</a> = 0</td></tr>
 <tr class="separator:aa3b5e4b87a46aad938a517102e1bacb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac871523a232ceb1c38bbad348ee786e5"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#ac871523a232ceb1c38bbad348ee786e5">SDcurrentDirChunk</a></td></tr>
-<tr class="separator:ac871523a232ceb1c38bbad348ee786e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90149338cc40c17fd64b5af5445af772"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a90149338cc40c17fd64b5af5445af772">serialPayload</a> [SERIAL_BUFFER_SIZE]</td></tr>
 <tr class="separator:a90149338cc40c17fd64b5af5445af772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -361,7 +359,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="rtc__common_8h.html#ac4a92ad796ddfa5c995791ff97ecefab" title=" " alt="" coords="373,411,479,437"/>
 <area shape="rect" href="rtc__common_8h.html#a34dfabafd33ed94d17cf0720d36ca4a8" title=" " alt="" coords="381,613,471,640"/>
 <area shape="rect" href="rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65" title=" " alt="" coords="381,563,471,589"/>
-<area shape="rect" href="new_comms_8cpp.html#a0907b2edb9232ab4d3817063ff82c4f0" title=" " alt="" coords="361,664,491,691"/>
+<area shape="rect" href="new_comms_8cpp.html#a83941691bcb801365a86fb3817739f6e" title=" " alt="" coords="361,664,491,691"/>
 </map>
 </div>
 <div class="dynheader">
@@ -418,7 +416,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="rtc__common_8h.html#ac4a92ad796ddfa5c995791ff97ecefab" title=" " alt="" coords="238,1323,345,1349"/>
 <area shape="rect" href="rtc__common_8h.html#a34dfabafd33ed94d17cf0720d36ca4a8" title=" " alt="" coords="247,1373,336,1400"/>
 <area shape="rect" href="rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65" title=" " alt="" coords="246,1424,337,1451"/>
-<area shape="rect" href="new_comms_8cpp.html#a0907b2edb9232ab4d3817063ff82c4f0" title=" " alt="" coords="227,1475,356,1501"/>
+<area shape="rect" href="new_comms_8cpp.html#a83941691bcb801365a86fb3817739f6e" title=" " alt="" coords="227,1475,356,1501"/>
 <area shape="rect" href="new_comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9" title=" " alt="" coords="216,1525,367,1552"/>
 <area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="688,5,759,32"/>
 <area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="675,107,772,133"/>
@@ -552,8 +550,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0907b2edb9232ab4d3817063ff82c4f0" name="a0907b2edb9232ab4d3817063ff82c4f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0907b2edb9232ab4d3817063ff82c4f0">&#9670;&nbsp;</a></span>sendSerialPayload()</h2>
+<a id="a83941691bcb801365a86fb3817739f6e" name="a83941691bcb801365a86fb3817739f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83941691bcb801365a86fb3817739f6e">&#9670;&nbsp;</a></span>sendSerialPayload()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,7 +565,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>payloadLength</em>&#160;</td>
         </tr>
         <tr>
@@ -580,8 +578,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="new_comms_8cpp_a0907b2edb9232ab4d3817063ff82c4f0_icgraph.png" border="0" usemap="#anew_comms_8cpp_a0907b2edb9232ab4d3817063ff82c4f0_icgraph" alt=""/></div>
-<map name="anew_comms_8cpp_a0907b2edb9232ab4d3817063ff82c4f0_icgraph" id="anew_comms_8cpp_a0907b2edb9232ab4d3817063ff82c4f0_icgraph">
+<div class="center"><img src="new_comms_8cpp_a83941691bcb801365a86fb3817739f6e_icgraph.png" border="0" usemap="#anew_comms_8cpp_a83941691bcb801365a86fb3817739f6e_icgraph" alt=""/></div>
+<map name="anew_comms_8cpp_a83941691bcb801365a86fb3817739f6e_icgraph" id="anew_comms_8cpp_a83941691bcb801365a86fb3817739f6e_icgraph">
 <area shape="rect" title=" " alt="" coords="443,5,572,32"/>
 <area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
 <area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
@@ -621,20 +619,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ac871523a232ceb1c38bbad348ee786e5" name="ac871523a232ceb1c38bbad348ee786e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac871523a232ceb1c38bbad348ee786e5">&#9670;&nbsp;</a></span>SDcurrentDirChunk</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t SDcurrentDirChunk</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a4e2a74b832369f6ffec57d6227671b03" name="a4e2a74b832369f6ffec57d6227671b03"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e2a74b832369f6ffec57d6227671b03">&#9670;&nbsp;</a></span>serialBytesReceived</h2>
 
