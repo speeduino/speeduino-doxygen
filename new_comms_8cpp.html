@@ -96,6 +96,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac6eb845a7ec6ff913f8ede60edd706e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83941691bcb801365a86fb3817739f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a83941691bcb801365a86fb3817739f6e">sendSerialPayload</a> (void *payload, uint16_t payloadLength)</td></tr>
 <tr class="separator:a83941691bcb801365a86fb3817739f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75febfefa0183d8b1789aa4a4b7c69b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#ae75febfefa0183d8b1789aa4a4b7c69b">continueSerialTransmission</a> ()</td></tr>
+<tr class="separator:ae75febfefa0183d8b1789aa4a4b7c69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd">processSerialCommand</a> ()</td></tr>
 <tr class="separator:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b9c65e306c07808f46097ef93cb910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a95b9c65e306c07808f46097ef93cb910">generateLiveValues</a> (uint16_t <a class="el" href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a>, uint16_t packetLength)</td></tr>
@@ -119,10 +121,40 @@ Variables</h2></td></tr>
 <tr class="separator:aa3b5e4b87a46aad938a517102e1bacb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90149338cc40c17fd64b5af5445af772"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a90149338cc40c17fd64b5af5445af772">serialPayload</a> [SERIAL_BUFFER_SIZE]</td></tr>
 <tr class="separator:a90149338cc40c17fd64b5af5445af772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e68c0a6ce99d526d7c906992952b000"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a6e68c0a6ce99d526d7c906992952b000">serialWriteInProgress</a> = false</td></tr>
+<tr class="separator:a6e68c0a6ce99d526d7c906992952b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#ac526bd83b71bb8eddf5b4da7fff84813">serialBytesTransmitted</a> = 0</td></tr>
+<tr class="separator:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Process Incoming and outgoing serial communications. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="ae75febfefa0183d8b1789aa4a4b7c69b" name="ae75febfefa0183d8b1789aa4a4b7c69b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75febfefa0183d8b1789aa4a4b7c69b">&#9670;&nbsp;</a></span>continueSerialTransmission()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void continueSerialTransmission </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="new_comms_8cpp_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph.png" border="0" usemap="#anew_comms_8cpp_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph" alt=""/></div>
+<map name="anew_comms_8cpp_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph" id="anew_comms_8cpp_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,283,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a7921ee42669bf719aabab646c458a074" name="a7921ee42669bf719aabab646c458a074"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7921ee42669bf719aabab646c458a074">&#9670;&nbsp;</a></span>generateCompositeLog()</h2>
 
@@ -634,6 +666,20 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac526bd83b71bb8eddf5b4da7fff84813" name="ac526bd83b71bb8eddf5b4da7fff84813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac526bd83b71bb8eddf5b4da7fff84813">&#9670;&nbsp;</a></span>serialBytesTransmitted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t serialBytesTransmitted = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa3b5e4b87a46aad938a517102e1bacb5" name="aa3b5e4b87a46aad938a517102e1bacb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa3b5e4b87a46aad938a517102e1bacb5">&#9670;&nbsp;</a></span>serialCRC</h2>
 
@@ -689,6 +735,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p >Whether or not a serial request has only been partially received. This occurs when a the length has been received in the serial buffer, but not all of the payload or CRC has yet been received. </p>
+
+</div>
+</div>
+<a id="a6e68c0a6ce99d526d7c906992952b000" name="a6e68c0a6ce99d526d7c906992952b000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e68c0a6ce99d526d7c906992952b000">&#9670;&nbsp;</a></span>serialWriteInProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool serialWriteInProgress = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
