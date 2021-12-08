@@ -103,6 +103,8 @@ Macros</h2></td></tr>
 <tr class="separator:a75d8494d0933400c71188f5422613325"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a926985b89f3290fdbd9eac08537032a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a926985b89f3290fdbd9eac08537032a2">IAC_ALGORITHM_PWM_OLCL</a>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:a926985b89f3290fdbd9eac08537032a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25460e1e7626c48f9758b93c3648e604"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a25460e1e7626c48f9758b93c3648e604">IAC_ALGORITHM_STEP_OLCL</a>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:a25460e1e7626c48f9758b93c3648e604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d48ab90c530af82df4cc6e16dfe660"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>&#160;&#160;&#160;1</td></tr>
@@ -167,6 +169,8 @@ Variables</h2></td></tr>
 <tr class="separator:a77f215cf56d155e65c023589540863fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b4b852ecc9711a151cc540864083fe7"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a8b4b852ecc9711a151cc540864083fe7">idle_pwm_state</a></td></tr>
 <tr class="separator:a8b4b852ecc9711a151cc540864083fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c791535a2ac65fe4cdb0ca79a0600a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a21c791535a2ac65fe4cdb0ca79a0600a">lastDFCOValue</a></td></tr>
+<tr class="separator:a21c791535a2ac65fe4cdb0ca79a0600a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad033ae4068955a7927c2ddcf47bf1389"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ad033ae4068955a7927c2ddcf47bf1389">idle_pwm_max_count</a></td></tr>
 <tr class="separator:ad033ae4068955a7927c2ddcf47bf1389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d6a9734c098c30fceca6b35657ae5cd"><td class="memItemLeft" align="right" valign="top">volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a1d6a9734c098c30fceca6b35657ae5cd">idle_pwm_cur_value</a></td></tr>
@@ -279,6 +283,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define IAC_ALGORITHM_STEP_OL&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25460e1e7626c48f9758b93c3648e604" name="a25460e1e7626c48f9758b93c3648e604"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25460e1e7626c48f9758b93c3648e604">&#9670;&nbsp;</a></span>IAC_ALGORITHM_STEP_OLCL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IAC_ALGORITHM_STEP_OLCL&#160;&#160;&#160;7</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -424,10 +442,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="idle_8h_aca4d348119424a7474843489e1b62b3c_cgraph.png" border="0" usemap="#aidle_8h_aca4d348119424a7474843489e1b62b3c_cgraph" alt=""/></div>
 <map name="aidle_8h_aca4d348119424a7474843489e1b62b3c_cgraph" id="aidle_8h_aca4d348119424a7474843489e1b62b3c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,96,83"/>
+<area shape="rect" title=" " alt="" coords="5,81,96,108"/>
 <area shape="rect" href="idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a" title=" " alt="" coords="177,5,258,32"/>
 <area shape="rect" href="idle_8ino.html#a0b89edb80762b952e3fa34c609a3802b" title=" " alt="" coords="144,56,291,83"/>
 <area shape="rect" href="maths_8ino.html#a5fe79fb2acb41c931dd8f5c610e9c47b" title=" " alt="" coords="174,107,261,133"/>
+<area shape="rect" href="table2d_8ino.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="155,157,279,184"/>
+<area shape="rect" href="table2d_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="339,132,489,159"/>
+<area shape="rect" href="table2d_8ino.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="339,183,489,209"/>
 </map>
 </div>
 <div class="dynheader">
@@ -850,6 +871,20 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> idleUpOutputLOW = LOW</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21c791535a2ac65fe4cdb0ca79a0600a" name="a21c791535a2ac65fe4cdb0ca79a0600a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c791535a2ac65fe4cdb0ca79a0600a">&#9670;&nbsp;</a></span>lastDFCOValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lastDFCOValue</td>
         </tr>
       </table>
 </div><div class="memdoc">
