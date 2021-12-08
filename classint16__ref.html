@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classint16__ref-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">int16_ref Class Reference<div class="ingroups"><a class="el" href="group__table__3d.html">3D Tables</a></div></div></div>
@@ -75,11 +76,16 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="int16__ref_8h_source.html">int16_ref.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structint16__ref_1_1scalar.html">scalar</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0d4a2e1b7861e373a03f24f2b001c7a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classint16__ref.html#a0d4a2e1b7861e373a03f24f2b001c7a6">int16_ref</a> (int16_t &amp;value, uint8_t factor)</td></tr>
-<tr class="memdesc:a0d4a2e1b7861e373a03f24f2b001c7a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct.  <a href="classint16__ref.html#a0d4a2e1b7861e373a03f24f2b001c7a6">More...</a><br /></td></tr>
-<tr class="separator:a0d4a2e1b7861e373a03f24f2b001c7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6f14729d33687023e1ef2c0a3cfef5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classint16__ref.html#aad6f14729d33687023e1ef2c0a3cfef5">int16_ref</a> (int16_t &amp;value, const <a class="el" href="structint16__ref_1_1scalar.html">scalar</a> *pScalar)</td></tr>
+<tr class="memdesc:aad6f14729d33687023e1ef2c0a3cfef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct.  <a href="classint16__ref.html#aad6f14729d33687023e1ef2c0a3cfef5">More...</a><br /></td></tr>
+<tr class="separator:aad6f14729d33687023e1ef2c0a3cfef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75fdc3c1a01cbdd14457f80634781f63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classint16__ref.html#a75fdc3c1a01cbdd14457f80634781f63">operator*</a> () const</td></tr>
 <tr class="memdesc:a75fdc3c1a01cbdd14457f80634781f63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a <code>byte</code>.  <a href="classint16__ref.html#a75fdc3c1a01cbdd14457f80634781f63">More...</a><br /></td></tr>
 <tr class="separator:a75fdc3c1a01cbdd14457f80634781f63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -94,8 +100,8 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p >Represents a 16-bit value as a byte. Useful for I/O. </p>
 <p >Often we need to deal internally with values that fit in 16-bits but do not require much accuracy. E.g. table axes in RPM. For these values we can save storage space (EEPROM) by scaling to/from 8-bits using a fixed divisor. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0d4a2e1b7861e373a03f24f2b001c7a6" name="a0d4a2e1b7861e373a03f24f2b001c7a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d4a2e1b7861e373a03f24f2b001c7a6">&#9670;&nbsp;</a></span>int16_ref()</h2>
+<a id="aad6f14729d33687023e1ef2c0a3cfef5" name="aad6f14729d33687023e1ef2c0a3cfef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6f14729d33687023e1ef2c0a3cfef5">&#9670;&nbsp;</a></span>int16_ref()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -112,8 +118,8 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>factor</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structint16__ref_1_1scalar.html">scalar</a> *&#160;</td>
+          <td class="paramname"><em>pScalar</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
