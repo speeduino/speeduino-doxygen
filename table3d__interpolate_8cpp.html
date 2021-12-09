@@ -68,48 +68,54 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">table3d_interpolate.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="table3d__interpolate_8h_source.html">table3d_interpolate.h</a>&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a8867c18e8fb6575ec9aad331e7a287a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a8867c18e8fb6575ec9aad331e7a287a6">TABLE_SHIFT_FACTOR</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a8867c18e8fb6575ec9aad331e7a287a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10ad3b459278aa854b840360f258a86f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a10ad3b459278aa854b840360f258a86f">TABLE_SHIFT_POWER</a>&#160;&#160;&#160;(1UL&lt;&lt;<a class="el" href="table3d__interpolate_8cpp.html#a8867c18e8fb6575ec9aad331e7a287a6">TABLE_SHIFT_FACTOR</a>)</td></tr>
-<tr class="separator:a10ad3b459278aa854b840360f258a86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a658f71891e646f3e2a90f37900ec37c5"><td class="memItemLeft" align="right" valign="top">typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a></td></tr>
+<tr class="separator:a658f71891e646f3e2a90f37900ec37c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5ff98c640f269f91dfa1d89b45c02a49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gad8a99c43cc1fa0d0d689ea28ad801dac">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a5ff98c640f269f91dfa1d89b45c02a49">get3DTableValue</a> (struct <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *fromTable, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> axisSize, const <a class="el" href="group__table__3d.html#gad8a99c43cc1fa0d0d689ea28ad801dac">table3d_value_t</a> *pValues, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pXAxis, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pYAxis, <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> Y_in, <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> X_in)</td></tr>
-<tr class="separator:a5ff98c640f269f91dfa1d89b45c02a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad50ab79b15c044bef84b9282e439baf7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7">is_in_bin</a> (const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;testValue, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;min, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;max)</td></tr>
+<tr class="separator:ad50ab79b15c044bef84b9282e439baf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2718b04e11922233ffbf70b1ba14696"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696">find_bin_max</a> (<a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;value, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pAxis, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> minElement, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> maxElement, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> lastBinMax)</td></tr>
+<tr class="separator:ae2718b04e11922233ffbf70b1ba14696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e46a8601c42d707958dcdc02a2d729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729">find_xbin</a> (<a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;value, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pAxis, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> size, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> lastBin)</td></tr>
+<tr class="separator:a75e46a8601c42d707958dcdc02a2d729"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a206af08604c929d0b4b00bd7798e8ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2">find_ybin</a> (<a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;value, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pAxis, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> size, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> lastBin)</td></tr>
+<tr class="separator:a206af08604c929d0b4b00bd7798e8ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5cf1c2257ce046a2cd4633e462232a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ab5cf1c2257ce046a2cd4633e462232a9">mulQU1X8</a> (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> a, <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> b)</td></tr>
+<tr class="separator:ab5cf1c2257ce046a2cd4633e462232a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5fc0551a472aa1a9986e3b94dcde2b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a3b5fc0551a472aa1a9986e3b94dcde2b">compute_bin_position</a> (<a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> value, const <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> &amp;bin, int8_t stride, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pAxis)</td></tr>
+<tr class="separator:a3b5fc0551a472aa1a9986e3b94dcde2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe02cb170296d1585564122bec3b423c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gad8a99c43cc1fa0d0d689ea28ad801dac">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c">get3DTableValue</a> (struct <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *pValueCache, <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> axisSize, const <a class="el" href="group__table__3d.html#gad8a99c43cc1fa0d0d689ea28ad801dac">table3d_value_t</a> *pValues, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pXAxis, const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *pYAxis, <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> Y_in, <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> X_in)</td></tr>
+<tr class="separator:afe02cb170296d1585564122bec3b423c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a35ab341121bb0359bd76da02fe6ac203"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203">QU1X8_INTEGER_SHIFT</a> = 8</td></tr>
+<tr class="separator:a35ab341121bb0359bd76da02fe6ac203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad745c389853467eda682214d2242a07b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ad745c389853467eda682214d2242a07b">QU1X8_ONE</a> = 1U &lt;&lt; <a class="el" href="table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203">QU1X8_INTEGER_SHIFT</a></td></tr>
+<tr class="separator:ad745c389853467eda682214d2242a07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5666d98bfe4d6037da583b53cfae98ac"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a5666d98bfe4d6037da583b53cfae98ac">QU1X8_HALF</a> = 1U &lt;&lt; (<a class="el" href="table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203">QU1X8_INTEGER_SHIFT</a>-1)</td></tr>
+<tr class="separator:a5666d98bfe4d6037da583b53cfae98ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8867c18e8fb6575ec9aad331e7a287a6" name="a8867c18e8fb6575ec9aad331e7a287a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8867c18e8fb6575ec9aad331e7a287a6">&#9670;&nbsp;</a></span>TABLE_SHIFT_FACTOR</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a658f71891e646f3e2a90f37900ec37c5" name="a658f71891e646f3e2a90f37900ec37c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a658f71891e646f3e2a90f37900ec37c5">&#9670;&nbsp;</a></span>QU1X8_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TABLE_SHIFT_FACTOR&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a10ad3b459278aa854b840360f258a86f" name="a10ad3b459278aa854b840360f258a86f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10ad3b459278aa854b840360f258a86f">&#9670;&nbsp;</a></span>TABLE_SHIFT_POWER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TABLE_SHIFT_POWER&#160;&#160;&#160;(1UL&lt;&lt;<a class="el" href="table3d__interpolate_8cpp.html#a8867c18e8fb6575ec9aad331e7a287a6">TABLE_SHIFT_FACTOR</a>)</td>
+          <td class="memname">typedef uint16_t <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -117,8 +123,257 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5ff98c640f269f91dfa1d89b45c02a49" name="a5ff98c640f269f91dfa1d89b45c02a49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ff98c640f269f91dfa1d89b45c02a49">&#9670;&nbsp;</a></span>get3DTableValue()</h2>
+<a id="a3b5fc0551a472aa1a9986e3b94dcde2b" name="a3b5fc0551a472aa1a9986e3b94dcde2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5fc0551a472aa1a9986e3b94dcde2b">&#9670;&nbsp;</a></span>compute_bin_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> compute_bin_position </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>bin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>stride</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pAxis</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a3b5fc0551a472aa1a9986e3b94dcde2b_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a3b5fc0551a472aa1a9986e3b94dcde2b_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a3b5fc0551a472aa1a9986e3b94dcde2b_icgraph" id="atable3d__interpolate_8cpp_a3b5fc0551a472aa1a9986e3b94dcde2b_icgraph">
+<area shape="rect" title=" " alt="" coords="175,5,323,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,5,127,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae2718b04e11922233ffbf70b1ba14696" name="ae2718b04e11922233ffbf70b1ba14696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2718b04e11922233ffbf70b1ba14696">&#9670;&nbsp;</a></span>find_bin_max()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> find_bin_max </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>minElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>maxElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>lastBinMax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph" id="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,103,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="151,5,224,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph" id="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph">
+<area shape="rect" title=" " alt="" coords="295,31,392,57"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="175,5,247,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="175,56,247,83"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,31,127,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a75e46a8601c42d707958dcdc02a2d729" name="a75e46a8601c42d707958dcdc02a2d729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e46a8601c42d707958dcdc02a2d729">&#9670;&nbsp;</a></span>find_xbin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> find_xbin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>lastBin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph" id="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,77,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="125,5,223,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="271,5,344,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph" id="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph">
+<area shape="rect" title=" " alt="" coords="175,5,247,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,5,127,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a206af08604c929d0b4b00bd7798e8ba2" name="a206af08604c929d0b4b00bd7798e8ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a206af08604c929d0b4b00bd7798e8ba2">&#9670;&nbsp;</a></span>find_ybin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a> find_ybin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gac94de5fed8a835e0e45507b9936272af">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>lastBin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph" id="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,77,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="125,5,223,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="271,5,344,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph" id="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph">
+<area shape="rect" title=" " alt="" coords="175,5,247,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,5,127,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afe02cb170296d1585564122bec3b423c" name="afe02cb170296d1585564122bec3b423c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe02cb170296d1585564122bec3b423c">&#9670;&nbsp;</a></span>get3DTableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -127,7 +382,7 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="group__table__3d.html#gad8a99c43cc1fa0d0d689ea28ad801dac">table3d_value_t</a> get3DTableValue </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *&#160;</td>
-          <td class="paramname"><em>fromTable</em>, </td>
+          <td class="paramname"><em>pValueCache</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -171,6 +426,186 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph" id="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,127,108"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3b5fc0551a472aa1a9986e3b94dcde2b" title=" " alt="" coords="175,5,323,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="213,56,285,83"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="213,107,285,133"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ab5cf1c2257ce046a2cd4633e462232a9" title=" " alt="" coords="205,157,292,184"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="371,81,468,108"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="516,81,589,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad50ab79b15c044bef84b9282e439baf7" name="ad50ab79b15c044bef84b9282e439baf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad50ab79b15c044bef84b9282e439baf7">&#9670;&nbsp;</a></span>is_in_bin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool is_in_bin </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>testValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga0ac37fdaaa543c8f520c714728946d2b">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph" id="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph">
+<area shape="rect" title=" " alt="" coords="440,31,513,57"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="295,31,392,57"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="175,5,247,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="175,56,247,83"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,31,127,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab5cf1c2257ce046a2cd4633e462232a9" name="ab5cf1c2257ce046a2cd4633e462232a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5cf1c2257ce046a2cd4633e462232a9">&#9670;&nbsp;</a></span>mulQU1X8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> mulQU1X8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ab5cf1c2257ce046a2cd4633e462232a9_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ab5cf1c2257ce046a2cd4633e462232a9_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ab5cf1c2257ce046a2cd4633e462232a9_icgraph" id="atable3d__interpolate_8cpp_ab5cf1c2257ce046a2cd4633e462232a9_icgraph">
+<area shape="rect" title=" " alt="" coords="175,5,261,32"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="5,5,127,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a5666d98bfe4d6037da583b53cfae98ac" name="a5666d98bfe4d6037da583b53cfae98ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5666d98bfe4d6037da583b53cfae98ac">&#9670;&nbsp;</a></span>QU1X8_HALF</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_HALF = 1U &lt;&lt; (<a class="el" href="table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203">QU1X8_INTEGER_SHIFT</a>-1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a35ab341121bb0359bd76da02fe6ac203" name="a35ab341121bb0359bd76da02fe6ac203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35ab341121bb0359bd76da02fe6ac203">&#9670;&nbsp;</a></span>QU1X8_INTEGER_SHIFT</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t QU1X8_INTEGER_SHIFT = 8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad745c389853467eda682214d2242a07b" name="ad745c389853467eda682214d2242a07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad745c389853467eda682214d2242a07b">&#9670;&nbsp;</a></span>QU1X8_ONE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_ONE = 1U &lt;&lt; <a class="el" href="table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203">QU1X8_INTEGER_SHIFT</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

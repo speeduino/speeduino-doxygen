@@ -310,9 +310,10 @@ var searchData=
   ['interruptsafe_307',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]],
   ['invalidate_5fcache_308',['invalidate_cache',['../table3d__interpolate_8h.html#accc601294637ff4e86d3e9acd3608096',1,'table3d_interpolate.h']]],
   ['iodelay_309',['ioDelay',['../utilities_8h.html#a4d7256e104b86308261ce36c9b59e841',1,'ioDelay():&#160;utilities.ino'],['../utilities_8ino.html#a4d7256e104b86308261ce36c9b59e841',1,'ioDelay():&#160;utilities.ino']]],
-  ['iooutdelay_310',['ioOutDelay',['../utilities_8h.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino'],['../utilities_8ino.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino']]],
+  ['iooutdelay_310',['ioOutDelay',['../utilities_8ino.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino'],['../utilities_8h.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino']]],
   ['is2byteentry_311',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
-  ['iseepromwritepending_312',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
-  ['ismap_313',['isMap',['../comms_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp'],['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp']]],
-  ['isstepperhomed_314',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
+  ['is_5fin_5fbin_312',['is_in_bin',['../table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7',1,'table3d_interpolate.cpp']]],
+  ['iseepromwritepending_313',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
+  ['ismap_314',['isMap',['../comms_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp'],['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp']]],
+  ['isstepperhomed_315',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
 ];

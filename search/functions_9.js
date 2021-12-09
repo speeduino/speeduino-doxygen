@@ -29,6 +29,7 @@ var searchData=
   ['int16_5fref_26',['int16_ref',['../classint16__ref.html#aad6f14729d33687023e1ef2c0a3cfef5',1,'int16_ref']]],
   ['invalidate_5fcache_27',['invalidate_cache',['../table3d__interpolate_8h.html#accc601294637ff4e86d3e9acd3608096',1,'table3d_interpolate.h']]],
   ['is2byteentry_28',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
-  ['iseepromwritepending_29',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
-  ['isstepperhomed_30',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
+  ['is_5fin_5fbin_29',['is_in_bin',['../table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7',1,'table3d_interpolate.cpp']]],
+  ['iseepromwritepending_30',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
+  ['isstepperhomed_31',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
 ];

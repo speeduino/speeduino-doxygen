@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['validatemap_0',['validateMAP',['../sensors_8h.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.h'],['../sensors_8ino.html#ab5809609ac9580372331c60dc12b8134',1,'validateMAP():&#160;sensors.ino']]],
-  ['value_5fat_1',['value_at',['../structtable3d6_rpm_load__values.html#a4fcb1e283900fa5fd0a2c50a7902eaf2',1,'table3d6RpmLoad_values::value_at()'],['../structtable3d4_rpm_load__values.html#a16289a1fa66a1796570d4b8042f40632',1,'table3d4RpmLoad_values::value_at()'],['../structtable3d8_rpm_load__values.html#a91d11e1303ff42bc253e3f5895458ee6',1,'table3d8RpmLoad_values::value_at()'],['../structtable3d8_rpm_tps__values.html#ae24da2cbdd00e7d55c22a30b87e66b94',1,'table3d8RpmTps_values::value_at()'],['../structtable3d16_rpm_load__values.html#af441deaad1afa2b9acf7931f6b5a09ae',1,'table3d16RpmLoad_values::value_at()']]],
-  ['vssgetpulsegap_2',['vssGetPulseGap',['../sensors_8h.html#add3e2d1d94a48cf30ba08550e93c8489',1,'vssGetPulseGap(byte):&#160;sensors.ino'],['../sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0',1,'vssGetPulseGap(byte historyIndex):&#160;sensors.ino']]],
-  ['vsspulse_3',['vssPulse',['../sensors_8h.html#ac61935e9606518571da703b5ea3a2474',1,'vssPulse():&#160;sensors.ino'],['../sensors_8ino.html#ac61935e9606518571da703b5ea3a2474',1,'vssPulse():&#160;sensors.ino']]],
-  ['vvtcontrol_4',['vvtControl',['../auxiliaries_8h.html#adc12024b0e15526b60ec8c2721eb7165',1,'vvtControl():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#adc12024b0e15526b60ec8c2721eb7165',1,'vvtControl():&#160;auxiliaries.ino']]],
-  ['vvtinterrupt_5',['vvtInterrupt',['../auxiliaries_8h.html#a70863e2d22769bc21fd33dcba0837c7f',1,'vvtInterrupt():&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a70863e2d22769bc21fd33dcba0837c7f',1,'vvtInterrupt():&#160;auxiliaries.ino']]]
+  ['update_0',['update',['../structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4',1,'write_location']]]
 ];
