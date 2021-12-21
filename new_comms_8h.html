@@ -149,6 +149,8 @@ Macros</h2></td></tr>
 <tr class="separator:a1ee6c0e1d63aa80c4b46e5741c316a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea9210131c3691793eb3ef78e17c4147"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#aea9210131c3691793eb3ef78e17c4147">SERIAL_OVERHEAD_SIZE</a>&#160;&#160;&#160;(<a class="el" href="new_comms_8h.html#a1ee6c0e1d63aa80c4b46e5741c316a49">SERIAL_LEN_SIZE</a> + <a class="el" href="new_comms_8h.html#a3c49b0fb24760273fd74e03c71cd5511">SERIAL_CRC_LENGTH</a>)</td></tr>
 <tr class="separator:aea9210131c3691793eb3ef78e17c4147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d7a9868042677db691b7dd12a38b8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#af8d7a9868042677db691b7dd12a38b8e">SERIAL_TIMEOUT</a>&#160;&#160;&#160;3000</td></tr>
+<tr class="separator:af8d7a9868042677db691b7dd12a38b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0adbb4d8dd0726e44409f4fe057f36ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a0adbb4d8dd0726e44409f4fe057f36ff">SERIAL_RC_OK</a>&#160;&#160;&#160;0x00</td></tr>
 <tr class="separator:a0adbb4d8dd0726e44409f4fe057f36ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14bbdd7ce04fa44ff2907072a775d218"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a14bbdd7ce04fa44ff2907072a775d218">SERIAL_RC_REALTIME</a>&#160;&#160;&#160;0x01</td></tr>
@@ -157,6 +159,8 @@ Macros</h2></td></tr>
 <tr class="separator:a1c654e63478064140074cdaa7e7a1971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ec8a3229e63060c98a362e27fa5a0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#aa7ec8a3229e63060c98a362e27fa5a0c">SERIAL_RC_BURN_OK</a>&#160;&#160;&#160;0x04</td></tr>
 <tr class="separator:aa7ec8a3229e63060c98a362e27fa5a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a28c3dce76dd510e545fc563fc064e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a2a28c3dce76dd510e545fc563fc064e6">SERIAL_RC_TIMEOUT</a>&#160;&#160;&#160;0x80</td></tr>
+<tr class="separator:a2a28c3dce76dd510e545fc563fc064e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9688cf593b08c28bb3e3bf9bb2deab3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a9688cf593b08c28bb3e3bf9bb2deab3b">SERIAL_RC_CRC_ERR</a>&#160;&#160;&#160;0x82</td></tr>
 <tr class="separator:a9688cf593b08c28bb3e3bf9bb2deab3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ffd8da4f30dd91b1b8bb7eda2f14da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#aa7ffd8da4f30dd91b1b8bb7eda2f14da">SERIAL_RC_UKWN_ERR</a>&#160;&#160;&#160;0x83</td></tr>
@@ -191,20 +195,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae6a46ee24ca592c2736d7f5b6451925b"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#ae6a46ee24ca592c2736d7f5b6451925b">serialPayloadLength</a></td></tr>
-<tr class="separator:ae6a46ee24ca592c2736d7f5b6451925b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3b5e4b87a46aad938a517102e1bacb5"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#aa3b5e4b87a46aad938a517102e1bacb5">serialCRC</a></td></tr>
-<tr class="separator:aa3b5e4b87a46aad938a517102e1bacb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7db46c98eeb7bb3c032ef01c1032fbb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a7db46c98eeb7bb3c032ef01c1032fbb8">serialReceivePending</a></td></tr>
-<tr class="separator:a7db46c98eeb7bb3c032ef01c1032fbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90149338cc40c17fd64b5af5445af772"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a90149338cc40c17fd64b5af5445af772">serialPayload</a> [SERIAL_BUFFER_SIZE]</td></tr>
-<tr class="separator:a90149338cc40c17fd64b5af5445af772"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e2a74b832369f6ffec57d6227671b03"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a4e2a74b832369f6ffec57d6227671b03">serialBytesReceived</a></td></tr>
-<tr class="separator:a4e2a74b832369f6ffec57d6227671b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e68c0a6ce99d526d7c906992952b000"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#a6e68c0a6ce99d526d7c906992952b000">serialWriteInProgress</a></td></tr>
 <tr class="separator:a6e68c0a6ce99d526d7c906992952b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8h.html#ac526bd83b71bb8eddf5b4da7fff84813">serialBytesTransmitted</a></td></tr>
-<tr class="separator:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a206311d2ff4f6429c8d91feb58c7bb5e" name="a206311d2ff4f6429c8d91feb58c7bb5e"></a>
@@ -795,6 +787,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a2a28c3dce76dd510e545fc563fc064e6" name="a2a28c3dce76dd510e545fc563fc064e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a28c3dce76dd510e545fc563fc064e6">&#9670;&nbsp;</a></span>SERIAL_RC_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_TIMEOUT&#160;&#160;&#160;0x80</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa7ffd8da4f30dd91b1b8bb7eda2f14da" name="aa7ffd8da4f30dd91b1b8bb7eda2f14da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7ffd8da4f30dd91b1b8bb7eda2f14da">&#9670;&nbsp;</a></span>SERIAL_RC_UKWN_ERR</h2>
 
@@ -803,6 +809,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define SERIAL_RC_UKWN_ERR&#160;&#160;&#160;0x83</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8d7a9868042677db691b7dd12a38b8e" name="af8d7a9868042677db691b7dd12a38b8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8d7a9868042677db691b7dd12a38b8e">&#9670;&nbsp;</a></span>SERIAL_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_TIMEOUT&#160;&#160;&#160;3000</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1339,141 +1359,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a4e2a74b832369f6ffec57d6227671b03" name="a4e2a74b832369f6ffec57d6227671b03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e2a74b832369f6ffec57d6227671b03">&#9670;&nbsp;</a></span>serialBytesReceived</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t serialBytesReceived</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >The number of bytes received in the serial buffer during the current command. </p>
-
-</div>
-</div>
-<a id="ac526bd83b71bb8eddf5b4da7fff84813" name="ac526bd83b71bb8eddf5b4da7fff84813"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac526bd83b71bb8eddf5b4da7fff84813">&#9670;&nbsp;</a></span>serialBytesTransmitted</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t serialBytesTransmitted</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3b5e4b87a46aad938a517102e1bacb5" name="aa3b5e4b87a46aad938a517102e1bacb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3b5e4b87a46aad938a517102e1bacb5">&#9670;&nbsp;</a></span>serialCRC</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t serialCRC</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a90149338cc40c17fd64b5af5445af772" name="a90149338cc40c17fd64b5af5445af772"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90149338cc40c17fd64b5af5445af772">&#9670;&nbsp;</a></span>serialPayload</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t serialPayload[SERIAL_BUFFER_SIZE]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Pointer to the serial payload buffer. </p>
-
-</div>
-</div>
-<a id="ae6a46ee24ca592c2736d7f5b6451925b" name="ae6a46ee24ca592c2736d7f5b6451925b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6a46ee24ca592c2736d7f5b6451925b">&#9670;&nbsp;</a></span>serialPayloadLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t serialPayloadLength</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7db46c98eeb7bb3c032ef01c1032fbb8" name="a7db46c98eeb7bb3c032ef01c1032fbb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7db46c98eeb7bb3c032ef01c1032fbb8">&#9670;&nbsp;</a></span>serialReceivePending</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool serialReceivePending</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Whether or not a serial request has only been partially received. This occurs when a the length has been received in the serial buffer, but not all of the payload or CRC has yet been received. </p>
-
-</div>
-</div>
 <a id="a6e68c0a6ce99d526d7c906992952b000" name="a6e68c0a6ce99d526d7c906992952b000"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e68c0a6ce99d526d7c906992952b000">&#9670;&nbsp;</a></span>serialWriteInProgress</h2>
 

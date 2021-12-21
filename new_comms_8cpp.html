@@ -123,6 +123,8 @@ Variables</h2></td></tr>
 <tr class="separator:a6e68c0a6ce99d526d7c906992952b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#ac526bd83b71bb8eddf5b4da7fff84813">serialBytesTransmitted</a> = 0</td></tr>
 <tr class="separator:ac526bd83b71bb8eddf5b4da7fff84813"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d83b4ba298eb9c18465f7cd2b5d4dbc"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_comms_8cpp.html#a7d83b4ba298eb9c18465f7cd2b5d4dbc">serialReceiveStartTime</a> = 0</td></tr>
+<tr class="separator:a7d83b4ba298eb9c18465f7cd2b5d4dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Process Incoming and outgoing serial communications. </p>
@@ -675,7 +677,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Pointer to the serial payload buffer. </p>
+<p >Serial payload buffer. </p>
 
 </div>
 </div>
@@ -705,6 +707,21 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <p >Whether or not a serial request has only been partially received. This occurs when a the length has been received in the serial buffer, but not all of the payload or CRC has yet been received. </p>
+
+</div>
+</div>
+<a id="a7d83b4ba298eb9c18465f7cd2b5d4dbc" name="a7d83b4ba298eb9c18465f7cd2b5d4dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d83b4ba298eb9c18465f7cd2b5d4dbc">&#9670;&nbsp;</a></span>serialReceiveStartTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t serialReceiveStartTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >The time at which the serial receive started. Used for calculating whether a timeout has occurred </p>
 
 </div>
 </div>

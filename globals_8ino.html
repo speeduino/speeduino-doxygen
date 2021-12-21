@@ -349,11 +349,11 @@ Variables</h2></td></tr>
 <tr class="separator:a0448804f0d02b9a7a99c2027c1451c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c105ef1fad1e927319ea7956737cc1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a5c105ef1fad1e927319ea7956737cc1c">previousClutchTrigger</a></td></tr>
 <tr class="separator:a5c105ef1fad1e927319ea7956737cc1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09414e6288d67c52b988ae454500bc06"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> [<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td></tr>
-<tr class="memdesc:a09414e6288d67c52b988ae454500bc06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tooth trigger history - delta time (in uS) from last tooth (Indexed by <a class="el" href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a>)  <a href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">More...</a><br /></td></tr>
-<tr class="separator:a09414e6288d67c52b988ae454500bc06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26b9a450973f1be53394a7dcb4762170"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a26b9a450973f1be53394a7dcb4762170">compositeLogHistory</a> [<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td></tr>
-<tr class="separator:a26b9a450973f1be53394a7dcb4762170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae318bdb2748c60648db286a74c9caa19"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#ae318bdb2748c60648db286a74c9caa19">toothHistory</a> [<a class="el" href="globals_8h.html#a49ace293e0ae63863e3a0358ad205578">TOOTH_LOG_SIZE</a>]</td></tr>
+<tr class="memdesc:ae318bdb2748c60648db286a74c9caa19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tooth trigger history - delta time (in uS) from last tooth (Indexed by <a class="el" href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a>)  <a href="globals_8ino.html#ae318bdb2748c60648db286a74c9caa19">More...</a><br /></td></tr>
+<tr class="separator:ae318bdb2748c60648db286a74c9caa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb7e6cdf3d669e68b7517ff2351cddb4"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#acb7e6cdf3d669e68b7517ff2351cddb4">compositeLogHistory</a> [<a class="el" href="globals_8h.html#a49ace293e0ae63863e3a0358ad205578">TOOTH_LOG_SIZE</a>]</td></tr>
+<tr class="separator:acb7e6cdf3d669e68b7517ff2351cddb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4">fpPrimed</a> = false</td></tr>
 <tr class="memdesc:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether or not the fuel pump priming has been completed yet.  <a href="globals_8ino.html#a85eccf7d26c44990d8c237ac5ac88bb4">More...</a><br /></td></tr>
 <tr class="separator:a85eccf7d26c44990d8c237ac5ac88bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,7 +361,7 @@ Variables</h2></td></tr>
 <tr class="memdesc:af4a95c264ed019fb2470288728caae2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tracks whether or not the injectors priming has been completed yet.  <a href="globals_8ino.html#af4a95c264ed019fb2470288728caae2f">More...</a><br /></td></tr>
 <tr class="separator:af4a95c264ed019fb2470288728caae2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="memItemLeft" align="right" valign="top">volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">toothHistoryIndex</a> = 0</td></tr>
-<tr class="memdesc:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current index to <a class="el" href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> array.  <a href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">More...</a><br /></td></tr>
+<tr class="memdesc:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current index to <a class="el" href="globals_8ino.html#ae318bdb2748c60648db286a74c9caa19">toothHistory</a> array.  <a href="globals_8ino.html#a406ba2c8645f7c8ffd3ccb8a01e9f167">More...</a><br /></td></tr>
 <tr class="separator:a406ba2c8645f7c8ffd3ccb8a01e9f167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45ad906e34abe5d3fd7f7f628110fbe5"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8ino.html#a45ad906e34abe5d3fd7f7f628110fbe5">currentLoopTime</a></td></tr>
 <tr class="separator:a45ad906e34abe5d3fd7f7f628110fbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -876,14 +876,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a26b9a450973f1be53394a7dcb4762170" name="a26b9a450973f1be53394a7dcb4762170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26b9a450973f1be53394a7dcb4762170">&#9670;&nbsp;</a></span>compositeLogHistory</h2>
+<a id="acb7e6cdf3d669e68b7517ff2351cddb4" name="acb7e6cdf3d669e68b7517ff2351cddb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb7e6cdf3d669e68b7517ff2351cddb4">&#9670;&nbsp;</a></span>compositeLogHistory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint8_t compositeLogHistory[<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td>
+          <td class="memname">volatile uint8_t compositeLogHistory[<a class="el" href="globals_8h.html#a49ace293e0ae63863e3a0358ad205578">TOOTH_LOG_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3679,14 +3679,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a09414e6288d67c52b988ae454500bc06" name="a09414e6288d67c52b988ae454500bc06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09414e6288d67c52b988ae454500bc06">&#9670;&nbsp;</a></span>toothHistory</h2>
+<a id="ae318bdb2748c60648db286a74c9caa19" name="ae318bdb2748c60648db286a74c9caa19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae318bdb2748c60648db286a74c9caa19">&#9670;&nbsp;</a></span>toothHistory</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint32_t toothHistory[<a class="el" href="globals_8h.html#a466e3c2a473e5c8a2bae6bb6efe37b88">TOOTH_LOG_BUFFER</a>]</td>
+          <td class="memname">volatile uint32_t toothHistory[<a class="el" href="globals_8h.html#a49ace293e0ae63863e3a0358ad205578">TOOTH_LOG_SIZE</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3707,7 +3707,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Current index to <a class="el" href="globals_8ino.html#a09414e6288d67c52b988ae454500bc06">toothHistory</a> array. </p>
+<p>Current index to <a class="el" href="globals_8ino.html#ae318bdb2748c60648db286a74c9caa19">toothHistory</a> array. </p>
 
 </div>
 </div>
