@@ -1,11 +1,19 @@
 var searchData=
 [
   ['adc_5ffilter_0',['ADC_FILTER',['../sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd',1,'sensors.h']]],
-  ['ae_5fmode_5fadder_1',['AE_MODE_ADDER',['../globals_8h.html#aeef9fc7747ab1475e74e5ca7e5c5c791',1,'globals.h']]],
-  ['ae_5fmode_5fmap_2',['AE_MODE_MAP',['../globals_8h.html#a41b7653dd4515c44c9832f8adc797009',1,'globals.h']]],
-  ['ae_5fmode_5fmultiplier_3',['AE_MODE_MULTIPLIER',['../globals_8h.html#a279c9e02fc958f29d83d6e859b1bb100',1,'globals.h']]],
-  ['ae_5fmode_5ftps_4',['AE_MODE_TPS',['../globals_8h.html#a18268c68ac84c9aeb9e88081e1f36b2c',1,'globals.h']]],
-  ['afrmappage_5',['afrMapPage',['../pages_8h.html#a662ceae37f8f17a64d85551afb7889c0',1,'pages.h']]],
-  ['afrsetpage_6',['afrSetPage',['../pages_8h.html#aaee843271a3f806326d7b94fad9b89bd',1,'pages.h']]],
-  ['angle_5ffilter_7',['ANGLE_FILTER',['../decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8',1,'decoders.h']]]
+  ['adcfilter_5fbaro_5fdefault_1',['ADCFILTER_BARO_DEFAULT',['../sensors_8h.html#af0b2b6025a99ec4dd1b0d989220505a8',1,'sensors.h']]],
+  ['adcfilter_5fbat_5fdefault_2',['ADCFILTER_BAT_DEFAULT',['../sensors_8h.html#af9f4327ec89aa620e56529409e2a8a08',1,'sensors.h']]],
+  ['adcfilter_5fclt_5fdefault_3',['ADCFILTER_CLT_DEFAULT',['../sensors_8h.html#ae195205fad409b6683e7f3335085c94d',1,'sensors.h']]],
+  ['adcfilter_5fiat_5fdefault_4',['ADCFILTER_IAT_DEFAULT',['../sensors_8h.html#a52932ef08f20f8b217967407138d8b57',1,'sensors.h']]],
+  ['adcfilter_5fmap_5fdefault_5',['ADCFILTER_MAP_DEFAULT',['../sensors_8h.html#a980a9e5e90a428f1adcd3ecba8aaca95',1,'sensors.h']]],
+  ['adcfilter_5fo2_5fdefault_6',['ADCFILTER_O2_DEFAULT',['../sensors_8h.html#a8eb2569912041b18354b60a04b066444',1,'sensors.h']]],
+  ['adcfilter_5fpsi_5fdefault_7',['ADCFILTER_PSI_DEFAULT',['../sensors_8h.html#ace22449cf616a01acd8a8c7f8c54cf8a',1,'sensors.h']]],
+  ['adcfilter_5ftps_5fdefault_8',['ADCFILTER_TPS_DEFAULT',['../sensors_8h.html#a60fb67afc3c33447f0ccd87e81178939',1,'sensors.h']]],
+  ['ae_5fmode_5fadder_9',['AE_MODE_ADDER',['../globals_8h.html#aeef9fc7747ab1475e74e5ca7e5c5c791',1,'globals.h']]],
+  ['ae_5fmode_5fmap_10',['AE_MODE_MAP',['../globals_8h.html#a41b7653dd4515c44c9832f8adc797009',1,'globals.h']]],
+  ['ae_5fmode_5fmultiplier_11',['AE_MODE_MULTIPLIER',['../globals_8h.html#a279c9e02fc958f29d83d6e859b1bb100',1,'globals.h']]],
+  ['ae_5fmode_5ftps_12',['AE_MODE_TPS',['../globals_8h.html#a18268c68ac84c9aeb9e88081e1f36b2c',1,'globals.h']]],
+  ['afrmappage_13',['afrMapPage',['../pages_8h.html#a662ceae37f8f17a64d85551afb7889c0',1,'pages.h']]],
+  ['afrsetpage_14',['afrSetPage',['../pages_8h.html#aaee843271a3f806326d7b94fad9b89bd',1,'pages.h']]],
+  ['angle_5ffilter_15',['ANGLE_FILTER',['../decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8',1,'decoders.h']]]
 ];
