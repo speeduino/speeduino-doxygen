@@ -392,27 +392,19 @@ $(function() {
 <div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span><span class="comment">***********************************************************************************************************</span></div>
 <div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span><span class="comment">* CAN / Second serial</span></div>
 <div class="line"><a id="l00322" name="l00322"></a><span class="lineno">  322</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">#if defined(STM32F407xx) || defined(STM32F103xB) || defined(STM32F405xx)</span></div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span><span class="preprocessor">#if HAL_CAN_MODULE_ENABLED</span></div>
 <div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span><span class="preprocessor">#define NATIVE_CAN_AVAILABLE</span></div>
 <div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span><span class="comment">//HardwareSerial CANSerial(PD6, PD5);</span></div>
 <div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span><span class="preprocessor">#include &lt;src/STM32_CAN/STM32_CAN.h&gt;</span></div>
 <div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span><span class="comment">//This activates CAN1 interface on STM32, but it&#39;s named as Can0, because that&#39;s how Teensy implementation is done</span></div>
 <div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span><span class="keyword">extern</span> STM32_CAN Can0;</div>
-<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="comment">Second CAN interface is also available if needed or it can be used also as primary CAN interface.</span></div>
-<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="comment">for STM32F4 the default CAN1 pins are PD0 &amp; PD1. Alternative (ALT) pins are PB8 &amp; PB9 and ALT2 pins are PA11 and PA12:</span></div>
-<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span><span class="comment">for STM32F4 the default CAN2 pins are PB5 &amp; PB6. Alternative (ALT) pins are PB12 &amp; PB13.</span></div>
-<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span><span class="comment">for STM32F1 the default CAN1 pins are PA11 &amp; PA12. Alternative (ALT) pins are PB8 &amp; PB9.</span></div>
-<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="comment">Example of using CAN2 as secondary CAN bus with alternative pins:</span></div>
-<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="comment">STM32_CAN Can1 (_CAN2,ALT);</span></div>
-<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span><span class="comment">*/</span></div>
-<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span> </div>
-<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span><span class="keyword">static</span> CAN_message_t outMsg;</div>
-<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span><span class="keyword">static</span> CAN_message_t inMsg;</div>
-<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span> </div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span><span class="preprocessor">#endif </span><span class="comment">//CORE_STM32</span></div>
-<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span><span class="preprocessor">#endif </span><span class="comment">//STM32_H</span></div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span><span class="keyword">static</span> CAN_message_t outMsg;</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span><span class="keyword">static</span> CAN_message_t inMsg;</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span> </div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span><span class="preprocessor">#endif </span><span class="comment">//CORE_STM32</span></div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span><span class="preprocessor">#endif </span><span class="comment">//STM32_H</span></div>
 <div class="ttc" id="aauxiliaries_8h_html_a70863e2d22769bc21fd33dcba0837c7f"><div class="ttname"><a href="auxiliaries_8h.html#a70863e2d22769bc21fd33dcba0837c7f">vvtInterrupt</a></div><div class="ttdeci">void vvtInterrupt()</div><div class="ttdef"><b>Definition:</b> auxiliaries.ino:778</div></div>
 <div class="ttc" id="aauxiliaries_8h_html_ab973dbf393a510361e71991a7d52831d"><div class="ttname"><a href="auxiliaries_8h.html#ab973dbf393a510361e71991a7d52831d">boostInterrupt</a></div><div class="ttdeci">void boostInterrupt()</div><div class="ttdef"><b>Definition:</b> auxiliaries.ino:756</div></div>
 <div class="ttc" id="aidle_8h_html_a07b9e014ea31885fb59eeb78bd5be0ac"><div class="ttname"><a href="idle_8h.html#a07b9e014ea31885fb59eeb78bd5be0ac">idleInterrupt</a></div><div class="ttdeci">void idleInterrupt()</div><div class="ttdef"><b>Definition:</b> idle.ino:789</div></div>
