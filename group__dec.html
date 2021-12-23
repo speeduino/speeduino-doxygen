@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Speeduino: Chrysler NGC 4-cylinder</title>
+<title>Speeduino: Chrysler NGC - 4, 6 and 8-cylinder</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,11 +64,17 @@ $(function() {
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Chrysler NGC 4-cylinder</div></div>
+  <div class="headertitle"><div class="title">Chrysler NGC - 4, 6 and 8-cylinder</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga735c16343b36f4140ef631447916a6b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga735c16343b36f4140ef631447916a6b1">secondaryToothLastCount</a>&#160;&#160;&#160;<a class="el" href="decoders_8ino.html#a16c057b337892e5c1999ebc7425f52b3">checkSyncToothCount</a></td></tr>
+<tr class="separator:ga735c16343b36f4140ef631447916a6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga457fb9da151a509867704ae74ffbcff0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga457fb9da151a509867704ae74ffbcff0">triggerSetup_NGC</a> ()</td></tr>
@@ -77,13 +83,30 @@ Functions</h2></td></tr>
 <tr class="separator:ga423cea3aaa277666fc7b3fc8dbb36dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga30df63393d4b20c5a814e7ca080a8f53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga30df63393d4b20c5a814e7ca080a8f53">triggerSec_NGC4</a> ()</td></tr>
 <tr class="separator:ga30df63393d4b20c5a814e7ca080a8f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad31d79d9271f88824224fc2f2e20d5d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gad31d79d9271f88824224fc2f2e20d5d9">triggerSec_NGC68</a> ()</td></tr>
+<tr class="separator:gad31d79d9271f88824224fc2f2e20d5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab1f81a349d9676c6bda19af9f8bb5591"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gab1f81a349d9676c6bda19af9f8bb5591">getRPM_NGC</a> ()</td></tr>
 <tr class="separator:gab1f81a349d9676c6bda19af9f8bb5591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5ad4fad8bbd1a769ae8bbdb6e4d3dc94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga5ad4fad8bbd1a769ae8bbdb6e4d3dc94">triggerSetEndTeeth_NGC</a> ()</td></tr>
 <tr class="separator:ga5ad4fad8bbd1a769ae8bbdb6e4d3dc94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p >Chrysler NGC - a dedicated decoder for vehicles with 4 cylinder NGC pattern. 36+2-2 trigger wheel running at crank speed 7 tooth trigger wheel running at cam speed Both wheels use the polarity of the missing teeth to determine position </p>
+<p >Chrysler NGC - a dedicated decoder for vehicles with 4, 6 and 8 cylinder NGC pattern. 4-cyl: 36+2-2 crank wheel and 7 tooth cam 6-cyl: 36-2+2 crank wheel and 12 tooth cam in 6 groups 8-cyl: 36-2+2 crank wheel and 15 tooth cam in 8 groups The crank decoder uses the polarity of the missing teeth to determine position The 4-cyl cam decoder uses the polarity of the missing teeth to determine position The 6 and 8-cyl cam decoder uses the amount of teeth in the two previous groups of teeth to determine position </p>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga735c16343b36f4140ef631447916a6b1" name="ga735c16343b36f4140ef631447916a6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga735c16343b36f4140ef631447916a6b1">&#9670;&nbsp;</a></span>secondaryToothLastCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define secondaryToothLastCount&#160;&#160;&#160;<a class="el" href="decoders_8ino.html#a16c057b337892e5c1999ebc7425f52b3">checkSyncToothCount</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gab1f81a349d9676c6bda19af9f8bb5591" name="gab1f81a349d9676c6bda19af9f8bb5591"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gab1f81a349d9676c6bda19af9f8bb5591">&#9670;&nbsp;</a></span>getRPM_NGC()</h2>
@@ -183,6 +206,35 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group__dec_ga30df63393d4b20c5a814e7ca080a8f53_icgraph.png" border="0" usemap="#agroup__dec_ga30df63393d4b20c5a814e7ca080a8f53_icgraph" alt=""/></div>
 <map name="agroup__dec_ga30df63393d4b20c5a814e7ca080a8f53_icgraph" id="agroup__dec_ga30df63393d4b20c5a814e7ca080a8f53_icgraph">
 <area shape="rect" title=" " alt="" coords="404,31,528,57"/>
+<area shape="rect" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title=" " alt="" coords="240,31,356,57"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,5,192,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,56,173,83"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gad31d79d9271f88824224fc2f2e20d5d9" name="gad31d79d9271f88824224fc2f2e20d5d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad31d79d9271f88824224fc2f2e20d5d9">&#9670;&nbsp;</a></span>triggerSec_NGC68()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerSec_NGC68 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_gad31d79d9271f88824224fc2f2e20d5d9_icgraph.png" border="0" usemap="#agroup__dec_gad31d79d9271f88824224fc2f2e20d5d9_icgraph" alt=""/></div>
+<map name="agroup__dec_gad31d79d9271f88824224fc2f2e20d5d9_icgraph" id="agroup__dec_gad31d79d9271f88824224fc2f2e20d5d9_icgraph">
+<area shape="rect" title=" " alt="" coords="404,31,535,57"/>
 <area shape="rect" href="init_8ino.html#a88674b99a08fb6841af61763600797cd" title=" " alt="" coords="240,31,356,57"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,5,192,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="127,56,173,83"/>

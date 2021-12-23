@@ -73,7 +73,7 @@ var searchData=
   ['checkprogrammableio_70',['checkProgrammableIO',['../utilities_8h.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino'],['../utilities_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695',1,'checkProgrammableIO():&#160;utilities.ino']]],
   ['checkrevlimit_71',['checkRevLimit',['../engine_protection_8h.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino'],['../engine_protection_8ino.html#a418978e0bd4ce52c1d8c89c7652868e1',1,'checkRevLimit():&#160;engineProtection.ino']]],
   ['checksynctoothcount_72',['checkSyncToothCount',['../decoders_8h.html#a16c057b337892e5c1999ebc7425f52b3',1,'checkSyncToothCount():&#160;decoders.ino'],['../decoders_8ino.html#a16c057b337892e5c1999ebc7425f52b3',1,'checkSyncToothCount():&#160;decoders.ino']]],
-  ['chrysler_20ngc_204_2dcylinder_73',['Chrysler NGC 4-cylinder',['../group__dec.html',1,'']]],
+  ['chrysler_20ngc_20_2d_204_2c_206_20and_208_2dcylinder_73',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]],
   ['chunkcomplete_74',['chunkComplete',['../comms_8cpp.html#a2579ec6aed1903a19a732839086d9fd7',1,'chunkComplete():&#160;comms.cpp'],['../comms_8h.html#a2579ec6aed1903a19a732839086d9fd7',1,'chunkComplete():&#160;comms.cpp']]],
   ['chunkpending_75',['chunkPending',['../comms_8cpp.html#ab691ea6bc6e723003f66796b3cd24df9',1,'chunkPending():&#160;comms.cpp'],['../comms_8h.html#ab691ea6bc6e723003f66796b3cd24df9',1,'chunkPending():&#160;comms.cpp']]],
   ['chunksize_76',['chunkSize',['../comms_8cpp.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'chunkSize():&#160;comms.cpp'],['../comms_8h.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'chunkSize():&#160;comms.cpp']]],
