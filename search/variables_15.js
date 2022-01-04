@@ -45,7 +45,7 @@ var searchData=
   ['vvt2enabled_42',['vvt2Enabled',['../structconfig10.html#aa75c149d9c7551280480d35825f11dd3',1,'config10::vvt2Enabled()'],['../globals_8h.html#a4579dc84ac102bec71cedf83f0f35d8c',1,'vvt2Enabled():&#160;globals.h']]],
   ['vvt2pin_43',['vvt2Pin',['../structconfig10.html#a184adfb87ec731f25f1c8d05d44acb76',1,'config10::vvt2Pin()'],['../globals_8h.html#aa3aa1e2ed88fc48d594ea751540e839f',1,'vvt2Pin():&#160;globals.h']]],
   ['vvt2pwmdir_44',['vvt2PWMdir',['../structconfig4.html#a61ebe49808424b509eca3b3bc5df2655',1,'config4::vvt2PWMdir()'],['../globals_8h.html#a50f38111a084ef1697a321de8e7a7fd5',1,'vvt2PWMdir():&#160;globals.h']]],
-  ['vvt2table_45',['vvt2Table',['../globals_8h.html#aaa43ec9d57f8619ef84a560a8e76a560',1,'vvt2Table():&#160;globals.ino'],['../globals_8ino.html#aaa43ec9d57f8619ef84a560a8e76a560',1,'vvt2Table():&#160;globals.ino']]],
+  ['vvt2table_45',['vvt2Table',['../globals_8h.html#a347de64be9c670f8436aaaeea3a03ea6',1,'vvt2Table():&#160;globals.ino'],['../globals_8ino.html#a347de64be9c670f8436aaaeea3a03ea6',1,'vvt2Table():&#160;globals.ino']]],
   ['vvt2targetangle_46',['vvt2TargetAngle',['../structstatuses.html#a2011269356b3d64b87f608948278f30e',1,'statuses']]],
   ['vvt_5fpid_5fcurrent_5fangle_47',['vvt_pid_current_angle',['../auxiliaries_8h.html#a6e0dfec0f3026172f66929369b687852',1,'vvt_pid_current_angle():&#160;auxiliaries.h'],['../auxiliaries_8ino.html#a990ef7572c2f60507098a655175cdd1e',1,'vvt_pid_current_angle():&#160;auxiliaries.ino']]],
   ['vvt_5fpid_5ftarget_5fangle_48',['vvt_pid_target_angle',['../auxiliaries_8h.html#a91c69900bfc9c8f1a4a396578a178b87',1,'auxiliaries.h']]],
@@ -70,7 +70,7 @@ var searchData=
   ['vvtminclt_67',['vvtMinClt',['../globals_8h.html#a964647fdbe88f4f877f5d9ebfae15689',1,'vvtMinClt():&#160;globals.h'],['../structconfig4.html#a13b5ea53ab93c11c1ec1e07ace3efe75',1,'config4::vvtMinClt()']]],
   ['vvtmode_68',['vvtMode',['../globals_8h.html#aabd98712917fc6a220aeccfcf9fbbe53',1,'vvtMode():&#160;globals.h'],['../structconfig6.html#ab74b7b01069e84b4696abd1769d3ca30',1,'config6::vvtMode()']]],
   ['vvtpwmdir_69',['vvtPWMdir',['../structconfig6.html#a92d87a8e778df123eb790e4f298823f3',1,'config6::vvtPWMdir()'],['../globals_8h.html#a333d2a2d56340f699486b394e1f76279',1,'vvtPWMdir():&#160;globals.h']]],
-  ['vvttable_70',['vvtTable',['../globals_8h.html#a0fdbdf73e8286fcf202e0e256b1c075f',1,'vvtTable():&#160;globals.ino'],['../globals_8ino.html#a0fdbdf73e8286fcf202e0e256b1c075f',1,'vvtTable():&#160;globals.ino']]],
+  ['vvttable_70',['vvtTable',['../globals_8h.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable():&#160;globals.ino'],['../globals_8ino.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable():&#160;globals.ino']]],
   ['vvttimehold_71',['vvtTimeHold',['../auxiliaries_8h.html#ace910614759c484f5a2f86af6e2f9a5f',1,'auxiliaries.h']]],
   ['vvtwarmtime_72',['vvtWarmTime',['../auxiliaries_8h.html#a5e933d071a22d6cb949b1a18b2c4a38d',1,'auxiliaries.h']]]
 ];
