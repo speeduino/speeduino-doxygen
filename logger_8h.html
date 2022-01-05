@@ -101,8 +101,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> <a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a4148535e1459fe7ee9ec8bf1f645e4ec">fsIntIndex</a> [34]</td></tr>
-<tr class="separator:a4148535e1459fe7ee9ec8bf1f645e4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e79f550e6f16bc1e77ec227e47c847"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> <a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a34e79f550e6f16bc1e77ec227e47c847">fsIntIndex</a> [] = {4, 14, 17, 25, 27, 32, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 75, 77, 79, 81, 85, 87, 89, 93, 97, 102, 109, 119 }</td></tr>
+<tr class="separator:a34e79f550e6f16bc1e77ec227e47c847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac046386752534bba5c1d29d7997bfb"><td class="memItemLeft" align="right" valign="top">const char header_0[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> = &quot;secl&quot;</td></tr>
 <tr class="separator:afac046386752534bba5c1d29d7997bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -261,35 +261,39 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Searches the log 2 byte array to determine whether a given index is a regular single byte or a 2 byte field Uses a boundless binary search for improved performance, but requires the fsIntIndex to remain in order </p><dl class="params"><dt>Parameters</dt><dd>
+<p >Searches the log 2 byte array to determine whether a given index is a regular single byte or a 2 byte field Uses a boundless binary search for improved performance, but requires the fsIntIndex to remain in order Refer: <a href="https://github.com/scandum/binary_search">https://github.com/scandum/binary_search</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>- Index in the log array to check </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the index is a 2 byte log field. False if it is a single byte </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8h_a583744cee73ac3aa3fc3468bd2a3492a_icgraph.png" border="0" usemap="#alogger_8h_a583744cee73ac3aa3fc3468bd2a3492a_icgraph" alt=""/></div>
+<map name="alogger_8h_a583744cee73ac3aa3fc3468bd2a3492a_icgraph" id="alogger_8h_a583744cee73ac3aa3fc3468bd2a3492a_icgraph">
+<area shape="rect" title=" " alt="" coords="519,5,613,32"/>
+<area shape="rect" href="utilities_8ino.html#a6d65d36c291073121ae86496d6a6f73b" title=" " alt="" coords="303,5,471,32"/>
+<area shape="rect" href="utilities_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695" title=" " alt="" coords="100,5,255,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a4148535e1459fe7ee9ec8bf1f645e4ec" name="a4148535e1459fe7ee9ec8bf1f645e4ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4148535e1459fe7ee9ec8bf1f645e4ec">&#9670;&nbsp;</a></span>fsIntIndex</h2>
+<a id="a34e79f550e6f16bc1e77ec227e47c847" name="a34e79f550e6f16bc1e77ec227e47c847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e79f550e6f16bc1e77ec227e47c847">&#9670;&nbsp;</a></span>fsIntIndex</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> <a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> fsIntIndex[34]</td>
+          <td class="memname">const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> <a class="el" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> fsIntIndex[] = {4, 14, 17, 25, 27, 32, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 75, 77, 79, 81, 85, 87, 89, 93, 97, 102, 109, 119 }</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
