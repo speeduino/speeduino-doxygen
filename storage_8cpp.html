@@ -114,6 +114,10 @@ Functions</h2></td></tr>
 <tr class="separator:a8e6e37ed40a3dbde0c5c234d715334d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac98869315dfb66d34ce1b2015f8afc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40">writeAllConfig</a> ()</td></tr>
 <tr class="separator:ac98869315dfb66d34ce1b2015f8afc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a485d821988bba17e733a823c7e66da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5a485d821988bba17e733a823c7e66da">enableForceBurn</a> ()</td></tr>
+<tr class="separator:a5a485d821988bba17e733a823c7e66da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6236730aa4a07d6b30b48258b3de9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5c6236730aa4a07d6b30b48258b3de9a">disableForceBurn</a> ()</td></tr>
+<tr class="separator:a5c6236730aa4a07d6b30b48258b3de9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6eaa41918f7086113b3ec0330d36f82"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82">write_range</a> (const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pStart, const <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> *pEnd, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
 <tr class="separator:ae6eaa41918f7086113b3ec0330d36f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26b27f7e2000e55ad4df08b717ef8bbe"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe">write</a> (const <a class="el" href="classtable__row__iterator.html">table_row_iterator</a> &amp;row, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
@@ -167,6 +171,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aaf8ba209ce169eb65cf0d163c1ac3850">eepromWritesPending</a> = false</td></tr>
 <tr class="separator:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f224b4bcf27c939bd441ddad58c8e7a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5f224b4bcf27c939bd441ddad58c8e7a">forceBurn</a> = false</td></tr>
+<tr class="separator:a5f224b4bcf27c939bd441ddad58c8e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Lower level ConfigPage*, Table2D, Table3D and EEPROM storage operations. </p>
@@ -357,6 +363,62 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a5c6236730aa4a07d6b30b48258b3de9a" name="a5c6236730aa4a07d6b30b48258b3de9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c6236730aa4a07d6b30b48258b3de9a">&#9670;&nbsp;</a></span>disableForceBurn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void disableForceBurn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph.png" border="0" usemap="#astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph" alt=""/></div>
+<map name="astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph" id="astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,565,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5a485d821988bba17e733a823c7e66da" name="a5a485d821988bba17e733a823c7e66da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a485d821988bba17e733a823c7e66da">&#9670;&nbsp;</a></span>enableForceBurn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void enableForceBurn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph.png" border="0" usemap="#astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph" alt=""/></div>
+<map name="astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph" id="astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,563,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a8e6e37ed40a3dbde0c5c234d715334d3" name="a8e6e37ed40a3dbde0c5c234d715334d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e6e37ed40a3dbde0c5c234d715334d3">&#9670;&nbsp;</a></span>isEepromWritePending()</h2>
 
@@ -376,8 +438,10 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph.png" border="0" usemap="#astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph" alt=""/></div>
 <map name="astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph" id="astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,253,32"/>
+<area shape="rect" title=" " alt="" coords="443,5,596,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,31,395,57"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
 </map>
 </div>
 
@@ -1452,6 +1516,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">bool eepromWritesPending = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f224b4bcf27c939bd441ddad58c8e7a" name="a5f224b4bcf27c939bd441ddad58c8e7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f224b4bcf27c939bd441ddad58c8e7a">&#9670;&nbsp;</a></span>forceBurn</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool forceBurn = false</td>
         </tr>
       </table>
   </td>
