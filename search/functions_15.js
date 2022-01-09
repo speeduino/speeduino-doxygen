@@ -5,6 +5,7 @@ var searchData=
   ['write_5frange_2',['write_range',['../storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82',1,'storage.cpp']]],
   ['writeallconfig_3',['writeAllConfig',['../storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.cpp'],['../storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.cpp']]],
   ['writecalibration_4',['writeCalibration',['../storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.cpp'],['../storage_8h.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.cpp']]],
-  ['writeconfig_5',['writeConfig',['../storage_8cpp.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp']]],
-  ['writetable_6',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]]
+  ['writecalibrationpage_5',['writeCalibrationPage',['../storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp']]],
+  ['writeconfig_6',['writeConfig',['../storage_8cpp.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp']]],
+  ['writetable_7',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]]
 ];

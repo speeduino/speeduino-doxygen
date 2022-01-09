@@ -24,7 +24,7 @@ var searchData=
   ['closeinjector7_5fmc33810_21',['closeInjector7_MC33810',['../acc__mc33810_8h.html#a70a095b32dd8acbfedd293f6d4d9874d',1,'acc_mc33810.h']]],
   ['closeinjector8_5fdirect_22',['closeInjector8_DIRECT',['../scheduled_i_o_8h.html#a318eee8d235f1291aabcff16f9df57af',1,'scheduledIO.h']]],
   ['closeinjector8_5fmc33810_23',['closeInjector8_MC33810',['../acc__mc33810_8h.html#aa3a745445a86f5af93ad3fd7607528aa',1,'acc_mc33810.h']]],
-  ['clt_5fcalibration_5fpage_24',['CLT_CALIBRATION_PAGE',['../new_comms_8h.html#a206311d2ff4f6429c8d91feb58c7bb5e',1,'newComms.h']]],
+  ['clt_5fcalibration_5fpage_24',['CLT_CALIBRATION_PAGE',['../globals_8h.html#a206311d2ff4f6429c8d91feb58c7bb5e',1,'globals.h']]],
   ['coil1charging_5fdirect_25',['coil1Charging_DIRECT',['../scheduled_i_o_8h.html#afdbc80ef495645a0f4e415268b6f074c',1,'scheduledIO.h']]],
   ['coil1charging_5fmc33810_26',['coil1Charging_MC33810',['../scheduled_i_o_8h.html#a5a4388e1b261aba3bdc2118d43edb5e2',1,'scheduledIO.h']]],
   ['coil1high_5fdirect_27',['coil1High_DIRECT',['../scheduled_i_o_8h.html#a6a0067ccee16875a611c7fe1b70c9994',1,'scheduledIO.h']]],

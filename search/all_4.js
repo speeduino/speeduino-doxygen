@@ -113,7 +113,7 @@ var searchData=
   ['closeinjector8_110',['closeInjector8',['../scheduled_i_o_8h.html#a102469a84fef8ac8c08427a6d1059bf2',1,'closeInjector8():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2',1,'closeInjector8():&#160;scheduledIO.ino']]],
   ['closeinjector8_5fdirect_111',['closeInjector8_DIRECT',['../scheduled_i_o_8h.html#a318eee8d235f1291aabcff16f9df57af',1,'scheduledIO.h']]],
   ['closeinjector8_5fmc33810_112',['closeInjector8_MC33810',['../acc__mc33810_8h.html#aa3a745445a86f5af93ad3fd7607528aa',1,'acc_mc33810.h']]],
-  ['clt_5fcalibration_5fpage_113',['CLT_CALIBRATION_PAGE',['../new_comms_8h.html#a206311d2ff4f6429c8d91feb58c7bb5e',1,'newComms.h']]],
+  ['clt_5fcalibration_5fpage_113',['CLT_CALIBRATION_PAGE',['../globals_8h.html#a206311d2ff4f6429c8d91feb58c7bb5e',1,'globals.h']]],
   ['cltadc_114',['cltADC',['../structstatuses.html#a8bcd9b49bd9ee12b63a4eb29ad9639d5',1,'statuses']]],
   ['cltadvancetable_115',['CLTAdvanceTable',['../globals_8h.html#a7f68d16676a0c9978199c12f3a13d6d9',1,'CLTAdvanceTable():&#160;globals.ino'],['../globals_8ino.html#a7f68d16676a0c9978199c12f3a13d6d9',1,'CLTAdvanceTable():&#160;globals.ino']]],
   ['cltadvbins_116',['cltAdvBins',['../globals_8h.html#a089ceb1ecbcf05d433d291944986437d',1,'cltAdvBins():&#160;globals.h'],['../structconfig4.html#a5e417d513ad7c579602cf759ea09cf48',1,'config4::cltAdvBins()']]],

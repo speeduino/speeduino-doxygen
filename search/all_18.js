@@ -35,10 +35,11 @@ var searchData=
   ['write_5frange_32',['write_range',['../storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82',1,'storage.cpp']]],
   ['writeallconfig_33',['writeAllConfig',['../storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.cpp'],['../storage_8h.html#ac98869315dfb66d34ce1b2015f8afc40',1,'writeAllConfig():&#160;storage.cpp']]],
   ['writecalibration_34',['writeCalibration',['../storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.cpp'],['../storage_8h.html#ac3efa003544375926eb7d8d88cf19523',1,'writeCalibration():&#160;storage.cpp']]],
-  ['writeconfig_35',['writeConfig',['../storage_8cpp.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp']]],
-  ['writetable_36',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]],
-  ['wuebins_37',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4::wueBins()'],['../globals_8h.html#a39acf6bec9563c41818813d7bf9d7e86',1,'wueBins():&#160;globals.h']]],
-  ['wuecorrection_38',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
-  ['wuetable_39',['WUETable',['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino'],['../globals_8ino.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino']]],
-  ['wuevalues_40',['wueValues',['../globals_8h.html#a42184453d6f4128baaafeac67728a8c6',1,'wueValues():&#160;globals.h'],['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2::wueValues()']]]
+  ['writecalibrationpage_35',['writeCalibrationPage',['../storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp']]],
+  ['writeconfig_36',['writeConfig',['../storage_8cpp.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp']]],
+  ['writetable_37',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]],
+  ['wuebins_38',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4::wueBins()'],['../globals_8h.html#a39acf6bec9563c41818813d7bf9d7e86',1,'wueBins():&#160;globals.h']]],
+  ['wuecorrection_39',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
+  ['wuetable_40',['WUETable',['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino'],['../globals_8ino.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino']]],
+  ['wuevalues_41',['wueValues',['../globals_8h.html#a42184453d6f4128baaafeac67728a8c6',1,'wueValues():&#160;globals.h'],['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2::wueValues()']]]
 ];
