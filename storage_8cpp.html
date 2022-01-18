@@ -87,7 +87,7 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a16acab7b89a84a781e32cade827627e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a16acab7b89a84a781e32cade827627e1">EEPROM_MAX_WRITE_BLOCK</a>&#160;&#160;&#160;30</td></tr>
+<tr class="memitem:a16acab7b89a84a781e32cade827627e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a16acab7b89a84a781e32cade827627e1">EEPROM_MAX_WRITE_BLOCK</a>&#160;&#160;&#160;12</td></tr>
 <tr class="separator:a16acab7b89a84a781e32cade827627e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac69a61106c8c49b7098fa86e8b8a0ae1">EEPROM_DATA_VERSION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,6 +128,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae747ea4be6494a109d22d1bb6e6a95f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeadd741ad30b298dcb7c14af4c922b18"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18">writeTable</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> key, <a class="el" href="structwrite__location.html">write_location</a> location)</td></tr>
 <tr class="separator:aeadd741ad30b298dcb7c14af4c922b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2eac239d663b8d5c5c921bd1c9dd1cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd">EEPROMWriteRaw</a> (uint16_t address, uint8_t data)</td></tr>
+<tr class="separator:aa2eac239d663b8d5c5c921bd1c9dd1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63ae27ed0c98f44c977001780b87bd95"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95">EEPROMReadRaw</a> (uint16_t address)</td></tr>
+<tr class="separator:a63ae27ed0c98f44c977001780b87bd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43e4485fee4923fb039076254df6c689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689">writeConfig</a> (uint8_t pageNum)</td></tr>
 <tr class="separator:a43e4485fee4923fb039076254df6c689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5565e6188dc7ba5e0ec6471e0769e3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ab5565e6188dc7ba5e0ec6471e0769e3c">resetConfigPages</a> ()</td></tr>
@@ -156,6 +160,8 @@ Functions</h2></td></tr>
 <tr class="separator:a57f1423d06ff792b7c73b636677600e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0f76cee417a1d1470e56244370e01a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aad0f76cee417a1d1470e56244370e01a">readPageCRC32</a> (uint8_t pageNum)</td></tr>
 <tr class="separator:aad0f76cee417a1d1470e56244370e01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac028c51285d0a3bfe1f11e84e2a74b97"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac028c51285d0a3bfe1f11e84e2a74b97">getEEPROMSize</a> ()</td></tr>
+<tr class="separator:ac028c51285d0a3bfe1f11e84e2a74b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0d3fa76548baa671184809ce8440ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">readLastBaro</a> ()</td></tr>
 <tr class="memdesc:a2a0d3fa76548baa671184809ce8440ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read last stored barometer reading from EEPROM.  <a href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">More...</a><br /></td></tr>
 <tr class="separator:a2a0d3fa76548baa671184809ce8440ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +181,8 @@ Variables</h2></td></tr>
 <tr class="separator:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f224b4bcf27c939bd441ddad58c8e7a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5f224b4bcf27c939bd441ddad58c8e7a">forceBurn</a> = false</td></tr>
 <tr class="separator:a5f224b4bcf27c939bd441ddad58c8e7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c6703a82957c7d14a241f5749742b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a75c6703a82957c7d14a241f5749742b7">deferEEPROMWrites</a> = false</td></tr>
+<tr class="separator:a75c6703a82957c7d14a241f5749742b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Lower level ConfigPage*, Table2D, Table3D and EEPROM storage operations. </p>
@@ -298,7 +306,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EEPROM_MAX_WRITE_BLOCK&#160;&#160;&#160;30</td>
+          <td class="memname">#define EEPROM_MAX_WRITE_BLOCK&#160;&#160;&#160;12</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -379,17 +387,52 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph.png" border="0" usemap="#astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph" id="astorage_8cpp_a5c6236730aa4a07d6b30b48258b3de9a_icgraph">
-<area shape="rect" title=" " alt="" coords="443,5,565,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-</map>
+
 </div>
+</div>
+<a id="a63ae27ed0c98f44c977001780b87bd95" name="a63ae27ed0c98f44c977001780b87bd95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63ae27ed0c98f44c977001780b87bd95">&#9670;&nbsp;</a></span>EEPROMReadRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t EEPROMReadRaw </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2eac239d663b8d5c5c921bd1c9dd1cd" name="aa2eac239d663b8d5c5c921bd1c9dd1cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2eac239d663b8d5c5c921bd1c9dd1cd">&#9670;&nbsp;</a></span>EEPROMWriteRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EEPROMWriteRaw </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -407,17 +450,23 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="storage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph.png" border="0" usemap="#astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph" alt=""/></div>
-<map name="astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph" id="astorage_8cpp_a5a485d821988bba17e733a823c7e66da_icgraph">
-<area shape="rect" title=" " alt="" coords="443,5,563,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-</map>
+
 </div>
+</div>
+<a id="ac028c51285d0a3bfe1f11e84e2a74b97" name="ac028c51285d0a3bfe1f11e84e2a74b97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac028c51285d0a3bfe1f11e84e2a74b97">&#9670;&nbsp;</a></span>getEEPROMSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t getEEPROMSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -440,10 +489,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph.png" border="0" usemap="#astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph" alt=""/></div>
 <map name="astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph" id="astorage_8cpp_a8e6e37ed40a3dbde0c5c234d715334d3_icgraph">
-<area shape="rect" title=" " alt="" coords="443,5,596,32"/>
+<area shape="rect" title=" " alt="" coords="100,5,253,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,31,395,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
 </map>
 </div>
 
@@ -1099,20 +1146,20 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph.png" border="0" usemap="#astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph" alt=""/></div>
 <map name="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph" id="astorage_8cpp_a26b27f7e2000e55ad4df08b717ef8bbe_icgraph">
-<area shape="rect" title=" " alt="" coords="1095,183,1145,209"/>
-<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="980,157,1031,184"/>
-<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="964,208,1047,235"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,208,916,235"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,208,530,235"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,259,395,285"/>
-<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,5,539,32"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,259,781,285"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,157,735,184"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,157,52,184"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,208,187,235"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,31,357,57"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,31,171,57"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,56,533,83"/>
+<area shape="rect" title=" " alt="" coords="1095,85,1145,112"/>
+<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="980,60,1031,86"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="964,110,1047,137"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,110,916,137"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,110,530,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,9,395,36"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,262,539,289"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,60,781,86"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,161,735,188"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,110,52,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,60,187,86"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,237,357,264"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,237,171,264"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,212,533,238"/>
 </map>
 </div>
 
@@ -1269,21 +1316,21 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph.png" border="0" usemap="#astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph" alt=""/></div>
 <map name="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph" id="astorage_8cpp_ae6eaa41918f7086113b3ec0330d36f82_icgraph">
-<area shape="rect" title=" " alt="" coords="1193,208,1283,235"/>
-<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="1095,233,1145,260"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,208,916,235"/>
-<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="980,284,1031,311"/>
-<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="964,233,1047,260"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,208,530,235"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,259,395,285"/>
-<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,5,539,32"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,259,781,285"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,157,735,184"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,157,52,184"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,208,187,235"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,31,357,57"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,31,171,57"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,56,533,83"/>
+<area shape="rect" title=" " alt="" coords="1193,85,1283,112"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="1095,110,1145,137"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,110,916,137"/>
+<area shape="rect" href="storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4" title=" " alt="" coords="980,110,1031,137"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="964,161,1047,188"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,110,530,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,9,395,36"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,262,539,289"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,60,781,86"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,161,735,188"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,110,52,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,60,187,86"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,237,357,264"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,237,171,264"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,212,533,238"/>
 </map>
 </div>
 
@@ -1328,14 +1375,14 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_icgraph.png" border="0" usemap="#astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_icgraph" alt=""/></div>
 <map name="astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_icgraph" id="astorage_8cpp_ac98869315dfb66d34ce1b2015f8afc40_icgraph">
-<area shape="rect" title=" " alt="" coords="576,82,677,109"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="446,6,525,33"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,32,52,58"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,57,395,84"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="443,158,528,185"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,32,187,58"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,158,357,185"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,158,171,185"/>
+<area shape="rect" title=" " alt="" coords="576,106,677,132"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="446,30,525,56"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,30,52,56"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="443,156,528,183"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,30,187,56"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,55,395,82"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,156,357,183"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,156,171,183"/>
 </map>
 </div>
 
@@ -1442,17 +1489,17 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_a43e4485fee4923fb039076254df6c689_icgraph.png" border="0" usemap="#astorage_8cpp_a43e4485fee4923fb039076254df6c689_icgraph" alt=""/></div>
 <map name="astorage_8cpp_a43e4485fee4923fb039076254df6c689_icgraph" id="astorage_8cpp_a43e4485fee4923fb039076254df6c689_icgraph">
-<area shape="rect" title=" " alt="" coords="829,208,916,235"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,208,530,235"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,259,395,285"/>
-<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,5,539,32"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,259,781,285"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,157,735,184"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,157,52,184"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,208,187,235"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,31,357,57"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,31,171,57"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,56,533,83"/>
+<area shape="rect" title=" " alt="" coords="829,110,916,137"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,110,530,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,9,395,36"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,262,539,289"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,60,781,86"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,161,735,188"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,110,52,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,60,187,86"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,237,357,264"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,237,171,264"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,212,533,238"/>
 </map>
 </div>
 
@@ -1518,24 +1565,38 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph.png" border="0" usemap="#astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph" alt=""/></div>
 <map name="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph" id="astorage_8cpp_aeadd741ad30b298dcb7c14af4c922b18_icgraph">
-<area shape="rect" title=" " alt="" coords="964,208,1047,235"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,208,916,235"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,208,530,235"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,259,395,285"/>
-<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,5,539,32"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,259,781,285"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,157,735,184"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,157,52,184"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,208,187,235"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,31,357,57"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,31,171,57"/>
-<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,56,533,83"/>
+<area shape="rect" title=" " alt="" coords="964,110,1047,137"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="829,110,916,137"/>
+<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="451,110,530,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,9,395,36"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="443,262,539,289"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="587,60,781,86"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="633,161,735,188"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,110,52,137"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,60,187,86"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="273,237,357,264"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="116,237,171,264"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="448,212,533,238"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a75c6703a82957c7d14a241f5749742b7" name="a75c6703a82957c7d14a241f5749742b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c6703a82957c7d14a241f5749742b7">&#9670;&nbsp;</a></span>deferEEPROMWrites</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool deferEEPROMWrites = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf8ba209ce169eb65cf0d163c1ac3850" name="aaf8ba209ce169eb65cf0d163c1ac3850"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf8ba209ce169eb65cf0d163c1ac3850">&#9670;&nbsp;</a></span>eepromWritesPending</h2>
 
