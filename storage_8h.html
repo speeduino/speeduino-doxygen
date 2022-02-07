@@ -152,6 +152,12 @@ Macros</h2></td></tr>
 <tr class="separator:aad956f4df2287b5b522091e8e417cd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaed32a107a1ece679420a9f4bd3b4b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#abaed32a107a1ece679420a9f4bd3b4b0">EEPROM_CONFIG8_MAP8</a>&#160;&#160;&#160;3151</td></tr>
 <tr class="separator:abaed32a107a1ece679420a9f4bd3b4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3efd1fde148ec6596dd2c8ffbf5f288"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#ab3efd1fde148ec6596dd2c8ffbf5f288">EEPROM_CALIBRATION_CLT_CRC</a>&#160;&#160;&#160;3674</td></tr>
+<tr class="separator:ab3efd1fde148ec6596dd2c8ffbf5f288"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d40fd8f6ca82d91cc3a425d746814f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#ac6d40fd8f6ca82d91cc3a425d746814f">EEPROM_CALIBRATION_IAT_CRC</a>&#160;&#160;&#160;3678</td></tr>
+<tr class="separator:ac6d40fd8f6ca82d91cc3a425d746814f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab890046bb1d73aeea9f84be06b20786d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#ab890046bb1d73aeea9f84be06b20786d">EEPROM_CALIBRATION_O2_CRC</a>&#160;&#160;&#160;3682</td></tr>
+<tr class="separator:ab890046bb1d73aeea9f84be06b20786d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae00868ed86b6eab1fb740cf37d04812e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#ae00868ed86b6eab1fb740cf37d04812e">EEPROM_CALIBRATION_O2_OLD</a>&#160;&#160;&#160;2559</td></tr>
 <tr class="separator:ae00868ed86b6eab1fb740cf37d04812e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57709c961266782984325e4f388f415d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#a57709c961266782984325e4f388f415d">EEPROM_CALIBRATION_IAT_OLD</a>&#160;&#160;&#160;3071</td></tr>
@@ -390,27 +396,47 @@ Variables</h2></td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">3193   </td><td class="markdownTableBodyCenter">6   </td><td class="markdownTableBodyCenter">Trim8 table (Y axis) (MAP)   </td><td class="markdownTableBodyLeft"></td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyRight">3199   </td><td class="markdownTableBodyCenter">487   </td><td class="markdownTableBodyCenter">EMPTY   </td><td class="markdownTableBodyLeft"></td></tr>
+<td class="markdownTableBodyRight">3199   </td><td class="markdownTableBodyCenter">475   </td><td class="markdownTableBodyCenter">EMPTY   </td><td class="markdownTableBodyLeft"></td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight">3674   </td><td class="markdownTableBodyCenter">4   </td><td class="markdownTableBodyCenter">CLT Calibration CRC32   </td><td class="markdownTableBodyLeft"></td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyRight">3678   </td><td class="markdownTableBodyCenter">4   </td><td class="markdownTableBodyCenter">IAT Calibration CRC32   </td><td class="markdownTableBodyLeft"></td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight">3682   </td><td class="markdownTableBodyCenter">4   </td><td class="markdownTableBodyCenter">O2 Calibration CRC32   </td><td class="markdownTableBodyLeft"></td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">3686   </td><td class="markdownTableBodyCenter">56   </td><td class="markdownTableBodyCenter">Page CRC32 sums (4x14)   </td><td class="markdownTableBodyLeft">Last first, 14 -&gt; 1    </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">3742   </td><td class="markdownTableBodyCenter">1   </td><td class="markdownTableBodyCenter">Baro value saved at init   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#a3883bd7685c795fc06ed435efa83dc2e">EEPROM_LAST_BARO</a>    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">3743   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">O2 Calibration Bins   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>    </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">3807   </td><td class="markdownTableBodyCenter">32   </td><td class="markdownTableBodyCenter">O2 Calibration Values   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#a6b21a322f6a51b9abaaf15744b6fb8c1">EEPROM_CALIBRATION_O2_VALUES</a>    </td></tr>
-<tr class="markdownTableRowOdd">
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">3839   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">IAT Calibration Bins   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#aa3a520b59f381fcc3a03a4a7d4c11ad4">EEPROM_CALIBRATION_IAT_BINS</a>    </td></tr>
-<tr class="markdownTableRowEven">
+<tr class="markdownTableRowOdd">
 <td class="markdownTableBodyRight">3903   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">IAT Calibration Values   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#aaff4e58932746929be5b3d760760d7b8">EEPROM_CALIBRATION_IAT_VALUES</a>    </td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyRight">3967   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">CLT Calibration Bins   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#ac4c267aba618f2c72ebf36f8b737be06">EEPROM_CALIBRATION_CLT_BINS</a>    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyRight">4031   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">CLT Calibration Values   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#a937ce3ffc53d3fa2b10444f5243b9877">EEPROM_CALIBRATION_CLT_VALUES</a>    </td></tr>
+<td class="markdownTableBodyRight">3967   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">CLT Calibration Bins   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#ac4c267aba618f2c72ebf36f8b737be06">EEPROM_CALIBRATION_CLT_BINS</a>    </td></tr>
 <tr class="markdownTableRowOdd">
+<td class="markdownTableBodyRight">4031   </td><td class="markdownTableBodyCenter">64   </td><td class="markdownTableBodyCenter">CLT Calibration Values   </td><td class="markdownTableBodyLeft"><a class="el" href="storage_8cpp.html#a937ce3ffc53d3fa2b10444f5243b9877">EEPROM_CALIBRATION_CLT_VALUES</a>    </td></tr>
+<tr class="markdownTableRowEven">
 <td class="markdownTableBodyRight">4095   </td><td class="markdownTableBodyCenter"></td><td class="markdownTableBodyCenter">END   </td><td class="markdownTableBodyLeft"></td></tr>
 </table>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ab3efd1fde148ec6596dd2c8ffbf5f288" name="ab3efd1fde148ec6596dd2c8ffbf5f288"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3efd1fde148ec6596dd2c8ffbf5f288">&#9670;&nbsp;</a></span>EEPROM_CALIBRATION_CLT_CRC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_CALIBRATION_CLT_CRC&#160;&#160;&#160;3674</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a92d0dce5ac9a80f0042a8f709e697670" name="a92d0dce5ac9a80f0042a8f709e697670"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a92d0dce5ac9a80f0042a8f709e697670">&#9670;&nbsp;</a></span>EEPROM_CALIBRATION_CLT_OLD</h2>
 
@@ -425,6 +451,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac6d40fd8f6ca82d91cc3a425d746814f" name="ac6d40fd8f6ca82d91cc3a425d746814f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d40fd8f6ca82d91cc3a425d746814f">&#9670;&nbsp;</a></span>EEPROM_CALIBRATION_IAT_CRC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_CALIBRATION_IAT_CRC&#160;&#160;&#160;3678</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a57709c961266782984325e4f388f415d" name="a57709c961266782984325e4f388f415d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57709c961266782984325e4f388f415d">&#9670;&nbsp;</a></span>EEPROM_CALIBRATION_IAT_OLD</h2>
 
@@ -433,6 +473,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define EEPROM_CALIBRATION_IAT_OLD&#160;&#160;&#160;3071</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab890046bb1d73aeea9f84be06b20786d" name="ab890046bb1d73aeea9f84be06b20786d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab890046bb1d73aeea9f84be06b20786d">&#9670;&nbsp;</a></span>EEPROM_CALIBRATION_O2_CRC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_CALIBRATION_O2_CRC&#160;&#160;&#160;3682</td>
         </tr>
       </table>
 </div><div class="memdoc">
