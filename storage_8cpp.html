@@ -160,6 +160,10 @@ Functions</h2></td></tr>
 <tr class="separator:a57f1423d06ff792b7c73b636677600e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0f76cee417a1d1470e56244370e01a"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aad0f76cee417a1d1470e56244370e01a">readPageCRC32</a> (uint8_t pageNum)</td></tr>
 <tr class="separator:aad0f76cee417a1d1470e56244370e01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef26cb1327a30d037c74860b91240508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aef26cb1327a30d037c74860b91240508">storeCalibrationCRC32</a> (uint8_t calibrationPageNum, uint32_t calibrationCRC)</td></tr>
+<tr class="separator:aef26cb1327a30d037c74860b91240508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa9a2fd315e9b53bc2f7a211bd24a38"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#acaa9a2fd315e9b53bc2f7a211bd24a38">readCalibrationCRC32</a> (uint8_t calibrationPageNum)</td></tr>
+<tr class="separator:acaa9a2fd315e9b53bc2f7a211bd24a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac028c51285d0a3bfe1f11e84e2a74b97"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac028c51285d0a3bfe1f11e84e2a74b97">getEEPROMSize</a> ()</td></tr>
 <tr class="separator:ac028c51285d0a3bfe1f11e84e2a74b97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a0d3fa76548baa671184809ce8440ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a2a0d3fa76548baa671184809ce8440ba">readLastBaro</a> ()</td></tr>
@@ -890,6 +894,41 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="acaa9a2fd315e9b53bc2f7a211bd24a38" name="acaa9a2fd315e9b53bc2f7a211bd24a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa9a2fd315e9b53bc2f7a211bd24a38">&#9670;&nbsp;</a></span>readCalibrationCRC32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t readCalibrationCRC32 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>calibrationPageNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Retrieves and returns the 4 byte CRC32 checksum for a given calibration page from EEPROM. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pageNum</td><td>- Config page number </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_acaa9a2fd315e9b53bc2f7a211bd24a38_icgraph.png" border="0" usemap="#astorage_8cpp_acaa9a2fd315e9b53bc2f7a211bd24a38_icgraph" alt=""/></div>
+<map name="astorage_8cpp_acaa9a2fd315e9b53bc2f7a211bd24a38_icgraph" id="astorage_8cpp_acaa9a2fd315e9b53bc2f7a211bd24a38_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,592,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="aaf46bc73c6a4df33773c6a4ce207191c" name="aaf46bc73c6a4df33773c6a4ce207191c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf46bc73c6a4df33773c6a4ce207191c">&#9670;&nbsp;</a></span>readEEPROMVersion()</h2>
 
@@ -1019,6 +1058,52 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="240,5,364,32"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,5,192,32"/>
 <area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aef26cb1327a30d037c74860b91240508" name="aef26cb1327a30d037c74860b91240508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef26cb1327a30d037c74860b91240508">&#9670;&nbsp;</a></span>storeCalibrationCRC32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void storeCalibrationCRC32 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>calibrationPageNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>calibrationCRC</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Same as above, but writes the CRC32 for the calibration page rather than tune data </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pageNum</td><td>- Calibration page number </td></tr>
+    <tr><td class="paramname">crcValue</td><td>- CRC32 checksum </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_aef26cb1327a30d037c74860b91240508_icgraph.png" border="0" usemap="#astorage_8cpp_aef26cb1327a30d037c74860b91240508_icgraph" alt=""/></div>
+<map name="astorage_8cpp_aef26cb1327a30d037c74860b91240508_icgraph" id="astorage_8cpp_aef26cb1327a30d037c74860b91240508_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,596,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
 </map>
 </div>
 
