@@ -89,9 +89,9 @@ Macros</h2></td></tr>
 <tr class="separator:a9945a7484e877e2a5bef621259844809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6de8020b8ba79cc9175db141a52f44d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a6de8020b8ba79cc9175db141a52f44d6">CRANKMATH_METHOD_2ND_DERIVATIVE</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a6de8020b8ba79cc9175db141a52f44d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
+<tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8ino.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
 <tr class="separator:a60ecc58cbe7e51c63d83631692059bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
+<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8ino.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
 <tr class="separator:a0c9780afacb74596f5c270694b3b9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td></tr>
 <tr class="separator:ac783172fb35e2a758ba17f7cabda528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,14 +111,8 @@ Variables</h2></td></tr>
 <tr class="separator:a73ed567d5bb7cb938d9918e678170ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c4592777c16cb5795eb56475dce501f"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a></td></tr>
 <tr class="separator:a9c4592777c16cb5795eb56475dce501f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a484bc581d731d8ef7947f9aef754fe1b"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a484bc581d731d8ef7947f9aef754fe1b">degreesPeruSx2048</a></td></tr>
-<tr class="separator:a484bc581d731d8ef7947f9aef754fe1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68b6f1c0ad43a0c6a23d47bf2ab0d215"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a></td></tr>
 <tr class="separator:a68b6f1c0ad43a0c6a23d47bf2ab0d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a600359aee213ad7b155d39ba7bb03f91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a600359aee213ad7b155d39ba7bb03f91">deltaToothCount</a> = 0</td></tr>
-<tr class="separator:a600359aee213ad7b155d39ba7bb03f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c18d1792dc4e9448e75d44fb92b65a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9c18d1792dc4e9448e75d44fb92b65a5">rpmDelta</a></td></tr>
-<tr class="separator:a9c18d1792dc4e9448e75d44fb92b65a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a6de8020b8ba79cc9175db141a52f44d6" name="a6de8020b8ba79cc9175db141a52f44d6"></a>
@@ -202,7 +196,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">targetDegrees</td><td>)</td>
-          <td>&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td>
+          <td>&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8ino.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -220,7 +214,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">time</td><td>)</td>
-          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
+          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8ino.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -383,58 +377,24 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a484bc581d731d8ef7947f9aef754fe1b" name="a484bc581d731d8ef7947f9aef754fe1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a484bc581d731d8ef7947f9aef754fe1b">&#9670;&nbsp;</a></span>degreesPeruSx2048</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint16_t degreesPeruSx2048</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a68b6f1c0ad43a0c6a23d47bf2ab0d215" name="a68b6f1c0ad43a0c6a23d47bf2ab0d215"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68b6f1c0ad43a0c6a23d47bf2ab0d215">&#9670;&nbsp;</a></span>degreesPeruSx32768</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile unsigned long degreesPeruSx32768</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a600359aee213ad7b155d39ba7bb03f91" name="a600359aee213ad7b155d39ba7bb03f91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600359aee213ad7b155d39ba7bb03f91">&#9670;&nbsp;</a></span>deltaToothCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> deltaToothCount = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9c18d1792dc4e9448e75d44fb92b65a5" name="a9c18d1792dc4e9448e75d44fb92b65a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c18d1792dc4e9448e75d44fb92b65a5">&#9670;&nbsp;</a></span>rpmDelta</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int rpmDelta</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -444,11 +404,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile uint16_t timePerDegree</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -458,11 +426,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile uint16_t timePerDegreex16</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
