@@ -13,7 +13,7 @@ var searchData=
   ['pcrccalc_10',['pCrcCalc',['../page__crc_8cpp.html#a7b340f252c55d3f0170e3a3f318525fe',1,'page_crc.cpp']]],
   ['pdata_11',['pData',['../structpage__iterator__t.html#a9fa723374e589e0ff2f5f6372985da80',1,'page_iterator_t']]],
   ['pending_12',['PENDING',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73',1,'scheduler.h']]],
-  ['percentage_13',['percentage',['../maths_8ino.html#a5fe79fb2acb41c931dd8f5c610e9c47b',1,'percentage(byte x, unsigned long y):&#160;maths.ino'],['../maths_8h.html#ad15d7632e1bee5ab5f88b05896b4a94e',1,'percentage(byte, unsigned long):&#160;maths.ino']]],
+  ['percentage_13',['percentage',['../maths_8ino.html#a101058c9dcab84201e963f8dd32690d3',1,'percentage(uint8_t x, unsigned long y):&#160;maths.ino'],['../maths_8h.html#a463379159b6bf44d8cc3ae2dded6d5a3',1,'percentage(uint8_t, unsigned long):&#160;maths.ino']]],
   ['pertoothign_14',['perToothIgn',['../globals_8h.html#a71d40e06c0a8ad7d28e82a3f6d9b5c73',1,'perToothIgn():&#160;globals.h'],['../structconfig2.html#af3bba01758d44f2924605f0f12e1e936',1,'config2::perToothIgn()']]],
   ['pid_5fafrtarget_15',['PID_AFRTarget',['../corrections_8ino.html#a6290f0cfc0c525c9a2eb40d50cc71a40',1,'corrections.ino']]],
   ['pid_5fo2_16',['PID_O2',['../corrections_8ino.html#affac2fca0c325ae73617e362d96e9a40',1,'corrections.ino']]],

@@ -74,125 +74,36 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &quot;src/libdivide/libdivide.h&quot;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;src/libdivide/constant_fast_div.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa47ccafa439aaf6348e7a0c6fe480cf2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#aa47ccafa439aaf6348e7a0c6fe480cf2">fastMap</a> (unsigned long x, int in_min, int in_max, int out_min, int out_max)</td></tr>
 <tr class="separator:aa47ccafa439aaf6348e7a0c6fe480cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a007c6ddd340c2a75294bc9249593ff30"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a007c6ddd340c2a75294bc9249593ff30">divu10</a> (uint32_t n)</td></tr>
-<tr class="separator:a007c6ddd340c2a75294bc9249593ff30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2178e3ebf635f5ac311f78f449549399"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a2178e3ebf635f5ac311f78f449549399">divs100</a> (int32_t n)</td></tr>
-<tr class="separator:a2178e3ebf635f5ac311f78f449549399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c8e3d63c9bb479c0f7dc176514030e9"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a2c8e3d63c9bb479c0f7dc176514030e9">divu100</a> (unsigned long n)</td></tr>
-<tr class="separator:a2c8e3d63c9bb479c0f7dc176514030e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe79fb2acb41c931dd8f5c610e9c47b"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a5fe79fb2acb41c931dd8f5c610e9c47b">percentage</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> x, unsigned long y)</td></tr>
-<tr class="separator:a5fe79fb2acb41c931dd8f5c610e9c47b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4820f4ced16fef2545c65e9e9ebf90eb"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a4820f4ced16fef2545c65e9e9ebf90eb">halfPercentage</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> x, unsigned long y)</td></tr>
-<tr class="separator:a4820f4ced16fef2545c65e9e9ebf90eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101058c9dcab84201e963f8dd32690d3"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a101058c9dcab84201e963f8dd32690d3">percentage</a> (uint8_t x, unsigned long y)</td></tr>
+<tr class="separator:a101058c9dcab84201e963f8dd32690d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb7ed1eb66e590716409fc35d77602e"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a3eb7ed1eb66e590716409fc35d77602e">halfPercentage</a> (uint8_t x, unsigned long y)</td></tr>
+<tr class="separator:a3eb7ed1eb66e590716409fc35d77602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ef6b9233d5c96cc2f0946edbcbec9fb"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a3ef6b9233d5c96cc2f0946edbcbec9fb">powint</a> (int factor, unsigned int exponent)</td></tr>
 <tr class="separator:a3ef6b9233d5c96cc2f0946edbcbec9fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a3d5a98806c67fc31d61981bc80521b64"><td class="memItemLeft" align="right" valign="top">struct libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a3d5a98806c67fc31d61981bc80521b64">libdiv_u32_10</a> = libdivide::libdivide_u32_gen(10)</td></tr>
-<tr class="separator:a3d5a98806c67fc31d61981bc80521b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3b253e8e68a43ae6aa4eda00c242f65"><td class="memItemLeft" align="right" valign="top">struct libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#ac3b253e8e68a43ae6aa4eda00c242f65">libdiv_u32_100</a> = libdivide::libdivide_u32_gen(100)</td></tr>
-<tr class="separator:ac3b253e8e68a43ae6aa4eda00c242f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a869d91fd00991b9ce0888c7b5c772593"><td class="memItemLeft" align="right" valign="top">struct libdivide::libdivide_s32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a869d91fd00991b9ce0888c7b5c772593">libdiv_s32_100</a> = libdivide::libdivide_s32_gen(100)</td></tr>
-<tr class="separator:a869d91fd00991b9ce0888c7b5c772593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9373e2497303309a8b683a8ba79e53c"><td class="memItemLeft" align="right" valign="top">struct libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#af9373e2497303309a8b683a8ba79e53c">libdiv_u32_200</a> = libdivide::libdivide_u32_gen(200)</td></tr>
-<tr class="separator:af9373e2497303309a8b683a8ba79e53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68ffe6da9e6f7ab9169906fdd6e673c2"><td class="memItemLeft" align="right" valign="top">struct libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a68ffe6da9e6f7ab9169906fdd6e673c2">libdiv_u32_360</a> = libdivide::libdivide_u32_gen(360)</td></tr>
-<tr class="separator:a68ffe6da9e6f7ab9169906fdd6e673c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e88cd308855e63de40bc71c75d3e6d"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_s16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a34e88cd308855e63de40bc71c75d3e6d">libdiv_s16_100</a> = { .magic = S16_MAGIC(100), .more = S16_MORE(100) }</td></tr>
+<tr class="separator:a34e88cd308855e63de40bc71c75d3e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2811894ade992fc3eb7565a571c773"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_u16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#adc2811894ade992fc3eb7565a571c773">libdiv_u16_100</a> = { .magic = U16_MAGIC(100), .more = U16_MORE(100) }</td></tr>
+<tr class="separator:adc2811894ade992fc3eb7565a571c773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fea3626bc5075aaa34aa959801f5075"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a2fea3626bc5075aaa34aa959801f5075">libdiv_u32_100</a> = { .magic = 2748779070, .more = 6 }</td></tr>
+<tr class="separator:a2fea3626bc5075aaa34aa959801f5075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a158a3dcdb1243dd3a951674f78eeecba"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_s32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#a158a3dcdb1243dd3a951674f78eeecba">libdiv_s32_100</a> = { .magic = 1374389535, .more = 5 }</td></tr>
+<tr class="separator:a158a3dcdb1243dd3a951674f78eeecba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba00e2b17ba320256ebdedf00cf26683"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#aba00e2b17ba320256ebdedf00cf26683">libdiv_u32_200</a> = { .magic = 2748779070, .more = 7 }</td></tr>
+<tr class="separator:aba00e2b17ba320256ebdedf00cf26683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae799b5a37b6a99aeb0e3886a78d22ea3"><td class="memItemLeft" align="right" valign="top">libdivide::libdivide_u32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8ino.html#ae799b5a37b6a99aeb0e3886a78d22ea3">libdiv_u32_360</a> = { .magic = 1813430637, .more = 72 }</td></tr>
+<tr class="separator:ae799b5a37b6a99aeb0e3886a78d22ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2178e3ebf635f5ac311f78f449549399" name="a2178e3ebf635f5ac311f78f449549399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2178e3ebf635f5ac311f78f449549399">&#9670;&nbsp;</a></span>divs100()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t divs100 </td>
-          <td>(</td>
-          <td class="paramtype">int32_t&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="maths_8ino_a2178e3ebf635f5ac311f78f449549399_icgraph.png" border="0" usemap="#amaths_8ino_a2178e3ebf635f5ac311f78f449549399_icgraph" alt=""/></div>
-<map name="amaths_8ino_a2178e3ebf635f5ac311f78f449549399_icgraph" id="amaths_8ino_a2178e3ebf635f5ac311f78f449549399_icgraph">
-<area shape="rect" title=" " alt="" coords="267,5,333,32"/>
-<area shape="rect" href="corrections_8ino.html#a22b41ec6dc42b8f7c831ea87d16560f5" title=" " alt="" coords="100,5,219,32"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a007c6ddd340c2a75294bc9249593ff30" name="a007c6ddd340c2a75294bc9249593ff30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a007c6ddd340c2a75294bc9249593ff30">&#9670;&nbsp;</a></span>divu10()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t divu10 </td>
-          <td>(</td>
-          <td class="paramtype">uint32_t&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2c8e3d63c9bb479c0f7dc176514030e9" name="a2c8e3d63c9bb479c0f7dc176514030e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c8e3d63c9bb479c0f7dc176514030e9">&#9670;&nbsp;</a></span>divu100()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long divu100 </td>
-          <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="maths_8ino_a2c8e3d63c9bb479c0f7dc176514030e9_icgraph.png" border="0" usemap="#amaths_8ino_a2c8e3d63c9bb479c0f7dc176514030e9_icgraph" alt=""/></div>
-<map name="amaths_8ino_a2c8e3d63c9bb479c0f7dc176514030e9_icgraph" id="amaths_8ino_a2c8e3d63c9bb479c0f7dc176514030e9_icgraph">
-<area shape="rect" title=" " alt="" coords="667,57,733,83"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,209,56,235"/>
-<area shape="rect" href="maths_8ino.html#a5fe79fb2acb41c931dd8f5c610e9c47b" title=" " alt="" coords="520,234,607,261"/>
-<area shape="rect" href="cancomms_8ino.html#a4862af77fe584dfc12088631c39a0b86" title=" " alt="" coords="508,57,619,83"/>
-<area shape="rect" href="corrections_8ino.html#af2c66e6e11888d88d75ea9302f6831b6" title=" " alt="" coords="323,209,435,235"/>
-<area shape="rect" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title=" " alt="" coords="138,310,221,337"/>
-<area shape="rect" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c" title=" " alt="" coords="334,361,425,387"/>
-<area shape="rect" href="auxiliaries_8ino.html#aa5098532802ea899b4c06d301e2571b7" title=" " alt="" coords="336,133,423,159"/>
-<area shape="rect" href="corrections_8ino.html#a16e594117d8ff29651f625e7adfe221b" title=" " alt="" coords="124,209,235,235"/>
-<area shape="rect" href="corrections_8ino.html#a838c2223c56e9f812869732959b9a825" title=" " alt="" coords="108,158,251,185"/>
-<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="137,411,221,438"/>
-<area shape="rect" href="sensors_8ino.html#a9d238af3280503ab8185551275ab1e22" title=" " alt="" coords="146,361,213,387"/>
-<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,411,60,438"/>
-<area shape="rect" href="cancomms_8ino.html#ae74ebc077c71190a67eb90dcbf24130c" title=" " alt="" coords="299,57,460,83"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="aa47ccafa439aaf6348e7a0c6fe480cf2" name="aa47ccafa439aaf6348e7a0c6fe480cf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa47ccafa439aaf6348e7a0c6fe480cf2">&#9670;&nbsp;</a></span>fastMap()</h2>
 
@@ -239,8 +150,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4820f4ced16fef2545c65e9e9ebf90eb" name="a4820f4ced16fef2545c65e9e9ebf90eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4820f4ced16fef2545c65e9e9ebf90eb">&#9670;&nbsp;</a></span>halfPercentage()</h2>
+<a id="a3eb7ed1eb66e590716409fc35d77602e" name="a3eb7ed1eb66e590716409fc35d77602e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb7ed1eb66e590716409fc35d77602e">&#9670;&nbsp;</a></span>halfPercentage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,7 +159,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">unsigned long halfPercentage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -267,8 +178,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="maths_8ino_a4820f4ced16fef2545c65e9e9ebf90eb_icgraph.png" border="0" usemap="#amaths_8ino_a4820f4ced16fef2545c65e9e9ebf90eb_icgraph" alt=""/></div>
-<map name="amaths_8ino_a4820f4ced16fef2545c65e9e9ebf90eb_icgraph" id="amaths_8ino_a4820f4ced16fef2545c65e9e9ebf90eb_icgraph">
+<div class="center"><img src="maths_8ino_a3eb7ed1eb66e590716409fc35d77602e_icgraph.png" border="0" usemap="#amaths_8ino_a3eb7ed1eb66e590716409fc35d77602e_icgraph" alt=""/></div>
+<map name="amaths_8ino_a3eb7ed1eb66e590716409fc35d77602e_icgraph" id="amaths_8ino_a3eb7ed1eb66e590716409fc35d77602e_icgraph">
 <area shape="rect" title=" " alt="" coords="289,31,399,57"/>
 <area shape="rect" href="auxiliaries_8ino.html#a97099627dc27a644e66c95e1edb91aa1" title=" " alt="" coords="160,5,241,32"/>
 <area shape="rect" href="auxiliaries_8ino.html#adc12024b0e15526b60ec8c2721eb7165" title=" " alt="" coords="160,56,241,83"/>
@@ -279,8 +190,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5fe79fb2acb41c931dd8f5c610e9c47b" name="a5fe79fb2acb41c931dd8f5c610e9c47b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fe79fb2acb41c931dd8f5c610e9c47b">&#9670;&nbsp;</a></span>percentage()</h2>
+<a id="a101058c9dcab84201e963f8dd32690d3" name="a101058c9dcab84201e963f8dd32690d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101058c9dcab84201e963f8dd32690d3">&#9670;&nbsp;</a></span>percentage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +199,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">unsigned long percentage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
@@ -307,17 +218,17 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="maths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_cgraph.png" border="0" usemap="#amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_cgraph" alt=""/></div>
-<map name="amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_cgraph" id="amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_cgraph">
+<div class="center"><img src="maths_8ino_a101058c9dcab84201e963f8dd32690d3_cgraph.png" border="0" usemap="#amaths_8ino_a101058c9dcab84201e963f8dd32690d3_cgraph" alt=""/></div>
+<map name="amaths_8ino_a101058c9dcab84201e963f8dd32690d3_cgraph" id="amaths_8ino_a101058c9dcab84201e963f8dd32690d3_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,92,32"/>
-<area shape="rect" href="maths_8ino.html#a2c8e3d63c9bb479c0f7dc176514030e9" title=" " alt="" coords="140,5,207,32"/>
+<area shape="rect" href="maths_8h.html#aedf50a185d8137de8a3145cedb9e49c5" title=" " alt="" coords="140,5,200,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="maths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_icgraph.png" border="0" usemap="#amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_icgraph" alt=""/></div>
-<map name="amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_icgraph" id="amaths_8ino_a5fe79fb2acb41c931dd8f5c610e9c47b_icgraph">
+<div class="center"><img src="maths_8ino_a101058c9dcab84201e963f8dd32690d3_icgraph.png" border="0" usemap="#amaths_8ino_a101058c9dcab84201e963f8dd32690d3_icgraph" alt=""/></div>
+<map name="amaths_8ino_a101058c9dcab84201e963f8dd32690d3_icgraph" id="amaths_8ino_a101058c9dcab84201e963f8dd32690d3_icgraph">
 <area shape="rect" title=" " alt="" coords="459,157,545,184"/>
 <area shape="rect" href="corrections_8ino.html#af2c66e6e11888d88d75ea9302f6831b6" title=" " alt="" coords="299,56,411,83"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,157,56,184"/>
@@ -381,70 +292,84 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a869d91fd00991b9ce0888c7b5c772593" name="a869d91fd00991b9ce0888c7b5c772593"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a869d91fd00991b9ce0888c7b5c772593">&#9670;&nbsp;</a></span>libdiv_s32_100</h2>
+<a id="a34e88cd308855e63de40bc71c75d3e6d" name="a34e88cd308855e63de40bc71c75d3e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34e88cd308855e63de40bc71c75d3e6d">&#9670;&nbsp;</a></span>libdiv_s16_100</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct libdivide::libdivide_s32_t libdiv_s32_100 = libdivide::libdivide_s32_gen(100)</td>
+          <td class="memname">libdivide::libdivide_s16_t libdiv_s16_100 = { .magic = S16_MAGIC(100), .more = S16_MORE(100) }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a3d5a98806c67fc31d61981bc80521b64" name="a3d5a98806c67fc31d61981bc80521b64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d5a98806c67fc31d61981bc80521b64">&#9670;&nbsp;</a></span>libdiv_u32_10</h2>
+<a id="a158a3dcdb1243dd3a951674f78eeecba" name="a158a3dcdb1243dd3a951674f78eeecba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158a3dcdb1243dd3a951674f78eeecba">&#9670;&nbsp;</a></span>libdiv_s32_100</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct libdivide::libdivide_u32_t libdiv_u32_10 = libdivide::libdivide_u32_gen(10)</td>
+          <td class="memname">libdivide::libdivide_s32_t libdiv_s32_100 = { .magic = 1374389535, .more = 5 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ac3b253e8e68a43ae6aa4eda00c242f65" name="ac3b253e8e68a43ae6aa4eda00c242f65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3b253e8e68a43ae6aa4eda00c242f65">&#9670;&nbsp;</a></span>libdiv_u32_100</h2>
+<a id="adc2811894ade992fc3eb7565a571c773" name="adc2811894ade992fc3eb7565a571c773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc2811894ade992fc3eb7565a571c773">&#9670;&nbsp;</a></span>libdiv_u16_100</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct libdivide::libdivide_u32_t libdiv_u32_100 = libdivide::libdivide_u32_gen(100)</td>
+          <td class="memname">libdivide::libdivide_u16_t libdiv_u16_100 = { .magic = U16_MAGIC(100), .more = U16_MORE(100) }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af9373e2497303309a8b683a8ba79e53c" name="af9373e2497303309a8b683a8ba79e53c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9373e2497303309a8b683a8ba79e53c">&#9670;&nbsp;</a></span>libdiv_u32_200</h2>
+<a id="a2fea3626bc5075aaa34aa959801f5075" name="a2fea3626bc5075aaa34aa959801f5075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fea3626bc5075aaa34aa959801f5075">&#9670;&nbsp;</a></span>libdiv_u32_100</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct libdivide::libdivide_u32_t libdiv_u32_200 = libdivide::libdivide_u32_gen(200)</td>
+          <td class="memname">libdivide::libdivide_u32_t libdiv_u32_100 = { .magic = 2748779070, .more = 6 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a68ffe6da9e6f7ab9169906fdd6e673c2" name="a68ffe6da9e6f7ab9169906fdd6e673c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68ffe6da9e6f7ab9169906fdd6e673c2">&#9670;&nbsp;</a></span>libdiv_u32_360</h2>
+<a id="aba00e2b17ba320256ebdedf00cf26683" name="aba00e2b17ba320256ebdedf00cf26683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba00e2b17ba320256ebdedf00cf26683">&#9670;&nbsp;</a></span>libdiv_u32_200</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct libdivide::libdivide_u32_t libdiv_u32_360 = libdivide::libdivide_u32_gen(360)</td>
+          <td class="memname">libdivide::libdivide_u32_t libdiv_u32_200 = { .magic = 2748779070, .more = 7 }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae799b5a37b6a99aeb0e3886a78d22ea3" name="ae799b5a37b6a99aeb0e3886a78d22ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae799b5a37b6a99aeb0e3886a78d22ea3">&#9670;&nbsp;</a></span>libdiv_u32_360</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">libdivide::libdivide_u32_t libdiv_u32_360 = { .magic = 1813430637, .more = 72 }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -454,7 +379,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 14 2022 00:16:55 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Fri Feb 18 2022 03:56:21 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
