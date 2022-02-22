@@ -180,6 +180,8 @@ Macros</h2></td></tr>
 <tr class="separator:a57709c961266782984325e4f388f415d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92d0dce5ac9a80f0042a8f709e697670"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#a92d0dce5ac9a80f0042a8f709e697670">EEPROM_CALIBRATION_CLT_OLD</a>&#160;&#160;&#160;3583</td></tr>
 <tr class="separator:a92d0dce5ac9a80f0042a8f709e697670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c3cfefadeb6408b2382366ca4d6f7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#a06c3cfefadeb6408b2382366ca4d6f7e">EEPROM_DEFER_DELAY</a>&#160;&#160;&#160;1500000UL</td></tr>
+<tr class="separator:a06c3cfefadeb6408b2382366ca4d6f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -232,8 +234,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a75c6703a82957c7d14a241f5749742b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#a75c6703a82957c7d14a241f5749742b7">deferEEPROMWrites</a></td></tr>
-<tr class="separator:a75c6703a82957c7d14a241f5749742b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab959174cd83824eb43f452824a5fdca2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8h.html#ab959174cd83824eb43f452824a5fdca2">deferEEPROMWritesUntil</a></td></tr>
+<tr class="separator:ab959174cd83824eb43f452824a5fdca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Functions for reading and writing user settings to/from EEPROM. </p>
@@ -1017,6 +1019,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a06c3cfefadeb6408b2382366ca4d6f7e" name="a06c3cfefadeb6408b2382366ca4d6f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c3cfefadeb6408b2382366ca4d6f7e">&#9670;&nbsp;</a></span>EEPROM_DEFER_DELAY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EEPROM_DEFER_DELAY&#160;&#160;&#160;1500000UL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5c6236730aa4a07d6b30b48258b3de9a" name="a5c6236730aa4a07d6b30b48258b3de9a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c6236730aa4a07d6b30b48258b3de9a">&#9670;&nbsp;</a></span>disableForceBurn()</h2>
@@ -1742,8 +1758,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a75c6703a82957c7d14a241f5749742b7" name="a75c6703a82957c7d14a241f5749742b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75c6703a82957c7d14a241f5749742b7">&#9670;&nbsp;</a></span>deferEEPROMWrites</h2>
+<a id="ab959174cd83824eb43f452824a5fdca2" name="ab959174cd83824eb43f452824a5fdca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab959174cd83824eb43f452824a5fdca2">&#9670;&nbsp;</a></span>deferEEPROMWritesUntil</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1752,7 +1768,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool deferEEPROMWrites</td>
+          <td class="memname">uint32_t deferEEPROMWritesUntil</td>
         </tr>
       </table>
   </td>
@@ -1767,7 +1783,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 18 2022 03:56:21 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Tue Feb 22 2022 12:30:31 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>

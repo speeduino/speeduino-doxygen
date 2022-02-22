@@ -33,7 +33,7 @@ var searchData=
   ['decoderissequential_30',['decoderIsSequential',['../decoders_8h.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4',1,'decoderIsSequential():&#160;decoders.ino'],['../decoders_8ino.html#a4d018ef97f19ddbb5dc92ef2b81ce5b4',1,'decoderIsSequential():&#160;decoders.ino']]],
   ['decoders_2eh_31',['decoders.h',['../decoders_8h.html',1,'']]],
   ['decoders_2eino_32',['decoders.ino',['../decoders_8ino.html',1,'']]],
-  ['defereepromwrites_33',['deferEEPROMWrites',['../storage_8h.html#a75c6703a82957c7d14a241f5749742b7',1,'deferEEPROMWrites():&#160;storage.cpp'],['../storage_8cpp.html#a75c6703a82957c7d14a241f5749742b7',1,'deferEEPROMWrites():&#160;storage.cpp']]],
+  ['defereepromwritesuntil_33',['deferEEPROMWritesUntil',['../storage_8h.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp'],['../storage_8cpp.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp']]],
   ['degreesperusx2048_34',['degreesPeruSx2048',['../crank_maths_8ino.html#a484bc581d731d8ef7947f9aef754fe1b',1,'crankMaths.ino']]],
   ['degreesperusx32768_35',['degreesPeruSx32768',['../crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.ino'],['../crank_maths_8ino.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.ino']]],
   ['deltatoothcount_36',['deltaToothCount',['../crank_maths_8ino.html#a600359aee213ad7b155d39ba7bb03f91',1,'crankMaths.ino']]],
