@@ -160,5 +160,5 @@ var searchData=
   ['boosttype_157',['boostType',['../structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016',1,'config4::boostType()'],['../globals_8h.html#a6f39f9743bf4ad009324e1bf21097e60',1,'boostType():&#160;globals.h']]],
   ['boostvvtpage_158',['boostvvtPage',['../pages_8h.html#a36631b0c2f2ea02c3dc863611da5f1cf',1,'pages.h']]],
   ['bootloadercaps_159',['bootloaderCaps',['../globals_8h.html#a27b9edc4839c8c27a1f09c4acb492c8a',1,'bootloaderCaps():&#160;globals.h'],['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4::bootloaderCaps()']]],
-  ['byte_160',['byte',['../group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94',1,'int16_ref.h']]]
+  ['byte_160',['byte',['../group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94',1,'int16_byte.h']]]
 ];

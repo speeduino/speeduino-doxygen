@@ -78,6 +78,7 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utilities_8h_source.html">utilities.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="table3d__axis__io_8h_source.html">table3d_axis_io.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -226,9 +227,9 @@ Variables</h2></td></tr>
 <div class="line">    return <a class="code hl_function" href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a>(pDataBlock, pageNum, <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum), blockSize);\</div>
 <div class="line">  } \</div>
 <div class="line">  DECLARE_NEXT_ENTITY_START(entityNum, blockSize)</div>
-<div class="ttc" id="apages_8cpp_html_a276fddbeb0a0e61851b0a3eab5843107"><div class="ttname"><a href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a></div><div class="ttdeci">#define ENTITY_START_VAR(entityNum)</div><div class="ttdef"><b>Definition:</b> pages.cpp:206</div></div>
-<div class="ttc" id="apages_8cpp_html_ac681806181c80437cfab37335f62ff39"><div class="ttname"><a href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a></div><div class="ttdeci">static uint16_t offset</div><div class="ttdef"><b>Definition:</b> pages.cpp:296</div></div>
-<div class="ttc" id="apages_8cpp_html_aed83f12b2a86639856758325f3a50d12"><div class="ttname"><a href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a></div><div class="ttdeci">const page_iterator_t create_raw_iterator(void *pBuffer, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:268</div></div>
+<div class="ttc" id="apages_8cpp_html_a276fddbeb0a0e61851b0a3eab5843107"><div class="ttname"><a href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a></div><div class="ttdeci">#define ENTITY_START_VAR(entityNum)</div><div class="ttdef"><b>Definition:</b> pages.cpp:207</div></div>
+<div class="ttc" id="apages_8cpp_html_ac681806181c80437cfab37335f62ff39"><div class="ttname"><a href="pages_8cpp.html#ac681806181c80437cfab37335f62ff39">offset</a></div><div class="ttdeci">static uint16_t offset</div><div class="ttdef"><b>Definition:</b> pages.cpp:297</div></div>
+<div class="ttc" id="apages_8cpp_html_aed83f12b2a86639856758325f3a50d12"><div class="ttname"><a href="pages_8cpp.html#aed83f12b2a86639856758325f3a50d12">create_raw_iterator</a></div><div class="ttdeci">const page_iterator_t create_raw_iterator(void *pBuffer, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:269</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -276,8 +277,8 @@ Variables</h2></td></tr>
 <div class="line">                                  <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum), <a class="code hl_function" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a>(pTable)); \</div>
 <div class="line">  } \</div>
 <div class="line">  DECLARE_NEXT_ENTITY_START(entityNum, <a class="code hl_function" href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a>(pTable))</div>
-<div class="ttc" id="apages_8cpp_html_a5ab2db17bbe02a4339a55498f41761d0"><div class="ttname"><a href="pages_8cpp.html#a5ab2db17bbe02a4339a55498f41761d0">create_table_iterator</a></div><div class="ttdeci">const page_iterator_t create_table_iterator(void *pTable, table_type_t key, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:244</div></div>
-<div class="ttc" id="apages_8cpp_html_a666fea52e4d082b7fe8cab80955cf065"><div class="ttname"><a href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a></div><div class="ttdeci">constexpr uint16_t get_table_axisy_end(const table_t *)</div><div class="ttdef"><b>Definition:</b> pages.cpp:43</div></div>
+<div class="ttc" id="apages_8cpp_html_a5ab2db17bbe02a4339a55498f41761d0"><div class="ttname"><a href="pages_8cpp.html#a5ab2db17bbe02a4339a55498f41761d0">create_table_iterator</a></div><div class="ttdeci">const page_iterator_t create_table_iterator(void *pTable, table_type_t key, uint8_t pageNum, uint16_t start, uint16_t size)</div><div class="ttdef"><b>Definition:</b> pages.cpp:245</div></div>
+<div class="ttc" id="apages_8cpp_html_a666fea52e4d082b7fe8cab80955cf065"><div class="ttname"><a href="pages_8cpp.html#a666fea52e4d082b7fe8cab80955cf065">get_table_axisy_end</a></div><div class="ttdeci">constexpr uint16_t get_table_axisy_end(const table_t *)</div><div class="ttdef"><b>Definition:</b> pages.cpp:44</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -336,7 +337,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  check_size&lt;pageNum, ENTITY_START_VAR(entityNum)&gt;(); \</div>
 <div class="line">  return <a class="code hl_function" href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a>(pageNum, <a class="code hl_define" href="pages_8cpp.html#a276fddbeb0a0e61851b0a3eab5843107">ENTITY_START_VAR</a>(entityNum)); \</div>
-<div class="ttc" id="apages_8cpp_html_a7651cccfa51cb2b5038b289315751ab4"><div class="ttname"><a href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a></div><div class="ttdeci">const page_iterator_t create_end_iterator(uint8_t pageNum, uint16_t start)</div><div class="ttdef"><b>Definition:</b> pages.cpp:225</div></div>
+<div class="ttc" id="apages_8cpp_html_a7651cccfa51cb2b5038b289315751ab4"><div class="ttname"><a href="pages_8cpp.html#a7651cccfa51cb2b5038b289315751ab4">create_end_iterator</a></div><div class="ttdeci">const page_iterator_t create_end_iterator(uint8_t pageNum, uint16_t start)</div><div class="ttdef"><b>Definition:</b> pages.cpp:226</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1434,7 +1435,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 24 2022 00:06:36 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Thu Feb 24 2022 05:12:24 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>

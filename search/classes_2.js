@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['int16_5fref_0',['int16_ref',['../classint16__ref.html',1,'']]]
+  ['int16_5fbyte_0',['int16_byte',['../classint16__byte.html',1,'']]]
 ];
