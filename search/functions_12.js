@@ -7,7 +7,7 @@ var searchData=
   ['table_5faxis_5fiterator_4',['table_axis_iterator',['../classtable__axis__iterator.html#ad4006ff87420ab1fbedc834565a67580',1,'table_axis_iterator']]],
   ['table_5frow_5fiterator_5',['table_row_iterator',['../classtable__row__iterator.html#a645ba3486a2fadd2ca49c92f74fc698f',1,'table_row_iterator']]],
   ['table_5fvalue_5fiterator_6',['table_value_iterator',['../classtable__value__iterator.html#ad1c2aeccea1e10858b79a26ef99da580',1,'table_value_iterator']]],
-  ['testcomm_7',['testComm',['../comms_8cpp.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.cpp'],['../comms_8h.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms.cpp']]],
+  ['testcomm_7',['testComm',['../comms__legacy_8cpp.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a1f8112fe04261fb00a689fbd96afd606',1,'testComm():&#160;comms_legacy.cpp']]],
   ['timetoangle_8',['timeToAngle',['../crank_maths_8h.html#abdf69861deca8590442873de0ab4acf8',1,'timeToAngle(unsigned long, byte):&#160;crankMaths.ino'],['../crank_maths_8ino.html#aea969ecaec6440bba97fb67c8af1501e',1,'timeToAngle(unsigned long time, byte method):&#160;crankMaths.ino']]],
   ['to_5fbyte_9',['to_byte',['../classint16__byte.html#aa7392079baeee50fa5b6383813252b54',1,'int16_byte::to_byte()'],['../classtable3d__axis__io.html#a5f03d46f6bf4264885fdfc4f65f4d4be',1,'table3d_axis_io::to_byte()']]],
   ['triggerpri_5f24x_10',['triggerPri_24X',['../group__dec__gm.html#ga5181acd791ae8f7d722fad7d46bc4bbb',1,'triggerPri_24X():&#160;decoders.ino'],['../group__dec__gm.html#ga5181acd791ae8f7d722fad7d46bc4bbb',1,'triggerPri_24X():&#160;decoders.ino']]],

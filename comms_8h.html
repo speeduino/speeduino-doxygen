@@ -68,6 +68,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">comms.h File Reference</div></div>
@@ -81,213 +82,728 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="comms_8h__dep__incl.png" border="0" usemap="#aspeeduino_2comms_8hdep" alt=""/></div>
 <map name="aspeeduino_2comms_8hdep" id="aspeeduino_2comms_8hdep">
-<area shape="rect" title="File for handling all serial requests." alt="" coords="481,5,620,32"/>
+<area shape="rect" title="File for handling all serial requests." alt="" coords="369,5,508,32"/>
 <area shape="rect" href="comms_8cpp.html" title=" " alt="" coords="5,80,157,107"/>
-<area shape="rect" href="new_comms_8cpp.html" title=" " alt="" coords="181,80,360,107"/>
-<area shape="rect" href="sensors_8ino.html" title=" " alt="" coords="385,80,535,107"/>
-<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="559,80,723,107"/>
-<area shape="rect" href="timers_8ino.html" title=" " alt="" coords="748,80,889,107"/>
-<area shape="rect" href="utilities_8ino.html" title=" " alt="" coords="913,80,1060,107"/>
+<area shape="rect" href="sensors_8ino.html" title=" " alt="" coords="182,80,333,107"/>
+<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="357,80,521,107"/>
+<area shape="rect" href="timers_8ino.html" title=" " alt="" coords="545,80,687,107"/>
+<area shape="rect" href="utilities_8ino.html" title=" " alt="" coords="711,80,857,107"/>
 </map>
 </div>
 </div>
 <p><a href="comms_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a68f581854d17e40650c5c08b0c0d0cac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a68f581854d17e40650c5c08b0c0d0cac">SD_READWRITE_PAGE</a>&#160;&#160;&#160;0x11</td></tr>
+<tr class="separator:a68f581854d17e40650c5c08b0c0d0cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae1688536c928d1042c6dc8230b9549"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9ae1688536c928d1042c6dc8230b9549">SD_READFILE_PAGE</a>&#160;&#160;&#160;0x14</td></tr>
+<tr class="separator:a9ae1688536c928d1042c6dc8230b9549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb3139f6b9b57a0b816fd112477e905"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a6bb3139f6b9b57a0b816fd112477e905">SD_RTC_PAGE</a>&#160;&#160;&#160;0x07</td></tr>
+<tr class="separator:a6bb3139f6b9b57a0b816fd112477e905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaae807ef9a2115c592fbc9fd14b8455f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aaae807ef9a2115c592fbc9fd14b8455f">SD_READ_STAT_ARG1</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:aaae807ef9a2115c592fbc9fd14b8455f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0578049de9b031573327f88812fd864"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#af0578049de9b031573327f88812fd864">SD_READ_STAT_ARG2</a>&#160;&#160;&#160;0x0010</td></tr>
+<tr class="separator:af0578049de9b031573327f88812fd864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a269e57385fc32f0d5172518874ca6f6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a269e57385fc32f0d5172518874ca6f6e">SD_READ_DIR_ARG1</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:a269e57385fc32f0d5172518874ca6f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c59be9faedb607df6bc7274851157f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a8c59be9faedb607df6bc7274851157f0">SD_READ_DIR_ARG2</a>&#160;&#160;&#160;0x0202</td></tr>
+<tr class="separator:a8c59be9faedb607df6bc7274851157f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5f3a082bb1bb2069c8c6c197318e57f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae5f3a082bb1bb2069c8c6c197318e57f">SD_READ_SEC_ARG1</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:ae5f3a082bb1bb2069c8c6c197318e57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0c2250d94a723718cd1681046cfc6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ade0c2250d94a723718cd1681046cfc6c">SD_READ_SEC_ARG2</a>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="separator:ade0c2250d94a723718cd1681046cfc6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae64ee21da555062e03a024c327c51458"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae64ee21da555062e03a024c327c51458">SD_READ_STRM_ARG1</a>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="separator:ae64ee21da555062e03a024c327c51458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80093dd17c7456b59c8a53bd73dd4206"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a80093dd17c7456b59c8a53bd73dd4206">SD_READ_STRM_ARG2</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:a80093dd17c7456b59c8a53bd73dd4206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31696b4126b4fc39c2e986c5cca4ee99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a31696b4126b4fc39c2e986c5cca4ee99">SD_READ_COMP_ARG1</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:a31696b4126b4fc39c2e986c5cca4ee99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31769175926ce3278def17e10998d8ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a31769175926ce3278def17e10998d8ba">SD_READ_COMP_ARG2</a>&#160;&#160;&#160;0x0800</td></tr>
+<tr class="separator:a31769175926ce3278def17e10998d8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641cb76804b53502163e6e461f959af4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a641cb76804b53502163e6e461f959af4">SD_RTC_READ_ARG1</a>&#160;&#160;&#160;0x024D</td></tr>
+<tr class="separator:a641cb76804b53502163e6e461f959af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2e1e9270c47f7be887cde70b93a4de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aed2e1e9270c47f7be887cde70b93a4de">SD_RTC_READ_ARG2</a>&#160;&#160;&#160;0x0008</td></tr>
+<tr class="separator:aed2e1e9270c47f7be887cde70b93a4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a83ed704998a996b12eeb8e076406f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a91a83ed704998a996b12eeb8e076406f">SD_WRITE_DO_ARG1</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:a91a83ed704998a996b12eeb8e076406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a810319b49d2f94b6d280d055cd7ccfdf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a810319b49d2f94b6d280d055cd7ccfdf">SD_WRITE_DO_ARG2</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:a810319b49d2f94b6d280d055cd7ccfdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a1311ffd6d821115f7abd64496692d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae4a1311ffd6d821115f7abd64496692d">SD_WRITE_DIR_ARG1</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:ae4a1311ffd6d821115f7abd64496692d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9461d2212646a636110c44e6d1590f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9c9461d2212646a636110c44e6d1590f">SD_WRITE_DIR_ARG2</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:a9c9461d2212646a636110c44e6d1590f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab537b9eb69180344c32c1aae596dc8dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ab537b9eb69180344c32c1aae596dc8dd">SD_WRITE_SEC_ARG1</a>&#160;&#160;&#160;0x0003</td></tr>
+<tr class="separator:ab537b9eb69180344c32c1aae596dc8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55165c48b3b1eb8f6af18aec0b8087f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a55165c48b3b1eb8f6af18aec0b8087f1">SD_WRITE_SEC_ARG2</a>&#160;&#160;&#160;0x0204</td></tr>
+<tr class="separator:a55165c48b3b1eb8f6af18aec0b8087f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc9a4a81f5d1029d0e8bad38a8bc033"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aefc9a4a81f5d1029d0e8bad38a8bc033">SD_WRITE_COMP_ARG1</a>&#160;&#160;&#160;0x0005</td></tr>
+<tr class="separator:aefc9a4a81f5d1029d0e8bad38a8bc033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c948b681d857b229c771bbc502f34a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a1c948b681d857b229c771bbc502f34a2">SD_WRITE_COMP_ARG2</a>&#160;&#160;&#160;0x0008</td></tr>
+<tr class="separator:a1c948b681d857b229c771bbc502f34a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a989fe786ec01d6259542e51128e9086f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a989fe786ec01d6259542e51128e9086f">SD_ERASEFILE_ARG1</a>&#160;&#160;&#160;0x0006</td></tr>
+<tr class="separator:a989fe786ec01d6259542e51128e9086f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a362e007cade964220530ead4188d7dad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a362e007cade964220530ead4188d7dad">SD_ERASEFILE_ARG2</a>&#160;&#160;&#160;0x0006</td></tr>
+<tr class="separator:a362e007cade964220530ead4188d7dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2901b77ec387a32c8378878a7c432d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9f2901b77ec387a32c8378878a7c432d">SD_SPD_TEST_ARG1</a>&#160;&#160;&#160;0x0007</td></tr>
+<tr class="separator:a9f2901b77ec387a32c8378878a7c432d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bdf647145003289e28d9b356542e480"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a5bdf647145003289e28d9b356542e480">SD_SPD_TEST_ARG2</a>&#160;&#160;&#160;0x0004</td></tr>
+<tr class="separator:a5bdf647145003289e28d9b356542e480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1062f273771cad5460cb73a9583f8821"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a1062f273771cad5460cb73a9583f8821">SD_RTC_WRITE_ARG1</a>&#160;&#160;&#160;0x027E</td></tr>
+<tr class="separator:a1062f273771cad5460cb73a9583f8821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f65c10c9d08f7dfc5e03d841fb5c71d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a0f65c10c9d08f7dfc5e03d841fb5c71d">SD_RTC_WRITE_ARG2</a>&#160;&#160;&#160;0x0009</td></tr>
+<tr class="separator:a0f65c10c9d08f7dfc5e03d841fb5c71d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c49b0fb24760273fd74e03c71cd5511"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a3c49b0fb24760273fd74e03c71cd5511">SERIAL_CRC_LENGTH</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a3c49b0fb24760273fd74e03c71cd5511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee6c0e1d63aa80c4b46e5741c316a49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a1ee6c0e1d63aa80c4b46e5741c316a49">SERIAL_LEN_SIZE</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a1ee6c0e1d63aa80c4b46e5741c316a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9210131c3691793eb3ef78e17c4147"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aea9210131c3691793eb3ef78e17c4147">SERIAL_OVERHEAD_SIZE</a>&#160;&#160;&#160;(<a class="el" href="comms_8h.html#a1ee6c0e1d63aa80c4b46e5741c316a49">SERIAL_LEN_SIZE</a> + <a class="el" href="comms_8h.html#a3c49b0fb24760273fd74e03c71cd5511">SERIAL_CRC_LENGTH</a>)</td></tr>
+<tr class="separator:aea9210131c3691793eb3ef78e17c4147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d7a9868042677db691b7dd12a38b8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#af8d7a9868042677db691b7dd12a38b8e">SERIAL_TIMEOUT</a>&#160;&#160;&#160;3000</td></tr>
+<tr class="separator:af8d7a9868042677db691b7dd12a38b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0adbb4d8dd0726e44409f4fe057f36ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a0adbb4d8dd0726e44409f4fe057f36ff">SERIAL_RC_OK</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:a0adbb4d8dd0726e44409f4fe057f36ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14bbdd7ce04fa44ff2907072a775d218"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a14bbdd7ce04fa44ff2907072a775d218">SERIAL_RC_REALTIME</a>&#160;&#160;&#160;0x01</td></tr>
+<tr class="separator:a14bbdd7ce04fa44ff2907072a775d218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c654e63478064140074cdaa7e7a1971"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a1c654e63478064140074cdaa7e7a1971">SERIAL_RC_PAGE</a>&#160;&#160;&#160;0x02</td></tr>
+<tr class="separator:a1c654e63478064140074cdaa7e7a1971"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ec8a3229e63060c98a362e27fa5a0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aa7ec8a3229e63060c98a362e27fa5a0c">SERIAL_RC_BURN_OK</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:aa7ec8a3229e63060c98a362e27fa5a0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a28c3dce76dd510e545fc563fc064e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2a28c3dce76dd510e545fc563fc064e6">SERIAL_RC_TIMEOUT</a>&#160;&#160;&#160;0x80</td></tr>
+<tr class="separator:a2a28c3dce76dd510e545fc563fc064e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9688cf593b08c28bb3e3bf9bb2deab3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9688cf593b08c28bb3e3bf9bb2deab3b">SERIAL_RC_CRC_ERR</a>&#160;&#160;&#160;0x82</td></tr>
+<tr class="separator:a9688cf593b08c28bb3e3bf9bb2deab3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7ffd8da4f30dd91b1b8bb7eda2f14da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aa7ffd8da4f30dd91b1b8bb7eda2f14da">SERIAL_RC_UKWN_ERR</a>&#160;&#160;&#160;0x83</td></tr>
+<tr class="separator:aa7ffd8da4f30dd91b1b8bb7eda2f14da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b459698e23859c430067395848413fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2b459698e23859c430067395848413fb">SERIAL_RC_RANGE_ERR</a>&#160;&#160;&#160;0x84</td></tr>
+<tr class="separator:a2b459698e23859c430067395848413fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5014108f44a0503426a0432d79dfe34"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae5014108f44a0503426a0432d79dfe34">SERIAL_RC_BUSY_ERR</a>&#160;&#160;&#160;0x85</td></tr>
+<tr class="separator:ae5014108f44a0503426a0432d79dfe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab8982e36e76fb7a0600ece003e4631db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ab8982e36e76fb7a0600ece003e4631db">command</a> ()</td></tr>
-<tr class="separator:ab8982e36e76fb7a0600ece003e4631db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b2320d5e589080075b8372402bf9483"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a0b2320d5e589080075b8372402bf9483">sendValues</a> (uint16_t, uint16_t, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>)</td></tr>
-<tr class="separator:a0b2320d5e589080075b8372402bf9483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab377618c27647931cad9f4d41e265686"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ab377618c27647931cad9f4d41e265686">sendValuesLegacy</a> ()</td></tr>
-<tr class="separator:ab377618c27647931cad9f4d41e265686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fb2eb2b13bc6122f9c89d000e2d7d01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2fb2eb2b13bc6122f9c89d000e2d7d01">parseSerial</a> ()</td></tr>
+<tr class="separator:a2fb2eb2b13bc6122f9c89d000e2d7d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a291c84c1f9e75664ccf29fcd51e069fd">processSerialCommand</a> ()</td></tr>
+<tr class="separator:a291c84c1f9e75664ccf29fcd51e069fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6eb845a7ec6ff913f8ede60edd706e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ac6eb845a7ec6ff913f8ede60edd706e9">sendSerialReturnCode</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> returnCode)</td></tr>
+<tr class="separator:ac6eb845a7ec6ff913f8ede60edd706e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56110054f8d37bbc6ac2003e055d22c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a56110054f8d37bbc6ac2003e055d22c8">sendSerialPayload</a> (void *, uint16_t payloadLength)</td></tr>
+<tr class="separator:a56110054f8d37bbc6ac2003e055d22c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0e2f015d887314efd4ba823e838a34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ab0e2f015d887314efd4ba823e838a34e">generateLiveValues</a> (uint16_t, uint16_t)</td></tr>
+<tr class="separator:ab0e2f015d887314efd4ba823e838a34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a688d00bbabd28fbaf9e0c50eca3adeae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a688d00bbabd28fbaf9e0c50eca3adeae">saveConfig</a> ()</td></tr>
 <tr class="separator:a688d00bbabd28fbaf9e0c50eca3adeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage</a> ()</td></tr>
-<tr class="separator:a4f99cc48bb26e2f99ed3d4b2c1269ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaabc3de716acfb21773f61e5444c20c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aaabc3de716acfb21773f61e5444c20c4">sendPageASCII</a> ()</td></tr>
-<tr class="separator:aaabc3de716acfb21773f61e5444c20c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a87ee164e2fe3eb17a57910d9531451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9a87ee164e2fe3eb17a57910d9531451">receiveCalibration</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>)</td></tr>
-<tr class="separator:a9a87ee164e2fe3eb17a57910d9531451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e07d4a74b9a2f1aab9c5a4c601cb1d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a8e07d4a74b9a2f1aab9c5a4c601cb1d6">sendToothLog_old</a> (uint8_t)</td></tr>
-<tr class="separator:a8e07d4a74b9a2f1aab9c5a4c601cb1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f8112fe04261fb00a689fbd96afd606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a1f8112fe04261fb00a689fbd96afd606">testComm</a> ()</td></tr>
-<tr class="separator:a1f8112fe04261fb00a689fbd96afd606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc8e8b623b8af266ae951edd96ade37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#adc8e8b623b8af266ae951edd96ade37b">sendToothLog</a> (uint8_t)</td></tr>
+<tr class="separator:adc8e8b623b8af266ae951edd96ade37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3ca38e7e2fe40e7f82a4b7d7f0669d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a4b3ca38e7e2fe40e7f82a4b7d7f0669d">commandButtons</a> (int16_t)</td></tr>
 <tr class="separator:a4b3ca38e7e2fe40e7f82a4b7d7f0669d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af39276a12d0b2ae39831eeae831a23c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#af39276a12d0b2ae39831eeae831a23c4">sendCompositeLog_old</a> (uint8_t)</td></tr>
-<tr class="separator:af39276a12d0b2ae39831eeae831a23c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9923aa5552200632dfe010021265f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#abf9923aa5552200632dfe010021265f2">sendCompositeLog</a> (uint8_t)</td></tr>
+<tr class="separator:abf9923aa5552200632dfe010021265f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75febfefa0183d8b1789aa4a4b7c69b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae75febfefa0183d8b1789aa4a4b7c69b">continueSerialTransmission</a> ()</td></tr>
+<tr class="separator:ae75febfefa0183d8b1789aa4a4b7c69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a2b88e8085d30a5021f05251216095266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a></td></tr>
-<tr class="separator:a2b88e8085d30a5021f05251216095266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83957882b06af23f432c60467de4c0ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a83957882b06af23f432c60467de4c0ea">isMap</a></td></tr>
-<tr class="separator:a83957882b06af23f432c60467de4c0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a154d82e943826b19ae76406a2ba8ad6f"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a154d82e943826b19ae76406a2ba8ad6f">requestCount</a></td></tr>
-<tr class="separator:a154d82e943826b19ae76406a2ba8ad6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5550f817b31a10cae662619ac5f71e72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a5550f817b31a10cae662619ac5f71e72">currentCommand</a></td></tr>
-<tr class="separator:a5550f817b31a10cae662619ac5f71e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addbed4f59e24864228a0745aeb96b2e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#addbed4f59e24864228a0745aeb96b2e9">cmdPending</a></td></tr>
-<tr class="separator:addbed4f59e24864228a0745aeb96b2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab691ea6bc6e723003f66796b3cd24df9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ab691ea6bc6e723003f66796b3cd24df9">chunkPending</a></td></tr>
-<tr class="separator:ab691ea6bc6e723003f66796b3cd24df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2579ec6aed1903a19a732839086d9fd7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2579ec6aed1903a19a732839086d9fd7">chunkComplete</a></td></tr>
-<tr class="separator:a2579ec6aed1903a19a732839086d9fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb7cc51b3800b40d4b1f8f5a1464df29"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aeb7cc51b3800b40d4b1f8f5a1464df29">chunkSize</a></td></tr>
-<tr class="separator:aeb7cc51b3800b40d4b1f8f5a1464df29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaac3668f47034ddb078ad650bd5fb6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#afaac3668f47034ddb078ad650bd5fb6c">valueOffset</a></td></tr>
-<tr class="separator:afaac3668f47034ddb078ad650bd5fb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03d1c7913db6b3a2500df25ce13bf36c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a03d1c7913db6b3a2500df25ce13bf36c">tsCanId</a></td></tr>
-<tr class="separator:a03d1c7913db6b3a2500df25ce13bf36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b7771575e4a0302df37d8d270fa71f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3">inProgressOffset</a></td></tr>
-<tr class="separator:a2b7771575e4a0302df37d8d270fa71f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9702c5a3efdcb97b6b3445669981d30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b">inProgressLength</a></td></tr>
-<tr class="separator:a9702c5a3efdcb97b6b3445669981d30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9875874834ba3ab31caf329ad8a0eac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aa9875874834ba3ab31caf329ad8a0eac">legacySerial</a></td></tr>
-<tr class="separator:aa9875874834ba3ab31caf329ad8a0eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea43c59e51e0460f913bf3452a16374c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aea43c59e51e0460f913bf3452a16374c">inProgressCompositeTime</a></td></tr>
-<tr class="separator:aea43c59e51e0460f913bf3452a16374c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea83ccac29db15feaba2dee90ed4b93b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#aea83ccac29db15feaba2dee90ed4b93b">serialInProgress</a></td></tr>
-<tr class="separator:aea83ccac29db15feaba2dee90ed4b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae116c41617c4cf7cd2c3fc40096a2b27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ae116c41617c4cf7cd2c3fc40096a2b27">toothLogSendInProgress</a></td></tr>
-<tr class="separator:ae116c41617c4cf7cd2c3fc40096a2b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada8b2255db9a699d6ccf1ddca70db557"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#ada8b2255db9a699d6ccf1ddca70db557">compositeLogSendInProgress</a></td></tr>
-<tr class="separator:ada8b2255db9a699d6ccf1ddca70db557"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e68c0a6ce99d526d7c906992952b000"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a6e68c0a6ce99d526d7c906992952b000">serialWriteInProgress</a></td></tr>
+<tr class="separator:a6e68c0a6ce99d526d7c906992952b000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db46c98eeb7bb3c032ef01c1032fbb8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms_8h.html#a7db46c98eeb7bb3c032ef01c1032fbb8">serialReceivePending</a></td></tr>
+<tr class="separator:a7db46c98eeb7bb3c032ef01c1032fbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >File for handling all serial requests. </p>
 <dl class="section author"><dt>Author</dt><dd>Josh Stewart</dd></dl>
 <p>This file contains all the functions associated with serial comms. This includes sending of live data, sending/receiving current page data, sending CRC values of pages, receiving sensor calibration data etc </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="ab8982e36e76fb7a0600ece003e4631db" name="ab8982e36e76fb7a0600ece003e4631db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8982e36e76fb7a0600ece003e4631db">&#9670;&nbsp;</a></span>command()</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a989fe786ec01d6259542e51128e9086f" name="a989fe786ec01d6259542e51128e9086f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a989fe786ec01d6259542e51128e9086f">&#9670;&nbsp;</a></span>SD_ERASEFILE_ARG1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void command </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">#define SD_ERASEFILE_ARG1&#160;&#160;&#160;0x0006</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Processes the incoming data on the serial buffer based on the command sent. Can be either data for a new command or a continuation of data for command that is already in progress:</p><ul>
-<li>cmdPending = If a command has started but is wairing on further data to complete</li>
-<li>chunkPending = Specifically for the new receive value method where TS will send a known number of contiguous bytes to be written to a table</li>
-</ul>
-<p >Comands are single byte (letter symbol) commands. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_ab8982e36e76fb7a0600ece003e4631db_cgraph.png" border="0" usemap="#acomms_8h_ab8982e36e76fb7a0600ece003e4631db_cgraph" alt=""/></div>
-<map name="acomms_8h_ab8982e36e76fb7a0600ece003e4631db_cgraph" id="acomms_8h_ab8982e36e76fb7a0600ece003e4631db_cgraph">
-<area shape="rect" title=" " alt="" coords="5,487,84,513"/>
-<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="157,5,302,32"/>
-<area shape="rect" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95" title=" " alt="" coords="163,56,296,83"/>
-<area shape="rect" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd" title=" " alt="" coords="163,107,296,133"/>
-<area shape="rect" href="storage_8cpp.html#ac028c51285d0a3bfe1f11e84e2a74b97" title=" " alt="" coords="169,157,289,184"/>
-<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="178,259,281,285"/>
-<area shape="rect" href="group__dec__uni.html#gaf8f31abd69f3747f44a6491a2a3b94dd" title=" " alt="" coords="168,360,291,387"/>
-<area shape="rect" href="group__dec__uni.html#ga24b99eef5e31c2d80415ea0dedb705e5" title=" " alt="" coords="159,309,299,336"/>
-<area shape="rect" href="comms_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="167,512,292,539"/>
-<area shape="rect" href="storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523" title=" " alt="" coords="383,360,493,387"/>
-<area shape="rect" href="comms_8cpp.html#adcf017cbbd2533b932e60f97676d0b58" title=" " alt="" coords="150,461,309,488"/>
-<area shape="rect" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title=" " alt="" coords="189,208,269,235"/>
-<area shape="rect" href="comms_8cpp.html#aaabc3de716acfb21773f61e5444c20c4" title=" " alt="" coords="172,563,287,589"/>
-<area shape="rect" href="comms_8cpp.html#acd31f140c37d8580483d699d2cd75bdf" title=" " alt="" coords="165,613,294,640"/>
-<area shape="rect" href="comms_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="184,664,275,691"/>
-<area shape="rect" href="comms_8cpp.html#ab377618c27647931cad9f4d41e265686" title=" " alt="" coords="163,715,295,741"/>
-<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="178,765,281,792"/>
-<area shape="rect" href="comms_8cpp.html#a1f8112fe04261fb00a689fbd96afd606" title=" " alt="" coords="188,816,271,843"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="132,1323,327,1349"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="395,2184,481,2211"/>
-<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="179,2184,280,2211"/>
-<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="403,120,473,147"/>
-<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="389,12,487,39"/>
-<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="391,63,485,89"/>
-<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="394,183,482,209"/>
-<area shape="rect" href="page__crc_8cpp.html#a2171dcb30f85be06a3f016f0f718f19d" title=" " alt="" coords="553,12,678,39"/>
-<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="549,171,681,197"/>
-<area shape="rect" href="page__crc_8cpp.html#a9b48e55317b0a0e82f6eeef9972fdbb0" title=" " alt="" coords="581,221,649,248"/>
-<area shape="rect" href="page__crc_8cpp.html#abbe51ab14361845cce929197aaa41bff" title=" " alt="" coords="737,159,892,185"/>
-<area shape="rect" href="page__crc_8cpp.html#ae41b8442bdeaa6872e6cf0b2f892fa9a" title=" " alt="" coords="729,276,900,303"/>
-<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="771,429,859,456"/>
-<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="781,511,848,537"/>
-<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="781,352,848,379"/>
-<area shape="rect" href="classtable__axis__iterator.html#a6e6256ac904f25006b8e6ef22dc3b9ca" title="Test for end of iteration." alt="" coords="961,210,1087,251"/>
-<area shape="rect" href="classtable__axis__iterator.html#ab096dd104c55a53422a521f9683b2a81" title=" " alt="" coords="961,27,1087,69"/>
-<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="957,93,1091,134"/>
-<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="959,159,1089,185"/>
-<area shape="rect" href="classtable__value__iterator.html#a427eaf34c3380810392861e1497d231f" title="Test for end of iteration." alt="" coords="957,327,1091,369"/>
-<area shape="rect" href="page__crc_8cpp.html#aa3af868ed48a48c07d2108d5ee780492" title=" " alt="" coords="961,276,1087,303"/>
-<area shape="rect" href="classtable__row__iterator.html#a1a9cecb085a479a5f64dfe308bf8fb19" title="Number of elements available." alt="" coords="1159,269,1284,310"/>
-<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="399,259,477,285"/>
-<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="555,347,675,373"/>
-<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="559,272,672,299"/>
-<area shape="rect" href="group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a" title=" " alt="" coords="375,309,501,336"/>
-<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="384,411,492,437"/>
-<area shape="rect" href="errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2" title=" " alt="" coords="568,411,663,437"/>
-<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="399,461,477,488"/>
-<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="559,461,672,488"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title=" " alt="" coords="377,512,499,539"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title=" " alt="" coords="377,563,499,589"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title=" " alt="" coords="377,613,499,640"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title=" " alt="" coords="377,664,499,691"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title=" " alt="" coords="377,715,499,741"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title=" " alt="" coords="377,765,499,792"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title=" " alt="" coords="377,816,499,843"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title=" " alt="" coords="377,867,499,893"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916" title=" " alt="" coords="387,917,489,944"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a01b641708e40249dea11fe172204172e" title=" " alt="" coords="387,968,489,995"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a3079068c8153e1b0c865ec5be36ac183" title=" " alt="" coords="387,1019,489,1045"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a3a358e705c03243154d948dc7a6f0b79" title=" " alt="" coords="387,1069,489,1096"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a34e1a2c0cc565eaadabeb7e46db33be7" title=" " alt="" coords="387,1120,489,1147"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#acf39765f1de75cab4e79740e71fb1bfb" title=" " alt="" coords="387,1171,489,1197"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aac3399073d1c10dd72f9eaa0a7366d33" title=" " alt="" coords="387,1221,489,1248"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2" title=" " alt="" coords="387,1272,489,1299"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title=" " alt="" coords="381,1323,495,1349"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title=" " alt="" coords="381,1373,495,1400"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title=" " alt="" coords="381,1424,495,1451"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title=" " alt="" coords="381,1475,495,1501"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title=" " alt="" coords="381,1525,495,1552"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title=" " alt="" coords="381,1576,495,1603"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title=" " alt="" coords="381,1627,495,1653"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title=" " alt="" coords="381,1677,495,1704"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f" title=" " alt="" coords="388,1728,488,1755"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a29fbc3df9a7fc68f53ff6cdbe523f124" title=" " alt="" coords="388,1779,488,1805"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae9aaf0e322debad3f72951b32136b742" title=" " alt="" coords="388,1829,488,1856"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aa5362b6d0d0c0562e021aaa5eb1b6dc3" title=" " alt="" coords="388,1880,488,1907"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae23dca6392c4b5d1c363e40a5a1e5e6a" title=" " alt="" coords="388,1931,488,1957"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ac2f9b55e75dc43146bb9bdc5e7d2de04" title=" " alt="" coords="388,1981,488,2008"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aa25e823cfa503b43e1630d9196186d8e" title=" " alt="" coords="388,2032,488,2059"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375" title=" " alt="" coords="388,2083,488,2109"/>
-<area shape="rect" href="sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0" title="Returns the VSS pulse gap for a given history point." alt="" coords="377,2133,499,2160"/>
-<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1157,2177,1286,2218"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="979,2129,1069,2156"/>
-<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="574,512,657,539"/>
-<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1148,2125,1295,2152"/>
-<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="789,1319,840,1345"/>
-<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="948,1319,1100,1345"/>
-<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="386,2235,490,2261"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_ab8982e36e76fb7a0600ece003e4631db_icgraph.png" border="0" usemap="#acomms_8h_ab8982e36e76fb7a0600ece003e4631db_icgraph" alt=""/></div>
-<map name="acomms_8h_ab8982e36e76fb7a0600ece003e4631db_icgraph" id="acomms_8h_ab8982e36e76fb7a0600ece003e4631db_icgraph">
-<area shape="rect" title=" " alt="" coords="443,31,521,57"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
-</map>
-</div>
 
 </div>
 </div>
+<a id="a362e007cade964220530ead4188d7dad" name="a362e007cade964220530ead4188d7dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a362e007cade964220530ead4188d7dad">&#9670;&nbsp;</a></span>SD_ERASEFILE_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_ERASEFILE_ARG2&#160;&#160;&#160;0x0006</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31696b4126b4fc39c2e986c5cca4ee99" name="a31696b4126b4fc39c2e986c5cca4ee99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31696b4126b4fc39c2e986c5cca4ee99">&#9670;&nbsp;</a></span>SD_READ_COMP_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_COMP_ARG1&#160;&#160;&#160;0x0000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31769175926ce3278def17e10998d8ba" name="a31769175926ce3278def17e10998d8ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31769175926ce3278def17e10998d8ba">&#9670;&nbsp;</a></span>SD_READ_COMP_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_COMP_ARG2&#160;&#160;&#160;0x0800</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a269e57385fc32f0d5172518874ca6f6e" name="a269e57385fc32f0d5172518874ca6f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a269e57385fc32f0d5172518874ca6f6e">&#9670;&nbsp;</a></span>SD_READ_DIR_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_DIR_ARG1&#160;&#160;&#160;0x0000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c59be9faedb607df6bc7274851157f0" name="a8c59be9faedb607df6bc7274851157f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c59be9faedb607df6bc7274851157f0">&#9670;&nbsp;</a></span>SD_READ_DIR_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_DIR_ARG2&#160;&#160;&#160;0x0202</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5f3a082bb1bb2069c8c6c197318e57f" name="ae5f3a082bb1bb2069c8c6c197318e57f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5f3a082bb1bb2069c8c6c197318e57f">&#9670;&nbsp;</a></span>SD_READ_SEC_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_SEC_ARG1&#160;&#160;&#160;0x0002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade0c2250d94a723718cd1681046cfc6c" name="ade0c2250d94a723718cd1681046cfc6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0c2250d94a723718cd1681046cfc6c">&#9670;&nbsp;</a></span>SD_READ_SEC_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_SEC_ARG2&#160;&#160;&#160;0x0004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaae807ef9a2115c592fbc9fd14b8455f" name="aaae807ef9a2115c592fbc9fd14b8455f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaae807ef9a2115c592fbc9fd14b8455f">&#9670;&nbsp;</a></span>SD_READ_STAT_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_STAT_ARG1&#160;&#160;&#160;0x0000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af0578049de9b031573327f88812fd864" name="af0578049de9b031573327f88812fd864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0578049de9b031573327f88812fd864">&#9670;&nbsp;</a></span>SD_READ_STAT_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_STAT_ARG2&#160;&#160;&#160;0x0010</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae64ee21da555062e03a024c327c51458" name="ae64ee21da555062e03a024c327c51458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae64ee21da555062e03a024c327c51458">&#9670;&nbsp;</a></span>SD_READ_STRM_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_STRM_ARG1&#160;&#160;&#160;0x0004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80093dd17c7456b59c8a53bd73dd4206" name="a80093dd17c7456b59c8a53bd73dd4206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80093dd17c7456b59c8a53bd73dd4206">&#9670;&nbsp;</a></span>SD_READ_STRM_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READ_STRM_ARG2&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9ae1688536c928d1042c6dc8230b9549" name="a9ae1688536c928d1042c6dc8230b9549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae1688536c928d1042c6dc8230b9549">&#9670;&nbsp;</a></span>SD_READFILE_PAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READFILE_PAGE&#160;&#160;&#160;0x14</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68f581854d17e40650c5c08b0c0d0cac" name="a68f581854d17e40650c5c08b0c0d0cac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f581854d17e40650c5c08b0c0d0cac">&#9670;&nbsp;</a></span>SD_READWRITE_PAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_READWRITE_PAGE&#160;&#160;&#160;0x11</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bb3139f6b9b57a0b816fd112477e905" name="a6bb3139f6b9b57a0b816fd112477e905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb3139f6b9b57a0b816fd112477e905">&#9670;&nbsp;</a></span>SD_RTC_PAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_RTC_PAGE&#160;&#160;&#160;0x07</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a641cb76804b53502163e6e461f959af4" name="a641cb76804b53502163e6e461f959af4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641cb76804b53502163e6e461f959af4">&#9670;&nbsp;</a></span>SD_RTC_READ_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_RTC_READ_ARG1&#160;&#160;&#160;0x024D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed2e1e9270c47f7be887cde70b93a4de" name="aed2e1e9270c47f7be887cde70b93a4de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2e1e9270c47f7be887cde70b93a4de">&#9670;&nbsp;</a></span>SD_RTC_READ_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_RTC_READ_ARG2&#160;&#160;&#160;0x0008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1062f273771cad5460cb73a9583f8821" name="a1062f273771cad5460cb73a9583f8821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1062f273771cad5460cb73a9583f8821">&#9670;&nbsp;</a></span>SD_RTC_WRITE_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_RTC_WRITE_ARG1&#160;&#160;&#160;0x027E</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f65c10c9d08f7dfc5e03d841fb5c71d" name="a0f65c10c9d08f7dfc5e03d841fb5c71d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f65c10c9d08f7dfc5e03d841fb5c71d">&#9670;&nbsp;</a></span>SD_RTC_WRITE_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_RTC_WRITE_ARG2&#160;&#160;&#160;0x0009</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f2901b77ec387a32c8378878a7c432d" name="a9f2901b77ec387a32c8378878a7c432d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2901b77ec387a32c8378878a7c432d">&#9670;&nbsp;</a></span>SD_SPD_TEST_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_SPD_TEST_ARG1&#160;&#160;&#160;0x0007</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bdf647145003289e28d9b356542e480" name="a5bdf647145003289e28d9b356542e480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bdf647145003289e28d9b356542e480">&#9670;&nbsp;</a></span>SD_SPD_TEST_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_SPD_TEST_ARG2&#160;&#160;&#160;0x0004</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aefc9a4a81f5d1029d0e8bad38a8bc033" name="aefc9a4a81f5d1029d0e8bad38a8bc033"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc9a4a81f5d1029d0e8bad38a8bc033">&#9670;&nbsp;</a></span>SD_WRITE_COMP_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_COMP_ARG1&#160;&#160;&#160;0x0005</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c948b681d857b229c771bbc502f34a2" name="a1c948b681d857b229c771bbc502f34a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c948b681d857b229c771bbc502f34a2">&#9670;&nbsp;</a></span>SD_WRITE_COMP_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_COMP_ARG2&#160;&#160;&#160;0x0008</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae4a1311ffd6d821115f7abd64496692d" name="ae4a1311ffd6d821115f7abd64496692d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a1311ffd6d821115f7abd64496692d">&#9670;&nbsp;</a></span>SD_WRITE_DIR_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_DIR_ARG1&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c9461d2212646a636110c44e6d1590f" name="a9c9461d2212646a636110c44e6d1590f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9461d2212646a636110c44e6d1590f">&#9670;&nbsp;</a></span>SD_WRITE_DIR_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_DIR_ARG2&#160;&#160;&#160;0x0002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91a83ed704998a996b12eeb8e076406f" name="a91a83ed704998a996b12eeb8e076406f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a83ed704998a996b12eeb8e076406f">&#9670;&nbsp;</a></span>SD_WRITE_DO_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_DO_ARG1&#160;&#160;&#160;0x0000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a810319b49d2f94b6d280d055cd7ccfdf" name="a810319b49d2f94b6d280d055cd7ccfdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a810319b49d2f94b6d280d055cd7ccfdf">&#9670;&nbsp;</a></span>SD_WRITE_DO_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_DO_ARG2&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab537b9eb69180344c32c1aae596dc8dd" name="ab537b9eb69180344c32c1aae596dc8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab537b9eb69180344c32c1aae596dc8dd">&#9670;&nbsp;</a></span>SD_WRITE_SEC_ARG1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_SEC_ARG1&#160;&#160;&#160;0x0003</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55165c48b3b1eb8f6af18aec0b8087f1" name="a55165c48b3b1eb8f6af18aec0b8087f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55165c48b3b1eb8f6af18aec0b8087f1">&#9670;&nbsp;</a></span>SD_WRITE_SEC_ARG2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SD_WRITE_SEC_ARG2&#160;&#160;&#160;0x0204</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c49b0fb24760273fd74e03c71cd5511" name="a3c49b0fb24760273fd74e03c71cd5511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c49b0fb24760273fd74e03c71cd5511">&#9670;&nbsp;</a></span>SERIAL_CRC_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_CRC_LENGTH&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ee6c0e1d63aa80c4b46e5741c316a49" name="a1ee6c0e1d63aa80c4b46e5741c316a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee6c0e1d63aa80c4b46e5741c316a49">&#9670;&nbsp;</a></span>SERIAL_LEN_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_LEN_SIZE&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea9210131c3691793eb3ef78e17c4147" name="aea9210131c3691793eb3ef78e17c4147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9210131c3691793eb3ef78e17c4147">&#9670;&nbsp;</a></span>SERIAL_OVERHEAD_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_OVERHEAD_SIZE&#160;&#160;&#160;(<a class="el" href="comms_8h.html#a1ee6c0e1d63aa80c4b46e5741c316a49">SERIAL_LEN_SIZE</a> + <a class="el" href="comms_8h.html#a3c49b0fb24760273fd74e03c71cd5511">SERIAL_CRC_LENGTH</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7ec8a3229e63060c98a362e27fa5a0c" name="aa7ec8a3229e63060c98a362e27fa5a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7ec8a3229e63060c98a362e27fa5a0c">&#9670;&nbsp;</a></span>SERIAL_RC_BURN_OK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_BURN_OK&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5014108f44a0503426a0432d79dfe34" name="ae5014108f44a0503426a0432d79dfe34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5014108f44a0503426a0432d79dfe34">&#9670;&nbsp;</a></span>SERIAL_RC_BUSY_ERR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_BUSY_ERR&#160;&#160;&#160;0x85</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9688cf593b08c28bb3e3bf9bb2deab3b" name="a9688cf593b08c28bb3e3bf9bb2deab3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9688cf593b08c28bb3e3bf9bb2deab3b">&#9670;&nbsp;</a></span>SERIAL_RC_CRC_ERR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_CRC_ERR&#160;&#160;&#160;0x82</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0adbb4d8dd0726e44409f4fe057f36ff" name="a0adbb4d8dd0726e44409f4fe057f36ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0adbb4d8dd0726e44409f4fe057f36ff">&#9670;&nbsp;</a></span>SERIAL_RC_OK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_OK&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c654e63478064140074cdaa7e7a1971" name="a1c654e63478064140074cdaa7e7a1971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c654e63478064140074cdaa7e7a1971">&#9670;&nbsp;</a></span>SERIAL_RC_PAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_PAGE&#160;&#160;&#160;0x02</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b459698e23859c430067395848413fb" name="a2b459698e23859c430067395848413fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b459698e23859c430067395848413fb">&#9670;&nbsp;</a></span>SERIAL_RC_RANGE_ERR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_RANGE_ERR&#160;&#160;&#160;0x84</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14bbdd7ce04fa44ff2907072a775d218" name="a14bbdd7ce04fa44ff2907072a775d218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14bbdd7ce04fa44ff2907072a775d218">&#9670;&nbsp;</a></span>SERIAL_RC_REALTIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_REALTIME&#160;&#160;&#160;0x01</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a28c3dce76dd510e545fc563fc064e6" name="a2a28c3dce76dd510e545fc563fc064e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a28c3dce76dd510e545fc563fc064e6">&#9670;&nbsp;</a></span>SERIAL_RC_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_TIMEOUT&#160;&#160;&#160;0x80</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa7ffd8da4f30dd91b1b8bb7eda2f14da" name="aa7ffd8da4f30dd91b1b8bb7eda2f14da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7ffd8da4f30dd91b1b8bb7eda2f14da">&#9670;&nbsp;</a></span>SERIAL_RC_UKWN_ERR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_RC_UKWN_ERR&#160;&#160;&#160;0x83</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8d7a9868042677db691b7dd12a38b8e" name="af8d7a9868042677db691b7dd12a38b8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8d7a9868042677db691b7dd12a38b8e">&#9670;&nbsp;</a></span>SERIAL_TIMEOUT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SERIAL_TIMEOUT&#160;&#160;&#160;3000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="a4b3ca38e7e2fe40e7f82a4b7d7f0669d" name="a4b3ca38e7e2fe40e7f82a4b7d7f0669d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b3ca38e7e2fe40e7f82a4b7d7f0669d">&#9670;&nbsp;</a></span>commandButtons()</h2>
 
@@ -306,47 +822,366 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9a87ee164e2fe3eb17a57910d9531451" name="a9a87ee164e2fe3eb17a57910d9531451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a87ee164e2fe3eb17a57910d9531451">&#9670;&nbsp;</a></span>receiveCalibration()</h2>
+<a id="ae75febfefa0183d8b1789aa4a4b7c69b" name="ae75febfefa0183d8b1789aa4a4b7c69b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75febfefa0183d8b1789aa4a4b7c69b">&#9670;&nbsp;</a></span>continueSerialTransmission()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void receiveCalibration </td>
+          <td class="memname">void continueSerialTransmission </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>tableID</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Processes an incoming stream of calibration data (for CLT, IAT or O2) from TunerStudio. Result is store in EEPROM and memory.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph.png" border="0" usemap="#acomms_8h_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph" alt=""/></div>
+<map name="acomms_8h_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph" id="acomms_8h_ae75febfefa0183d8b1789aa4a4b7c69b_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,283,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab0e2f015d887314efd4ba823e838a34e" name="ab0e2f015d887314efd4ba823e838a34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0e2f015d887314efd4ba823e838a34e">&#9670;&nbsp;</a></span>generateLiveValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void generateLiveValues </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>packetLength</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Send a status record back to tuning/logging SW. This will "live" information from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a> struct. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tableID</td><td>- calibration table to process. 0 = Coolant Sensor. 1 = IAT Sensor. 2 = O2 Sensor. </td></tr>
+    <tr><td class="paramname">offset</td><td>- Start field number </td></tr>
+    <tr><td class="paramname">packetLength</td><td>- Length of actual message (after possible ack/confirm headers) E.g. tuning sw command 'A' (Send all values) will send data from field number 0, LOG_ENTRY_SIZE fields. </td></tr>
   </table>
   </dd>
 </dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a9a87ee164e2fe3eb17a57910d9531451_cgraph.png" border="0" usemap="#acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_cgraph" alt=""/></div>
-<map name="acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_cgraph" id="acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,131,32"/>
-<area shape="rect" href="storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523" title=" " alt="" coords="179,5,289,32"/>
+<div class="center"><img src="comms_8h_ab0e2f015d887314efd4ba823e838a34e_cgraph.png" border="0" usemap="#acomms_8h_ab0e2f015d887314efd4ba823e838a34e_cgraph" alt=""/></div>
+<map name="acomms_8h_ab0e2f015d887314efd4ba823e838a34e_cgraph" id="acomms_8h_ab0e2f015d887314efd4ba823e838a34e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,143,32"/>
+<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="191,5,299,32"/>
+<area shape="rect" href="errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2" title=" " alt="" coords="347,5,441,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a9a87ee164e2fe3eb17a57910d9531451_icgraph.png" border="0" usemap="#acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_icgraph" alt=""/></div>
-<map name="acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_icgraph" id="acomms_8h_a9a87ee164e2fe3eb17a57910d9531451_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,695,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
+<div class="center"><img src="comms_8h_ab0e2f015d887314efd4ba823e838a34e_icgraph.png" border="0" usemap="#acomms_8h_ab0e2f015d887314efd4ba823e838a34e_icgraph" alt=""/></div>
+<map name="acomms_8h_ab0e2f015d887314efd4ba823e838a34e_icgraph" id="acomms_8h_ab0e2f015d887314efd4ba823e838a34e_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,580,32"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2fb2eb2b13bc6122f9c89d000e2d7d01" name="a2fb2eb2b13bc6122f9c89d000e2d7d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fb2eb2b13bc6122f9c89d000e2d7d01">&#9670;&nbsp;</a></span>parseSerial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void parseSerial </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Processes the incoming data on the serial buffer based on the command sent. Can be either data for a new command or a continuation of data for command that is already in progress:</p><ul>
+<li>cmdPending = If a command has started but is wairing on further data to complete</li>
+<li>chunkPending = Specifically for the new receive value method where TS will send a known number of contiguous bytes to be written to a table</li>
+</ul>
+<p >Comands are single byte (letter symbol) commands. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_cgraph.png" border="0" usemap="#acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_cgraph" alt=""/></div>
+<map name="acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_cgraph" id="acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_cgraph">
+<area shape="rect" title=" " alt="" coords="5,1237,92,1264"/>
+<area shape="rect" href="comms__legacy_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="385,604,464,631"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="140,1237,300,1264"/>
+<area shape="rect" href="comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9" title=" " alt="" coords="571,1820,722,1847"/>
+<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="574,705,719,732"/>
+<area shape="rect" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95" title=" " alt="" coords="580,148,713,175"/>
+<area shape="rect" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd" title=" " alt="" coords="580,199,713,225"/>
+<area shape="rect" href="storage_8cpp.html#ac028c51285d0a3bfe1f11e84e2a74b97" title=" " alt="" coords="587,249,707,276"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="595,1389,698,1416"/>
+<area shape="rect" href="group__dec__uni.html#gaf8f31abd69f3747f44a6491a2a3b94dd" title=" " alt="" coords="585,1541,708,1568"/>
+<area shape="rect" href="group__dec__uni.html#ga24b99eef5e31c2d80415ea0dedb705e5" title=" " alt="" coords="577,1592,717,1619"/>
+<area shape="rect" href="storage_8cpp.html#acaa9a2fd315e9b53bc2f7a211bd24a38" title=" " alt="" coords="572,1440,721,1467"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="584,47,709,73"/>
+<area shape="rect" href="storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523" title=" " alt="" coords="800,47,911,73"/>
+<area shape="rect" href="comms__legacy_8cpp.html#adcf017cbbd2533b932e60f97676d0b58" title=" " alt="" coords="567,300,726,327"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title=" " alt="" coords="607,553,687,580"/>
+<area shape="rect" href="comms__legacy_8cpp.html#aaabc3de716acfb21773f61e5444c20c4" title=" " alt="" coords="589,351,704,377"/>
+<area shape="rect" href="comms__legacy_8cpp.html#acd31f140c37d8580483d699d2cd75bdf" title=" " alt="" coords="582,401,711,428"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="601,807,692,833"/>
+<area shape="rect" href="comms__legacy_8cpp.html#ab377618c27647931cad9f4d41e265686" title=" " alt="" coords="581,452,713,479"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="595,1491,698,1517"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1f8112fe04261fb00a689fbd96afd606" title=" " alt="" coords="605,503,688,529"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="549,1339,744,1365"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="812,553,899,580"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="596,604,697,631"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="820,401,891,428"/>
+<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="807,655,904,681"/>
+<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="808,705,903,732"/>
+<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="811,503,899,529"/>
+<area shape="rect" href="page__crc_8cpp.html#a2171dcb30f85be06a3f016f0f718f19d" title=" " alt="" coords="970,655,1095,681"/>
+<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="967,705,1099,732"/>
+<area shape="rect" href="page__crc_8cpp.html#a9b48e55317b0a0e82f6eeef9972fdbb0" title=" " alt="" coords="999,756,1067,783"/>
+<area shape="rect" href="page__crc_8cpp.html#abbe51ab14361845cce929197aaa41bff" title=" " alt="" coords="1155,756,1309,783"/>
+<area shape="rect" href="page__crc_8cpp.html#ae41b8442bdeaa6872e6cf0b2f892fa9a" title=" " alt="" coords="1147,880,1317,907"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="1188,631,1276,657"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="1199,556,1265,583"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="1199,705,1265,732"/>
+<area shape="rect" href="classtable__axis__iterator.html#a6e6256ac904f25006b8e6ef22dc3b9ca" title="Test for end of iteration." alt="" coords="1378,683,1505,725"/>
+<area shape="rect" href="classtable__axis__iterator.html#ab096dd104c55a53422a521f9683b2a81" title=" " alt="" coords="1378,749,1505,790"/>
+<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="1374,814,1509,855"/>
+<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="1377,632,1506,659"/>
+<area shape="rect" href="classtable__value__iterator.html#a427eaf34c3380810392861e1497d231f" title="Test for end of iteration." alt="" coords="1374,931,1509,973"/>
+<area shape="rect" href="page__crc_8cpp.html#aa3af868ed48a48c07d2108d5ee780492" title=" " alt="" coords="1379,880,1504,907"/>
+<area shape="rect" href="classtable__row__iterator.html#a1a9cecb085a479a5f64dfe308bf8fb19" title="Number of elements available." alt="" coords="1576,873,1701,914"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="816,2428,895,2455"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="973,2453,1093,2480"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="976,2403,1089,2429"/>
+<area shape="rect" href="group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a" title=" " alt="" coords="792,2529,919,2556"/>
+<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="801,604,909,631"/>
+<area shape="rect" href="errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2" title=" " alt="" coords="985,604,1080,631"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="816,2479,895,2505"/>
+<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="976,2504,1089,2531"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title=" " alt="" coords="794,1161,917,1188"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title=" " alt="" coords="794,1212,917,1239"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title=" " alt="" coords="794,1263,917,1289"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title=" " alt="" coords="794,1313,917,1340"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title=" " alt="" coords="794,1364,917,1391"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title=" " alt="" coords="794,1415,917,1441"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title=" " alt="" coords="794,1465,917,1492"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title=" " alt="" coords="794,1516,917,1543"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916" title=" " alt="" coords="804,1567,907,1593"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a01b641708e40249dea11fe172204172e" title=" " alt="" coords="804,1617,907,1644"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3079068c8153e1b0c865ec5be36ac183" title=" " alt="" coords="804,1668,907,1695"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3a358e705c03243154d948dc7a6f0b79" title=" " alt="" coords="804,1719,907,1745"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a34e1a2c0cc565eaadabeb7e46db33be7" title=" " alt="" coords="804,1769,907,1796"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf39765f1de75cab4e79740e71fb1bfb" title=" " alt="" coords="804,1820,907,1847"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aac3399073d1c10dd72f9eaa0a7366d33" title=" " alt="" coords="804,1871,907,1897"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2" title=" " alt="" coords="804,1921,907,1948"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title=" " alt="" coords="799,1972,912,1999"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title=" " alt="" coords="799,2023,912,2049"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title=" " alt="" coords="799,2073,912,2100"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title=" " alt="" coords="799,2124,912,2151"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title=" " alt="" coords="799,2175,912,2201"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title=" " alt="" coords="799,2225,912,2252"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title=" " alt="" coords="799,2276,912,2303"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title=" " alt="" coords="799,2327,912,2353"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f" title=" " alt="" coords="805,2377,905,2404"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a29fbc3df9a7fc68f53ff6cdbe523f124" title=" " alt="" coords="805,756,905,783"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae9aaf0e322debad3f72951b32136b742" title=" " alt="" coords="805,807,905,833"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa5362b6d0d0c0562e021aaa5eb1b6dc3" title=" " alt="" coords="805,857,905,884"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae23dca6392c4b5d1c363e40a5a1e5e6a" title=" " alt="" coords="805,908,905,935"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ac2f9b55e75dc43146bb9bdc5e7d2de04" title=" " alt="" coords="805,959,905,985"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa25e823cfa503b43e1630d9196186d8e" title=" " alt="" coords="805,1009,905,1036"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375" title=" " alt="" coords="805,1060,905,1087"/>
+<area shape="rect" href="sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0" title="Returns the VSS pulse gap for a given history point." alt="" coords="795,1111,916,1137"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1574,373,1703,414"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="1397,431,1486,457"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="991,553,1074,580"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1565,439,1712,465"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="1207,481,1257,508"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="1365,481,1517,508"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="803,452,907,479"/>
+<area shape="rect" href="comms_8cpp.html#a95b9c65e306c07808f46097ef93cb910" title=" " alt="" coords="356,857,493,884"/>
+<area shape="rect" href="rtc__common_8h.html#accb4c02b04b5d1594eaa897570d8d962" title=" " alt="" coords="383,1313,467,1340"/>
+<area shape="rect" href="rtc__common_8h.html#a283612449768dd391ae21477cecc7853" title=" " alt="" coords="378,1364,471,1391"/>
+<area shape="rect" href="rtc__common_8h.html#a6f40cb55153faa101298ec5e881b5b02" title=" " alt="" coords="379,1415,470,1441"/>
+<area shape="rect" href="rtc__common_8h.html#a28a45d8fadb901b319dd274a3e35249f" title=" " alt="" coords="374,1465,475,1492"/>
+<area shape="rect" href="rtc__common_8h.html#a9921a454002cdde7a3bf6f18a66c5256" title=" " alt="" coords="375,1516,474,1543"/>
+<area shape="rect" href="rtc__common_8h.html#ac4a92ad796ddfa5c995791ff97ecefab" title=" " alt="" coords="371,1567,478,1593"/>
+<area shape="rect" href="rtc__common_8h.html#a34dfabafd33ed94d17cf0720d36ca4a8" title=" " alt="" coords="380,1617,469,1644"/>
+<area shape="rect" href="rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65" title=" " alt="" coords="379,1668,470,1695"/>
+<area shape="rect" href="comms_8cpp.html#a04e88798d4ae7971f5641409724b2d6d" title=" " alt="" coords="357,1719,492,1745"/>
+<area shape="rect" href="comms_8cpp.html#a83941691bcb801365a86fb3817739f6e" title=" " alt="" coords="360,1820,489,1847"/>
+<area shape="rect" href="comms_8cpp.html#a6bdc3f8437af1ed0e5f20218366b3e58" title=" " alt="" coords="372,1769,477,1796"/>
+<area shape="rect" href="storage_8cpp.html#aef26cb1327a30d037c74860b91240508" title=" " alt="" coords="348,655,501,681"/>
+<area shape="rect" href="storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489" title=" " alt="" coords="354,1111,495,1137"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_icgraph.png" border="0" usemap="#acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_icgraph" alt=""/></div>
+<map name="acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_icgraph" id="acomms_8h_a2fb2eb2b13bc6122f9c89d000e2d7d01_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a291c84c1f9e75664ccf29fcd51e069fd" name="a291c84c1f9e75664ccf29fcd51e069fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291c84c1f9e75664ccf29fcd51e069fd">&#9670;&nbsp;</a></span>processSerialCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void processSerialCommand </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_a291c84c1f9e75664ccf29fcd51e069fd_cgraph.png" border="0" usemap="#acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_cgraph" alt=""/></div>
+<map name="acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_cgraph" id="acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_cgraph">
+<area shape="rect" title=" " alt="" coords="5,1297,165,1324"/>
+<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="439,208,585,235"/>
+<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="673,107,768,133"/>
+<area shape="rect" href="comms__legacy_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="251,588,329,615"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="461,56,563,83"/>
+<area shape="rect" href="group__dec__uni.html#gaf8f31abd69f3747f44a6491a2a3b94dd" title=" " alt="" coords="451,107,573,133"/>
+<area shape="rect" href="group__dec__uni.html#ga24b99eef5e31c2d80415ea0dedb705e5" title=" " alt="" coords="442,157,582,184"/>
+<area shape="rect" href="storage_8cpp.html#acaa9a2fd315e9b53bc2f7a211bd24a38" title=" " alt="" coords="437,1069,587,1096"/>
+<area shape="rect" href="storage_8cpp.html#ac3efa003544375926eb7d8d88cf19523" title=" " alt="" coords="665,623,776,649"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="461,1019,563,1045"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="415,1652,609,1679"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="677,867,764,893"/>
+<area shape="rect" href="comms_8cpp.html#a95b9c65e306c07808f46097ef93cb910" title=" " alt="" coords="221,1120,359,1147"/>
+<area shape="rect" href="rtc__common_8h.html#accb4c02b04b5d1594eaa897570d8d962" title=" " alt="" coords="248,1272,332,1299"/>
+<area shape="rect" href="rtc__common_8h.html#a283612449768dd391ae21477cecc7853" title=" " alt="" coords="243,1323,337,1349"/>
+<area shape="rect" href="rtc__common_8h.html#a6f40cb55153faa101298ec5e881b5b02" title=" " alt="" coords="245,1373,335,1400"/>
+<area shape="rect" href="rtc__common_8h.html#a28a45d8fadb901b319dd274a3e35249f" title=" " alt="" coords="239,1424,341,1451"/>
+<area shape="rect" href="rtc__common_8h.html#a9921a454002cdde7a3bf6f18a66c5256" title=" " alt="" coords="241,1475,339,1501"/>
+<area shape="rect" href="rtc__common_8h.html#ac4a92ad796ddfa5c995791ff97ecefab" title=" " alt="" coords="237,1525,343,1552"/>
+<area shape="rect" href="rtc__common_8h.html#a34dfabafd33ed94d17cf0720d36ca4a8" title=" " alt="" coords="245,1576,335,1603"/>
+<area shape="rect" href="rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65" title=" " alt="" coords="245,1627,335,1653"/>
+<area shape="rect" href="comms_8cpp.html#a04e88798d4ae7971f5641409724b2d6d" title=" " alt="" coords="223,1728,357,1755"/>
+<area shape="rect" href="comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9" title=" " alt="" coords="437,1728,587,1755"/>
+<area shape="rect" href="comms_8cpp.html#a83941691bcb801365a86fb3817739f6e" title=" " alt="" coords="225,1779,355,1805"/>
+<area shape="rect" href="comms_8cpp.html#a6bdc3f8437af1ed0e5f20218366b3e58" title=" " alt="" coords="237,1677,343,1704"/>
+<area shape="rect" href="storage_8cpp.html#aef26cb1327a30d037c74860b91240508" title=" " alt="" coords="213,1880,367,1907"/>
+<area shape="rect" href="storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489" title=" " alt="" coords="219,1931,361,1957"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="685,315,756,341"/>
+<area shape="rect" href="page__crc_8cpp.html#ad648b6ccad79a977cda15114fdfef63c" title=" " alt="" coords="672,264,769,291"/>
+<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="677,365,765,392"/>
+<area shape="rect" href="page__crc_8cpp.html#a2171dcb30f85be06a3f016f0f718f19d" title=" " alt="" coords="835,432,961,459"/>
+<area shape="rect" href="page__crc_8cpp.html#a1f3b101c2d6e381f97064d1ef8f7fbfb" title=" " alt="" coords="832,280,964,307"/>
+<area shape="rect" href="page__crc_8cpp.html#a9b48e55317b0a0e82f6eeef9972fdbb0" title=" " alt="" coords="864,331,932,357"/>
+<area shape="rect" href="page__crc_8cpp.html#abbe51ab14361845cce929197aaa41bff" title=" " alt="" coords="1020,233,1175,260"/>
+<area shape="rect" href="page__crc_8cpp.html#ae41b8442bdeaa6872e6cf0b2f892fa9a" title=" " alt="" coords="1012,357,1183,384"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="1053,660,1141,687"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="1064,443,1131,469"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="1064,540,1131,567"/>
+<area shape="rect" href="classtable__axis__iterator.html#a6e6256ac904f25006b8e6ef22dc3b9ca" title="Test for end of iteration." alt="" coords="1243,161,1370,202"/>
+<area shape="rect" href="classtable__axis__iterator.html#ab096dd104c55a53422a521f9683b2a81" title=" " alt="" coords="1243,226,1370,267"/>
+<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="1239,291,1374,333"/>
+<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="1242,109,1371,136"/>
+<area shape="rect" href="classtable__value__iterator.html#a427eaf34c3380810392861e1497d231f" title="Test for end of iteration." alt="" coords="1239,409,1374,450"/>
+<area shape="rect" href="page__crc_8cpp.html#aa3af868ed48a48c07d2108d5ee780492" title=" " alt="" coords="1244,357,1369,384"/>
+<area shape="rect" href="classtable__row__iterator.html#a1a9cecb085a479a5f64dfe308bf8fb19" title="Number of elements available." alt="" coords="1441,350,1567,391"/>
+<area shape="rect" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95" title=" " alt="" coords="445,411,579,437"/>
+<area shape="rect" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd" title=" " alt="" coords="445,461,579,488"/>
+<area shape="rect" href="storage_8cpp.html#ac028c51285d0a3bfe1f11e84e2a74b97" title=" " alt="" coords="452,512,572,539"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="449,664,575,691"/>
+<area shape="rect" href="comms__legacy_8cpp.html#adcf017cbbd2533b932e60f97676d0b58" title=" " alt="" coords="433,613,591,640"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7" title=" " alt="" coords="472,360,552,387"/>
+<area shape="rect" href="comms__legacy_8cpp.html#aaabc3de716acfb21773f61e5444c20c4" title=" " alt="" coords="455,765,569,792"/>
+<area shape="rect" href="comms__legacy_8cpp.html#acd31f140c37d8580483d699d2cd75bdf" title=" " alt="" coords="447,816,577,843"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="467,715,557,741"/>
+<area shape="rect" href="comms__legacy_8cpp.html#ab377618c27647931cad9f4d41e265686" title=" " alt="" coords="446,259,578,285"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1f8112fe04261fb00a689fbd96afd606" title=" " alt="" coords="471,309,553,336"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="461,917,563,944"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="681,56,760,83"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="838,381,958,408"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="841,56,955,83"/>
+<area shape="rect" href="group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a" title=" " alt="" coords="657,157,784,184"/>
+<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="667,775,775,801"/>
+<area shape="rect" href="errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2" title=" " alt="" coords="851,749,945,776"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="681,724,760,751"/>
+<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="841,699,955,725"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title=" " alt="" coords="659,1931,782,1957"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title=" " alt="" coords="659,1981,782,2008"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title=" " alt="" coords="659,2032,782,2059"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title=" " alt="" coords="659,2083,782,2109"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title=" " alt="" coords="659,2133,782,2160"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title=" " alt="" coords="659,2184,782,2211"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title=" " alt="" coords="659,2235,782,2261"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title=" " alt="" coords="659,2285,782,2312"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916" title=" " alt="" coords="669,2336,772,2363"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a01b641708e40249dea11fe172204172e" title=" " alt="" coords="669,2387,772,2413"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3079068c8153e1b0c865ec5be36ac183" title=" " alt="" coords="669,2437,772,2464"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3a358e705c03243154d948dc7a6f0b79" title=" " alt="" coords="669,2488,772,2515"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a34e1a2c0cc565eaadabeb7e46db33be7" title=" " alt="" coords="669,2539,772,2565"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf39765f1de75cab4e79740e71fb1bfb" title=" " alt="" coords="669,917,772,944"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aac3399073d1c10dd72f9eaa0a7366d33" title=" " alt="" coords="669,968,772,995"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2" title=" " alt="" coords="669,1019,772,1045"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title=" " alt="" coords="664,1069,777,1096"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title=" " alt="" coords="664,1120,777,1147"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title=" " alt="" coords="664,1171,777,1197"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title=" " alt="" coords="664,1221,777,1248"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title=" " alt="" coords="664,1272,777,1299"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title=" " alt="" coords="664,1323,777,1349"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title=" " alt="" coords="664,1373,777,1400"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title=" " alt="" coords="664,1424,777,1451"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f" title=" " alt="" coords="671,1475,771,1501"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a29fbc3df9a7fc68f53ff6cdbe523f124" title=" " alt="" coords="671,1525,771,1552"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae9aaf0e322debad3f72951b32136b742" title=" " alt="" coords="671,1576,771,1603"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa5362b6d0d0c0562e021aaa5eb1b6dc3" title=" " alt="" coords="671,1627,771,1653"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae23dca6392c4b5d1c363e40a5a1e5e6a" title=" " alt="" coords="671,1677,771,1704"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ac2f9b55e75dc43146bb9bdc5e7d2de04" title=" " alt="" coords="671,1728,771,1755"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa25e823cfa503b43e1630d9196186d8e" title=" " alt="" coords="671,1779,771,1805"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375" title=" " alt="" coords="671,1829,771,1856"/>
+<area shape="rect" href="sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0" title="Returns the VSS pulse gap for a given history point." alt="" coords="660,1880,781,1907"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1439,894,1569,935"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="1262,851,1351,877"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="857,800,939,827"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1431,843,1577,869"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="1072,800,1123,827"/>
+<area shape="rect" href="classtable__row__iterator.html#a91df76501f9812faeb35137ac38f0150" title="Pointer to the end of the row." alt="" coords="1231,800,1383,827"/>
+<area shape="rect" href="pages_8cpp.html#ab938b605ab6bfc744ec663ab1c053ca4" title=" " alt="" coords="669,673,773,700"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_a291c84c1f9e75664ccf29fcd51e069fd_icgraph.png" border="0" usemap="#acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_icgraph" alt=""/></div>
+<map name="acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_icgraph" id="acomms_8h_a291c84c1f9e75664ccf29fcd51e069fd_icgraph">
+<area shape="rect" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
 </map>
 </div>
 
@@ -369,14 +1204,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af39276a12d0b2ae39831eeae831a23c4" name="af39276a12d0b2ae39831eeae831a23c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af39276a12d0b2ae39831eeae831a23c4">&#9670;&nbsp;</a></span>sendCompositeLog_old()</h2>
+<a id="abf9923aa5552200632dfe010021265f2" name="abf9923aa5552200632dfe010021265f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9923aa5552200632dfe010021265f2">&#9670;&nbsp;</a></span>sendCompositeLog()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sendCompositeLog_old </td>
+          <td class="memname">void sendCompositeLog </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>startOffset</em></td><td>)</td>
@@ -385,153 +1220,45 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_af39276a12d0b2ae39831eeae831a23c4_icgraph.png" border="0" usemap="#acomms_8h_af39276a12d0b2ae39831eeae831a23c4_icgraph" alt=""/></div>
-<map name="acomms_8h_af39276a12d0b2ae39831eeae831a23c4_icgraph" id="acomms_8h_af39276a12d0b2ae39831eeae831a23c4_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,728,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a4f99cc48bb26e2f99ed3d4b2c1269ef7" name="a4f99cc48bb26e2f99ed3d4b2c1269ef7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f99cc48bb26e2f99ed3d4b2c1269ef7">&#9670;&nbsp;</a></span>sendPage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendPage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Pack the data within the current page (As set with the 'P' command) into a buffer and send it.</p>
-<p >Creates a page iterator by <a class="el" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca">page_begin()</a> (See: <a class="el" href="pages_8cpp.html">pages.cpp</a>). Sends page given in <a class="el" href="comms_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a>.</p>
-<p >Note that some translation of the data is required to lay it out in the way Megasqurit / TunerStudio expect it. Data is sent in binary format, as defined by in each page in the speeduino.ini. </p>
-<div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_cgraph.png" border="0" usemap="#acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_cgraph" alt=""/></div>
-<map name="acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_cgraph" id="acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,85,57"/>
-<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="142,5,213,32"/>
-<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="133,56,221,83"/>
+<div class="center"><img src="comms_8h_abf9923aa5552200632dfe010021265f2_cgraph.png" border="0" usemap="#acomms_8h_abf9923aa5552200632dfe010021265f2_cgraph" alt=""/></div>
+<map name="acomms_8h_abf9923aa5552200632dfe010021265f2_cgraph" id="acomms_8h_abf9923aa5552200632dfe010021265f2_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,140,32"/>
+<area shape="rect" href="comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9" title=" " alt="" coords="188,5,339,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph.png" border="0" usemap="#acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph" alt=""/></div>
-<map name="acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph" id="acomms_8h_a4f99cc48bb26e2f99ed3d4b2c1269ef7_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,649,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
+<div class="center"><img src="comms_8h_abf9923aa5552200632dfe010021265f2_icgraph.png" border="0" usemap="#acomms_8h_abf9923aa5552200632dfe010021265f2_icgraph" alt=""/></div>
+<map name="acomms_8h_abf9923aa5552200632dfe010021265f2_icgraph" id="acomms_8h_abf9923aa5552200632dfe010021265f2_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,577,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,31,395,57"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aaabc3de716acfb21773f61e5444c20c4" name="aaabc3de716acfb21773f61e5444c20c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaabc3de716acfb21773f61e5444c20c4">&#9670;&nbsp;</a></span>sendPageASCII()</h2>
+<a id="a56110054f8d37bbc6ac2003e055d22c8" name="a56110054f8d37bbc6ac2003e055d22c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56110054f8d37bbc6ac2003e055d22c8">&#9670;&nbsp;</a></span>sendSerialPayload()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void sendPageASCII </td>
+          <td class="memname">void sendSerialPayload </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Send page as ASCII for debugging purposes. Similar to <a class="el" href="comms_8cpp.html#a4f99cc48bb26e2f99ed3d4b2c1269ef7">sendPage()</a>, however data is sent in human readable format. Sends page given in <a class="el" href="comms_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a>.</p>
-<p >This is used for testing only (Not used by TunerStudio) in order to see current map and config data without the need for TunerStudio. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_aaabc3de716acfb21773f61e5444c20c4_icgraph.png" border="0" usemap="#acomms_8h_aaabc3de716acfb21773f61e5444c20c4_icgraph" alt=""/></div>
-<map name="acomms_8h_aaabc3de716acfb21773f61e5444c20c4_icgraph" id="acomms_8h_aaabc3de716acfb21773f61e5444c20c4_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,684,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a8e07d4a74b9a2f1aab9c5a4c601cb1d6" name="a8e07d4a74b9a2f1aab9c5a4c601cb1d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e07d4a74b9a2f1aab9c5a4c601cb1d6">&#9670;&nbsp;</a></span>sendToothLog_old()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendToothLog_old </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>startOffset</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Send 256 tooth log entries to serial. if useChar is true, the values are sent as chars to be printed out by a terminal emulator if useChar is false, the values are sent as a 2 byte integer which is readable by TunerStudios tooth logger </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_a8e07d4a74b9a2f1aab9c5a4c601cb1d6_icgraph.png" border="0" usemap="#acomms_8h_a8e07d4a74b9a2f1aab9c5a4c601cb1d6_icgraph" alt=""/></div>
-<map name="acomms_8h_a8e07d4a74b9a2f1aab9c5a4c601cb1d6_icgraph" id="acomms_8h_a8e07d4a74b9a2f1aab9c5a4c601cb1d6_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,699,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a0b2320d5e589080075b8372402bf9483" name="a0b2320d5e589080075b8372402bf9483"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2320d5e589080075b8372402bf9483">&#9670;&nbsp;</a></span>sendValues()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendValues </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>offset</em>, </td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>payload</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>packetLength</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>cmd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>portNum</em>&#160;</td>
+          <td class="paramname"><em>payloadLength</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -540,102 +1267,92 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Send a status record back to tuning/logging SW. This will "live" information from <a class="el" href="idle_8ino.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a> struct. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">offset</td><td>- Start field number </td></tr>
-    <tr><td class="paramname">packetLength</td><td>- Length of actual message (after possible ack/confirm headers) </td></tr>
-    <tr><td class="paramname">cmd</td><td>- ??? - Will be used as some kind of ack on CANSerial </td></tr>
-    <tr><td class="paramname">portNum</td><td>- Port number (0=Serial, 3=CANSerial) E.g. tuning sw command 'A' (Send all values) will send data from field number 0, LOG_ENTRY_SIZE fields. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the current values of a fixed group of variables </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_a56110054f8d37bbc6ac2003e055d22c8_icgraph.png" border="0" usemap="#acomms_8h_a56110054f8d37bbc6ac2003e055d22c8_icgraph" alt=""/></div>
+<map name="acomms_8h_a56110054f8d37bbc6ac2003e055d22c8_icgraph" id="acomms_8h_a56110054f8d37bbc6ac2003e055d22c8_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,572,32"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,5,395,32"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,5,187,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac6eb845a7ec6ff913f8ede60edd706e9" name="ac6eb845a7ec6ff913f8ede60edd706e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6eb845a7ec6ff913f8ede60edd706e9">&#9670;&nbsp;</a></span>sendSerialReturnCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendSerialReturnCode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>returnCode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms_8h_ac6eb845a7ec6ff913f8ede60edd706e9_icgraph.png" border="0" usemap="#acomms_8h_ac6eb845a7ec6ff913f8ede60edd706e9_icgraph" alt=""/></div>
+<map name="acomms_8h_ac6eb845a7ec6ff913f8ede60edd706e9_icgraph" id="acomms_8h_ac6eb845a7ec6ff913f8ede60edd706e9_icgraph">
+<area shape="rect" title=" " alt="" coords="625,53,776,80"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,28,187,55"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,28,395,55"/>
+<area shape="rect" href="comms_8cpp.html#a04e88798d4ae7971f5641409724b2d6d" title=" " alt="" coords="443,79,577,105"/>
+<area shape="rect" href="comms_8cpp.html#a6bdc3f8437af1ed0e5f20218366b3e58" title=" " alt="" coords="457,129,563,156"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,79,52,105"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc8e8b623b8af266ae951edd96ade37b" name="adc8e8b623b8af266ae951edd96ade37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8e8b623b8af266ae951edd96ade37b">&#9670;&nbsp;</a></span>sendToothLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sendToothLog </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>startOffset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a0b2320d5e589080075b8372402bf9483_cgraph.png" border="0" usemap="#acomms_8h_a0b2320d5e589080075b8372402bf9483_cgraph" alt=""/></div>
-<map name="acomms_8h_a0b2320d5e589080075b8372402bf9483_cgraph" id="acomms_8h_a0b2320d5e589080075b8372402bf9483_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,96,32"/>
-<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="144,5,252,32"/>
-<area shape="rect" href="errors_8ino.html#abccf9c417b2edfa7f393aa16431aa9d2" title=" " alt="" coords="300,5,395,32"/>
+<div class="center"><img src="comms_8h_adc8e8b623b8af266ae951edd96ade37b_cgraph.png" border="0" usemap="#acomms_8h_adc8e8b623b8af266ae951edd96ade37b_cgraph" alt=""/></div>
+<map name="acomms_8h_adc8e8b623b8af266ae951edd96ade37b_cgraph" id="acomms_8h_adc8e8b623b8af266ae951edd96ade37b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,111,32"/>
+<area shape="rect" href="comms_8cpp.html#ac6eb845a7ec6ff913f8ede60edd706e9" title=" " alt="" coords="159,5,309,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms_8h_a0b2320d5e589080075b8372402bf9483_icgraph.png" border="0" usemap="#acomms_8h_a0b2320d5e589080075b8372402bf9483_icgraph" alt=""/></div>
-<map name="acomms_8h_a0b2320d5e589080075b8372402bf9483_icgraph" id="acomms_8h_a0b2320d5e589080075b8372402bf9483_icgraph">
-<area shape="rect" title=" " alt="" coords="569,80,660,107"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,30,521,56"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,30,52,56"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,30,187,56"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,55,395,82"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab377618c27647931cad9f4d41e265686" name="ab377618c27647931cad9f4d41e265686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab377618c27647931cad9f4d41e265686">&#9670;&nbsp;</a></span>sendValuesLegacy()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sendValuesLegacy </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_ab377618c27647931cad9f4d41e265686_icgraph.png" border="0" usemap="#acomms_8h_ab377618c27647931cad9f4d41e265686_icgraph" alt=""/></div>
-<map name="acomms_8h_ab377618c27647931cad9f4d41e265686_icgraph" id="acomms_8h_ab377618c27647931cad9f4d41e265686_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,701,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
+<div class="center"><img src="comms_8h_adc8e8b623b8af266ae951edd96ade37b_icgraph.png" border="0" usemap="#acomms_8h_adc8e8b623b8af266ae951edd96ade37b_icgraph" alt=""/></div>
+<map name="acomms_8h_adc8e8b623b8af266ae951edd96ade37b_icgraph" id="acomms_8h_adc8e8b623b8af266ae951edd96ade37b_icgraph">
+<area shape="rect" title=" " alt="" coords="443,5,548,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a1f8112fe04261fb00a689fbd96afd606" name="a1f8112fe04261fb00a689fbd96afd606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f8112fe04261fb00a689fbd96afd606">&#9670;&nbsp;</a></span>testComm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testComm </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="comms_8h_a1f8112fe04261fb00a689fbd96afd606_icgraph.png" border="0" usemap="#acomms_8h_a1f8112fe04261fb00a689fbd96afd606_icgraph" alt=""/></div>
-<map name="acomms_8h_a1f8112fe04261fb00a689fbd96afd606_icgraph" id="acomms_8h_a1f8112fe04261fb00a689fbd96afd606_icgraph">
-<area shape="rect" title=" " alt="" coords="569,31,652,57"/>
-<area shape="rect" href="comms_8cpp.html#ab8982e36e76fb7a0600ece003e4631db" title=" " alt="" coords="443,31,521,57"/>
-<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
-<area shape="rect" href="new_comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
-<area shape="rect" href="new_comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,81,395,108"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="235,31,395,57"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="100,31,187,57"/>
 </map>
 </div>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2579ec6aed1903a19a732839086d9fd7" name="a2579ec6aed1903a19a732839086d9fd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2579ec6aed1903a19a732839086d9fd7">&#9670;&nbsp;</a></span>chunkComplete</h2>
+<a id="a7db46c98eeb7bb3c032ef01c1032fbb8" name="a7db46c98eeb7bb3c032ef01c1032fbb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db46c98eeb7bb3c032ef01c1032fbb8">&#9670;&nbsp;</a></span>serialReceivePending</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -644,7 +1361,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t chunkComplete</td>
+          <td class="memname">bool serialReceivePending</td>
         </tr>
       </table>
   </td>
@@ -653,12 +1370,12 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >The number of bytes in a chunk write that have been written so far </p>
+<p >Whether or not a serial request has only been partially received. This occurs when a the length has been received in the serial buffer, but not all of the payload or CRC has yet been received. </p>
 
 </div>
 </div>
-<a id="ab691ea6bc6e723003f66796b3cd24df9" name="ab691ea6bc6e723003f66796b3cd24df9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab691ea6bc6e723003f66796b3cd24df9">&#9670;&nbsp;</a></span>chunkPending</h2>
+<a id="a6e68c0a6ce99d526d7c906992952b000" name="a6e68c0a6ce99d526d7c906992952b000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e68c0a6ce99d526d7c906992952b000">&#9670;&nbsp;</a></span>serialWriteInProgress</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -667,7 +1384,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool chunkPending</td>
+          <td class="memname">bool serialWriteInProgress</td>
         </tr>
       </table>
   </td>
@@ -676,352 +1393,13 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p >Whether or not the current chucnk write is complete or not</p>
-<p >Whether or not the current chunk write is complete or not </p>
-
-</div>
-</div>
-<a id="aeb7cc51b3800b40d4b1f8f5a1464df29" name="aeb7cc51b3800b40d4b1f8f5a1464df29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb7cc51b3800b40d4b1f8f5a1464df29">&#9670;&nbsp;</a></span>chunkSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t chunkSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >The complete size of the requested chunk write </p>
-
-</div>
-</div>
-<a id="addbed4f59e24864228a0745aeb96b2e9" name="addbed4f59e24864228a0745aeb96b2e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addbed4f59e24864228a0745aeb96b2e9">&#9670;&nbsp;</a></span>cmdPending</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool cmdPending</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Whether or not a serial request has only been partially received. This occurs when a command character has been received in the serial buffer, but not all of its arguments have yet been received. If true, the active command will be stored in the currentCommand variable </p>
-
-</div>
-</div>
-<a id="ada8b2255db9a699d6ccf1ddca70db557" name="ada8b2255db9a699d6ccf1ddca70db557"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada8b2255db9a699d6ccf1ddca70db557">&#9670;&nbsp;</a></span>compositeLogSendInProgress</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool compositeLogSendInProgress</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5550f817b31a10cae662619ac5f71e72" name="a5550f817b31a10cae662619ac5f71e72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5550f817b31a10cae662619ac5f71e72">&#9670;&nbsp;</a></span>currentCommand</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> currentCommand</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >The serial command that is currently being processed. This is only useful when cmdPending=True </p>
-
-</div>
-</div>
-<a id="a2b88e8085d30a5021f05251216095266" name="a2b88e8085d30a5021f05251216095266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b88e8085d30a5021f05251216095266">&#9670;&nbsp;</a></span>currentPage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> currentPage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aea43c59e51e0460f913bf3452a16374c" name="aea43c59e51e0460f913bf3452a16374c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea43c59e51e0460f913bf3452a16374c">&#9670;&nbsp;</a></span>inProgressCompositeTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t inProgressCompositeTime</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9702c5a3efdcb97b6b3445669981d30b" name="a9702c5a3efdcb97b6b3445669981d30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9702c5a3efdcb97b6b3445669981d30b">&#9670;&nbsp;</a></span>inProgressLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> inProgressLength</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2b7771575e4a0302df37d8d270fa71f3" name="a2b7771575e4a0302df37d8d270fa71f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b7771575e4a0302df37d8d270fa71f3">&#9670;&nbsp;</a></span>inProgressOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> inProgressOffset</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a83957882b06af23f432c60467de4c0ea" name="a83957882b06af23f432c60467de4c0ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83957882b06af23f432c60467de4c0ea">&#9670;&nbsp;</a></span>isMap</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isMap</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Whether or not the currentPage contains only a 3D map that would require translation </p>
-
-</div>
-</div>
-<a id="aa9875874834ba3ab31caf329ad8a0eac" name="aa9875874834ba3ab31caf329ad8a0eac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9875874834ba3ab31caf329ad8a0eac">&#9670;&nbsp;</a></span>legacySerial</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool legacySerial</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a154d82e943826b19ae76406a2ba8ad6f" name="a154d82e943826b19ae76406a2ba8ad6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a154d82e943826b19ae76406a2ba8ad6f">&#9670;&nbsp;</a></span>requestCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long requestCount</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >The number of times the A command has been issued. This is used to track whether a reset has recently been performed on the controller </p>
-
-</div>
-</div>
-<a id="aea83ccac29db15feaba2dee90ed4b93b" name="aea83ccac29db15feaba2dee90ed4b93b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea83ccac29db15feaba2dee90ed4b93b">&#9670;&nbsp;</a></span>serialInProgress</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool serialInProgress</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae116c41617c4cf7cd2c3fc40096a2b27" name="ae116c41617c4cf7cd2c3fc40096a2b27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae116c41617c4cf7cd2c3fc40096a2b27">&#9670;&nbsp;</a></span>toothLogSendInProgress</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool toothLogSendInProgress</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03d1c7913db6b3a2500df25ce13bf36c" name="a03d1c7913db6b3a2500df25ce13bf36c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03d1c7913db6b3a2500df25ce13bf36c">&#9670;&nbsp;</a></span>tsCanId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> tsCanId</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afaac3668f47034ddb078ad650bd5fb6c" name="afaac3668f47034ddb078ad650bd5fb6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afaac3668f47034ddb078ad650bd5fb6c">&#9670;&nbsp;</a></span>valueOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int valueOffset</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >THe memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries</p>
-<p >The memory offset within a given page for a value to be read from or written to. Note that we cannot use 'offset' as a variable name, it is a reserved word for several teensy libraries </p>
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 25 2022 04:15:35 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Sun Feb 27 2022 23:28:51 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>

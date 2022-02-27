@@ -302,9 +302,9 @@ var searchData=
   ['injtiming_299',['injTiming',['../globals_8h.html#adc1c04b0f22e09c1381311d9fb9fe37d',1,'injTiming():&#160;globals.h'],['../structconfig2.html#a072ff3488b57f09dd4e1e1b092717807',1,'config2::injTiming()']]],
   ['injtype_300',['injType',['../globals_8h.html#a111eb1cd4245a4e12399886246796c7b',1,'injType():&#160;globals.h'],['../structconfig2.html#abeb9950523e9a7d5aa7a89223f3162a9',1,'config2::injType()']]],
   ['injvoltagecorrectionvalues_301',['injVoltageCorrectionValues',['../structconfig6.html#ae9e31775dd546437da86b103b8755e12',1,'config6::injVoltageCorrectionValues()'],['../globals_8h.html#a164041de508064a93236619aac422149',1,'injVoltageCorrectionValues():&#160;globals.h']]],
-  ['inprogresscompositetime_302',['inProgressCompositeTime',['../comms_8cpp.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms.cpp'],['../comms_8h.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms.cpp']]],
-  ['inprogresslength_303',['inProgressLength',['../comms_8cpp.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms.cpp'],['../comms_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms.cpp']]],
-  ['inprogressoffset_304',['inProgressOffset',['../comms_8cpp.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms.cpp'],['../comms_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms.cpp']]],
+  ['inprogresscompositetime_302',['inProgressCompositeTime',['../comms__legacy_8cpp.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#aea43c59e51e0460f913bf3452a16374c',1,'inProgressCompositeTime():&#160;comms_legacy.cpp']]],
+  ['inprogresslength_303',['inProgressLength',['../comms__legacy_8cpp.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a9702c5a3efdcb97b6b3445669981d30b',1,'inProgressLength():&#160;comms_legacy.cpp']]],
+  ['inprogressoffset_304',['inProgressOffset',['../comms__legacy_8cpp.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a2b7771575e4a0302df37d8d270fa71f3',1,'inProgressOffset():&#160;comms_legacy.cpp']]],
   ['instanteneousmapreading_305',['instanteneousMAPReading',['../sensors_8h.html#adce2419f4d2fdb9179dfc6cee874cbce',1,'instanteneousMAPReading() __attribute__((always_inline)):&#160;sensors.h'],['../sensors_8ino.html#affce98e8f3e9d23f7746d2f1d322b539',1,'instanteneousMAPReading():&#160;sensors.ino']]],
   ['int16_5fbyte_306',['int16_byte',['../classint16__byte.html#a06fce84a88dcfaae672adeb29d6964b2',1,'int16_byte::int16_byte()'],['../classint16__byte.html',1,'int16_byte']]],
   ['int16_5fbyte_2eh_307',['int16_byte.h',['../int16__byte_8h.html',1,'']]],
@@ -316,6 +316,6 @@ var searchData=
   ['is2byteentry_313',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
   ['is_5fin_5fbin_314',['is_in_bin',['../table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7',1,'table3d_interpolate.cpp']]],
   ['iseepromwritepending_315',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
-  ['ismap_316',['isMap',['../comms_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp'],['../comms_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms.cpp']]],
+  ['ismap_316',['isMap',['../comms__legacy_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp']]],
   ['isstepperhomed_317',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
 ];

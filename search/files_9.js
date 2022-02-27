@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['newcomms_2ecpp_0',['newComms.cpp',['../new_comms_8cpp.html',1,'']]],
-  ['newcomms_2eh_1',['newComms.h',['../new_comms_8h.html',1,'']]]
+  ['page_5fcrc_2ecpp_0',['page_crc.cpp',['../page__crc_8cpp.html',1,'']]],
+  ['page_5fcrc_2eh_1',['page_crc.h',['../page__crc_8h.html',1,'']]],
+  ['pages_2ecpp_2',['pages.cpp',['../pages_8cpp.html',1,'']]],
+  ['pages_2eh_3',['pages.h',['../pages_8h.html',1,'']]]
 ];
