@@ -188,10 +188,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Processes the incoming data on the serial buffer based on the command sent. Can be either data for a new command or a continuation of data for command that is already in progress:</p><ul>
-<li>cmdPending = If a command has started but is wairing on further data to complete</li>
+<li>cmdPending = If a command has started but is waiting on further data to complete</li>
 <li>chunkPending = Specifically for the new receive value method where TS will send a known number of contiguous bytes to be written to a table</li>
 </ul>
-<p >Comands are single byte (letter symbol) commands. </p>
+<p >Commands are single byte (letter symbol) commands. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -390,7 +390,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p >Pack the data within the current page (As set with the 'P' command) into a buffer and send it.</p>
 <p >Creates a page iterator by <a class="el" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca">page_begin()</a> (See: <a class="el" href="pages_8cpp.html">pages.cpp</a>). Sends page given in <a class="el" href="comms__legacy_8h.html#a2b88e8085d30a5021f05251216095266">currentPage</a>.</p>
-<p >Note that some translation of the data is required to lay it out in the way Megasqurit / TunerStudio expect it. Data is sent in binary format, as defined by in each page in the speeduino.ini. </p>
+<p >Note that some translation of the data is required to lay it out in the way Megasquirt / TunerStudio expect it. Data is sent in binary format, as defined by in each page in the speeduino.ini. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -852,7 +852,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 9 2022 23:18:30 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Mon Apr 11 2022 00:50:25 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>

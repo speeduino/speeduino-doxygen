@@ -102,7 +102,7 @@ Functions</h2></td></tr>
 <tr class="separator:a88674b99a08fb6841af61763600797cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Speeduino Initialization (called at Arduino <a class="el" href="speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a>). </p>
+<div class="textblock"><p >Speeduino Initialisation (called at Arduino <a class="el" href="speeduino_8h.html#a4fc01d736fe50cf5b977f755b675f11d">setup()</a>). </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a566feb76074886ed4a5416301db3d193" name="a566feb76074886ed4a5416301db3d193"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a566feb76074886ed4a5416301db3d193">&#9670;&nbsp;</a></span>initialiseAll()</h2>
@@ -118,26 +118,26 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Initialize Speeduino for the main loop. Top level init entrypoint for all initializations:</p><ul>
-<li>Intialize and set sizes of 3D tables</li>
+<p >Initialise Speeduino for the main loop. Top level init entry point for all initialisations:</p><ul>
+<li>Initialise and set sizes of 3D tables</li>
 <li>Load config from EEPROM, update config structures to current version of SW if needed.</li>
-<li>Initialize board (The initBoard() is for board X implemented in board_X.ino file)</li>
-<li>Initialize timers (See <a class="el" href="timers_8ino.html">timers.ino</a>)</li>
+<li>Initialise board (The initBoard() is for board X implemented in board_X.ino file)</li>
+<li>Initialise timers (See <a class="el" href="timers_8ino.html">timers.ino</a>)</li>
 <li>Perform optional SD card and RTC battery inits</li>
-<li>Load calibrarion tables from EEPROM</li>
+<li>Load calibration tables from EEPROM</li>
 <li>Perform pin mapping (calling <a class="el" href="init_8h.html#a83d91ac4ac165c8eb1e569ebbf69e7b2">setPinMapping()</a> based on <a class="el" href="structconfig2.html#aaa639bb97df66c4f0aca60fea75a8856">config2::pinMapping</a>)</li>
 <li>Stop any coil charging and close injectors</li>
-<li>Intialize schedulers, Idle, Fan, auxPWM, Corrections, AD-conversions, Programmable I/O</li>
-<li>Intialize baro (ambient pressure) by reading MAP (before engine runs)</li>
-<li>Intialize triggers (by <a class="el" href="init_8h.html#a88674b99a08fb6841af61763600797cd">initialiseTriggers()</a> )</li>
-<li>Perform cyl. count based initializations (<a class="el" href="structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f">config2::nCylinders</a>)</li>
+<li>Initialise schedulers, Idle, Fan, auxPWM, Corrections, AD-conversions, Programmable I/O</li>
+<li>Initialise baro (ambient pressure) by reading MAP (before engine runs)</li>
+<li>Initialise triggers (by <a class="el" href="init_8h.html#a88674b99a08fb6841af61763600797cd">initialiseTriggers()</a> )</li>
+<li>Perform cyl. count based initialisations (<a class="el" href="structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f">config2::nCylinders</a>)</li>
 <li>Perform injection and spark mode based setup<ul>
 <li>Assign injector open/close and coil charge begin/end functions to their dedicated global vars</li>
 </ul>
 </li>
 <li>Perform fuel pressure priming by turning fuel pump on</li>
 <li>Read CLT and TPS sensors to have cranking pulsewidths computed correctly</li>
-<li>Mark Initialization completed (this flag-marking is used in code to prevent after-init changes) </li>
+<li>Mark Initialisation completed (this flag-marking is used in code to prevent after-init changes) </li>
 </ul>
 <div class="dynheader">
 Here is the call graph for this function:</div>
@@ -432,9 +432,9 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Initialize the chosen trigger decoder.</p><ul>
-<li>Set Interrput numbers <a class="el" href="globals_8h.html#a0b8163b3d8f6f8fe9aace84fa0bbca29">triggerInterrupt</a>, <a class="el" href="globals_8h.html#a55db29c54b1f33b1be73b136caed0bd2">triggerInterrupt2</a> and <a class="el" href="globals_8h.html#ac4d375de6bbae811344b354f067173d6">triggerInterrupt3</a> by pin their numbers (based on board CORE_* define)</li>
-<li><p class="startli">Call decoder specific setup function triggerSetup_*() (by <a class="el" href="structconfig4.html#aecc64a98725c5c25a721ca6e6fde2bbe">config4::TrigPattern</a>, set to one of the DECODER_* defines) and do any additional initializations needed.</p>
+<p >Initialise the chosen trigger decoder.</p><ul>
+<li>Set Interrupt numbers <a class="el" href="globals_8h.html#a0b8163b3d8f6f8fe9aace84fa0bbca29">triggerInterrupt</a>, <a class="el" href="globals_8h.html#a55db29c54b1f33b1be73b136caed0bd2">triggerInterrupt2</a> and <a class="el" href="globals_8h.html#ac4d375de6bbae811344b354f067173d6">triggerInterrupt3</a> by pin their numbers (based on board CORE_* define)</li>
+<li><p class="startli">Call decoder specific setup function triggerSetup_*() (by <a class="el" href="structconfig4.html#aecc64a98725c5c25a721ca6e6fde2bbe">config4::TrigPattern</a>, set to one of the DECODER_* defines) and do any additional initialisations needed.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Explain why triggerSetup_*() alone cannot do all the setup, but there's ~10+ lines worth of extra init for each of decoders. </dd></dl>
 </li>
 </ul>
@@ -601,7 +601,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >Set board / microcontroller specfic pin mappings / assignments. The boardID is switch-case compared against raw boardID integers (not enum or defined label, and probably no need for that either) which are originated from tuning SW (e.g. TS) set values and are avilable in reference/speeduino.ini (See pinLayout, note also that numbering is not contiguous here). </p>
+<p >Set board / microcontroller specific pin mappings / assignments. The boardID is switch-case compared against raw boardID integers (not enum or defined label, and probably no need for that either) which are originated from tuning SW (e.g. TS) set values and are available in reference/speeduino.ini (See pinLayout, note also that numbering is not contiguous here). </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -630,7 +630,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 9 2022 23:18:30 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Mon Apr 11 2022 00:50:25 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>

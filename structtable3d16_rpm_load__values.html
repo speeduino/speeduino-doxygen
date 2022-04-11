@@ -172,7 +172,7 @@ Here is the caller graph for this function:</div>
  <br  />
  This is slow, since AVR hardware has no divider. We can gain performance in 2 ways:<br  />
  1. Forcing uint8_t calculations. These are much faster than 16-bit calculations<br  />
- 2. Compiling this per table <em>type</em>. This encodes the axis length as a constant thus allowing the optimizing compiler more opportunity. E.g. for axis lengths that are a power of 2, the modulus can be optimised to add/multiply/shift - much cheaper than calling a software division routine such as __udivmodqi4<br  />
+ 2. Compiling this per table <em>type</em>. This encodes the axis length as a constant thus allowing the optimising compiler more opportunity. E.g. for axis lengths that are a power of 2, the modulus can be optimised to add/multiply/shift - much cheaper than calling a software division routine such as __udivmodqi4<br  />
  <br  />
  THIS IS WORTH 20% to 30% speed up<br  />
  <br  />
@@ -258,7 +258,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 9 2022 23:18:31 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Mon Apr 11 2022 00:50:25 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
