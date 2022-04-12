@@ -121,6 +121,10 @@ Macros</h2></td></tr>
 <tr class="separator:ab6272b00f4dfb3c2337ae3ab6b5d2012"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f2deb6c578fcbef99176b078fa02ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#ac7f2deb6c578fcbef99176b078fa02ed">IDLE_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="idle_8h.html#a2ab780e7319bc681c15894da03efa942">idle_pin_port</a> |= (<a class="el" href="idle_8h.html#a8c46beb6f54760c09c3aa265cbbdf459">idle_pin_mask</a>)</td></tr>
 <tr class="separator:ac7f2deb6c578fcbef99176b078fa02ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3033a7fd9c0d0f6393056fc5063f2fe0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a3033a7fd9c0d0f6393056fc5063f2fe0">IDLE2_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="idle_8h.html#a81125ada6330e72fb2fa65b49adfc24a">idle2_pin_port</a> &amp;= ~(<a class="el" href="idle_8h.html#a6ee7ef4f487b50ebd8a3d68686472a3f">idle2_pin_mask</a>)</td></tr>
+<tr class="separator:a3033a7fd9c0d0f6393056fc5063f2fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad43ece631034ef24c3592ce384c855"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a5ad43ece631034ef24c3592ce384c855">IDLE2_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="idle_8h.html#a81125ada6330e72fb2fa65b49adfc24a">idle2_pin_port</a> |= (<a class="el" href="idle_8h.html#a6ee7ef4f487b50ebd8a3d68686472a3f">idle2_pin_mask</a>)</td></tr>
+<tr class="separator:a5ad43ece631034ef24c3592ce384c855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d48ab90c530af82df4cc6e16dfe660"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>&#160;&#160;&#160;1</td></tr>
@@ -315,6 +319,40 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define IAC_ALGORITHM_STEP_OLCL&#160;&#160;&#160;7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ad43ece631034ef24c3592ce384c855" name="a5ad43ece631034ef24c3592ce384c855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad43ece631034ef24c3592ce384c855">&#9670;&nbsp;</a></span>IDLE2_PIN_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IDLE2_PIN_HIGH</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="idle_8h.html#a81125ada6330e72fb2fa65b49adfc24a">idle2_pin_port</a> |= (<a class="el" href="idle_8h.html#a6ee7ef4f487b50ebd8a3d68686472a3f">idle2_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3033a7fd9c0d0f6393056fc5063f2fe0" name="a3033a7fd9c0d0f6393056fc5063f2fe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3033a7fd9c0d0f6393056fc5063f2fe0">&#9670;&nbsp;</a></span>IDLE2_PIN_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IDLE2_PIN_LOW</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="idle_8h.html#a81125ada6330e72fb2fa65b49adfc24a">idle2_pin_port</a> &amp;= ~(<a class="el" href="idle_8h.html#a6ee7ef4f487b50ebd8a3d68686472a3f">idle2_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -963,7 +1001,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Apr 11 2022 05:33:46 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Tue Apr 12 2022 00:23:42 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
