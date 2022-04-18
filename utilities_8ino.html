@@ -79,6 +79,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="decoders_8h_source.html">decoders.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="comms_8h_source.html">comms.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="logger_8h_source.html">logger.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="scheduled_i_o_8h_source.html">scheduledIO.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="speeduino_8h_source.html">speeduino.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -88,6 +91,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6124d351ef67e3b99b6f491713b88f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26809182d6251133ee964916037979ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a26809182d6251133ee964916037979ed">setResetControlPinState</a> ()</td></tr>
 <tr class="separator:a26809182d6251133ee964916037979ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d8daf30e3c5f5277b32bf0110b0146c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a4d8daf30e3c5f5277b32bf0110b0146c">changeHalfToFullSync</a> (void)</td></tr>
+<tr class="separator:a4d8daf30e3c5f5277b32bf0110b0146c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a005b41fa439564c0a05a25aefeab9b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a005b41fa439564c0a05a25aefeab9b99">changeFullToHalfSync</a> (void)</td></tr>
+<tr class="separator:a005b41fa439564c0a05a25aefeab9b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ab3a222e7265c9e9734bdb5c1947ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a2ab3a222e7265c9e9734bdb5c1947ed8">initialiseProgrammableIO</a> ()</td></tr>
 <tr class="separator:a2ab3a222e7265c9e9734bdb5c1947ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a81ec17875ac2ddf7fe0ca5d3e7e695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utilities_8ino.html#a8a81ec17875ac2ddf7fe0ca5d3e7e695">checkProgrammableIO</a> ()</td></tr>
@@ -109,6 +116,166 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Custom Programmable I/O. The config related to Programmable I/O is found on configPage13 (of type <a class="el" href="structconfig13.html">config13</a>). </p>
 </div><h2 class="groupheader">Function Documentation</h2>
+<a id="a005b41fa439564c0a05a25aefeab9b99" name="a005b41fa439564c0a05a25aefeab9b99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a005b41fa439564c0a05a25aefeab9b99">&#9670;&nbsp;</a></span>changeFullToHalfSync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void changeFullToHalfSync </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Change injectors or/and ignition angles to 360deg. In semi sequentiol mode req_fuel size is half. Set number of outputs equal to half cylinder count. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8ino_a005b41fa439564c0a05a25aefeab9b99_cgraph.png" border="0" usemap="#autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_cgraph" alt=""/></div>
+<map name="autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_cgraph" id="autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_cgraph">
+<area shape="rect" title=" " alt="" coords="5,943,159,969"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6fba542e23d95898722be7a7591d8eae" title=" " alt="" coords="207,309,357,336"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a75e060fa5e05ceb1cb848a7eb9005769" title=" " alt="" coords="207,56,357,83"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a561b9ea7e48bed85d9214e818db71907" title=" " alt="" coords="207,157,357,184"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a8c4dcb8a1c70181dde711c617360bb38" title=" " alt="" coords="207,107,357,133"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a29259bcf6306f6c1255d2dfb043f12ba" title=" " alt="" coords="207,208,357,235"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aee062446b1fa4841327dfdfacf67785b" title=" " alt="" coords="207,259,357,285"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a491571a21cf1d4029139e5c4459a0580" title=" " alt="" coords="207,360,357,387"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a8340718b9fae98a238e7fd76008183de" title=" " alt="" coords="207,411,357,437"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7ef559e9161bc1b0c36545cc58068578" title=" " alt="" coords="207,5,357,32"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a45b4650019582d7c5564cec7bb8dc7b4" title=" " alt="" coords="217,715,347,741"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7d16029b2235a38ea8f5e3ea064cef44" title=" " alt="" coords="217,512,347,539"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#abed4b7bed0e182b1fea19abaf213119e" title=" " alt="" coords="217,461,347,488"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a86d4dbb5050ec8ee238e15d3424098dc" title=" " alt="" coords="217,765,347,792"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a50424d69ed0ee19c09e122bd05bd06fe" title=" " alt="" coords="217,664,347,691"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aac894f97c73ce5e5dc6657465ba5dd49" title=" " alt="" coords="217,563,347,589"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3169666d3da3f1adbb0628da7fa421ce" title=" " alt="" coords="217,816,347,843"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ada59f2f62853c1f045744a869c34af47" title=" " alt="" coords="217,867,347,893"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a5b32d25fafc31757493150b88030e063" title=" " alt="" coords="217,917,347,944"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#af59fdacf27d755befd3f54266a0a5a7c" title=" " alt="" coords="217,613,347,640"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a4558d0273f058799ce3eab86f67a0804" title=" " alt="" coords="211,1272,353,1299"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a49596e87b0b3f1b53eea0f2bbfea6206" title=" " alt="" coords="211,1019,353,1045"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a2b8e7bd91722f2832597d294c4bc2696" title=" " alt="" coords="211,1120,353,1147"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a00e299f0bbebf546830bdf42afeb36b6" title=" " alt="" coords="211,1069,353,1096"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a691ec61c2ddac534803720998de8ae08" title=" " alt="" coords="211,1171,353,1197"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa6f358a190a05a895d09d55354e23645" title=" " alt="" coords="211,1221,353,1248"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7412e5cfaa1b8acb785475cde7c560be" title=" " alt="" coords="211,1323,353,1349"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a8e9b1aa92a78ce08438d5701aaf636a0" title=" " alt="" coords="211,1373,353,1400"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a4587405e791c2481c5a9a0db0dcc850c" title=" " alt="" coords="211,968,353,995"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa01a2311d13e0d621a8d0c5adef76c37" title=" " alt="" coords="218,1677,346,1704"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a94f161a9e6b54c9670d99335b7486a56" title=" " alt="" coords="218,1475,346,1501"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae91843dea88dc35cf0c3516ac416589d" title=" " alt="" coords="218,1424,346,1451"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#af0a475a1164e5057208e6aa3012cdf8e" title=" " alt="" coords="218,1728,346,1755"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a5bf9f77772f319fd4576ad734b494e69" title=" " alt="" coords="218,1627,346,1653"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a98de2627ec2f64435d24741d4dc23af5" title=" " alt="" coords="218,1525,346,1552"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a36f5f7e4167730a045fd6afe5304862d" title=" " alt="" coords="218,1779,346,1805"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a4fed584c2bc430b033c013179fec0422" title=" " alt="" coords="218,1829,346,1856"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a01cd538cc4e8bbb20114db54d22f798a" title=" " alt="" coords="218,1880,346,1907"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#af82cdeb285e44ebddffa70f53341a31f" title=" " alt="" coords="218,1576,346,1603"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title=" " alt="" coords="405,119,528,145"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title=" " alt="" coords="405,360,528,387"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title=" " alt="" coords="405,56,528,83"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a05b5730ef36f0e260a0024b362c1af32" title=" " alt="" coords="405,169,528,196"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title=" " alt="" coords="405,220,528,247"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adf24b72ad6886167d0959c71da84c159" title=" " alt="" coords="405,296,528,323"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6c0e8ea097a33f425e164313a059884f" title=" " alt="" coords="405,411,528,437"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a86520d1a64970cb43cbdfc13223c3a1b" title=" " alt="" coords="405,5,528,32"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916" title=" " alt="" coords="415,512,518,539"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3079068c8153e1b0c865ec5be36ac183" title=" " alt="" coords="415,779,518,805"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3a358e705c03243154d948dc7a6f0b79" title=" " alt="" coords="415,579,518,605"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a34e1a2c0cc565eaadabeb7e46db33be7" title=" " alt="" coords="415,461,518,488"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a01b641708e40249dea11fe172204172e" title=" " alt="" coords="415,696,518,723"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf39765f1de75cab4e79740e71fb1bfb" title=" " alt="" coords="415,841,518,868"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aac3399073d1c10dd72f9eaa0a7366d33" title=" " alt="" coords="415,917,518,944"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a102469a84fef8ac8c08427a6d1059bf2" title=" " alt="" coords="415,629,518,656"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title=" " alt="" coords="410,1069,523,1096"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title=" " alt="" coords="410,1323,523,1349"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title=" " alt="" coords="410,1019,523,1045"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9516aeb60f621698eb9357f6f283b35c" title=" " alt="" coords="410,1120,523,1147"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title=" " alt="" coords="410,1171,523,1197"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae47aa998727ab8aba5355fca1fd3f01b" title=" " alt="" coords="410,1247,523,1273"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7a9c5e6729a869684c5fbe32cc0dd5fa" title=" " alt="" coords="410,1373,523,1400"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afe0bdc03f79b17c926174845dc73491d" title=" " alt="" coords="410,968,523,995"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f" title=" " alt="" coords="417,1475,517,1501"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae9aaf0e322debad3f72951b32136b742" title=" " alt="" coords="417,1760,517,1787"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa5362b6d0d0c0562e021aaa5eb1b6dc3" title=" " alt="" coords="417,1551,517,1577"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae23dca6392c4b5d1c363e40a5a1e5e6a" title=" " alt="" coords="417,1424,517,1451"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a29fbc3df9a7fc68f53ff6cdbe523f124" title=" " alt="" coords="417,1684,517,1711"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ac2f9b55e75dc43146bb9bdc5e7d2de04" title=" " alt="" coords="417,1823,517,1849"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa25e823cfa503b43e1630d9196186d8e" title=" " alt="" coords="417,1880,517,1907"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a45ff26f8488532dfb3ef00335fa25375" title=" " alt="" coords="417,1601,517,1628"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8ino_a005b41fa439564c0a05a25aefeab9b99_icgraph.png" border="0" usemap="#autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_icgraph" alt=""/></div>
+<map name="autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_icgraph" id="autilities_8ino_a005b41fa439564c0a05a25aefeab9b99_icgraph">
+<area shape="rect" title=" " alt="" coords="304,31,457,57"/>
+<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,31,52,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4d8daf30e3c5f5277b32bf0110b0146c" name="a4d8daf30e3c5f5277b32bf0110b0146c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d8daf30e3c5f5277b32bf0110b0146c">&#9670;&nbsp;</a></span>changeHalfToFullSync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void changeHalfToFullSync </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Change injectors or/and ignition angles to 720deg. Roll back req_fuel size and set number of outputs equal to cylinder count. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_cgraph.png" border="0" usemap="#autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_cgraph" alt=""/></div>
+<map name="autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_cgraph" id="autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,385,159,412"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acf25f256ada83e0792477503d2da9a35" title=" " alt="" coords="207,5,329,32"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0a629b44923100e7cc3267ba0c5c0979" title=" " alt="" coords="207,56,329,83"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae415855f4dde3c92b5ad00e0f4df02c9" title=" " alt="" coords="207,107,329,133"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9943314d8d7921de326005af97c9591e" title=" " alt="" coords="207,157,329,184"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a537c5f9e674ca45d9595303042938916" title=" " alt="" coords="217,208,319,235"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a01b641708e40249dea11fe172204172e" title=" " alt="" coords="217,259,319,285"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3079068c8153e1b0c865ec5be36ac183" title=" " alt="" coords="217,309,319,336"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3a358e705c03243154d948dc7a6f0b79" title=" " alt="" coords="217,360,319,387"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad7e35a10f2e2961c345180ad47d5e5de" title=" " alt="" coords="211,411,325,437"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6805d98db9948de052d0ae7a82ef1e96" title=" " alt="" coords="211,461,325,488"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6145292aa56773025108b2ecd22444c2" title=" " alt="" coords="211,512,325,539"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#afdfbcd505571589eca16cf40fdd71431" title=" " alt="" coords="211,563,325,589"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a1fdda257fce2c0666fb5342a13cb3f9f" title=" " alt="" coords="218,613,318,640"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a29fbc3df9a7fc68f53ff6cdbe523f124" title=" " alt="" coords="218,664,318,691"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae9aaf0e322debad3f72951b32136b742" title=" " alt="" coords="218,715,318,741"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aa5362b6d0d0c0562e021aaa5eb1b6dc3" title=" " alt="" coords="218,765,318,792"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_icgraph.png" border="0" usemap="#autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_icgraph" alt=""/></div>
+<map name="autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_icgraph" id="autilities_8ino_a4d8daf30e3c5f5277b32bf0110b0146c_icgraph">
+<area shape="rect" title=" " alt="" coords="304,31,457,57"/>
+<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,31,52,57"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a8a81ec17875ac2ddf7fe0ca5d3e7e695" name="a8a81ec17875ac2ddf7fe0ca5d3e7e695"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a81ec17875ac2ddf7fe0ca5d3e7e695">&#9670;&nbsp;</a></span>checkProgrammableIO()</h2>
 
@@ -375,7 +542,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Apr 16 2022 02:52:15 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Mon Apr 18 2022 04:13:22 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
