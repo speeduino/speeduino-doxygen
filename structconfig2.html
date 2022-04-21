@@ -352,8 +352,18 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a4bc89cffa9ef574c53a083ad766f5087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c2cf5cca87289a179ad2c65a6d93823"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a3c2cf5cca87289a179ad2c65a6d93823">mapSwitchPoint</a></td></tr>
 <tr class="separator:a3c2cf5cca87289a179ad2c65a6d93823"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8196d55d2e1f0c644e2bd71387c7fd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a8196d55d2e1f0c644e2bd71387c7fd42">unused2_95</a> [2]</td></tr>
-<tr class="separator:a8196d55d2e1f0c644e2bd71387c7fd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1789d59cab5d3fac9962dbfd278c14e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a1789d59cab5d3fac9962dbfd278c14e3">canBMWCluster</a>: 1</td></tr>
+<tr class="separator:a1789d59cab5d3fac9962dbfd278c14e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdde72a2120606b5e17db5fa3542a81b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#afdde72a2120606b5e17db5fa3542a81b">canVAGCluster</a>: 1</td></tr>
+<tr class="separator:afdde72a2120606b5e17db5fa3542a81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7693ff18ebb4e1f87a1fd948dd286921"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a7693ff18ebb4e1f87a1fd948dd286921">enableCluster1</a>: 1</td></tr>
+<tr class="separator:a7693ff18ebb4e1f87a1fd948dd286921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2072edb1ba0316923cb0636797f210c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#aa2072edb1ba0316923cb0636797f210c">enableCluster2</a>: 1</td></tr>
+<tr class="separator:aa2072edb1ba0316923cb0636797f210c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f14fbd73d92dbc8ab04fa0b41b5898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a48f14fbd73d92dbc8ab04fa0b41b5898">unusedClusterBits</a>: 4</td></tr>
+<tr class="separator:a48f14fbd73d92dbc8ab04fa0b41b5898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6dfe75156cac201156a564f72f6389"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#abd6dfe75156cac201156a564f72f6389">unused2_95</a></td></tr>
+<tr class="separator:abd6dfe75156cac201156a564f72f6389"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Page 2 of the config - mostly variables that are required for fuel. These are "non-live" EFI setting, engine and "system" variables that remain fixed once sent (and stored to e.g. EEPROM) from configuration/tuning SW (from outside by USBserial/bluetooth). Contains a lots of *Min, *Max (named) variables to constrain values to sane ranges. See the ini file for further reference. </p>
@@ -615,6 +625,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::boostMinDuty</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1789d59cab5d3fac9962dbfd278c14e3" name="a1789d59cab5d3fac9962dbfd278c14e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1789d59cab5d3fac9962dbfd278c14e3">&#9670;&nbsp;</a></span>canBMWCluster</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::canBMWCluster</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdde72a2120606b5e17db5fa3542a81b" name="afdde72a2120606b5e17db5fa3542a81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdde72a2120606b5e17db5fa3542a81b">&#9670;&nbsp;</a></span>canVAGCluster</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::canVAGCluster</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -885,6 +923,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">int8_t config2::EMAPMin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7693ff18ebb4e1f87a1fd948dd286921" name="a7693ff18ebb4e1f87a1fd948dd286921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7693ff18ebb4e1f87a1fd948dd286921">&#9670;&nbsp;</a></span>enableCluster1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::enableCluster1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2072edb1ba0316923cb0636797f210c" name="aa2072edb1ba0316923cb0636797f210c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2072edb1ba0316923cb0636797f210c">&#9670;&nbsp;</a></span>enableCluster2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::enableCluster2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1926,14 +1992,28 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8196d55d2e1f0c644e2bd71387c7fd42" name="a8196d55d2e1f0c644e2bd71387c7fd42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8196d55d2e1f0c644e2bd71387c7fd42">&#9670;&nbsp;</a></span>unused2_95</h2>
+<a id="abd6dfe75156cac201156a564f72f6389" name="abd6dfe75156cac201156a564f72f6389"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6dfe75156cac201156a564f72f6389">&#9670;&nbsp;</a></span>unused2_95</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::unused2_95[2]</td>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::unused2_95</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48f14fbd73d92dbc8ab04fa0b41b5898" name="a48f14fbd73d92dbc8ab04fa0b41b5898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f14fbd73d92dbc8ab04fa0b41b5898">&#9670;&nbsp;</a></span>unusedClusterBits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> config2::unusedClusterBits</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2138,7 +2218,7 @@ Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Apr 21 2022 03:37:44 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+Generated on Thu Apr 21 2022 06:33:34 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
 </small></address>
 </body>
 </html>
