@@ -88,8 +88,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a16acab7b89a84a781e32cade827627e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a16acab7b89a84a781e32cade827627e1">EEPROM_MAX_WRITE_BLOCK</a>&#160;&#160;&#160;24</td></tr>
-<tr class="separator:a16acab7b89a84a781e32cade827627e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac69a61106c8c49b7098fa86e8b8a0ae1">EEPROM_DATA_VERSION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f35a3c8f57fa44c2ff11701798777d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d">STORAGE_END</a>&#160;&#160;&#160;0xFFF</td></tr>
@@ -182,6 +180,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a777d0dcd5fe1900d22d9197211e70a1b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a777d0dcd5fe1900d22d9197211e70a1b">EEPROM_MAX_WRITE_BLOCK</a> = 24</td></tr>
+<tr class="separator:a777d0dcd5fe1900d22d9197211e70a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aaf8ba209ce169eb65cf0d163c1ac3850">eepromWritesPending</a> = false</td></tr>
 <tr class="separator:aaf8ba209ce169eb65cf0d163c1ac3850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f224b4bcf27c939bd441ddad58c8e7a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a5f224b4bcf27c939bd441ddad58c8e7a">forceBurn</a> = false</td></tr>
@@ -298,20 +298,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define EEPROM_LAST_BARO&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>-1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16acab7b89a84a781e32cade827627e1" name="a16acab7b89a84a781e32cade827627e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16acab7b89a84a781e32cade827627e1">&#9670;&nbsp;</a></span>EEPROM_MAX_WRITE_BLOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EEPROM_MAX_WRITE_BLOCK&#160;&#160;&#160;24</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1721,6 +1707,20 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a777d0dcd5fe1900d22d9197211e70a1b" name="a777d0dcd5fe1900d22d9197211e70a1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a777d0dcd5fe1900d22d9197211e70a1b">&#9670;&nbsp;</a></span>EEPROM_MAX_WRITE_BLOCK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t EEPROM_MAX_WRITE_BLOCK = 24</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf8ba209ce169eb65cf0d163c1ac3850" name="aaf8ba209ce169eb65cf0d163c1ac3850"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf8ba209ce169eb65cf0d163c1ac3850">&#9670;&nbsp;</a></span>eepromWritesPending</h2>
 
@@ -1768,7 +1768,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Jun 3 2022 06:14:59 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Fri Jun 3 2022 08:23:58 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

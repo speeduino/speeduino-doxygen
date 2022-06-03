@@ -53,7 +53,7 @@ var searchData=
   ['eeprom_5fdata_5fversion_50',['EEPROM_DATA_VERSION',['../storage_8cpp.html#ac69a61106c8c49b7098fa86e8b8a0ae1',1,'storage.cpp']]],
   ['eeprom_5fdefer_5fdelay_51',['EEPROM_DEFER_DELAY',['../storage_8h.html#a06c3cfefadeb6408b2382366ca4d6f7e',1,'storage.h']]],
   ['eeprom_5flast_5fbaro_52',['EEPROM_LAST_BARO',['../storage_8cpp.html#a3883bd7685c795fc06ed435efa83dc2e',1,'storage.cpp']]],
-  ['eeprom_5fmax_5fwrite_5fblock_53',['EEPROM_MAX_WRITE_BLOCK',['../storage_8cpp.html#a16acab7b89a84a781e32cade827627e1',1,'storage.cpp']]],
+  ['eeprom_5fmax_5fwrite_5fblock_53',['EEPROM_MAX_WRITE_BLOCK',['../storage_8cpp.html#a777d0dcd5fe1900d22d9197211e70a1b',1,'storage.cpp']]],
   ['eepromreadraw_54',['EEPROMReadRaw',['../storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95',1,'EEPROMReadRaw(uint16_t address):&#160;storage.cpp'],['../storage_8h.html#a63ae27ed0c98f44c977001780b87bd95',1,'EEPROMReadRaw(uint16_t address):&#160;storage.cpp']]],
   ['eepromwriteraw_55',['EEPROMWriteRaw',['../storage_8h.html#aa2eac239d663b8d5c5c921bd1c9dd1cd',1,'EEPROMWriteRaw(uint16_t address, uint8_t data):&#160;storage.cpp'],['../storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd',1,'EEPROMWriteRaw(uint16_t address, uint8_t data):&#160;storage.cpp']]],
   ['eepromwritespending_56',['eepromWritesPending',['../storage_8cpp.html#aaf8ba209ce169eb65cf0d163c1ac3850',1,'storage.cpp']]],
