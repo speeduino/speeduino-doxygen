@@ -75,6 +75,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a535c2792ad25b2aa1b3164d30df4c1c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4">update</a> (uint8_t value)</td></tr>
 <tr class="separator:a535c2792ad25b2aa1b3164d30df4c1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2d5a78cf0d0a6948d22ee07fef6e0dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structwrite__location.html">write_location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#aa2d5a78cf0d0a6948d22ee07fef6e0dc">changeWriteAddress</a> (eeprom_address_t newAddress) const</td></tr>
+<tr class="separator:aa2d5a78cf0d0a6948d22ee07fef6e0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf3a55df77e62165f5a6f8cae9d42834"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structwrite__location.html">write_location</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#abf3a55df77e62165f5a6f8cae9d42834">operator++</a> ()</td></tr>
 <tr class="separator:abf3a55df77e62165f5a6f8cae9d42834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7335336a335521b8c43cbc4f6a78822a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a">can_write</a> () const</td></tr>
@@ -86,6 +88,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa12f873decb9beb8a976afec1c69dab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a585ccbd05fed8757ff018bf9edc40fd3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#a585ccbd05fed8757ff018bf9edc40fd3">counter</a></td></tr>
 <tr class="separator:a585ccbd05fed8757ff018bf9edc40fd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c2df253131aebb1a142af0691d3578"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structwrite__location.html#a17c2df253131aebb1a142af0691d3578">write_block_size</a></td></tr>
+<tr class="separator:a17c2df253131aebb1a142af0691d3578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7335336a335521b8c43cbc4f6a78822a" name="a7335336a335521b8c43cbc4f6a78822a"></a>
@@ -126,6 +130,52 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="243,196,403,223"/>
 <area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="451,171,645,197"/>
 <area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="497,69,599,96"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="109,19,193,45"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,19,60,45"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,145,56,172"/>
+<area shape="rect" href="comms_8cpp.html#a2fb2eb2b13bc6122f9c89d000e2d7d01" title=" " alt="" coords="108,196,195,223"/>
+<area shape="rect" href="updates_8ino.html#ace4f6db079412afb6f5e07de0ba0e45e" title=" " alt="" coords="280,44,365,71"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa2d5a78cf0d0a6948d22ee07fef6e0dc" name="aa2d5a78cf0d0a6948d22ee07fef6e0dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d5a78cf0d0a6948d22ee07fef6e0dc">&#9670;&nbsp;</a></span>changeWriteAddress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structwrite__location.html">write_location</a> write_location::changeWriteAddress </td>
+          <td>(</td>
+          <td class="paramtype">eeprom_address_t&#160;</td>
+          <td class="paramname"><em>newAddress</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p >Create a copy with a different write address. Allows chaining of instances. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structwrite__location_aa2d5a78cf0d0a6948d22ee07fef6e0dc_icgraph.png" border="0" usemap="#astructwrite__location_aa2d5a78cf0d0a6948d22ee07fef6e0dc_icgraph" alt=""/></div>
+<map name="astructwrite__location_aa2d5a78cf0d0a6948d22ee07fef6e0dc_icgraph" id="astructwrite__location_aa2d5a78cf0d0a6948d22ee07fef6e0dc_icgraph">
+<area shape="rect" title=" " alt="" coords="828,125,1008,166"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="693,132,780,159"/>
+<area shape="rect" href="sensors_8ino.html#a73c5e9627f05d5ad6eac06b8dc05a02b" title=" " alt="" coords="500,5,596,32"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a96f6f8b47e9f2d4ff17cb77659727b94" title=" " alt="" coords="247,145,398,172"/>
+<area shape="rect" href="comms_8cpp.html#a291c84c1f9e75664ccf29fcd51e069fd" title=" " alt="" coords="243,196,403,223"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a5af3f9cebfb2b86b192a270226fa21c8" title=" " alt="" coords="451,183,645,209"/>
+<area shape="rect" href="storage_8cpp.html#ac98869315dfb66d34ce1b2015f8afc40" title=" " alt="" coords="497,81,599,108"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="109,19,193,45"/>
 <area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,19,60,45"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,145,56,172"/>
@@ -241,13 +291,27 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a17c2df253131aebb1a142af0691d3578" name="a17c2df253131aebb1a142af0691d3578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c2df253131aebb1a142af0691d3578">&#9670;&nbsp;</a></span>write_block_size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t write_location::write_block_size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>speeduino/<a class="el" href="storage_8cpp.html">storage.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 27 2022 01:48:35 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Mon Jun 27 2022 01:54:00 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
