@@ -26,7 +26,7 @@ var searchData=
   ['max_5ferrors_23',['MAX_ERRORS',['../errors_8h.html#aee6f4b0b74820d727dd8fba4f5efa061',1,'errors.h']]],
   ['max_5frpm_24',['MAX_RPM',['../globals_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'globals.h']]],
   ['max_5fstall_5ftime_25',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino'],['../decoders_8ino.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino']]],
-  ['maxignoutputs_26',['maxIgnOutputs',['../speeduino_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;speeduino.ino'],['../speeduino_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;speeduino.ino']]],
+  ['maxignoutputs_26',['maxIgnOutputs',['../globals_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino'],['../globals_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino']]],
   ['mazda_20au_27',['Mazda AU',['../group__mazda__au.html',1,'']]],
   ['mc33810_5f1_5factive_28',['MC33810_1_ACTIVE',['../acc__mc33810_8h.html#adcba16abdde41b6a226e0e6e0872d10b',1,'acc_mc33810.h']]],
   ['mc33810_5f1_5finactive_29',['MC33810_1_INACTIVE',['../acc__mc33810_8h.html#aa162a0f2f0683a43e51be6b1a9476c3c',1,'acc_mc33810.h']]],
