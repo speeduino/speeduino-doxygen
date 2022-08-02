@@ -338,7 +338,7 @@ $(function() {
 <div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span><span class="preprocessor">#define IDLE_COUNTER   (TIM1)-&gt;CNT</span></div>
 <div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span><span class="preprocessor">#define IDLE_COMPARE   (TIM1)-&gt;CCR4</span></div>
 <div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="preprocessor">#define IDLE_TIMER_ENABLE()  (TIM1)-&gt;SR = ~TIM_FLAG_CC4; (TIM1)-&gt;DIER |= TIM_DIER_CC4IE</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span><span class="preprocessor">#define IDLE_TIMER_ENABLE()  (TIM1)-&gt;SR = ~TIM_FLAG_CC4; (TIM1)-&gt;DIER |= TIM_DIER_CC4IE; (TIM1)-&gt;CR1 |= TIM_CR1_CEN;</span></div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span><span class="preprocessor">#define IDLE_TIMER_DISABLE() (TIM1)-&gt;DIER &amp;= ~TIM_DIER_CC4IE</span></div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span> </div>
 <div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span><span class="comment">/*</span></div>
@@ -423,7 +423,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jul 28 2022 00:23:07 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Tue Aug 2 2022 07:10:56 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
