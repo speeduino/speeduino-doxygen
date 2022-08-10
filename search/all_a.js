@@ -321,7 +321,8 @@ var searchData=
   ['iooutdelay_318',['ioOutDelay',['../utilities_8ino.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino'],['../utilities_8h.html#a7b9a9042a24ad455befc9c8f84ccc13b',1,'ioOutDelay():&#160;utilities.ino']]],
   ['is2byteentry_319',['is2ByteEntry',['../logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a',1,'is2ByteEntry(uint8_t):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
   ['is_5fin_5fbin_320',['is_in_bin',['../table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7',1,'table3d_interpolate.cpp']]],
-  ['iseepromwritepending_321',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
-  ['ismap_322',['isMap',['../comms__legacy_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp']]],
-  ['isstepperhomed_323',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
+  ['is_5finteger_321',['IS_INTEGER',['../maths_8h.html#a521249b4cbb5088afe3bacc0130b1486',1,'maths.h']]],
+  ['iseepromwritepending_322',['isEepromWritePending',['../storage_8cpp.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp'],['../storage_8h.html#a8e6e37ed40a3dbde0c5c234d715334d3',1,'isEepromWritePending():&#160;storage.cpp']]],
+  ['ismap_323',['isMap',['../comms__legacy_8cpp.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a83957882b06af23f432c60467de4c0ea',1,'isMap():&#160;comms_legacy.cpp']]],
+  ['isstepperhomed_324',['isStepperHomed',['../idle_8ino.html#a56814ab9d1d2ed9468d5109474332ff4',1,'idle.ino']]]
 ];

@@ -143,21 +143,22 @@ $(function() {
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>}</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="maths_8h.html#a57fc13eb777500b3e22d3ff457cfd0d7">   73</a></span><span class="preprocessor">#define DIV_ROUND_CLOSEST(n, d) ((((n) &lt; 0) ^ ((d) &lt; 0)) ? (((n) - (d)/2)/(d)) : (((n) + (d)/2)/(d)))</span></div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="comment">//This is a dedicated function that specifically handles the case of mapping 0-1023 values into a 0 to X range</span></div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">//This is a common case because it means converting from a standard 10-bit analog input to a byte or 10-bit analog into 0-511 (Eg the temperature readings)</span></div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">   77</a></span><span class="preprocessor">#define fastMap1023toX(x, out_max) ( ((unsigned long)x * out_max) &gt;&gt; 10)</span></div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span><span class="comment">//This is a new version that allows for out_min</span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="maths_8h.html#a75b8618bbbc73031d200d1424e0252d6">   79</a></span><span class="preprocessor">#define fastMap10Bit(x, out_min, out_max) ( ( ((unsigned long)x * (out_max-out_min)) &gt;&gt; 10 ) + out_min)</span></div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="maths_8h.html#a521249b4cbb5088afe3bacc0130b1486">   74</a></span><span class="preprocessor">#define IS_INTEGER(d) (d == (int32_t)d)</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="comment">//This is a dedicated function that specifically handles the case of mapping 0-1023 values into a 0 to X range</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="comment">//This is a common case because it means converting from a standard 10-bit analog input to a byte or 10-bit analog into 0-511 (Eg the temperature readings)</span></div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">   78</a></span><span class="preprocessor">#define fastMap1023toX(x, out_max) ( ((unsigned long)x * out_max) &gt;&gt; 10)</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="comment">//This is a new version that allows for out_min</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="maths_8h.html#a75b8618bbbc73031d200d1424e0252d6">   80</a></span><span class="preprocessor">#define fastMap10Bit(x, out_min, out_max) ( ( ((unsigned long)x * (out_max-out_min)) &gt;&gt; 10 ) + out_min)</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="amaths_8h_html_a373f24a4dd80604dbd64b1eed9fd8723"><div class="ttname"><a href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723">div360</a></div><div class="ttdeci">uint32_t div360(uint32_t n)</div><div class="ttdef"><b>Definition:</b> maths.h:65</div></div>
 <div class="ttc" id="amaths_8h_html_a463379159b6bf44d8cc3ae2dded6d5a3"><div class="ttname"><a href="maths_8h.html#a463379159b6bf44d8cc3ae2dded6d5a3">percentage</a></div><div class="ttdeci">unsigned long percentage(uint8_t, unsigned long)</div><div class="ttdef"><b>Definition:</b> maths.ino:32</div></div>
 <div class="ttc" id="amaths_8h_html_a78677e4f0dd32b5a001775e1d611f086"><div class="ttname"><a href="maths_8h.html#a78677e4f0dd32b5a001775e1d611f086">libdiv_s32_100</a></div><div class="ttdeci">const struct libdivide::libdivide_s32_t libdiv_s32_100</div><div class="ttdef"><b>Definition:</b> maths.ino:13</div></div>
 <div class="ttc" id="amaths_8h_html_ab32a55afee8acff3cfc6929239d03227"><div class="ttname"><a href="maths_8h.html#ab32a55afee8acff3cfc6929239d03227">libdiv_s16_100</a></div><div class="ttdeci">const struct libdivide::libdivide_s16_t libdiv_s16_100</div><div class="ttdef"><b>Definition:</b> maths.ino:9</div></div>
 <div class="ttc" id="amaths_8h_html_abe8ab500953bdf0f6562068ca78f6248"><div class="ttname"><a href="maths_8h.html#abe8ab500953bdf0f6562068ca78f6248">libdiv_u32_360</a></div><div class="ttdeci">const struct libdivide::libdivide_u32_t libdiv_u32_360</div><div class="ttdef"><b>Definition:</b> maths.ino:15</div></div>
 <div class="ttc" id="amaths_8h_html_ac5776debd129ceef656c4c0efc4fb438"><div class="ttname"><a href="maths_8h.html#ac5776debd129ceef656c4c0efc4fb438">halfPercentage</a></div><div class="ttdeci">unsigned long halfPercentage(uint8_t, unsigned long)</div><div class="ttdef"><b>Definition:</b> maths.ino:38</div></div>
-<div class="ttc" id="amaths_8h_html_adf5aef9f92a453f709100b14ff31e8e7"><div class="ttname"><a href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">fastMap1023toX</a></div><div class="ttdeci">#define fastMap1023toX(x, out_max)</div><div class="ttdef"><b>Definition:</b> maths.h:77</div></div>
+<div class="ttc" id="amaths_8h_html_adf5aef9f92a453f709100b14ff31e8e7"><div class="ttname"><a href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">fastMap1023toX</a></div><div class="ttdeci">#define fastMap1023toX(x, out_max)</div><div class="ttdef"><b>Definition:</b> maths.h:78</div></div>
 <div class="ttc" id="amaths_8h_html_ae15c95d7eff51a68cae87d097bd6eb48"><div class="ttname"><a href="maths_8h.html#ae15c95d7eff51a68cae87d097bd6eb48">powint</a></div><div class="ttdeci">long powint(int, unsigned int)</div><div class="ttdef"><b>Definition:</b> maths.ino:50</div></div>
 <div class="ttc" id="amaths_8h_html_aedf50a185d8137de8a3145cedb9e49c5"><div class="ttname"><a href="maths_8h.html#aedf50a185d8137de8a3145cedb9e49c5">div100</a></div><div class="ttdeci">uint8_t div100(uint8_t n)</div><div class="ttdef"><b>Definition:</b> maths.h:20</div></div>
 <div class="ttc" id="amaths_8h_html_af512b217e7b479bb4daa94c9a17e0e74"><div class="ttname"><a href="maths_8h.html#af512b217e7b479bb4daa94c9a17e0e74">libdiv_u32_100</a></div><div class="ttdeci">const struct libdivide::libdivide_u32_t libdiv_u32_100</div><div class="ttdef"><b>Definition:</b> maths.ino:12</div></div>
@@ -165,7 +166,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 10 2022 01:06:51 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Wed Aug 10 2022 02:13:04 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

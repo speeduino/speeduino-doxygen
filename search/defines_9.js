@@ -65,5 +65,6 @@ var searchData=
   ['injector7toggle_5fmc33810_62',['injector7Toggle_MC33810',['../acc__mc33810_8h.html#a66576b9ee2744866df6f88ff15a68206',1,'acc_mc33810.h']]],
   ['injector8toggle_5fdirect_63',['injector8Toggle_DIRECT',['../scheduled_i_o_8h.html#a1507dcadb155fff352ffc011d2466e21',1,'scheduledIO.h']]],
   ['injector8toggle_5fmc33810_64',['injector8Toggle_MC33810',['../acc__mc33810_8h.html#a35efb66f05f2e679c0107fb41986131a',1,'acc_mc33810.h']]],
-  ['interruptsafe_65',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]]
+  ['interruptsafe_65',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]],
+  ['is_5finteger_66',['IS_INTEGER',['../maths_8h.html#a521249b4cbb5088afe3bacc0130b1486',1,'maths.h']]]
 ];
