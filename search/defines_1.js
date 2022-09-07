@@ -15,5 +15,13 @@ var searchData=
   ['ae_5fmode_5ftps_12',['AE_MODE_TPS',['../globals_8h.html#a18268c68ac84c9aeb9e88081e1f36b2c',1,'globals.h']]],
   ['afrmappage_13',['afrMapPage',['../pages_8h.html#a662ceae37f8f17a64d85551afb7889c0',1,'pages.h']]],
   ['afrsetpage_14',['afrSetPage',['../pages_8h.html#aaee843271a3f806326d7b94fad9b89bd',1,'pages.h']]],
-  ['angle_5ffilter_15',['ANGLE_FILTER',['../decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8',1,'decoders.h']]]
+  ['aircon_5ffan_5foff_15',['AIRCON_FAN_OFF',['../auxiliaries_8h.html#a324fc81f622ae8b9d9903890fc75f8a4',1,'auxiliaries.h']]],
+  ['aircon_5ffan_5fon_16',['AIRCON_FAN_ON',['../auxiliaries_8h.html#aca30d2747e09e201ff1652a7a31e929d',1,'auxiliaries.h']]],
+  ['aircon_5ffan_5fpin_5fhigh_17',['AIRCON_FAN_PIN_HIGH',['../auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e',1,'auxiliaries.h']]],
+  ['aircon_5ffan_5fpin_5flow_18',['AIRCON_FAN_PIN_LOW',['../auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa',1,'auxiliaries.h']]],
+  ['aircon_5foff_19',['AIRCON_OFF',['../auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16',1,'auxiliaries.h']]],
+  ['aircon_5fon_20',['AIRCON_ON',['../auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f',1,'auxiliaries.h']]],
+  ['aircon_5fpin_5fhigh_21',['AIRCON_PIN_HIGH',['../auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c',1,'auxiliaries.h']]],
+  ['aircon_5fpin_5flow_22',['AIRCON_PIN_LOW',['../auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3',1,'auxiliaries.h']]],
+  ['angle_5ffilter_23',['ANGLE_FILTER',['../decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8',1,'decoders.h']]]
 ];

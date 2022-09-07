@@ -77,14 +77,14 @@ $(function() {
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;assert.h&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#ifndef UNIT_TEST </span><span class="comment">// Scope guard for unit testing</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="logger_8h.html#a412b9fb00056eedfd7abea937207928d">   15</a></span><span class="preprocessor">  #define LOG_ENTRY_SIZE      122 </span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="logger_8h.html#a105e5b5ebbe2ea26e8e49dbdca6f6154">   16</a></span><span class="preprocessor">  #define SD_LOG_ENTRY_SIZE   122 </span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="logger_8h.html#a412b9fb00056eedfd7abea937207928d">   15</a></span><span class="preprocessor">  #define LOG_ENTRY_SIZE      123 </span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="logger_8h.html#a105e5b5ebbe2ea26e8e49dbdca6f6154">   16</a></span><span class="preprocessor">  #define SD_LOG_ENTRY_SIZE   123 </span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#else</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">  #define LOG_ENTRY_SIZE      1 </span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">  #define SD_LOG_ENTRY_SIZE   1 </span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="logger_8h.html#a9e4e7ac6a5ff9f9c078144ca879326a7">   22</a></span><span class="preprocessor">#define SD_LOG_NUM_FIELDS   89 </span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="logger_8h.html#a9e4e7ac6a5ff9f9c078144ca879326a7">   22</a></span><span class="preprocessor">#define SD_LOG_NUM_FIELDS   90 </span></div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">byte</span> <a class="code hl_function" href="logger_8h.html#abe9ddb152b0bed1915e9ccdf94a54b1b">getTSLogEntry</a>(uint16_t);</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>int16_t <a class="code hl_function" href="logger_8h.html#a7c7258829135b768f4007f85ad76d9d8">getReadableLogEntry</a>(uint16_t);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#if FPU_MAX_SIZE &gt;= 32</span></div>
@@ -187,8 +187,8 @@ $(function() {
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span><span class="keyword">const</span> <span class="keywordtype">char</span> header_86[] <a class="code hl_variable" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> = <span class="stringliteral">&quot;SD Status&quot;</span>;</div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span><span class="keyword">const</span> <span class="keywordtype">char</span> header_87[] <a class="code hl_variable" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> = <span class="stringliteral">&quot;EMAP&quot;</span>;</div>
 <div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span><span class="keyword">const</span> <span class="keywordtype">char</span> header_88[] <a class="code hl_variable" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> = <span class="stringliteral">&quot;Fan Duty&quot;</span>;</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="comment">/*</span></div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="comment">const char header_89[] PROGMEM = &quot;&quot;;</span></div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span><span class="keyword">const</span> <span class="keywordtype">char</span> header_89[] <a class="code hl_variable" href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a> = <span class="stringliteral">&quot;AirConStatus&quot;</span>;</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="comment">/*</span></div>
 <div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span><span class="comment">const char header_90[] PROGMEM = &quot;&quot;;</span></div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="comment">const char header_91[] PROGMEM = &quot;&quot;;</span></div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span><span class="comment">const char header_92[] PROGMEM = &quot;&quot;;</span></div>
@@ -312,8 +312,8 @@ $(function() {
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>                                              header_86,\</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>                                              header_87,\</div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>                                              header_88,\</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                                              <span class="comment">/*</span></div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="comment">                                              header_89,\</span></div>
+<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>                                              header_89,\</div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>                                              <span class="comment">/*</span></div>
 <div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span><span class="comment">                                              header_90,\</span></div>
 <div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="comment">                                              header_91,\</span></div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span><span class="comment">                                              header_92,\</span></div>
@@ -353,15 +353,15 @@ $(function() {
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="alogger_8h_html_a34e79f550e6f16bc1e77ec227e47c847"><div class="ttname"><a href="logger_8h.html#a34e79f550e6f16bc1e77ec227e47c847">fsIntIndex</a></div><div class="ttdeci">const byte PROGMEM fsIntIndex[]</div><div class="ttdef"><b>Definition:</b> logger.h:34</div></div>
-<div class="ttc" id="alogger_8h_html_a583744cee73ac3aa3fc3468bd2a3492a"><div class="ttname"><a href="logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a">is2ByteEntry</a></div><div class="ttdeci">bool is2ByteEntry(uint8_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:332</div></div>
-<div class="ttc" id="alogger_8h_html_a7c7258829135b768f4007f85ad76d9d8"><div class="ttname"><a href="logger_8h.html#a7c7258829135b768f4007f85ad76d9d8">getReadableLogEntry</a></div><div class="ttdeci">int16_t getReadableLogEntry(uint16_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:178</div></div>
+<div class="ttc" id="alogger_8h_html_a583744cee73ac3aa3fc3468bd2a3492a"><div class="ttname"><a href="logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a">is2ByteEntry</a></div><div class="ttdeci">bool is2ByteEntry(uint8_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:334</div></div>
+<div class="ttc" id="alogger_8h_html_a7c7258829135b768f4007f85ad76d9d8"><div class="ttname"><a href="logger_8h.html#a7c7258829135b768f4007f85ad76d9d8">getReadableLogEntry</a></div><div class="ttdeci">int16_t getReadableLogEntry(uint16_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:179</div></div>
 <div class="ttc" id="alogger_8h_html_a9e4e7ac6a5ff9f9c078144ca879326a7"><div class="ttname"><a href="logger_8h.html#a9e4e7ac6a5ff9f9c078144ca879326a7">SD_LOG_NUM_FIELDS</a></div><div class="ttdeci">#define SD_LOG_NUM_FIELDS</div><div class="ttdef"><b>Definition:</b> logger.h:22</div></div>
 <div class="ttc" id="alogger_8h_html_abe9ddb152b0bed1915e9ccdf94a54b1b"><div class="ttname"><a href="logger_8h.html#abe9ddb152b0bed1915e9ccdf94a54b1b">getTSLogEntry</a></div><div class="ttdeci">byte getTSLogEntry(uint16_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:15</div></div>
 <div class="ttc" id="alogger_8h_html_afac046386752534bba5c1d29d7997bfb"><div class="ttname"><a href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a></div><div class="ttdeci">const char header_0[] PROGMEM</div><div class="ttdef"><b>Definition:</b> logger.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2022 06:19:35 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Wed Sep 7 2022 00:23:25 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

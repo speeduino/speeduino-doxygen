@@ -122,8 +122,24 @@ Macros</h2></td></tr>
 <tr class="separator:aa70c9c52509bedbe1385830810e1fc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad32a9c226eea4c1504663f277e33843c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad32a9c226eea4c1504663f277e33843c">N2O_STAGE2_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a2db3b7f53f22fad712a120a32d40bb0d">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#af6911e8a4bb9ce5f852c9ed80ea50cba">n2o_stage2_pin_mask</a>)</td></tr>
 <tr class="separator:ad32a9c226eea4c1504663f277e33843c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a047ddda83ce9c47e85d516b16e67b1d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#a3cfb201b19dc10a682c0c4dea417e6f1">aircon_comp_pin_mask</a>)</td></tr>
+<tr class="separator:a047ddda83ce9c47e85d516b16e67b1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac432aa21204f7c29b055fece01170f2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#a3cfb201b19dc10a682c0c4dea417e6f1">aircon_comp_pin_mask</a>)</td></tr>
+<tr class="separator:ac432aa21204f7c29b055fece01170f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56d1a3ffff4354fbb52be5175f03cfa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#ade12d5561df54d011d7d4fab1af94681">aircon_fan_pin_mask</a>)</td></tr>
+<tr class="separator:af56d1a3ffff4354fbb52be5175f03cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbab5e1d1d303c399113aa86e06c391e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#ade12d5561df54d011d7d4fab1af94681">aircon_fan_pin_mask</a>)</td></tr>
+<tr class="separator:afbab5e1d1d303c399113aa86e06c391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8h.html#a588ef54468fef94f052f20cafb3ec008">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8h.html#a590bb6b47e5d17acb22b28b82d0451b2">n2o_arming_pin_mask</a>) ? true : false)</td></tr>
 <tr class="separator:aa319e9011ba23adbaec669b487182a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5110a271a05002e0b85fde85c36917f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f">AIRCON_ON</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
+<tr class="separator:ab5110a271a05002e0b85fde85c36917f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16">AIRCON_OFF</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
+<tr class="separator:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca30d2747e09e201ff1652a7a31e929d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aca30d2747e09e201ff1652a7a31e929d">AIRCON_FAN_ON</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
+<tr class="separator:aca30d2747e09e201ff1652a7a31e929d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a324fc81f622ae8b9d9903890fc75f8a4">AIRCON_FAN_OFF</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
+<tr class="separator:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9a459995728bbdd82cbf5bfcc2ef849b">VVT1_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>();</td></tr>
 <tr class="separator:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8ec4cff1410792abfae713385e0b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afa8ec4cff1410792abfae713385e0b88">VVT1_PIN_OFF</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>();</td></tr>
@@ -157,12 +173,24 @@ Functions</h2></td></tr>
 <tr class="separator:adc12024b0e15526b60ec8c2721eb7165"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ae70a247d788207e39e41849fa4b6a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a1ae70a247d788207e39e41849fa4b6a3">initialiseFan</a> ()</td></tr>
 <tr class="separator:a1ae70a247d788207e39e41849fa4b6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e18286b93f787d0de9b3bfb124b802"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a93e18286b93f787d0de9b3bfb124b802">initialiseAirCon</a> ()</td></tr>
+<tr class="separator:a93e18286b93f787d0de9b3bfb124b802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3358193976d1ce7a0c9e63b046cd4ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad3358193976d1ce7a0c9e63b046cd4ea">nitrousControl</a> ()</td></tr>
 <tr class="separator:ad3358193976d1ce7a0c9e63b046cd4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97099627dc27a644e66c95e1edb91aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a97099627dc27a644e66c95e1edb91aa1">fanControl</a> ()</td></tr>
 <tr class="separator:a97099627dc27a644e66c95e1edb91aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3c8d0ccd224494ffab8f87d6688c872"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af3c8d0ccd224494ffab8f87d6688c872">airConControl</a> ()</td></tr>
+<tr class="separator:af3c8d0ccd224494ffab8f87d6688c872"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5970b01b89f01a20f2cf79c1078d3a47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5970b01b89f01a20f2cf79c1078d3a47">READ_AIRCON_REQUEST</a> ()</td></tr>
+<tr class="separator:a5970b01b89f01a20f2cf79c1078d3a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5098532802ea899b4c06d301e2571b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa5098532802ea899b4c06d301e2571b7">wmiControl</a> ()</td></tr>
 <tr class="separator:aa5098532802ea899b4c06d301e2571b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44b3f85a0d6d5381b91794b944fd6902"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a44b3f85a0d6d5381b91794b944fd6902">checkAirConCoolantLockout</a> ()</td></tr>
+<tr class="separator:a44b3f85a0d6d5381b91794b944fd6902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69c2b9f688faecc5a879aab0c5c750cc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a69c2b9f688faecc5a879aab0c5c750cc">checkAirConTPSLockout</a> ()</td></tr>
+<tr class="separator:a69c2b9f688faecc5a879aab0c5c750cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67973b2159b600f97904db269df0befa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a67973b2159b600f97904db269df0befa">checkAirConRPMLockout</a> ()</td></tr>
+<tr class="separator:a67973b2159b600f97904db269df0befa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab973dbf393a510361e71991a7d52831d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab973dbf393a510361e71991a7d52831d">boostInterrupt</a> ()</td></tr>
 <tr class="separator:ab973dbf393a510361e71991a7d52831d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70863e2d22769bc21fd33dcba0837c7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a70863e2d22769bc21fd33dcba0837c7f">vvtInterrupt</a> ()</td></tr>
@@ -198,6 +226,18 @@ Variables</h2></td></tr>
 <tr class="separator:a588ef54468fef94f052f20cafb3ec008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a590bb6b47e5d17acb22b28b82d0451b2"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a590bb6b47e5d17acb22b28b82d0451b2">n2o_arming_pin_mask</a></td></tr>
 <tr class="separator:a590bb6b47e5d17acb22b28b82d0451b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a693b1bb034492a2442f76c8ae465104e"><td class="memItemLeft" align="right" valign="top">volatile PORT_TYPE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a></td></tr>
+<tr class="separator:a693b1bb034492a2442f76c8ae465104e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cfb201b19dc10a682c0c4dea417e6f1"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3cfb201b19dc10a682c0c4dea417e6f1">aircon_comp_pin_mask</a></td></tr>
+<tr class="separator:a3cfb201b19dc10a682c0c4dea417e6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad405dd7541bc29bc9fe32911fa625811"><td class="memItemLeft" align="right" valign="top">volatile PORT_TYPE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a></td></tr>
+<tr class="separator:ad405dd7541bc29bc9fe32911fa625811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade12d5561df54d011d7d4fab1af94681"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ade12d5561df54d011d7d4fab1af94681">aircon_fan_pin_mask</a></td></tr>
+<tr class="separator:ade12d5561df54d011d7d4fab1af94681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5359769c6ce548037a2e0dd2662dd1f0"><td class="memItemLeft" align="right" valign="top">volatile PORT_TYPE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5359769c6ce548037a2e0dd2662dd1f0">aircon_req_pin_port</a></td></tr>
+<tr class="separator:a5359769c6ce548037a2e0dd2662dd1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad184f97afc175f7f9c3d98d1cc3f7d97"><td class="memItemLeft" align="right" valign="top">volatile PINMASK_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad184f97afc175f7f9c3d98d1cc3f7d97">aircon_req_pin_mask</a></td></tr>
+<tr class="separator:ad184f97afc175f7f9c3d98d1cc3f7d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a890f54cc385e3554e1e9ae3962cfa1aa"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a890f54cc385e3554e1e9ae3962cfa1aa">boost_pwm_state</a></td></tr>
 <tr class="separator:a890f54cc385e3554e1e9ae3962cfa1aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352398dabeadf9329d97f6899a5a036e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a352398dabeadf9329d97f6899a5a036e">boost_pwm_max_count</a></td></tr>
@@ -246,8 +286,158 @@ Variables</h2></td></tr>
 <tr class="separator:a6e0dfec0f3026172f66929369b687852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77f0c75ac1c352b907851feb08b7e268"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a77f0c75ac1c352b907851feb08b7e268">vvt2_pid_current_angle</a></td></tr>
 <tr class="separator:a77f0c75ac1c352b907851feb08b7e268"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4fe4efed08941946c872eb3466906fb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa4fe4efed08941946c872eb3466906fb">acIsEnabled</a></td></tr>
+<tr class="separator:aa4fe4efed08941946c872eb3466906fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342c4c1c7fe4129351cd6170df2524fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a342c4c1c7fe4129351cd6170df2524fa">acStandAloneFanIsEnabled</a></td></tr>
+<tr class="separator:a342c4c1c7fe4129351cd6170df2524fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbaf4a54be3b1aef82e7cf54d5445361"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afbaf4a54be3b1aef82e7cf54d5445361">acStartDelay</a></td></tr>
+<tr class="separator:afbaf4a54be3b1aef82e7cf54d5445361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e06f2dbfdccf8254dffc9bdbc43785e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a4e06f2dbfdccf8254dffc9bdbc43785e">acTPSLockoutDelay</a></td></tr>
+<tr class="separator:a4e06f2dbfdccf8254dffc9bdbc43785e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea61968b0745fc25622a674256227d68"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aea61968b0745fc25622a674256227d68">acRPMLockoutDelay</a></td></tr>
+<tr class="separator:aea61968b0745fc25622a674256227d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b08b3340d78026c93e768fa59461eb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a98b08b3340d78026c93e768fa59461eb">acAfterEngineStartDelay</a></td></tr>
+<tr class="separator:a98b08b3340d78026c93e768fa59461eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0452cbd072191edecaa782244fce594"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae0452cbd072191edecaa782244fce594">waitedAfterCranking</a></td></tr>
+<tr class="separator:ae0452cbd072191edecaa782244fce594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a324fc81f622ae8b9d9903890fc75f8a4" name="a324fc81f622ae8b9d9903890fc75f8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a324fc81f622ae8b9d9903890fc75f8a4">&#9670;&nbsp;</a></span>AIRCON_FAN_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_FAN_OFF</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca30d2747e09e201ff1652a7a31e929d" name="aca30d2747e09e201ff1652a7a31e929d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca30d2747e09e201ff1652a7a31e929d">&#9670;&nbsp;</a></span>AIRCON_FAN_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_FAN_ON</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbab5e1d1d303c399113aa86e06c391e" name="afbab5e1d1d303c399113aa86e06c391e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbab5e1d1d303c399113aa86e06c391e">&#9670;&nbsp;</a></span>AIRCON_FAN_PIN_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_FAN_PIN_HIGH</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#ade12d5561df54d011d7d4fab1af94681">aircon_fan_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af56d1a3ffff4354fbb52be5175f03cfa" name="af56d1a3ffff4354fbb52be5175f03cfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56d1a3ffff4354fbb52be5175f03cfa">&#9670;&nbsp;</a></span>AIRCON_FAN_PIN_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_FAN_PIN_LOW</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#ade12d5561df54d011d7d4fab1af94681">aircon_fan_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cf46d7c63d07ad35c4e3bdcf436dc16" name="a5cf46d7c63d07ad35c4e3bdcf436dc16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf46d7c63d07ad35c4e3bdcf436dc16">&#9670;&nbsp;</a></span>AIRCON_OFF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_OFF</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5110a271a05002e0b85fde85c36917f" name="ab5110a271a05002e0b85fde85c36917f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5110a271a05002e0b85fde85c36917f">&#9670;&nbsp;</a></span>AIRCON_ON</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_ON</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac432aa21204f7c29b055fece01170f2c" name="ac432aa21204f7c29b055fece01170f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac432aa21204f7c29b055fece01170f2c">&#9670;&nbsp;</a></span>AIRCON_PIN_HIGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_PIN_HIGH</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8h.html#a3cfb201b19dc10a682c0c4dea417e6f1">aircon_comp_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a047ddda83ce9c47e85d516b16e67b1d3" name="a047ddda83ce9c47e85d516b16e67b1d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a047ddda83ce9c47e85d516b16e67b1d3">&#9670;&nbsp;</a></span>AIRCON_PIN_LOW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AIRCON_PIN_LOW</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8h.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8h.html#a3cfb201b19dc10a682c0c4dea417e6f1">aircon_comp_pin_mask</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0a6862c54b02337874d3af744eddde8a" name="a0a6862c54b02337874d3af744eddde8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a6862c54b02337874d3af744eddde8a">&#9670;&nbsp;</a></span>BOOST_PIN_HIGH</h2>
 
@@ -645,6 +835,45 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="af3c8d0ccd224494ffab8f87d6688c872" name="af3c8d0ccd224494ffab8f87d6688c872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3c8d0ccd224494ffab8f87d6688c872">&#9670;&nbsp;</a></span>airConControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void airConControl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_cgraph.png" border="0" usemap="#aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_cgraph" alt=""/></div>
+<map name="aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_cgraph" id="aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_cgraph">
+<area shape="rect" title=" " alt="" coords="5,81,105,108"/>
+<area shape="rect" href="auxiliaries_8ino.html#a44b3f85a0d6d5381b91794b944fd6902" title=" " alt="" coords="153,5,340,32"/>
+<area shape="rect" href="auxiliaries_8ino.html#a67973b2159b600f97904db269df0befa" title=" " alt="" coords="161,56,333,83"/>
+<area shape="rect" href="auxiliaries_8ino.html#a69c2b9f688faecc5a879aab0c5c750cc" title=" " alt="" coords="162,107,331,133"/>
+<area shape="rect" href="auxiliaries_8ino.html#a5970b01b89f01a20f2cf79c1078d3a47" title=" " alt="" coords="155,157,339,184"/>
+<area shape="rect" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1" title=" " alt="" coords="388,5,427,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_icgraph.png" border="0" usemap="#aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_icgraph" id="aauxiliaries_8h_af3c8d0ccd224494ffab8f87d6688c872_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,200,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a23864b312d3bb7cc2bde2a19fc792e5f" name="a23864b312d3bb7cc2bde2a19fc792e5f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23864b312d3bb7cc2bde2a19fc792e5f">&#9670;&nbsp;</a></span>boostByGear()</h2>
 
@@ -766,6 +995,81 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a44b3f85a0d6d5381b91794b944fd6902" name="a44b3f85a0d6d5381b91794b944fd6902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44b3f85a0d6d5381b91794b944fd6902">&#9670;&nbsp;</a></span>checkAirConCoolantLockout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void checkAirConCoolantLockout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67973b2159b600f97904db269df0befa" name="a67973b2159b600f97904db269df0befa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67973b2159b600f97904db269df0befa">&#9670;&nbsp;</a></span>checkAirConRPMLockout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void checkAirConRPMLockout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69c2b9f688faecc5a879aab0c5c750cc" name="a69c2b9f688faecc5a879aab0c5c750cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69c2b9f688faecc5a879aab0c5c750cc">&#9670;&nbsp;</a></span>checkAirConTPSLockout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void checkAirConTPSLockout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a97099627dc27a644e66c95e1edb91aa1" name="a97099627dc27a644e66c95e1edb91aa1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97099627dc27a644e66c95e1edb91aa1">&#9670;&nbsp;</a></span>fanControl()</h2>
 
@@ -853,6 +1157,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a93e18286b93f787d0de9b3bfb124b802" name="a93e18286b93f787d0de9b3bfb124b802"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93e18286b93f787d0de9b3bfb124b802">&#9670;&nbsp;</a></span>initialiseAirCon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initialiseAirCon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a93e18286b93f787d0de9b3bfb124b802_icgraph.png" border="0" usemap="#aauxiliaries_8h_a93e18286b93f787d0de9b3bfb124b802_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a93e18286b93f787d0de9b3bfb124b802_icgraph" id="aauxiliaries_8h_a93e18286b93f787d0de9b3bfb124b802_icgraph">
+<area shape="rect" title=" " alt="" coords="240,5,348,32"/>
+<area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,5,192,32"/>
+<area shape="rect" href="speeduino_8ino.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a058a74aeacf1d90199b5022c2e0006e6" name="a058a74aeacf1d90199b5022c2e0006e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a058a74aeacf1d90199b5022c2e0006e6">&#9670;&nbsp;</a></span>initialiseAuxPWM()</h2>
 
@@ -927,6 +1258,33 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="auxiliaries_8h_ad3358193976d1ce7a0c9e63b046cd4ea_icgraph.png" border="0" usemap="#aauxiliaries_8h_ad3358193976d1ce7a0c9e63b046cd4ea_icgraph" alt=""/></div>
 <map name="aauxiliaries_8h_ad3358193976d1ce7a0c9e63b046cd4ea_icgraph" id="aauxiliaries_8h_ad3358193976d1ce7a0c9e63b046cd4ea_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,203,32"/>
+<area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5970b01b89f01a20f2cf79c1078d3a47" name="a5970b01b89f01a20f2cf79c1078d3a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5970b01b89f01a20f2cf79c1078d3a47">&#9670;&nbsp;</a></span>READ_AIRCON_REQUEST()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool READ_AIRCON_REQUEST </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a5970b01b89f01a20f2cf79c1078d3a47_icgraph.png" border="0" usemap="#aauxiliaries_8h_a5970b01b89f01a20f2cf79c1078d3a47_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a5970b01b89f01a20f2cf79c1078d3a47_icgraph" id="aauxiliaries_8h_a5970b01b89f01a20f2cf79c1078d3a47_icgraph">
+<area shape="rect" title=" " alt="" coords="248,5,432,32"/>
+<area shape="rect" href="auxiliaries_8ino.html#af3c8d0ccd224494ffab8f87d6688c872" title=" " alt="" coords="100,5,200,32"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,5,52,32"/>
 </map>
 </div>
@@ -1025,6 +1383,174 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a98b08b3340d78026c93e768fa59461eb" name="a98b08b3340d78026c93e768fa59461eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b08b3340d78026c93e768fa59461eb">&#9670;&nbsp;</a></span>acAfterEngineStartDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t acAfterEngineStartDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4fe4efed08941946c872eb3466906fb" name="aa4fe4efed08941946c872eb3466906fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4fe4efed08941946c872eb3466906fb">&#9670;&nbsp;</a></span>acIsEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool acIsEnabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea61968b0745fc25622a674256227d68" name="aea61968b0745fc25622a674256227d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea61968b0745fc25622a674256227d68">&#9670;&nbsp;</a></span>acRPMLockoutDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t acRPMLockoutDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a342c4c1c7fe4129351cd6170df2524fa" name="a342c4c1c7fe4129351cd6170df2524fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342c4c1c7fe4129351cd6170df2524fa">&#9670;&nbsp;</a></span>acStandAloneFanIsEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool acStandAloneFanIsEnabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afbaf4a54be3b1aef82e7cf54d5445361" name="afbaf4a54be3b1aef82e7cf54d5445361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbaf4a54be3b1aef82e7cf54d5445361">&#9670;&nbsp;</a></span>acStartDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t acStartDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e06f2dbfdccf8254dffc9bdbc43785e" name="a4e06f2dbfdccf8254dffc9bdbc43785e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e06f2dbfdccf8254dffc9bdbc43785e">&#9670;&nbsp;</a></span>acTPSLockoutDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t acTPSLockoutDelay</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cfb201b19dc10a682c0c4dea417e6f1" name="a3cfb201b19dc10a682c0c4dea417e6f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cfb201b19dc10a682c0c4dea417e6f1">&#9670;&nbsp;</a></span>aircon_comp_pin_mask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PINMASK_TYPE aircon_comp_pin_mask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a693b1bb034492a2442f76c8ae465104e" name="a693b1bb034492a2442f76c8ae465104e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a693b1bb034492a2442f76c8ae465104e">&#9670;&nbsp;</a></span>aircon_comp_pin_port</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PORT_TYPE* aircon_comp_pin_port</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ade12d5561df54d011d7d4fab1af94681" name="ade12d5561df54d011d7d4fab1af94681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade12d5561df54d011d7d4fab1af94681">&#9670;&nbsp;</a></span>aircon_fan_pin_mask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PINMASK_TYPE aircon_fan_pin_mask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad405dd7541bc29bc9fe32911fa625811" name="ad405dd7541bc29bc9fe32911fa625811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad405dd7541bc29bc9fe32911fa625811">&#9670;&nbsp;</a></span>aircon_fan_pin_port</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PORT_TYPE* aircon_fan_pin_port</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad184f97afc175f7f9c3d98d1cc3f7d97" name="ad184f97afc175f7f9c3d98d1cc3f7d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad184f97afc175f7f9c3d98d1cc3f7d97">&#9670;&nbsp;</a></span>aircon_req_pin_mask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PINMASK_TYPE aircon_req_pin_mask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5359769c6ce548037a2e0dd2662dd1f0" name="a5359769c6ce548037a2e0dd2662dd1f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5359769c6ce548037a2e0dd2662dd1f0">&#9670;&nbsp;</a></span>aircon_req_pin_port</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile PORT_TYPE* aircon_req_pin_port</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad526633fccbd3def9d1c5b02cad2dcaf" name="ad526633fccbd3def9d1c5b02cad2dcaf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad526633fccbd3def9d1c5b02cad2dcaf">&#9670;&nbsp;</a></span>boost_cl_target_boost</h2>
 
@@ -1557,10 +2083,24 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ae0452cbd072191edecaa782244fce594" name="ae0452cbd072191edecaa782244fce594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0452cbd072191edecaa782244fce594">&#9670;&nbsp;</a></span>waitedAfterCranking</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool waitedAfterCranking</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Aug 31 2022 06:19:35 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Wed Sep 7 2022 00:23:26 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
