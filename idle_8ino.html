@@ -82,8 +82,8 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a36e66b40229b22fda00d5e7fcd67da1a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a">enableIdle</a> ()</td></tr>
 <tr class="separator:a36e66b40229b22fda00d5e7fcd67da1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca4d348119424a7474843489e1b62b3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c">initialiseIdle</a> ()</td></tr>
-<tr class="separator:aca4d348119424a7474843489e1b62b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e286ea532c51b90ec90fe2ac131a8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8ino.html#a91e286ea532c51b90ec90fe2ac131a8d">initialiseIdle</a> (bool forcehoming)</td></tr>
+<tr class="separator:a91e286ea532c51b90ec90fe2ac131a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b89edb80762b952e3fa34c609a3802b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8ino.html#a0b89edb80762b952e3fa34c609a3802b">initialiseIdleUpOutput</a> ()</td></tr>
 <tr class="separator:a0b89edb80762b952e3fa34c609a3802b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4053de9017b2bb17d6328131c7045408"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8ino.html#a4053de9017b2bb17d6328131c7045408">checkForStepping</a> ()</td></tr>
@@ -246,7 +246,7 @@ Here is the caller graph for this function:</div>
 <map name="aidle_8ino_a36e66b40229b22fda00d5e7fcd67da1a_icgraph" id="aidle_8ino_a36e66b40229b22fda00d5e7fcd67da1a_icgraph">
 <area shape="rect" title=" " alt="" coords="379,31,460,57"/>
 <area shape="rect" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title=" " alt="" coords="109,5,191,32"/>
-<area shape="rect" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c" title=" " alt="" coords="240,56,331,83"/>
+<area shape="rect" href="idle_8ino.html#a91e286ea532c51b90ec90fe2ac131a8d" title=" " alt="" coords="240,56,331,83"/>
 <area shape="rect" href="speeduino_8ino.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,31,56,57"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,107,192,133"/>
 <area shape="rect" href="sensors_8ino.html#a9d238af3280503ab8185551275ab1e22" title=" " alt="" coords="117,56,183,83"/>
@@ -282,7 +282,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="table2d_8ino.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="286,144,410,171"/>
 <area shape="rect" href="idle_8ino.html#ad4337269d8ccf10b0a3e6791f55f0740" title=" " alt="" coords="150,347,213,374"/>
 <area shape="rect" href="idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a" title=" " alt="" coords="307,195,389,222"/>
-<area shape="rect" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c" title=" " alt="" coords="136,246,227,272"/>
+<area shape="rect" href="idle_8ino.html#a91e286ea532c51b90ec90fe2ac131a8d" title=" " alt="" coords="136,246,227,272"/>
 <area shape="rect" href="maths_8ino.html#a101058c9dcab84201e963f8dd32690d3" title=" " alt="" coords="305,296,391,323"/>
 <area shape="rect" href="table2d_8ino.html#a551a118039963efac02cd07fcdd59764" title=" " alt="" coords="491,94,598,120"/>
 <area shape="rect" href="table2d_8ino.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="470,144,619,171"/>
@@ -320,8 +320,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aca4d348119424a7474843489e1b62b3c" name="aca4d348119424a7474843489e1b62b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca4d348119424a7474843489e1b62b3c">&#9670;&nbsp;</a></span>initialiseIdle()</h2>
+<a id="a91e286ea532c51b90ec90fe2ac131a8d" name="a91e286ea532c51b90ec90fe2ac131a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91e286ea532c51b90ec90fe2ac131a8d">&#9670;&nbsp;</a></span>initialiseIdle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +329,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void initialiseIdle </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>forcehoming</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -337,8 +338,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="idle_8ino_aca4d348119424a7474843489e1b62b3c_cgraph.png" border="0" usemap="#aidle_8ino_aca4d348119424a7474843489e1b62b3c_cgraph" alt=""/></div>
-<map name="aidle_8ino_aca4d348119424a7474843489e1b62b3c_cgraph" id="aidle_8ino_aca4d348119424a7474843489e1b62b3c_cgraph">
+<div class="center"><img src="idle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_cgraph.png" border="0" usemap="#aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_cgraph" alt=""/></div>
+<map name="aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_cgraph" id="aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_cgraph">
 <area shape="rect" title=" " alt="" coords="5,81,96,108"/>
 <area shape="rect" href="idle_8ino.html#a36e66b40229b22fda00d5e7fcd67da1a" title=" " alt="" coords="177,5,258,32"/>
 <area shape="rect" href="idle_8ino.html#a0b89edb80762b952e3fa34c609a3802b" title=" " alt="" coords="144,56,291,83"/>
@@ -353,8 +354,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="idle_8ino_aca4d348119424a7474843489e1b62b3c_icgraph.png" border="0" usemap="#aidle_8ino_aca4d348119424a7474843489e1b62b3c_icgraph" alt=""/></div>
-<map name="aidle_8ino_aca4d348119424a7474843489e1b62b3c_icgraph" id="aidle_8ino_aca4d348119424a7474843489e1b62b3c_icgraph">
+<div class="center"><img src="idle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_icgraph.png" border="0" usemap="#aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_icgraph" alt=""/></div>
+<map name="aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_icgraph" id="aidle_8ino_a91e286ea532c51b90ec90fe2ac131a8d_icgraph">
 <area shape="rect" title=" " alt="" coords="240,56,331,83"/>
 <area shape="rect" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title=" " alt="" coords="109,5,191,32"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,107,192,133"/>
@@ -386,7 +387,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="idle_8ino_a0b89edb80762b952e3fa34c609a3802b_icgraph.png" border="0" usemap="#aidle_8ino_a0b89edb80762b952e3fa34c609a3802b_icgraph" alt=""/></div>
 <map name="aidle_8ino_a0b89edb80762b952e3fa34c609a3802b_icgraph" id="aidle_8ino_a0b89edb80762b952e3fa34c609a3802b_icgraph">
 <area shape="rect" title=" " alt="" coords="379,56,525,83"/>
-<area shape="rect" href="idle_8ino.html#aca4d348119424a7474843489e1b62b3c" title=" " alt="" coords="240,56,331,83"/>
+<area shape="rect" href="idle_8ino.html#a91e286ea532c51b90ec90fe2ac131a8d" title=" " alt="" coords="240,56,331,83"/>
 <area shape="rect" href="idle_8ino.html#ab8f62cb86190591b6c42253fa18989fb" title=" " alt="" coords="109,5,191,32"/>
 <area shape="rect" href="init_8ino.html#a566feb76074886ed4a5416301db3d193" title=" " alt="" coords="108,107,192,133"/>
 <area shape="rect" href="sensors_8ino.html#a9d238af3280503ab8185551275ab1e22" title=" " alt="" coords="117,56,183,83"/>
@@ -452,7 +453,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Sep 13 2022 07:33:30 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Tue Sep 13 2022 13:17:01 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
