@@ -45,10 +45,10 @@ var searchData=
   ['nitrous_5fstage1_42',['NITROUS_STAGE1',['../globals_8h.html#aa75be79f7eee8079150e7c564b4097ab',1,'globals.h']]],
   ['nitrous_5fstage2_43',['NITROUS_STAGE2',['../globals_8h.html#a2b90e1db9e12cf7ae1e9a9a917abcf0b',1,'globals.h']]],
   ['nitrous_5fstatus_44',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['nitrouscontrol_45',['nitrousControl',['../auxiliaries_8ino.html#ad3358193976d1ce7a0c9e63b046cd4ea',1,'nitrousControl():&#160;auxiliaries.ino'],['../auxiliaries_8h.html#ad3358193976d1ce7a0c9e63b046cd4ea',1,'nitrousControl():&#160;auxiliaries.ino']]],
+  ['nitrouscontrol_45',['nitrousControl',['../auxiliaries_8ino.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.ino'],['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.ino']]],
   ['noentity_46',['NoEntity',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3',1,'pages.h']]],
   ['non_2d360_20dual_20wheel_47',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
   ['nsquirts_48',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nullcallback_49',['nullCallback',['../scheduled_i_o_8h.html#a34032325b571ff60682217adbf73ad37',1,'nullCallback():&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a34032325b571ff60682217adbf73ad37',1,'nullCallback():&#160;scheduledIO.ino']]],
+  ['nullcallback_49',['nullCallback',['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino']]],
   ['num_5frows_50',['num_rows',['../structtable3d8_rpm_tps__values.html#aeb7cf417d9f9ca7ae97472944ed72fee',1,'table3d8RpmTps_values::num_rows()'],['../structtable3d16_rpm_load__values.html#a0686b81f9ade43c70ddade44e9040c96',1,'table3d16RpmLoad_values::num_rows()'],['../structtable3d4_rpm_load__values.html#a4937601bb4d89c9174f7ad9c82961359',1,'table3d4RpmLoad_values::num_rows()'],['../structtable3d6_rpm_load__values.html#a9776fe7bda4b3ffb0c12ad00b33abaad',1,'table3d6RpmLoad_values::num_rows()'],['../structtable3d8_rpm_load__values.html#a12fd2dd3327ede931e26bf0ca1d6c299',1,'table3d8RpmLoad_values::num_rows()']]]
 ];

@@ -85,12 +85,12 @@ $(function() {
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="logger_8h.html#a9e4e7ac6a5ff9f9c078144ca879326a7">   22</a></span><span class="preprocessor">#define SD_LOG_NUM_FIELDS   90 </span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">byte</span> <a class="code hl_function" href="logger_8h.html#abe9ddb152b0bed1915e9ccdf94a54b1b">getTSLogEntry</a>(uint16_t);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>int16_t <a class="code hl_function" href="logger_8h.html#a7c7258829135b768f4007f85ad76d9d8">getReadableLogEntry</a>(uint16_t);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keywordtype">byte</span> <a class="code hl_function" href="logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c">getTSLogEntry</a>(uint16_t byteNum);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>int16_t <a class="code hl_function" href="logger_8h.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a>(uint16_t logIndex);</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#if FPU_MAX_SIZE &gt;= 32</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordtype">float</span> getReadableFloatLogEntry(uint16_t);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>  <span class="keywordtype">float</span> getReadableFloatLogEntry(uint16_t logIndex);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> <a class="code hl_function" href="logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a">is2ByteEntry</a>(uint8_t);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="keywordtype">bool</span> <a class="code hl_function" href="logger_8h.html#ad5815fac5301ceb5eef90fad69925d08">is2ByteEntry</a>(uint8_t key);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// This array indicates which index values from the log are 2 byte values</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">// This array MUST remain in ascending order</span></div>
@@ -353,15 +353,15 @@ $(function() {
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="alogger_8h_html_a34e79f550e6f16bc1e77ec227e47c847"><div class="ttname"><a href="logger_8h.html#a34e79f550e6f16bc1e77ec227e47c847">fsIntIndex</a></div><div class="ttdeci">const byte PROGMEM fsIntIndex[]</div><div class="ttdef"><b>Definition:</b> logger.h:34</div></div>
-<div class="ttc" id="alogger_8h_html_a583744cee73ac3aa3fc3468bd2a3492a"><div class="ttname"><a href="logger_8h.html#a583744cee73ac3aa3fc3468bd2a3492a">is2ByteEntry</a></div><div class="ttdeci">bool is2ByteEntry(uint8_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:334</div></div>
-<div class="ttc" id="alogger_8h_html_a7c7258829135b768f4007f85ad76d9d8"><div class="ttname"><a href="logger_8h.html#a7c7258829135b768f4007f85ad76d9d8">getReadableLogEntry</a></div><div class="ttdeci">int16_t getReadableLogEntry(uint16_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:179</div></div>
+<div class="ttc" id="alogger_8h_html_a8c8cf5536fa7b0175d0d939fbae9a63e"><div class="ttname"><a href="logger_8h.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a></div><div class="ttdeci">int16_t getReadableLogEntry(uint16_t logIndex)</div><div class="ttdef"><b>Definition:</b> logger.ino:179</div></div>
 <div class="ttc" id="alogger_8h_html_a9e4e7ac6a5ff9f9c078144ca879326a7"><div class="ttname"><a href="logger_8h.html#a9e4e7ac6a5ff9f9c078144ca879326a7">SD_LOG_NUM_FIELDS</a></div><div class="ttdeci">#define SD_LOG_NUM_FIELDS</div><div class="ttdef"><b>Definition:</b> logger.h:22</div></div>
-<div class="ttc" id="alogger_8h_html_abe9ddb152b0bed1915e9ccdf94a54b1b"><div class="ttname"><a href="logger_8h.html#abe9ddb152b0bed1915e9ccdf94a54b1b">getTSLogEntry</a></div><div class="ttdeci">byte getTSLogEntry(uint16_t)</div><div class="ttdef"><b>Definition:</b> logger.ino:15</div></div>
+<div class="ttc" id="alogger_8h_html_ad5815fac5301ceb5eef90fad69925d08"><div class="ttname"><a href="logger_8h.html#ad5815fac5301ceb5eef90fad69925d08">is2ByteEntry</a></div><div class="ttdeci">bool is2ByteEntry(uint8_t key)</div><div class="ttdef"><b>Definition:</b> logger.ino:334</div></div>
+<div class="ttc" id="alogger_8h_html_af1156ed72bfc08458ff2aa6ccdacb27c"><div class="ttname"><a href="logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c">getTSLogEntry</a></div><div class="ttdeci">byte getTSLogEntry(uint16_t byteNum)</div><div class="ttdef"><b>Definition:</b> logger.ino:15</div></div>
 <div class="ttc" id="alogger_8h_html_afac046386752534bba5c1d29d7997bfb"><div class="ttname"><a href="logger_8h.html#afac046386752534bba5c1d29d7997bfb">PROGMEM</a></div><div class="ttdeci">const char header_0[] PROGMEM</div><div class="ttdef"><b>Definition:</b> logger.h:37</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 4 2022 01:36:28 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Sat Nov 5 2022 22:43:54 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>

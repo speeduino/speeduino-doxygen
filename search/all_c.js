@@ -27,7 +27,7 @@ var searchData=
   ['knockactive_24',['knockActive',['../structstatuses.html#a8a607d43196ddb893cf4087eea78e881',1,'statuses']]],
   ['knockangle_25',['knockAngle',['../sensors_8h.html#ad2edf9c4a532d4ce421ca6c38a68aee3',1,'sensors.h']]],
   ['knockcounter_26',['knockCounter',['../sensors_8h.html#a55faada3ae98f68d4fba5bedc9ce9c43',1,'sensors.h']]],
-  ['knockpulse_27',['knockPulse',['../sensors_8ino.html#a84a73a16c449a4d9f557ebb57aaf5d76',1,'sensors.ino']]],
+  ['knockpulse_27',['knockPulse',['../sensors_8ino.html#ab91b1494d48935a25a4666b5a0b933c6',1,'sensors.ino']]],
   ['knockretard_28',['knockRetard',['../structstatuses.html#a66e9742cc2d9e2393a6a17979b63f9b7',1,'statuses']]],
   ['knockstarttime_29',['knockStartTime',['../corrections_8h.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime():&#160;corrections.ino'],['../corrections_8ino.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime():&#160;corrections.ino']]],
   ['knockwindowdurationtable_30',['knockWindowDurationTable',['../globals_8h.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable():&#160;globals.ino'],['../globals_8ino.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable():&#160;globals.ino']]],
