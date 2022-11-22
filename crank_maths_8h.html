@@ -101,6 +101,8 @@ Macros</h2></td></tr>
 <tr class="separator:a9945a7484e877e2a5bef621259844809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6de8020b8ba79cc9175db141a52f44d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a6de8020b8ba79cc9175db141a52f44d6">CRANKMATH_METHOD_2ND_DERIVATIVE</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a6de8020b8ba79cc9175db141a52f44d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a796685254307924eeddb95ed21f0492c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a796685254307924eeddb95ed21f0492c">SECOND_DERIV_ENABLED</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a796685254307924eeddb95ed21f0492c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8ino.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
 <tr class="separator:a60ecc58cbe7e51c63d83631692059bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8ino.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
@@ -245,6 +247,20 @@ Variables</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">angle</td><td>)</td>
           <td>&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8ino.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a796685254307924eeddb95ed21f0492c" name="a796685254307924eeddb95ed21f0492c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a796685254307924eeddb95ed21f0492c">&#9670;&nbsp;</a></span>SECOND_DERIV_ENABLED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SECOND_DERIV_ENABLED&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -461,7 +477,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Nov 13 2022 23:52:38 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+Generated on Tue Nov 22 2022 05:46:58 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
 </small></address>
 </body>
 </html>
