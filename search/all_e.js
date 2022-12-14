@@ -11,7 +11,7 @@ var searchData=
   ['mapadc_8',['mapADC',['../structstatuses.html#a7e498b4fee93dece347e79296cc4cd24',1,'statuses']]],
   ['mapcount_9',['MAPcount',['../sensors_8h.html#a450cd4aeaf32bf15248ae63251205c3e',1,'sensors.h']]],
   ['mapcurrev_10',['MAPcurRev',['../sensors_8h.html#a41a6d3db258530109514a22b068118bb',1,'sensors.h']]],
-  ['mapdot_11',['mapDOT',['../structstatuses.html#a73aa213322d7ba1c44ef1f450ab796fe',1,'statuses']]],
+  ['mapdot_11',['mapDOT',['../structstatuses.html#a4018d6efd94aa1a10cfe150738b795fe',1,'statuses']]],
   ['maperrorcount_12',['mapErrorCount',['../sensors_8h.html#aa32d9cc92a334afe210692f1f2c22ea7',1,'sensors.h']]],
   ['maplast_13',['MAPlast',['../sensors_8h.html#a6cffa7ee91cb273150836a1f9b6f385e',1,'sensors.h']]],
   ['maplast_5ftime_14',['MAPlast_time',['../sensors_8h.html#af0200bd9aa8dfd73f57c4b73785aa8e5',1,'sensors.h']]],
