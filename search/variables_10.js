@@ -1,6 +1,26 @@
 var searchData=
 [
-  ['qu1x8_5fhalf_0',['QU1X8_HALF',['../table3d__interpolate_8cpp.html#a5666d98bfe4d6037da583b53cfae98ac',1,'table3d_interpolate.cpp']]],
-  ['qu1x8_5finteger_5fshift_1',['QU1X8_INTEGER_SHIFT',['../table3d__interpolate_8cpp.html#a35ab341121bb0359bd76da02fe6ac203',1,'table3d_interpolate.cpp']]],
-  ['qu1x8_5fone_2',['QU1X8_ONE',['../table3d__interpolate_8cpp.html#ad745c389853467eda682214d2242a07b',1,'table3d_interpolate.cpp']]]
+  ['realtime_5fbase_5faddress_0',['realtime_base_address',['../structconfig9.html#ada84f6a432c16cde3e6d6632db6d83f2',1,'config9']]],
+  ['req_5ffuel_5fus_1',['req_fuel_uS',['../speeduino_8ino.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS():&#160;speeduino.ino'],['../speeduino_8h.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS():&#160;speeduino.ino']]],
+  ['reqfuel_2',['reqFuel',['../structconfig2.html#a64d156720d93b250317ccdefd179503d',1,'config2']]],
+  ['resetcontrol_3',['resetControl',['../globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl():&#160;globals.ino'],['../globals_8ino.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl():&#160;globals.ino']]],
+  ['resetcontrolconfig_4',['resetControlConfig',['../structconfig4.html#afe47b134962ff13a38467d04b4967162',1,'config4']]],
+  ['resetcontrolpin_5',['resetControlPin',['../structconfig4.html#a0dbe4850b2ec9f99c2423261de1d94e6',1,'config4']]],
+  ['revolutionone_6',['revolutionOne',['../decoders_8ino.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne():&#160;decoders.ino'],['../decoders_8h.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne():&#160;decoders.ino']]],
+  ['revolutiontime_7',['revolutionTime',['../globals_8ino.html#af132ab2aede03e9cfe5b035d9f688908',1,'revolutionTime():&#160;globals.ino'],['../globals_8h.html#af132ab2aede03e9cfe5b035d9f688908',1,'revolutionTime():&#160;globals.ino']]],
+  ['rollingcutcounter_8',['rollingCutCounter',['../speeduino_8ino.html#abbc82bbfca4938d905e62e04dd74b6aa',1,'rollingCutCounter():&#160;speeduino.ino'],['../speeduino_8h.html#abbc82bbfca4938d905e62e04dd74b6aa',1,'rollingCutCounter():&#160;speeduino.ino']]],
+  ['rollingcutlastrev_9',['rollingCutLastRev',['../speeduino_8ino.html#af66793f211884912e6ad8a7df795dc01',1,'rollingCutLastRev():&#160;speeduino.ino'],['../speeduino_8h.html#af66793f211884912e6ad8a7df795dc01',1,'rollingCutLastRev():&#160;speeduino.ino']]],
+  ['rotarysplitbins_10',['rotarySplitBins',['../structconfig10.html#ab21d22f544655d8ec01b50173ad735d1',1,'config10']]],
+  ['rotarysplittable_11',['rotarySplitTable',['../globals_8h.html#aaf93b65da6c8c6cf8cca5b86c003aa1c',1,'rotarySplitTable():&#160;globals.ino'],['../globals_8ino.html#aaf93b65da6c8c6cf8cca5b86c003aa1c',1,'rotarySplitTable():&#160;globals.ino']]],
+  ['rotarysplitvalues_12',['rotarySplitValues',['../structconfig10.html#a1d6329e6cde496dec192da046d9a4401',1,'config10']]],
+  ['rotarytype_13',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10']]],
+  ['rpm_14',['RPM',['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses']]],
+  ['rpm_15',['Rpm',['../group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da',1,'table3d.h']]],
+  ['rpmdelta_16',['rpmDelta',['../crank_maths_8ino.html#a9c18d1792dc4e9448e75d44fb92b65a5',1,'crankMaths.ino']]],
+  ['rpmdiv100_17',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
+  ['rpmdot_18',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
+  ['rtc_5fmode_19',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
+  ['rtc_5ftrim_20',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
+  ['runsecs_21',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10_22',['runSecsX10',['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino'],['../globals_8ino.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10():&#160;globals.ino']]]
 ];

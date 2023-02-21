@@ -1,30 +1,5 @@
 var searchData=
 [
-  ['waitedaftercranking_0',['waitedAfterCranking',['../auxiliaries_8h.html#ae0452cbd072191edecaa782244fce594',1,'auxiliaries.h']]],
-  ['wmiadvadj_1',['wmiAdvAdj',['../structconfig10.html#ac6261bcc2435a1f2d21ff78f7aacb905',1,'config10::wmiAdvAdj()'],['../globals_8h.html#a95450c7ab9e3210e1cab5a5125f3038c',1,'wmiAdvAdj():&#160;globals.h']]],
-  ['wmiadvbins_2',['wmiAdvBins',['../structconfig10.html#a74ab2d003fe0f501142f49ec2c03d297',1,'config10::wmiAdvBins()'],['../globals_8h.html#a50a8817b03848adff6f7849285a5fbac',1,'wmiAdvBins():&#160;globals.h']]],
-  ['wmiadvenabled_3',['wmiAdvEnabled',['../globals_8h.html#a14bf7a41296d6eb3771e2a85b6427d7b',1,'wmiAdvEnabled():&#160;globals.h'],['../structconfig10.html#a160e179b7080480b9a4e3983914d284d',1,'config10::wmiAdvEnabled()']]],
-  ['wmiadvtable_4',['wmiAdvTable',['../globals_8ino.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino'],['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino']]],
-  ['wmiemptyenabled_5',['wmiEmptyEnabled',['../globals_8h.html#a19c6878eaa0720f18f50441cb89732fd',1,'wmiEmptyEnabled():&#160;globals.h'],['../structconfig10.html#adf24e41adae25cf246058a076acf0dbc',1,'config10::wmiEmptyEnabled()']]],
-  ['wmiemptypin_6',['wmiEmptyPin',['../globals_8h.html#a60d64e9ce422bcac6c64273e875ff5e6',1,'wmiEmptyPin():&#160;globals.h'],['../structconfig10.html#af249fc63101063f657ffcc361ca0d93c',1,'config10::wmiEmptyPin()']]],
-  ['wmiemptypolarity_7',['wmiEmptyPolarity',['../structconfig10.html#a3c1be013c03d5d8ba905ca2a58ce0d47',1,'config10::wmiEmptyPolarity()'],['../globals_8h.html#a82f4adf2358e17532e2f7125488729fd',1,'wmiEmptyPolarity():&#160;globals.h']]],
-  ['wmienabled_8',['wmiEnabled',['../structconfig10.html#ad7bf2355cdd357f90709012f05498f75',1,'config10::wmiEnabled()'],['../globals_8h.html#ae118f040082dc5e1c8c9f1808f54757c',1,'wmiEnabled():&#160;globals.h']]],
-  ['wmienabledpin_9',['wmiEnabledPin',['../globals_8h.html#a1ea5e75f07e296e99c69a9af52f5b789',1,'wmiEnabledPin():&#160;globals.h'],['../structconfig10.html#a4a23820bf163149d8cf1f00f89c88ebe',1,'config10::wmiEnabledPin()']]],
-  ['wmiiat_10',['wmiIAT',['../globals_8h.html#ade6090c750126e6e94c85453c52c0de5',1,'wmiIAT():&#160;globals.h'],['../structconfig10.html#a2a1ae9e1398b3c5a5018f592ed9b585e',1,'config10::wmiIAT()']]],
-  ['wmiindicatorenabled_11',['wmiIndicatorEnabled',['../globals_8h.html#ae343b0a6d1b8e8b99ec2a097a9c6ee6e',1,'wmiIndicatorEnabled():&#160;globals.h'],['../structconfig10.html#a7afe1a94bc32307cd76c82eed7757838',1,'config10::wmiIndicatorEnabled()']]],
-  ['wmiindicatorpin_12',['wmiIndicatorPin',['../globals_8h.html#ab967c57038688e1a4479a2bd4ac3d0c8',1,'wmiIndicatorPin():&#160;globals.h'],['../structconfig10.html#afb576341d63793d8014491f9c0c31473',1,'config10::wmiIndicatorPin()']]],
-  ['wmiindicatorpolarity_13',['wmiIndicatorPolarity',['../globals_8h.html#a785c88153f19832189d5a1b4c4bff983',1,'wmiIndicatorPolarity():&#160;globals.h'],['../structconfig10.html#aec572337d5348e8eaece65dffe966ac4',1,'config10::wmiIndicatorPolarity()']]],
-  ['wmimap_14',['wmiMAP',['../globals_8h.html#abd7bf72034f12bea27e235002725bf2d',1,'wmiMAP():&#160;globals.h'],['../structconfig10.html#aeef225bf45a56fb654d49692c89d2944',1,'config10::wmiMAP()']]],
-  ['wmimap2_15',['wmiMAP2',['../globals_8h.html#af3e79ffdff1f13581e9937a64b50a5e5',1,'wmiMAP2():&#160;globals.h'],['../structconfig10.html#ab5ddd493149ee756153711316f68436b',1,'config10::wmiMAP2()']]],
-  ['wmimode_16',['wmiMode',['../structconfig10.html#ad8d4e29e8a95f6efcb81a9b8fba2aaf1',1,'config10::wmiMode()'],['../globals_8h.html#abcdae91b569b7b14e665b0b1970c5057',1,'wmiMode():&#160;globals.h']]],
-  ['wmioffset_17',['wmiOffset',['../globals_8h.html#a6879395440706694d321703e33e9da48',1,'wmiOffset():&#160;globals.h'],['../structconfig10.html#a0e8a1f44bb6a6ad0c071bcb64a3625f7',1,'config10::wmiOffset()']]],
-  ['wmipw_18',['wmiPW',['../structstatuses.html#a96a3a7d21679524d69b8d3570776d8c8',1,'statuses']]],
-  ['wmirpm_19',['wmiRPM',['../globals_8h.html#af919d89655d85dcb6a290c161b167e5c',1,'wmiRPM():&#160;globals.h'],['../structconfig10.html#a950397de45ba6b14f40b102b5c5a31f3',1,'config10::wmiRPM()']]],
-  ['wmitable_20',['wmiTable',['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.ino'],['../globals_8ino.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.ino']]],
-  ['wmitps_21',['wmiTPS',['../globals_8h.html#af5754570fb305dc2d8fe70641b047528',1,'wmiTPS():&#160;globals.h'],['../structconfig10.html#a7323ac4c7d669e674b1e82d42e0e9766',1,'config10::wmiTPS()']]],
-  ['write_5fblock_5fsize_22',['write_block_size',['../structwrite__location.html#a17c2df253131aebb1a142af0691d3578',1,'write_location']]],
-  ['wuebins_23',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4::wueBins()'],['../globals_8h.html#a39acf6bec9563c41818813d7bf9d7e86',1,'wueBins():&#160;globals.h']]],
-  ['wuecorrection_24',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
-  ['wuetable_25',['WUETable',['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino'],['../globals_8ino.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino']]],
-  ['wuevalues_26',['wueValues',['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2::wueValues()'],['../globals_8h.html#a42184453d6f4128baaafeac67728a8c6',1,'wueValues():&#160;globals.h']]]
+  ['x_0',['x',['../structcoord2d.html#a356bdd64cb3f1aae1167c5fe77e38299',1,'coord2d']]],
+  ['xsize_1',['xSize',['../structtable2_d.html#a34722746eca3e5dc4ce90fd627e324fa',1,'table2D']]]
 ];

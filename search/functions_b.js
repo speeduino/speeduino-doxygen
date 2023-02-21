@@ -1,12 +1,6 @@
 var searchData=
 [
-  ['legacyserialcommand_0',['legacySerialCommand',['../comms__legacy_8h.html#a70fb263f2214d5c61eb49d6f8c33df4f',1,'legacySerialCommand(void):&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f',1,'legacySerialCommand(void):&#160;comms_legacy.cpp']]],
-  ['load_1',['load',['../storage_8cpp.html#abb030fa711a9054b4474bb927cfe909d',1,'load(table_row_iterator row, eeprom_address_t address):&#160;storage.cpp'],['../storage_8cpp.html#afd684627571cbd2762e31a6e64485393',1,'load(table_value_iterator it, eeprom_address_t address):&#160;storage.cpp'],['../storage_8cpp.html#ad315385a19ebd6b5129020050e6ee795',1,'load(table_axis_iterator it, eeprom_address_t address):&#160;storage.cpp']]],
-  ['load_5frange_2',['load_range',['../storage_8cpp.html#afedd9b61e6b3ae913521b3ad606e4dc8',1,'storage.cpp']]],
-  ['loadcalibration_3',['loadCalibration',['../storage_8cpp.html#a8f35fea7383007aafdded97a096c9705',1,'loadCalibration(void):&#160;storage.cpp'],['../storage_8h.html#a8f35fea7383007aafdded97a096c9705',1,'loadCalibration(void):&#160;storage.cpp']]],
-  ['loadconfig_4',['loadConfig',['../storage_8cpp.html#aa716dcba83a3c72eac2b5dd74b2216a9',1,'loadConfig(void):&#160;storage.cpp'],['../storage_8h.html#aa716dcba83a3c72eac2b5dd74b2216a9',1,'loadConfig(void):&#160;storage.cpp']]],
-  ['loadtable_5',['loadTable',['../storage_8cpp.html#a32f5abbaa58b2a0592de81298120911c',1,'storage.cpp']]],
-  ['loggerprimaryisr_6',['loggerPrimaryISR',['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.ino'],['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.ino']]],
-  ['loggersecondaryisr_7',['loggerSecondaryISR',['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.ino'],['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.ino']]],
-  ['loop_8',['loop',['../speeduino_8h.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'loop(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'loop(void):&#160;speeduino.ino']]]
+  ['map_5fpage_5foffset_5fto_5fentity_0',['map_page_offset_to_entity',['../pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813',1,'pages.cpp']]],
+  ['mulqu1x8_1',['mulQU1X8',['../table3d__interpolate_8cpp.html#ab5cf1c2257ce046a2cd4633e462232a9',1,'table3d_interpolate.cpp']]],
+  ['multiplytableload_2',['multiplyTableLoad',['../updates_8h.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino'],['../updates_8ino.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino']]]
 ];

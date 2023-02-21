@@ -91,6 +91,14 @@ Functions</h2></td></tr>
 <tr class="separator:a8c8cf5536fa7b0175d0d939fbae9a63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5815fac5301ceb5eef90fad69925d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08">is2ByteEntry</a> (uint8_t <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
 <tr class="separator:ad5815fac5301ceb5eef90fad69925d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff3b0edd3e4df982c0abb6ef2ef5ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8ino.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1">startToothLogger</a> (void)</td></tr>
+<tr class="separator:a9ff3b0edd3e4df982c0abb6ef2ef5ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67587e42c239165f9603cfbc79259220"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8ino.html#a67587e42c239165f9603cfbc79259220">stopToothLogger</a> (void)</td></tr>
+<tr class="separator:a67587e42c239165f9603cfbc79259220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a58d18b0809bf21a829fc5357232ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8ino.html#af6a58d18b0809bf21a829fc5357232ba">startCompositeLogger</a> (void)</td></tr>
+<tr class="separator:af6a58d18b0809bf21a829fc5357232ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4f2f2a9a321defcce1d72994118f80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8ino.html#afa4f2f2a9a321defcce1d72994118f80">stopCompositeLogger</a> (void)</td></tr>
+<tr class="separator:afa4f2f2a9a321defcce1d72994118f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8c8cf5536fa7b0175d0d939fbae9a63e" name="a8c8cf5536fa7b0175d0d939fbae9a63e"></a>
@@ -168,15 +176,16 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="logger_8ino_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph.png" border="0" usemap="#alogger_8ino_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph" alt=""/></div>
 <map name="alogger_8ino_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph" id="alogger_8ino_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph">
-<area shape="rect" title=" " alt="" coords="727,56,835,81"/>
-<area shape="rect" href="comms_8cpp.html#a95b9c65e306c07808f46097ef93cb910" title=" " alt="" coords="526,56,663,81"/>
-<area shape="rect" href="utilities_8ino.html#a6d65d36c291073121ae86496d6a6f73b" title=" " alt="" coords="511,7,679,32"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="549,105,640,131"/>
-<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title=" " alt="" coords="303,56,463,81"/>
-<area shape="rect" href="comms_8cpp.html#a1953c64986b40e4f1ce2c8d3675ba833" title=" " alt="" coords="134,55,221,80"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,80,52,105"/>
-<area shape="rect" href="utilities_8ino.html#a7475cfb056dd97c0f1b0c4461cb33476" title=" " alt="" coords="100,5,255,31"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="307,105,458,131"/>
+<area shape="rect" title=" " alt="" coords="727,55,835,80"/>
+<area shape="rect" href="comms_8cpp.html#affe28fdfed911a20253152a719567df6" title="Send a status record back to tuning/logging SW. This will &quot;live&quot; information from currentStatus struc..." alt="" coords="526,55,663,80"/>
+<area shape="rect" href="utilities_8ino.html#a6d65d36c291073121ae86496d6a6f73b" title=" " alt="" coords="511,5,679,31"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="549,104,640,129"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="303,55,463,80"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="127,92,227,117"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,92,52,117"/>
+<area shape="rect" href="utilities_8ino.html#a7475cfb056dd97c0f1b0c4461cb33476" title=" " alt="" coords="100,17,255,43"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="307,104,458,129"/>
+<area shape="rect" href="comms_8cpp.html#a9f7ff4d3336019845d217d0f94739193" title="The serial transmit pump. Should be called when serialStatusFlag indicates a transmit operation is in..." alt="" coords="125,141,229,167"/>
 </map>
 </div>
 
@@ -225,10 +234,152 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="af6a58d18b0809bf21a829fc5357232ba" name="af6a58d18b0809bf21a829fc5357232ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a58d18b0809bf21a829fc5357232ba">&#9670;&#160;</a></span>startCompositeLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void startCompositeLogger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_af6a58d18b0809bf21a829fc5357232ba_cgraph.png" border="0" usemap="#alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_cgraph" alt=""/></div>
+<map name="alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_cgraph" id="alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,156,56"/>
+<area shape="rect" href="group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e" title=" " alt="" coords="213,5,335,31"/>
+<area shape="rect" href="group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed" title=" " alt="" coords="204,55,344,80"/>
+<area shape="rect" href="group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a" title=" " alt="" coords="392,31,519,56"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_af6a58d18b0809bf21a829fc5357232ba_icgraph.png" border="0" usemap="#alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_icgraph" alt=""/></div>
+<map name="alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_icgraph" id="alogger_8ino_af6a58d18b0809bf21a829fc5357232ba_icgraph">
+<area shape="rect" title=" " alt="" coords="456,31,607,56"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="253,5,403,31"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="248,55,408,80"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="100,31,200,56"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,52,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9ff3b0edd3e4df982c0abb6ef2ef5ed1" name="a9ff3b0edd3e4df982c0abb6ef2ef5ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ff3b0edd3e4df982c0abb6ef2ef5ed1">&#9670;&#160;</a></span>startToothLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void startToothLogger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_cgraph.png" border="0" usemap="#alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_cgraph" alt=""/></div>
+<map name="alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_cgraph" id="alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,127,56"/>
+<area shape="rect" href="group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e" title=" " alt="" coords="183,5,306,31"/>
+<area shape="rect" href="group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed" title=" " alt="" coords="175,55,315,80"/>
+<area shape="rect" href="group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a" title=" " alt="" coords="363,31,489,56"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_icgraph.png" border="0" usemap="#alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_icgraph" alt=""/></div>
+<map name="alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_icgraph" id="alogger_8ino_a9ff3b0edd3e4df982c0abb6ef2ef5ed1_icgraph">
+<area shape="rect" title=" " alt="" coords="456,31,577,56"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="253,5,403,31"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="248,55,408,80"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="100,31,200,56"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,52,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afa4f2f2a9a321defcce1d72994118f80" name="afa4f2f2a9a321defcce1d72994118f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4f2f2a9a321defcce1d72994118f80">&#9670;&#160;</a></span>stopCompositeLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stopCompositeLogger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_afa4f2f2a9a321defcce1d72994118f80_icgraph.png" border="0" usemap="#alogger_8ino_afa4f2f2a9a321defcce1d72994118f80_icgraph" alt=""/></div>
+<map name="alogger_8ino_afa4f2f2a9a321defcce1d72994118f80_icgraph" id="alogger_8ino_afa4f2f2a9a321defcce1d72994118f80_icgraph">
+<area shape="rect" title=" " alt="" coords="456,31,605,56"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="253,5,403,31"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="248,55,408,80"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="100,31,200,56"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,52,56"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a67587e42c239165f9603cfbc79259220" name="a67587e42c239165f9603cfbc79259220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67587e42c239165f9603cfbc79259220">&#9670;&#160;</a></span>stopToothLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void stopToothLogger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8ino_a67587e42c239165f9603cfbc79259220_icgraph.png" border="0" usemap="#alogger_8ino_a67587e42c239165f9603cfbc79259220_icgraph" alt=""/></div>
+<map name="alogger_8ino_a67587e42c239165f9603cfbc79259220_icgraph" id="alogger_8ino_a67587e42c239165f9603cfbc79259220_icgraph">
+<area shape="rect" title=" " alt="" coords="456,31,576,56"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="253,5,403,31"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="248,55,408,80"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="100,31,200,56"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,52,56"/>
+</map>
+</div>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 19 2023 22:15:36 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Feb 21 2023 01:56:13 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

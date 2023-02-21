@@ -139,13 +139,13 @@ Macros</h2></td></tr>
 <tr class="separator:afbab5e1d1d303c399113aa86e06c391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8h.html#a588ef54468fef94f052f20cafb3ec008">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8h.html#a590bb6b47e5d17acb22b28b82d0451b2">n2o_arming_pin_mask</a>) ? true : false)</td></tr>
 <tr class="separator:aa319e9011ba23adbaec669b487182a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5110a271a05002e0b85fde85c36917f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f">AIRCON_ON</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
+<tr class="memitem:ab5110a271a05002e0b85fde85c36917f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f">AIRCON_ON</a>()&#160;&#160;&#160;{((((configPage15.airConCompPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
 <tr class="separator:ab5110a271a05002e0b85fde85c36917f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16">AIRCON_OFF</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
+<tr class="memitem:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16">AIRCON_OFF</a>()&#160;&#160;&#160;{((((configPage15.airConCompPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td></tr>
 <tr class="separator:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca30d2747e09e201ff1652a7a31e929d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aca30d2747e09e201ff1652a7a31e929d">AIRCON_FAN_ON</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
+<tr class="memitem:aca30d2747e09e201ff1652a7a31e929d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aca30d2747e09e201ff1652a7a31e929d">AIRCON_FAN_ON</a>()&#160;&#160;&#160;{((((configPage15.airConFanPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
 <tr class="separator:aca30d2747e09e201ff1652a7a31e929d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a324fc81f622ae8b9d9903890fc75f8a4">AIRCON_FAN_OFF</a>()&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
+<tr class="memitem:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a324fc81f622ae8b9d9903890fc75f8a4">AIRCON_FAN_OFF</a>()&#160;&#160;&#160;{((((configPage15.airConFanPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td></tr>
 <tr class="separator:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9a459995728bbdd82cbf5bfcc2ef849b">VVT1_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>();</td></tr>
 <tr class="separator:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,11 +157,11 @@ Macros</h2></td></tr>
 <tr class="separator:a0bda37c25813d19db23d98b456822093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43224ff849b6d864064cb370f08e5bb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a43224ff849b6d864064cb370f08e5bb5">VVT_TIME_DELAY_MULTIPLIER</a>&#160;&#160;&#160;50</td></tr>
 <tr class="separator:a43224ff849b6d864064cb370f08e5bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab55b7b24ff068319d2661b3e223f8efe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe">FAN_ON</a>()&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td></tr>
+<tr class="memitem:ab55b7b24ff068319d2661b3e223f8efe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe">FAN_ON</a>()&#160;&#160;&#160;((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td></tr>
 <tr class="separator:ab55b7b24ff068319d2661b3e223f8efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef">FAN_OFF</a>()&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td></tr>
+<tr class="memitem:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef">FAN_OFF</a>()&#160;&#160;&#160;((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td></tr>
 <tr class="separator:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ccd4b82b14cc4f65e49c4e69bb4e900"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a1ccd4b82b14cc4f65e49c4e69bb4e900">WMI_TANK_IS_EMPTY</a>()&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a19c6878eaa0720f18f50441cb89732fd">configPage10.wmiEmptyEnabled</a>) ? ((<a class="el" href="globals_8h.html#a82f4adf2358e17532e2f7125488729fd">configPage10.wmiEmptyPolarity</a>) ? digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td></tr>
+<tr class="memitem:a1ccd4b82b14cc4f65e49c4e69bb4e900"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a1ccd4b82b14cc4f65e49c4e69bb4e900">WMI_TANK_IS_EMPTY</a>()&#160;&#160;&#160;((configPage10.wmiEmptyEnabled) ? ((configPage10.wmiEmptyPolarity) ? digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td></tr>
 <tr class="separator:a1ccd4b82b14cc4f65e49c4e69bb4e900"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -317,7 +317,7 @@ Variables</h2></td></tr>
           <td class="memname">#define AIRCON_FAN_OFF</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
+          <td>&#160;&#160;&#160;{((((configPage15.airConFanPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -334,7 +334,7 @@ Variables</h2></td></tr>
           <td class="memname">#define AIRCON_FAN_ON</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a0bc13243f68ba3ffa409f81a1ce25c86">configPage15.airConFanPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
+          <td>&#160;&#160;&#160;{((((configPage15.airConFanPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aa14612ef633e57b5e892b042c18016f9">BIT_AIRCON_FAN</a>);}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -385,7 +385,7 @@ Variables</h2></td></tr>
           <td class="memname">#define AIRCON_OFF</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
+          <td>&#160;&#160;&#160;{((((configPage15.airConCompPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); <a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -402,7 +402,7 @@ Variables</h2></td></tr>
           <td class="memname">#define AIRCON_ON</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;{((((<a class="el" href="globals_8h.html#a405a5acdd6579350f88ce9a4147c445b">configPage15.airConCompPol</a>&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
+          <td>&#160;&#160;&#160;{((((configPage15.airConCompPol&amp;1)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="globals_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>);}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -487,7 +487,7 @@ Variables</h2></td></tr>
           <td class="memname">#define FAN_OFF</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td>
+          <td>&#160;&#160;&#160;((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -504,7 +504,7 @@ Variables</h2></td></tr>
           <td class="memname">#define FAN_ON</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a433af76c7be0f758305db91c113c7887">configPage6.fanInv</a>) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td>
+          <td>&#160;&#160;&#160;((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -832,7 +832,7 @@ Variables</h2></td></tr>
           <td class="memname">#define WMI_TANK_IS_EMPTY</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="globals_8h.html#a19c6878eaa0720f18f50441cb89732fd">configPage10.wmiEmptyEnabled</a>) ? ((<a class="el" href="globals_8h.html#a82f4adf2358e17532e2f7125488729fd">configPage10.wmiEmptyPolarity</a>) ? digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td>
+          <td>&#160;&#160;&#160;((configPage10.wmiEmptyEnabled) ? ((configPage10.wmiEmptyPolarity) ? digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !digitalRead(<a class="el" href="globals_8h.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2099,7 +2099,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Feb 19 2023 22:15:35 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Feb 21 2023 01:56:13 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
