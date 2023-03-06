@@ -64,7 +64,7 @@ var searchData=
   ['bit_5fstatus3_5fvss_5frefresh_61',['BIT_STATUS3_VSS_REFRESH',['../globals_8h.html#ac3b32e1982c3b340dfa3bb39aed9adac',1,'globals.h']]],
   ['bit_5fstatus4_5fburnpending_62',['BIT_STATUS4_BURNPENDING',['../globals_8h.html#ac836ec8cd0d0d8458c84242823b54188',1,'globals.h']]],
   ['bit_5fstatus4_5ffan_63',['BIT_STATUS4_FAN',['../globals_8h.html#ae4ce646cf1d5c8265ec15b4765f63a3f',1,'globals.h']]],
-  ['bit_5fstatus4_5funused6_64',['BIT_STATUS4_UNUSED6',['../globals_8h.html#ab91de1cc3563937c61d628bc82aca01a',1,'globals.h']]],
+  ['bit_5fstatus4_5fstaging_5factive_64',['BIT_STATUS4_STAGING_ACTIVE',['../globals_8h.html#aadbffbbc94f13bb1aea6bffb3ca0cfe8',1,'globals.h']]],
   ['bit_5fstatus4_5funused7_65',['BIT_STATUS4_UNUSED7',['../globals_8h.html#a2d5a9bbf0763cd93fb623fd6462ef634',1,'globals.h']]],
   ['bit_5fstatus4_5funused8_66',['BIT_STATUS4_UNUSED8',['../globals_8h.html#a660e5a8792869dd038def5640730fc1b',1,'globals.h']]],
   ['bit_5fstatus4_5fvvt1_5ferror_67',['BIT_STATUS4_VVT1_ERROR',['../globals_8h.html#acba4a21458a853e3f7ca9096eedf5940',1,'globals.h']]],
