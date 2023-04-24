@@ -19,7 +19,7 @@ var searchData=
   ['fuel2_5fmode_5finput_5fswitch_16',['FUEL2_MODE_INPUT_SWITCH',['../globals_8h.html#ac040b39db706bbddd75e14dca927cf0f',1,'globals.h']]],
   ['fuel2_5fmode_5fmultiply_17',['FUEL2_MODE_MULTIPLY',['../globals_8h.html#a091301a9dae253d6d60a6c651e3a9afe',1,'globals.h']]],
   ['fuel2_5fmode_5foff_18',['FUEL2_MODE_OFF',['../globals_8h.html#a348caa2610febc6d452c3536e2266f37',1,'globals.h']]],
-  ['fuel_5fpump_5foff_19',['FUEL_PUMP_OFF',['../globals_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'globals.h']]],
-  ['fuel_5fpump_5fon_20',['FUEL_PUMP_ON',['../globals_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'globals.h']]],
+  ['fuel_5fpump_5foff_19',['FUEL_PUMP_OFF',['../auxiliaries_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'auxiliaries.h']]],
+  ['fuel_5fpump_5fon_20',['FUEL_PUMP_ON',['../auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'auxiliaries.h']]],
   ['fuelmap2page_21',['fuelMap2Page',['../pages_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'pages.h']]]
 ];
