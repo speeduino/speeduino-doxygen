@@ -2,7 +2,7 @@ var searchData=
 [
   ['schedule_5fcalcs_2ecpp_0',['schedule_calcs.cpp',['../schedule__calcs_8cpp.html',1,'']]],
   ['schedule_5fcalcs_2eh_1',['schedule_calcs.h',['../schedule__calcs_8h.html',1,'']]],
-  ['schedule_5fcalcs_2einl_2',['schedule_calcs.inl',['../schedule__calcs_8inl.html',1,'']]],
+  ['schedule_5fcalcs_2ehpp_2',['schedule_calcs.hpp',['../schedule__calcs_8hpp.html',1,'']]],
   ['scheduledio_2eh_3',['scheduledIO.h',['../scheduled_i_o_8h.html',1,'']]],
   ['scheduledio_2eino_4',['scheduledIO.ino',['../scheduled_i_o_8ino.html',1,'']]],
   ['scheduler_2eh_5',['scheduler.h',['../scheduler_8h.html',1,'']]],
