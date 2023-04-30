@@ -73,7 +73,8 @@ $(function() {
   <div class="summary">
 <a href="#groups">Modules</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Chrysler NGC - 4, 6 and 8-cylinder</div></div>
 </div><!--header-->
 <div class="contents">
@@ -114,6 +115,25 @@ Functions</h2></td></tr>
 <tr class="separator:ga62abdd29c72db58a77c900a8158405ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga93292c1cd4bc2cac3f0fc590dd81abe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga93292c1cd4bc2cac3f0fc590dd81abe5">triggerSetEndTeeth_NGC</a> (void)</td></tr>
 <tr class="separator:ga93292c1cd4bc2cac3f0fc590dd81abe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1966ad3212c05f69dd460bf7acb61b74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga1966ad3212c05f69dd460bf7acb61b74">triggerSetup_RoverMEMS</a> ()</td></tr>
+<tr class="separator:ga1966ad3212c05f69dd460bf7acb61b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4796a2abb22ac117c2f276f26648f32b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b">triggerPri_RoverMEMS</a> ()</td></tr>
+<tr class="separator:ga4796a2abb22ac117c2f276f26648f32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3d73ddf9b9226f47ec9bd94138fba10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaa3d73ddf9b9226f47ec9bd94138fba10">triggerRoverMEMSCommon</a> (void)</td></tr>
+<tr class="separator:gaa3d73ddf9b9226f47ec9bd94138fba10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc5a160a63e617bb9b855a4cc2768486"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gabc5a160a63e617bb9b855a4cc2768486">getCrankAngle_RoverMEMS</a> ()</td></tr>
+<tr class="separator:gabc5a160a63e617bb9b855a4cc2768486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b5026be89dc3a8c6fe32b0037703103"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga6b5026be89dc3a8c6fe32b0037703103">triggerSec_RoverMEMS</a> ()</td></tr>
+<tr class="separator:ga6b5026be89dc3a8c6fe32b0037703103"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5388d5afd2b62e523370cec316145de0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga5388d5afd2b62e523370cec316145de0">getRPM_RoverMEMS</a> ()</td></tr>
+<tr class="separator:ga5388d5afd2b62e523370cec316145de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2e29bd4a1f8d8d501cb52d5fcbd1573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gad2e29bd4a1f8d8d501cb52d5fcbd1573">triggerSetEndTeeth_RoverMEMS</a> ()</td></tr>
+<tr class="separator:gad2e29bd4a1f8d8d501cb52d5fcbd1573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:gaafd320359e4b378e8172eac969b58fb9"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaafd320359e4b378e8172eac969b58fb9">roverMEMSTeethSeen</a> = 0</td></tr>
+<tr class="separator:gaafd320359e4b378e8172eac969b58fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Chrysler NGC - a dedicated decoder for vehicles with 4, 6 and 8 cylinder NGC pattern. 4-cyl: 36+2-2 crank wheel and 7 tooth cam 6-cyl: 36-2+2 crank wheel and 12 tooth cam in 6 groups 8-cyl: 36-2+2 crank wheel and 15 tooth cam in 8 groups The crank decoder uses the polarity of the missing teeth to determine position The 4-cyl cam decoder uses the polarity of the missing teeth to determine position The 6 and 8-cyl cam decoder uses the amount of teeth in the two previous groups of teeth to determine position </p>
@@ -133,6 +153,33 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gabc5a160a63e617bb9b855a4cc2768486" name="gabc5a160a63e617bb9b855a4cc2768486"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc5a160a63e617bb9b855a4cc2768486">&#9670;&#160;</a></span>getCrankAngle_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getCrankAngle_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_gabc5a160a63e617bb9b855a4cc2768486_cgraph.png" border="0" usemap="#agroup__dec_gabc5a160a63e617bb9b855a4cc2768486_cgraph" alt=""/></div>
+<map name="agroup__dec_gabc5a160a63e617bb9b855a4cc2768486_cgraph" id="agroup__dec_gabc5a160a63e617bb9b855a4cc2768486_cgraph">
+<area shape="rect" title=" " alt="" coords="5,29,192,55"/>
+<area shape="rect" href="crank_maths_8ino.html#aea969ecaec6440bba97fb67c8af1501e" title=" " alt="" coords="240,29,335,55"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga62abdd29c72db58a77c900a8158405ea" name="ga62abdd29c72db58a77c900a8158405ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga62abdd29c72db58a77c900a8158405ea">&#9670;&#160;</a></span>getRPM_NGC()</h2>
 
@@ -173,6 +220,46 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ga5388d5afd2b62e523370cec316145de0" name="ga5388d5afd2b62e523370cec316145de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5388d5afd2b62e523370cec316145de0">&#9670;&#160;</a></span>getRPM_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t getRPM_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga5388d5afd2b62e523370cec316145de0_cgraph.png" border="0" usemap="#agroup__dec_ga5388d5afd2b62e523370cec316145de0_cgraph" alt=""/></div>
+<map name="agroup__dec_ga5388d5afd2b62e523370cec316145de0_cgraph" id="agroup__dec_ga5388d5afd2b62e523370cec316145de0_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,155,56"/>
+<area shape="rect" href="group__dec__uni.html#gadc806ad5d6297eb31ad69ff9945b97a8" title=" " alt="" coords="203,5,324,31"/>
+<area shape="rect" href="group__dec__uni.html#ga68415dc74fbfa8e4e43e4249cc988e81" title=" " alt="" coords="218,55,309,80"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga5388d5afd2b62e523370cec316145de0_icgraph.png" border="0" usemap="#agroup__dec_ga5388d5afd2b62e523370cec316145de0_icgraph" alt=""/></div>
+<map name="agroup__dec_ga5388d5afd2b62e523370cec316145de0_icgraph" id="agroup__dec_ga5388d5afd2b62e523370cec316145de0_icgraph">
+<area shape="rect" title=" " alt="" coords="404,31,553,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga78ae16fbe4ca89e7b2102a292c30680e" name="ga78ae16fbe4ca89e7b2102a292c30680e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga78ae16fbe4ca89e7b2102a292c30680e">&#9670;&#160;</a></span>triggerPri_NGC()</h2>
 
@@ -204,6 +291,78 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group__dec_ga78ae16fbe4ca89e7b2102a292c30680e_icgraph.png" border="0" usemap="#agroup__dec_ga78ae16fbe4ca89e7b2102a292c30680e_icgraph" alt=""/></div>
 <map name="agroup__dec_ga78ae16fbe4ca89e7b2102a292c30680e_icgraph" id="agroup__dec_ga78ae16fbe4ca89e7b2102a292c30680e_icgraph">
 <area shape="rect" title=" " alt="" coords="404,31,515,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga4796a2abb22ac117c2f276f26648f32b" name="ga4796a2abb22ac117c2f276f26648f32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4796a2abb22ac117c2f276f26648f32b">&#9670;&#160;</a></span>triggerPri_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerPri_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga4796a2abb22ac117c2f276f26648f32b_cgraph.png" border="0" usemap="#agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_cgraph" alt=""/></div>
+<map name="agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_cgraph" id="agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,55,160,80"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="225,5,374,31"/>
+<area shape="rect" href="group__dec__uni.html#ga7e47fa64b01c6c1908f133f37313b25e" title=" " alt="" coords="265,55,334,80"/>
+<area shape="rect" href="group__dec.html#gaa3d73ddf9b9226f47ec9bd94138fba10" title=" " alt="" coords="208,104,391,129"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga4796a2abb22ac117c2f276f26648f32b_icgraph.png" border="0" usemap="#agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_icgraph" alt=""/></div>
+<map name="agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_icgraph" id="agroup__dec_ga4796a2abb22ac117c2f276f26648f32b_icgraph">
+<area shape="rect" title=" " alt="" coords="404,31,559,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gaa3d73ddf9b9226f47ec9bd94138fba10" name="gaa3d73ddf9b9226f47ec9bd94138fba10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa3d73ddf9b9226f47ec9bd94138fba10">&#9670;&#160;</a></span>triggerRoverMEMSCommon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerRoverMEMSCommon </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_gaa3d73ddf9b9226f47ec9bd94138fba10_icgraph.png" border="0" usemap="#agroup__dec_gaa3d73ddf9b9226f47ec9bd94138fba10_icgraph" alt=""/></div>
+<map name="agroup__dec_gaa3d73ddf9b9226f47ec9bd94138fba10_icgraph" id="agroup__dec_gaa3d73ddf9b9226f47ec9bd94138fba10_icgraph">
+<area shape="rect" title=" " alt="" coords="607,31,789,56"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="404,31,559,56"/>
 <area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
 <area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
@@ -273,6 +432,36 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ga6b5026be89dc3a8c6fe32b0037703103" name="ga6b5026be89dc3a8c6fe32b0037703103"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b5026be89dc3a8c6fe32b0037703103">&#9670;&#160;</a></span>triggerSec_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerSec_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga6b5026be89dc3a8c6fe32b0037703103_icgraph.png" border="0" usemap="#agroup__dec_ga6b5026be89dc3a8c6fe32b0037703103_icgraph" alt=""/></div>
+<map name="agroup__dec_ga6b5026be89dc3a8c6fe32b0037703103_icgraph" id="agroup__dec_ga6b5026be89dc3a8c6fe32b0037703103_icgraph">
+<area shape="rect" title=" " alt="" coords="404,31,565,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga93292c1cd4bc2cac3f0fc590dd81abe5" name="ga93292c1cd4bc2cac3f0fc590dd81abe5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga93292c1cd4bc2cac3f0fc590dd81abe5">&#9670;&#160;</a></span>triggerSetEndTeeth_NGC()</h2>
 
@@ -294,6 +483,36 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="group__dec_ga93292c1cd4bc2cac3f0fc590dd81abe5_icgraph.png" border="0" usemap="#agroup__dec_ga93292c1cd4bc2cac3f0fc590dd81abe5_icgraph" alt=""/></div>
 <map name="agroup__dec_ga93292c1cd4bc2cac3f0fc590dd81abe5_icgraph" id="agroup__dec_ga93292c1cd4bc2cac3f0fc590dd81abe5_icgraph">
 <area shape="rect" title=" " alt="" coords="404,31,573,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="gad2e29bd4a1f8d8d501cb52d5fcbd1573" name="gad2e29bd4a1f8d8d501cb52d5fcbd1573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad2e29bd4a1f8d8d501cb52d5fcbd1573">&#9670;&#160;</a></span>triggerSetEndTeeth_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerSetEndTeeth_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_gad2e29bd4a1f8d8d501cb52d5fcbd1573_icgraph.png" border="0" usemap="#agroup__dec_gad2e29bd4a1f8d8d501cb52d5fcbd1573_icgraph" alt=""/></div>
+<map name="agroup__dec_gad2e29bd4a1f8d8d501cb52d5fcbd1573_icgraph" id="agroup__dec_gad2e29bd4a1f8d8d501cb52d5fcbd1573_icgraph">
+<area shape="rect" title=" " alt="" coords="404,23,537,63"/>
 <area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
 <area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
@@ -333,10 +552,55 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ga1966ad3212c05f69dd460bf7acb61b74" name="ga1966ad3212c05f69dd460bf7acb61b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1966ad3212c05f69dd460bf7acb61b74">&#9670;&#160;</a></span>triggerSetup_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void triggerSetup_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec_ga1966ad3212c05f69dd460bf7acb61b74_icgraph.png" border="0" usemap="#agroup__dec_ga1966ad3212c05f69dd460bf7acb61b74_icgraph" alt=""/></div>
+<map name="agroup__dec_ga1966ad3212c05f69dd460bf7acb61b74_icgraph" id="agroup__dec_ga1966ad3212c05f69dd460bf7acb61b74_icgraph">
+<area shape="rect" title=" " alt="" coords="404,31,576,56"/>
+<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gaafd320359e4b378e8172eac969b58fb9" name="gaafd320359e4b378e8172eac969b58fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaafd320359e4b378e8172eac969b58fb9">&#9670;&#160;</a></span>roverMEMSTeethSeen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned long roverMEMSTeethSeen = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Apr 30 2023 08:30:57 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Sun Apr 30 2023 09:01:29 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
