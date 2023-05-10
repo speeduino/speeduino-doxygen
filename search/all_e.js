@@ -5,7 +5,7 @@ var searchData=
   ['maerates_2',['maeRates',['../structconfig4.html#a4f820547aaea5a3c94790bcc952edc92',1,'config4']]],
   ['maetable_3',['maeTable',['../globals_8ino.html#acc234b73ba07ba528c085b083abb3e56',1,'maeTable():&#160;globals.ino'],['../globals_8h.html#acc234b73ba07ba528c085b083abb3e56',1,'maeTable():&#160;globals.ino']]],
   ['maethresh_4',['maeThresh',['../structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1',1,'config2']]],
-  ['mainloopcount_5',['mainLoopCount',['../globals_8ino.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino'],['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino']]],
+  ['mainloopcount_5',['mainLoopCount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino'],['../globals_8ino.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount():&#160;globals.ino']]],
   ['map_6',['MAP',['../structstatuses.html#adbf7841ecb42302848f968f2a1f9933e',1,'statuses']]],
   ['map_5fpage_5foffset_5fto_5fentity_7',['map_page_offset_to_entity',['../pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813',1,'pages.cpp']]],
   ['map_5ftime_8',['MAP_time',['../sensors_8h.html#a69bc1b9a9664fa2780dc055fe2063d0b',1,'sensors.h']]],
@@ -26,7 +26,7 @@ var searchData=
   ['max_5ferrors_23',['MAX_ERRORS',['../errors_8h.html#aee6f4b0b74820d727dd8fba4f5efa061',1,'errors.h']]],
   ['max_5frpm_24',['MAX_RPM',['../globals_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'globals.h']]],
   ['max_5fstall_5ftime_25',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino'],['../decoders_8ino.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino']]],
-  ['maxignoutputs_26',['maxIgnOutputs',['../globals_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino'],['../globals_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino']]],
+  ['maxignoutputs_26',['maxIgnOutputs',['../globals_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino'],['../globals_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino']]],
   ['mazda_20au_27',['Mazda AU',['../group__mazda__au.html',1,'']]],
   ['mc33810_5f1_5factive_28',['MC33810_1_ACTIVE',['../acc__mc33810_8h.html#adcba16abdde41b6a226e0e6e0872d10b',1,'acc_mc33810.h']]],
   ['mc33810_5f1_5finactive_29',['MC33810_1_INACTIVE',['../acc__mc33810_8h.html#aa162a0f2f0683a43e51be6b1a9476c3c',1,'acc_mc33810.h']]],
@@ -70,6 +70,5 @@ var searchData=
   ['multiply_5fmap_5fmode_5fbaro_67',['MULTIPLY_MAP_MODE_BARO',['../globals_8h.html#a83bf77dbb6b6b3816ddb1231aecd9d4f',1,'globals.h']]],
   ['multiply_5fmap_5fmode_5foff_68',['MULTIPLY_MAP_MODE_OFF',['../globals_8h.html#a1cabd1167aba65412fafaa41adbdc9cd',1,'globals.h']]],
   ['multiplymap_69',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2']]],
-  ['multiplymap_5fold_70',['multiplyMAP_old',['../structconfig2.html#a190201af6c84c8b4bd0de1ac612b81ad',1,'config2']]],
-  ['multiplytableload_71',['multiplyTableLoad',['../updates_8h.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino'],['../updates_8ino.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino']]]
+  ['multiplytableload_70',['multiplyTableLoad',['../updates_8h.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino'],['../updates_8ino.html#a402d8c5d40c9589b0d18af23d53aa781',1,'multiplyTableLoad(const void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.ino']]]
 ];

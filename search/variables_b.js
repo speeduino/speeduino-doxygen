@@ -21,7 +21,7 @@ var searchData=
   ['mapsample_18',['mapSample',['../structconfig2.html#a3eb52c8ac1c314ff10a7c0f213478ad1',1,'config2']]],
   ['mapswitchpoint_19',['mapSwitchPoint',['../structconfig2.html#a3c2cf5cca87289a179ad2c65a6d93823',1,'config2']]],
   ['max_5fstall_5ftime_20',['MAX_STALL_TIME',['../decoders_8h.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino'],['../decoders_8ino.html#a4b36dad1f46d7ae9c53d1f585a90f178',1,'MAX_STALL_TIME():&#160;decoders.ino']]],
-  ['maxignoutputs_21',['maxIgnOutputs',['../globals_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino'],['../globals_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino']]],
+  ['maxignoutputs_21',['maxIgnOutputs',['../globals_8ino.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino'],['../globals_8h.html#a1d3a1d534af373ecd48c98ddf4774de1',1,'maxIgnOutputs():&#160;globals.ino']]],
   ['mc33810_5f1_5fpin_5fmask_22',['mc33810_1_pin_mask',['../acc__mc33810_8h.html#a0800b66f7f26ef378cb6f289b6620aab',1,'acc_mc33810.h']]],
   ['mc33810_5f1_5fpin_5fport_23',['mc33810_1_pin_port',['../acc__mc33810_8h.html#a37755f7e2c52002cfef065663d6b28b4',1,'acc_mc33810.h']]],
   ['mc33810_5f1_5frequestedstate_24',['mc33810_1_requestedState',['../acc__mc33810_8h.html#ae856893f14baa9a8b82bafc6de70a9ec',1,'acc_mc33810.h']]],
@@ -49,6 +49,5 @@ var searchData=
   ['mc33810_5fonoff_5fcmd_46',['MC33810_ONOFF_CMD',['../acc__mc33810_8h.html#a86b2e14d43eb00986785606c443f07eb',1,'acc_mc33810.h']]],
   ['moreairdirection_47',['moreAirDirection',['../struct_stepper_idle.html#a96534484ac7ff76a376465d93dd08f51',1,'StepperIdle']]],
   ['ms_5fcounter_48',['ms_counter',['../globals_8h.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino'],['../globals_8ino.html#ad123bb0cb70f5322b8792acd4628fd1e',1,'ms_counter():&#160;globals.ino']]],
-  ['multiplymap_49',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2']]],
-  ['multiplymap_5fold_50',['multiplyMAP_old',['../structconfig2.html#a190201af6c84c8b4bd0de1ac612b81ad',1,'config2']]]
+  ['multiplymap_49',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2']]]
 ];
