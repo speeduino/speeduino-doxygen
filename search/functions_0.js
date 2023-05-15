@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['addtoothlogentry_0',['addToothLogEntry',['../group__dec__uni.html#gaa9e6155c9870e39e1118af203a4cee9a',1,'decoders.ino']]],
+  ['addtoothlogentry_0',['addToothLogEntry',['../group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a',1,'decoders.ino']]],
   ['advance_1',['advance',['../classtable__axis__iterator.html#a654ef682a2f73e4ea4c70d9c7112caae',1,'table_axis_iterator::advance()'],['../classtable__row__iterator.html#ab6a63b7d3c7ef065e00fce6a099c7e49',1,'table_row_iterator::advance()'],['../classtable__value__iterator.html#ad21c402254bbba2c5a615c1ca18ca456',1,'table_value_iterator::advance()'],['../pages_8cpp.html#a5a72453b79576e4855834673719536c8',1,'advance(const page_iterator_t &amp;it):&#160;pages.cpp'],['../pages_8h.html#a5a72453b79576e4855834673719536c8',1,'advance(const page_iterator_t &amp;it):&#160;pages.cpp']]],
   ['airconcontrol_2',['airConControl',['../auxiliaries_8h.html#a58f86af765ce5549341e632ede751dc6',1,'airConControl(void):&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a58f86af765ce5549341e632ede751dc6',1,'airConControl(void):&#160;auxiliaries.ino']]],
   ['angletotime_3',['angleToTime',['../crank_maths_8h.html#af529f8c199532a9520f670ff5503c3ba',1,'angleToTime(int16_t angle, byte method):&#160;crankMaths.ino'],['../crank_maths_8ino.html#af529f8c199532a9520f670ff5503c3ba',1,'angleToTime(int16_t angle, byte method):&#160;crankMaths.ino']]],
