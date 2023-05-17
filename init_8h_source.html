@@ -86,7 +86,9 @@ $(function() {
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keywordtype">void</span> <a class="code hl_function" href="init_8h.html#a4d8daf30e3c5f5277b32bf0110b0146c">changeHalfToFullSync</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">void</span> <a class="code hl_function" href="init_8h.html#a005b41fa439564c0a05a25aefeab9b99">changeFullToHalfSync</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="init_8h.html#a366a61738a03f31c47121d66a8b4590b">   10</a></span><span class="preprocessor">#define VSS_USES_RPM2() ((configPage2.vssMode &gt; 1) &amp;&amp; (pinVSS == pinTrigger2) &amp;&amp; !BIT_CHECK(decoderState, BIT_DECODER_HAS_SECONDARY))</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="ainit_8h_html_a005b41fa439564c0a05a25aefeab9b99"><div class="ttname"><a href="init_8h.html#a005b41fa439564c0a05a25aefeab9b99">changeFullToHalfSync</a></div><div class="ttdeci">void changeFullToHalfSync(void)</div><div class="ttdef"><b>Definition:</b> init.ino:3677</div></div>
 <div class="ttc" id="ainit_8h_html_a2a089ba20d6be818c5549070cd92ed95"><div class="ttname"><a href="init_8h.html#a2a089ba20d6be818c5549070cd92ed95">initialiseTriggers</a></div><div class="ttdeci">void initialiseTriggers(void)</div><div class="ttdef"><b>Definition:</b> init.ino:3017</div></div>
 <div class="ttc" id="ainit_8h_html_a4d8daf30e3c5f5277b32bf0110b0146c"><div class="ttname"><a href="init_8h.html#a4d8daf30e3c5f5277b32bf0110b0146c">changeHalfToFullSync</a></div><div class="ttdeci">void changeHalfToFullSync(void)</div><div class="ttdef"><b>Definition:</b> init.ino:3581</div></div>
@@ -95,7 +97,7 @@ $(function() {
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 16 2023 22:46:37 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Wed May 17 2023 01:26:13 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">init.h File Reference</div></div>
 </div><!--header-->
@@ -84,14 +85,20 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="init_8h__dep__incl.png" border="0" usemap="#aspeeduino_2init_8hdep" alt=""/></div>
 <map name="aspeeduino_2init_8hdep" id="aspeeduino_2init_8hdep">
-<area shape="rect" title=" " alt="" coords="95,5,207,31"/>
+<area shape="rect" title=" " alt="" coords="167,5,279,31"/>
 <area shape="rect" href="init_8ino.html" title=" " alt="" coords="5,79,128,104"/>
-<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="153,79,317,104"/>
+<area shape="rect" href="logger_8ino.html" title=" " alt="" coords="153,79,293,104"/>
+<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="317,79,481,104"/>
 </map>
 </div>
 </div>
 <p><a href="init_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a366a61738a03f31c47121d66a8b4590b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="init_8h.html#a366a61738a03f31c47121d66a8b4590b">VSS_USES_RPM2</a>()&#160;&#160;&#160;((configPage2.vssMode &gt; 1) &amp;&amp; (<a class="el" href="globals_8h.html#a098f702137cff9534e2550439a403042">pinVSS</a> == <a class="el" href="globals_8h.html#a18a8717fbf36f4169602422e5ab63ef9">pinTrigger2</a>) &amp;&amp; !<a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(<a class="el" href="decoders_8h.html#a589c983c6ed4dfda77659efbbdf2b899">decoderState</a>, <a class="el" href="decoders_8h.html#a9e60d53b0c56ee3e59778a3740cc2473">BIT_DECODER_HAS_SECONDARY</a>))</td></tr>
+<tr class="separator:a366a61738a03f31c47121d66a8b4590b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:adb296edeed2f9690941f64a06def7ec8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="init_8h.html#adb296edeed2f9690941f64a06def7ec8">initialiseAll</a> (void)</td></tr>
@@ -105,6 +112,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a005b41fa439564c0a05a25aefeab9b99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="init_8h.html#a005b41fa439564c0a05a25aefeab9b99">changeFullToHalfSync</a> (void)</td></tr>
 <tr class="separator:a005b41fa439564c0a05a25aefeab9b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a366a61738a03f31c47121d66a8b4590b" name="a366a61738a03f31c47121d66a8b4590b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a366a61738a03f31c47121d66a8b4590b">&#9670;&#160;</a></span>VSS_USES_RPM2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define VSS_USES_RPM2</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;((configPage2.vssMode &gt; 1) &amp;&amp; (<a class="el" href="globals_8h.html#a098f702137cff9534e2550439a403042">pinVSS</a> == <a class="el" href="globals_8h.html#a18a8717fbf36f4169602422e5ab63ef9">pinTrigger2</a>) &amp;&amp; !<a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(<a class="el" href="decoders_8h.html#a589c983c6ed4dfda77659efbbdf2b899">decoderState</a>, <a class="el" href="decoders_8h.html#a9e60d53b0c56ee3e59778a3740cc2473">BIT_DECODER_HAS_SECONDARY</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a005b41fa439564c0a05a25aefeab9b99" name="a005b41fa439564c0a05a25aefeab9b99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a005b41fa439564c0a05a25aefeab9b99">&#9670;&#160;</a></span>changeFullToHalfSync()</h2>
@@ -843,7 +868,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 16 2023 22:46:38 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Wed May 17 2023 01:26:14 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
