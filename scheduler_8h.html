@@ -118,6 +118,10 @@ Macros</h2></td></tr>
 <tr class="separator:a5e5e7065ac68865b7edd56eb92a2e164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7b94ad3c3f8966d9b73903d218e08e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa7b94ad3c3f8966d9b73903d218e08e6">IGNITION_REFRESH_THRESHOLD</a>&#160;&#160;&#160;30</td></tr>
 <tr class="separator:aa7b94ad3c3f8966d9b73903d218e08e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>&#160;&#160;&#160;30</td></tr>
+<tr class="separator:ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458136bb1a7859d52f44a080899d0184"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a458136bb1a7859d52f44a080899d0184">DWELL_AVERAGE</a>(input)&#160;&#160;&#160;(((long)input * (256 - <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>) + ((long)currentStatus.actualDwell * <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>))) &gt;&gt; 8</td></tr>
+<tr class="separator:a458136bb1a7859d52f44a080899d0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186">SWAP</a>(x,  y)&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[y] &lt; tmpQueue[x]) { unsigned int tmp = tmpQueue[x]; tmpQueue[x] = tmpQueue[y]; tmpQueue[y] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[x]; queue[x] = queue[y]; queue[y] = tmpS; }</td></tr>
 <tr class="separator:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -298,6 +302,38 @@ Variables</h2></td></tr>
 <p >Timers 3,4 and 5 are 16-bit timers (ie count to 65536). See page 136 of the processors datasheet: <a href="http://www.atmel.com/Images/doc2549.pdf">http://www.atmel.com/Images/doc2549.pdf</a> .</p>
 <p >256 prescale gives tick every 16uS. 256 prescale gives overflow every 1048576uS (This means maximum wait time is 1.0485 seconds). </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a458136bb1a7859d52f44a080899d0184" name="a458136bb1a7859d52f44a080899d0184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458136bb1a7859d52f44a080899d0184">&#9670;&#160;</a></span>DWELL_AVERAGE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DWELL_AVERAGE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">input</td><td>)</td>
+          <td>&#160;&#160;&#160;(((long)input * (256 - <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>) + ((long)currentStatus.actualDwell * <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>))) &gt;&gt; 8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6cf7ebdaa3e11c56c38fcb21ead3ab5" name="ac6cf7ebdaa3e11c56c38fcb21ead3ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">&#9670;&#160;</a></span>DWELL_AVERAGE_ALPHA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DWELL_AVERAGE_ALPHA&#160;&#160;&#160;30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa7b94ad3c3f8966d9b73903d218e08e6" name="aa7b94ad3c3f8966d9b73903d218e08e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7b94ad3c3f8966d9b73903d218e08e6">&#9670;&#160;</a></span>IGNITION_REFRESH_THRESHOLD</h2>
 
@@ -2484,7 +2520,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 19 2023 00:25:16 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Mon May 22 2023 03:37:57 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
