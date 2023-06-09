@@ -159,9 +159,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(a,  b)&#160;&#160;&#160;((a) |= (1U&lt;&lt;(b)))</td></tr>
+<tr class="memitem:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>(<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>,  b)&#160;&#160;&#160;((<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>) |= (1U&lt;&lt;(b)))</td></tr>
 <tr class="separator:ade3c083fa7b1178fcca5671e1830f2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(a,  b)&#160;&#160;&#160;((a) &amp;= ~(1U&lt;&lt;(b)))</td></tr>
+<tr class="memitem:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a77fc3a931d1ad5fa08201e5c544817a0">BIT_CLEAR</a>(<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>,  b)&#160;&#160;&#160;((<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>) &amp;= ~(1U&lt;&lt;(b)))</td></tr>
 <tr class="separator:a77fc3a931d1ad5fa08201e5c544817a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76fdd8cbc1fedd623886785637bc334d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a76fdd8cbc1fedd623886785637bc334d">BIT_CHECK</a>(var,  pos)&#160;&#160;&#160;!!((var) &amp; (1U&lt;&lt;(pos)))</td></tr>
 <tr class="separator:a76fdd8cbc1fedd623886785637bc334d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +169,8 @@ Macros</h2></td></tr>
 <tr class="separator:a117dd62b706ad8c85c76ed08c9292cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a011484a60e91f633573a1b3b757ae354"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a011484a60e91f633573a1b3b757ae354">BIT_WRITE</a>(var,  pos,  bitvalue)&#160;&#160;&#160;((bitvalue) ? <a class="el" href="globals_8h.html#ade3c083fa7b1178fcca5671e1830f2f9">BIT_SET</a>((var), (pos)) : bitClear((var), (pos)))</td></tr>
 <tr class="separator:a011484a60e91f633573a1b3b757ae354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ea5607b682b5faf59806f6548b9a71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae2ea5607b682b5faf59806f6548b9a71">CRANK_ANGLE_MAX</a>&#160;&#160;&#160;(max(<a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>, <a class="el" href="globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b">CRANK_ANGLE_MAX_INJ</a>))</td></tr>
+<tr class="separator:ae2ea5607b682b5faf59806f6548b9a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(c)&#160;&#160;&#160;(noInterrupts(); {c} interrupts();)</td></tr>
 <tr class="separator:a862109559b900adee5fc54a117a98766"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a1bdc2263b1a4272baa3897ea6eba85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a3a1bdc2263b1a4272baa3897ea6eba85">MS_IN_MINUTE</a>&#160;&#160;&#160;60000</td></tr>
@@ -768,6 +770,8 @@ Variables</h2></td></tr>
 <tr class="separator:ab5892c506078be431411b02e6984a3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24cde436378dcd32f7b97c55c46f1795"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a24cde436378dcd32f7b97c55c46f1795">fanPWMTable</a></td></tr>
 <tr class="separator:a24cde436378dcd32f7b97c55c46f1795"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa19f5bb8ea8d0a42500beee92591ddd"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#afa19f5bb8ea8d0a42500beee92591ddd">rollingCutTable</a></td></tr>
+<tr class="separator:afa19f5bb8ea8d0a42500beee92591ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33091f454b3a945c60fefe5a846650d6"><td class="memItemLeft" align="right" valign="top">volatile PORT_TYPE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a33091f454b3a945c60fefe5a846650d6">inj1_pin_port</a></td></tr>
 <tr class="memdesc:a33091f454b3a945c60fefe5a846650d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">volatile inj*_pin_port and inj*_pin_mask vars are for the direct port manipulation of the injectors, coils and aux outputs.  <a href="globals_8h.html#a33091f454b3a945c60fefe5a846650d6">More...</a><br /></td></tr>
 <tr class="separator:a33091f454b3a945c60fefe5a846650d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -944,8 +948,6 @@ Variables</h2></td></tr>
 <tr class="separator:a67800a71de442a514a471102545ed499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea451a4134f2835ffe5e5ea449b303f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#aea451a4134f2835ffe5e5ea449b303f3">tertiaryTriggerEdge</a></td></tr>
 <tr class="separator:aea451a4134f2835ffe5e5ea449b303f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af48e0e42870a3560b50553d91f287bf2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#af48e0e42870a3560b50553d91f287bf2">CRANK_ANGLE_MAX</a></td></tr>
-<tr class="separator:af48e0e42870a3560b50553d91f287bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05ecb2a5633f0c516044bb487c411d57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a></td></tr>
 <tr class="separator:a05ecb2a5633f0c516044bb487c411d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0899ead1d490b4e1fe51150721f9b88b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b">CRANK_ANGLE_MAX_INJ</a></td></tr>
@@ -1437,7 +1439,7 @@ Variables</h2></td></tr>
           <td class="memname">#define BIT_CLEAR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
+          <td class="paramname"><a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1448,7 +1450,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) &amp;= ~(1U&lt;&lt;(b)))</td>
+          <td></td><td>&#160;&#160;&#160;((<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>) &amp;= ~(1U&lt;&lt;(b)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1577,7 +1579,7 @@ Variables</h2></td></tr>
           <td class="memname">#define BIT_SET</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
+          <td class="paramname"><a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1588,7 +1590,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((a) |= (1U&lt;&lt;(b)))</td>
+          <td></td><td>&#160;&#160;&#160;((<a class="el" href="maths_8ino.html#af4007aacd75b22aee32dba9ea96082c0">a</a>) |= (1U&lt;&lt;(b)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2466,6 +2468,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define COMPOSITE_LOG_TRIG&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2ea5607b682b5faf59806f6548b9a71" name="ae2ea5607b682b5faf59806f6548b9a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ea5607b682b5faf59806f6548b9a71">&#9670;&#160;</a></span>CRANK_ANGLE_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRANK_ANGLE_MAX&#160;&#160;&#160;(max(<a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>, <a class="el" href="globals_8h.html#a0899ead1d490b4e1fe51150721f9b88b">CRANK_ANGLE_MAX_INJ</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5041,28 +5057,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname">struct <a class="el" href="structtable2_d.html">table2D</a> coolantProtectTable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af48e0e42870a3560b50553d91f287bf2" name="af48e0e42870a3560b50553d91f287bf2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af48e0e42870a3560b50553d91f287bf2">&#9670;&#160;</a></span>CRANK_ANGLE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int CRANK_ANGLE_MAX</td>
         </tr>
       </table>
   </td>
@@ -9207,6 +9201,28 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="afa19f5bb8ea8d0a42500beee92591ddd" name="afa19f5bb8ea8d0a42500beee92591ddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa19f5bb8ea8d0a42500beee92591ddd">&#9670;&#160;</a></span>rollingCutTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structtable2_d.html">table2D</a> rollingCutTable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aaf93b65da6c8c6cf8cca5b86c003aa1c" name="aaf93b65da6c8c6cf8cca5b86c003aa1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf93b65da6c8c6cf8cca5b86c003aa1c">&#9670;&#160;</a></span>rotarySplitTable</h2>
 
@@ -10060,7 +10076,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 26 2023 14:12:31 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Jun 9 2023 06:11:06 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

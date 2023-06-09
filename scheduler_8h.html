@@ -122,7 +122,7 @@ Macros</h2></td></tr>
 <tr class="separator:ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458136bb1a7859d52f44a080899d0184"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a458136bb1a7859d52f44a080899d0184">DWELL_AVERAGE</a>(input)&#160;&#160;&#160;(((long)input * (256 - <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>) + ((long)currentStatus.actualDwell * <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>))) &gt;&gt; 8</td></tr>
 <tr class="separator:a458136bb1a7859d52f44a080899d0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186">SWAP</a>(x,  y)&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[y] &lt; tmpQueue[x]) { unsigned int tmp = tmpQueue[x]; tmpQueue[x] = tmpQueue[y]; tmpQueue[y] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[x]; queue[x] = queue[y]; queue[y] = tmpS; }</td></tr>
+<tr class="memitem:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186">SWAP</a>(<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>,  <a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>)&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] &lt; tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]) { unsigned int tmp = tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; queue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = queue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; queue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmpS; }</td></tr>
 <tr class="separator:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -358,18 +358,18 @@ Variables</h2></td></tr>
           <td class="memname">#define SWAP</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
+          <td class="paramname"><a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">y&#160;</td>
+          <td class="paramname"><a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[y] &lt; tmpQueue[x]) { unsigned int tmp = tmpQueue[x]; tmpQueue[x] = tmpQueue[y]; tmpQueue[y] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[x]; queue[x] = queue[y]; queue[y] = tmpS; }</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="speeduino_8ino.html#a70776f42120fc7ae97e61dd37d0c97b1">if</a>(tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] &lt; tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]) { unsigned int tmp = tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; tmpQueue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; tmpQueue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; queue[<a class="el" href="maths_8ino.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = queue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; queue[<a class="el" href="maths_8ino.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmpS; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2520,7 +2520,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri May 26 2023 14:12:31 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Jun 9 2023 06:11:07 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
