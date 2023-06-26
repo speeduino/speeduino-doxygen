@@ -1,13 +1,8 @@
 var searchData=
 [
-  ['wmicontrol_0',['wmiControl',['../auxiliaries_8ino.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.ino'],['../auxiliaries_8h.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.ino']]],
-  ['write_1',['write',['../storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe',1,'write(const table_row_iterator &amp;row, write_location location):&#160;storage.cpp'],['../storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4',1,'write(table_value_iterator it, write_location location):&#160;storage.cpp'],['../storage_8cpp.html#ae747ea4be6494a109d22d1bb6e6a95f3',1,'write(table_axis_iterator it, write_location location):&#160;storage.cpp']]],
-  ['write_5frange_2',['write_range',['../storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82',1,'storage.cpp']]],
-  ['writeallconfig_3',['writeAllConfig',['../storage_8cpp.html#a57488f5069fee359480775ac2f935643',1,'writeAllConfig(void):&#160;storage.cpp'],['../storage_8h.html#a57488f5069fee359480775ac2f935643',1,'writeAllConfig(void):&#160;storage.cpp']]],
-  ['writebytereliableblocking_4',['writeByteReliableBlocking',['../comms_8cpp.html#a81dde0c7c20cd0b9c87c534eeb9a6dbf',1,'comms.cpp']]],
-  ['writecalibration_5',['writeCalibration',['../storage_8cpp.html#a92769556ae1816d6ac83b5a40cf5b6da',1,'writeCalibration(void):&#160;storage.cpp'],['../storage_8h.html#a92769556ae1816d6ac83b5a40cf5b6da',1,'writeCalibration(void):&#160;storage.cpp']]],
-  ['writecalibrationpage_6',['writeCalibrationPage',['../storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#acedd2cd0ab9a313d1f3aadd046b21489',1,'writeCalibrationPage(uint8_t pageNum):&#160;storage.cpp']]],
-  ['writeconfig_7',['writeConfig',['../storage_8cpp.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp'],['../storage_8h.html#a43e4485fee4923fb039076254df6c689',1,'writeConfig(uint8_t pageNum):&#160;storage.cpp']]],
-  ['writenonblocking_8',['writeNonBlocking',['../comms_8cpp.html#ad5f8b31a0db50887881dabc1cb58638b',1,'writeNonBlocking(const byte *buffer, size_t length):&#160;comms.cpp'],['../comms_8cpp.html#a2c00e2406c6b1a2f674317122fd608e0',1,'writeNonBlocking(size_t start, uint32_t value):&#160;comms.cpp']]],
-  ['writetable_9',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]]
+  ['validatemap_0',['validateMAP',['../sensors_8h.html#a32dbcd69f5307b9c478e9a48e7e81012',1,'validateMAP(void):&#160;sensors.h'],['../sensors_8ino.html#a32dbcd69f5307b9c478e9a48e7e81012',1,'validateMAP(void):&#160;sensors.ino']]],
+  ['vssgetpulsegap_1',['vssGetPulseGap',['../sensors_8h.html#a38dfaf43d55df86fd692520bf12d5465',1,'vssGetPulseGap(byte toothHistoryIndex):&#160;sensors.ino'],['../sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0',1,'vssGetPulseGap(byte historyIndex):&#160;sensors.ino']]],
+  ['vsspulse_2',['vssPulse',['../sensors_8h.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.ino'],['../sensors_8ino.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.ino']]],
+  ['vvtcontrol_3',['vvtControl',['../auxiliaries_8h.html#a54b5c6c7b15d2bc4dbaa41170f21290f',1,'vvtControl(void):&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a54b5c6c7b15d2bc4dbaa41170f21290f',1,'vvtControl(void):&#160;auxiliaries.ino']]],
+  ['vvtinterrupt_4',['vvtInterrupt',['../auxiliaries_8h.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;auxiliaries.ino'],['../auxiliaries_8ino.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;auxiliaries.ino']]]
 ];

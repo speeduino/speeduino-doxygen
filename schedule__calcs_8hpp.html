@@ -79,20 +79,20 @@ $(function() {
   <div class="headertitle"><div class="title">schedule_calcs.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="crank_maths_8h_source.html">crankMaths.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="schedule__calcs_8hpp__dep__incl.png" border="0" usemap="#aspeeduino_2schedule__calcs_8hppdep" alt=""/></div>
 <map name="aspeeduino_2schedule__calcs_8hppdep" id="aspeeduino_2schedule__calcs_8hppdep">
-<area shape="rect" title=" " alt="" coords="239,5,377,45"/>
-<area shape="rect" href="schedule__calcs_8h.html" title=" " alt="" coords="239,93,377,133"/>
-<area shape="rect" href="init_8ino.html" title=" " alt="" coords="5,189,128,214"/>
-<area shape="rect" href="schedule__calcs_8cpp.html" title=" " alt="" coords="153,181,290,221"/>
-<area shape="rect" href="scheduler_8ino.html" title=" " alt="" coords="314,189,475,214"/>
-<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="499,189,663,214"/>
+<area shape="rect" title=" " alt="" coords="336,5,473,45"/>
+<area shape="rect" href="schedule__calcs_8h.html" title=" " alt="" coords="336,93,473,133"/>
+<area shape="rect" href="decoders_8ino.html" title=" " alt="" coords="5,189,164,214"/>
+<area shape="rect" href="init_8ino.html" title=" " alt="" coords="189,189,311,214"/>
+<area shape="rect" href="schedule__calcs_8cpp.html" title=" " alt="" coords="336,181,473,221"/>
+<area shape="rect" href="scheduler_8ino.html" title=" " alt="" coords="497,189,659,214"/>
+<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="683,189,847,214"/>
 </map>
 </div>
 </div>
@@ -100,40 +100,28 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8ad4d9d4d3947f090e587f7da4693fb6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a8ad4d9d4d3947f090e587f7da4693fb6">calculateInjectorStartAngle</a> (uint16_t PWdivTimerPerDegree, int16_t injChannelDegrees)</td></tr>
-<tr class="separator:a8ad4d9d4d3947f090e587f7da4693fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11774a3083f9b9d8abef0cb4ba1376e9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a11774a3083f9b9d8abef0cb4ba1376e9">calculateInjector1Timeout</a> (int injector1StartAngle, int crankAngle)</td></tr>
-<tr class="separator:a11774a3083f9b9d8abef0cb4ba1376e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53c7caaaf8721fd4e4037d9b9615b147"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a53c7caaaf8721fd4e4037d9b9615b147">calculateInjectorNTimeout</a> (const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, int channelInjDegrees, int injectorStartAngle, int crankAngle)</td></tr>
-<tr class="separator:a53c7caaaf8721fd4e4037d9b9615b147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1d8b84eb120327835937e4296b44a8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#af1d8b84eb120327835937e4296b44a8d">calculateIgnitionAngle1</a> (int dwellAngle)</td></tr>
-<tr class="separator:af1d8b84eb120327835937e4296b44a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4744f3d6851ccbcef7317cea2efcdffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a4744f3d6851ccbcef7317cea2efcdffb">calculateIgnitionAngle2</a> (int dwellAngle)</td></tr>
-<tr class="separator:a4744f3d6851ccbcef7317cea2efcdffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe80006f16c97c87657e1f41171de0fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#afe80006f16c97c87657e1f41171de0fb">calculateIgnitionAngle3</a> (int dwellAngle)</td></tr>
-<tr class="separator:afe80006f16c97c87657e1f41171de0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b6f4676584aafc97a18d052f4e520e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a2b6f4676584aafc97a18d052f4e520e7">calculateIgnitionAngle3</a> (int dwellAngle, int rotarySplitDegrees)</td></tr>
-<tr class="separator:a2b6f4676584aafc97a18d052f4e520e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a375b882a422b9fc5c92e45fd835f3022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a375b882a422b9fc5c92e45fd835f3022">calculateIgnitionAngle4</a> (int dwellAngle)</td></tr>
-<tr class="separator:a375b882a422b9fc5c92e45fd835f3022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a078a6280c03149bb169abd9a7add9642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a078a6280c03149bb169abd9a7add9642">calculateIgnitionAngle4</a> (int dwellAngle, int rotarySplitDegrees)</td></tr>
-<tr class="separator:a078a6280c03149bb169abd9a7add9642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5abb9615c959ae1f1560190724066443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a5abb9615c959ae1f1560190724066443">calculateIgnitionAngle5</a> (int dwellAngle)</td></tr>
-<tr class="separator:a5abb9615c959ae1f1560190724066443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf57ab9bba20b4b1a7419b3cd04ab17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a8bf57ab9bba20b4b1a7419b3cd04ab17">calculateIgnitionAngle6</a> (int dwellAngle)</td></tr>
-<tr class="separator:a8bf57ab9bba20b4b1a7419b3cd04ab17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad63b324ae72e7282c7ddc5167ede2ad4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#ad63b324ae72e7282c7ddc5167ede2ad4">calculateIgnitionAngle7</a> (int dwellAngle)</td></tr>
-<tr class="separator:ad63b324ae72e7282c7ddc5167ede2ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30d977fac19c36d237ff8df224f80737"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a30d977fac19c36d237ff8df224f80737">calculateIgnitionAngle8</a> (int dwellAngle)</td></tr>
-<tr class="separator:a30d977fac19c36d237ff8df224f80737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35708e2468e2ac2fbb82cd1a5ceebdf9"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a35708e2468e2ac2fbb82cd1a5ceebdf9">calculateIgnition1Timeout</a> (int crankAngle)</td></tr>
-<tr class="separator:a35708e2468e2ac2fbb82cd1a5ceebdf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4722d2f712a60936dbf9327a6b87b69"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#ab4722d2f712a60936dbf9327a6b87b69">calculateIgnitionNTimeout</a> (const <a class="el" href="struct_schedule.html">Schedule</a> &amp;schedule, int startAngle, int channelIgnDegrees, int crankAngle)</td></tr>
-<tr class="separator:ab4722d2f712a60936dbf9327a6b87b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3234c302570732d70bf86ffbb839f235"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a3234c302570732d70bf86ffbb839f235">calculateInjectorStartAngle</a> (uint16_t pwDegrees, int16_t injChannelDegrees, uint16_t injAngle)</td></tr>
+<tr class="separator:a3234c302570732d70bf86ffbb839f235"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6444179e03b9d81686a314b5c897b828"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a6444179e03b9d81686a314b5c897b828">_calculateInjectorTimeout</a> (const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, uint16_t openAngle, uint16_t crankAngle)</td></tr>
+<tr class="separator:a6444179e03b9d81686a314b5c897b828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0571bfe2d89b539e6a5047b1b7dba6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#afd0571bfe2d89b539e6a5047b1b7dba6">_adjustToInjChannel</a> (int angle, int channelInjDegrees)</td></tr>
+<tr class="separator:afd0571bfe2d89b539e6a5047b1b7dba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ac3ca241c0965698a9d9c94bba893c1"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a2ac3ca241c0965698a9d9c94bba893c1">calculateInjectorTimeout</a> (const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, int channelInjDegrees, int openAngle, int crankAngle)</td></tr>
+<tr class="separator:a2ac3ca241c0965698a9d9c94bba893c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ddf83ec934b6bc4115868b04224293d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a9ddf83ec934b6bc4115868b04224293d">calculateIgnitionAngle</a> (const int dwellAngle, const uint16_t channelIgnDegrees, int8_t <a class="el" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8">advance</a>, int *pEndAngle, int *pStartAngle)</td></tr>
+<tr class="separator:a9ddf83ec934b6bc4115868b04224293d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf7b7a87b5dd2af7f1ad7dfac2bf9ebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#acf7b7a87b5dd2af7f1ad7dfac2bf9ebb">calculateIgnitionTrailingRotary</a> (int dwellAngle, int rotarySplitDegrees, int leadIgnitionAngle, int *pEndAngle, int *pStartAngle)</td></tr>
+<tr class="separator:acf7b7a87b5dd2af7f1ad7dfac2bf9ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7145e0614b8f4fe867c2beeff4b871"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871">_calculateIgnitionTimeout</a> (const <a class="el" href="struct_schedule.html">Schedule</a> &amp;schedule, int16_t startAngle, int16_t crankAngle)</td></tr>
+<tr class="separator:a6c7145e0614b8f4fe867c2beeff4b871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c02f6b1845924218198fe4f40f6089"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a23c02f6b1845924218198fe4f40f6089">_adjustToIgnChannel</a> (int angle, int channelInjDegrees)</td></tr>
+<tr class="separator:a23c02f6b1845924218198fe4f40f6089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d5f4da853a3e91d67252810524d153"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153">calculateIgnitionTimeout</a> (const <a class="el" href="struct_schedule.html">Schedule</a> &amp;schedule, int startAngle, int channelIgnDegrees, int crankAngle)</td></tr>
+<tr class="separator:a44d5f4da853a3e91d67252810524d153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a35708e2468e2ac2fbb82cd1a5ceebdf9" name="a35708e2468e2ac2fbb82cd1a5ceebdf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35708e2468e2ac2fbb82cd1a5ceebdf9">&#9670;&#160;</a></span>calculateIgnition1Timeout()</h2>
+<a id="a23c02f6b1845924218198fe4f40f6089" name="a23c02f6b1845924218198fe4f40f6089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c02f6b1845924218198fe4f40f6089">&#9670;&#160;</a></span>_adjustToIgnChannel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,11 +130,119 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t calculateIgnition1Timeout </td>
+          <td class="memname">static uint16_t _adjustToIgnChannel </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>crankAngle</em></td><td>)</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channelInjDegrees</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph" id="aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph">
+<area shape="rect" title=" " alt="" coords="311,5,455,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153" title=" " alt="" coords="100,5,263,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afd0571bfe2d89b539e6a5047b1b7dba6" name="afd0571bfe2d89b539e6a5047b1b7dba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd0571bfe2d89b539e6a5047b1b7dba6">&#9670;&#160;</a></span>_adjustToInjChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int _adjustToInjChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>angle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channelInjDegrees</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_afd0571bfe2d89b539e6a5047b1b7dba6_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_afd0571bfe2d89b539e6a5047b1b7dba6_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_afd0571bfe2d89b539e6a5047b1b7dba6_icgraph" id="aschedule__calcs_8hpp_afd0571bfe2d89b539e6a5047b1b7dba6_icgraph">
+<area shape="rect" title=" " alt="" coords="312,5,452,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a2ac3ca241c0965698a9d9c94bba893c1" title=" " alt="" coords="100,5,264,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6c7145e0614b8f4fe867c2beeff4b871" name="a6c7145e0614b8f4fe867c2beeff4b871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c7145e0614b8f4fe867c2beeff4b871">&#9670;&#160;</a></span>_calculateIgnitionTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t _calculateIgnitionTimeout </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>startAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>crankAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -158,27 +254,28 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_cgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_cgraph" id="aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,176,55"/>
-<area shape="rect" href="crank_maths_8ino.html#af529f8c199532a9520f670ff5503c3ba" title=" " alt="" coords="224,29,321,55"/>
-<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="369,29,429,55"/>
+<div class="center"><img src="schedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph" id="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,176,31"/>
+<area shape="rect" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea" title=" " alt="" coords="224,5,387,31"/>
+<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="435,5,495,31"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_icgraph" id="aschedule__calcs_8hpp_a35708e2468e2ac2fbb82cd1a5ceebdf9_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,271,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph" id="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph">
+<area shape="rect" title=" " alt="" coords="311,5,481,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="af1d8b84eb120327835937e4296b44a8d" name="af1d8b84eb120327835937e4296b44a8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1d8b84eb120327835937e4296b44a8d">&#9670;&#160;</a></span>calculateIgnitionAngle1()</h2>
+<a id="a6444179e03b9d81686a314b5c897b828" name="a6444179e03b9d81686a314b5c897b828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6444179e03b9d81686a314b5c897b828">&#9670;&#160;</a></span>_calculateInjectorTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,124 +284,22 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void calculateIgnitionAngle1 </td>
+          <td class="memname">uint32_t _calculateInjectorTimeout </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_af1d8b84eb120327835937e4296b44a8d_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_af1d8b84eb120327835937e4296b44a8d_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_af1d8b84eb120327835937e4296b44a8d_icgraph" id="aschedule__calcs_8hpp_af1d8b84eb120327835937e4296b44a8d_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a4744f3d6851ccbcef7317cea2efcdffb" name="a4744f3d6851ccbcef7317cea2efcdffb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4744f3d6851ccbcef7317cea2efcdffb">&#9670;&#160;</a></span>calculateIgnitionAngle2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle2 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a4744f3d6851ccbcef7317cea2efcdffb_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a4744f3d6851ccbcef7317cea2efcdffb_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a4744f3d6851ccbcef7317cea2efcdffb_icgraph" id="aschedule__calcs_8hpp_a4744f3d6851ccbcef7317cea2efcdffb_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="afe80006f16c97c87657e1f41171de0fb" name="afe80006f16c97c87657e1f41171de0fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe80006f16c97c87657e1f41171de0fb">&#9670;&#160;</a></span>calculateIgnitionAngle3() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle3 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_afe80006f16c97c87657e1f41171de0fb_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_afe80006f16c97c87657e1f41171de0fb_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_afe80006f16c97c87657e1f41171de0fb_icgraph" id="aschedule__calcs_8hpp_afe80006f16c97c87657e1f41171de0fb_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a2b6f4676584aafc97a18d052f4e520e7" name="a2b6f4676584aafc97a18d052f4e520e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b6f4676584aafc97a18d052f4e520e7">&#9670;&#160;</a></span>calculateIgnitionAngle3() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle3 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em>, </td>
+          <td class="paramtype">const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>rotarySplitDegrees</em>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>openAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>crankAngle</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -318,47 +313,21 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a375b882a422b9fc5c92e45fd835f3022" name="a375b882a422b9fc5c92e45fd835f3022"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a375b882a422b9fc5c92e45fd835f3022">&#9670;&#160;</a></span>calculateIgnitionAngle4() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle4 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a375b882a422b9fc5c92e45fd835f3022_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a375b882a422b9fc5c92e45fd835f3022_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a375b882a422b9fc5c92e45fd835f3022_icgraph" id="aschedule__calcs_8hpp_a375b882a422b9fc5c92e45fd835f3022_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a6444179e03b9d81686a314b5c897b828_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a6444179e03b9d81686a314b5c897b828_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a6444179e03b9d81686a314b5c897b828_icgraph" id="aschedule__calcs_8hpp_a6444179e03b9d81686a314b5c897b828_icgraph">
+<area shape="rect" title=" " alt="" coords="312,5,483,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a2ac3ca241c0965698a9d9c94bba893c1" title=" " alt="" coords="100,5,264,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a078a6280c03149bb169abd9a7add9642" name="a078a6280c03149bb169abd9a7add9642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a078a6280c03149bb169abd9a7add9642">&#9670;&#160;</a></span>calculateIgnitionAngle4() <span class="overload">[2/2]</span></h2>
+<a id="a9ddf83ec934b6bc4115868b04224293d" name="a9ddf83ec934b6bc4115868b04224293d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ddf83ec934b6bc4115868b04224293d">&#9670;&#160;</a></span>calculateIgnitionAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,16 +336,34 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void calculateIgnitionAngle4 </td>
+          <td class="memname">void calculateIgnitionAngle </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>dwellAngle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>rotarySplitDegrees</em>&#160;</td>
+          <td class="paramtype">const uint16_t&#160;</td>
+          <td class="paramname"><em>channelIgnDegrees</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>advance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>pEndAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>pStartAngle</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -390,38 +377,22 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_cgraph" id="aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,13,155,38"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="203,13,273,38"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="321,5,460,45"/>
+</map>
 </div>
-</div>
-<a id="a5abb9615c959ae1f1560190724066443" name="a5abb9615c959ae1f1560190724066443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5abb9615c959ae1f1560190724066443">&#9670;&#160;</a></span>calculateIgnitionAngle5()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle5 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a5abb9615c959ae1f1560190724066443_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a5abb9615c959ae1f1560190724066443_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a5abb9615c959ae1f1560190724066443_icgraph" id="aschedule__calcs_8hpp_a5abb9615c959ae1f1560190724066443_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_icgraph" id="aschedule__calcs_8hpp_a9ddf83ec934b6bc4115868b04224293d_icgraph">
+<area shape="rect" title=" " alt="" coords="304,5,453,31"/>
 <area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -429,8 +400,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8bf57ab9bba20b4b1a7419b3cd04ab17" name="a8bf57ab9bba20b4b1a7419b3cd04ab17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf57ab9bba20b4b1a7419b3cd04ab17">&#9670;&#160;</a></span>calculateIgnitionAngle6()</h2>
+<a id="a44d5f4da853a3e91d67252810524d153" name="a44d5f4da853a3e91d67252810524d153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d5f4da853a3e91d67252810524d153">&#9670;&#160;</a></span>calculateIgnitionTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,115 +410,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void calculateIgnitionAngle6 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a8bf57ab9bba20b4b1a7419b3cd04ab17_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a8bf57ab9bba20b4b1a7419b3cd04ab17_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a8bf57ab9bba20b4b1a7419b3cd04ab17_icgraph" id="aschedule__calcs_8hpp_a8bf57ab9bba20b4b1a7419b3cd04ab17_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad63b324ae72e7282c7ddc5167ede2ad4" name="ad63b324ae72e7282c7ddc5167ede2ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad63b324ae72e7282c7ddc5167ede2ad4">&#9670;&#160;</a></span>calculateIgnitionAngle7()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle7 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_ad63b324ae72e7282c7ddc5167ede2ad4_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ad63b324ae72e7282c7ddc5167ede2ad4_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_ad63b324ae72e7282c7ddc5167ede2ad4_icgraph" id="aschedule__calcs_8hpp_ad63b324ae72e7282c7ddc5167ede2ad4_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a30d977fac19c36d237ff8df224f80737" name="a30d977fac19c36d237ff8df224f80737"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30d977fac19c36d237ff8df224f80737">&#9670;&#160;</a></span>calculateIgnitionAngle8()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void calculateIgnitionAngle8 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dwellAngle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a30d977fac19c36d237ff8df224f80737_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a30d977fac19c36d237ff8df224f80737_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a30d977fac19c36d237ff8df224f80737_icgraph" id="aschedule__calcs_8hpp_a30d977fac19c36d237ff8df224f80737_icgraph">
-<area shape="rect" title=" " alt="" coords="304,5,460,31"/>
-<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,5,256,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab4722d2f712a60936dbf9327a6b87b69" name="ab4722d2f712a60936dbf9327a6b87b69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4722d2f712a60936dbf9327a6b87b69">&#9670;&#160;</a></span>calculateIgnitionNTimeout()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t calculateIgnitionNTimeout </td>
+          <td class="memname">uint32_t calculateIgnitionTimeout </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
@@ -585,27 +448,29 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_cgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_cgraph" id="aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,179,55"/>
-<area shape="rect" href="crank_maths_8ino.html#af529f8c199532a9520f670ff5503c3ba" title=" " alt="" coords="227,29,324,55"/>
-<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="372,29,432,55"/>
+<div class="center"><img src="schedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph" id="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,168,56"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a23c02f6b1845924218198fe4f40f6089" title=" " alt="" coords="229,5,373,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871" title=" " alt="" coords="216,55,387,80"/>
+<area shape="rect" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea" title=" " alt="" coords="435,55,597,80"/>
+<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="645,55,705,80"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_icgraph" id="aschedule__calcs_8hpp_ab4722d2f712a60936dbf9327a6b87b69_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,273,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph" id="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a11774a3083f9b9d8abef0cb4ba1376e9" name="a11774a3083f9b9d8abef0cb4ba1376e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11774a3083f9b9d8abef0cb4ba1376e9">&#9670;&#160;</a></span>calculateInjector1Timeout()</h2>
+<a id="acf7b7a87b5dd2af7f1ad7dfac2bf9ebb" name="acf7b7a87b5dd2af7f1ad7dfac2bf9ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf7b7a87b5dd2af7f1ad7dfac2bf9ebb">&#9670;&#160;</a></span>calculateIgnitionTrailingRotary()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -614,16 +479,34 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t calculateInjector1Timeout </td>
+          <td class="memname">void calculateIgnitionTrailingRotary </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>injector1StartAngle</em>, </td>
+          <td class="paramname"><em>dwellAngle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>crankAngle</em>&#160;</td>
+          <td class="paramname"><em>rotarySplitDegrees</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>leadIgnitionAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>pEndAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>pStartAngle</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -640,17 +523,18 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a11774a3083f9b9d8abef0cb4ba1376e9_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a11774a3083f9b9d8abef0cb4ba1376e9_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a11774a3083f9b9d8abef0cb4ba1376e9_icgraph" id="aschedule__calcs_8hpp_a11774a3083f9b9d8abef0cb4ba1376e9_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,271,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_acf7b7a87b5dd2af7f1ad7dfac2bf9ebb_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_acf7b7a87b5dd2af7f1ad7dfac2bf9ebb_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_acf7b7a87b5dd2af7f1ad7dfac2bf9ebb_icgraph" id="aschedule__calcs_8hpp_acf7b7a87b5dd2af7f1ad7dfac2bf9ebb_icgraph">
+<area shape="rect" title=" " alt="" coords="304,5,463,45"/>
+<area shape="rect" href="speeduino_8ino.html#a91ca907e42df2a3c915b1aac1e06572e" title=" " alt="" coords="100,13,256,38"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,13,52,38"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a53c7caaaf8721fd4e4037d9b9615b147" name="a53c7caaaf8721fd4e4037d9b9615b147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53c7caaaf8721fd4e4037d9b9615b147">&#9670;&#160;</a></span>calculateInjectorNTimeout()</h2>
+<a id="a3234c302570732d70bf86ffbb839f235" name="a3234c302570732d70bf86ffbb839f235"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3234c302570732d70bf86ffbb839f235">&#9670;&#160;</a></span>calculateInjectorStartAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -659,7 +543,58 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t calculateInjectorNTimeout </td>
+          <td class="memname">uint16_t calculateInjectorStartAngle </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>pwDegrees</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>injChannelDegrees</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>injAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_a3234c302570732d70bf86ffbb839f235_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a3234c302570732d70bf86ffbb839f235_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a3234c302570732d70bf86ffbb839f235_icgraph" id="aschedule__calcs_8hpp_a3234c302570732d70bf86ffbb839f235_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,279,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2ac3ca241c0965698a9d9c94bba893c1" name="a2ac3ca241c0965698a9d9c94bba893c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ac3ca241c0965698a9d9c94bba893c1">&#9670;&#160;</a></span>calculateInjectorTimeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t calculateInjectorTimeout </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
@@ -674,7 +609,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>injectorStartAngle</em>, </td>
+          <td class="paramname"><em>openAngle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -695,56 +630,21 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the caller graph for this function:</div>
+Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a53c7caaaf8721fd4e4037d9b9615b147_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a53c7caaaf8721fd4e4037d9b9615b147_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a53c7caaaf8721fd4e4037d9b9615b147_icgraph" id="aschedule__calcs_8hpp_a53c7caaaf8721fd4e4037d9b9615b147_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,275,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_cgraph" id="aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,169,56"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#afd0571bfe2d89b539e6a5047b1b7dba6" title=" " alt="" coords="233,5,373,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a6444179e03b9d81686a314b5c897b828" title=" " alt="" coords="217,55,388,80"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a8ad4d9d4d3947f090e587f7da4693fb6" name="a8ad4d9d4d3947f090e587f7da4693fb6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ad4d9d4d3947f090e587f7da4693fb6">&#9670;&#160;</a></span>calculateInjectorStartAngle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t calculateInjectorStartAngle </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>PWdivTimerPerDegree</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>injChannelDegrees</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a8ad4d9d4d3947f090e587f7da4693fb6_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a8ad4d9d4d3947f090e587f7da4693fb6_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a8ad4d9d4d3947f090e587f7da4693fb6_icgraph" id="aschedule__calcs_8hpp_a8ad4d9d4d3947f090e587f7da4693fb6_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,279,31"/>
+<div class="center"><img src="schedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_icgraph" id="aschedule__calcs_8hpp_a2ac3ca241c0965698a9d9c94bba893c1_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,264,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
@@ -754,7 +654,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 26 2023 01:49:18 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Mon Jun 26 2023 02:14:15 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
