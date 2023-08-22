@@ -172,6 +172,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6458184ce02bbd3e4c24a84e5ab7859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02e282e997465ea6a1bbe71cd28011e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a02e282e997465ea6a1bbe71cd28011e4">setIgnitionSchedule8</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
 <tr class="separator:a02e282e997465ea6a1bbe71cd28011e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5dfd990ccc31ea698d68c6019bf816d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ac5dfd990ccc31ea698d68c6019bf816d">disablePendingFuelSchedule</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> channel)</td></tr>
+<tr class="separator:ac5dfd990ccc31ea698d68c6019bf816d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92aa8a59475c7d84b90744e6ffc2d65e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a92aa8a59475c7d84b90744e6ffc2d65e">disablePendingIgnSchedule</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> channel)</td></tr>
+<tr class="separator:a92aa8a59475c7d84b90744e6ffc2d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a62adcc3ea5c56ee5faf7921983ec16f5">refreshIgnitionSchedule1</a> (unsigned long timeToEnd)</td></tr>
 <tr class="separator:a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c0950b5b94b5f175c20df449d33ee4"><td class="memItemLeft" align="right" valign="top">static COMPARE_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#af4c0950b5b94b5f175c20df449d33ee4">setQueue</a> (volatile <a class="el" href="struct_schedule.html">Schedule</a> *queue[], <a class="el" href="struct_schedule.html">Schedule</a> *schedule1, <a class="el" href="struct_schedule.html">Schedule</a> *schedule2, unsigned int CNT)</td></tr>
@@ -461,6 +465,64 @@ Here is the caller graph for this function:</div>
 <map name="ascheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_icgraph" id="ascheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_icgraph">
 <area shape="rect" title=" " alt="" coords="160,5,300,31"/>
 <area shape="rect" href="timers_8ino.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,112,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac5dfd990ccc31ea698d68c6019bf816d" name="ac5dfd990ccc31ea698d68c6019bf816d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5dfd990ccc31ea698d68c6019bf816d">&#9670;&#160;</a></span>disablePendingFuelSchedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void disablePendingFuelSchedule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >fuelSchedule*Interrupt (All 8 ISR functions below) get called (as timed interrupts) when either the start time or the duration time are reached. This calls the relevant callback function (startCallback or endCallback) depending on the status (PENDING =&gt; Needs to run, RUNNING =&gt; Needs to stop) of the schedule. The status of schedule is managed here based on startCallback /endCallback function called:</p><ul>
+<li>startCallback - change scheduler into RUNNING state</li>
+<li>endCallback - change scheduler into OFF state (or PENDING if schedule.hasNextSchedule is set) </li>
+</ul>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8h_ac5dfd990ccc31ea698d68c6019bf816d_icgraph.png" border="0" usemap="#ascheduler_8h_ac5dfd990ccc31ea698d68c6019bf816d_icgraph" alt=""/></div>
+<map name="ascheduler_8h_ac5dfd990ccc31ea698d68c6019bf816d_icgraph" id="ascheduler_8h_ac5dfd990ccc31ea698d68c6019bf816d_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,289,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a92aa8a59475c7d84b90744e6ffc2d65e" name="a92aa8a59475c7d84b90744e6ffc2d65e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92aa8a59475c7d84b90744e6ffc2d65e">&#9670;&#160;</a></span>disablePendingIgnSchedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void disablePendingIgnSchedule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8h_a92aa8a59475c7d84b90744e6ffc2d65e_icgraph.png" border="0" usemap="#ascheduler_8h_a92aa8a59475c7d84b90744e6ffc2d65e_icgraph" alt=""/></div>
+<map name="ascheduler_8h_a92aa8a59475c7d84b90744e6ffc2d65e_icgraph" id="ascheduler_8h_a92aa8a59475c7d84b90744e6ffc2d65e_icgraph">
+<area shape="rect" title=" " alt="" coords="100,5,283,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
 
@@ -2512,7 +2574,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jul 31 2023 03:40:38 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Aug 22 2023 08:21:00 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
