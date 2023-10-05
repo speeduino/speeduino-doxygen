@@ -125,8 +125,10 @@ Functions</h2></td></tr>
 <tr class="separator:ae828363b49552d61f8c9d911222da996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70fb263f2214d5c61eb49d6f8c33df4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#a70fb263f2214d5c61eb49d6f8c33df4f">legacySerialCommand</a> (void)</td></tr>
 <tr class="separator:a70fb263f2214d5c61eb49d6f8c33df4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41e3c73d47beaa7a18cc978eb3e89e49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#a41e3c73d47beaa7a18cc978eb3e89e49">sendValues</a> (uint16_t offset, uint16_t packetLength, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> cmd, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> portNum)</td></tr>
-<tr class="separator:a41e3c73d47beaa7a18cc978eb3e89e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d530850376962379a55601369b4fb42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#a1d530850376962379a55601369b4fb42">legacySerialHandler</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> cmd, Stream &amp;targetPort, <a class="el" href="comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480">SerialStatus</a> &amp;targetStatusFlag)</td></tr>
+<tr class="separator:a1d530850376962379a55601369b4fb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfb4be2011c5aab6093b35031ea85e6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#adfb4be2011c5aab6093b35031ea85e6d">sendValues</a> (uint16_t offset, uint16_t packetLength, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> cmd, Stream &amp;targetPort)</td></tr>
+<tr class="separator:adfb4be2011c5aab6093b35031ea85e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a653487fe0d06caeef3384e78c4f219c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#a653487fe0d06caeef3384e78c4f219c0">sendValuesLegacy</a> (void)</td></tr>
 <tr class="separator:a653487fe0d06caeef3384e78c4f219c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67c4b2be8f23cbb2d0ea20142e7a77c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__legacy_8h.html#a67c4b2be8f23cbb2d0ea20142e7a77c6">sendPage</a> (void)</td></tr>
@@ -220,108 +222,109 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="comms__legacy_8h_a70fb263f2214d5c61eb49d6f8c33df4f_cgraph.png" border="0" usemap="#acomms__legacy_8h_a70fb263f2214d5c61eb49d6f8c33df4f_cgraph" alt=""/></div>
 <map name="acomms__legacy_8h_a70fb263f2214d5c61eb49d6f8c33df4f_cgraph" id="acomms__legacy_8h_a70fb263f2214d5c61eb49d6f8c33df4f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,779,156,805"/>
-<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="229,161,374,186"/>
-<area shape="rect" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95" title=" " alt="" coords="235,210,368,235"/>
-<area shape="rect" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd" title=" " alt="" coords="235,259,368,285"/>
-<area shape="rect" href="storage_8cpp.html#aa7f09f158dd3f231757708fd253245bd" title=" " alt="" coords="241,309,361,334"/>
-<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="250,506,353,531"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237" title=" " alt="" coords="273,407,330,433"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="239,605,364,630"/>
-<area shape="rect" href="storage_8cpp.html#a92769556ae1816d6ac83b5a40cf5b6da" title=" " alt="" coords="500,669,611,694"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a4af096554e643cff9b9ddd66e76562e5" title=" " alt="" coords="212,555,391,581"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a67c4b2be8f23cbb2d0ea20142e7a77c6" title=" " alt="" coords="261,358,341,383"/>
-<area shape="rect" href="comms__legacy_8cpp.html#afb6e6a5ab545119c9e08b0befb7cadf6" title=" " alt="" coords="244,654,359,679"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a6c29c8332dae5ca87d100881170824e6" title=" " alt="" coords="227,703,376,729"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a41e3c73d47beaa7a18cc978eb3e89e49" title=" " alt="" coords="256,854,347,879"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a653487fe0d06caeef3384e78c4f219c0" title=" " alt="" coords="235,805,367,830"/>
-<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="250,457,353,482"/>
-<area shape="rect" href="logger_8ino.html#af6a58d18b0809bf21a829fc5357232ba" title=" " alt="" coords="226,903,377,929"/>
-<area shape="rect" href="logger_8ino.html#a1e572e9d173ce9132dd7700fd07e9a97" title=" " alt="" coords="209,1002,393,1027"/>
-<area shape="rect" href="logger_8ino.html#a02a32b70fdce05c411ff28f686a9b694" title=" " alt="" coords="205,1051,398,1077"/>
-<area shape="rect" href="logger_8ino.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1" title=" " alt="" coords="241,953,362,978"/>
-<area shape="rect" href="logger_8ino.html#afa4f2f2a9a321defcce1d72994118f80" title=" " alt="" coords="227,1101,376,1126"/>
-<area shape="rect" href="logger_8ino.html#a6f35759d3231876d135762a453ca3492" title=" " alt="" coords="210,1150,393,1175"/>
-<area shape="rect" href="logger_8ino.html#a5dcc44cefa70e09739c35e77c5f81130" title=" " alt="" coords="205,1199,397,1225"/>
-<area shape="rect" href="logger_8ino.html#a67587e42c239165f9603cfbc79259220" title=" " alt="" coords="241,1249,361,1274"/>
-<area shape="rect" href="comms__legacy_8cpp.html#af4258e102ae9b8ffe9268a1ee4a299df" title=" " alt="" coords="260,1298,343,1323"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a1d5b41f39bf9439c1cb139a2bb27f225" title=" " alt="" coords="204,1865,399,1890"/>
-<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="512,2729,599,2754"/>
-<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="520,297,591,322"/>
-<area shape="rect" href="page__crc_8cpp.html#a5ab865589bd23869c5ecfa1bafbe425a" title=" " alt="" coords="507,174,604,199"/>
-<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="508,223,603,249"/>
-<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="511,346,599,371"/>
-<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="733,376,871,416"/>
-<area shape="rect" href="page__crc_8cpp.html#a9c2460770c972faf81719bd41d7e0847" title=" " alt="" coords="739,174,865,199"/>
-<area shape="rect" href="page__crc_8cpp.html#ae6568b7d2ded21d36be2488957050aad" title=" " alt="" coords="736,255,868,281"/>
-<area shape="rect" href="page__crc_8cpp.html#a457bc2870f20ba79493bccc0fab1f3a3" title=" " alt="" coords="768,305,836,330"/>
-<area shape="rect" href="page__crc_8cpp.html#a77bc913466b3dd3e6b4694edb8d58b4b" title=" " alt="" coords="948,127,1103,153"/>
-<area shape="rect" href="page__crc_8cpp.html#ae3ea31e2a0d43cbaf45e0b50a029784b" title=" " alt="" coords="940,255,1111,281"/>
-<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="981,905,1069,930"/>
-<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="992,1985,1059,2010"/>
-<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="992,329,1059,354"/>
-<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="1171,120,1298,160"/>
-<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="1167,184,1302,224"/>
-<area shape="rect" href="classtable__axis__iterator.html#a66fb2aaba27b999c959355ccdbd56442" title=" " alt="" coords="1171,5,1298,45"/>
-<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="1170,70,1299,95"/>
-<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="1167,248,1302,288"/>
-<area shape="rect" href="page__crc_8cpp.html#a3ee77a0024a54eac51a7ff0a821fb665" title=" " alt="" coords="1172,313,1297,338"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="1369,305,1495,345"/>
-<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="516,547,595,573"/>
-<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="742,511,862,537"/>
-<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="745,561,859,586"/>
-<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="501,854,609,879"/>
-<area shape="rect" href="errors_8ino.html#acfdc5af0368a62c29ce4dd67a4c7844a" title=" " alt="" coords="755,854,849,879"/>
-<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="516,498,595,523"/>
-<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="745,462,859,487"/>
-<area shape="rect" href="group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e" title=" " alt="" coords="494,953,617,978"/>
-<area shape="rect" href="group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed" title=" " alt="" coords="485,903,625,929"/>
-<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="739,953,865,978"/>
-<area shape="rect" href="group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4" title=" " alt="" coords="494,1002,617,1027"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#acc4f2c86c03d5ce8099656ae88b499bf" title=" " alt="" coords="494,1594,617,1619"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a2aa7f48574c75bcd35b8afe94c7affa0" title=" " alt="" coords="494,1643,617,1669"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ad0e473b558fc7d78e6c14b426f9b554e" title=" " alt="" coords="494,1693,617,1718"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a997bac564ea996b1dff2e8d8f34a1cb4" title=" " alt="" coords="494,1742,617,1767"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a32fcbdddbd6623a8495b6da109160c55" title=" " alt="" coords="494,1791,617,1817"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ad27747321abc94b609e499634af23fbc" title=" " alt="" coords="494,1841,617,1866"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aabc94c730ca8fe001355103ce8242398" title=" " alt="" coords="494,1051,617,1077"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#adb8b41af0c083ac4172358d1a5399ab4" title=" " alt="" coords="494,1101,617,1126"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a6d93b3471f174de80ea90226da8bd349" title=" " alt="" coords="504,1150,607,1175"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#accd79079df1cfde4d8438b7662c4f2bc" title=" " alt="" coords="504,1199,607,1225"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a00e7ab668239c1cffa75fecf554c4c70" title=" " alt="" coords="504,1249,607,1274"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a85a7c3d5b8c8e0f7283426484cd0f007" title=" " alt="" coords="504,1298,607,1323"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aac1b67661822fa3992043379e10c39bd" title=" " alt="" coords="504,1347,607,1373"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a8b17c8396adbb6502f07e10f92dd29f8" title=" " alt="" coords="504,1397,607,1422"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#adc70995df6c94b71196c0669bf3124dd" title=" " alt="" coords="504,1446,607,1471"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a0468d9b7deef33740903efa7ab8921a9" title=" " alt="" coords="504,1495,607,1521"/>
-<area shape="rect" href="_t_s___command_button_handler_8ino.html#a1b8f9615e8419d4d89d1c51f1a6acb24" title=" " alt="" coords="447,1545,664,1570"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a0a7d32ff7043f46e7b06d1b9ad415e4f" title=" " alt="" coords="499,2433,612,2458"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aab69021582f248e09b70ddc2fe8a2ab3" title=" " alt="" coords="499,2482,612,2507"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a0c3ed74ba203e883073e2837e7053bd5" title=" " alt="" coords="499,2531,612,2557"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aeff940ab333518232395089d7cf43295" title=" " alt="" coords="499,2581,612,2606"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a73286c84e0bcf5cd4706ead979a02684" title=" " alt="" coords="499,2630,612,2655"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a3c97922b9d7ca6d8424a8b3771efca7b" title=" " alt="" coords="499,2679,612,2705"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a4245332f53c3d4b9be223ef4477a34d8" title=" " alt="" coords="499,1890,612,1915"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#adc6c39208ed08e49dd262a44933d6ff1" title=" " alt="" coords="499,1939,612,1965"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae0f54e1ad265b7e85992c7458976b959" title=" " alt="" coords="505,1989,605,2014"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#aefdf6cc455bd89c1c80583d103a32888" title=" " alt="" coords="505,2038,605,2063"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a6b0fa8ea5e9ab844bc3afe499741e652" title=" " alt="" coords="505,2087,605,2113"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a134f4116240c5e08ab24e8f2e89f0979" title=" " alt="" coords="505,2137,605,2162"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a49ab90869a28202755b0f09cffd88212" title=" " alt="" coords="505,2186,605,2211"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a9b59966db2d24bd84dd46adfa64980ff" title=" " alt="" coords="505,2235,605,2261"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#ae7be71d78e4cce74ffd2a7dea63c908b" title=" " alt="" coords="505,2285,605,2310"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a81fdf29c95e8fec7bb2357e237625d48" title=" " alt="" coords="505,2334,605,2359"/>
-<area shape="rect" href="sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0" title="Returns the VSS pulse gap for a given history point." alt="" coords="495,2383,616,2409"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a5d2f46a3499203a01513eed1258cdc77" title=" " alt="" coords="747,1667,857,1693"/>
-<area shape="rect" href="scheduled_i_o_8ino.html#a7817970a3e304beb995c752313c040d6" title=" " alt="" coords="747,2503,857,2529"/>
-<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1367,2715,1497,2755"/>
-<area shape="rect" href="structwrite__location.html#aa2d5a78cf0d0a6948d22ee07fef6e0dc" title=" " alt="" coords="712,2772,892,2812"/>
-<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="1190,2666,1279,2691"/>
-<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="761,2563,843,2589"/>
-<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1359,2665,1505,2690"/>
-<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="1000,2563,1051,2589"/>
-<area shape="rect" href="group__table__3d.html#ga0cc5f60d69d2ee1b38cbcf393ab70e8e" title=" " alt="" coords="990,2613,1061,2638"/>
-<area shape="rect" href="classtable__row__iterator.html#a294b375734780f6e87663d8c158786a6" title="Pointer to the end of the row." alt="" coords="1159,2563,1311,2589"/>
+<area shape="rect" title=" " alt="" coords="5,2035,156,2061"/>
+<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="483,181,628,206"/>
+<area shape="rect" href="storage_8cpp.html#a63ae27ed0c98f44c977001780b87bd95" title=" " alt="" coords="235,1761,368,1786"/>
+<area shape="rect" href="storage_8cpp.html#aa2eac239d663b8d5c5c921bd1c9dd1cd" title=" " alt="" coords="235,1810,368,1835"/>
+<area shape="rect" href="storage_8cpp.html#aa7f09f158dd3f231757708fd253245bd" title=" " alt="" coords="241,1859,361,1885"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="504,382,607,407"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237" title=" " alt="" coords="273,1909,330,1934"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1d530850376962379a55601369b4fb42" title=" " alt="" coords="233,483,370,509"/>
+<area shape="rect" href="comms__legacy_8cpp.html#adfb4be2011c5aab6093b35031ea85e6d" title=" " alt="" coords="510,481,601,506"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="239,2010,364,2035"/>
+<area shape="rect" href="storage_8cpp.html#a92769556ae1816d6ac83b5a40cf5b6da" title=" " alt="" coords="500,2257,611,2282"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a4af096554e643cff9b9ddd66e76562e5" title=" " alt="" coords="212,2059,391,2085"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a67c4b2be8f23cbb2d0ea20142e7a77c6" title=" " alt="" coords="515,230,595,255"/>
+<area shape="rect" href="comms__legacy_8cpp.html#afb6e6a5ab545119c9e08b0befb7cadf6" title=" " alt="" coords="244,2109,359,2134"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a6c29c8332dae5ca87d100881170824e6" title=" " alt="" coords="227,2158,376,2183"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a653487fe0d06caeef3384e78c4f219c0" title=" " alt="" coords="235,2207,367,2233"/>
+<area shape="rect" href="pages_8cpp.html#af21f52defb535d26cf2bfac859885c53" title=" " alt="" coords="504,431,607,457"/>
+<area shape="rect" href="logger_8ino.html#af6a58d18b0809bf21a829fc5357232ba" title=" " alt="" coords="226,2355,377,2381"/>
+<area shape="rect" href="logger_8ino.html#a1e572e9d173ce9132dd7700fd07e9a97" title=" " alt="" coords="209,2306,393,2331"/>
+<area shape="rect" href="logger_8ino.html#a02a32b70fdce05c411ff28f686a9b694" title=" " alt="" coords="205,2257,398,2282"/>
+<area shape="rect" href="logger_8ino.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1" title=" " alt="" coords="241,2405,362,2430"/>
+<area shape="rect" href="logger_8ino.html#afa4f2f2a9a321defcce1d72994118f80" title=" " alt="" coords="227,2454,376,2479"/>
+<area shape="rect" href="logger_8ino.html#a6f35759d3231876d135762a453ca3492" title=" " alt="" coords="210,2503,393,2529"/>
+<area shape="rect" href="logger_8ino.html#a5dcc44cefa70e09739c35e77c5f81130" title=" " alt="" coords="205,2553,397,2578"/>
+<area shape="rect" href="logger_8ino.html#a67587e42c239165f9603cfbc79259220" title=" " alt="" coords="241,2602,361,2627"/>
+<area shape="rect" href="comms__legacy_8cpp.html#af4258e102ae9b8ffe9268a1ee4a299df" title=" " alt="" coords="260,2651,343,2677"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a1d5b41f39bf9439c1cb139a2bb27f225" title=" " alt="" coords="204,1394,399,1419"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="767,230,837,255"/>
+<area shape="rect" href="page__crc_8cpp.html#a5ab865589bd23869c5ecfa1bafbe425a" title=" " alt="" coords="753,82,851,107"/>
+<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="755,131,849,157"/>
+<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="758,181,846,206"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="940,227,1079,267"/>
+<area shape="rect" href="page__crc_8cpp.html#a9c2460770c972faf81719bd41d7e0847" title=" " alt="" coords="947,177,1072,202"/>
+<area shape="rect" href="page__crc_8cpp.html#ae6568b7d2ded21d36be2488957050aad" title=" " alt="" coords="943,127,1075,153"/>
+<area shape="rect" href="page__crc_8cpp.html#a457bc2870f20ba79493bccc0fab1f3a3" title=" " alt="" coords="975,78,1043,103"/>
+<area shape="rect" href="page__crc_8cpp.html#a77bc913466b3dd3e6b4694edb8d58b4b" title=" " alt="" coords="1135,127,1289,153"/>
+<area shape="rect" href="page__crc_8cpp.html#ae3ea31e2a0d43cbaf45e0b50a029784b" title=" " alt="" coords="1127,255,1297,281"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="1168,506,1256,531"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="1179,363,1245,389"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="1179,78,1245,103"/>
+<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="1355,120,1482,160"/>
+<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="1351,184,1486,224"/>
+<area shape="rect" href="classtable__axis__iterator.html#a66fb2aaba27b999c959355ccdbd56442" title=" " alt="" coords="1355,5,1482,45"/>
+<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="1354,70,1483,95"/>
+<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="1351,248,1486,288"/>
+<area shape="rect" href="page__crc_8cpp.html#a3ee77a0024a54eac51a7ff0a821fb665" title=" " alt="" coords="1356,313,1481,338"/>
+<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="1540,305,1665,345"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="763,382,841,407"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="949,341,1069,366"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="953,291,1066,317"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="512,530,599,555"/>
+<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="748,481,856,506"/>
+<area shape="rect" href="errors_8ino.html#acfdc5af0368a62c29ce4dd67a4c7844a" title=" " alt="" coords="962,439,1057,465"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1354,735,1483,775"/>
+<area shape="rect" href="structwrite__location.html#aa2d5a78cf0d0a6948d22ee07fef6e0dc" title=" " alt="" coords="712,584,892,624"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="1167,687,1257,713"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="761,534,843,559"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1345,685,1492,710"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="984,591,1035,617"/>
+<area shape="rect" href="group__table__3d.html#ga0cc5f60d69d2ee1b38cbcf393ab70e8e" title=" " alt="" coords="974,641,1045,666"/>
+<area shape="rect" href="classtable__row__iterator.html#a294b375734780f6e87663d8c158786a6" title="Pointer to the end of the row." alt="" coords="1136,591,1288,617"/>
+<area shape="rect" href="pages_8cpp.html#aed876950de5472374d3121726e1ca03e" title=" " alt="" coords="763,431,841,457"/>
+<area shape="rect" href="pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a" title=" " alt="" coords="953,390,1066,415"/>
+<area shape="rect" href="group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e" title=" " alt="" coords="494,2355,617,2381"/>
+<area shape="rect" href="group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed" title=" " alt="" coords="485,2405,625,2430"/>
+<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="739,2355,865,2381"/>
+<area shape="rect" href="group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4" title=" " alt="" coords="494,2306,617,2331"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#acc4f2c86c03d5ce8099656ae88b499bf" title=" " alt="" coords="494,1566,617,1591"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a2aa7f48574c75bcd35b8afe94c7affa0" title=" " alt="" coords="494,1615,617,1641"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad0e473b558fc7d78e6c14b426f9b554e" title=" " alt="" coords="494,1665,617,1690"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a997bac564ea996b1dff2e8d8f34a1cb4" title=" " alt="" coords="494,1763,617,1789"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a32fcbdddbd6623a8495b6da109160c55" title=" " alt="" coords="494,1714,617,1739"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ad27747321abc94b609e499634af23fbc" title=" " alt="" coords="494,1813,617,1838"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aabc94c730ca8fe001355103ce8242398" title=" " alt="" coords="494,1862,617,1887"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adb8b41af0c083ac4172358d1a5399ab4" title=" " alt="" coords="494,1911,617,1937"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6d93b3471f174de80ea90226da8bd349" title=" " alt="" coords="504,1961,607,1986"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#accd79079df1cfde4d8438b7662c4f2bc" title=" " alt="" coords="504,2010,607,2035"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a00e7ab668239c1cffa75fecf554c4c70" title=" " alt="" coords="504,2059,607,2085"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a85a7c3d5b8c8e0f7283426484cd0f007" title=" " alt="" coords="504,2109,607,2134"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aac1b67661822fa3992043379e10c39bd" title=" " alt="" coords="504,2158,607,2183"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a8b17c8396adbb6502f07e10f92dd29f8" title=" " alt="" coords="504,2207,607,2233"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adc70995df6c94b71196c0669bf3124dd" title=" " alt="" coords="504,579,607,605"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0468d9b7deef33740903efa7ab8921a9" title=" " alt="" coords="504,629,607,654"/>
+<area shape="rect" href="_t_s___command_button_handler_8ino.html#a1b8f9615e8419d4d89d1c51f1a6acb24" title=" " alt="" coords="447,678,664,703"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0a7d32ff7043f46e7b06d1b9ad415e4f" title=" " alt="" coords="499,777,612,802"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aab69021582f248e09b70ddc2fe8a2ab3" title=" " alt="" coords="499,826,612,851"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a0c3ed74ba203e883073e2837e7053bd5" title=" " alt="" coords="499,875,612,901"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aeff940ab333518232395089d7cf43295" title=" " alt="" coords="499,925,612,950"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a73286c84e0bcf5cd4706ead979a02684" title=" " alt="" coords="499,974,612,999"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a3c97922b9d7ca6d8424a8b3771efca7b" title=" " alt="" coords="499,1023,612,1049"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a4245332f53c3d4b9be223ef4477a34d8" title=" " alt="" coords="499,727,612,753"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#adc6c39208ed08e49dd262a44933d6ff1" title=" " alt="" coords="499,1073,612,1098"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae0f54e1ad265b7e85992c7458976b959" title=" " alt="" coords="505,1122,605,1147"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#aefdf6cc455bd89c1c80583d103a32888" title=" " alt="" coords="505,1171,605,1197"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a6b0fa8ea5e9ab844bc3afe499741e652" title=" " alt="" coords="505,1221,605,1246"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a134f4116240c5e08ab24e8f2e89f0979" title=" " alt="" coords="505,1270,605,1295"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a49ab90869a28202755b0f09cffd88212" title=" " alt="" coords="505,1319,605,1345"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a9b59966db2d24bd84dd46adfa64980ff" title=" " alt="" coords="505,1369,605,1394"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#ae7be71d78e4cce74ffd2a7dea63c908b" title=" " alt="" coords="505,1418,605,1443"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a81fdf29c95e8fec7bb2357e237625d48" title=" " alt="" coords="505,1467,605,1493"/>
+<area shape="rect" href="sensors_8ino.html#a5c4cb423bc06f8d06512a2815a3457c0" title="Returns the VSS pulse gap for a given history point." alt="" coords="495,1517,616,1542"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a5d2f46a3499203a01513eed1258cdc77" title=" " alt="" coords="747,1738,857,1763"/>
+<area shape="rect" href="scheduled_i_o_8ino.html#a7817970a3e304beb995c752313c040d6" title=" " alt="" coords="747,899,857,925"/>
 </map>
 </div>
 <div class="dynheader">
@@ -332,6 +335,97 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="248,5,399,31"/>
 <area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="100,5,200,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1d530850376962379a55601369b4fb42" name="a1d530850376962379a55601369b4fb42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d530850376962379a55601369b4fb42">&#9670;&#160;</a></span>legacySerialHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void legacySerialHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Stream &amp;&#160;</td>
+          <td class="paramname"><em>targetPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480">SerialStatus</a> &amp;&#160;</td>
+          <td class="paramname"><em>targetStatusFlag</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms__legacy_8h_a1d530850376962379a55601369b4fb42_cgraph.png" border="0" usemap="#acomms__legacy_8h_a1d530850376962379a55601369b4fb42_cgraph" alt=""/></div>
+<map name="acomms__legacy_8h_a1d530850376962379a55601369b4fb42_cgraph" id="acomms__legacy_8h_a1d530850376962379a55601369b4fb42_cgraph">
+<area shape="rect" title=" " alt="" coords="5,501,143,526"/>
+<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="191,325,336,350"/>
+<area shape="rect" href="pages_8cpp.html#aea9a6a80a7774cf740628d632b9734a6" title=" " alt="" coords="212,475,315,501"/>
+<area shape="rect" href="comms__legacy_8cpp.html#adfb4be2011c5aab6093b35031ea85e6d" title=" " alt="" coords="218,525,309,550"/>
+<area shape="rect" href="storage_8cpp.html#a43e4485fee4923fb039076254df6c689" title=" " alt="" coords="395,625,481,650"/>
+<area shape="rect" href="pages_8cpp.html#a5a72453b79576e4855834673719536c8" title=" " alt="" coords="403,275,473,301"/>
+<area shape="rect" href="page__crc_8cpp.html#a5ab865589bd23869c5ecfa1bafbe425a" title=" " alt="" coords="389,226,487,251"/>
+<area shape="rect" href="pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3" title=" " alt="" coords="391,325,485,350"/>
+<area shape="rect" href="pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca" title=" " alt="" coords="394,374,482,399"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="561,361,699,401"/>
+<area shape="rect" href="page__crc_8cpp.html#a9c2460770c972faf81719bd41d7e0847" title=" " alt="" coords="567,235,693,261"/>
+<area shape="rect" href="page__crc_8cpp.html#ae6568b7d2ded21d36be2488957050aad" title=" " alt="" coords="564,302,696,327"/>
+<area shape="rect" href="page__crc_8cpp.html#a457bc2870f20ba79493bccc0fab1f3a3" title=" " alt="" coords="596,186,664,211"/>
+<area shape="rect" href="page__crc_8cpp.html#a77bc913466b3dd3e6b4694edb8d58b4b" title=" " alt="" coords="776,127,931,153"/>
+<area shape="rect" href="page__crc_8cpp.html#ae3ea31e2a0d43cbaf45e0b50a029784b" title=" " alt="" coords="768,255,939,281"/>
+<area shape="rect" href="pages_8cpp.html#a3b2d35dd11c67e13efa9d35288ff39ad" title=" " alt="" coords="809,402,897,427"/>
+<area shape="rect" href="pages_8cpp.html#a8a284e4718ba9c532137b73c1f028ae9" title=" " alt="" coords="820,475,887,501"/>
+<area shape="rect" href="pages_8cpp.html#a033fab4a3a3c70450c1673c775507dd4" title=" " alt="" coords="820,329,887,354"/>
+<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="999,120,1126,160"/>
+<area shape="rect" href="classtable3d__axis__io.html#af82390f752b3d27ac0fa965ed35472aa" title="Obtain a converter instance for a given axis domain." alt="" coords="995,184,1130,224"/>
+<area shape="rect" href="classtable__axis__iterator.html#a66fb2aaba27b999c959355ccdbd56442" title=" " alt="" coords="999,5,1126,45"/>
+<area shape="rect" href="classint16__byte.html#aa7392079baeee50fa5b6383813252b54" title="Convert to a byte." alt="" coords="998,70,1127,95"/>
+<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="995,248,1130,288"/>
+<area shape="rect" href="page__crc_8cpp.html#a3ee77a0024a54eac51a7ff0a821fb665" title=" " alt="" coords="1000,313,1125,338"/>
+<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="1197,305,1323,345"/>
+<area shape="rect" href="pages_8cpp.html#a68490804cfe005aacc24d210427cfd07" title=" " alt="" coords="399,475,477,501"/>
+<area shape="rect" href="pages_8cpp.html#aad58ee4d998ae91b63cbdac8d71a14e7" title=" " alt="" coords="570,426,690,451"/>
+<area shape="rect" href="pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44" title=" " alt="" coords="573,475,687,501"/>
+<area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="384,525,492,550"/>
+<area shape="rect" href="errors_8ino.html#acfdc5af0368a62c29ce4dd67a4c7844a" title=" " alt="" coords="583,525,677,550"/>
+<area shape="rect" href="structwrite__location.html#a7335336a335521b8c43cbc4f6a78822a" title=" " alt="" coords="1195,668,1325,708"/>
+<area shape="rect" href="structwrite__location.html#aa2d5a78cf0d0a6948d22ee07fef6e0dc" title=" " alt="" coords="540,725,720,765"/>
+<area shape="rect" href="storage_8cpp.html#ae6eaa41918f7086113b3ec0330d36f82" title=" " alt="" coords="1018,621,1107,646"/>
+<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="589,574,671,599"/>
+<area shape="rect" href="structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4" title=" " alt="" coords="1187,618,1333,643"/>
+<area shape="rect" href="storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe" title=" " alt="" coords="828,525,879,550"/>
+<area shape="rect" href="group__table__3d.html#ga0cc5f60d69d2ee1b38cbcf393ab70e8e" title=" " alt="" coords="818,574,889,599"/>
+<area shape="rect" href="classtable__row__iterator.html#a294b375734780f6e87663d8c158786a6" title="Pointer to the end of the row." alt="" coords="987,525,1139,550"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="comms__legacy_8h_a1d530850376962379a55601369b4fb42_icgraph.png" border="0" usemap="#acomms__legacy_8h_a1d530850376962379a55601369b4fb42_icgraph" alt=""/></div>
+<map name="acomms__legacy_8h_a1d530850376962379a55601369b4fb42_icgraph" id="acomms__legacy_8h_a1d530850376962379a55601369b4fb42_icgraph">
+<area shape="rect" title=" " alt="" coords="508,31,645,56"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="309,5,460,31"/>
+<area shape="rect" href="cancomms_8ino.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="100,56,261,81"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="131,7,231,32"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,32,52,57"/>
 </map>
 </div>
 
@@ -516,8 +610,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a41e3c73d47beaa7a18cc978eb3e89e49" name="a41e3c73d47beaa7a18cc978eb3e89e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41e3c73d47beaa7a18cc978eb3e89e49">&#9670;&#160;</a></span>sendValues()</h2>
+<a id="adfb4be2011c5aab6093b35031ea85e6d" name="adfb4be2011c5aab6093b35031ea85e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfb4be2011c5aab6093b35031ea85e6d">&#9670;&#160;</a></span>sendValues()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -543,8 +637,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>portNum</em>&#160;</td>
+          <td class="paramtype">Stream &amp;&#160;</td>
+          <td class="paramname"><em>targetPort</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -566,8 +660,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_cgraph.png" border="0" usemap="#acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_cgraph" alt=""/></div>
-<map name="acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_cgraph" id="acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_cgraph">
+<div class="center"><img src="comms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_cgraph.png" border="0" usemap="#acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_cgraph" alt=""/></div>
+<map name="acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_cgraph" id="acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,96,31"/>
 <area shape="rect" href="logger_8ino.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="144,5,252,31"/>
 <area shape="rect" href="errors_8ino.html#acfdc5af0368a62c29ce4dd67a4c7844a" title=" " alt="" coords="300,5,395,31"/>
@@ -576,14 +670,15 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="comms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_icgraph.png" border="0" usemap="#acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_icgraph" alt=""/></div>
-<map name="acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_icgraph" id="acomms__legacy_8h_a41e3c73d47beaa7a18cc978eb3e89e49_icgraph">
-<area shape="rect" title=" " alt="" coords="461,56,552,81"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="257,7,408,32"/>
-<area shape="rect" href="cancomms_8ino.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="252,56,413,81"/>
-<area shape="rect" href="comms_8cpp.html#a9f7ff4d3336019845d217d0f94739193" title="The serial transmit pump. Should be called when serialStatusFlag indicates a transmit operation is in..." alt="" coords="100,107,204,132"/>
-<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="102,5,202,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,56,52,81"/>
+<div class="center"><img src="comms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_icgraph.png" border="0" usemap="#acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_icgraph" alt=""/></div>
+<map name="acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_icgraph" id="acomms__legacy_8h_adfb4be2011c5aab6093b35031ea85e6d_icgraph">
+<area shape="rect" title=" " alt="" coords="647,53,737,78"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="257,27,408,53"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1d530850376962379a55601369b4fb42" title=" " alt="" coords="461,27,599,53"/>
+<area shape="rect" href="cancomms_8ino.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="252,78,413,103"/>
+<area shape="rect" href="comms_8cpp.html#a9f7ff4d3336019845d217d0f94739193" title="The serial transmit pump. Should be called when serialStatusFlag indicates a transmit operation is in..." alt="" coords="100,129,204,154"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="102,27,202,53"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,78,52,103"/>
 </map>
 </div>
 
@@ -840,7 +935,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 5 2023 01:54:48 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Thu Oct 5 2023 11:24:36 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
