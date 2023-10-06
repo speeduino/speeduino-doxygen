@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['halfpercentage_0',['halfPercentage',['../maths_8h.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.ino'],['../maths_8ino.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.ino']]],
+  ['halfpercentage_0',['halfPercentage',['../maths_8cpp.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.cpp'],['../maths_8h.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.cpp']]],
   ['hard_5fcut_5ffull_1',['HARD_CUT_FULL',['../globals_8h.html#a0094bc4bc07923fb65184765b960f321',1,'globals.h']]],
   ['hard_5fcut_5frolling_2',['HARD_CUT_ROLLING',['../globals_8h.html#a8228f056ee5af5bb673a3b2af7b9aa6d',1,'globals.h']]],
   ['hard_5frev_5fcoolant_3',['HARD_REV_COOLANT',['../engine_protection_8h.html#aa6fbedc96bcadd6a15f6b8ae9b67ad66',1,'engineProtection.h']]],
@@ -13,8 +13,8 @@ var searchData=
   ['hassync_10',['hasSync',['../structstatuses.html#a0ce7170b804d912db6b41bf19ded367a',1,'statuses']]],
   ['honda_20d17_11',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
   ['how_20to_20contribute_12',['How to contribute',['../md_contributing.html',1,'']]],
-  ['hwtest_5fign_13',['HWTest_IGN',['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino'],['../globals_8ino.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.ino']]],
-  ['hwtest_5fign_5f50pc_14',['HWTest_IGN_50pc',['../globals_8h.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino'],['../globals_8ino.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.ino']]],
-  ['hwtest_5finj_15',['HWTest_INJ',['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino'],['../globals_8ino.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.ino']]],
-  ['hwtest_5finj_5f50pc_16',['HWTest_INJ_50pc',['../globals_8h.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino'],['../globals_8ino.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.ino']]]
+  ['hwtest_5fign_13',['HWTest_IGN',['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.cpp'],['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN():&#160;globals.cpp']]],
+  ['hwtest_5fign_5f50pc_14',['HWTest_IGN_50pc',['../globals_8cpp.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.cpp'],['../globals_8h.html#aedc85cb39a45d3b625b455e429478285',1,'HWTest_IGN_50pc():&#160;globals.cpp']]],
+  ['hwtest_5finj_15',['HWTest_INJ',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ():&#160;globals.cpp']]],
+  ['hwtest_5finj_5f50pc_16',['HWTest_INJ_50pc',['../globals_8cpp.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.cpp'],['../globals_8h.html#a1df81dd4ab0133415aa4794f782c24c4',1,'HWTest_INJ_50pc():&#160;globals.cpp']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['waitedaftercranking_0',['waitedAfterCranking',['../auxiliaries_8h.html#ae0452cbd072191edecaa782244fce594',1,'auxiliaries.h']]],
+  ['waitedaftercranking_0',['waitedAfterCranking',['../auxiliaries_8cpp.html#ae0452cbd072191edecaa782244fce594',1,'auxiliaries.cpp']]],
   ['warmuppage_1',['warmupPage',['../pages_8h.html#ab82b7a3d9ae02af17727c986bfc9f139',1,'pages.h']]],
   ['weber_2dmarelli_2',['Weber-Marelli',['../group__dec__weber__marelli.html',1,'']]],
   ['wmi_5fmode_5fclosedloop_3',['WMI_MODE_CLOSEDLOOP',['../globals_8h.html#af247189e3788d7c7bf94925e15200395',1,'globals.h']]],
@@ -11,8 +11,8 @@ var searchData=
   ['wmiadvadj_8',['wmiAdvAdj',['../structconfig10.html#ac6261bcc2435a1f2d21ff78f7aacb905',1,'config10']]],
   ['wmiadvbins_9',['wmiAdvBins',['../structconfig10.html#a74ab2d003fe0f501142f49ec2c03d297',1,'config10']]],
   ['wmiadvenabled_10',['wmiAdvEnabled',['../structconfig10.html#a160e179b7080480b9a4e3983914d284d',1,'config10']]],
-  ['wmiadvtable_11',['wmiAdvTable',['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino'],['../globals_8ino.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.ino']]],
-  ['wmicontrol_12',['wmiControl',['../auxiliaries_8ino.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.ino'],['../auxiliaries_8h.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.ino']]],
+  ['wmiadvtable_11',['wmiAdvTable',['../globals_8cpp.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.cpp'],['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.cpp']]],
+  ['wmicontrol_12',['wmiControl',['../auxiliaries_8h.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.cpp']]],
   ['wmiemptyenabled_13',['wmiEmptyEnabled',['../structconfig10.html#adf24e41adae25cf246058a076acf0dbc',1,'config10']]],
   ['wmiemptypin_14',['wmiEmptyPin',['../structconfig10.html#af249fc63101063f657ffcc361ca0d93c',1,'config10']]],
   ['wmiemptypolarity_15',['wmiEmptyPolarity',['../structconfig10.html#a3c1be013c03d5d8ba905ca2a58ce0d47',1,'config10']]],
@@ -29,7 +29,7 @@ var searchData=
   ['wmioffset_26',['wmiOffset',['../structconfig10.html#a0e8a1f44bb6a6ad0c071bcb64a3625f7',1,'config10']]],
   ['wmipw_27',['wmiPW',['../structstatuses.html#a96a3a7d21679524d69b8d3570776d8c8',1,'statuses']]],
   ['wmirpm_28',['wmiRPM',['../structconfig10.html#a950397de45ba6b14f40b102b5c5a31f3',1,'config10']]],
-  ['wmitable_29',['wmiTable',['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.ino'],['../globals_8ino.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.ino']]],
+  ['wmitable_29',['wmiTable',['../globals_8cpp.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.cpp'],['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.cpp']]],
   ['wmitps_30',['wmiTPS',['../structconfig10.html#a7323ac4c7d669e674b1e82d42e0e9766',1,'config10']]],
   ['write_31',['write',['../storage_8cpp.html#ae747ea4be6494a109d22d1bb6e6a95f3',1,'write(table_axis_iterator it, write_location location):&#160;storage.cpp'],['../storage_8cpp.html#a26b27f7e2000e55ad4df08b717ef8bbe',1,'write(const table_row_iterator &amp;row, write_location location):&#160;storage.cpp'],['../storage_8cpp.html#ac9d49faffe70e707152dc88e3b4c2ac4',1,'write(table_value_iterator it, write_location location):&#160;storage.cpp']]],
   ['write_5fblock_5fsize_32',['write_block_size',['../structwrite__location.html#a17c2df253131aebb1a142af0691d3578',1,'write_location']]],
@@ -44,6 +44,6 @@ var searchData=
   ['writetable_41',['writeTable',['../storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18',1,'storage.cpp']]],
   ['wuebins_42',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4']]],
   ['wuecorrection_43',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
-  ['wuetable_44',['WUETable',['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino'],['../globals_8ino.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.ino']]],
+  ['wuetable_44',['WUETable',['../globals_8cpp.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.cpp'],['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.cpp']]],
   ['wuevalues_45',['wueValues',['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2']]]
 ];

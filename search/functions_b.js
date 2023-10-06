@@ -9,8 +9,8 @@ var searchData=
   ['loado2calibrationchunk_6',['loadO2CalibrationChunk',['../comms_8cpp.html#af5b4ef8e0caf756c612a3bd48539556e',1,'comms.cpp']]],
   ['loadpagevaluestobuffer_7',['loadPageValuesToBuffer',['../comms_8cpp.html#ac3ac88a0a0afb6243678cf3ea65e4ef8',1,'comms.cpp']]],
   ['loadtable_8',['loadTable',['../storage_8cpp.html#a32f5abbaa58b2a0592de81298120911c',1,'storage.cpp']]],
-  ['loggerprimaryisr_9',['loggerPrimaryISR',['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.ino'],['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.ino']]],
-  ['loggersecondaryisr_10',['loggerSecondaryISR',['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.ino'],['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.ino']]],
-  ['loggertertiaryisr_11',['loggerTertiaryISR',['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.ino'],['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.ino']]],
+  ['loggerprimaryisr_9',['loggerPrimaryISR',['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.cpp']]],
+  ['loggersecondaryisr_10',['loggerSecondaryISR',['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.cpp']]],
+  ['loggertertiaryisr_11',['loggerTertiaryISR',['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.cpp']]],
   ['loop_12',['loop',['../speeduino_8h.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'loop(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'loop(void):&#160;speeduino.ino']]]
 ];

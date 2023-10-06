@@ -82,22 +82,23 @@ $(function() {
   <div class="headertitle"><div class="title">timers.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="timers_8h__dep__incl.png" border="0" usemap="#aspeeduino_2timers_8hdep" alt=""/></div>
 <map name="aspeeduino_2timers_8hdep" id="aspeeduino_2timers_8hdep">
-<area shape="rect" title=" " alt="" coords="839,5,969,31"/>
-<area shape="rect" href="auxiliaries_8ino.html" title=" " alt="" coords="5,79,168,104"/>
-<area shape="rect" href="corrections_8ino.html" title=" " alt="" coords="193,79,362,104"/>
-<area shape="rect" href="crank_maths_8ino.html" title=" " alt="" coords="387,79,560,104"/>
-<area shape="rect" href="decoders_8ino.html" title=" " alt="" coords="585,79,743,104"/>
-<area shape="rect" href="idle_8ino.html" title=" " alt="" coords="768,79,893,104"/>
-<area shape="rect" href="init_8ino.html" title=" " alt="" coords="917,79,1040,104"/>
-<area shape="rect" href="scheduled_i_o_8ino.html" title=" " alt="" coords="1064,79,1243,104"/>
-<area shape="rect" href="scheduler_8ino.html" title=" " alt="" coords="1267,79,1429,104"/>
-<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="1453,79,1617,104"/>
-<area shape="rect" href="timers_8ino.html" title=" " alt="" coords="1641,79,1783,104"/>
+<area shape="rect" title=" " alt="" coords="859,5,990,31"/>
+<area shape="rect" href="auxiliaries_8cpp.html" title=" " alt="" coords="5,79,172,104"/>
+<area shape="rect" href="corrections_8cpp.html" title=" " alt="" coords="197,79,370,104"/>
+<area shape="rect" href="crank_maths_8cpp.html" title=" " alt="" coords="395,79,572,104"/>
+<area shape="rect" href="decoders_8cpp.html" title=" " alt="" coords="597,79,759,104"/>
+<area shape="rect" href="idle_8cpp.html" title=" " alt="" coords="784,79,913,104"/>
+<area shape="rect" href="init_8cpp.html" title=" " alt="" coords="937,79,1064,104"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html" title=" " alt="" coords="1088,79,1271,104"/>
+<area shape="rect" href="scheduler_8cpp.html" title=" " alt="" coords="1295,79,1461,104"/>
+<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="1485,79,1649,104"/>
+<area shape="rect" href="timers_8cpp.html" title=" " alt="" coords="1673,79,1819,104"/>
 </map>
 </div>
 </div>
@@ -107,9 +108,9 @@ This graph shows which files directly or indirectly include this file:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a6a188777b3fa3f7f6e93124fee711846"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a6a188777b3fa3f7f6e93124fee711846">SET_COMPARE</a>(compare,  value)&#160;&#160;&#160;compare = (COMPARE_TYPE)(value)</td></tr>
 <tr class="separator:a6a188777b3fa3f7f6e93124fee711846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a875ca956caff6c349e6bac8de2248801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a875ca956caff6c349e6bac8de2248801">TACHO_PULSE_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="globals_8h.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> |= (<a class="el" href="globals_8h.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td></tr>
+<tr class="memitem:a875ca956caff6c349e6bac8de2248801"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a875ca956caff6c349e6bac8de2248801">TACHO_PULSE_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="globals_8cpp.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td></tr>
 <tr class="separator:a875ca956caff6c349e6bac8de2248801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae960c1b872e48dfd99082e08af16cb07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#ae960c1b872e48dfd99082e08af16cb07">TACHO_PULSE_LOW</a>()&#160;&#160;&#160;*<a class="el" href="globals_8h.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> &amp;= ~(<a class="el" href="globals_8h.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td></tr>
+<tr class="memitem:ae960c1b872e48dfd99082e08af16cb07"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#ae960c1b872e48dfd99082e08af16cb07">TACHO_PULSE_LOW</a>()&#160;&#160;&#160;*<a class="el" href="globals_8cpp.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td></tr>
 <tr class="separator:ae960c1b872e48dfd99082e08af16cb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1742544eda890463df786f92457bf20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#ad1742544eda890463df786f92457bf20">TACHO_SWEEP_TIME_MS</a>&#160;&#160;&#160;1500</td></tr>
 <tr class="separator:ad1742544eda890463df786f92457bf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,34 +134,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac7474e415bf6844551fc006986330d7c"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#ac7474e415bf6844551fc006986330d7c">tachoAlt</a> = false</td></tr>
-<tr class="separator:ac7474e415bf6844551fc006986330d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a035c591acd8c728b3abdd011ef10a417"><td class="memItemLeft" align="right" valign="top">volatile uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a035c591acd8c728b3abdd011ef10a417">tachoEndTime</a></td></tr>
-<tr class="separator:a035c591acd8c728b3abdd011ef10a417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1406c2c99a043c02419c75026a3cbd2d"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9">TachoOutputStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a1406c2c99a043c02419c75026a3cbd2d">tachoOutputFlag</a></td></tr>
 <tr class="separator:a1406c2c99a043c02419c75026a3cbd2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d0f2e3bfd863c334304ebbea7d91777"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a3d0f2e3bfd863c334304ebbea7d91777">tachoSweepEnabled</a></td></tr>
 <tr class="separator:a3d0f2e3bfd863c334304ebbea7d91777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3150a23925b1ff6630dfbe130fa69255"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a3150a23925b1ff6630dfbe130fa69255">tachoSweepIncr</a></td></tr>
 <tr class="separator:a3150a23925b1ff6630dfbe130fa69255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0de8b10156799f79603b72e0b55aa6e8"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a0de8b10156799f79603b72e0b55aa6e8">tachoSweepAccum</a></td></tr>
-<tr class="separator:a0de8b10156799f79603b72e0b55aa6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb944e77bfd49a4c2699d59a178a17ec"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#abb944e77bfd49a4c2699d59a178a17ec">loop33ms</a></td></tr>
-<tr class="separator:abb944e77bfd49a4c2699d59a178a17ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0835d65288cd3fc5162a111762f598ea"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a0835d65288cd3fc5162a111762f598ea">loop66ms</a></td></tr>
-<tr class="separator:a0835d65288cd3fc5162a111762f598ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee157bd72540348338826e26f4ff526"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#abee157bd72540348338826e26f4ff526">loop100ms</a></td></tr>
-<tr class="separator:abee157bd72540348338826e26f4ff526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98a956b21f0c584520ccc45c501b98d8"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a98a956b21f0c584520ccc45c501b98d8">loop250ms</a></td></tr>
-<tr class="separator:a98a956b21f0c584520ccc45c501b98d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1321f3ca7623708598b3751940e9b343"><td class="memItemLeft" align="right" valign="top">volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a1321f3ca7623708598b3751940e9b343">loopSec</a></td></tr>
-<tr class="separator:a1321f3ca7623708598b3751940e9b343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9eeb05c018b7581903e860d16dd8df3"><td class="memItemLeft" align="right" valign="top">volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3">dwellLimit_uS</a></td></tr>
 <tr class="separator:ad9eeb05c018b7581903e860d16dd8df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62308a8f5625eee6429f4ffd7198071c"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#a62308a8f5625eee6429f4ffd7198071c">lastRPM_100ms</a></td></tr>
-<tr class="separator:a62308a8f5625eee6429f4ffd7198071c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af63e608fdc59708993fd72d45a799c30"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8h.html#af63e608fdc59708993fd72d45a799c30">last250msLoopCount</a> = 1000</td></tr>
-<tr class="separator:af63e608fdc59708993fd72d45a799c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a98c842b52ffe344288b6e38b12417baa" name="a98c842b52ffe344288b6e38b12417baa"></a>
@@ -215,7 +196,7 @@ Variables</h2></td></tr>
           <td class="memname">#define TACHO_PULSE_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="globals_8h.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> |= (<a class="el" href="globals_8h.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="globals_8cpp.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -232,7 +213,7 @@ Variables</h2></td></tr>
           <td class="memname">#define TACHO_PULSE_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="globals_8h.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> &amp;= ~(<a class="el" href="globals_8h.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="globals_8cpp.html#a336b604f45cf7e9ebe42b3c766f152e1">tach_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ae9e7c5417ac9a7081e3e0c51899536a9">tach_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -309,7 +290,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="timers_8h_a82d103c1270ab099efd96deda93d4dc1_icgraph.png" border="0" usemap="#atimers_8h_a82d103c1270ab099efd96deda93d4dc1_icgraph" alt=""/></div>
 <map name="atimers_8h_a82d103c1270ab099efd96deda93d4dc1_icgraph" id="atimers_8h_a82d103c1270ab099efd96deda93d4dc1_icgraph">
 <area shape="rect" title=" " alt="" coords="240,5,349,31"/>
-<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
 </map>
 </div>
@@ -322,137 +303,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile unsigned int dwellLimit_uS</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af63e608fdc59708993fd72d45a799c30" name="af63e608fdc59708993fd72d45a799c30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af63e608fdc59708993fd72d45a799c30">&#9670;&#160;</a></span>last250msLoopCount</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint16_t last250msLoopCount = 1000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a62308a8f5625eee6429f4ffd7198071c" name="a62308a8f5625eee6429f4ffd7198071c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62308a8f5625eee6429f4ffd7198071c">&#9670;&#160;</a></span>lastRPM_100ms</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint16_t lastRPM_100ms</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abee157bd72540348338826e26f4ff526" name="abee157bd72540348338826e26f4ff526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abee157bd72540348338826e26f4ff526">&#9670;&#160;</a></span>loop100ms</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> loop100ms</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a98a956b21f0c584520ccc45c501b98d8" name="a98a956b21f0c584520ccc45c501b98d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98a956b21f0c584520ccc45c501b98d8">&#9670;&#160;</a></span>loop250ms</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> loop250ms</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abb944e77bfd49a4c2699d59a178a17ec" name="abb944e77bfd49a4c2699d59a178a17ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb944e77bfd49a4c2699d59a178a17ec">&#9670;&#160;</a></span>loop33ms</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> loop33ms</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0835d65288cd3fc5162a111762f598ea" name="a0835d65288cd3fc5162a111762f598ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0835d65288cd3fc5162a111762f598ea">&#9670;&#160;</a></span>loop66ms</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> loop66ms</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1321f3ca7623708598b3751940e9b343" name="a1321f3ca7623708598b3751940e9b343"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1321f3ca7623708598b3751940e9b343">&#9670;&#160;</a></span>loopSec</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile int loopSec</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7474e415bf6844551fc006986330d7c" name="ac7474e415bf6844551fc006986330d7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7474e415bf6844551fc006986330d7c">&#9670;&#160;</a></span>tachoAlt</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile bool tachoAlt = false</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a035c591acd8c728b3abdd011ef10a417" name="a035c591acd8c728b3abdd011ef10a417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a035c591acd8c728b3abdd011ef10a417">&#9670;&#160;</a></span>tachoEndTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint8_t tachoEndTime</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -462,25 +325,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile <a class="el" href="timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9">TachoOutputStatus</a> tachoOutputFlag</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0de8b10156799f79603b72e0b55aa6e8" name="a0de8b10156799f79603b72e0b55aa6e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0de8b10156799f79603b72e0b55aa6e8">&#9670;&#160;</a></span>tachoSweepAccum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint16_t tachoSweepAccum</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -490,11 +347,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile bool tachoSweepEnabled</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -504,11 +369,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">volatile uint16_t tachoSweepIncr</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -516,7 +389,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2023 04:07:29 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Oct 6 2023 07:10:41 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

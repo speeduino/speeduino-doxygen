@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['data_5fstructure_5fversion_0',['data_structure_version',['../globals_8h.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino'],['../globals_8ino.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.ino']]],
+  ['data_5fstructure_5fversion_0',['data_structure_version',['../globals_8h.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.cpp'],['../globals_8cpp.html#a210e00350a2fd93687924cb3df3c0a4c',1,'data_structure_version():&#160;globals.cpp']]],
   ['decelamount_1',['decelAmount',['../structconfig2.html#afd9e52fb151e8c1caa9a2dbfaf91ae98',1,'config2']]],
-  ['decoderstate_2',['decoderState',['../decoders_8h.html#a589c983c6ed4dfda77659efbbdf2b899',1,'decoderState():&#160;decoders.ino'],['../decoders_8ino.html#a589c983c6ed4dfda77659efbbdf2b899',1,'decoderState():&#160;decoders.ino']]],
-  ['defereepromwritesuntil_3',['deferEEPROMWritesUntil',['../storage_8cpp.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp'],['../storage_8h.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp']]],
-  ['degreesperusx2048_4',['degreesPeruSx2048',['../crank_maths_8ino.html#a484bc581d731d8ef7947f9aef754fe1b',1,'crankMaths.ino']]],
-  ['degreesperusx32768_5',['degreesPeruSx32768',['../crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.ino'],['../crank_maths_8ino.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.ino']]],
-  ['deltatoothcount_6',['deltaToothCount',['../crank_maths_8ino.html#a600359aee213ad7b155d39ba7bb03f91',1,'crankMaths.ino']]],
+  ['decoderstate_2',['decoderState',['../decoders_8h.html#a589c983c6ed4dfda77659efbbdf2b899',1,'decoderState():&#160;decoders.cpp'],['../decoders_8cpp.html#a589c983c6ed4dfda77659efbbdf2b899',1,'decoderState():&#160;decoders.cpp']]],
+  ['defereepromwritesuntil_3',['deferEEPROMWritesUntil',['../storage_8h.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp'],['../storage_8cpp.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil():&#160;storage.cpp']]],
+  ['degreesperusx2048_4',['degreesPeruSx2048',['../crank_maths_8cpp.html#a484bc581d731d8ef7947f9aef754fe1b',1,'crankMaths.cpp']]],
+  ['degreesperusx32768_5',['degreesPeruSx32768',['../crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.cpp'],['../crank_maths_8cpp.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215',1,'degreesPeruSx32768():&#160;crankMaths.cpp']]],
+  ['deltatoothcount_6',['deltaToothCount',['../crank_maths_8cpp.html#a600359aee213ad7b155d39ba7bb03f91',1,'crankMaths.cpp']]],
   ['dfcodelay_7',['dfcoDelay',['../structconfig2.html#afa36043c60695a80149c25cf75665e9f',1,'config2']]],
   ['dfcoenabled_8',['dfcoEnabled',['../structconfig2.html#a2a57959fa68a521afb1b2baaf5113cd1',1,'config2']]],
   ['dfcohyster_9',['dfcoHyster',['../structconfig4.html#a62f401f0dd00e2dbb27555a47c65b2ee',1,'config4']]],
   ['dfcominclt_10',['dfcoMinCLT',['../structconfig2.html#a180cf1129eaa9a49253002fa50b5a587',1,'config2']]],
   ['dfcorpm_11',['dfcoRPM',['../structconfig4.html#a0db78224b4ddc80d2c33ca09858e3767',1,'config4']]],
-  ['dfcotaper_12',['dfcoTaper',['../corrections_8h.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper():&#160;corrections.ino'],['../corrections_8ino.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper():&#160;corrections.ino']]],
+  ['dfcotaper_12',['dfcoTaper',['../corrections_8h.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper():&#160;corrections.cpp'],['../corrections_8cpp.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper():&#160;corrections.cpp']]],
   ['dfcotpsthresh_13',['dfcoTPSThresh',['../structconfig4.html#a1b60ea86d0aa4705a00f7e17c78d8c70',1,'config4']]],
   ['displayb1_14',['displayB1',['../structconfig2.html#a035ffe7b1be9331dacf5736a46bb4bea',1,'config2']]],
   ['displayb2_15',['displayB2',['../structconfig2.html#af87051fbbac8c7944e2aa04e11489790',1,'config2']]],
@@ -25,8 +25,8 @@ var searchData=
   ['dwellcrank_22',['dwellCrank',['../structconfig4.html#a5bcfaa6837aefa93b59aa59dc7347fbe',1,'config4']]],
   ['dwellerrcorrect_23',['dwellErrCorrect',['../structconfig4.html#a0c42539c05d32d11522c16eda0f9add5',1,'config4']]],
   ['dwelllimit_24',['dwellLimit',['../structconfig4.html#ac858ca96fd01bcd6305e04554fd3dcdd',1,'config4']]],
-  ['dwelllimit_5fus_25',['dwellLimit_uS',['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'timers.h']]],
+  ['dwelllimit_5fus_25',['dwellLimit_uS',['../timers_8cpp.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS():&#160;timers.cpp'],['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS():&#160;timers.cpp']]],
   ['dwellrun_26',['dwellRun',['../structconfig4.html#a9d224562591626d97cc4e890edaee56f',1,'config4']]],
-  ['dwelltable_27',['dwellTable',['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable():&#160;globals.ino'],['../globals_8ino.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable():&#160;globals.ino']]],
-  ['dwellvcorrectiontable_28',['dwellVCorrectionTable',['../globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable():&#160;globals.ino'],['../globals_8ino.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable():&#160;globals.ino']]]
+  ['dwelltable_27',['dwellTable',['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable():&#160;globals.cpp'],['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable():&#160;globals.cpp']]],
+  ['dwellvcorrectiontable_28',['dwellVCorrectionTable',['../globals_8cpp.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable():&#160;globals.cpp'],['../globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable():&#160;globals.cpp']]]
 ];

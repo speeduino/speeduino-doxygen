@@ -82,21 +82,22 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="crank_maths_8h__dep__incl.png" border="0" usemap="#aspeeduino_2crank_maths_8hdep" alt=""/></div>
 <map name="aspeeduino_2crank_maths_8hdep" id="aspeeduino_2crank_maths_8hdep">
-<area shape="rect" title=" " alt="" coords="323,5,486,31"/>
-<area shape="rect" href="crank_maths_8ino.html" title=" " alt="" coords="87,86,261,111"/>
-<area shape="rect" href="decoders_8ino.html" title=" " alt="" coords="5,262,164,287"/>
-<area shape="rect" href="schedule__calcs_8hpp.html" title=" " alt="" coords="336,79,473,119"/>
-<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="683,262,847,287"/>
-<area shape="rect" href="sensors_8ino.html" title=" " alt="" coords="549,86,700,111"/>
-<area shape="rect" href="schedule__calcs_8h.html" title=" " alt="" coords="336,167,473,207"/>
-<area shape="rect" href="init_8ino.html" title=" " alt="" coords="189,262,311,287"/>
-<area shape="rect" href="schedule__calcs_8cpp.html" title=" " alt="" coords="336,255,473,295"/>
-<area shape="rect" href="scheduler_8ino.html" title=" " alt="" coords="497,262,659,287"/>
+<area shape="rect" title=" " alt="" coords="331,5,493,31"/>
+<area shape="rect" href="crank_maths_8cpp.html" title=" " alt="" coords="90,86,267,111"/>
+<area shape="rect" href="decoders_8cpp.html" title=" " alt="" coords="5,262,168,287"/>
+<area shape="rect" href="schedule__calcs_8hpp.html" title=" " alt="" coords="343,79,481,119"/>
+<area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="695,262,859,287"/>
+<area shape="rect" href="sensors_8cpp.html" title=" " alt="" coords="556,86,711,111"/>
+<area shape="rect" href="schedule__calcs_8h.html" title=" " alt="" coords="343,167,481,207"/>
+<area shape="rect" href="init_8cpp.html" title=" " alt="" coords="193,262,319,287"/>
+<area shape="rect" href="schedule__calcs_8cpp.html" title=" " alt="" coords="343,255,481,295"/>
+<area shape="rect" href="scheduler_8cpp.html" title=" " alt="" coords="505,262,671,287"/>
 </map>
 </div>
 </div>
@@ -116,11 +117,11 @@ Macros</h2></td></tr>
 <tr class="separator:a6de8020b8ba79cc9175db141a52f44d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a796685254307924eeddb95ed21f0492c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a796685254307924eeddb95ed21f0492c">SECOND_DERIV_ENABLED</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a796685254307924eeddb95ed21f0492c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
+<tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8cpp.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
 <tr class="separator:a60ecc58cbe7e51c63d83631692059bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
+<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8cpp.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
 <tr class="separator:a0c9780afacb74596f5c270694b3b9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td></tr>
+<tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td></tr>
 <tr class="separator:ac783172fb35e2a758ba17f7cabda528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -225,7 +226,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">targetDegrees</td><td>)</td>
-          <td>&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td>
+          <td>&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8cpp.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -243,7 +244,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">time</td><td>)</td>
-          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
+          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8cpp.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -261,7 +262,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">angle</td><td>)</td>
-          <td>&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8h.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td>
+          <td>&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -368,7 +369,7 @@ Here is the caller graph for this function:</div>
 <map name="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph" id="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph">
 <area shape="rect" title=" " alt="" coords="529,43,692,68"/>
 <area shape="rect" href="schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871" title=" " alt="" coords="311,5,481,31"/>
-<area shape="rect" href="crank_maths_8ino.html#a052d5d9e63c71574f7d9eab106c7e4ca" title=" " alt="" coords="347,79,445,104"/>
+<area shape="rect" href="crank_maths_8cpp.html#a052d5d9e63c71574f7d9eab106c7e4ca" title=" " alt="" coords="347,79,445,104"/>
 <area shape="rect" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -462,8 +463,8 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="group__dec.html#gabc5a160a63e617bb9b855a4cc2768486" title=" " alt="" coords="414,843,601,868"/>
 <area shape="rect" href="group__dec__subaru__6__7.html#gacdbbd7739f6c089f45a31749914e1d9e" title=" " alt="" coords="423,892,592,917"/>
 <area shape="rect" href="group__dec__vmax.html#ga2ae94a2d037cd520e6bebe8eacf8d63f" title=" " alt="" coords="434,941,581,967"/>
-<area shape="rect" href="init_8ino.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,448,356,473"/>
-<area shape="rect" href="init_8ino.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,448,192,473"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,448,356,473"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,448,192,473"/>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,448,60,473"/>
 </map>
 </div>
@@ -540,7 +541,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2023 04:07:29 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Oct 6 2023 07:10:40 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
