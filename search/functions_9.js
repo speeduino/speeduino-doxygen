@@ -28,7 +28,7 @@ var searchData=
   ['instanteneousmapreading_25',['instanteneousMAPReading',['../sensors_8h.html#a8758d9ed70b7ec0b9dba8a558a45d2ea',1,'instanteneousMAPReading(void):&#160;sensors.h'],['../sensors_8ino.html#a8758d9ed70b7ec0b9dba8a558a45d2ea',1,'instanteneousMAPReading(void):&#160;sensors.ino']]],
   ['int16_5fbyte_26',['int16_byte',['../classint16__byte.html#aae6f06a4ca82b34445bed8cf188f941b',1,'int16_byte']]],
   ['invalidate_5fcache_27',['invalidate_cache',['../table3d__interpolate_8h.html#aeff6c17210b06e779b7ed2c461ec114a',1,'table3d_interpolate.h']]],
-  ['is2byteentry_28',['is2ByteEntry',['../logger_8h.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino'],['../logger_8ino.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.ino']]],
+  ['is2byteentry_28',['is2ByteEntry',['../logger_8cpp.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.cpp'],['../logger_8h.html#ad5815fac5301ceb5eef90fad69925d08',1,'is2ByteEntry(uint8_t key):&#160;logger.cpp']]],
   ['is_5fin_5fbin_29',['is_in_bin',['../table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7',1,'table3d_interpolate.cpp']]],
   ['iseepromwritepending_30',['isEepromWritePending',['../storage_8cpp.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp'],['../storage_8h.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp']]],
   ['ismap_31',['isMap',['../comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237',1,'comms_legacy.cpp']]],
