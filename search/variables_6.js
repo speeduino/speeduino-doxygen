@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['gdata_0',['Gdata',['../cancomms_8ino.html#a22e1d52b3a119f2c90d00f060214ae5c',1,'cancomms.ino']]],
-  ['gear_1',['gear',['../structstatuses.html#a6cbc535835703d8f4b05de0e914479fd',1,'statuses']]],
-  ['getcrankangle_2',['getCrankAngle',['../decoders_8h.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle():&#160;decoders.ino'],['../decoders_8ino.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle():&#160;decoders.ino']]],
-  ['getrpm_3',['getRPM',['../decoders_8h.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM():&#160;decoders.ino'],['../decoders_8ino.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM():&#160;decoders.ino']]],
-  ['ghigh_4',['Ghigh',['../cancomms_8ino.html#ac08f64a138533ea4637bf1fdc01b73f5',1,'cancomms.ino']]],
-  ['glow_5',['Glow',['../cancomms_8ino.html#ac124e5bc41488ac4cd2d4635bc31aab1',1,'cancomms.ino']]]
+  ['gear_0',['gear',['../structstatuses.html#a6cbc535835703d8f4b05de0e914479fd',1,'statuses']]],
+  ['getcrankangle_1',['getCrankAngle',['../decoders_8h.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle():&#160;decoders.ino'],['../decoders_8ino.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle():&#160;decoders.ino']]],
+  ['getrpm_2',['getRPM',['../decoders_8h.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM():&#160;decoders.ino'],['../decoders_8ino.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM():&#160;decoders.ino']]]
 ];

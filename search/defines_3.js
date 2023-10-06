@@ -3,7 +3,7 @@ var searchData=
   ['calibration_5ftable_5fsize_0',['CALIBRATION_TABLE_SIZE',['../globals_8h.html#ae6818c8663b6e1efdd2cacbabf810c2c',1,'globals.h']]],
   ['calibration_5ftemperature_5foffset_1',['CALIBRATION_TEMPERATURE_OFFSET',['../globals_8h.html#a7d46d98f00a9feb31cdc771a21b91c67',1,'globals.h']]],
   ['cam_5fspeed_2',['CAM_SPEED',['../decoders_8h.html#ab91512fde255a648fe16920b3d94911b',1,'decoders.h']]],
-  ['can_5fpacket_5fsize_3',['CAN_PACKET_SIZE',['../cancomms_8h.html#a5b3d468da785ea5505d05e9a91182fbe',1,'cancomms.h']]],
+  ['can_5fpacket_5fsize_3',['CAN_PACKET_SIZE',['../comms__secondary_8h.html#a5b3d468da785ea5505d05e9a91182fbe',1,'comms_secondary.h']]],
   ['canbuspage_4',['canbusPage',['../pages_8h.html#a545bbe1325da09a68c8ba13e18875b77',1,'pages.h']]],
   ['check_5fraw_5',['CHECK_RAW',['../pages_8cpp.html#ac9ab271716bed72ab98ac3bdee4f8f4c',1,'pages.cpp']]],
   ['check_5ftable_6',['CHECK_TABLE',['../pages_8cpp.html#ac206646326801904e2e372eb2bfe0868',1,'pages.cpp']]],

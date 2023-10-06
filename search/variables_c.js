@@ -27,13 +27,12 @@ var searchData=
   ['n2o_5fstage2_5fpin_5fport_24',['n2o_stage2_pin_port',['../auxiliaries_8h.html#a2db3b7f53f22fad712a120a32d40bb0d',1,'auxiliaries.h']]],
   ['n2o_5fstage2_5fretard_25',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_26',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
-  ['ncanretry_27',['nCanretry',['../cancomms_8ino.html#a24f4e3822387d533928f93a05c6282ec',1,'cancomms.ino']]],
-  ['nchannels_28',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
-  ['ncylinders_29',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
-  ['nextendcompare_30',['nextEndCompare',['../struct_fuel_schedule.html#a5465ef3b63db6343782e33f3578e1bfd',1,'FuelSchedule::nextEndCompare()'],['../struct_schedule.html#a7c58342e3dd4de5e10d16021ac33bbf9',1,'Schedule::nextEndCompare()']]],
-  ['nextstartcompare_31',['nextStartCompare',['../struct_fuel_schedule.html#a4b7a91e9d3d92134aea42e80bdde0138',1,'FuelSchedule::nextStartCompare()'],['../struct_schedule.html#a20383cf2159f8a323417152fcbce7c2b',1,'Schedule::nextStartCompare()']]],
-  ['nextvvt_32',['nextVVT',['../auxiliaries_8h.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.h']]],
-  ['ninjectors_33',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
-  ['nitrous_5fstatus_34',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['nsquirts_35',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
+  ['nchannels_27',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
+  ['ncylinders_28',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
+  ['nextendcompare_29',['nextEndCompare',['../struct_schedule.html#a7c58342e3dd4de5e10d16021ac33bbf9',1,'Schedule::nextEndCompare()'],['../struct_fuel_schedule.html#a5465ef3b63db6343782e33f3578e1bfd',1,'FuelSchedule::nextEndCompare()']]],
+  ['nextstartcompare_30',['nextStartCompare',['../struct_schedule.html#a20383cf2159f8a323417152fcbce7c2b',1,'Schedule::nextStartCompare()'],['../struct_fuel_schedule.html#a4b7a91e9d3d92134aea42e80bdde0138',1,'FuelSchedule::nextStartCompare()']]],
+  ['nextvvt_31',['nextVVT',['../auxiliaries_8h.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.h']]],
+  ['ninjectors_32',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
+  ['nitrous_5fstatus_33',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
+  ['nsquirts_34',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
 ];

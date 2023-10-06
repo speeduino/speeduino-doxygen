@@ -3,7 +3,7 @@ var searchData=
   ['random1to100_0',['random1to100',['../maths_8ino.html#aa52658e0561cd2a7cb53840e5ce0a174',1,'random1to100():&#160;maths.ino'],['../maths_8h.html#aa52658e0561cd2a7cb53840e5ce0a174',1,'random1to100():&#160;maths.ino']]],
   ['read_5faircon_5frequest_1',['READ_AIRCON_REQUEST',['../auxiliaries_8ino.html#a71e127d9c90e01249325907645be1554',1,'READ_AIRCON_REQUEST(void):&#160;auxiliaries.ino'],['../auxiliaries_8h.html#a71e127d9c90e01249325907645be1554',1,'READ_AIRCON_REQUEST(void):&#160;auxiliaries.ino']]],
   ['readauxanalog_2',['readAuxanalog',['../sensors_8h.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.ino'],['../sensors_8ino.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.ino']]],
-  ['readauxcanbus_3',['readAuxCanBus',['../cancomms_8h.html#a7d3bf4cb48ec10664e3d2aba58742a51',1,'cancomms.h']]],
+  ['readauxcanbus_3',['readAuxCanBus',['../comms__secondary_8h.html#a7d3bf4cb48ec10664e3d2aba58742a51',1,'comms_secondary.h']]],
   ['readauxdigital_4',['readAuxdigital',['../sensors_8h.html#a675a36c43ce440456254784257241b50',1,'readAuxdigital(uint8_t digitalPin):&#160;sensors.ino'],['../sensors_8ino.html#a675a36c43ce440456254784257241b50',1,'readAuxdigital(uint8_t digitalPin):&#160;sensors.ino']]],
   ['readbaro_5',['readBaro',['../sensors_8h.html#a2e3d34bd889973afcf76e333c860270a',1,'readBaro(void):&#160;sensors.ino'],['../sensors_8ino.html#a2e3d34bd889973afcf76e333c860270a',1,'readBaro(void):&#160;sensors.ino']]],
   ['readbat_6',['readBat',['../sensors_8h.html#a78c71d14e86c031abf9b27ac54f12484',1,'readBat(void):&#160;sensors.ino'],['../sensors_8ino.html#a78c71d14e86c031abf9b27ac54f12484',1,'readBat(void):&#160;sensors.ino']]],

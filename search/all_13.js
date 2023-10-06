@@ -9,7 +9,7 @@ var searchData=
   ['read_5fsec_5ftrigger_6',['READ_SEC_TRIGGER',['../decoders_8h.html#a937eaa5bfe2e2b7fae59fbd48759d51a',1,'decoders.h']]],
   ['read_5fthird_5ftrigger_7',['READ_THIRD_TRIGGER',['../decoders_8h.html#a4eb421cddc31c34f2255cb19ec1bf934',1,'decoders.h']]],
   ['readauxanalog_8',['readAuxanalog',['../sensors_8ino.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.ino'],['../sensors_8h.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.ino']]],
-  ['readauxcanbus_9',['readAuxCanBus',['../cancomms_8h.html#a7d3bf4cb48ec10664e3d2aba58742a51',1,'cancomms.h']]],
+  ['readauxcanbus_9',['readAuxCanBus',['../comms__secondary_8h.html#a7d3bf4cb48ec10664e3d2aba58742a51',1,'comms_secondary.h']]],
   ['readauxdigital_10',['readAuxdigital',['../sensors_8ino.html#a675a36c43ce440456254784257241b50',1,'readAuxdigital(uint8_t digitalPin):&#160;sensors.ino'],['../sensors_8h.html#a675a36c43ce440456254784257241b50',1,'readAuxdigital(uint8_t digitalPin):&#160;sensors.ino']]],
   ['readbaro_11',['readBaro',['../sensors_8h.html#a2e3d34bd889973afcf76e333c860270a',1,'readBaro(void):&#160;sensors.ino'],['../sensors_8ino.html#a2e3d34bd889973afcf76e333c860270a',1,'readBaro(void):&#160;sensors.ino']]],
   ['readbat_12',['readBat',['../sensors_8h.html#a78c71d14e86c031abf9b27ac54f12484',1,'readBat(void):&#160;sensors.ino'],['../sensors_8ino.html#a78c71d14e86c031abf9b27ac54f12484',1,'readBat(void):&#160;sensors.ino']]],
