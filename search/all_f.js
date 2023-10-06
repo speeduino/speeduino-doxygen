@@ -49,5 +49,8 @@ var searchData=
   ['noentity_46',['NoEntity',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3',1,'pages.h']]],
   ['non_2d360_20dual_20wheel_47',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
   ['nsquirts_48',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nullcallback_49',['nullCallback',['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino']]]
+  ['nullcallback_49',['nullCallback',['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino'],['../scheduled_i_o_8ino.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.ino']]],
+  ['nullgetcrankangle_50',['nullGetCrankAngle',['../decoders_8ino.html#a59586232c03448829acfbeab804a96b7',1,'decoders.ino']]],
+  ['nullgetrpm_51',['nullGetRPM',['../decoders_8ino.html#ae7363eedd535c91f5464bd501437a1b8',1,'decoders.ino']]],
+  ['nulltriggerhandler_52',['nullTriggerHandler',['../decoders_8ino.html#a9a6dfd3bcd261c85a185c046d9829ad5',1,'decoders.ino']]]
 ];
