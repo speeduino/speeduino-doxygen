@@ -9,7 +9,7 @@ var searchData=
   ['hardrevlim_6',['HardRevLim',['../structconfig4.html#a8fd4e0c8ea7e7bdccf477ed696aafff1',1,'config4']]],
   ['hardrevmode_7',['hardRevMode',['../structconfig9.html#a4cce7ebb901b35443c19718f1648a9ca',1,'config9']]],
   ['harley_20davidson_8',['Harley Davidson',['../group__dec__harley.html',1,'']]],
-  ['hasnextschedule_9',['hasNextSchedule',['../struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137',1,'FuelSchedule::hasNextSchedule()'],['../struct_schedule.html#a5880ab34c3fa5c0ca67f689dd1392b28',1,'Schedule::hasNextSchedule()']]],
+  ['hasnextschedule_9',['hasNextSchedule',['../struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137',1,'FuelSchedule::hasNextSchedule()'],['../struct_ignition_schedule.html#ac9642f9d429a679746ecf56b461594b6',1,'IgnitionSchedule::hasNextSchedule()']]],
   ['hassync_10',['hasSync',['../structstatuses.html#a0ce7170b804d912db6b41bf19ded367a',1,'statuses']]],
   ['honda_20d17_11',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
   ['how_20to_20contribute_12',['How to contribute',['../md_contributing.html',1,'']]],

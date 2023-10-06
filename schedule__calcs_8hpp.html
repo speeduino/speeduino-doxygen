@@ -112,12 +112,12 @@ Functions</h2></td></tr>
 <tr class="separator:a9ddf83ec934b6bc4115868b04224293d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf7b7a87b5dd2af7f1ad7dfac2bf9ebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#acf7b7a87b5dd2af7f1ad7dfac2bf9ebb">calculateIgnitionTrailingRotary</a> (int dwellAngle, int rotarySplitDegrees, int leadIgnitionAngle, int *pEndAngle, int *pStartAngle)</td></tr>
 <tr class="separator:acf7b7a87b5dd2af7f1ad7dfac2bf9ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c7145e0614b8f4fe867c2beeff4b871"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871">_calculateIgnitionTimeout</a> (const <a class="el" href="struct_schedule.html">Schedule</a> &amp;schedule, int16_t startAngle, int16_t crankAngle)</td></tr>
-<tr class="separator:a6c7145e0614b8f4fe867c2beeff4b871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d1d60b1f4768250ba4aca408a2509b"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a32d1d60b1f4768250ba4aca408a2509b">_calculateIgnitionTimeout</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, int16_t startAngle, int16_t crankAngle)</td></tr>
+<tr class="separator:a32d1d60b1f4768250ba4aca408a2509b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23c02f6b1845924218198fe4f40f6089"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a23c02f6b1845924218198fe4f40f6089">_adjustToIgnChannel</a> (int angle, int channelInjDegrees)</td></tr>
 <tr class="separator:a23c02f6b1845924218198fe4f40f6089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44d5f4da853a3e91d67252810524d153"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153">calculateIgnitionTimeout</a> (const <a class="el" href="struct_schedule.html">Schedule</a> &amp;schedule, int startAngle, int channelIgnDegrees, int crankAngle)</td></tr>
-<tr class="separator:a44d5f4da853a3e91d67252810524d153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4278febc364b178176a4a2c2d1ffe7e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#ab4278febc364b178176a4a2c2d1ffe7e">calculateIgnitionTimeout</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, int startAngle, int channelIgnDegrees, int crankAngle)</td></tr>
+<tr class="separator:ab4278febc364b178176a4a2c2d1ffe7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a23c02f6b1845924218198fe4f40f6089" name="a23c02f6b1845924218198fe4f40f6089"></a>
@@ -159,7 +159,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="schedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph" alt=""/></div>
 <map name="aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph" id="aschedule__calcs_8hpp_a23c02f6b1845924218198fe4f40f6089_icgraph">
 <area shape="rect" title=" " alt="" coords="311,5,455,31"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153" title=" " alt="" coords="100,5,263,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#ab4278febc364b178176a4a2c2d1ffe7e" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
@@ -212,8 +212,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6c7145e0614b8f4fe867c2beeff4b871" name="a6c7145e0614b8f4fe867c2beeff4b871"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c7145e0614b8f4fe867c2beeff4b871">&#9670;&#160;</a></span>_calculateIgnitionTimeout()</h2>
+<a id="a32d1d60b1f4768250ba4aca408a2509b" name="a32d1d60b1f4768250ba4aca408a2509b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32d1d60b1f4768250ba4aca408a2509b">&#9670;&#160;</a></span>_calculateIgnitionTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">uint32_t _calculateIgnitionTimeout </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
         </tr>
         <tr>
@@ -254,8 +254,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph" id="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_cgraph">
+<div class="center"><img src="schedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_cgraph" id="aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,176,31"/>
 <area shape="rect" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea" title=" " alt="" coords="224,5,387,31"/>
 <area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="435,5,495,31"/>
@@ -264,10 +264,10 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph" id="aschedule__calcs_8hpp_a6c7145e0614b8f4fe867c2beeff4b871_icgraph">
+<div class="center"><img src="schedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_icgraph" id="aschedule__calcs_8hpp_a32d1d60b1f4768250ba4aca408a2509b_icgraph">
 <area shape="rect" title=" " alt="" coords="311,5,481,31"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#a44d5f4da853a3e91d67252810524d153" title=" " alt="" coords="100,5,263,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#ab4278febc364b178176a4a2c2d1ffe7e" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
@@ -400,8 +400,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a44d5f4da853a3e91d67252810524d153" name="a44d5f4da853a3e91d67252810524d153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44d5f4da853a3e91d67252810524d153">&#9670;&#160;</a></span>calculateIgnitionTimeout()</h2>
+<a id="ab4278febc364b178176a4a2c2d1ffe7e" name="ab4278febc364b178176a4a2c2d1ffe7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4278febc364b178176a4a2c2d1ffe7e">&#9670;&#160;</a></span>calculateIgnitionTimeout()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +412,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">uint32_t calculateIgnitionTimeout </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
         </tr>
         <tr>
@@ -448,11 +448,11 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph" id="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_cgraph">
+<div class="center"><img src="schedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_cgraph" id="aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,168,56"/>
 <area shape="rect" href="schedule__calcs_8hpp.html#a23c02f6b1845924218198fe4f40f6089" title=" " alt="" coords="229,5,373,31"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871" title=" " alt="" coords="216,55,387,80"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a32d1d60b1f4768250ba4aca408a2509b" title=" " alt="" coords="216,55,387,80"/>
 <area shape="rect" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea" title=" " alt="" coords="435,55,597,80"/>
 <area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="645,55,705,80"/>
 </map>
@@ -460,8 +460,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph" id="aschedule__calcs_8hpp_a44d5f4da853a3e91d67252810524d153_icgraph">
+<div class="center"><img src="schedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_icgraph" id="aschedule__calcs_8hpp_ab4278febc364b178176a4a2c2d1ffe7e_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,263,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -654,7 +654,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2023 09:43:36 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Oct 6 2023 21:25:44 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

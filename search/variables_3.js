@@ -17,7 +17,7 @@ var searchData=
   ['displayb1_14',['displayB1',['../structconfig2.html#a035ffe7b1be9331dacf5736a46bb4bea',1,'config2']]],
   ['displayb2_15',['displayB2',['../structconfig2.html#af87051fbbac8c7944e2aa04e11489790',1,'config2']]],
   ['divider_16',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2']]],
-  ['duration_17',['duration',['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()'],['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule::duration()']]],
+  ['duration_17',['duration',['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()'],['../struct_ignition_schedule.html#ac373bed0ca010c7e65f9e0ad61cda093',1,'IgnitionSchedule::duration()']]],
   ['dutylim_18',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2']]],
   ['dwell_19',['dwell',['../structstatuses.html#ad88511c6e07bcf4d5e0c9d67f11298f0',1,'statuses']]],
   ['dwellcorrection_20',['dwellCorrection',['../structstatuses.html#a01a2a98b8225c2f64b68cd19364debb8',1,'statuses']]],

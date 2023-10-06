@@ -107,7 +107,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_schedule.html">Schedule</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,8 +122,6 @@ Macros</h2></td></tr>
 <tr class="separator:ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458136bb1a7859d52f44a080899d0184"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a458136bb1a7859d52f44a080899d0184">DWELL_AVERAGE</a>(input)&#160;&#160;&#160;(((long)input * (256 - <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>) + ((long)currentStatus.actualDwell * <a class="el" href="scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>))) &gt;&gt; 8</td></tr>
 <tr class="separator:a458136bb1a7859d52f44a080899d0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186">SWAP</a>(<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>,  <a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>)&#160;&#160;&#160;if(tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] &lt; tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]) { unsigned int tmp = tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; queue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = queue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; queue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmpS; }</td></tr>
-<tr class="separator:a5d9d454d4b9f2ff8106d5199ac0d0186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -148,59 +146,25 @@ Functions</h2></td></tr>
 <tr class="separator:a65b6c9d1bcde031f0b9c780f8a7ea093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d450a0f92ffb281cb5f65e116f6433d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a3d450a0f92ffb281cb5f65e116f6433d">setFuelSchedule4</a> (unsigned long timeout, unsigned long duration)</td></tr>
 <tr class="separator:a3d450a0f92ffb281cb5f65e116f6433d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74b9fff4146ca8e584c80ad0289eb5ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a74b9fff4146ca8e584c80ad0289eb5ac">setFuelSchedule5</a> (unsigned long timeout, unsigned long duration)</td></tr>
-<tr class="separator:a74b9fff4146ca8e584c80ad0289eb5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdbab3c2241e7c748eb39cfe1ea22018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#afdbab3c2241e7c748eb39cfe1ea22018">setFuelSchedule6</a> (unsigned long timeout, unsigned long duration)</td></tr>
-<tr class="separator:afdbab3c2241e7c748eb39cfe1ea22018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9921ae524ed27851898818f56e1600a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ac9921ae524ed27851898818f56e1600a">setFuelSchedule7</a> (unsigned long timeout, unsigned long duration)</td></tr>
-<tr class="separator:ac9921ae524ed27851898818f56e1600a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a044feb3b904942eaf945d53eec9d7ad3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a044feb3b904942eaf945d53eec9d7ad3">setFuelSchedule8</a> (unsigned long timeout, unsigned long duration)</td></tr>
-<tr class="separator:a044feb3b904942eaf945d53eec9d7ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbabd47ae98c2c8ce56b73a34b6904c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#acbabd47ae98c2c8ce56b73a34b6904c4">setIgnitionSchedule1</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:acbabd47ae98c2c8ce56b73a34b6904c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1511ca892508b3551eb7417d85b8ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a9f1511ca892508b3551eb7417d85b8ab">setIgnitionSchedule2</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a9f1511ca892508b3551eb7417d85b8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b33f577608cff645c9883f78f5a5c05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a7b33f577608cff645c9883f78f5a5c05">setIgnitionSchedule3</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a7b33f577608cff645c9883f78f5a5c05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f7326607e26ff3d07575c018cacd2a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a2f7326607e26ff3d07575c018cacd2a8">setIgnitionSchedule4</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a2f7326607e26ff3d07575c018cacd2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e7516ecde9ec350443de8bed049912b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5e7516ecde9ec350443de8bed049912b">setIgnitionSchedule5</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a5e7516ecde9ec350443de8bed049912b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6267973bd1c84a5050b102745526d47c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6267973bd1c84a5050b102745526d47c">setIgnitionSchedule6</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a6267973bd1c84a5050b102745526d47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6458184ce02bbd3e4c24a84e5ab7859d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6458184ce02bbd3e4c24a84e5ab7859d">setIgnitionSchedule7</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a6458184ce02bbd3e4c24a84e5ab7859d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02e282e997465ea6a1bbe71cd28011e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a02e282e997465ea6a1bbe71cd28011e4">setIgnitionSchedule8</a> (void(*startCallback)(), unsigned long timeout, unsigned long duration, void(*endCallback)())</td></tr>
-<tr class="separator:a02e282e997465ea6a1bbe71cd28011e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa471a8a28c6ac829c5093b6ff6877763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa471a8a28c6ac829c5093b6ff6877763">setIgnitionSchedule1</a> (unsigned long timeout, unsigned long duration)</td></tr>
+<tr class="separator:aa471a8a28c6ac829c5093b6ff6877763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb6294b1023b93fc01f498ef0076ab0f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#adb6294b1023b93fc01f498ef0076ab0f">setIgnitionSchedule2</a> (unsigned long timeout, unsigned long duration)</td></tr>
+<tr class="separator:adb6294b1023b93fc01f498ef0076ab0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cb5e587434cb67f9e4f7841734e54b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#af4cb5e587434cb67f9e4f7841734e54b">setIgnitionSchedule3</a> (unsigned long timeout, unsigned long duration)</td></tr>
+<tr class="separator:af4cb5e587434cb67f9e4f7841734e54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9dde14c97587b8bdce96bb1c452c9d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ab9dde14c97587b8bdce96bb1c452c9d5">setIgnitionSchedule4</a> (unsigned long timeout, unsigned long duration)</td></tr>
+<tr class="separator:ab9dde14c97587b8bdce96bb1c452c9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9eaaf34cbee2a3a2e1517102f2996a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5b9eaaf34cbee2a3a2e1517102f2996a">setIgnitionSchedule5</a> (unsigned long timeout, unsigned long duration)</td></tr>
+<tr class="separator:a5b9eaaf34cbee2a3a2e1517102f2996a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5dfd990ccc31ea698d68c6019bf816d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ac5dfd990ccc31ea698d68c6019bf816d">disablePendingFuelSchedule</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> channel)</td></tr>
 <tr class="separator:ac5dfd990ccc31ea698d68c6019bf816d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92aa8a59475c7d84b90744e6ffc2d65e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a92aa8a59475c7d84b90744e6ffc2d65e">disablePendingIgnSchedule</a> (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> channel)</td></tr>
 <tr class="separator:a92aa8a59475c7d84b90744e6ffc2d65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a62adcc3ea5c56ee5faf7921983ec16f5">refreshIgnitionSchedule1</a> (unsigned long timeToEnd)</td></tr>
 <tr class="separator:a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c0950b5b94b5f175c20df449d33ee4"><td class="memItemLeft" align="right" valign="top">static COMPARE_TYPE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#af4c0950b5b94b5f175c20df449d33ee4">setQueue</a> (volatile <a class="el" href="struct_schedule.html">Schedule</a> *queue[], <a class="el" href="struct_schedule.html">Schedule</a> *schedule1, <a class="el" href="struct_schedule.html">Schedule</a> *schedule2, unsigned int CNT)</td></tr>
-<tr class="separator:af4c0950b5b94b5f175c20df449d33ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13ccea36db51231f277cc9133f43703b"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a13ccea36db51231f277cc9133f43703b">popQueue</a> (volatile <a class="el" href="struct_schedule.html">Schedule</a> *queue[])</td></tr>
-<tr class="separator:a13ccea36db51231f277cc9133f43703b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab859e31453bae19655fb4df329f0369b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ab859e31453bae19655fb4df329f0369b">inj1StartFunction</a> )(void)</td></tr>
-<tr class="separator:ab859e31453bae19655fb4df329f0369b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f68a679264ddd7a54455a31ee01950c"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a0f68a679264ddd7a54455a31ee01950c">inj1EndFunction</a> )(void)</td></tr>
-<tr class="separator:a0f68a679264ddd7a54455a31ee01950c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a184cbaf72017bfb3e5e9904e1266d508"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a184cbaf72017bfb3e5e9904e1266d508">inj2StartFunction</a> )(void)</td></tr>
-<tr class="separator:a184cbaf72017bfb3e5e9904e1266d508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a660215e695239a38af3d3600c93c0b5b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a660215e695239a38af3d3600c93c0b5b">inj2EndFunction</a> )(void)</td></tr>
-<tr class="separator:a660215e695239a38af3d3600c93c0b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc70160b4797b116c4ef89af5f02f33b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#adc70160b4797b116c4ef89af5f02f33b">inj3StartFunction</a> )(void)</td></tr>
-<tr class="separator:adc70160b4797b116c4ef89af5f02f33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fb2a9b547827fa772f2453805d0e7a1"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a7fb2a9b547827fa772f2453805d0e7a1">inj3EndFunction</a> )(void)</td></tr>
-<tr class="separator:a7fb2a9b547827fa772f2453805d0e7a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d5adf82409adcd72524b0ba1fd38b06"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a0d5adf82409adcd72524b0ba1fd38b06">inj4StartFunction</a> )(void)</td></tr>
-<tr class="separator:a0d5adf82409adcd72524b0ba1fd38b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fac174649aa3c911a70e003f09420ee"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a4fac174649aa3c911a70e003f09420ee">inj4EndFunction</a> )(void)</td></tr>
-<tr class="separator:a4fac174649aa3c911a70e003f09420ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2fb1ff9030999139baf10625e6c2a87"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa2fb1ff9030999139baf10625e6c2a87">fuelSchedule1</a></td></tr>
 <tr class="separator:aa2fb1ff9030999139baf10625e6c2a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22f100c462bb3cae0c90e0bef78ec76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ad22f100c462bb3cae0c90e0bef78ec76">fuelSchedule2</a></td></tr>
@@ -209,65 +173,16 @@ Variables</h2></td></tr>
 <tr class="separator:a5fb254a0ffeeb44b34fe767b0705362b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d42a91b3cd3f123fc0f286b46d9a20c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a7d42a91b3cd3f123fc0f286b46d9a20c">fuelSchedule4</a></td></tr>
 <tr class="separator:a7d42a91b3cd3f123fc0f286b46d9a20c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98ad541811a6d8a5cc96a71a230fdee5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a98ad541811a6d8a5cc96a71a230fdee5">fuelSchedule5</a></td></tr>
-<tr class="separator:a98ad541811a6d8a5cc96a71a230fdee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade98fe2f93f55ecbe7b56a4eb2ae7870"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ade98fe2f93f55ecbe7b56a4eb2ae7870">fuelSchedule6</a></td></tr>
-<tr class="separator:ade98fe2f93f55ecbe7b56a4eb2ae7870"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f942286cdd01e7c4b237b4924ff856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a67f942286cdd01e7c4b237b4924ff856">fuelSchedule7</a></td></tr>
-<tr class="separator:a67f942286cdd01e7c4b237b4924ff856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5b6bb173b94dc59b3580476fe628029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#ab5b6bb173b94dc59b3580476fe628029">fuelSchedule8</a></td></tr>
-<tr class="separator:ab5b6bb173b94dc59b3580476fe628029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a9ec03ae68dc8eee51fb0a97b1e31b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6a9ec03ae68dc8eee51fb0a97b1e31b4">ignitionSchedule1</a></td></tr>
-<tr class="separator:a6a9ec03ae68dc8eee51fb0a97b1e31b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a138eb2ae9ce86a2313e2ba6577c69160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a138eb2ae9ce86a2313e2ba6577c69160">ignitionSchedule2</a></td></tr>
-<tr class="separator:a138eb2ae9ce86a2313e2ba6577c69160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a9e23f2d25b1bcae044c2cdbc146c97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a2a9e23f2d25b1bcae044c2cdbc146c97">ignitionSchedule3</a></td></tr>
-<tr class="separator:a2a9e23f2d25b1bcae044c2cdbc146c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3deb9690951cce9a6be03cb079979ae8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a3deb9690951cce9a6be03cb079979ae8">ignitionSchedule4</a></td></tr>
-<tr class="separator:a3deb9690951cce9a6be03cb079979ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25ddf379f9b0f880cb1433df61802995"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a25ddf379f9b0f880cb1433df61802995">ignitionSchedule5</a></td></tr>
-<tr class="separator:a25ddf379f9b0f880cb1433df61802995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061e792bab82b5447ccc65f0aeefc5b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a061e792bab82b5447ccc65f0aeefc5b4">ignitionSchedule6</a></td></tr>
-<tr class="separator:a061e792bab82b5447ccc65f0aeefc5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139a7ba94bf49419dd6004087fc04d3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a139a7ba94bf49419dd6004087fc04d3a">ignitionSchedule7</a></td></tr>
-<tr class="separator:a139a7ba94bf49419dd6004087fc04d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff5e8c03a998148988fa19f435e2ca3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_schedule.html">Schedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aff5e8c03a998148988fa19f435e2ca3c">ignitionSchedule8</a></td></tr>
-<tr class="separator:aff5e8c03a998148988fa19f435e2ca3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">IgnitionCallbacks</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p >These are the (global) function pointers that get called to begin and end the ignition coil charging. They are required for the various spark output modes. </p>
-</div></td></tr>
-<tr class="memitem:a6c7e743ea30111ed5e8c05c174ef92b6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6c7e743ea30111ed5e8c05c174ef92b6">ign1StartFunction</a> )(void)</td></tr>
-<tr class="separator:a6c7e743ea30111ed5e8c05c174ef92b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76798a55fa95b22eec548dfd9b350f62"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a76798a55fa95b22eec548dfd9b350f62">ign1EndFunction</a> )(void)</td></tr>
-<tr class="separator:a76798a55fa95b22eec548dfd9b350f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f09f56cfa6f5553517c400df2aa1e0d"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a8f09f56cfa6f5553517c400df2aa1e0d">ign2StartFunction</a> )(void)</td></tr>
-<tr class="separator:a8f09f56cfa6f5553517c400df2aa1e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb50ba5cda5aae5bc2136bc72d00007"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a1eb50ba5cda5aae5bc2136bc72d00007">ign2EndFunction</a> )(void)</td></tr>
-<tr class="separator:a1eb50ba5cda5aae5bc2136bc72d00007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08059f3fcb26b32671aa6f5c08a7f0df"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a08059f3fcb26b32671aa6f5c08a7f0df">ign3StartFunction</a> )(void)</td></tr>
-<tr class="separator:a08059f3fcb26b32671aa6f5c08a7f0df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bbf5b9b7d1662310556265cb80d2fa9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6bbf5b9b7d1662310556265cb80d2fa9">ign3EndFunction</a> )(void)</td></tr>
-<tr class="separator:a6bbf5b9b7d1662310556265cb80d2fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4986717dc11f1d239fc6dc30c4f53762"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a4986717dc11f1d239fc6dc30c4f53762">ign4StartFunction</a> )(void)</td></tr>
-<tr class="separator:a4986717dc11f1d239fc6dc30c4f53762"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce954436564f5848c1924c38659f627"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5ce954436564f5848c1924c38659f627">ign4EndFunction</a> )(void)</td></tr>
-<tr class="separator:a5ce954436564f5848c1924c38659f627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87a4d5c74eea87699f2c53f8b3fb78e6"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a87a4d5c74eea87699f2c53f8b3fb78e6">ign5StartFunction</a> )(void)</td></tr>
-<tr class="separator:a87a4d5c74eea87699f2c53f8b3fb78e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb098dbcb14a7f8f3193b37a131f7e83"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aeb098dbcb14a7f8f3193b37a131f7e83">ign5EndFunction</a> )(void)</td></tr>
-<tr class="separator:aeb098dbcb14a7f8f3193b37a131f7e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53510b2036aee82d90f883698482236b"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a53510b2036aee82d90f883698482236b">ign6StartFunction</a> )(void)</td></tr>
-<tr class="separator:a53510b2036aee82d90f883698482236b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6205bfb884604463d9cf3ac844accf71"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a6205bfb884604463d9cf3ac844accf71">ign6EndFunction</a> )(void)</td></tr>
-<tr class="separator:a6205bfb884604463d9cf3ac844accf71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c0645c8868405dd76488b99002b0d9"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a47c0645c8868405dd76488b99002b0d9">ign7StartFunction</a> )(void)</td></tr>
-<tr class="separator:a47c0645c8868405dd76488b99002b0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bd072e0e54e5c37bdeffe04db869f57"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a1bd072e0e54e5c37bdeffe04db869f57">ign7EndFunction</a> )(void)</td></tr>
-<tr class="separator:a1bd072e0e54e5c37bdeffe04db869f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0444dcd1d5b95d2f8347e28bda384462"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a0444dcd1d5b95d2f8347e28bda384462">ign8StartFunction</a> )(void)</td></tr>
-<tr class="separator:a0444dcd1d5b95d2f8347e28bda384462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c3fd2caeae485283b434bed45a6e373"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a4c3fd2caeae485283b434bed45a6e373">ign8EndFunction</a> )(void)</td></tr>
-<tr class="separator:a4c3fd2caeae485283b434bed45a6e373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d5bf6e329a2e8e152aa4198d1ed9ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aa0d5bf6e329a2e8e152aa4198d1ed9ce">ignitionSchedule1</a></td></tr>
+<tr class="separator:aa0d5bf6e329a2e8e152aa4198d1ed9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd481daf4348e6cf135180264b0a40b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#afd481daf4348e6cf135180264b0a40b9">ignitionSchedule2</a></td></tr>
+<tr class="separator:afd481daf4348e6cf135180264b0a40b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa4b5cb5ea0953c723370e9aa3a13d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#afa4b5cb5ea0953c723370e9aa3a13d96">ignitionSchedule3</a></td></tr>
+<tr class="separator:afa4b5cb5ea0953c723370e9aa3a13d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae47cdd81614a05c1a410303d7e596ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#aae47cdd81614a05c1a410303d7e596ef">ignitionSchedule4</a></td></tr>
+<tr class="separator:aae47cdd81614a05c1a410303d7e596ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dcaa7c77999c27f1309db7330c43580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8h.html#a5dcaa7c77999c27f1309db7330c43580">ignitionSchedule5</a></td></tr>
+<tr class="separator:a5dcaa7c77999c27f1309db7330c43580"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Injector and Ignition (on/off) scheduling (structs).</p>
@@ -336,34 +251,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5d9d454d4b9f2ff8106d5199ac0d0186" name="a5d9d454d4b9f2ff8106d5199ac0d0186"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d9d454d4b9f2ff8106d5199ac0d0186">&#9670;&#160;</a></span>SWAP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SWAP</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;if(tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] &lt; tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]) { unsigned int tmp = tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; tmpQueue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; tmpQueue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmp; volatile <a class="el" href="struct_schedule.html">Schedule</a> *tmpS = queue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>]; queue[<a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>] = queue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>]; queue[<a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>] = tmpS; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a5e5e7065ac68865b7edd56eb92a2e164" name="a5e5e7065ac68865b7edd56eb92a2e164"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e5e7065ac68865b7edd56eb92a2e164">&#9670;&#160;</a></span>USE_IGN_REFRESH</h2>
 
@@ -390,11 +277,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p ><a class="el" href="struct_schedule.html">Schedule</a> statuses.</p><ul>
-<li>OFF - <a class="el" href="struct_schedule.html">Schedule</a> turned off and there is no scheduled plan</li>
+<p >Schedule statuses.</p><ul>
+<li>OFF - Schedule turned off and there is no scheduled plan</li>
 <li>PENDING - There's a scheduled plan, but is has not started to run yet</li>
 <li>STAGED - (???, Not used)</li>
-<li>RUNNING - <a class="el" href="struct_schedule.html">Schedule</a> is currently running </li>
+<li>RUNNING - Schedule is currently running </li>
 </ul>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75" name="ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75"></a>OFF&#160;</td><td class="fielddoc"></td></tr>
@@ -427,19 +314,15 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_cgraph.png" border="0" usemap="#ascheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_cgraph" alt=""/></div>
 <map name="ascheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_cgraph" id="ascheduler_8h_ad9e6e319fc3f59869a5d87139b4413c1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,203,145,228"/>
+<area shape="rect" title=" " alt="" coords="5,104,145,129"/>
 <area shape="rect" href="scheduler_8cpp.html#a31914e5ee8df6e0abb871077045cd93b" title=" " alt="" coords="193,5,320,31"/>
 <area shape="rect" href="scheduler_8cpp.html#a03bac4146cfa2c66842cd3e7333177ad" title=" " alt="" coords="193,55,320,80"/>
 <area shape="rect" href="scheduler_8cpp.html#a65b6c9d1bcde031f0b9c780f8a7ea093" title=" " alt="" coords="193,104,320,129"/>
 <area shape="rect" href="scheduler_8cpp.html#a3d450a0f92ffb281cb5f65e116f6433d" title=" " alt="" coords="193,153,320,179"/>
-<area shape="rect" href="scheduler_8h.html#a74b9fff4146ca8e584c80ad0289eb5ac" title=" " alt="" coords="193,203,320,228"/>
-<area shape="rect" href="scheduler_8h.html#afdbab3c2241e7c748eb39cfe1ea22018" title=" " alt="" coords="193,252,320,277"/>
-<area shape="rect" href="scheduler_8h.html#ac9921ae524ed27851898818f56e1600a" title=" " alt="" coords="193,301,320,327"/>
-<area shape="rect" href="scheduler_8h.html#a044feb3b904942eaf945d53eec9d7ad3" title=" " alt="" coords="193,351,320,376"/>
-<area shape="rect" href="table2d_8cpp.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="195,400,319,425"/>
-<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="390,351,497,376"/>
-<area shape="rect" href="table2d_8cpp.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="369,400,518,425"/>
-<area shape="rect" href="table2d_8cpp.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="368,449,519,475"/>
+<area shape="rect" href="table2d_8cpp.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="195,203,319,228"/>
+<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="390,153,497,179"/>
+<area shape="rect" href="table2d_8cpp.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="369,203,518,228"/>
+<area shape="rect" href="table2d_8cpp.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="368,252,519,277"/>
 </map>
 </div>
 <div class="dynheader">
@@ -469,10 +352,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >fuelSchedule*Interrupt (All 8 ISR functions below) get called (as timed interrupts) when either the start time or the duration time are reached. This calls the relevant callback function (startCallback or endCallback) depending on the status (PENDING =&gt; Needs to run, RUNNING =&gt; Needs to stop) of the schedule. The status of schedule is managed here based on startCallback /endCallback function called:</p><ul>
-<li>startCallback - change scheduler into RUNNING state</li>
-<li>endCallback - change scheduler into OFF state (or PENDING if schedule.hasNextSchedule is set) </li>
-</ul>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -554,32 +433,6 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a13ccea36db51231f277cc9133f43703b" name="a13ccea36db51231f277cc9133f43703b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13ccea36db51231f277cc9133f43703b">&#9670;&#160;</a></span>popQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static unsigned int popQueue </td>
-          <td>(</td>
-          <td class="paramtype">volatile <a class="el" href="struct_schedule.html">Schedule</a> *&#160;</td>
-          <td class="paramname"><em>queue</em>[]</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -766,164 +619,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a74b9fff4146ca8e584c80ad0289eb5ac" name="a74b9fff4146ca8e584c80ad0289eb5ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74b9fff4146ca8e584c80ad0289eb5ac">&#9670;&#160;</a></span>setFuelSchedule5()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setFuelSchedule5 </td>
-          <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a74b9fff4146ca8e584c80ad0289eb5ac_icgraph.png" border="0" usemap="#ascheduler_8h_a74b9fff4146ca8e584c80ad0289eb5ac_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a74b9fff4146ca8e584c80ad0289eb5ac_icgraph" id="ascheduler_8h_a74b9fff4146ca8e584c80ad0289eb5ac_icgraph">
-<area shape="rect" title=" " alt="" coords="348,31,475,56"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="160,5,300,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="207,55,253,80"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,112,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="afdbab3c2241e7c748eb39cfe1ea22018" name="afdbab3c2241e7c748eb39cfe1ea22018"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdbab3c2241e7c748eb39cfe1ea22018">&#9670;&#160;</a></span>setFuelSchedule6()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setFuelSchedule6 </td>
-          <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_afdbab3c2241e7c748eb39cfe1ea22018_icgraph.png" border="0" usemap="#ascheduler_8h_afdbab3c2241e7c748eb39cfe1ea22018_icgraph" alt=""/></div>
-<map name="ascheduler_8h_afdbab3c2241e7c748eb39cfe1ea22018_icgraph" id="ascheduler_8h_afdbab3c2241e7c748eb39cfe1ea22018_icgraph">
-<area shape="rect" title=" " alt="" coords="348,31,475,56"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="160,5,300,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="207,55,253,80"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,112,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ac9921ae524ed27851898818f56e1600a" name="ac9921ae524ed27851898818f56e1600a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9921ae524ed27851898818f56e1600a">&#9670;&#160;</a></span>setFuelSchedule7()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setFuelSchedule7 </td>
-          <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_ac9921ae524ed27851898818f56e1600a_icgraph.png" border="0" usemap="#ascheduler_8h_ac9921ae524ed27851898818f56e1600a_icgraph" alt=""/></div>
-<map name="ascheduler_8h_ac9921ae524ed27851898818f56e1600a_icgraph" id="ascheduler_8h_ac9921ae524ed27851898818f56e1600a_icgraph">
-<area shape="rect" title=" " alt="" coords="348,31,475,56"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="160,5,300,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="207,55,253,80"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,112,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a044feb3b904942eaf945d53eec9d7ad3" name="a044feb3b904942eaf945d53eec9d7ad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a044feb3b904942eaf945d53eec9d7ad3">&#9670;&#160;</a></span>setFuelSchedule8()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setFuelSchedule8 </td>
-          <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a044feb3b904942eaf945d53eec9d7ad3_icgraph.png" border="0" usemap="#ascheduler_8h_a044feb3b904942eaf945d53eec9d7ad3_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a044feb3b904942eaf945d53eec9d7ad3_icgraph" id="ascheduler_8h_a044feb3b904942eaf945d53eec9d7ad3_icgraph">
-<area shape="rect" title=" " alt="" coords="348,31,475,56"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="160,5,300,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="207,55,253,80"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,112,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="acbabd47ae98c2c8ce56b73a34b6904c4" name="acbabd47ae98c2c8ce56b73a34b6904c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acbabd47ae98c2c8ce56b73a34b6904c4">&#9670;&#160;</a></span>setIgnitionSchedule1()</h2>
+<a id="aa471a8a28c6ac829c5093b6ff6877763" name="aa471a8a28c6ac829c5093b6ff6877763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa471a8a28c6ac829c5093b6ff6877763">&#9670;&#160;</a></span>setIgnitionSchedule1()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -931,12 +628,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void setIgnitionSchedule1 </td>
           <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>timeout</em>, </td>
         </tr>
@@ -944,13 +635,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -962,8 +647,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8h_acbabd47ae98c2c8ce56b73a34b6904c4_icgraph.png" border="0" usemap="#ascheduler_8h_acbabd47ae98c2c8ce56b73a34b6904c4_icgraph" alt=""/></div>
-<map name="ascheduler_8h_acbabd47ae98c2c8ce56b73a34b6904c4_icgraph" id="ascheduler_8h_acbabd47ae98c2c8ce56b73a34b6904c4_icgraph">
+<div class="center"><img src="scheduler_8h_aa471a8a28c6ac829c5093b6ff6877763_icgraph.png" border="0" usemap="#ascheduler_8h_aa471a8a28c6ac829c5093b6ff6877763_icgraph" alt=""/></div>
+<map name="ascheduler_8h_aa471a8a28c6ac829c5093b6ff6877763_icgraph" id="ascheduler_8h_aa471a8a28c6ac829c5093b6ff6877763_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,243,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -971,8 +656,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9f1511ca892508b3551eb7417d85b8ab" name="a9f1511ca892508b3551eb7417d85b8ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f1511ca892508b3551eb7417d85b8ab">&#9670;&#160;</a></span>setIgnitionSchedule2()</h2>
+<a id="adb6294b1023b93fc01f498ef0076ab0f" name="adb6294b1023b93fc01f498ef0076ab0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb6294b1023b93fc01f498ef0076ab0f">&#9670;&#160;</a></span>setIgnitionSchedule2()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -980,12 +665,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void setIgnitionSchedule2 </td>
           <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>timeout</em>, </td>
         </tr>
@@ -993,13 +672,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1011,8 +684,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a9f1511ca892508b3551eb7417d85b8ab_icgraph.png" border="0" usemap="#ascheduler_8h_a9f1511ca892508b3551eb7417d85b8ab_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a9f1511ca892508b3551eb7417d85b8ab_icgraph" id="ascheduler_8h_a9f1511ca892508b3551eb7417d85b8ab_icgraph">
+<div class="center"><img src="scheduler_8h_adb6294b1023b93fc01f498ef0076ab0f_icgraph.png" border="0" usemap="#ascheduler_8h_adb6294b1023b93fc01f498ef0076ab0f_icgraph" alt=""/></div>
+<map name="ascheduler_8h_adb6294b1023b93fc01f498ef0076ab0f_icgraph" id="ascheduler_8h_adb6294b1023b93fc01f498ef0076ab0f_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,243,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -1020,8 +693,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a7b33f577608cff645c9883f78f5a5c05" name="a7b33f577608cff645c9883f78f5a5c05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b33f577608cff645c9883f78f5a5c05">&#9670;&#160;</a></span>setIgnitionSchedule3()</h2>
+<a id="af4cb5e587434cb67f9e4f7841734e54b" name="af4cb5e587434cb67f9e4f7841734e54b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4cb5e587434cb67f9e4f7841734e54b">&#9670;&#160;</a></span>setIgnitionSchedule3()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1029,12 +702,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void setIgnitionSchedule3 </td>
           <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>timeout</em>, </td>
         </tr>
@@ -1042,13 +709,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1060,8 +721,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a7b33f577608cff645c9883f78f5a5c05_icgraph.png" border="0" usemap="#ascheduler_8h_a7b33f577608cff645c9883f78f5a5c05_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a7b33f577608cff645c9883f78f5a5c05_icgraph" id="ascheduler_8h_a7b33f577608cff645c9883f78f5a5c05_icgraph">
+<div class="center"><img src="scheduler_8h_af4cb5e587434cb67f9e4f7841734e54b_icgraph.png" border="0" usemap="#ascheduler_8h_af4cb5e587434cb67f9e4f7841734e54b_icgraph" alt=""/></div>
+<map name="ascheduler_8h_af4cb5e587434cb67f9e4f7841734e54b_icgraph" id="ascheduler_8h_af4cb5e587434cb67f9e4f7841734e54b_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,243,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -1069,8 +730,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2f7326607e26ff3d07575c018cacd2a8" name="a2f7326607e26ff3d07575c018cacd2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f7326607e26ff3d07575c018cacd2a8">&#9670;&#160;</a></span>setIgnitionSchedule4()</h2>
+<a id="ab9dde14c97587b8bdce96bb1c452c9d5" name="ab9dde14c97587b8bdce96bb1c452c9d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9dde14c97587b8bdce96bb1c452c9d5">&#9670;&#160;</a></span>setIgnitionSchedule4()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1078,12 +739,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void setIgnitionSchedule4 </td>
           <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>timeout</em>, </td>
         </tr>
@@ -1091,13 +746,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1109,8 +758,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a2f7326607e26ff3d07575c018cacd2a8_icgraph.png" border="0" usemap="#ascheduler_8h_a2f7326607e26ff3d07575c018cacd2a8_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a2f7326607e26ff3d07575c018cacd2a8_icgraph" id="ascheduler_8h_a2f7326607e26ff3d07575c018cacd2a8_icgraph">
+<div class="center"><img src="scheduler_8h_ab9dde14c97587b8bdce96bb1c452c9d5_icgraph.png" border="0" usemap="#ascheduler_8h_ab9dde14c97587b8bdce96bb1c452c9d5_icgraph" alt=""/></div>
+<map name="ascheduler_8h_ab9dde14c97587b8bdce96bb1c452c9d5_icgraph" id="ascheduler_8h_ab9dde14c97587b8bdce96bb1c452c9d5_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,243,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
@@ -1118,8 +767,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5e7516ecde9ec350443de8bed049912b" name="a5e7516ecde9ec350443de8bed049912b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7516ecde9ec350443de8bed049912b">&#9670;&#160;</a></span>setIgnitionSchedule5()</h2>
+<a id="a5b9eaaf34cbee2a3a2e1517102f2996a" name="a5b9eaaf34cbee2a3a2e1517102f2996a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b9eaaf34cbee2a3a2e1517102f2996a">&#9670;&#160;</a></span>setIgnitionSchedule5()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1127,12 +776,6 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">void setIgnitionSchedule5 </td>
           <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>timeout</em>, </td>
         </tr>
@@ -1140,13 +783,7 @@ Here is the caller graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1158,207 +795,12 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a5e7516ecde9ec350443de8bed049912b_icgraph.png" border="0" usemap="#ascheduler_8h_a5e7516ecde9ec350443de8bed049912b_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a5e7516ecde9ec350443de8bed049912b_icgraph" id="ascheduler_8h_a5e7516ecde9ec350443de8bed049912b_icgraph">
+<div class="center"><img src="scheduler_8h_a5b9eaaf34cbee2a3a2e1517102f2996a_icgraph.png" border="0" usemap="#ascheduler_8h_a5b9eaaf34cbee2a3a2e1517102f2996a_icgraph" alt=""/></div>
+<map name="ascheduler_8h_a5b9eaaf34cbee2a3a2e1517102f2996a_icgraph" id="ascheduler_8h_a5b9eaaf34cbee2a3a2e1517102f2996a_icgraph">
 <area shape="rect" title=" " alt="" coords="100,5,243,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
-
-</div>
-</div>
-<a id="a6267973bd1c84a5050b102745526d47c" name="a6267973bd1c84a5050b102745526d47c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6267973bd1c84a5050b102745526d47c">&#9670;&#160;</a></span>setIgnitionSchedule6()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setIgnitionSchedule6 </td>
-          <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a6267973bd1c84a5050b102745526d47c_icgraph.png" border="0" usemap="#ascheduler_8h_a6267973bd1c84a5050b102745526d47c_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a6267973bd1c84a5050b102745526d47c_icgraph" id="ascheduler_8h_a6267973bd1c84a5050b102745526d47c_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,243,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a6458184ce02bbd3e4c24a84e5ab7859d" name="a6458184ce02bbd3e4c24a84e5ab7859d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6458184ce02bbd3e4c24a84e5ab7859d">&#9670;&#160;</a></span>setIgnitionSchedule7()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setIgnitionSchedule7 </td>
-          <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a6458184ce02bbd3e4c24a84e5ab7859d_icgraph.png" border="0" usemap="#ascheduler_8h_a6458184ce02bbd3e4c24a84e5ab7859d_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a6458184ce02bbd3e4c24a84e5ab7859d_icgraph" id="ascheduler_8h_a6458184ce02bbd3e4c24a84e5ab7859d_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,243,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a02e282e997465ea6a1bbe71cd28011e4" name="a02e282e997465ea6a1bbe71cd28011e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02e282e997465ea6a1bbe71cd28011e4">&#9670;&#160;</a></span>setIgnitionSchedule8()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void setIgnitionSchedule8 </td>
-          <td>(</td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>startCallback</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>duration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void(*)()&#160;</td>
-          <td class="paramname"><em>endCallback</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8h_a02e282e997465ea6a1bbe71cd28011e4_icgraph.png" border="0" usemap="#ascheduler_8h_a02e282e997465ea6a1bbe71cd28011e4_icgraph" alt=""/></div>
-<map name="ascheduler_8h_a02e282e997465ea6a1bbe71cd28011e4_icgraph" id="ascheduler_8h_a02e282e997465ea6a1bbe71cd28011e4_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,243,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="af4c0950b5b94b5f175c20df449d33ee4" name="af4c0950b5b94b5f175c20df449d33ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4c0950b5b94b5f175c20df449d33ee4">&#9670;&#160;</a></span>setQueue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static COMPARE_TYPE setQueue </td>
-          <td>(</td>
-          <td class="paramtype">volatile <a class="el" href="struct_schedule.html">Schedule</a> *&#160;</td>
-          <td class="paramname"><em>queue</em>[], </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> *&#160;</td>
-          <td class="paramname"><em>schedule1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> *&#160;</td>
-          <td class="paramname"><em>schedule2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>CNT</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1451,8 +893,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a98ad541811a6d8a5cc96a71a230fdee5" name="a98ad541811a6d8a5cc96a71a230fdee5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98ad541811a6d8a5cc96a71a230fdee5">&#9670;&#160;</a></span>fuelSchedule5</h2>
+<a id="aa0d5bf6e329a2e8e152aa4198d1ed9ce" name="aa0d5bf6e329a2e8e152aa4198d1ed9ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d5bf6e329a2e8e152aa4198d1ed9ce">&#9670;&#160;</a></span>ignitionSchedule1</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1461,7 +903,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule5</td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule1</td>
         </tr>
       </table>
   </td>
@@ -1473,8 +915,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ade98fe2f93f55ecbe7b56a4eb2ae7870" name="ade98fe2f93f55ecbe7b56a4eb2ae7870"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade98fe2f93f55ecbe7b56a4eb2ae7870">&#9670;&#160;</a></span>fuelSchedule6</h2>
+<a id="afd481daf4348e6cf135180264b0a40b9" name="afd481daf4348e6cf135180264b0a40b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd481daf4348e6cf135180264b0a40b9">&#9670;&#160;</a></span>ignitionSchedule2</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1483,7 +925,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule6</td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule2</td>
         </tr>
       </table>
   </td>
@@ -1495,8 +937,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a67f942286cdd01e7c4b237b4924ff856" name="a67f942286cdd01e7c4b237b4924ff856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67f942286cdd01e7c4b237b4924ff856">&#9670;&#160;</a></span>fuelSchedule7</h2>
+<a id="afa4b5cb5ea0953c723370e9aa3a13d96" name="afa4b5cb5ea0953c723370e9aa3a13d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa4b5cb5ea0953c723370e9aa3a13d96">&#9670;&#160;</a></span>ignitionSchedule3</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1505,7 +947,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule7</td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule3</td>
         </tr>
       </table>
   </td>
@@ -1517,8 +959,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab5b6bb173b94dc59b3580476fe628029" name="ab5b6bb173b94dc59b3580476fe628029"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5b6bb173b94dc59b3580476fe628029">&#9670;&#160;</a></span>fuelSchedule8</h2>
+<a id="aae47cdd81614a05c1a410303d7e596ef" name="aae47cdd81614a05c1a410303d7e596ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae47cdd81614a05c1a410303d7e596ef">&#9670;&#160;</a></span>ignitionSchedule4</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1527,7 +969,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule8</td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule4</td>
         </tr>
       </table>
   </td>
@@ -1539,8 +981,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a76798a55fa95b22eec548dfd9b350f62" name="a76798a55fa95b22eec548dfd9b350f62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76798a55fa95b22eec548dfd9b350f62">&#9670;&#160;</a></span>ign1EndFunction</h2>
+<a id="a5dcaa7c77999c27f1309db7330c43580" name="a5dcaa7c77999c27f1309db7330c43580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dcaa7c77999c27f1309db7330c43580">&#9670;&#160;</a></span>ignitionSchedule5</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1549,785 +991,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void(* ign1EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6c7e743ea30111ed5e8c05c174ef92b6" name="a6c7e743ea30111ed5e8c05c174ef92b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c7e743ea30111ed5e8c05c174ef92b6">&#9670;&#160;</a></span>ign1StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign1StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1eb50ba5cda5aae5bc2136bc72d00007" name="a1eb50ba5cda5aae5bc2136bc72d00007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb50ba5cda5aae5bc2136bc72d00007">&#9670;&#160;</a></span>ign2EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign2EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8f09f56cfa6f5553517c400df2aa1e0d" name="a8f09f56cfa6f5553517c400df2aa1e0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f09f56cfa6f5553517c400df2aa1e0d">&#9670;&#160;</a></span>ign2StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign2StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6bbf5b9b7d1662310556265cb80d2fa9" name="a6bbf5b9b7d1662310556265cb80d2fa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bbf5b9b7d1662310556265cb80d2fa9">&#9670;&#160;</a></span>ign3EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign3EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08059f3fcb26b32671aa6f5c08a7f0df" name="a08059f3fcb26b32671aa6f5c08a7f0df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08059f3fcb26b32671aa6f5c08a7f0df">&#9670;&#160;</a></span>ign3StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign3StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5ce954436564f5848c1924c38659f627" name="a5ce954436564f5848c1924c38659f627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ce954436564f5848c1924c38659f627">&#9670;&#160;</a></span>ign4EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign4EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4986717dc11f1d239fc6dc30c4f53762" name="a4986717dc11f1d239fc6dc30c4f53762"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4986717dc11f1d239fc6dc30c4f53762">&#9670;&#160;</a></span>ign4StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign4StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeb098dbcb14a7f8f3193b37a131f7e83" name="aeb098dbcb14a7f8f3193b37a131f7e83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb098dbcb14a7f8f3193b37a131f7e83">&#9670;&#160;</a></span>ign5EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign5EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a87a4d5c74eea87699f2c53f8b3fb78e6" name="a87a4d5c74eea87699f2c53f8b3fb78e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87a4d5c74eea87699f2c53f8b3fb78e6">&#9670;&#160;</a></span>ign5StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign5StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6205bfb884604463d9cf3ac844accf71" name="a6205bfb884604463d9cf3ac844accf71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6205bfb884604463d9cf3ac844accf71">&#9670;&#160;</a></span>ign6EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign6EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a53510b2036aee82d90f883698482236b" name="a53510b2036aee82d90f883698482236b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53510b2036aee82d90f883698482236b">&#9670;&#160;</a></span>ign6StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign6StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1bd072e0e54e5c37bdeffe04db869f57" name="a1bd072e0e54e5c37bdeffe04db869f57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bd072e0e54e5c37bdeffe04db869f57">&#9670;&#160;</a></span>ign7EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign7EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a47c0645c8868405dd76488b99002b0d9" name="a47c0645c8868405dd76488b99002b0d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c0645c8868405dd76488b99002b0d9">&#9670;&#160;</a></span>ign7StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign7StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4c3fd2caeae485283b434bed45a6e373" name="a4c3fd2caeae485283b434bed45a6e373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c3fd2caeae485283b434bed45a6e373">&#9670;&#160;</a></span>ign8EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign8EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0444dcd1d5b95d2f8347e28bda384462" name="a0444dcd1d5b95d2f8347e28bda384462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0444dcd1d5b95d2f8347e28bda384462">&#9670;&#160;</a></span>ign8StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* ign8StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a9ec03ae68dc8eee51fb0a97b1e31b4" name="a6a9ec03ae68dc8eee51fb0a97b1e31b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a9ec03ae68dc8eee51fb0a97b1e31b4">&#9670;&#160;</a></span>ignitionSchedule1</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule1</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a138eb2ae9ce86a2313e2ba6577c69160" name="a138eb2ae9ce86a2313e2ba6577c69160"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a138eb2ae9ce86a2313e2ba6577c69160">&#9670;&#160;</a></span>ignitionSchedule2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2a9e23f2d25b1bcae044c2cdbc146c97" name="a2a9e23f2d25b1bcae044c2cdbc146c97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a9e23f2d25b1bcae044c2cdbc146c97">&#9670;&#160;</a></span>ignitionSchedule3</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule3</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3deb9690951cce9a6be03cb079979ae8" name="a3deb9690951cce9a6be03cb079979ae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3deb9690951cce9a6be03cb079979ae8">&#9670;&#160;</a></span>ignitionSchedule4</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule4</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a25ddf379f9b0f880cb1433df61802995" name="a25ddf379f9b0f880cb1433df61802995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25ddf379f9b0f880cb1433df61802995">&#9670;&#160;</a></span>ignitionSchedule5</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a061e792bab82b5447ccc65f0aeefc5b4" name="a061e792bab82b5447ccc65f0aeefc5b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a061e792bab82b5447ccc65f0aeefc5b4">&#9670;&#160;</a></span>ignitionSchedule6</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule6</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a139a7ba94bf49419dd6004087fc04d3a" name="a139a7ba94bf49419dd6004087fc04d3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139a7ba94bf49419dd6004087fc04d3a">&#9670;&#160;</a></span>ignitionSchedule7</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule7</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff5e8c03a998148988fa19f435e2ca3c" name="aff5e8c03a998148988fa19f435e2ca3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff5e8c03a998148988fa19f435e2ca3c">&#9670;&#160;</a></span>ignitionSchedule8</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_schedule.html">Schedule</a> ignitionSchedule8</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0f68a679264ddd7a54455a31ee01950c" name="a0f68a679264ddd7a54455a31ee01950c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f68a679264ddd7a54455a31ee01950c">&#9670;&#160;</a></span>inj1EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj1EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab859e31453bae19655fb4df329f0369b" name="ab859e31453bae19655fb4df329f0369b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab859e31453bae19655fb4df329f0369b">&#9670;&#160;</a></span>inj1StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj1StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a660215e695239a38af3d3600c93c0b5b" name="a660215e695239a38af3d3600c93c0b5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a660215e695239a38af3d3600c93c0b5b">&#9670;&#160;</a></span>inj2EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj2EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a184cbaf72017bfb3e5e9904e1266d508" name="a184cbaf72017bfb3e5e9904e1266d508"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a184cbaf72017bfb3e5e9904e1266d508">&#9670;&#160;</a></span>inj2StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj2StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7fb2a9b547827fa772f2453805d0e7a1" name="a7fb2a9b547827fa772f2453805d0e7a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fb2a9b547827fa772f2453805d0e7a1">&#9670;&#160;</a></span>inj3EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj3EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adc70160b4797b116c4ef89af5f02f33b" name="adc70160b4797b116c4ef89af5f02f33b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc70160b4797b116c4ef89af5f02f33b">&#9670;&#160;</a></span>inj3StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj3StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4fac174649aa3c911a70e003f09420ee" name="a4fac174649aa3c911a70e003f09420ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fac174649aa3c911a70e003f09420ee">&#9670;&#160;</a></span>inj4EndFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj4EndFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0d5adf82409adcd72524b0ba1fd38b06" name="a0d5adf82409adcd72524b0ba1fd38b06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d5adf82409adcd72524b0ba1fd38b06">&#9670;&#160;</a></span>inj4StartFunction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void(* inj4StartFunction) (void) </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule5</td>
         </tr>
       </table>
   </td>
@@ -2342,7 +1006,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 6 2023 09:43:36 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Fri Oct 6 2023 21:25:44 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

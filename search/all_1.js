@@ -2,7 +2,7 @@ var searchData=
 [
   ['_5fadjusttoignchannel_0',['_adjustToIgnChannel',['../schedule__calcs_8hpp.html#a23c02f6b1845924218198fe4f40f6089',1,'schedule_calcs.hpp']]],
   ['_5fadjusttoinjchannel_1',['_adjustToInjChannel',['../schedule__calcs_8hpp.html#afd0571bfe2d89b539e6a5047b1b7dba6',1,'schedule_calcs.hpp']]],
-  ['_5fcalculateignitiontimeout_2',['_calculateIgnitionTimeout',['../schedule__calcs_8hpp.html#a6c7145e0614b8f4fe867c2beeff4b871',1,'schedule_calcs.hpp']]],
+  ['_5fcalculateignitiontimeout_2',['_calculateIgnitionTimeout',['../schedule__calcs_8hpp.html#a32d1d60b1f4768250ba4aca408a2509b',1,'schedule_calcs.hpp']]],
   ['_5fcalculateinjectortimeout_3',['_calculateInjectorTimeout',['../schedule__calcs_8hpp.html#a6444179e03b9d81686a314b5c897b828',1,'schedule_calcs.hpp']]],
   ['_5fcountof_4',['_countof',['../utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3',1,'utilities.h']]],
   ['_5fend_5frange_5faddress_5',['_end_range_address',['../utilities_8h.html#a9e1a3bd105504f0829c7e3eef19e9546',1,'utilities.h']]],

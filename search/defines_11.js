@@ -85,6 +85,5 @@ var searchData=
   ['stepper_5fbackward_82',['STEPPER_BACKWARD',['../idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.h']]],
   ['stepper_5fforward_83',['STEPPER_FORWARD',['../idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa',1,'idle.h']]],
   ['stepper_5fpower_5fwhen_5factive_84',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8h.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.h']]],
-  ['storage_5fend_85',['STORAGE_END',['../storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d',1,'storage.cpp']]],
-  ['swap_86',['SWAP',['../scheduler_8h.html#a5d9d454d4b9f2ff8106d5199ac0d0186',1,'scheduler.h']]]
+  ['storage_5fend_85',['STORAGE_END',['../storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d',1,'storage.cpp']]]
 ];

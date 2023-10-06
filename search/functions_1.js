@@ -6,5 +6,6 @@ var searchData=
   ['angletotime_3',['angleToTime',['../crank_maths_8cpp.html#a052d5d9e63c71574f7d9eab106c7e4ca',1,'angleToTime(uint16_t angle, byte method):&#160;crankMaths.cpp'],['../crank_maths_8h.html#a052d5d9e63c71574f7d9eab106c7e4ca',1,'angleToTime(uint16_t angle, byte method):&#160;crankMaths.cpp']]],
   ['angletotimeintervalrev_4',['angleToTimeIntervalRev',['../crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea',1,'crankMaths.h']]],
   ['applyfueltrimtopw_5',['applyFuelTrimToPW',['../speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae',1,'speeduino.ino']]],
-  ['at_5fend_6',['at_end',['../classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec',1,'table_axis_iterator::at_end()'],['../classtable__row__iterator.html#afb4f370e1ec37ac7d43d21cf26f5b828',1,'table_row_iterator::at_end()'],['../classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0',1,'table_value_iterator::at_end()']]]
+  ['applyoverdwellcheck_6',['applyOverDwellCheck',['../timers_8cpp.html#aab30d03d7fb8862fe96219784fbcd6a2',1,'timers.cpp']]],
+  ['at_5fend_7',['at_end',['../classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec',1,'table_axis_iterator::at_end()'],['../classtable__row__iterator.html#afb4f370e1ec37ac7d43d21cf26f5b828',1,'table_row_iterator::at_end()'],['../classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0',1,'table_value_iterator::at_end()']]]
 ];

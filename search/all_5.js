@@ -59,7 +59,7 @@ var searchData=
   ['doupdates_56',['doUpdates',['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]],
   ['dsm_20420a_2c_20for_20the_20dsm_20eclipse_57',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]],
   ['dual_20wheels_58',['Dual wheels',['../group__dec__dual.html',1,'']]],
-  ['duration_59',['duration',['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()'],['../struct_schedule.html#a142a66a0e3acbf39e59c35af3cccc336',1,'Schedule::duration()']]],
+  ['duration_59',['duration',['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration()'],['../struct_ignition_schedule.html#ac373bed0ca010c7e65f9e0ad61cda093',1,'IgnitionSchedule::duration()']]],
   ['dutylim_60',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2']]],
   ['dwell_61',['dwell',['../structstatuses.html#ad88511c6e07bcf4d5e0c9d67f11298f0',1,'statuses']]],
   ['dwell_5faverage_62',['DWELL_AVERAGE',['../scheduler_8h.html#a458136bb1a7859d52f44a080899d0184',1,'scheduler.h']]],
