@@ -94,6 +94,8 @@ Functions</h2></td></tr>
 <tr class="separator:af1156ed72bfc08458ff2aa6ccdacb27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c8cf5536fa7b0175d0d939fbae9a63e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a> (uint16_t logIndex)</td></tr>
 <tr class="separator:a8c8cf5536fa7b0175d0d939fbae9a63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a637720998932598c11cacd6efc8e4d20"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#a637720998932598c11cacd6efc8e4d20">getLegacySecondarySerialLogEntry</a> (uint16_t byteNum)</td></tr>
+<tr class="separator:a637720998932598c11cacd6efc8e4d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5815fac5301ceb5eef90fad69925d08"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#ad5815fac5301ceb5eef90fad69925d08">is2ByteEntry</a> (uint8_t <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
 <tr class="separator:ad5815fac5301ceb5eef90fad69925d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ff3b0edd3e4df982c0abb6ef2ef5ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8cpp.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1">startToothLogger</a> (void)</td></tr>
@@ -114,6 +116,51 @@ Functions</h2></td></tr>
 <tr class="separator:a6f35759d3231876d135762a453ca3492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a637720998932598c11cacd6efc8e4d20" name="a637720998932598c11cacd6efc8e4d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a637720998932598c11cacd6efc8e4d20">&#9670;&#160;</a></span>getLegacySecondarySerialLogEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t getLegacySecondarySerialLogEntry </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>byteNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >An expansion to the <a class="el" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a> function for systems that have an FPU. It will provide a floating point value for any parameter that this is appropriate for, otherwise will return the result of <a class="el" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a>. See <a class="el" href="logger_8h.html" title="File for generating log files and meta data.">logger.h</a> for the field names and order </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logIndex</td><td>- The log index required. Note that this is NOT the byte number, but the index in the log </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>float value of the requested log entry. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8cpp_a637720998932598c11cacd6efc8e4d20_cgraph.png" border="0" usemap="#alogger_8cpp_a637720998932598c11cacd6efc8e4d20_cgraph" alt=""/></div>
+<map name="alogger_8cpp_a637720998932598c11cacd6efc8e4d20_cgraph" id="alogger_8cpp_a637720998932598c11cacd6efc8e4d20_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,181,63"/>
+<area shape="rect" href="maths_8h.html#aedf50a185d8137de8a3145cedb9e49c5" title=" " alt="" coords="247,5,307,31"/>
+<area shape="rect" href="errors_8cpp.html#acfdc5af0368a62c29ce4dd67a4c7844a" title=" " alt="" coords="229,55,324,80"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="logger_8cpp_a637720998932598c11cacd6efc8e4d20_icgraph.png" border="0" usemap="#alogger_8cpp_a637720998932598c11cacd6efc8e4d20_icgraph" alt=""/></div>
+<map name="alogger_8cpp_a637720998932598c11cacd6efc8e4d20_icgraph" id="alogger_8cpp_a637720998932598c11cacd6efc8e4d20_icgraph">
+<area shape="rect" title=" " alt="" coords="309,5,485,45"/>
+<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="100,13,261,38"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,13,52,38"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a8c8cf5536fa7b0175d0d939fbae9a63e" name="a8c8cf5536fa7b0175d0d939fbae9a63e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c8cf5536fa7b0175d0d939fbae9a63e">&#9670;&#160;</a></span>getReadableLogEntry()</h2>
 
@@ -190,10 +237,10 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="logger_8cpp_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph.png" border="0" usemap="#alogger_8cpp_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph" alt=""/></div>
 <map name="alogger_8cpp_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph" id="alogger_8cpp_af1156ed72bfc08458ff2aa6ccdacb27c_icgraph">
-<area shape="rect" title=" " alt="" coords="880,132,988,157"/>
-<area shape="rect" href="comms_8cpp.html#affe28fdfed911a20253152a719567df6" title="Send a status record back to tuning/logging SW. This will &quot;live&quot; information from currentStatus struc..." alt="" coords="679,207,817,232"/>
-<area shape="rect" href="utilities_8cpp.html#a6d65d36c291073121ae86496d6a6f73b" title=" " alt="" coords="664,32,832,57"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a32227f23123281ecb856eb1f57f4f6b2" title=" " alt="" coords="703,132,793,157"/>
+<area shape="rect" title=" " alt="" coords="880,137,988,163"/>
+<area shape="rect" href="comms_8cpp.html#affe28fdfed911a20253152a719567df6" title="Send a status record back to tuning/logging SW. This will &quot;live&quot; information from currentStatus struc..." alt="" coords="679,212,817,237"/>
+<area shape="rect" href="utilities_8cpp.html#a6d65d36c291073121ae86496d6a6f73b" title=" " alt="" coords="664,25,832,51"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a32227f23123281ecb856eb1f57f4f6b2" title=" " alt="" coords="703,137,793,163"/>
 <area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="253,245,413,271"/>
 <area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="102,171,202,196"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,81,52,107"/>
@@ -222,13 +269,7 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p >An expansion to the <a class="el" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a> function for systems that have an FPU. It will provide a floating point value for any parameter that this is appropriate for, otherwise will return the result of <a class="el" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e">getReadableLogEntry</a>. See <a class="el" href="logger_8h.html" title="File for generating log files and meta data.">logger.h</a> for the field names and order </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">logIndex</td><td>- The log index required. Note that this is NOT the byte number, but the index in the log </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>float value of the requested log entry. Searches the log 2 byte array to determine whether a given index is a regular single byte or a 2 byte field Uses a boundless binary search for improved performance, but requires the fsIntIndex to remain in order</dd></dl>
+<p >Searches the log 2 byte array to determine whether a given index is a regular single byte or a 2 byte field Uses a boundless binary search for improved performance, but requires the fsIntIndex to remain in order</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>- Index in the log array to check </td></tr>
@@ -537,7 +578,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sun Oct 8 2023 22:06:10 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Oct 10 2023 04:49:59 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
