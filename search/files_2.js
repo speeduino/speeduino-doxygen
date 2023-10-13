@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['canbroadcast_2ecpp_0',['canBroadcast.cpp',['../can_broadcast_8cpp.html',1,'']]],
-  ['canbroadcast_2eh_1',['canBroadcast.h',['../can_broadcast_8h.html',1,'']]],
-  ['comms_2ecpp_2',['comms.cpp',['../comms_8cpp.html',1,'']]],
-  ['comms_2eh_3',['comms.h',['../comms_8h.html',1,'']]],
+  ['comms_2ecpp_0',['comms.cpp',['../comms_8cpp.html',1,'']]],
+  ['comms_2eh_1',['comms.h',['../comms_8h.html',1,'']]],
+  ['comms_5fcan_2ecpp_2',['comms_CAN.cpp',['../comms___c_a_n_8cpp.html',1,'']]],
+  ['comms_5fcan_2eh_3',['comms_CAN.h',['../comms___c_a_n_8h.html',1,'']]],
   ['comms_5flegacy_2ecpp_4',['comms_legacy.cpp',['../comms__legacy_8cpp.html',1,'']]],
   ['comms_5flegacy_2eh_5',['comms_legacy.h',['../comms__legacy_8h.html',1,'']]],
   ['comms_5fsd_2eh_6',['comms_sd.h',['../comms__sd_8h.html',1,'']]],
