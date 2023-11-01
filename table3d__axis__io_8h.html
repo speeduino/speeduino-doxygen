@@ -75,15 +75,16 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">table3d_axis_io.h File Reference<div class="ingroups"><a class="el" href="group__table__3d.html">3D Tables</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>3D table axis I/O support  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="int16__byte_8h_source.html">int16_byte.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="table3d__axes_8h_source.html">table3d_axes.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="table3d__axes_8h_source.html">table3d_axes.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -102,16 +103,34 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtable3d__axis__io.html">table3d_axis_io</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">table axis I/O support  <a href="classtable3d__axis__io.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3d__axis__io__converter.html">table3d_axis_io_converter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a 16-bit value to/from a byte. Useful for I/O.  <a href="structtable3d__axis__io__converter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gab8ef12fab634c171394422d0ee8baf94"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a></td></tr>
+<tr class="memdesc:gab8ef12fab634c171394422d0ee8baf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte type. This is not defined in any C or C++ standard header.  <a href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">More...</a><br /></td></tr>
+<tr class="separator:gab8ef12fab634c171394422d0ee8baf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4c195da14cb83de89c40201ef9200b8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaf4c195da14cb83de89c40201ef9200b8">pToByteConverter</a>) (int16_t value)</td></tr>
+<tr class="memdesc:gaf4c195da14cb83de89c40201ef9200b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models int16-&gt;byte conversion.  <a href="group__table__3d.html#gaf4c195da14cb83de89c40201ef9200b8">More...</a><br /></td></tr>
+<tr class="separator:gaf4c195da14cb83de89c40201ef9200b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="memItemLeft" align="right" valign="top">typedef int16_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga108b8dd4c13bfc6751d23e7289bb08c4">pFromByteConverter</a>) (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> in)</td></tr>
+<tr class="memdesc:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models byte-&gt;int16 conversion.  <a href="group__table__3d.html#ga108b8dd4c13bfc6751d23e7289bb08c4">More...</a><br /></td></tr>
+<tr class="separator:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:gae577b16f0370ea5a75fb3212fe42e58c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtable3d__axis__io__converter.html">table3d_axis_io_converter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gae577b16f0370ea5a75fb3212fe42e58c">get_table3d_axis_converter</a> (<a class="el" href="group__table__3d.html#gaafc1c51fc6a0e5811d666abefdd5e7e4">axis_domain</a> domain)</td></tr>
+<tr class="memdesc:gae577b16f0370ea5a75fb3212fe42e58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a converter instance for a given axis domain.  <a href="group__table__3d.html#gae577b16f0370ea5a75fb3212fe42e58c">More...</a><br /></td></tr>
+<tr class="separator:gae577b16f0370ea5a75fb3212fe42e58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >3D table axis I/O support </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 26 2023 23:07:22 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Wed Nov 1 2023 22:08:50 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

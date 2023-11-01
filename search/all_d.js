@@ -40,7 +40,7 @@ var searchData=
   ['loadconfig_37',['loadConfig',['../storage_8cpp.html#aa716dcba83a3c72eac2b5dd74b2216a9',1,'loadConfig(void):&#160;storage.cpp'],['../storage_8h.html#aa716dcba83a3c72eac2b5dd74b2216a9',1,'loadConfig(void):&#160;storage.cpp']]],
   ['loado2calibrationchunk_38',['loadO2CalibrationChunk',['../comms_8cpp.html#af5b4ef8e0caf756c612a3bd48539556e',1,'comms.cpp']]],
   ['loadpagevaluestobuffer_39',['loadPageValuesToBuffer',['../comms_8cpp.html#ac3ac88a0a0afb6243678cf3ea65e4ef8',1,'comms.cpp']]],
-  ['loadtable_40',['loadTable',['../storage_8cpp.html#a32f5abbaa58b2a0592de81298120911c',1,'storage.cpp']]],
+  ['loadtable_40',['loadTable',['../storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9',1,'storage.cpp']]],
   ['log_5fentry_5fsize_41',['LOG_ENTRY_SIZE',['../logger_8h.html#a412b9fb00056eedfd7abea937207928d',1,'logger.h']]],
   ['logger_2ecpp_42',['logger.cpp',['../logger_8cpp.html',1,'']]],
   ['logger_2eh_43',['logger.h',['../logger_8h.html',1,'']]],

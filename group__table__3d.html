@@ -105,14 +105,11 @@ Files</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classint16__byte.html">int16_byte</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a 16-bit value as a byte. Useful for I/O.  <a href="classint16__byte.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over table axis elements.  <a href="classtable__axis__iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtable3d__axis__io.html">table3d_axis_io</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">table axis I/O support  <a href="classtable3d__axis__io.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3d__axis__io__converter.html">table3d_axis_io_converter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a 16-bit value to/from a byte. Useful for I/O.  <a href="structtable3d__axis__io__converter.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtable__row__iterator.html">table_row_iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate through a table row. I.e. constant Y, changing X.  <a href="classtable__row__iterator.html#details">More...</a><br /></td></tr>
@@ -133,6 +130,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:gab8ef12fab634c171394422d0ee8baf94"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a></td></tr>
 <tr class="memdesc:gab8ef12fab634c171394422d0ee8baf94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte type. This is not defined in any C or C++ standard header.  <a href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">More...</a><br /></td></tr>
 <tr class="separator:gab8ef12fab634c171394422d0ee8baf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4c195da14cb83de89c40201ef9200b8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaf4c195da14cb83de89c40201ef9200b8">pToByteConverter</a>) (int16_t value)</td></tr>
+<tr class="memdesc:gaf4c195da14cb83de89c40201ef9200b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models int16-&gt;byte conversion.  <a href="group__table__3d.html#gaf4c195da14cb83de89c40201ef9200b8">More...</a><br /></td></tr>
+<tr class="separator:gaf4c195da14cb83de89c40201ef9200b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="memItemLeft" align="right" valign="top">typedef int16_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga108b8dd4c13bfc6751d23e7289bb08c4">pFromByteConverter</a>) (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> in)</td></tr>
+<tr class="memdesc:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Models byte-&gt;int16 conversion.  <a href="group__table__3d.html#ga108b8dd4c13bfc6751d23e7289bb08c4">More...</a><br /></td></tr>
+<tr class="separator:ga108b8dd4c13bfc6751d23e7289bb08c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab88a2bbeb40e1c41752955d5da0a0674"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> = uint8_t</td></tr>
 <tr class="memdesc:gab88a2bbeb40e1c41752955d5da0a0674"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes the <b>length</b> of the axes.  <a href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">More...</a><br /></td></tr>
 <tr class="separator:gab88a2bbeb40e1c41752955d5da0a0674"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,14 +163,17 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7447cbd1c2ad86de347be747a4c6d460"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga7447cbd1c2ad86de347be747a4c6d460">x_begin</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
-<tr class="separator:ga7447cbd1c2ad86de347be747a4c6d460"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad79d61f062602d15e7017d3d405d2dd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gad79d61f062602d15e7017d3d405d2dd7">x_rbegin</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
-<tr class="separator:gad79d61f062602d15e7017d3d405d2dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1d61b15a2342f9587d9d4e87078ec47f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga1d61b15a2342f9587d9d4e87078ec47f">y_begin</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
-<tr class="separator:ga1d61b15a2342f9587d9d4e87078ec47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0cc5f60d69d2ee1b38cbcf393ab70e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga0cc5f60d69d2ee1b38cbcf393ab70e8e">y_rbegin</a> (const void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
-<tr class="separator:ga0cc5f60d69d2ee1b38cbcf393ab70e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9623c22ae310352dd47212f5d624ef1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga9623c22ae310352dd47212f5d624ef1f">x_begin</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
+<tr class="separator:ga9623c22ae310352dd47212f5d624ef1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8842f43b840b1c14f72a2379d196473d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga8842f43b840b1c14f72a2379d196473d">x_rbegin</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
+<tr class="separator:ga8842f43b840b1c14f72a2379d196473d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a6fdc38dcb0ecb38ae3527bbc706588"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga8a6fdc38dcb0ecb38ae3527bbc706588">y_begin</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
+<tr class="separator:ga8a6fdc38dcb0ecb38ae3527bbc706588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab4e3ce1132939b25894b237c034de8c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gab4e3ce1132939b25894b237c034de8c8">y_rbegin</a> (void *pTable, <a class="el" href="group__table__3d.html#ga3b388ee0ec7deec870b8be62d107780a">table_type_t</a> <a class="el" href="group__table__3d.html#gaebe00e6a996586a2670e704e8516da99">key</a>)</td></tr>
+<tr class="separator:gab4e3ce1132939b25894b237c034de8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae577b16f0370ea5a75fb3212fe42e58c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structtable3d__axis__io__converter.html">table3d_axis_io_converter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gae577b16f0370ea5a75fb3212fe42e58c">get_table3d_axis_converter</a> (<a class="el" href="group__table__3d.html#gaafc1c51fc6a0e5811d666abefdd5e7e4">axis_domain</a> domain)</td></tr>
+<tr class="memdesc:gae577b16f0370ea5a75fb3212fe42e58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a converter instance for a given axis domain.  <a href="group__table__3d.html#gae577b16f0370ea5a75fb3212fe42e58c">More...</a><br /></td></tr>
+<tr class="separator:gae577b16f0370ea5a75fb3212fe42e58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -293,6 +299,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ga108b8dd4c13bfc6751d23e7289bb08c4" name="ga108b8dd4c13bfc6751d23e7289bb08c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga108b8dd4c13bfc6751d23e7289bb08c4">&#9670;&#160;</a></span>pFromByteConverter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int16_t(* pFromByteConverter) (<a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> in)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Models byte-&gt;int16 conversion. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structtable3d__axis__io__converter.html" title="Convert a 16-bit value to/from a byte. Useful for I/O.">table3d_axis_io_converter</a> </dd></dl>
+
+</div>
+</div>
+<a id="gaf4c195da14cb83de89c40201ef9200b8" name="gaf4c195da14cb83de89c40201ef9200b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf4c195da14cb83de89c40201ef9200b8">&#9670;&#160;</a></span>pToByteConverter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>(* pToByteConverter) (int16_t value)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Models int16-&gt;byte conversion. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structtable3d__axis__io__converter.html" title="Convert a 16-bit value to/from a byte. Useful for I/O.">table3d_axis_io_converter</a> </dd></dl>
+
+</div>
+</div>
 <a id="ga5f0aeaf7191b591b68dc4015c06c4c2d" name="ga5f0aeaf7191b591b68dc4015c06c4c2d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5f0aeaf7191b591b68dc4015c06c4c2d">&#9670;&#160;</a></span>table3d_axis_t</h2>
 
@@ -382,7 +422,7 @@ Variables</h2></td></tr>
 <p >With no virtual functions (they have quite a bit of overhead in both space &amp; time), we have to pass void* around in certain cases. In order to cast that back to a concrete table type, we need to somehow identify the type.</p>
 <p >Once approach is to register each type - but that requires a central registry which will use RAM.</p>
 <p >Since we have a compile time fixed set of table types, we can map a unique identifier to the type via a cast - this enum is that unique identifier.</p>
-<p >Typically used in conjunction with the '<a class="el" href="table3d_8h.html#a58dd21540808dacd9528ed6312a4dde7">CONCRETE_TABLE_ACTION</a>' macro </p>
+<p >Typically used in conjunction with the '<a class="el" href="table3d_8h.html#af027079268bec64c184bf4b4a96ca219">CONCRETE_TABLE_ACTION</a>' macro </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3b388ee0ec7deec870b8be62d107780aa4ef96a102b28075bb8eebd5dfdd78aab" name="gga3b388ee0ec7deec870b8be62d107780aa4ef96a102b28075bb8eebd5dfdd78aab"></a>table_type_None&#160;</td><td class="fielddoc"></td></tr>
 </table>
@@ -390,8 +430,68 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga7447cbd1c2ad86de347be747a4c6d460" name="ga7447cbd1c2ad86de347be747a4c6d460"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7447cbd1c2ad86de347be747a4c6d460">&#9670;&#160;</a></span>x_begin()</h2>
+<a id="gae577b16f0370ea5a75fb3212fe42e58c" name="gae577b16f0370ea5a75fb3212fe42e58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae577b16f0370ea5a75fb3212fe42e58c">&#9670;&#160;</a></span>get_table3d_axis_converter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structtable3d__axis__io__converter.html">table3d_axis_io_converter</a> get_table3d_axis_converter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gaafc1c51fc6a0e5811d666abefdd5e7e4">axis_domain</a>&#160;</td>
+          <td class="paramname"><em>domain</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Obtain a converter instance for a given axis domain. </p>
+<p >Often we need to deal internally with values that fit in 16-bits but do not require much accuracy. E.g. RPM. For these values we can save storage space (EEPROM) by scaling to/from 8-bits.</p>
+<p >The converter is dependent on the domain. I.e all axes with the same domain use the same converter</p>
+<p >Conversion during I/O is orthogonal to other axis concerns, so is separated and encapsulated here. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_cgraph.png" border="0" usemap="#agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_cgraph" alt=""/></div>
+<map name="agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_cgraph" id="agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_cgraph">
+<area shape="rect" title="Obtain a converter instance for a given axis domain." alt="" coords="5,129,185,155"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#a202e20abbde27e340b338b4439324418" title=" " alt="" coords="240,5,333,31"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#aed823e0a5bc7444e98f26354ab0b8aa5" title=" " alt="" coords="233,55,340,80"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#a2996e69ffed2a5e6806c48facd2aab70" title=" " alt="" coords="240,104,333,129"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#a93d967e0bcbea52c0e060d2d61349baa" title=" " alt="" coords="247,153,326,179"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#a7c0cd437173ecf9e64762251ed97e1ad" title=" " alt="" coords="241,203,333,228"/>
+<area shape="rect" href="table3d__axis__io_8cpp.html#a1ef62132d123e71bb47eddeb716d6c01" title=" " alt="" coords="247,252,326,277"/>
+<area shape="rect" href="maths_8h.html#aedf50a185d8137de8a3145cedb9e49c5" title=" " alt="" coords="388,203,448,228"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_icgraph.png" border="0" usemap="#agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_icgraph" alt=""/></div>
+<map name="agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_icgraph" id="agroup__table__3d_gae577b16f0370ea5a75fb3212fe42e58c_icgraph">
+<area shape="rect" title="Obtain a converter instance for a given axis domain." alt="" coords="1451,155,1631,180"/>
+<area shape="rect" href="page__crc_8cpp.html#a77bc913466b3dd3e6b4694edb8d58b4b" title=" " alt="" coords="1241,56,1396,81"/>
+<area shape="rect" href="storage_8cpp.html#ad315385a19ebd6b5129020050e6ee795" title=" " alt="" coords="1295,105,1342,131"/>
+<area shape="rect" href="classoffset__to__table.html#a30f54a0521bc50f155d21d75cdd08e18" title=" " alt="" coords="1236,155,1401,180"/>
+<area shape="rect" href="classoffset__to__table.html#a327990d95a07b042a42d5cdf75684660" title=" " alt="" coords="1235,204,1403,229"/>
+<area shape="rect" href="storage_8cpp.html#ae747ea4be6494a109d22d1bb6e6a95f3" title=" " alt="" coords="1293,253,1344,279"/>
+<area shape="rect" href="page__crc_8cpp.html#ae6568b7d2ded21d36be2488957050aad" title=" " alt="" coords="1055,56,1187,81"/>
+<area shape="rect" href="page__crc_8cpp.html#a5ab865589bd23869c5ecfa1bafbe425a" title=" " alt="" coords="909,56,1007,81"/>
+<area shape="rect" href="page__crc_8cpp.html#ae383851e6ab079291082d5ab9473f8d9" title=" " alt="" coords="716,56,861,81"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="309,56,460,81"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a1d530850376962379a55601369b4fb42" title=" " alt="" coords="519,107,657,132"/>
+<area shape="rect" href="comms_8cpp.html#ad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully recieved." alt="" coords="508,5,668,31"/>
+<area shape="rect" href="comms_8cpp.html#a7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="131,56,231,81"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,81,52,107"/>
+<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="100,105,261,131"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga9623c22ae310352dd47212f5d624ef1f" name="ga9623c22ae310352dd47212f5d624ef1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9623c22ae310352dd47212f5d624ef1f">&#9670;&#160;</a></span>x_begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,7 +499,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> x_begin </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
         </tr>
         <tr>
@@ -419,8 +519,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gad79d61f062602d15e7017d3d405d2dd7" name="gad79d61f062602d15e7017d3d405d2dd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad79d61f062602d15e7017d3d405d2dd7">&#9670;&#160;</a></span>x_rbegin()</h2>
+<a id="ga8842f43b840b1c14f72a2379d196473d" name="ga8842f43b840b1c14f72a2379d196473d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8842f43b840b1c14f72a2379d196473d">&#9670;&#160;</a></span>x_rbegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -428,7 +528,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> x_rbegin </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
         </tr>
         <tr>
@@ -447,8 +547,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga1d61b15a2342f9587d9d4e87078ec47f" name="ga1d61b15a2342f9587d9d4e87078ec47f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1d61b15a2342f9587d9d4e87078ec47f">&#9670;&#160;</a></span>y_begin()</h2>
+<a id="ga8a6fdc38dcb0ecb38ae3527bbc706588" name="ga8a6fdc38dcb0ecb38ae3527bbc706588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8a6fdc38dcb0ecb38ae3527bbc706588">&#9670;&#160;</a></span>y_begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,7 +556,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> y_begin </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
         </tr>
         <tr>
@@ -476,8 +576,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga0cc5f60d69d2ee1b38cbcf393ab70e8e" name="ga0cc5f60d69d2ee1b38cbcf393ab70e8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0cc5f60d69d2ee1b38cbcf393ab70e8e">&#9670;&#160;</a></span>y_rbegin()</h2>
+<a id="gab4e3ce1132939b25894b237c034de8c8" name="gab4e3ce1132939b25894b237c034de8c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab4e3ce1132939b25894b237c034de8c8">&#9670;&#160;</a></span>y_rbegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -485,7 +585,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> y_rbegin </td>
           <td>(</td>
-          <td class="paramtype">const void *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>pTable</em>, </td>
         </tr>
         <tr>
@@ -504,11 +604,11 @@ Variables</h2></td></tr>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__table__3d_ga0cc5f60d69d2ee1b38cbcf393ab70e8e_icgraph.png" border="0" usemap="#agroup__table__3d_ga0cc5f60d69d2ee1b38cbcf393ab70e8e_icgraph" alt=""/></div>
-<map name="agroup__table__3d_ga0cc5f60d69d2ee1b38cbcf393ab70e8e_icgraph" id="agroup__table__3d_ga0cc5f60d69d2ee1b38cbcf393ab70e8e_icgraph">
+<div class="center"><img src="group__table__3d_gab4e3ce1132939b25894b237c034de8c8_icgraph.png" border="0" usemap="#agroup__table__3d_gab4e3ce1132939b25894b237c034de8c8_icgraph" alt=""/></div>
+<map name="agroup__table__3d_gab4e3ce1132939b25894b237c034de8c8_icgraph" id="agroup__table__3d_gab4e3ce1132939b25894b237c034de8c8_icgraph">
 <area shape="rect" title=" " alt="" coords="1033,126,1104,151"/>
-<area shape="rect" href="storage_8cpp.html#a32f5abbaa58b2a0592de81298120911c" title=" " alt="" coords="905,100,983,126"/>
-<area shape="rect" href="storage_8cpp.html#aeadd741ad30b298dcb7c14af4c922b18" title=" " alt="" coords="903,150,985,175"/>
+<area shape="rect" href="storage_8cpp.html#a778ec92498a8aeb21d21b6ac68c05de9" title=" " alt="" coords="905,100,983,126"/>
+<area shape="rect" href="storage_8cpp.html#a8cf462095f01ce80f25821efd462f93c" title=" " alt="" coords="903,150,985,175"/>
 <area shape="rect" href="storage_8cpp.html#aa716dcba83a3c72eac2b5dd74b2216a9" title=" " alt="" coords="581,23,664,48"/>
 <area shape="rect" href="updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb" title=" " alt="" coords="355,23,440,48"/>
 <area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="147,23,231,48"/>
@@ -588,7 +688,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 26 2023 23:07:23 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Wed Nov 1 2023 22:08:50 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

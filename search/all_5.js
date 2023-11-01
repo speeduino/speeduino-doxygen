@@ -57,7 +57,7 @@ var searchData=
   ['div360_54',['div360',['../maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723',1,'maths.h']]],
   ['div_5fround_5fclosest_55',['DIV_ROUND_CLOSEST',['../maths_8h.html#a57fc13eb777500b3e22d3ff457cfd0d7',1,'maths.h']]],
   ['divider_56',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2']]],
-  ['dividetableload_57',['divideTableLoad',['../updates_8h.html#a500969072779c080e2abe6c2c7d0d224',1,'divideTableLoad(const void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8cpp.html#a500969072779c080e2abe6c2c7d0d224',1,'divideTableLoad(const void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
+  ['dividetableload_57',['divideTableLoad',['../updates_8h.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8cpp.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
   ['docrankspeedcalcs_58',['doCrankSpeedCalcs',['../crank_maths_8h.html#a4aecbc1166abf308137f4ec58e96b5e5',1,'doCrankSpeedCalcs(void):&#160;crankMaths.cpp'],['../crank_maths_8cpp.html#a4aecbc1166abf308137f4ec58e96b5e5',1,'doCrankSpeedCalcs(void):&#160;crankMaths.cpp']]],
   ['dostep_59',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
   ['doupdates_60',['doUpdates',['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]],
