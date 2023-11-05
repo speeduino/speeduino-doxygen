@@ -18,7 +18,7 @@ var searchData=
   ['egotype_15',['egoType',['../structconfig6.html#a2e013946e642f65806b5c86d6c9dcf20',1,'config6']]],
   ['elapsedtime_16',['elapsedTime',['../decoders_8h.html#a8151acb3eb15cc87572029c33dee53b2',1,'elapsedTime():&#160;decoders.cpp'],['../decoders_8cpp.html#a8151acb3eb15cc87572029c33dee53b2',1,'elapsedTime():&#160;decoders.cpp']]],
   ['emap_17',['EMAP',['../structstatuses.html#a13158740e1d514820fb30bffcf9a749f',1,'statuses']]],
-  ['emapadc_18',['EMAPADC',['../structstatuses.html#a89d3129507b15d1c63c62692859c1bd6',1,'statuses']]],
+  ['emapadc_18',['EMAPADC',['../structstatuses.html#a21636e9746a56df4ec83be2a9f97697c',1,'statuses']]],
   ['emapmax_19',['EMAPMax',['../structconfig2.html#a3a638884ce32b708662fbc75b98d0ad0',1,'config2']]],
   ['emapmin_20',['EMAPMin',['../structconfig2.html#ab4b5df2e570c8b5c06d62d8dd372b807',1,'config2']]],
   ['emappin_21',['EMAPPin',['../structconfig10.html#a0ecfac341be026caa1e638ddeaabcf1f',1,'config10']]],

@@ -88,12 +88,73 @@ Functions</h2></td></tr>
 <tr class="separator:gaae047cbe4c3db05c7b2a54c4c812b33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga180ad255b59819bcc27072ee20e3de93"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__dual.html#ga180ad255b59819bcc27072ee20e3de93">getCrankAngle_DualWheel</a> (void)</td></tr>
 <tr class="separator:ga180ad255b59819bcc27072ee20e3de93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab52de1dc245f368fb77fe464602d6074"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__dual.html#gab52de1dc245f368fb77fe464602d6074">calcEndTeeth_DualWheel</a> (int ignitionAngle, uint8_t toothAdder)</td></tr>
+<tr class="separator:gab52de1dc245f368fb77fe464602d6074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7a657ac98400c49af131b0cb9d0457d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__dual.html#ga7a657ac98400c49af131b0cb9d0457d3">triggerSetEndTeeth_DualWheel</a> (void)</td></tr>
 <tr class="separator:ga7a657ac98400c49af131b0cb9d0457d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Dual wheels - 2 wheels located either both on the crank or with the primary on the crank and the secondary on the cam. Note: There can be no missing teeth on the primary wheel. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="gab52de1dc245f368fb77fe464602d6074" name="gab52de1dc245f368fb77fe464602d6074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab52de1dc245f368fb77fe464602d6074">&#9670;&#160;</a></span>calcEndTeeth_DualWheel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t calcEndTeeth_DualWheel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ignitionAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__dual_gab52de1dc245f368fb77fe464602d6074_cgraph.png" border="0" usemap="#agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_cgraph" alt=""/></div>
+<map name="agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_cgraph" id="agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,176,31"/>
+<area shape="rect" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439" title=" " alt="" coords="224,5,363,31"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="411,5,468,31"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__dual_gab52de1dc245f368fb77fe464602d6074_icgraph.png" border="0" usemap="#agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_icgraph" alt=""/></div>
+<map name="agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_icgraph" id="agroup__dec__dual_gab52de1dc245f368fb77fe464602d6074_icgraph">
+<area shape="rect" title=" " alt="" coords="585,31,756,56"/>
+<area shape="rect" href="group__dec__dual.html#ga7a657ac98400c49af131b0cb9d0457d3" title=" " alt="" coords="404,23,537,63"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga180ad255b59819bcc27072ee20e3de93" name="ga180ad255b59819bcc27072ee20e3de93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga180ad255b59819bcc27072ee20e3de93">&#9670;&#160;</a></span>getCrankAngle_DualWheel()</h2>
 
@@ -115,8 +176,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__dual_ga180ad255b59819bcc27072ee20e3de93_cgraph.png" border="0" usemap="#agroup__dec__dual_ga180ad255b59819bcc27072ee20e3de93_cgraph" alt=""/></div>
 <map name="agroup__dec__dual_ga180ad255b59819bcc27072ee20e3de93_cgraph" id="agroup__dec__dual_ga180ad255b59819bcc27072ee20e3de93_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,181,55"/>
-<area shape="rect" href="crank_maths_8cpp.html#aea969ecaec6440bba97fb67c8af1501e" title=" " alt="" coords="229,29,324,55"/>
+<area shape="rect" title=" " alt="" coords="5,5,181,31"/>
+<area shape="rect" href="crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656" title="Converts based on the the interval on time one degree of rotation takes." alt="" coords="229,5,423,31"/>
 </map>
 </div>
 <div class="dynheader">
@@ -155,9 +216,18 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__dual_gaae047cbe4c3db05c7b2a54c4c812b33b_cgraph.png" border="0" usemap="#agroup__dec__dual_gaae047cbe4c3db05c7b2a54c4c812b33b_cgraph" alt=""/></div>
 <map name="agroup__dec__dual_gaae047cbe4c3db05c7b2a54c4c812b33b_cgraph" id="agroup__dec__dual_gaae047cbe4c3db05c7b2a54c4c812b33b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,144,56"/>
-<area shape="rect" href="group__dec__uni.html#gadc806ad5d6297eb31ad69ff9945b97a8" title=" " alt="" coords="192,5,313,31"/>
-<area shape="rect" href="group__dec__uni.html#ga68415dc74fbfa8e4e43e4249cc988e81" title=" " alt="" coords="207,55,298,80"/>
+<area shape="rect" title=" " alt="" coords="5,103,144,128"/>
+<area shape="rect" href="group__dec__uni.html#gab655d4a17851815ebd22646e91b09042" title=" " alt="" coords="192,77,313,103"/>
+<area shape="rect" href="group__dec__uni.html#ga0e2376d74e3ce12261992128e4a92abc" title=" " alt="" coords="207,127,298,152"/>
+<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="361,52,548,77"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="599,104,731,129"/>
+<area shape="rect" href="group__dec__uni.html#ga08db06b8b1e556e64a2c417eaad776ec" title=" " alt="" coords="623,55,707,80"/>
+<area shape="rect" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca" title="Same as udiv_32_16(), except this will round to nearest integer instead of truncating." alt="" coords="596,5,733,31"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="781,5,869,31"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="795,104,855,129"/>
+<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="363,153,547,193"/>
+<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="616,207,713,232"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="623,157,707,183"/>
 </map>
 </div>
 <div class="dynheader">
@@ -196,9 +266,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__dual_ga06cd9110e0c0e5186e14ad36d27ee1de_cgraph.png" border="0" usemap="#agroup__dec__dual_ga06cd9110e0c0e5186e14ad36d27ee1de_cgraph" alt=""/></div>
 <map name="agroup__dec__dual_ga06cd9110e0c0e5186e14ad36d27ee1de_cgraph" id="agroup__dec__dual_ga06cd9110e0c0e5186e14ad36d27ee1de_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,148,56"/>
-<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="196,5,345,31"/>
-<area shape="rect" href="group__dec__uni.html#ga7e47fa64b01c6c1908f133f37313b25e" title=" " alt="" coords="236,55,305,80"/>
+<area shape="rect" title=" " alt="" coords="5,55,148,80"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="196,29,345,55"/>
+<area shape="rect" href="group__dec__uni.html#ga7e47fa64b01c6c1908f133f37313b25e" title=" " alt="" coords="236,79,305,104"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="393,5,607,31"/>
+<area shape="rect" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="451,55,549,80"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="655,55,712,80"/>
 </map>
 </div>
 <div class="dynheader">
@@ -264,6 +337,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <p >Dual Wheel - Set End Teeth. </p>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_cgraph.png" border="0" usemap="#agroup__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_cgraph" alt=""/></div>
+<map name="agroup__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_cgraph" id="agroup__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,139,45"/>
+<area shape="rect" href="group__dec__dual.html#gab52de1dc245f368fb77fe464602d6074" title=" " alt="" coords="187,13,357,38"/>
+<area shape="rect" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439" title=" " alt="" coords="405,13,544,38"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="592,13,649,38"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_icgraph.png" border="0" usemap="#agroup__dec__dual_ga7a657ac98400c49af131b0cb9d0457d3_icgraph" alt=""/></div>
@@ -312,7 +396,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2023 04:37:48 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Sun Nov 5 2023 22:10:34 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

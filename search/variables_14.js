@@ -49,7 +49,7 @@ var searchData=
   ['vvt2targetangle_46',['vvt2TargetAngle',['../structstatuses.html#a2011269356b3d64b87f608948278f30e',1,'statuses']]],
   ['vvt_5fpid_5fcurrent_5fangle_47',['vvt_pid_current_angle',['../auxiliaries_8cpp.html#aad41d970f044bbffccfff20af80ae81e',1,'auxiliaries.cpp']]],
   ['vvt_5fpid_5ftarget_5fangle_48',['vvt_pid_target_angle',['../auxiliaries_8cpp.html#a91c69900bfc9c8f1a4a396578a178b87',1,'auxiliaries.cpp']]],
-  ['vvt_5fpwm_5fmax_5fcount_49',['vvt_pwm_max_count',['../auxiliaries_8cpp.html#a18c262c8282eec7c98b8acb8ea254bf1',1,'vvt_pwm_max_count():&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a18c262c8282eec7c98b8acb8ea254bf1',1,'vvt_pwm_max_count():&#160;auxiliaries.cpp']]],
+  ['vvt_5fpwm_5fmax_5fcount_49',['vvt_pwm_max_count',['../auxiliaries_8cpp.html#a3f486b7f70d846017890618c3a046e2a',1,'vvt_pwm_max_count():&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a3f486b7f70d846017890618c3a046e2a',1,'vvt_pwm_max_count():&#160;auxiliaries.cpp']]],
   ['vvtcl0dutyang_50',['vvtCL0DutyAng',['../structconfig10.html#a75fab192d6f06f77014da828987c8eff',1,'config10']]],
   ['vvtclalterfueltiming_51',['vvtCLAlterFuelTiming',['../structconfig6.html#a890eb5c98238ff37335f028f829089e6',1,'config6']]],
   ['vvtclholdduty_52',['vvtCLholdDuty',['../structconfig10.html#a62e8d70df3bdc8b36d25614fdf4ea2b9',1,'config10']]],

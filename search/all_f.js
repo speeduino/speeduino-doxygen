@@ -48,8 +48,9 @@ var searchData=
   ['noentity_45',['NoEntity',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3',1,'pages.h']]],
   ['non_2d360_20dual_20wheel_46',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
   ['nsquirts_47',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nullcallback_48',['nullCallback',['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
-  ['nullgetcrankangle_49',['nullGetCrankAngle',['../decoders_8cpp.html#a59586232c03448829acfbeab804a96b7',1,'decoders.cpp']]],
-  ['nullgetrpm_50',['nullGetRPM',['../decoders_8cpp.html#ae7363eedd535c91f5464bd501437a1b8',1,'decoders.cpp']]],
-  ['nulltriggerhandler_51',['nullTriggerHandler',['../decoders_8cpp.html#a9a6dfd3bcd261c85a185c046d9829ad5',1,'decoders.cpp']]]
+  ['nudge_48',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],
+  ['nullcallback_49',['nullCallback',['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
+  ['nullgetcrankangle_50',['nullGetCrankAngle',['../decoders_8cpp.html#a59586232c03448829acfbeab804a96b7',1,'decoders.cpp']]],
+  ['nullgetrpm_51',['nullGetRPM',['../decoders_8cpp.html#ae7363eedd535c91f5464bd501437a1b8',1,'decoders.cpp']]],
+  ['nulltriggerhandler_52',['nullTriggerHandler',['../decoders_8cpp.html#a9a6dfd3bcd261c85a185c046d9829ad5',1,'decoders.cpp']]]
 ];

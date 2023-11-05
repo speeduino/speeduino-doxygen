@@ -27,7 +27,6 @@ var searchData=
   ['decoder_5fsubaru_5f67_24',['DECODER_SUBARU_67',['../decoders_8h.html#a991e65a5326ee0ec5757578be52cd532',1,'decoders.h']]],
   ['decoder_5fvmax_25',['DECODER_VMAX',['../decoders_8h.html#a3d17925ada1d1d0593f18736fb0a02b8',1,'decoders.h']]],
   ['decoder_5fweber_26',['DECODER_WEBER',['../decoders_8h.html#ab20dd7483676c65b9e6f944c44873c34',1,'decoders.h']]],
-  ['div_5fround_5fclosest_27',['DIV_ROUND_CLOSEST',['../maths_8h.html#a57fc13eb777500b3e22d3ff457cfd0d7',1,'maths.h']]],
-  ['dwell_5faverage_28',['DWELL_AVERAGE',['../scheduler_8h.html#a458136bb1a7859d52f44a080899d0184',1,'scheduler.h']]],
-  ['dwell_5faverage_5falpha_29',['DWELL_AVERAGE_ALPHA',['../scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5',1,'scheduler.h']]]
+  ['dwell_5faverage_27',['DWELL_AVERAGE',['../scheduler_8h.html#a458136bb1a7859d52f44a080899d0184',1,'scheduler.h']]],
+  ['dwell_5faverage_5falpha_28',['DWELL_AVERAGE_ALPHA',['../scheduler_8h.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5',1,'scheduler.h']]]
 ];

@@ -15,10 +15,12 @@ var searchData=
   ['unused9_5f0_12',['unused9_0',['../structconfig9.html#ab345d0d17897240994a14c6599891c0f',1,'config9']]],
   ['unused_5f13_13',['unused_13',['../structconfig13.html#aee61983e3ea96cac74ff06700c78cbea',1,'config13']]],
   ['unusedbits4_14',['unusedBits4',['../structconfig4.html#ac759eeedf630892040c8045ce3260672',1,'config4']]],
-  ['usedwelllim_15',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
-  ['usedwellmap_16',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
-  ['useemap_17',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
-  ['useextbaro_18',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
-  ['useresync_19',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
-  ['usetachosweep_20',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]]
+  ['uq1x15_5fshift_15',['UQ1X15_Shift',['../decoders_8h.html#ac1c17b92de916811068da998345d143f',1,'decoders.h']]],
+  ['uq24x8_5fshift_16',['UQ24X8_Shift',['../decoders_8h.html#a246cd50dc6c7b56fc208d895188f6586',1,'decoders.h']]],
+  ['usedwelllim_17',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
+  ['usedwellmap_18',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
+  ['useemap_19',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
+  ['useextbaro_20',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
+  ['useresync_21',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
+  ['usetachosweep_22',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]]
 ];

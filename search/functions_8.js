@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['halfpercentage_0',['halfPercentage',['../maths_8cpp.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.cpp'],['../maths_8h.html#a3eb7ed1eb66e590716409fc35d77602e',1,'halfPercentage(uint8_t x, unsigned long y):&#160;maths.cpp']]]
+  ['halfpercentage_0',['halfPercentage',['../maths_8h.html#aeaabbd719d960b3b342272e5328d1d31',1,'maths.h']]],
+  ['hasanysync_1',['HasAnySync',['../globals_8h.html#a019c1352daf773df950beaf2f7c9a88c',1,'globals.h']]]
 ];

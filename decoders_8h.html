@@ -76,6 +76,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">decoders.h File Reference</div></div>
@@ -177,15 +178,11 @@ Macros</h2></td></tr>
 <tr class="separator:aa0ea09b9951c48d68330fc372e2f5367"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d4a021b4c92e315b51d46a2dd05f89a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8d4a021b4c92e315b51d46a2dd05f89a">BIT_DECODER_TOOTH_ANG_CORRECT</a>&#160;&#160;&#160;6</td></tr>
 <tr class="separator:a8d4a021b4c92e315b51d46a2dd05f89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dc5220ca42da24d3597a6c27ba5caf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8">ANGLE_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
+<tr class="memitem:a8dc5220ca42da24d3597a6c27ba5caf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8dc5220ca42da24d3597a6c27ba5caf8">ANGLE_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)(input) * (256 - (alpha)) + ((long)(prior) * (alpha)))) &gt;&gt; 8</td></tr>
 <tr class="separator:a8dc5220ca42da24d3597a6c27ba5caf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaa7b8a7167a8214f499c71c413ddcca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#acaa7b8a7167a8214f499c71c413ddcca">LONG</a>&#160;&#160;&#160;0;</td></tr>
-<tr class="separator:acaa7b8a7167a8214f499c71c413ddcca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fbb14850a9f176447733a089071cd70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a9fbb14850a9f176447733a089071cd70">SHORT</a>&#160;&#160;&#160;1;</td></tr>
-<tr class="separator:a9fbb14850a9f176447733a089071cd70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad65f66535246db8717c9d10fba32a7c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ad65f66535246db8717c9d10fba32a7c0">CRANK_SPEED</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memitem:ad65f66535246db8717c9d10fba32a7c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ad65f66535246db8717c9d10fba32a7c0">CRANK_SPEED</a>&#160;&#160;&#160;0U</td></tr>
 <tr class="separator:ad65f66535246db8717c9d10fba32a7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91512fde255a648fe16920b3d94911b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ab91512fde255a648fe16920b3d94911b">CAM_SPEED</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:ab91512fde255a648fe16920b3d94911b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ab91512fde255a648fe16920b3d94911b">CAM_SPEED</a>&#160;&#160;&#160;1U</td></tr>
 <tr class="separator:ab91512fde255a648fe16920b3d94911b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7def3029c429bbdc07a487e8afe9cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aff7def3029c429bbdc07a487e8afe9cf">TOOTH_CRANK</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aff7def3029c429bbdc07a487e8afe9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +200,13 @@ Macros</h2></td></tr>
 <tr class="separator:ab8f2641ae9a99e2c182d079e4eed46f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aa32adcb5ef1de64ed96de6e5f9e8df85">SKIP_TOOTH4</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8c876e0304c6beb71a0b5a4a140a7572"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td></tr>
+<tr class="separator:a8c876e0304c6beb71a0b5a4a140a7572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memItemLeft" align="right" valign="top">typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td></tr>
+<tr class="separator:a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -586,10 +590,22 @@ Variables</h2></td></tr>
 <tr class="separator:a8151acb3eb15cc87572029c33dee53b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46952ea963287eebcdf8ddf6425d3ce8"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a46952ea963287eebcdf8ddf6425d3ce8">lastCrankAngleCalc</a></td></tr>
 <tr class="separator:a46952ea963287eebcdf8ddf6425d3ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c7e13e7b183a9af5b0c67acc59276cb"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8c7e13e7b183a9af5b0c67acc59276cb">lastToothCalcAdvance</a></td></tr>
-<tr class="separator:a8c7e13e7b183a9af5b0c67acc59276cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51f002cf3dcff77083db11e4a6e49ac1"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a51f002cf3dcff77083db11e4a6e49ac1">lastVVTtime</a></td></tr>
 <tr class="separator:a51f002cf3dcff77083db11e4a6e49ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246cd50dc6c7b56fc208d895188f6586"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a> = 8U</td></tr>
+<tr class="separator:a246cd50dc6c7b56fc208d895188f6586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2d182a827bee47cfda6dc696442d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="decoders_8h.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a1a2d182a827bee47cfda6dc696442d6e">microsPerDegree</a></td></tr>
+<tr class="memdesc:a1a2d182a827bee47cfda6dc696442d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">uS per degree at current RPM in UQ24.8 fixed point  <a href="decoders_8h.html#a1a2d182a827bee47cfda6dc696442d6e">More...</a><br /></td></tr>
+<tr class="separator:a1a2d182a827bee47cfda6dc696442d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ad5ceeabcb03430a05e9748ca61a34cb3">microsPerDegree_Shift</a> = <a class="el" href="decoders_8h.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td></tr>
+<tr class="separator:ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c17b92de916811068da998345d143f"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a> = 15U</td></tr>
+<tr class="separator:ac1c17b92de916811068da998345d143f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcdf40840896ab1afafdb22303b8672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="decoders_8h.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aadcdf40840896ab1afafdb22303b8672">degreesPerMicro</a></td></tr>
+<tr class="memdesc:aadcdf40840896ab1afafdb22303b8672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Degrees per uS in UQ1.15 fixed point.  <a href="decoders_8h.html#aadcdf40840896ab1afafdb22303b8672">More...</a><br /></td></tr>
+<tr class="separator:aadcdf40840896ab1afafdb22303b8672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0304e945ca33ebf195131901140442"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aee0304e945ca33ebf195131901140442">degreesPerMicro_Shift</a> = <a class="el" href="decoders_8h.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td></tr>
+<tr class="separator:aee0304e945ca33ebf195131901140442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7469679479a5caed5bcc8041c8db58ff"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a7469679479a5caed5bcc8041c8db58ff">ignition1EndTooth</a></td></tr>
 <tr class="separator:a7469679479a5caed5bcc8041c8db58ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983e9155188659bb0aca6c4b5f39d5be"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a983e9155188659bb0aca6c4b5f39d5be">ignition2EndTooth</a></td></tr>
@@ -637,7 +653,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td>
+          <td></td><td>&#160;&#160;&#160;(((long)(input) * (256 - (alpha)) + ((long)(prior) * (alpha)))) &gt;&gt; 8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -749,7 +765,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CAM_SPEED&#160;&#160;&#160;1</td>
+          <td class="memname">#define CAM_SPEED&#160;&#160;&#160;1U</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -763,7 +779,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CRANK_SPEED&#160;&#160;&#160;0</td>
+          <td class="memname">#define CRANK_SPEED&#160;&#160;&#160;0U</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1148,20 +1164,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="acaa7b8a7167a8214f499c71c413ddcca" name="acaa7b8a7167a8214f499c71c413ddcca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaa7b8a7167a8214f499c71c413ddcca">&#9670;&#160;</a></span>LONG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define LONG&#160;&#160;&#160;0;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a66dc33369201e4f94f1069c0363e7693" name="a66dc33369201e4f94f1069c0363e7693"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a66dc33369201e4f94f1069c0363e7693">&#9670;&#160;</a></span>READ_PRI_TRIGGER</h2>
 
@@ -1207,20 +1209,6 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td>&#160;&#160;&#160;digitalRead(<a class="el" href="globals_8cpp.html#a0247d84fdc266d9278396e1d07e2b1aa">pinTrigger3</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9fbb14850a9f176447733a089071cd70" name="a9fbb14850a9f176447733a089071cd70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fbb14850a9f176447733a089071cd70">&#9670;&#160;</a></span>SHORT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SHORT&#160;&#160;&#160;1;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1319,6 +1307,35 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define TOOTH_CRANK&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a2ede0e919c14e4a60cbeef6ef70b5e4b" name="a2ede0e919c14e4a60cbeef6ef70b5e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ede0e919c14e4a60cbeef6ef70b5e4b">&#9670;&#160;</a></span>UQ1X15_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint16_t <a class="el" href="decoders_8h.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8c876e0304c6beb71a0b5a4a140a7572" name="a8c876e0304c6beb71a0b5a4a140a7572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c876e0304c6beb71a0b5a4a140a7572">&#9670;&#160;</a></span>UQ24X8_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef uint32_t <a class="el" href="decoders_8h.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1513,6 +1530,53 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadcdf40840896ab1afafdb22303b8672" name="aadcdf40840896ab1afafdb22303b8672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadcdf40840896ab1afafdb22303b8672">&#9670;&#160;</a></span>degreesPerMicro</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="decoders_8h.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a> degreesPerMicro</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Degrees per uS in UQ1.15 fixed point. </p>
+<p >Ranges from 8 (0.000246) at MIN_RPM to 3542 (0.108) at MAX_RPM </p>
+
+</div>
+</div>
+<a id="aee0304e945ca33ebf195131901140442" name="aee0304e945ca33ebf195131901140442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee0304e945ca33ebf195131901140442">&#9670;&#160;</a></span>degreesPerMicro_Shift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t degreesPerMicro_Shift = <a class="el" href="decoders_8h.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1817,28 +1881,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a8c7e13e7b183a9af5b0c67acc59276cb" name="a8c7e13e7b183a9af5b0c67acc59276cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c7e13e7b183a9af5b0c67acc59276cb">&#9670;&#160;</a></span>lastToothCalcAdvance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int16_t lastToothCalcAdvance</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a51f002cf3dcff77083db11e4a6e49ac1" name="a51f002cf3dcff77083db11e4a6e49ac1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51f002cf3dcff77083db11e4a6e49ac1">&#9670;&#160;</a></span>lastVVTtime</h2>
 
@@ -1877,6 +1919,52 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a2d182a827bee47cfda6dc696442d6e" name="a1a2d182a827bee47cfda6dc696442d6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2d182a827bee47cfda6dc696442d6e">&#9670;&#160;</a></span>microsPerDegree</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="decoders_8h.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a> microsPerDegree</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>uS per degree at current RPM in UQ24.8 fixed point </p>
+
+</div>
+</div>
+<a id="ad5ceeabcb03430a05e9748ca61a34cb3" name="ad5ceeabcb03430a05e9748ca61a34cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ceeabcb03430a05e9748ca61a34cb3">&#9670;&#160;</a></span>microsPerDegree_Shift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t microsPerDegree_Shift = <a class="el" href="decoders_8h.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2477,10 +2565,54 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ac1c17b92de916811068da998345d143f" name="ac1c17b92de916811068da998345d143f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c17b92de916811068da998345d143f">&#9670;&#160;</a></span>UQ1X15_Shift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t UQ1X15_Shift = 15U</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a246cd50dc6c7b56fc208d895188f6586" name="a246cd50dc6c7b56fc208d895188f6586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246cd50dc6c7b56fc208d895188f6586">&#9670;&#160;</a></span>UQ24X8_Shift</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t UQ24X8_Shift = 8U</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2023 04:37:48 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Sun Nov 5 2023 22:10:34 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

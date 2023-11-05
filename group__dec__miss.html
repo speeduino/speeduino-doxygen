@@ -90,12 +90,197 @@ Functions</h2></td></tr>
 <tr class="separator:ga9137d053d6a30b0ab7f72ef72a48c371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa481fa0f57d00cc8536bd39212143315"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__miss.html#gaa481fa0f57d00cc8536bd39212143315">getCrankAngle_missingTooth</a> (void)</td></tr>
 <tr class="separator:gaa481fa0f57d00cc8536bd39212143315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3d30bc414d8f7b3a4540bc8bedffd439"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439">clampToToothCount</a> (int16_t toothNum, uint8_t toothAdder)</td></tr>
+<tr class="separator:ga3d30bc414d8f7b3a4540bc8bedffd439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2ee424019fc8616da15c2ab1ad3c5680"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680">clampToActualTeeth</a> (uint16_t toothNum, uint8_t toothAdder)</td></tr>
+<tr class="separator:ga2ee424019fc8616da15c2ab1ad3c5680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a9ef46d5f2a433fff4f646a590220d7"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__miss.html#ga6a9ef46d5f2a433fff4f646a590220d7">calcEndTeeth_missingTooth</a> (int endAngle, uint8_t toothAdder)</td></tr>
+<tr class="separator:ga6a9ef46d5f2a433fff4f646a590220d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1411ddd9654e3fc2a07539726f0c72dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__miss.html#ga1411ddd9654e3fc2a07539726f0c72dd">triggerSetEndTeeth_missingTooth</a> (void)</td></tr>
 <tr class="separator:ga1411ddd9654e3fc2a07539726f0c72dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >A (single) multi-tooth wheel with one of more 'missing' teeth. The first tooth after the missing one is considered number 1 and is the basis for the trigger angle. Note: This decoder does not currently support dual wheel (ie missing tooth + single tooth on cam). </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga6a9ef46d5f2a433fff4f646a590220d7" name="ga6a9ef46d5f2a433fff4f646a590220d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a9ef46d5f2a433fff4f646a590220d7">&#9670;&#160;</a></span>calcEndTeeth_missingTooth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t calcEndTeeth_missingTooth </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_cgraph.png" border="0" usemap="#agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_cgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_cgraph" id="agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,192,56"/>
+<area shape="rect" href="group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680" title=" " alt="" coords="240,5,383,31"/>
+<area shape="rect" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439" title=" " alt="" coords="242,55,381,80"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="431,55,488,80"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_icgraph.png" border="0" usemap="#agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_icgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_icgraph" id="agroup__dec__miss_ga6a9ef46d5f2a433fff4f646a590220d7_icgraph">
+<area shape="rect" title=" " alt="" coords="585,31,772,56"/>
+<area shape="rect" href="group__dec__miss.html#ga1411ddd9654e3fc2a07539726f0c72dd" title=" " alt="" coords="404,23,537,63"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,31,356,56"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,5,192,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,55,173,80"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,60,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga2ee424019fc8616da15c2ab1ad3c5680" name="ga2ee424019fc8616da15c2ab1ad3c5680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2ee424019fc8616da15c2ab1ad3c5680">&#9670;&#160;</a></span>clampToActualTeeth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t clampToActualTeeth </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>toothNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga2ee424019fc8616da15c2ab1ad3c5680_icgraph.png" border="0" usemap="#agroup__dec__miss_ga2ee424019fc8616da15c2ab1ad3c5680_icgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga2ee424019fc8616da15c2ab1ad3c5680_icgraph" id="agroup__dec__miss_ga2ee424019fc8616da15c2ab1ad3c5680_icgraph">
+<area shape="rect" title=" " alt="" coords="825,77,968,102"/>
+<area shape="rect" href="group__dec__miss.html#ga6a9ef46d5f2a433fff4f646a590220d7" title=" " alt="" coords="588,21,775,46"/>
+<area shape="rect" href="group__dec__renix.html#ga9f28857d719c65e429ca9a74a23e4fd1" title=" " alt="" coords="611,77,751,102"/>
+<area shape="rect" href="group__dec__ford__st170.html#gaeae282ddc08687c0f16593577ee48bea" title=" " alt="" coords="585,133,777,158"/>
+<area shape="rect" href="group__dec__miss.html#ga1411ddd9654e3fc2a07539726f0c72dd" title=" " alt="" coords="404,5,537,45"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,77,356,102"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,51,192,77"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,101,173,126"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,51,60,77"/>
+<area shape="rect" href="group__dec__renix.html#ga1d99a19dcbb977574eba5876854fc2cc" title=" " alt="" coords="404,69,537,109"/>
+<area shape="rect" href="group__dec__ford__st170.html#ga1f0dd9339cd652c958d629bf214094d8" title=" " alt="" coords="404,133,537,173"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga3d30bc414d8f7b3a4540bc8bedffd439" name="ga3d30bc414d8f7b3a4540bc8bedffd439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3d30bc414d8f7b3a4540bc8bedffd439">&#9670;&#160;</a></span>clampToToothCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t clampToToothCount </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>toothNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_cgraph.png" border="0" usemap="#agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_cgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_cgraph" id="agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,144,31"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="192,5,249,31"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_icgraph.png" border="0" usemap="#agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_icgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_icgraph" id="agroup__dec__miss_ga3d30bc414d8f7b3a4540bc8bedffd439_icgraph">
+<area shape="rect" title=" " alt="" coords="856,113,995,138"/>
+<area shape="rect" href="group__dec__dual.html#gab52de1dc245f368fb77fe464602d6074" title=" " alt="" coords="629,21,800,46"/>
+<area shape="rect" href="group__dec__miss.html#ga6a9ef46d5f2a433fff4f646a590220d7" title=" " alt="" coords="621,81,808,106"/>
+<area shape="rect" href="group__dec__renix.html#ga9f28857d719c65e429ca9a74a23e4fd1" title=" " alt="" coords="645,137,785,162"/>
+<area shape="rect" href="group__dec.html#gabb9afdda533df6b82bbb379cdc397e2f" title=" " alt="" coords="636,190,793,215"/>
+<area shape="rect" href="group__dec__dual.html#ga7a657ac98400c49af131b0cb9d0457d3" title=" " alt="" coords="422,5,555,45"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,109,356,134"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,83,192,109"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,133,173,158"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,83,60,109"/>
+<area shape="rect" href="group__dec__miss.html#ga1411ddd9654e3fc2a07539726f0c72dd" title=" " alt="" coords="422,69,555,109"/>
+<area shape="rect" href="group__dec__renix.html#ga1d99a19dcbb977574eba5876854fc2cc" title=" " alt="" coords="422,133,555,173"/>
+<area shape="rect" href="group__dec.html#ga93292c1cd4bc2cac3f0fc590dd81abe5" title=" " alt="" coords="404,198,573,223"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="gaa481fa0f57d00cc8536bd39212143315" name="gaa481fa0f57d00cc8536bd39212143315"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gaa481fa0f57d00cc8536bd39212143315">&#9670;&#160;</a></span>getCrankAngle_missingTooth()</h2>
 
@@ -116,8 +301,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__miss_gaa481fa0f57d00cc8536bd39212143315_cgraph.png" border="0" usemap="#agroup__dec__miss_gaa481fa0f57d00cc8536bd39212143315_cgraph" alt=""/></div>
 <map name="agroup__dec__miss_gaa481fa0f57d00cc8536bd39212143315_cgraph" id="agroup__dec__miss_gaa481fa0f57d00cc8536bd39212143315_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,197,55"/>
-<area shape="rect" href="crank_maths_8cpp.html#aea969ecaec6440bba97fb67c8af1501e" title=" " alt="" coords="245,29,340,55"/>
+<area shape="rect" title=" " alt="" coords="5,5,197,31"/>
+<area shape="rect" href="crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656" title="Converts based on the the interval on time one degree of rotation takes." alt="" coords="245,5,439,31"/>
 </map>
 </div>
 <div class="dynheader">
@@ -155,9 +340,18 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__miss_ga9137d053d6a30b0ab7f72ef72a48c371_cgraph.png" border="0" usemap="#agroup__dec__miss_ga9137d053d6a30b0ab7f72ef72a48c371_cgraph" alt=""/></div>
 <map name="agroup__dec__miss_ga9137d053d6a30b0ab7f72ef72a48c371_cgraph" id="agroup__dec__miss_ga9137d053d6a30b0ab7f72ef72a48c371_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,160,56"/>
-<area shape="rect" href="group__dec__uni.html#gadc806ad5d6297eb31ad69ff9945b97a8" title=" " alt="" coords="208,5,329,31"/>
-<area shape="rect" href="group__dec__uni.html#ga68415dc74fbfa8e4e43e4249cc988e81" title=" " alt="" coords="223,55,314,80"/>
+<area shape="rect" title=" " alt="" coords="5,103,160,128"/>
+<area shape="rect" href="group__dec__uni.html#gab655d4a17851815ebd22646e91b09042" title=" " alt="" coords="208,77,329,103"/>
+<area shape="rect" href="group__dec__uni.html#ga0e2376d74e3ce12261992128e4a92abc" title=" " alt="" coords="223,127,314,152"/>
+<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="377,52,564,77"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="615,104,747,129"/>
+<area shape="rect" href="group__dec__uni.html#ga08db06b8b1e556e64a2c417eaad776ec" title=" " alt="" coords="639,55,723,80"/>
+<area shape="rect" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca" title="Same as udiv_32_16(), except this will round to nearest integer instead of truncating." alt="" coords="612,5,749,31"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="797,5,885,31"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="811,104,871,129"/>
+<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="379,153,563,193"/>
+<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="632,207,729,232"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="639,157,723,183"/>
 </map>
 </div>
 <div class="dynheader">
@@ -195,9 +389,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__miss_ga385756753c4f32623ecdaef49cd4edd3_cgraph.png" border="0" usemap="#agroup__dec__miss_ga385756753c4f32623ecdaef49cd4edd3_cgraph" alt=""/></div>
 <map name="agroup__dec__miss_ga385756753c4f32623ecdaef49cd4edd3_cgraph" id="agroup__dec__miss_ga385756753c4f32623ecdaef49cd4edd3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,164,56"/>
+<area shape="rect" title=" " alt="" coords="5,56,164,81"/>
 <area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="212,5,361,31"/>
-<area shape="rect" href="group__dec__uni.html#ga7e47fa64b01c6c1908f133f37313b25e" title=" " alt="" coords="252,55,321,80"/>
+<area shape="rect" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="467,55,565,80"/>
+<area shape="rect" href="group__dec__uni.html#ga7e47fa64b01c6c1908f133f37313b25e" title=" " alt="" coords="252,107,321,132"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="409,5,623,31"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="671,55,728,80"/>
 </map>
 </div>
 <div class="dynheader">
@@ -260,6 +457,18 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__miss_ga1411ddd9654e3fc2a07539726f0c72dd_cgraph.png" border="0" usemap="#agroup__dec__miss_ga1411ddd9654e3fc2a07539726f0c72dd_cgraph" alt=""/></div>
+<map name="agroup__dec__miss_ga1411ddd9654e3fc2a07539726f0c72dd_cgraph" id="agroup__dec__miss_ga1411ddd9654e3fc2a07539726f0c72dd_cgraph">
+<area shape="rect" title=" " alt="" coords="5,23,139,63"/>
+<area shape="rect" href="group__dec__miss.html#ga6a9ef46d5f2a433fff4f646a590220d7" title=" " alt="" coords="187,31,373,56"/>
+<area shape="rect" href="group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680" title=" " alt="" coords="421,5,564,31"/>
+<area shape="rect" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439" title=" " alt="" coords="423,55,562,80"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="612,55,669,80"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -338,7 +547,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2023 04:37:48 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Sun Nov 5 2023 22:10:34 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

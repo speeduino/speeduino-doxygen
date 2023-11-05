@@ -20,7 +20,7 @@ var searchData=
   ['boost_5fpin_5fmask_17',['boost_pin_mask',['../auxiliaries_8cpp.html#a62d9c25555ffd27b936bac2891a079cd',1,'auxiliaries.cpp']]],
   ['boost_5fpin_5fport_18',['boost_pin_port',['../auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fcur_5fvalue_19',['boost_pwm_cur_value',['../auxiliaries_8cpp.html#a561e4c2b29e72e06c0e86b5bea0eaae4',1,'auxiliaries.cpp']]],
-  ['boost_5fpwm_5fmax_5fcount_20',['boost_pwm_max_count',['../auxiliaries_8h.html#a352398dabeadf9329d97f6899a5a036e',1,'boost_pwm_max_count():&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a352398dabeadf9329d97f6899a5a036e',1,'boost_pwm_max_count():&#160;auxiliaries.cpp']]],
+  ['boost_5fpwm_5fmax_5fcount_20',['boost_pwm_max_count',['../auxiliaries_8h.html#ac4a9fd24e32f7d18447906fb4a8f3857',1,'boost_pwm_max_count():&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#ac4a9fd24e32f7d18447906fb4a8f3857',1,'boost_pwm_max_count():&#160;auxiliaries.cpp']]],
   ['boost_5fpwm_5fstate_21',['boost_pwm_state',['../auxiliaries_8cpp.html#a890f54cc385e3554e1e9ae3962cfa1aa',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5ftarget_5fvalue_22',['boost_pwm_target_value',['../auxiliaries_8cpp.html#a6b5cb46c773772a82e1cbd8428cedd71',1,'auxiliaries.cpp']]],
   ['boostbygear1_23',['boostByGear1',['../structconfig9.html#ac15d833f767cb0e4d7d2035a36ddb2cc',1,'config9']]],

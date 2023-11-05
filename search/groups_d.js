@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['universal_20decoder_20routines_0',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]]
+  ['subaru_206_2f7_0',['Subaru 6/7',['../group__dec__subaru__6__7.html',1,'']]]
 ];

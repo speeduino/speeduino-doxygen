@@ -17,6 +17,5 @@ var searchData=
   ['logger_5frate_5f10hz_14',['LOGGER_RATE_10HZ',['../globals_8h.html#a29e83db3b19584b185d24db06a963649',1,'globals.h']]],
   ['logger_5frate_5f1hz_15',['LOGGER_RATE_1HZ',['../globals_8h.html#a92914324a665b01bbd90282d7620dcad',1,'globals.h']]],
   ['logger_5frate_5f30hz_16',['LOGGER_RATE_30HZ',['../globals_8h.html#a9277987e1ff76a230ca1445482780686',1,'globals.h']]],
-  ['logger_5frate_5f4hz_17',['LOGGER_RATE_4HZ',['../globals_8h.html#a1cc734cc6cf7e9457e37c20158cb2960',1,'globals.h']]],
-  ['long_18',['LONG',['../decoders_8h.html#acaa7b8a7167a8214f499c71c413ddcca',1,'decoders.h']]]
+  ['logger_5frate_5f4hz_17',['LOGGER_RATE_4HZ',['../globals_8h.html#a1cc734cc6cf7e9457e37c20158cb2960',1,'globals.h']]]
 ];

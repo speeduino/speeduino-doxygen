@@ -76,8 +76,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">crankMaths.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -105,443 +104,368 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:abcdbccc61dc6a15b50fa7a25ebd4dc3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#abcdbccc61dc6a15b50fa7a25ebd4dc3a">CRANKMATH_METHOD_INTERVAL_DEFAULT</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:abcdbccc61dc6a15b50fa7a25ebd4dc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bdf12a5e10480adfeffbd85a67dd82f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9bdf12a5e10480adfeffbd85a67dd82f">CRANKMATH_METHOD_INTERVAL_REV</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a9bdf12a5e10480adfeffbd85a67dd82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51b6c537a4242d6bc46258f92dd2f5d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a51b6c537a4242d6bc46258f92dd2f5d8">CRANKMATH_METHOD_INTERVAL_TOOTH</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:a51b6c537a4242d6bc46258f92dd2f5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9945a7484e877e2a5bef621259844809"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9945a7484e877e2a5bef621259844809">CRANKMATH_METHOD_ALPHA_BETA</a>&#160;&#160;&#160;3</td></tr>
-<tr class="separator:a9945a7484e877e2a5bef621259844809"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6de8020b8ba79cc9175db141a52f44d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a6de8020b8ba79cc9175db141a52f44d6">CRANKMATH_METHOD_2ND_DERIVATIVE</a>&#160;&#160;&#160;4</td></tr>
-<tr class="separator:a6de8020b8ba79cc9175db141a52f44d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a796685254307924eeddb95ed21f0492c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a796685254307924eeddb95ed21f0492c">SECOND_DERIV_ENABLED</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a796685254307924eeddb95ed21f0492c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ecc58cbe7e51c63d83631692059bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a60ecc58cbe7e51c63d83631692059bad">fastDegreesToUS</a>(targetDegrees)&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8cpp.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td></tr>
-<tr class="separator:a60ecc58cbe7e51c63d83631692059bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c9780afacb74596f5c270694b3b9b0c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c9780afacb74596f5c270694b3b9b0c">fastTimeToAngle</a>(time)&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8cpp.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td></tr>
-<tr class="separator:a0c9780afacb74596f5c270694b3b9b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac783172fb35e2a758ba17f7cabda528a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ac783172fb35e2a758ba17f7cabda528a">ignitionLimits</a>(angle)&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td></tr>
-<tr class="separator:ac783172fb35e2a758ba17f7cabda528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fab3a7cfce27f49d49d54a0465abaf1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>&#160;&#160;&#160;INT32_C(166667)</td></tr>
+<tr class="memdesc:a9fab3a7cfce27f49d49d54a0465abaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">At 1 RPM, each degree of angular rotation takes this many microseconds.  <a href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">More...</a><br /></td></tr>
+<tr class="separator:a9fab3a7cfce27f49d49d54a0465abaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0de63cb3b2b767719451b355cb94fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0d0de63cb3b2b767719451b355cb94fa">MAX_RPM</a>&#160;&#160;&#160;INT16_C(18000)</td></tr>
+<tr class="memdesc:a0d0de63cb3b2b767719451b355cb94fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum rpm that the ECU will attempt to run at.  <a href="crank_maths_8h.html#a0d0de63cb3b2b767719451b355cb94fa">More...</a><br /></td></tr>
+<tr class="separator:a0d0de63cb3b2b767719451b355cb94fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30fac99294fa9280d3d00c679d2221ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce">MIN_RPM</a>&#160;&#160;&#160;((<a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>/(UINT16_MAX/16UL))+1UL)</td></tr>
+<tr class="memdesc:a30fac99294fa9280d3d00c679d2221ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with.  <a href="crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce">More...</a><br /></td></tr>
+<tr class="separator:a30fac99294fa9280d3d00c679d2221ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a052d5d9e63c71574f7d9eab106c7e4ca"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a052d5d9e63c71574f7d9eab106c7e4ca">angleToTime</a> (uint16_t angle, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> method)</td></tr>
-<tr class="separator:a052d5d9e63c71574f7d9eab106c7e4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ab767f8b0138f601fc30c3f23dc14ea"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea">angleToTimeIntervalRev</a> (uint16_t angle)</td></tr>
-<tr class="separator:a5ab767f8b0138f601fc30c3f23dc14ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea969ecaec6440bba97fb67c8af1501e"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#aea969ecaec6440bba97fb67c8af1501e">timeToAngle</a> (unsigned long time, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> method)</td></tr>
-<tr class="separator:aea969ecaec6440bba97fb67c8af1501e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aecbc1166abf308137f4ec58e96b5e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a4aecbc1166abf308137f4ec58e96b5e5">doCrankSpeedCalcs</a> (void)</td></tr>
-<tr class="separator:a4aecbc1166abf308137f4ec58e96b5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a73ed567d5bb7cb938d9918e678170ef6"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a73ed567d5bb7cb938d9918e678170ef6">timePerDegree</a></td></tr>
-<tr class="separator:a73ed567d5bb7cb938d9918e678170ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4592777c16cb5795eb56475dce501f"><td class="memItemLeft" align="right" valign="top">volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a></td></tr>
-<tr class="separator:a9c4592777c16cb5795eb56475dce501f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68b6f1c0ad43a0c6a23d47bf2ab0d215"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a></td></tr>
-<tr class="separator:a68b6f1c0ad43a0c6a23d47bf2ab0d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a623c310de1a24748fb9be60b294ab5a2"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a> (int16_t angle)</td></tr>
+<tr class="memdesc:a623c310de1a24748fb9be60b294ab5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN].  <a href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">More...</a><br /></td></tr>
+<tr class="separator:a623c310de1a24748fb9be60b294ab5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Converts angular degrees to the time interval that amount of rotation</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p >will take at current RPM.</p>
+<p >Based on angle of [0,720] and min/max RPM, result ranges from 9 (MAX_RPM, 1 deg) to 2926828 (MIN_RPM, 720 deg)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>Angle in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Time interval in uS </dd></dl>
+</div></td></tr>
+<tr class="memitem:ab5234186ab1e03e073582f33852fc3f2"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ab5234186ab1e03e073582f33852fc3f2">angleToTimeMicroSecPerDegree</a> (uint16_t angle)</td></tr>
+<tr class="memdesc:ab5234186ab1e03e073582f33852fc3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts based on the time one degree of rotation takes.  <a href="crank_maths_8h.html#ab5234186ab1e03e073582f33852fc3f2">More...</a><br /></td></tr>
+<tr class="separator:ab5234186ab1e03e073582f33852fc3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae671466d47700e312ce4811e32b3e38d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ae671466d47700e312ce4811e32b3e38d">angleToTimeIntervalTooth</a> (uint16_t angle)</td></tr>
+<tr class="memdesc:ae671466d47700e312ce4811e32b3e38d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts based on the time interval between the 2 most recently detected decoder teeth.  <a href="crank_maths_8h.html#ae671466d47700e312ce4811e32b3e38d">More...</a><br /></td></tr>
+<tr class="separator:ae671466d47700e312ce4811e32b3e38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Converts a time interval in microsecods to the equivalent degrees of angular (crank)</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p >rotation at current RPM.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time</td><td>Time interval in uS </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Angle in degrees </dd></dl>
+</div></td></tr>
+<tr class="memitem:a437337d1ba43119e466b3d417aa31656"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656">timeToAngleDegPerMicroSec</a> (uint32_t time)</td></tr>
+<tr class="memdesc:a437337d1ba43119e466b3d417aa31656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts based on the the interval on time one degree of rotation takes.  <a href="crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656">More...</a><br /></td></tr>
+<tr class="separator:a437337d1ba43119e466b3d417aa31656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55458f11cda5228844f2584cbd51756d"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a55458f11cda5228844f2584cbd51756d">timeToAngleIntervalTooth</a> (uint32_t time)</td></tr>
+<tr class="memdesc:a55458f11cda5228844f2584cbd51756d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts based on the time interval between the 2 most recently detected decoder teeth.  <a href="crank_maths_8h.html#a55458f11cda5228844f2584cbd51756d">More...</a><br /></td></tr>
+<tr class="separator:a55458f11cda5228844f2584cbd51756d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6de8020b8ba79cc9175db141a52f44d6" name="a6de8020b8ba79cc9175db141a52f44d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6de8020b8ba79cc9175db141a52f44d6">&#9670;&#160;</a></span>CRANKMATH_METHOD_2ND_DERIVATIVE</h2>
+<a id="a0d0de63cb3b2b767719451b355cb94fa" name="a0d0de63cb3b2b767719451b355cb94fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0de63cb3b2b767719451b355cb94fa">&#9670;&#160;</a></span>MAX_RPM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CRANKMATH_METHOD_2ND_DERIVATIVE&#160;&#160;&#160;4</td>
+          <td class="memname">#define MAX_RPM&#160;&#160;&#160;INT16_C(18000)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>The maximum rpm that the ECU will attempt to run at. </p>
+<p >It is NOT related to the rev limiter, but is instead dictates how fast certain operations will be allowed to run. Lower number gives better performance </p>
+
 </div>
 </div>
-<a id="a9945a7484e877e2a5bef621259844809" name="a9945a7484e877e2a5bef621259844809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9945a7484e877e2a5bef621259844809">&#9670;&#160;</a></span>CRANKMATH_METHOD_ALPHA_BETA</h2>
+<a id="a9fab3a7cfce27f49d49d54a0465abaf1" name="a9fab3a7cfce27f49d49d54a0465abaf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fab3a7cfce27f49d49d54a0465abaf1">&#9670;&#160;</a></span>MICROS_PER_DEG_1_RPM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CRANKMATH_METHOD_ALPHA_BETA&#160;&#160;&#160;3</td>
+          <td class="memname">#define MICROS_PER_DEG_1_RPM&#160;&#160;&#160;INT32_C(166667)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>At 1 RPM, each degree of angular rotation takes this many microseconds. </p>
+
 </div>
 </div>
-<a id="abcdbccc61dc6a15b50fa7a25ebd4dc3a" name="abcdbccc61dc6a15b50fa7a25ebd4dc3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcdbccc61dc6a15b50fa7a25ebd4dc3a">&#9670;&#160;</a></span>CRANKMATH_METHOD_INTERVAL_DEFAULT</h2>
+<a id="a30fac99294fa9280d3d00c679d2221ce" name="a30fac99294fa9280d3d00c679d2221ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30fac99294fa9280d3d00c679d2221ce">&#9670;&#160;</a></span>MIN_RPM</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CRANKMATH_METHOD_INTERVAL_DEFAULT&#160;&#160;&#160;0</td>
+          <td class="memname">#define MIN_RPM&#160;&#160;&#160;((<a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>/(UINT16_MAX/16UL))+1UL)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a9bdf12a5e10480adfeffbd85a67dd82f" name="a9bdf12a5e10480adfeffbd85a67dd82f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bdf12a5e10480adfeffbd85a67dd82f">&#9670;&#160;</a></span>CRANKMATH_METHOD_INTERVAL_REV</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CRANKMATH_METHOD_INTERVAL_REV&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a51b6c537a4242d6bc46258f92dd2f5d8" name="a51b6c537a4242d6bc46258f92dd2f5d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51b6c537a4242d6bc46258f92dd2f5d8">&#9670;&#160;</a></span>CRANKMATH_METHOD_INTERVAL_TOOTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CRANKMATH_METHOD_INTERVAL_TOOTH&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a60ecc58cbe7e51c63d83631692059bad" name="a60ecc58cbe7e51c63d83631692059bad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60ecc58cbe7e51c63d83631692059bad">&#9670;&#160;</a></span>fastDegreesToUS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define fastDegreesToUS</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">targetDegrees</td><td>)</td>
-          <td>&#160;&#160;&#160;(((targetDegrees) * (unsigned long)<a class="el" href="crank_maths_8cpp.html#a9c4592777c16cb5795eb56475dce501f">timePerDegreex16</a>) &gt;&gt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c9780afacb74596f5c270694b3b9b0c" name="a0c9780afacb74596f5c270694b3b9b0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c9780afacb74596f5c270694b3b9b0c">&#9670;&#160;</a></span>fastTimeToAngle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define fastTimeToAngle</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">time</td><td>)</td>
-          <td>&#160;&#160;&#160;(((unsigned long)(time) * <a class="el" href="crank_maths_8cpp.html#a68b6f1c0ad43a0c6a23d47bf2ab0d215">degreesPeruSx32768</a>) / 32768)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac783172fb35e2a758ba17f7cabda528a" name="ac783172fb35e2a758ba17f7cabda528a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac783172fb35e2a758ba17f7cabda528a">&#9670;&#160;</a></span>ignitionLimits</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ignitionLimits</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">angle</td><td>)</td>
-          <td>&#160;&#160;&#160;( (((int16_t)(angle)) &gt;= <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) ? ((angle) - <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : ( ((int16_t)(angle) &lt; 0) ? ((angle) + <a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>) : (angle)) )</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a796685254307924eeddb95ed21f0492c" name="a796685254307924eeddb95ed21f0492c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a796685254307924eeddb95ed21f0492c">&#9670;&#160;</a></span>SECOND_DERIV_ENABLED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SECOND_DERIV_ENABLED&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with. </p>
+<p >This is dictated by the use of uint16_t as the base type for storing angle&lt;-&gt;time conversion factor (degreesPerMicro) </p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a052d5d9e63c71574f7d9eab106c7e4ca" name="a052d5d9e63c71574f7d9eab106c7e4ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a052d5d9e63c71574f7d9eab106c7e4ca">&#9670;&#160;</a></span>angleToTime()</h2>
+<a id="ae671466d47700e312ce4811e32b3e38d" name="ae671466d47700e312ce4811e32b3e38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae671466d47700e312ce4811e32b3e38d">&#9670;&#160;</a></span>angleToTimeIntervalTooth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned long angleToTime </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>angle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>method</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_cgraph.png" border="0" usemap="#acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_cgraph" alt=""/></div>
-<map name="acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_cgraph" id="acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,103,55"/>
-<area shape="rect" href="crank_maths_8h.html#a5ab767f8b0138f601fc30c3f23dc14ea" title=" " alt="" coords="151,29,313,55"/>
-<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="361,29,421,55"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_icgraph.png" border="0" usemap="#acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_icgraph" alt=""/></div>
-<map name="acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_icgraph" id="acrank_maths_8h_a052d5d9e63c71574f7d9eab106c7e4ca_icgraph">
-<area shape="rect" title=" " alt="" coords="5,29,103,55"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a5ab767f8b0138f601fc30c3f23dc14ea" name="a5ab767f8b0138f601fc30c3f23dc14ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ab767f8b0138f601fc30c3f23dc14ea">&#9670;&#160;</a></span>angleToTimeIntervalRev()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned long angleToTimeIntervalRev </td>
+          <td class="memname">uint32_t angleToTimeIntervalTooth </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>angle</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Converts based on the time interval between the 2 most recently detected decoder teeth. </p>
+<p >Inverse of timeToAngleIntervalTooth </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_cgraph.png" border="0" usemap="#acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_cgraph" alt=""/></div>
-<map name="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_cgraph" id="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,168,31"/>
-<area shape="rect" href="maths_8h.html#a373f24a4dd80604dbd64b1eed9fd8723" title=" " alt="" coords="216,5,276,31"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph.png" border="0" usemap="#acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph" alt=""/></div>
-<map name="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph" id="acrank_maths_8h_a5ab767f8b0138f601fc30c3f23dc14ea_icgraph">
-<area shape="rect" title=" " alt="" coords="529,43,692,68"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#a32d1d60b1f4768250ba4aca408a2509b" title=" " alt="" coords="311,5,481,31"/>
-<area shape="rect" href="crank_maths_8cpp.html#a052d5d9e63c71574f7d9eab106c7e4ca" title=" " alt="" coords="347,79,445,104"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#ab4278febc364b178176a4a2c2d1ffe7e" title=" " alt="" coords="100,5,263,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+<div class="center"><img src="crank_maths_8h_ae671466d47700e312ce4811e32b3e38d_cgraph.png" border="0" usemap="#acrank_maths_8h_ae671466d47700e312ce4811e32b3e38d_cgraph" alt=""/></div>
+<map name="acrank_maths_8h_ae671466d47700e312ce4811e32b3e38d_cgraph" id="acrank_maths_8h_ae671466d47700e312ce4811e32b3e38d_cgraph">
+<area shape="rect" title="Converts based on the time interval between the 2 most recently detected decoder teeth." alt="" coords="5,5,179,31"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="227,5,440,31"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a4aecbc1166abf308137f4ec58e96b5e5" name="a4aecbc1166abf308137f4ec58e96b5e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aecbc1166abf308137f4ec58e96b5e5">&#9670;&#160;</a></span>doCrankSpeedCalcs()</h2>
+<a id="ab5234186ab1e03e073582f33852fc3f2" name="ab5234186ab1e03e073582f33852fc3f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5234186ab1e03e073582f33852fc3f2">&#9670;&#160;</a></span>angleToTimeMicroSecPerDegree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void doCrankSpeedCalcs </td>
+          <td class="memname">uint32_t angleToTimeMicroSecPerDegree </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts based on the time one degree of rotation takes. </p>
+<p >Inverse of timeToAngleDegPerMicroSec </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_a4aecbc1166abf308137f4ec58e96b5e5_icgraph.png" border="0" usemap="#acrank_maths_8h_a4aecbc1166abf308137f4ec58e96b5e5_icgraph" alt=""/></div>
-<map name="acrank_maths_8h_a4aecbc1166abf308137f4ec58e96b5e5_icgraph" id="acrank_maths_8h_a4aecbc1166abf308137f4ec58e96b5e5_icgraph">
-<area shape="rect" title=" " alt="" coords="100,5,240,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
+<div class="center"><img src="crank_maths_8h_ab5234186ab1e03e073582f33852fc3f2_icgraph.png" border="0" usemap="#acrank_maths_8h_ab5234186ab1e03e073582f33852fc3f2_icgraph" alt=""/></div>
+<map name="acrank_maths_8h_ab5234186ab1e03e073582f33852fc3f2_icgraph" id="acrank_maths_8h_ab5234186ab1e03e073582f33852fc3f2_icgraph">
+<area shape="rect" title="Converts based on the time one degree of rotation takes." alt="" coords="860,233,1073,259"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#ad7e7d61961fb3d6c0d3070448892b1f9" title=" " alt="" coords="640,24,811,49"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#ab77d498b5413ab182af24708d02eb9bc" title=" " alt="" coords="640,111,811,136"/>
+<area shape="rect" href="crank_maths_8cpp.html#ae671466d47700e312ce4811e32b3e38d" title="Converts based on the time interval between the 2 most recently detected decoder teeth." alt="" coords="639,233,812,259"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="651,431,800,456"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,672,173,697"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a6b32d25d24171d9c96b6b542a52f26eb" title=" " alt="" coords="416,5,579,31"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a0cc2b07b2321f708d13550005beea16b" title=" " alt="" coords="415,55,579,80"/>
+<area shape="rect" href="group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21" title=" " alt="" coords="443,104,552,129"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="441,153,553,179"/>
+<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="411,203,584,228"/>
+<area shape="rect" href="group__dec__dual.html#ga06cd9110e0c0e5186e14ad36d27ee1de" title=" " alt="" coords="426,252,569,277"/>
+<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="438,301,557,327"/>
+<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="427,351,568,376"/>
+<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="418,400,577,425"/>
+<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="442,449,553,475"/>
+<area shape="rect" href="group__dec__nissan360.html#ga6656c3d538cd486fdd05d8aefd4e505c" title=" " alt="" coords="426,499,569,524"/>
+<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="441,548,554,573"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="420,597,575,623"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="429,647,565,672"/>
+<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="407,696,587,721"/>
+<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="404,745,591,771"/>
+<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="435,795,560,820"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,475,356,500"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,475,192,500"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,475,60,500"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aea969ecaec6440bba97fb67c8af1501e" name="aea969ecaec6440bba97fb67c8af1501e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea969ecaec6440bba97fb67c8af1501e">&#9670;&#160;</a></span>timeToAngle()</h2>
+<a id="a623c310de1a24748fb9be60b294ab5a2" name="a623c310de1a24748fb9be60b294ab5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a623c310de1a24748fb9be60b294ab5a2">&#9670;&#160;</a></span>ignitionLimits()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t timeToAngle </td>
+          <td class="memname">static int16_t ignitionLimits </td>
           <td>(</td>
-          <td class="paramtype">unsigned long&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td>
-          <td class="paramname"><em>method</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>A crank angle in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_cgraph.png" border="0" usemap="#acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_cgraph" alt=""/></div>
-<map name="acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_cgraph" id="acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,29,100,55"/>
+<div class="center"><img src="crank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_cgraph.png" border="0" usemap="#acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_cgraph" alt=""/></div>
+<map name="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_cgraph" id="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_cgraph">
+<area shape="rect" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="5,5,104,31"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="152,5,209,31"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="crank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_icgraph.png" border="0" usemap="#acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_icgraph" alt=""/></div>
-<map name="acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_icgraph" id="acrank_maths_8h_aea969ecaec6440bba97fb67c8af1501e_icgraph">
-<area shape="rect" title=" " alt="" coords="659,473,753,499"/>
-<area shape="rect" href="group__dec__gm.html#gae5c87b93eb8525d5a654808d6da541f8" title=" " alt="" coords="439,53,576,79"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,201,173,227"/>
-<area shape="rect" href="group__dec__dsm__420a.html#ga63ae61fba2d5d5648a91e677632ec4e3" title=" " alt="" coords="436,103,579,128"/>
-<area shape="rect" href="group__dec__mitsu__miata.html#gaf70f17dcd561d0aeaa7275b4a13bc59f" title=" " alt="" coords="435,152,580,177"/>
-<area shape="rect" href="group__dec__audi135.html#ga737b2cb5812e8da994175dd6ba02c265" title=" " alt="" coords="427,201,588,227"/>
-<area shape="rect" href="group__dec__dist.html#gae69fd1d751078911df398505c402f009" title=" " alt="" coords="404,251,611,276"/>
-<area shape="rect" href="group__dec__daihatsu.html#ga5a4307f68951f89ce9bf654fd5770ecb" title=" " alt="" coords="425,300,590,325"/>
-<area shape="rect" href="group__dec__dual.html#ga180ad255b59819bcc27072ee20e3de93" title=" " alt="" coords="419,349,595,375"/>
-<area shape="rect" href="group__dec__ford__st170.html#ga738d697cf6cd9a2a1058bc3f11840f76" title=" " alt="" coords="418,399,597,424"/>
-<area shape="rect" href="group__dec__gm7x.html#ga7c57989772bd6bb62270e54c8cbf3a98" title=" " alt="" coords="432,448,583,473"/>
-<area shape="rect" href="group__dec__harley.html#ga1d19e8f3b2063a9f3c61831640413969" title=" " alt="" coords="432,497,583,523"/>
-<area shape="rect" href="group__dec__honda__d17.html#ga247bfe144c06714863434aa21de77d04" title=" " alt="" coords="420,547,595,572"/>
-<area shape="rect" href="group__dec__jeep.html#ga9aad3c8209dbed7f20848832318789ab" title=" " alt="" coords="422,596,593,621"/>
-<area shape="rect" href="group__mazda__au.html#ga50807b7963a7f2dfc75e59ec4b1b8879" title=" " alt="" coords="422,645,593,671"/>
-<area shape="rect" href="group__miata__99__05.html#ga3db2e64cd83c3850e74276f0d98bbc46" title=" " alt="" coords="420,695,595,720"/>
-<area shape="rect" href="group__dec__miss.html#gaa481fa0f57d00cc8536bd39212143315" title=" " alt="" coords="411,744,603,769"/>
-<area shape="rect" href="group__dec__non360.html#gad056aba1bcaa8fc3ee493aee7a4f003f" title=" " alt="" coords="429,793,585,819"/>
-<area shape="rect" href="group__dec.html#gabc5a160a63e617bb9b855a4cc2768486" title=" " alt="" coords="414,843,601,868"/>
-<area shape="rect" href="group__dec__subaru__6__7.html#gacdbbd7739f6c089f45a31749914e1d9e" title=" " alt="" coords="423,892,592,917"/>
-<area shape="rect" href="group__dec__vmax.html#ga2ae94a2d037cd520e6bebe8eacf8d63f" title=" " alt="" coords="434,941,581,967"/>
-<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,448,356,473"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,448,192,473"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,448,60,473"/>
+<div class="center"><img src="crank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph.png" border="0" usemap="#acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph" alt=""/></div>
+<map name="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph" id="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph">
+<area shape="rect" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="836,444,935,469"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="639,343,788,368"/>
+<area shape="rect" href="group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21" title=" " alt="" coords="443,5,552,31"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="441,55,553,80"/>
+<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="411,104,584,129"/>
+<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="427,153,568,179"/>
+<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="418,400,577,425"/>
+<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="442,449,553,475"/>
+<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="441,499,554,524"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="420,548,575,573"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="429,597,565,623"/>
+<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="407,647,587,672"/>
+<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="404,696,591,721"/>
+<area shape="rect" href="group__dec__dist.html#gae40319672988117610d46d5d219419da" title=" " alt="" coords="647,747,780,787"/>
+<area shape="rect" href="group__dec__dual.html#ga06cd9110e0c0e5186e14ad36d27ee1de" title=" " alt="" coords="426,203,569,228"/>
+<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="438,252,557,277"/>
+<area shape="rect" href="group__dec__nissan360.html#ga6656c3d538cd486fdd05d8aefd4e505c" title=" " alt="" coords="426,301,569,327"/>
+<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="435,351,560,376"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,376,356,401"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,351,192,376"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,400,173,425"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,351,60,376"/>
 </map>
 </div>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a68b6f1c0ad43a0c6a23d47bf2ab0d215" name="a68b6f1c0ad43a0c6a23d47bf2ab0d215"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68b6f1c0ad43a0c6a23d47bf2ab0d215">&#9670;&#160;</a></span>degreesPeruSx32768</h2>
+<a id="a437337d1ba43119e466b3d417aa31656" name="a437337d1ba43119e466b3d417aa31656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a437337d1ba43119e466b3d417aa31656">&#9670;&#160;</a></span>timeToAngleDegPerMicroSec()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile unsigned long degreesPeruSx32768</td>
+          <td class="memname">uint16_t timeToAngleDegPerMicroSec </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Converts based on the the interval on time one degree of rotation takes. </p>
+<p >Inverse of angleToTimeMicroSecPerDegree </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="crank_maths_8h_a437337d1ba43119e466b3d417aa31656_icgraph.png" border="0" usemap="#acrank_maths_8h_a437337d1ba43119e466b3d417aa31656_icgraph" alt=""/></div>
+<map name="acrank_maths_8h_a437337d1ba43119e466b3d417aa31656_icgraph" id="acrank_maths_8h_a437337d1ba43119e466b3d417aa31656_icgraph">
+<area shape="rect" title="Converts based on the the interval on time one degree of rotation takes." alt="" coords="893,459,1087,484"/>
+<area shape="rect" href="group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb" title=" " alt="" coords="669,5,835,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,56,173,81"/>
+<area shape="rect" href="group__dec__gm.html#gae5c87b93eb8525d5a654808d6da541f8" title=" " alt="" coords="439,107,576,132"/>
+<area shape="rect" href="group__dec__dsm__420a.html#ga63ae61fba2d5d5648a91e677632ec4e3" title=" " alt="" coords="436,157,579,183"/>
+<area shape="rect" href="group__dec__audi135.html#ga737b2cb5812e8da994175dd6ba02c265" title=" " alt="" coords="427,207,588,232"/>
+<area shape="rect" href="group__dec__daihatsu.html#ga5a4307f68951f89ce9bf654fd5770ecb" title=" " alt="" coords="425,256,590,281"/>
+<area shape="rect" href="group__dec__dual.html#ga180ad255b59819bcc27072ee20e3de93" title=" " alt="" coords="664,309,840,335"/>
+<area shape="rect" href="group__dec__ford__st170.html#ga738d697cf6cd9a2a1058bc3f11840f76" title=" " alt="" coords="663,359,841,384"/>
+<area shape="rect" href="group__dec__gm7x.html#ga7c57989772bd6bb62270e54c8cbf3a98" title=" " alt="" coords="677,408,827,433"/>
+<area shape="rect" href="group__dec__harley.html#ga1d19e8f3b2063a9f3c61831640413969" title=" " alt="" coords="432,459,583,484"/>
+<area shape="rect" href="group__dec__honda__d17.html#ga247bfe144c06714863434aa21de77d04" title=" " alt="" coords="665,509,839,535"/>
+<area shape="rect" href="group__dec__jeep.html#ga9aad3c8209dbed7f20848832318789ab" title=" " alt="" coords="667,559,837,584"/>
+<area shape="rect" href="group__mazda__au.html#ga50807b7963a7f2dfc75e59ec4b1b8879" title=" " alt="" coords="667,608,837,633"/>
+<area shape="rect" href="group__miata__99__05.html#ga3db2e64cd83c3850e74276f0d98bbc46" title=" " alt="" coords="665,657,839,683"/>
+<area shape="rect" href="group__dec__miss.html#gaa481fa0f57d00cc8536bd39212143315" title=" " alt="" coords="411,712,603,737"/>
+<area shape="rect" href="group__dec__non360.html#gad056aba1bcaa8fc3ee493aee7a4f003f" title=" " alt="" coords="429,761,585,787"/>
+<area shape="rect" href="group__dec.html#gabc5a160a63e617bb9b855a4cc2768486" title=" " alt="" coords="659,809,845,835"/>
+<area shape="rect" href="group__dec__vmax.html#ga2ae94a2d037cd520e6bebe8eacf8d63f" title=" " alt="" coords="679,859,825,884"/>
+<area shape="rect" href="crank_maths_8cpp.html#a55458f11cda5228844f2584cbd51756d" title="Converts based on the time interval between the 2 most recently detected decoder teeth." alt="" coords="667,909,837,935"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="257,5,339,31"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,509,356,535"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,509,192,535"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,509,60,535"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#gaf70f17dcd561d0aeaa7275b4a13bc59f" title=" " alt="" coords="435,863,580,888"/>
+<area shape="rect" href="group__dec__dist.html#gae69fd1d751078911df398505c402f009" title=" " alt="" coords="404,912,611,937"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacdbbd7739f6c089f45a31749914e1d9e" title=" " alt="" coords="423,961,592,987"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="a73ed567d5bb7cb938d9918e678170ef6" name="a73ed567d5bb7cb938d9918e678170ef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73ed567d5bb7cb938d9918e678170ef6">&#9670;&#160;</a></span>timePerDegree</h2>
+<a id="a55458f11cda5228844f2584cbd51756d" name="a55458f11cda5228844f2584cbd51756d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55458f11cda5228844f2584cbd51756d">&#9670;&#160;</a></span>timeToAngleIntervalTooth()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">volatile uint16_t timePerDegree</td>
+          <td class="memname">uint16_t timeToAngleIntervalTooth </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
+<p>Converts based on the time interval between the 2 most recently detected decoder teeth. </p>
+<p >Inverse of angleToTimeIntervalTooth </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="crank_maths_8h_a55458f11cda5228844f2584cbd51756d_cgraph.png" border="0" usemap="#acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_cgraph" alt=""/></div>
+<map name="acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_cgraph" id="acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_cgraph">
+<area shape="rect" title="Converts based on the time interval between the 2 most recently detected decoder teeth." alt="" coords="5,5,176,31"/>
+<area shape="rect" href="crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656" title="Converts based on the the interval on time one degree of rotation takes." alt="" coords="224,5,417,31"/>
+</map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="crank_maths_8h_a55458f11cda5228844f2584cbd51756d_icgraph.png" border="0" usemap="#acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_icgraph" alt=""/></div>
+<map name="acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_icgraph" id="acrank_maths_8h_a55458f11cda5228844f2584cbd51756d_icgraph">
+<area shape="rect" title="Converts based on the time interval between the 2 most recently detected decoder teeth." alt="" coords="659,55,829,80"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#gaf70f17dcd561d0aeaa7275b4a13bc59f" title=" " alt="" coords="435,5,580,31"/>
+<area shape="rect" href="group__dec__dist.html#gae69fd1d751078911df398505c402f009" title=" " alt="" coords="404,55,611,80"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacdbbd7739f6c089f45a31749914e1d9e" title=" " alt="" coords="423,104,592,129"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,55,356,80"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,29,192,55"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,79,173,104"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,29,60,55"/>
+</map>
 </div>
-<a id="a9c4592777c16cb5795eb56475dce501f" name="a9c4592777c16cb5795eb56475dce501f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c4592777c16cb5795eb56475dce501f">&#9670;&#160;</a></span>timePerDegreex16</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile uint16_t timePerDegreex16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 3 2023 04:37:48 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Sun Nov 5 2023 22:10:34 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
