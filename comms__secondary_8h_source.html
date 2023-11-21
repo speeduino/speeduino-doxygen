@@ -89,34 +89,20 @@ $(function() {
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="comms__secondary_8h.html#a8dd9bfcb8dc18255358cdbde7c1342c5">   10</a></span><span class="preprocessor">#define SECONDARY_SERIAL_PROTO_MSDROID        3</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="comms__secondary_8h.html#a635567c55a1e395bfb941299f0a06b65">   11</a></span><span class="preprocessor">#define SECONDARY_SERIAL_PROTO_REALDASH       4</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#if ( defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) )</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">  #define secondarySerial_AVAILABLE</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  <span class="keyword">extern</span> HardwareSerial &amp;secondarySerial;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#elif defined(CORE_STM32)</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">  #define secondarySerial_AVAILABLE</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">  #ifndef HAVE_HWSERIAL2 </span><span class="comment">//Hack to get the code to compile on BlackPills</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">    #define Serial2 Serial1</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">  #endif</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">  #if defined(STM32GENERIC) </span><span class="comment">// STM32GENERIC core</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">extern</span> SerialUART &amp;secondarySerial;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">  #else </span><span class="comment">//libmaple core aka STM32DUINO</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">extern</span> HardwareSerial &amp;secondarySerial;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">  #endif</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#elif defined(CORE_TEENSY)</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="preprocessor">  #define secondarySerial_AVAILABLE</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>  <span class="keyword">extern</span> HardwareSerial &amp;secondarySerial;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="comms__secondary_8h.html#a7c6918eaefbe2574c2a1133062129633">secondserial_Command</a>(<span class="keywordtype">void</span>);<span class="comment">//This is the heart of the Command Line Interpreter.  All that needed to be done was to make it human readable.</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keywordtype">void</span> <a class="code hl_function" href="comms__secondary_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a>(uint8_t cmdtype , uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="preprocessor">#endif </span><span class="comment">// COMMS_SECONDARY_H</span></div>
-<div class="ttc" id="acomms__secondary_8h_html_a7c6918eaefbe2574c2a1133062129633"><div class="ttname"><a href="comms__secondary_8h.html#a7c6918eaefbe2574c2a1133062129633">secondserial_Command</a></div><div class="ttdeci">void secondserial_Command(void)</div><div class="ttdef"><b>Definition:</b> comms_secondary.cpp:45</div></div>
-<div class="ttc" id="acomms__secondary_8h_html_abaedf59c4501a2aa6e3f7256988daeb3"><div class="ttname"><a href="comms__secondary_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a></div><div class="ttdeci">void sendCancommand(uint8_t cmdtype, uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress)</div><div class="ttdef"><b>Definition:</b> comms_secondary.cpp:184</div></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">extern</span> SECONDARY_SERIAL_T *<a class="code hl_variable" href="comms__secondary_8h.html#a48dfd3b0fa1fa11aa3ff71b3b5296573">pSecondarySerial</a>;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="comms__secondary_8h.html#ae56004642fac544acad680959ddea8b2">   14</a></span><span class="preprocessor">#define secondarySerial (*pSecondarySerial)</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> <a class="code hl_function" href="comms__secondary_8h.html#a7c6918eaefbe2574c2a1133062129633">secondserial_Command</a>(<span class="keywordtype">void</span>);<span class="comment">//This is the heart of the Command Line Interpreter.  All that needed to be done was to make it human readable.</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">void</span> <a class="code hl_function" href="comms__secondary_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a>(uint8_t cmdtype , uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif </span><span class="comment">// COMMS_SECONDARY_H</span></div>
+<div class="ttc" id="acomms__secondary_8h_html_a48dfd3b0fa1fa11aa3ff71b3b5296573"><div class="ttname"><a href="comms__secondary_8h.html#a48dfd3b0fa1fa11aa3ff71b3b5296573">pSecondarySerial</a></div><div class="ttdeci">SECONDARY_SERIAL_T * pSecondarySerial</div><div class="ttdef"><b>Definition:</b> comms_secondary.cpp:30</div></div>
+<div class="ttc" id="acomms__secondary_8h_html_a7c6918eaefbe2574c2a1133062129633"><div class="ttname"><a href="comms__secondary_8h.html#a7c6918eaefbe2574c2a1133062129633">secondserial_Command</a></div><div class="ttdeci">void secondserial_Command(void)</div><div class="ttdef"><b>Definition:</b> comms_secondary.cpp:32</div></div>
+<div class="ttc" id="acomms__secondary_8h_html_abaedf59c4501a2aa6e3f7256988daeb3"><div class="ttname"><a href="comms__secondary_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a></div><div class="ttdeci">void sendCancommand(uint8_t cmdtype, uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress)</div><div class="ttdef"><b>Definition:</b> comms_secondary.cpp:171</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 16 2023 00:11:51 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Nov 21 2023 05:47:43 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

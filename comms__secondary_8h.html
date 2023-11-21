@@ -76,7 +76,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">comms_secondary.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -112,6 +113,8 @@ Macros</h2></td></tr>
 <tr class="separator:a8dd9bfcb8dc18255358cdbde7c1342c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a635567c55a1e395bfb941299f0a06b65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__secondary_8h.html#a635567c55a1e395bfb941299f0a06b65">SECONDARY_SERIAL_PROTO_REALDASH</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a635567c55a1e395bfb941299f0a06b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56004642fac544acad680959ddea8b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__secondary_8h.html#ae56004642fac544acad680959ddea8b2">secondarySerial</a>&#160;&#160;&#160;(*<a class="el" href="comms__secondary_8cpp.html#a48dfd3b0fa1fa11aa3ff71b3b5296573">pSecondarySerial</a>)</td></tr>
+<tr class="separator:ae56004642fac544acad680959ddea8b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -119,6 +122,11 @@ Functions</h2></td></tr>
 <tr class="separator:a7c6918eaefbe2574c2a1133062129633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaedf59c4501a2aa6e3f7256988daeb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__secondary_8h.html#abaedf59c4501a2aa6e3f7256988daeb3">sendCancommand</a> (uint8_t cmdtype, uint16_t canadddress, uint8_t candata1, uint8_t candata2, uint16_t sourcecanAddress)</td></tr>
 <tr class="separator:abaedf59c4501a2aa6e3f7256988daeb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a48dfd3b0fa1fa11aa3ff71b3b5296573"><td class="memItemLeft" align="right" valign="top">SECONDARY_SERIAL_T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="comms__secondary_8h.html#a48dfd3b0fa1fa11aa3ff71b3b5296573">pSecondarySerial</a></td></tr>
+<tr class="separator:a48dfd3b0fa1fa11aa3ff71b3b5296573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a5b3d468da785ea5505d05e9a91182fbe" name="a5b3d468da785ea5505d05e9a91182fbe"></a>
@@ -213,6 +221,20 @@ Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define SECONDARY_SERIAL_PROTO_REALDASH&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae56004642fac544acad680959ddea8b2" name="ae56004642fac544acad680959ddea8b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56004642fac544acad680959ddea8b2">&#9670;&#160;</a></span>secondarySerial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define secondarySerial&#160;&#160;&#160;(*<a class="el" href="comms__secondary_8cpp.html#a48dfd3b0fa1fa11aa3ff71b3b5296573">pSecondarySerial</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -358,10 +380,33 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a48dfd3b0fa1fa11aa3ff71b3b5296573" name="a48dfd3b0fa1fa11aa3ff71b3b5296573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48dfd3b0fa1fa11aa3ff71b3b5296573">&#9670;&#160;</a></span>pSecondarySerial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SECONDARY_SERIAL_T* pSecondarySerial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 16 2023 00:11:51 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Nov 21 2023 05:47:43 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
