@@ -65,7 +65,7 @@ var searchData=
   ['micros_5fper_5fsec_62',['MICROS_PER_SEC',['../globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b',1,'globals.h']]],
   ['microsperdegree_63',['microsPerDegree',['../decoders_8cpp.html#a1a2d182a827bee47cfda6dc696442d6e',1,'microsPerDegree():&#160;decoders.cpp'],['../decoders_8h.html#a1a2d182a827bee47cfda6dc696442d6e',1,'microsPerDegree():&#160;decoders.cpp']]],
   ['microsperdegree_5fshift_64',['microsPerDegree_Shift',['../decoders_8h.html#ad5ceeabcb03430a05e9748ca61a34cb3',1,'decoders.h']]],
-  ['min_5fcycles_5ffor_5fendcompare_65',['MIN_CYCLES_FOR_ENDCOMPARE',['../group__dec__uni.html#ga7cafbc75494e9d7e2499a404179a56f3',1,'decoders.cpp']]],
+  ['min_5fcycles_5ffor_5fendcompare_65',['MIN_CYCLES_FOR_ENDCOMPARE',['../schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3',1,'schedule_calcs.hpp']]],
   ['min_5frpm_66',['MIN_RPM',['../crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce',1,'crankMaths.h']]],
   ['missing_20tooth_20wheel_67',['Missing tooth wheel',['../group__dec__miss.html',1,'']]],
   ['mistsubishi_204g63_20and_20miata_20_2b_20mx_2d5_68',['Mistsubishi 4G63 and Miata + MX-5',['../group__dec__mitsu__miata.html',1,'']]],

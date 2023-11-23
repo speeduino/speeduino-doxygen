@@ -71,17 +71,11 @@ $(function() {
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Universal Decoder Routines</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ga7cafbc75494e9d7e2499a404179a56f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga7cafbc75494e9d7e2499a404179a56f3">MIN_CYCLES_FOR_ENDCOMPARE</a>&#160;&#160;&#160;6</td></tr>
-<tr class="separator:ga7cafbc75494e9d7e2499a404179a56f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ga7bb4f5342ba80b6846836c8e6432975a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a">addToothLogEntry</a> (unsigned long toothTime, <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> whichTooth)</td></tr>
@@ -113,22 +107,6 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p >Universal (shared between decoders) decoder routines. </p>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ga7cafbc75494e9d7e2499a404179a56f3" name="ga7cafbc75494e9d7e2499a404179a56f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga7cafbc75494e9d7e2499a404179a56f3">&#9670;&#160;</a></span>MIN_CYCLES_FOR_ENDCOMPARE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_CYCLES_FOR_ENDCOMPARE&#160;&#160;&#160;6</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >On decoders that are enabled for per tooth based timing adjustments, this function performs the timer compare changes on the schedules themselves For each ignition channel, a check is made whether we're at the relevant tooth and whether that ignition schedule is currently running Only if both these conditions are met will the schedule be updated with the latest timing information. If it's the correct tooth, but the schedule is not yet started, calculate and an end compare value (This situation occurs when both the start and end of the ignition pulse happen after the end tooth, but before the next tooth) </p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga7bb4f5342ba80b6846836c8e6432975a" name="ga7bb4f5342ba80b6846836c8e6432975a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga7bb4f5342ba80b6846836c8e6432975a">&#9670;&#160;</a></span>addToothLogEntry()</h2>
@@ -225,15 +203,17 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p >On decoders that are enabled for per tooth based timing adjustments, this function performs the timer compare changes on the schedules themselves For each ignition channel, a check is made whether we're at the relevant tooth and whether that ignition schedule is currently running Only if both these conditions are met will the schedule be updated with the latest timing information. If it's the correct tooth, but the schedule is not yet started, calculate and an end compare value (This situation occurs when both the start and end of the ignition pulse happen after the end tooth, but before the next tooth) </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_ga62a160e1172b583d383d8ca212f5a3f8_cgraph.png" border="0" usemap="#agroup__dec__uni_ga62a160e1172b583d383d8ca212f5a3f8_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_ga62a160e1172b583d383d8ca212f5a3f8_cgraph" id="agroup__dec__uni_ga62a160e1172b583d383d8ca212f5a3f8_cgraph">
 <area shape="rect" title=" " alt="" coords="5,31,155,56"/>
-<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="203,5,416,31"/>
-<area shape="rect" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="260,55,359,80"/>
-<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="464,55,521,80"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a43b8439ec1167ec8e7e13cba3dbd52b7" title=" " alt="" coords="203,31,327,56"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="375,5,588,31"/>
+<area shape="rect" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="432,55,531,80"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="636,55,693,80"/>
 </map>
 </div>
 <div class="dynheader">
@@ -952,7 +932,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 23 2023 21:08:06 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Thu Nov 23 2023 22:36:00 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

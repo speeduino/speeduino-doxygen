@@ -75,12 +75,15 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">schedule_calcs.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="crank_maths_8h_source.html">crankMaths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -98,6 +101,11 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="schedule__calcs_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7cafbc75494e9d7e2499a404179a56f3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3">MIN_CYCLES_FOR_ENDCOMPARE</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:a7cafbc75494e9d7e2499a404179a56f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab6c0259150ae9955c920ee60570d0c1d"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#ab6c0259150ae9955c920ee60570d0c1d">calculateInjectorStartAngle</a> (uint16_t pwDegrees, int16_t injChannelDegrees, uint16_t injAngle)</td></tr>
@@ -118,7 +126,24 @@ Functions</h2></td></tr>
 <tr class="separator:a23c02f6b1845924218198fe4f40f6089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b32d25d24171d9c96b6b542a52f26eb"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a6b32d25d24171d9c96b6b542a52f26eb">calculateIgnitionTimeout</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, int startAngle, int channelIgnDegrees, int crankAngle)</td></tr>
 <tr class="separator:a6b32d25d24171d9c96b6b542a52f26eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b8439ec1167ec8e7e13cba3dbd52b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a43b8439ec1167ec8e7e13cba3dbd52b7">adjustCrankAngle</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, int endAngle, int crankAngle)</td></tr>
+<tr class="separator:a43b8439ec1167ec8e7e13cba3dbd52b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7cafbc75494e9d7e2499a404179a56f3" name="a7cafbc75494e9d7e2499a404179a56f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cafbc75494e9d7e2499a404179a56f3">&#9670;&#160;</a></span>MIN_CYCLES_FOR_ENDCOMPARE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN_CYCLES_FOR_ENDCOMPARE&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a23c02f6b1845924218198fe4f40f6089" name="a23c02f6b1845924218198fe4f40f6089"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a23c02f6b1845924218198fe4f40f6089">&#9670;&#160;</a></span>_adjustToIgnChannel()</h2>
@@ -325,6 +350,87 @@ Here is the caller graph for this function:</div>
 <map name="aschedule__calcs_8hpp_ab77d498b5413ab182af24708d02eb9bc_icgraph" id="aschedule__calcs_8hpp_ab77d498b5413ab182af24708d02eb9bc_icgraph">
 <area shape="rect" title=" " alt="" coords="217,5,388,31"/>
 <area shape="rect" href="schedule__calcs_8hpp.html#a0cc2b07b2321f708d13550005beea16b" title=" " alt="" coords="5,5,169,31"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a43b8439ec1167ec8e7e13cba3dbd52b7" name="a43b8439ec1167ec8e7e13cba3dbd52b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b8439ec1167ec8e7e13cba3dbd52b7">&#9670;&#160;</a></span>adjustCrankAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void adjustCrankAngle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>endAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>crankAngle</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_cgraph" id="aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,129,56"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title="Converts based on the time one degree of rotation takes." alt="" coords="177,5,391,31"/>
+<area shape="rect" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="235,55,333,80"/>
+<area shape="rect" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14" title="Make one pass at correcting the value into the range [min, max)" alt="" coords="439,55,496,80"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="schedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_icgraph" id="aschedule__calcs_8hpp_a43b8439ec1167ec8e7e13cba3dbd52b7_icgraph">
+<area shape="rect" title=" " alt="" coords="836,351,960,376"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="639,351,788,376"/>
+<area shape="rect" href="group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21" title=" " alt="" coords="443,5,552,31"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="441,55,553,80"/>
+<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="411,104,584,129"/>
+<area shape="rect" href="group__dec__dual.html#ga06cd9110e0c0e5186e14ad36d27ee1de" title=" " alt="" coords="426,153,569,179"/>
+<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="438,203,557,228"/>
+<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="427,252,568,277"/>
+<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="418,301,577,327"/>
+<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="442,351,553,376"/>
+<area shape="rect" href="group__dec__nissan360.html#ga6656c3d538cd486fdd05d8aefd4e505c" title=" " alt="" coords="426,400,569,425"/>
+<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="441,449,554,475"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="420,499,575,524"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="429,548,565,573"/>
+<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="407,597,587,623"/>
+<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="404,647,591,672"/>
+<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="435,696,560,721"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,351,356,376"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,325,192,351"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,375,173,400"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,325,60,351"/>
 </map>
 </div>
 
@@ -611,7 +717,7 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 23 2023 21:08:05 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Thu Nov 23 2023 22:36:00 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
