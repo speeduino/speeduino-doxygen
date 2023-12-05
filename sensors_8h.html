@@ -136,6 +136,8 @@ Macros</h2></td></tr>
 <tr class="separator:a8c08f026ab10562b8bb3f257f76946bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a943c6a4ab8a31f750ae41e1e50d8a5cc">READ_FLEX</a>()&#160;&#160;&#160;digitalRead(<a class="el" href="globals_8cpp.html#a881676bf3546a0b2d7bec83e8d50d45b">pinFlex</a>)</td></tr>
 <tr class="separator:a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad811291d0d63f4d5f9df3429f6786b60"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ad811291d0d63f4d5f9df3429f6786b60">ADMUX_DEFAULT_CONFIG</a>&#160;&#160;&#160;0x40</td></tr>
+<tr class="separator:ad811291d0d63f4d5f9df3429f6786b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546e9cb3295371234f60dcf3beae19dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">ADC_FILTER</a>(input,  alpha,  prior)&#160;&#160;&#160;(((long)input * (256 - alpha) + ((long)prior * alpha))) &gt;&gt; 8</td></tr>
 <tr class="memdesc:a546e9cb3295371234f60dcf3beae19dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple low pass IIR filter macro for the analog inputs This is effectively implementing the smooth filter from playground.arduino.cc/Main/Smooth But removes the use of floats and uses 8 bits of fixed precision.  <a href="sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd">More...</a><br /></td></tr>
 <tr class="separator:a546e9cb3295371234f60dcf3beae19dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -349,6 +351,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define ADCFILTER_TPS_DEFAULT&#160;&#160;&#160;50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad811291d0d63f4d5f9df3429f6786b60" name="ad811291d0d63f4d5f9df3429f6786b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad811291d0d63f4d5f9df3429f6786b60">&#9670;&#160;</a></span>ADMUX_DEFAULT_CONFIG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ADMUX_DEFAULT_CONFIG&#160;&#160;&#160;0x40</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1381,7 +1397,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 1 2023 03:57:54 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Dec 5 2023 06:36:10 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
