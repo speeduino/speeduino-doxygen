@@ -66,8 +66,9 @@ var searchData=
   ['loop100ms_63',['loop100ms',['../timers_8cpp.html#abee157bd72540348338826e26f4ff526',1,'timers.cpp']]],
   ['loop250ms_64',['loop250ms',['../timers_8cpp.html#a98a956b21f0c584520ccc45c501b98d8',1,'timers.cpp']]],
   ['loop33ms_65',['loop33ms',['../timers_8cpp.html#abb944e77bfd49a4c2699d59a178a17ec',1,'timers.cpp']]],
-  ['loop66ms_66',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
-  ['loop_5ftimer_67',['LOOP_TIMER',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER():&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER():&#160;globals.cpp']]],
-  ['loopsec_68',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
-  ['loopspersecond_69',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
+  ['loop5ms_66',['loop5ms',['../timers_8cpp.html#a231ee6f19e5c5af256d1fdf5a37db335',1,'timers.cpp']]],
+  ['loop66ms_67',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
+  ['loop_5ftimer_68',['LOOP_TIMER',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER():&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER():&#160;globals.cpp']]],
+  ['loopsec_69',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
+  ['loopspersecond_70',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
 ];
