@@ -239,22 +239,26 @@ $(function() {
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span><span class="preprocessor">  #define SECONDARY_SERIAL_T HardwareSerial</span></div>
 <div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span><span class="preprocessor">  #include &lt;FlexCAN_T4.h&gt;</span></div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span><span class="preprocessor">#if defined(__MK64FX512__)         </span><span class="comment">// use for Teensy 3.5 only </span></div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN0, RX_SIZE_256, TX_SIZE_16&gt; Can0;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="preprocessor">#elif defined(__MK66FX1M0__)         </span><span class="comment">// use for Teensy 3.6 only</span></div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN0, RX_SIZE_256, TX_SIZE_16&gt; Can0;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can1; </div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="preprocessor">  #define NATIVE_CAN_AVAILABLE</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY35_H</span></div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>  <span class="comment">/*</span></div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="comment">  //These are declared locally in comms_CAN now due to this issue: https://github.com/tonton81/FlexCAN_T4/issues/67</span></div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="comment">#if defined(__MK64FX512__)         // use for Teensy 3.5 only </span></div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="comment">  extern FlexCAN_T4&lt;CAN0, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="comment">  FlexCAN_T4&lt;CAN0, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span><span class="comment">#elif defined(__MK66FX1M0__)         // use for Teensy 3.6 only</span></div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span><span class="comment">  extern FlexCAN_T4&lt;CAN0, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span><span class="comment">  extern FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can1; </span></div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span><span class="comment">#endif</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span><span class="preprocessor">  #define NATIVE_CAN_AVAILABLE</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY35_H</span></div>
 <div class="ttc" id="aauxiliaries_8cpp_html_a3817295e5731ea49e9a80753667121d6"><div class="ttname"><a href="auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6">vvtInterrupt</a></div><div class="ttdeci">void vvtInterrupt(void)</div><div class="ttdef"><b>Definition:</b> auxiliaries.cpp:1143</div></div>
 <div class="ttc" id="aauxiliaries_8cpp_html_ad4d9daee30b13a076f65801fca57e319"><div class="ttname"><a href="auxiliaries_8cpp.html#ad4d9daee30b13a076f65801fca57e319">boostInterrupt</a></div><div class="ttdeci">void boostInterrupt(void)</div><div class="ttdef"><b>Definition:</b> auxiliaries.cpp:1113</div></div>
 <div class="ttc" id="aidle_8cpp_html_a0548a8600849f42990ddc099404d012a"><div class="ttname"><a href="idle_8cpp.html#a0548a8600849f42990ddc099404d012a">idleInterrupt</a></div><div class="ttdeci">void idleInterrupt(void)</div><div class="ttdef"><b>Definition:</b> idle.cpp:884</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 20 2023 21:28:04 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Thu Dec 21 2023 02:40:57 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
