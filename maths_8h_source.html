@@ -173,107 +173,109 @@ $(function() {
 <div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>}</div>
 <div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="maths_8h.html#a4499fd21d701d4186e1d5e7acc566556">  186</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#a4499fd21d701d4186e1d5e7acc566556">percentage</a>(uint8_t percent, uint16_t value) {</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    <span class="keywordflow">return</span> (uint16_t)<a class="code hl_function" href="group__group-div100.html#gaf04d6ab82ec9f03c6991bb264601813e">div100</a>((uint32_t)value * (uint32_t)percent);</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>}</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span> </div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno"><a class="line" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">  197</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">halfPercentage</a>(uint8_t percent, uint16_t value) {</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>    uint32_t x200 = (uint32_t)percent * (uint32_t)value;</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="preprocessor">#ifdef USE_LIBDIVIDE    </span></div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    <span class="keywordflow">return</span> (uint16_t)libdivide::libdivide_u32_do_raw(x200 + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(UINT32_C(200), uint32_t), 2748779070L, 7);</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordflow">return</span> (uint16_t)<a class="code hl_define" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(x200, UINT16_C(200), uint32_t);</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>}</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno"><a class="line" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">  215</a></span><span class="keyword">static</span> <span class="keyword">inline</span> int16_t <a class="code hl_function" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">nudge</a>(int16_t min, int16_t max, int16_t value, int16_t nudgeAmount)</div>
-<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>{</div>
-<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>    <span class="keywordflow">if</span> (value&lt;min) { <span class="keywordflow">return</span> value + nudgeAmount; }</div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keywordflow">if</span> (value&gt;max) { <span class="keywordflow">return</span> value - nudgeAmount; }</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keywordflow">return</span> value;</div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>}</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span> </div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span><span class="comment">//This is a dedicated function that specifically handles the case of mapping 0-1023 values into a 0 to X range</span></div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span><span class="comment">//This is a common case because it means converting from a standard 10-bit analog input to a byte or 10-bit analog into 0-511 (Eg the temperature readings)</span></div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno"><a class="line" href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">  224</a></span><span class="preprocessor">#define fastMap1023toX(x, out_max) ( ((uint32_t)(x) * (out_max)) &gt;&gt; 10)</span></div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="comment">//This is a new version that allows for out_min</span></div>
-<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="maths_8h.html#a75b8618bbbc73031d200d1424e0252d6">  226</a></span><span class="preprocessor">#define fastMap10Bit(x, out_min, out_max) ( ( ((uint32_t)(x) * ((out_max)-(out_min))) &gt;&gt; 10 ) + (out_min))</span></div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span> </div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno"><a class="line" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101">  186</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint32_t <a class="code hl_function" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101">percentage</a>(uint8_t percent, uint32_t value) </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>{</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    <span class="keywordflow">return</span> (uint32_t)<a class="code hl_function" href="group__group-div100.html#gaf04d6ab82ec9f03c6991bb264601813e">div100</a>((uint32_t)value * (uint32_t)percent);</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>}</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno"><a class="line" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">  199</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">halfPercentage</a>(uint8_t percent, uint16_t value) {</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    uint32_t x200 = (uint32_t)percent * (uint32_t)value;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="preprocessor">#ifdef USE_LIBDIVIDE    </span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordflow">return</span> (uint16_t)libdivide::libdivide_u32_do_raw(x200 + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(UINT32_C(200), uint32_t), 2748779070L, 7);</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keywordflow">return</span> (uint16_t)<a class="code hl_define" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(x200, UINT16_C(200), uint32_t);</div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>}</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno"><a class="line" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">  217</a></span><span class="keyword">static</span> <span class="keyword">inline</span> int16_t <a class="code hl_function" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">nudge</a>(int16_t min, int16_t max, int16_t value, int16_t nudgeAmount)</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>{</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>    <span class="keywordflow">if</span> (value&lt;min) { <span class="keywordflow">return</span> value + nudgeAmount; }</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    <span class="keywordflow">if</span> (value&gt;max) { <span class="keywordflow">return</span> value - nudgeAmount; }</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordflow">return</span> value;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>}</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="comment">//This is a dedicated function that specifically handles the case of mapping 0-1023 values into a 0 to X range</span></div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="comment">//This is a common case because it means converting from a standard 10-bit analog input to a byte or 10-bit analog into 0-511 (Eg the temperature readings)</span></div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno"><a class="line" href="maths_8h.html#adf5aef9f92a453f709100b14ff31e8e7">  226</a></span><span class="preprocessor">#define fastMap1023toX(x, out_max) ( ((uint32_t)(x) * (out_max)) &gt;&gt; 10)</span></div>
+<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="comment">//This is a new version that allows for out_min</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="maths_8h.html#a75b8618bbbc73031d200d1424e0252d6">  228</a></span><span class="preprocessor">#define fastMap10Bit(x, out_min, out_max) ( ( ((uint32_t)(x) * ((out_max)-(out_min))) &gt;&gt; 10 ) + (out_min))</span></div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> udiv_is16bit_result(uint32_t dividend, uint16_t divisor) {</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>  <span class="keywordflow">return</span> divisor&gt;(uint16_t)(dividend&gt;&gt;16U);</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>}</div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno"><a class="line" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">  250</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a> (uint32_t dividend, uint16_t divisor)</div>
-<div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>{</div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span>    <span class="keywordflow">if</span> (divisor==0U || !udiv_is16bit_result(dividend, divisor)) { <span class="keywordflow">return</span> UINT16_MAX; }</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> udiv_is16bit_result(uint32_t dividend, uint16_t divisor) {</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>  <span class="keywordflow">return</span> divisor&gt;(uint16_t)(dividend&gt;&gt;16U);</div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>}</div>
+<div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00252" name="l00252"></a><span class="lineno"><a class="line" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">  252</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a> (uint32_t dividend, uint16_t divisor)</div>
+<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span>{</div>
+<div class="line"><a id="l00254" name="l00254"></a><span class="lineno">  254</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
-<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span><span class="preprocessor">    #define INDEX_REG &quot;r16&quot;</span></div>
+<div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span>    <span class="keywordflow">if</span> (divisor==0U || !udiv_is16bit_result(dividend, divisor)) { <span class="keywordflow">return</span> UINT16_MAX; }</div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span> </div>
-<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span>    <span class="keyword">asm</span>(</div>
-<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>        <span class="stringliteral">&quot;    ldi &quot;</span> INDEX_REG <span class="stringliteral">&quot;, 16 ; bits = 16\n\t&quot;</span></div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>        <span class="stringliteral">&quot;0:\n\t&quot;</span></div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        <span class="stringliteral">&quot;    lsl  %A0     ; shift\n\t&quot;</span></div>
-<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <span class="stringliteral">&quot;    rol  %B0     ;  rem:quot\n\t&quot;</span></div>
-<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        <span class="stringliteral">&quot;    rol  %C0     ;   left\n\t&quot;</span></div>
-<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        <span class="stringliteral">&quot;    rol  %D0     ;    by 1\n\t&quot;</span></div>
-<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        <span class="stringliteral">&quot;    brcs 1f     ; if carry out, rem &gt; divisor\n\t&quot;</span></div>
-<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <span class="stringliteral">&quot;    cp   %C0, %A1 ; is rem less\n\t&quot;</span></div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <span class="stringliteral">&quot;    cpc  %D0, %B1 ;  than divisor ?\n\t&quot;</span></div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        <span class="stringliteral">&quot;    brcs 2f     ; yes, when carry out\n\t&quot;</span></div>
-<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        <span class="stringliteral">&quot;1:\n\t&quot;</span></div>
-<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <span class="stringliteral">&quot;    sub  %C0, %A1 ; compute\n\t&quot;</span></div>
-<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="stringliteral">&quot;    sbc  %D0, %B1 ;  rem -= divisor\n\t&quot;</span></div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        <span class="stringliteral">&quot;    ori  %A0, 1  ; record quotient bit as 1\n\t&quot;</span></div>
-<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        <span class="stringliteral">&quot;2:\n\t&quot;</span></div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="stringliteral">&quot;    dec  &quot;</span> INDEX_REG <span class="stringliteral">&quot;     ; bits--\n\t&quot;</span></div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        <span class="stringliteral">&quot;    brne 0b     ; until bits == 0&quot;</span></div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        : <span class="stringliteral">&quot;=d&quot;</span> (dividend) </div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        : <span class="stringliteral">&quot;d&quot;</span> (divisor) , <span class="stringliteral">&quot;0&quot;</span> (dividend) </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        : INDEX_REG</div>
-<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>    );</div>
-<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span> </div>
-<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    <span class="comment">// Lower word contains the quotient, upper word contains the remainder.</span></div>
-<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="keywordflow">return</span> dividend &amp; 0xFFFFU;</div>
-<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="comment">// The non-AVR platforms are all fast enough (or have built in hardware dividers)</span></div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="comment">// so just fall back to regular 32-bit division.</span></div>
-<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="keywordflow">return</span> dividend / divisor;</div>
-<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>}</div>
-<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span> </div>
-<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
-<div class="line"><a id="l00297" name="l00297"></a><span class="lineno"><a class="line" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">  297</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">udiv_32_16_closest</a>(uint32_t dividend, uint16_t divisor)</div>
-<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>{</div>
-<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
-<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>    dividend = dividend + (uint32_t)(<a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(divisor, uint16_t));</div>
-<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a>(dividend, divisor);</div>
-<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordflow">return</span> (uint16_t)<a class="code hl_define" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(dividend, (uint32_t)divisor, uint32_t);</div>
-<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>}</div>
-<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
-<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00258" name="l00258"></a><span class="lineno">  258</span><span class="preprocessor">    #define INDEX_REG &quot;r16&quot;</span></div>
+<div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span> </div>
+<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <span class="keyword">asm</span>(</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>        <span class="stringliteral">&quot;    ldi &quot;</span> INDEX_REG <span class="stringliteral">&quot;, 16 ; bits = 16\n\t&quot;</span></div>
+<div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>        <span class="stringliteral">&quot;0:\n\t&quot;</span></div>
+<div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>        <span class="stringliteral">&quot;    lsl  %A0     ; shift\n\t&quot;</span></div>
+<div class="line"><a id="l00264" name="l00264"></a><span class="lineno">  264</span>        <span class="stringliteral">&quot;    rol  %B0     ;  rem:quot\n\t&quot;</span></div>
+<div class="line"><a id="l00265" name="l00265"></a><span class="lineno">  265</span>        <span class="stringliteral">&quot;    rol  %C0     ;   left\n\t&quot;</span></div>
+<div class="line"><a id="l00266" name="l00266"></a><span class="lineno">  266</span>        <span class="stringliteral">&quot;    rol  %D0     ;    by 1\n\t&quot;</span></div>
+<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>        <span class="stringliteral">&quot;    brcs 1f     ; if carry out, rem &gt; divisor\n\t&quot;</span></div>
+<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span>        <span class="stringliteral">&quot;    cp   %C0, %A1 ; is rem less\n\t&quot;</span></div>
+<div class="line"><a id="l00269" name="l00269"></a><span class="lineno">  269</span>        <span class="stringliteral">&quot;    cpc  %D0, %B1 ;  than divisor ?\n\t&quot;</span></div>
+<div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>        <span class="stringliteral">&quot;    brcs 2f     ; yes, when carry out\n\t&quot;</span></div>
+<div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>        <span class="stringliteral">&quot;1:\n\t&quot;</span></div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>        <span class="stringliteral">&quot;    sub  %C0, %A1 ; compute\n\t&quot;</span></div>
+<div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>        <span class="stringliteral">&quot;    sbc  %D0, %B1 ;  rem -= divisor\n\t&quot;</span></div>
+<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>        <span class="stringliteral">&quot;    ori  %A0, 1  ; record quotient bit as 1\n\t&quot;</span></div>
+<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span>        <span class="stringliteral">&quot;2:\n\t&quot;</span></div>
+<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span>        <span class="stringliteral">&quot;    dec  &quot;</span> INDEX_REG <span class="stringliteral">&quot;     ; bits--\n\t&quot;</span></div>
+<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span>        <span class="stringliteral">&quot;    brne 0b     ; until bits == 0&quot;</span></div>
+<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>        : <span class="stringliteral">&quot;=d&quot;</span> (dividend) </div>
+<div class="line"><a id="l00279" name="l00279"></a><span class="lineno">  279</span>        : <span class="stringliteral">&quot;d&quot;</span> (divisor) , <span class="stringliteral">&quot;0&quot;</span> (dividend) </div>
+<div class="line"><a id="l00280" name="l00280"></a><span class="lineno">  280</span>        : INDEX_REG</div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span>    );</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span> </div>
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span>    <span class="comment">// Lower word contains the quotient, upper word contains the remainder.</span></div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    <span class="keywordflow">return</span> dividend &amp; 0xFFFFU;</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="comment">// The non-AVR platforms are all fast enough (or have built in hardware dividers)</span></div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="comment">// so just fall back to regular 32-bit division.</span></div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span>    <span class="keywordflow">return</span> dividend / divisor;</div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>}</div>
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span> </div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span> </div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno"><a class="line" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">  299</a></span><span class="keyword">static</span> <span class="keyword">inline</span> uint16_t <a class="code hl_function" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">udiv_32_16_closest</a>(uint32_t dividend, uint16_t divisor)</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span>{</div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span><span class="preprocessor">#if defined(CORE_AVR) || defined(ARDUINO_ARCH_AVR)</span></div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span>    dividend = dividend + (uint32_t)(<a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(divisor, uint16_t));</div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a>(dividend, divisor);</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    <span class="keywordflow">return</span> (uint16_t)<a class="code hl_define" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(dividend, (uint32_t)divisor, uint32_t);</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>}</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span> </div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aglobals_8h_html"><div class="ttname"><a href="globals_8h.html">globals.h</a></div></div>
 <div class="ttc" id="agroup__group-div100_html_gaf04d6ab82ec9f03c6991bb264601813e"><div class="ttname"><a href="group__group-div100.html#gaf04d6ab82ec9f03c6991bb264601813e">div100</a></div><div class="ttdeci">static uint16_t div100(uint16_t n)</div><div class="ttdef"><b>Definition:</b> maths.h:115</div></div>
 <div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition:</b> maths.h:58</div></div>
 <div class="ttc" id="agroup__group-rounded-div_html_ga5996348be8a27108d31aecf3ed216f78"><div class="ttname"><a href="group__group-rounded-div.html#ga5996348be8a27108d31aecf3ed216f78">DIV_ROUND_CLOSEST</a></div><div class="ttdeci">#define DIV_ROUND_CLOSEST(n, d, t)</div><div class="ttdoc">Rounded integer division.</div><div class="ttdef"><b>Definition:</b> maths.h:75</div></div>
 <div class="ttc" id="agroup__group-rounded-div_html_gac0277533cdcf4f952c4a7920e78e0a6e"><div class="ttname"><a href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a></div><div class="ttdeci">#define UDIV_ROUND_CLOSEST(n, d, t)</div><div class="ttdoc">Rounded unsigned integer division.</div><div class="ttdef"><b>Definition:</b> maths.h:92</div></div>
 <div class="ttc" id="amaths_8h_html_a0c01d75217107695304db24caee29762"><div class="ttname"><a href="maths_8h.html#a0c01d75217107695304db24caee29762">random1to100</a></div><div class="ttdeci">uint8_t random1to100(void)</div><div class="ttdef"><b>Definition:</b> maths.cpp:8</div></div>
-<div class="ttc" id="amaths_8h_html_a4499fd21d701d4186e1d5e7acc566556"><div class="ttname"><a href="maths_8h.html#a4499fd21d701d4186e1d5e7acc566556">percentage</a></div><div class="ttdeci">static uint16_t percentage(uint8_t percent, uint16_t value)</div><div class="ttdoc">Integer based percentage calculation.</div><div class="ttdef"><b>Definition:</b> maths.h:186</div></div>
 <div class="ttc" id="amaths_8h_html_a722ecd5834c45b061782ddb3a3036aee"><div class="ttname"><a href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee">div360</a></div><div class="ttdeci">static uint32_t div360(uint32_t n)</div><div class="ttdoc">Optimised integer division by 360.</div><div class="ttdef"><b>Definition:</b> maths.h:171</div></div>
-<div class="ttc" id="amaths_8h_html_a946ec39c2bc09d94b6a4ca7a6290b9ca"><div class="ttname"><a href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">udiv_32_16_closest</a></div><div class="ttdeci">static uint16_t udiv_32_16_closest(uint32_t dividend, uint16_t divisor)</div><div class="ttdoc">Same as udiv_32_16(), except this will round to nearest integer instead of truncating.</div><div class="ttdef"><b>Definition:</b> maths.h:297</div></div>
-<div class="ttc" id="amaths_8h_html_acf16d92a564e280af1210c940ff4ef14"><div class="ttname"><a href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">nudge</a></div><div class="ttdeci">static int16_t nudge(int16_t min, int16_t max, int16_t value, int16_t nudgeAmount)</div><div class="ttdoc">Make one pass at correcting the value into the range [min, max)</div><div class="ttdef"><b>Definition:</b> maths.h:215</div></div>
-<div class="ttc" id="amaths_8h_html_adb2095c28032cb930b8070f9fd8acc04"><div class="ttname"><a href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a></div><div class="ttdeci">static uint16_t udiv_32_16(uint32_t dividend, uint16_t divisor)</div><div class="ttdoc">Optimised division: uint32_t/uint16_t =&gt; uint16_t.</div><div class="ttdef"><b>Definition:</b> maths.h:250</div></div>
-<div class="ttc" id="amaths_8h_html_aeaabbd719d960b3b342272e5328d1d31"><div class="ttname"><a href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">halfPercentage</a></div><div class="ttdeci">static uint16_t halfPercentage(uint8_t percent, uint16_t value)</div><div class="ttdoc">Integer based half-percentage calculation.</div><div class="ttdef"><b>Definition:</b> maths.h:197</div></div>
+<div class="ttc" id="amaths_8h_html_a946ec39c2bc09d94b6a4ca7a6290b9ca"><div class="ttname"><a href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca">udiv_32_16_closest</a></div><div class="ttdeci">static uint16_t udiv_32_16_closest(uint32_t dividend, uint16_t divisor)</div><div class="ttdoc">Same as udiv_32_16(), except this will round to nearest integer instead of truncating.</div><div class="ttdef"><b>Definition:</b> maths.h:299</div></div>
+<div class="ttc" id="amaths_8h_html_acf16d92a564e280af1210c940ff4ef14"><div class="ttname"><a href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">nudge</a></div><div class="ttdeci">static int16_t nudge(int16_t min, int16_t max, int16_t value, int16_t nudgeAmount)</div><div class="ttdoc">Make one pass at correcting the value into the range [min, max)</div><div class="ttdef"><b>Definition:</b> maths.h:217</div></div>
+<div class="ttc" id="amaths_8h_html_adb2095c28032cb930b8070f9fd8acc04"><div class="ttname"><a href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04">udiv_32_16</a></div><div class="ttdeci">static uint16_t udiv_32_16(uint32_t dividend, uint16_t divisor)</div><div class="ttdoc">Optimised division: uint32_t/uint16_t =&gt; uint16_t.</div><div class="ttdef"><b>Definition:</b> maths.h:252</div></div>
+<div class="ttc" id="amaths_8h_html_add423b7b99e1bd5e9bd2f7a944da1101"><div class="ttname"><a href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101">percentage</a></div><div class="ttdeci">static uint32_t percentage(uint8_t percent, uint32_t value)</div><div class="ttdoc">Integer based percentage calculation.</div><div class="ttdef"><b>Definition:</b> maths.h:186</div></div>
+<div class="ttc" id="amaths_8h_html_aeaabbd719d960b3b342272e5328d1d31"><div class="ttname"><a href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">halfPercentage</a></div><div class="ttdeci">static uint16_t halfPercentage(uint8_t percent, uint16_t value)</div><div class="ttdoc">Integer based half-percentage calculation.</div><div class="ttdef"><b>Definition:</b> maths.h:199</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Jan 13 2024 01:20:22 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Tue Jan 16 2024 05:23:15 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>

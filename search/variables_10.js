@@ -8,7 +8,7 @@ var searchData=
   ['resetcontrolpin_5',['resetControlPin',['../structconfig4.html#a0dbe4850b2ec9f99c2423261de1d94e6',1,'config4']]],
   ['revolutionlastone_6',['revolutionLastOne',['../decoders_8cpp.html#ae6521da76d6f66bceadcd390b14e04f4',1,'decoders.cpp']]],
   ['revolutionone_7',['revolutionOne',['../decoders_8h.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne():&#160;decoders.cpp'],['../decoders_8cpp.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne():&#160;decoders.cpp']]],
-  ['revolutiontime_8',['revolutionTime',['../globals_8h.html#af132ab2aede03e9cfe5b035d9f688908',1,'revolutionTime():&#160;globals.cpp'],['../globals_8cpp.html#af132ab2aede03e9cfe5b035d9f688908',1,'revolutionTime():&#160;globals.cpp']]],
+  ['revolutiontime_8',['revolutionTime',['../globals_8h.html#af132ab2aede03e9cfe5b035d9f688908',1,'revolutionTime():&#160;globals.cpp'],['../globals_8cpp.html#afcb482703a8260cda937ee824b5daff0',1,'revolutionTime():&#160;globals.cpp']]],
   ['rollingcutlastrev_9',['rollingCutLastRev',['../speeduino_8ino.html#af66793f211884912e6ad8a7df795dc01',1,'speeduino.ino']]],
   ['rollingcuttable_10',['rollingCutTable',['../globals_8h.html#afa19f5bb8ea8d0a42500beee92591ddd',1,'rollingCutTable():&#160;globals.cpp'],['../globals_8cpp.html#afa19f5bb8ea8d0a42500beee92591ddd',1,'rollingCutTable():&#160;globals.cpp']]],
   ['rollingprotcutpercent_11',['rollingProtCutPercent',['../structconfig15.html#ab1f5ab991ce78220006a1c804c1c71d8',1,'config15']]],
