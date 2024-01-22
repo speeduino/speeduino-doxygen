@@ -119,6 +119,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a623c310de1a24748fb9be60b294ab5a2"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a> (int16_t angle)</td></tr>
 <tr class="memdesc:a623c310de1a24748fb9be60b294ab5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN].  <a href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">More...</a><br /></td></tr>
 <tr class="separator:a623c310de1a24748fb9be60b294ab5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44fc7d0b46389b57d408888c4e738ce4"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a44fc7d0b46389b57d408888c4e738ce4">injectorLimits</a> (int16_t angle)</td></tr>
+<tr class="memdesc:a44fc7d0b46389b57d408888c4e738ce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_INJ].  <a href="crank_maths_8h.html#a44fc7d0b46389b57d408888c4e738ce4">More...</a><br /></td></tr>
+<tr class="separator:a44fc7d0b46389b57d408888c4e738ce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Converts angular degrees to the time interval that amount of rotation</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p >will take at current RPM.</p>
 <p >Based on angle of [0,720] and min/max RPM, result ranges from 9 (MAX_RPM, 1 deg) to 2926828 (MIN_RPM, 720 deg)</p>
@@ -336,29 +339,73 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="crank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph.png" border="0" usemap="#acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph" alt=""/></div>
 <map name="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph" id="acrank_maths_8h_a623c310de1a24748fb9be60b294ab5a2_icgraph">
-<area shape="rect" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="1008,444,1107,469"/>
-<area shape="rect" href="schedule__calcs_8hpp.html#a43b8439ec1167ec8e7e13cba3dbd52b7" title=" " alt="" coords="836,343,960,368"/>
-<area shape="rect" href="group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21" title=" " alt="" coords="443,5,552,31"/>
-<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="441,55,553,80"/>
-<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="411,104,584,129"/>
-<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="427,153,568,179"/>
-<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="418,400,577,425"/>
-<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="442,449,553,475"/>
-<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="441,499,554,524"/>
-<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="420,548,575,573"/>
-<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="429,597,565,623"/>
-<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="407,647,587,672"/>
-<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="404,696,591,721"/>
-<area shape="rect" href="group__dec__dist.html#gae40319672988117610d46d5d219419da" title=" " alt="" coords="647,747,780,787"/>
-<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="639,343,788,368"/>
-<area shape="rect" href="group__dec__dual.html#ga06cd9110e0c0e5186e14ad36d27ee1de" title=" " alt="" coords="426,203,569,228"/>
-<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="438,252,557,277"/>
-<area shape="rect" href="group__dec__nissan360.html#ga6656c3d538cd486fdd05d8aefd4e505c" title=" " alt="" coords="426,301,569,327"/>
-<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="435,351,560,376"/>
-<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,376,356,401"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,351,192,376"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,400,173,425"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,351,60,376"/>
+<area shape="rect" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN]." alt="" coords="1008,380,1107,406"/>
+<area shape="rect" href="schedule__calcs_8hpp.html#a43b8439ec1167ec8e7e13cba3dbd52b7" title=" " alt="" coords="836,406,960,431"/>
+<area shape="rect" href="group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21" title=" " alt="" coords="443,163,552,188"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="127,632,173,658"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="441,212,553,238"/>
+<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="411,262,584,287"/>
+<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="427,311,568,336"/>
+<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="418,558,577,583"/>
+<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="442,607,553,632"/>
+<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="441,656,554,682"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="420,706,575,731"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="429,755,565,780"/>
+<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="407,64,587,90"/>
+<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="404,114,591,139"/>
+<area shape="rect" href="group__dec__dist.html#gae40319672988117610d46d5d219419da" title=" " alt="" coords="647,8,780,48"/>
+<area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="639,410,788,435"/>
+<area shape="rect" href="group__dec__dual.html#ga06cd9110e0c0e5186e14ad36d27ee1de" title=" " alt="" coords="426,360,569,386"/>
+<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="438,410,557,435"/>
+<area shape="rect" href="group__dec__nissan360.html#ga6656c3d538cd486fdd05d8aefd4e505c" title=" " alt="" coords="426,459,569,484"/>
+<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="435,508,560,534"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="240,410,356,435"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="108,410,192,435"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,410,60,435"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a44fc7d0b46389b57d408888c4e738ce4" name="a44fc7d0b46389b57d408888c4e738ce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44fc7d0b46389b57d408888c4e738ce4">&#9670;&#160;</a></span>injectorLimits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int16_t injectorLimits </td>
+          <td>(</td>
+          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_INJ]. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">angle</td><td>A crank angle in degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int16_t </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="crank_maths_8h_a44fc7d0b46389b57d408888c4e738ce4_icgraph.png" border="0" usemap="#acrank_maths_8h_a44fc7d0b46389b57d408888c4e738ce4_icgraph" alt=""/></div>
+<map name="acrank_maths_8h_a44fc7d0b46389b57d408888c4e738ce4_icgraph" id="acrank_maths_8h_a44fc7d0b46389b57d408888c4e738ce4_icgraph">
+<area shape="rect" title="Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_INJ]." alt="" coords="100,5,200,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,52,31"/>
 </map>
 </div>
 
@@ -467,7 +514,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 18 2024 22:09:50 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
+Generated on Mon Jan 22 2024 06:23:33 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5
 </small></address>
 </body>
 </html>
