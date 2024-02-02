@@ -222,5 +222,6 @@ var searchData=
   ['storepagecrc32_219',['storePageCRC32',['../storage_8cpp.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp'],['../storage_8h.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp']]],
   ['strokes_220',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
   ['subaru_206_2f7_221',['Subaru 6/7',['../group__dec__subaru__6__7.html',1,'']]],
-  ['synclosscounter_222',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
+  ['suzuki_20k6a_222',['Suzuki K6A',['../group___suzuki___k6_a.html',1,'']]],
+  ['synclosscounter_223',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
 ];
