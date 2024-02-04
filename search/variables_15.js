@@ -4,7 +4,7 @@ var searchData=
   ['wmiadvadj_1',['wmiAdvAdj',['../structconfig10.html#ac6261bcc2435a1f2d21ff78f7aacb905',1,'config10']]],
   ['wmiadvbins_2',['wmiAdvBins',['../structconfig10.html#a74ab2d003fe0f501142f49ec2c03d297',1,'config10']]],
   ['wmiadvenabled_3',['wmiAdvEnabled',['../structconfig10.html#a160e179b7080480b9a4e3983914d284d',1,'config10']]],
-  ['wmiadvtable_4',['wmiAdvTable',['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.cpp'],['../globals_8cpp.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable():&#160;globals.cpp']]],
+  ['wmiadvtable_4',['wmiadvtable',['../globals_8h.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable:&#160;globals.cpp'],['../globals_8cpp.html#aa997072392ac83c02c3a9062b1a87823',1,'wmiAdvTable:&#160;globals.cpp']]],
   ['wmiemptyenabled_5',['wmiEmptyEnabled',['../structconfig10.html#adf24e41adae25cf246058a076acf0dbc',1,'config10']]],
   ['wmiemptypin_6',['wmiEmptyPin',['../structconfig10.html#af249fc63101063f657ffcc361ca0d93c',1,'config10']]],
   ['wmiemptypolarity_7',['wmiEmptyPolarity',['../structconfig10.html#a3c1be013c03d5d8ba905ca2a58ce0d47',1,'config10']]],
@@ -20,11 +20,11 @@ var searchData=
   ['wmioffset_17',['wmiOffset',['../structconfig10.html#a0e8a1f44bb6a6ad0c071bcb64a3625f7',1,'config10']]],
   ['wmipw_18',['wmiPW',['../structstatuses.html#a96a3a7d21679524d69b8d3570776d8c8',1,'statuses']]],
   ['wmirpm_19',['wmiRPM',['../structconfig10.html#a950397de45ba6b14f40b102b5c5a31f3',1,'config10']]],
-  ['wmitable_20',['wmiTable',['../globals_8cpp.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.cpp'],['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable():&#160;globals.cpp']]],
+  ['wmitable_20',['wmitable',['../globals_8cpp.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable:&#160;globals.cpp'],['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable:&#160;globals.cpp']]],
   ['wmitps_21',['wmiTPS',['../structconfig10.html#a7323ac4c7d669e674b1e82d42e0e9766',1,'config10']]],
   ['write_5fblock_5fsize_22',['write_block_size',['../structwrite__location.html#a17c2df253131aebb1a142af0691d3578',1,'write_location']]],
   ['wuebins_23',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4']]],
   ['wuecorrection_24',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
-  ['wuetable_25',['WUETable',['../globals_8cpp.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.cpp'],['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable():&#160;globals.cpp']]],
+  ['wuetable_25',['wuetable',['../globals_8cpp.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable:&#160;globals.cpp'],['../globals_8h.html#af5085c0b67e738994a9093ba342bf01e',1,'WUETable:&#160;globals.cpp']]],
   ['wuevalues_26',['wueValues',['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['universal_20decoder_20routines_0',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]]
+  ['eclipse_0',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]]
 ];

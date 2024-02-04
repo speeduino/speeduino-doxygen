@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jeep_202000_20_286_20cyl_29_0',['Jeep 2000 (6 cyl)',['../group__dec__jeep.html',1,'']]]
+  ['8_20cylinder_0',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
 ];

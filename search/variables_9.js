@@ -24,11 +24,11 @@ var searchData=
   ['knock_5fwindow_5frpms_21',['knock_window_rpms',['../structconfig10.html#a4925070bb65f938ff9d0ff23c54ccff3',1,'config10']]],
   ['knockactive_22',['knockActive',['../structstatuses.html#a8a607d43196ddb893cf4087eea78e881',1,'statuses']]],
   ['knockangle_23',['knockAngle',['../sensors_8cpp.html#ad2edf9c4a532d4ce421ca6c38a68aee3',1,'sensors.cpp']]],
-  ['knockcounter_24',['knockCounter',['../sensors_8cpp.html#a55faada3ae98f68d4fba5bedc9ce9c43',1,'knockCounter():&#160;sensors.cpp'],['../sensors_8h.html#a55faada3ae98f68d4fba5bedc9ce9c43',1,'knockCounter():&#160;sensors.cpp']]],
+  ['knockcounter_24',['knockcounter',['../sensors_8cpp.html#a55faada3ae98f68d4fba5bedc9ce9c43',1,'knockCounter:&#160;sensors.cpp'],['../sensors_8h.html#a55faada3ae98f68d4fba5bedc9ce9c43',1,'knockCounter:&#160;sensors.cpp']]],
   ['knockretard_25',['knockRetard',['../structstatuses.html#a66e9742cc2d9e2393a6a17979b63f9b7',1,'statuses']]],
-  ['knockstarttime_26',['knockStartTime',['../corrections_8h.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime():&#160;corrections.cpp'],['../corrections_8cpp.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime():&#160;corrections.cpp']]],
-  ['knockwindowdurationtable_27',['knockWindowDurationTable',['../globals_8cpp.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable():&#160;globals.cpp'],['../globals_8h.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable():&#160;globals.cpp']]],
-  ['knockwindowmax_28',['knockWindowMax',['../corrections_8cpp.html#ae42b31d72a6779c7458ce5a235f70162',1,'knockWindowMax():&#160;corrections.cpp'],['../corrections_8h.html#ae42b31d72a6779c7458ce5a235f70162',1,'knockWindowMax():&#160;corrections.cpp']]],
-  ['knockwindowmin_29',['knockWindowMin',['../corrections_8cpp.html#ae984b1aa83c71264f7d76457a66cc6fd',1,'knockWindowMin():&#160;corrections.cpp'],['../corrections_8h.html#ae984b1aa83c71264f7d76457a66cc6fd',1,'knockWindowMin():&#160;corrections.cpp']]],
-  ['knockwindowstarttable_30',['knockWindowStartTable',['../globals_8cpp.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable():&#160;globals.cpp'],['../globals_8h.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable():&#160;globals.cpp']]]
+  ['knockstarttime_26',['knockstarttime',['../corrections_8h.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime:&#160;corrections.cpp'],['../corrections_8cpp.html#a0b530997a0d6bda8cb05f565500466f2',1,'knockStartTime:&#160;corrections.cpp']]],
+  ['knockwindowdurationtable_27',['knockwindowdurationtable',['../globals_8cpp.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable:&#160;globals.cpp'],['../globals_8h.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable:&#160;globals.cpp']]],
+  ['knockwindowmax_28',['knockwindowmax',['../corrections_8cpp.html#ae42b31d72a6779c7458ce5a235f70162',1,'knockWindowMax:&#160;corrections.cpp'],['../corrections_8h.html#ae42b31d72a6779c7458ce5a235f70162',1,'knockWindowMax:&#160;corrections.cpp']]],
+  ['knockwindowmin_29',['knockwindowmin',['../corrections_8cpp.html#ae984b1aa83c71264f7d76457a66cc6fd',1,'knockWindowMin:&#160;corrections.cpp'],['../corrections_8h.html#ae984b1aa83c71264f7d76457a66cc6fd',1,'knockWindowMin:&#160;corrections.cpp']]],
+  ['knockwindowstarttable_30',['knockwindowstarttable',['../globals_8cpp.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable:&#160;globals.cpp'],['../globals_8h.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable:&#160;globals.cpp']]]
 ];

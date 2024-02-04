@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ford_20st170_20_2801_2d04_20focus_29_0',['Ford ST170 (01-04 Focus)',['../group__dec__ford__st170.html',1,'']]]
+  ['5_0',['Mistsubishi 4G63 and Miata + MX-5',['../group__dec__mitsu__miata.html',1,'']]]
 ];
