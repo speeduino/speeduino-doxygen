@@ -256,17 +256,20 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span><span class="preprocessor">  #define SECONDARY_SERIAL_T HardwareSerial</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>  </div>
 <div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span><span class="preprocessor">  #include &lt;FlexCAN_T4.h&gt;</span></div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can0;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN2, RX_SIZE_256, TX_SIZE_16&gt; Can1;</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>  <span class="keyword">extern</span> FlexCAN_T4&lt;CAN3, RX_SIZE_256, TX_SIZE_16&gt; Can2;</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>  <span class="comment">//#define NATIVE_CAN_AVAILABLE //Disable for now as it causes lockup </span></div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>  </div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY41_H</span></div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>  <span class="comment">/*</span></div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="comment">  //These are declared locally in comms_CAN now due to this issue: https://github.com/tonton81/FlexCAN_T4/issues/67</span></div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="comment">  extern FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span><span class="comment">  extern FlexCAN_T4&lt;CAN2, RX_SIZE_256, TX_SIZE_16&gt; Can1;</span></div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span><span class="comment">  extern FlexCAN_T4&lt;CAN3, RX_SIZE_256, TX_SIZE_16&gt; Can2;</span></div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span><span class="comment">  */</span></div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span><span class="preprocessor">  #define NATIVE_CAN_AVAILABLE </span><span class="comment">//Disable for now as it causes lockup </span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>  </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY41_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Feb 26 2024 20:00:57 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Fri Mar 15 2024 05:08:06 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
