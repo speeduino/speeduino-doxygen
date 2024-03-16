@@ -86,6 +86,8 @@ var searchData=
   ['staging_5fmode_5ftable_83',['STAGING_MODE_TABLE',['../globals_8h.html#abb88d12f9f2f06e74018be7bb0a699a7',1,'globals.h']]],
   ['stepper_5fbackward_84',['STEPPER_BACKWARD',['../idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.h']]],
   ['stepper_5fforward_85',['STEPPER_FORWARD',['../idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa',1,'idle.h']]],
-  ['stepper_5fpower_5fwhen_5factive_86',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8h.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.h']]],
-  ['storage_5fend_87',['STORAGE_END',['../storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d',1,'storage.cpp']]]
+  ['stepper_5fless_5fair_5fdirection_86',['STEPPER_LESS_AIR_DIRECTION',['../idle_8cpp.html#abe01e46cd428d4c16138f0da6fe3307f',1,'idle.cpp']]],
+  ['stepper_5fmore_5fair_5fdirection_87',['STEPPER_MORE_AIR_DIRECTION',['../idle_8cpp.html#a3873f5397605cc5552678388161bdf97',1,'idle.cpp']]],
+  ['stepper_5fpower_5fwhen_5factive_88',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8h.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.h']]],
+  ['storage_5fend_89',['STORAGE_END',['../storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d',1,'storage.cpp']]]
 ];

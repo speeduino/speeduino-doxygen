@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">idle.cpp File Reference</div></div>
@@ -85,6 +86,13 @@ $(function() {
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 <code>#include &quot;src/PID_v1/PID_v1.h&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:abe01e46cd428d4c16138f0da6fe3307f" id="r_abe01e46cd428d4c16138f0da6fe3307f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#abe01e46cd428d4c16138f0da6fe3307f">STEPPER_LESS_AIR_DIRECTION</a>()&#160;&#160;&#160;((configPage9.iacStepperInv == 0) ? <a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a> : <a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>)</td></tr>
+<tr class="separator:abe01e46cd428d4c16138f0da6fe3307f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3873f5397605cc5552678388161bdf97" id="r_a3873f5397605cc5552678388161bdf97"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a3873f5397605cc5552678388161bdf97">STEPPER_MORE_AIR_DIRECTION</a>()&#160;&#160;&#160;((configPage9.iacStepperInv == 0) ? <a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a> : <a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>)</td></tr>
+<tr class="separator:a3873f5397605cc5552678388161bdf97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a988cdc331783a7d694805f308b9ea50f" id="r_a988cdc331783a7d694805f308b9ea50f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">static</a> <a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a988cdc331783a7d694805f308b9ea50f">enableIdle</a> (<a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">void</a>)</td></tr>
@@ -167,6 +175,41 @@ Variables</h2></td></tr>
 <tr class="memitem:ade580c8e4957ba77dbfd4be4e731e5c8" id="r_ade580c8e4957ba77dbfd4be4e731e5c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">integerPID</a> <a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">idlePID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a></td></tr>
 <tr class="separator:ade580c8e4957ba77dbfd4be4e731e5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="abe01e46cd428d4c16138f0da6fe3307f" name="abe01e46cd428d4c16138f0da6fe3307f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe01e46cd428d4c16138f0da6fe3307f">&#9670;&#160;</a></span>STEPPER_LESS_AIR_DIRECTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">define</a> STEPPER_LESS_AIR_DIRECTION</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;((configPage9.iacStepperInv == 0) ? <a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a> : <a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3873f5397605cc5552678388161bdf97" name="a3873f5397605cc5552678388161bdf97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3873f5397605cc5552678388161bdf97">&#9670;&#160;</a></span>STEPPER_MORE_AIR_DIRECTION</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">define</a> STEPPER_MORE_AIR_DIRECTION</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;((configPage9.iacStepperInv == 0) ? <a class="el" href="idle_8h.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a> : <a class="el" href="idle_8h.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a75f545e59fd1a9d6aafe2931b191b2c8" name="a75f545e59fd1a9d6aafe2931b191b2c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75f545e59fd1a9d6aafe2931b191b2c8">&#9670;&#160;</a></span>checkForStepping()</h2>
@@ -1000,7 +1043,7 @@ Here is the caller graph for this function:</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat Mar 16 2024 01:17:26 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated on Sat Mar 16 2024 02:05:25 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
