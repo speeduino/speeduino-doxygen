@@ -9,7 +9,7 @@ var searchData=
   ['activatemapdot_6',['activatemapdot',['../corrections_8cpp.html#ab14debd118ef673c24ce5e16a43b809a',1,'activateMAPDOT:&#160;corrections.cpp'],['../corrections_8h.html#ab14debd118ef673c24ce5e16a43b809a',1,'activateMAPDOT:&#160;corrections.cpp']]],
   ['activatetpsdot_7',['activatetpsdot',['../corrections_8cpp.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT:&#160;corrections.cpp'],['../corrections_8h.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT:&#160;corrections.cpp']]],
   ['actpslockoutdelay_8',['acTPSLockoutDelay',['../auxiliaries_8cpp.html#a4e06f2dbfdccf8254dffc9bdbc43785e',1,'auxiliaries.cpp']]],
-  ['actualdwell_9',['actualDwell',['../structstatuses.html#a5fbc91c5a3ae1791c27e3f972679262a',1,'statuses']]],
+  ['actualdwell_9',['actualDwell',['../structstatuses.html#a7ead0b647b54fa064ec422e72730950a',1,'statuses']]],
   ['adcfilter_5fbaro_10',['ADCFILTER_BARO',['../structconfig4.html#a4620f193586fa44f78f5c529e3f67e7e',1,'config4']]],
   ['adcfilter_5fbat_11',['ADCFILTER_BAT',['../structconfig4.html#a1f37250005d10bf9abe2cd274f9e0153',1,'config4']]],
   ['adcfilter_5fclt_12',['ADCFILTER_CLT',['../structconfig4.html#aa5120e0f6f5b2559030a02f028743c70',1,'config4']]],

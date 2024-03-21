@@ -22,14 +22,14 @@ var searchData=
   ['divider_19',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2']]],
   ['duration_20',['duration',['../struct_ignition_schedule.html#ac373bed0ca010c7e65f9e0ad61cda093',1,'IgnitionSchedule::duration'],['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration']]],
   ['dutylim_21',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2']]],
-  ['dwell_22',['dwell',['../structstatuses.html#ad88511c6e07bcf4d5e0c9d67f11298f0',1,'statuses']]],
+  ['dwell_22',['dwell',['../structstatuses.html#a4cb0364242885e1b94de94718754a68e',1,'statuses']]],
   ['dwellcorrection_23',['dwellCorrection',['../structstatuses.html#a01a2a98b8225c2f64b68cd19364debb8',1,'statuses']]],
   ['dwellcorrectionvalues_24',['dwellCorrectionValues',['../structconfig4.html#afa1fff04611d377f79ba1344c9fa3545',1,'config4']]],
-  ['dwellcrank_25',['dwellCrank',['../structconfig4.html#a5bcfaa6837aefa93b59aa59dc7347fbe',1,'config4']]],
+  ['dwellcrank_25',['dwellCrank',['../structconfig4.html#a701ba2419b82b3bd0ea5b36fdb3ceec5',1,'config4']]],
   ['dwellerrcorrect_26',['dwellErrCorrect',['../structconfig4.html#a0c42539c05d32d11522c16eda0f9add5',1,'config4']]],
   ['dwelllimit_27',['dwellLimit',['../structconfig4.html#ac858ca96fd01bcd6305e04554fd3dcdd',1,'config4']]],
   ['dwelllimit_5fus_28',['dwelllimit_us',['../timers_8cpp.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp'],['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp']]],
-  ['dwellrun_29',['dwellRun',['../structconfig4.html#a9d224562591626d97cc4e890edaee56f',1,'config4']]],
+  ['dwellrun_29',['dwellRun',['../structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c',1,'config4']]],
   ['dwelltable_30',['dwelltable',['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]],
   ['dwellvcorrectiontable_31',['dwellvcorrectiontable',['../globals_8cpp.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp'],['../globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp']]]
 ];

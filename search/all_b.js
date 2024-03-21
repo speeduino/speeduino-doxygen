@@ -12,7 +12,7 @@ var searchData=
   ['activatetpsdot_9',['activatetpsdot',['../corrections_8cpp.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT:&#160;corrections.cpp'],['../corrections_8h.html#a99084f77525989e88e3bfbacf9fa3f5b',1,'activateTPSDOT:&#160;corrections.cpp']]],
   ['active_10',['ACTIVE',['../timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9a33cf1d8ef1d06ee698a7fabf40eb3a7f',1,'timers.h']]],
   ['actpslockoutdelay_11',['acTPSLockoutDelay',['../auxiliaries_8cpp.html#a4e06f2dbfdccf8254dffc9bdbc43785e',1,'auxiliaries.cpp']]],
-  ['actualdwell_12',['actualDwell',['../structstatuses.html#a5fbc91c5a3ae1791c27e3f972679262a',1,'statuses']]],
+  ['actualdwell_12',['actualDwell',['../structstatuses.html#a7ead0b647b54fa064ec422e72730950a',1,'statuses']]],
   ['adc_5ffilter_13',['ADC_FILTER',['../sensors_8h.html#a546e9cb3295371234f60dcf3beae19dd',1,'sensors.h']]],
   ['adcfilter_5fbaro_14',['ADCFILTER_BARO',['../structconfig4.html#a4620f193586fa44f78f5c529e3f67e7e',1,'config4']]],
   ['adcfilter_5fbaro_5fdefault_15',['ADCFILTER_BARO_DEFAULT',['../sensors_8h.html#af0b2b6025a99ec4dd1b0d989220505a8',1,'sensors.h']]],
