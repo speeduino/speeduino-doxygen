@@ -274,7 +274,7 @@ var searchData=
   ['instanteneousmapreading_271',['instanteneousmapreading',['../sensors_8cpp.html#aca00ccb7ab7edfd673553ee0fdd49569',1,'instanteneousMAPReading(void):&#160;sensors.cpp'],['../sensors_8h.html#aca00ccb7ab7edfd673553ee0fdd49569',1,'instanteneousMAPReading(void):&#160;sensors.cpp']]],
   ['intcan_5favailable_272',['intcan_available',['../structconfig9.html#acff1397196165d05dfc2207a401576aa',1,'config9']]],
   ['integer_20division_273',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
-  ['integer_20divison_20by_20100_274',['Optimised integer divison by 100',['../group__group-div100.html',1,'']]],
+  ['integer_20division_20by_20100_274',['Optimised integer division by 100',['../group__group-div100.html',1,'']]],
   ['interruptsafe_275',['interruptSafe',['../globals_8h.html#a862109559b900adee5fc54a117a98766',1,'globals.h']]],
   ['invalidate_5fcache_276',['invalidate_cache',['../table3d__interpolate_8h.html#aeff6c17210b06e779b7ed2c461ec114a',1,'table3d_interpolate.h']]],
   ['iodelay_277',['iodelay',['../utilities_8h.html#a4d7256e104b86308261ce36c9b59e841',1,'ioDelay:&#160;utilities.cpp'],['../utilities_8cpp.html#a4d7256e104b86308261ce36c9b59e841',1,'ioDelay:&#160;utilities.cpp']]],

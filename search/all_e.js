@@ -70,7 +70,7 @@ var searchData=
   ['dividetableload_67',['dividetableload',['../updates_8cpp.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
   ['dividetablevalue_68',['dividetablevalue',['../updates_8cpp.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp']]],
   ['division_69',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
-  ['divison_20by_20100_70',['Optimised integer divison by 100',['../group__group-div100.html',1,'']]],
+  ['division_20by_20100_70',['Optimised integer division by 100',['../group__group-div100.html',1,'']]],
   ['dostep_71',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
   ['doupdates_72',['doupdates',['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]],
   ['dsm_20420a_20for_20the_20dsm_20eclipse_73',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]],

@@ -179,6 +179,6 @@ var searchData=
   ['boostvvtpage_176',['boostvvtPage',['../pages_8h.html#a36631b0c2f2ea02c3dc863611da5f1cf',1,'pages.h']]],
   ['boostvvtpage2_177',['boostvvtPage2',['../pages_8h.html#a89350ed4afd435c69443fba63a14fa3a',1,'pages.h']]],
   ['bootloadercaps_178',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4']]],
-  ['by_20100_179',['Optimised integer divison by 100',['../group__group-div100.html',1,'']]],
+  ['by_20100_179',['Optimised integer division by 100',['../group__group-div100.html',1,'']]],
   ['byte_180',['byte',['../group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94',1,'table3d_axis_io.h']]]
 ];
