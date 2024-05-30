@@ -10,7 +10,7 @@ var searchData=
   ['tachooutputon_7',['tachooutputon',['../scheduled_i_o_8cpp.html#a5d2f46a3499203a01513eed1258cdc77',1,'tachoOutputOn(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a5d2f46a3499203a01513eed1258cdc77',1,'tachoOutputOn(void):&#160;scheduledIO.cpp']]],
   ['testcomm_8',['testcomm',['../comms__legacy_8cpp.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp']]],
   ['timetoangledegpermicrosec_9',['timetoangledegpermicrosec',['../crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656',1,'timeToAngleDegPerMicroSec(uint32_t time):&#160;crankMaths.cpp'],['../crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656',1,'timeToAngleDegPerMicroSec(uint32_t time):&#160;crankMaths.cpp']]],
-  ['timetoangleintervaltooth_10',['timetoangleintervaltooth',['../crank_maths_8cpp.html#a55458f11cda5228844f2584cbd51756d',1,'timeToAngleIntervalTooth(uint32_t time):&#160;crankMaths.cpp'],['../crank_maths_8h.html#a55458f11cda5228844f2584cbd51756d',1,'timeToAngleIntervalTooth(uint32_t time):&#160;crankMaths.cpp']]],
+  ['timetoangleintervaltooth_10',['timeToAngleIntervalTooth',['../group__dec__uni.html#gaffacbfaa5231714384f143fb3b95c772',1,'decoders.cpp']]],
   ['to_5fbyte_5f1_11',['to_byte_1',['../table3d__axis__io_8cpp.html#a93d967e0bcbea52c0e060d2d61349baa',1,'table3d_axis_io.cpp']]],
   ['to_5fbyte_5f100_12',['to_byte_100',['../table3d__axis__io_8cpp.html#a7c0cd437173ecf9e64762251ed97e1ad',1,'table3d_axis_io.cpp']]],
   ['to_5fbyte_5f2_13',['to_byte_2',['../table3d__axis__io_8cpp.html#a1ef62132d123e71bb47eddeb716d6c01',1,'table3d_axis_io.cpp']]],

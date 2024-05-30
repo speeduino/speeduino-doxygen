@@ -113,7 +113,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">extern</span> <span class="keyword">volatile</span> <a class="code hl_enumeration" href="timers_8h.html#a8c08c47b167f96f6e2921d2846a575d9">TachoOutputStatus</a> <a class="code hl_variable" href="timers_8h.html#a1406c2c99a043c02419c75026a3cbd2d">tachoOutputFlag</a>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">extern</span> <span class="keyword">volatile</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="timers_8h.html#a3d0f2e3bfd863c334304ebbea7d91777">tachoSweepEnabled</a>;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">extern</span> <span class="keyword">volatile</span> <a class="code hl_function" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">uint16_t</a> <a class="code hl_variable" href="timers_8h.html#a3150a23925b1ff6630dfbe130fa69255">tachoSweepIncr</a>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">extern</span> <span class="keyword">volatile</span> <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="code hl_variable" href="timers_8h.html#a3150a23925b1ff6630dfbe130fa69255">tachoSweepIncr</a>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="timers_8h.html#ad1742544eda890463df786f92457bf20">   34</a></span><span class="preprocessor">#define TACHO_SWEEP_TIME_MS 1500</span></div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="timers_8h.html#aa364fe1fc2c2c32eafe39fc9a6d1384e">   35</a></span><span class="preprocessor">#define TACHO_SWEEP_RAMP_MS (TACHO_SWEEP_TIME_MS * 2 / 3)</span></div>
@@ -122,7 +122,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">extern</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code hl_variable" href="timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3">dwellLimit_uS</a>;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="preprocessor">#if defined (CORE_TEENSY)</span></div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keyword">extern</span> <a class="code hl_function" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">IntervalTimer</a> <a class="code hl_function" href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">lowResTimer</a>;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>  <span class="keyword">extern</span> <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">IntervalTimer</a> <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">lowResTimer</a>;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f">oneMSInterval</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#elif defined (ARDUINO_ARCH_STM32)</span></div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keywordtype">void</span> <a class="code hl_function" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f">oneMSInterval</a>(<span class="keywordtype">void</span>);</div>
@@ -131,7 +131,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">#endif </span><span class="comment">// TIMERS_H</span></div>
 <div class="ttc" id="aglobals_8h_html"><div class="ttname"><a href="globals_8h.html">globals.h</a></div></div>
-<div class="ttc" id="apages_8cpp_html_af14d55e417c5d0065bea4d9c51e22745"><div class="ttname"><a href="pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745">get_table_value_end</a></div><div class="ttdeci">static constexpr uint16_t get_table_value_end(void)</div><div class="ttdef"><b>Definition</b> pages.cpp:34</div></div>
+<div class="ttc" id="agroup__group-opt-shift_html_gada522535b5b26abf6eb2c7da12c71454"><div class="ttname"><a href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">rshift</a></div><div class="ttdeci">static uint32_t rshift(uint32_t a)</div><div class="ttdoc">Bitwise right shift - generic, unoptimized, case.</div><div class="ttdef"><b>Definition</b> bit_shifts.h:349</div></div>
 <div class="ttc" id="atimers_8cpp_html_afd0a7412c083cf45e1bb1bf7c3fa8d0f"><div class="ttname"><a href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f">oneMSInterval</a></div><div class="ttdeci">void oneMSInterval(void)</div><div class="ttdef"><b>Definition</b> timers.cpp:74</div></div>
 <div class="ttc" id="atimers_8h_html_a1406c2c99a043c02419c75026a3cbd2d"><div class="ttname"><a href="timers_8h.html#a1406c2c99a043c02419c75026a3cbd2d">tachoOutputFlag</a></div><div class="ttdeci">volatile TachoOutputStatus tachoOutputFlag</div><div class="ttdef"><b>Definition</b> timers.cpp:39</div></div>
 <div class="ttc" id="atimers_8h_html_a3150a23925b1ff6630dfbe130fa69255"><div class="ttname"><a href="timers_8h.html#a3150a23925b1ff6630dfbe130fa69255">tachoSweepIncr</a></div><div class="ttdeci">volatile uint16_t tachoSweepIncr</div><div class="ttdef"><b>Definition</b> timers.cpp:40</div></div>
@@ -145,7 +145,7 @@ $(document).ready(function() { init_codefold(0); });
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed May 29 2024 07:45:45 for Speeduino by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
 </small></address>
 </body>
 </html>
