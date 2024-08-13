@@ -14,7 +14,7 @@ var searchData=
   ['to_5fbyte_5f1_11',['to_byte_1',['../table3d__axis__io_8cpp.html#a93d967e0bcbea52c0e060d2d61349baa',1,'table3d_axis_io.cpp']]],
   ['to_5fbyte_5f100_12',['to_byte_100',['../table3d__axis__io_8cpp.html#a7c0cd437173ecf9e64762251ed97e1ad',1,'table3d_axis_io.cpp']]],
   ['to_5fbyte_5f2_13',['to_byte_2',['../table3d__axis__io_8cpp.html#a1ef62132d123e71bb47eddeb716d6c01',1,'table3d_axis_io.cpp']]],
-  ['totemperature_14',['toTemperature',['../comms_8cpp.html#aa7b37974960d1a3d7b98c426a07facc6',1,'comms.cpp']]],
+  ['totemperature_14',['toTemperature',['../group__group-serial-comms-impl.html#gaa7b37974960d1a3d7b98c426a07facc6',1,'comms.cpp']]],
   ['triggerpri_5f24x_15',['triggerpri_24x',['../group__dec__gm.html#ga8cea883b7a6a217edbd82c5a2d7f9887',1,'triggerPri_24X(void):&#160;decoders.cpp'],['../group__dec__gm.html#ga8cea883b7a6a217edbd82c5a2d7f9887',1,'triggerPri_24X(void):&#160;decoders.cpp']]],
   ['triggerpri_5f420a_16',['triggerpri_420a',['../group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21',1,'triggerPri_420a(void):&#160;decoders.cpp'],['../group__dec__dsm__420a.html#gaa3f61b44b07aafb1b768f8a260919d21',1,'triggerPri_420a(void):&#160;decoders.cpp']]],
   ['triggerpri_5f4g63_17',['triggerpri_4g63',['../group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85',1,'triggerPri_4G63(void):&#160;decoders.cpp'],['../group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85',1,'triggerPri_4G63(void):&#160;decoders.cpp']]],

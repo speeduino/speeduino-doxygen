@@ -29,11 +29,12 @@ var searchData=
   ['logitemstransmitted_26',['logitemstransmitted',['../comms__legacy_8h.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp']]],
   ['longrpm_27',['longRPM',['../structstatuses.html#a950c168f3abcc4e7be1eb8fcbbb229b1',1,'statuses']]],
   ['loop100ms_28',['loop100ms',['../timers_8cpp.html#abee157bd72540348338826e26f4ff526',1,'timers.cpp']]],
-  ['loop250ms_29',['loop250ms',['../timers_8cpp.html#a98a956b21f0c584520ccc45c501b98d8',1,'timers.cpp']]],
-  ['loop33ms_30',['loop33ms',['../timers_8cpp.html#abb944e77bfd49a4c2699d59a178a17ec',1,'timers.cpp']]],
-  ['loop5ms_31',['loop5ms',['../timers_8cpp.html#a231ee6f19e5c5af256d1fdf5a37db335',1,'timers.cpp']]],
-  ['loop66ms_32',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
-  ['loop_5ftimer_33',['loop_timer',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp']]],
-  ['loopsec_34',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
-  ['loopspersecond_35',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
+  ['loop20ms_29',['loop20ms',['../timers_8cpp.html#a8921b94a2892230b5fb9a16cfd62b1e1',1,'timers.cpp']]],
+  ['loop250ms_30',['loop250ms',['../timers_8cpp.html#a98a956b21f0c584520ccc45c501b98d8',1,'timers.cpp']]],
+  ['loop33ms_31',['loop33ms',['../timers_8cpp.html#abb944e77bfd49a4c2699d59a178a17ec',1,'timers.cpp']]],
+  ['loop5ms_32',['loop5ms',['../timers_8cpp.html#a231ee6f19e5c5af256d1fdf5a37db335',1,'timers.cpp']]],
+  ['loop66ms_33',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
+  ['loop_5ftimer_34',['loop_timer',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp']]],
+  ['loopsec_35',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
+  ['loopspersecond_36',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
 ];

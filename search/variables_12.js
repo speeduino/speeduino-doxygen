@@ -25,7 +25,7 @@ var searchData=
   ['targetidlestep_22',['targetIdleStep',['../struct_stepper_idle.html#a0c9435ef965954e6b2af9ea17a088932',1,'StepperIdle']]],
   ['tertiarytriggeredge_23',['tertiarytriggeredge',['../globals_8h.html#aea451a4134f2835ffe5e5ea449b303f3',1,'tertiaryTriggerEdge:&#160;globals.cpp'],['../globals_8cpp.html#aea451a4134f2835ffe5e5ea449b303f3',1,'tertiaryTriggerEdge:&#160;globals.cpp']]],
   ['testactive_24',['testActive',['../structstatuses.html#a256bd5d4b8e6608bd4b66d61d5588516',1,'statuses']]],
-  ['testcommsresponse_25',['testCommsResponse',['../comms_8cpp.html#ae2ef2f06619b51860d3598ccf6140d5f',1,'comms.cpp']]],
+  ['testcommsresponse_25',['testCommsResponse',['../group__group-serial-hard-coded-responses.html#gae2ef2f06619b51860d3598ccf6140d5f',1,'comms.cpp']]],
   ['testignitionpulsecount_26',['testIgnitionPulseCount',['../timers_8cpp.html#a674efd6411a6be612f6fb0faa9cd5c64',1,'timers.cpp']]],
   ['testinjectorpulsecount_27',['testInjectorPulseCount',['../timers_8cpp.html#af12ef549e39165dd54cd3889c752a159',1,'timers.cpp']]],
   ['testoutputs_28',['testOutputs',['../structstatuses.html#a0bc844869d887815ce0cca0ddd1bf846',1,'statuses']]],

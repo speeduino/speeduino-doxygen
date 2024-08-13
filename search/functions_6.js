@@ -5,7 +5,7 @@ var searchData=
   ['find_5fxbin_2',['find_xbin',['../table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729',1,'table3d_interpolate.cpp']]],
   ['find_5fybin_3',['find_ybin',['../table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2',1,'table3d_interpolate.cpp']]],
   ['flexpulse_4',['flexpulse',['../sensors_8cpp.html#aa2d8ed119f5ab04ea9eae66f7a249ef7',1,'flexPulse(void):&#160;sensors.cpp'],['../sensors_8h.html#aa2d8ed119f5ab04ea9eae66f7a249ef7',1,'flexPulse(void):&#160;sensors.cpp']]],
-  ['flushrxbuffer_5',['flushRXbuffer',['../comms_8cpp.html#a4e15d4999ce2ad98c05d781f033a91e3',1,'comms.cpp']]],
+  ['flushrxbuffer_5',['flushRXbuffer',['../group__group-serial-comms-impl.html#ga4e15d4999ce2ad98c05d781f033a91e3',1,'comms.cpp']]],
   ['from_5fbyte_5f1_6',['from_byte_1',['../table3d__axis__io_8cpp.html#a202e20abbde27e340b338b4439324418',1,'table3d_axis_io.cpp']]],
   ['from_5fbyte_5f100_7',['from_byte_100',['../table3d__axis__io_8cpp.html#aed823e0a5bc7444e98f26354ab0b8aa5',1,'table3d_axis_io.cpp']]],
   ['from_5fbyte_5f2_8',['from_byte_2',['../table3d__axis__io_8cpp.html#a2996e69ffed2a5e6806c48facd2aab70',1,'table3d_axis_io.cpp']]],

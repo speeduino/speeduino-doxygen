@@ -38,6 +38,6 @@ var searchData=
   ['iscranking_35',['IsCranking',['../group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664',1,'decoders.cpp']]],
   ['iseepromwritepending_36',['iseepromwritepending',['../storage_8cpp.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp'],['../storage_8h.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp']]],
   ['ismap_37',['isMap',['../comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237',1,'comms_legacy.cpp']]],
-  ['isstepperhomed_38',['isStepperHomed',['../idle_8cpp.html#a359806eb74e59672bf88009f37191216',1,'idle.cpp']]],
-  ['istimeout_39',['isTimeout',['../comms_8cpp.html#a6ad373b4670a68877d27098c5b44d598',1,'comms.cpp']]]
+  ['isrxtimeout_38',['isRxTimeout',['../group__group-serial-comms-impl.html#ga9e064949583d0f6ff04e5ebcb7a79df9',1,'comms.cpp']]],
+  ['isstepperhomed_39',['isStepperHomed',['../idle_8cpp.html#a359806eb74e59672bf88009f37191216',1,'idle.cpp']]]
 ];

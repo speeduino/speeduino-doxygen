@@ -94,7 +94,7 @@ var searchData=
   ['primepulse_91',['primePulse',['../structconfig2.html#ae06d26086ac84e38203cdf0556afff7e',1,'config2']]],
   ['primingdelay_92',['primingDelay',['../structconfig2.html#ae347c1dd6fbb916f2eeb1cf7058e367c',1,'config2']]],
   ['primingpulsetable_93',['primingpulsetable',['../globals_8cpp.html#a09defe13fdb5a2a182bcfbd350af0dbd',1,'PrimingPulseTable:&#160;globals.cpp'],['../globals_8h.html#a09defe13fdb5a2a182bcfbd350af0dbd',1,'PrimingPulseTable:&#160;globals.cpp']]],
-  ['productstring_94',['productString',['../comms_8cpp.html#a8a0aed409f97f3e2336b1ca4cebda97c',1,'comms.cpp']]],
+  ['productstring_94',['productString',['../group__group-serial-hard-coded-responses.html#ga8a0aed409f97f3e2336b1ca4cebda97c',1,'comms.cpp']]],
   ['psecondaryserial_95',['psecondaryserial',['../comms__secondary_8cpp.html#a48dfd3b0fa1fa11aa3ff71b3b5296573',1,'pSecondarySerial:&#160;comms_secondary.cpp'],['../comms__secondary_8h.html#a48dfd3b0fa1fa11aa3ff71b3b5296573',1,'pSecondarySerial:&#160;comms_secondary.cpp']]],
   ['pstartcallback_96',['pStartCallback',['../struct_ignition_schedule.html#a48995d254b0acf1088d3d3384aa0c35f',1,'IgnitionSchedule']]],
   ['pstartfunction_97',['pStartFunction',['../struct_fuel_schedule.html#ad85a4bf61448311518bae95eb51d79db',1,'FuelSchedule']]],
