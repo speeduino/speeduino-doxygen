@@ -6,7 +6,7 @@ var searchData=
   ['secondarylasttoothtime_3',['secondarylasttoothtime',['../decoders_8cpp.html#a9e6b984eae540372f54e1d00c0798fd5',1,'secondaryLastToothTime:&#160;decoders.cpp'],['../decoders_8h.html#a9e6b984eae540372f54e1d00c0798fd5',1,'secondaryLastToothTime:&#160;decoders.cpp']]],
   ['secondarylasttoothtime1_4',['secondarylasttoothtime1',['../decoders_8cpp.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1:&#160;decoders.cpp'],['../decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1:&#160;decoders.cpp']]],
   ['secondaryserialprotocol_5',['secondarySerialProtocol',['../structconfig9.html#a84249b31381d412aa67e378e62ed04de',1,'config9']]],
-  ['secondarytoothcount_6',['secondarytoothcount',['../decoders_8h.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount:&#160;decoders.cpp'],['../decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0',1,'secondaryToothCount:&#160;decoders.cpp']]],
+  ['secondarytoothcount_6',['secondaryToothCount',['../decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0',1,'decoders.cpp']]],
   ['secondarytriggeredge_7',['secondarytriggeredge',['../globals_8h.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp'],['../globals_8cpp.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp']]],
   ['secondcomptype_8',['secondCompType',['../structcmp_operation.html#afbac1bfa2d5005d2c0f2e1f27807aa3d',1,'cmpOperation']]],
   ['seconddatain_9',['secondDataIn',['../structconfig13.html#ae8cfe9c5c758835513e1f8066c6367e0',1,'config13']]],

@@ -82,6 +82,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;limits.h&gt;</code><br />
+<code>#include &lt;SimplyAtomic.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="decoders_8h_source.html">decoders.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduled_i_o_8h_source.html">scheduledIO.h</a>&quot;</code><br />
@@ -89,6 +90,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="crank_maths_8h_source.html">crankMaths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="schedule__calcs_8h_source.html">schedule_calcs.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -126,6 +128,12 @@ Functions</h2></td></tr>
 <tr class="separator:gaffacbfaa5231714384f143fb3b95c772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6278a7fd1ef8d6d837f20d2acfb9664" id="r_gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664">IsCranking</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">status</a>)</td></tr>
 <tr class="separator:gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a05fc7155fcaf19e7cba1ed30dfb216" id="r_ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3a05fc7155fcaf19e7cba1ed30dfb216">engineIsRunning</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="decoders_8cpp.html#a9026a9c5d90202a2c5edf446c18311c0">curTime</a>)</td></tr>
+<tr class="memdesc:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the engine running?  <br /></td></tr>
+<tr class="separator:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e5ab2be4925adab434a11de55a554d3" id="r_ga0e5ab2be4925adab434a11de55a554d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga0e5ab2be4925adab434a11de55a554d3">resetDecoder</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="memdesc:ga0e5ab2be4925adab434a11de55a554d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when the engine is stopped, or when the engine is started. It resets the decoder state and the tooth tracking variables.  <br /></td></tr>
+<tr class="separator:ga0e5ab2be4925adab434a11de55a554d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b75c5b673255cf24f671932b039340e" id="r_ga3b75c5b673255cf24f671932b039340e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e">SetRevolutionTime</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">revTime</a>)</td></tr>
 <tr class="separator:ga3b75c5b673255cf24f671932b039340e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb6f1cf680d1b52d56847080de7e51d2" id="r_gadb6f1cf680d1b52d56847080de7e51d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2">UpdateRevolutionTimeFromTeeth</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">isCamTeeth</a>)</td></tr>
@@ -512,17 +520,17 @@ Variables</h2></td></tr>
 <tr class="separator:a6c79b70e0eb86cd98ddf348af152c761"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a581f2bcc9bef8295750b0da5e024b572" id="r_a581f2bcc9bef8295750b0da5e024b572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a581f2bcc9bef8295750b0da5e024b572">targetGap</a></td></tr>
 <tr class="separator:a581f2bcc9bef8295750b0da5e024b572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b36dad1f46d7ae9c53d1f585a90f178" id="r_a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4b36dad1f46d7ae9c53d1f585a90f178">MAX_STALL_TIME</a> = <a class="el" href="globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b">MICROS_PER_SEC</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td></tr>
-<tr class="separator:a4b36dad1f46d7ae9c53d1f585a90f178"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa6161f5b17b119bc6f737613013145" id="r_a3aa6161f5b17b119bc6f737613013145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a3aa6161f5b17b119bc6f737613013145">MAX_STALL_TIME</a> = <a class="el" href="globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b">MICROS_PER_SEC</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td></tr>
+<tr class="separator:a3aa6161f5b17b119bc6f737613013145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a936cbc258e2a25acd9d1976b40d3c069" id="r_a936cbc258e2a25acd9d1976b40d3c069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a936cbc258e2a25acd9d1976b40d3c069">toothCurrentCount</a> = 0</td></tr>
 <tr class="separator:a936cbc258e2a25acd9d1976b40d3c069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a850b5bd646b55b24342c9b2fb552f16a" id="r_a850b5bd646b55b24342c9b2fb552f16a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a850b5bd646b55b24342c9b2fb552f16a">toothSystemCount</a> = 0</td></tr>
+<tr class="memitem:a850b5bd646b55b24342c9b2fb552f16a" id="r_a850b5bd646b55b24342c9b2fb552f16a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a850b5bd646b55b24342c9b2fb552f16a">toothSystemCount</a> = 0</td></tr>
 <tr class="separator:a850b5bd646b55b24342c9b2fb552f16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b364049047b5c3f2d551b06d6402308" id="r_a5b364049047b5c3f2d551b06d6402308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a5b364049047b5c3f2d551b06d6402308">toothSystemLastToothTime</a> = 0</td></tr>
 <tr class="separator:a5b364049047b5c3f2d551b06d6402308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1016cfc7bbb3d0431923926e7feb5481" id="r_a1016cfc7bbb3d0431923926e7feb5481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1016cfc7bbb3d0431923926e7feb5481">toothLastToothTime</a> = 0</td></tr>
-<tr class="separator:a1016cfc7bbb3d0431923926e7feb5481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d9c0dc167e08696c7e059de46e8f2a9" id="r_a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4d9c0dc167e08696c7e059de46e8f2a9">toothLastSecToothTime</a> = 0</td></tr>
+<tr class="memitem:ac0ffca5b36a2abe1dd6ef98981186307" id="r_ac0ffca5b36a2abe1dd6ef98981186307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ac0ffca5b36a2abe1dd6ef98981186307">toothLastToothTime</a> = 0</td></tr>
+<tr class="separator:ac0ffca5b36a2abe1dd6ef98981186307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9c0dc167e08696c7e059de46e8f2a9" id="r_a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4d9c0dc167e08696c7e059de46e8f2a9">toothLastSecToothTime</a> = 0</td></tr>
 <tr class="separator:a4d9c0dc167e08696c7e059de46e8f2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add3551e101acf85c762b3b8ca371d20e" id="r_add3551e101acf85c762b3b8ca371d20e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#add3551e101acf85c762b3b8ca371d20e">toothLastThirdToothTime</a> = 0</td></tr>
 <tr class="separator:add3551e101acf85c762b3b8ca371d20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -546,7 +554,7 @@ Variables</h2></td></tr>
 <tr class="separator:afce12e6bb920a5a0e061554aa2959221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6521da76d6f66bceadcd390b14e04f4" id="r_ae6521da76d6f66bceadcd390b14e04f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ae6521da76d6f66bceadcd390b14e04f4">revolutionLastOne</a> = 0</td></tr>
 <tr class="separator:ae6521da76d6f66bceadcd390b14e04f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7670219a37eedbce147e5e742d315c0" id="r_aa7670219a37eedbce147e5e742d315c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0">secondaryToothCount</a></td></tr>
+<tr class="memitem:aa7670219a37eedbce147e5e742d315c0" id="r_aa7670219a37eedbce147e5e742d315c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0">secondaryToothCount</a></td></tr>
 <tr class="separator:aa7670219a37eedbce147e5e742d315c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64e9be879dcd7aeb7e08a98bb7146fff" id="r_a64e9be879dcd7aeb7e08a98bb7146fff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a64e9be879dcd7aeb7e08a98bb7146fff">secondaryLastToothCount</a> = 0</td></tr>
 <tr class="separator:a64e9be879dcd7aeb7e08a98bb7146fff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1097,14 +1105,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4b36dad1f46d7ae9c53d1f585a90f178" name="a4b36dad1f46d7ae9c53d1f585a90f178"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b36dad1f46d7ae9c53d1f585a90f178">&#9670;&#160;</a></span>MAX_STALL_TIME</h2>
+<a id="a3aa6161f5b17b119bc6f737613013145" name="a3aa6161f5b17b119bc6f737613013145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aa6161f5b17b119bc6f737613013145">&#9670;&#160;</a></span>MAX_STALL_TIME</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> MAX_STALL_TIME = <a class="el" href="globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b">MICROS_PER_SEC</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> MAX_STALL_TIME = <a class="el" href="globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b">MICROS_PER_SEC</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1186,11 +1194,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a> secondaryToothCount</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1354,11 +1370,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> toothLastSecToothTime = 0</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1391,14 +1415,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a1016cfc7bbb3d0431923926e7feb5481" name="a1016cfc7bbb3d0431923926e7feb5481"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1016cfc7bbb3d0431923926e7feb5481">&#9670;&#160;</a></span>toothLastToothTime</h2>
+<a id="ac0ffca5b36a2abe1dd6ef98981186307" name="ac0ffca5b36a2abe1dd6ef98981186307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0ffca5b36a2abe1dd6ef98981186307">&#9670;&#160;</a></span>toothLastToothTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> toothLastToothTime = 0</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> toothLastToothTime = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1438,11 +1462,19 @@ Here is the caller graph for this function:</div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__table__3d.html#gab8ef12fab634c171394422d0ee8baf94">byte</a> toothSystemCount = 0</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

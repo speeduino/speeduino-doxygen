@@ -90,6 +90,12 @@ Functions</h2></td></tr>
 <tr class="separator:gaffacbfaa5231714384f143fb3b95c772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6278a7fd1ef8d6d837f20d2acfb9664" id="r_gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664">IsCranking</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">status</a>)</td></tr>
 <tr class="separator:gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a05fc7155fcaf19e7cba1ed30dfb216" id="r_ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3a05fc7155fcaf19e7cba1ed30dfb216">engineIsRunning</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="decoders_8cpp.html#a9026a9c5d90202a2c5edf446c18311c0">curTime</a>)</td></tr>
+<tr class="memdesc:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the engine running?  <br /></td></tr>
+<tr class="separator:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e5ab2be4925adab434a11de55a554d3" id="r_ga0e5ab2be4925adab434a11de55a554d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga0e5ab2be4925adab434a11de55a554d3">resetDecoder</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="memdesc:ga0e5ab2be4925adab434a11de55a554d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when the engine is stopped, or when the engine is started. It resets the decoder state and the tooth tracking variables.  <br /></td></tr>
+<tr class="separator:ga0e5ab2be4925adab434a11de55a554d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b75c5b673255cf24f671932b039340e" id="r_ga3b75c5b673255cf24f671932b039340e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e">SetRevolutionTime</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">revTime</a>)</td></tr>
 <tr class="separator:ga3b75c5b673255cf24f671932b039340e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb6f1cf680d1b52d56847080de7e51d2" id="r_gadb6f1cf680d1b52d56847080de7e51d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2">UpdateRevolutionTimeFromTeeth</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">isCamTeeth</a>)</td></tr>
@@ -581,6 +587,59 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="ga3a05fc7155fcaf19e7cba1ed30dfb216" name="ga3a05fc7155fcaf19e7cba1ed30dfb216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3a05fc7155fcaf19e7cba1ed30dfb216">&#9670;&#160;</a></span>engineIsRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a> engineIsRunning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>curTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Is the engine running? </p>
+<p>This is based on whether or not the decoder has detected a tooth recently</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">curTime</td><td>The time in µS to use for the liveness check. Typically the result of a recent call to <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift - generic, unoptimized, case.">micros()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true If the engine is turning </dd>
+<dd>
+false If the engine is not turning </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_cgraph.png" border="0" usemap="#agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_cgraph" alt=""/></div>
+<map name="agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_cgraph" id="agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_cgraph">
+<area shape="rect" title="Is the engine running?" alt="" coords="5,5,123,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="171,5,221,31"/>
+<area shape="poly" title=" " alt="" coords="123,16,155,16,155,21,123,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_icgraph.png" border="0" usemap="#agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_icgraph" alt=""/></div>
+<map name="agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_icgraph" id="agroup__dec__uni_ga3a05fc7155fcaf19e7cba1ed30dfb216_icgraph">
+<area shape="rect" title="Is the engine running?" alt="" coords="220,5,337,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
+<area shape="poly" title=" " alt="" coords="205,21,51,21,51,16,205,16"/>
+<area shape="rect" href="sensors_8cpp.html#a2e3d34bd889973afcf76e333c860270a" title=" " alt="" coords="99,31,172,56"/>
+<area shape="poly" title=" " alt="" coords="205,34,173,40,172,34,204,29"/>
+<area shape="poly" title=" " alt="" coords="83,34,51,26,52,21,84,29"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="gac6278a7fd1ef8d6d837f20d2acfb9664" name="gac6278a7fd1ef8d6d837f20d2acfb9664"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gac6278a7fd1ef8d6d837f20d2acfb9664">&#9670;&#160;</a></span>IsCranking()</h2>
 
@@ -882,6 +941,41 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="438,57,406,53,407,48,439,52"/>
 <area shape="poly" title=" " alt="" coords="681,53,595,34,596,29,682,48"/>
 <area shape="poly" title=" " alt="" coords="646,70,614,70,614,65,646,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ga0e5ab2be4925adab434a11de55a554d3" name="ga0e5ab2be4925adab434a11de55a554d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e5ab2be4925adab434a11de55a554d3">&#9670;&#160;</a></span>resetDecoder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> resetDecoder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This function is called when the engine is stopped, or when the engine is started. It resets the decoder state and the tooth tracking variables. </p>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_icgraph.png" border="0" usemap="#agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_icgraph" alt=""/></div>
+<map name="agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_icgraph" id="agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_icgraph">
+<area shape="rect" title="This function is called when the engine is stopped, or when the engine is started...." alt="" coords="238,31,336,56"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,29"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,57,172,66,171,61,222,52"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1311,36 +1405,39 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,208,95,234"/>
 <area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="374,81,559,107"/>
 <area shape="poly" title=" " alt="" coords="94,205,406,109,408,115,96,210"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1009,259,1059,284"/>
-<area shape="poly" title=" " alt="" coords="95,218,465,218,718,218,787,220,841,226,962,250,994,258,993,263,960,255,840,232,787,226,718,223,465,224,95,224"/>
-<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="143,302,326,343"/>
-<area shape="poly" title=" " alt="" coords="77,232,183,291,181,296,74,237"/>
-<area shape="rect" href="group__dec__uni.html#ga08db06b8b1e556e64a2c417eaad776ec" title=" " alt="" coords="675,5,758,31"/>
-<area shape="poly" title=" " alt="" coords="509,78,607,48,660,32,661,37,608,53,511,83"/>
-<area shape="poly" title=" " alt="" coords="512,78,602,58,659,50,721,46,784,48,847,58,908,78,963,109,991,139,1011,174,1024,211,1031,243,1026,244,1019,212,1006,177,987,142,959,114,905,83,846,63,784,53,721,51,660,55,603,63,513,83"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1060,284,1110,310"/>
+<area shape="poly" title=" " alt="" coords="95,218,465,218,718,218,811,225,903,241,984,262,1046,281,1044,286,982,267,901,246,810,230,718,223,465,224,95,224"/>
+<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="143,314,326,355"/>
+<area shape="poly" title=" " alt="" coords="74,232,188,303,186,308,71,237"/>
+<area shape="rect" href="group__dec__uni.html#ga08db06b8b1e556e64a2c417eaad776ec" title=" " alt="" coords="901,5,985,31"/>
+<area shape="poly" title=" " alt="" coords="502,78,551,62,607,48,682,35,758,26,886,17,886,23,758,31,683,40,608,53,553,67,504,83"/>
+<area shape="poly" title=" " alt="" coords="559,81,678,72,811,68,875,70,932,77,979,87,1013,104,1032,121,1047,140,1068,185,1080,230,1085,268,1080,269,1074,231,1063,186,1042,143,1028,124,1011,108,977,92,931,82,874,76,811,73,678,77,560,87"/>
 <area shape="rect" href="maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca" title="Same as udiv_32_16(), except this will round to nearest integer instead of truncating." alt="" coords="648,107,785,132"/>
 <area shape="poly" title=" " alt="" coords="560,101,633,108,633,114,559,106"/>
-<area shape="poly" title=" " alt="" coords="759,9,805,5,859,8,914,21,939,32,963,48,983,69,999,93,1021,146,1032,199,1035,243,1030,243,1026,200,1015,148,994,95,979,72,959,52,937,37,912,26,858,13,805,11,759,14"/>
-<area shape="poly" title=" " alt="" coords="785,108,827,107,874,111,920,122,962,143,986,164,1005,190,1028,243,1023,245,1000,193,982,168,960,147,918,127,873,116,827,113,785,113"/>
-<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="874,157,961,183"/>
-<area shape="poly" title=" " alt="" coords="771,130,859,153,858,158,770,136"/>
-<area shape="poly" title=" " alt="" coords="939,181,963,200,1011,246,1008,250,959,204,936,185"/>
-<area shape="poly" title=" " alt="" coords="326,301,374,294,555,279,734,271,994,268,994,274,734,277,556,284,374,299,327,306"/>
-<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="419,309,515,335"/>
-<area shape="poly" title=" " alt="" coords="326,320,403,320,403,325,326,325"/>
-<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="876,360,959,386"/>
-<area shape="poly" title=" " alt="" coords="327,338,374,345,511,357,647,365,860,370,860,375,646,370,511,363,374,350,326,343"/>
-<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="401,411,532,436"/>
-<area shape="poly" title=" " alt="" coords="275,341,375,389,410,403,408,408,373,394,273,345"/>
-<area shape="poly" title=" " alt="" coords="515,319,710,313,835,303,961,288,993,280,994,286,961,293,836,309,711,318,515,325"/>
-<area shape="poly" title=" " alt="" coords="936,358,959,339,1008,293,1011,297,963,343,939,362"/>
-<area shape="poly" title=" " alt="" coords="533,425,639,429,765,429,881,419,927,410,960,396,983,376,1001,350,1023,298,1028,300,1006,353,987,379,962,400,928,415,881,425,765,434,639,434,533,430"/>
-<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="607,461,826,487"/>
-<area shape="poly" title=" " alt="" coords="533,434,635,455,634,460,532,439"/>
-<area shape="poly" title=" " alt="" coords="826,480,861,477,896,470,929,458,959,440,988,409,1008,372,1020,333,1027,299,1032,300,1025,334,1012,374,992,412,963,444,931,463,897,475,862,482,826,485"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="888,512,947,538"/>
-<area shape="poly" title=" " alt="" coords="771,485,873,511,872,516,770,490"/>
-<area shape="poly" title=" " alt="" coords="940,509,959,491,987,442,1006,389,1019,339,1027,299,1032,300,1024,341,1011,391,991,444,963,494,943,513"/>
+<area shape="poly" title=" " alt="" coords="986,28,1014,48,1033,75,1048,103,1069,164,1081,222,1086,268,1080,269,1076,223,1064,166,1043,106,1028,77,1010,52,983,33"/>
+<area shape="poly" title=" " alt="" coords="785,105,838,101,898,103,958,116,987,127,1014,143,1041,170,1061,203,1074,238,1082,268,1077,269,1069,239,1056,205,1037,173,1010,147,985,132,957,121,897,109,838,106,785,110"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="899,157,987,183"/>
+<area shape="poly" title=" " alt="" coords="778,130,884,154,883,160,777,136"/>
+<area shape="poly" title=" " alt="" coords="982,181,1014,200,1047,234,1071,269,1067,272,1042,238,1010,204,980,186"/>
+<area shape="poly" title=" " alt="" coords="326,318,374,313,623,296,874,290,1012,290,1045,292,1045,297,1012,295,874,295,624,301,374,318,327,323"/>
+<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="668,321,765,347"/>
+<area shape="poly" title=" " alt="" coords="326,332,653,332,653,337,326,337"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="425,397,508,423"/>
+<area shape="poly" title=" " alt="" coords="300,353,411,389,410,395,298,358"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="401,461,532,487"/>
+<area shape="poly" title=" " alt="" coords="262,353,313,392,375,433,415,453,413,457,373,438,310,397,259,357"/>
+<area shape="poly" title=" " alt="" coords="765,327,1044,298,1045,304,766,332"/>
+<area shape="rect" href="globals_8h.html#a9d456f4b13463e081242c33ca70d2f11" title="Non&#45;atomic version of HasAnySync. **Should only be called in an ATOMIC() block***." alt="" coords="874,360,1012,386"/>
+<area shape="poly" title=" " alt="" coords="766,340,859,356,858,361,765,345"/>
+<area shape="poly" title=" " alt="" coords="973,357,1011,338,1049,316,1052,320,1013,343,976,362"/>
+<area shape="poly" title=" " alt="" coords="509,418,604,437,666,445,733,449,804,448,875,440,945,423,1011,396,1031,381,1047,363,1071,323,1075,325,1052,366,1034,385,1013,400,947,428,876,445,804,453,733,454,665,450,604,442,508,424"/>
+<area shape="poly" title=" " alt="" coords="533,476,651,482,791,483,860,479,922,473,974,461,1011,445,1037,420,1056,388,1069,354,1077,324,1082,326,1074,356,1061,390,1041,423,1013,450,975,466,923,478,860,485,791,488,650,487,533,482"/>
+<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="607,512,826,538"/>
+<area shape="poly" title=" " alt="" coords="533,485,635,506,634,511,532,490"/>
+<area shape="poly" title=" " alt="" coords="809,536,859,537,912,531,964,517,988,505,1010,491,1028,474,1042,454,1063,409,1075,363,1080,325,1085,325,1080,365,1068,411,1047,457,1032,477,1014,495,991,510,966,522,913,536,859,542,809,541"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="913,563,973,588"/>
+<area shape="poly" title=" " alt="" coords="778,536,898,563,897,568,777,541"/>
+<area shape="poly" title=" " alt="" coords="972,566,992,556,1010,542,1028,516,1043,488,1064,428,1076,371,1080,325,1086,325,1081,371,1069,429,1048,490,1033,519,1014,545,995,561,974,570"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1521,24 +1618,27 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph.png" border="0" usemap="#agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph" id="agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,74,189,115"/>
-<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="477,5,573,31"/>
-<area shape="poly" title=" " alt="" coords="155,71,236,48,355,29,461,19,462,24,356,34,237,53,156,76"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="814,132,864,158"/>
-<area shape="poly" title=" " alt="" coords="189,87,237,85,558,86,766,92,792,104,814,119,811,124,789,108,765,97,558,92,237,90,189,92"/>
-<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="682,107,766,132"/>
-<area shape="poly" title=" " alt="" coords="189,95,667,115,667,120,189,101"/>
-<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="237,157,368,183"/>
-<area shape="poly" title=" " alt="" coords="155,113,252,149,250,154,153,118"/>
-<area shape="poly" title=" " alt="" coords="574,12,617,11,667,16,719,27,767,48,786,62,803,80,827,117,823,120,799,84,783,66,764,52,717,32,666,21,617,17,574,17"/>
-<area shape="poly" title=" " alt="" coords="766,126,799,133,798,139,765,131"/>
-<area shape="poly" title=" " alt="" coords="368,164,798,144,799,149,369,170"/>
-<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="416,208,634,234"/>
-<area shape="poly" title=" " alt="" coords="363,181,451,201,450,207,361,186"/>
-<area shape="poly" title=" " alt="" coords="634,213,700,204,765,186,807,164,809,169,767,191,701,209,635,219"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="694,259,754,284"/>
-<area shape="poly" title=" " alt="" coords="579,232,680,258,679,263,578,237"/>
-<area shape="poly" title=" " alt="" coords="742,256,764,238,794,203,819,169,823,172,798,206,768,241,746,260"/>
+<area shape="rect" title=" " alt="" coords="5,125,189,165"/>
+<area shape="rect" href="globals_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="477,56,573,82"/>
+<area shape="poly" title=" " alt="" coords="155,121,236,98,355,79,461,70,462,75,356,85,237,103,156,126"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="869,157,919,183"/>
+<area shape="poly" title=" " alt="" coords="189,142,368,142,495,140,595,136,694,137,821,149,854,156,853,161,820,154,694,142,595,141,496,145,368,147,189,147"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="261,157,344,183"/>
+<area shape="poly" title=" " alt="" coords="189,154,245,161,245,166,189,159"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="237,208,368,234"/>
+<area shape="poly" title=" " alt="" coords="155,163,252,200,250,205,153,168"/>
+<area shape="rect" href="globals_8h.html#a9d456f4b13463e081242c33ca70d2f11" title="Non&#45;atomic version of HasAnySync. **Should only be called in an ATOMIC() block***." alt="" coords="682,5,821,31"/>
+<area shape="poly" title=" " alt="" coords="573,55,676,32,677,38,575,61"/>
+<area shape="poly" title=" " alt="" coords="574,62,627,61,690,65,757,76,822,98,852,119,875,143,872,147,848,123,819,103,756,81,689,70,626,67,574,68"/>
+<area shape="poly" title=" " alt="" coords="793,29,822,48,843,70,860,95,884,142,879,144,855,98,839,74,819,52,790,34"/>
+<area shape="poly" title=" " alt="" coords="345,168,853,168,853,173,345,173"/>
+<area shape="poly" title=" " alt="" coords="368,213,853,171,853,176,369,218"/>
+<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="416,259,634,284"/>
+<area shape="poly" title=" " alt="" coords="363,232,451,252,450,257,361,237"/>
+<area shape="poly" title=" " alt="" coords="635,274,727,265,775,254,819,237,848,218,872,194,875,197,852,222,822,242,776,259,728,270,635,279"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="722,309,781,335"/>
+<area shape="poly" title=" " alt="" coords="586,282,707,310,706,315,585,288"/>
+<area shape="poly" title=" " alt="" coords="781,310,801,301,819,288,839,267,855,243,879,196,884,199,860,245,843,270,822,292,803,306,783,315"/>
 </map>
 </div>
 <div class="dynheader">

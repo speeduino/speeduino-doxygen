@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['o2_0',['O2',['../structstatuses.html#af04d2a79786e75354112868d3aa4573c',1,'statuses']]],
-  ['o2_5f2_1',['O2_2',['../structstatuses.html#a422f8dd982262c6c350f341f82e009b7',1,'statuses']]],
-  ['o2_5f2adc_2',['O2_2ADC',['../structstatuses.html#ad00e73bbe740c796c70f8b701eeb90d3',1,'statuses']]],
+  ['o2_0',['O2',['../structstatuses.html#ad4440c2a4f04905fb51a54e1216aac38',1,'statuses']]],
+  ['o2_5f2_1',['O2_2',['../structstatuses.html#abc849a856ae202dff7c0b4714118b404',1,'statuses']]],
+  ['o2_5f2adc_2',['O2_2ADC',['../structstatuses.html#acf122dc0952c5c42c61144872bd761cf',1,'statuses']]],
   ['o2_5fcalibration_5fpage_3',['O2_CALIBRATION_PAGE',['../globals_8h.html#a485d285c2ca375677ac40f88e2039886',1,'globals.h']]],
-  ['o2adc_4',['O2ADC',['../structstatuses.html#a8b83de680404eeb2430d3998692fb411',1,'statuses']]],
+  ['o2adc_4',['O2ADC',['../structstatuses.html#af95c88bf45d9de28d478d924792a7c48',1,'statuses']]],
   ['o2calibration_5fbins_5',['o2calibration_bins',['../globals_8h.html#a1a51ae3afd0a96889bcba4d9094e6b5f',1,'o2Calibration_bins:&#160;globals.cpp'],['../globals_8cpp.html#a1a51ae3afd0a96889bcba4d9094e6b5f',1,'o2Calibration_bins:&#160;globals.cpp']]],
   ['o2calibration_5fvalues_6',['o2calibration_values',['../globals_8h.html#a7656159c13cdf148a0158adcb102cdb5',1,'o2Calibration_values:&#160;globals.cpp'],['../globals_8cpp.html#a7656159c13cdf148a0158adcb102cdb5',1,'o2Calibration_values:&#160;globals.cpp']]],
   ['o2calibrationtable_7',['o2calibrationtable',['../globals_8h.html#a2a7cacecbcfcb7a19e1c3c2068fbeebb',1,'o2CalibrationTable:&#160;globals.cpp'],['../globals_8cpp.html#a2a7cacecbcfcb7a19e1c3c2068fbeebb',1,'o2CalibrationTable:&#160;globals.cpp']]],

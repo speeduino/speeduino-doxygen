@@ -13,8 +13,9 @@ var searchData=
   ['secondarytables_2eh_10',['secondaryTables.h',['../secondary_tables_8h.html',1,'']]],
   ['sensors_2ecpp_11',['sensors.cpp',['../sensors_8cpp.html',1,'']]],
   ['sensors_2eh_12',['sensors.h',['../sensors_8h.html',1,'']]],
-  ['speeduino_2eh_13',['speeduino.h',['../speeduino_8h.html',1,'']]],
-  ['speeduino_2eino_14',['speeduino.ino',['../speeduino_8ino.html',1,'']]],
-  ['storage_2ecpp_15',['storage.cpp',['../storage_8cpp.html',1,'']]],
-  ['storage_2eh_16',['storage.h',['../storage_8h.html',1,'']]]
+  ['sensors_5fmap_5fstructs_2eh_13',['sensors_map_structs.h',['../sensors__map__structs_8h.html',1,'']]],
+  ['speeduino_2eh_14',['speeduino.h',['../speeduino_8h.html',1,'']]],
+  ['speeduino_2eino_15',['speeduino.ino',['../speeduino_8ino.html',1,'']]],
+  ['storage_2ecpp_16',['storage.cpp',['../storage_8cpp.html',1,'']]],
+  ['storage_2eh_17',['storage.h',['../storage_8h.html',1,'']]]
 ];

@@ -28,7 +28,7 @@ var searchData=
   ['chunkpending_25',['chunkPending',['../comms__legacy_8cpp.html#ab691ea6bc6e723003f66796b3cd24df9',1,'comms_legacy.cpp']]],
   ['chunksize_26',['chunkSize',['../comms__legacy_8cpp.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'comms_legacy.cpp']]],
   ['clidletarget_27',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],
-  ['cltadc_28',['cltADC',['../structstatuses.html#a8bcd9b49bd9ee12b63a4eb29ad9639d5',1,'statuses']]],
+  ['cltadc_28',['cltADC',['../structstatuses.html#af35fd69627107a12a63f3b77a44549f9',1,'statuses']]],
   ['cltadvancetable_29',['cltadvancetable',['../globals_8h.html#a7f68d16676a0c9978199c12f3a13d6d9',1,'CLTAdvanceTable:&#160;globals.cpp'],['../globals_8cpp.html#a7f68d16676a0c9978199c12f3a13d6d9',1,'CLTAdvanceTable:&#160;globals.cpp']]],
   ['cltadvbins_30',['cltAdvBins',['../structconfig4.html#a5e417d513ad7c579602cf759ea09cf48',1,'config4']]],
   ['cltadvvalues_31',['cltAdvValues',['../structconfig4.html#a75ca1496dec1fbc796d915cdfb45b13d',1,'config4']]],
