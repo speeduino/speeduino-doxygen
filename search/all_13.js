@@ -298,7 +298,7 @@ var searchData=
   ['isignitioneventcurrent_295',['isIgnitionEventCurrent',['../sensors_8cpp.html#a7d1a41413911169f7dc10e587fe3b1e3',1,'sensors.cpp']]],
   ['isignitioneventvalid_296',['isIgnitionEventValid',['../sensors_8cpp.html#ac960ee62c5e57b59055b387712d92e7e',1,'sensors.cpp']]],
   ['ismap_297',['isMap',['../comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237',1,'comms_legacy.cpp']]],
-  ['isrxtimeout_298',['isRxTimeout',['../group__group-serial-comms-impl.html#ga9e064949583d0f6ff04e5ebcb7a79df9',1,'comms.cpp']]],
+  ['isrxtimeout_298',['isrxtimeout',['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp'],['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp']]],
   ['isstepperhomed_299',['isStepperHomed',['../idle_8cpp.html#a359806eb74e59672bf88009f37191216',1,'idle.cpp']]],
   ['isvalidbaro_300',['isValidBaro',['../sensors_8cpp.html#a8beb41cd2b2314b35527fc85fcb5d739',1,'sensors.cpp']]],
   ['isvalidmapsensorreading_301',['isValidMapSensorReading',['../sensors_8cpp.html#a0b651192b393a1c53fe7d92d9442412f',1,'sensors.cpp']]]

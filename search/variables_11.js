@@ -25,7 +25,7 @@ var searchData=
   ['serialbytesrxtx_22',['serialBytesRxTx',['../group__group-serial-comms-impl.html#ga1d7ac766b75420fe858818c48cd52917',1,'comms.cpp']]],
   ['serialpayload_23',['serialPayload',['../group__group-serial-comms-impl.html#ga90149338cc40c17fd64b5af5445af772',1,'comms.cpp']]],
   ['serialpayloadlength_24',['serialPayloadLength',['../group__group-serial-comms-impl.html#gae6a46ee24ca592c2736d7f5b6451925b',1,'comms.cpp']]],
-  ['serialreceivestarttime_25',['serialReceiveStartTime',['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'comms.cpp']]],
+  ['serialreceivestarttime_25',['serialreceivestarttime',['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp'],['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp']]],
   ['serialsecondarystatusflag_26',['serialsecondarystatusflag',['../comms__legacy_8h.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialstatusflag_27',['serialstatusflag',['../comms__legacy_8h.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialversion_28',['serialVersion',['../group__group-serial-hard-coded-responses.html#gacafb16836d4625d677a7f179dff00fb3',1,'comms.cpp']]],
