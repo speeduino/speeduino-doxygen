@@ -70,7 +70,7 @@ var searchData=
   ['loop66ms_67',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
   ['loop_5ftimer_68',['loop_timer',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp']]],
   ['loopsec_69',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
-  ['loopspersecond_70',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]],
+  ['loopspersecond_70',['loopsPerSecond',['../structstatuses.html#a37e2707f614bc75ee1115e534648f9f0',1,'statuses']]],
   ['low_5fpass_5ffilter_71',['low_pass_filter',['../maths_8h.html#a6f9baa4883f7096d58378675a308e7b5',1,'LOW_PASS_FILTER(int16_t input, uint8_t alpha, int16_t prior):&#160;maths.h'],['../maths_8h.html#a42d820a247b720e6deb44d57fc2f6145',1,'LOW_PASS_FILTER(uint16_t input, uint8_t alpha, uint16_t prior):&#160;maths.h']]],
   ['lshift_72',['lshift',['../group__group-opt-shift.html#ga2598491ab3e52750600574a622c62414',1,'bit_shifts.h']]],
   ['lshift_3c_2010u_20_3e_73',['lshift&lt; 10U &gt;',['../group__group-opt-shift.html#ga7aca6acd1fe805017abadaca2a3abb6d',1,'bit_shifts.h']]],

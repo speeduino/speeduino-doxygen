@@ -37,5 +37,5 @@ var searchData=
   ['loop66ms_34',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
   ['loop_5ftimer_35',['loop_timer',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp']]],
   ['loopsec_36',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
-  ['loopspersecond_37',['loopsPerSecond',['../structstatuses.html#a9cb534d45b96a03f4452e2d21347c347',1,'statuses']]]
+  ['loopspersecond_37',['loopsPerSecond',['../structstatuses.html#a37e2707f614bc75ee1115e534648f9f0',1,'statuses']]]
 ];
