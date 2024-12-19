@@ -29,7 +29,7 @@ var searchData=
   ['n2o_5fstage2_5funused_26',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
   ['nchannels_27',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
   ['ncylinders_28',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
-  ['nextendcompare_29',['nextendcompare',['../struct_ignition_schedule.html#abf49fb6ce78d22866512f37ce3ecf49d',1,'IgnitionSchedule::nextEndCompare'],['../struct_fuel_schedule.html#a5465ef3b63db6343782e33f3578e1bfd',1,'FuelSchedule::nextEndCompare']]],
+  ['nextendcompare_29',['nextEndCompare',['../struct_ignition_schedule.html#abf49fb6ce78d22866512f37ce3ecf49d',1,'IgnitionSchedule']]],
   ['nextstartcompare_30',['nextstartcompare',['../struct_ignition_schedule.html#a42061bfc7de6f444eb124d9d252de60d',1,'IgnitionSchedule::nextStartCompare'],['../struct_fuel_schedule.html#a4b7a91e9d3d92134aea42e80bdde0138',1,'FuelSchedule::nextStartCompare']]],
   ['nextvvt_31',['nextVVT',['../auxiliaries_8cpp.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.cpp']]],
   ['ninjectors_32',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],

@@ -24,7 +24,7 @@ var searchData=
   ['enable_5fcandata_5fout_21',['enable_candata_out',['../structconfig9.html#af0d75dfad321c2a95abbeda0c80c9cae',1,'config9']]],
   ['enable_5fintcan_22',['enable_intcan',['../structconfig9.html#a789618e5c8b703ed22a5fe275f9644e7',1,'config9']]],
   ['enable_5fsecondaryserial_23',['enable_secondarySerial',['../structconfig9.html#a216f8259e9ee1eb447329bcee29e657f',1,'config9']]],
-  ['endcompare_24',['endcompare',['../struct_ignition_schedule.html#aeb2e53e7e205d19078ac720caa4fda3a',1,'IgnitionSchedule::endCompare'],['../struct_fuel_schedule.html#a590ff7abcf13d79cb532950b08bc2f1b',1,'FuelSchedule::endCompare']]],
+  ['endcompare_24',['endCompare',['../struct_ignition_schedule.html#aeb2e53e7e205d19078ac720caa4fda3a',1,'IgnitionSchedule']]],
   ['endschedulesetbydecoder_25',['endScheduleSetByDecoder',['../struct_ignition_schedule.html#afea244a788ce69959db3b22ea7751f0b',1,'IgnitionSchedule']]],
   ['engine_26',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
   ['engineprotectmaxrpm_27',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4']]],
