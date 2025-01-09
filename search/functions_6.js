@@ -10,10 +10,16 @@ var searchData=
   ['from_5fbyte_5f1_7',['from_byte_1',['../table3d__axis__io_8cpp.html#a202e20abbde27e340b338b4439324418',1,'table3d_axis_io.cpp']]],
   ['from_5fbyte_5f100_8',['from_byte_100',['../table3d__axis__io_8cpp.html#aed823e0a5bc7444e98f26354ab0b8aa5',1,'table3d_axis_io.cpp']]],
   ['from_5fbyte_5f2_9',['from_byte_2',['../table3d__axis__io_8cpp.html#a2996e69ffed2a5e6806c48facd2aab70',1,'table3d_axis_io.cpp']]],
-  ['fuelschedule_10',['FuelSchedule',['../struct_fuel_schedule.html#a5a2d03935070f7311c477ec4a5e26c25',1,'FuelSchedule']]],
-  ['fuelschedule1interrupt_11',['fuelSchedule1Interrupt',['../scheduler_8cpp.html#a081129d0914e4351417a0d9c8dc5f2c4',1,'scheduler.cpp']]],
-  ['fuelschedule2interrupt_12',['fuelSchedule2Interrupt',['../scheduler_8cpp.html#a53ca04d6ab1932ed4a30c589c73c8376',1,'scheduler.cpp']]],
-  ['fuelschedule3interrupt_13',['fuelSchedule3Interrupt',['../scheduler_8cpp.html#a4cfa3288c9f7374e33f5185f91da5e80',1,'scheduler.cpp']]],
-  ['fuelschedule4interrupt_14',['fuelSchedule4Interrupt',['../scheduler_8cpp.html#ab89462f482ef0e56e66a7cc5763cd4e2',1,'scheduler.cpp']]],
-  ['fuelscheduleisr_15',['fuelScheduleISR',['../scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9',1,'scheduler.cpp']]]
+  ['fuelmodecondswitchactive_10',['fuelModeCondSwitchActive',['../secondary_tables_8cpp.html#ad3e818ef9648d541b47b33e29b8d75fb',1,'secondaryTables.cpp']]],
+  ['fuelmodecondswitchethanolactive_11',['fuelModeCondSwitchEthanolActive',['../secondary_tables_8cpp.html#a8a674fd34fe7df718e203ead359bb29e',1,'secondaryTables.cpp']]],
+  ['fuelmodecondswitchmapactive_12',['fuelModeCondSwitchMapActive',['../secondary_tables_8cpp.html#a5eb011c964143bdc6f6915ff4d00fe54',1,'secondaryTables.cpp']]],
+  ['fuelmodecondswitchrpmactive_13',['fuelModeCondSwitchRpmActive',['../secondary_tables_8cpp.html#a6b14c825e13d20fe5bf4cc60222786a3',1,'secondaryTables.cpp']]],
+  ['fuelmodecondswitchtpsactive_14',['fuelModeCondSwitchTpsActive',['../secondary_tables_8cpp.html#aff303ce0e433ff3dff111d099be4f820',1,'secondaryTables.cpp']]],
+  ['fuelmodeinputswitchactive_15',['fuelModeInputSwitchActive',['../secondary_tables_8cpp.html#ae2f0f5e8813543a18083e52e3906fb5f',1,'secondaryTables.cpp']]],
+  ['fuelschedule_16',['FuelSchedule',['../struct_fuel_schedule.html#a5a2d03935070f7311c477ec4a5e26c25',1,'FuelSchedule']]],
+  ['fuelschedule1interrupt_17',['fuelSchedule1Interrupt',['../scheduler_8cpp.html#a081129d0914e4351417a0d9c8dc5f2c4',1,'scheduler.cpp']]],
+  ['fuelschedule2interrupt_18',['fuelSchedule2Interrupt',['../scheduler_8cpp.html#a53ca04d6ab1932ed4a30c589c73c8376',1,'scheduler.cpp']]],
+  ['fuelschedule3interrupt_19',['fuelSchedule3Interrupt',['../scheduler_8cpp.html#a4cfa3288c9f7374e33f5185f91da5e80',1,'scheduler.cpp']]],
+  ['fuelschedule4interrupt_20',['fuelSchedule4Interrupt',['../scheduler_8cpp.html#ab89462f482ef0e56e66a7cc5763cd4e2',1,'scheduler.cpp']]],
+  ['fuelscheduleisr_21',['fuelScheduleISR',['../scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9',1,'scheduler.cpp']]]
 ];

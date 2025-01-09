@@ -63,7 +63,7 @@ var searchData=
   ['crankingenrichtaper_60',['crankingenrichtaper',['../structconfig10.html#a29c03d63921111f0515c7602be7e78ee',1,'config10::crankingEnrichTaper'],['../corrections_8cpp.html#a50b5a0a7bcace2bcfc3985d401db1589',1,'crankingEnrichTaper:&#160;corrections.cpp'],['../corrections_8h.html#a50b5a0a7bcace2bcfc3985d401db1589',1,'crankingEnrichTaper:&#160;corrections.cpp']]],
   ['crankingenrichvalues_61',['crankingEnrichValues',['../structconfig10.html#a17319b8ecbe0ff4519141e44d3499a26',1,'config10']]],
   ['crankingpct_62',['crankingPct',['../structconfig2.html#a46d6cd573533b4b7875c8e827b8ae11c',1,'config2']]],
-  ['crankrpm_63',['crankrpm',['../structstatuses.html#addffd5f8b9833a8e9e946c204b76641e',1,'statuses::crankRPM'],['../structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae',1,'config4::crankRPM']]],
+  ['crankrpm_63',['crankrpm',['../structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae',1,'config4::crankRPM'],['../structstatuses.html#addffd5f8b9833a8e9e946c204b76641e',1,'statuses::crankRPM']]],
   ['crc32_5fcalibration_64',['CRC32_calibration',['../group__group-serial-comms-impl.html#gaa6a2ccd44b27d443d163bf3ed6b4be25',1,'comms.cpp']]],
   ['crc32_5fserial_65',['CRC32_serial',['../group__group-serial-comms-impl.html#gac772dbbd5148947d8cf56df07cb6ada7',1,'comms.cpp']]],
   ['crkngaddcltadv_66',['crkngAddCLTAdv',['../structconfig2.html#a1dfd908e90cee4dbe5ce22c5811cd271',1,'config2']]],

@@ -30,7 +30,7 @@ var searchData=
   ['canbuspage_27',['canbusPage',['../pages_8h.html#a545bbe1325da09a68c8ba13e18875b77',1,'pages.h']]],
   ['check_5fraw_28',['CHECK_RAW',['../pages_8cpp.html#ac9ab271716bed72ab98ac3bdee4f8f4c',1,'pages.cpp']]],
   ['check_5ftable_29',['CHECK_TABLE',['../pages_8cpp.html#ac206646326801904e2e372eb2bfe0868',1,'pages.cpp']]],
-  ['closed_5floop_5fboost_30',['CLOSED_LOOP_BOOST',['../globals_8h.html#aa8a2d06ef12d53416a4756a00b5ba742',1,'globals.h']]],
+  ['closed_5floop_5fboost_30',['CLOSED_LOOP_BOOST',['../config__pages_8h.html#aa8a2d06ef12d53416a4756a00b5ba742',1,'config_pages.h']]],
   ['closeinjector1_5fdirect_31',['closeInjector1_DIRECT',['../scheduled_i_o_8h.html#aa948bef96c4ddd9d951af65338e85446',1,'scheduledIO.h']]],
   ['closeinjector1_5fmc33810_32',['closeInjector1_MC33810',['../acc__mc33810_8h.html#a44e3e7ce7cd519d9c8a5ab9b0db829e1',1,'acc_mc33810.h']]],
   ['closeinjector2_5fdirect_33',['closeInjector2_DIRECT',['../scheduled_i_o_8h.html#a8043276cc2104e2208f15c2fb998eec9',1,'scheduledIO.h']]],

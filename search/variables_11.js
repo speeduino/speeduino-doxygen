@@ -35,7 +35,7 @@ var searchData=
   ['softlimmax_32',['SoftLimMax',['../structconfig4.html#a45deb291cbf936066ec4dcf0081ecec1',1,'config4']]],
   ['softlimretard_33',['SoftLimRetard',['../structconfig4.html#a96c132cfd4c2a0b19a4d2c5d7f16d0e0',1,'config4']]],
   ['softrevlim_34',['SoftRevLim',['../structconfig4.html#a812d30608f1f4d9c17bc8409d7258f32',1,'config4']]],
-  ['spark2algorithm_35',['spark2Algorithm',['../structconfig10.html#ab8a9bc2c315f3d9d8499be75f2b65ff8',1,'config10']]],
+  ['spark2algorithm_35',['spark2Algorithm',['../structconfig10.html#a55feb902eeda65bb9725e60af5f3b14b',1,'config10']]],
   ['spark2inputpin_36',['spark2InputPin',['../structconfig10.html#a8542de8ac69b4cd17f43184d7512a118',1,'config10']]],
   ['spark2inputpolarity_37',['spark2InputPolarity',['../structconfig10.html#afc48e4a85caca65c9227a8cd8d4744e1',1,'config10']]],
   ['spark2inputpullup_38',['spark2InputPullup',['../structconfig10.html#af631771aec74935cfd4a3c1ae9479a10',1,'config10']]],

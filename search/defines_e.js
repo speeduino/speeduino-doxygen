@@ -1,10 +1,10 @@
 var searchData=
 [
   ['o2_5fcalibration_5fpage_0',['O2_CALIBRATION_PAGE',['../globals_8h.html#a485d285c2ca375677ac40f88e2039886',1,'globals.h']]],
-  ['odd_5ffire_1',['ODD_FIRE',['../globals_8h.html#ae1cd409f4712fff605f01fa6af3a835a',1,'globals.h']]],
+  ['odd_5ffire_1',['odd_fire',['../config__pages_8h.html#ae1cd409f4712fff605f01fa6af3a835a',1,'ODD_FIRE:&#160;config_pages.h'],['../config__pages_8h.html#ae1cd409f4712fff605f01fa6af3a835a',1,'ODD_FIRE:&#160;config_pages.h']]],
   ['offset_5ffueltrim_2',['OFFSET_FUELTRIM',['../globals_8h.html#a31e817fc9ea7d66640a4f42b1ea7e9a6',1,'globals.h']]],
   ['offset_5fignition_3',['OFFSET_IGNITION',['../globals_8h.html#aa8d48ffa23ed01c0efe4237511231109',1,'globals.h']]],
-  ['open_5floop_5fboost_4',['OPEN_LOOP_BOOST',['../globals_8h.html#a37831f487dad7c1f20ec7f88978b1a9a',1,'globals.h']]],
+  ['open_5floop_5fboost_4',['OPEN_LOOP_BOOST',['../config__pages_8h.html#a37831f487dad7c1f20ec7f88978b1a9a',1,'config_pages.h']]],
   ['openinjector1_5fdirect_5',['openInjector1_DIRECT',['../scheduled_i_o_8h.html#a06c07417512b05b6349d8276dd5c3523',1,'scheduledIO.h']]],
   ['openinjector1_5fmc33810_6',['openInjector1_MC33810',['../acc__mc33810_8h.html#a78cf834faa580a9b36f00ed7d1240acc',1,'acc_mc33810.h']]],
   ['openinjector2_5fdirect_7',['openInjector2_DIRECT',['../scheduled_i_o_8h.html#a7fa85b24b25e20ca4e2f38d0ef6c9b67',1,'scheduledIO.h']]],

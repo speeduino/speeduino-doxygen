@@ -76,5 +76,5 @@ var searchData=
   ['ts_5fcmd_5fvss_5fratio4_73',['TS_CMD_VSS_RATIO4',['../_t_s___command_button_handler_8h.html#a58e3c46f5cacd6e96c0fcd61ffb31892',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fvss_5fratio5_74',['TS_CMD_VSS_RATIO5',['../_t_s___command_button_handler_8h.html#ad1256beea42f9439fccf8f1f9702cd32',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fvss_5fratio6_75',['TS_CMD_VSS_RATIO6',['../_t_s___command_button_handler_8h.html#a6a89eebaa708eea2e9c9d799588d1b68',1,'TS_CommandButtonHandler.h']]],
-  ['two_5fstroke_76',['TWO_STROKE',['../globals_8h.html#ad2b65a5cb4c34cbcaf4c059d3efc5940',1,'globals.h']]]
+  ['two_5fstroke_76',['TWO_STROKE',['../config__pages_8h.html#ad2b65a5cb4c34cbcaf4c059d3efc5940',1,'config_pages.h']]]
 ];
