@@ -237,9 +237,10 @@ var searchData=
   ['storecalibrationcrc32_234',['storecalibrationcrc32',['../storage_8h.html#aef26cb1327a30d037c74860b91240508',1,'storeCalibrationCRC32(uint8_t calibrationPageNum, uint32_t calibrationCRC):&#160;storage.cpp'],['../storage_8cpp.html#aef26cb1327a30d037c74860b91240508',1,'storeCalibrationCRC32(uint8_t calibrationPageNum, uint32_t calibrationCRC):&#160;storage.cpp']]],
   ['storeeepromversion_235',['storeeepromversion',['../storage_8h.html#afc52f348f929632166603de11617428d',1,'storeEEPROMVersion(byte newVersion):&#160;storage.cpp'],['../storage_8cpp.html#afc52f348f929632166603de11617428d',1,'storeEEPROMVersion(byte newVersion):&#160;storage.cpp']]],
   ['storelastbaro_236',['storelastbaro',['../storage_8cpp.html#a1a092e980b5f5fc36f2d33b5c79d6405',1,'storeLastBaro(byte newValue):&#160;storage.cpp'],['../storage_8h.html#a1a092e980b5f5fc36f2d33b5c79d6405',1,'storeLastBaro(byte newValue):&#160;storage.cpp']]],
-  ['storepagecrc32_237',['storepagecrc32',['../storage_8cpp.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp'],['../storage_8h.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp']]],
-  ['strokes_238',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
-  ['subaru_206_207_239',['Subaru 6/7',['../group__dec__subaru__6__7.html',1,'']]],
-  ['suzuki_20k6a_240',['Suzuki K6A',['../group___suzuki___k6_a.html',1,'']]],
-  ['synclosscounter_241',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
+  ['storelastmapreadings_237',['storeLastMAPReadings',['../sensors_8cpp.html#a6a5408d1ef6cdfa60309431e1bae7d20',1,'sensors.cpp']]],
+  ['storepagecrc32_238',['storepagecrc32',['../storage_8cpp.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp'],['../storage_8h.html#a57f1423d06ff792b7c73b636677600e8',1,'storePageCRC32(uint8_t pageNum, uint32_t crcValue):&#160;storage.cpp']]],
+  ['strokes_239',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
+  ['subaru_206_207_240',['Subaru 6/7',['../group__dec__subaru__6__7.html',1,'']]],
+  ['suzuki_20k6a_241',['Suzuki K6A',['../group___suzuki___k6_a.html',1,'']]],
+  ['synclosscounter_242',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
 ];
