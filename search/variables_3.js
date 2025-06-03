@@ -10,7 +10,7 @@ var searchData=
   ['dfcohyster_7',['dfcoHyster',['../structconfig4.html#a62f401f0dd00e2dbb27555a47c65b2ee',1,'config4']]],
   ['dfcominclt_8',['dfcoMinCLT',['../structconfig2.html#a180cf1129eaa9a49253002fa50b5a587',1,'config2']]],
   ['dfcorpm_9',['dfcoRPM',['../structconfig4.html#a0db78224b4ddc80d2c33ca09858e3767',1,'config4']]],
-  ['dfcotaper_10',['dfcotaper',['../corrections_8cpp.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper:&#160;corrections.cpp'],['../corrections_8h.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper:&#160;corrections.cpp']]],
+  ['dfcotaper_10',['dfcotaper',['../corrections_8h.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper:&#160;corrections.cpp'],['../corrections_8cpp.html#a23586eea723b5b42375cea6cef42f4d4',1,'dfcoTaper:&#160;corrections.cpp']]],
   ['dfcotaperadvance_11',['dfcoTaperAdvance',['../structconfig9.html#afebc9a1970982e05f71f74a237631d62',1,'config9']]],
   ['dfcotaperenable_12',['dfcoTaperEnable',['../structconfig9.html#ad71585a24143910cf62e9f12e76817d9',1,'config9']]],
   ['dfcotaperfuel_13',['dfcoTaperFuel',['../structconfig9.html#a273752def78993cdc24c65603c4e1689',1,'config9']]],
@@ -29,6 +29,5 @@ var searchData=
   ['dwelllimit_26',['dwellLimit',['../structconfig4.html#ac858ca96fd01bcd6305e04554fd3dcdd',1,'config4']]],
   ['dwelllimit_5fus_27',['dwelllimit_us',['../timers_8cpp.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp'],['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp']]],
   ['dwellrun_28',['dwellRun',['../structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c',1,'config4']]],
-  ['dwelltable_29',['dwelltable',['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]],
-  ['dwellvcorrectiontable_30',['dwellvcorrectiontable',['../globals_8cpp.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp'],['../globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp']]]
+  ['dwelltable_29',['dwelltable',['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]]
 ];

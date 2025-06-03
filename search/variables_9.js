@@ -25,7 +25,5 @@ var searchData=
   ['knockcount_22',['knockCount',['../structstatuses.html#a53d83ed34ecc9ce968d4e837448648af',1,'statuses']]],
   ['knocklastrecoverystep_23',['knockLastRecoveryStep',['../corrections_8cpp.html#a74af4202df0cddea46669b6494fbc26b',1,'corrections.cpp']]],
   ['knockretard_24',['knockRetard',['../structstatuses.html#a66e9742cc2d9e2393a6a17979b63f9b7',1,'statuses']]],
-  ['knockstarttime_25',['knockStartTime',['../corrections_8cpp.html#a0b530997a0d6bda8cb05f565500466f2',1,'corrections.cpp']]],
-  ['knockwindowdurationtable_26',['knockwindowdurationtable',['../globals_8cpp.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable:&#160;globals.cpp'],['../globals_8h.html#aa2297d65fed5bbeb3c4372e9123251f8',1,'knockWindowDurationTable:&#160;globals.cpp']]],
-  ['knockwindowstarttable_27',['knockwindowstarttable',['../globals_8cpp.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable:&#160;globals.cpp'],['../globals_8h.html#a7230a340e6c4eced887fd567febb6142',1,'knockWindowStartTable:&#160;globals.cpp']]]
+  ['knockstarttime_25',['knockStartTime',['../corrections_8cpp.html#a0b530997a0d6bda8cb05f565500466f2',1,'corrections.cpp']]]
 ];

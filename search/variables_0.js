@@ -77,15 +77,12 @@ var searchData=
   ['anglefilter_5fvvt_74',['ANGLEFILTER_VVT',['../structconfig4.html#affdd82923d6cbda4964026982989beaa',1,'config4']]],
   ['asebins_75',['aseBins',['../structconfig2.html#ac6e1eb8a0dc9d6c21dfbe5a7e866e33f',1,'config2']]],
   ['asecount_76',['aseCount',['../structconfig2.html#a0188b4fe416fa65f0ba422fa296f44d2',1,'config2']]],
-  ['asecounttable_77',['asecounttable',['../globals_8cpp.html#a7d32d499813c3369d137245b5bd52c1c',1,'ASECountTable:&#160;globals.cpp'],['../globals_8h.html#a7d32d499813c3369d137245b5bd52c1c',1,'ASECountTable:&#160;globals.cpp']]],
-  ['asepct_78',['asePct',['../structconfig2.html#a806bb38b169edd5ba9111b6e9cf499ad',1,'config2']]],
-  ['asetable_79',['asetable',['../globals_8cpp.html#afb34cf5f5cb7be8b7f030fba2b5ddce7',1,'ASETable:&#160;globals.cpp'],['../globals_8h.html#afb34cf5f5cb7be8b7f030fba2b5ddce7',1,'ASETable:&#160;globals.cpp']]],
-  ['asetaper_80',['asetaper',['../corrections_8h.html#aedaf3a2fb434faf92904d0f8b85b08ed',1,'aseTaper:&#160;corrections.cpp'],['../corrections_8cpp.html#aedaf3a2fb434faf92904d0f8b85b08ed',1,'aseTaper:&#160;corrections.cpp']]],
-  ['asetapertime_81',['aseTaperTime',['../structconfig2.html#a7c992e4620c219f75f4feb7a2a1c85d3',1,'config2']]],
-  ['asevalue_82',['ASEValue',['../structstatuses.html#a096124988d98c74d6904b3f63d3d7e59',1,'statuses']]],
-  ['auxinpina_83',['Auxinpina',['../structconfig9.html#a9b35198ddd09c28cbf77d90cbb6f0780',1,'config9']]],
-  ['auxinpinb_84',['Auxinpinb',['../structconfig9.html#acf1e3d10aaca69311e6475cadda9e76c',1,'config9']]],
-  ['auxisenabled_85',['auxisenabled',['../sensors_8cpp.html#ae6887b4f1dbc4e0f70d5e73f4b97b446',1,'auxIsEnabled:&#160;sensors.cpp'],['../sensors_8h.html#ae6887b4f1dbc4e0f70d5e73f4b97b446',1,'auxIsEnabled:&#160;sensors.cpp']]],
-  ['axissize_86',['axisSize',['../structtable2_d.html#af5e2d709c4d22aae47872188dc08d921',1,'table2D']]],
-  ['axisx_87',['axisX',['../structtable2_d.html#a369c3ffe225b8c6ebaaa4f6814862b83',1,'table2D']]]
+  ['asepct_77',['asePct',['../structconfig2.html#a806bb38b169edd5ba9111b6e9cf499ad',1,'config2']]],
+  ['asetaper_78',['asetaper',['../corrections_8cpp.html#aedaf3a2fb434faf92904d0f8b85b08ed',1,'aseTaper:&#160;corrections.cpp'],['../corrections_8h.html#aedaf3a2fb434faf92904d0f8b85b08ed',1,'aseTaper:&#160;corrections.cpp']]],
+  ['asetapertime_79',['aseTaperTime',['../structconfig2.html#a7c992e4620c219f75f4feb7a2a1c85d3',1,'config2']]],
+  ['asevalue_80',['ASEValue',['../structstatuses.html#a096124988d98c74d6904b3f63d3d7e59',1,'statuses']]],
+  ['auxinpina_81',['Auxinpina',['../structconfig9.html#a9b35198ddd09c28cbf77d90cbb6f0780',1,'config9']]],
+  ['auxinpinb_82',['Auxinpinb',['../structconfig9.html#acf1e3d10aaca69311e6475cadda9e76c',1,'config9']]],
+  ['auxisenabled_83',['auxisenabled',['../sensors_8cpp.html#ae6887b4f1dbc4e0f70d5e73f4b97b446',1,'auxIsEnabled:&#160;sensors.cpp'],['../sensors_8h.html#ae6887b4f1dbc4e0f70d5e73f4b97b446',1,'auxIsEnabled:&#160;sensors.cpp']]],
+  ['axis_84',['axis',['../structtable2_d.html#a24aa5d3f6f423792eda0665e08bb424a',1,'table2D']]]
 ];

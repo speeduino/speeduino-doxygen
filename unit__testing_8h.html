@@ -87,13 +87,15 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="unit__testing_8h__dep__incl.png" border="0" usemap="#aspeeduino_2unit__testing_8hdep" alt=""/></div>
 <map name="aspeeduino_2unit__testing_8hdep" id="aspeeduino_2unit__testing_8hdep">
-<area shape="rect" title="Unit testability support." alt="" coords="213,5,375,31"/>
-<area shape="rect" href="decoders_8cpp.html" title=" " alt="" coords="5,79,167,105"/>
-<area shape="poly" title=" " alt="" coords="245,39,122,81,121,76,244,34"/>
-<area shape="rect" href="secondary_tables_8cpp.html" title=" " alt="" coords="191,79,397,105"/>
-<area shape="poly" title=" " alt="" coords="297,46,297,79,291,79,291,46"/>
-<area shape="rect" href="sensors_8cpp.html" title=" " alt="" coords="421,79,575,105"/>
-<area shape="poly" title=" " alt="" coords="344,34,464,76,462,81,342,39"/>
+<area shape="rect" title="Unit testability support." alt="" coords="306,5,467,31"/>
+<area shape="rect" href="corrections_8cpp.html" title=" " alt="" coords="5,79,178,105"/>
+<area shape="poly" title=" " alt="" coords="322,38,142,81,141,76,321,33"/>
+<area shape="rect" href="decoders_8cpp.html" title=" " alt="" coords="202,79,363,105"/>
+<area shape="poly" title=" " alt="" coords="358,42,301,81,298,76,355,38"/>
+<area shape="rect" href="secondary_tables_8cpp.html" title=" " alt="" coords="387,79,593,105"/>
+<area shape="poly" title=" " alt="" coords="418,38,474,76,471,81,415,42"/>
+<area shape="rect" href="sensors_8cpp.html" title=" " alt="" coords="617,79,771,105"/>
+<area shape="poly" title=" " alt="" coords="454,32,642,76,641,81,453,38"/>
 </map>
 </div>
 </div>
@@ -107,10 +109,30 @@ Macros</h2></td></tr>
 <tr class="memitem:ab21e24142ca71f50640ca50cccbd41f4" id="r_ab21e24142ca71f50640ca50cccbd41f4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a>&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">inline</a></td></tr>
 <tr class="memdesc:ab21e24142ca71f50640ca50cccbd41f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark an entity as having static (internal) linkage &amp; inlined, unless a unit test is in progress - then the entity is given external linkage so the test can access it.  <br /></td></tr>
 <tr class="separator:ab21e24142ca71f50640ca50cccbd41f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82e89f1042b035446110d96543bceb8" id="r_ae82e89f1042b035446110d96543bceb8"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a>&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a></td></tr>
+<tr class="memdesc:ae82e89f1042b035446110d96543bceb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark an entity with constexpr (giving it internal linkage), unless a unit test is in progress - then the entity is given external linkage so the test can access it.  <br /></td></tr>
+<tr class="separator:ae82e89f1042b035446110d96543bceb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Unit testability support. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae82e89f1042b035446110d96543bceb8" name="ae82e89f1042b035446110d96543bceb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae82e89f1042b035446110d96543bceb8">&#9670;&#160;</a></span>TESTABLE_CONSTEXPR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> TESTABLE_CONSTEXPR&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Mark an entity with constexpr (giving it internal linkage), unless a unit test is in progress - then the entity is given external linkage so the test can access it. </p>
+<p>Most useful for translation unit scoped variables. I.e. constexpr within a CPP file </p>
+
+</div>
+</div>
 <a id="ab21e24142ca71f50640ca50cccbd41f4" name="ab21e24142ca71f50640ca50cccbd41f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab21e24142ca71f50640ca50cccbd41f4">&#9670;&#160;</a></span>TESTABLE_INLINE_STATIC</h2>
 

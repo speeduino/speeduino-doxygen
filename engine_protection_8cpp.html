@@ -83,9 +83,14 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="engine_protection_8h_source.html">engineProtection.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utilities_8h_source.html">utilities.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:adb0da6b5e353df14ab83fd440a4c9b36" id="r_adb0da6b5e353df14ab83fd440a4c9b36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#adb0da6b5e353df14ab83fd440a4c9b36">oilPressureProtectTable</a> (<a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(configPage10.oilPressureProtMins), configPage10.oilPressureProtMins, configPage10.oilPressureProtRPM)</td></tr>
+<tr class="separator:adb0da6b5e353df14ab83fd440a4c9b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99def0a4b16aa409081c8137dfe92814" id="r_a99def0a4b16aa409081c8137dfe92814"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="structtable2_d.html">table2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a99def0a4b16aa409081c8137dfe92814">coolantProtectTable</a> (<a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(configPage9.coolantProtRPM), configPage9.coolantProtRPM, configPage9.coolantProtTemp)</td></tr>
+<tr class="separator:a99def0a4b16aa409081c8137dfe92814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a216facc92ff77b5d526b4d7b74448ed2" id="r_a216facc92ff77b5d526b4d7b74448ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a216facc92ff77b5d526b4d7b74448ed2">checkEngineProtect</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
 <tr class="separator:a216facc92ff77b5d526b4d7b74448ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac68d8ff6c9b1fe7956025c148a0dc1ac" id="r_ac68d8ff6c9b1fe7956025c148a0dc1ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#ac68d8ff6c9b1fe7956025c148a0dc1ac">checkRevLimit</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
@@ -203,32 +208,52 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="engine_protection_8cpp_a216facc92ff77b5d526b4d7b74448ed2_cgraph.png" border="0" usemap="#aengine_protection_8cpp_a216facc92ff77b5d526b4d7b74448ed2_cgraph" alt=""/></div>
 <map name="aengine_protection_8cpp_a216facc92ff77b5d526b4d7b74448ed2_cgraph" id="aengine_protection_8cpp_a216facc92ff77b5d526b4d7b74448ed2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,143,107"/>
-<area shape="rect" href="engine_protection_8cpp.html#a0dfa251717fd68fbe7aa11a48b2c978d" title=" " alt="" coords="398,5,509,31"/>
-<area shape="poly" title=" " alt="" coords="104,78,144,62,190,48,290,29,382,19,383,25,291,34,191,53,146,67,106,83"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="761,183,811,208"/>
-<area shape="poly" title=" " alt="" coords="143,82,256,73,401,73,480,79,560,91,638,109,714,136,740,151,763,170,760,174,737,155,712,141,637,114,559,96,479,84,401,78,256,79,144,88"/>
-<area shape="rect" href="engine_protection_8cpp.html#a8d4d3e78612cb5ba5ffea829fd6ec80a" title=" " alt="" coords="208,107,327,132"/>
-<area shape="poly" title=" " alt="" coords="143,101,193,107,192,112,143,106"/>
-<area shape="rect" href="engine_protection_8cpp.html#ad24b3c61a81b4a57856c2e56de5b270d" title=" " alt="" coords="191,183,344,208"/>
-<area shape="poly" title=" " alt="" coords="102,105,229,173,226,178,99,110"/>
-<area shape="poly" title=" " alt="" coords="510,8,557,6,610,10,665,23,690,34,714,48,741,74,760,106,773,138,782,167,777,169,768,140,755,108,736,77,711,52,688,39,663,28,609,16,557,12,510,14"/>
-<area shape="poly" title=" " alt="" coords="328,119,502,132,608,146,713,166,747,177,745,182,712,171,607,151,501,137,327,124"/>
-<area shape="poly" title=" " alt="" coords="344,189,513,184,713,186,746,189,745,194,713,191,513,189,345,194"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="424,208,483,234"/>
-<area shape="poly" title=" " alt="" coords="345,203,409,212,408,217,344,209"/>
-<area shape="rect" href="table2d_8cpp.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="392,309,515,335"/>
-<area shape="poly" title=" " alt="" coords="289,207,422,298,419,303,286,211"/>
-<area shape="poly" title=" " alt="" coords="483,216,745,196,745,201,484,221"/>
-<area shape="poly" title=" " alt="" coords="489,306,745,208,747,213,491,311"/>
-<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="585,309,691,335"/>
-<area shape="poly" title=" " alt="" coords="516,320,570,320,570,325,516,325"/>
-<area shape="rect" href="table2d_8cpp.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="564,359,712,384"/>
-<area shape="poly" title=" " alt="" coords="505,333,573,352,572,357,504,338"/>
-<area shape="rect" href="table2d_8cpp.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="563,408,713,434"/>
-<area shape="poly" title=" " alt="" coords="473,334,513,364,565,394,576,400,574,404,562,399,510,368,470,338"/>
-<area shape="poly" title=" " alt="" coords="695,356,711,345,735,317,754,285,776,222,781,224,759,287,740,320,714,350,698,360"/>
-<area shape="poly" title=" " alt="" coords="696,405,711,395,741,355,761,308,773,262,780,223,785,224,779,263,766,310,746,357,715,399,699,410"/>
+<area shape="rect" title=" " alt="" coords="5,80,143,105"/>
+<area shape="rect" href="engine_protection_8cpp.html#a0dfa251717fd68fbe7aa11a48b2c978d" title=" " alt="" coords="900,54,1011,80"/>
+<area shape="poly" title=" " alt="" coords="143,83,293,71,471,65,651,65,884,65,884,70,651,70,471,70,293,76,143,88"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1059,333,1110,359"/>
+<area shape="poly" title=" " alt="" coords="112,77,190,54,329,24,391,16,471,14,801,14,863,9,915,3,939,4,963,9,987,21,1013,40,1028,60,1041,90,1061,167,1075,251,1083,317,1078,318,1070,251,1056,169,1036,92,1024,63,1009,44,985,25,961,14,938,9,915,8,864,14,801,19,471,19,391,22,330,29,191,59,114,82"/>
+<area shape="rect" href="engine_protection_8cpp.html#a8d4d3e78612cb5ba5ffea829fd6ec80a" title=" " alt="" coords="208,105,327,131"/>
+<area shape="poly" title=" " alt="" coords="143,99,193,105,192,111,143,104"/>
+<area shape="rect" href="engine_protection_8cpp.html#ad24b3c61a81b4a57856c2e56de5b270d" title=" " alt="" coords="191,206,344,232"/>
+<area shape="poly" title=" " alt="" coords="97,104,235,196,232,200,94,108"/>
+<area shape="poly" title=" " alt="" coords="991,79,1013,97,1031,124,1046,153,1067,214,1079,272,1084,317,1079,318,1074,272,1062,216,1041,156,1027,127,1009,101,987,83"/>
+<area shape="poly" title=" " alt="" coords="327,115,648,115,801,115,867,120,917,135,963,164,1013,208,1036,234,1054,263,1077,317,1072,319,1049,265,1031,237,1009,212,960,168,915,140,866,125,801,121,648,121,327,121"/>
+<area shape="poly" title=" " alt="" coords="345,217,648,217,801,217,911,211,958,218,1013,242,1033,258,1050,278,1074,318,1070,320,1046,281,1029,262,1010,247,957,223,911,217,801,222,648,222,345,222"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="926,257,985,283"/>
+<area shape="poly" title=" " alt="" coords="345,229,392,235,541,248,688,257,911,266,910,272,688,263,541,253,392,241,344,234"/>
+<area shape="rect" href="engine_protection_8cpp.html#adb0da6b5e353df14ab83fd440a4c9b36" title=" " alt="" coords="392,156,552,181"/>
+<area shape="poly" title=" " alt="" coords="322,203,402,183,403,188,323,208"/>
+<area shape="rect" href="table2d_8cpp.html#aaf060488975ea082d10f3c06cb2ae985" title=" " alt="" coords="411,460,534,485"/>
+<area shape="poly" title=" " alt="" coords="281,231,453,446,449,449,277,234"/>
+<area shape="poly" title=" " alt="" coords="981,281,1013,300,1050,322,1047,327,1010,304,978,286"/>
+<area shape="poly" title=" " alt="" coords="534,460,746,422,1011,365,1043,356,1045,361,1012,370,747,427,535,465"/>
+<area shape="rect" href="table2d_8cpp.html#ad9f4b0b502e94c7f38cbd304ef7c7446" title=" " alt="" coords="600,510,699,536"/>
+<area shape="poly" title=" " alt="" coords="521,483,589,503,587,508,519,489"/>
+<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="747,461,852,487"/>
+<area shape="poly" title=" " alt="" coords="534,470,731,471,731,476,534,476"/>
+<area shape="rect" href="table2d_8cpp.html#af7023c1d93eb37e2b643644ab692d341" title=" " alt="" coords="607,612,692,637"/>
+<area shape="poly" title=" " alt="" coords="488,484,537,533,602,591,616,601,613,605,599,595,533,537,484,488"/>
+<area shape="rect" href="table2d_8cpp.html#a44a7b91a830658e2eda3bf7277788360" title=" " alt="" coords="758,510,841,536"/>
+<area shape="poly" title=" " alt="" coords="491,484,538,517,569,534,601,546,638,552,676,551,746,538,746,544,676,557,638,557,600,551,567,539,535,522,488,488"/>
+<area shape="rect" href="table2d_8cpp.html#a2ed69a3f6bae21c8907bf62dfd0f706f" title=" " alt="" coords="769,612,830,637"/>
+<area shape="poly" title=" " alt="" coords="480,485,495,520,520,566,556,612,577,632,601,648,640,659,680,659,720,652,755,641,756,646,721,657,681,665,639,664,599,652,574,636,552,616,516,569,490,522,476,487"/>
+<area shape="rect" href="table2d_8cpp.html#a577749685802da7c0b63b22b5bed0628" title=" " alt="" coords="613,308,686,333"/>
+<area shape="poly" title=" " alt="" coords="484,457,533,409,599,351,613,340,616,344,602,355,537,413,488,461"/>
+<area shape="rect" href="table2d_8cpp.html#ad1689a5fa981819e99a840740a62f814" title=" " alt="" coords="754,358,845,384"/>
+<area shape="poly" title=" " alt="" coords="491,457,539,428,599,401,671,383,738,373,739,378,672,388,601,406,542,433,494,462"/>
+<area shape="poly" title=" " alt="" coords="690,507,743,490,745,495,692,512"/>
+<area shape="poly" title=" " alt="" coords="692,611,746,597,788,589,825,585,889,583,918,580,947,572,977,558,1009,533,1039,497,1059,454,1072,410,1078,374,1083,375,1077,412,1064,456,1044,500,1013,537,980,562,949,577,919,585,889,589,825,591,788,594,747,602,693,616"/>
+<area shape="poly" title=" " alt="" coords="670,609,697,590,745,553,762,542,765,547,748,557,700,595,673,613"/>
+<area shape="poly" title=" " alt="" coords="693,622,753,622,753,627,693,627"/>
+<area shape="poly" title=" " alt="" coords="842,527,880,529,925,526,969,516,1010,496,1036,469,1055,437,1068,403,1076,373,1081,375,1073,405,1060,439,1040,473,1013,500,971,521,925,531,880,534,842,532"/>
+<area shape="rect" href="table2d_8cpp.html#ae958cb21f47f3a2bc6642386cd18d22a" title=" " alt="" coords="909,460,1003,485"/>
+<area shape="poly" title=" " alt="" coords="841,507,899,488,901,493,842,512"/>
+<area shape="poly" title=" " alt="" coords="983,457,1010,439,1041,404,1066,370,1070,373,1045,408,1013,443,986,461"/>
+<area shape="poly" title=" " alt="" coords="831,627,871,629,918,627,967,615,990,605,1010,591,1031,568,1047,541,1060,512,1069,481,1079,422,1081,374,1087,375,1084,423,1074,483,1065,513,1052,543,1035,571,1013,595,992,609,969,620,919,632,871,635,830,632"/>
+<area shape="poly" title=" " alt="" coords="686,319,1012,337,1044,339,1044,345,1011,342,686,325"/>
+<area shape="poly" title=" " alt="" coords="845,365,1043,347,1044,352,846,370"/>
+<area shape="poly" title=" " alt="" coords="822,382,923,449,920,453,819,387"/>
 </map>
 </div>
 <div class="dynheader">
@@ -264,23 +289,43 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="engine_protection_8cpp_ad24b3c61a81b4a57856c2e56de5b270d_cgraph.png" border="0" usemap="#aengine_protection_8cpp_ad24b3c61a81b4a57856c2e56de5b270d_cgraph" alt=""/></div>
 <map name="aengine_protection_8cpp_ad24b3c61a81b4a57856c2e56de5b270d_cgraph" id="aengine_protection_8cpp_ad24b3c61a81b4a57856c2e56de5b270d_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,159,82"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="239,5,298,31"/>
-<area shape="poly" title=" " alt="" coords="131,53,223,28,224,33,133,58"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="575,107,626,132"/>
-<area shape="poly" title=" " alt="" coords="159,74,560,113,560,118,159,79"/>
-<area shape="rect" href="table2d_8cpp.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="207,157,330,183"/>
-<area shape="poly" title=" " alt="" coords="109,80,231,147,229,152,106,85"/>
-<area shape="poly" title=" " alt="" coords="298,13,344,12,403,16,467,26,529,48,558,68,582,92,578,96,555,72,526,53,466,32,402,21,344,18,298,19"/>
-<area shape="poly" title=" " alt="" coords="321,154,378,142,476,128,560,120,561,125,477,134,378,147,322,159"/>
-<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="400,157,505,183"/>
-<area shape="poly" title=" " alt="" coords="331,168,385,168,385,173,331,173"/>
-<area shape="rect" href="table2d_8cpp.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="379,207,527,232"/>
-<area shape="poly" title=" " alt="" coords="320,181,388,200,387,205,319,186"/>
-<area shape="rect" href="table2d_8cpp.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="378,256,527,282"/>
-<area shape="poly" title=" " alt="" coords="288,182,328,212,379,242,390,248,388,252,377,247,325,216,284,186"/>
-<area shape="poly" title=" " alt="" coords="505,204,526,193,555,169,579,143,583,147,559,173,529,198,507,208"/>
-<area shape="poly" title=" " alt="" coords="509,253,526,243,547,221,564,196,588,146,592,149,569,198,551,224,529,247,511,258"/>
+<area shape="rect" title=" " alt="" coords="5,81,159,107"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="732,5,792,31"/>
+<area shape="poly" title=" " alt="" coords="112,78,156,62,206,48,352,26,496,15,624,13,717,14,717,19,624,18,497,21,352,31,207,53,158,67,114,83"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="857,208,907,234"/>
+<area shape="poly" title=" " alt="" coords="159,83,300,72,463,66,615,66,718,61,761,67,785,77,811,92,834,113,853,140,876,192,871,194,848,142,830,117,807,96,782,82,760,72,718,66,615,71,463,71,300,77,159,89"/>
+<area shape="rect" href="engine_protection_8cpp.html#adb0da6b5e353df14ab83fd440a4c9b36" title=" " alt="" coords="207,107,367,132"/>
+<area shape="poly" title=" " alt="" coords="160,101,191,105,191,110,159,106"/>
+<area shape="rect" href="table2d_8cpp.html#aaf060488975ea082d10f3c06cb2ae985" title=" " alt="" coords="225,259,349,284"/>
+<area shape="poly" title=" " alt="" coords="100,105,260,246,257,250,97,110"/>
+<area shape="poly" title=" " alt="" coords="789,30,811,48,835,85,854,123,877,192,872,194,849,125,830,87,807,52,786,34"/>
+<area shape="poly" title=" " alt="" coords="315,256,361,236,414,217,523,190,610,180,698,184,809,200,842,207,841,212,809,205,698,190,610,186,524,196,416,222,363,241,317,261"/>
+<area shape="rect" href="table2d_8cpp.html#ad9f4b0b502e94c7f38cbd304ef7c7446" title=" " alt="" coords="415,259,513,284"/>
+<area shape="poly" title=" " alt="" coords="349,269,399,269,399,274,349,274"/>
+<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="561,260,667,286"/>
+<area shape="poly" title=" " alt="" coords="344,282,415,294,464,298,513,294,552,287,553,292,514,299,464,303,415,299,343,288"/>
+<area shape="rect" href="table2d_8cpp.html#af7023c1d93eb37e2b643644ab692d341" title=" " alt="" coords="422,411,507,436"/>
+<area shape="poly" title=" " alt="" coords="303,283,351,332,417,389,431,400,427,404,413,394,348,335,299,287"/>
+<area shape="rect" href="table2d_8cpp.html#a44a7b91a830658e2eda3bf7277788360" title=" " alt="" coords="572,309,656,335"/>
+<area shape="poly" title=" " alt="" coords="332,282,415,302,489,312,557,317,557,322,489,317,415,307,331,288"/>
+<area shape="rect" href="table2d_8cpp.html#a2ed69a3f6bae21c8907bf62dfd0f706f" title=" " alt="" coords="583,411,645,436"/>
+<area shape="poly" title=" " alt="" coords="295,284,310,319,335,365,370,411,392,431,416,446,454,458,495,458,535,451,569,440,571,445,536,456,496,464,454,463,414,451,389,435,366,415,330,368,305,321,290,286"/>
+<area shape="rect" href="table2d_8cpp.html#a577749685802da7c0b63b22b5bed0628" title=" " alt="" coords="726,107,798,132"/>
+<area shape="poly" title=" " alt="" coords="295,256,341,202,375,173,414,149,452,135,492,124,573,112,648,109,710,112,710,117,648,114,573,117,493,129,454,140,416,154,378,177,345,206,299,260"/>
+<area shape="rect" href="table2d_8cpp.html#ad1689a5fa981819e99a840740a62f814" title=" " alt="" coords="568,208,660,234"/>
+<area shape="poly" title=" " alt="" coords="348,256,415,244,553,225,553,230,415,249,349,261"/>
+<area shape="poly" title=" " alt="" coords="514,269,546,270,546,275,514,275"/>
+<area shape="poly" title=" " alt="" coords="507,410,686,361,808,324,827,307,843,287,867,246,871,249,847,290,830,311,810,328,688,366,508,415"/>
+<area shape="poly" title=" " alt="" coords="485,408,512,389,560,352,576,341,579,345,563,356,515,394,488,412"/>
+<area shape="poly" title=" " alt="" coords="507,421,568,421,568,426,507,426"/>
+<area shape="poly" title=" " alt="" coords="656,322,729,318,770,309,808,294,838,272,862,245,866,248,842,276,810,299,771,314,730,323,656,327"/>
+<area shape="rect" href="table2d_8cpp.html#ae958cb21f47f3a2bc6642386cd18d22a" title=" " alt="" coords="715,259,809,284"/>
+<area shape="poly" title=" " alt="" coords="653,306,707,287,709,292,655,311"/>
+<area shape="poly" title=" " alt="" coords="793,256,842,235,844,240,795,261"/>
+<area shape="poly" title=" " alt="" coords="645,424,681,425,724,422,768,411,807,389,836,358,855,320,868,282,875,248,880,250,873,283,860,322,840,361,811,394,770,416,725,427,681,431,645,430"/>
+<area shape="poly" title=" " alt="" coords="785,131,811,149,860,195,856,199,807,154,782,135"/>
+<area shape="poly" title=" " alt="" coords="660,218,841,218,841,224,660,224"/>
+<area shape="poly" title=" " alt="" coords="655,232,709,251,707,256,653,237"/>
 </map>
 </div>
 <div class="dynheader">
@@ -318,20 +363,40 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="engine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_cgraph.png" border="0" usemap="#aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_cgraph" alt=""/></div>
 <map name="aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_cgraph" id="aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_cgraph">
-<area shape="rect" title=" " alt="" coords="5,14,114,39"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="530,64,581,90"/>
-<area shape="poly" title=" " alt="" coords="114,15,188,7,281,3,383,8,434,16,483,28,507,39,529,52,526,57,505,43,481,33,433,21,382,13,281,8,188,12,114,20"/>
-<area shape="rect" href="table2d_8cpp.html#aca579548a50a96679efa1b76a5b68e2b" title=" " alt="" coords="162,64,285,90"/>
-<area shape="poly" title=" " alt="" coords="104,37,166,57,164,62,103,43"/>
-<area shape="poly" title=" " alt="" coords="271,61,333,49,408,42,483,49,517,58,515,64,482,54,408,47,333,55,272,66"/>
-<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="355,64,460,90"/>
-<area shape="poly" title=" " alt="" coords="286,75,340,75,340,80,286,80"/>
-<area shape="rect" href="table2d_8cpp.html#a44415f1af3b8aea925ce421079d102d0" title="Returns an axis (bin) value from the 2D table. This works regardless of whether that axis is bytes or..." alt="" coords="334,114,482,139"/>
-<area shape="poly" title=" " alt="" coords="275,88,343,107,342,112,274,93"/>
-<area shape="rect" href="table2d_8cpp.html#a41d05a9817e967d15de0c75a6e208db0" title="Returns an value from the 2D table given an index value. No interpolation is performed." alt="" coords="333,163,482,189"/>
-<area shape="poly" title=" " alt="" coords="243,89,283,119,334,150,345,155,343,159,332,154,280,123,239,93"/>
-<area shape="poly" title=" " alt="" coords="450,111,481,100,515,88,517,93,483,105,451,116"/>
-<area shape="poly" title=" " alt="" coords="460,160,481,150,510,126,534,100,538,104,514,130,484,154,462,165"/>
+<area shape="rect" title=" " alt="" coords="5,56,114,82"/>
+<area shape="rect" href="engine_protection_8cpp.html#a99def0a4b16aa409081c8137dfe92814" title=" " alt="" coords="162,5,299,31"/>
+<area shape="poly" title=" " alt="" coords="105,53,170,33,171,38,106,58"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="789,233,839,259"/>
+<area shape="poly" title=" " alt="" coords="114,66,395,66,547,66,604,63,651,60,694,66,717,76,743,92,770,120,789,153,803,187,811,218,805,219,798,189,785,155,766,123,739,96,715,81,693,71,650,65,605,68,547,71,395,72,114,72"/>
+<area shape="rect" href="table2d_8cpp.html#aaf060488975ea082d10f3c06cb2ae985" title=" " alt="" coords="169,259,292,284"/>
+<area shape="poly" title=" " alt="" coords="74,80,211,245,207,249,70,84"/>
+<area shape="poly" title=" " alt="" coords="281,255,347,244,469,235,589,234,774,241,773,246,589,239,469,240,347,249,282,261"/>
+<area shape="rect" href="table2d_8cpp.html#ad9f4b0b502e94c7f38cbd304ef7c7446" title=" " alt="" coords="347,259,445,284"/>
+<area shape="poly" title=" " alt="" coords="292,269,332,269,332,274,292,274"/>
+<area shape="rect" href="table2d_8cpp.html#a59b25d9d38c98fa645d39192d24907f2" title=" " alt="" coords="493,260,599,286"/>
+<area shape="poly" title=" " alt="" coords="282,282,347,294,396,298,445,294,484,287,485,292,446,299,396,303,347,299,281,288"/>
+<area shape="rect" href="table2d_8cpp.html#af7023c1d93eb37e2b643644ab692d341" title=" " alt="" coords="354,411,439,436"/>
+<area shape="poly" title=" " alt="" coords="245,283,288,332,349,389,362,399,358,404,345,394,285,335,241,286"/>
+<area shape="rect" href="table2d_8cpp.html#a44a7b91a830658e2eda3bf7277788360" title=" " alt="" coords="504,309,588,335"/>
+<area shape="poly" title=" " alt="" coords="272,282,348,302,421,312,489,317,489,323,420,318,346,307,271,288"/>
+<area shape="rect" href="table2d_8cpp.html#a2ed69a3f6bae21c8907bf62dfd0f706f" title=" " alt="" coords="515,411,577,436"/>
+<area shape="poly" title=" " alt="" coords="238,284,250,319,272,365,305,411,325,431,348,446,387,459,427,459,467,451,502,440,504,445,469,457,428,464,386,464,346,451,322,435,301,414,268,367,245,321,233,285"/>
+<area shape="rect" href="table2d_8cpp.html#a577749685802da7c0b63b22b5bed0628" title=" " alt="" coords="658,107,730,132"/>
+<area shape="poly" title=" " alt="" coords="241,256,283,213,313,189,346,169,384,153,424,141,504,125,580,117,642,115,642,121,580,122,505,130,425,146,386,158,348,174,316,193,287,217,244,260"/>
+<area shape="rect" href="table2d_8cpp.html#ad1689a5fa981819e99a840740a62f814" title=" " alt="" coords="500,157,592,183"/>
+<area shape="poly" title=" " alt="" coords="247,256,291,227,346,200,417,181,484,171,485,177,418,186,348,205,293,232,250,260"/>
+<area shape="poly" title=" " alt="" coords="446,269,478,270,478,275,446,275"/>
+<area shape="poly" title=" " alt="" coords="439,409,618,359,740,321,770,297,793,269,797,273,773,301,742,326,619,364,440,415"/>
+<area shape="poly" title=" " alt="" coords="417,408,444,389,492,352,508,341,511,345,495,356,447,394,420,412"/>
+<area shape="poly" title=" " alt="" coords="439,421,500,421,500,426,439,426"/>
+<area shape="poly" title=" " alt="" coords="588,320,660,314,701,306,740,294,764,282,785,267,789,271,767,287,742,299,702,312,661,319,588,325"/>
+<area shape="rect" href="table2d_8cpp.html#ae958cb21f47f3a2bc6642386cd18d22a" title=" " alt="" coords="647,259,741,284"/>
+<area shape="poly" title=" " alt="" coords="585,306,639,287,641,292,587,311"/>
+<area shape="poly" title=" " alt="" coords="741,259,773,252,774,257,742,264"/>
+<area shape="poly" title=" " alt="" coords="577,424,613,424,656,421,700,410,739,389,764,364,783,334,796,302,804,274,810,275,801,304,788,336,768,368,743,394,702,415,657,426,613,430,577,429"/>
+<area shape="poly" title=" " alt="" coords="719,131,743,150,774,185,799,219,794,222,770,188,739,153,716,135"/>
+<area shape="poly" title=" " alt="" coords="592,170,664,179,742,200,784,222,782,227,740,205,663,184,592,175"/>
+<area shape="poly" title=" " alt="" coords="568,181,663,248,660,252,565,186"/>
 </map>
 </div>
 <div class="dynheader">
@@ -340,6 +405,116 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="engine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_icgraph.png" border="0" usemap="#aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_icgraph" alt=""/></div>
 <map name="aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_icgraph" id="aengine_protection_8cpp_ac68d8ff6c9b1fe7956025c148a0dc1ac_icgraph">
 <area shape="rect" title=" " alt="" coords="99,5,207,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
+<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a99def0a4b16aa409081c8137dfe92814" name="a99def0a4b16aa409081c8137dfe92814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99def0a4b16aa409081c8137dfe92814">&#9670;&#160;</a></span>coolantProtectTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="structtable2_d.html">table2D</a> coolantProtectTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(configPage9.coolantProtRPM)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">configPage9.&#160;</td>
+          <td class="paramname"><em>coolantProtRPM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">configPage9.&#160;</td>
+          <td class="paramname"><em>coolantProtTemp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="engine_protection_8cpp_a99def0a4b16aa409081c8137dfe92814_icgraph.png" border="0" usemap="#aengine_protection_8cpp_a99def0a4b16aa409081c8137dfe92814_icgraph" alt=""/></div>
+<map name="aengine_protection_8cpp_a99def0a4b16aa409081c8137dfe92814_icgraph" id="aengine_protection_8cpp_a99def0a4b16aa409081c8137dfe92814_icgraph">
+<area shape="rect" title=" " alt="" coords="255,5,392,31"/>
+<area shape="rect" href="engine_protection_8cpp.html#ac68d8ff6c9b1fe7956025c148a0dc1ac" title=" " alt="" coords="99,5,207,31"/>
+<area shape="poly" title=" " alt="" coords="239,21,207,21,207,16,239,16"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
+<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adb0da6b5e353df14ab83fd440a4c9b36" name="adb0da6b5e353df14ab83fd440a4c9b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb0da6b5e353df14ab83fd440a4c9b36">&#9670;&#160;</a></span>oilPressureProtectTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="structtable2_d.html">table2D</a> oilPressureProtectTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="utilities_8h.html#a4987dd6844197a1b6267f4261ae70cf3">_countof</a>(configPage10.oilPressureProtMins)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">configPage10.&#160;</td>
+          <td class="paramname"><em>oilPressureProtMins</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">configPage10.&#160;</td>
+          <td class="paramname"><em>oilPressureProtRPM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="engine_protection_8cpp_adb0da6b5e353df14ab83fd440a4c9b36_icgraph.png" border="0" usemap="#aengine_protection_8cpp_adb0da6b5e353df14ab83fd440a4c9b36_icgraph" alt=""/></div>
+<map name="aengine_protection_8cpp_adb0da6b5e353df14ab83fd440a4c9b36_icgraph" id="aengine_protection_8cpp_adb0da6b5e353df14ab83fd440a4c9b36_icgraph">
+<area shape="rect" title=" " alt="" coords="485,5,646,31"/>
+<area shape="rect" href="engine_protection_8cpp.html#ad24b3c61a81b4a57856c2e56de5b270d" title=" " alt="" coords="284,5,437,31"/>
+<area shape="poly" title=" " alt="" coords="470,21,438,21,438,16,470,16"/>
+<area shape="rect" href="engine_protection_8cpp.html#a216facc92ff77b5d526b4d7b74448ed2" title=" " alt="" coords="99,5,236,31"/>
+<area shape="poly" title=" " alt="" coords="268,21,236,21,236,16,268,16"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
 <area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
 </map>

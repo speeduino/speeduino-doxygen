@@ -17,12 +17,14 @@ var searchData=
   ['unused9_5f0_14',['unused9_0',['../structconfig9.html#ab345d0d17897240994a14c6599891c0f',1,'config9']]],
   ['unused_5f13_15',['unused_13',['../structconfig13.html#aee61983e3ea96cac74ff06700c78cbea',1,'config13']]],
   ['unusedbits4_16',['unusedBits4',['../structconfig4.html#ac759eeedf630892040c8045ce3260672',1,'config4']]],
-  ['uq1x15_5fshift_17',['UQ1X15_Shift',['../crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f',1,'crankMaths.cpp']]],
-  ['uq24x8_5fshift_18',['UQ24X8_Shift',['../crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586',1,'crankMaths.cpp']]],
-  ['usedwelllim_19',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
-  ['usedwellmap_20',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
-  ['useemap_21',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
-  ['useextbaro_22',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
-  ['useresync_23',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
-  ['usetachosweep_24',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]]
+  ['upperindex_17',['upperIndex',['../struct_table2_d_bin.html#a68b48105418f9e8fc4a71e8ddda2c531',1,'Table2DBin']]],
+  ['uppervalue_18',['upperValue',['../struct_table2_d_bin.html#a009b67c94e729f8358d28cdb823a6970',1,'Table2DBin']]],
+  ['uq1x15_5fshift_19',['UQ1X15_Shift',['../crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f',1,'crankMaths.cpp']]],
+  ['uq24x8_5fshift_20',['UQ24X8_Shift',['../crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586',1,'crankMaths.cpp']]],
+  ['usedwelllim_21',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
+  ['usedwellmap_22',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
+  ['useemap_23',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
+  ['useextbaro_24',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
+  ['useresync_25',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
+  ['usetachosweep_26',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]]
 ];

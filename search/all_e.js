@@ -89,5 +89,5 @@ var searchData=
   ['dwelllimit_5fus_86',['dwelllimit_us',['../timers_8cpp.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp'],['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp']]],
   ['dwellrun_87',['dwellRun',['../structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c',1,'config4']]],
   ['dwelltable_88',['dwelltable',['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]],
-  ['dwellvcorrectiontable_89',['dwellvcorrectiontable',['../globals_8h.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp'],['../globals_8cpp.html#a810e57c26ce5e6adae9b737c473baa3f',1,'dwellVCorrectionTable:&#160;globals.cpp']]]
+  ['dwellvcorrectiontable_89',['dwellVCorrectionTable',['../corrections_8cpp.html#a98982ddf973678beed9684e16c922c0f',1,'corrections.cpp']]]
 ];
