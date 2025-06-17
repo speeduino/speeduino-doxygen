@@ -76,7 +76,7 @@ var searchData=
   ['dsm_20420a_20for_20the_20dsm_20eclipse_73',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]],
   ['dual_20wheel_74',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
   ['dual_20wheels_75',['Dual wheels',['../group__dec__dual.html',1,'']]],
-  ['duration_76',['duration',['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration'],['../struct_ignition_schedule.html#ac373bed0ca010c7e65f9e0ad61cda093',1,'IgnitionSchedule::duration']]],
+  ['duration_76',['duration',['../struct_ignition_schedule.html#ac373bed0ca010c7e65f9e0ad61cda093',1,'IgnitionSchedule::duration'],['../struct_fuel_schedule.html#ab9d1ae652998191d020f8358570cc806',1,'FuelSchedule::duration']]],
   ['dutylim_77',['dutyLim',['../structconfig2.html#a8e4a6ef7d5f11a465a0a849dbf77f939',1,'config2']]],
   ['dwell_78',['dwell',['../structstatuses.html#a4cb0364242885e1b94de94718754a68e',1,'statuses']]],
   ['dwell_5faverage_79',['DWELL_AVERAGE',['../scheduler_8h.html#a458136bb1a7859d52f44a080899d0184',1,'scheduler.h']]],
@@ -88,6 +88,5 @@ var searchData=
   ['dwelllimit_85',['dwellLimit',['../structconfig4.html#ac858ca96fd01bcd6305e04554fd3dcdd',1,'config4']]],
   ['dwelllimit_5fus_86',['dwelllimit_us',['../timers_8cpp.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp'],['../timers_8h.html#ad9eeb05c018b7581903e860d16dd8df3',1,'dwellLimit_uS:&#160;timers.cpp']]],
   ['dwellrun_87',['dwellRun',['../structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c',1,'config4']]],
-  ['dwelltable_88',['dwelltable',['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]],
-  ['dwellvcorrectiontable_89',['dwellVCorrectionTable',['../corrections_8cpp.html#a98982ddf973678beed9684e16c922c0f',1,'corrections.cpp']]]
+  ['dwelltable_88',['dwelltable',['../globals_8h.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp'],['../globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6',1,'dwellTable:&#160;globals.cpp']]]
 ];

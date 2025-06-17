@@ -87,6 +87,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="storage_8h_source.html">storage.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="table3d__axis__io_8h_source.html">table3d_axis_io.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -97,22 +98,6 @@ Classes</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ac69a61106c8c49b7098fa86e8b8a0ae1" id="r_ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac69a61106c8c49b7098fa86e8b8a0ae1">EEPROM_DATA_VERSION</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ac69a61106c8c49b7098fa86e8b8a0ae1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f35a3c8f57fa44c2ff11701798777d" id="r_a38f35a3c8f57fa44c2ff11701798777d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d">STORAGE_END</a>&#160;&#160;&#160;0xFFF</td></tr>
-<tr class="separator:a38f35a3c8f57fa44c2ff11701798777d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a937ce3ffc53d3fa2b10444f5243b9877" id="r_a937ce3ffc53d3fa2b10444f5243b9877"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a937ce3ffc53d3fa2b10444f5243b9877">EEPROM_CALIBRATION_CLT_VALUES</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d">STORAGE_END</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#ac61d2c611a64aa1dcf10568c63146cbb">cltCalibration_values</a>))</td></tr>
-<tr class="separator:a937ce3ffc53d3fa2b10444f5243b9877"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4c267aba618f2c72ebf36f8b737be06" id="r_ac4c267aba618f2c72ebf36f8b737be06"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ac4c267aba618f2c72ebf36f8b737be06">EEPROM_CALIBRATION_CLT_BINS</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a937ce3ffc53d3fa2b10444f5243b9877">EEPROM_CALIBRATION_CLT_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#ae8ee13a439ad92277daba85ff2d0a8c2">cltCalibration_bins</a>))</td></tr>
-<tr class="separator:ac4c267aba618f2c72ebf36f8b737be06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff4e58932746929be5b3d760760d7b8" id="r_aaff4e58932746929be5b3d760760d7b8"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aaff4e58932746929be5b3d760760d7b8">EEPROM_CALIBRATION_IAT_VALUES</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#ac4c267aba618f2c72ebf36f8b737be06">EEPROM_CALIBRATION_CLT_BINS</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#afa9be5adbcf72d0e99ff16e814257b17">iatCalibration_values</a>))</td></tr>
-<tr class="separator:aaff4e58932746929be5b3d760760d7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3a520b59f381fcc3a03a4a7d4c11ad4" id="r_aa3a520b59f381fcc3a03a4a7d4c11ad4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aa3a520b59f381fcc3a03a4a7d4c11ad4">EEPROM_CALIBRATION_IAT_BINS</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#aaff4e58932746929be5b3d760760d7b8">EEPROM_CALIBRATION_IAT_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a79e94df53c6648c9e2cf681b2c6847af">iatCalibration_bins</a>))</td></tr>
-<tr class="separator:aa3a520b59f381fcc3a03a4a7d4c11ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b21a322f6a51b9abaaf15744b6fb8c1" id="r_a6b21a322f6a51b9abaaf15744b6fb8c1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a6b21a322f6a51b9abaaf15744b6fb8c1">EEPROM_CALIBRATION_O2_VALUES</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#aa3a520b59f381fcc3a03a4a7d4c11ad4">EEPROM_CALIBRATION_IAT_BINS</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a7656159c13cdf148a0158adcb102cdb5">o2Calibration_values</a>))</td></tr>
-<tr class="separator:a6b21a322f6a51b9abaaf15744b6fb8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3582f57db0d3ead511a32d2ae682a64e" id="r_a3582f57db0d3ead511a32d2ae682a64e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a6b21a322f6a51b9abaaf15744b6fb8c1">EEPROM_CALIBRATION_O2_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a1a51ae3afd0a96889bcba4d9094e6b5f">o2Calibration_bins</a>))</td></tr>
-<tr class="separator:a3582f57db0d3ead511a32d2ae682a64e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3883bd7685c795fc06ed435efa83dc2e" id="r_a3883bd7685c795fc06ed435efa83dc2e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3883bd7685c795fc06ed435efa83dc2e">EEPROM_LAST_BARO</a>&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>-1)</td></tr>
-<tr class="separator:a3883bd7685c795fc06ed435efa83dc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -183,96 +168,28 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:aab37bcc66db3e13205c778b51d00eb0b" id="r_aab37bcc66db3e13205c778b51d00eb0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a> = 0xFFF</td></tr>
+<tr class="separator:aab37bcc66db3e13205c778b51d00eb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3791563396b95871106bf35c6cf80433" id="r_a3791563396b95871106bf35c6cf80433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a> = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#afe92edbf73f2a562ab9c84d0acc6d814">cltCalibrationTable</a>)::values)</td></tr>
+<tr class="separator:a3791563396b95871106bf35c6cf80433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428778c22bf1b31bea9630027123bf0d" id="r_a428778c22bf1b31bea9630027123bf0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a> = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#afe92edbf73f2a562ab9c84d0acc6d814">cltCalibrationTable</a>)::axis)</td></tr>
+<tr class="separator:a428778c22bf1b31bea9630027123bf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d987d73715c4793e497cbdc61509d1" id="r_ae8d987d73715c4793e497cbdc61509d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a> = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#ac1fb4cafe3270f0b37a722b605d45e02">iatCalibrationTable</a>)::values)</td></tr>
+<tr class="separator:ae8d987d73715c4793e497cbdc61509d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644d5fb504e475b37bd0d77204f05212" id="r_a644d5fb504e475b37bd0d77204f05212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a> = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#ac1fb4cafe3270f0b37a722b605d45e02">iatCalibrationTable</a>)::axis)</td></tr>
+<tr class="separator:a644d5fb504e475b37bd0d77204f05212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a291efb00dbeed85aad255ff387ede82a" id="r_a291efb00dbeed85aad255ff387ede82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a> = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::values)</td></tr>
+<tr class="separator:a291efb00dbeed85aad255ff387ede82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2127b33b82f3cb76225336a71f3bad" id="r_a4c2127b33b82f3cb76225336a71f3bad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a> = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::axis)</td></tr>
+<tr class="separator:a4c2127b33b82f3cb76225336a71f3bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a593c495298c9182905cf29d495443edf" id="r_a593c495298c9182905cf29d495443edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a593c495298c9182905cf29d495443edf">EEPROM_LAST_BARO</a> = (<a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)1)</td></tr>
+<tr class="separator:a593c495298c9182905cf29d495443edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab959174cd83824eb43f452824a5fdca2" id="r_ab959174cd83824eb43f452824a5fdca2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ab959174cd83824eb43f452824a5fdca2">deferEEPROMWritesUntil</a> = 0</td></tr>
 <tr class="separator:ab959174cd83824eb43f452824a5fdca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Lower level ConfigPage*, Table2D, Table3D and EEPROM storage operations. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ac4c267aba618f2c72ebf36f8b737be06" name="ac4c267aba618f2c72ebf36f8b737be06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4c267aba618f2c72ebf36f8b737be06">&#9670;&#160;</a></span>EEPROM_CALIBRATION_CLT_BINS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_CLT_BINS&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a937ce3ffc53d3fa2b10444f5243b9877">EEPROM_CALIBRATION_CLT_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#ae8ee13a439ad92277daba85ff2d0a8c2">cltCalibration_bins</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a937ce3ffc53d3fa2b10444f5243b9877" name="a937ce3ffc53d3fa2b10444f5243b9877"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a937ce3ffc53d3fa2b10444f5243b9877">&#9670;&#160;</a></span>EEPROM_CALIBRATION_CLT_VALUES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_CLT_VALUES&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a38f35a3c8f57fa44c2ff11701798777d">STORAGE_END</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#ac61d2c611a64aa1dcf10568c63146cbb">cltCalibration_values</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa3a520b59f381fcc3a03a4a7d4c11ad4" name="aa3a520b59f381fcc3a03a4a7d4c11ad4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3a520b59f381fcc3a03a4a7d4c11ad4">&#9670;&#160;</a></span>EEPROM_CALIBRATION_IAT_BINS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_IAT_BINS&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#aaff4e58932746929be5b3d760760d7b8">EEPROM_CALIBRATION_IAT_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a79e94df53c6648c9e2cf681b2c6847af">iatCalibration_bins</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aaff4e58932746929be5b3d760760d7b8" name="aaff4e58932746929be5b3d760760d7b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaff4e58932746929be5b3d760760d7b8">&#9670;&#160;</a></span>EEPROM_CALIBRATION_IAT_VALUES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_IAT_VALUES&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#ac4c267aba618f2c72ebf36f8b737be06">EEPROM_CALIBRATION_CLT_BINS</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#afa9be5adbcf72d0e99ff16e814257b17">iatCalibration_values</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3582f57db0d3ead511a32d2ae682a64e" name="a3582f57db0d3ead511a32d2ae682a64e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3582f57db0d3ead511a32d2ae682a64e">&#9670;&#160;</a></span>EEPROM_CALIBRATION_O2_BINS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_O2_BINS&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a6b21a322f6a51b9abaaf15744b6fb8c1">EEPROM_CALIBRATION_O2_VALUES</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a1a51ae3afd0a96889bcba4d9094e6b5f">o2Calibration_bins</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b21a322f6a51b9abaaf15744b6fb8c1" name="a6b21a322f6a51b9abaaf15744b6fb8c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b21a322f6a51b9abaaf15744b6fb8c1">&#9670;&#160;</a></span>EEPROM_CALIBRATION_O2_VALUES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_CALIBRATION_O2_VALUES&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#aa3a520b59f381fcc3a03a4a7d4c11ad4">EEPROM_CALIBRATION_IAT_BINS</a>-<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="globals_8cpp.html#a7656159c13cdf148a0158adcb102cdb5">o2Calibration_values</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ac69a61106c8c49b7098fa86e8b8a0ae1" name="ac69a61106c8c49b7098fa86e8b8a0ae1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac69a61106c8c49b7098fa86e8b8a0ae1">&#9670;&#160;</a></span>EEPROM_DATA_VERSION</h2>
 
@@ -281,34 +198,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_DATA_VERSION&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3883bd7685c795fc06ed435efa83dc2e" name="a3883bd7685c795fc06ed435efa83dc2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3883bd7685c795fc06ed435efa83dc2e">&#9670;&#160;</a></span>EEPROM_LAST_BARO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> EEPROM_LAST_BARO&#160;&#160;&#160;(<a class="el" href="storage_8cpp.html#a3582f57db0d3ead511a32d2ae682a64e">EEPROM_CALIBRATION_O2_BINS</a>-1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a38f35a3c8f57fa44c2ff11701798777d" name="a38f35a3c8f57fa44c2ff11701798777d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38f35a3c8f57fa44c2ff11701798777d">&#9670;&#160;</a></span>STORAGE_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> STORAGE_END&#160;&#160;&#160;0xFFF</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1297,7 +1186,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="911,35,1063,60"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaf5b4ef8e0caf756c612a3bd48539556e" title="Update the oxygen sensor table from serialPayload." alt="" coords="682,5,843,31"/>
 <area shape="poly" title=" " alt="" coords="895,38,843,31,843,26,896,33"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga137f65dcd178ab3509ca7a1c14b634e0" title="Update a temperature calibration table from serialPayload." alt="" coords="662,55,863,96"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gace518b3f01083f0f1b736b85308500f8" title="Update a temperature calibration table from serialPayload." alt="" coords="662,55,863,96"/>
 <area shape="poly" title=" " alt="" coords="896,62,864,66,863,60,895,56"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="454,35,614,60"/>
 <area shape="poly" title=" " alt="" coords="667,33,615,40,614,35,667,28"/>
@@ -1883,8 +1772,10 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="storage_8cpp_a92769556ae1816d6ac83b5a40cf5b6da_cgraph.png" border="0" usemap="#astorage_8cpp_a92769556ae1816d6ac83b5a40cf5b6da_cgraph" alt=""/></div>
 <map name="astorage_8cpp_a92769556ae1816d6ac83b5a40cf5b6da_cgraph" id="astorage_8cpp_a92769556ae1816d6ac83b5a40cf5b6da_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,116,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="164,5,214,31"/>
+<area shape="rect" href="storage_8cpp.html#acedd2cd0ab9a313d1f3aadd046b21489" title=" " alt="" coords="164,5,304,31"/>
 <area shape="poly" title=" " alt="" coords="116,16,148,16,148,21,116,21"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="352,5,402,31"/>
+<area shape="poly" title=" " alt="" coords="304,16,336,16,336,21,304,21"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1946,21 +1837,35 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="storage_8cpp_acedd2cd0ab9a313d1f3aadd046b21489_icgraph.png" border="0" usemap="#astorage_8cpp_acedd2cd0ab9a313d1f3aadd046b21489_icgraph" alt=""/></div>
 <map name="astorage_8cpp_acedd2cd0ab9a313d1f3aadd046b21489_icgraph" id="astorage_8cpp_acedd2cd0ab9a313d1f3aadd046b21489_icgraph">
-<area shape="rect" title=" " alt="" coords="911,35,1051,60"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaf5b4ef8e0caf756c612a3bd48539556e" title="Update the oxygen sensor table from serialPayload." alt="" coords="682,5,843,31"/>
-<area shape="poly" title=" " alt="" coords="895,39,843,32,843,26,896,33"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga137f65dcd178ab3509ca7a1c14b634e0" title="Update a temperature calibration table from serialPayload." alt="" coords="662,55,863,96"/>
-<area shape="poly" title=" " alt="" coords="896,61,864,65,863,60,895,56"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="454,35,614,60"/>
-<area shape="poly" title=" " alt="" coords="667,33,615,40,614,35,667,28"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="307,35,406,60"/>
-<area shape="poly" title=" " alt="" coords="439,50,407,50,407,45,439,45"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,35,51,60"/>
-<area shape="poly" title=" " alt="" coords="291,50,51,50,51,45,291,45"/>
-<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="99,60,259,86"/>
-<area shape="poly" title=" " alt="" coords="292,59,260,64,259,59,291,54"/>
-<area shape="poly" title=" " alt="" coords="83,59,51,54,52,49,84,54"/>
-<area shape="poly" title=" " alt="" coords="646,64,614,60,614,55,647,59"/>
+<area shape="rect" title=" " alt="" coords="1109,63,1250,88"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaf5b4ef8e0caf756c612a3bd48539556e" title="Update the oxygen sensor table from serialPayload." alt="" coords="881,5,1041,31"/>
+<area shape="poly" title=" " alt="" coords="1115,61,1061,46,1014,34,1016,29,1062,41,1116,56"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gace518b3f01083f0f1b736b85308500f8" title="Update a temperature calibration table from serialPayload." alt="" coords="860,55,1061,96"/>
+<area shape="poly" title=" " alt="" coords="1094,78,1062,78,1062,73,1094,73"/>
+<area shape="rect" href="storage_8cpp.html#a92769556ae1816d6ac83b5a40cf5b6da" title=" " alt="" coords="906,120,1016,146"/>
+<area shape="poly" title=" " alt="" coords="1116,95,1062,110,1016,122,1014,117,1061,105,1115,90"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="653,20,812,46"/>
+<area shape="poly" title=" " alt="" coords="865,27,813,30,812,25,865,22"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="307,45,406,71"/>
+<area shape="poly" title=" " alt="" coords="637,42,407,58,407,52,637,37"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,45,51,71"/>
+<area shape="poly" title=" " alt="" coords="291,61,51,61,51,56,291,56"/>
+<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="99,71,259,96"/>
+<area shape="poly" title=" " alt="" coords="292,70,260,75,259,69,291,65"/>
+<area shape="poly" title=" " alt="" coords="83,70,51,65,52,59,84,65"/>
+<area shape="poly" title=" " alt="" coords="844,56,805,49,806,44,845,51"/>
+<area shape="rect" href="updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb" title=" " alt="" coords="690,171,775,196"/>
+<area shape="poly" title=" " alt="" coords="891,151,776,177,774,172,890,146"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="454,71,605,96"/>
+<area shape="poly" title=" " alt="" coords="890,132,778,124,652,110,592,100,592,94,653,105,778,119,890,127"/>
+<area shape="rect" href="comms__legacy_8cpp.html#a9262c29790543b70f25aa2912caa45fc" title=" " alt="" coords="670,69,795,95"/>
+<area shape="poly" title=" " alt="" coords="890,120,793,98,794,93,891,115"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="488,171,571,196"/>
+<area shape="poly" title=" " alt="" coords="675,186,572,186,572,181,675,181"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="330,171,383,196"/>
+<area shape="poly" title=" " alt="" coords="472,186,384,186,384,181,472,181"/>
+<area shape="poly" title=" " alt="" coords="439,73,407,68,407,63,439,68"/>
+<area shape="poly" title=" " alt="" coords="655,85,605,86,605,80,655,80"/>
 </map>
 </div>
 
@@ -2182,6 +2087,182 @@ Here is the caller graph for this function:</div>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> deferEEPROMWritesUntil = 0</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a428778c22bf1b31bea9630027123bf0d" name="a428778c22bf1b31bea9630027123bf0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a428778c22bf1b31bea9630027123bf0d">&#9670;&#160;</a></span>EEPROM_CALIBRATION_CLT_BINS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_CLT_BINS = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#afe92edbf73f2a562ab9c84d0acc6d814">cltCalibrationTable</a>)::axis)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3791563396b95871106bf35c6cf80433" name="a3791563396b95871106bf35c6cf80433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3791563396b95871106bf35c6cf80433">&#9670;&#160;</a></span>EEPROM_CALIBRATION_CLT_VALUES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_CLT_VALUES = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#afe92edbf73f2a562ab9c84d0acc6d814">cltCalibrationTable</a>)::values)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a644d5fb504e475b37bd0d77204f05212" name="a644d5fb504e475b37bd0d77204f05212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644d5fb504e475b37bd0d77204f05212">&#9670;&#160;</a></span>EEPROM_CALIBRATION_IAT_BINS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_IAT_BINS = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#ac1fb4cafe3270f0b37a722b605d45e02">iatCalibrationTable</a>)::axis)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8d987d73715c4793e497cbdc61509d1" name="ae8d987d73715c4793e497cbdc61509d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d987d73715c4793e497cbdc61509d1">&#9670;&#160;</a></span>EEPROM_CALIBRATION_IAT_VALUES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_IAT_VALUES = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#ac1fb4cafe3270f0b37a722b605d45e02">iatCalibrationTable</a>)::values)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4c2127b33b82f3cb76225336a71f3bad" name="a4c2127b33b82f3cb76225336a71f3bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c2127b33b82f3cb76225336a71f3bad">&#9670;&#160;</a></span>EEPROM_CALIBRATION_O2_BINS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_O2_BINS = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::axis)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a291efb00dbeed85aad255ff387ede82a" name="a291efb00dbeed85aad255ff387ede82a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a291efb00dbeed85aad255ff387ede82a">&#9670;&#160;</a></span>EEPROM_CALIBRATION_O2_VALUES</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_CALIBRATION_O2_VALUES = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">sizeof</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::values)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a593c495298c9182905cf29d495443edf" name="a593c495298c9182905cf29d495443edf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a593c495298c9182905cf29d495443edf">&#9670;&#160;</a></span>EEPROM_LAST_BARO</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> EEPROM_LAST_BARO = (<a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a>-(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>)1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aab37bcc66db3e13205c778b51d00eb0b" name="aab37bcc66db3e13205c778b51d00eb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab37bcc66db3e13205c778b51d00eb0b">&#9670;&#160;</a></span>STORAGE_END</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> STORAGE_END = 0xFFF</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

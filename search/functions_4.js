@@ -8,6 +8,5 @@ var searchData=
   ['dividetableload_5',['dividetableload',['../updates_8cpp.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
   ['dividetablevalue_6',['dividetablevalue',['../updates_8cpp.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp']]],
   ['dostep_7',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
-  ['doupdates_8',['doupdates',['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]],
-  ['dwellvcorrectiontable_9',['dwellVCorrectionTable',['../corrections_8cpp.html#a98982ddf973678beed9684e16c922c0f',1,'corrections.cpp']]]
+  ['doupdates_8',['doupdates',['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]]
 ];
