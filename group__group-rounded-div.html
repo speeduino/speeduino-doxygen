@@ -72,7 +72,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#groups">Modules</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">Rounding integer division</div></div>
 </div><!--header-->
 <div class="contents">
@@ -102,6 +103,13 @@ Macros</h2></td></tr>
 <tr class="memitem:gac0277533cdcf4f952c4a7920e78e0a6e" id="r_gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>,  <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>,  <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)&#160;&#160;&#160;((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>))/(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>))</td></tr>
 <tr class="memdesc:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded <em>unsigned</em> integer division.  <br /></td></tr>
 <tr class="separator:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga2337c8dd2fe433d2167dc4ba95f9d834" id="r_ga2337c8dd2fe433d2167dc4ba95f9d834"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> divisor&gt; </td></tr>
+<tr class="memitem:ga2337c8dd2fe433d2167dc4ba95f9d834"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga2337c8dd2fe433d2167dc4ba95f9d834">div_round_closest_u16</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>)</td></tr>
+<tr class="memdesc:ga2337c8dd2fe433d2167dc4ba95f9d834"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded <em>unsigned</em> integer division optimized for compile time constants.  <br /></td></tr>
+<tr class="separator:ga2337c8dd2fe433d2167dc4ba95f9d834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Integer division returns the quotient. I.e. rounds to zero. This code will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a>. </p>
@@ -141,8 +149,8 @@ Macros</h2></td></tr>
 <div class="line">    (((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>) &lt; (<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)(0)) ^ ((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>) &lt; (<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)(0))) ? \</div>
 <div class="line">        ((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>) - <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>, <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>))/(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>)) : \</div>
 <div class="line">        ((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)((<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">n</a>) + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>, <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>))/(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">t</a>)(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">d</a>)))</div>
-<div class="ttc" id="agroup__group-opt-shift_html_gada522535b5b26abf6eb2c7da12c71454"><div class="ttname"><a href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">rshift</a></div><div class="ttdeci">static uint32_t rshift(uint32_t a)</div><div class="ttdoc">Bitwise right shift - generic, unoptimized, case.</div><div class="ttdef"><b>Definition</b> bit_shifts.h:349</div></div>
-<div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition</b> maths.h:59</div></div>
+<div class="ttc" id="agroup__group-opt-shift_html_gada522535b5b26abf6eb2c7da12c71454"><div class="ttname"><a href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">rshift</a></div><div class="ttdeci">static uint32_t rshift(uint32_t a)</div><div class="ttdoc">Bitwise right shift - generic, unoptimized, case.</div><div class="ttdef"><b>Definition</b> bit_shifts.h:348</div></div>
+<div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition</b> maths.h:58</div></div>
 </div><!-- fragment -->
 <p>Rounded integer division. </p>
 <p>Integer division returns the quotient. I.e. rounds to zero. This macro will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a></p>
@@ -201,6 +209,60 @@ Macros</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga2337c8dd2fe433d2167dc4ba95f9d834" name="ga2337c8dd2fe433d2167dc4ba95f9d834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2337c8dd2fe433d2167dc4ba95f9d834">&#9670;&#160;</a></span>div_round_closest_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> divisor&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> div_round_closest_u16 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rounded <em>unsigned</em> integer division optimized for compile time constants. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">divisor</td><td>Divisor </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>Dividend </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>uint16_t </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__group-rounded-div_ga2337c8dd2fe433d2167dc4ba95f9d834_cgraph.png" border="0" usemap="#agroup__group-rounded-div_ga2337c8dd2fe433d2167dc4ba95f9d834_cgraph" alt=""/></div>
+<map name="agroup__group-rounded-div_ga2337c8dd2fe433d2167dc4ba95f9d834_cgraph" id="agroup__group-rounded-div_ga2337c8dd2fe433d2167dc4ba95f9d834_cgraph">
+<area shape="rect" title="Rounded unsigned integer division optimized for compile time constants." alt="" coords="5,5,160,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="208,5,258,31"/>
+<area shape="poly" title=" " alt="" coords="160,16,192,16,192,21,160,21"/>
+</map>
+</div>
 
 </div>
 </div>

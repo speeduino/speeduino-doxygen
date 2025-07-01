@@ -77,38 +77,57 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Cache structure for 3D table value lookups.  
+ <a href="structtable3_d_get_value_cache.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="table3d__interpolate_8h_source.html">table3d_interpolate.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for table3DGetValueCache:</div>
 <div class="dyncontent">
 <div class="center"><img src="structtable3_d_get_value_cache__coll__graph.png" border="0" usemap="#atable3_d_get_value_cache_coll__map" alt="Collaboration graph"/></div>
 <map name="atable3_d_get_value_cache_coll__map" id="atable3_d_get_value_cache_coll__map">
-<area shape="rect" title=" " alt="" coords="5,94,162,120"/>
-<area shape="rect" href="structcoord2d.html" title=" " alt="" coords="50,5,117,31"/>
-<area shape="poly" title=" " alt="" coords="86,47,86,94,81,94,81,47"/>
+<area shape="rect" title="Cache structure for 3D table value lookups." alt="" coords="24,94,180,120"/>
+<area shape="rect" href="structxy__coord2d.html" title="2D coordinate structure for table lookups" alt="" coords="5,5,92,31"/>
+<area shape="poly" title=" " alt="" coords="53,46,61,69,84,92,80,95,57,71,48,47"/>
+<area shape="rect" href="structxy__values.html" title="A pair of x and y values used for lookups in 3D tables." alt="" coords="116,5,194,31"/>
+<area shape="poly" title=" " alt="" coords="144,45,128,71,112,95,108,92,124,69,139,43"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aff64e7dfe000e639e8f6936ca079644b" id="r_aff64e7dfe000e639e8f6936ca079644b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#aff64e7dfe000e639e8f6936ca079644b">lastXBinMax</a> = 1</td></tr>
-<tr class="separator:aff64e7dfe000e639e8f6936ca079644b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f75d254636fbfeb18c3c835eaa0dab9" id="r_a3f75d254636fbfeb18c3c835eaa0dab9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#a3f75d254636fbfeb18c3c835eaa0dab9">lastYBinMax</a> = 1</td></tr>
-<tr class="separator:a3f75d254636fbfeb18c3c835eaa0dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9baa4fcd5193ed7f7411a790c9ab6145" id="r_a9baa4fcd5193ed7f7411a790c9ab6145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcoord2d.html">coord2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#a9baa4fcd5193ed7f7411a790c9ab6145">last_lookup</a> = { <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">INT16_MAX</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">INT16_MAX</a> }</td></tr>
-<tr class="separator:a9baa4fcd5193ed7f7411a790c9ab6145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ce185c1c30b78cec1cf304c819da1f5" id="r_a4ce185c1c30b78cec1cf304c819da1f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structxy__coord2d.html">xy_coord2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#a4ce185c1c30b78cec1cf304c819da1f5">lastBinMax</a> = { 1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>, 1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> }</td></tr>
+<tr class="separator:a4ce185c1c30b78cec1cf304c819da1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a0c229aded13b14f6e71f084c37be1" id="r_a06a0c229aded13b14f6e71f084c37be1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structxy__values.html">xy_values</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#a06a0c229aded13b14f6e71f084c37be1">last_lookup</a> = { <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">UINT16_MAX</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">UINT16_MAX</a> }</td></tr>
+<tr class="separator:a06a0c229aded13b14f6e71f084c37be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af442e86e1bcff6718def849264ef1e42" id="r_af442e86e1bcff6718def849264ef1e42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3_d_get_value_cache.html#af442e86e1bcff6718def849264ef1e42">lastOutput</a></td></tr>
 <tr class="separator:af442e86e1bcff6718def849264ef1e42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9baa4fcd5193ed7f7411a790c9ab6145" name="a9baa4fcd5193ed7f7411a790c9ab6145"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9baa4fcd5193ed7f7411a790c9ab6145">&#9670;&#160;</a></span>last_lookup</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Cache structure for 3D table value lookups. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a06a0c229aded13b14f6e71f084c37be1" name="a06a0c229aded13b14f6e71f084c37be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06a0c229aded13b14f6e71f084c37be1">&#9670;&#160;</a></span>last_lookup</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structcoord2d.html">coord2d</a> table3DGetValueCache::last_lookup = { <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">INT16_MAX</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">INT16_MAX</a> }</td>
+          <td class="memname"><a class="el" href="structxy__values.html">xy_values</a> table3DGetValueCache::last_lookup = { <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">UINT16_MAX</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">UINT16_MAX</a> }</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ce185c1c30b78cec1cf304c819da1f5" name="a4ce185c1c30b78cec1cf304c819da1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ce185c1c30b78cec1cf304c819da1f5">&#9670;&#160;</a></span>lastBinMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structxy__coord2d.html">xy_coord2d</a> table3DGetValueCache::lastBinMax = { 1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>, 1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -123,34 +142,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> table3DGetValueCache::lastOutput</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff64e7dfe000e639e8f6936ca079644b" name="aff64e7dfe000e639e8f6936ca079644b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff64e7dfe000e639e8f6936ca079644b">&#9670;&#160;</a></span>lastXBinMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> table3DGetValueCache::lastXBinMax = 1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3f75d254636fbfeb18c3c835eaa0dab9" name="a3f75d254636fbfeb18c3c835eaa0dab9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f75d254636fbfeb18c3c835eaa0dab9">&#9670;&#160;</a></span>lastYBinMax</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> table3DGetValueCache::lastYBinMax = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">

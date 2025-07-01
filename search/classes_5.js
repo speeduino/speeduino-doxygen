@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['statuses_0',['statuses',['../structstatuses.html',1,'']]],
-  ['stepperidle_1',['StepperIdle',['../struct_stepper_idle.html',1,'']]]
+  ['row_5fcol2d_0',['row_col2d',['../structrow__col2d.html',1,'']]]
 ];

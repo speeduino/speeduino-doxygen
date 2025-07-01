@@ -75,47 +75,80 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">table3d_interpolate.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Support functions for 3D table interpolation.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="table3d__interpolate_8h_source.html">table3d_interpolate.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="table2d_8h_source.html">table2d.h</a>&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a658f71891e646f3e2a90f37900ec37c5" id="r_a658f71891e646f3e2a90f37900ec37c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a></td></tr>
-<tr class="separator:a658f71891e646f3e2a90f37900ec37c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrow__col2d.html">row_col2d</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Row and column coordinates in a 2D table.  <a href="structrow__col2d.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad50ab79b15c044bef84b9282e439baf7" id="r_ad50ab79b15c044bef84b9282e439baf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7">is_in_bin</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">testValue</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">min</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">max</a>)</td></tr>
-<tr class="separator:ad50ab79b15c044bef84b9282e439baf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2718b04e11922233ffbf70b1ba14696" id="r_ae2718b04e11922233ffbf70b1ba14696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696">find_bin_max</a> (<a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">minElement</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">maxElement</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">lastBinMax</a>)</td></tr>
-<tr class="separator:ae2718b04e11922233ffbf70b1ba14696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e46a8601c42d707958dcdc02a2d729" id="r_a75e46a8601c42d707958dcdc02a2d729"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729">find_xbin</a> (<a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> size, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">lastBin</a>)</td></tr>
-<tr class="separator:a75e46a8601c42d707958dcdc02a2d729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a206af08604c929d0b4b00bd7798e8ba2" id="r_a206af08604c929d0b4b00bd7798e8ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2">find_ybin</a> (<a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> size, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">lastBin</a>)</td></tr>
-<tr class="separator:a206af08604c929d0b4b00bd7798e8ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0103af975b56a936edcd9d2acbd3803" id="r_aa0103af975b56a936edcd9d2acbd3803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#aa0103af975b56a936edcd9d2acbd3803">mulQU1X8</a> (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> <a class="el" href="maths_8cpp.html#af4007aacd75b22aee32dba9ea96082c0">a</a>, <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">b</a>)</td></tr>
-<tr class="separator:aa0103af975b56a936edcd9d2acbd3803"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd6950f686846aaea04b53c360984ed" id="r_adfd6950f686846aaea04b53c360984ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#adfd6950f686846aaea04b53c360984ed">compute_bin_position</a> (<a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bin</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>)</td></tr>
-<tr class="separator:adfd6950f686846aaea04b53c360984ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe02cb170296d1585564122bec3b423c" id="r_afe02cb170296d1585564122bec3b423c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c">get3DTableValue</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">struct</a> <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pValueCache</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">axisSize</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pValues</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pXAxis</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pYAxis</a>, <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">Y_in</a>, <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">X_in</a>)</td></tr>
-<tr class="separator:afe02cb170296d1585564122bec3b423c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Interpolation</div></td></tr>
+<tr class="memitem:aaa754b71856c8f2bb70d972f08fd7e39" id="r_aaa754b71856c8f2bb70d972f08fd7e39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39">compute_bin_position</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">upperBinIndex</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">multiplier</a>)</td></tr>
+<tr class="memdesc:aaa754b71856c8f2bb70d972f08fd7e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the % position of a value within a bin.  <br /></td></tr>
+<tr class="separator:aaa754b71856c8f2bb70d972f08fd7e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a248291a391aa240c0c1a18f9702f9a38" id="r_a248291a391aa240c0c1a18f9702f9a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="structrow__col2d.html">row_col2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38">toTopRight</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__coord2d.html">xy_coord2d</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">axisCoords</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">axisSize</a>)</td></tr>
+<tr class="memdesc:a248291a391aa240c0c1a18f9702f9a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the top right corner of the <em>value</em> coordinates in a 3D table, based on x/y axis coords.  <br /></td></tr>
+<tr class="separator:a248291a391aa240c0c1a18f9702f9a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db63b6b0cc0a7cd324402bf94b6c30f" id="r_a6db63b6b0cc0a7cd324402bf94b6c30f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="structrow__col2d.html">row_col2d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f">toBottomLeft</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structrow__col2d.html">row_col2d</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">topRight</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">axisSize</a>)</td></tr>
+<tr class="memdesc:a6db63b6b0cc0a7cd324402bf94b6c30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bottom left corner of the <em>value</em> coordinates in a 3D table, based on top right corner.  <br /></td></tr>
+<tr class="separator:a6db63b6b0cc0a7cd324402bf94b6c30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c1742db67b27dea18734b27d714a778" id="r_a3c1742db67b27dea18734b27d714a778"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778">bilinear_interpolation</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">tl</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">tr</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bl</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">br</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">dx</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">dy</a>)</td></tr>
+<tr class="memdesc:a3c1742db67b27dea18734b27d714a778"><td class="mdescLeft">&#160;</td><td class="mdescRight">2d interpolation, given 4 corner values and x/y percentages  <br /></td></tr>
+<tr class="separator:a3c1742db67b27dea18734b27d714a778"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29f8fcfad2e4ce69ec6255d2517c7ad" id="r_ae29f8fcfad2e4ce69ec6255d2517c7ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad">interpolate_3d_value</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">lookUpValues</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__coord2d.html">xy_coord2d</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">upperBinIndices</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">axisSize</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pValues</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pXAxis</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">xMultiplier</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pYAxis</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">yMultiplier</a>)</td></tr>
+<tr class="memdesc:ae29f8fcfad2e4ce69ec6255d2517c7ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate a table value from axis bins &amp; values.  <br /></td></tr>
+<tr class="separator:ae29f8fcfad2e4ce69ec6255d2517c7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:aba8cb9ea6a1310d15fc828c5516a0f31" id="r_aba8cb9ea6a1310d15fc828c5516a0f31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a> = 8</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Axis Bin Searching</h2></td></tr>
+<tr class="memitem:a62cf3356d6773897e9f1fc87646827cb" id="r_a62cf3356d6773897e9f1fc87646827cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a62cf3356d6773897e9f1fc87646827cb">table3d_bin_t</a> = <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">_table2d_detail::Bin</a>&lt; <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> &gt;</td></tr>
+<tr class="memdesc:a62cf3356d6773897e9f1fc87646827cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a linear search on an array for the bin that contains value.  <br /></td></tr>
+<tr class="separator:a62cf3356d6773897e9f1fc87646827cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4556ff6a4723c83407460d95f79d707" id="r_ae4556ff6a4723c83407460d95f79d707"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707">linear_bin_search</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pStart</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">length</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>)</td></tr>
+<tr class="memdesc:ae4556ff6a4723c83407460d95f79d707"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a linear search on an array for the bin that contains value.  <br /></td></tr>
+<tr class="separator:ae4556ff6a4723c83407460d95f79d707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a214d95aa18e8f9baa92470a7c70c1b8a" id="r_a214d95aa18e8f9baa92470a7c70c1b8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a">find_bin_max</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">value</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pAxis</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">length</a>, <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> lastBinMax)</td></tr>
+<tr class="memdesc:a214d95aa18e8f9baa92470a7c70c1b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the bin that covers the test value.  <br /></td></tr>
+<tr class="separator:a214d95aa18e8f9baa92470a7c70c1b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Fixed point math</h2></td></tr>
+<tr class="memitem:a658f71891e646f3e2a90f37900ec37c5" id="r_a658f71891e646f3e2a90f37900ec37c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a></td></tr>
+<tr class="memdesc:a658f71891e646f3e2a90f37900ec37c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits.  <br /></td></tr>
+<tr class="separator:a658f71891e646f3e2a90f37900ec37c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba8cb9ea6a1310d15fc828c5516a0f31" id="r_aba8cb9ea6a1310d15fc828c5516a0f31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a> = 8</td></tr>
+<tr class="memdesc:aba8cb9ea6a1310d15fc828c5516a0f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer shift to convert to/from QU1X8_t.  <br /></td></tr>
 <tr class="separator:aba8cb9ea6a1310d15fc828c5516a0f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad745c389853467eda682214d2242a07b" id="r_ad745c389853467eda682214d2242a07b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ad745c389853467eda682214d2242a07b">QU1X8_ONE</a> = (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>)1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> &lt;&lt; <a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a></td></tr>
-<tr class="separator:ad745c389853467eda682214d2242a07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5666d98bfe4d6037da583b53cfae98ac" id="r_a5666d98bfe4d6037da583b53cfae98ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a5666d98bfe4d6037da583b53cfae98ac">QU1X8_HALF</a> = (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>)1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> &lt;&lt; (<a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a>-1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td></tr>
-<tr class="separator:a5666d98bfe4d6037da583b53cfae98ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5149123a4d3cc23a1635e9dedf5ae1da" id="r_a5149123a4d3cc23a1635e9dedf5ae1da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a5149123a4d3cc23a1635e9dedf5ae1da">QU1X8_ONE</a> = <a class="el" href="table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255">toQU1X8</a>(1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td></tr>
+<tr class="memdesc:a5149123a4d3cc23a1635e9dedf5ae1da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precomputed value of 1 in QU1X8_t.  <br /></td></tr>
+<tr class="separator:a5149123a4d3cc23a1635e9dedf5ae1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d45614bf6075308354cc3eb9fe884c" id="r_ad3d45614bf6075308354cc3eb9fe884c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#ad3d45614bf6075308354cc3eb9fe884c">QU1X8_HALF</a> = <a class="el" href="table3d__interpolate_8cpp.html#a5149123a4d3cc23a1635e9dedf5ae1da">QU1X8_ONE</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td></tr>
+<tr class="memdesc:ad3d45614bf6075308354cc3eb9fe884c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precomputed value of 0.5 in QU1X8_t.  <br /></td></tr>
+<tr class="separator:ad3d45614bf6075308354cc3eb9fe884c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483a5708bbe65f235e712e9bf11cf255" id="r_a483a5708bbe65f235e712e9bf11cf255"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255">toQU1X8</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">base</a>)</td></tr>
+<tr class="memdesc:a483a5708bbe65f235e712e9bf11cf255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits.  <br /></td></tr>
+<tr class="separator:a483a5708bbe65f235e712e9bf11cf255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75bcfb9f47cad545241584c04482aa05" id="r_a75bcfb9f47cad545241584c04482aa05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05">fromQU1X8</a> (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">base</a>)</td></tr>
+<tr class="memdesc:a75bcfb9f47cad545241584c04482aa05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits.  <br /></td></tr>
+<tr class="separator:a75bcfb9f47cad545241584c04482aa05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc344f5e266c89e30dbcaaf77398519c" id="r_afc344f5e266c89e30dbcaaf77398519c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c">mulQU1X8</a> (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> <a class="el" href="maths_8cpp.html#af4007aacd75b22aee32dba9ea96082c0">a</a>, <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">b</a>)</td></tr>
+<tr class="memdesc:afc344f5e266c89e30dbcaaf77398519c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiply two QU1X8_t values.  <br /></td></tr>
+<tr class="separator:afc344f5e266c89e30dbcaaf77398519c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Support functions for 3D table interpolation. </p>
+</div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="a658f71891e646f3e2a90f37900ec37c5" name="a658f71891e646f3e2a90f37900ec37c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a658f71891e646f3e2a90f37900ec37c5">&#9670;&#160;</a></span>QU1X8_t</h2>
 
@@ -128,35 +161,81 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Q_(number_format)">https://en.wikipedia.org/wiki/Q_(number_format)</a>.</dd></dl>
+<p>This is specialised for the number range 0..1 - a generic fixed point class would miss some important optimisations. Specifically, we can avoid type promotion during multiplication. <br  />
+ </p>
+
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="adfd6950f686846aaea04b53c360984ed" name="adfd6950f686846aaea04b53c360984ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd6950f686846aaea04b53c360984ed">&#9670;&#160;</a></span>compute_bin_position()</h2>
+<a id="a62cf3356d6773897e9f1fc87646827cb" name="a62cf3356d6773897e9f1fc87646827cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62cf3356d6773897e9f1fc87646827cb">&#9670;&#160;</a></span>table3d_bin_t</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> compute_bin_position </td>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">using</a> <a class="el" href="table3d__interpolate_8cpp.html#a62cf3356d6773897e9f1fc87646827cb">table3d_bin_t</a> =  <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">_table2d_detail::Bin</a>&lt;<a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform a linear search on an array for the bin that contains value. </p>
+<dl class="section note"><dt>Note</dt><dd>Assume array is ordered [max...min]</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pStart</td><td>Pointer to the start of the array. </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the array. </td></tr>
+    <tr><td class="paramname">value</td><td>Value to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Upper array index of the bin </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3c1742db67b27dea18734b27d714a778" name="a3c1742db67b27dea18734b27d714a778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c1742db67b27dea18734b27d714a778">&#9670;&#160;</a></span>bilinear_interpolation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> bilinear_interpolation </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a>&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>tl</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>bin</em>, </td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>tr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pAxis</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>bl</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>br</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>dy</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -164,18 +243,163 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>2d interpolation, given 4 corner values and x/y percentages </p>
+<pre>
+ tl----------------tr
+ |                 |
+ |                 |
+ |                 |
+ |&gt;&gt;&gt;&gt;&gt;dx&gt;&gt;&gt;&gt;?     |
+ |           ^     |
+ |           dy    |
+ |           ^     |
+ bl----------------br
+</pre><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tl</td><td>Top left value </td></tr>
+    <tr><td class="paramname">tr</td><td>Top right value </td></tr>
+    <tr><td class="paramname">bl</td><td>Bottom left value </td></tr>
+    <tr><td class="paramname">br</td><td>Bottom right value </td></tr>
+    <tr><td class="paramname">dx</td><td>X distance </td></tr>
+    <tr><td class="paramname">dy</td><td>Y distance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>table3d_value_t </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_cgraph" id="atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,153,31"/>
+<div class="center"><img src="table3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_cgraph" id="atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_cgraph">
+<area shape="rect" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="5,25,145,51"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="326,25,416,51"/>
+<area shape="poly" title=" " alt="" coords="145,36,311,36,311,41,145,41"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="464,25,515,51"/>
+<area shape="poly" title=" " alt="" coords="137,22,196,13,266,5,342,3,417,10,451,20,449,25,416,16,342,9,267,10,197,18,138,27"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="193,76,278,102"/>
+<area shape="poly" title=" " alt="" coords="119,49,179,68,177,73,117,54"/>
+<area shape="poly" title=" " alt="" coords="417,36,449,36,449,41,417,41"/>
+<area shape="poly" title=" " alt="" coords="271,73,320,55,321,60,273,78"/>
+<area shape="poly" title=" " alt="" coords="278,83,343,75,416,61,449,51,450,56,417,66,344,80,279,88"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_icgraph" id="atable3d__interpolate_8cpp_a3c1742db67b27dea18734b27d714a778_icgraph">
+<area shape="rect" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="820,284,959,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="804,300,772,300,772,294,804,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,317,207,230,183,231,178,318,201,416,236,489,273"/>
+<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,234,247,229,416,264,465,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
+<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,508,223,534"/>
+<area shape="poly" title=" " alt="" coords="519,325,506,365,486,413,457,460,438,480,417,498,394,511,369,520,317,531,266,532,223,530,224,524,266,527,316,525,367,515,391,506,414,493,435,476,453,456,482,410,501,363,513,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,559,408,584"/>
+<area shape="poly" title=" " alt="" coords="518,325,505,370,484,426,455,486,417,541,395,560,391,556,413,538,451,483,479,424,500,368,513,324"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,185,100,198,76,224,57,255,35,309,30,307,52,252,72,221,97,193,119,180"/>
+<area shape="poly" title=" " alt="" coords="108,243,100,247,65,278,40,309,36,306,61,274,97,243,105,238"/>
+<area shape="poly" title=" " alt="" coords="128,291,52,316,50,311,126,286"/>
+<area shape="poly" title=" " alt="" coords="301,325,51,324,51,318,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,327,51,321,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,409,267,435"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
+<area shape="poly" title=" " alt="" coords="122,405,97,392,63,364,38,336,42,332,67,360,100,388,124,401"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,459,263,484"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,474,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,453,97,449,71,422,52,390,30,335,35,333,57,388,76,419,100,446,105,449"/>
+<area shape="poly" title=" " alt="" coords="126,515,97,499,80,480,65,458,45,412,33,368,28,335,33,334,39,366,50,410,70,456,84,477,100,495,129,510"/>
+<area shape="poly" title=" " alt="" coords="307,585,258,590,202,588,147,576,121,564,97,548,74,525,57,497,44,466,36,435,27,377,26,334,31,334,33,376,41,434,49,465,62,494,79,521,100,544,123,559,148,571,203,583,258,585,307,580"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aaa754b71856c8f2bb70d972f08fd7e39" name="aaa754b71856c8f2bb70d972f08fd7e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa754b71856c8f2bb70d972f08fd7e39">&#9670;&#160;</a></span>compute_bin_position()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> compute_bin_position </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>upperBinIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>multiplier</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute the % position of a value within a bin. </p>
+<ul>
+<li>0%==at/below the bin minimum</li>
+<li>100%==at/above the bin maximum</li>
+<li>50%==in the middle of the bin.</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>The multiplier is used to scale the axis values to the same scale as the value being checked. <em>This retains the full precision of the axis values, thus the computed position and eventually the final interpolated result</em></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to check. </td></tr>
+    <tr><td class="paramname">upperBinIndex</td><td>The upper bin index into pAxis. </td></tr>
+    <tr><td class="paramname">pAxis</td><td>The axis array. </td></tr>
+    <tr><td class="paramname">multiplier</td><td>The multiplier for the axis values. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>QU1X8_t The % position of the value within the bin. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_cgraph" id="atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_cgraph">
+<area shape="rect" title="Compute the % position of a value within a bin." alt="" coords="5,5,153,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="336,5,386,31"/>
 <area shape="poly" title=" " alt="" coords="153,16,320,16,320,21,153,21"/>
 <area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="201,31,288,56"/>
@@ -186,87 +410,80 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_icgraph" id="atable3d__interpolate_8cpp_adfd6950f686846aaea04b53c360984ed_icgraph">
-<area shape="rect" title=" " alt="" coords="649,284,796,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="480,284,601,310"/>
-<area shape="poly" title=" " alt="" coords="633,300,601,300,601,294,633,294"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
-<area shape="poly" title=" " alt="" coords="533,269,524,220,506,161,475,101,455,75,431,52,389,30,343,17,296,12,253,12,253,7,296,7,344,12,391,25,434,48,459,71,480,98,511,159,529,219,538,268"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,309,51,335"/>
-<area shape="poly" title=" " alt="" coords="531,270,520,229,501,180,472,133,453,113,431,96,402,85,377,84,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,186,49,232,38,276,33,310,28,309,33,275,44,230,65,183,79,162,97,143,124,122,149,109,173,101,198,97,250,95,315,92,376,79,403,79,434,92,456,109,476,130,506,178,525,227,537,268"/>
-<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="326,107,422,132"/>
-<area shape="poly" title=" " alt="" coords="522,272,484,214,459,182,431,154,403,135,406,131,434,149,463,179,489,211,527,269"/>
+<div class="center"><img src="table3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_icgraph" id="atable3d__interpolate_8cpp_aaa754b71856c8f2bb70d972f08fd7e39_icgraph">
+<area shape="rect" title="Compute the % position of a value within a bin." alt="" coords="820,284,967,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="805,300,772,300,772,294,805,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
 <area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
-<area shape="poly" title=" " alt="" coords="512,275,475,246,431,221,379,202,325,189,230,176,231,170,326,184,381,197,433,216,478,242,516,271"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,317,207,230,183,231,178,318,201,416,236,489,273"/>
 <area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
-<area shape="poly" title=" " alt="" coords="503,279,469,262,432,249,384,238,335,231,247,224,247,219,336,225,385,233,433,244,471,257,505,274"/>
-<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="315,259,432,284"/>
-<area shape="poly" title=" " alt="" coords="464,288,432,283,433,278,465,283"/>
-<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="134,309,232,335"/>
-<area shape="poly" title=" " alt="" coords="465,305,232,321,232,316,465,299"/>
-<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="342,360,405,386"/>
-<area shape="poly" title=" " alt="" coords="498,319,405,362,403,357,496,314"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="324,409,424,435"/>
-<area shape="poly" title=" " alt="" coords="520,323,482,362,434,400,414,411,411,406,431,396,478,358,516,320"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="332,459,415,484"/>
-<area shape="poly" title=" " alt="" coords="529,325,491,386,465,420,434,450,416,461,413,456,431,445,461,416,487,383,524,322"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,509,223,535"/>
-<area shape="poly" title=" " alt="" coords="536,326,524,366,504,414,474,461,455,482,434,499,409,513,381,523,324,534,269,535,223,531,224,526,270,530,324,529,380,518,406,508,431,495,452,478,470,457,499,411,519,364,531,324"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="331,560,417,586"/>
-<area shape="poly" title=" " alt="" coords="536,325,523,371,503,428,474,488,434,543,409,562,406,557,430,539,469,485,498,426,518,369,531,324"/>
-<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,48,156,40,193,32,261,31,309,26,309,27,261,35,192,43,154,56,116,73,81,97,48,110,37"/>
-<area shape="poly" title=" " alt="" coords="311,139,231,160,230,155,309,134"/>
-<area shape="poly" title=" " alt="" coords="123,185,100,198,76,224,57,255,35,310,30,308,52,253,71,221,97,193,120,180"/>
-<area shape="poly" title=" " alt="" coords="124,242,100,255,67,283,42,311,38,307,63,279,97,251,122,238"/>
-<area shape="poly" title=" " alt="" coords="300,276,204,283,99,299,52,315,50,310,98,294,203,278,299,270"/>
-<area shape="poly" title=" " alt="" coords="119,325,51,325,51,320,119,320"/>
-<area shape="poly" title=" " alt="" coords="326,375,221,369,159,361,98,350,50,334,52,329,99,345,160,356,222,363,327,370"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,411,267,436"/>
-<area shape="poly" title=" " alt="" coords="308,425,267,426,267,420,308,420"/>
-<area shape="poly" title=" " alt="" coords="122,407,97,394,63,365,38,337,42,334,67,362,100,389,124,402"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,460,263,486"/>
-<area shape="poly" title=" " alt="" coords="317,475,263,475,263,470,317,469"/>
-<area shape="poly" title=" " alt="" coords="102,454,97,451,71,424,52,392,30,336,35,335,57,389,76,420,100,447,105,450"/>
-<area shape="poly" title=" " alt="" coords="126,516,97,500,80,481,65,460,45,413,33,369,28,336,33,335,39,368,50,411,70,457,84,478,100,496,129,512"/>
-<area shape="poly" title=" " alt="" coords="315,587,264,592,206,590,149,578,122,566,97,550,74,526,57,498,44,468,36,437,27,378,26,336,31,335,33,378,41,435,49,466,62,496,78,523,100,545,124,561,150,573,207,585,264,587,315,582"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,234,247,229,416,264,465,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
+<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,508,223,534"/>
+<area shape="poly" title=" " alt="" coords="519,325,506,365,486,413,457,460,438,480,417,498,394,511,369,520,317,531,266,532,223,530,224,524,266,527,316,525,367,515,391,506,414,493,435,476,453,456,482,410,501,363,513,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,559,408,584"/>
+<area shape="poly" title=" " alt="" coords="518,325,505,370,484,426,455,486,417,541,395,560,391,556,413,538,451,483,479,424,500,368,513,324"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,185,100,198,76,224,57,255,35,309,30,307,52,252,72,221,97,193,119,180"/>
+<area shape="poly" title=" " alt="" coords="108,243,100,247,65,278,40,309,36,306,61,274,97,243,105,238"/>
+<area shape="poly" title=" " alt="" coords="128,291,52,316,50,311,126,286"/>
+<area shape="poly" title=" " alt="" coords="301,325,51,324,51,318,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,327,51,321,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,409,267,435"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
+<area shape="poly" title=" " alt="" coords="122,405,97,392,63,364,38,336,42,332,67,360,100,388,124,401"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,459,263,484"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,474,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,453,97,449,71,422,52,390,30,335,35,333,57,388,76,419,100,446,105,449"/>
+<area shape="poly" title=" " alt="" coords="126,515,97,499,80,480,65,458,45,412,33,368,28,335,33,334,39,366,50,410,70,456,84,477,100,495,129,510"/>
+<area shape="poly" title=" " alt="" coords="307,585,258,590,202,588,147,576,121,564,97,548,74,525,57,497,44,466,36,435,27,377,26,334,31,334,33,376,41,434,49,465,62,494,79,521,100,544,123,559,148,571,203,583,258,585,307,580"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ae2718b04e11922233ffbf70b1ba14696" name="ae2718b04e11922233ffbf70b1ba14696"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2718b04e11922233ffbf70b1ba14696">&#9670;&#160;</a></span>find_bin_max()</h2>
+<a id="a214d95aa18e8f9baa92470a7c70c1b8a" name="a214d95aa18e8f9baa92470a7c70c1b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a214d95aa18e8f9baa92470a7c70c1b8a">&#9670;&#160;</a></span>find_bin_max()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> find_bin_max </td>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> find_bin_max </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
           <td class="paramname"><em>pAxis</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>minElement</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>maxElement</em>, </td>
+          <td class="paramname"><em>length</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -280,144 +497,43 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Find the bin that covers the test value. </p>
+<p>For example, 4 in { 1, 3, 5, 7, 9 } would be 2</p>
+<dl class="section note"><dt>Note</dt><dd>We assume the axis is in [max..min] order.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to search for. </td></tr>
+    <tr><td class="paramname">pAxis</td><td>The axis to search. </td></tr>
+    <tr><td class="paramname">length</td><td>The length of the axis. </td></tr>
+    <tr><td class="paramname">lastBinMax</td><td>The last bin max. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>table3d_dim_t The axis index for the top of the bin. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph" id="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,102,56"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="150,5,222,31"/>
-<area shape="poly" title=" " alt="" coords="102,32,134,25,135,31,103,37"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="270,31,320,56"/>
-<area shape="poly" title=" " alt="" coords="102,41,254,41,254,46,102,46"/>
-<area shape="poly" title=" " alt="" coords="223,24,255,32,254,37,221,29"/>
+<div class="center"><img src="table3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_cgraph" id="atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_cgraph">
+<area shape="rect" title="Find the bin that covers the test value." alt="" coords="5,31,102,56"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="150,5,272,31"/>
+<area shape="poly" title=" " alt="" coords="102,33,134,28,135,33,103,38"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="320,31,370,56"/>
+<area shape="poly" title=" " alt="" coords="102,41,304,41,304,46,102,46"/>
+<area shape="poly" title=" " alt="" coords="273,27,305,33,304,39,272,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph" id="atable3d__interpolate_8cpp_ae2718b04e11922233ffbf70b1ba14696_icgraph">
-<area shape="rect" title=" " alt="" coords="751,284,847,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="632,259,703,284"/>
-<area shape="poly" title=" " alt="" coords="735,287,703,281,704,276,736,282"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="632,308,703,334"/>
-<area shape="poly" title=" " alt="" coords="736,311,704,317,703,312,735,306"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="463,284,584,310"/>
-<area shape="poly" title=" " alt="" coords="617,283,585,289,584,284,616,278"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
-<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,307,51,332"/>
-<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,70,185,50,230,38,274,33,307,28,306,33,273,45,229,65,182,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
-<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
-<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
-<area shape="poly" title=" " alt="" coords="488,278,414,239,317,205,230,183,231,178,318,200,416,234,490,273"/>
-<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
-<area shape="poly" title=" " alt="" coords="466,282,415,267,246,234,247,228,416,262,467,276"/>
-<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
-<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
-<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="134,307,232,332"/>
-<area shape="poly" title=" " alt="" coords="448,304,232,319,232,314,447,299"/>
-<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,360,397,386"/>
-<area shape="poly" title=" " alt="" coords="482,319,395,362,393,357,480,314"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,409,415,435"/>
-<area shape="poly" title=" " alt="" coords="503,323,464,361,417,400,399,411,396,407,414,396,461,357,499,319"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,459,407,484"/>
-<area shape="poly" title=" " alt="" coords="511,325,473,386,447,419,417,450,401,460,398,456,414,445,443,416,469,383,506,322"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="325,508,405,534"/>
-<area shape="poly" title=" " alt="" coords="516,325,502,363,481,409,453,456,417,499,402,510,399,505,414,495,448,453,476,406,497,361,511,323"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,557,408,583"/>
-<area shape="poly" title=" " alt="" coords="519,325,508,372,488,431,458,492,439,522,417,548,403,559,400,555,413,544,435,518,453,490,483,429,503,371,514,324"/>
-<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,259,31,306,26,306,27,259,35,191,44,153,56,116,74,80,97,48,110,37"/>
-<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
-<area shape="poly" title=" " alt="" coords="122,185,100,198,76,223,57,254,36,307,31,305,53,251,72,220,97,193,119,180"/>
-<area shape="poly" title=" " alt="" coords="108,243,100,247,65,277,40,308,36,305,61,274,97,243,105,238"/>
-<area shape="poly" title=" " alt="" coords="119,290,100,297,52,314,50,309,98,292,118,285"/>
-<area shape="poly" title=" " alt="" coords="119,322,51,322,51,317,119,317"/>
-<area shape="poly" title=" " alt="" coords="318,374,216,366,98,347,50,331,52,326,99,342,217,361,318,369"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,408,267,434"/>
-<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
-<area shape="poly" title=" " alt="" coords="122,404,97,391,63,363,38,335,42,331,67,359,100,387,124,399"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,457,263,483"/>
-<area shape="poly" title=" " alt="" coords="308,474,263,473,263,468,308,468"/>
-<area shape="poly" title=" " alt="" coords="102,452,97,448,71,421,52,389,30,334,35,332,57,387,76,418,100,444,105,447"/>
-<area shape="poly" title=" " alt="" coords="310,534,261,538,205,536,148,524,122,513,97,498,78,480,63,459,43,412,32,367,27,333,33,333,37,366,48,411,68,456,82,477,100,493,124,508,150,519,205,531,261,532,309,528"/>
-<area shape="poly" title=" " alt="" coords="307,583,258,586,202,583,147,570,121,558,97,542,75,518,58,491,45,461,37,431,28,374,26,333,32,332,33,373,42,430,50,460,63,489,79,515,100,537,123,553,148,565,203,578,258,581,307,577"/>
-<area shape="poly" title=" " alt="" coords="616,315,584,310,584,304,616,310"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a75e46a8601c42d707958dcdc02a2d729" name="a75e46a8601c42d707958dcdc02a2d729"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e46a8601c42d707958dcdc02a2d729">&#9670;&#160;</a></span>find_xbin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> find_xbin </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pAxis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>lastBin</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph" id="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,77,107"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="125,56,221,82"/>
-<area shape="poly" title=" " alt="" coords="77,85,109,78,110,84,78,90"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="389,56,440,82"/>
-<area shape="poly" title=" " alt="" coords="77,93,144,94,221,92,303,83,374,73,375,78,304,88,221,97,144,99,77,98"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="269,5,341,31"/>
-<area shape="poly" title=" " alt="" coords="208,53,255,34,257,39,210,58"/>
-<area shape="poly" title=" " alt="" coords="221,66,373,66,373,72,221,72"/>
-<area shape="poly" title=" " alt="" coords="336,29,376,48,374,53,333,34"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph" id="atable3d__interpolate_8cpp_a75e46a8601c42d707958dcdc02a2d729_icgraph">
-<area shape="rect" title=" " alt="" coords="649,284,720,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="480,284,601,310"/>
+<div class="center"><img src="table3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_icgraph" id="atable3d__interpolate_8cpp_a214d95aa18e8f9baa92470a7c70c1b8a_icgraph">
+<area shape="rect" title="Find the bin that covers the test value." alt="" coords="649,284,745,310"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="480,284,601,310"/>
 <area shape="poly" title=" " alt="" coords="633,300,601,300,601,294,633,294"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
 <area shape="poly" title=" " alt="" coords="533,269,524,220,506,161,475,101,455,75,431,52,389,30,343,17,296,12,253,12,253,7,296,7,344,12,391,25,434,48,459,71,480,98,511,159,529,219,538,268"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,309,51,335"/>
 <area shape="poly" title=" " alt="" coords="531,270,520,229,501,180,472,133,453,113,431,96,402,85,377,84,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,186,49,232,38,276,33,310,28,309,33,275,44,230,65,183,79,162,97,143,124,122,149,109,173,101,198,97,250,95,315,92,376,79,403,79,434,92,456,109,476,130,506,178,525,227,537,268"/>
@@ -461,250 +577,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a206af08604c929d0b4b00bd7798e8ba2" name="a206af08604c929d0b4b00bd7798e8ba2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a206af08604c929d0b4b00bd7798e8ba2">&#9670;&#160;</a></span>find_ybin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> find_ybin </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pAxis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>lastBin</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph" id="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,77,107"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="125,56,221,82"/>
-<area shape="poly" title=" " alt="" coords="77,85,109,78,110,84,78,90"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="389,56,440,82"/>
-<area shape="poly" title=" " alt="" coords="77,93,144,94,221,92,303,83,374,73,375,78,304,88,221,97,144,99,77,98"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="269,5,341,31"/>
-<area shape="poly" title=" " alt="" coords="208,53,255,34,257,39,210,58"/>
-<area shape="poly" title=" " alt="" coords="221,66,373,66,373,72,221,72"/>
-<area shape="poly" title=" " alt="" coords="336,29,376,48,374,53,333,34"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph" id="atable3d__interpolate_8cpp_a206af08604c929d0b4b00bd7798e8ba2_icgraph">
-<area shape="rect" title=" " alt="" coords="649,284,720,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="480,284,601,310"/>
-<area shape="poly" title=" " alt="" coords="633,300,601,300,601,294,633,294"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
-<area shape="poly" title=" " alt="" coords="533,269,524,220,506,161,475,101,455,75,431,52,389,30,343,17,296,12,253,12,253,7,296,7,344,12,391,25,434,48,459,71,480,98,511,159,529,219,538,268"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,309,51,335"/>
-<area shape="poly" title=" " alt="" coords="531,270,520,229,501,180,472,133,453,113,431,96,402,85,377,84,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,186,49,232,38,276,33,310,28,309,33,275,44,230,65,183,79,162,97,143,124,122,149,109,173,101,198,97,250,95,315,92,376,79,403,79,434,92,456,109,476,130,506,178,525,227,537,268"/>
-<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="326,107,422,132"/>
-<area shape="poly" title=" " alt="" coords="522,272,484,214,459,182,431,154,403,135,406,131,434,149,463,179,489,211,527,269"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
-<area shape="poly" title=" " alt="" coords="512,275,475,246,431,221,379,202,325,189,230,176,231,170,326,184,381,197,433,216,478,242,516,271"/>
-<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
-<area shape="poly" title=" " alt="" coords="503,279,469,262,432,249,384,238,335,231,247,224,247,219,336,225,385,233,433,244,471,257,505,274"/>
-<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="315,259,432,284"/>
-<area shape="poly" title=" " alt="" coords="464,288,432,283,433,278,465,283"/>
-<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="134,309,232,335"/>
-<area shape="poly" title=" " alt="" coords="465,305,232,321,232,316,465,299"/>
-<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="342,360,405,386"/>
-<area shape="poly" title=" " alt="" coords="498,319,405,362,403,357,496,314"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="324,409,424,435"/>
-<area shape="poly" title=" " alt="" coords="520,323,482,362,434,400,414,411,411,406,431,396,478,358,516,320"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="332,459,415,484"/>
-<area shape="poly" title=" " alt="" coords="529,325,491,386,465,420,434,450,416,461,413,456,431,445,461,416,487,383,524,322"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,509,223,535"/>
-<area shape="poly" title=" " alt="" coords="536,326,524,366,504,414,474,461,455,482,434,499,409,513,381,523,324,534,269,535,223,531,224,526,270,530,324,529,380,518,406,508,431,495,452,478,470,457,499,411,519,364,531,324"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="331,560,417,586"/>
-<area shape="poly" title=" " alt="" coords="536,325,523,371,503,428,474,488,434,543,409,562,406,557,430,539,469,485,498,426,518,369,531,324"/>
-<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,48,156,40,193,32,261,31,309,26,309,27,261,35,192,43,154,56,116,73,81,97,48,110,37"/>
-<area shape="poly" title=" " alt="" coords="311,139,231,160,230,155,309,134"/>
-<area shape="poly" title=" " alt="" coords="123,185,100,198,76,224,57,255,35,310,30,308,52,253,71,221,97,193,120,180"/>
-<area shape="poly" title=" " alt="" coords="124,242,100,255,67,283,42,311,38,307,63,279,97,251,122,238"/>
-<area shape="poly" title=" " alt="" coords="300,276,204,283,99,299,52,315,50,310,98,294,203,278,299,270"/>
-<area shape="poly" title=" " alt="" coords="119,325,51,325,51,320,119,320"/>
-<area shape="poly" title=" " alt="" coords="326,375,221,369,159,361,98,350,50,334,52,329,99,345,160,356,222,363,327,370"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,411,267,436"/>
-<area shape="poly" title=" " alt="" coords="308,425,267,426,267,420,308,420"/>
-<area shape="poly" title=" " alt="" coords="122,407,97,394,63,365,38,337,42,334,67,362,100,389,124,402"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,460,263,486"/>
-<area shape="poly" title=" " alt="" coords="317,475,263,475,263,470,317,469"/>
-<area shape="poly" title=" " alt="" coords="102,454,97,451,71,424,52,392,30,336,35,335,57,389,76,420,100,447,105,450"/>
-<area shape="poly" title=" " alt="" coords="126,516,97,500,80,481,65,460,45,413,33,369,28,336,33,335,39,368,50,411,70,457,84,478,100,496,129,512"/>
-<area shape="poly" title=" " alt="" coords="315,587,264,592,206,590,149,578,122,566,97,550,74,526,57,498,44,468,36,437,27,378,26,336,31,335,33,378,41,435,49,466,62,496,78,523,100,545,124,561,150,573,207,585,264,587,315,582"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="afe02cb170296d1585564122bec3b423c" name="afe02cb170296d1585564122bec3b423c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe02cb170296d1585564122bec3b423c">&#9670;&#160;</a></span>get3DTableValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> get3DTableValue </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">struct</a> <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *&#160;</td>
-          <td class="paramname"><em>pValueCache</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>axisSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *&#160;</td>
-          <td class="paramname"><em>pValues</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pXAxis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pYAxis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a>&#160;</td>
-          <td class="paramname"><em>Y_in</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a>&#160;</td>
-          <td class="paramname"><em>X_in</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph" id="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,138,126,164"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#adfd6950f686846aaea04b53c360984ed" title=" " alt="" coords="293,36,440,61"/>
-<area shape="poly" title=" " alt="" coords="81,136,121,106,173,78,225,62,277,53,278,58,226,68,175,83,123,111,84,140"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="624,162,674,188"/>
-<area shape="poly" title=" " alt="" coords="113,135,173,123,264,117,366,118,472,127,576,145,610,155,609,161,575,150,471,132,365,123,265,122,174,129,114,140"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="174,138,245,164"/>
-<area shape="poly" title=" " alt="" coords="126,149,158,149,158,154,126,154"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="174,188,245,213"/>
-<area shape="poly" title=" " alt="" coords="106,162,160,181,158,186,105,167"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aa0103af975b56a936edcd9d2acbd3803" title=" " alt="" coords="324,340,409,365"/>
-<area shape="poly" title=" " alt="" coords="84,162,170,233,231,277,294,318,318,331,316,335,292,323,228,282,167,237,80,167"/>
-<area shape="poly" title=" " alt="" coords="394,33,432,18,479,6,530,5,554,10,577,21,605,47,625,81,638,116,646,146,641,148,633,117,621,83,601,51,574,25,553,15,529,10,480,11,434,23,396,38"/>
-<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="488,36,576,61"/>
-<area shape="poly" title=" " alt="" coords="441,46,473,46,473,51,441,51"/>
-<area shape="poly" title=" " alt="" coords="555,60,578,79,608,114,633,148,629,151,604,117,574,83,552,64"/>
-<area shape="poly" title=" " alt="" coords="246,150,576,166,609,169,608,174,575,171,245,155"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="319,188,415,213"/>
-<area shape="poly" title=" " alt="" coords="246,160,310,180,308,185,245,165"/>
-<area shape="poly" title=" " alt="" coords="415,194,608,176,608,181,416,199"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ad50ab79b15c044bef84b9282e439baf7" title=" " alt="" coords="496,238,568,264"/>
-<area shape="poly" title=" " alt="" coords="412,211,482,233,481,238,410,217"/>
-<area shape="poly" title=" " alt="" coords="552,236,614,195,617,199,555,240"/>
-<area shape="poly" title=" " alt="" coords="233,212,294,245,335,263,381,279,430,291,479,295,528,291,574,274,594,260,611,241,635,201,639,204,615,245,598,264,577,279,529,296,479,301,429,296,379,284,333,268,291,250,230,216"/>
-<area shape="poly" title=" " alt="" coords="245,198,303,198,303,203,245,203"/>
-<area shape="poly" title=" " alt="" coords="410,354,448,354,491,350,535,339,574,318,599,293,618,263,631,231,639,203,644,204,636,233,623,265,603,297,577,323,537,344,492,356,448,360,410,359"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_icgraph" id="atable3d__interpolate_8cpp_afe02cb170296d1585564122bec3b423c_icgraph">
-<area shape="rect" title=" " alt="" coords="480,284,601,310"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
-<area shape="poly" title=" " alt="" coords="533,269,524,220,506,161,475,101,455,75,431,52,389,30,343,17,296,12,253,12,253,7,296,7,344,12,391,25,434,48,459,71,480,98,511,159,529,219,538,268"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
-<area shape="poly" title=" " alt="" coords="531,270,520,229,501,180,472,133,453,113,431,96,402,85,377,84,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,376,79,403,79,434,92,456,109,476,130,506,178,525,227,537,268"/>
-<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="326,107,422,132"/>
-<area shape="poly" title=" " alt="" coords="522,272,484,214,459,182,431,154,403,135,406,131,434,149,463,179,489,211,527,269"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
-<area shape="poly" title=" " alt="" coords="512,275,475,246,431,221,379,202,325,189,230,176,231,170,326,184,381,197,433,216,478,242,516,271"/>
-<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,207,247,232"/>
-<area shape="poly" title=" " alt="" coords="503,279,469,262,432,249,384,238,335,230,247,223,247,218,336,225,385,233,433,244,471,257,505,274"/>
-<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="315,259,432,284"/>
-<area shape="poly" title=" " alt="" coords="464,288,432,283,433,278,465,283"/>
-<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="325,308,422,334"/>
-<area shape="poly" title=" " alt="" coords="466,310,423,316,422,311,465,305"/>
-<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="151,359,215,384"/>
-<area shape="poly" title=" " alt="" coords="504,319,470,335,433,349,373,361,313,369,215,374,215,369,313,364,372,356,432,344,468,331,502,315"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="324,409,424,435"/>
-<area shape="poly" title=" " alt="" coords="517,322,479,357,434,392,403,411,400,407,431,388,476,353,513,318"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="332,459,415,484"/>
-<area shape="poly" title=" " alt="" coords="529,325,491,386,465,420,434,450,416,461,413,456,431,445,461,416,487,383,524,322"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="334,508,414,534"/>
-<area shape="poly" title=" " alt="" coords="534,325,520,363,499,409,471,457,434,499,416,511,413,506,431,495,466,454,494,407,515,361,529,323"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="140,559,226,584"/>
-<area shape="poly" title=" " alt="" coords="539,326,530,375,511,436,498,468,481,498,459,525,434,548,410,563,383,574,327,585,273,586,226,582,227,577,273,581,326,579,381,569,407,558,431,544,456,522,476,495,493,465,506,435,525,374,534,325"/>
-<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
-<area shape="poly" title=" " alt="" coords="311,139,231,160,230,155,309,134"/>
-<area shape="poly" title=" " alt="" coords="122,184,100,196,76,223,57,254,35,308,30,307,52,251,71,219,97,192,119,179"/>
-<area shape="poly" title=" " alt="" coords="124,241,100,254,67,281,42,309,38,306,63,278,97,249,122,236"/>
-<area shape="poly" title=" " alt="" coords="300,279,204,289,99,305,52,317,50,312,98,300,203,284,300,274"/>
-<area shape="poly" title=" " alt="" coords="310,324,51,324,51,318,310,318"/>
-<area shape="poly" title=" " alt="" coords="135,359,50,331,52,326,137,354"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,408,267,434"/>
-<area shape="poly" title=" " alt="" coords="308,424,267,424,267,419,308,419"/>
-<area shape="poly" title=" " alt="" coords="105,404,97,399,61,368,36,336,40,333,65,364,100,395,108,399"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,457,263,483"/>
-<area shape="poly" title=" " alt="" coords="317,474,263,473,263,468,317,468"/>
-<area shape="poly" title=" " alt="" coords="102,452,97,448,71,421,52,390,30,335,35,333,57,387,76,418,100,444,105,447"/>
-<area shape="poly" title=" " alt="" coords="318,534,267,539,209,537,150,525,123,513,97,498,78,480,63,459,43,413,32,368,27,334,33,334,37,367,48,411,68,457,82,477,100,493,125,509,152,520,210,532,267,533,318,529"/>
-<area shape="poly" title=" " alt="" coords="124,560,97,541,77,516,62,488,41,429,31,374,27,334,32,334,36,373,46,427,67,486,82,513,100,538,127,555"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad50ab79b15c044bef84b9282e439baf7" name="ad50ab79b15c044bef84b9282e439baf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad50ab79b15c044bef84b9282e439baf7">&#9670;&#160;</a></span>is_in_bin()</h2>
+<a id="a75bcfb9f47cad545241584c04482aa05" name="a75bcfb9f47cad545241584c04482aa05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75bcfb9f47cad545241584c04482aa05">&#9670;&#160;</a></span>fromQU1X8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -713,60 +587,49 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a> is_in_bin </td>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> fromQU1X8 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>testValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
+          <td class="paramname"><em>base</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga5f0aeaf7191b591b68dc4015c06c4c2d">table3d_axis_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>max</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Q_(number_format)">https://en.wikipedia.org/wiki/Q_(number_format)</a>.</dd></dl>
+<p>This is specialised for the number range 0..1 - a generic fixed point class would miss some important optimisations. Specifically, we can avoid type promotion during multiplication. <br  />
+ </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_cgraph" id="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,78,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="126,5,176,31"/>
-<area shape="poly" title=" " alt="" coords="78,16,110,16,110,21,78,21"/>
+<div class="center"><img src="table3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_cgraph" id="atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_cgraph">
+<area shape="rect" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="5,5,96,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="144,5,194,31"/>
+<area shape="poly" title=" " alt="" coords="96,16,128,16,128,21,96,21"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph" id="atable3d__interpolate_8cpp_ad50ab79b15c044bef84b9282e439baf7_icgraph">
-<area shape="rect" title=" " alt="" coords="895,284,968,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae2718b04e11922233ffbf70b1ba14696" title=" " alt="" coords="751,284,847,310"/>
-<area shape="poly" title=" " alt="" coords="880,300,848,300,848,294,880,294"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75e46a8601c42d707958dcdc02a2d729" title=" " alt="" coords="632,259,703,284"/>
-<area shape="poly" title=" " alt="" coords="735,287,703,281,704,276,736,282"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a206af08604c929d0b4b00bd7798e8ba2" title=" " alt="" coords="632,308,703,334"/>
-<area shape="poly" title=" " alt="" coords="736,311,704,317,703,312,735,306"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="463,284,584,310"/>
-<area shape="poly" title=" " alt="" coords="617,283,585,289,584,284,616,278"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
+<div class="center"><img src="table3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_icgraph" id="atable3d__interpolate_8cpp_a75bcfb9f47cad545241584c04482aa05_icgraph">
+<area shape="rect" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="1141,284,1231,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="820,284,959,310"/>
+<area shape="poly" title=" " alt="" coords="1126,300,960,300,960,294,1126,294"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="1007,309,1093,335"/>
+<area shape="poly" title=" " alt="" coords="1126,311,1094,317,1093,312,1125,305"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="804,300,772,300,772,294,804,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
 <area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,307,51,332"/>
 <area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,70,185,50,230,38,274,33,307,28,306,33,273,45,229,65,182,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
@@ -805,32 +668,65 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="102,452,97,448,71,421,52,389,30,334,35,332,57,387,76,418,100,444,105,447"/>
 <area shape="poly" title=" " alt="" coords="310,534,261,538,205,536,148,524,122,513,97,498,78,480,63,459,43,412,32,367,27,333,33,333,37,366,48,411,68,456,82,477,100,493,124,508,150,519,205,531,261,532,309,528"/>
 <area shape="poly" title=" " alt="" coords="124,560,97,541,77,516,62,488,41,428,31,373,27,333,32,333,36,372,46,427,66,486,82,513,100,538,127,555"/>
-<area shape="poly" title=" " alt="" coords="616,315,584,310,584,304,616,310"/>
+<area shape="poly" title=" " alt="" coords="991,316,959,311,960,305,992,310"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="aa0103af975b56a936edcd9d2acbd3803" name="aa0103af975b56a936edcd9d2acbd3803"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0103af975b56a936edcd9d2acbd3803">&#9670;&#160;</a></span>mulQU1X8()</h2>
+<a id="ae29f8fcfad2e4ce69ec6255d2517c7ad" name="ae29f8fcfad2e4ce69ec6255d2517c7ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae29f8fcfad2e4ce69ec6255d2517c7ad">&#9670;&#160;</a></span>interpolate_3d_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> mulQU1X8 </td>
+          <td class="memname"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> interpolate_3d_value </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;&#160;</td>
+          <td class="paramname"><em>lookUpValues</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__coord2d.html">xy_coord2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>upperBinIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *&#160;</td>
+          <td class="paramname"><em>pValues</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pXAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>xMultiplier</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pYAxis</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>yMultiplier</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -838,31 +734,64 @@ Here is the caller graph for this function:</div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Interpolate a table value from axis bins &amp; values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lookUpValues</td><td>The x &amp; y axis values we are interpolating </td></tr>
+    <tr><td class="paramname">upperBinIndices</td><td>The x &amp; y axis bin indices that contain lookUpValues </td></tr>
+    <tr><td class="paramname">axisSize</td><td>The length of an axis </td></tr>
+    <tr><td class="paramname">pValues</td><td>The interpolation source values </td></tr>
+    <tr><td class="paramname">pXAxis</td><td>The x-axis </td></tr>
+    <tr><td class="paramname">xMultiplier</td><td>The x-axis multiplier </td></tr>
+    <tr><td class="paramname">pYAxis</td><td>The y-axis </td></tr>
+    <tr><td class="paramname">yMultiplier</td><td>The y-axis multiplier </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>table3d_value_t </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_cgraph" id="atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,91,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="139,5,189,31"/>
-<area shape="poly" title=" " alt="" coords="91,16,123,16,123,21,91,21"/>
+<div class="center"><img src="table3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_cgraph" id="atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_cgraph">
+<area shape="rect" title="Interpolate a table value from axis bins &amp; values." alt="" coords="5,233,146,259"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="194,81,333,107"/>
+<area shape="poly" title=" " alt="" coords="92,231,233,115,236,119,95,235"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="715,183,765,208"/>
+<area shape="poly" title=" " alt="" coords="146,232,193,225,384,206,576,196,699,193,699,198,576,201,385,211,194,230,146,237"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="381,233,528,259"/>
+<area shape="poly" title=" " alt="" coords="146,244,365,244,365,249,146,249"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="215,284,312,310"/>
+<area shape="poly" title=" " alt="" coords="127,257,201,277,199,282,125,262"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="413,360,497,386"/>
+<area shape="poly" title=" " alt="" coords="94,257,138,289,195,320,247,337,301,350,397,365,396,371,300,356,245,342,193,325,135,294,91,262"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="576,56,667,82"/>
+<area shape="poly" title=" " alt="" coords="333,87,561,70,561,76,334,92"/>
+<area shape="poly" title=" " alt="" coords="334,93,405,97,489,107,579,124,668,149,710,171,708,176,666,154,578,129,488,112,404,103,333,98"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="412,5,497,31"/>
+<area shape="poly" title=" " alt="" coords="297,78,405,35,407,40,299,83"/>
+<area shape="poly" title=" " alt="" coords="646,80,669,99,699,134,724,168,720,171,695,137,665,103,642,84"/>
+<area shape="poly" title=" " alt="" coords="499,29,563,48,562,54,497,34"/>
+<area shape="poly" title=" " alt="" coords="498,9,537,7,581,10,627,20,668,41,696,69,715,102,728,137,736,167,731,168,723,138,710,105,691,72,665,46,625,25,581,15,537,13,498,15"/>
+<area shape="poly" title=" " alt="" coords="528,230,699,200,700,205,529,236"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="578,259,665,284"/>
+<area shape="poly" title=" " alt="" coords="529,255,563,260,562,265,529,260"/>
+<area shape="poly" title=" " alt="" coords="642,256,704,215,707,219,644,260"/>
+<area shape="poly" title=" " alt="" coords="313,308,385,322,476,330,525,330,573,324,621,313,665,294,685,280,702,262,726,221,730,224,706,265,689,284,668,299,622,318,574,329,525,335,476,336,385,327,312,313"/>
+<area shape="poly" title=" " alt="" coords="497,375,536,375,580,371,625,360,665,339,690,314,709,283,722,251,730,223,735,224,727,253,714,285,694,317,668,343,627,365,581,376,536,380,497,380"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_icgraph" id="atable3d__interpolate_8cpp_aa0103af975b56a936edcd9d2acbd3803_icgraph">
-<area shape="rect" title=" " alt="" coords="649,284,734,310"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afe02cb170296d1585564122bec3b423c" title=" " alt="" coords="480,284,601,310"/>
+<div class="center"><img src="table3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_icgraph" id="atable3d__interpolate_8cpp_ae29f8fcfad2e4ce69ec6255d2517c7ad_icgraph">
+<area shape="rect" title="Interpolate a table value from axis bins &amp; values." alt="" coords="649,284,789,310"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="480,284,601,310"/>
 <area shape="poly" title=" " alt="" coords="633,300,601,300,601,294,633,294"/>
-<area shape="rect" href="speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae" title=" " alt="" coords="114,5,252,31"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
 <area shape="poly" title=" " alt="" coords="533,269,524,220,506,161,475,101,455,75,431,52,389,30,343,17,296,12,253,12,253,7,296,7,344,12,391,25,434,48,459,71,480,98,511,159,529,219,538,268"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,309,51,335"/>
 <area shape="poly" title=" " alt="" coords="531,270,520,229,501,180,472,133,453,113,431,96,402,85,377,84,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,186,49,232,38,276,33,310,28,309,33,275,44,230,65,183,79,162,97,143,124,122,149,109,173,101,198,97,250,95,315,92,376,79,403,79,434,92,456,109,476,130,506,178,525,227,537,268"/>
@@ -906,9 +835,211 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a5666d98bfe4d6037da583b53cfae98ac" name="a5666d98bfe4d6037da583b53cfae98ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5666d98bfe4d6037da583b53cfae98ac">&#9670;&#160;</a></span>QU1X8_HALF</h2>
+<a id="ae4556ff6a4723c83407460d95f79d707" name="ae4556ff6a4723c83407460d95f79d707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4556ff6a4723c83407460d95f79d707">&#9670;&#160;</a></span>linear_bin_search()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> linear_bin_search </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
+          <td class="paramname"><em>pStart</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform a linear search on an array for the bin that contains value. </p>
+<dl class="section note"><dt>Note</dt><dd>Assume array is ordered [max...min]</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pStart</td><td>Pointer to the start of the array. </td></tr>
+    <tr><td class="paramname">length</td><td>Length of the array. </td></tr>
+    <tr><td class="paramname">value</td><td>Value to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Upper array index of the bin </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_cgraph" id="atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_cgraph">
+<area shape="rect" title="Perform a linear search on an array for the bin that contains value." alt="" coords="5,5,128,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="176,5,226,31"/>
+<area shape="poly" title=" " alt="" coords="128,16,160,16,160,21,128,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_icgraph" id="atable3d__interpolate_8cpp_ae4556ff6a4723c83407460d95f79d707_icgraph">
+<area shape="rect" title="Perform a linear search on an array for the bin that contains value." alt="" coords="776,284,898,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="632,284,728,310"/>
+<area shape="poly" title=" " alt="" coords="760,300,729,300,729,294,760,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,317,207,230,183,231,178,318,201,416,236,489,273"/>
+<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,234,247,229,416,264,465,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
+<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,508,223,534"/>
+<area shape="poly" title=" " alt="" coords="519,325,506,365,486,413,457,460,438,480,417,498,394,511,369,520,317,531,266,532,223,530,224,524,266,527,316,525,367,515,391,506,414,493,435,476,453,456,482,410,501,363,513,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,559,408,584"/>
+<area shape="poly" title=" " alt="" coords="518,325,505,370,484,426,455,486,417,541,395,560,391,556,413,538,451,483,479,424,500,368,513,324"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,185,100,198,76,224,57,255,35,309,30,307,52,252,72,221,97,193,119,180"/>
+<area shape="poly" title=" " alt="" coords="108,243,100,247,65,278,40,309,36,306,61,274,97,243,105,238"/>
+<area shape="poly" title=" " alt="" coords="128,291,52,316,50,311,126,286"/>
+<area shape="poly" title=" " alt="" coords="301,325,51,324,51,318,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,327,51,321,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,409,267,435"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
+<area shape="poly" title=" " alt="" coords="122,405,97,392,63,364,38,336,42,332,67,360,100,388,124,401"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,459,263,484"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,474,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,453,97,449,71,422,52,390,30,335,35,333,57,388,76,419,100,446,105,449"/>
+<area shape="poly" title=" " alt="" coords="126,515,97,499,80,480,65,458,45,412,33,368,28,335,33,334,39,366,50,410,70,456,84,477,100,495,129,510"/>
+<area shape="poly" title=" " alt="" coords="307,585,258,590,202,588,147,576,121,564,97,548,74,525,57,497,44,466,36,435,27,377,26,334,31,334,33,376,41,434,49,465,62,494,79,521,100,544,123,559,148,571,203,583,258,585,307,580"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afc344f5e266c89e30dbcaaf77398519c" name="afc344f5e266c89e30dbcaaf77398519c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc344f5e266c89e30dbcaaf77398519c">&#9670;&#160;</a></span>mulQU1X8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> mulQU1X8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiply two QU1X8_t values. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_cgraph" id="atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_cgraph">
+<area shape="rect" title="Multiply two QU1X8_t values." alt="" coords="5,31,91,56"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="139,5,229,31"/>
+<area shape="poly" title=" " alt="" coords="91,33,123,27,124,32,92,38"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="277,31,327,56"/>
+<area shape="poly" title=" " alt="" coords="91,41,261,41,261,46,91,46"/>
+<area shape="poly" title=" " alt="" coords="230,25,262,32,261,38,229,30"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_icgraph" id="atable3d__interpolate_8cpp_afc344f5e266c89e30dbcaaf77398519c_icgraph">
+<area shape="rect" title="Multiply two QU1X8_t values." alt="" coords="1007,284,1093,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="820,284,959,310"/>
+<area shape="poly" title=" " alt="" coords="992,300,960,300,960,294,992,294"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="804,300,772,300,772,294,804,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,307,51,332"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,70,185,50,230,38,274,33,307,28,306,33,273,45,229,65,182,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,341,216,266,197,230,186,231,181,268,192,343,211,416,236,489,273"/>
+<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,207,247,232"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,233,247,228,416,264,464,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,256,242,282"/>
+<area shape="poly" title=" " alt="" coords="447,293,241,276,242,271,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="325,508,405,534"/>
+<area shape="poly" title=" " alt="" coords="516,326,480,408,452,455,417,497,400,510,397,505,414,494,448,452,475,406,511,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="140,559,226,584"/>
+<area shape="poly" title=" " alt="" coords="522,326,513,375,494,436,481,468,464,498,442,525,417,548,395,562,370,572,319,583,269,585,226,581,226,576,269,579,319,577,369,567,392,557,414,544,438,522,459,495,476,465,489,434,508,374,517,325"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,259,31,306,26,306,27,259,35,191,44,153,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,184,100,196,76,222,57,253,35,307,30,305,52,251,71,219,97,192,119,179"/>
+<area shape="poly" title=" " alt="" coords="108,241,100,246,65,276,40,308,36,305,61,273,97,241,105,237"/>
+<area shape="poly" title=" " alt="" coords="128,290,52,315,50,310,126,285"/>
+<area shape="poly" title=" " alt="" coords="301,324,51,322,51,317,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,326,51,320,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,408,267,434"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,418,299,418"/>
+<area shape="poly" title=" " alt="" coords="122,404,97,391,63,363,38,335,42,331,67,359,100,387,124,399"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,457,263,483"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,473,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,452,97,448,71,421,52,389,30,334,35,332,57,387,76,418,100,444,105,447"/>
+<area shape="poly" title=" " alt="" coords="310,534,261,538,205,536,148,524,122,513,97,498,78,480,63,459,43,412,32,367,27,333,33,333,37,366,48,411,68,456,82,477,100,493,124,508,150,519,205,531,261,532,309,528"/>
+<area shape="poly" title=" " alt="" coords="124,560,97,541,77,516,62,488,41,428,31,373,27,333,32,333,36,372,46,427,66,486,82,513,100,538,127,555"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6db63b6b0cc0a7cd324402bf94b6c30f" name="a6db63b6b0cc0a7cd324402bf94b6c30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db63b6b0cc0a7cd324402bf94b6c30f">&#9670;&#160;</a></span>toBottomLeft()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -917,15 +1048,249 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_HALF = (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>)1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> &lt;&lt; (<a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a>-1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="structrow__col2d.html">row_col2d</a> toBottomLeft </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structrow__col2d.html">row_col2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>topRight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get the bottom left corner of the <em>value</em> coordinates in a 3D table, based on top right corner. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_cgraph" id="atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_cgraph">
+<area shape="rect" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="5,5,103,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="151,5,201,31"/>
+<area shape="poly" title=" " alt="" coords="103,16,135,16,135,21,103,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_icgraph" id="atable3d__interpolate_8cpp_a6db63b6b0cc0a7cd324402bf94b6c30f_icgraph">
+<area shape="rect" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="820,284,917,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="804,300,772,300,772,294,804,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,317,207,230,183,231,178,318,201,416,236,489,273"/>
+<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,234,247,229,416,264,465,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
+<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,508,223,534"/>
+<area shape="poly" title=" " alt="" coords="519,325,506,365,486,413,457,460,438,480,417,498,394,511,369,520,317,531,266,532,223,530,224,524,266,527,316,525,367,515,391,506,414,493,435,476,453,456,482,410,501,363,513,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,559,408,584"/>
+<area shape="poly" title=" " alt="" coords="518,325,505,370,484,426,455,486,417,541,395,560,391,556,413,538,451,483,479,424,500,368,513,324"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,185,100,198,76,224,57,255,35,309,30,307,52,252,72,221,97,193,119,180"/>
+<area shape="poly" title=" " alt="" coords="108,243,100,247,65,278,40,309,36,306,61,274,97,243,105,238"/>
+<area shape="poly" title=" " alt="" coords="128,291,52,316,50,311,126,286"/>
+<area shape="poly" title=" " alt="" coords="301,325,51,324,51,318,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,327,51,321,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,409,267,435"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
+<area shape="poly" title=" " alt="" coords="122,405,97,392,63,364,38,336,42,332,67,360,100,388,124,401"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,459,263,484"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,474,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,453,97,449,71,422,52,390,30,335,35,333,57,388,76,419,100,446,105,449"/>
+<area shape="poly" title=" " alt="" coords="126,515,97,499,80,480,65,458,45,412,33,368,28,335,33,334,39,366,50,410,70,456,84,477,100,495,129,510"/>
+<area shape="poly" title=" " alt="" coords="307,585,258,590,202,588,147,576,121,564,97,548,74,525,57,497,44,466,36,435,27,377,26,334,31,334,33,376,41,434,49,465,62,494,79,521,100,544,123,559,148,571,203,583,258,585,307,580"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a483a5708bbe65f235e712e9bf11cf255" name="a483a5708bbe65f235e712e9bf11cf255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a483a5708bbe65f235e712e9bf11cf255">&#9670;&#160;</a></span>toQU1X8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> toQU1X8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>base</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Q_(number_format)">https://en.wikipedia.org/wiki/Q_(number_format)</a>.</dd></dl>
+<p>This is specialised for the number range 0..1 - a generic fixed point class would miss some important optimisations. Specifically, we can avoid type promotion during multiplication. <br  />
+ </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a483a5708bbe65f235e712e9bf11cf255_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a483a5708bbe65f235e712e9bf11cf255_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a483a5708bbe65f235e712e9bf11cf255_cgraph" id="atable3d__interpolate_8cpp_a483a5708bbe65f235e712e9bf11cf255_cgraph">
+<area shape="rect" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="5,5,81,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="129,5,179,31"/>
+<area shape="poly" title=" " alt="" coords="81,16,113,16,113,21,81,21"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a248291a391aa240c0c1a18f9702f9a38" name="a248291a391aa240c0c1a18f9702f9a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a248291a391aa240c0c1a18f9702f9a38">&#9670;&#160;</a></span>toTopRight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="structrow__col2d.html">row_col2d</a> toTopRight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structxy__coord2d.html">xy_coord2d</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisCoords</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>axisSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the top right corner of the <em>value</em> coordinates in a 3D table, based on x/y axis coords. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_cgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_cgraph" id="atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_cgraph">
+<area shape="rect" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="5,5,90,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="138,5,188,31"/>
+<area shape="poly" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="table3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_icgraph.png" border="0" usemap="#atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_icgraph" id="atable3d__interpolate_8cpp_a248291a391aa240c0c1a18f9702f9a38_icgraph">
+<area shape="rect" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="820,284,904,310"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="632,284,772,310"/>
+<area shape="poly" title=" " alt="" coords="804,300,772,300,772,294,804,294"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="463,284,584,310"/>
+<area shape="poly" title=" " alt="" coords="616,300,584,300,584,294,616,294"/>
+<area shape="rect" href="speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674" title=" " alt="" coords="114,5,252,31"/>
+<area shape="poly" title=" " alt="" coords="516,269,507,220,488,161,458,101,438,75,414,52,376,31,335,19,292,14,253,14,253,8,293,9,336,14,378,27,417,48,442,71,463,98,493,159,512,219,521,268"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,308,51,334"/>
+<area shape="poly" title=" " alt="" coords="514,270,503,229,484,180,455,133,436,113,414,96,389,86,368,86,315,97,250,100,198,102,175,106,151,114,127,127,100,147,83,165,69,185,49,231,38,275,33,308,28,307,33,274,44,229,65,183,79,161,97,143,124,122,149,109,173,101,198,97,250,95,315,92,367,81,390,81,417,92,439,109,459,130,489,178,508,227,520,268"/>
+<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="317,107,413,132"/>
+<area shape="poly" title=" " alt="" coords="505,272,466,215,414,153,389,135,392,131,417,150,471,212,509,269"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="136,157,230,183"/>
+<area shape="poly" title=" " alt="" coords="487,278,414,241,317,207,230,183,231,178,318,201,416,236,489,273"/>
+<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="119,208,247,234"/>
+<area shape="poly" title=" " alt="" coords="463,282,415,269,246,234,247,229,416,264,465,277"/>
+<area shape="rect" href="speeduino_8ino.html#a25aa839cd94a96952e02734bd4434560" title=" " alt="" coords="124,257,242,283"/>
+<area shape="poly" title=" " alt="" coords="447,294,241,277,242,272,448,288"/>
+<area shape="rect" href="speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0" title=" " alt="" coords="317,309,414,335"/>
+<area shape="poly" title=" " alt="" coords="448,312,414,317,414,312,447,306"/>
+<area shape="rect" href="speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84" title=" " alt="" coords="334,359,397,384"/>
+<area shape="poly" title=" " alt="" coords="482,319,396,360,393,356,479,314"/>
+<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="315,408,415,434"/>
+<area shape="poly" title=" " alt="" coords="502,323,464,361,417,399,399,410,396,405,414,395,460,357,498,319"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="324,457,407,483"/>
+<area shape="poly" title=" " alt="" coords="511,325,473,385,447,418,417,448,401,459,398,455,414,444,443,415,469,382,506,322"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="143,508,223,534"/>
+<area shape="poly" title=" " alt="" coords="519,325,506,365,486,413,457,460,438,480,417,498,394,511,369,520,317,531,266,532,223,530,224,524,266,527,316,525,367,515,391,506,414,493,435,476,453,456,482,410,501,363,513,324"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="322,559,408,584"/>
+<area shape="poly" title=" " alt="" coords="518,325,505,370,484,426,455,486,417,541,395,560,391,556,413,538,451,483,479,424,500,368,513,324"/>
+<area shape="poly" title=" " alt="" coords="114,41,101,52,78,83,61,118,49,155,40,192,32,260,31,308,26,308,27,260,35,191,43,154,56,116,74,80,97,48,110,37"/>
+<area shape="poly" title=" " alt="" coords="303,139,231,160,230,155,301,134"/>
+<area shape="poly" title=" " alt="" coords="122,185,100,198,76,224,57,255,35,309,30,307,52,252,72,221,97,193,119,180"/>
+<area shape="poly" title=" " alt="" coords="108,243,100,247,65,278,40,309,36,306,61,274,97,243,105,238"/>
+<area shape="poly" title=" " alt="" coords="128,291,52,316,50,311,126,286"/>
+<area shape="poly" title=" " alt="" coords="301,325,51,324,51,318,301,319"/>
+<area shape="poly" title=" " alt="" coords="318,367,51,327,51,321,318,362"/>
+<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="99,409,267,435"/>
+<area shape="poly" title=" " alt="" coords="299,424,267,424,267,419,299,419"/>
+<area shape="poly" title=" " alt="" coords="122,405,97,392,63,364,38,336,42,332,67,360,100,388,124,401"/>
+<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="103,459,263,484"/>
+<area shape="poly" title=" " alt="" coords="308,473,263,474,263,468,308,468"/>
+<area shape="poly" title=" " alt="" coords="102,453,97,449,71,422,52,390,30,335,35,333,57,388,76,419,100,446,105,449"/>
+<area shape="poly" title=" " alt="" coords="126,515,97,499,80,480,65,458,45,412,33,368,28,335,33,334,39,366,50,410,70,456,84,477,100,495,129,510"/>
+<area shape="poly" title=" " alt="" coords="307,585,258,590,202,588,147,576,121,564,97,548,74,525,57,497,44,466,36,435,27,377,26,334,31,334,33,376,41,434,49,465,62,494,79,521,100,544,123,559,148,571,203,583,258,585,307,580"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ad3d45614bf6075308354cc3eb9fe884c" name="ad3d45614bf6075308354cc3eb9fe884c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d45614bf6075308354cc3eb9fe884c">&#9670;&#160;</a></span>QU1X8_HALF</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_HALF = <a class="el" href="table3d__interpolate_8cpp.html#a5149123a4d3cc23a1635e9dedf5ae1da">QU1X8_ONE</a>/2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Precomputed value of 0.5 in QU1X8_t. </p>
 
 </div>
 </div>
@@ -944,32 +1309,28 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Integer shift to convert to/from QU1X8_t. </p>
+
 </div>
 </div>
-<a id="ad745c389853467eda682214d2242a07b" name="ad745c389853467eda682214d2242a07b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad745c389853467eda682214d2242a07b">&#9670;&#160;</a></span>QU1X8_ONE</h2>
+<a id="a5149123a4d3cc23a1635e9dedf5ae1da" name="a5149123a4d3cc23a1635e9dedf5ae1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5149123a4d3cc23a1635e9dedf5ae1da">&#9670;&#160;</a></span>QU1X8_ONE</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_ONE = (<a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a>)1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a> &lt;&lt; <a class="el" href="table3d__interpolate_8cpp.html#aba8cb9ea6a1310d15fc828c5516a0f31">QU1X8_INTEGER_SHIFT</a></td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table3d__interpolate_8cpp.html#a658f71891e646f3e2a90f37900ec37c5">QU1X8_t</a> QU1X8_ONE = <a class="el" href="table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255">toQU1X8</a>(1<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>Precomputed value of 1 in QU1X8_t. </p>
 
 </div>
 </div>

@@ -16,11 +16,12 @@ var searchData=
   ['rotarysplitvalues_13',['rotarySplitValues',['../structconfig10.html#a1d6329e6cde496dec192da046d9a4401',1,'config10']]],
   ['rotarytype_14',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10']]],
   ['rovermemsteethseen_15',['roverMEMSTeethSeen',['../group__dec.html#gaafd320359e4b378e8172eac969b58fb9',1,'decoders.cpp']]],
-  ['rpm_16',['rpm',['../group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da',1,'Rpm:&#160;table3d.h'],['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses::RPM']]],
-  ['rpmdiv100_17',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
-  ['rpmdot_18',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
-  ['rtc_5fmode_19',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
-  ['rtc_5ftrim_20',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
-  ['runsecs_21',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
-  ['runsecsx10_22',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
+  ['row_16',['row',['../structrow__col2d.html#a6a6b1aa6538ab4470d94803ed50765fa',1,'row_col2d']]],
+  ['rpm_17',['rpm',['../group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da',1,'Rpm:&#160;table3d.h'],['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses::RPM']]],
+  ['rpmdiv100_18',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
+  ['rpmdot_19',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
+  ['rtc_5fmode_20',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
+  ['rtc_5ftrim_21',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
+  ['runsecs_22',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10_23',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
 ];

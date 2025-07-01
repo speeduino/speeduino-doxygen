@@ -89,12 +89,13 @@ var searchData=
   ['operator_2a_86',['operator*',['../classtable__row__iterator.html#adcc07b39263638af09a72ac90985662e',1,'table_row_iterator::operator*(void)'],['../classtable__row__iterator.html#ae39a04bacb67cd2afdc1074dc4298caa',1,'table_row_iterator::operator*(void) const'],['../classoffset__to__table.html#a30f54a0521bc50f155d21d75cdd08e18',1,'offset_to_table::operator*()'],['../classtable__axis__iterator.html#a147224c6daba121b98ea2b1224362d7a',1,'table_axis_iterator::operator*(void)'],['../classtable__axis__iterator.html#ab8f6b2934ab6a17a9bd4148e2f40e8e4',1,'table_axis_iterator::operator*(void) const'],['../classtable__value__iterator.html#a5c34c4738aae9deecae6e7e9c9993042',1,'table_value_iterator::operator*(void)'],['../classtable__value__iterator.html#a9228bd13ac2b4613264195aff5a96faf',1,'table_value_iterator::operator*(void) const']]],
   ['operator_2b_2b_87',['operator++',['../classtable__axis__iterator.html#a20360a9b8d087faa5ecd1bf6aec685eb',1,'table_axis_iterator::operator++()'],['../classtable__row__iterator.html#a5bc59df70785c2cafa7aac2f4bc529fa',1,'table_row_iterator::operator++()'],['../classtable__value__iterator.html#ac398cf620a4471aadb7243fb71709591',1,'table_value_iterator::operator++()'],['../structwrite__location.html#abf3a55df77e62165f5a6f8cae9d42834',1,'write_location::operator++()']]],
   ['operator_3d_88',['operator=',['../classoffset__to__table.html#a327990d95a07b042a42d5cdf75684660',1,'offset_to_table']]],
-  ['optimised_20bitwise_20shifts_89',['Optimised bitwise shifts',['../group__group-opt-shift.html',1,'']]],
-  ['output_5fcontrol_5fdirect_90',['OUTPUT_CONTROL_DIRECT',['../globals_8h.html#ab903760e123907152bc7e44cfc3f9da4',1,'globals.h']]],
-  ['output_5fcontrol_5fmc33810_91',['OUTPUT_CONTROL_MC33810',['../globals_8h.html#a07c26b2925479007f69f8690ea5ebae5',1,'globals.h']]],
-  ['outputdelay_92',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
-  ['outputinverted_93',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
-  ['outputpin_94',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13']]],
-  ['outputsstatus_95',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
-  ['outputtimelimit_96',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13']]]
+  ['operator_3d_3d_89',['operator==',['../table3d__interpolate_8h.html#a3223fca1bcc3666499752fe5cfe94241',1,'table3d_interpolate.h']]],
+  ['optimised_20bitwise_20shifts_90',['Optimised bitwise shifts',['../group__group-opt-shift.html',1,'']]],
+  ['output_5fcontrol_5fdirect_91',['OUTPUT_CONTROL_DIRECT',['../globals_8h.html#ab903760e123907152bc7e44cfc3f9da4',1,'globals.h']]],
+  ['output_5fcontrol_5fmc33810_92',['OUTPUT_CONTROL_MC33810',['../globals_8h.html#a07c26b2925479007f69f8690ea5ebae5',1,'globals.h']]],
+  ['outputdelay_93',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
+  ['outputinverted_94',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
+  ['outputpin_95',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13']]],
+  ['outputsstatus_96',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
+  ['outputtimelimit_97',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13']]]
 ];

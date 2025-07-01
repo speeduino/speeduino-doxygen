@@ -127,7 +127,7 @@ var searchData=
   ['ignitionschedule5_124',['ignitionschedule5',['../scheduler_8cpp.html#acc4a1b80677f8390756062ff2014fc3b',1,'ignitionSchedule5:&#160;scheduler.cpp'],['../scheduler_8h.html#a5dcaa7c77999c27f1309db7330c43580',1,'ignitionSchedule5:&#160;scheduler.h']]],
   ['ignitiontable_125',['ignitiontable',['../globals_8cpp.html#af7b7f4304a2da2dd748ab31b69d61635',1,'ignitionTable:&#160;globals.cpp'],['../globals_8h.html#af7b7f4304a2da2dd748ab31b69d61635',1,'ignitionTable:&#160;globals.cpp']]],
   ['ignitiontable2_126',['ignitiontable2',['../globals_8cpp.html#a5c80e32b5945f695c2992472f6683e73',1,'ignitionTable2:&#160;globals.cpp'],['../globals_8h.html#a5c80e32b5945f695c2992472f6683e73',1,'ignitionTable2:&#160;globals.cpp']]],
-  ['ignload_127',['ignLoad',['../structstatuses.html#ac60524a71048115c3b6e660beecd9663',1,'statuses']]],
+  ['ignload_127',['ignLoad',['../structstatuses.html#a4087defaf20b70272d9b03cbd58c00db',1,'statuses']]],
   ['includeafr_128',['includeAFR',['../structconfig2.html#afa9ed2839798c0cf326b3276c26fb23c',1,'config2']]],
   ['incorporateafr_129',['incorporateAFR',['../structconfig2.html#ace47c83764283db1ad454bdd6d0e06e4',1,'config2']]],
   ['indinjang_130',['indInjAng',['../structconfig2.html#ad36c73275a9b223c756a3e951977c46d',1,'config2']]],

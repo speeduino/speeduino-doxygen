@@ -7,6 +7,5 @@ var searchData=
   ['config2_4',['config2',['../structconfig2.html',1,'']]],
   ['config4_5',['config4',['../structconfig4.html',1,'']]],
   ['config6_6',['config6',['../structconfig6.html',1,'']]],
-  ['config9_7',['config9',['../structconfig9.html',1,'']]],
-  ['coord2d_8',['coord2d',['../structcoord2d.html',1,'']]]
+  ['config9_7',['config9',['../structconfig9.html',1,'']]]
 ];

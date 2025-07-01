@@ -107,7 +107,7 @@ var searchData=
   ['and_20miata_20mx_205_104',['Mistsubishi 4G63 and Miata + MX-5',['../group__dec__mitsu__miata.html',1,'']]],
   ['anglefilter_5fvvt_105',['ANGLEFILTER_VVT',['../structconfig4.html#affdd82923d6cbda4964026982989beaa',1,'config4']]],
   ['angletotimemicrosecperdegree_106',['angletotimemicrosecperdegree',['../crank_maths_8h.html#ab5234186ab1e03e073582f33852fc3f2',1,'angleToTimeMicroSecPerDegree(uint16_t angle):&#160;crankMaths.cpp'],['../crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2',1,'angleToTimeMicroSecPerDegree(uint16_t angle):&#160;crankMaths.cpp']]],
-  ['applyfueltrimtopw_107',['applyFuelTrimToPW',['../speeduino_8ino.html#a0c1f0f3e991d45b1721312810231b8ae',1,'speeduino.ino']]],
+  ['applyfueltrimtopw_107',['applyFuelTrimToPW',['../speeduino_8ino.html#a2edf4da5bf156490939b5ea719012674',1,'speeduino.ino']]],
   ['applyoverdwellcheck_108',['applyOverDwellCheck',['../timers_8cpp.html#aab30d03d7fb8862fe96219784fbcd6a2',1,'timers.cpp']]],
   ['asebins_109',['aseBins',['../structconfig2.html#ac6e1eb8a0dc9d6c21dfbe5a7e866e33f',1,'config2']]],
   ['asecount_110',['aseCount',['../structconfig2.html#a0188b4fe416fa65f0ba422fa296f44d2',1,'config2']]],
@@ -127,5 +127,5 @@ var searchData=
   ['axis_5fdomain_124',['axis_domain',['../group__table__3d.html#gaafc1c51fc6a0e5811d666abefdd5e7e4',1,'table3d_axes.h']]],
   ['axis_5fdomain_5fload_125',['axis_domain_Load',['../group__table__3d.html#ggaafc1c51fc6a0e5811d666abefdd5e7e4aac1e5ad38cb2513b44a423ebfc36f5cb',1,'table3d_axes.h']]],
   ['axis_5fdomain_5frpm_126',['axis_domain_Rpm',['../group__table__3d.html#ggaafc1c51fc6a0e5811d666abefdd5e7e4a44d0173eabe8bea4b8e2e4afd9a33fcd',1,'table3d_axes.h']]],
-  ['axis_5fdomain_5ftps_127',['axis_domain_Tps',['../group__table__3d.html#ggaafc1c51fc6a0e5811d666abefdd5e7e4a7b196efaef0f7de1d593733e48fcfd8a',1,'table3d_axes.h']]]
+  ['axis_5fdomain_5fto_5ffactor_127',['axis_domain_to_factor',['../group__table__3d.html#ga230c924d04e59986355f088e85efb0d4',1,'table3d_axes.h']]]
 ];
