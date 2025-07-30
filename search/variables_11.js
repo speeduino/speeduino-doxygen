@@ -26,7 +26,7 @@ var searchData=
   ['serialpayload_23',['serialPayload',['../group__group-serial-comms-impl.html#ga90149338cc40c17fd64b5af5445af772',1,'comms.cpp']]],
   ['serialpayloadlength_24',['serialPayloadLength',['../group__group-serial-comms-impl.html#gae6a46ee24ca592c2736d7f5b6451925b',1,'comms.cpp']]],
   ['serialreceivestarttime_25',['serialreceivestarttime',['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp'],['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp']]],
-  ['serialsecondarystatusflag_26',['serialsecondarystatusflag',['../comms__legacy_8cpp.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp']]],
+  ['serialsecondarystatusflag_26',['serialsecondarystatusflag',['../comms__legacy_8h.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialstatusflag_27',['serialstatusflag',['../comms__legacy_8cpp.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialversion_28',['serialVersion',['../group__group-serial-hard-coded-responses.html#gacafb16836d4625d677a7f179dff00fb3',1,'comms.cpp']]],
   ['size_29',['size',['../structpage__iterator__t.html#a7f476de6ccdcb491bb966b9cfadf9557',1,'page_iterator_t']]],
@@ -68,5 +68,6 @@ var searchData=
   ['stoich_65',['stoich',['../structconfig2.html#ab97d94aaffe9d86b49e971a24cef5268',1,'config2']]],
   ['storage_5fend_66',['STORAGE_END',['../storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b',1,'storage.cpp']]],
   ['strokes_67',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
-  ['synclosscounter_68',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]]
+  ['synclosscounter_68',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
+  ['systemtemp_69',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
 ];
