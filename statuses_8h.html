@@ -86,8 +86,8 @@ $(function() {
 <p>The statuses struct and related defines.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;SimplyAtomic.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="bit__manip_8h_source.html">bit_manip.h</a>&quot;</code><br />
+<code>#include &lt;util/atomic.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -271,6 +271,8 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ae9a9d99f58f2d83b676163e0ce465f03" id="r_ae9a9d99f58f2d83b676163e0ce465f03"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>()&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_BLOCK</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_RESTORESTATE</a>)</td></tr>
+<tr class="separator:ae9a9d99f58f2d83b676163e0ce465f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad884d37309ac7f3efa6b3624a2006f48" id="r_ad884d37309ac7f3efa6b3624a2006f48"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#ad884d37309ac7f3efa6b3624a2006f48">BIT_ENGINE_RUN</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:ad884d37309ac7f3efa6b3624a2006f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a897d8e217c012a0999b82a41940c7dd2" id="r_a897d8e217c012a0999b82a41940c7dd2"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a897d8e217c012a0999b82a41940c7dd2">BIT_ENGINE_CRANK</a>&#160;&#160;&#160;1</td></tr>
@@ -398,7 +400,7 @@ Typedefs</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9d456f4b13463e081242c33ca70d2f11" id="r_a9d456f4b13463e081242c33ca70d2f11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a9d456f4b13463e081242c33ca70d2f11">HasAnySyncUnsafe</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">status</a>)</td></tr>
-<tr class="memdesc:a9d456f4b13463e081242c33ca70d2f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-atomic version of HasAnySync. **Should only be called in an <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift - generic, unoptimized, case.">ATOMIC()</a> block***.  <br /></td></tr>
+<tr class="memdesc:a9d456f4b13463e081242c33ca70d2f11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-atomic version of HasAnySync. **Should only be called in an <a class="el" href="statuses_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC()</a> block***.  <br /></td></tr>
 <tr class="separator:a9d456f4b13463e081242c33ca70d2f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a019c1352daf773df950beaf2f7c9a88c" id="r_a019c1352daf773df950beaf2f7c9a88c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a019c1352daf773df950beaf2f7c9a88c">HasAnySync</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">status</a>)</td></tr>
 <tr class="separator:a019c1352daf773df950beaf2f7c9a88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -406,6 +408,23 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The statuses struct and related defines. </p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae9a9d99f58f2d83b676163e0ce465f03" name="ae9a9d99f58f2d83b676163e0ce465f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a9d99f58f2d83b676163e0ce465f03">&#9670;&#160;</a></span>ATOMIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> ATOMIC</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_BLOCK</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_RESTORESTATE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a442b930a11491188fb75e5a2ebe30887" name="a442b930a11491188fb75e5a2ebe30887"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a442b930a11491188fb75e5a2ebe30887">&#9670;&#160;</a></span>BIT_AIRCON_CLT_LOCKOUT</h2>
 
@@ -1402,7 +1421,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Non-atomic version of HasAnySync. **Should only be called in an <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift - generic, unoptimized, case.">ATOMIC()</a> block***. </p>
+<p>Non-atomic version of HasAnySync. **Should only be called in an <a class="el" href="statuses_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC()</a> block***. </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

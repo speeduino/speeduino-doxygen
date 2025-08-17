@@ -83,11 +83,11 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
-<code>#include &lt;SimplyAtomic.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="table2d_8h_source.html">table2d.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="table3d_8h_source.html">table3d.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="statuses_8h_source.html">statuses.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
+<code>#include &lt;util/atomic.h&gt;</code><br />
 <code>#include &lt;BOARD_H&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -252,6 +252,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ae9a9d99f58f2d83b676163e0ce465f03" id="r_ae9a9d99f58f2d83b676163e0ce465f03"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>()&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_BLOCK</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_RESTORESTATE</a>)</td></tr>
+<tr class="separator:ae9a9d99f58f2d83b676163e0ce465f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2ea5607b682b5faf59806f6548b9a71" id="r_ae2ea5607b682b5faf59806f6548b9a71"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#ae2ea5607b682b5faf59806f6548b9a71">CRANK_ANGLE_MAX</a>&#160;&#160;&#160;(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">max</a>(<a class="el" href="globals_8cpp.html#a05ecb2a5633f0c516044bb487c411d57">CRANK_ANGLE_MAX_IGN</a>, <a class="el" href="globals_8cpp.html#a0899ead1d490b4e1fe51150721f9b88b">CRANK_ANGLE_MAX_INJ</a>))</td></tr>
 <tr class="separator:ae2ea5607b682b5faf59806f6548b9a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862109559b900adee5fc54a117a98766" id="r_a862109559b900adee5fc54a117a98766"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="globals_8h.html#a862109559b900adee5fc54a117a98766">interruptSafe</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">c</a>)&#160;&#160;&#160;(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">noInterrupts</a>(); {<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">c</a>} <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">interrupts</a>();)</td></tr>
@@ -822,6 +824,23 @@ Variables</h2></td></tr>
 <li>Setting of CPU (?) CORE_* variables (e.g. CORE_AVR), that is used across codebase to distinguish CPU. </li>
 </ul>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae9a9d99f58f2d83b676163e0ce465f03" name="ae9a9d99f58f2d83b676163e0ce465f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a9d99f58f2d83b676163e0ce465f03">&#9670;&#160;</a></span>ATOMIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> ATOMIC</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_BLOCK</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">ATOMIC_RESTORESTATE</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3e09ac0af18390fe78383620b0793f33" name="a3e09ac0af18390fe78383620b0793f33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3e09ac0af18390fe78383620b0793f33">&#9670;&#160;</a></span>BIT_TIMER_10HZ</h2>
 
