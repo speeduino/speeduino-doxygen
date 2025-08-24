@@ -278,20 +278,19 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span><span class="comment">* CAN / Second serial</span></div>
 <div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span><span class="comment">*/</span></div>
 <div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span><span class="preprocessor">  #define USE_SERIAL3</span></div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span><span class="preprocessor">  #define secondarySerial_AVAILABLE</span></div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span><span class="preprocessor">  #define SECONDARY_SERIAL_T HardwareSerial</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>  </div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span><span class="preprocessor">  #include &lt;FlexCAN_T4.h&gt;</span></div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>  <span class="comment">/*</span></div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="comment">  //These are declared locally in comms_CAN now due to this issue: https://github.com/tonton81/FlexCAN_T4/issues/67</span></div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="comment">  extern FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="comment">  extern FlexCAN_T4&lt;CAN2, RX_SIZE_256, TX_SIZE_16&gt; Can1;</span></div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="comment">  extern FlexCAN_T4&lt;CAN3, RX_SIZE_256, TX_SIZE_16&gt; Can2;</span></div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="comment">  */</span></div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span><span class="preprocessor">  #define NATIVE_CAN_AVAILABLE </span><span class="comment">//Disable for now as it causes lockup </span></div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>  </div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY41_H</span></div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span><span class="preprocessor">  #define SECONDARY_SERIAL_T HardwareSerial</span></div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>  </div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span><span class="preprocessor">  #include &lt;FlexCAN_T4.h&gt;</span></div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>  <span class="comment">/*</span></div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span><span class="comment">  //These are declared locally in comms_CAN now due to this issue: https://github.com/tonton81/FlexCAN_T4/issues/67</span></div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span><span class="comment">  extern FlexCAN_T4&lt;CAN1, RX_SIZE_256, TX_SIZE_16&gt; Can0;</span></div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span><span class="comment">  extern FlexCAN_T4&lt;CAN2, RX_SIZE_256, TX_SIZE_16&gt; Can1;</span></div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span><span class="comment">  extern FlexCAN_T4&lt;CAN3, RX_SIZE_256, TX_SIZE_16&gt; Can2;</span></div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="comment">  */</span></div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span><span class="preprocessor">  #define NATIVE_CAN_AVAILABLE </span><span class="comment">//Disable for now as it causes lockup </span></div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>  </div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="preprocessor">#endif </span><span class="comment">//CORE_TEENSY</span></div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span><span class="preprocessor">#endif </span><span class="comment">//TEENSY41_H</span></div>
 <div class="ttc" id="agroup__group-opt-shift_html_gada522535b5b26abf6eb2c7da12c71454"><div class="ttname"><a href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">rshift</a></div><div class="ttdeci">static uint32_t rshift(uint32_t a)</div><div class="ttdoc">Bitwise right shift - generic, unoptimized, case.</div><div class="ttdef"><b>Definition</b> bit_shifts.h:348</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
