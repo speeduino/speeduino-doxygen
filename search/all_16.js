@@ -22,7 +22,7 @@ var searchData=
   ['list_19',['Todo List',['../todo.html',1,'']]],
   ['lnchctrltps_20',['lnchCtrlTPS',['../structconfig10.html#a7edb2f1c8927b87660b3ca711d6edd0f',1,'config10']]],
   ['lnchctrlvss_21',['lnchCtrlVss',['../structconfig10.html#ac5c0209a64383f81da2c3e1c21b25c51',1,'config10']]],
-  ['lnchfueladd_22',['lnchFuelAdd',['../structconfig6.html#a97caffa839d421ffe6ef0fda54daa76b',1,'config6']]],
+  ['lnchfueladd_22',['lnchFuelAdd',['../structconfig6.html#a8a021693910400683faf3db0ac05ff33',1,'config6']]],
   ['lnchhardlim_23',['lnchHardLim',['../structconfig6.html#a2ee3478ae8db7370b2516168ef47ae94',1,'config6']]],
   ['lnchpullres_24',['lnchPullRes',['../structconfig6.html#a489c77088196d54690cbe9cfa57d3162',1,'config6']]],
   ['lnchretard_25',['lnchRetard',['../structconfig6.html#ac9e9a4591d12ef7f1f030cfe06cbf504',1,'config6']]],

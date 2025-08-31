@@ -18,7 +18,7 @@ var searchData=
   ['legacymap_15',['legacyMAP',['../structconfig2.html#a766445aaa1318f3732ffe2232a7c8ef2',1,'config2']]],
   ['lnchctrltps_16',['lnchCtrlTPS',['../structconfig10.html#a7edb2f1c8927b87660b3ca711d6edd0f',1,'config10']]],
   ['lnchctrlvss_17',['lnchCtrlVss',['../structconfig10.html#ac5c0209a64383f81da2c3e1c21b25c51',1,'config10']]],
-  ['lnchfueladd_18',['lnchFuelAdd',['../structconfig6.html#a97caffa839d421ffe6ef0fda54daa76b',1,'config6']]],
+  ['lnchfueladd_18',['lnchFuelAdd',['../structconfig6.html#a8a021693910400683faf3db0ac05ff33',1,'config6']]],
   ['lnchhardlim_19',['lnchHardLim',['../structconfig6.html#a2ee3478ae8db7370b2516168ef47ae94',1,'config6']]],
   ['lnchpullres_20',['lnchPullRes',['../structconfig6.html#a489c77088196d54690cbe9cfa57d3162',1,'config6']]],
   ['lnchretard_21',['lnchRetard',['../structconfig6.html#ac9e9a4591d12ef7f1f030cfe06cbf504',1,'config6']]],
