@@ -1,7 +1,7 @@
 var searchData=
 [
   ['n2o_5farming_5fpin_0',['n2o_arming_pin',['../structconfig10.html#ad3687a56311203b7fd28dcc7a3a1b986',1,'config10']]],
-  ['n2o_5farming_5fpin_5fmask_1',['n2o_arming_pin_mask',['../auxiliaries_8cpp.html#a590bb6b47e5d17acb22b28b82d0451b2',1,'auxiliaries.cpp']]],
+  ['n2o_5farming_5fpin_5fmask_1',['n2o_arming_pin_mask',['../auxiliaries_8cpp.html#ac8fcfc966123826e6d798d718040c94c',1,'auxiliaries.cpp']]],
   ['n2o_5farming_5fpin_5fport_2',['n2o_arming_pin_port',['../auxiliaries_8cpp.html#a588ef54468fef94f052f20cafb3ec008',1,'auxiliaries.cpp']]],
   ['n2o_5fenable_3',['n2o_enable',['../structconfig10.html#acf6e38bb8245d5975438d26db1d87bcb',1,'config10']]],
   ['n2o_5fmaxafr_4',['n2o_maxAFR',['../structconfig10.html#a0c2189d62857f49e89f9729118e181a8',1,'config10']]],
@@ -14,7 +14,7 @@ var searchData=
   ['n2o_5fstage1_5fmaxrpm_11',['n2o_stage1_maxRPM',['../structconfig10.html#ad1b558cf91890dd449d2b7dab669aa0b',1,'config10']]],
   ['n2o_5fstage1_5fminrpm_12',['n2o_stage1_minRPM',['../structconfig10.html#aa34f375a418df1467495fc6a55adbe34',1,'config10']]],
   ['n2o_5fstage1_5fpin_13',['n2o_stage1_pin',['../structconfig10.html#ab9eb4c240d78f74eb846473d907c54d4',1,'config10']]],
-  ['n2o_5fstage1_5fpin_5fmask_14',['n2o_stage1_pin_mask',['../auxiliaries_8cpp.html#aaa5eef8cb7f79e6811f7360c0d4a6357',1,'auxiliaries.cpp']]],
+  ['n2o_5fstage1_5fpin_5fmask_14',['n2o_stage1_pin_mask',['../auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc',1,'auxiliaries.cpp']]],
   ['n2o_5fstage1_5fpin_5fport_15',['n2o_stage1_pin_port',['../auxiliaries_8cpp.html#a850ed1ba1eabb773ca5d0bd26a2cebfd',1,'auxiliaries.cpp']]],
   ['n2o_5fstage1_5fretard_16',['n2o_stage1_retard',['../structconfig10.html#a4af74d43fc8202c4cedffcdbb3f9da03',1,'config10']]],
   ['n2o_5fstage1_5funused_17',['n2o_stage1_unused',['../structconfig10.html#a7b61176e7ee7d935ce18f3caa5bd48f7',1,'config10']]],
@@ -23,7 +23,7 @@ var searchData=
   ['n2o_5fstage2_5fmaxrpm_20',['n2o_stage2_maxRPM',['../structconfig10.html#a720f7eb6e256badbc9aed70c64dd40fa',1,'config10']]],
   ['n2o_5fstage2_5fminrpm_21',['n2o_stage2_minRPM',['../structconfig10.html#adb23117ae2f998e7ef51705bda5028d3',1,'config10']]],
   ['n2o_5fstage2_5fpin_22',['n2o_stage2_pin',['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10']]],
-  ['n2o_5fstage2_5fpin_5fmask_23',['n2o_stage2_pin_mask',['../auxiliaries_8cpp.html#af6911e8a4bb9ce5f852c9ed80ea50cba',1,'auxiliaries.cpp']]],
+  ['n2o_5fstage2_5fpin_5fmask_23',['n2o_stage2_pin_mask',['../auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804',1,'auxiliaries.cpp']]],
   ['n2o_5fstage2_5fpin_5fport_24',['n2o_stage2_pin_port',['../auxiliaries_8cpp.html#a2db3b7f53f22fad712a120a32d40bb0d',1,'auxiliaries.cpp']]],
   ['n2o_5fstage2_5fretard_25',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_26',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],

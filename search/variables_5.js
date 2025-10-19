@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8cpp.html#a8e1fd727a9874e13d7859f53f4b8808c',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a8e1fd727a9874e13d7859f53f4b8808c',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
+  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a491e79b90614c014323b95340a16defa',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
   ['fan_5fpin_5fport_1',['fan_pin_port',['../auxiliaries_8cpp.html#a0e460308bdaead6454440df4c0119462',1,'fan_pin_port:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a0e460308bdaead6454440df4c0119462',1,'fan_pin_port:&#160;auxiliaries.cpp']]],
   ['fanduty_2',['fanDuty',['../structstatuses.html#aa2d511c0ac5258ca660edaef8bfd1f20',1,'statuses']]],
   ['fanenable_3',['fanEnable',['../structconfig2.html#a0ff71093243f3cb6341165d20c4592fd',1,'config2']]],
@@ -27,7 +27,7 @@ var searchData=
   ['flatshiftinghard_24',['flatShiftingHard',['../structstatuses.html#a2e43efd53f0ad250c31c15a43e741c3f',1,'statuses']]],
   ['flatsretard_25',['flatSRetard',['../structconfig6.html#acef5e5edd2a1fcda8692189c020dc70a',1,'config6']]],
   ['flatssoftwin_26',['flatSSoftWin',['../structconfig6.html#ab929ebc82c9fe2723316abe9ff3bb8a3',1,'config6']]],
-  ['flex_5fpin_5fmask_27',['flex_pin_mask',['../globals_8h.html#a32e0b8f1887a81a87f8dc1442b6b2b0d',1,'flex_pin_mask:&#160;globals.cpp'],['../globals_8cpp.html#a32e0b8f1887a81a87f8dc1442b6b2b0d',1,'flex_pin_mask:&#160;globals.cpp']]],
+  ['flex_5fpin_5fmask_27',['flex_pin_mask',['../globals_8h.html#a000cf02d5109407db432778ff732b5b5',1,'flex_pin_mask:&#160;globals.cpp'],['../globals_8cpp.html#a000cf02d5109407db432778ff732b5b5',1,'flex_pin_mask:&#160;globals.cpp']]],
   ['flex_5fpin_5fport_28',['flex_pin_port',['../globals_8cpp.html#a2202540afbc4b78522371be5b77ea296',1,'flex_pin_port:&#160;globals.cpp'],['../globals_8h.html#a2202540afbc4b78522371be5b77ea296',1,'flex_pin_port:&#160;globals.cpp']]],
   ['flexadvadj_29',['flexAdvAdj',['../structconfig10.html#a5b6fff0a915b380d13e160b85d57637d',1,'config10']]],
   ['flexadvbins_30',['flexAdvBins',['../structconfig10.html#a62a72f167a73cacc7a790beb620a22d2',1,'config10']]],
