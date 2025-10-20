@@ -83,6 +83,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;BOARD_H&gt;</code><br />
 <code>#include &lt;SimplyAtomic.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="port__pin_8h_source.html">port_pin.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -112,41 +113,41 @@ Macros</h2></td></tr>
 <tr class="separator:af836c2282a1aa7edbae3cef8ae432bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e97860f92291f8439b060e35c82a417" id="r_a7e97860f92291f8439b060e35c82a417"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7e97860f92291f8439b060e35c82a417">SIMPLE_BOOST_D</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a7e97860f92291f8439b060e35c82a417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79525827fea86f89b88f822a8d97349b" id="r_a79525827fea86f89b88f822a8d97349b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a79525827fea86f89b88f822a8d97349b">BOOST_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>); }</td></tr>
+<tr class="memitem:a79525827fea86f89b88f822a8d97349b" id="r_a79525827fea86f89b88f822a8d97349b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a79525827fea86f89b88f822a8d97349b">BOOST_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#af048469604683f3ed3f22f71894aa92a">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>); }</td></tr>
 <tr class="separator:a79525827fea86f89b88f822a8d97349b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a6862c54b02337874d3af744eddde8a" id="r_a0a6862c54b02337874d3af744eddde8a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0a6862c54b02337874d3af744eddde8a">BOOST_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>);  }</td></tr>
+<tr class="memitem:a0a6862c54b02337874d3af744eddde8a" id="r_a0a6862c54b02337874d3af744eddde8a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0a6862c54b02337874d3af744eddde8a">BOOST_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#af048469604683f3ed3f22f71894aa92a">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>);  }</td></tr>
 <tr class="separator:a0a6862c54b02337874d3af744eddde8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd387733b633ed6e8a3836f06a6edc5" id="r_a7cd387733b633ed6e8a3836f06a6edc5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9b931b3fec5908a05de0c22fa38fa1b2">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);   }</td></tr>
+<tr class="memitem:a7cd387733b633ed6e8a3836f06a6edc5" id="r_a7cd387733b633ed6e8a3836f06a6edc5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae12acba42756d5dc93013fb8ce4c5642">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);   }</td></tr>
 <tr class="separator:a7cd387733b633ed6e8a3836f06a6edc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84593c8201d36c38c8a3acde758e8d65" id="r_a84593c8201d36c38c8a3acde758e8d65"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9b931b3fec5908a05de0c22fa38fa1b2">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);    }</td></tr>
+<tr class="memitem:a84593c8201d36c38c8a3acde758e8d65" id="r_a84593c8201d36c38c8a3acde758e8d65"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae12acba42756d5dc93013fb8ce4c5642">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);    }</td></tr>
 <tr class="separator:a84593c8201d36c38c8a3acde758e8d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ee49347ad040c1ca90973604c66010" id="r_aa8ee49347ad040c1ca90973604c66010"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa8ee49347ad040c1ca90973604c66010">VVT2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);   }</td></tr>
+<tr class="memitem:aa8ee49347ad040c1ca90973604c66010" id="r_aa8ee49347ad040c1ca90973604c66010"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa8ee49347ad040c1ca90973604c66010">VVT2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7cd7a0435eaf20927f705b003334b01e">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);   }</td></tr>
 <tr class="separator:aa8ee49347ad040c1ca90973604c66010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b598e2879e2664d728dc760bbcbbb1" id="r_a44b598e2879e2664d728dc760bbcbbb1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);    }</td></tr>
+<tr class="memitem:a44b598e2879e2664d728dc760bbcbbb1" id="r_a44b598e2879e2664d728dc760bbcbbb1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7cd7a0435eaf20927f705b003334b01e">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);    }</td></tr>
 <tr class="separator:a44b598e2879e2664d728dc760bbcbbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac195731d91c8081203bc631c00e680" id="r_abac195731d91c8081203bc631c00e680"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abac195731d91c8081203bc631c00e680">N2O_STAGE1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a850ed1ba1eabb773ca5d0bd26a2cebfd">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);  }</td></tr>
+<tr class="memitem:abac195731d91c8081203bc631c00e680" id="r_abac195731d91c8081203bc631c00e680"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abac195731d91c8081203bc631c00e680">N2O_STAGE1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a078d4634b2f0f939c6821bc425f09caf">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);  }</td></tr>
 <tr class="separator:abac195731d91c8081203bc631c00e680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcd434b22b5dda07854165ae1f111e3f" id="r_abcd434b22b5dda07854165ae1f111e3f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abcd434b22b5dda07854165ae1f111e3f">N2O_STAGE1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a850ed1ba1eabb773ca5d0bd26a2cebfd">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);   }</td></tr>
+<tr class="memitem:abcd434b22b5dda07854165ae1f111e3f" id="r_abcd434b22b5dda07854165ae1f111e3f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abcd434b22b5dda07854165ae1f111e3f">N2O_STAGE1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a078d4634b2f0f939c6821bc425f09caf">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);   }</td></tr>
 <tr class="separator:abcd434b22b5dda07854165ae1f111e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa70c9c52509bedbe1385830810e1fc15" id="r_aa70c9c52509bedbe1385830810e1fc15"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa70c9c52509bedbe1385830810e1fc15">N2O_STAGE2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a2db3b7f53f22fad712a120a32d40bb0d">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);  }</td></tr>
+<tr class="memitem:aa70c9c52509bedbe1385830810e1fc15" id="r_aa70c9c52509bedbe1385830810e1fc15"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa70c9c52509bedbe1385830810e1fc15">N2O_STAGE2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a71e300e74d5ba41911dd1696d487f363">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);  }</td></tr>
 <tr class="separator:aa70c9c52509bedbe1385830810e1fc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32a9c226eea4c1504663f277e33843c" id="r_ad32a9c226eea4c1504663f277e33843c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad32a9c226eea4c1504663f277e33843c">N2O_STAGE2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a2db3b7f53f22fad712a120a32d40bb0d">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);   }</td></tr>
+<tr class="memitem:ad32a9c226eea4c1504663f277e33843c" id="r_ad32a9c226eea4c1504663f277e33843c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad32a9c226eea4c1504663f277e33843c">N2O_STAGE2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a71e300e74d5ba41911dd1696d487f363">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);   }</td></tr>
 <tr class="separator:ad32a9c226eea4c1504663f277e33843c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f016ed83860c0188fab78d655997b6f" id="r_a3f016ed83860c0188fab78d655997b6f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f">FUEL_PUMP_ON</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a730fa811a051e2caa1d108493467bd7a">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);     }</td></tr>
+<tr class="memitem:a3f016ed83860c0188fab78d655997b6f" id="r_a3f016ed83860c0188fab78d655997b6f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f">FUEL_PUMP_ON</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a38d6e52ee5470a75ec5f716147bdd9dd">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);     }</td></tr>
 <tr class="separator:a3f016ed83860c0188fab78d655997b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aa02de5f4812b05badb756031ef9423" id="r_a0aa02de5f4812b05badb756031ef9423"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0aa02de5f4812b05badb756031ef9423">FUEL_PUMP_OFF</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a730fa811a051e2caa1d108493467bd7a">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);    }</td></tr>
+<tr class="memitem:a0aa02de5f4812b05badb756031ef9423" id="r_a0aa02de5f4812b05badb756031ef9423"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0aa02de5f4812b05badb756031ef9423">FUEL_PUMP_OFF</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a38d6e52ee5470a75ec5f716147bdd9dd">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);    }</td></tr>
 <tr class="separator:a0aa02de5f4812b05badb756031ef9423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6c6014d5b89fa6a7df5608ae9ef71b0" id="r_ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td></tr>
+<tr class="memitem:ae6c6014d5b89fa6a7df5608ae9ef71b0" id="r_ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#acf73959302fbc46e593007799ac4ad56">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td></tr>
 <tr class="separator:ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dddab3a7a6c1887e7d71f76a8ce641f" id="r_a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td></tr>
+<tr class="memitem:a6dddab3a7a6c1887e7d71f76a8ce641f" id="r_a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#acf73959302fbc46e593007799ac4ad56">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td></tr>
 <tr class="separator:a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a047ddda83ce9c47e85d516b16e67b1d3" id="r_a047ddda83ce9c47e85d516b16e67b1d3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td></tr>
+<tr class="memitem:a047ddda83ce9c47e85d516b16e67b1d3" id="r_a047ddda83ce9c47e85d516b16e67b1d3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a796b408905cdc194b8b0e0fc4181d6f6">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td></tr>
 <tr class="separator:a047ddda83ce9c47e85d516b16e67b1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac432aa21204f7c29b055fece01170f2c" id="r_ac432aa21204f7c29b055fece01170f2c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td></tr>
+<tr class="memitem:ac432aa21204f7c29b055fece01170f2c" id="r_ac432aa21204f7c29b055fece01170f2c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a796b408905cdc194b8b0e0fc4181d6f6">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td></tr>
 <tr class="separator:ac432aa21204f7c29b055fece01170f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af56d1a3ffff4354fbb52be5175f03cfa" id="r_af56d1a3ffff4354fbb52be5175f03cfa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td></tr>
+<tr class="memitem:af56d1a3ffff4354fbb52be5175f03cfa" id="r_af56d1a3ffff4354fbb52be5175f03cfa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a5ae66c68e2838fe9bbd248f6eeb03ea3">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td></tr>
 <tr class="separator:af56d1a3ffff4354fbb52be5175f03cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbab5e1d1d303c399113aa86e06c391e" id="r_afbab5e1d1d303c399113aa86e06c391e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td></tr>
+<tr class="memitem:afbab5e1d1d303c399113aa86e06c391e" id="r_afbab5e1d1d303c399113aa86e06c391e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a5ae66c68e2838fe9bbd248f6eeb03ea3">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td></tr>
 <tr class="separator:afbab5e1d1d303c399113aa86e06c391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5110a271a05002e0b85fde85c36917f" id="r_ab5110a271a05002e0b85fde85c36917f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f">AIRCON_ON</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { ((((configPage15.airConCompPol)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); <a class="el" href="bit__manip_8h.html#a71b71595cbacd7eb8643dbde70db816a">BIT_SET</a>(currentStatus.airConStatus, <a class="el" href="statuses_8h.html#aeead2f88f6be052f0f6c60a1ded437c3">BIT_AIRCON_COMPRESSOR</a>); }</td></tr>
 <tr class="separator:ab5110a271a05002e0b85fde85c36917f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,7 +161,7 @@ Macros</h2></td></tr>
 <tr class="separator:ab55b7b24ff068319d2661b3e223f8efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aa0f0bf8f39de92f6b85b9976fbfbef" id="r_a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef">FAN_OFF</a>()&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { ((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()); }</td></tr>
 <tr class="separator:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa319e9011ba23adbaec669b487182a22" id="r_aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a588ef54468fef94f052f20cafb3ec008">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#ac8fcfc966123826e6d798d718040c94c">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">true</a> : <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">false</a>)</td></tr>
+<tr class="memitem:aa319e9011ba23adbaec669b487182a22" id="r_aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a33d6486e04213858b1703ed5a7d9785c">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#ac8fcfc966123826e6d798d718040c94c">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">true</a> : <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">false</a>)</td></tr>
 <tr class="separator:aa319e9011ba23adbaec669b487182a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a459995728bbdd82cbf5bfcc2ef849b" id="r_a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9a459995728bbdd82cbf5bfcc2ef849b">VVT1_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>();</td></tr>
 <tr class="separator:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,17 +209,17 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9b931b3fec5908a05de0c22fa38fa1b2" id="r_a9b931b3fec5908a05de0c22fa38fa1b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9b931b3fec5908a05de0c22fa38fa1b2">vvt1_pin_port</a></td></tr>
-<tr class="separator:a9b931b3fec5908a05de0c22fa38fa1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a677d803c0375ea0ffaf5564c7aba9044" id="r_a677d803c0375ea0ffaf5564c7aba9044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a></td></tr>
+<tr class="memitem:ae12acba42756d5dc93013fb8ce4c5642" id="r_ae12acba42756d5dc93013fb8ce4c5642"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae12acba42756d5dc93013fb8ce4c5642">vvt1_pin_port</a></td></tr>
+<tr class="separator:ae12acba42756d5dc93013fb8ce4c5642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a677d803c0375ea0ffaf5564c7aba9044" id="r_a677d803c0375ea0ffaf5564c7aba9044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a></td></tr>
 <tr class="separator:a677d803c0375ea0ffaf5564c7aba9044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dcac9469e482f55ae649a6454519520" id="r_a5dcac9469e482f55ae649a6454519520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a></td></tr>
-<tr class="separator:a5dcac9469e482f55ae649a6454519520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af044b97b2c6b5d1deaf701f6f0890b36" id="r_af044b97b2c6b5d1deaf701f6f0890b36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a></td></tr>
+<tr class="memitem:a7cd7a0435eaf20927f705b003334b01e" id="r_a7cd7a0435eaf20927f705b003334b01e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7cd7a0435eaf20927f705b003334b01e">vvt2_pin_port</a></td></tr>
+<tr class="separator:a7cd7a0435eaf20927f705b003334b01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af044b97b2c6b5d1deaf701f6f0890b36" id="r_af044b97b2c6b5d1deaf701f6f0890b36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a></td></tr>
 <tr class="separator:af044b97b2c6b5d1deaf701f6f0890b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e460308bdaead6454440df4c0119462" id="r_a0e460308bdaead6454440df4c0119462"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a></td></tr>
-<tr class="separator:a0e460308bdaead6454440df4c0119462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a491e79b90614c014323b95340a16defa" id="r_a491e79b90614c014323b95340a16defa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a></td></tr>
+<tr class="memitem:acf73959302fbc46e593007799ac4ad56" id="r_acf73959302fbc46e593007799ac4ad56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#acf73959302fbc46e593007799ac4ad56">fan_pin_port</a></td></tr>
+<tr class="separator:acf73959302fbc46e593007799ac4ad56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491e79b90614c014323b95340a16defa" id="r_a491e79b90614c014323b95340a16defa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a></td></tr>
 <tr class="separator:a491e79b90614c014323b95340a16defa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f486b7f70d846017890618c3a046e2a" id="r_a3f486b7f70d846017890618c3a046e2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3f486b7f70d846017890618c3a046e2a">vvt_pwm_max_count</a></td></tr>
 <tr class="separator:a3f486b7f70d846017890618c3a046e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -270,7 +271,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> AIRCON_FAN_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a5ae66c68e2838fe9bbd248f6eeb03ea3">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -287,7 +288,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> AIRCON_FAN_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#ad405dd7541bc29bc9fe32911fa625811">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a5ae66c68e2838fe9bbd248f6eeb03ea3">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af243ddcabb8931c0e17ee0d75b7a2da6">aircon_fan_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -338,7 +339,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> AIRCON_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a796b408905cdc194b8b0e0fc4181d6f6">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,7 +356,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> AIRCON_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a693b1bb034492a2442f76c8ae465104e">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a796b408905cdc194b8b0e0fc4181d6f6">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a2d3ce350d48bfdb8e88781784e9f3531">aircon_comp_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -372,7 +373,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> BOOST_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>);  }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#af048469604683f3ed3f22f71894aa92a">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>);  }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -389,7 +390,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> BOOST_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>); }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#af048469604683f3ed3f22f71894aa92a">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61">boost_pin_mask</a>); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -440,7 +441,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> FAN_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#acf73959302fbc46e593007799ac4ad56">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -457,7 +458,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> FAN_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a0e460308bdaead6454440df4c0119462">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td>
+          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#acf73959302fbc46e593007799ac4ad56">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa">fan_pin_mask</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -474,7 +475,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> FUEL_PUMP_OFF</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a730fa811a051e2caa1d108493467bd7a">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);    }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a38d6e52ee5470a75ec5f716147bdd9dd">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);    }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -491,7 +492,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> FUEL_PUMP_ON</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a730fa811a051e2caa1d108493467bd7a">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);     }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a38d6e52ee5470a75ec5f716147bdd9dd">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#ab28e96eb2727f6b3163c8d99e7940ea1">pump_pin_mask</a>);     }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -508,7 +509,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> N2O_STAGE1_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a850ed1ba1eabb773ca5d0bd26a2cebfd">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);   }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a078d4634b2f0f939c6821bc425f09caf">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);   }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -525,7 +526,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> N2O_STAGE1_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a850ed1ba1eabb773ca5d0bd26a2cebfd">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);  }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a078d4634b2f0f939c6821bc425f09caf">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a22e18d141690602cbde9a0a40cf35bcc">n2o_stage1_pin_mask</a>);  }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -542,7 +543,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> N2O_STAGE2_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a2db3b7f53f22fad712a120a32d40bb0d">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);   }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a71e300e74d5ba41911dd1696d487f363">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);   }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -559,7 +560,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> N2O_STAGE2_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a2db3b7f53f22fad712a120a32d40bb0d">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);  }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a71e300e74d5ba41911dd1696d487f363">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a451ff54e026b5717930a664488cea804">n2o_stage2_pin_mask</a>);  }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -576,7 +577,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> READ_N2O_ARM_PIN</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a588ef54468fef94f052f20cafb3ec008">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#ac8fcfc966123826e6d798d718040c94c">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">true</a> : <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">false</a>)</td>
+          <td>&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a33d6486e04213858b1703ed5a7d9785c">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#ac8fcfc966123826e6d798d718040c94c">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">true</a> : <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">false</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -635,7 +636,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> VVT1_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9b931b3fec5908a05de0c22fa38fa1b2">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);    }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae12acba42756d5dc93013fb8ce4c5642">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);    }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -652,7 +653,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> VVT1_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9b931b3fec5908a05de0c22fa38fa1b2">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);   }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae12acba42756d5dc93013fb8ce4c5642">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a677d803c0375ea0ffaf5564c7aba9044">vvt1_pin_mask</a>);   }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -703,7 +704,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> VVT2_PIN_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);    }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7cd7a0435eaf20927f705b003334b01e">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);    }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -720,7 +721,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> VVT2_PIN_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a5dcac9469e482f55ae649a6454519520">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);   }</td>
+          <td>&#160;&#160;&#160;<a class="el" href="globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7cd7a0435eaf20927f705b003334b01e">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#af044b97b2c6b5d1deaf701f6f0890b36">vvt2_pin_mask</a>);   }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1477,7 +1478,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a> fan_pin_mask</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a> fan_pin_mask</td>
         </tr>
       </table>
   </td>
@@ -1489,8 +1490,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a0e460308bdaead6454440df4c0119462" name="a0e460308bdaead6454440df4c0119462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e460308bdaead6454440df4c0119462">&#9670;&#160;</a></span>fan_pin_port</h2>
+<a id="acf73959302fbc46e593007799ac4ad56" name="acf73959302fbc46e593007799ac4ad56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf73959302fbc46e593007799ac4ad56">&#9670;&#160;</a></span>fan_pin_port</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1499,7 +1500,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a>* fan_pin_port</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a> fan_pin_port</td>
         </tr>
       </table>
   </td>
@@ -1521,7 +1522,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a> vvt1_pin_mask</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a> vvt1_pin_mask</td>
         </tr>
       </table>
   </td>
@@ -1533,8 +1534,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a9b931b3fec5908a05de0c22fa38fa1b2" name="a9b931b3fec5908a05de0c22fa38fa1b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b931b3fec5908a05de0c22fa38fa1b2">&#9670;&#160;</a></span>vvt1_pin_port</h2>
+<a id="ae12acba42756d5dc93013fb8ce4c5642" name="ae12acba42756d5dc93013fb8ce4c5642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae12acba42756d5dc93013fb8ce4c5642">&#9670;&#160;</a></span>vvt1_pin_port</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1543,7 +1544,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a>* vvt1_pin_port</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a> vvt1_pin_port</td>
         </tr>
       </table>
   </td>
@@ -1565,7 +1566,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PINMASK_TYPE</a> vvt2_pin_mask</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a6228f64f98216609e05263405515a81c">PINMASK_TYPE</a> vvt2_pin_mask</td>
         </tr>
       </table>
   </td>
@@ -1577,8 +1578,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a5dcac9469e482f55ae649a6454519520" name="a5dcac9469e482f55ae649a6454519520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dcac9469e482f55ae649a6454519520">&#9670;&#160;</a></span>vvt2_pin_port</h2>
+<a id="a7cd7a0435eaf20927f705b003334b01e" name="a7cd7a0435eaf20927f705b003334b01e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cd7a0435eaf20927f705b003334b01e">&#9670;&#160;</a></span>vvt2_pin_port</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1587,7 +1588,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">volatile</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PORT_TYPE</a>* vvt2_pin_port</td>
+          <td class="memname"><a class="el" href="port__pin_8h.html#a0336de1be42c1b180567b03fec63aa0b">PORT_TYPE</a> vvt2_pin_port</td>
         </tr>
       </table>
   </td>

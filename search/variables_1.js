@@ -15,7 +15,7 @@ var searchData=
   ['bitwise_12',['bitwise',['../structcmp_operation.html#af5e6b00b1107a09c804812af74a75e63',1,'cmpOperation']]],
   ['blankfield_13',['blankField',['../structconfig9.html#a7d8491ff93c29f999c6739ad40baed2c',1,'config9']]],
   ['boost_5fpin_5fmask_14',['boost_pin_mask',['../auxiliaries_8cpp.html#a95d112a77ec36cb537baa8496cbbfd61',1,'auxiliaries.cpp']]],
-  ['boost_5fpin_5fport_15',['boost_pin_port',['../auxiliaries_8cpp.html#ad47f76516a0fb0249bae4e1c8ff76678',1,'auxiliaries.cpp']]],
+  ['boost_5fpin_5fport_15',['boost_pin_port',['../auxiliaries_8cpp.html#af048469604683f3ed3f22f71894aa92a',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fcur_5fvalue_16',['boost_pwm_cur_value',['../auxiliaries_8cpp.html#a561e4c2b29e72e06c0e86b5bea0eaae4',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fmax_5fcount_17',['boost_pwm_max_count',['../auxiliaries_8cpp.html#ac4a9fd24e32f7d18447906fb4a8f3857',1,'boost_pwm_max_count:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#ac4a9fd24e32f7d18447906fb4a8f3857',1,'boost_pwm_max_count:&#160;auxiliaries.cpp']]],
   ['boost_5fpwm_5fstate_18',['boost_pwm_state',['../auxiliaries_8cpp.html#a890f54cc385e3554e1e9ae3962cfa1aa',1,'auxiliaries.cpp']]],
