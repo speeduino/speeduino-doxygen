@@ -18,9 +18,8 @@ var searchData=
   ['pp_5finc_5fi_15',['PP_INC_I',['../utilities_8h.html#a19c89280e7b8096a5dcf11869dee2ef3',1,'utilities.h']]],
   ['primaryserial_16',['primarySerial',['../comms_8h.html#a8f22d4abe44d2b7d78b2056f3fdb0778',1,'comms.h']]],
   ['progoutspage_17',['progOutsPage',['../pages_8h.html#ad8c831178aad78b1308d2df78971c8d2',1,'pages.h']]],
-  ['protect_5fcut_5fboth_18',['protect_cut_both',['../config__pages_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'PROTECT_CUT_BOTH:&#160;config_pages.h'],['../config__pages_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'PROTECT_CUT_BOTH:&#160;config_pages.h']]],
-  ['protect_5fcut_5ffuel_19',['protect_cut_fuel',['../config__pages_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'PROTECT_CUT_FUEL:&#160;config_pages.h'],['../config__pages_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'PROTECT_CUT_FUEL:&#160;config_pages.h']]],
-  ['protect_5fcut_5fign_20',['protect_cut_ign',['../config__pages_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'PROTECT_CUT_IGN:&#160;config_pages.h'],['../config__pages_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'PROTECT_CUT_IGN:&#160;config_pages.h']]],
-  ['protect_5fcut_5foff_21',['protect_cut_off',['../config__pages_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'PROTECT_CUT_OFF:&#160;config_pages.h'],['../config__pages_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'PROTECT_CUT_OFF:&#160;config_pages.h']]],
-  ['protect_5fio_5ferror_22',['protect_io_error',['../config__pages_8h.html#a72c2a852d9f69f1ac163350fcf0b2401',1,'PROTECT_IO_ERROR:&#160;config_pages.h'],['../config__pages_8h.html#a72c2a852d9f69f1ac163350fcf0b2401',1,'PROTECT_IO_ERROR:&#160;config_pages.h']]]
+  ['protect_5fcut_5fboth_18',['PROTECT_CUT_BOTH',['../config__pages_8h.html#a08d9375b6abfab9c5a4086e4b22ac01e',1,'config_pages.h']]],
+  ['protect_5fcut_5ffuel_19',['PROTECT_CUT_FUEL',['../config__pages_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'config_pages.h']]],
+  ['protect_5fcut_5fign_20',['PROTECT_CUT_IGN',['../config__pages_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'config_pages.h']]],
+  ['protect_5fcut_5foff_21',['PROTECT_CUT_OFF',['../config__pages_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'config_pages.h']]]
 ];

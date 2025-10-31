@@ -39,12 +39,13 @@ var searchData=
   ['iscranking_36',['IsCranking',['../group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664',1,'decoders.cpp']]],
   ['iscyclecurrent_37',['iscyclecurrent',['../sensors_8cpp.html#a09ff8621aeda8c803c3fc3100de84768',1,'isCycleCurrent(const statuses &amp;current, uint32_t cycleStartIndex):&#160;sensors.cpp'],['../sensors_8cpp.html#ad8a04fc29ef018a42107f573b2932d59',1,'isCycleCurrent(const statuses &amp;current, const map_cycle_average_t &amp;cycle_avg):&#160;sensors.cpp'],['../sensors_8cpp.html#afc1d32c94daef6ae8b5a9a540349aa0a',1,'isCycleCurrent(const statuses &amp;current, const map_cycle_min_t &amp;cycle_min):&#160;sensors.cpp']]],
   ['iseepromwritepending_38',['iseepromwritepending',['../storage_8cpp.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp'],['../storage_8h.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp']]],
-  ['isfixedtimingon_39',['isFixedTimingOn',['../secondary_tables_8cpp.html#a6ce11b2aba71a5234998bae974e0752f',1,'secondaryTables.cpp']]],
-  ['isignitioneventcurrent_40',['isIgnitionEventCurrent',['../sensors_8cpp.html#a7d1a41413911169f7dc10e587fe3b1e3',1,'sensors.cpp']]],
-  ['isignitioneventvalid_41',['isIgnitionEventValid',['../sensors_8cpp.html#ac960ee62c5e57b59055b387712d92e7e',1,'sensors.cpp']]],
-  ['ismap_42',['isMap',['../comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237',1,'comms_legacy.cpp']]],
-  ['isrxtimeout_43',['isrxtimeout',['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp'],['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp']]],
-  ['isstepperhomed_44',['isStepperHomed',['../idle_8cpp.html#a359806eb74e59672bf88009f37191216',1,'idle.cpp']]],
-  ['isvalidbaro_45',['isValidBaro',['../sensors_8cpp.html#a8beb41cd2b2314b35527fc85fcb5d739',1,'sensors.cpp']]],
-  ['isvalidmapsensorreading_46',['isValidMapSensorReading',['../sensors_8cpp.html#a0b651192b393a1c53fe7d92d9442412f',1,'sensors.cpp']]]
+  ['isengineprotectactive_39',['isEngineProtectActive',['../statuses_8h.html#a118f8e02006a5b6d52cd78f9f0c2ef53',1,'statuses.h']]],
+  ['isfixedtimingon_40',['isFixedTimingOn',['../secondary_tables_8cpp.html#a6ce11b2aba71a5234998bae974e0752f',1,'secondaryTables.cpp']]],
+  ['isignitioneventcurrent_41',['isIgnitionEventCurrent',['../sensors_8cpp.html#a7d1a41413911169f7dc10e587fe3b1e3',1,'sensors.cpp']]],
+  ['isignitioneventvalid_42',['isIgnitionEventValid',['../sensors_8cpp.html#ac960ee62c5e57b59055b387712d92e7e',1,'sensors.cpp']]],
+  ['ismap_43',['isMap',['../comms__legacy_8cpp.html#a1e1ac36822eb4d4096a71dc502a54237',1,'comms_legacy.cpp']]],
+  ['isrxtimeout_44',['isrxtimeout',['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp'],['../group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92',1,'isRxTimeout(void):&#160;comms.cpp']]],
+  ['isstepperhomed_45',['isStepperHomed',['../idle_8cpp.html#a359806eb74e59672bf88009f37191216',1,'idle.cpp']]],
+  ['isvalidbaro_46',['isValidBaro',['../sensors_8cpp.html#a8beb41cd2b2314b35527fc85fcb5d739',1,'sensors.cpp']]],
+  ['isvalidmapsensorreading_47',['isValidMapSensorReading',['../sensors_8cpp.html#a0b651192b393a1c53fe7d92d9442412f',1,'sensors.cpp']]]
 ];

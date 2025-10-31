@@ -49,5 +49,6 @@ var searchData=
   ['boosttablelookupduty_46',['boosttablelookupduty',['../globals_8cpp.html#ae0e05cc0c558c00ccc059ad3af5a9ed9',1,'boostTableLookupDuty:&#160;globals.cpp'],['../globals_8h.html#ae0e05cc0c558c00ccc059ad3af5a9ed9',1,'boostTableLookupDuty:&#160;globals.cpp']]],
   ['boosttarget_47',['boostTarget',['../structstatuses.html#a6905ad52e3e59bfa80680a1c288791d7',1,'statuses']]],
   ['boosttype_48',['boostType',['../structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016',1,'config4']]],
-  ['bootloadercaps_49',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4']]]
+  ['bootloadercaps_49',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4']]],
+  ['burnpending_50',['burnPending',['../structstatuses.html#a39982ad8d048f2e11c8d937227d808c1',1,'statuses']]]
 ];

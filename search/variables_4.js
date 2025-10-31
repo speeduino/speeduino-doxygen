@@ -33,10 +33,16 @@ var searchData=
   ['enable_5fsecondaryserial_30',['enable_secondarySerial',['../structconfig9.html#a216f8259e9ee1eb447329bcee29e657f',1,'config9']]],
   ['endcompare_31',['endCompare',['../struct_ignition_schedule.html#aeb2e53e7e205d19078ac720caa4fda3a',1,'IgnitionSchedule']]],
   ['endschedulesetbydecoder_32',['endScheduleSetByDecoder',['../struct_ignition_schedule.html#afea244a788ce69959db3b22ea7751f0b',1,'IgnitionSchedule']]],
-  ['engine_33',['engine',['../structstatuses.html#a5266a02a28bada716fb56acac78f7b8a',1,'statuses']]],
-  ['engineprotectmaxrpm_34',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4']]],
-  ['engineprotectstatus_35',['engineProtectStatus',['../structstatuses.html#aeb7008eff0ce97393a0edf2bdc639d34',1,'statuses']]],
-  ['engineprotecttype_36',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6']]],
-  ['enginetype_37',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2']]],
-  ['ethanolpct_38',['ethanolPct',['../structstatuses.html#aea9edff465617a0fdb909aa596e89b7f',1,'statuses']]]
+  ['engineiscranking_33',['engineIsCranking',['../structstatuses.html#a606361a6fe795b4973db7e337658855e',1,'statuses']]],
+  ['engineisrunning_34',['engineIsRunning',['../structstatuses.html#a2c0fb2e3ba0c9b1e650b6a5e994c59db',1,'statuses']]],
+  ['engineprotectafr_35',['engineProtectAfr',['../structstatuses.html#a8b273b93be227d04fb150a7f596d83ce',1,'statuses']]],
+  ['engineprotectboostcut_36',['engineProtectBoostCut',['../structstatuses.html#ad2e37ca469ab57111dcbfbb4aa301da2',1,'statuses']]],
+  ['engineprotectclt_37',['engineProtectClt',['../structstatuses.html#a09e753a7d18a5794904c4cd53edfb387',1,'statuses']]],
+  ['engineprotectioerror_38',['engineProtectIoError',['../structstatuses.html#a2fb4f9156147da3c8b0c12cb436b8313',1,'statuses']]],
+  ['engineprotectmaxrpm_39',['engineProtectMaxRPM',['../structconfig4.html#a15915e055b03b29d8b64b28e79fa6361',1,'config4']]],
+  ['engineprotectoil_40',['engineProtectOil',['../structstatuses.html#aac46e47c9d9d8e262592b5dfb65af84f',1,'statuses']]],
+  ['engineprotectrpm_41',['engineProtectRpm',['../structstatuses.html#a0d53f153bd2ee26b99f0468b80eae6d5',1,'statuses']]],
+  ['engineprotecttype_42',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6']]],
+  ['enginetype_43',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2']]],
+  ['ethanolpct_44',['ethanolPct',['../structstatuses.html#aea9edff465617a0fdb909aa596e89b7f',1,'statuses']]]
 ];

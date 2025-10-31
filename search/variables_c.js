@@ -27,12 +27,13 @@ var searchData=
   ['n2o_5fstage2_5fpin_5fport_24',['n2o_stage2_pin_port',['../auxiliaries_8cpp.html#a71e300e74d5ba41911dd1696d487f363',1,'auxiliaries.cpp']]],
   ['n2o_5fstage2_5fretard_25',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_26',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
-  ['nchannels_27',['nChannels',['../structstatuses.html#ab1de521ecc78ae591f89cac3b33bf8bd',1,'statuses']]],
-  ['ncylinders_28',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
-  ['nextendcompare_29',['nextEndCompare',['../struct_ignition_schedule.html#abf49fb6ce78d22866512f37ce3ecf49d',1,'IgnitionSchedule']]],
-  ['nextstartcompare_30',['nextstartcompare',['../struct_ignition_schedule.html#a42061bfc7de6f444eb124d9d252de60d',1,'IgnitionSchedule::nextStartCompare'],['../struct_fuel_schedule.html#a4b7a91e9d3d92134aea42e80bdde0138',1,'FuelSchedule::nextStartCompare']]],
-  ['nextvvt_31',['nextVVT',['../auxiliaries_8cpp.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.cpp']]],
-  ['ninjectors_32',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
-  ['nitrous_5fstatus_33',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['nsquirts_34',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
+  ['ncylinders_27',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
+  ['nextendcompare_28',['nextEndCompare',['../struct_ignition_schedule.html#abf49fb6ce78d22866512f37ce3ecf49d',1,'IgnitionSchedule']]],
+  ['nextstartcompare_29',['nextstartcompare',['../struct_ignition_schedule.html#a42061bfc7de6f444eb124d9d252de60d',1,'IgnitionSchedule::nextStartCompare'],['../struct_fuel_schedule.html#a4b7a91e9d3d92134aea42e80bdde0138',1,'FuelSchedule::nextStartCompare']]],
+  ['nextvvt_30',['nextVVT',['../auxiliaries_8cpp.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.cpp']]],
+  ['ninjectors_31',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
+  ['nitrous_5fstatus_32',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
+  ['nitrousactive_33',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
+  ['nsquirts_34',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
+  ['nsquirtsstatus_35',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]]
 ];
