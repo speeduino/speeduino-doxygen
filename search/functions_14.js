@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['validatefiltermapsensorreading_0',['validateFilterMapSensorReading',['../sensors_8cpp.html#a5432a3d5ff46bb43cd5dba72fa16dade',1,'sensors.cpp']]],
-  ['vssgetpulsegap_1',['vssgetpulsegap',['../sensors_8cpp.html#ac65d98772f676f37ec9caa0d0c70a470',1,'vssGetPulseGap(uint8_t historyIndex):&#160;sensors.cpp'],['../sensors_8h.html#a38dfaf43d55df86fd692520bf12d5465',1,'vssGetPulseGap(byte toothHistoryIndex):&#160;sensors.cpp']]],
-  ['vsspulse_2',['vsspulse',['../sensors_8cpp.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.cpp'],['../sensors_8h.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.cpp']]],
-  ['vvtcontrol_3',['vvtcontrol',['../auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f',1,'vvtControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a54b5c6c7b15d2bc4dbaa41170f21290f',1,'vvtControl(void):&#160;auxiliaries.cpp']]],
-  ['vvtinterrupt_4',['vvtinterrupt',['../auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;auxiliaries.cpp']]]
+  ['udiv_5f32_5f16_0',['udiv_32_16',['../maths_8h.html#adb2095c28032cb930b8070f9fd8acc04',1,'maths.h']]],
+  ['udiv_5f32_5f16_5fclosest_1',['udiv_32_16_closest',['../maths_8h.html#a946ec39c2bc09d94b6a4ca7a6290b9ca',1,'maths.h']]],
+  ['update_2',['update',['../structwrite__location.html#a535c2792ad25b2aa1b3164d30df4c1c4',1,'write_location']]],
+  ['updatepagevalues_3',['updatePageValues',['../group__group-serial-comms-impl.html#ga2e4666c6ad95481c0f218666d7f9d3b1',1,'comms.cpp']]],
+  ['updaterevolutiontimefromteeth_4',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]]
 ];

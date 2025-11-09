@@ -9,7 +9,7 @@ var searchData=
   ['resetpreventactive_6',['resetPreventActive',['../structstatuses.html#adaf5958429f32c2729da53477a6ef38e',1,'statuses']]],
   ['revlimitallowedendtime_7',['revLimitAllowedEndTime',['../speeduino_8ino.html#af509016f205ce42db6a9a57003b5f407',1,'speeduino.ino']]],
   ['revolutionlastone_8',['revolutionLastOne',['../decoders_8cpp.html#ae6521da76d6f66bceadcd390b14e04f4',1,'decoders.cpp']]],
-  ['revolutionone_9',['revolutionone',['../decoders_8cpp.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne:&#160;decoders.cpp'],['../decoders_8h.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne:&#160;decoders.cpp']]],
+  ['revolutionone_9',['revolutionone',['../decoders_8h.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne:&#160;decoders.cpp'],['../decoders_8cpp.html#afce12e6bb920a5a0e061554aa2959221',1,'revolutionOne:&#160;decoders.cpp']]],
   ['revolutiontime_10',['revolutiontime',['../globals_8h.html#afcb482703a8260cda937ee824b5daff0',1,'revolutionTime:&#160;globals.cpp'],['../globals_8cpp.html#afcb482703a8260cda937ee824b5daff0',1,'revolutionTime:&#160;globals.cpp']]],
   ['rollingcutlastrev_11',['rollingCutLastRev',['../speeduino_8ino.html#af66793f211884912e6ad8a7df795dc01',1,'speeduino.ino']]],
   ['rollingprotcutpercent_12',['rollingProtCutPercent',['../structconfig15.html#ab1f5ab991ce78220006a1c804c1c71d8',1,'config15']]],
@@ -22,8 +22,9 @@ var searchData=
   ['rpm_19',['rpm',['../group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da',1,'Rpm:&#160;table3d.h'],['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses::RPM']]],
   ['rpmdiv100_20',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
   ['rpmdot_21',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
-  ['rtc_5fmode_22',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
-  ['rtc_5ftrim_23',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
-  ['runsecs_24',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
-  ['runsecsx10_25',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
+  ['rtc_22',['rtc',['../board__stm32__official_8h.html#aadd01aee2f1b6c7d047b05d6142d5122',1,'board_stm32_official.h']]],
+  ['rtc_5fmode_23',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
+  ['rtc_5ftrim_24',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
+  ['runsecs_25',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10_26',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
 ];

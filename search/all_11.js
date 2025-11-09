@@ -78,12 +78,13 @@ var searchData=
   ['getrpm_5fthirtysixminus222_75',['getrpm_thirtysixminus222',['../group__dec__36__2__2__2.html#ga61e9c3eb71845bfdffef05683b478e46',1,'getRPM_ThirtySixMinus222(void):&#160;decoders.cpp'],['../group__dec__36__2__2__2.html#ga61e9c3eb71845bfdffef05683b478e46',1,'getRPM_ThirtySixMinus222(void):&#160;decoders.cpp']]],
   ['getrpm_5fvmax_76',['getrpm_vmax',['../group__dec__vmax.html#gae39939f33e6be5976721e7d872779973',1,'getRPM_Vmax(void):&#160;decoders.cpp'],['../group__dec__vmax.html#gae39939f33e6be5976721e7d872779973',1,'getRPM_Vmax(void):&#160;decoders.cpp']]],
   ['getspeed_77',['getspeed',['../sensors_8cpp.html#ab95b932d55e9ac18f6a716fc632f063b',1,'getSpeed(void):&#160;sensors.cpp'],['../sensors_8h.html#ab95b932d55e9ac18f6a716fc632f063b',1,'getSpeed(void):&#160;sensors.cpp']]],
-  ['gettslogentry_78',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getve1_79',['getve1',['../speeduino_8h.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino']]],
-  ['globals_2ecpp_80',['globals.cpp',['../globals_8cpp.html',1,'']]],
-  ['globals_2eh_81',['globals.h',['../globals_8h.html',1,'']]],
-  ['gm_2024x_82',['GM 24X',['../group__dec__gm.html',1,'']]],
-  ['gm7x_83',['GM7X',['../group__dec__gm7x.html',1,'']]],
-  ['going_5fhigh_84',['GOING_HIGH',['../config__pages_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'config_pages.h']]],
-  ['going_5flow_85',['GOING_LOW',['../config__pages_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'config_pages.h']]]
+  ['getsystemtemp_78',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
+  ['gettslogentry_79',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
+  ['getve1_80',['getve1',['../speeduino_8h.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino']]],
+  ['globals_2ecpp_81',['globals.cpp',['../globals_8cpp.html',1,'']]],
+  ['globals_2eh_82',['globals.h',['../globals_8h.html',1,'']]],
+  ['gm_2024x_83',['GM 24X',['../group__dec__gm.html',1,'']]],
+  ['gm7x_84',['GM7X',['../group__dec__gm7x.html',1,'']]],
+  ['going_5fhigh_85',['GOING_HIGH',['../config__pages_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'config_pages.h']]],
+  ['going_5flow_86',['GOING_LOW',['../config__pages_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'config_pages.h']]]
 ];

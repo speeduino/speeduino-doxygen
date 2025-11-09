@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['nitrouscontrol_0',['nitrouscontrol',['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
-  ['nudge_1',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],
-  ['nullcallback_2',['nullcallback',['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
-  ['nullgetcrankangle_3',['nullGetCrankAngle',['../decoders_8cpp.html#aee6d014372f953ea30954cfbc3b42acb',1,'decoders.cpp']]],
-  ['nullgetrpm_4',['nullGetRPM',['../decoders_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoders.cpp']]],
-  ['nulltriggerhandler_5',['nullTriggerHandler',['../decoders_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoders.cpp']]]
+  ['map_5fpage_5foffset_5fto_5fentity_0',['map_page_offset_to_entity',['../pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813',1,'pages.cpp']]],
+  ['mapadctomap_1',['mapADCToMAP',['../sensors_8cpp.html#a05f2757acef4e95e97ea06a8f553ec7d',1,'sensors.cpp']]],
+  ['mulqu1x8_2',['mulQU1X8',['../table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c',1,'table3d_interpolate.cpp']]],
+  ['multiplytableload_3',['multiplytableload',['../updates_8cpp.html#ad1ceb6f1e096ae7f4863f3abf2004a14',1,'multiplyTableLoad(void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.cpp'],['../updates_8h.html#ad1ceb6f1e096ae7f4863f3abf2004a14',1,'multiplyTableLoad(void *pTable, table_type_t key, uint8_t multiplier):&#160;updates.cpp']]],
+  ['multiplytablevalue_4',['multiplytablevalue',['../updates_8cpp.html#a4b2c9db66c87691e90140834dd9312ae',1,'multiplyTableValue(uint8_t pageNum, uint8_t multiplier):&#160;updates.cpp'],['../updates_8h.html#a4b2c9db66c87691e90140834dd9312ae',1,'multiplyTableValue(uint8_t pageNum, uint8_t multiplier):&#160;updates.cpp']]]
 ];

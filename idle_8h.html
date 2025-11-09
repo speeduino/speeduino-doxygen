@@ -84,7 +84,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &lt;BOARD_H&gt;</code><br />
+<code>#include &quot;<a class="el" href="table2d_8h_source.html">table2d.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="board__definition_8h_source.html">board_definition.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -506,8 +507,8 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,238,88,264"/>
 <area shape="rect" href="idle_8cpp.html#a75f545e59fd1a9d6aafe2931b191b2c8" title=" " alt="" coords="284,35,410,61"/>
 <area shape="poly" title=" " alt="" coords="49,237,58,206,75,166,100,125,134,90,165,72,200,59,268,46,269,52,201,64,168,76,137,94,104,128,80,169,63,208,54,238"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="663,289,713,314"/>
-<area shape="poly" title=" " alt="" coords="47,237,55,200,70,151,96,99,113,75,134,54,170,29,203,13,235,5,268,3,337,10,421,20,479,19,526,14,548,15,570,20,592,30,616,47,639,72,656,100,669,131,679,163,688,224,690,273,685,273,683,224,674,164,664,133,652,102,635,75,613,51,590,34,568,25,547,20,526,20,479,24,421,25,336,15,268,8,236,10,205,18,172,33,137,58,117,78,100,101,75,153,60,202,52,238"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="663,263,713,289"/>
+<area shape="poly" title=" " alt="" coords="47,237,55,200,70,151,96,99,113,75,134,54,170,29,203,13,235,5,268,3,337,10,421,20,479,19,526,15,547,15,569,20,592,30,616,47,637,69,653,94,675,148,686,203,689,248,684,248,680,204,670,150,648,96,633,72,613,51,590,35,568,25,547,21,526,20,479,24,421,25,336,15,268,8,236,10,205,18,172,33,137,58,117,78,100,101,75,153,60,202,52,238"/>
 <area shape="rect" href="idle_8cpp.html#a3e762585d25c60a9672cacfff3b2d572" title=" " alt="" coords="139,137,222,162"/>
 <area shape="poly" title=" " alt="" coords="63,235,134,179,147,169,150,174,137,184,66,239"/>
 <area shape="rect" href="idle_8cpp.html#a359806eb74e59672bf88009f37191216" title=" " alt="" coords="288,86,406,112"/>
@@ -518,38 +519,37 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="88,248,258,248,258,253,88,253"/>
 <area shape="rect" href="idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338" title=" " alt="" coords="511,289,573,314"/>
 <area shape="poly" title=" " alt="" coords="88,253,273,273,496,295,495,300,273,279,88,258"/>
-<area shape="rect" href="idle_8cpp.html#a988cdc331783a7d694805f308b9ea50f" title=" " alt="" coords="307,339,387,365"/>
-<area shape="poly" title=" " alt="" coords="62,262,94,291,137,318,176,331,216,340,292,349,291,354,215,346,174,336,135,322,91,295,58,266"/>
-<area shape="rect" href="idle_8cpp.html#a91e286ea532c51b90ec90fe2ac131a8d" title=" " alt="" coords="136,390,225,416"/>
-<area shape="poly" title=" " alt="" coords="58,263,90,312,138,369,148,378,144,382,134,373,86,315,53,265"/>
-<area shape="rect" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101" title="Integer based percentage calculation." alt="" coords="305,491,390,517"/>
-<area shape="poly" title=" " alt="" coords="53,263,63,296,79,340,104,386,137,426,173,451,212,470,253,484,290,493,288,498,251,489,210,475,170,456,134,430,99,389,74,342,57,298,48,265"/>
-<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="498,591,586,617"/>
-<area shape="poly" title=" " alt="" coords="52,263,58,305,72,363,97,426,115,455,138,481,176,512,220,538,266,558,314,573,406,592,483,600,483,605,405,598,312,578,264,563,217,542,173,517,134,485,111,458,93,429,67,365,52,306,46,264"/>
-<area shape="poly" title=" " alt="" coords="411,39,460,39,514,45,568,61,593,74,616,90,635,109,651,132,672,182,683,231,688,273,683,273,678,232,667,183,646,135,631,113,613,94,591,78,566,66,513,50,460,44,411,44"/>
+<area shape="rect" href="idle_8cpp.html#a988cdc331783a7d694805f308b9ea50f" title=" " alt="" coords="307,490,387,516"/>
+<area shape="poly" title=" " alt="" coords="53,263,63,295,79,339,104,385,137,425,173,450,214,470,254,483,292,492,291,497,253,488,212,475,171,455,134,429,100,388,74,341,58,297,48,265"/>
+<area shape="rect" href="idle_8cpp.html#a91e286ea532c51b90ec90fe2ac131a8d" title=" " alt="" coords="136,339,225,365"/>
+<area shape="poly" title=" " alt="" coords="66,262,137,318,150,328,147,332,134,322,63,266"/>
+<area shape="rect" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101" title="Integer based percentage calculation." alt="" coords="305,441,390,466"/>
+<area shape="poly" title=" " alt="" coords="56,263,86,317,109,348,137,375,174,399,214,417,290,440,289,445,212,422,171,403,134,380,105,352,81,320,51,265"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="498,541,586,566"/>
+<area shape="poly" title=" " alt="" coords="52,263,58,305,72,363,98,425,116,454,138,479,175,509,218,531,264,546,312,556,405,563,483,559,483,564,405,568,311,561,263,551,216,536,173,513,134,483,111,457,93,428,67,364,53,306,46,264"/>
+<area shape="poly" title=" " alt="" coords="411,39,460,40,514,46,568,62,593,74,616,90,633,107,647,126,668,168,680,211,687,248,681,249,675,212,663,170,643,129,629,110,613,94,591,79,566,67,513,51,459,45,411,45"/>
 <area shape="poly" title=" " alt="" coords="192,134,226,103,272,71,284,65,287,70,274,76,230,107,196,138"/>
-<area shape="poly" title=" " alt="" coords="222,143,300,139,401,144,457,152,512,165,566,183,616,208,635,222,651,239,675,274,671,277,647,243,631,226,613,213,564,188,510,170,456,157,401,150,300,145,222,148"/>
+<area shape="poly" title=" " alt="" coords="222,145,299,146,399,154,509,174,564,191,616,212,643,230,666,250,663,254,640,234,613,217,562,196,508,179,398,159,298,151,222,150"/>
 <area shape="poly" title=" " alt="" coords="221,134,287,114,289,119,223,139"/>
 <area shape="poly" title=" " alt="" coords="223,159,289,180,287,185,221,164"/>
 <area shape="poly" title=" " alt="" coords="196,160,230,191,274,223,287,229,284,234,272,228,226,196,192,164"/>
-<area shape="poly" title=" " alt="" coords="406,87,455,85,510,89,566,102,592,113,616,129,646,160,666,199,679,238,686,272,681,273,674,240,661,201,642,164,613,133,590,118,564,107,510,94,455,90,407,93"/>
-<area shape="poly" title=" " alt="" coords="410,201,508,214,563,227,616,246,641,260,663,276,660,281,638,264,614,251,562,232,507,219,409,206"/>
-<area shape="poly" title=" " alt="" coords="422,250,514,258,615,273,649,283,647,288,614,279,514,263,421,256"/>
-<area shape="poly" title=" " alt="" coords="574,299,647,299,647,304,574,304"/>
-<area shape="poly" title=" " alt="" coords="388,349,491,342,553,335,614,324,647,314,649,319,615,329,553,340,491,348,388,354"/>
-<area shape="poly" title=" " alt="" coords="225,402,301,402,399,396,508,380,562,367,614,350,638,337,659,322,662,326,640,342,616,355,563,372,509,385,400,402,301,408,225,407"/>
-<area shape="poly" title=" " alt="" coords="182,389,192,356,210,311,236,264,271,223,277,219,281,223,275,227,240,268,215,314,197,357,187,390"/>
-<area shape="poly" title=" " alt="" coords="194,387,319,272,322,276,198,391"/>
-<area shape="poly" title=" " alt="" coords="224,387,291,366,293,371,226,392"/>
-<area shape="rect" href="idle_8cpp.html#a1d79473919410550dece18f89c413d85" title=" " alt="" coords="469,441,615,466"/>
-<area shape="poly" title=" " alt="" coords="226,410,273,419,454,442,453,448,273,424,225,415"/>
-<area shape="poly" title=" " alt="" coords="199,414,232,441,274,470,298,482,296,487,272,474,229,446,195,418"/>
-<area shape="poly" title=" " alt="" coords="583,438,613,419,633,398,650,374,674,327,678,330,654,377,637,401,616,423,586,442"/>
-<area shape="poly" title=" " alt="" coords="377,515,426,534,488,549,521,551,554,549,585,541,613,526,634,507,650,483,663,457,672,430,682,375,685,330,690,330,687,376,677,431,668,459,655,486,638,510,616,530,587,546,555,555,521,557,488,554,425,539,375,520"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="512,490,572,516"/>
-<area shape="poly" title=" " alt="" coords="390,501,497,500,497,506,390,506"/>
-<area shape="poly" title=" " alt="" coords="571,496,593,489,613,477,640,442,660,403,672,363,680,329,685,330,678,364,665,405,645,445,616,481,596,494,573,501"/>
-<area shape="poly" title=" " alt="" coords="585,590,600,581,613,570,633,542,649,511,670,444,681,380,684,330,689,330,686,381,676,445,654,513,637,545,617,574,603,586,588,594"/>
+<area shape="poly" title=" " alt="" coords="406,88,455,86,510,90,565,103,592,114,616,129,643,155,662,186,675,219,684,248,679,249,670,221,657,189,638,158,613,133,589,119,564,108,509,95,455,92,407,93"/>
+<area shape="poly" title=" " alt="" coords="409,205,507,221,615,246,649,257,648,262,614,251,506,226,409,210"/>
+<area shape="poly" title=" " alt="" coords="422,254,647,270,647,276,422,259"/>
+<area shape="poly" title=" " alt="" coords="573,293,647,280,648,286,574,299"/>
+<area shape="poly" title=" " alt="" coords="226,355,301,360,399,360,508,350,562,339,614,324,638,312,660,297,663,301,641,317,616,329,563,345,508,355,399,365,301,365,225,360"/>
+<area shape="poly" title=" " alt="" coords="185,338,217,283,242,251,271,223,279,218,282,222,275,228,246,255,221,286,190,340"/>
+<area shape="poly" title=" " alt="" coords="202,336,310,270,313,274,205,341"/>
+<area shape="poly" title=" " alt="" coords="190,364,221,419,245,450,275,477,294,487,291,492,271,481,242,453,217,421,185,367"/>
+<area shape="rect" href="idle_8cpp.html#a1d79473919410550dece18f89c413d85" title=" " alt="" coords="469,390,615,416"/>
+<area shape="poly" title=" " alt="" coords="226,359,273,368,454,392,453,397,273,373,225,364"/>
+<area shape="poly" title=" " alt="" coords="199,363,232,391,274,419,298,432,296,436,272,424,229,395,195,368"/>
+<area shape="poly" title=" " alt="" coords="581,387,613,369,645,336,669,301,674,304,649,339,616,373,584,392"/>
+<area shape="poly" title=" " alt="" coords="390,459,440,463,498,463,559,452,587,441,613,426,639,400,659,367,671,334,679,304,684,305,677,335,663,370,644,403,616,430,589,446,560,457,499,468,439,469,390,464"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="512,491,572,517"/>
+<area shape="poly" title=" " alt="" coords="391,462,498,490,497,495,390,467"/>
+<area shape="poly" title=" " alt="" coords="571,494,593,485,613,470,641,430,661,385,673,341,681,304,686,305,679,342,666,387,646,433,617,474,596,490,573,499"/>
+<area shape="poly" title=" " alt="" coords="585,544,600,537,613,528,633,502,649,474,670,412,681,352,684,304,689,304,686,353,675,413,654,476,637,505,617,531,603,542,587,549"/>
 </map>
 </div>
 <div class="dynheader">
@@ -580,16 +580,6 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="idle_8h_a0548a8600849f42990ddc099404d012a_cgraph.png" border="0" usemap="#aidle_8h_a0548a8600849f42990ddc099404d012a_cgraph" alt=""/></div>
-<map name="aidle_8h_a0548a8600849f42990ddc099404d012a_cgraph" id="aidle_8h_a0548a8600849f42990ddc099404d012a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,95,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="143,5,193,31"/>
-<area shape="poly" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -614,26 +604,25 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="idle_8h_a91e286ea532c51b90ec90fe2ac131a8d_cgraph.png" border="0" usemap="#aidle_8h_a91e286ea532c51b90ec90fe2ac131a8d_cgraph" alt=""/></div>
 <map name="aidle_8h_a91e286ea532c51b90ec90fe2ac131a8d_cgraph" id="aidle_8h_a91e286ea532c51b90ec90fe2ac131a8d_cgraph">
 <area shape="rect" title=" " alt="" coords="5,132,95,158"/>
-<area shape="rect" href="idle_8cpp.html#a988cdc331783a7d694805f308b9ea50f" title=" " alt="" coords="372,5,452,31"/>
-<area shape="poly" title=" " alt="" coords="58,130,90,88,114,66,141,48,196,28,253,16,308,12,356,12,356,17,309,17,254,22,197,33,144,53,117,70,94,92,62,133"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="532,157,583,183"/>
-<area shape="poly" title=" " alt="" coords="80,129,154,102,257,76,314,69,372,67,430,74,486,92,518,114,542,143,538,146,515,118,483,97,429,80,372,73,314,74,258,81,156,107,82,134"/>
-<area shape="rect" href="idle_8cpp.html#a1d79473919410550dece18f89c413d85" title=" " alt="" coords="339,107,484,132"/>
-<area shape="poly" title=" " alt="" coords="95,139,323,123,324,128,95,144"/>
-<area shape="rect" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101" title="Integer based percentage calculation." alt="" coords="174,157,260,183"/>
-<area shape="poly" title=" " alt="" coords="96,149,159,159,159,164,95,154"/>
-<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="155,220,279,246"/>
-<area shape="poly" title=" " alt="" coords="76,156,144,193,177,210,174,215,141,198,74,161"/>
-<area shape="rect" href="units_8h.html#a8efca56d48092fd48bcf27c46fc4757f" title="Convert an internal temperature value (&#45;40 to 215°C) to a storage value (0&#45;255)." alt="" coords="143,296,291,322"/>
-<area shape="poly" title=" " alt="" coords="62,156,96,203,144,256,182,285,179,289,141,260,92,206,58,160"/>
-<area shape="poly" title=" " alt="" coords="454,28,486,48,507,70,524,95,548,142,543,144,519,98,502,73,483,52,451,33"/>
-<area shape="poly" title=" " alt="" coords="452,130,519,154,517,159,450,135"/>
-<area shape="poly" title=" " alt="" coords="260,168,516,168,516,173,260,173"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="382,208,441,234"/>
-<area shape="poly" title=" " alt="" coords="261,179,368,207,366,212,259,184"/>
-<area shape="poly" title=" " alt="" coords="441,208,517,181,519,186,443,213"/>
-<area shape="poly" title=" " alt="" coords="262,244,309,254,366,261,426,259,455,253,483,244,515,222,538,194,542,198,518,226,486,249,457,258,427,264,366,266,308,259,261,249"/>
-<area shape="poly" title=" " alt="" coords="291,310,337,309,387,302,437,289,483,268,502,253,518,235,542,196,547,199,523,238,506,257,486,272,438,294,388,308,337,314,291,316"/>
+<area shape="rect" href="idle_8cpp.html#a988cdc331783a7d694805f308b9ea50f" title=" " alt="" coords="164,5,245,31"/>
+<area shape="poly" title=" " alt="" coords="59,130,94,91,141,48,159,36,162,41,144,52,97,95,63,134"/>
+<area shape="rect" href="idle_8cpp.html#a1d79473919410550dece18f89c413d85" title=" " alt="" coords="316,56,461,82"/>
+<area shape="poly" title=" " alt="" coords="73,129,105,113,142,98,222,80,300,71,300,76,223,86,143,103,107,118,75,134"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="510,183,561,208"/>
+<area shape="poly" title=" " alt="" coords="95,139,166,136,258,137,361,145,463,164,497,175,495,180,462,169,360,150,258,142,166,142,95,144"/>
+<area shape="rect" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101" title="Integer based percentage calculation." alt="" coords="162,157,247,183"/>
+<area shape="poly" title=" " alt="" coords="96,150,147,158,146,163,95,155"/>
+<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="143,220,266,246"/>
+<area shape="poly" title=" " alt="" coords="76,156,168,209,165,214,73,161"/>
+<area shape="rect" href="units_8h.html#a8efca56d48092fd48bcf27c46fc4757f" title="Convert an internal temperature value (&#45;40 to 215°C) to a storage value (0&#45;255)." alt="" coords="314,309,462,335"/>
+<area shape="poly" title=" " alt="" coords="60,157,92,206,116,233,144,256,181,276,221,291,299,310,298,315,219,296,179,281,141,260,112,237,88,209,56,159"/>
+<area shape="poly" title=" " alt="" coords="431,80,464,99,497,133,522,168,517,171,493,136,461,103,428,85"/>
+<area shape="poly" title=" " alt="" coords="248,171,495,190,494,195,247,176"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="359,208,418,234"/>
+<area shape="poly" title=" " alt="" coords="248,179,344,206,342,211,247,184"/>
+<area shape="poly" title=" " alt="" coords="418,213,495,200,496,205,419,218"/>
+<area shape="poly" title=" " alt="" coords="259,244,304,251,355,256,409,254,461,244,486,232,508,217,511,221,489,237,463,249,410,259,355,261,303,257,258,249"/>
+<area shape="poly" title=" " alt="" coords="428,306,461,288,493,255,517,220,522,223,497,258,464,292,431,311"/>
 </map>
 </div>
 <div class="dynheader">
