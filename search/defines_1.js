@@ -21,6 +21,5 @@ var searchData=
   ['aircon_5foff_18',['AIRCON_OFF',['../auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16',1,'auxiliaries.h']]],
   ['aircon_5fon_19',['AIRCON_ON',['../auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f',1,'auxiliaries.h']]],
   ['aircon_5fpin_5fhigh_20',['AIRCON_PIN_HIGH',['../auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c',1,'auxiliaries.h']]],
-  ['aircon_5fpin_5flow_21',['AIRCON_PIN_LOW',['../auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3',1,'auxiliaries.h']]],
-  ['atomic_22',['atomic',['../globals_8h.html#ae9a9d99f58f2d83b676163e0ce465f03',1,'ATOMIC:&#160;globals.h'],['../statuses_8h.html#ae9a9d99f58f2d83b676163e0ce465f03',1,'ATOMIC:&#160;statuses.h']]]
+  ['aircon_5fpin_5flow_21',['AIRCON_PIN_LOW',['../auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3',1,'auxiliaries.h']]]
 ];
