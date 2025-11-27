@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['idle_2ecpp_0',['idle.cpp',['../idle_8cpp.html',1,'']]],
-  ['idle_2eh_1',['idle.h',['../idle_8h.html',1,'']]],
-  ['init_2ecpp_2',['init.cpp',['../init_8cpp.html',1,'']]],
-  ['init_2eh_3',['init.h',['../init_8h.html',1,'']]]
+  ['globals_2ecpp_0',['globals.cpp',['../globals_8cpp.html',1,'']]],
+  ['globals_2eh_1',['globals.h',['../globals_8h.html',1,'']]]
 ];

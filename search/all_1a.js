@@ -153,7 +153,7 @@ var searchData=
   ['ptimerenable_150',['ptimerenable',['../struct_ignition_schedule.html#a58c3a64473e1c4a68157a66815094673',1,'IgnitionSchedule::pTimerEnable'],['../struct_fuel_schedule.html#a3b239891bc1eb39d4e6b0f845b6082c4',1,'FuelSchedule::pTimerEnable']]],
   ['pump_5fpin_5fmask_151',['pump_pin_mask',['../globals_8cpp.html#a031731ecceb6c1b8c767d3bc159c67bc',1,'pump_pin_mask:&#160;globals.cpp'],['../globals_8h.html#a031731ecceb6c1b8c767d3bc159c67bc',1,'pump_pin_mask:&#160;globals.cpp']]],
   ['pump_5fpin_5fport_152',['pump_pin_port',['../globals_8cpp.html#a55c85d3b9bb607db8416de8b4c8751ee',1,'pump_pin_port:&#160;globals.cpp'],['../globals_8h.html#a55c85d3b9bb607db8416de8b4c8751ee',1,'pump_pin_port:&#160;globals.cpp']]],
-  ['pw_153',['pw',['../speeduino_8h.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino']]],
+  ['pw_153',['pw',['../fuel__calcs_8cpp.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;fuel_calcs.cpp'],['../fuel__calcs_8h.html#aa3afcbe51f5ee8a0e030650faa716041',1,'PW(int REQ_FUEL, uint8_t VE, long MAP, uint16_t corrections, int injOpen):&#160;fuel_calcs.cpp']]],
   ['pw1_154',['PW1',['../structstatuses.html#a4b0034de3a0462c2fe42fbfdc0c24146',1,'statuses']]],
   ['pw2_155',['PW2',['../structstatuses.html#ab65f5fbc52da5a0a1a321e8ef24908d0',1,'statuses']]],
   ['pw3_156',['PW3',['../structstatuses.html#a136508f4dbfcd333a88a7069f864db03',1,'statuses']]],

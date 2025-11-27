@@ -1,7 +1,7 @@
 var searchData=
 [
   ['realtime_5fbase_5faddress_0',['realtime_base_address',['../structconfig9.html#ada84f6a432c16cde3e6d6632db6d83f2',1,'config9']]],
-  ['req_5ffuel_5fus_1',['req_fuel_us',['../speeduino_8ino.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS:&#160;speeduino.ino'],['../speeduino_8h.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS:&#160;speeduino.ino']]],
+  ['req_5ffuel_5fus_1',['req_fuel_us',['../fuel__calcs_8h.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS:&#160;fuel_calcs.cpp'],['../fuel__calcs_8cpp.html#a3b20dbd79052be063c030cbe38344b94',1,'req_fuel_uS:&#160;fuel_calcs.cpp']]],
   ['reqfuel_2',['reqFuel',['../structconfig2.html#a64d156720d93b250317ccdefd179503d',1,'config2']]],
   ['resetcontrol_3',['resetcontrol',['../globals_8h.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl:&#160;globals.cpp'],['../globals_8cpp.html#a6c8e1f148cca41784838dc5e4d5effdb',1,'resetControl:&#160;globals.cpp']]],
   ['resetcontrolconfig_4',['resetControlConfig',['../structconfig4.html#afe47b134962ff13a38467d04b4967162',1,'config4']]],

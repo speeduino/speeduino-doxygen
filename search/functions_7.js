@@ -8,7 +8,7 @@ var searchData=
   ['get_5ftable_5fvalue_5',['get_table_value',['../pages_8cpp.html#ab5534094638143ae505c514bbe6f7f44',1,'pages.cpp']]],
   ['get_5ftable_5fvalue_5fend_6',['get_table_value_end',['../pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745',1,'pages.cpp']]],
   ['get_5fvalue_7',['get_value',['../pages_8cpp.html#a68490804cfe005aacc24d210427cfd07',1,'pages.cpp']]],
-  ['getadvance1_8',['getadvance1',['../speeduino_8h.html#a028c0f7e8501f99874ba931ca3be12d0',1,'getAdvance1(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a028c0f7e8501f99874ba931ca3be12d0',1,'getAdvance1(void):&#160;speeduino.ino']]],
+  ['getadvance1_8',['getAdvance1',['../speeduino_8ino.html#aef65c08bf25cdfc49f575080fe6da357',1,'speeduino.ino']]],
   ['getanalogknock_9',['getanalogknock',['../sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp'],['../sensors_8h.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp']]],
   ['getcamangle_5fmiata9905_10',['getcamangle_miata9905',['../group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb',1,'getCamAngle_Miata9905(void):&#160;decoders.cpp'],['../group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb',1,'getCamAngle_Miata9905(void):&#160;decoders.cpp']]],
   ['getcrankangle_5f24x_11',['getcrankangle_24x',['../group__dec__gm.html#gae5c87b93eb8525d5a654808d6da541f8',1,'getCrankAngle_24X(void):&#160;decoders.cpp'],['../group__dec__gm.html#gae5c87b93eb8525d5a654808d6da541f8',1,'getCrankAngle_24X(void):&#160;decoders.cpp']]],
@@ -68,7 +68,7 @@ var searchData=
   ['getrpm_5fngc_65',['getrpm_ngc',['../group__dec.html#ga62abdd29c72db58a77c900a8158405ea',1,'getRPM_NGC(void):&#160;decoders.cpp'],['../group__dec.html#ga62abdd29c72db58a77c900a8158405ea',1,'getRPM_NGC(void):&#160;decoders.cpp']]],
   ['getrpm_5fnissan360_66',['getrpm_nissan360',['../group__dec__nissan360.html#gaea59ee92b8eccc861a35db55f9741da2',1,'getRPM_Nissan360(void):&#160;decoders.cpp'],['../group__dec__nissan360.html#gaea59ee92b8eccc861a35db55f9741da2',1,'getRPM_Nissan360(void):&#160;decoders.cpp']]],
   ['getrpm_5fnon360_67',['getrpm_non360',['../group__dec__non360.html#gaf208fdcb6d2e591aa409d5825e2b6d98',1,'getRPM_non360(void):&#160;decoders.cpp'],['../group__dec__non360.html#gaf208fdcb6d2e591aa409d5825e2b6d98',1,'getRPM_non360(void):&#160;decoders.cpp']]],
-  ['getrpm_5frovermems_68',['getrpm_rovermems',['../group__dec.html#ga5388d5afd2b62e523370cec316145de0',1,'getRPM_RoverMEMS(void):&#160;decoders.cpp'],['../group__dec.html#ga5388d5afd2b62e523370cec316145de0',1,'getRPM_RoverMEMS():&#160;decoders.cpp']]],
+  ['getrpm_5frovermems_68',['getrpm_rovermems',['../group__dec.html#ga5388d5afd2b62e523370cec316145de0',1,'getRPM_RoverMEMS():&#160;decoders.cpp'],['../group__dec.html#ga5388d5afd2b62e523370cec316145de0',1,'getRPM_RoverMEMS(void):&#160;decoders.cpp']]],
   ['getrpm_5fsubaru67_69',['getrpm_subaru67',['../group__dec__subaru__6__7.html#ga3217fc92f63db578561adf853588a51e',1,'getRPM_Subaru67(void):&#160;decoders.cpp'],['../group__dec__subaru__6__7.html#ga3217fc92f63db578561adf853588a51e',1,'getRPM_Subaru67(void):&#160;decoders.cpp']]],
   ['getrpm_5fsuzukik6a_70',['getrpm_suzukik6a',['../group___suzuki___k6_a.html#ga77f1fbb197e1f8f24794b2255d09d41d',1,'getRPM_SuzukiK6A(void):&#160;decoders.cpp'],['../group___suzuki___k6_a.html#ga77f1fbb197e1f8f24794b2255d09d41d',1,'getRPM_SuzukiK6A(void):&#160;decoders.cpp']]],
   ['getrpm_5fthirtysixminus21_71',['getrpm_thirtysixminus21',['../group__dec__36__2__1.html#ga8a8b0877413f727867dc9d1eaa029875',1,'getRPM_ThirtySixMinus21(void):&#160;decoders.cpp'],['../group__dec__36__2__1.html#ga8a8b0877413f727867dc9d1eaa029875',1,'getRPM_ThirtySixMinus21(void):&#160;decoders.cpp']]],
@@ -77,5 +77,5 @@ var searchData=
   ['getspeed_74',['getspeed',['../sensors_8cpp.html#ab95b932d55e9ac18f6a716fc632f063b',1,'getSpeed(void):&#160;sensors.cpp'],['../sensors_8h.html#ab95b932d55e9ac18f6a716fc632f063b',1,'getSpeed(void):&#160;sensors.cpp']]],
   ['getsystemtemp_75',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
   ['gettslogentry_76',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getve1_77',['getve1',['../speeduino_8h.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino'],['../speeduino_8ino.html#a4baf1db38172e71ef75025cedba81b84',1,'getVE1(void):&#160;speeduino.ino']]]
+  ['getve1_77',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
 ];

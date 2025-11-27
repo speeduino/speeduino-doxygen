@@ -629,7 +629,7 @@ Variables</h2></td></tr>
 <div class="textblock"><p>Crank and Cam decoders</p>
 <p>This file contains the various crank and cam wheel decoder functions. Each decoder must have the following 4 functions (Where xxxx is the decoder name):</p>
 <ul>
-<li><b>triggerSetup_xxxx</b> - Called once from within <a class="el" href="speeduino_8h.html#a7dfd9b79bc5a37d7df40207afbc5431f">setup()</a> and configures any required variables</li>
+<li><b>triggerSetup_xxxx</b> - Called once from within <a class="el" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f">setup()</a> and configures any required variables</li>
 <li><b>triggerPri_xxxx</b> - Called each time the primary (No. 1) crank/cam signal is triggered (Called as an interrupt, so variables must be declared volatile)</li>
 <li><b>triggerSec_xxxx</b> - Called each time the secondary (No. 2) crank/cam signal is triggered (Called as an interrupt, so variables must be declared volatile)</li>
 <li><b>getRPM_xxxx</b> - Returns the current RPM, as calculated by the decoder</li>

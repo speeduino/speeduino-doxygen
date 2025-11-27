@@ -134,7 +134,7 @@ var searchData=
   ['core_5fteensy35_131',['CORE_TEENSY35',['../board__teensy35_8h.html#a518e4909c28382fdef8df8cd02d3fd87',1,'board_teensy35.h']]],
   ['core_5fteensy41_132',['CORE_TEENSY41',['../board__teensy41_8h.html#a551e5124e6ff1f504f733839df44c1fc',1,'board_teensy41.h']]],
   ['crank_5fangle_5fmax_133',['CRANK_ANGLE_MAX',['../globals_8h.html#ae2ea5607b682b5faf59806f6548b9a71',1,'globals.h']]],
-  ['crank_5frun_5fhyster_134',['CRANK_RUN_HYSTER',['../speeduino_8h.html#a6dbfca2e3413e1880ac4ea9cef316a4b',1,'speeduino.h']]],
+  ['crank_5frun_5fhyster_134',['CRANK_RUN_HYSTER',['../speeduino_8ino.html#a6dbfca2e3413e1880ac4ea9cef316a4b',1,'speeduino.ino']]],
   ['crank_5fspeed_135',['CRANK_SPEED',['../decoders_8h.html#ad65f66535246db8717c9d10fba32a7c0',1,'decoders.h']]],
   ['current_5fdata_5fversion_136',['CURRENT_DATA_VERSION',['../updates_8cpp.html#a3e241f6a9fc66e45880cb69062ded84e',1,'updates.cpp']]]
 ];

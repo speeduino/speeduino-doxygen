@@ -11,5 +11,5 @@ var searchData=
   ['processserialcommand_8',['processSerialCommand',['../group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c',1,'comms.cpp']]],
   ['processtemperaturecalibrationtableupdate_9',['processTemperatureCalibrationTableUpdate',['../group__group-serial-comms-impl.html#gace518b3f01083f0f1b736b85308500f8',1,'comms.cpp']]],
   ['programmableiogetdata_10',['programmableiogetdata',['../utilities_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utilities.cpp'],['../utilities_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utilities.cpp']]],
-  ['pw_11',['pw',['../speeduino_8h.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino'],['../speeduino_8ino.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;speeduino.ino']]]
+  ['pw_11',['pw',['../fuel__calcs_8cpp.html#a7460d44a013c2900845cfd018fbe491a',1,'PW(int REQ_FUEL, byte VE, long MAP, uint16_t corrections, int injOpen):&#160;fuel_calcs.cpp'],['../fuel__calcs_8h.html#aa3afcbe51f5ee8a0e030650faa716041',1,'PW(int REQ_FUEL, uint8_t VE, long MAP, uint16_t corrections, int injOpen):&#160;fuel_calcs.cpp']]]
 ];
