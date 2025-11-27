@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8cpp.html#a491e79b90614c014323b95340a16defa',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a491e79b90614c014323b95340a16defa',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
-  ['fan_5fpin_5fport_1',['fan_pin_port',['../auxiliaries_8cpp.html#acf73959302fbc46e593007799ac4ad56',1,'fan_pin_port:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#acf73959302fbc46e593007799ac4ad56',1,'fan_pin_port:&#160;auxiliaries.cpp']]],
+  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
+  ['fan_5fpin_5fport_1',['fan_pin_port',['../auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff',1,'fan_pin_port:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#afd7fc3d9d6c0cd2c485a23f9d48348ff',1,'fan_pin_port:&#160;auxiliaries.cpp']]],
   ['fanduty_2',['fanDuty',['../structstatuses.html#aa2d511c0ac5258ca660edaef8bfd1f20',1,'statuses']]],
   ['fanenable_3',['fanEnable',['../structconfig2.html#a0ff71093243f3cb6341165d20c4592fd',1,'config2']]],
   ['fanfreq_4',['fanFreq',['../structconfig6.html#a20baaa4c37604a39ffef7e1b275623cc',1,'config6']]],
@@ -29,8 +29,8 @@ var searchData=
   ['flatshiftsoftcut_26',['flatShiftSoftCut',['../structstatuses.html#a938167d541262466017d90127b6e5855',1,'statuses']]],
   ['flatsretard_27',['flatSRetard',['../structconfig6.html#acef5e5edd2a1fcda8692189c020dc70a',1,'config6']]],
   ['flatssoftwin_28',['flatSSoftWin',['../structconfig6.html#ab929ebc82c9fe2723316abe9ff3bb8a3',1,'config6']]],
-  ['flex_5fpin_5fmask_29',['flex_pin_mask',['../globals_8cpp.html#a000cf02d5109407db432778ff732b5b5',1,'flex_pin_mask:&#160;globals.cpp'],['../globals_8h.html#a000cf02d5109407db432778ff732b5b5',1,'flex_pin_mask:&#160;globals.cpp']]],
-  ['flex_5fpin_5fport_30',['flex_pin_port',['../globals_8h.html#a270b830e49b194e8f8698c5a3ccc101c',1,'flex_pin_port:&#160;globals.cpp'],['../globals_8cpp.html#a270b830e49b194e8f8698c5a3ccc101c',1,'flex_pin_port:&#160;globals.cpp']]],
+  ['flex_5fpin_5fmask_29',['flex_pin_mask',['../globals_8cpp.html#ad806b240234abc57447ca7552cf827fe',1,'flex_pin_mask:&#160;globals.cpp'],['../globals_8h.html#ad806b240234abc57447ca7552cf827fe',1,'flex_pin_mask:&#160;globals.cpp']]],
+  ['flex_5fpin_5fport_30',['flex_pin_port',['../globals_8h.html#a07f9fd235995907cf082377d3bd74097',1,'flex_pin_port:&#160;globals.cpp'],['../globals_8cpp.html#a07f9fd235995907cf082377d3bd74097',1,'flex_pin_port:&#160;globals.cpp']]],
   ['flexadvadj_31',['flexAdvAdj',['../structconfig10.html#a5b6fff0a915b380d13e160b85d57637d',1,'config10']]],
   ['flexadvbins_32',['flexAdvBins',['../structconfig10.html#a62a72f167a73cacc7a790beb620a22d2',1,'config10']]],
   ['flexboostadj_33',['flexBoostAdj',['../structconfig10.html#a0e8a0b7dd447666d131d7e5e51e077ea',1,'config10']]],
