@@ -111,7 +111,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#elif defined(STM32_MCU_SERIES) || defined(ARDUINO_ARCH_STM32) || defined(STM32)</span></div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">  #include &quot;<a class="code" href="board__stm32__official_8h.html">board_stm32_official.h</a>&quot;</span></div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#elif defined(__SAME51J19A__)</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">  #include &quot;<a class="code" href="board__same51_8h.html">board_same51.h</a>&quot;</span></div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">  #include &quot;board_same51.h&quot;</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">// Allow external injection of the board definition via compiler flags</span></div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#elif defined(EXTERNAL_BOARD_H)</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">  #include EXTERNAL_BOARD_H</span></div>
@@ -129,7 +129,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aboard__definition_8h_html_ac76e62de073b850dd1233048d831e7a8"><div class="ttname"><a href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a></div><div class="ttdeci">void initBoard(uint32_t baudRate)</div><div class="ttdoc">Initialise the board, including USB comms.</div></div>
 <div class="ttc" id="aboard__definition_8h_html_af08fa12aed30d95abbcf80e9c7ccb93c"><div class="ttname"><a href="board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c">doSystemReset</a></div><div class="ttdeci">void doSystemReset(void)</div><div class="ttdoc">Reset the board (optional)</div></div>
 <div class="ttc" id="aboard__definition_8h_html_af87fa722b545868277fe412e4786fa96"><div class="ttname"><a href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">freeRam</a></div><div class="ttdeci">uint16_t freeRam(void)</div><div class="ttdoc">Calculate free RAM for display in TunerStudio.</div></div>
-<div class="ttc" id="aboard__same51_8h_html"><div class="ttname"><a href="board__same51_8h.html">board_same51.h</a></div></div>
 <div class="ttc" id="aboard__stm32__official_8h_html"><div class="ttname"><a href="board__stm32__official_8h.html">board_stm32_official.h</a></div></div>
 <div class="ttc" id="aboard__teensy35_8h_html"><div class="ttname"><a href="board__teensy35_8h.html">board_teensy35.h</a></div></div>
 <div class="ttc" id="aboard__teensy41_8h_html"><div class="ttname"><a href="board__teensy41_8h.html">board_teensy41.h</a></div></div>
