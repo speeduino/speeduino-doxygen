@@ -75,18 +75,23 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">fuel_calcs.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Pulse width calculations.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="statuses_8h_source.html">statuses.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="fuel__calcs_8h__dep__incl.png" border="0" usemap="#aspeeduino_2fuel__calcs_8hdep" alt=""/></div>
 <map name="aspeeduino_2fuel__calcs_8hdep" id="aspeeduino_2fuel__calcs_8hdep">
-<area shape="rect" title=" " alt="" coords="294,5,447,31"/>
+<area shape="rect" title="Pulse width calculations." alt="" coords="294,5,447,31"/>
 <area shape="rect" href="corrections_8cpp.html" title=" " alt="" coords="5,79,178,105"/>
 <area shape="poly" title=" " alt="" coords="309,38,140,81,138,76,308,33"/>
 <area shape="rect" href="fuel__calcs_8cpp.html" title=" " alt="" coords="201,79,369,105"/>
@@ -100,193 +105,47 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="fuel__calcs_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpulse_widths.html">pulseWidths</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result of pulse width calculation.  <a href="structpulse_widths.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa3afcbe51f5ee8a0e030650faa716041" id="r_aa3afcbe51f5ee8a0e030650faa716041"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#aa3afcbe51f5ee8a0e030650faa716041">PW</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">REQ_FUEL</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> VE, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> MAP, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> corrections, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a> injOpen)</td></tr>
-<tr class="memdesc:aa3afcbe51f5ee8a0e030650faa716041"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the required pulsewidth time (in us) given the current system state.  <br /></td></tr>
-<tr class="separator:aa3afcbe51f5ee8a0e030650faa716041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0225987fdee41d08bb9035225fe0655b" id="r_a0225987fdee41d08bb9035225fe0655b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a0225987fdee41d08bb9035225fe0655b">calculatePWLimit</a> ()</td></tr>
-<tr class="separator:a0225987fdee41d08bb9035225fe0655b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfbb707dd68fa36a1a285257cf67db14" id="r_abfbb707dd68fa36a1a285257cf67db14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#abfbb707dd68fa36a1a285257cf67db14">calculateStaging</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>)</td></tr>
-<tr class="separator:abfbb707dd68fa36a1a285257cf67db14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a3b20dbd79052be063c030cbe38344b94" id="r_a3b20dbd79052be063c030cbe38344b94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a3b20dbd79052be063c030cbe38344b94">req_fuel_uS</a></td></tr>
-<tr class="separator:a3b20dbd79052be063c030cbe38344b94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52a23209328b74a1dc9b80349cfc4983" id="r_a52a23209328b74a1dc9b80349cfc4983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a52a23209328b74a1dc9b80349cfc4983">inj_opentime_uS</a></td></tr>
-<tr class="separator:a52a23209328b74a1dc9b80349cfc4983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Staging</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>These values are a percentage of the total (Combined) req_fuel value that would be required for each injector channel to deliver that much fuel. <br  />
-</p>
-<p>Eg:</p><ul>
-<li>Pri injectors are 250cc</li>
-<li>Sec injectors are 500cc</li>
-<li>Total injector capacity = 750cc</li>
-<li>staged_req_fuel_mult_pri = 300% (The primary injectors would have to run 3x the overall PW in order to be the equivalent of the full 750cc capacity</li>
-<li>staged_req_fuel_mult_sec = 150% (The secondary injectors would have to run 1.5x the overall PW in order to be the equivalent of the full 750cc capacity </li>
-</ul>
-</div></td></tr>
-<tr class="memitem:a13ef012561cb22a327fee50ef10555f5" id="r_a13ef012561cb22a327fee50ef10555f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a13ef012561cb22a327fee50ef10555f5">staged_req_fuel_mult_pri</a></td></tr>
-<tr class="separator:a13ef012561cb22a327fee50ef10555f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a893db7275843064fb9d10a3fc2d61ab6" id="r_a893db7275843064fb9d10a3fc2d61ab6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a893db7275843064fb9d10a3fc2d61ab6">staged_req_fuel_mult_sec</a></td></tr>
-<tr class="separator:a893db7275843064fb9d10a3fc2d61ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca67c7723ed6f9b66ffe1b665c2ae3e1" id="r_aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#aca67c7723ed6f9b66ffe1b665c2ae3e1">computePulseWidths</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">page2</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">page6</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">page10</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">current</a>)</td></tr>
+<tr class="memdesc:aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state.  <br /></td></tr>
+<tr class="separator:aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a0103639acb55f56b928c3aea9f9bdc" id="r_a1a0103639acb55f56b928c3aea9f9bdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8h.html#a1a0103639acb55f56b928c3aea9f9bdc">applyPwToInjectorChannels</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">pulse_widths</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">current</a>)</td></tr>
+<tr class="memdesc:a1a0103639acb55f56b928c3aea9f9bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the calculated pulse widths to the current system state.  <br /></td></tr>
+<tr class="separator:a1a0103639acb55f56b928c3aea9f9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a0225987fdee41d08bb9035225fe0655b" name="a0225987fdee41d08bb9035225fe0655b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0225987fdee41d08bb9035225fe0655b">&#9670;&#160;</a></span>calculatePWLimit()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Pulse width calculations. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a1a0103639acb55f56b928c3aea9f9bdc" name="a1a0103639acb55f56b928c3aea9f9bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0103639acb55f56b928c3aea9f9bdc">&#9670;&#160;</a></span>applyPwToInjectorChannels()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> calculatePWLimit </td>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> applyPwToInjectorChannels </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_cgraph.png" border="0" usemap="#afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_cgraph" alt=""/></div>
-<map name="afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_cgraph" id="afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,81,129,107"/>
-<area shape="rect" href="maths_8h.html#add423b7b99e1bd5e9bd2f7a944da1101" title="Integer based percentage calculation." alt="" coords="177,56,262,82"/>
-<area shape="poly" title=" " alt="" coords="129,81,161,76,162,81,130,86"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="417,56,468,82"/>
-<area shape="poly" title=" " alt="" coords="129,94,262,92,336,83,402,73,403,79,337,89,262,97,129,99"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="310,5,369,31"/>
-<area shape="poly" title=" " alt="" coords="251,53,295,34,297,39,253,58"/>
-<area shape="poly" title=" " alt="" coords="263,66,402,66,402,72,263,72"/>
-<area shape="poly" title=" " alt="" coords="369,29,405,47,402,52,366,34"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_icgraph.png" border="0" usemap="#afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_icgraph" alt=""/></div>
-<map name="afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_icgraph" id="afuel__calcs_8h_a0225987fdee41d08bb9035225fe0655b_icgraph">
-<area shape="rect" title=" " alt="" coords="99,5,222,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
-<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="abfbb707dd68fa36a1a285257cf67db14" name="abfbb707dd68fa36a1a285257cf67db14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfbb707dd68fa36a1a285257cf67db14">&#9670;&#160;</a></span>calculateStaging()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> calculateStaging </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
-          <td class="paramname"><em>pwLimit</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_cgraph.png" border="0" usemap="#afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_cgraph" alt=""/></div>
-<map name="afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_cgraph" id="afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_cgraph">
-<area shape="rect" title=" " alt="" coords="5,85,123,111"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="380,47,439,72"/>
-<area shape="poly" title=" " alt="" coords="123,89,364,62,364,67,123,94"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1037,300,1088,326"/>
-<area shape="poly" title=" " alt="" coords="94,82,151,60,228,35,317,15,362,9,408,6,772,6,838,4,891,4,916,9,940,17,965,32,991,54,1013,79,1031,109,1044,140,1053,173,1063,235,1065,285,1059,285,1057,235,1048,174,1038,142,1026,111,1009,82,987,58,962,36,938,22,914,14,891,10,838,9,772,12,408,12,363,14,318,20,230,40,153,65,96,87"/>
-<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="171,136,291,162"/>
-<area shape="poly" title=" " alt="" coords="110,109,173,129,171,134,108,114"/>
-<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="727,553,815,579"/>
-<area shape="poly" title=" " alt="" coords="75,110,111,168,170,255,249,353,293,400,341,443,388,479,428,503,471,521,528,538,575,550,624,557,711,563,711,569,623,562,574,555,527,544,469,526,425,508,385,484,337,447,290,404,245,357,166,259,106,171,71,113"/>
-<area shape="poly" title=" " alt="" coords="439,54,557,47,721,43,805,46,882,54,946,68,971,78,991,90,1012,110,1028,133,1050,187,1061,240,1064,285,1059,285,1055,241,1045,188,1024,136,1008,113,988,94,969,83,944,73,881,59,804,52,721,49,557,52,439,60"/>
-<area shape="poly" title=" " alt="" coords="291,136,431,118,515,111,600,108,772,108,836,103,888,98,913,99,937,104,963,115,991,134,1022,167,1042,208,1055,249,1061,284,1056,285,1049,250,1037,210,1017,170,988,138,961,120,936,109,912,104,888,104,836,109,772,113,600,113,516,116,432,123,292,142"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="723,148,819,174"/>
-<area shape="poly" title=" " alt="" coords="291,148,707,157,707,162,291,153"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="339,407,479,432"/>
-<area shape="poly" title=" " alt="" coords="243,161,393,392,389,395,239,164"/>
-<area shape="poly" title=" " alt="" coords="820,170,902,198,948,218,991,241,1019,263,1042,286,1038,290,1015,267,988,246,945,222,901,203,819,176"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="867,148,989,174"/>
-<area shape="poly" title=" " alt="" coords="819,158,851,158,851,164,819,164"/>
-<area shape="poly" title=" " alt="" coords="964,172,991,191,1011,213,1028,238,1052,284,1048,287,1023,241,1007,217,988,195,961,177"/>
-<area shape="poly" title=" " alt="" coords="432,404,475,382,526,361,620,335,694,321,867,306,950,304,1023,307,1022,313,950,310,867,312,695,326,621,340,528,366,477,387,435,409"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="531,376,671,402"/>
-<area shape="poly" title=" " alt="" coords="479,406,515,400,516,405,480,411"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="527,503,675,528"/>
-<area shape="poly" title=" " alt="" coords="438,431,562,493,559,498,436,435"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="552,439,650,464"/>
-<area shape="poly" title=" " alt="" coords="480,429,538,438,537,444,479,434"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="886,604,970,630"/>
-<area shape="poly" title=" " alt="" coords="421,431,464,484,494,514,529,539,571,560,616,577,710,600,798,612,871,615,870,620,798,617,709,606,615,582,569,565,526,543,491,518,460,487,417,435"/>
-<area shape="poly" title=" " alt="" coords="649,373,722,356,888,329,1021,314,1022,319,889,335,723,361,651,378"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="883,351,973,376"/>
-<area shape="poly" title=" " alt="" coords="671,381,867,366,868,371,671,386"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="728,401,814,427"/>
-<area shape="poly" title=" " alt="" coords="672,397,713,403,712,408,671,402"/>
-<area shape="poly" title=" " alt="" coords="963,348,1022,325,1024,330,965,353"/>
-<area shape="poly" title=" " alt="" coords="814,415,852,415,897,412,944,403,988,387,1019,364,1042,337,1046,340,1022,368,991,391,945,408,898,417,853,421,814,420"/>
-<area shape="poly" title=" " alt="" coords="812,398,871,379,873,384,814,403"/>
-<area shape="poly" title=" " alt="" coords="675,525,747,529,829,525,871,519,912,507,952,491,988,470,1015,442,1034,407,1047,372,1054,340,1060,342,1052,373,1039,410,1019,445,991,474,954,496,914,512,872,524,830,531,747,535,675,530"/>
-<area shape="poly" title=" " alt="" coords="647,527,713,546,712,552,646,532"/>
-<area shape="poly" title=" " alt="" coords="815,570,856,571,902,568,947,556,969,546,988,532,1007,512,1022,489,1044,437,1054,384,1058,341,1064,341,1060,385,1049,438,1027,491,1011,516,991,536,971,550,949,561,902,573,856,577,815,575"/>
-<area shape="poly" title=" " alt="" coords="650,459,721,467,808,469,855,465,901,456,946,442,988,421,1009,405,1026,383,1049,339,1054,342,1030,386,1013,408,991,426,948,447,903,461,856,470,809,474,720,472,650,464"/>
-<area shape="poly" title=" " alt="" coords="964,601,987,583,1007,554,1022,522,1044,455,1054,391,1058,341,1064,341,1060,392,1049,456,1027,524,1011,557,991,587,968,606"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_icgraph.png" border="0" usemap="#afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_icgraph" alt=""/></div>
-<map name="afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_icgraph" id="afuel__calcs_8h_abfbb707dd68fa36a1a285257cf67db14_icgraph">
-<area shape="rect" title=" " alt="" coords="99,5,216,31"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
-<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="aa3afcbe51f5ee8a0e030650faa716041" name="aa3afcbe51f5ee8a0e030650faa716041"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3afcbe51f5ee8a0e030650faa716041">&#9670;&#160;</a></span>PW()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> PW </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a>&#160;</td>
-          <td class="paramname"><em>REQ_FUEL</em>, </td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
+          <td class="paramname"><em>pulse_widths</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>VE</em>, </td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>MAP</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
-          <td class="paramname"><em>corrections</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">int</a>&#160;</td>
-          <td class="paramname"><em>injOpen</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -296,49 +155,31 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>This function calculates the required pulsewidth time (in us) given the current system state. </p>
+<p>Apply the calculated pulse widths to the current system state. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">REQ_FUEL</td><td>The required fuel value in uS, as calculated by TunerStudio </td></tr>
-    <tr><td class="paramname">VE</td><td>Lookup from the main fuel table. This can either have been MAP or TPS based, depending on the algorithm used </td></tr>
-    <tr><td class="paramname">MAP</td><td>In KPa, read from the sensor (This is used when performing a multiply of the map only. It is applicable in both Speed density and Alpha-N) </td></tr>
-    <tr><td class="paramname">corrections</td><td>Sum of Enrichment factors (Cold start, acceleration). This is a multiplication factor (Eg to add 10%, this should be 110) </td></tr>
-    <tr><td class="paramname">injOpen</td><td>Injector opening time. The time the injector take to open minus the time it takes to close (Both in uS) </td></tr>
+    <tr><td class="paramname"><a class="el" href="structpulse_widths.html" title="Result of pulse width calculation.">pulseWidths</a></td><td>Result of <a class="el" href="fuel__calcs_8h.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state.">computePulseWidths()</a> </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune settings </td></tr>
+    <tr><td class="paramname">current</td><td>Current system state </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>uint16_t The injector pulse width in uS </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_cgraph.png" border="0" usemap="#afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_cgraph" alt=""/></div>
-<map name="afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_cgraph" id="afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_cgraph">
-<area shape="rect" title="This function calculates the required pulsewidth time (in us) given the current system state." alt="" coords="5,181,48,207"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="111,5,170,31"/>
-<area shape="poly" title=" " alt="" coords="29,180,51,120,70,83,94,48,103,39,107,43,98,52,75,86,56,122,34,182"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="233,31,283,56"/>
-<area shape="poly" title=" " alt="" coords="31,179,54,137,72,113,94,92,124,74,157,61,217,46,219,51,158,66,126,79,97,96,76,116,59,140,36,182"/>
-<area shape="rect" href="group__group-opt-shift.html#gaf0b44a46b9d0cb6765839db2015bd3a5" title="uint32_t bitwise left shift optimised for the specified shift distance" alt="" coords="96,107,185,132"/>
-<area shape="poly" title=" " alt="" coords="43,179,94,141,99,138,102,143,97,146,46,183"/>
-<area shape="rect" href="group__group-opt-shift.html#ga057623054a149981bc67d7a2699a9928" title="uint32_t bitwise left shift optimised for the specified shift distance" alt="" coords="96,156,185,182"/>
-<area shape="poly" title=" " alt="" coords="48,187,80,179,82,185,49,192"/>
-<area shape="rect" href="group__group-opt-shift.html#gaf23f2aa0c5d7eb12285db868da64c4ff" title="uint32_t bitwise left shift optimised for the specified shift distance" alt="" coords="96,205,185,231"/>
-<area shape="poly" title=" " alt="" coords="49,196,81,203,80,208,48,201"/>
-<area shape="rect" href="group__group-opt-shift.html#ga3f366bd0f8feb9873ac404fc55a4f2af" title="uint32_t bitwise right shift optimised for the specified shift distance" alt="" coords="96,255,185,280"/>
-<area shape="poly" title=" " alt="" coords="46,205,97,241,102,244,99,249,94,246,43,210"/>
-<area shape="rect" href="group__group-opt-shift.html#ga580f0872fd2b2de69e5c48e944153ab0" title="uint32_t bitwise right shift optimised for the specified shift distance" alt="" coords="96,304,185,330"/>
-<area shape="poly" title=" " alt="" coords="37,206,61,247,98,291,100,293,96,297,94,295,56,250,32,209"/>
-<area shape="rect" href="group__group-opt-shift.html#gaefd9f7eb285d7571a12a6473b3f2ab24" title="uint32_t bitwise right shift optimised for the specified shift distance" alt="" coords="96,353,185,379"/>
-<area shape="poly" title=" " alt="" coords="33,207,54,269,73,306,98,340,99,341,95,345,94,344,68,309,49,271,28,208"/>
-<area shape="poly" title=" " alt="" coords="171,22,218,32,217,38,170,27"/>
+<div class="center"><img src="fuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_cgraph.png" border="0" usemap="#afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_cgraph" alt=""/></div>
+<map name="afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_cgraph" id="afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_cgraph">
+<area shape="rect" title="Apply the calculated pulse widths to the current system state." alt="" coords="5,5,188,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="236,5,286,31"/>
+<area shape="poly" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_icgraph.png" border="0" usemap="#afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_icgraph" alt=""/></div>
-<map name="afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_icgraph" id="afuel__calcs_8h_aa3afcbe51f5ee8a0e030650faa716041_icgraph">
-<area shape="rect" title="This function calculates the required pulsewidth time (in us) given the current system state." alt="" coords="99,5,141,31"/>
+<div class="center"><img src="fuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_icgraph.png" border="0" usemap="#afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_icgraph" alt=""/></div>
+<map name="afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_icgraph" id="afuel__calcs_8h_a1a0103639acb55f56b928c3aea9f9bdc_icgraph">
+<area shape="rect" title="Apply the calculated pulse widths to the current system state." alt="" coords="99,5,281,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
 <area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
 </map>
@@ -346,94 +187,201 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a52a23209328b74a1dc9b80349cfc4983" name="a52a23209328b74a1dc9b80349cfc4983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52a23209328b74a1dc9b80349cfc4983">&#9670;&#160;</a></span>inj_opentime_uS</h2>
+<a id="aca67c7723ed6f9b66ffe1b665c2ae3e1" name="aca67c7723ed6f9b66ffe1b665c2ae3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca67c7723ed6f9b66ffe1b665c2ae3e1">&#9670;&#160;</a></span>computePulseWidths()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> inj_opentime_uS</td>
+          <td class="memname"><a class="el" href="structpulse_widths.html">pulseWidths</a> computePulseWidths </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The injector opening time. This is set within Tuner Studio, but stored here in uS rather than mS </p>
-
-</div>
-</div>
-<a id="a3b20dbd79052be063c030cbe38344b94" name="a3b20dbd79052be063c030cbe38344b94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b20dbd79052be063c030cbe38344b94">&#9670;&#160;</a></span>req_fuel_uS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> req_fuel_uS</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The required fuel variable (As calculated by TunerStudio) in uS </p>
-
-</div>
-</div>
-<a id="a13ef012561cb22a327fee50ef10555f5" name="a13ef012561cb22a327fee50ef10555f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13ef012561cb22a327fee50ef10555f5">&#9670;&#160;</a></span>staged_req_fuel_mult_pri</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> staged_req_fuel_mult_pri</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a893db7275843064fb9d10a3fc2d61ab6" name="a893db7275843064fb9d10a3fc2d61ab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a893db7275843064fb9d10a3fc2d61ab6">&#9670;&#160;</a></span>staged_req_fuel_mult_sec</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> staged_req_fuel_mult_sec</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page2</td><td>Tune settings </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune settings </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune settings </td></tr>
+    <tr><td class="paramname">current</td><td>Current system state </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structpulse_widths.html" title="Result of pulse width calculation.">pulseWidths</a> The primary and secondary injector pulse width in uS </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph.png" border="0" usemap="#afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph" alt=""/></div>
+<map name="afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph" id="afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph">
+<area shape="rect" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="5,427,150,453"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce" title=" " alt="" coords="426,199,532,225"/>
+<area shape="poly" title=" " alt="" coords="101,425,440,231,442,235,103,429"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1639,997,1689,1022"/>
+<area shape="poly" title=" " alt="" coords="82,426,127,343,164,284,210,223,266,165,329,116,363,97,400,82,438,73,477,69,1332,69,1411,65,1476,62,1506,66,1535,76,1564,93,1593,121,1604,141,1613,172,1629,264,1642,385,1651,522,1661,795,1665,981,1660,981,1656,795,1645,522,1636,385,1624,264,1608,173,1599,143,1589,124,1561,98,1533,80,1505,71,1476,67,1411,70,1332,75,477,75,438,78,401,87,366,102,332,121,269,169,214,227,168,287,131,345,87,428"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="606,541,762,566"/>
+<area shape="poly" title=" " alt="" coords="150,451,597,535,596,540,149,456"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1046135fb15cb1c4ea0f3f4c2784c53b" title=" " alt="" coords="208,9,341,34"/>
+<area shape="poly" title=" " alt="" coords="76,427,81,362,97,263,112,207,133,152,161,99,196,52,209,40,212,44,200,55,165,102,138,154,117,209,103,264,86,362,82,427"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a281d921acd1394a2efbe45c1bbed1bfd" title=" " alt="" coords="1269,870,1392,896"/>
+<area shape="poly" title=" " alt="" coords="86,452,124,550,159,620,203,694,257,765,288,796,321,824,356,847,394,865,435,876,477,880,888,880,1253,880,1253,885,888,885,477,885,434,881,392,870,354,852,318,828,284,800,253,768,198,697,154,623,119,553,81,454"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="198,1173,351,1198"/>
+<area shape="poly" title=" " alt="" coords="85,453,200,901,268,1157,263,1158,195,902,80,454"/>
+<area shape="poly" title=" " alt="" coords="515,196,583,174,674,149,778,129,832,122,885,120,1332,120,1411,115,1476,112,1506,115,1535,124,1564,142,1593,169,1603,187,1613,217,1628,303,1640,417,1649,546,1661,804,1665,981,1660,981,1655,804,1644,546,1635,417,1623,304,1607,218,1598,189,1589,172,1560,146,1533,129,1505,120,1476,117,1411,121,1332,125,886,125,833,128,779,134,675,154,584,179,517,201"/>
+<area shape="poly" title=" " alt="" coords="693,566,708,600,733,645,767,691,788,711,811,729,850,751,885,766,918,775,949,780,1018,781,1104,779,1332,779,1408,773,1470,765,1500,765,1529,770,1560,783,1593,805,1612,823,1627,844,1648,892,1660,941,1665,981,1659,982,1655,942,1643,894,1622,847,1608,826,1589,809,1557,788,1528,775,1499,770,1471,770,1409,778,1332,784,1104,784,1018,786,949,785,917,781,883,771,848,756,808,733,785,715,763,694,728,647,703,602,688,568"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357" title=" " alt="" coords="1266,414,1395,440"/>
+<area shape="poly" title=" " alt="" coords="714,537,809,500,909,470,1012,449,1137,434,1250,427,1250,432,1137,440,1012,455,910,475,811,505,716,542"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#ac087508589c090c115e2ccb9cd65e113" title=" " alt="" coords="1272,819,1389,845"/>
+<area shape="poly" title=" " alt="" coords="690,566,700,612,722,677,738,711,758,744,782,774,811,798,845,813,892,824,1013,835,1144,837,1256,834,1256,839,1144,842,1013,841,892,829,843,818,808,802,778,778,753,747,733,714,717,679,695,614,685,567"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60" title=" " alt="" coords="1276,262,1385,288"/>
+<area shape="poly" title=" " alt="" coords="688,539,703,504,728,457,763,408,784,386,808,367,864,336,924,312,986,295,1048,282,1166,270,1261,268,1261,274,1166,275,1049,288,987,300,926,318,866,341,811,372,788,390,767,411,732,460,707,506,693,541"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a3f21f6b9b4231d9763b80e459c51a7a7" title=" " alt="" coords="812,566,962,592"/>
+<area shape="poly" title=" " alt="" coords="762,561,797,565,796,570,762,566"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#ae503661a89ae168d23e9430a8c26ee5e" title=" " alt="" coords="1270,617,1391,642"/>
+<area shape="poly" title=" " alt="" coords="712,564,757,585,810,602,931,621,1052,631,1164,633,1254,631,1255,636,1164,638,1052,636,930,626,809,607,755,590,710,569"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a3658b7687cadb06cb7ec723171fd2f37" title=" " alt="" coords="1067,363,1145,389"/>
+<area shape="poly" title=" " alt="" coords="690,539,707,510,733,473,767,436,808,406,870,382,935,370,998,366,1051,368,1051,373,998,372,936,375,872,387,811,410,771,440,737,476,711,513,694,541"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a7efec02ce6bb6e965d6398e438168e22" title=" " alt="" coords="826,693,948,718"/>
+<area shape="poly" title=" " alt="" coords="704,565,811,646,858,681,854,685,808,650,701,569"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e" title=" " alt="" coords="831,515,943,541"/>
+<area shape="poly" title=" " alt="" coords="762,541,815,534,816,540,762,546"/>
+<area shape="poly" title=" " alt="" coords="1395,412,1444,409,1497,413,1548,427,1572,440,1593,457,1606,474,1618,497,1637,556,1650,629,1658,709,1666,866,1666,981,1661,981,1661,866,1653,709,1644,630,1631,558,1613,499,1602,477,1589,461,1569,444,1546,432,1496,418,1444,414,1396,418"/>
+<area shape="rect" href="group__group-opt-shift.html#gaefd9f7eb285d7571a12a6473b3f2ab24" title="uint32_t bitwise right shift optimised for the specified shift distance" alt="" coords="1482,363,1571,389"/>
+<area shape="poly" title=" " alt="" coords="1382,411,1466,389,1467,394,1384,416"/>
+<area shape="poly" title=" " alt="" coords="1390,840,1437,852,1489,869,1543,891,1593,921,1625,950,1649,982,1645,986,1621,954,1589,925,1540,896,1487,874,1435,857,1389,845"/>
+<area shape="rect" href="maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1" title="Integer based percentage calculation: faster, but less accurate, than percentage()" alt="" coords="1464,819,1589,845"/>
+<area shape="poly" title=" " alt="" coords="1390,829,1448,829,1448,835,1390,835"/>
+<area shape="poly" title=" " alt="" coords="1565,843,1593,862,1616,891,1634,922,1657,981,1652,983,1629,925,1611,894,1589,866,1562,848"/>
+<area shape="poly" title=" " alt="" coords="1356,259,1405,238,1468,221,1502,218,1534,220,1565,229,1593,248,1603,263,1612,289,1628,366,1640,468,1649,584,1661,818,1665,981,1660,981,1655,818,1644,584,1634,468,1622,367,1607,291,1598,266,1589,251,1563,234,1534,225,1502,223,1469,226,1407,243,1358,264"/>
+<area shape="poly" title=" " alt="" coords="1384,286,1415,298,1460,324,1499,352,1496,356,1457,328,1413,303,1382,291"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="1497,262,1556,288"/>
+<area shape="poly" title=" " alt="" coords="1385,272,1481,272,1481,277,1385,277"/>
+<area shape="poly" title=" " alt="" coords="1558,280,1577,290,1593,305,1607,330,1619,362,1638,443,1651,538,1660,642,1667,842,1666,981,1661,981,1661,842,1654,642,1646,539,1633,444,1614,364,1602,333,1589,308,1574,294,1555,285"/>
+<area shape="poly" title=" " alt="" coords="961,570,1115,562,1304,561,1396,567,1478,579,1546,597,1572,610,1593,625,1611,651,1626,691,1647,792,1659,899,1664,981,1659,981,1654,899,1642,793,1621,692,1606,654,1589,629,1570,615,1544,602,1477,584,1395,572,1303,566,1116,567,962,575"/>
+<area shape="poly" title=" " alt="" coords="1391,619,1440,618,1494,623,1547,639,1571,652,1593,669,1609,692,1623,726,1643,814,1656,907,1664,981,1658,981,1651,908,1638,815,1618,728,1604,695,1589,673,1568,656,1545,644,1493,628,1440,623,1392,624"/>
+<area shape="poly" title=" " alt="" coords="1393,640,1415,653,1451,688,1480,729,1502,769,1517,804,1512,806,1497,771,1476,731,1447,691,1412,657,1390,645"/>
+<area shape="poly" title=" " alt="" coords="1115,361,1167,304,1204,273,1246,247,1342,199,1386,180,1428,167,1469,161,1510,166,1551,183,1593,214,1604,231,1613,258,1629,338,1641,445,1650,567,1661,811,1665,981,1660,981,1656,811,1645,567,1636,446,1624,339,1608,259,1599,233,1589,218,1548,187,1508,171,1469,166,1429,172,1388,185,1345,204,1249,252,1207,277,1170,308,1119,364"/>
+<area shape="rect" href="maths_8h.html#a721697aa299475556eb611a74a7246f3" title="Integer based percentage calculation." alt="" coords="1288,313,1373,338"/>
+<area shape="poly" title=" " alt="" coords="1145,365,1272,336,1273,341,1146,370"/>
+<area shape="poly" title=" " alt="" coords="1373,313,1423,306,1482,305,1513,309,1542,317,1569,330,1593,349,1602,363,1609,385,1623,451,1644,637,1658,838,1664,981,1659,981,1653,838,1639,638,1618,452,1604,387,1597,365,1589,353,1566,335,1540,322,1512,314,1482,310,1424,311,1374,318"/>
+<area shape="poly" title=" " alt="" coords="1373,312,1481,284,1482,289,1374,317"/>
+<area shape="poly" title=" " alt="" coords="948,704,1110,708,1312,718,1493,735,1557,746,1592,761,1615,784,1633,811,1646,841,1655,872,1665,932,1667,981,1661,981,1660,933,1650,873,1641,843,1628,814,1611,787,1590,765,1555,752,1492,740,1311,724,1110,714,948,709"/>
+<area shape="poly" title=" " alt="" coords="943,521,1095,513,1290,513,1387,519,1474,532,1545,552,1572,566,1593,582,1612,613,1628,657,1640,712,1649,771,1660,891,1665,981,1659,981,1655,891,1644,772,1634,713,1622,659,1607,615,1589,586,1569,570,1543,557,1473,537,1386,525,1290,518,1095,518,943,526"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a8e49bf9441f060d27502c1bc8f899d76" title=" " alt="" coords="1012,465,1199,490"/>
+<area shape="poly" title=" " alt="" coords="943,513,1032,492,1033,497,944,518"/>
+<area shape="poly" title=" " alt="" coords="1200,468,1306,464,1422,465,1476,470,1525,478,1565,490,1593,507,1605,523,1617,543,1634,596,1647,661,1656,733,1665,876,1666,981,1661,981,1659,876,1651,734,1642,662,1629,598,1612,545,1601,526,1589,511,1562,495,1524,483,1476,475,1421,471,1306,469,1200,473"/>
+<area shape="poly" title=" " alt="" coords="1125,462,1296,345,1299,350,1128,466"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#ae5d4c089863e28884b9f8d7890fa267e" title=" " alt="" coords="1247,667,1414,693"/>
+<area shape="poly" title=" " alt="" coords="1116,490,1135,523,1165,567,1203,613,1249,653,1258,658,1255,663,1246,657,1199,617,1160,570,1131,525,1112,492"/>
+<area shape="poly" title=" " alt="" coords="1414,665,1459,665,1507,670,1552,684,1593,710,1608,730,1620,759,1640,834,1654,915,1663,981,1657,981,1649,916,1635,835,1615,761,1603,733,1589,714,1550,689,1505,675,1459,670,1414,671"/>
+<area shape="rect" href="maths_8h.html#adb2095c28032cb930b8070f9fd8acc04" title="Optimised division: uint32_t/uint16_t =&gt; uint16_t." alt="" coords="1483,1173,1570,1198"/>
+<area shape="poly" title=" " alt="" coords="1345,692,1381,740,1401,772,1416,806,1430,859,1433,908,1424,994,1420,1034,1423,1074,1436,1115,1464,1160,1471,1167,1467,1171,1460,1163,1431,1118,1418,1075,1415,1034,1419,993,1428,908,1425,860,1411,808,1396,774,1377,743,1341,695"/>
+<area shape="poly" title=" " alt="" coords="1569,1172,1589,1159,1613,1131,1632,1098,1654,1036,1659,1038,1637,1100,1618,1134,1593,1163,1572,1177"/>
+<area shape="poly" title=" " alt="" coords="342,19,683,19,1332,19,1410,12,1475,3,1505,4,1534,11,1563,26,1593,52,1605,72,1615,106,1632,206,1645,337,1654,486,1663,782,1665,981,1660,981,1658,782,1649,486,1640,337,1627,206,1610,107,1600,75,1589,55,1560,30,1532,16,1504,9,1475,9,1410,17,1332,24,683,24,342,24"/>
+<area shape="poly" title=" " alt="" coords="1388,894,1484,922,1592,963,1633,986,1630,990,1590,968,1483,927,1386,899"/>
+<area shape="poly" title=" " alt="" coords="1382,867,1459,847,1460,852,1384,872"/>
+<area shape="poly" title=" " alt="" coords="279,1198,283,1259,295,1358,317,1479,352,1609,375,1673,403,1735,435,1791,473,1841,516,1883,565,1915,621,1936,683,1943,1332,1943,1373,1945,1410,1950,1475,1960,1504,1960,1532,1954,1560,1940,1589,1916,1600,1897,1609,1867,1626,1773,1638,1649,1647,1508,1657,1228,1660,1038,1665,1038,1663,1228,1653,1509,1644,1650,1631,1774,1615,1868,1605,1900,1593,1919,1563,1945,1534,1959,1504,1965,1474,1965,1409,1955,1373,1950,1332,1948,683,1948,619,1941,563,1920,513,1887,469,1845,431,1794,398,1737,370,1675,346,1611,311,1480,290,1358,278,1260,274,1199"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#afc0732293930ebf5d17fe10483a61a61" title=" " alt="" coords="810,1173,964,1198"/>
+<area shape="poly" title=" " alt="" coords="351,1183,794,1183,794,1188,351,1188"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b" title=" " alt="" coords="399,1274,558,1300"/>
+<area shape="poly" title=" " alt="" coords="304,1197,439,1265,437,1269,301,1201"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#af1121485a32150f15485437440ad7ad3" title=" " alt="" coords="625,1009,743,1034"/>
+<area shape="poly" title=" " alt="" coords="308,1170,634,1038,636,1043,310,1175"/>
+<area shape="poly" title=" " alt="" coords="946,1169,1623,1016,1624,1021,948,1175"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#acc6fc32e5d5be6abb14eec7bf0b57713" title=" " alt="" coords="1035,1223,1177,1249"/>
+<area shape="poly" title=" " alt="" coords="946,1196,1033,1217,1032,1222,945,1202"/>
+<area shape="rect" href="maths_8h.html#a5b788bbd54aceffabd00a192c3e45676" title="U32/U16 =&gt; U32." alt="" coords="1299,1173,1362,1198"/>
+<area shape="poly" title=" " alt="" coords="964,1183,1284,1183,1284,1188,964,1188"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a74742f5211ac1482ffa4e4bce029597e" title=" " alt="" coords="1042,1274,1169,1300"/>
+<area shape="poly" title=" " alt="" coords="908,1197,954,1228,1013,1259,1032,1266,1030,1271,1011,1264,951,1232,905,1201"/>
+<area shape="poly" title=" " alt="" coords="1178,1239,1283,1244,1405,1244,1463,1241,1516,1234,1559,1224,1589,1209,1608,1192,1623,1171,1644,1125,1655,1077,1659,1037,1665,1038,1660,1078,1649,1127,1627,1174,1612,1195,1593,1213,1561,1229,1517,1239,1464,1246,1405,1250,1283,1249,1177,1244"/>
+<area shape="poly" title=" " alt="" coords="1165,1220,1284,1193,1285,1198,1167,1225"/>
+<area shape="poly" title=" " alt="" coords="1352,1170,1460,1108,1525,1080,1590,1051,1629,1029,1631,1033,1592,1056,1528,1085,1463,1113,1355,1174"/>
+<area shape="poly" title=" " alt="" coords="1362,1183,1467,1183,1467,1188,1362,1188"/>
+<area shape="rect" href="maths_8h.html#a4f73cb3c7ca48073fd70f38a69927780" title=" " alt="" coords="1462,1123,1591,1149"/>
+<area shape="poly" title=" " alt="" coords="1361,1175,1457,1151,1459,1156,1363,1180"/>
+<area shape="poly" title=" " alt="" coords="1560,1121,1589,1102,1621,1068,1646,1034,1650,1037,1625,1072,1593,1106,1562,1125"/>
+<area shape="poly" title=" " alt="" coords="1171,1294,1201,1310,1213,1323,1220,1337,1224,1364,1230,1390,1237,1401,1249,1411,1279,1425,1321,1435,1369,1442,1421,1445,1473,1443,1521,1437,1561,1427,1589,1411,1608,1386,1624,1345,1636,1295,1645,1238,1656,1125,1660,1037,1665,1038,1661,1125,1650,1239,1641,1296,1629,1347,1613,1388,1593,1415,1563,1432,1522,1443,1474,1448,1421,1450,1369,1447,1320,1440,1277,1430,1246,1416,1233,1405,1225,1392,1219,1365,1214,1339,1208,1326,1198,1314,1168,1298"/>
+<area shape="poly" title=" " alt="" coords="485,1300,494,1351,512,1430,540,1526,580,1630,605,1680,634,1729,666,1773,701,1812,741,1845,785,1870,833,1886,886,1892,1332,1892,1373,1894,1410,1900,1475,1910,1504,1910,1532,1905,1560,1891,1589,1866,1599,1849,1608,1820,1624,1732,1637,1616,1646,1483,1656,1218,1660,1038,1665,1038,1662,1219,1651,1483,1642,1616,1630,1733,1614,1821,1604,1851,1593,1870,1563,1895,1533,1910,1504,1916,1474,1915,1409,1905,1373,1900,1332,1897,885,1897,832,1892,783,1875,738,1850,698,1816,661,1776,629,1732,601,1683,575,1632,535,1528,507,1431,489,1352,479,1301"/>
+<area shape="poly" title=" " alt="" coords="478,1273,489,1137,513,917,531,798,551,688,576,594,589,557,604,527,633,486,667,451,705,420,747,394,791,373,838,355,936,330,1034,316,1126,312,1208,312,1273,317,1272,322,1208,318,1126,317,1034,322,937,335,840,360,793,377,749,399,708,424,670,454,637,489,609,529,594,559,581,596,557,689,536,799,519,917,495,1138,484,1274"/>
+<area shape="poly" title=" " alt="" coords="558,1271,606,1265,829,1247,1019,1237,1019,1242,830,1252,607,1271,559,1277"/>
+<area shape="poly" title=" " alt="" coords="558,1284,1027,1284,1027,1289,558,1289"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a4d1bd8466ac17df72bb186957f1cf412" title=" " alt="" coords="1026,1325,1185,1350"/>
+<area shape="poly" title=" " alt="" coords="559,1291,1011,1327,1010,1332,558,1296"/>
+<area shape="rect" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values." alt="" coords="624,1451,744,1477"/>
+<area shape="poly" title=" " alt="" coords="497,1298,657,1439,654,1443,493,1302"/>
+<area shape="poly" title=" " alt="" coords="1115,1350,1182,1496,1221,1574,1237,1601,1248,1614,1422,1614,1590,1611,1597,1601,1604,1581,1617,1523,1638,1354,1652,1170,1659,1038,1664,1038,1657,1171,1643,1354,1622,1524,1609,1583,1601,1603,1592,1616,1422,1620,1246,1619,1233,1604,1216,1577,1177,1499,1110,1352"/>
+<area shape="poly" title=" " alt="" coords="1172,1322,1198,1310,1213,1299,1223,1287,1245,1260,1301,1207,1305,1211,1249,1263,1227,1291,1217,1303,1201,1314,1175,1326"/>
+<area shape="poly" title=" " alt="" coords="694,1476,740,1561,780,1621,828,1684,886,1744,952,1794,987,1814,1025,1829,1064,1838,1104,1841,1332,1841,1373,1844,1410,1849,1475,1860,1503,1860,1532,1855,1560,1841,1589,1817,1599,1801,1608,1774,1623,1692,1635,1583,1644,1458,1656,1209,1660,1038,1665,1038,1661,1210,1650,1458,1640,1583,1628,1692,1613,1775,1603,1803,1593,1821,1563,1846,1533,1860,1504,1866,1474,1865,1409,1854,1373,1849,1332,1847,1104,1847,1063,1843,1023,1834,985,1818,949,1798,882,1748,824,1687,775,1624,736,1564,689,1478"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="1282,1375,1379,1401"/>
+<area shape="poly" title=" " alt="" coords="744,1454,1267,1393,1267,1398,745,1460"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="817,1502,957,1528"/>
+<area shape="poly" title=" " alt="" coords="739,1475,818,1495,817,1500,738,1480"/>
+<area shape="poly" title=" " alt="" coords="1378,1376,1498,1344,1554,1323,1575,1312,1589,1301,1602,1282,1613,1253,1633,1180,1657,1037,1662,1038,1638,1181,1618,1255,1606,1284,1593,1305,1578,1317,1556,1328,1500,1349,1380,1381"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="1465,1375,1588,1401"/>
+<area shape="poly" title=" " alt="" coords="1379,1385,1449,1385,1449,1391,1379,1391"/>
+<area shape="poly" title=" " alt="" coords="1566,1373,1589,1354,1602,1330,1614,1295,1635,1205,1649,1111,1657,1037,1663,1038,1654,1112,1640,1206,1620,1296,1607,1332,1593,1358,1569,1377"/>
+<area shape="poly" title=" " alt="" coords="957,1516,1111,1520,1300,1517,1392,1509,1476,1495,1543,1476,1569,1463,1589,1449,1609,1419,1625,1374,1637,1318,1646,1256,1657,1132,1660,1038,1665,1038,1662,1132,1652,1257,1642,1319,1630,1376,1614,1422,1593,1453,1572,1468,1545,1481,1477,1501,1393,1514,1300,1522,1111,1526,957,1521"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="1036,1553,1175,1578"/>
+<area shape="poly" title=" " alt="" coords="946,1526,1033,1546,1032,1551,945,1531"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="1257,1274,1404,1300"/>
+<area shape="poly" title=" " alt="" coords="916,1499,1040,1441,1198,1360,1293,1306,1296,1310,1201,1365,1042,1445,918,1504"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="1057,1653,1154,1678"/>
+<area shape="poly" title=" " alt="" coords="909,1526,1075,1642,1072,1646,906,1530"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="1484,1781,1569,1806"/>
+<area shape="poly" title=" " alt="" coords="896,1527,912,1560,937,1604,971,1649,1014,1689,1069,1722,1129,1748,1192,1767,1255,1780,1374,1793,1468,1794,1468,1799,1374,1798,1254,1785,1191,1772,1127,1753,1066,1727,1010,1693,967,1653,933,1607,907,1562,891,1529"/>
+<area shape="poly" title=" " alt="" coords="1132,1577,1217,1618,1275,1640,1339,1659,1406,1670,1473,1669,1504,1664,1535,1654,1563,1639,1589,1620,1597,1608,1604,1589,1617,1530,1638,1358,1652,1172,1659,1038,1664,1038,1657,1173,1644,1359,1623,1530,1609,1591,1601,1611,1593,1623,1566,1644,1537,1659,1506,1669,1473,1675,1406,1675,1338,1664,1273,1646,1215,1623,1129,1581"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="1481,1527,1572,1553"/>
+<area shape="poly" title=" " alt="" coords="1175,1559,1466,1541,1466,1546,1176,1564"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="1288,1578,1373,1604"/>
+<area shape="poly" title=" " alt="" coords="1176,1571,1273,1582,1272,1587,1175,1576"/>
+<area shape="poly" title=" " alt="" coords="1566,1525,1589,1506,1607,1469,1622,1415,1634,1350,1643,1279,1655,1140,1659,1038,1665,1038,1660,1140,1649,1280,1640,1351,1627,1416,1612,1471,1593,1510,1570,1529"/>
+<area shape="poly" title=" " alt="" coords="1374,1598,1424,1605,1482,1606,1512,1602,1540,1594,1566,1581,1589,1564,1602,1536,1615,1482,1635,1328,1650,1160,1659,1038,1664,1038,1656,1161,1641,1329,1620,1483,1607,1537,1593,1567,1569,1586,1542,1599,1513,1607,1482,1611,1424,1611,1373,1604"/>
+<area shape="poly" title=" " alt="" coords="1373,1577,1466,1553,1467,1558,1374,1582"/>
+<area shape="poly" title=" " alt="" coords="1405,1295,1451,1296,1500,1292,1547,1278,1569,1267,1589,1253,1611,1230,1627,1204,1640,1175,1649,1145,1659,1086,1661,1038,1666,1038,1664,1086,1654,1146,1645,1177,1632,1206,1615,1233,1593,1257,1572,1272,1549,1283,1501,1297,1451,1302,1405,1300"/>
+<area shape="poly" title=" " alt="" coords="1356,1271,1485,1203,1488,1208,1359,1276"/>
+<area shape="poly" title=" " alt="" coords="1139,1676,1227,1707,1285,1722,1348,1732,1413,1736,1477,1729,1537,1710,1564,1695,1589,1676,1597,1663,1605,1642,1619,1576,1631,1488,1640,1387,1653,1183,1659,1038,1665,1038,1659,1183,1646,1387,1636,1488,1625,1577,1610,1643,1602,1666,1593,1679,1567,1699,1539,1715,1478,1734,1413,1741,1347,1738,1284,1727,1225,1712,1137,1681"/>
+<area shape="poly" title=" " alt="" coords="1567,1778,1589,1760,1603,1718,1616,1641,1637,1425,1652,1197,1659,1038,1664,1038,1657,1197,1643,1426,1621,1641,1608,1719,1593,1763,1571,1782"/>
+<area shape="poly" title=" " alt="" coords="744,1010,906,992,1005,984,1104,981,1332,981,1494,989,1624,1002,1623,1007,1494,994,1332,987,1104,987,1005,990,906,997,744,1016"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph.png" border="0" usemap="#afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph" alt=""/></div>
+<map name="afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph" id="afuel__calcs_8h_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph">
+<area shape="rect" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="99,5,243,31"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
+<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
+</map>
+</div>
 
 </div>
 </div>

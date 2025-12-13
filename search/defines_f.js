@@ -23,5 +23,6 @@ var searchData=
   ['protect_5fcut_5ffuel_20',['PROTECT_CUT_FUEL',['../config__pages_8h.html#ac8ec9c1ebc6604ad8240f8738e52eba6',1,'config_pages.h']]],
   ['protect_5fcut_5fign_21',['PROTECT_CUT_IGN',['../config__pages_8h.html#a59426a439f9e6ec9e302b2e90b785859',1,'config_pages.h']]],
   ['protect_5fcut_5foff_22',['PROTECT_CUT_OFF',['../config__pages_8h.html#a126163e38759048dc6f7bfcb18dd047f',1,'config_pages.h']]],
-  ['pwm_5ffan_5favailable_23',['pwm_fan_available',['../board__stm32__official_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_teensy35.h']]]
+  ['protect_5fio_5ferror_23',['PROTECT_IO_ERROR',['../config__pages_8h.html#a72c2a852d9f69f1ac163350fcf0b2401',1,'config_pages.h']]],
+  ['pwm_5ffan_5favailable_24',['pwm_fan_available',['../board__stm32__official_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_teensy35.h']]]
 ];
