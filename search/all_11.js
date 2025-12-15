@@ -85,6 +85,6 @@ var searchData=
   ['globals_2eh_82',['globals.h',['../globals_8h.html',1,'']]],
   ['gm_2024x_83',['GM 24X',['../group__dec__gm.html',1,'']]],
   ['gm7x_84',['GM7X',['../group__dec__gm7x.html',1,'']]],
-  ['going_5fhigh_85',['GOING_HIGH',['../config__pages_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'config_pages.h']]],
-  ['going_5flow_86',['GOING_LOW',['../config__pages_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'config_pages.h']]]
+  ['going_5fhigh_85',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
+  ['going_5flow_86',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
 ];

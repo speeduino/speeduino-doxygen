@@ -1,13 +1,23 @@
 var searchData=
 [
-  ['n2o_5fstage1_5fpin_5fhigh_0',['N2O_STAGE1_PIN_HIGH',['../auxiliaries_8h.html#abcd434b22b5dda07854165ae1f111e3f',1,'auxiliaries.h']]],
-  ['n2o_5fstage1_5fpin_5flow_1',['N2O_STAGE1_PIN_LOW',['../auxiliaries_8h.html#abac195731d91c8081203bc631c00e680',1,'auxiliaries.h']]],
-  ['n2o_5fstage2_5fpin_5fhigh_2',['N2O_STAGE2_PIN_HIGH',['../auxiliaries_8h.html#ad32a9c226eea4c1504663f277e33843c',1,'auxiliaries.h']]],
-  ['n2o_5fstage2_5fpin_5flow_3',['N2O_STAGE2_PIN_LOW',['../auxiliaries_8h.html#aa70c9c52509bedbe1385830810e1fc15',1,'auxiliaries.h']]],
-  ['native_5fcan_5favailable_4',['native_can_available',['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h']]],
-  ['new_5fcan_5fpacket_5fsize_5',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]],
-  ['nitrous_5fboth_6',['NITROUS_BOTH',['../config__pages_8h.html#af40d036c521e97956fbc3e38493193fd',1,'config_pages.h']]],
-  ['nitrous_5foff_7',['NITROUS_OFF',['../config__pages_8h.html#a80972618ee06818b20a2d2dba28f01d2',1,'config_pages.h']]],
-  ['nitrous_5fstage1_8',['NITROUS_STAGE1',['../config__pages_8h.html#aa75be79f7eee8079150e7c564b4097ab',1,'config_pages.h']]],
-  ['nitrous_5fstage2_9',['NITROUS_STAGE2',['../config__pages_8h.html#a2b90e1db9e12cf7ae1e9a9a917abcf0b',1,'config_pages.h']]]
+  ['pinisreserved_0',['pinisreserved',['../board__stm32__official_8h.html#ac2d8dc517be71e19eb11291408cf6eae',1,'pinIsReserved:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#ac2d8dc517be71e19eb11291408cf6eae',1,'pinIsReserved:&#160;board_teensy35.h'],['../board__teensy41_8h.html#ac2d8dc517be71e19eb11291408cf6eae',1,'pinIsReserved:&#160;board_teensy41.h'],['../board__avr2560_8h.html#ac2d8dc517be71e19eb11291408cf6eae',1,'pinIsReserved:&#160;board_avr2560.h']]],
+  ['pinissensor_1',['pinIsSensor',['../globals_8cpp.html#a6c6db48e18128ef4fff4df5e1438388d',1,'globals.cpp']]],
+  ['pp_5finc_2',['PP_INC',['../utilities_8h.html#a4f7b05e2e26ec587b6021f7f6d471432',1,'utilities.h']]],
+  ['pp_5finc_5f0_3',['PP_INC_0',['../utilities_8h.html#adbcfed180e9dea233c9346301a36df91',1,'utilities.h']]],
+  ['pp_5finc_5f1_4',['PP_INC_1',['../utilities_8h.html#a35ae7ae26ace6574d49bceb0def7c15d',1,'utilities.h']]],
+  ['pp_5finc_5f10_5',['PP_INC_10',['../utilities_8h.html#a8351442379fc4b8319d504533e986800',1,'utilities.h']]],
+  ['pp_5finc_5f11_6',['PP_INC_11',['../utilities_8h.html#a0f912348840f56d94cf5ca6a5f8054c8',1,'utilities.h']]],
+  ['pp_5finc_5f12_7',['PP_INC_12',['../utilities_8h.html#ae83c71e645867aceb3d8d88a7199bb31',1,'utilities.h']]],
+  ['pp_5finc_5f2_8',['PP_INC_2',['../utilities_8h.html#a2c3ef1d05b87b7746893fa96022c6287',1,'utilities.h']]],
+  ['pp_5finc_5f3_9',['PP_INC_3',['../utilities_8h.html#a94991323fbc66698e2d5da23d3f536ad',1,'utilities.h']]],
+  ['pp_5finc_5f4_10',['PP_INC_4',['../utilities_8h.html#a0c976bd2ca6eec99ecfaa0c3cf370305',1,'utilities.h']]],
+  ['pp_5finc_5f5_11',['PP_INC_5',['../utilities_8h.html#a5b6d90dd81c960e80d817c4468dfdc6f',1,'utilities.h']]],
+  ['pp_5finc_5f6_12',['PP_INC_6',['../utilities_8h.html#a27e52137f0d6f285889291e151eac6fb',1,'utilities.h']]],
+  ['pp_5finc_5f7_13',['PP_INC_7',['../utilities_8h.html#a64b4b35a3aacb3015a6c35c5bca3fff4',1,'utilities.h']]],
+  ['pp_5finc_5f8_14',['PP_INC_8',['../utilities_8h.html#a538715d2baee5552d97d7ba04853695a',1,'utilities.h']]],
+  ['pp_5finc_5f9_15',['PP_INC_9',['../utilities_8h.html#a88b27bc1d55f7c732f8ee8f1ffca185a',1,'utilities.h']]],
+  ['pp_5finc_5fi_16',['PP_INC_I',['../utilities_8h.html#a19c89280e7b8096a5dcf11869dee2ef3',1,'utilities.h']]],
+  ['primaryserial_17',['primarySerial',['../comms_8h.html#a8f22d4abe44d2b7d78b2056f3fdb0778',1,'comms.h']]],
+  ['progoutspage_18',['progOutsPage',['../pages_8h.html#ad8c831178aad78b1308d2df78971c8d2',1,'pages.h']]],
+  ['pwm_5ffan_5favailable_19',['pwm_fan_available',['../board__stm32__official_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a7674b3c07abe0846812a7c78fc7b893d',1,'PWM_FAN_AVAILABLE:&#160;board_teensy35.h']]]
 ];

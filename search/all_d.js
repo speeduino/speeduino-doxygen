@@ -112,7 +112,7 @@ var searchData=
   ['clamptoactualteeth_109',['clampToActualTeeth',['../group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680',1,'decoders.cpp']]],
   ['clamptotoothcount_110',['clampToToothCount',['../group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439',1,'decoders.cpp']]],
   ['clidletarget_111',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],
-  ['closed_5floop_5fboost_112',['CLOSED_LOOP_BOOST',['../config__pages_8h.html#aa8a2d06ef12d53416a4756a00b5ba742',1,'config_pages.h']]],
+  ['closed_5floop_5fboost_112',['CLOSED_LOOP_BOOST',['../config__pages_8h.html#a16d21810cc9e57689c0a11344d637698',1,'config_pages.h']]],
   ['closeinjector1_113',['closeinjector1',['../scheduled_i_o_8cpp.html#a6d93b3471f174de80ea90226da8bd349',1,'closeInjector1(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a6d93b3471f174de80ea90226da8bd349',1,'closeInjector1(void):&#160;scheduledIO.cpp']]],
   ['closeinjector1_5fdirect_114',['closeInjector1_DIRECT',['../scheduled_i_o_8h.html#aa948bef96c4ddd9d951af65338e85446',1,'scheduledIO.h']]],
   ['closeinjector1_5fmc33810_115',['closeInjector1_MC33810',['../acc__mc33810_8h.html#a44e3e7ce7cd519d9c8a5ab9b0db829e1',1,'acc_mc33810.h']]],

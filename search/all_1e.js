@@ -349,7 +349,7 @@ var searchData=
   ['ts_5fcommandbuttonhandler_2ecpp_346',['TS_CommandButtonHandler.cpp',['../_t_s___command_button_handler_8cpp.html',1,'']]],
   ['ts_5fcommandbuttonhandler_2eh_347',['TS_CommandButtonHandler.h',['../_t_s___command_button_handler_8h.html',1,'']]],
   ['ts_5fcommandbuttonshandler_348',['ts_commandbuttonshandler',['../_t_s___command_button_handler_8h.html#a1d5b41f39bf9439c1cb139a2bb27f225',1,'TS_CommandButtonsHandler(uint16_t buttonCommand):&#160;TS_CommandButtonHandler.cpp'],['../_t_s___command_button_handler_8cpp.html#a1d5b41f39bf9439c1cb139a2bb27f225',1,'TS_CommandButtonsHandler(uint16_t buttonCommand):&#160;TS_CommandButtonHandler.cpp']]],
-  ['two_5fstroke_349',['TWO_STROKE',['../config__pages_8h.html#ad2b65a5cb4c34cbcaf4c059d3efc5940',1,'config_pages.h']]],
+  ['two_5fstroke_349',['TWO_STROKE',['../config__pages_8h.html#a6ca18a50243d39ef57238cf9d75c17e8',1,'config_pages.h']]],
   ['type_350',['type',['../structtype__traits_1_1remove__reference_3_01_t_01_6_6_01_4.html#a36eaf2fda86a475a5e5275efaf43ac1d',1,'type_traits::remove_reference&lt; T &amp;&amp; &gt;::type'],['../structtype__traits_1_1remove__reference.html#a1e0f745a5a5fd798ca05966044ee57c2',1,'type_traits::remove_reference::type'],['../structtype__traits_1_1remove__reference_3_01_t_01_6_01_4.html#ac3c4b201f09768b607fad740203e254c',1,'type_traits::remove_reference&lt; T &amp; &gt;::type'],['../structpage__iterator__t.html#a6110447b9adc3afb4cc93a79a33e97a5',1,'page_iterator_t::type']]],
   ['type_5fdetection_5fdetail_351',['type_detection_detail',['../namespacetype__detection__detail.html',1,'']]],
   ['type_5ftraits_352',['type_traits',['../namespacetype__traits.html',1,'']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['uint16_5fhalf_5frange_0',['UINT16_HALF_RANGE',['../globals_8h.html#a912cdd9d452ae2e3e568904ca9cdd2ac',1,'globals.h']]],
-  ['unused_1',['UNUSED',['../utilities_8h.html#a86d500a34c624c2cae56bc25a31b12f3',1,'utilities.h']]],
-  ['us_5fto_5ftimer_5fcompare_2',['us_to_timer_compare',['../board__avr2560_8h.html#a04a81f6ace78fc29f5a370e79a42529c',1,'uS_TO_TIMER_COMPARE:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a04a81f6ace78fc29f5a370e79a42529c',1,'uS_TO_TIMER_COMPARE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a1bdf97b43c9fe9f2d4c1f1e8181951d8',1,'uS_TO_TIMER_COMPARE:&#160;board_teensy35.h']]],
-  ['use_5fign_5frefresh_3',['USE_IGN_REFRESH',['../scheduler_8h.html#a5e5e7065ac68865b7edd56eb92a2e164',1,'scheduler.h']]]
+  ['warmuppage_0',['warmupPage',['../pages_8h.html#ab82b7a3d9ae02af17727c986bfc9f139',1,'pages.h']]],
+  ['wmi_5ftank_5fis_5fempty_1',['WMI_TANK_IS_EMPTY',['../auxiliaries_8h.html#a1ccd4b82b14cc4f65e49c4e69bb4e900',1,'auxiliaries.h']]],
+  ['wmimappage_2',['wmiMapPage',['../pages_8h.html#a0af99f996e418397d4814d6930d00bfc',1,'pages.h']]],
+  ['word_3',['word',['../board__stm32__official_8h.html#ad70c0799a0be6d2066768752eaad976b',1,'board_stm32_official.h']]]
 ];

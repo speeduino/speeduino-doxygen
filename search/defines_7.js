@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['going_5fhigh_0',['GOING_HIGH',['../config__pages_8h.html#af9cb6c2aa75e2378bd9e7deed61decfe',1,'config_pages.h']]],
-  ['going_5flow_1',['GOING_LOW',['../config__pages_8h.html#aceb37f5f47cfea3e05aeb98f22c00ece',1,'config_pages.h']]]
+  ['hard_5frev_5fcoolant_0',['HARD_REV_COOLANT',['../engine_protection_8h.html#aa6fbedc96bcadd6a15f6b8ae9b67ad66',1,'engineProtection.h']]],
+  ['hard_5frev_5ffixed_1',['HARD_REV_FIXED',['../engine_protection_8h.html#a18a4e88628ee130de845720a18d80954',1,'engineProtection.h']]]
 ];

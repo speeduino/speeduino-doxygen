@@ -153,5 +153,6 @@ var searchData=
   ['ts_5fcmd_5fvss_5fratio4_150',['TS_CMD_VSS_RATIO4',['../_t_s___command_button_handler_8h.html#a550e61204aba03d3021cd7b2449b712a',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fvss_5fratio5_151',['TS_CMD_VSS_RATIO5',['../_t_s___command_button_handler_8h.html#a862661a454799f7de7395da05e8edf5a',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fvss_5fratio6_152',['TS_CMD_VSS_RATIO6',['../_t_s___command_button_handler_8h.html#ac07be758754663b66fcdc715bc9bc8e9',1,'TS_CommandButtonHandler.h']]],
-  ['type_153',['type',['../structpage__iterator__t.html#a6110447b9adc3afb4cc93a79a33e97a5',1,'page_iterator_t']]]
+  ['two_5fstroke_153',['TWO_STROKE',['../config__pages_8h.html#a6ca18a50243d39ef57238cf9d75c17e8',1,'config_pages.h']]],
+  ['type_154',['type',['../structpage__iterator__t.html#a6110447b9adc3afb4cc93a79a33e97a5',1,'page_iterator_t']]]
 ];
