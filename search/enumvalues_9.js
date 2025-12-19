@@ -10,6 +10,5 @@ var searchData=
   ['serial_5ftransmit_5ftooth_5finprogress_7',['SERIAL_TRANSMIT_TOOTH_INPROGRESS',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a78038572c3563d5363fd6089d67ba25c',1,'comms_legacy.h']]],
   ['serial_5ftransmit_5ftooth_5finprogress_5flegacy_8',['SERIAL_TRANSMIT_TOOTH_INPROGRESS_LEGACY',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a5b78d53126366957b619b42f7e928a5c',1,'comms_legacy.h']]],
   ['soff_9',['SOFF',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502',1,'idle.h']]],
-  ['staged_10',['STAGED',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a4a286d1028261c97a77ae79784da3281',1,'scheduler.h']]],
-  ['stepping_11',['STEPPING',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.h']]]
+  ['stepping_10',['STEPPING',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.h']]]
 ];

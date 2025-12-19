@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">scheduler.cpp File Reference</div></div>
@@ -88,22 +89,45 @@ $(function() {
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ac6cf7ebdaa3e11c56c38fcb21ead3ab5" id="r_ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>&#160;&#160;&#160;30</td></tr>
+<tr class="separator:ac6cf7ebdaa3e11c56c38fcb21ead3ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a458136bb1a7859d52f44a080899d0184" id="r_a458136bb1a7859d52f44a080899d0184"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a458136bb1a7859d52f44a080899d0184">DWELL_AVERAGE</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">input</a>)&#160;&#160;&#160;<a class="el" href="maths_8h.html#a42d820a247b720e6deb44d57fc2f6145">LOW_PASS_FILTER</a>((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">input</a>), <a class="el" href="scheduler_8cpp.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>, currentStatus.actualDwell)</td></tr>
+<tr class="separator:a458136bb1a7859d52f44a080899d0184"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9dcc32d6d79c32bbae138941cd60449b" id="r_a9dcc32d6d79c32bbae138941cd60449b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b">reset</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>)</td></tr>
+<tr class="separator:a9dcc32d6d79c32bbae138941cd60449b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a251e6f3e9e1cebce3b02d73fa98ed1e4" id="r_a251e6f3e9e1cebce3b02d73fa98ed1e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a251e6f3e9e1cebce3b02d73fa98ed1e4">reset</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>)</td></tr>
 <tr class="separator:a251e6f3e9e1cebce3b02d73fa98ed1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5599ce7efc9f9faf9ad2508ed0ffb564" id="r_a5599ce7efc9f9faf9ad2508ed0ffb564"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a5599ce7efc9f9faf9ad2508ed0ffb564">reset</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>)</td></tr>
 <tr class="separator:a5599ce7efc9f9faf9ad2508ed0ffb564"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b6832dde269a23d3ca231c2e7e2e08" id="r_a96b6832dde269a23d3ca231c2e7e2e08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a96b6832dde269a23d3ca231c2e7e2e08">initialiseSchedulers</a> ()</td></tr>
-<tr class="separator:a96b6832dde269a23d3ca231c2e7e2e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5dad03527c9214889a96badfe3c456a9" id="r_a5dad03527c9214889a96badfe3c456a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a5dad03527c9214889a96badfe3c456a9">_setFuelScheduleRunning</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">timeout</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> duration)</td></tr>
-<tr class="separator:a5dad03527c9214889a96badfe3c456a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4904cfaaf9e10ccee5b392d80069adf4" id="r_a4904cfaaf9e10ccee5b392d80069adf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a4904cfaaf9e10ccee5b392d80069adf4">_setFuelScheduleNext</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">timeout</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> duration)</td></tr>
-<tr class="separator:a4904cfaaf9e10ccee5b392d80069adf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f211b74cca4d4b8fc66fd69bf015e3" id="r_a99f211b74cca4d4b8fc66fd69bf015e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a99f211b74cca4d4b8fc66fd69bf015e3">_setIgnitionScheduleRunning</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">timeout</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> duration)</td></tr>
-<tr class="separator:a99f211b74cca4d4b8fc66fd69bf015e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3233c309b8ef682f70a5344e2fe2615c" id="r_a3233c309b8ef682f70a5344e2fe2615c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a3233c309b8ef682f70a5344e2fe2615c">_setIgnitionScheduleNext</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">timeout</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> duration)</td></tr>
-<tr class="separator:a3233c309b8ef682f70a5344e2fe2615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75237479c2355d3f5064f63b33d82ca0" id="r_a75237479c2355d3f5064f63b33d82ca0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a75237479c2355d3f5064f63b33d82ca0">initialiseFuelSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:a75237479c2355d3f5064f63b33d82ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1241ba2bf35ed019d15821e62074a2" id="r_aee1241ba2bf35ed019d15821e62074a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aee1241ba2bf35ed019d15821e62074a2">initialiseIgnitionSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:aee1241ba2bf35ed019d15821e62074a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07987e313e9d878a1db022bad839f197" id="r_a07987e313e9d878a1db022bad839f197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197">startIgnitionSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:a07987e313e9d878a1db022bad839f197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3ac2a7080cbcc99515735f5806077a" id="r_a5d3ac2a7080cbcc99515735f5806077a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a">stopIgnitionSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:a5d3ac2a7080cbcc99515735f5806077a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709098dca85053fd26418472663aae69" id="r_a709098dca85053fd26418472663aae69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69">startFuelSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:a709098dca85053fd26418472663aae69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa94fdf850c7dc29d62f3140ae4aeae7b" id="r_aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b">stopFuelSchedulers</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ab534392a6c11899c47cb6ed7e43b2" id="r_a28ab534392a6c11899c47cb6ed7e43b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2">setCallbacks</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="scheduled_i_o_8h.html#ab5897abd5663aea86b4ac742c86c9fc3">voidVoidCallback</a> pStartCallback, <a class="el" href="scheduled_i_o_8h.html#ab5897abd5663aea86b4ac742c86c9fc3">voidVoidCallback</a> pEndCallback)</td></tr>
+<tr class="memdesc:a28ab534392a6c11899c47cb6ed7e43b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the schedule action start &amp; end callbacks.  <br /></td></tr>
+<tr class="separator:a28ab534392a6c11899c47cb6ed7e43b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493c546cce5394aa1888a348840fe8d1" id="r_a493c546cce5394aa1888a348840fe8d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1">clipDuration</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> duration)</td></tr>
+<tr class="separator:a493c546cce5394aa1888a348840fe8d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb24e546026855809d50963ac0357689" id="r_afb24e546026855809d50963ac0357689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#afb24e546026855809d50963ac0357689">setScheduleNext</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">delay</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> duration)</td></tr>
+<tr class="separator:afb24e546026855809d50963ac0357689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb61b0e1246b78a96761f3635c2e4fdc" id="r_adb61b0e1246b78a96761f3635c2e4fdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#adb61b0e1246b78a96761f3635c2e4fdc">setScheduleRunning</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">delay</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> duration)</td></tr>
+<tr class="separator:adb61b0e1246b78a96761f3635c2e4fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb66e63c3d69afd52de7d38a60181932" id="r_aeb66e63c3d69afd52de7d38a60181932"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aeb66e63c3d69afd52de7d38a60181932">setSchedule</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">delay</a>, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> duration, <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">allowQueuedSchedule</a>)</td></tr>
+<tr class="memdesc:aeb66e63c3d69afd52de7d38a60181932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the schedule action to run for a certain duration in the future.  <br /></td></tr>
+<tr class="separator:aeb66e63c3d69afd52de7d38a60181932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62adcc3ea5c56ee5faf7921983ec16f5" id="r_a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a62adcc3ea5c56ee5faf7921983ec16f5">refreshIgnitionSchedule1</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">timeToEnd</a>)</td></tr>
 <tr class="separator:a62adcc3ea5c56ee5faf7921983ec16f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9e6e319fc3f59869a5d87139b4413c1" id="r_ad9e6e319fc3f59869a5d87139b4413c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1">beginInjectorPriming</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
@@ -122,42 +146,44 @@ Functions</h2></td></tr>
 <tr class="separator:a168f02e5a5880a3afaceb07dceb49457"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba7d0adfed9fc67898a5b1639bec3cbc" id="r_aba7d0adfed9fc67898a5b1639bec3cbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aba7d0adfed9fc67898a5b1639bec3cbc">ignitionSchedule1Interrupt</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
 <tr class="separator:aba7d0adfed9fc67898a5b1639bec3cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76433f8ea45efdc1ff96bf2d06a68bc5" id="r_a76433f8ea45efdc1ff96bf2d06a68bc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a76433f8ea45efdc1ff96bf2d06a68bc5">disableFuelSchedule</a> (<a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">channel</a>)</td></tr>
-<tr class="separator:a76433f8ea45efdc1ff96bf2d06a68bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221ab9f899d6149a68384660b34f8d9e" id="r_a221ab9f899d6149a68384660b34f8d9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a221ab9f899d6149a68384660b34f8d9e">disableIgnSchedule</a> (<a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">channel</a>)</td></tr>
-<tr class="separator:a221ab9f899d6149a68384660b34f8d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51deb472fa9640b5c74f6d91b6aae80e" id="r_a51deb472fa9640b5c74f6d91b6aae80e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a51deb472fa9640b5c74f6d91b6aae80e">disableAllFuelSchedules</a> ()</td></tr>
-<tr class="separator:a51deb472fa9640b5c74f6d91b6aae80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45c40ec835829127daa41af33616938" id="r_ac45c40ec835829127daa41af33616938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ac45c40ec835829127daa41af33616938">disableAllIgnSchedules</a> ()</td></tr>
-<tr class="separator:ac45c40ec835829127daa41af33616938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bcd6486649e6b92bf00ff0a8817469f" id="r_a7bcd6486649e6b92bf00ff0a8817469f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a7bcd6486649e6b92bf00ff0a8817469f">disableSchedule</a> (<a class="el" href="struct_schedule.html">Schedule</a> &amp;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">schedule</a>)</td></tr>
+<tr class="separator:a7bcd6486649e6b92bf00ff0a8817469f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4feeca1e1c5db387173b64a4f3616aa" id="r_af4feeca1e1c5db387173b64a4f3616aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#af4feeca1e1c5db387173b64a4f3616aa">disableFuelSchedule</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">channel</a>)</td></tr>
+<tr class="separator:af4feeca1e1c5db387173b64a4f3616aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71b7ca0521fb0ee5e334b8e8546a135" id="r_ab71b7ca0521fb0ee5e334b8e8546a135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ab71b7ca0521fb0ee5e334b8e8546a135">disableIgnSchedule</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">channel</a>)</td></tr>
+<tr class="separator:ab71b7ca0521fb0ee5e334b8e8546a135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aabefbcaa8e28bad19e19ee6c0ff03c" id="r_a7aabefbcaa8e28bad19e19ee6c0ff03c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a7aabefbcaa8e28bad19e19ee6c0ff03c">disableAllFuelSchedules</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:a7aabefbcaa8e28bad19e19ee6c0ff03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07e78d13ee1bcdc36c23e486b8997b1" id="r_ab07e78d13ee1bcdc36c23e486b8997b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ab07e78d13ee1bcdc36c23e486b8997b1">disableAllIgnSchedules</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>)</td></tr>
+<tr class="separator:ab07e78d13ee1bcdc36c23e486b8997b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8d70c40a7bee9f8156ca841a1f025008" id="r_a8d70c40a7bee9f8156ca841a1f025008"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a8d70c40a7bee9f8156ca841a1f025008">fuelSchedule1</a> (<a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a20af2e73ccb0c1202f84147792866df2">FUEL1_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#ae3e84818f7c64bc5285f8ada5dfe176c">FUEL1_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:a8d70c40a7bee9f8156ca841a1f025008"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade1bb8c43d92849be598b49fa3513656" id="r_ade1bb8c43d92849be598b49fa3513656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ade1bb8c43d92849be598b49fa3513656">fuelSchedule2</a> (<a class="el" href="board__avr2560_8h.html#ad71e6c5473d3f05c1d5588457ae24ff3">FUEL2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a3ae48bde07ca4ed551dd4a0947486801">FUEL2_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a31afe2b214c189a62f07443ea95b3914">FUEL2_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a1623471bb451e1145701739c5db3ae78">FUEL2_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:ade1bb8c43d92849be598b49fa3513656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8722c4eaac183c7ce6588cafbb1fda0a" id="r_a8722c4eaac183c7ce6588cafbb1fda0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a8722c4eaac183c7ce6588cafbb1fda0a">fuelSchedule3</a> (<a class="el" href="board__avr2560_8h.html#ad6c7bcd5d5455525fd8c7ba91bbf5d2e">FUEL3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa7899c1b4ad896857fea274e14991e1a">FUEL3_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a43223207fe8b8728c7a3db6a8cb4eaba">FUEL3_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a6e9eb86bab8b1e5cc2a609ad2115580b">FUEL3_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:a8722c4eaac183c7ce6588cafbb1fda0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78700cde429686110823164ea6554d63" id="r_a78700cde429686110823164ea6554d63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a78700cde429686110823164ea6554d63">fuelSchedule4</a> (<a class="el" href="board__avr2560_8h.html#af03fd2889af88f462d59324c1e14199b">FUEL4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a851672bfd3e1c8bd814479ed706b38b1">FUEL4_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a211fc96b2d33ec544ef0da5e06b2e069">FUEL4_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a235704133af4a5c21f3171c9b1edf18b">FUEL4_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:a78700cde429686110823164ea6554d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad55a45d9bd24c58ac59ac2dfe1ab92f6" id="r_ad55a45d9bd24c58ac59ac2dfe1ab92f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ad55a45d9bd24c58ac59ac2dfe1ab92f6">ignitionSchedule1</a> (<a class="el" href="board__avr2560_8h.html#a7afd180a2771d03fc4319cc802ce456c">IGN1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aeab818b1e09d98b82fc053bfa11457b4">IGN1_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a099d2412fd620552827ab916e08551aa">IGN1_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a0930a1b33ee59f567bfe926fc7acbdb2">IGN1_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:ad55a45d9bd24c58ac59ac2dfe1ab92f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aa24fba6ba92507fdbec86979edcbc7" id="r_a3aa24fba6ba92507fdbec86979edcbc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a3aa24fba6ba92507fdbec86979edcbc7">ignitionSchedule2</a> (<a class="el" href="board__avr2560_8h.html#ace9e1053305d9ac6d73a47033301bc42">IGN2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a102cfea31fa55d442fb1e3b0767ca161">IGN2_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a90bb6ffac23f03f9969bcb61c8f49ca4">IGN2_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#aabd3ecb9eb5e5e5dc8c03f5919a3f9be">IGN2_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:a3aa24fba6ba92507fdbec86979edcbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43414cc8d0a423484307074f430d987a" id="r_a43414cc8d0a423484307074f430d987a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a43414cc8d0a423484307074f430d987a">ignitionSchedule3</a> (<a class="el" href="board__avr2560_8h.html#a2641982aed6d295ebcec382f0380e4cf">IGN3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a8658f00a042e3b3496ca48365c130e2a">IGN3_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a09345afdf3f7b4f085eb19e714b62367">IGN3_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a217fb60552300aa56eae653b742bd2fc">IGN3_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:a43414cc8d0a423484307074f430d987a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af34833e0acda850ec64d831c62729e14" id="r_af34833e0acda850ec64d831c62729e14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#af34833e0acda850ec64d831c62729e14">ignitionSchedule4</a> (<a class="el" href="board__avr2560_8h.html#a1c168ac3d9aa902f6369ccd64fc4aeab">IGN4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a63124f7dac1910ff781a84868b036514">IGN4_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#adcf17ec5e1adb6d3f7d4cddc4ffe611e">IGN4_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#ad3e16bf53cb8c8fa0b50008a71cd20ba">IGN4_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:af34833e0acda850ec64d831c62729e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4a1b80677f8390756062ff2014fc3b" id="r_acc4a1b80677f8390756062ff2014fc3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#acc4a1b80677f8390756062ff2014fc3b">ignitionSchedule5</a> (<a class="el" href="board__avr2560_8h.html#a5be9d366899a71af36a217de9020577a">IGN5_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa2050c362aa388c0541fd36074a789d5">IGN5_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#ada97138136b4c7718c5eaeb9ef3862fd">IGN5_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a4c3f012298e7a7c9896cff210269d9a4">IGN5_TIMER_ENABLE</a>)</td></tr>
-<tr class="separator:acc4a1b80677f8390756062ff2014fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ce3387fef38bbccf626eacb08079aa" id="r_a95ce3387fef38bbccf626eacb08079aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a95ce3387fef38bbccf626eacb08079aa">fuelSchedule1</a> (<a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>)</td></tr>
+<tr class="separator:a95ce3387fef38bbccf626eacb08079aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa294f6a749a050f7736954a75ad110c0" id="r_aa294f6a749a050f7736954a75ad110c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aa294f6a749a050f7736954a75ad110c0">fuelSchedule2</a> (<a class="el" href="board__avr2560_8h.html#ad71e6c5473d3f05c1d5588457ae24ff3">FUEL2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a3ae48bde07ca4ed551dd4a0947486801">FUEL2_COMPARE</a>)</td></tr>
+<tr class="separator:aa294f6a749a050f7736954a75ad110c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f1767b291454cf2062ce46199da07b" id="r_ac2f1767b291454cf2062ce46199da07b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ac2f1767b291454cf2062ce46199da07b">fuelSchedule3</a> (<a class="el" href="board__avr2560_8h.html#ad6c7bcd5d5455525fd8c7ba91bbf5d2e">FUEL3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa7899c1b4ad896857fea274e14991e1a">FUEL3_COMPARE</a>)</td></tr>
+<tr class="separator:ac2f1767b291454cf2062ce46199da07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6aeb457c8f4d2a0a7b3dd5bf77c8fa" id="r_aee6aeb457c8f4d2a0a7b3dd5bf77c8fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#aee6aeb457c8f4d2a0a7b3dd5bf77c8fa">fuelSchedule4</a> (<a class="el" href="board__avr2560_8h.html#af03fd2889af88f462d59324c1e14199b">FUEL4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a851672bfd3e1c8bd814479ed706b38b1">FUEL4_COMPARE</a>)</td></tr>
+<tr class="separator:aee6aeb457c8f4d2a0a7b3dd5bf77c8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25b0187eb1c560d23dd6105158afd6c4" id="r_a25b0187eb1c560d23dd6105158afd6c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a25b0187eb1c560d23dd6105158afd6c4">ignitionSchedule1</a> (<a class="el" href="board__avr2560_8h.html#a7afd180a2771d03fc4319cc802ce456c">IGN1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aeab818b1e09d98b82fc053bfa11457b4">IGN1_COMPARE</a>)</td></tr>
+<tr class="separator:a25b0187eb1c560d23dd6105158afd6c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3e8cb782f4d09b153c13ebdc24df7a0" id="r_ac3e8cb782f4d09b153c13ebdc24df7a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ac3e8cb782f4d09b153c13ebdc24df7a0">ignitionSchedule2</a> (<a class="el" href="board__avr2560_8h.html#ace9e1053305d9ac6d73a47033301bc42">IGN2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a102cfea31fa55d442fb1e3b0767ca161">IGN2_COMPARE</a>)</td></tr>
+<tr class="separator:ac3e8cb782f4d09b153c13ebdc24df7a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade57dd9648ba8f89e2e05b9d25cf63f5" id="r_ade57dd9648ba8f89e2e05b9d25cf63f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#ade57dd9648ba8f89e2e05b9d25cf63f5">ignitionSchedule3</a> (<a class="el" href="board__avr2560_8h.html#a2641982aed6d295ebcec382f0380e4cf">IGN3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a8658f00a042e3b3496ca48365c130e2a">IGN3_COMPARE</a>)</td></tr>
+<tr class="separator:ade57dd9648ba8f89e2e05b9d25cf63f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793db0de326fc12cd21f7a683811dd43" id="r_a793db0de326fc12cd21f7a683811dd43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a793db0de326fc12cd21f7a683811dd43">ignitionSchedule4</a> (<a class="el" href="board__avr2560_8h.html#a1c168ac3d9aa902f6369ccd64fc4aeab">IGN4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a63124f7dac1910ff781a84868b036514">IGN4_COMPARE</a>)</td></tr>
+<tr class="separator:a793db0de326fc12cd21f7a683811dd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372817ca97c7aedc2da232e614766fb7" id="r_a372817ca97c7aedc2da232e614766fb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a372817ca97c7aedc2da232e614766fb7">ignitionSchedule5</a> (<a class="el" href="board__avr2560_8h.html#a5be9d366899a71af36a217de9020577a">IGN5_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa2050c362aa388c0541fd36074a789d5">IGN5_COMPARE</a>)</td></tr>
+<tr class="separator:a372817ca97c7aedc2da232e614766fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90d66c2e34086322fda9e424051d0071" id="r_a90d66c2e34086322fda9e424051d0071"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">PrimingPulseTable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler_8cpp.html#a90d66c2e34086322fda9e424051d0071">configPage2</a></td></tr>
 <tr class="separator:a90d66c2e34086322fda9e424051d0071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Injector and Ignition (on/off) scheduling (functions). There is usually 8 functions for cylinders 1-8 with same naming pattern.</p>
 <h2>Scheduling structures</h2>
-<p>Structures <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> and <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">Schedule</a> describe (from <a class="el" href="scheduler_8h.html">scheduler.h</a>) describe the scheduling info for Fuel and Ignition respectively. They contain duration, current activity status, start timing, end timing, callbacks to carry out action, etc.</p>
+<p>Structures <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> and <a class="el" href="struct_schedule.html">Schedule</a> describe (from <a class="el" href="scheduler_8h.html">scheduler.h</a>) describe the scheduling info for Fuel and Ignition respectively. They contain duration, current activity status, start timing, end timing, callbacks to carry out action, etc.</p>
 <h2>Scheduling Functions</h2>
 <p>For Injection:</p><ul>
 <li>setFuelSchedule*(tout,dur) - <b>Setup</b> schedule for (next) injection on the channel</li>
@@ -169,243 +195,45 @@ Variables</h2></td></tr>
 <li>ign*StartFunction() - Execute <b>start</b> of ignition (Interrupt handler)</li>
 <li>ign*EndFunction() - Execute <b>end</b> of ignition (Interrupt handler) </li>
 </ul>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a4904cfaaf9e10ccee5b392d80069adf4" name="a4904cfaaf9e10ccee5b392d80069adf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4904cfaaf9e10ccee5b392d80069adf4">&#9670;&#160;</a></span>_setFuelScheduleNext()</h2>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a458136bb1a7859d52f44a080899d0184" name="a458136bb1a7859d52f44a080899d0184"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a458136bb1a7859d52f44a080899d0184">&#9670;&#160;</a></span>DWELL_AVERAGE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> _setFuelScheduleNext </td>
+          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> DWELL_AVERAGE</td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>schedule</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">input</a></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="maths_8h.html#a42d820a247b720e6deb44d57fc2f6145">LOW_PASS_FILTER</a>((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">input</a>), <a class="el" href="scheduler_8cpp.html#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">DWELL_AVERAGE_ALPHA</a>, currentStatus.actualDwell)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_cgraph.png" border="0" usemap="#ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_cgraph" id="ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,158,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="206,5,256,31"/>
-<area shape="poly" title=" " alt="" coords="158,16,190,16,190,21,158,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_icgraph.png" border="0" usemap="#ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_icgraph" id="ascheduler_8cpp_a4904cfaaf9e10ccee5b392d80069adf4_icgraph">
-<area shape="rect" title=" " alt="" coords="512,5,665,31"/>
-<area shape="rect" href="scheduler_8h.html#a3ff8e6cbb37547d92ce98821741ea4b5" title=" " alt="" coords="346,5,464,31"/>
-<area shape="poly" title=" " alt="" coords="497,21,465,21,465,16,497,16"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
-<area shape="poly" title=" " alt="" coords="330,21,299,21,299,16,330,16"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
-<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
-</map>
-</div>
 
 </div>
 </div>
-<a id="a5dad03527c9214889a96badfe3c456a9" name="a5dad03527c9214889a96badfe3c456a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dad03527c9214889a96badfe3c456a9">&#9670;&#160;</a></span>_setFuelScheduleRunning()</h2>
+<a id="ac6cf7ebdaa3e11c56c38fcb21ead3ab5" name="ac6cf7ebdaa3e11c56c38fcb21ead3ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6cf7ebdaa3e11c56c38fcb21ead3ab5">&#9670;&#160;</a></span>DWELL_AVERAGE_ALPHA</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> _setFuelScheduleRunning </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>schedule</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> DWELL_AVERAGE_ALPHA&#160;&#160;&#160;30</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_cgraph.png" border="0" usemap="#ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_cgraph" id="ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,178,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="226,5,276,31"/>
-<area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_icgraph.png" border="0" usemap="#ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_icgraph" id="ascheduler_8cpp_a5dad03527c9214889a96badfe3c456a9_icgraph">
-<area shape="rect" title=" " alt="" coords="512,5,685,31"/>
-<area shape="rect" href="scheduler_8h.html#a3ff8e6cbb37547d92ce98821741ea4b5" title=" " alt="" coords="346,5,464,31"/>
-<area shape="poly" title=" " alt="" coords="497,21,465,21,465,16,497,16"/>
-<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
-<area shape="poly" title=" " alt="" coords="330,21,299,21,299,16,330,16"/>
-<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
-<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
-</map>
-</div>
 
 </div>
 </div>
-<a id="a3233c309b8ef682f70a5344e2fe2615c" name="a3233c309b8ef682f70a5344e2fe2615c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3233c309b8ef682f70a5344e2fe2615c">&#9670;&#160;</a></span>_setIgnitionScheduleNext()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> _setIgnitionScheduleNext </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>schedule</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_cgraph.png" border="0" usemap="#ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_cgraph" id="ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,175,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="223,5,273,31"/>
-<area shape="poly" title=" " alt="" coords="175,16,207,16,207,21,175,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_icgraph.png" border="0" usemap="#ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_icgraph" id="ascheduler_8cpp_a3233c309b8ef682f70a5344e2fe2615c_icgraph">
-<area shape="rect" title=" " alt="" coords="282,5,451,31"/>
-<area shape="rect" href="scheduler_8h.html#ad19d25e5ae17db1ce1ed54e8aa513104" title=" " alt="" coords="99,5,234,31"/>
-<area shape="poly" title=" " alt="" coords="266,21,234,21,234,16,266,16"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
-<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a99f211b74cca4d4b8fc66fd69bf015e3" name="a99f211b74cca4d4b8fc66fd69bf015e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99f211b74cca4d4b8fc66fd69bf015e3">&#9670;&#160;</a></span>_setIgnitionScheduleRunning()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> _setIgnitionScheduleRunning </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>schedule</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>timeout</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">unsigned</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">long</a>&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_cgraph.png" border="0" usemap="#ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_cgraph" id="ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,195,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="243,5,293,31"/>
-<area shape="poly" title=" " alt="" coords="195,16,227,16,227,21,195,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_icgraph.png" border="0" usemap="#ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_icgraph" id="ascheduler_8cpp_a99f211b74cca4d4b8fc66fd69bf015e3_icgraph">
-<area shape="rect" title=" " alt="" coords="282,5,471,31"/>
-<area shape="rect" href="scheduler_8h.html#ad19d25e5ae17db1ce1ed54e8aa513104" title=" " alt="" coords="99,5,234,31"/>
-<area shape="poly" title=" " alt="" coords="267,21,235,21,235,16,267,16"/>
-<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
-<area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
-</map>
-</div>
-
-</div>
-</div>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="ad9e6e319fc3f59869a5d87139b4413c1" name="ad9e6e319fc3f59869a5d87139b4413c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9e6e319fc3f59869a5d87139b4413c1">&#9670;&#160;</a></span>beginInjectorPriming()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> beginInjectorPriming </td>
@@ -415,11 +243,6 @@ Here is the caller graph for this function:</div>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <p>Perform the injector priming pulses. Set these to run at an arbitrary time in the future (100us). The prime pulse value is in ms*10, so need to multiple by 100 to get to uS </p>
 <div class="dynheader">
@@ -427,27 +250,37 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_ad9e6e319fc3f59869a5d87139b4413c1_cgraph.png" border="0" usemap="#ascheduler_8cpp_ad9e6e319fc3f59869a5d87139b4413c1_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_ad9e6e319fc3f59869a5d87139b4413c1_cgraph" id="ascheduler_8cpp_ad9e6e319fc3f59869a5d87139b4413c1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,146,145,172"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="649,121,700,146"/>
-<area shape="poly" title=" " alt="" coords="98,143,148,116,219,83,302,51,388,27,449,13,498,4,522,3,546,6,573,14,603,27,624,43,642,63,665,105,661,108,637,66,621,47,600,32,571,19,545,11,522,8,499,9,450,19,390,32,303,56,221,88,151,121,100,148"/>
-<area shape="rect" href="scheduler_8h.html#a3ff8e6cbb37547d92ce98821741ea4b5" title=" " alt="" coords="208,121,326,146"/>
-<area shape="poly" title=" " alt="" coords="145,147,192,141,192,146,146,152"/>
-<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="205,195,329,221"/>
-<area shape="poly" title=" " alt="" coords="129,170,200,189,199,194,127,175"/>
-<area shape="rect" href="units_8h.html#a8efca56d48092fd48bcf27c46fc4757f" title="Convert an internal temperature value (&#45;40 to 215°C) to a storage value (0&#45;255)." alt="" coords="193,245,341,270"/>
-<area shape="poly" title=" " alt="" coords="96,170,139,200,194,231,206,236,204,241,191,236,136,205,93,175"/>
-<area shape="poly" title=" " alt="" coords="282,118,327,85,357,69,388,56,448,40,497,33,545,37,603,57,635,79,659,107,655,110,631,83,600,61,544,42,497,38,449,45,390,61,359,73,330,90,285,123"/>
-<area shape="rect" href="scheduler_8cpp.html#a4904cfaaf9e10ccee5b392d80069adf4" title=" " alt="" coords="419,71,571,97"/>
-<area shape="poly" title=" " alt="" coords="326,118,417,98,418,104,327,124"/>
-<area shape="rect" href="scheduler_8cpp.html#a5dad03527c9214889a96badfe3c456a9" title=" " alt="" coords="409,121,581,146"/>
-<area shape="poly" title=" " alt="" coords="326,131,394,131,394,136,326,136"/>
-<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title=" " alt="" coords="389,170,601,196"/>
-<area shape="poly" title=" " alt="" coords="327,144,418,164,417,169,326,149"/>
-<area shape="poly" title=" " alt="" coords="561,95,602,106,635,117,634,122,601,111,560,100"/>
-<area shape="poly" title=" " alt="" coords="582,131,634,131,634,136,582,136"/>
-<area shape="poly" title=" " alt="" coords="560,167,601,156,634,146,635,151,602,162,561,172"/>
-<area shape="poly" title=" " alt="" coords="328,219,387,228,457,231,530,226,566,218,600,206,631,184,655,157,659,161,635,188,603,211,567,223,531,231,457,237,387,233,327,224"/>
-<area shape="poly" title=" " alt="" coords="338,268,397,274,465,274,535,263,569,253,600,238,620,222,637,202,661,160,665,163,642,205,624,226,603,243,571,258,536,269,466,279,397,280,337,274"/>
+<area shape="rect" title=" " alt="" coords="5,246,145,272"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="1009,221,1059,246"/>
+<area shape="poly" title=" " alt="" coords="85,244,137,184,177,145,225,104,279,65,338,33,402,11,435,5,469,3,696,3,776,4,840,12,869,21,899,35,963,81,988,109,1007,143,1029,205,1024,207,1003,145,984,112,959,85,896,39,867,26,839,17,776,9,696,8,469,8,436,10,403,16,341,38,282,70,228,108,180,149,141,188,89,247"/>
+<area shape="rect" href="scheduler_8h.html#a1c8beb63ffdaa6c0ed0345a29d8e95c5" title="Set the fuel schedule action (open &amp; close an injector) to run for a certain duration in the future." alt="" coords="195,158,314,184"/>
+<area shape="poly" title=" " alt="" coords="102,243,211,189,214,193,104,248"/>
+<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="193,347,316,373"/>
+<area shape="poly" title=" " alt="" coords="101,270,218,337,216,342,98,275"/>
+<area shape="rect" href="units_8h.html#a8efca56d48092fd48bcf27c46fc4757f" title="Convert an internal temperature value (&#45;40 to 215°C) to a storage value (0&#45;255)." alt="" coords="813,449,961,474"/>
+<area shape="poly" title=" " alt="" coords="87,271,129,326,159,357,194,383,269,421,349,448,431,466,514,477,595,481,671,481,797,472,797,477,671,486,595,486,514,482,430,471,347,453,267,426,191,388,156,361,125,329,83,274"/>
+<area shape="poly" title=" " alt="" coords="271,155,311,128,363,104,422,88,473,78,519,72,562,71,651,77,765,87,822,86,868,84,912,89,936,98,963,113,985,132,1003,156,1027,205,1022,207,999,159,981,136,959,117,934,103,911,94,868,89,822,92,765,92,651,83,561,77,519,78,474,83,423,93,365,109,314,133,274,160"/>
+<area shape="rect" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2" title=" " alt="" coords="364,119,576,145"/>
+<area shape="poly" title=" " alt="" coords="313,158,380,146,381,151,314,163"/>
+<area shape="rect" href="scheduler_8cpp.html#aeb66e63c3d69afd52de7d38a60181932" title="Set the schedule action to run for a certain duration in the future." alt="" coords="424,195,517,221"/>
+<area shape="poly" title=" " alt="" coords="314,178,409,195,408,200,313,184"/>
+<area shape="poly" title=" " alt="" coords="543,116,631,106,738,104,795,108,853,116,909,130,962,151,980,162,996,176,1020,206,1016,210,992,180,977,166,960,156,907,135,852,121,795,113,738,109,631,111,544,121"/>
+<area shape="poly" title=" " alt="" coords="517,193,602,174,713,159,775,156,838,158,901,166,962,180,987,192,1009,208,1006,212,985,197,960,185,900,171,838,163,775,162,714,165,602,179,518,198"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="848,195,926,221"/>
+<area shape="poly" title=" " alt="" coords="517,205,832,205,832,211,517,211"/>
+<area shape="rect" href="scheduler_8cpp.html#afb24e546026855809d50963ac0357689" title=" " alt="" coords="634,246,755,272"/>
+<area shape="poly" title=" " alt="" coords="518,216,620,239,619,245,517,221"/>
+<area shape="rect" href="scheduler_8cpp.html#adb61b0e1246b78a96761f3635c2e4fdc" title=" " alt="" coords="624,297,765,322"/>
+<area shape="poly" title=" " alt="" coords="498,219,625,282,641,288,639,293,623,287,495,224"/>
+<area shape="poly" title=" " alt="" coords="927,212,994,224,993,229,926,217"/>
+<area shape="poly" title=" " alt="" coords="755,252,993,234,994,239,756,257"/>
+<area shape="rect" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1" title=" " alt="" coords="842,297,932,322"/>
+<area shape="poly" title=" " alt="" coords="747,270,828,291,827,297,745,275"/>
+<area shape="poly" title=" " alt="" coords="920,294,960,275,999,253,1001,257,962,280,922,298"/>
+<area shape="poly" title=" " alt="" coords="728,320,775,336,835,349,867,351,899,350,930,344,960,332,980,318,996,300,1020,259,1024,262,1001,303,983,322,962,337,932,349,900,355,867,356,834,354,774,341,726,325"/>
+<area shape="poly" title=" " alt="" coords="765,307,827,307,827,312,765,312"/>
+<area shape="poly" title=" " alt="" coords="298,371,419,401,500,416,590,425,684,427,780,419,827,409,873,396,917,379,960,358,983,338,1001,313,1024,260,1029,262,1006,315,987,342,962,362,920,384,875,402,828,415,781,424,685,433,589,431,499,421,418,407,296,376"/>
+<area shape="poly" title=" " alt="" coords="932,446,959,428,987,388,1007,342,1020,298,1027,261,1032,262,1025,299,1012,344,992,390,963,431,935,450"/>
 </map>
 </div>
 <div class="dynheader">
@@ -463,8 +296,69 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a51deb472fa9640b5c74f6d91b6aae80e" name="a51deb472fa9640b5c74f6d91b6aae80e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51deb472fa9640b5c74f6d91b6aae80e">&#9670;&#160;</a></span>disableAllFuelSchedules()</h2>
+<a id="a493c546cce5394aa1888a348840fe8d1" name="a493c546cce5394aa1888a348840fe8d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493c546cce5394aa1888a348840fe8d1">&#9670;&#160;</a></span>clipDuration()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> clipDuration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>duration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_cgraph.png" border="0" usemap="#ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_cgraph" id="ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,95,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="143,5,193,31"/>
+<area shape="poly" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_icgraph.png" border="0" usemap="#ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_icgraph" id="ascheduler_8cpp_a493c546cce5394aa1888a348840fe8d1_icgraph">
+<area shape="rect" title=" " alt="" coords="859,31,948,56"/>
+<area shape="rect" href="scheduler_8cpp.html#afb24e546026855809d50963ac0357689" title=" " alt="" coords="681,5,801,31"/>
+<area shape="poly" title=" " alt="" coords="843,37,801,30,802,25,844,32"/>
+<area shape="rect" href="scheduler_8cpp.html#adb61b0e1246b78a96761f3635c2e4fdc" title=" " alt="" coords="671,55,811,80"/>
+<area shape="poly" title=" " alt="" coords="844,55,812,60,811,55,843,50"/>
+<area shape="rect" href="scheduler_8cpp.html#aeb66e63c3d69afd52de7d38a60181932" title="Set the schedule action to run for a certain duration in the future." alt="" coords="529,31,623,56"/>
+<area shape="poly" title=" " alt="" coords="666,32,623,39,623,34,665,27"/>
+<area shape="rect" href="scheduler_8h.html#a1c8beb63ffdaa6c0ed0345a29d8e95c5" title="Set the fuel schedule action (open &amp; close an injector) to run for a certain duration in the future." alt="" coords="355,5,473,31"/>
+<area shape="poly" title=" " alt="" coords="513,36,473,30,474,25,514,31"/>
+<area shape="rect" href="scheduler_8h.html#a1a135602b67414b7088cdf7d8f499c11" title="Set the ignition schedule action (charge &amp; fire a coil) to run for a certain duration in the future." alt="" coords="346,55,481,80"/>
+<area shape="poly" title=" " alt="" coords="514,55,482,60,481,55,513,50"/>
+<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
+<area shape="poly" title=" " alt="" coords="339,21,298,21,298,16,339,16"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+<area shape="rect" href="speeduino_8ino.html#a60f74b0c57642da66672c8861866a7b0" title=" " alt="" coords="164,55,293,80"/>
+<area shape="poly" title=" " alt="" coords="330,70,293,70,293,65,330,65"/>
+<area shape="poly" title=" " alt="" coords="655,58,623,53,623,48,656,52"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7aabefbcaa8e28bad19e19ee6c0ff03c" name="a7aabefbcaa8e28bad19e19ee6c0ff03c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aabefbcaa8e28bad19e19ee6c0ff03c">&#9670;&#160;</a></span>disableAllFuelSchedules()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -481,20 +375,23 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_cgraph.png" border="0" usemap="#ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_cgraph" id="ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,169,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a76433f8ea45efdc1ff96bf2d06a68bc5" title=" " alt="" coords="217,5,358,31"/>
-<area shape="poly" title=" " alt="" coords="169,16,201,16,201,21,169,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="406,5,456,31"/>
-<area shape="poly" title=" " alt="" coords="358,16,390,16,390,21,358,21"/>
+<div class="center"><img src="scheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_cgraph.png" border="0" usemap="#ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_cgraph" id="ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,169,56"/>
+<area shape="rect" href="scheduler_8cpp.html#af4feeca1e1c5db387173b64a4f3616aa" title=" " alt="" coords="217,31,358,56"/>
+<area shape="poly" title=" " alt="" coords="169,41,201,41,201,46,169,46"/>
+<area shape="rect" href="scheduler_8cpp.html#a7bcd6486649e6b92bf00ff0a8817469f" title=" " alt="" coords="406,5,522,31"/>
+<area shape="poly" title=" " alt="" coords="358,31,391,26,391,31,359,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="570,31,621,56"/>
+<area shape="poly" title=" " alt="" coords="358,41,555,41,555,46,358,46"/>
+<area shape="poly" title=" " alt="" coords="523,27,556,33,554,38,522,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_icgraph.png" border="0" usemap="#ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_icgraph" id="ascheduler_8cpp_a51deb472fa9640b5c74f6d91b6aae80e_icgraph">
+<div class="center"><img src="scheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_icgraph.png" border="0" usemap="#ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_icgraph" id="ascheduler_8cpp_a7aabefbcaa8e28bad19e19ee6c0ff03c_icgraph">
 <area shape="rect" title=" " alt="" coords="99,5,262,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
 <area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
@@ -503,8 +400,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac45c40ec835829127daa41af33616938" name="ac45c40ec835829127daa41af33616938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac45c40ec835829127daa41af33616938">&#9670;&#160;</a></span>disableAllIgnSchedules()</h2>
+<a id="ab07e78d13ee1bcdc36c23e486b8997b1" name="ab07e78d13ee1bcdc36c23e486b8997b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07e78d13ee1bcdc36c23e486b8997b1">&#9670;&#160;</a></span>disableAllIgnSchedules()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -521,20 +418,23 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_ac45c40ec835829127daa41af33616938_cgraph.png" border="0" usemap="#ascheduler_8cpp_ac45c40ec835829127daa41af33616938_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_ac45c40ec835829127daa41af33616938_cgraph" id="ascheduler_8cpp_ac45c40ec835829127daa41af33616938_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,162,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a221ab9f899d6149a68384660b34f8d9e" title=" " alt="" coords="210,5,344,31"/>
-<area shape="poly" title=" " alt="" coords="162,16,194,16,194,21,162,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="392,5,442,31"/>
-<area shape="poly" title=" " alt="" coords="345,16,376,16,376,21,345,21"/>
+<div class="center"><img src="scheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_cgraph.png" border="0" usemap="#ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_cgraph" id="ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,162,56"/>
+<area shape="rect" href="scheduler_8cpp.html#ab71b7ca0521fb0ee5e334b8e8546a135" title=" " alt="" coords="210,31,344,56"/>
+<area shape="poly" title=" " alt="" coords="162,41,194,41,194,46,162,46"/>
+<area shape="rect" href="scheduler_8cpp.html#a7bcd6486649e6b92bf00ff0a8817469f" title=" " alt="" coords="392,5,508,31"/>
+<area shape="poly" title=" " alt="" coords="344,31,376,26,377,31,345,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="556,31,607,56"/>
+<area shape="poly" title=" " alt="" coords="344,41,541,41,541,46,344,46"/>
+<area shape="poly" title=" " alt="" coords="509,27,542,33,540,38,508,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_ac45c40ec835829127daa41af33616938_icgraph.png" border="0" usemap="#ascheduler_8cpp_ac45c40ec835829127daa41af33616938_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_ac45c40ec835829127daa41af33616938_icgraph" id="ascheduler_8cpp_ac45c40ec835829127daa41af33616938_icgraph">
+<div class="center"><img src="scheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_icgraph.png" border="0" usemap="#ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_icgraph" id="ascheduler_8cpp_ab07e78d13ee1bcdc36c23e486b8997b1_icgraph">
 <area shape="rect" title=" " alt="" coords="99,5,255,31"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
 <area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
@@ -543,8 +443,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a76433f8ea45efdc1ff96bf2d06a68bc5" name="a76433f8ea45efdc1ff96bf2d06a68bc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76433f8ea45efdc1ff96bf2d06a68bc5">&#9670;&#160;</a></span>disableFuelSchedule()</h2>
+<a id="af4feeca1e1c5db387173b64a4f3616aa" name="af4feeca1e1c5db387173b64a4f3616aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4feeca1e1c5db387173b64a4f3616aa">&#9670;&#160;</a></span>disableFuelSchedule()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -552,7 +452,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> disableFuelSchedule </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td>
           <td class="paramname"><em>channel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -561,20 +461,23 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_cgraph.png" border="0" usemap="#ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_cgraph" id="ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,147,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="195,5,245,31"/>
-<area shape="poly" title=" " alt="" coords="147,16,179,16,179,21,147,21"/>
+<div class="center"><img src="scheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_cgraph.png" border="0" usemap="#ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_cgraph" id="ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,147,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a7bcd6486649e6b92bf00ff0a8817469f" title=" " alt="" coords="195,5,311,31"/>
+<area shape="poly" title=" " alt="" coords="147,31,179,26,180,31,148,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="359,31,409,56"/>
+<area shape="poly" title=" " alt="" coords="147,41,343,41,343,46,147,46"/>
+<area shape="poly" title=" " alt="" coords="312,27,344,33,343,38,311,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_icgraph.png" border="0" usemap="#ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_icgraph" id="ascheduler_8cpp_a76433f8ea45efdc1ff96bf2d06a68bc5_icgraph">
+<div class="center"><img src="scheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_icgraph.png" border="0" usemap="#ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_icgraph" id="ascheduler_8cpp_af4feeca1e1c5db387173b64a4f3616aa_icgraph">
 <area shape="rect" title=" " alt="" coords="310,31,451,56"/>
-<area shape="rect" href="scheduler_8cpp.html#a51deb472fa9640b5c74f6d91b6aae80e" title=" " alt="" coords="99,5,262,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a7aabefbcaa8e28bad19e19ee6c0ff03c" title=" " alt="" coords="99,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="294,35,262,31,263,26,295,30"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,51,56"/>
 <area shape="poly" title=" " alt="" coords="294,46,51,46,51,41,294,41"/>
@@ -584,8 +487,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a221ab9f899d6149a68384660b34f8d9e" name="a221ab9f899d6149a68384660b34f8d9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a221ab9f899d6149a68384660b34f8d9e">&#9670;&#160;</a></span>disableIgnSchedule()</h2>
+<a id="ab71b7ca0521fb0ee5e334b8e8546a135" name="ab71b7ca0521fb0ee5e334b8e8546a135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab71b7ca0521fb0ee5e334b8e8546a135">&#9670;&#160;</a></span>disableIgnSchedule()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -593,7 +496,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> disableIgnSchedule </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td>
           <td class="paramname"><em>channel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -602,24 +505,84 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_cgraph.png" border="0" usemap="#ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_cgraph" id="ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,140,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="188,5,238,31"/>
-<area shape="poly" title=" " alt="" coords="140,16,172,16,172,21,140,21"/>
+<div class="center"><img src="scheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_cgraph.png" border="0" usemap="#ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_cgraph" id="ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,140,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a7bcd6486649e6b92bf00ff0a8817469f" title=" " alt="" coords="188,5,304,31"/>
+<area shape="poly" title=" " alt="" coords="140,31,172,26,173,31,141,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="352,31,402,56"/>
+<area shape="poly" title=" " alt="" coords="140,41,337,41,337,46,140,46"/>
+<area shape="poly" title=" " alt="" coords="305,27,337,33,336,38,304,32"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_icgraph.png" border="0" usemap="#ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_icgraph" id="ascheduler_8cpp_a221ab9f899d6149a68384660b34f8d9e_icgraph">
+<div class="center"><img src="scheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_icgraph.png" border="0" usemap="#ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_icgraph" id="ascheduler_8cpp_ab71b7ca0521fb0ee5e334b8e8546a135_icgraph">
 <area shape="rect" title=" " alt="" coords="303,31,437,56"/>
-<area shape="rect" href="scheduler_8cpp.html#ac45c40ec835829127daa41af33616938" title=" " alt="" coords="99,5,255,31"/>
+<area shape="rect" href="scheduler_8cpp.html#ab07e78d13ee1bcdc36c23e486b8997b1" title=" " alt="" coords="99,5,255,31"/>
 <area shape="poly" title=" " alt="" coords="287,35,255,31,256,26,288,30"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,31,51,56"/>
 <area shape="poly" title=" " alt="" coords="288,46,51,46,51,41,288,41"/>
 <area shape="poly" title=" " alt="" coords="84,37,52,42,51,37,83,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7bcd6486649e6b92bf00ff0a8817469f" name="a7bcd6486649e6b92bf00ff0a8817469f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bcd6486649e6b92bf00ff0a8817469f">&#9670;&#160;</a></span>disableSchedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> disableSchedule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_cgraph.png" border="0" usemap="#ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_cgraph" id="ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,122,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="170,5,220,31"/>
+<area shape="poly" title=" " alt="" coords="122,16,154,16,154,21,122,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_icgraph.png" border="0" usemap="#ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_icgraph" id="ascheduler_8cpp_a7bcd6486649e6b92bf00ff0a8817469f_icgraph">
+<area shape="rect" title=" " alt="" coords="499,81,616,107"/>
+<area shape="rect" href="scheduler_8cpp.html#af4feeca1e1c5db387173b64a4f3616aa" title=" " alt="" coords="310,56,451,82"/>
+<area shape="poly" title=" " alt="" coords="484,86,452,82,452,76,485,81"/>
+<area shape="rect" href="scheduler_8cpp.html#ab71b7ca0521fb0ee5e334b8e8546a135" title=" " alt="" coords="314,107,448,132"/>
+<area shape="poly" title=" " alt="" coords="485,107,449,113,448,107,484,102"/>
+<area shape="rect" href="scheduler_8cpp.html#a7aabefbcaa8e28bad19e19ee6c0ff03c" title=" " alt="" coords="99,5,262,31"/>
+<area shape="poly" title=" " alt="" coords="312,54,233,34,235,29,313,49"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,81,51,107"/>
+<area shape="poly" title=" " alt="" coords="294,78,51,95,51,90,294,72"/>
+<area shape="poly" title=" " alt="" coords="128,40,100,53,50,83,47,79,97,48,126,35"/>
+<area shape="poly" title=" " alt="" coords="298,116,51,98,51,93,298,111"/>
+<area shape="rect" href="scheduler_8cpp.html#ab07e78d13ee1bcdc36c23e486b8997b1" title=" " alt="" coords="102,157,259,183"/>
+<area shape="poly" title=" " alt="" coords="313,139,235,159,233,154,312,134"/>
+<area shape="poly" title=" " alt="" coords="126,154,97,141,47,110,50,105,100,136,128,149"/>
 </map>
 </div>
 
@@ -648,11 +611,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a081129d0914e4351417a0d9c8dc5f2c4_cgraph.png" border="0" usemap="#ascheduler_8cpp_a081129d0914e4351417a0d9c8dc5f2c4_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a081129d0914e4351417a0d9c8dc5f2c4_cgraph" id="ascheduler_8cpp_a081129d0914e4351417a0d9c8dc5f2c4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,157,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,5,323,31"/>
-<area shape="poly" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="371,5,421,31"/>
-<area shape="poly" title=" " alt="" coords="324,16,355,16,355,21,324,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,157,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,31,323,56"/>
+<area shape="poly" title=" " alt="" coords="157,41,189,41,189,46,157,46"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="371,5,449,31"/>
+<area shape="poly" title=" " alt="" coords="323,31,355,25,356,30,324,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="497,31,548,56"/>
+<area shape="poly" title=" " alt="" coords="323,41,482,41,482,46,323,46"/>
+<area shape="poly" title=" " alt="" coords="450,24,482,32,481,37,449,30"/>
 </map>
 </div>
 
@@ -677,11 +643,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a53ca04d6ab1932ed4a30c589c73c8376_cgraph.png" border="0" usemap="#ascheduler_8cpp_a53ca04d6ab1932ed4a30c589c73c8376_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a53ca04d6ab1932ed4a30c589c73c8376_cgraph" id="ascheduler_8cpp_a53ca04d6ab1932ed4a30c589c73c8376_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,157,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,5,323,31"/>
-<area shape="poly" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="371,5,421,31"/>
-<area shape="poly" title=" " alt="" coords="324,16,355,16,355,21,324,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,157,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,31,323,56"/>
+<area shape="poly" title=" " alt="" coords="157,41,189,41,189,46,157,46"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="371,5,449,31"/>
+<area shape="poly" title=" " alt="" coords="323,31,355,25,356,30,324,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="497,31,548,56"/>
+<area shape="poly" title=" " alt="" coords="323,41,482,41,482,46,323,46"/>
+<area shape="poly" title=" " alt="" coords="450,24,482,32,481,37,449,30"/>
 </map>
 </div>
 
@@ -706,11 +675,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a4cfa3288c9f7374e33f5185f91da5e80_cgraph.png" border="0" usemap="#ascheduler_8cpp_a4cfa3288c9f7374e33f5185f91da5e80_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a4cfa3288c9f7374e33f5185f91da5e80_cgraph" id="ascheduler_8cpp_a4cfa3288c9f7374e33f5185f91da5e80_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,157,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,5,323,31"/>
-<area shape="poly" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="371,5,421,31"/>
-<area shape="poly" title=" " alt="" coords="324,16,355,16,355,21,324,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,157,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,31,323,56"/>
+<area shape="poly" title=" " alt="" coords="157,41,189,41,189,46,157,46"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="371,5,449,31"/>
+<area shape="poly" title=" " alt="" coords="323,31,355,25,356,30,324,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="497,31,548,56"/>
+<area shape="poly" title=" " alt="" coords="323,41,482,41,482,46,323,46"/>
+<area shape="poly" title=" " alt="" coords="450,24,482,32,481,37,449,30"/>
 </map>
 </div>
 
@@ -735,11 +707,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_ab89462f482ef0e56e66a7cc5763cd4e2_cgraph.png" border="0" usemap="#ascheduler_8cpp_ab89462f482ef0e56e66a7cc5763cd4e2_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_ab89462f482ef0e56e66a7cc5763cd4e2_cgraph" id="ascheduler_8cpp_ab89462f482ef0e56e66a7cc5763cd4e2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,157,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,5,323,31"/>
-<area shape="poly" title=" " alt="" coords="157,16,189,16,189,21,157,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="371,5,421,31"/>
-<area shape="poly" title=" " alt="" coords="324,16,355,16,355,21,324,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,157,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a700ce3eb96ac975ba22eae13e5a316a9" title=" " alt="" coords="205,31,323,56"/>
+<area shape="poly" title=" " alt="" coords="157,41,189,41,189,46,157,46"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="371,5,449,31"/>
+<area shape="poly" title=" " alt="" coords="323,31,355,25,356,30,324,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="497,31,548,56"/>
+<area shape="poly" title=" " alt="" coords="323,41,482,41,482,46,323,46"/>
+<area shape="poly" title=" " alt="" coords="450,24,482,32,481,37,449,30"/>
 </map>
 </div>
 
@@ -773,9 +748,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a700ce3eb96ac975ba22eae13e5a316a9_cgraph.png" border="0" usemap="#ascheduler_8cpp_a700ce3eb96ac975ba22eae13e5a316a9_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a700ce3eb96ac975ba22eae13e5a316a9_cgraph" id="ascheduler_8cpp_a700ce3eb96ac975ba22eae13e5a316a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,124,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="172,5,222,31"/>
-<area shape="poly" title=" " alt="" coords="124,16,156,16,156,21,124,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,124,56"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="172,5,250,31"/>
+<area shape="poly" title=" " alt="" coords="124,31,156,25,157,30,125,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="298,31,348,56"/>
+<area shape="poly" title=" " alt="" coords="124,41,283,41,283,46,124,46"/>
+<area shape="poly" title=" " alt="" coords="251,24,283,32,282,37,250,30"/>
 </map>
 </div>
 <div class="dynheader">
@@ -817,11 +795,14 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_aba7d0adfed9fc67898a5b1639bec3cbc_cgraph.png" border="0" usemap="#ascheduler_8cpp_aba7d0adfed9fc67898a5b1639bec3cbc_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_aba7d0adfed9fc67898a5b1639bec3cbc_cgraph" id="ascheduler_8cpp_aba7d0adfed9fc67898a5b1639bec3cbc_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,177,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a168f02e5a5880a3afaceb07dceb49457" title=" " alt="" coords="225,5,363,31"/>
-<area shape="poly" title=" " alt="" coords="177,16,209,16,209,21,177,21"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="411,5,461,31"/>
-<area shape="poly" title=" " alt="" coords="363,16,395,16,395,21,363,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,177,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a168f02e5a5880a3afaceb07dceb49457" title=" " alt="" coords="225,31,363,56"/>
+<area shape="poly" title=" " alt="" coords="177,41,209,41,209,46,177,46"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="411,5,489,31"/>
+<area shape="poly" title=" " alt="" coords="363,30,395,24,396,30,364,35"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="537,31,588,56"/>
+<area shape="poly" title=" " alt="" coords="363,41,522,41,522,46,363,46"/>
+<area shape="poly" title=" " alt="" coords="490,24,522,32,521,37,489,30"/>
 </map>
 </div>
 
@@ -855,9 +836,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a168f02e5a5880a3afaceb07dceb49457_cgraph.png" border="0" usemap="#ascheduler_8cpp_a168f02e5a5880a3afaceb07dceb49457_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a168f02e5a5880a3afaceb07dceb49457_cgraph" id="ascheduler_8cpp_a168f02e5a5880a3afaceb07dceb49457_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,144,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="192,5,242,31"/>
-<area shape="poly" title=" " alt="" coords="144,16,176,16,176,21,144,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,144,56"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="192,5,270,31"/>
+<area shape="poly" title=" " alt="" coords="144,30,176,24,177,30,145,35"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="318,31,368,56"/>
+<area shape="poly" title=" " alt="" coords="144,41,303,41,303,46,144,46"/>
+<area shape="poly" title=" " alt="" coords="271,24,303,32,302,37,270,30"/>
 </map>
 </div>
 <div class="dynheader">
@@ -873,14 +857,66 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a96b6832dde269a23d3ca231c2e7e2e08" name="a96b6832dde269a23d3ca231c2e7e2e08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96b6832dde269a23d3ca231c2e7e2e08">&#9670;&#160;</a></span>initialiseSchedulers()</h2>
+<a id="a75237479c2355d3f5064f63b33d82ca0" name="a75237479c2355d3f5064f63b33d82ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75237479c2355d3f5064f63b33d82ca0">&#9670;&#160;</a></span>initialiseFuelSchedulers()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> initialiseSchedulers </td>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> initialiseFuelSchedulers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>&lt; The number of crank degrees until cylinder 1 is at TDC (This is obviously 0 for virtually ALL engines, but there's some weird ones)</p>
+<p>&lt; The number of crank degrees until cylinder 2 (and 5/6/7/8) is at TDC</p>
+<p>&lt; The number of crank degrees until cylinder 3 (and 5/6/7/8) is at TDC</p>
+<p>&lt; The number of crank degrees until cylinder 4 (and 5/6/7/8) is at TDC</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_cgraph.png" border="0" usemap="#ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_cgraph" id="ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_cgraph">
+<area shape="rect" title=" " alt="" coords="5,132,164,158"/>
+<area shape="rect" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b" title=" " alt="" coords="212,81,262,107"/>
+<area shape="poly" title=" " alt="" coords="125,129,196,105,198,110,126,134"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="454,107,505,132"/>
+<area shape="poly" title=" " alt="" coords="164,149,279,153,343,150,406,142,439,133,441,138,407,147,343,155,279,158,164,155"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="313,5,404,31"/>
+<area shape="poly" title=" " alt="" coords="257,79,322,37,325,42,260,83"/>
+<area shape="poly" title=" " alt="" coords="262,89,328,86,407,92,441,101,439,106,406,97,328,91,262,94"/>
+<area shape="rect" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2" title="Set the schedule action start &amp; end callbacks." alt="" coords="310,107,406,132"/>
+<area shape="poly" title=" " alt="" coords="263,97,296,104,295,109,262,102"/>
+<area shape="poly" title=" " alt="" coords="407,117,439,117,439,122,407,122"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_icgraph.png" border="0" usemap="#ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_icgraph" id="ascheduler_8cpp_a75237479c2355d3f5064f63b33d82ca0_icgraph">
+<area shape="rect" title=" " alt="" coords="238,5,396,31"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aee1241ba2bf35ed019d15821e62074a2" name="aee1241ba2bf35ed019d15821e62074a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1241ba2bf35ed019d15821e62074a2">&#9670;&#160;</a></span>initialiseIgnitionSchedulers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> initialiseIgnitionSchedulers </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -892,33 +928,32 @@ Here is the caller graph for this function:</div>
 <p>&lt; The number of crank degrees until cylinder 2 (and 5/6/7/8) is at TDC</p>
 <p>&lt; The number of crank degrees until cylinder 2 (and 5/6/7/8) is at TDC</p>
 <p>&lt; The number of crank degrees until cylinder 2 (and 5/6/7/8) is at TDC</p>
-<p>&lt; The number of crank degrees until cylinder 1 is at TDC (This is obviously 0 for virtually ALL engines, but there's some weird ones)</p>
-<p>&lt; The number of crank degrees until cylinder 2 (and 5/6/7/8) is at TDC</p>
-<p>&lt; The number of crank degrees until cylinder 3 (and 5/6/7/8) is at TDC</p>
-<p>&lt; The number of crank degrees until cylinder 4 (and 5/6/7/8) is at TDC</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_cgraph.png" border="0" usemap="#ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_cgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_cgraph" id="ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_cgraph">
-<area shape="rect" title=" " alt="" coords="5,55,139,80"/>
-<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="187,5,278,31"/>
-<area shape="poly" title=" " alt="" coords="116,51,173,34,174,39,117,57"/>
-<area shape="rect" href="scheduler_8cpp.html#a251e6f3e9e1cebce3b02d73fa98ed1e4" title=" " alt="" coords="207,55,258,80"/>
-<area shape="poly" title=" " alt="" coords="139,65,191,65,191,70,139,70"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="326,80,376,106"/>
-<area shape="poly" title=" " alt="" coords="123,78,187,90,252,94,310,93,311,98,252,99,186,95,122,84"/>
-<area shape="poly" title=" " alt="" coords="258,70,311,82,310,87,257,75"/>
+<div class="center"><img src="scheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_cgraph.png" border="0" usemap="#ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_cgraph" id="ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_cgraph">
+<area shape="rect" title=" " alt="" coords="5,132,181,158"/>
+<area shape="rect" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b" title=" " alt="" coords="229,81,279,107"/>
+<area shape="poly" title=" " alt="" coords="135,129,213,104,215,109,137,134"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="471,107,522,132"/>
+<area shape="poly" title=" " alt="" coords="181,150,297,153,360,150,423,142,456,133,458,138,424,147,361,155,297,158,181,155"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="330,5,421,31"/>
+<area shape="poly" title=" " alt="" coords="274,79,339,37,342,42,277,83"/>
+<area shape="poly" title=" " alt="" coords="279,89,345,86,424,92,458,101,456,106,423,97,345,91,279,94"/>
+<area shape="rect" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2" title="Set the schedule action start &amp; end callbacks." alt="" coords="327,107,423,132"/>
+<area shape="poly" title=" " alt="" coords="280,97,313,104,312,109,279,102"/>
+<area shape="poly" title=" " alt="" coords="424,117,456,117,456,122,424,122"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_icgraph.png" border="0" usemap="#ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_icgraph" id="ascheduler_8cpp_a96b6832dde269a23d3ca231c2e7e2e08_icgraph">
-<area shape="rect" title=" " alt="" coords="238,5,371,31"/>
+<div class="center"><img src="scheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_icgraph.png" border="0" usemap="#ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_icgraph" id="ascheduler_8cpp_aee1241ba2bf35ed019d15821e62074a2_icgraph">
+<area shape="rect" title=" " alt="" coords="238,5,413,31"/>
 <area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="223,21,191,21,191,16,223,16"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
 <area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
@@ -946,9 +981,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_cgraph.png" border="0" usemap="#ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_cgraph" id="ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,170,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="218,5,268,31"/>
-<area shape="poly" title=" " alt="" coords="170,16,202,16,202,21,170,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,170,56"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="218,5,296,31"/>
+<area shape="poly" title=" " alt="" coords="170,28,202,24,203,29,171,34"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="344,31,394,56"/>
+<area shape="poly" title=" " alt="" coords="170,41,329,41,329,46,170,46"/>
+<area shape="poly" title=" " alt="" coords="297,24,329,32,328,37,296,30"/>
 </map>
 </div>
 <div class="dynheader">
@@ -956,7 +994,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_icgraph.png" border="0" usemap="#ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_icgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_icgraph" id="ascheduler_8cpp_a62adcc3ea5c56ee5faf7921983ec16f5_icgraph">
-<area shape="rect" title=" " alt="" coords="99,5,263,31"/>
+<area shape="rect" title=" " alt="" coords="282,5,446,31"/>
+<area shape="rect" href="speeduino_8ino.html#ac8845466cb8c26ef91d5245ec2337410" title=" " alt="" coords="99,5,234,31"/>
+<area shape="poly" title=" " alt="" coords="267,21,235,21,235,16,267,16"/>
 <area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="5,5,51,31"/>
 <area shape="poly" title=" " alt="" coords="83,21,51,21,51,16,83,16"/>
 </map>
@@ -965,7 +1005,7 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <a id="a251e6f3e9e1cebce3b02d73fa98ed1e4" name="a251e6f3e9e1cebce3b02d73fa98ed1e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a251e6f3e9e1cebce3b02d73fa98ed1e4">&#9670;&#160;</a></span>reset() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a251e6f3e9e1cebce3b02d73fa98ed1e4">&#9670;&#160;</a></span>reset() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -983,7 +1023,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -992,30 +1032,24 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_cgraph.png" border="0" usemap="#ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_cgraph" id="ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,56,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="104,5,154,31"/>
-<area shape="poly" title=" " alt="" coords="56,16,88,16,88,21,56,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_icgraph.png" border="0" usemap="#ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_icgraph" alt=""/></div>
-<map name="ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_icgraph" id="ascheduler_8cpp_a251e6f3e9e1cebce3b02d73fa98ed1e4_icgraph">
-<area shape="rect" title=" " alt="" coords="419,5,470,31"/>
-<area shape="rect" href="scheduler_8cpp.html#a96b6832dde269a23d3ca231c2e7e2e08" title=" " alt="" coords="238,5,371,31"/>
-<area shape="poly" title=" " alt="" coords="404,21,371,21,371,16,404,16"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="223,21,191,21,191,16,223,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+<area shape="rect" title=" " alt="" coords="5,132,56,158"/>
+<area shape="rect" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b" title=" " alt="" coords="104,81,154,107"/>
+<area shape="poly" title=" " alt="" coords="55,130,88,112,91,117,57,134"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="346,107,397,132"/>
+<area shape="poly" title=" " alt="" coords="56,145,162,151,230,150,298,142,331,133,333,138,299,147,230,155,162,156,56,150"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="205,5,296,31"/>
+<area shape="poly" title=" " alt="" coords="149,79,214,37,217,42,152,83"/>
+<area shape="poly" title=" " alt="" coords="154,89,220,86,299,92,333,101,331,106,298,97,220,91,154,94"/>
+<area shape="rect" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2" title="Set the schedule action start &amp; end callbacks." alt="" coords="202,107,298,132"/>
+<area shape="poly" title=" " alt="" coords="155,97,188,104,187,109,154,102"/>
+<area shape="poly" title=" " alt="" coords="299,117,331,117,331,122,299,122"/>
 </map>
 </div>
 
 </div>
 </div>
 <a id="a5599ce7efc9f9faf9ad2508ed0ffb564" name="a5599ce7efc9f9faf9ad2508ed0ffb564"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5599ce7efc9f9faf9ad2508ed0ffb564">&#9670;&#160;</a></span>reset() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5599ce7efc9f9faf9ad2508ed0ffb564">&#9670;&#160;</a></span>reset() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1033,7 +1067,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1042,9 +1076,646 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler_8cpp_a5599ce7efc9f9faf9ad2508ed0ffb564_cgraph.png" border="0" usemap="#ascheduler_8cpp_a5599ce7efc9f9faf9ad2508ed0ffb564_cgraph" alt=""/></div>
 <map name="ascheduler_8cpp_a5599ce7efc9f9faf9ad2508ed0ffb564_cgraph" id="ascheduler_8cpp_a5599ce7efc9f9faf9ad2508ed0ffb564_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,56,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="104,5,154,31"/>
-<area shape="poly" title=" " alt="" coords="56,16,88,16,88,21,56,21"/>
+<area shape="rect" title=" " alt="" coords="5,132,56,158"/>
+<area shape="rect" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b" title=" " alt="" coords="104,81,154,107"/>
+<area shape="poly" title=" " alt="" coords="55,130,88,112,91,117,57,134"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="346,107,397,132"/>
+<area shape="poly" title=" " alt="" coords="56,145,162,151,230,150,298,142,331,133,333,138,299,147,230,155,162,156,56,150"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="205,5,296,31"/>
+<area shape="poly" title=" " alt="" coords="149,79,214,37,217,42,152,83"/>
+<area shape="poly" title=" " alt="" coords="154,89,220,86,299,92,333,101,331,106,298,97,220,91,154,94"/>
+<area shape="rect" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2" title="Set the schedule action start &amp; end callbacks." alt="" coords="202,107,298,132"/>
+<area shape="poly" title=" " alt="" coords="155,97,188,104,187,109,154,102"/>
+<area shape="poly" title=" " alt="" coords="299,117,331,117,331,122,299,122"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9dcc32d6d79c32bbae138941cd60449b" name="a9dcc32d6d79c32bbae138941cd60449b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dcc32d6d79c32bbae138941cd60449b">&#9670;&#160;</a></span>reset() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_cgraph.png" border="0" usemap="#ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_cgraph" id="ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,56,56,82"/>
+<area shape="rect" href="scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title=" " alt="" coords="106,5,198,31"/>
+<area shape="poly" title=" " alt="" coords="55,56,105,35,107,40,57,61"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="248,81,298,107"/>
+<area shape="poly" title=" " alt="" coords="56,69,233,87,232,93,56,74"/>
+<area shape="rect" href="scheduler_8cpp.html#a28ab534392a6c11899c47cb6ed7e43b2" title="Set the schedule action start &amp; end callbacks." alt="" coords="104,107,200,132"/>
+<area shape="poly" title=" " alt="" coords="57,77,107,98,105,103,55,82"/>
+<area shape="poly" title=" " alt="" coords="200,107,232,100,234,105,201,112"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_icgraph.png" border="0" usemap="#ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_icgraph" id="ascheduler_8cpp_a9dcc32d6d79c32bbae138941cd60449b_icgraph">
+<area shape="rect" title=" " alt="" coords="461,80,512,106"/>
+<area shape="rect" href="scheduler_8cpp.html#a75237479c2355d3f5064f63b33d82ca0" title=" " alt="" coords="247,5,405,31"/>
+<area shape="poly" title=" " alt="" coords="456,72,412,45,385,34,387,29,415,40,459,68"/>
+<area shape="rect" href="scheduler_8cpp.html#aee1241ba2bf35ed019d15821e62074a2" title=" " alt="" coords="238,55,413,80"/>
+<area shape="poly" title=" " alt="" coords="445,89,411,84,412,78,446,84"/>
+<area shape="rect" href="scheduler_8cpp.html#a251e6f3e9e1cebce3b02d73fa98ed1e4" title=" " alt="" coords="301,104,351,130"/>
+<area shape="poly" title=" " alt="" coords="446,101,352,116,351,111,446,96"/>
+<area shape="rect" href="scheduler_8cpp.html#a5599ce7efc9f9faf9ad2508ed0ffb564" title=" " alt="" coords="301,153,351,179"/>
+<area shape="poly" title=" " alt="" coords="458,118,414,145,382,157,352,164,351,159,381,151,412,140,456,113"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,31,190,56"/>
+<area shape="poly" title=" " alt="" coords="232,34,191,40,190,35,231,29"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,31,59,56"/>
+<area shape="poly" title=" " alt="" coords="91,46,59,46,59,41,91,41"/>
+<area shape="poly" title=" " alt="" coords="222,56,190,52,191,46,223,51"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a28ab534392a6c11899c47cb6ed7e43b2" name="a28ab534392a6c11899c47cb6ed7e43b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ab534392a6c11899c47cb6ed7e43b2">&#9670;&#160;</a></span>setCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> setCallbacks </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scheduled_i_o_8h.html#ab5897abd5663aea86b4ac742c86c9fc3">voidVoidCallback</a>&#160;</td>
+          <td class="paramname"><em>pStartCallback</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="scheduled_i_o_8h.html#ab5897abd5663aea86b4ac742c86c9fc3">voidVoidCallback</a>&#160;</td>
+          <td class="paramname"><em>pEndCallback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the schedule action start &amp; end callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">schedule</td><td><a class="el" href="struct_schedule.html" title="A schedule for a single output channel.">Schedule</a> to modify </td></tr>
+    <tr><td class="paramname">pStartCallback</td><td>Start callback </td></tr>
+    <tr><td class="paramname">pEndCallback</td><td>End callback </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_cgraph.png" border="0" usemap="#ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_cgraph" id="ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_cgraph">
+<area shape="rect" title="Set the schedule action start &amp; end callbacks." alt="" coords="5,5,102,31"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="150,5,200,31"/>
+<area shape="poly" title=" " alt="" coords="102,16,134,16,134,21,102,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_icgraph.png" border="0" usemap="#ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_icgraph" id="ascheduler_8cpp_a28ab534392a6c11899c47cb6ed7e43b2_icgraph">
+<area shape="rect" title="Set the schedule action start &amp; end callbacks." alt="" coords="662,101,758,127"/>
+<area shape="rect" href="init_8cpp.html#a005b41fa439564c0a05a25aefeab9b99" title=" " alt="" coords="461,25,614,51"/>
+<area shape="poly" title=" " alt="" coords="672,96,613,66,581,54,583,49,615,61,674,91"/>
+<area shape="rect" href="init_8cpp.html#a4d8daf30e3c5f5277b32bf0110b0146c" title=" " alt="" coords="461,76,614,102"/>
+<area shape="poly" title=" " alt="" coords="646,107,613,103,614,97,647,102"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,177,190,203"/>
+<area shape="poly" title=" " alt="" coords="646,120,463,135,350,149,239,167,191,179,190,174,237,162,350,144,462,130,646,115"/>
+<area shape="rect" href="scheduler_8cpp.html#a9dcc32d6d79c32bbae138941cd60449b" title=" " alt="" coords="512,227,563,252"/>
+<area shape="poly" title=" " alt="" coords="680,138,558,228,555,224,677,134"/>
+<area shape="rect" href="speeduino_8ino.html#a716efe701caf541a4714f5341b762f62" title=" " alt="" coords="248,25,403,51"/>
+<area shape="poly" title=" " alt="" coords="446,41,404,41,404,35,446,35"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,25,171,51"/>
+<area shape="poly" title=" " alt="" coords="468,24,413,15,326,8,238,15,172,33,171,27,238,10,326,3,414,10,469,19"/>
+<area shape="poly" title=" " alt="" coords="233,41,172,41,172,35,233,35"/>
+<area shape="poly" title=" " alt="" coords="465,74,382,54,383,49,467,69"/>
+<area shape="poly" title=" " alt="" coords="446,88,345,81,237,66,171,48,172,43,239,61,346,75,446,83"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,177,59,203"/>
+<area shape="poly" title=" " alt="" coords="91,193,59,193,59,187,91,187"/>
+<area shape="rect" href="scheduler_8cpp.html#a75237479c2355d3f5064f63b33d82ca0" title=" " alt="" coords="247,177,405,203"/>
+<area shape="poly" title=" " alt="" coords="496,233,383,206,385,201,497,228"/>
+<area shape="rect" href="scheduler_8cpp.html#aee1241ba2bf35ed019d15821e62074a2" title=" " alt="" coords="238,227,413,252"/>
+<area shape="poly" title=" " alt="" coords="496,242,414,242,414,237,496,237"/>
+<area shape="rect" href="scheduler_8cpp.html#a251e6f3e9e1cebce3b02d73fa98ed1e4" title=" " alt="" coords="301,276,351,302"/>
+<area shape="poly" title=" " alt="" coords="498,251,352,286,351,280,497,246"/>
+<area shape="rect" href="scheduler_8cpp.html#a5599ce7efc9f9faf9ad2508ed0ffb564" title=" " alt="" coords="301,325,351,351"/>
+<area shape="poly" title=" " alt="" coords="507,264,464,291,414,317,352,336,351,331,412,312,461,286,504,259"/>
+<area shape="poly" title=" " alt="" coords="231,193,190,193,190,187,231,187"/>
+<area shape="poly" title=" " alt="" coords="261,225,237,218,190,204,191,199,239,213,262,219"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aeb66e63c3d69afd52de7d38a60181932" name="aeb66e63c3d69afd52de7d38a60181932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb66e63c3d69afd52de7d38a60181932">&#9670;&#160;</a></span>setSchedule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> setSchedule </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">bool</a>&#160;</td>
+          <td class="paramname"><em>allowQueuedSchedule</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the schedule action to run for a certain duration in the future. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">schedule</td><td><a class="el" href="struct_schedule.html" title="A schedule for a single output channel.">Schedule</a> to modify </td></tr>
+    <tr><td class="paramname">delay</td><td>Delay until the action starts (µS) </td></tr>
+    <tr><td class="paramname">duration</td><td>Action duration (µS) </td></tr>
+    <tr><td class="paramname">allowQueuedSchedule</td><td>true to allow a schedule to be queued up if one is currently running; false otherwise </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_cgraph.png" border="0" usemap="#ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_cgraph" id="ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_cgraph">
+<area shape="rect" title="Set the schedule action to run for a certain duration in the future." alt="" coords="5,81,99,107"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule action currently running?" alt="" coords="341,5,419,31"/>
+<area shape="poly" title=" " alt="" coords="76,78,108,62,146,48,240,28,324,18,325,24,241,33,147,53,110,67,78,83"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="472,107,523,132"/>
+<area shape="poly" title=" " alt="" coords="99,88,244,85,335,89,425,98,458,105,457,110,424,103,334,94,244,91,99,94"/>
+<area shape="rect" href="scheduler_8cpp.html#afb24e546026855809d50963ac0357689" title=" " alt="" coords="157,107,277,132"/>
+<area shape="poly" title=" " alt="" coords="99,99,142,105,141,111,99,104"/>
+<area shape="rect" href="scheduler_8cpp.html#adb61b0e1246b78a96761f3635c2e4fdc" title=" " alt="" coords="147,157,287,183"/>
+<area shape="poly" title=" " alt="" coords="77,105,148,142,163,149,161,154,146,147,75,110"/>
+<area shape="poly" title=" " alt="" coords="402,30,426,48,475,94,471,98,423,52,399,34"/>
+<area shape="poly" title=" " alt="" coords="277,117,457,117,457,122,277,122"/>
+<area shape="rect" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1" title=" " alt="" coords="335,157,424,183"/>
+<area shape="poly" title=" " alt="" coords="261,130,323,150,321,155,260,135"/>
+<area shape="poly" title=" " alt="" coords="410,154,457,134,459,139,412,159"/>
+<area shape="poly" title=" " alt="" coords="250,181,287,193,331,202,378,204,401,200,423,193,455,171,478,144,482,147,458,175,426,198,402,205,378,209,330,207,285,198,248,186"/>
+<area shape="poly" title=" " alt="" coords="287,168,319,168,319,173,287,173"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_icgraph.png" border="0" usemap="#ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_icgraph" id="ascheduler_8cpp_aeb66e63c3d69afd52de7d38a60181932_icgraph">
+<area shape="rect" title="Set the schedule action to run for a certain duration in the future." alt="" coords="529,31,623,56"/>
+<area shape="rect" href="scheduler_8h.html#a1c8beb63ffdaa6c0ed0345a29d8e95c5" title="Set the fuel schedule action (open &amp; close an injector) to run for a certain duration in the future." alt="" coords="355,5,473,31"/>
+<area shape="poly" title=" " alt="" coords="513,36,473,30,474,25,514,31"/>
+<area shape="rect" href="scheduler_8h.html#a1a135602b67414b7088cdf7d8f499c11" title="Set the ignition schedule action (charge &amp; fire a coil) to run for a certain duration in the future." alt="" coords="346,55,481,80"/>
+<area shape="poly" title=" " alt="" coords="514,55,482,60,481,55,513,50"/>
+<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
+<area shape="poly" title=" " alt="" coords="339,21,298,21,298,16,339,16"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+<area shape="rect" href="speeduino_8ino.html#a60f74b0c57642da66672c8861866a7b0" title=" " alt="" coords="164,55,293,80"/>
+<area shape="poly" title=" " alt="" coords="330,70,293,70,293,65,330,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afb24e546026855809d50963ac0357689" name="afb24e546026855809d50963ac0357689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb24e546026855809d50963ac0357689">&#9670;&#160;</a></span>setScheduleNext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> setScheduleNext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_afb24e546026855809d50963ac0357689_cgraph.png" border="0" usemap="#ascheduler_8cpp_afb24e546026855809d50963ac0357689_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_afb24e546026855809d50963ac0357689_cgraph" id="ascheduler_8cpp_afb24e546026855809d50963ac0357689_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,126,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1" title=" " alt="" coords="174,5,263,31"/>
+<area shape="poly" title=" " alt="" coords="126,31,158,25,159,31,127,36"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="311,31,361,56"/>
+<area shape="poly" title=" " alt="" coords="126,41,295,41,295,46,126,46"/>
+<area shape="poly" title=" " alt="" coords="264,25,296,32,295,37,263,30"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_afb24e546026855809d50963ac0357689_icgraph.png" border="0" usemap="#ascheduler_8cpp_afb24e546026855809d50963ac0357689_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_afb24e546026855809d50963ac0357689_icgraph" id="ascheduler_8cpp_afb24e546026855809d50963ac0357689_icgraph">
+<area shape="rect" title=" " alt="" coords="671,31,791,56"/>
+<area shape="rect" href="scheduler_8cpp.html#aeb66e63c3d69afd52de7d38a60181932" title="Set the schedule action to run for a certain duration in the future." alt="" coords="529,31,623,56"/>
+<area shape="poly" title=" " alt="" coords="655,46,623,46,623,41,655,41"/>
+<area shape="rect" href="scheduler_8h.html#a1c8beb63ffdaa6c0ed0345a29d8e95c5" title="Set the fuel schedule action (open &amp; close an injector) to run for a certain duration in the future." alt="" coords="355,5,473,31"/>
+<area shape="poly" title=" " alt="" coords="513,36,473,30,474,25,514,31"/>
+<area shape="rect" href="scheduler_8h.html#a1a135602b67414b7088cdf7d8f499c11" title="Set the ignition schedule action (charge &amp; fire a coil) to run for a certain duration in the future." alt="" coords="346,55,481,80"/>
+<area shape="poly" title=" " alt="" coords="514,55,482,60,481,55,513,50"/>
+<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
+<area shape="poly" title=" " alt="" coords="339,21,298,21,298,16,339,16"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+<area shape="rect" href="speeduino_8ino.html#a60f74b0c57642da66672c8861866a7b0" title=" " alt="" coords="164,55,293,80"/>
+<area shape="poly" title=" " alt="" coords="330,70,293,70,293,65,330,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adb61b0e1246b78a96761f3635c2e4fdc" name="adb61b0e1246b78a96761f3635c2e4fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb61b0e1246b78a96761f3635c2e4fdc">&#9670;&#160;</a></span>setScheduleRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> setScheduleRunning </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_schedule.html">Schedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>duration</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_cgraph.png" border="0" usemap="#ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_cgraph" id="ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,146,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1" title=" " alt="" coords="194,5,283,31"/>
+<area shape="poly" title=" " alt="" coords="146,30,178,25,179,30,147,35"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="331,31,381,56"/>
+<area shape="poly" title=" " alt="" coords="146,41,316,41,316,46,146,46"/>
+<area shape="poly" title=" " alt="" coords="284,25,316,32,315,37,283,30"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_icgraph.png" border="0" usemap="#ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_icgraph" id="ascheduler_8cpp_adb61b0e1246b78a96761f3635c2e4fdc_icgraph">
+<area shape="rect" title=" " alt="" coords="671,31,811,56"/>
+<area shape="rect" href="scheduler_8cpp.html#aeb66e63c3d69afd52de7d38a60181932" title="Set the schedule action to run for a certain duration in the future." alt="" coords="529,31,623,56"/>
+<area shape="poly" title=" " alt="" coords="655,46,623,46,623,41,655,41"/>
+<area shape="rect" href="scheduler_8h.html#a1c8beb63ffdaa6c0ed0345a29d8e95c5" title="Set the fuel schedule action (open &amp; close an injector) to run for a certain duration in the future." alt="" coords="355,5,473,31"/>
+<area shape="poly" title=" " alt="" coords="513,36,473,30,474,25,514,31"/>
+<area shape="rect" href="scheduler_8h.html#a1a135602b67414b7088cdf7d8f499c11" title="Set the ignition schedule action (charge &amp; fire a coil) to run for a certain duration in the future." alt="" coords="346,55,481,80"/>
+<area shape="poly" title=" " alt="" coords="514,55,482,60,481,55,513,50"/>
+<area shape="rect" href="scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1" title=" " alt="" coords="159,5,298,31"/>
+<area shape="poly" title=" " alt="" coords="339,21,298,21,298,16,339,16"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+<area shape="rect" href="speeduino_8ino.html#a60f74b0c57642da66672c8861866a7b0" title=" " alt="" coords="164,55,293,80"/>
+<area shape="poly" title=" " alt="" coords="330,70,293,70,293,65,330,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a709098dca85053fd26418472663aae69" name="a709098dca85053fd26418472663aae69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709098dca85053fd26418472663aae69">&#9670;&#160;</a></span>startFuelSchedulers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> startFuelSchedulers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a709098dca85053fd26418472663aae69_cgraph.png" border="0" usemap="#ascheduler_8cpp_a709098dca85053fd26418472663aae69_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a709098dca85053fd26418472663aae69_cgraph" id="ascheduler_8cpp_a709098dca85053fd26418472663aae69_cgraph">
+<area shape="rect" title=" " alt="" coords="5,179,143,204"/>
+<area shape="rect" href="board__avr2560_8h.html#ae3e84818f7c64bc5285f8ada5dfe176c" title=" " alt="" coords="191,5,359,31"/>
+<area shape="poly" title=" " alt="" coords="80,177,120,111,151,73,189,40,196,36,199,40,192,44,155,77,124,114,84,179"/>
+<area shape="rect" href="board__avr2560_8h.html#a1623471bb451e1145701739c5db3ae78" title=" " alt="" coords="191,55,359,80"/>
+<area shape="poly" title=" " alt="" coords="85,176,128,134,157,110,189,89,200,84,202,89,192,94,161,114,132,138,89,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a6e9eb86bab8b1e5cc2a609ad2115580b" title=" " alt="" coords="191,104,359,130"/>
+<area shape="poly" title=" " alt="" coords="102,176,190,138,208,132,210,137,192,143,104,181"/>
+<area shape="rect" href="board__avr2560_8h.html#a235704133af4a5c21f3171c9b1edf18b" title=" " alt="" coords="191,153,359,179"/>
+<area shape="poly" title=" " alt="" coords="143,180,175,176,175,181,143,185"/>
+<area shape="rect" href="board__avr2560_8h.html#aeae173d4d10f514c26382120ffd7afcb" title=" " alt="" coords="191,203,359,228"/>
+<area shape="poly" title=" " alt="" coords="143,197,175,201,175,206,143,202"/>
+<area shape="rect" href="board__avr2560_8h.html#a71b6814b28d1f9fd77275c0e381ee5d5" title=" " alt="" coords="191,252,359,278"/>
+<area shape="poly" title=" " alt="" coords="105,202,192,238,210,244,208,249,190,243,103,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a6cb8e7cf7682a87a02d98b563add5cef" title=" " alt="" coords="191,301,359,327"/>
+<area shape="poly" title=" " alt="" coords="89,203,132,245,161,268,192,288,202,293,200,298,189,292,158,272,128,249,85,207"/>
+<area shape="rect" href="board__avr2560_8h.html#aea813301beab71244b3e70994ec354e6" title=" " alt="" coords="191,351,359,376"/>
+<area shape="poly" title=" " alt="" coords="84,203,124,268,155,305,192,337,199,341,196,346,189,342,151,309,120,271,80,206"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="407,179,457,204"/>
+<area shape="poly" title=" " alt="" coords="344,29,361,40,386,68,405,101,427,163,422,164,400,103,382,71,357,44,341,34"/>
+<area shape="poly" title=" " alt="" coords="341,79,361,89,380,106,396,125,420,164,416,166,392,128,376,110,357,94,338,83"/>
+<area shape="poly" title=" " alt="" coords="333,128,360,138,405,167,402,171,358,143,331,133"/>
+<area shape="poly" title=" " alt="" coords="359,177,392,182,391,188,358,182"/>
+<area shape="poly" title=" " alt="" coords="359,200,391,195,392,200,360,205"/>
+<area shape="poly" title=" " alt="" coords="331,249,358,238,401,212,404,216,360,243,333,254"/>
+<area shape="poly" title=" " alt="" coords="338,298,357,288,376,272,392,254,416,217,420,220,396,257,379,276,361,292,341,303"/>
+<area shape="poly" title=" " alt="" coords="341,348,357,337,382,311,400,279,422,219,427,221,405,281,386,314,361,342,344,352"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a709098dca85053fd26418472663aae69_icgraph.png" border="0" usemap="#ascheduler_8cpp_a709098dca85053fd26418472663aae69_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a709098dca85053fd26418472663aae69_icgraph" id="ascheduler_8cpp_a709098dca85053fd26418472663aae69_icgraph">
+<area shape="rect" title=" " alt="" coords="401,31,539,56"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a07987e313e9d878a1db022bad839f197" name="a07987e313e9d878a1db022bad839f197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07987e313e9d878a1db022bad839f197">&#9670;&#160;</a></span>startIgnitionSchedulers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> startIgnitionSchedulers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a07987e313e9d878a1db022bad839f197_cgraph.png" border="0" usemap="#ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_cgraph" id="ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_cgraph">
+<area shape="rect" title=" " alt="" coords="5,179,160,204"/>
+<area shape="rect" href="board__avr2560_8h.html#a0930a1b33ee59f567bfe926fc7acbdb2" title=" " alt="" coords="208,5,366,31"/>
+<area shape="poly" title=" " alt="" coords="89,177,133,112,166,73,206,40,213,36,216,40,209,44,170,77,137,115,93,180"/>
+<area shape="rect" href="board__avr2560_8h.html#aabd3ecb9eb5e5e5dc8c03f5919a3f9be" title=" " alt="" coords="208,55,366,80"/>
+<area shape="poly" title=" " alt="" coords="95,176,142,134,173,110,206,89,217,84,219,89,209,94,176,114,145,138,99,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a217fb60552300aa56eae653b742bd2fc" title=" " alt="" coords="208,104,366,130"/>
+<area shape="poly" title=" " alt="" coords="114,176,207,138,224,132,226,137,209,143,116,181"/>
+<area shape="rect" href="board__avr2560_8h.html#ad3e16bf53cb8c8fa0b50008a71cd20ba" title=" " alt="" coords="208,153,366,179"/>
+<area shape="poly" title=" " alt="" coords="160,179,192,175,192,181,160,185"/>
+<area shape="rect" href="board__avr2560_8h.html#a4c3f012298e7a7c9896cff210269d9a4" title=" " alt="" coords="208,203,366,228"/>
+<area shape="poly" title=" " alt="" coords="160,198,192,202,192,207,160,203"/>
+<area shape="rect" href="board__avr2560_8h.html#a9d752c4ce1451b2415fccadae9257b64" title=" " alt="" coords="208,252,366,278"/>
+<area shape="poly" title=" " alt="" coords="117,203,209,238,226,244,224,249,207,243,115,207"/>
+<area shape="rect" href="board__avr2560_8h.html#ad8e40d41a836992fa17b067007fa273d" title=" " alt="" coords="208,301,366,327"/>
+<area shape="poly" title=" " alt="" coords="99,203,145,244,176,268,209,288,219,293,217,298,206,293,173,272,142,249,95,207"/>
+<area shape="rect" href="board__avr2560_8h.html#ab3034e08983a70887ea6753acbb54a18" title=" " alt="" coords="208,351,366,376"/>
+<area shape="poly" title=" " alt="" coords="93,203,137,267,170,305,209,337,216,342,214,346,206,342,167,309,133,271,89,206"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="414,179,464,204"/>
+<area shape="poly" title=" " alt="" coords="351,29,368,40,393,68,412,101,434,163,429,165,407,104,389,72,364,44,348,34"/>
+<area shape="poly" title=" " alt="" coords="348,79,368,89,386,106,403,125,427,163,423,166,399,128,383,110,364,94,345,83"/>
+<area shape="poly" title=" " alt="" coords="341,128,367,138,412,167,409,171,365,143,339,133"/>
+<area shape="poly" title=" " alt="" coords="367,177,399,182,398,188,366,182"/>
+<area shape="poly" title=" " alt="" coords="366,200,398,195,399,200,367,206"/>
+<area shape="poly" title=" " alt="" coords="339,249,365,238,408,212,411,216,367,243,341,254"/>
+<area shape="poly" title=" " alt="" coords="345,298,364,288,383,272,398,254,423,217,427,219,403,257,386,276,368,292,348,303"/>
+<area shape="poly" title=" " alt="" coords="348,348,364,337,388,311,407,279,429,219,434,220,412,281,393,314,368,342,351,352"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a07987e313e9d878a1db022bad839f197_icgraph.png" border="0" usemap="#ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_icgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_icgraph" id="ascheduler_8cpp_a07987e313e9d878a1db022bad839f197_icgraph">
+<area shape="rect" title=" " alt="" coords="401,31,556,56"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa94fdf850c7dc29d62f3140ae4aeae7b" name="aa94fdf850c7dc29d62f3140ae4aeae7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa94fdf850c7dc29d62f3140ae4aeae7b">&#9670;&#160;</a></span>stopFuelSchedulers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> stopFuelSchedulers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_aa94fdf850c7dc29d62f3140ae4aeae7b_cgraph.png" border="0" usemap="#ascheduler_8cpp_aa94fdf850c7dc29d62f3140ae4aeae7b_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_aa94fdf850c7dc29d62f3140ae4aeae7b_cgraph" id="ascheduler_8cpp_aa94fdf850c7dc29d62f3140ae4aeae7b_cgraph">
+<area shape="rect" title=" " alt="" coords="5,179,142,204"/>
+<area shape="rect" href="board__avr2560_8h.html#a20af2e73ccb0c1202f84147792866df2" title=" " alt="" coords="190,5,362,31"/>
+<area shape="poly" title=" " alt="" coords="79,177,119,111,150,73,188,40,195,36,198,40,191,44,154,77,123,114,84,179"/>
+<area shape="rect" href="board__avr2560_8h.html#a31afe2b214c189a62f07443ea95b3914" title=" " alt="" coords="190,55,362,80"/>
+<area shape="poly" title=" " alt="" coords="85,176,127,133,157,110,188,89,199,84,201,89,191,94,160,114,131,137,88,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a43223207fe8b8728c7a3db6a8cb4eaba" title=" " alt="" coords="190,104,362,130"/>
+<area shape="poly" title=" " alt="" coords="101,176,189,138,207,132,209,137,191,143,103,181"/>
+<area shape="rect" href="board__avr2560_8h.html#a211fc96b2d33ec544ef0da5e06b2e069" title=" " alt="" coords="190,153,362,179"/>
+<area shape="poly" title=" " alt="" coords="142,180,174,176,175,182,142,186"/>
+<area shape="rect" href="board__avr2560_8h.html#a2e401fc83a338fe54ea4f600324e9a71" title=" " alt="" coords="190,203,362,228"/>
+<area shape="poly" title=" " alt="" coords="142,197,175,201,174,206,142,202"/>
+<area shape="rect" href="board__avr2560_8h.html#a80f6580b987f0c0b41b951da64652f6b" title=" " alt="" coords="190,252,362,278"/>
+<area shape="poly" title=" " alt="" coords="104,202,191,238,210,245,208,250,189,243,102,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a5e921fe0e181f0b1a2a11a3315919c32" title=" " alt="" coords="190,301,362,327"/>
+<area shape="poly" title=" " alt="" coords="88,203,131,245,160,268,191,288,201,293,199,298,188,292,157,272,128,249,85,207"/>
+<area shape="rect" href="board__avr2560_8h.html#ad25a05507cbd73e8e3cd1c2a38c6f5f7" title=" " alt="" coords="190,351,362,376"/>
+<area shape="poly" title=" " alt="" coords="84,203,123,268,154,305,191,337,198,341,195,346,188,342,150,309,119,271,79,206"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="410,179,460,204"/>
+<area shape="poly" title=" " alt="" coords="347,29,364,40,389,68,408,101,430,163,425,164,403,103,385,71,360,44,344,34"/>
+<area shape="poly" title=" " alt="" coords="344,79,364,89,383,106,399,125,423,163,419,166,395,128,379,110,360,94,341,83"/>
+<area shape="poly" title=" " alt="" coords="336,128,363,138,408,167,405,171,361,143,334,133"/>
+<area shape="poly" title=" " alt="" coords="361,177,395,183,395,188,360,182"/>
+<area shape="poly" title=" " alt="" coords="362,200,394,195,395,200,363,205"/>
+<area shape="poly" title=" " alt="" coords="333,249,361,238,404,212,407,216,363,243,335,254"/>
+<area shape="poly" title=" " alt="" coords="341,298,360,288,379,272,395,254,419,217,423,220,399,257,382,276,364,292,343,303"/>
+<area shape="poly" title=" " alt="" coords="344,348,360,337,385,311,403,279,425,219,430,221,408,282,389,314,364,342,347,352"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5d3ac2a7080cbcc99515735f5806077a" name="a5d3ac2a7080cbcc99515735f5806077a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d3ac2a7080cbcc99515735f5806077a">&#9670;&#160;</a></span>stopIgnitionSchedulers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> stopIgnitionSchedulers </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler_8cpp_a5d3ac2a7080cbcc99515735f5806077a_cgraph.png" border="0" usemap="#ascheduler_8cpp_a5d3ac2a7080cbcc99515735f5806077a_cgraph" alt=""/></div>
+<map name="ascheduler_8cpp_a5d3ac2a7080cbcc99515735f5806077a_cgraph" id="ascheduler_8cpp_a5d3ac2a7080cbcc99515735f5806077a_cgraph">
+<area shape="rect" title=" " alt="" coords="5,179,159,204"/>
+<area shape="rect" href="board__avr2560_8h.html#a099d2412fd620552827ab916e08551aa" title=" " alt="" coords="207,5,369,31"/>
+<area shape="poly" title=" " alt="" coords="88,177,132,111,166,73,205,40,212,36,215,40,208,44,169,77,136,115,93,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a90bb6ffac23f03f9969bcb61c8f49ca4" title=" " alt="" coords="207,55,369,80"/>
+<area shape="poly" title=" " alt="" coords="94,176,141,134,172,110,205,89,217,84,219,89,208,94,175,114,144,138,98,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a09345afdf3f7b4f085eb19e714b62367" title=" " alt="" coords="207,104,369,130"/>
+<area shape="poly" title=" " alt="" coords="112,176,206,138,224,132,226,137,208,143,114,181"/>
+<area shape="rect" href="board__avr2560_8h.html#adcf17ec5e1adb6d3f7d4cddc4ffe611e" title=" " alt="" coords="207,153,369,179"/>
+<area shape="poly" title=" " alt="" coords="159,179,191,175,191,181,159,185"/>
+<area shape="rect" href="board__avr2560_8h.html#ada97138136b4c7718c5eaeb9ef3862fd" title=" " alt="" coords="207,203,369,228"/>
+<area shape="poly" title=" " alt="" coords="159,198,191,202,191,207,159,203"/>
+<area shape="rect" href="board__avr2560_8h.html#a78270acc0c4d2cbc0a5f721f3eeb72f0" title=" " alt="" coords="207,252,369,278"/>
+<area shape="poly" title=" " alt="" coords="115,202,208,238,226,244,224,249,206,243,114,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a900159a56a1d54a9d4bd572fb3419d61" title=" " alt="" coords="207,301,369,327"/>
+<area shape="poly" title=" " alt="" coords="98,203,145,245,175,268,208,288,219,293,217,298,205,293,172,272,141,249,95,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a9d61b6a15d1e3ad21449367d532bc71a" title=" " alt="" coords="207,351,369,376"/>
+<area shape="poly" title=" " alt="" coords="93,203,136,268,169,305,208,337,216,342,213,346,205,342,166,309,132,271,88,206"/>
+<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="417,179,467,204"/>
+<area shape="poly" title=" " alt="" coords="354,29,371,40,396,68,415,101,437,163,432,165,410,103,392,71,367,44,351,34"/>
+<area shape="poly" title=" " alt="" coords="351,79,371,89,390,106,406,125,430,164,426,166,402,128,386,110,367,94,348,83"/>
+<area shape="poly" title=" " alt="" coords="343,128,370,138,415,167,412,171,368,143,341,133"/>
+<area shape="poly" title=" " alt="" coords="370,177,402,182,401,188,369,182"/>
+<area shape="poly" title=" " alt="" coords="369,200,401,195,402,200,370,205"/>
+<area shape="poly" title=" " alt="" coords="341,249,368,238,411,212,414,216,370,243,343,254"/>
+<area shape="poly" title=" " alt="" coords="348,298,367,288,386,272,402,254,426,217,430,219,406,257,389,276,371,292,351,303"/>
+<area shape="poly" title=" " alt="" coords="351,348,367,337,391,311,410,279,432,219,437,221,415,281,396,314,371,342,354,352"/>
 </map>
 </div>
 
@@ -1073,14 +1744,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8d70c40a7bee9f8156ca841a1f025008" name="a8d70c40a7bee9f8156ca841a1f025008"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d70c40a7bee9f8156ca841a1f025008">&#9670;&#160;</a></span>fuelSchedule1</h2>
+<a id="a95ce3387fef38bbccf626eacb08079aa" name="a95ce3387fef38bbccf626eacb08079aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95ce3387fef38bbccf626eacb08079aa">&#9670;&#160;</a></span>fuelSchedule1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule1(<a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a20af2e73ccb0c1202f84147792866df2">FUEL1_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#ae3e84818f7c64bc5285f8ada5dfe176c">FUEL1_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule1(<a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1089,18 +1760,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a20af2e73ccb0c1202f84147792866df2">FUEL1_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ae3e84818f7c64bc5285f8ada5dfe176c">FUEL1_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1113,14 +1772,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ade1bb8c43d92849be598b49fa3513656" name="ade1bb8c43d92849be598b49fa3513656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade1bb8c43d92849be598b49fa3513656">&#9670;&#160;</a></span>fuelSchedule2</h2>
+<a id="aa294f6a749a050f7736954a75ad110c0" name="aa294f6a749a050f7736954a75ad110c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa294f6a749a050f7736954a75ad110c0">&#9670;&#160;</a></span>fuelSchedule2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule2(<a class="el" href="board__avr2560_8h.html#ad71e6c5473d3f05c1d5588457ae24ff3">FUEL2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a3ae48bde07ca4ed551dd4a0947486801">FUEL2_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a31afe2b214c189a62f07443ea95b3914">FUEL2_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a1623471bb451e1145701739c5db3ae78">FUEL2_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule2(<a class="el" href="board__avr2560_8h.html#ad71e6c5473d3f05c1d5588457ae24ff3">FUEL2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a3ae48bde07ca4ed551dd4a0947486801">FUEL2_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ad71e6c5473d3f05c1d5588457ae24ff3">FUEL2_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1129,18 +1788,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a3ae48bde07ca4ed551dd4a0947486801">FUEL2_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a31afe2b214c189a62f07443ea95b3914">FUEL2_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a1623471bb451e1145701739c5db3ae78">FUEL2_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1153,14 +1800,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8722c4eaac183c7ce6588cafbb1fda0a" name="a8722c4eaac183c7ce6588cafbb1fda0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8722c4eaac183c7ce6588cafbb1fda0a">&#9670;&#160;</a></span>fuelSchedule3</h2>
+<a id="ac2f1767b291454cf2062ce46199da07b" name="ac2f1767b291454cf2062ce46199da07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2f1767b291454cf2062ce46199da07b">&#9670;&#160;</a></span>fuelSchedule3</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule3(<a class="el" href="board__avr2560_8h.html#ad6c7bcd5d5455525fd8c7ba91bbf5d2e">FUEL3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa7899c1b4ad896857fea274e14991e1a">FUEL3_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a43223207fe8b8728c7a3db6a8cb4eaba">FUEL3_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a6e9eb86bab8b1e5cc2a609ad2115580b">FUEL3_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule3(<a class="el" href="board__avr2560_8h.html#ad6c7bcd5d5455525fd8c7ba91bbf5d2e">FUEL3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa7899c1b4ad896857fea274e14991e1a">FUEL3_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ad6c7bcd5d5455525fd8c7ba91bbf5d2e">FUEL3_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1169,18 +1816,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#aa7899c1b4ad896857fea274e14991e1a">FUEL3_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a43223207fe8b8728c7a3db6a8cb4eaba">FUEL3_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a6e9eb86bab8b1e5cc2a609ad2115580b">FUEL3_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1193,14 +1828,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a78700cde429686110823164ea6554d63" name="a78700cde429686110823164ea6554d63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78700cde429686110823164ea6554d63">&#9670;&#160;</a></span>fuelSchedule4</h2>
+<a id="aee6aeb457c8f4d2a0a7b3dd5bf77c8fa" name="aee6aeb457c8f4d2a0a7b3dd5bf77c8fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee6aeb457c8f4d2a0a7b3dd5bf77c8fa">&#9670;&#160;</a></span>fuelSchedule4</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule4(<a class="el" href="board__avr2560_8h.html#af03fd2889af88f462d59324c1e14199b">FUEL4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a851672bfd3e1c8bd814479ed706b38b1">FUEL4_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a211fc96b2d33ec544ef0da5e06b2e069">FUEL4_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a235704133af4a5c21f3171c9b1edf18b">FUEL4_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> fuelSchedule4(<a class="el" href="board__avr2560_8h.html#af03fd2889af88f462d59324c1e14199b">FUEL4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a851672bfd3e1c8bd814479ed706b38b1">FUEL4_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#af03fd2889af88f462d59324c1e14199b">FUEL4_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1209,18 +1844,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a851672bfd3e1c8bd814479ed706b38b1">FUEL4_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a211fc96b2d33ec544ef0da5e06b2e069">FUEL4_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a235704133af4a5c21f3171c9b1edf18b">FUEL4_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1233,14 +1856,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="ad55a45d9bd24c58ac59ac2dfe1ab92f6" name="ad55a45d9bd24c58ac59ac2dfe1ab92f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad55a45d9bd24c58ac59ac2dfe1ab92f6">&#9670;&#160;</a></span>ignitionSchedule1</h2>
+<a id="a25b0187eb1c560d23dd6105158afd6c4" name="a25b0187eb1c560d23dd6105158afd6c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25b0187eb1c560d23dd6105158afd6c4">&#9670;&#160;</a></span>ignitionSchedule1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule1(<a class="el" href="board__avr2560_8h.html#a7afd180a2771d03fc4319cc802ce456c">IGN1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aeab818b1e09d98b82fc053bfa11457b4">IGN1_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a099d2412fd620552827ab916e08551aa">IGN1_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a0930a1b33ee59f567bfe926fc7acbdb2">IGN1_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule1(<a class="el" href="board__avr2560_8h.html#a7afd180a2771d03fc4319cc802ce456c">IGN1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aeab818b1e09d98b82fc053bfa11457b4">IGN1_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a7afd180a2771d03fc4319cc802ce456c">IGN1_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1249,18 +1872,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#aeab818b1e09d98b82fc053bfa11457b4">IGN1_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a099d2412fd620552827ab916e08551aa">IGN1_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a0930a1b33ee59f567bfe926fc7acbdb2">IGN1_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1273,14 +1884,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a3aa24fba6ba92507fdbec86979edcbc7" name="a3aa24fba6ba92507fdbec86979edcbc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aa24fba6ba92507fdbec86979edcbc7">&#9670;&#160;</a></span>ignitionSchedule2</h2>
+<a id="ac3e8cb782f4d09b153c13ebdc24df7a0" name="ac3e8cb782f4d09b153c13ebdc24df7a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3e8cb782f4d09b153c13ebdc24df7a0">&#9670;&#160;</a></span>ignitionSchedule2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule2(<a class="el" href="board__avr2560_8h.html#ace9e1053305d9ac6d73a47033301bc42">IGN2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a102cfea31fa55d442fb1e3b0767ca161">IGN2_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a90bb6ffac23f03f9969bcb61c8f49ca4">IGN2_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#aabd3ecb9eb5e5e5dc8c03f5919a3f9be">IGN2_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule2(<a class="el" href="board__avr2560_8h.html#ace9e1053305d9ac6d73a47033301bc42">IGN2_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a102cfea31fa55d442fb1e3b0767ca161">IGN2_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ace9e1053305d9ac6d73a47033301bc42">IGN2_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1289,18 +1900,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a102cfea31fa55d442fb1e3b0767ca161">IGN2_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a90bb6ffac23f03f9969bcb61c8f49ca4">IGN2_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#aabd3ecb9eb5e5e5dc8c03f5919a3f9be">IGN2_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1313,14 +1912,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a43414cc8d0a423484307074f430d987a" name="a43414cc8d0a423484307074f430d987a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43414cc8d0a423484307074f430d987a">&#9670;&#160;</a></span>ignitionSchedule3</h2>
+<a id="ade57dd9648ba8f89e2e05b9d25cf63f5" name="ade57dd9648ba8f89e2e05b9d25cf63f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade57dd9648ba8f89e2e05b9d25cf63f5">&#9670;&#160;</a></span>ignitionSchedule3</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule3(<a class="el" href="board__avr2560_8h.html#a2641982aed6d295ebcec382f0380e4cf">IGN3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a8658f00a042e3b3496ca48365c130e2a">IGN3_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#a09345afdf3f7b4f085eb19e714b62367">IGN3_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a217fb60552300aa56eae653b742bd2fc">IGN3_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule3(<a class="el" href="board__avr2560_8h.html#a2641982aed6d295ebcec382f0380e4cf">IGN3_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a8658f00a042e3b3496ca48365c130e2a">IGN3_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a2641982aed6d295ebcec382f0380e4cf">IGN3_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1329,18 +1928,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a8658f00a042e3b3496ca48365c130e2a">IGN3_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a09345afdf3f7b4f085eb19e714b62367">IGN3_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a217fb60552300aa56eae653b742bd2fc">IGN3_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1353,14 +1940,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="af34833e0acda850ec64d831c62729e14" name="af34833e0acda850ec64d831c62729e14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af34833e0acda850ec64d831c62729e14">&#9670;&#160;</a></span>ignitionSchedule4</h2>
+<a id="a793db0de326fc12cd21f7a683811dd43" name="a793db0de326fc12cd21f7a683811dd43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793db0de326fc12cd21f7a683811dd43">&#9670;&#160;</a></span>ignitionSchedule4</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule4(<a class="el" href="board__avr2560_8h.html#a1c168ac3d9aa902f6369ccd64fc4aeab">IGN4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a63124f7dac1910ff781a84868b036514">IGN4_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#adcf17ec5e1adb6d3f7d4cddc4ffe611e">IGN4_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#ad3e16bf53cb8c8fa0b50008a71cd20ba">IGN4_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule4(<a class="el" href="board__avr2560_8h.html#a1c168ac3d9aa902f6369ccd64fc4aeab">IGN4_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a63124f7dac1910ff781a84868b036514">IGN4_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a1c168ac3d9aa902f6369ccd64fc4aeab">IGN4_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1369,18 +1956,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a63124f7dac1910ff781a84868b036514">IGN4_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#adcf17ec5e1adb6d3f7d4cddc4ffe611e">IGN4_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ad3e16bf53cb8c8fa0b50008a71cd20ba">IGN4_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1393,14 +1968,14 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="acc4a1b80677f8390756062ff2014fc3b" name="acc4a1b80677f8390756062ff2014fc3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4a1b80677f8390756062ff2014fc3b">&#9670;&#160;</a></span>ignitionSchedule5</h2>
+<a id="a372817ca97c7aedc2da232e614766fb7" name="a372817ca97c7aedc2da232e614766fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372817ca97c7aedc2da232e614766fb7">&#9670;&#160;</a></span>ignitionSchedule5</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule5(<a class="el" href="board__avr2560_8h.html#a5be9d366899a71af36a217de9020577a">IGN5_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa2050c362aa388c0541fd36074a789d5">IGN5_COMPARE</a>, <a class="el" href="board__avr2560_8h.html#ada97138136b4c7718c5eaeb9ef3862fd">IGN5_TIMER_DISABLE</a>, <a class="el" href="board__avr2560_8h.html#a4c3f012298e7a7c9896cff210269d9a4">IGN5_TIMER_ENABLE</a>) </td>
+          <td class="memname"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> ignitionSchedule5(<a class="el" href="board__avr2560_8h.html#a5be9d366899a71af36a217de9020577a">IGN5_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#aa2050c362aa388c0541fd36074a789d5">IGN5_COMPARE</a>) </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a5be9d366899a71af36a217de9020577a">IGN5_COUNTER</a>&#160;</td>
           <td class="paramname">, </td>
@@ -1409,18 +1984,6 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="board__avr2560_8h.html#aa2050c362aa388c0541fd36074a789d5">IGN5_COMPARE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#ada97138136b4c7718c5eaeb9ef3862fd">IGN5_TIMER_DISABLE</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a4c3f012298e7a7c9896cff210269d9a4">IGN5_TIMER_ENABLE</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

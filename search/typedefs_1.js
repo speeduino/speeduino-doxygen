@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['compare_5ft_0',['compare_t',['../struct_ignition_schedule.html#a23f9a5b475bab5edbd6ab7405678caf4',1,'IgnitionSchedule::compare_t'],['../struct_fuel_schedule.html#a8faefe8c19e139816f6bde396d66e87b',1,'FuelSchedule::compare_t']]],
-  ['counter_5ft_1',['counter_t',['../struct_ignition_schedule.html#ab75b5c594abb9df5525b7b5eb85cc06c',1,'IgnitionSchedule::counter_t'],['../struct_fuel_schedule.html#a4bbdb403993896d8d2233f0b3356bd92',1,'FuelSchedule::counter_t']]],
+  ['compare_5ft_0',['compare_t',['../struct_schedule.html#afa11bad38dc1a754481119fd67c86bf7',1,'Schedule']]],
+  ['counter_5ft_1',['counter_t',['../struct_schedule.html#a95c826dededab2e0ba14570c2acf5b51',1,'Schedule']]],
   ['crc_5ft_2',['crc_t',['../group__group-serial-comms-impl.html#ga19429693ab0bfa967896917ac1bbad23',1,'comms.cpp']]]
 ];

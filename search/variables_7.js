@@ -1,20 +1,8 @@
 var searchData=
 [
-  ['halfsync_0',['halfSync',['../structstatuses.html#af9b52b862820bc4cb6591d291c3ac088',1,'statuses']]],
-  ['hard_5fcut_5ffull_1',['HARD_CUT_FULL',['../config__pages_8h.html#a4e2755895fb6afca202a4db8d8a4c469',1,'config_pages.h']]],
-  ['hard_5fcut_5frolling_2',['HARD_CUT_ROLLING',['../config__pages_8h.html#a3f574396092d2300eb74e6a05e4e006c',1,'config_pages.h']]],
-  ['hardcuttype_3',['hardCutType',['../structconfig2.html#af989c8af7130ed85731ca4c31ae44c4e',1,'config2']]],
-  ['hardlaunchactive_4',['hardLaunchActive',['../structstatuses.html#a95ecb220cb3af94f692a927479eae2cf',1,'statuses']]],
-  ['hardlimitactive_5',['hardLimitActive',['../structstatuses.html#a52cb6433a154f281bcc8d6f8d85d73e0',1,'statuses']]],
-  ['hardrevlim_6',['HardRevLim',['../structconfig4.html#a8fd4e0c8ea7e7bdccf477ed696aafff1',1,'config4']]],
-  ['hardrevmode_7',['hardRevMode',['../structconfig9.html#a4cce7ebb901b35443c19718f1648a9ca',1,'config9']]],
-  ['hasfullsync_8',['hasFullSync',['../structstatuses.html#a31e0ba73643e3ecf2eec62ca78329a74',1,'statuses']]],
-  ['hasnextschedule_9',['hasnextschedule',['../struct_ignition_schedule.html#ac9642f9d429a679746ecf56b461594b6',1,'IgnitionSchedule::hasNextSchedule'],['../struct_fuel_schedule.html#acf9b8f521fcd4e19d0686473f55cf137',1,'FuelSchedule::hasNextSchedule']]],
-  ['hassync_10',['hasSync',['../structstatuses.html#a0ce7170b804d912db6b41bf19ded367a',1,'statuses']]],
-  ['hwtest_5fign_11',['hwtest_ign',['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp'],['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp']]],
-  ['hwtest_5fign_5fpulsed_12',['hwtest_ign_pulsed',['../globals_8cpp.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp'],['../globals_8h.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp']]],
-  ['hwtest_5finj_13',['hwtest_inj',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp']]],
-  ['hwtest_5finj_5fpulsed_14',['hwtest_inj_pulsed',['../globals_8cpp.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp'],['../globals_8h.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp']]],
-  ['hwtestignduration_15',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
-  ['hwtestinjduration_16',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
+  ['gear_0',['gear',['../structstatuses.html#a6cbc535835703d8f4b05de0e914479fd',1,'statuses']]],
+  ['getcrankangle_1',['getcrankangle',['../decoders_8cpp.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle:&#160;decoders.cpp'],['../decoders_8h.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle:&#160;decoders.cpp']]],
+  ['getrpm_2',['getrpm',['../decoders_8cpp.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM:&#160;decoders.cpp'],['../decoders_8h.html#acdb446c8c30f4df65dc11fa9ebc0d765',1,'getRPM:&#160;decoders.cpp']]],
+  ['going_5fhigh_3',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
+  ['going_5flow_4',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
 ];

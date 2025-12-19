@@ -81,7 +81,8 @@ $(function() {
   <div class="headertitle"><div class="title">board_avr2560.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;avr/interrupt.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;avr/interrupt.h&gt;</code><br />
 <code>#include &lt;avr/io.h&gt;</code><br />
 </div>
 <p><a href="board__avr2560_8h_source.html">Go to the source code of this file.</a></p>
@@ -180,7 +181,7 @@ Macros</h2></td></tr>
 <tr class="separator:a31e4debb00fef291ee59f708cd0cd404"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f1299c5dd88c76fb0cbd828d801c4ec" id="r_a9f1299c5dd88c76fb0cbd828d801c4ec"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#a9f1299c5dd88c76fb0cbd828d801c4ec">MAX_TIMER_PERIOD</a>&#160;&#160;&#160;262140UL</td></tr>
 <tr class="separator:a9f1299c5dd88c76fb0cbd828d801c4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a81f6ace78fc29f5a370e79a42529c" id="r_a04a81f6ace78fc29f5a370e79a42529c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#a04a81f6ace78fc29f5a370e79a42529c">uS_TO_TIMER_COMPARE</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>)&#160;&#160;&#160;((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>) &gt;&gt; 2)</td></tr>
+<tr class="memitem:a04a81f6ace78fc29f5a370e79a42529c" id="r_a04a81f6ace78fc29f5a370e79a42529c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#a04a81f6ace78fc29f5a370e79a42529c">uS_TO_TIMER_COMPARE</a>(<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>)&#160;&#160;&#160;(<a class="el" href="board__avr2560_8h.html#a48cde1bd957f6d7f7e9f106f61a67777">COMPARE_TYPE</a>)((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>) &gt;&gt; 2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td></tr>
 <tr class="separator:a04a81f6ace78fc29f5a370e79a42529c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8236de9a0f3ca5669fa74efd1e31bec" id="r_ae8236de9a0f3ca5669fa74efd1e31bec"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#ae8236de9a0f3ca5669fa74efd1e31bec">ENABLE_BOOST_TIMER</a>()&#160;&#160;&#160;<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">TIMSK1</a> |= (1 &lt;&lt; <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">OCIE1A</a>)</td></tr>
 <tr class="separator:ae8236de9a0f3ca5669fa74efd1e31bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1114,7 +1115,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>) &gt;&gt; 2)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="board__avr2560_8h.html#a48cde1bd957f6d7f7e9f106f61a67777">COMPARE_TYPE</a>)((<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uS1</a>) &gt;&gt; 2<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1198,6 +1199,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a20af2e73ccb0c1202f84147792866df2_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a20af2e73ccb0c1202f84147792866df2_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a20af2e73ccb0c1202f84147792866df2_icgraph" id="aboard__avr2560_8h_a20af2e73ccb0c1202f84147792866df2_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1232,6 +1243,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ae3e84818f7c64bc5285f8ada5dfe176c_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ae3e84818f7c64bc5285f8ada5dfe176c_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ae3e84818f7c64bc5285f8ada5dfe176c_icgraph" id="aboard__avr2560_8h_ae3e84818f7c64bc5285f8ada5dfe176c_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1270,6 +1299,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a31afe2b214c189a62f07443ea95b3914_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a31afe2b214c189a62f07443ea95b3914_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a31afe2b214c189a62f07443ea95b3914_icgraph" id="aboard__avr2560_8h_a31afe2b214c189a62f07443ea95b3914_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1304,6 +1343,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a1623471bb451e1145701739c5db3ae78_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a1623471bb451e1145701739c5db3ae78_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a1623471bb451e1145701739c5db3ae78_icgraph" id="aboard__avr2560_8h_a1623471bb451e1145701739c5db3ae78_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1342,6 +1399,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a43223207fe8b8728c7a3db6a8cb4eaba_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a43223207fe8b8728c7a3db6a8cb4eaba_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a43223207fe8b8728c7a3db6a8cb4eaba_icgraph" id="aboard__avr2560_8h_a43223207fe8b8728c7a3db6a8cb4eaba_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1376,6 +1443,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a6e9eb86bab8b1e5cc2a609ad2115580b_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a6e9eb86bab8b1e5cc2a609ad2115580b_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a6e9eb86bab8b1e5cc2a609ad2115580b_icgraph" id="aboard__avr2560_8h_a6e9eb86bab8b1e5cc2a609ad2115580b_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1414,6 +1499,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a211fc96b2d33ec544ef0da5e06b2e069_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a211fc96b2d33ec544ef0da5e06b2e069_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a211fc96b2d33ec544ef0da5e06b2e069_icgraph" id="aboard__avr2560_8h_a211fc96b2d33ec544ef0da5e06b2e069_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1448,6 +1543,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a235704133af4a5c21f3171c9b1edf18b_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a235704133af4a5c21f3171c9b1edf18b_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a235704133af4a5c21f3171c9b1edf18b_icgraph" id="aboard__avr2560_8h_a235704133af4a5c21f3171c9b1edf18b_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1486,6 +1599,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a2e401fc83a338fe54ea4f600324e9a71_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a2e401fc83a338fe54ea4f600324e9a71_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a2e401fc83a338fe54ea4f600324e9a71_icgraph" id="aboard__avr2560_8h_a2e401fc83a338fe54ea4f600324e9a71_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1520,6 +1643,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_aeae173d4d10f514c26382120ffd7afcb_icgraph.png" border="0" usemap="#aboard__avr2560_8h_aeae173d4d10f514c26382120ffd7afcb_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_aeae173d4d10f514c26382120ffd7afcb_icgraph" id="aboard__avr2560_8h_aeae173d4d10f514c26382120ffd7afcb_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1558,6 +1699,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a80f6580b987f0c0b41b951da64652f6b_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a80f6580b987f0c0b41b951da64652f6b_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a80f6580b987f0c0b41b951da64652f6b_icgraph" id="aboard__avr2560_8h_a80f6580b987f0c0b41b951da64652f6b_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1592,6 +1743,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a71b6814b28d1f9fd77275c0e381ee5d5_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a71b6814b28d1f9fd77275c0e381ee5d5_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a71b6814b28d1f9fd77275c0e381ee5d5_icgraph" id="aboard__avr2560_8h_a71b6814b28d1f9fd77275c0e381ee5d5_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1630,6 +1799,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a5e921fe0e181f0b1a2a11a3315919c32_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a5e921fe0e181f0b1a2a11a3315919c32_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a5e921fe0e181f0b1a2a11a3315919c32_icgraph" id="aboard__avr2560_8h_a5e921fe0e181f0b1a2a11a3315919c32_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1664,6 +1843,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a6cb8e7cf7682a87a02d98b563add5cef_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a6cb8e7cf7682a87a02d98b563add5cef_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a6cb8e7cf7682a87a02d98b563add5cef_icgraph" id="aboard__avr2560_8h_a6cb8e7cf7682a87a02d98b563add5cef_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1702,6 +1899,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ad25a05507cbd73e8e3cd1c2a38c6f5f7_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ad25a05507cbd73e8e3cd1c2a38c6f5f7_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ad25a05507cbd73e8e3cd1c2a38c6f5f7_icgraph" id="aboard__avr2560_8h_ad25a05507cbd73e8e3cd1c2a38c6f5f7_icgraph">
+<area shape="rect" title=" " alt="" coords="190,5,362,31"/>
+<area shape="rect" href="scheduler_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b" title=" " alt="" coords="5,5,142,31"/>
+<area shape="poly" title=" " alt="" coords="174,21,142,21,142,16,174,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1736,6 +1943,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,174,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="222,5,272,31"/>
 <area shape="poly" title=" " alt="" coords="174,16,207,16,207,21,174,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_aea813301beab71244b3e70994ec354e6_icgraph.png" border="0" usemap="#aboard__avr2560_8h_aea813301beab71244b3e70994ec354e6_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_aea813301beab71244b3e70994ec354e6_icgraph" id="aboard__avr2560_8h_aea813301beab71244b3e70994ec354e6_icgraph">
+<area shape="rect" title=" " alt="" coords="587,31,755,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a709098dca85053fd26418472663aae69" title=" " alt="" coords="401,31,539,56"/>
+<area shape="poly" title=" " alt="" coords="571,46,539,46,539,41,571,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1774,6 +1999,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a099d2412fd620552827ab916e08551aa_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a099d2412fd620552827ab916e08551aa_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a099d2412fd620552827ab916e08551aa_icgraph" id="aboard__avr2560_8h_a099d2412fd620552827ab916e08551aa_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1808,6 +2043,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a0930a1b33ee59f567bfe926fc7acbdb2_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a0930a1b33ee59f567bfe926fc7acbdb2_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a0930a1b33ee59f567bfe926fc7acbdb2_icgraph" id="aboard__avr2560_8h_a0930a1b33ee59f567bfe926fc7acbdb2_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1846,6 +2099,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a90bb6ffac23f03f9969bcb61c8f49ca4_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a90bb6ffac23f03f9969bcb61c8f49ca4_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a90bb6ffac23f03f9969bcb61c8f49ca4_icgraph" id="aboard__avr2560_8h_a90bb6ffac23f03f9969bcb61c8f49ca4_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1880,6 +2143,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_aabd3ecb9eb5e5e5dc8c03f5919a3f9be_icgraph.png" border="0" usemap="#aboard__avr2560_8h_aabd3ecb9eb5e5e5dc8c03f5919a3f9be_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_aabd3ecb9eb5e5e5dc8c03f5919a3f9be_icgraph" id="aboard__avr2560_8h_aabd3ecb9eb5e5e5dc8c03f5919a3f9be_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1918,6 +2199,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a09345afdf3f7b4f085eb19e714b62367_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a09345afdf3f7b4f085eb19e714b62367_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a09345afdf3f7b4f085eb19e714b62367_icgraph" id="aboard__avr2560_8h_a09345afdf3f7b4f085eb19e714b62367_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1952,6 +2243,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a217fb60552300aa56eae653b742bd2fc_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a217fb60552300aa56eae653b742bd2fc_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a217fb60552300aa56eae653b742bd2fc_icgraph" id="aboard__avr2560_8h_a217fb60552300aa56eae653b742bd2fc_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -1990,6 +2299,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_adcf17ec5e1adb6d3f7d4cddc4ffe611e_icgraph.png" border="0" usemap="#aboard__avr2560_8h_adcf17ec5e1adb6d3f7d4cddc4ffe611e_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_adcf17ec5e1adb6d3f7d4cddc4ffe611e_icgraph" id="aboard__avr2560_8h_adcf17ec5e1adb6d3f7d4cddc4ffe611e_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2024,6 +2343,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ad3e16bf53cb8c8fa0b50008a71cd20ba_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ad3e16bf53cb8c8fa0b50008a71cd20ba_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ad3e16bf53cb8c8fa0b50008a71cd20ba_icgraph" id="aboard__avr2560_8h_ad3e16bf53cb8c8fa0b50008a71cd20ba_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -2062,6 +2399,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ada97138136b4c7718c5eaeb9ef3862fd_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ada97138136b4c7718c5eaeb9ef3862fd_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ada97138136b4c7718c5eaeb9ef3862fd_icgraph" id="aboard__avr2560_8h_ada97138136b4c7718c5eaeb9ef3862fd_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2096,6 +2443,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a4c3f012298e7a7c9896cff210269d9a4_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a4c3f012298e7a7c9896cff210269d9a4_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a4c3f012298e7a7c9896cff210269d9a4_icgraph" id="aboard__avr2560_8h_a4c3f012298e7a7c9896cff210269d9a4_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -2134,6 +2499,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a78270acc0c4d2cbc0a5f721f3eeb72f0_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a78270acc0c4d2cbc0a5f721f3eeb72f0_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a78270acc0c4d2cbc0a5f721f3eeb72f0_icgraph" id="aboard__avr2560_8h_a78270acc0c4d2cbc0a5f721f3eeb72f0_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2168,6 +2543,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a9d752c4ce1451b2415fccadae9257b64_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a9d752c4ce1451b2415fccadae9257b64_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a9d752c4ce1451b2415fccadae9257b64_icgraph" id="aboard__avr2560_8h_a9d752c4ce1451b2415fccadae9257b64_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -2206,6 +2599,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a900159a56a1d54a9d4bd572fb3419d61_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a900159a56a1d54a9d4bd572fb3419d61_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a900159a56a1d54a9d4bd572fb3419d61_icgraph" id="aboard__avr2560_8h_a900159a56a1d54a9d4bd572fb3419d61_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2240,6 +2643,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ad8e40d41a836992fa17b067007fa273d_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ad8e40d41a836992fa17b067007fa273d_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ad8e40d41a836992fa17b067007fa273d_icgraph" id="aboard__avr2560_8h_ad8e40d41a836992fa17b067007fa273d_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
@@ -2278,6 +2699,16 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="168,16,200,16,200,21,168,21"/>
 </map>
 </div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_a9d61b6a15d1e3ad21449367d532bc71a_icgraph.png" border="0" usemap="#aboard__avr2560_8h_a9d61b6a15d1e3ad21449367d532bc71a_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_a9d61b6a15d1e3ad21449367d532bc71a_icgraph" id="aboard__avr2560_8h_a9d61b6a15d1e3ad21449367d532bc71a_icgraph">
+<area shape="rect" title=" " alt="" coords="207,5,369,31"/>
+<area shape="rect" href="scheduler_8cpp.html#a5d3ac2a7080cbcc99515735f5806077a" title=" " alt="" coords="5,5,159,31"/>
+<area shape="poly" title=" " alt="" coords="191,21,159,21,159,16,191,16"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2312,6 +2743,24 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,5,164,31"/>
 <area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="212,5,262,31"/>
 <area shape="poly" title=" " alt="" coords="164,16,196,16,196,21,164,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="board__avr2560_8h_ab3034e08983a70887ea6753acbb54a18_icgraph.png" border="0" usemap="#aboard__avr2560_8h_ab3034e08983a70887ea6753acbb54a18_icgraph" alt=""/></div>
+<map name="aboard__avr2560_8h_ab3034e08983a70887ea6753acbb54a18_icgraph" id="aboard__avr2560_8h_ab3034e08983a70887ea6753acbb54a18_icgraph">
+<area shape="rect" title=" " alt="" coords="604,31,762,56"/>
+<area shape="rect" href="scheduler_8cpp.html#a07987e313e9d878a1db022bad839f197" title=" " alt="" coords="401,31,556,56"/>
+<area shape="poly" title=" " alt="" coords="588,46,556,46,556,41,588,41"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,31,353,56"/>
+<area shape="poly" title=" " alt="" coords="386,46,354,46,354,41,386,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,34,190,28,191,23,223,28"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,55,171,80"/>
+<area shape="poly" title=" " alt="" coords="223,58,172,66,171,61,222,53"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
 </div>
 
