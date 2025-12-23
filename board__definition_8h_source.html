@@ -87,17 +87,17 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;Arduino.h&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a>(<a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">baudRate</a>);</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">   20</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a>(uint32_t baudRate);</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="board__definition_8h.html#abed43bf7d094e1077de22cb6657afa15">   27</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="board__definition_8h.html#abed43bf7d094e1077de22cb6657afa15">boardInitPins</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">   30</a></span><a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="code hl_function" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">freeRam</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">   30</a></span>uint16_t <a class="code hl_function" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">freeRam</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c">   33</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c">doSystemReset</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="board__definition_8h.html#ac6c1fef771128f7f248f5bebc7f25375">   36</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="board__definition_8h.html#ac6c1fef771128f7f248f5bebc7f25375">jumpToBootloader</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">   39</a></span><a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> <a class="code hl_function" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">   39</a></span>uint8_t <a class="code hl_function" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// Include a specific header for a board.</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__)</span></div>
@@ -120,7 +120,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#if defined(RTC_ENABLED)</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> <a class="code hl_function" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">boardInitRTC</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> boardInitRTC(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aboard__avr2560_8h_html"><div class="ttname"><a href="board__avr2560_8h.html">board_avr2560.h</a></div></div>
 <div class="ttc" id="aboard__definition_8h_html_a16d9661976d1370ded46920bf7cf53e7"><div class="ttname"><a href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a></div><div class="ttdeci">uint8_t getSystemTemp(void)</div><div class="ttdoc">Get the board temp for display in TunerStudio (optional)</div></div>
@@ -132,7 +132,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aboard__stm32__official_8h_html"><div class="ttname"><a href="board__stm32__official_8h.html">board_stm32_official.h</a></div></div>
 <div class="ttc" id="aboard__teensy35_8h_html"><div class="ttname"><a href="board__teensy35_8h.html">board_teensy35.h</a></div></div>
 <div class="ttc" id="aboard__teensy41_8h_html"><div class="ttname"><a href="board__teensy41_8h.html">board_teensy41.h</a></div></div>
-<div class="ttc" id="agroup__group-opt-shift_html_gada522535b5b26abf6eb2c7da12c71454"><div class="ttname"><a href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">rshift</a></div><div class="ttdeci">static uint32_t rshift(uint32_t a)</div><div class="ttdoc">Bitwise right shift - generic, unoptimized, case.</div><div class="ttdef"><b>Definition</b> bit_shifts.h:348</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -82,47 +82,47 @@ $(function() {
   <div class="headertitle"><div class="title">crankMaths.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;avr-fast-shift.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="crank_maths_8h_source.html">crankMaths.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="bit__shifts_8h_source.html">bit_shifts.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a796685254307924eeddb95ed21f0492c" id="r_a796685254307924eeddb95ed21f0492c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a796685254307924eeddb95ed21f0492c">SECOND_DERIV_ENABLED</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memitem:a796685254307924eeddb95ed21f0492c" id="r_a796685254307924eeddb95ed21f0492c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a796685254307924eeddb95ed21f0492c">SECOND_DERIV_ENABLED</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a796685254307924eeddb95ed21f0492c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a8c876e0304c6beb71a0b5a4a140a7572" id="r_a8c876e0304c6beb71a0b5a4a140a7572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td></tr>
+<tr class="memitem:a8c876e0304c6beb71a0b5a4a140a7572" id="r_a8c876e0304c6beb71a0b5a4a140a7572"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td></tr>
 <tr class="separator:a8c876e0304c6beb71a0b5a4a140a7572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ede0e919c14e4a60cbeef6ef70b5e4b" id="r_a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td></tr>
+<tr class="memitem:a2ede0e919c14e4a60cbeef6ef70b5e4b" id="r_a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td></tr>
 <tr class="separator:a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a84a6d7432815026f3ca712ffb72f43d6" id="r_a84a6d7432815026f3ca712ffb72f43d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6">setAngleConverterRevolutionTime</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> revolutionTime)</td></tr>
+<tr class="memitem:a84a6d7432815026f3ca712ffb72f43d6" id="r_a84a6d7432815026f3ca712ffb72f43d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6">setAngleConverterRevolutionTime</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> revolutionTime)</td></tr>
 <tr class="memdesc:a84a6d7432815026f3ca712ffb72f43d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived.  <br /></td></tr>
 <tr class="separator:a84a6d7432815026f3ca712ffb72f43d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5234186ab1e03e073582f33852fc3f2" id="r_ab5234186ab1e03e073582f33852fc3f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2">angleToTimeMicroSecPerDegree</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">angle</a>)</td></tr>
+<tr class="memitem:ab5234186ab1e03e073582f33852fc3f2" id="r_ab5234186ab1e03e073582f33852fc3f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2">angleToTimeMicroSecPerDegree</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">angle</a>)</td></tr>
 <tr class="separator:ab5234186ab1e03e073582f33852fc3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a437337d1ba43119e466b3d417aa31656" id="r_a437337d1ba43119e466b3d417aa31656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656">timeToAngleDegPerMicroSec</a> (<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">time</a>)</td></tr>
+<tr class="memitem:a437337d1ba43119e466b3d417aa31656" id="r_a437337d1ba43119e466b3d417aa31656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656">timeToAngleDegPerMicroSec</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">time</a>)</td></tr>
 <tr class="separator:a437337d1ba43119e466b3d417aa31656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a246cd50dc6c7b56fc208d895188f6586" id="r_a246cd50dc6c7b56fc208d895188f6586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a> = 8<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td></tr>
+<tr class="memitem:a246cd50dc6c7b56fc208d895188f6586" id="r_a246cd50dc6c7b56fc208d895188f6586"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a> = 8<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td></tr>
 <tr class="separator:a246cd50dc6c7b56fc208d895188f6586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a2d182a827bee47cfda6dc696442d6e" id="r_a1a2d182a827bee47cfda6dc696442d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a1a2d182a827bee47cfda6dc696442d6e">microsPerDegree</a></td></tr>
+<tr class="memitem:a1a2d182a827bee47cfda6dc696442d6e" id="r_a1a2d182a827bee47cfda6dc696442d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a1a2d182a827bee47cfda6dc696442d6e">microsPerDegree</a></td></tr>
 <tr class="memdesc:a1a2d182a827bee47cfda6dc696442d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">uS per degree at current RPM in UQ24.8 fixed point  <br /></td></tr>
 <tr class="separator:a1a2d182a827bee47cfda6dc696442d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5ceeabcb03430a05e9748ca61a34cb3" id="r_ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ad5ceeabcb03430a05e9748ca61a34cb3">microsPerDegree_Shift</a> = <a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td></tr>
+<tr class="memitem:ad5ceeabcb03430a05e9748ca61a34cb3" id="r_ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ad5ceeabcb03430a05e9748ca61a34cb3">microsPerDegree_Shift</a> = <a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td></tr>
 <tr class="separator:ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1c17b92de916811068da998345d143f" id="r_ac1c17b92de916811068da998345d143f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a> = 15<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td></tr>
+<tr class="memitem:ac1c17b92de916811068da998345d143f" id="r_ac1c17b92de916811068da998345d143f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a> = 15<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td></tr>
 <tr class="separator:ac1c17b92de916811068da998345d143f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadcdf40840896ab1afafdb22303b8672" id="r_aadcdf40840896ab1afafdb22303b8672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aadcdf40840896ab1afafdb22303b8672">degreesPerMicro</a></td></tr>
+<tr class="memitem:aadcdf40840896ab1afafdb22303b8672" id="r_aadcdf40840896ab1afafdb22303b8672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aadcdf40840896ab1afafdb22303b8672">degreesPerMicro</a></td></tr>
 <tr class="memdesc:aadcdf40840896ab1afafdb22303b8672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Degrees per uS in UQ1.15 fixed point.  <br /></td></tr>
 <tr class="separator:aadcdf40840896ab1afafdb22303b8672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0304e945ca33ebf195131901140442" id="r_aee0304e945ca33ebf195131901140442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">static</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aee0304e945ca33ebf195131901140442">degreesPerMicro_Shift</a> = <a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td></tr>
+<tr class="memitem:aee0304e945ca33ebf195131901140442" id="r_aee0304e945ca33ebf195131901140442"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aee0304e945ca33ebf195131901140442">degreesPerMicro_Shift</a> = <a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td></tr>
 <tr class="separator:aee0304e945ca33ebf195131901140442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -133,7 +133,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">define</a> SECOND_DERIV_ENABLED&#160;&#160;&#160;0</td>
+          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> SECOND_DERIV_ENABLED&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -148,7 +148,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,7 +162,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">typedef</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> <a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,9 +177,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a> angleToTimeMicroSecPerDegree </td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> angleToTimeMicroSecPerDegree </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td>
           <td class="paramname"><em>angle</em></td><td>)</td>
           <td></td>
         </tr>
@@ -191,8 +191,13 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="crank_maths_8cpp_ab5234186ab1e03e073582f33852fc3f2_cgraph.png" border="0" usemap="#acrank_maths_8cpp_ab5234186ab1e03e073582f33852fc3f2_cgraph" alt=""/></div>
 <map name="acrank_maths_8cpp_ab5234186ab1e03e073582f33852fc3f2_cgraph" id="acrank_maths_8cpp_ab5234186ab1e03e073582f33852fc3f2_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,218,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="266,5,316,31"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="266,5,435,31"/>
 <area shape="poly" title=" " alt="" coords="218,16,250,16,250,21,218,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="657,5,751,31"/>
+<area shape="poly" title=" " alt="" coords="435,16,641,16,641,21,435,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="483,31,609,56"/>
+<area shape="poly" title=" " alt="" coords="436,26,468,31,467,36,435,32"/>
+<area shape="poly" title=" " alt="" coords="609,31,641,25,642,31,610,36"/>
 </map>
 </div>
 <div class="dynheader">
@@ -294,9 +299,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">void</a> setAngleConverterRevolutionTime </td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> setAngleConverterRevolutionTime </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td>
           <td class="paramname"><em>revolutionTime</em></td><td>)</td>
           <td></td>
         </tr>
@@ -315,12 +320,20 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="crank_maths_8cpp_a84a6d7432815026f3ca712ffb72f43d6_cgraph.png" border="0" usemap="#acrank_maths_8cpp_a84a6d7432815026f3ca712ffb72f43d6_cgraph" alt=""/></div>
 <map name="acrank_maths_8cpp_a84a6d7432815026f3ca712ffb72f43d6_cgraph" id="acrank_maths_8cpp_a84a6d7432815026f3ca712ffb72f43d6_cgraph">
-<area shape="rect" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="5,31,224,56"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="272,5,331,31"/>
-<area shape="poly" title=" " alt="" coords="213,27,256,22,256,27,214,33"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="379,31,429,56"/>
-<area shape="poly" title=" " alt="" coords="224,41,364,41,364,46,224,46"/>
-<area shape="poly" title=" " alt="" coords="332,23,365,31,364,36,331,28"/>
+<area shape="rect" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="5,56,224,82"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="300,5,360,31"/>
+<area shape="poly" title=" " alt="" coords="172,53,284,26,286,31,173,58"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="436,56,605,82"/>
+<area shape="poly" title=" " alt="" coords="224,66,421,66,421,72,224,72"/>
+<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="272,107,388,132"/>
+<area shape="poly" title=" " alt="" coords="173,80,258,100,257,105,172,85"/>
+<area shape="poly" title=" " alt="" coords="361,23,455,49,454,54,359,29"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="828,56,921,82"/>
+<area shape="poly" title=" " alt="" coords="606,66,812,66,812,72,606,72"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="653,81,780,107"/>
+<area shape="poly" title=" " alt="" coords="606,77,638,81,637,87,605,82"/>
+<area shape="poly" title=" " alt="" coords="780,81,812,76,812,81,780,87"/>
+<area shape="poly" title=" " alt="" coords="380,103,455,84,456,89,382,109"/>
 </map>
 </div>
 <div class="dynheader">
@@ -450,9 +463,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint16_t</a> timeToAngleDegPerMicroSec </td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> timeToAngleDegPerMicroSec </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td>
           <td class="paramname"><em>time</em></td><td>)</td>
           <td></td>
         </tr>
@@ -464,8 +477,13 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="crank_maths_8cpp_a437337d1ba43119e466b3d417aa31656_cgraph.png" border="0" usemap="#acrank_maths_8cpp_a437337d1ba43119e466b3d417aa31656_cgraph" alt=""/></div>
 <map name="acrank_maths_8cpp_a437337d1ba43119e466b3d417aa31656_cgraph" id="acrank_maths_8cpp_a437337d1ba43119e466b3d417aa31656_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,198,31"/>
-<area shape="rect" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454" title="Bitwise right shift &#45; generic, unoptimized, case." alt="" coords="246,5,296,31"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="246,5,415,31"/>
 <area shape="poly" title=" " alt="" coords="198,16,230,16,230,21,198,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="637,5,731,31"/>
+<area shape="poly" title=" " alt="" coords="415,16,621,16,621,21,415,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="463,31,589,56"/>
+<area shape="poly" title=" " alt="" coords="416,26,448,31,447,36,415,32"/>
+<area shape="poly" title=" " alt="" coords="589,31,621,25,622,31,590,36"/>
 </map>
 </div>
 <div class="dynheader">
@@ -595,7 +613,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> degreesPerMicro_Shift = <a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> degreesPerMicro_Shift = <a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td>
         </tr>
       </table>
   </td>
@@ -641,7 +659,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> microsPerDegree_Shift = <a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> microsPerDegree_Shift = <a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td>
         </tr>
       </table>
   </td>
@@ -663,7 +681,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> UQ1X15_Shift = 15<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> UQ1X15_Shift = 15<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td>
         </tr>
       </table>
   </td>
@@ -685,7 +703,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">constexpr</a> <a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">uint8_t</a> UQ24X8_Shift = 8<a class="el" href="group__group-opt-shift.html#gada522535b5b26abf6eb2c7da12c71454">U</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> UQ24X8_Shift = 8<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td>
         </tr>
       </table>
   </td>

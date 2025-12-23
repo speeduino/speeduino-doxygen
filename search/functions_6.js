@@ -1,8 +1,8 @@
 var searchData=
 [
   ['fancontrol_0',['fancontrol',['../auxiliaries_8h.html#a7a7fa820002b4c6e9f4ac04bb0594c52',1,'fanControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a7a7fa820002b4c6e9f4ac04bb0594c52',1,'fanControl(void):&#160;auxiliaries.cpp']]],
-  ['fast_5fmap_1',['fast_map',['../maths_8h.html#a8862c407bd316c6b70ca7e86aecf59f2',1,'maths.h']]],
-  ['fastdiv_2',['fastDiv',['../maths_8h.html#a5b788bbd54aceffabd00a192c3e45676',1,'maths.h']]],
+  ['fast_5fdiv_5fclosest_1',['fast_div_closest',['../maths_8h.html#aea74d515ad6882dd8441df37b7962ec2',1,'maths.h']]],
+  ['fast_5fmap_2',['fast_map',['../maths_8h.html#a8862c407bd316c6b70ca7e86aecf59f2',1,'maths.h']]],
   ['fastmap10bit_3',['fastMap10Bit',['../sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71',1,'sensors.cpp']]],
   ['find_5fbin_5fmax_4',['find_bin_max',['../table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a',1,'table3d_interpolate.cpp']]],
   ['flexpulse_5',['flexpulse',['../sensors_8cpp.html#aa2d8ed119f5ab04ea9eae66f7a249ef7',1,'flexPulse(void):&#160;sensors.cpp'],['../sensors_8h.html#aa2d8ed119f5ab04ea9eae66f7a249ef7',1,'flexPulse(void):&#160;sensors.cpp']]],
