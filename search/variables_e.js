@@ -42,11 +42,12 @@ var searchData=
   ['onboard_5flog_5ftrigger_5fprot_39',['onboard_log_trigger_prot',['../structconfig13.html#aefa776404c2a93ccc188d9e279cf359b',1,'config13']]],
   ['onboard_5flog_5ftrigger_5frpm_40',['onboard_log_trigger_RPM',['../structconfig13.html#a26e9ad149fa8e846077f23169da79e49',1,'config13']]],
   ['onboard_5flog_5ftrigger_5fvbat_41',['onboard_log_trigger_Vbat',['../structconfig13.html#ac5d6020c6d8bd2e983084565b8b0bad4',1,'config13']]],
-  ['open_5floop_5fboost_42',['OPEN_LOOP_BOOST',['../config__pages_8h.html#a452b0109a32af33d6def1665724b0fa2',1,'config_pages.h']]],
-  ['operation_43',['operation',['../structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33',1,'config13']]],
-  ['outputdelay_44',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
-  ['outputinverted_45',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
-  ['outputpin_46',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13']]],
-  ['outputsstatus_47',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
-  ['outputtimelimit_48',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13']]]
+  ['one_5fhundred_5fpct_42',['ONE_HUNDRED_PCT',['../maths_8h.html#aa0315ad03bc9b48cbfed0fef465f5a67',1,'maths.h']]],
+  ['open_5floop_5fboost_43',['OPEN_LOOP_BOOST',['../config__pages_8h.html#a452b0109a32af33d6def1665724b0fa2',1,'config_pages.h']]],
+  ['operation_44',['operation',['../structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33',1,'config13']]],
+  ['outputdelay_45',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
+  ['outputinverted_46',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
+  ['outputpin_47',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13']]],
+  ['outputsstatus_48',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
+  ['outputtimelimit_49',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13']]]
 ];

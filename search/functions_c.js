@@ -13,8 +13,9 @@ var searchData=
   ['loggerprimaryisr_10',['loggerprimaryisr',['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e',1,'loggerPrimaryISR(void):&#160;decoders.cpp']]],
   ['loggersecondaryisr_11',['loggersecondaryisr',['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed',1,'loggerSecondaryISR(void):&#160;decoders.cpp']]],
   ['loggertertiaryisr_12',['loggertertiaryisr',['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.cpp'],['../group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4',1,'loggerTertiaryISR(void):&#160;decoders.cpp']]],
-  ['lookupspark2_13',['lookupSpark2',['../secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d',1,'secondaryTables.cpp']]],
-  ['lookupve2_14',['lookupVE2',['../secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701',1,'secondaryTables.cpp']]],
-  ['loop_15',['loop',['../speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'speeduino.ino']]],
-  ['low_5fpass_5ffilter_16',['low_pass_filter',['../maths_8h.html#a42d820a247b720e6deb44d57fc2f6145',1,'LOW_PASS_FILTER(uint16_t input, uint8_t alpha, uint16_t prior):&#160;maths.h'],['../maths_8h.html#a6f9baa4883f7096d58378675a308e7b5',1,'LOW_PASS_FILTER(int16_t input, uint8_t alpha, int16_t prior):&#160;maths.h']]]
+  ['lookupcrankingenrichmentpct_13',['lookUpCrankingEnrichmentPct',['../corrections_8cpp.html#a37ba24b4231172a726bedbef7a933611',1,'corrections.cpp']]],
+  ['lookupspark2_14',['lookupSpark2',['../secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d',1,'secondaryTables.cpp']]],
+  ['lookupve2_15',['lookupVE2',['../secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701',1,'secondaryTables.cpp']]],
+  ['loop_16',['loop',['../speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f',1,'speeduino.ino']]],
+  ['low_5fpass_5ffilter_17',['low_pass_filter',['../maths_8h.html#a42d820a247b720e6deb44d57fc2f6145',1,'LOW_PASS_FILTER(uint16_t input, uint8_t alpha, uint16_t prior):&#160;maths.h'],['../maths_8h.html#a6f9baa4883f7096d58378675a308e7b5',1,'LOW_PASS_FILTER(int16_t input, uint8_t alpha, int16_t prior):&#160;maths.h']]]
 ];

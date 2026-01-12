@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['compare_5ft_0',['compare_t',['../struct_schedule.html#afa11bad38dc1a754481119fd67c86bf7',1,'Schedule']]],
-  ['counter_5ft_1',['counter_t',['../struct_schedule.html#a95c826dededab2e0ba14570c2acf5b51',1,'Schedule']]],
-  ['crc_5ft_2',['crc_t',['../group__group-serial-comms-impl.html#ga19429693ab0bfa967896917ac1bbad23',1,'comms.cpp']]]
+  ['byte_0',['byte',['../config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;config_pages.h'],['../polling_8hpp.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;polling.hpp'],['../statuses_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;statuses.h']]]
 ];

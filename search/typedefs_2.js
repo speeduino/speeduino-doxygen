@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['eeprom_5faddress_5ft_0',['eeprom_address_t',['../board__avr2560_8h.html#a24c966784d69a8c589ec11c0b21363d5',1,'eeprom_address_t:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a7a61772455acf72b30881bb0c1807d8b',1,'eeprom_address_t:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a24c966784d69a8c589ec11c0b21363d5',1,'eeprom_address_t:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a24c966784d69a8c589ec11c0b21363d5',1,'eeprom_address_t:&#160;board_teensy41.h']]]
+  ['compare_5ft_0',['compare_t',['../struct_schedule.html#afa11bad38dc1a754481119fd67c86bf7',1,'Schedule']]],
+  ['computaecallback_5ft_1',['computAeCallback_t',['../corrections_8cpp.html#af189f3c0e41ede4159afa57f585f9a9e',1,'corrections.cpp']]],
+  ['counter_5ft_2',['counter_t',['../struct_schedule.html#a95c826dededab2e0ba14570c2acf5b51',1,'Schedule']]],
+  ['crc_5ft_3',['crc_t',['../group__group-serial-comms-impl.html#ga19429693ab0bfa967896917ac1bbad23',1,'comms.cpp']]]
 ];

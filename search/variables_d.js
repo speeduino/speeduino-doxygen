@@ -37,6 +37,7 @@ var searchData=
   ['nitrous_5fstage2_34',['NITROUS_STAGE2',['../config__pages_8h.html#a8a6a4950394decb01dcb209ac36b0e9e',1,'config_pages.h']]],
   ['nitrous_5fstatus_35',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['nitrousactive_36',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
-  ['nsquirts_37',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nsquirtsstatus_38',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]]
+  ['no_5ffuel_5fcorrection_37',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
+  ['nsquirts_38',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
+  ['nsquirtsstatus_39',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]]
 ];
