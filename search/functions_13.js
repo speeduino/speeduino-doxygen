@@ -10,7 +10,7 @@ var searchData=
   ['temperatureaddoffset_7',['temperatureAddOffset',['../units_8h.html#a2fdd25bf304093a2a13a8eaacc091135',1,'units.h']]],
   ['temperatureremoveoffset_8',['temperatureRemoveOffset',['../units_8h.html#a36a02b948d899a64a1ccce02a099ebba',1,'units.h']]],
   ['testcomm_9',['testcomm',['../comms__legacy_8cpp.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp']]],
-  ['timetoangledegpermicrosec_10',['timetoangledegpermicrosec',['../crank_maths_8cpp.html#a437337d1ba43119e466b3d417aa31656',1,'timeToAngleDegPerMicroSec(uint32_t time):&#160;crankMaths.cpp'],['../crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656',1,'timeToAngleDegPerMicroSec(uint32_t time):&#160;crankMaths.cpp']]],
+  ['timetoangledegpermicrosec_10',['timeToAngleDegPerMicroSec',['../crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656',1,'crankMaths.h']]],
   ['timetoangleintervaltooth_11',['timeToAngleIntervalTooth',['../group__dec__uni.html#gaffacbfaa5231714384f143fb3b95c772',1,'decoders.cpp']]],
   ['tobottomleft_12',['toBottomLeft',['../table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f',1,'table3d_interpolate.cpp']]],
   ['toqu1x8_13',['toQU1X8',['../table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255',1,'table3d_interpolate.cpp']]],

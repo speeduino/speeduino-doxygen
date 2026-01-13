@@ -7,7 +7,7 @@ var searchData=
   ['aetimeoutexpired_4',['aeTimeoutExpired',['../corrections_8cpp.html#a10e75edb9aed9b8ae313c5d657887911',1,'corrections.cpp']]],
   ['afrlimitafrcondition_5',['afrLimitAfrCondition',['../engine_protection_8cpp.html#afdc9e1e1b1c4fe9d955be66c0a86ee86',1,'engineProtection.cpp']]],
   ['airconcontrol_6',['airconcontrol',['../auxiliaries_8h.html#a58f86af765ce5549341e632ede751dc6',1,'airConControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a58f86af765ce5549341e632ede751dc6',1,'airConControl(void):&#160;auxiliaries.cpp']]],
-  ['angletotimemicrosecperdegree_7',['angletotimemicrosecperdegree',['../crank_maths_8cpp.html#ab5234186ab1e03e073582f33852fc3f2',1,'angleToTimeMicroSecPerDegree(uint16_t angle):&#160;crankMaths.cpp'],['../crank_maths_8h.html#ab5234186ab1e03e073582f33852fc3f2',1,'angleToTimeMicroSecPerDegree(uint16_t angle):&#160;crankMaths.cpp']]],
+  ['angletotimemicrosecperdegree_7',['angleToTimeMicroSecPerDegree',['../crank_maths_8h.html#ab5234186ab1e03e073582f33852fc3f2',1,'crankMaths.h']]],
   ['applyaecoolanttaper_8',['applyAeCoolantTaper',['../corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620',1,'corrections.cpp']]],
   ['applyaerpmtaper_9',['applyAeRpmTaper',['../corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291',1,'corrections.cpp']]],
   ['applyafrmultiplier_10',['applyAFRMultiplier',['../fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357',1,'fuel_calcs.cpp']]],
