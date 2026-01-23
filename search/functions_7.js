@@ -77,7 +77,8 @@ var searchData=
   ['getrpm_5fthirtysixminus222_74',['getrpm_thirtysixminus222',['../group__dec__36__2__2__2.html#ga61e9c3eb71845bfdffef05683b478e46',1,'getRPM_ThirtySixMinus222(void):&#160;decoders.cpp'],['../group__dec__36__2__2__2.html#ga61e9c3eb71845bfdffef05683b478e46',1,'getRPM_ThirtySixMinus222(void):&#160;decoders.cpp']]],
   ['getrpm_5fvmax_75',['getrpm_vmax',['../group__dec__vmax.html#gae39939f33e6be5976721e7d872779973',1,'getRPM_Vmax(void):&#160;decoders.cpp'],['../group__dec__vmax.html#gae39939f33e6be5976721e7d872779973',1,'getRPM_Vmax(void):&#160;decoders.cpp']]],
   ['getspeed_76',['getSpeed',['../sensors_8cpp.html#af41e1d41b2d8d30cc3a27361c4dad07b',1,'sensors.cpp']]],
-  ['getsystemtemp_77',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
-  ['gettslogentry_78',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getve1_79',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
+  ['getsyncstatus_77',['getSyncStatus',['../group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b',1,'decoders.h']]],
+  ['getsystemtemp_78',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
+  ['gettslogentry_79',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
+  ['getve1_80',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
 ];

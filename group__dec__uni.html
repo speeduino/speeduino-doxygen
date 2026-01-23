@@ -93,6 +93,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3a05fc7155fcaf19e7cba1ed30dfb216" id="r_ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3a05fc7155fcaf19e7cba1ed30dfb216">engineIsRunning</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="decoders_8cpp.html#a9026a9c5d90202a2c5edf446c18311c0">curTime</a>)</td></tr>
 <tr class="memdesc:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the engine running?  <br /></td></tr>
 <tr class="separator:ga3a05fc7155fcaf19e7cba1ed30dfb216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf6035c11208cfa8582599159de2bc9e" id="r_gabf6035c11208cfa8582599159de2bc9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gabf6035c11208cfa8582599159de2bc9e">setSyncStatus</a> (<a class="el" href="group__trigger__sync__status.html#ga0f8625c80686484ef32a81c6bc1420d9">SyncStatus</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">syncStatus</a>)</td></tr>
+<tr class="separator:gabf6035c11208cfa8582599159de2bc9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0e5ab2be4925adab434a11de55a554d3" id="r_ga0e5ab2be4925adab434a11de55a554d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga0e5ab2be4925adab434a11de55a554d3">resetDecoder</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="memdesc:ga0e5ab2be4925adab434a11de55a554d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is called when the engine is stopped, or when the engine is started. It resets the decoder state and the tooth tracking variables.  <br /></td></tr>
 <tr class="separator:ga0e5ab2be4925adab434a11de55a554d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,14 +161,17 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_ga7bb4f5342ba80b6846836c8e6432975a_cgraph.png" border="0" usemap="#agroup__dec__uni_ga7bb4f5342ba80b6846836c8e6432975a_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_ga7bb4f5342ba80b6846836c8e6432975a_cgraph" id="agroup__dec__uni_ga7bb4f5342ba80b6846836c8e6432975a_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,132,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="180,5,349,31"/>
-<area shape="poly" title=" " alt="" coords="132,16,164,16,164,21,132,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="571,5,665,31"/>
-<area shape="poly" title=" " alt="" coords="349,16,555,16,555,21,349,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="397,31,523,56"/>
-<area shape="poly" title=" " alt="" coords="350,26,382,31,381,36,349,32"/>
-<area shape="poly" title=" " alt="" coords="523,31,555,25,556,31,524,36"/>
+<area shape="rect" title=" " alt="" coords="5,31,132,56"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="180,5,286,31"/>
+<area shape="poly" title=" " alt="" coords="131,31,164,26,165,31,132,36"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="334,31,503,56"/>
+<area shape="poly" title=" " alt="" coords="132,41,318,41,318,46,132,46"/>
+<area shape="poly" title=" " alt="" coords="287,23,319,27,318,32,286,28"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="726,31,819,56"/>
+<area shape="poly" title=" " alt="" coords="504,41,710,41,710,46,504,46"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="551,56,678,82"/>
+<area shape="poly" title=" " alt="" coords="504,52,536,56,535,61,503,57"/>
+<area shape="poly" title=" " alt="" coords="678,56,710,51,710,56,678,61"/>
 </map>
 </div>
 <div class="dynheader">
@@ -387,33 +392,36 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_gab655d4a17851815ebd22646e91b09042_cgraph.png" border="0" usemap="#agroup__dec__uni_gab655d4a17851815ebd22646e91b09042_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_gab655d4a17851815ebd22646e91b09042_cgraph" id="agroup__dec__uni_gab655d4a17851815ebd22646e91b09042_cgraph">
-<area shape="rect" title=" " alt="" coords="5,105,126,130"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="784,155,953,181"/>
-<area shape="poly" title=" " alt="" coords="96,102,205,61,280,39,366,20,457,7,552,4,646,13,692,24,737,39,773,59,805,86,852,141,848,144,802,90,770,64,735,44,691,29,645,18,552,9,458,12,367,25,282,44,206,66,98,107"/>
-<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="370,105,555,130"/>
-<area shape="poly" title=" " alt="" coords="126,115,354,115,354,120,126,120"/>
-<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="174,155,305,181"/>
-<area shape="poly" title=" " alt="" coords="113,128,179,148,178,153,111,134"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1175,155,1269,181"/>
-<area shape="poly" title=" " alt="" coords="953,166,1159,166,1159,171,953,171"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1001,181,1127,206"/>
-<area shape="poly" title=" " alt="" coords="954,177,986,181,985,186,953,182"/>
-<area shape="poly" title=" " alt="" coords="1127,181,1159,176,1160,181,1128,186"/>
-<area shape="poly" title=" " alt="" coords="555,125,736,147,769,151,768,157,735,152,555,130"/>
-<area shape="rect" href="maths_8h.html#aab9f0232e41c960b4a09629eac33aef3" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="649,54,706,80"/>
-<area shape="poly" title=" " alt="" coords="519,101,633,74,634,80,521,107"/>
-<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="619,206,736,232"/>
-<area shape="poly" title=" " alt="" coords="493,129,636,197,634,202,491,133"/>
-<area shape="poly" title=" " alt="" coords="705,78,830,145,828,150,703,83"/>
-<area shape="poly" title=" " alt="" coords="728,203,802,183,804,188,729,208"/>
-<area shape="poly" title=" " alt="" coords="305,166,768,166,768,171,305,171"/>
-<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="353,230,571,256"/>
-<area shape="poly" title=" " alt="" coords="281,179,408,222,406,227,279,184"/>
-<area shape="poly" title=" " alt="" coords="489,254,536,275,598,295,632,301,667,303,702,300,735,291,770,272,801,246,848,192,852,196,805,250,773,276,737,296,703,306,667,309,632,306,597,300,534,280,487,259"/>
-<area shape="poly" title=" " alt="" coords="571,228,604,224,605,230,572,233"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="648,255,707,281"/>
-<area shape="poly" title=" " alt="" coords="572,253,632,260,632,266,571,258"/>
-<area shape="poly" title=" " alt="" coords="706,254,734,242,831,187,834,192,737,247,709,259"/>
+<area shape="rect" title=" " alt="" coords="5,116,126,141"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="186,14,293,40"/>
+<area shape="poly" title=" " alt="" coords="85,113,172,57,195,45,197,49,175,61,88,117"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="784,192,953,217"/>
+<area shape="poly" title=" " alt="" coords="126,116,240,102,393,93,478,94,565,99,652,110,736,128,792,151,839,180,836,184,790,156,735,134,651,115,565,104,478,99,393,99,241,107,126,121"/>
+<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="370,141,555,167"/>
+<area shape="poly" title=" " alt="" coords="126,130,354,144,354,149,126,135"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="174,266,305,292"/>
+<area shape="poly" title=" " alt="" coords="84,140,214,254,210,258,80,144"/>
+<area shape="poly" title=" " alt="" coords="293,15,381,6,494,4,556,9,618,18,679,34,737,57,775,82,808,114,835,147,855,177,850,180,831,150,804,117,772,86,734,61,677,39,617,23,555,14,494,10,381,11,293,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1175,192,1269,217"/>
+<area shape="poly" title=" " alt="" coords="953,202,1159,202,1159,207,953,207"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1001,217,1127,243"/>
+<area shape="poly" title=" " alt="" coords="954,213,986,217,985,222,953,218"/>
+<area shape="poly" title=" " alt="" coords="1127,217,1159,212,1160,217,1128,222"/>
+<area shape="poly" title=" " alt="" coords="555,143,643,142,736,151,784,164,828,182,826,187,783,169,735,156,643,147,555,148"/>
+<area shape="rect" href="maths_8h.html#aab9f0232e41c960b4a09629eac33aef3" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="649,166,706,192"/>
+<area shape="poly" title=" " alt="" coords="555,162,635,171,634,177,555,167"/>
+<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="619,216,736,241"/>
+<area shape="poly" title=" " alt="" coords="502,165,624,207,623,212,501,170"/>
+<area shape="poly" title=" " alt="" coords="707,180,769,188,768,194,706,185"/>
+<area shape="poly" title=" " alt="" coords="736,218,768,214,769,220,737,224"/>
+<area shape="poly" title=" " alt="" coords="267,290,348,326,404,346,467,364,534,376,602,380,670,373,703,365,734,353,773,328,806,295,832,260,851,230,856,232,837,263,810,299,777,332,737,357,705,370,671,378,602,385,533,381,466,369,403,351,346,331,265,295"/>
+<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="353,266,571,292"/>
+<area shape="poly" title=" " alt="" coords="306,276,338,276,338,282,306,282"/>
+<area shape="poly" title=" " alt="" coords="572,273,652,265,735,251,781,238,823,221,825,226,783,243,736,256,653,271,572,278"/>
+<area shape="poly" title=" " alt="" coords="519,263,605,243,606,248,521,268"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="648,317,707,343"/>
+<area shape="poly" title=" " alt="" coords="521,290,633,317,632,322,519,295"/>
+<area shape="poly" title=" " alt="" coords="703,314,734,295,836,224,839,229,737,300,705,319"/>
 </map>
 </div>
 <div class="dynheader">
@@ -677,17 +685,20 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_ga16521d008e98dde33c2b46311084c67e_cgraph.png" border="0" usemap="#agroup__dec__uni_ga16521d008e98dde33c2b46311084c67e_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_ga16521d008e98dde33c2b46311084c67e_cgraph" id="agroup__dec__uni_ga16521d008e98dde33c2b46311084c67e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,128,56"/>
-<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="176,5,302,31"/>
-<area shape="poly" title=" " alt="" coords="128,32,160,27,161,32,129,37"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="350,31,519,56"/>
-<area shape="poly" title=" " alt="" coords="128,41,335,41,335,46,128,46"/>
-<area shape="poly" title=" " alt="" coords="303,24,335,28,334,33,302,29"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="742,31,835,56"/>
-<area shape="poly" title=" " alt="" coords="520,41,726,41,726,46,520,46"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="567,56,694,82"/>
-<area shape="poly" title=" " alt="" coords="520,52,552,56,551,61,519,57"/>
-<area shape="poly" title=" " alt="" coords="694,56,726,51,726,56,694,61"/>
+<area shape="rect" title=" " alt="" coords="5,81,128,107"/>
+<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="176,56,302,82"/>
+<area shape="poly" title=" " alt="" coords="128,83,160,78,161,83,129,88"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="504,56,674,82"/>
+<area shape="poly" title=" " alt="" coords="128,93,302,92,489,77,489,82,302,97,128,98"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="350,5,456,31"/>
+<area shape="poly" title=" " alt="" coords="282,53,344,33,346,39,284,58"/>
+<area shape="poly" title=" " alt="" coords="302,66,489,66,489,72,302,72"/>
+<area shape="poly" title=" " alt="" coords="454,29,526,49,524,54,452,34"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="896,56,989,82"/>
+<area shape="poly" title=" " alt="" coords="674,66,880,66,880,72,674,72"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="722,81,848,107"/>
+<area shape="poly" title=" " alt="" coords="674,77,706,81,706,87,674,82"/>
+<area shape="poly" title=" " alt="" coords="848,81,880,76,881,81,849,87"/>
 </map>
 </div>
 <div class="dynheader">
@@ -744,17 +755,20 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_gaea03d02f72cf6acf50787cf0ea5d8eed_cgraph.png" border="0" usemap="#agroup__dec__uni_gaea03d02f72cf6acf50787cf0ea5d8eed_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_gaea03d02f72cf6acf50787cf0ea5d8eed_cgraph" id="agroup__dec__uni_gaea03d02f72cf6acf50787cf0ea5d8eed_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,145,56"/>
-<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="193,5,319,31"/>
-<area shape="poly" title=" " alt="" coords="145,31,177,26,178,32,146,36"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="367,31,536,56"/>
-<area shape="poly" title=" " alt="" coords="145,41,351,41,351,46,145,46"/>
-<area shape="poly" title=" " alt="" coords="320,24,352,28,351,33,319,29"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="759,31,852,56"/>
-<area shape="poly" title=" " alt="" coords="537,41,743,41,743,46,537,46"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="584,56,711,82"/>
-<area shape="poly" title=" " alt="" coords="537,52,569,56,568,61,536,57"/>
-<area shape="poly" title=" " alt="" coords="711,56,743,51,743,56,711,61"/>
+<area shape="rect" title=" " alt="" coords="5,81,145,107"/>
+<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="193,56,319,82"/>
+<area shape="poly" title=" " alt="" coords="145,82,177,77,178,82,146,87"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="521,56,691,82"/>
+<area shape="poly" title=" " alt="" coords="145,93,319,92,506,77,506,82,319,97,145,98"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="367,5,473,31"/>
+<area shape="poly" title=" " alt="" coords="299,53,361,33,363,39,301,58"/>
+<area shape="poly" title=" " alt="" coords="319,66,506,66,506,72,319,72"/>
+<area shape="poly" title=" " alt="" coords="471,29,543,49,541,54,469,34"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="913,56,1006,82"/>
+<area shape="poly" title=" " alt="" coords="691,66,897,66,897,72,691,72"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="739,81,865,107"/>
+<area shape="poly" title=" " alt="" coords="691,77,723,81,723,87,691,82"/>
+<area shape="poly" title=" " alt="" coords="865,81,897,76,898,81,866,87"/>
 </map>
 </div>
 <div class="dynheader">
@@ -811,17 +825,20 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_gacd9814e949e3cc3c5cec3cba1d2a96f4_cgraph.png" border="0" usemap="#agroup__dec__uni_gacd9814e949e3cc3c5cec3cba1d2a96f4_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_gacd9814e949e3cc3c5cec3cba1d2a96f4_cgraph" id="agroup__dec__uni_gacd9814e949e3cc3c5cec3cba1d2a96f4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,127,56"/>
-<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="175,5,301,31"/>
-<area shape="poly" title=" " alt="" coords="127,32,159,27,160,32,127,37"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="349,31,518,56"/>
-<area shape="poly" title=" " alt="" coords="127,41,334,41,334,46,127,46"/>
-<area shape="poly" title=" " alt="" coords="302,24,334,28,333,33,301,29"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="741,31,834,56"/>
-<area shape="poly" title=" " alt="" coords="519,41,725,41,725,46,519,46"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="566,56,693,82"/>
-<area shape="poly" title=" " alt="" coords="519,52,551,56,550,61,518,57"/>
-<area shape="poly" title=" " alt="" coords="693,56,725,51,725,56,693,61"/>
+<area shape="rect" title=" " alt="" coords="5,81,127,107"/>
+<area shape="rect" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a" title=" " alt="" coords="175,56,301,82"/>
+<area shape="poly" title=" " alt="" coords="127,83,159,78,160,83,127,88"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="503,56,673,82"/>
+<area shape="poly" title=" " alt="" coords="127,93,301,92,488,77,488,82,301,97,127,98"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="349,5,455,31"/>
+<area shape="poly" title=" " alt="" coords="281,53,343,33,345,39,283,58"/>
+<area shape="poly" title=" " alt="" coords="301,66,488,66,488,72,301,72"/>
+<area shape="poly" title=" " alt="" coords="453,29,525,49,523,54,451,34"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="895,56,988,82"/>
+<area shape="poly" title=" " alt="" coords="673,66,879,66,879,72,673,72"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="721,81,847,107"/>
+<area shape="poly" title=" " alt="" coords="673,77,705,81,705,87,673,82"/>
+<area shape="poly" title=" " alt="" coords="847,81,879,76,880,81,848,87"/>
 </map>
 </div>
 <div class="dynheader">
@@ -871,6 +888,23 @@ Here is the caller graph for this function:</div>
 
 <p>This function is called when the engine is stopped, or when the engine is started. It resets the decoder state and the tooth tracking variables. </p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_cgraph.png" border="0" usemap="#agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_cgraph" alt=""/></div>
+<map name="agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_cgraph" id="agroup__dec__uni_ga0e5ab2be4925adab434a11de55a554d3_cgraph">
+<area shape="rect" title="This function is called when the engine is stopped, or when the engine is started...." alt="" coords="5,5,104,31"/>
+<area shape="rect" href="group__dec__uni.html#gabf6035c11208cfa8582599159de2bc9e" title=" " alt="" coords="152,5,258,31"/>
+<area shape="poly" title=" " alt="" coords="104,16,136,16,136,21,104,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="306,5,475,31"/>
+<area shape="poly" title=" " alt="" coords="259,16,290,16,290,21,259,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="698,5,791,31"/>
+<area shape="poly" title=" " alt="" coords="476,16,682,16,682,21,476,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="523,31,650,56"/>
+<area shape="poly" title=" " alt="" coords="476,26,508,31,507,36,475,32"/>
+<area shape="poly" title=" " alt="" coords="650,31,682,25,682,31,650,36"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1298,6 +1332,157 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="gabf6035c11208cfa8582599159de2bc9e" name="gabf6035c11208cfa8582599159de2bc9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabf6035c11208cfa8582599159de2bc9e">&#9670;&#160;</a></span>setSyncStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> setSyncStatus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__trigger__sync__status.html#ga0f8625c80686484ef32a81c6bc1420d9">SyncStatus</a>&#160;</td>
+          <td class="paramname"><em>syncStatus</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_gabf6035c11208cfa8582599159de2bc9e_cgraph.png" border="0" usemap="#agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_cgraph" alt=""/></div>
+<map name="agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_cgraph" id="agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,112,31"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="160,5,329,31"/>
+<area shape="poly" title=" " alt="" coords="112,16,144,16,144,21,112,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="551,5,645,31"/>
+<area shape="poly" title=" " alt="" coords="329,16,535,16,535,21,329,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="377,31,503,56"/>
+<area shape="poly" title=" " alt="" coords="330,26,362,31,361,36,329,32"/>
+<area shape="poly" title=" " alt="" coords="503,31,535,25,536,31,504,36"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="group__dec__uni_gabf6035c11208cfa8582599159de2bc9e_icgraph.png" border="0" usemap="#agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_icgraph" alt=""/></div>
+<map name="agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_icgraph" id="agroup__dec__uni_gabf6035c11208cfa8582599159de2bc9e_icgraph">
+<area shape="rect" title=" " alt="" coords="856,824,962,850"/>
+<area shape="rect" href="group__dec__uni.html#ga0e5ab2be4925adab434a11de55a554d3" title="This function is called when the engine is stopped, or when the engine is started...." alt="" coords="247,749,345,775"/>
+<area shape="poly" title=" " alt="" coords="904,809,892,643,872,405,858,286,842,181,825,103,816,77,806,61,779,40,754,27,729,22,702,22,644,29,611,32,573,32,522,22,480,11,461,8,442,10,423,17,403,31,384,54,367,86,352,125,339,171,320,277,308,392,302,508,299,612,299,749,294,749,294,612,296,507,303,392,315,276,334,170,347,123,362,83,379,51,400,27,421,12,441,5,461,3,481,6,523,17,574,26,611,27,644,24,702,16,729,16,756,22,782,35,810,58,820,74,830,101,848,180,863,285,877,404,898,643,909,808"/>
+<area shape="rect" href="group__dec__gm.html#ga8cea883b7a6a217edbd82c5a2d7f9887" title=" " alt="" coords="436,193,539,219"/>
+<area shape="poly" title=" " alt="" coords="904,809,898,690,883,526,870,443,853,368,832,306,820,283,806,266,778,242,745,225,710,213,673,205,601,199,540,202,539,197,601,194,674,200,711,208,747,220,780,238,810,262,824,280,837,304,858,366,875,442,888,526,904,690,910,808"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#ga3a364bb82c133d779a6c087fad395c85" title=" " alt="" coords="432,244,543,270"/>
+<area shape="poly" title=" " alt="" coords="904,809,896,700,879,552,866,477,850,409,830,354,806,317,778,295,746,278,712,265,676,257,605,251,544,253,543,247,605,245,677,252,713,260,748,273,781,290,810,314,835,352,855,408,872,476,884,551,902,700,909,808"/>
+<area shape="rect" href="group__dec__dist.html#gaece0b6faf25d907163784af258a69f0f" title=" " alt="" coords="401,295,574,320"/>
+<area shape="poly" title=" " alt="" coords="903,809,894,710,876,577,863,510,847,450,828,401,806,368,782,348,755,333,694,312,632,303,574,302,574,297,633,298,696,307,757,328,785,344,810,365,833,398,852,448,868,509,881,576,899,709,909,808"/>
+<area shape="rect" href="group__dec__daihatsu.html#ga2265b316eb43d5a5f9eebaa2563aecdf" title=" " alt="" coords="422,345,553,371"/>
+<area shape="poly" title=" " alt="" coords="902,809,892,720,872,602,859,543,844,490,826,447,806,419,779,398,749,381,716,369,682,361,614,353,554,354,554,348,614,348,683,356,717,364,751,376,782,393,810,415,831,445,849,488,864,542,877,601,897,719,908,808"/>
+<area shape="rect" href="group___ford___t_f_i.html#ga3cbca97343ff940e89d039964cd47c2e" title=" " alt="" coords="424,396,551,422"/>
+<area shape="poly" title=" " alt="" coords="902,810,889,730,869,628,841,531,824,494,806,470,778,448,747,432,714,420,679,412,611,404,551,405,551,400,611,399,680,407,715,415,749,427,781,444,810,466,829,491,846,529,874,626,894,729,907,809"/>
+<area shape="rect" href="group__dec__gm7x.html#ga4b8a42f9535393860b988031de92c559" title=" " alt="" coords="429,447,546,472"/>
+<area shape="poly" title=" " alt="" coords="905,809,902,748,888,669,875,627,858,587,835,551,806,519,777,498,745,482,711,470,676,462,607,455,547,456,546,451,607,450,677,457,713,465,748,477,780,493,810,515,839,547,863,585,880,626,893,667,907,747,911,808"/>
+<area shape="rect" href="group__dec__harley.html#ga939a903fa02e736faa03601766bebf1f" title=" " alt="" coords="429,497,546,523"/>
+<area shape="poly" title=" " alt="" coords="904,809,897,757,881,691,868,657,852,624,831,594,806,568,777,548,745,533,711,521,675,513,606,506,547,507,547,502,607,501,676,508,712,516,747,528,780,543,810,564,836,591,857,621,873,655,886,689,902,756,909,808"/>
+<area shape="rect" href="group__dec__honda__d17.html#ga1c9a290d14e8daec7f221e44f077adb6" title=" " alt="" coords="417,548,558,574"/>
+<area shape="poly" title=" " alt="" coords="901,810,892,766,874,713,846,660,828,637,806,616,778,598,748,584,682,565,617,558,558,557,559,552,617,553,683,560,750,579,781,593,810,612,832,633,851,657,879,711,897,765,906,809"/>
+<area shape="rect" href="group__dec__honda__j__32.html#ga54664346ac79b00ef878fdac095cbc9b" title=" " alt="" coords="418,599,557,624"/>
+<area shape="poly" title=" " alt="" coords="898,810,886,775,867,734,841,694,806,662,778,645,746,632,680,615,615,608,557,608,557,603,615,603,681,610,748,627,780,640,810,658,845,691,872,732,891,773,903,808"/>
+<area shape="rect" href="group__dec__jeep.html#ga839f263b93cb40bb097e5adbc170ac54" title=" " alt="" coords="419,648,556,674"/>
+<area shape="poly" title=" " alt="" coords="894,811,860,755,836,726,807,703,777,688,745,677,678,662,613,657,556,657,556,652,613,651,679,657,746,672,779,683,809,699,840,722,865,751,898,809"/>
+<area shape="rect" href="group__mazda__au.html#ga19e7b143b2df95855e5ecd59c7223173" title=" " alt="" coords="419,697,556,723"/>
+<area shape="poly" title=" " alt="" coords="889,813,854,773,832,754,807,739,744,718,677,707,613,704,556,706,556,700,613,698,677,702,745,713,809,735,835,750,858,769,893,810"/>
+<area shape="rect" href="group__miata__99__05.html#ga7c9a14de2a9c969bc238e7a17f178e11" title=" " alt="" coords="645,749,785,775"/>
+<area shape="poly" title=" " alt="" coords="871,819,807,789,774,778,776,773,809,784,873,814"/>
+<area shape="rect" href="group__dec__miss.html#ga385756753c4f32623ecdaef49cd4edd3" title=" " alt="" coords="636,799,794,824"/>
+<area shape="poly" title=" " alt="" coords="840,831,794,825,795,819,841,825"/>
+<area shape="rect" href="group__dec.html#ga78ae16fbe4ca89e7b2102a292c30680e" title=" " alt="" coords="660,848,770,874"/>
+<area shape="poly" title=" " alt="" coords="841,848,770,857,770,852,840,843"/>
+<area shape="rect" href="group__dec__renix.html#gaf15171aa87ca3826e124eee762ea0bf4" title=" " alt="" coords="659,897,771,923"/>
+<area shape="poly" title=" " alt="" coords="872,860,809,889,772,900,771,895,807,884,870,855"/>
+<area shape="rect" href="group__dec.html#ga4796a2abb22ac117c2f276f26648f32b" title=" " alt="" coords="411,951,564,976"/>
+<area shape="poly" title=" " alt="" coords="901,865,888,896,868,930,842,962,809,987,772,1002,733,1010,693,1013,653,1010,580,997,522,980,524,975,581,992,654,1005,693,1007,732,1005,771,997,807,983,839,958,864,927,883,893,896,863"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#gacda4917d12ecb74ab8d9dc25a367602a" title=" " alt="" coords="647,1048,783,1074"/>
+<area shape="poly" title=" " alt="" coords="903,866,891,903,871,947,845,992,810,1031,777,1050,774,1045,806,1027,840,989,867,944,886,901,898,864"/>
+<area shape="rect" href="group___suzuki___k6_a.html#ga13bbf74211e9a8dbd18e3c1936c57833" title=" " alt="" coords="415,1052,560,1078"/>
+<area shape="poly" title=" " alt="" coords="909,866,902,916,886,978,873,1010,856,1040,835,1066,809,1089,790,1097,763,1101,696,1101,622,1093,553,1081,554,1076,622,1087,696,1096,763,1096,788,1092,807,1084,832,1063,852,1037,868,1007,881,976,897,915,904,865"/>
+<area shape="rect" href="group__dec__36__2__1.html#gaf53eaa4d4126902b96df90340cad1ce1" title=" " alt="" coords="625,1149,805,1175"/>
+<area shape="poly" title=" " alt="" coords="909,866,902,921,886,992,873,1030,856,1067,836,1101,810,1132,781,1151,778,1147,806,1128,831,1098,852,1064,868,1028,881,991,897,920,904,865"/>
+<area shape="rect" href="group__dec__36__2__2__2.html#gafda52784d0097214ad62fec9f4e5d8b5" title=" " alt="" coords="622,1199,808,1224"/>
+<area shape="poly" title=" " alt="" coords="911,865,908,931,895,1018,883,1065,865,1110,841,1152,810,1190,795,1201,792,1196,806,1186,836,1149,860,1108,877,1063,890,1017,903,931,906,865"/>
+<area shape="rect" href="group__dec__vmax.html#gad9fe90937119e8fb7214e9b6ca93c67f" title=" " alt="" coords="658,1248,772,1274"/>
+<area shape="poly" title=" " alt="" coords="907,866,895,951,875,1062,847,1169,829,1210,810,1239,793,1251,773,1259,771,1254,790,1247,806,1235,825,1208,841,1167,870,1061,890,950,902,865"/>
+<area shape="rect" href="group__dec__weber__marelli.html#ga0b80daf5c441413afa25ffaf0c7a0f90" title=" " alt="" coords="653,1297,777,1323"/>
+<area shape="poly" title=" " alt="" coords="908,866,898,960,878,1087,865,1150,850,1208,831,1255,810,1288,795,1299,779,1307,776,1302,793,1295,806,1285,826,1253,844,1206,860,1149,873,1086,892,960,903,865"/>
+<area shape="rect" href="group__dec.html#gaf4634f017cebf187e8f3ec986b8ec744" title="Pointer to the triggerSetEndTeeth function of each decoder." alt="" coords="624,947,806,972"/>
+<area shape="poly" title=" " alt="" coords="891,864,856,902,809,938,785,949,783,944,807,933,852,899,887,861"/>
+<area shape="rect" href="group__dec__dsm__420a.html#ga82314ad733e3875fd85e61173924c138" title=" " alt="" coords="657,1347,773,1372"/>
+<area shape="poly" title=" " alt="" coords="909,865,900,969,882,1111,869,1182,852,1247,833,1301,810,1337,793,1350,774,1358,772,1353,791,1345,806,1334,828,1298,847,1246,863,1181,876,1110,894,969,903,865"/>
+<area shape="rect" href="group__dec__mitsu__miata.html#gaacb00970186551d988573bdbd6aaf0d8" title=" " alt="" coords="656,1396,774,1422"/>
+<area shape="poly" title=" " alt="" coords="909,866,902,979,885,1135,872,1214,855,1286,835,1346,810,1387,794,1399,775,1407,773,1402,791,1394,806,1383,830,1344,850,1285,867,1213,880,1134,896,978,904,865"/>
+<area shape="rect" href="group__dec__audi135.html#ga7986d6f9f4931b14204e7cd016bcf492" title=" " alt="" coords="648,1445,782,1471"/>
+<area shape="poly" title=" " alt="" coords="910,865,904,987,888,1158,875,1245,858,1325,837,1391,824,1416,810,1436,784,1453,781,1449,806,1432,820,1414,832,1389,853,1324,870,1244,883,1157,898,987,904,865"/>
+<area shape="rect" href="decoders_8cpp.html#a21a94e76bdd2a3aa71935277d1a4bb23" title=" " alt="" coords="648,1495,782,1520"/>
+<area shape="poly" title=" " alt="" coords="910,866,905,997,891,1182,878,1277,861,1364,839,1436,825,1464,810,1486,784,1502,781,1498,806,1482,821,1461,834,1434,856,1363,873,1277,886,1182,900,996,905,865"/>
+<area shape="rect" href="group__dec__dual.html#ga5ad191bbce4bcffa869a89abdc85bf88" title=" " alt="" coords="413,1516,562,1542"/>
+<area shape="poly" title=" " alt="" coords="911,865,911,1008,900,1211,888,1315,870,1409,844,1485,828,1514,810,1535,776,1557,739,1570,699,1575,659,1575,582,1563,522,1545,523,1540,584,1558,659,1570,699,1570,738,1565,774,1552,806,1531,824,1511,839,1483,865,1407,883,1314,895,1210,905,1007,906,865"/>
+<area shape="rect" href="group___ford___t_f_i.html#ga1fa031d3f777eba1a2adb76386451307" title=" " alt="" coords="648,1596,782,1622"/>
+<area shape="poly" title=" " alt="" coords="911,866,908,1013,895,1225,882,1335,865,1436,841,1520,827,1553,810,1579,798,1590,783,1598,781,1594,795,1586,806,1575,822,1551,836,1518,859,1435,877,1335,889,1225,902,1012,905,865"/>
+<area shape="rect" href="group__mazda__au.html#ga443a4e929a2af4d47f53d5f04ea22c4d" title=" " alt="" coords="643,1645,787,1671"/>
+<area shape="poly" title=" " alt="" coords="911,865,911,1023,900,1254,888,1374,870,1483,844,1574,828,1609,810,1636,789,1651,786,1647,806,1632,824,1606,839,1572,865,1482,883,1373,895,1254,905,1023,906,865"/>
+<area shape="rect" href="group__dec__nissan360.html#ga49ebf83e47277afa7ca068e5bb18b811" title=" " alt="" coords="413,41,562,67"/>
+<area shape="poly" title=" " alt="" coords="906,809,904,663,893,452,881,345,863,246,838,166,823,135,806,112,781,91,752,74,721,62,689,54,623,46,563,47,563,42,623,41,690,49,723,57,755,70,784,86,810,109,828,132,843,164,868,245,886,344,898,452,909,663,911,809"/>
+<area shape="rect" href="group__dec__subaru__6__7.html#ga91ec16c81edb0185ad790291b1eb4acc" title=" " alt="" coords="416,92,559,118"/>
+<area shape="poly" title=" " alt="" coords="905,809,902,672,889,478,877,378,859,287,836,213,822,185,806,164,780,143,751,126,720,114,687,105,620,98,559,99,559,93,620,92,688,100,721,109,754,121,783,138,810,160,826,182,841,211,865,286,882,377,895,477,908,672,911,809"/>
+<area shape="rect" href="group__dec__weber__marelli.html#gacb0efb3bf9cbbf46a154a9ca0deb1a72" title=" " alt="" coords="422,143,553,168"/>
+<area shape="poly" title=" " alt="" coords="905,809,900,682,886,502,874,411,856,328,834,260,821,234,806,215,780,193,749,176,717,164,683,156,614,149,553,150,553,145,614,143,683,150,718,159,752,171,783,188,810,211,825,231,839,258,862,326,879,410,891,502,906,681,910,809"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,749,190,775"/>
+<area shape="poly" title=" " alt="" coords="231,765,190,765,190,760,231,760"/>
+<area shape="rect" href="speeduino_8ino.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title=" " alt="" coords="126,799,171,824"/>
+<area shape="poly" title=" " alt="" coords="241,783,172,807,171,802,240,778"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,749,59,775"/>
+<area shape="poly" title=" " alt="" coords="91,765,59,765,59,760,91,760"/>
+<area shape="rect" href="init_8cpp.html#a2a089ba20d6be818c5549070cd92ed95" title=" " alt="" coords="238,799,353,824"/>
+<area shape="poly" title=" " alt="" coords="423,219,403,233,391,254,382,280,374,345,374,423,378,508,383,593,383,672,376,739,367,767,355,789,343,800,340,796,351,786,363,765,370,738,378,672,377,593,373,508,368,423,368,345,377,278,386,252,399,230,420,214"/>
+<area shape="poly" title=" " alt="" coords="239,796,188,778,190,773,241,791"/>
+<area shape="poly" title=" " alt="" coords="223,814,172,814,172,809,223,809"/>
+<area shape="poly" title=" " alt="" coords="419,271,403,284,392,303,384,326,376,385,375,456,378,533,382,611,382,683,374,744,367,769,355,789,343,800,340,796,351,786,362,767,369,743,376,682,376,611,373,534,370,457,370,385,379,325,387,300,399,281,416,267"/>
+<area shape="poly" title=" " alt="" coords="406,332,403,335,383,363,369,392,362,420,359,447,364,502,377,557,390,613,396,670,394,699,387,728,375,759,355,789,343,800,340,796,351,786,370,756,382,727,389,698,391,670,385,614,371,558,358,503,353,447,356,419,364,390,378,361,399,331,402,329"/>
+<area shape="poly" title=" " alt="" coords="411,378,403,385,385,411,373,436,366,460,363,485,366,534,377,583,388,632,393,683,391,709,384,735,373,762,355,789,343,800,340,796,351,786,368,760,379,734,385,708,388,683,383,633,372,584,361,535,357,485,360,459,368,434,381,408,399,382,407,375"/>
+<area shape="poly" title=" " alt="" coords="412,428,403,436,387,458,376,480,367,523,369,565,377,608,386,652,390,696,381,742,371,766,355,789,343,800,340,796,351,786,366,763,376,740,384,696,381,653,372,609,364,566,361,522,371,478,383,455,399,433,409,424"/>
+<area shape="poly" title=" " alt="" coords="417,476,403,487,379,524,370,561,371,597,378,634,384,671,386,710,378,749,355,789,343,800,340,796,351,786,373,747,381,709,379,672,372,635,366,598,365,560,375,522,399,483,413,472"/>
+<area shape="poly" title=" " alt="" coords="416,527,403,537,383,568,374,599,374,629,378,660,382,691,383,723,375,756,355,789,342,800,339,796,351,786,370,754,378,722,377,691,373,660,369,629,369,598,378,566,399,534,413,523"/>
+<area shape="poly" title=" " alt="" coords="407,585,403,588,386,612,378,637,377,661,379,685,381,711,380,736,372,763,355,789,342,800,339,796,351,786,367,760,374,736,375,711,373,686,371,661,373,636,381,610,399,585,403,581"/>
+<area shape="poly" title=" " alt="" coords="407,634,403,637,389,656,382,673,379,711,376,749,369,769,355,789,341,800,338,796,351,786,365,767,371,748,373,710,376,672,384,653,399,634,403,630"/>
+<area shape="poly" title=" " alt="" coords="408,684,403,687,392,699,385,711,379,736,373,762,366,776,355,790,340,800,337,796,352,786,362,773,368,761,374,735,380,709,388,696,400,683,404,679"/>
+<area shape="poly" title=" " alt="" coords="428,732,403,745,389,756,379,767,370,778,355,790,335,801,332,796,352,785,366,774,375,763,385,752,400,740,426,727"/>
+<area shape="poly" title=" " alt="" coords="630,771,402,796,354,803,353,798,401,790,629,766"/>
+<area shape="poly" title=" " alt="" coords="620,814,354,814,354,809,620,809"/>
+<area shape="poly" title=" " alt="" coords="645,856,353,821,354,816,645,850"/>
+<area shape="poly" title=" " alt="" coords="643,902,529,881,401,852,330,828,331,823,402,846,530,876,644,897"/>
+<area shape="poly" title=" " alt="" coords="423,947,400,934,368,908,341,878,303,827,308,824,345,875,372,904,403,929,426,942"/>
+<area shape="poly" title=" " alt="" coords="631,1048,490,1019,432,1004,400,991,379,973,360,951,330,904,310,859,298,826,303,824,315,857,335,902,364,948,382,969,403,987,434,999,492,1014,632,1043"/>
+<area shape="poly" title=" " alt="" coords="417,1047,400,1035,376,1010,357,982,326,921,307,865,297,825,302,824,312,864,331,919,361,979,381,1007,403,1031,420,1043"/>
+<area shape="poly" title=" " alt="" coords="609,1152,487,1128,435,1112,400,1092,371,1061,348,1025,330,987,317,947,301,875,295,825,300,824,306,874,322,946,335,985,353,1023,375,1058,403,1088,437,1107,488,1123,610,1146"/>
+<area shape="poly" title=" " alt="" coords="606,1204,485,1184,434,1169,400,1150,366,1112,341,1068,322,1020,309,972,296,884,294,825,299,825,302,884,314,971,327,1019,346,1065,371,1109,403,1146,436,1164,486,1178,607,1199"/>
+<area shape="poly" title=" " alt="" coords="642,1258,575,1250,504,1238,441,1222,417,1212,399,1200,379,1171,360,1127,329,1015,308,902,296,825,301,825,313,901,334,1014,365,1125,383,1168,403,1196,419,1207,443,1217,505,1233,576,1245,643,1253"/>
+<area shape="poly" title=" " alt="" coords="637,1307,570,1300,500,1288,440,1273,416,1263,399,1251,376,1217,357,1167,340,1106,326,1039,306,911,296,825,301,825,311,910,331,1038,345,1105,362,1165,381,1215,403,1247,419,1258,441,1267,502,1283,571,1295,637,1302"/>
+<area shape="poly" title=" " alt="" coords="608,964,565,965,564,960,608,959"/>
+<area shape="poly" title=" " alt="" coords="641,1358,574,1351,503,1340,441,1324,417,1313,399,1302,374,1263,354,1207,336,1138,322,1063,304,920,295,825,301,825,309,919,328,1063,341,1137,359,1205,379,1261,403,1298,419,1309,442,1319,504,1334,575,1345,642,1352"/>
+<area shape="poly" title=" " alt="" coords="640,1407,573,1401,502,1390,440,1374,416,1364,399,1352,385,1334,372,1310,350,1247,333,1170,319,1087,302,928,295,825,300,825,307,927,324,1086,338,1169,355,1245,377,1308,390,1331,403,1348,419,1359,442,1369,503,1385,573,1395,640,1402"/>
+<area shape="poly" title=" " alt="" coords="632,1457,566,1451,497,1440,438,1425,416,1416,399,1404,384,1384,370,1357,347,1288,329,1204,316,1112,300,937,295,825,300,825,305,937,321,1111,334,1203,352,1287,375,1355,388,1381,403,1400,418,1411,440,1420,499,1435,566,1445,632,1451"/>
+<area shape="poly" title=" " alt="" coords="632,1507,566,1501,497,1492,438,1477,416,1468,399,1456,383,1434,368,1405,344,1329,325,1237,312,1137,298,946,294,825,300,825,304,946,318,1136,331,1236,349,1328,373,1403,387,1431,403,1452,418,1463,440,1472,498,1487,566,1496,632,1502"/>
+<area shape="poly" title=" " alt="" coords="417,1511,399,1495,384,1470,370,1437,347,1355,329,1256,316,1150,300,950,295,825,300,825,305,950,321,1150,334,1256,352,1354,375,1435,388,1467,403,1491,421,1507"/>
+<area shape="poly" title=" " alt="" coords="633,1622,575,1622,512,1614,481,1605,451,1593,424,1577,399,1556,380,1530,364,1496,338,1407,319,1300,306,1183,295,961,294,825,299,825,301,961,312,1182,324,1299,343,1406,369,1494,385,1528,403,1553,427,1573,454,1588,483,1600,513,1608,575,1616,633,1616"/>
+<area shape="poly" title=" " alt="" coords="633,1676,575,1680,513,1676,482,1669,452,1659,424,1644,399,1624,388,1606,377,1576,358,1487,341,1371,327,1239,305,983,295,825,300,824,311,983,332,1239,346,1370,363,1486,383,1575,393,1604,403,1621,427,1640,454,1654,483,1664,513,1671,575,1675,633,1671"/>
+<area shape="poly" title=" " alt="" coords="406,79,404,81,388,108,377,141,371,180,368,224,370,324,377,431,385,540,388,640,386,685,380,726,370,761,355,789,344,800,340,797,351,786,365,759,375,725,381,685,383,640,380,540,372,432,364,324,362,224,366,179,372,140,383,105,399,78,402,75"/>
+<area shape="poly" title=" " alt="" coords="406,129,403,132,389,156,379,187,373,224,370,265,371,357,378,457,384,557,387,651,379,730,369,763,355,789,344,800,340,796,351,786,364,761,373,729,381,651,379,558,372,457,366,357,364,264,367,223,374,186,384,154,399,129,402,125"/>
+<area shape="poly" title=" " alt="" coords="410,176,403,183,390,205,381,233,372,305,372,390,378,482,383,575,385,661,377,735,368,765,355,789,344,800,340,796,351,786,363,763,372,734,380,661,378,575,372,483,367,390,366,305,376,232,385,203,399,179,407,172"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ga0e2376d74e3ce12261992128e4a92abc" name="ga0e2376d74e3ce12261992128e4a92abc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0e2376d74e3ce12261992128e4a92abc">&#9670;&#160;</a></span>stdGetRPM()</h2>
 
@@ -1333,45 +1518,42 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_ga0e2376d74e3ce12261992128e4a92abc_cgraph.png" border="0" usemap="#agroup__dec__uni_ga0e2376d74e3ce12261992128e4a92abc_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_ga0e2376d74e3ce12261992128e4a92abc_cgraph" id="agroup__dec__uni_ga0e2376d74e3ce12261992128e4a92abc_cgraph">
-<area shape="rect" title=" " alt="" coords="5,108,95,134"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1006,260,1175,286"/>
-<area shape="poly" title=" " alt="" coords="80,105,144,80,232,51,333,27,386,20,438,17,664,17,749,11,818,3,851,3,884,9,920,21,959,43,986,63,1009,87,1045,143,1070,198,1085,244,1080,246,1065,200,1040,145,1004,91,982,67,957,47,918,26,883,14,851,9,819,9,750,16,664,22,438,22,386,25,334,32,233,56,146,85,82,110"/>
-<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="570,108,755,134"/>
-<area shape="poly" title=" " alt="" coords="95,118,554,118,554,124,95,124"/>
-<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="143,315,326,356"/>
-<area shape="poly" title=" " alt="" coords="65,133,208,302,204,306,61,136"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1398,260,1491,286"/>
-<area shape="poly" title=" " alt="" coords="1176,270,1382,270,1382,276,1176,276"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1223,286,1350,311"/>
-<area shape="poly" title=" " alt="" coords="1176,281,1208,286,1207,291,1175,287"/>
-<area shape="poly" title=" " alt="" coords="1350,286,1382,280,1382,286,1350,291"/>
-<area shape="poly" title=" " alt="" coords="755,111,804,111,856,116,909,126,959,144,995,165,1026,192,1073,246,1069,249,1023,196,992,170,957,149,907,132,855,121,803,117,755,116"/>
-<area shape="rect" href="maths_8h.html#aab9f0232e41c960b4a09629eac33aef3" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="861,58,917,83"/>
-<area shape="poly" title=" " alt="" coords="723,105,845,77,846,83,724,110"/>
-<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="831,159,947,185"/>
-<area shape="poly" title=" " alt="" coords="724,132,816,153,815,158,723,137"/>
-<area shape="poly" title=" " alt="" coords="919,78,960,100,997,136,1030,175,1077,245,1072,248,1025,178,993,139,956,105,916,82"/>
-<area shape="poly" title=" " alt="" coords="921,183,959,201,1053,250,1050,255,957,206,918,188"/>
-<area shape="poly" title=" " alt="" coords="327,352,374,358,447,362,533,362,716,353,874,339,957,328,1007,311,1051,291,1053,296,1009,316,959,333,875,344,716,358,533,367,447,367,374,364,326,357"/>
-<area shape="rect" href="statuses_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="614,463,711,489"/>
-<area shape="poly" title=" " alt="" coords="257,355,307,400,340,423,375,441,432,459,492,470,549,475,599,476,599,481,549,480,491,475,431,464,373,446,337,428,304,404,253,359"/>
-<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="398,274,481,299"/>
-<area shape="poly" title=" " alt="" coords="321,312,382,297,384,303,322,317"/>
-<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="374,323,505,349"/>
-<area shape="poly" title=" " alt="" coords="326,333,359,333,359,338,326,338"/>
-<area shape="poly" title=" " alt="" coords="711,479,764,481,828,478,894,466,927,456,957,442,997,411,1030,373,1057,333,1075,299,1080,301,1061,336,1035,376,1001,415,959,446,929,461,896,471,829,484,764,487,711,484"/>
-<area shape="rect" href="statuses_8h.html#a9d456f4b13463e081242c33ca70d2f11" title="Non&#45;atomic version of HasAnySync. **Should only be called in an ATOMIC() block***." alt="" coords="820,514,958,539"/>
-<area shape="poly" title=" " alt="" coords="712,484,814,507,813,512,711,489"/>
-<area shape="poly" title=" " alt="" coords="927,511,956,492,998,445,1033,392,1059,341,1077,299,1082,302,1064,343,1037,395,1003,448,960,496,930,515"/>
-<area shape="poly" title=" " alt="" coords="482,276,568,262,686,248,821,241,890,241,958,245,1018,254,1017,259,958,250,890,246,821,246,687,254,569,268,482,281"/>
-<area shape="poly" title=" " alt="" coords="506,335,708,332,833,323,958,306,1033,288,1034,293,958,312,834,328,709,337,506,340"/>
-<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="553,286,772,311"/>
-<area shape="poly" title=" " alt="" coords="505,322,566,312,567,317,506,327"/>
-<area shape="poly" title=" " alt="" coords="772,301,863,301,958,296,1017,287,1018,292,958,301,863,306,772,306"/>
-<area shape="poly" title=" " alt="" coords="686,283,849,190,852,195,689,287"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="859,260,919,286"/>
-<area shape="poly" title=" " alt="" coords="771,284,844,275,844,281,772,289"/>
-<area shape="poly" title=" " alt="" coords="919,270,990,270,990,276,919,276"/>
+<area shape="rect" title=" " alt="" coords="5,96,95,122"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="984,223,1153,248"/>
+<area shape="poly" title=" " alt="" coords="80,93,144,68,232,39,333,15,386,8,438,5,664,5,744,3,807,5,837,9,868,18,901,33,938,53,979,88,1014,130,1040,172,1058,208,1054,210,1035,175,1009,133,976,92,934,58,898,37,866,23,836,14,807,10,744,9,664,10,438,10,386,13,334,20,233,44,146,73,82,98"/>
+<area shape="rect" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf" title=" " alt="" coords="570,96,755,122"/>
+<area shape="poly" title=" " alt="" coords="95,106,554,106,554,112,95,112"/>
+<area shape="rect" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2" title=" " alt="" coords="143,302,326,343"/>
+<area shape="poly" title=" " alt="" coords="65,121,208,289,204,292,61,124"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1376,223,1469,248"/>
+<area shape="poly" title=" " alt="" coords="1154,233,1360,233,1360,238,1154,238"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1201,248,1328,274"/>
+<area shape="poly" title=" " alt="" coords="1154,244,1186,248,1185,253,1153,249"/>
+<area shape="poly" title=" " alt="" coords="1328,248,1360,243,1360,248,1328,253"/>
+<area shape="poly" title=" " alt="" coords="696,93,745,78,806,66,873,65,906,70,937,81,977,107,1011,141,1037,177,1056,208,1052,211,1033,180,1007,144,974,111,935,86,904,75,872,70,807,71,746,83,698,98"/>
+<area shape="rect" href="maths_8h.html#aab9f0232e41c960b4a09629eac33aef3" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="850,96,906,122"/>
+<area shape="poly" title=" " alt="" coords="755,106,834,106,834,112,755,112"/>
+<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="820,197,936,223"/>
+<area shape="poly" title=" " alt="" coords="693,120,836,188,834,193,691,125"/>
+<area shape="poly" title=" " alt="" coords="906,120,937,139,1040,211,1037,215,935,143,903,125"/>
+<area shape="poly" title=" " alt="" coords="937,215,969,220,968,225,936,221"/>
+<area shape="poly" title=" " alt="" coords="327,339,450,357,524,364,604,368,687,367,772,360,855,346,935,324,965,310,994,293,1041,257,1044,261,997,298,968,315,937,329,856,351,772,365,688,372,604,373,524,369,449,363,326,344"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="609,449,716,475"/>
+<area shape="poly" title=" " alt="" coords="257,341,307,387,340,410,375,428,430,445,488,456,544,461,594,462,593,468,544,466,488,461,429,451,373,433,337,414,304,391,253,345"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="398,172,481,198"/>
+<area shape="poly" title=" " alt="" coords="265,299,405,204,408,209,268,304"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="374,309,505,335"/>
+<area shape="poly" title=" " alt="" coords="326,320,359,320,359,325,326,325"/>
+<area shape="poly" title=" " alt="" coords="716,466,765,467,822,464,881,452,935,428,957,412,978,392,1012,347,1038,301,1055,262,1060,264,1043,303,1017,350,982,396,961,416,937,433,882,457,823,469,765,473,716,471"/>
+<area shape="poly" title=" " alt="" coords="482,177,565,170,679,165,807,167,873,173,937,182,985,196,1028,213,1026,218,983,201,935,188,872,178,807,172,679,170,566,175,482,183"/>
+<area shape="poly" title=" " alt="" coords="506,325,592,329,700,328,819,319,878,310,935,297,987,278,1032,254,1035,259,989,283,937,302,879,315,819,324,701,334,592,334,505,331"/>
+<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="553,272,772,298"/>
+<area shape="poly" title=" " alt="" coords="505,309,566,298,567,304,506,314"/>
+<area shape="poly" title=" " alt="" coords="772,291,853,291,936,282,983,270,1026,253,1028,258,984,275,936,288,853,296,772,296"/>
+<area shape="poly" title=" " alt="" coords="701,269,823,226,825,231,703,274"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="848,247,908,272"/>
+<area shape="poly" title=" " alt="" coords="772,269,832,262,833,268,772,275"/>
+<area shape="poly" title=" " alt="" coords="908,253,968,246,968,251,908,259"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1559,35 +1741,32 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="group__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph.png" border="0" usemap="#agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph" alt=""/></div>
 <map name="agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph" id="agroup__dec__uni_gadb6f1cf680d1b52d56847080de7e51d2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,125,189,165"/>
-<area shape="rect" href="statuses_8h.html#a019c1352daf773df950beaf2f7c9a88c" title=" " alt="" coords="477,56,573,82"/>
-<area shape="poly" title=" " alt="" coords="155,121,236,98,355,79,461,70,462,75,356,85,237,103,156,126"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="869,183,1038,208"/>
-<area shape="poly" title=" " alt="" coords="189,140,472,143,646,151,821,168,877,177,876,182,820,173,646,157,471,148,189,146"/>
-<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="261,157,344,183"/>
-<area shape="poly" title=" " alt="" coords="189,154,245,161,245,166,189,159"/>
-<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="237,208,368,234"/>
-<area shape="poly" title=" " alt="" coords="155,163,252,200,250,205,153,168"/>
-<area shape="rect" href="statuses_8h.html#a9d456f4b13463e081242c33ca70d2f11" title="Non&#45;atomic version of HasAnySync. **Should only be called in an ATOMIC() block***." alt="" coords="682,5,821,31"/>
-<area shape="poly" title=" " alt="" coords="573,55,676,32,677,38,575,61"/>
-<area shape="poly" title=" " alt="" coords="574,64,626,64,689,69,756,79,822,98,853,113,882,132,929,170,926,174,879,136,850,118,820,103,755,85,688,74,626,70,574,69"/>
-<area shape="poly" title=" " alt="" coords="789,29,822,48,857,77,888,109,936,168,932,172,884,113,853,81,819,52,787,34"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1260,183,1354,208"/>
-<area shape="poly" title=" " alt="" coords="1038,193,1244,193,1244,198,1038,198"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1086,208,1212,234"/>
-<area shape="poly" title=" " alt="" coords="1039,204,1071,208,1070,213,1038,209"/>
-<area shape="poly" title=" " alt="" coords="1212,208,1244,203,1245,208,1213,213"/>
-<area shape="poly" title=" " alt="" coords="344,169,853,189,853,194,344,174"/>
-<area shape="poly" title=" " alt="" coords="368,216,853,197,854,202,368,221"/>
-<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="416,284,634,310"/>
-<area shape="poly" title=" " alt="" coords="343,232,471,276,470,281,342,237"/>
-<area shape="poly" title=" " alt="" coords="610,281,711,262,820,237,901,211,903,217,821,242,712,267,611,286"/>
-<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="722,309,781,335"/>
-<area shape="poly" title=" " alt="" coords="635,306,707,315,706,320,634,312"/>
-<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="693,359,810,384"/>
-<area shape="poly" title=" " alt="" coords="567,308,697,351,695,356,566,313"/>
-<area shape="poly" title=" " alt="" coords="781,308,819,288,875,251,922,216,925,220,878,256,822,292,783,312"/>
-<area shape="poly" title=" " alt="" coords="799,356,819,345,855,316,887,283,934,220,938,223,891,286,858,320,822,350,802,360"/>
+<area shape="rect" title=" " alt="" coords="5,74,189,115"/>
+<area shape="rect" href="group__trigger__sync__status.html#gaca5781cd77c74add9bcb9a981906669b" title="Get the current sync status." alt="" coords="472,5,578,31"/>
+<area shape="poly" title=" " alt="" coords="155,71,236,48,352,29,456,19,457,25,353,34,237,53,156,76"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="847,157,1016,183"/>
+<area shape="poly" title=" " alt="" coords="189,87,311,85,464,89,632,101,717,112,799,126,881,149,879,154,798,131,716,117,631,106,463,94,311,91,189,93"/>
+<area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="261,107,344,132"/>
+<area shape="poly" title=" " alt="" coords="189,103,245,110,245,115,189,108"/>
+<area shape="rect" href="group__dec__uni.html#ga3b75c5b673255cf24f671932b039340e" title=" " alt="" coords="237,157,368,183"/>
+<area shape="poly" title=" " alt="" coords="155,113,252,149,250,154,153,118"/>
+<area shape="poly" title=" " alt="" coords="579,12,627,13,684,17,743,28,800,48,834,68,866,93,913,143,909,147,862,97,831,72,798,53,742,33,683,23,627,18,579,18"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1238,157,1332,183"/>
+<area shape="poly" title=" " alt="" coords="1016,168,1222,168,1222,173,1016,173"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1064,183,1190,208"/>
+<area shape="poly" title=" " alt="" coords="1017,178,1049,183,1048,188,1016,184"/>
+<area shape="poly" title=" " alt="" coords="1190,183,1222,177,1223,183,1191,188"/>
+<area shape="poly" title=" " alt="" coords="344,118,540,128,799,149,831,153,831,158,798,154,540,134,344,124"/>
+<area shape="poly" title=" " alt="" coords="368,168,831,168,831,173,368,173"/>
+<area shape="rect" href="crank_maths_8cpp.html#a84a6d7432815026f3ca712ffb72f43d6" title="Set the revolution time, from which some of the degree&lt;&#45;&#45;&gt;angle conversions are derived." alt="" coords="416,233,634,259"/>
+<area shape="poly" title=" " alt="" coords="343,181,471,225,470,230,342,186"/>
+<area shape="poly" title=" " alt="" coords="598,230,843,184,844,189,599,235"/>
+<area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="711,259,770,284"/>
+<area shape="poly" title=" " alt="" coords="635,256,695,264,695,269,634,262"/>
+<area shape="rect" href="maths_8h.html#aea74d515ad6882dd8441df37b7962ec2" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="682,308,799,334"/>
+<area shape="poly" title=" " alt="" coords="565,257,687,300,686,305,564,262"/>
+<area shape="poly" title=" " alt="" coords="766,256,891,188,893,193,768,260"/>
+<area shape="poly" title=" " alt="" coords="778,305,797,295,830,270,860,243,908,193,912,197,864,247,833,275,800,299,780,310"/>
 </map>
 </div>
 <div class="dynheader">

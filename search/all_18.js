@@ -31,7 +31,7 @@ var searchData=
   ['n2o_5fstage2_5fpin_5fport_28',['n2o_stage2_pin_port',['../auxiliaries_8cpp.html#a7c7f973dfbc5ce899d67856ad3f82f9f',1,'auxiliaries.cpp']]],
   ['n2o_5fstage2_5fretard_29',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_30',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
-  ['native_5fcan_5favailable_31',['native_can_available',['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h']]],
+  ['native_5fcan_5favailable_31',['native_can_available',['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h'],['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h']]],
   ['ncylinders_32',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
   ['new_5fcan_5fpacket_5fsize_33',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]],
   ['nextafrcyclehasstarted_34',['nextAfrCycleHasStarted',['../corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac',1,'corrections.cpp']]],
@@ -50,11 +50,12 @@ var searchData=
   ['no_5ffuel_5fcorrection_47',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
   ['noentity_48',['NoEntity',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3',1,'pages.h']]],
   ['non_20360_20dual_20wheel_49',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
-  ['nsquirts_50',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['nsquirtsstatus_51',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]],
-  ['nudge_52',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],
-  ['nullcallback_53',['nullcallback',['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
-  ['nullgetcrankangle_54',['nullGetCrankAngle',['../decoders_8cpp.html#aee6d014372f953ea30954cfbc3b42acb',1,'decoders.cpp']]],
-  ['nullgetrpm_55',['nullGetRPM',['../decoders_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoders.cpp']]],
-  ['nulltriggerhandler_56',['nullTriggerHandler',['../decoders_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoders.cpp']]]
+  ['none_50',['None',['../group__trigger__sync__status.html#gga0f8625c80686484ef32a81c6bc1420d9a6adf97f83acf6453d4a6a4b1070f3754',1,'decoders.h']]],
+  ['nsquirts_51',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
+  ['nsquirtsstatus_52',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]],
+  ['nudge_53',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],
+  ['nullcallback_54',['nullcallback',['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
+  ['nullgetcrankangle_55',['nullGetCrankAngle',['../decoders_8cpp.html#aee6d014372f953ea30954cfbc3b42acb',1,'decoders.cpp']]],
+  ['nullgetrpm_56',['nullGetRPM',['../decoders_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoders.cpp']]],
+  ['nulltriggerhandler_57',['nullTriggerHandler',['../decoders_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoders.cpp']]]
 ];
