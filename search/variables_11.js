@@ -34,6 +34,7 @@ var searchData=
   ['rtc_31',['rtc',['../board__stm32__official_8h.html#aadd01aee2f1b6c7d047b05d6142d5122',1,'board_stm32_official.h']]],
   ['rtc_5fmode_32',['rtc_mode',['../structconfig2.html#a35309a57e3d71d65c4b80e4b2d850fb1',1,'config2']]],
   ['rtc_5ftrim_33',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
-  ['runsecs_34',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
-  ['runsecsx10_35',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
+  ['runningtooff_34',['runningToOff',['../schedule__state__machine_8cpp.html#ad87cdc94395fd370d259c8202b39b715',1,'schedule_state_machine.cpp']]],
+  ['runsecs_35',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10_36',['runsecsx10',['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
 ];

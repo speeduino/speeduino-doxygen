@@ -107,6 +107,7 @@ var searchData=
   ['rtc_5ftrim_104',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
   ['running_105',['RUNNING',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'scheduler.h']]],
   ['running_5fwithnext_106',['RUNNING_WITHNEXT',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a20955cc33299df01e639321f412b75eb',1,'scheduler.h']]],
-  ['runsecs_107',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
-  ['runsecsx10_108',['runsecsx10',['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
+  ['runningtooff_107',['runningToOff',['../schedule__state__machine_8cpp.html#ad87cdc94395fd370d259c8202b39b715',1,'schedule_state_machine.cpp']]],
+  ['runsecs_108',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],
+  ['runsecsx10_109',['runsecsx10',['../globals_8h.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp'],['../globals_8cpp.html#a49404e6dfc26294958977ca9bb237a02',1,'runSecsX10:&#160;globals.cpp']]]
 ];
