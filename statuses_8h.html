@@ -87,6 +87,7 @@ $(function() {
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="bit__manip_8h_source.html">bit_manip.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="atomic_8h_source.html">atomic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -300,6 +301,9 @@ Functions</h2></td></tr>
 <tr class="separator:a118f8e02006a5b6d52cd78f9f0c2ef53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3861042f004bbc0f38e82bf511c57c2" id="r_ad3861042f004bbc0f38e82bf511c57c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#ad3861042f004bbc0f38e82bf511c57c2">resetEngineProtect</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">status</a>)</td></tr>
 <tr class="separator:ad3861042f004bbc0f38e82bf511c57c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa282443d4441252582d11eb8a033b8f2" id="r_aa282443d4441252582d11eb8a033b8f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#aa282443d4441252582d11eb8a033b8f2">setRpm</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">status</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rpm</a>)</td></tr>
+<tr class="memdesc:aa282443d4441252582d11eb8a033b8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the RPM field, keeping RPMDiv100 in sync.  <br /></td></tr>
+<tr class="separator:aa282443d4441252582d11eb8a033b8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The statuses struct and related defines. </p>
@@ -426,6 +430,83 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="348,37,316,33,317,28,349,31"/>
 <area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,55,253,80"/>
 <area shape="poly" title=" " alt="" coords="349,55,254,66,253,60,348,50"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
+<area shape="poly" title=" " alt="" coords="154,70,59,70,59,65,154,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa282443d4441252582d11eb8a033b8f2" name="aa282443d4441252582d11eb8a033b8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa282443d4441252582d11eb8a033b8f2">&#9670;&#160;</a></span>setRpm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> setRpm </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td>
+          <td class="paramname"><em>rpm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the RPM field, keeping RPMDiv100 in sync. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">status</td><td></td></tr>
+    <tr><td class="paramname">smallRpm</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="statuses_8h_aa282443d4441252582d11eb8a033b8f2_cgraph.png" border="0" usemap="#astatuses_8h_aa282443d4441252582d11eb8a033b8f2_cgraph" alt=""/></div>
+<map name="astatuses_8h_aa282443d4441252582d11eb8a033b8f2_cgraph" id="astatuses_8h_aa282443d4441252582d11eb8a033b8f2_cgraph">
+<area shape="rect" title="Set the RPM field, keeping RPMDiv100 in sync." alt="" coords="5,31,72,56"/>
+<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="120,5,179,31"/>
+<area shape="poly" title=" " alt="" coords="72,33,104,26,105,31,73,38"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="227,31,396,56"/>
+<area shape="poly" title=" " alt="" coords="72,41,212,41,212,46,72,46"/>
+<area shape="poly" title=" " alt="" coords="180,20,212,25,211,30,179,25"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="619,31,712,56"/>
+<area shape="poly" title=" " alt="" coords="397,41,603,41,603,46,397,46"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="444,56,571,82"/>
+<area shape="poly" title=" " alt="" coords="397,52,429,56,428,61,396,57"/>
+<area shape="poly" title=" " alt="" coords="571,56,603,51,603,56,571,61"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="statuses_8h_aa282443d4441252582d11eb8a033b8f2_icgraph.png" border="0" usemap="#astatuses_8h_aa282443d4441252582d11eb8a033b8f2_icgraph" alt=""/></div>
+<map name="astatuses_8h_aa282443d4441252582d11eb8a033b8f2_icgraph" id="astatuses_8h_aa282443d4441252582d11eb8a033b8f2_icgraph">
+<area shape="rect" title="Set the RPM field, keeping RPMDiv100 in sync." alt="" coords="364,31,430,56"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="107,5,316,31"/>
+<area shape="poly" title=" " alt="" coords="348,40,310,34,310,29,349,34"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,55,253,80"/>
+<area shape="poly" title=" " alt="" coords="349,52,254,65,253,59,348,47"/>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
 <area shape="poly" title=" " alt="" coords="154,70,59,70,59,65,154,65"/>
 </map>
