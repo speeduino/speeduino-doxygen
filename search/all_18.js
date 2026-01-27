@@ -50,7 +50,7 @@ var searchData=
   ['no_5ffuel_5fcorrection_47',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
   ['noentity_48',['NoEntity',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3ab78466dc42f50739a81512647c3637e3',1,'pages.h']]],
   ['non_20360_20dual_20wheel_49',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
-  ['none_50',['None',['../group__trigger__sync__status.html#gga0f8625c80686484ef32a81c6bc1420d9a6adf97f83acf6453d4a6a4b1070f3754',1,'decoders.h']]],
+  ['none_50',['None',['../decoders_8h.html#a0f8625c80686484ef32a81c6bc1420d9a6adf97f83acf6453d4a6a4b1070f3754',1,'decoders.h']]],
   ['nsquirts_51',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
   ['nsquirtsstatus_52',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]],
   ['nudge_53',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],

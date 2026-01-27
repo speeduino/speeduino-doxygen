@@ -7,10 +7,12 @@ var searchData=
   ['hardlimitactive_4',['hardLimitActive',['../structstatuses.html#a52cb6433a154f281bcc8d6f8d85d73e0',1,'statuses']]],
   ['hardrevlim_5',['HardRevLim',['../structconfig4.html#a8fd4e0c8ea7e7bdccf477ed696aafff1',1,'config4']]],
   ['hardrevmode_6',['hardRevMode',['../structconfig9.html#a4cce7ebb901b35443c19718f1648a9ca',1,'config9']]],
-  ['hwtest_5fign_7',['hwtest_ign',['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp'],['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp']]],
-  ['hwtest_5fign_5fpulsed_8',['hwtest_ign_pulsed',['../globals_8cpp.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp'],['../globals_8h.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp']]],
-  ['hwtest_5finj_9',['hwtest_inj',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp']]],
-  ['hwtest_5finj_5fpulsed_10',['hwtest_inj_pulsed',['../globals_8cpp.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp'],['../globals_8h.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp']]],
-  ['hwtestignduration_11',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
-  ['hwtestinjduration_12',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
+  ['hasfixedcrankingtiming_7',['hasFixedCrankingTiming',['../structdecoder__features__t.html#afb9453606f8d74478ee5c56cb94159d2',1,'decoder_features_t']]],
+  ['hassecondary_8',['hasSecondary',['../structdecoder__features__t.html#a39c837266b46ce406153ab32d6195d1b',1,'decoder_features_t']]],
+  ['hwtest_5fign_9',['hwtest_ign',['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp'],['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp']]],
+  ['hwtest_5fign_5fpulsed_10',['hwtest_ign_pulsed',['../globals_8cpp.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp'],['../globals_8h.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp']]],
+  ['hwtest_5finj_11',['hwtest_inj',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp']]],
+  ['hwtest_5finj_5fpulsed_12',['hwtest_inj_pulsed',['../globals_8cpp.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp'],['../globals_8h.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp']]],
+  ['hwtestignduration_13',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
+  ['hwtestinjduration_14',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
 ];

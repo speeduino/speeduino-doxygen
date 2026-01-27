@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ignitionschedule_0',['IgnitionSchedule',['../struct_ignition_schedule.html',1,'']]]
+  ['fuelschedule_0',['FuelSchedule',['../struct_fuel_schedule.html',1,'']]]
 ];

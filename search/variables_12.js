@@ -21,7 +21,7 @@ var searchData=
   ['secondarylasttoothtime1_18',['secondarylasttoothtime1',['../decoders_8h.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1:&#160;decoders.cpp'],['../decoders_8cpp.html#a7c30a9adbcc5e2df52ea05e8c412b888',1,'secondaryLastToothTime1:&#160;decoders.cpp']]],
   ['secondaryserialprotocol_19',['secondarySerialProtocol',['../structconfig9.html#a84249b31381d412aa67e378e62ed04de',1,'config9']]],
   ['secondarytoothcount_20',['secondaryToothCount',['../decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0',1,'decoders.cpp']]],
-  ['secondarytriggeredge_21',['secondarytriggeredge',['../globals_8h.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp'],['../globals_8cpp.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp']]],
+  ['secondarytriggeredge_21',['secondarytriggeredge',['../globals_8cpp.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp'],['../globals_8h.html#a67800a71de442a514a471102545ed499',1,'secondaryTriggerEdge:&#160;globals.cpp']]],
   ['secondcomptype_22',['secondCompType',['../structcmp_operation.html#afbac1bfa2d5005d2c0f2e1f27807aa3d',1,'cmpOperation']]],
   ['seconddatain_23',['secondDataIn',['../structconfig13.html#ae8cfe9c5c758835513e1f8066c6367e0',1,'config13']]],
   ['secondfueltableactive_24',['secondFuelTableActive',['../structstatuses.html#a73c5682eeb8212c1d73d30f118c20fbd',1,'statuses']]],
@@ -93,6 +93,9 @@ var searchData=
   ['stoich_90',['stoich',['../structconfig2.html#ab97d94aaffe9d86b49e971a24cef5268',1,'config2']]],
   ['storage_5fend_91',['STORAGE_END',['../storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b',1,'storage.cpp']]],
   ['strokes_92',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
-  ['synclosscounter_93',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
-  ['systemtemp_94',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
+  ['supports2ndderiv_93',['supports2ndDeriv',['../structdecoder__features__t.html#af4d2cf68e9ee15625f4d907365e935da',1,'decoder_features_t']]],
+  ['supportssequential_94',['supportsSequential',['../structdecoder__features__t.html#a8af3d205c00648a3aad6f8b3a6e5d2b1',1,'decoder_features_t']]],
+  ['synclosscounter_95',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
+  ['syncstatus_96',['syncStatus',['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t']]],
+  ['systemtemp_97',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
 ];
