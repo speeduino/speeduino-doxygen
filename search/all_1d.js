@@ -147,7 +147,7 @@ var searchData=
   ['serialtransmitinprogress_144',['serialTransmitInProgress',['../comms__legacy_8h.html#a28a5962c302ac1975bc2883fe5509b30',1,'comms_legacy.h']]],
   ['serialversion_145',['serialVersion',['../group__group-serial-hard-coded-responses.html#gacafb16836d4625d677a7f179dff00fb3',1,'comms.cpp']]],
   ['serialwrite_146',['serialwrite',['../group__group-serial-comms-impl.html#gab2a5c4cf7a996be9a8ff2e2293ceabb0',1,'serialWrite(uint32_t value):&#160;comms.cpp'],['../group__group-serial-comms-impl.html#ga9e322ebde8f8b1a75e56b919e9917a94',1,'serialWrite(uint16_t value):&#160;comms.cpp']]],
-  ['set_5fcompare_147',['SET_COMPARE',['../timers_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'timers.h']]],
+  ['set_5fcompare_147',['SET_COMPARE',['../board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'board_definition.h']]],
   ['set_5ffuel_5fchannel_148',['SET_FUEL_CHANNEL',['../speeduino_8ino.html#a095fd6ca4db6fcfae0278b7e6ad60513',1,'speeduino.ino']]],
   ['set_5fignition_5fchannel_149',['SET_IGNITION_CHANNEL',['../speeduino_8ino.html#aec703c7b4d9e47cbd4461e26ebd0546a',1,'speeduino.ino']]],
   ['set_5ftable_5fvalue_150',['set_table_value',['../pages_8cpp.html#ab6ebb52ff5a02797a96615a762818a1a',1,'pages.cpp']]],

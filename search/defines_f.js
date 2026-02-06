@@ -48,7 +48,7 @@ var searchData=
   ['serial_5fport_5fprimary_45',['SERIAL_PORT_PRIMARY',['../globals_8h.html#abef86cbc62e69216f30fd140f274922b',1,'globals.h']]],
   ['serial_5fport_5fsecondary_46',['SERIAL_PORT_SECONDARY',['../globals_8h.html#a04b696f984b551c93888ffd73bd0bb0c',1,'globals.h']]],
   ['serial_5fprint_5fspace_5fdelimited_5farray_47',['serial_print_space_delimited_array',['../comms__legacy_8cpp.html#a5b2ea18c2a7771751e6a6466bc4248a2',1,'comms_legacy.cpp']]],
-  ['set_5fcompare_48',['SET_COMPARE',['../timers_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'timers.h']]],
+  ['set_5fcompare_48',['SET_COMPARE',['../board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'board_definition.h']]],
   ['set_5ffuel_5fchannel_49',['SET_FUEL_CHANNEL',['../speeduino_8ino.html#a095fd6ca4db6fcfae0278b7e6ad60513',1,'speeduino.ino']]],
   ['set_5fignition_5fchannel_50',['SET_IGNITION_CHANNEL',['../speeduino_8ino.html#aec703c7b4d9e47cbd4461e26ebd0546a',1,'speeduino.ino']]],
   ['simple_5fboost_5fd_51',['SIMPLE_BOOST_D',['../auxiliaries_8h.html#a7e97860f92291f8439b060e35c82a417',1,'auxiliaries.h']]],

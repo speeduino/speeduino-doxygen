@@ -122,6 +122,10 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#if defined(RTC_ENABLED)</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> boardInitRTC(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">// It is important that we cast this to the actual overflow limit of the timer. </span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">// The compare variables type can be wider than the timer overflow.</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">   68</a></span><span class="preprocessor">#define SET_COMPARE(compare, value) compare = (COMPARE_TYPE)(value)</span></div>
 <div class="ttc" id="aboard__avr2560_8h_html"><div class="ttname"><a href="board__avr2560_8h.html">board_avr2560.h</a></div></div>
 <div class="ttc" id="aboard__definition_8h_html_a16d9661976d1370ded46920bf7cf53e7"><div class="ttname"><a href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a></div><div class="ttdeci">uint8_t getSystemTemp(void)</div><div class="ttdoc">Get the board temp for display in TunerStudio (optional)</div></div>
 <div class="ttc" id="aboard__definition_8h_html_abed43bf7d094e1077de22cb6657afa15"><div class="ttname"><a href="board__definition_8h.html#abed43bf7d094e1077de22cb6657afa15">boardInitPins</a></div><div class="ttdeci">void boardInitPins(void)</div><div class="ttdoc">Pin specific initialisation (optional - can be empty)</div></div>
