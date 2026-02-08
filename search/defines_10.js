@@ -18,5 +18,6 @@ var searchData=
   ['trigger_5ffilter_5flite_15',['TRIGGER_FILTER_LITE',['../decoders_8h.html#a39bdaf2aed704a55d3f75b8c347b6492',1,'decoders.h']]],
   ['trigger_5ffilter_5fmedium_16',['TRIGGER_FILTER_MEDIUM',['../decoders_8h.html#ad190c3528a2c69c54ce3e49d64de2699',1,'decoders.h']]],
   ['trigger_5ffilter_5foff_17',['TRIGGER_FILTER_OFF',['../decoders_8h.html#a26f12f816b8abee15451305e354a25a6',1,'decoders.h']]],
-  ['ts_5fcan_5foffset_18',['TS_CAN_OFFSET',['../comms___c_a_n_8h.html#abedf536cc82ecd72ed86eb7bd1123325',1,'comms_CAN.h']]]
+  ['ts_5fcan_5foffset_18',['TS_CAN_OFFSET',['../comms___c_a_n_8h.html#abedf536cc82ecd72ed86eb7bd1123325',1,'comms_CAN.h']]],
+  ['ts_5fserial_5fbuffer_5fsize_19',['ts_serial_buffer_size',['../board__avr2560_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy41.h']]]
 ];
