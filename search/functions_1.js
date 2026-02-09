@@ -14,12 +14,13 @@ var searchData=
   ['applycorrections_11',['applyCorrections',['../fuel__calcs_8cpp.html#ac087508589c090c115e2ccb9cd65e113',1,'fuel_calcs.cpp']]],
   ['applyfueltrimtopw_12',['applyFuelTrimToPW',['../speeduino_8ino.html#a1896e745aed8649badb48ccef9c0ed6c',1,'speeduino.ino']]],
   ['applyidleadvanceadjust_13',['applyIdleAdvanceAdjust',['../corrections_8cpp.html#a179f849d5de6dbf6c9f986df4afa9e14',1,'corrections.cpp']]],
-  ['applymapmode_14',['applyMapMode',['../fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60',1,'fuel_calcs.cpp']]],
-  ['applyoverdwellcheck_15',['applyOverDwellCheck',['../timers_8cpp.html#aab30d03d7fb8862fe96219784fbcd6a2',1,'timers.cpp']]],
-  ['applypwlimits_16',['applyPwLimits',['../fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce',1,'fuel_calcs.cpp']]],
-  ['applypwtoinjectorchannels_17',['applypwtoinjectorchannels',['../fuel__calcs_8cpp.html#a1a0103639acb55f56b928c3aea9f9bdc',1,'applyPwToInjectorChannels(const pulseWidths &amp;pulse_widths, const config2 &amp;page2, statuses &amp;current):&#160;fuel_calcs.cpp'],['../fuel__calcs_8h.html#a1a0103639acb55f56b928c3aea9f9bdc',1,'applyPwToInjectorChannels(const pulseWidths &amp;pulse_widths, const config2 &amp;page2, statuses &amp;current):&#160;fuel_calcs.cpp']]],
-  ['applystagingmodeauto_18',['applyStagingModeAuto',['../fuel__calcs_8cpp.html#afc0732293930ebf5d17fe10483a61a61',1,'fuel_calcs.cpp']]],
-  ['applystagingmodetable_19',['applyStagingModeTable',['../fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b',1,'fuel_calcs.cpp']]],
-  ['at_5fend_20',['at_end',['../classtable__row__iterator.html#afb4f370e1ec37ac7d43d21cf26f5b828',1,'table_row_iterator::at_end()'],['../classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec',1,'table_axis_iterator::at_end()'],['../classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0',1,'table_value_iterator::at_end()']]],
-  ['axis_5fdomain_5fto_5ffactor_21',['axis_domain_to_factor',['../group__table__3d.html#ga230c924d04e59986355f088e85efb0d4',1,'table3d_axes.h']]]
+  ['applymapalgorithm_14',['applyMapAlgorithm',['../sensors_8cpp.html#a4ee6c151fc678a54f75bb830ac121396',1,'sensors.cpp']]],
+  ['applymapmode_15',['applyMapMode',['../fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60',1,'fuel_calcs.cpp']]],
+  ['applyoverdwellcheck_16',['applyOverDwellCheck',['../timers_8cpp.html#aab30d03d7fb8862fe96219784fbcd6a2',1,'timers.cpp']]],
+  ['applypwlimits_17',['applyPwLimits',['../fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce',1,'fuel_calcs.cpp']]],
+  ['applypwtoinjectorchannels_18',['applypwtoinjectorchannels',['../fuel__calcs_8cpp.html#a1a0103639acb55f56b928c3aea9f9bdc',1,'applyPwToInjectorChannels(const pulseWidths &amp;pulse_widths, const config2 &amp;page2, statuses &amp;current):&#160;fuel_calcs.cpp'],['../fuel__calcs_8h.html#a1a0103639acb55f56b928c3aea9f9bdc',1,'applyPwToInjectorChannels(const pulseWidths &amp;pulse_widths, const config2 &amp;page2, statuses &amp;current):&#160;fuel_calcs.cpp']]],
+  ['applystagingmodeauto_19',['applyStagingModeAuto',['../fuel__calcs_8cpp.html#afc0732293930ebf5d17fe10483a61a61',1,'fuel_calcs.cpp']]],
+  ['applystagingmodetable_20',['applyStagingModeTable',['../fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b',1,'fuel_calcs.cpp']]],
+  ['at_5fend_21',['at_end',['../classtable__row__iterator.html#afb4f370e1ec37ac7d43d21cf26f5b828',1,'table_row_iterator::at_end()'],['../classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec',1,'table_axis_iterator::at_end()'],['../classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0',1,'table_value_iterator::at_end()']]],
+  ['axis_5fdomain_5fto_5ffactor_22',['axis_domain_to_factor',['../group__table__3d.html#ga230c924d04e59986355f088e85efb0d4',1,'table3d_axes.h']]]
 ];

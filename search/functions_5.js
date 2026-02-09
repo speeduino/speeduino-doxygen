@@ -27,7 +27,7 @@ var searchData=
   ['engineisrunning_24',['engineisrunning',['../group__dec__uni.html#ga3a05fc7155fcaf19e7cba1ed30dfb216',1,'engineIsRunning(uint32_t curTime):&#160;decoders.cpp'],['../group__dec__uni.html#ga3a05fc7155fcaf19e7cba1ed30dfb216',1,'engineIsRunning(uint32_t curTime):&#160;decoders.cpp']]],
   ['eventaverageaccumulate_25',['eventAverageAccumulate',['../sensors_8cpp.html#afe867cae9c30e00d7900823f8d411cc6',1,'sensors.cpp']]],
   ['eventaverageendevent_26',['eventAverageEndEvent',['../sensors_8cpp.html#a3e303662b6f92d470ed04b220840925f',1,'sensors.cpp']]],
-  ['eventaveragemapreading_27',['eventAverageMAPReading',['../sensors_8cpp.html#a3a25f82840a079b41d7d30d274b94ddb',1,'sensors.cpp']]],
+  ['eventaveragemapreading_27',['eventAverageMAPReading',['../sensors_8cpp.html#a374f09400984768df3e0ab49eb823172',1,'sensors.cpp']]],
   ['executepolledaction_28',['executePolledAction',['../polling_8hpp.html#a01aba12cf3f49f3e91982b751366a473',1,'polling.hpp']]],
   ['executepolledarrayaction_29',['executePolledArrayAction',['../polling_8hpp.html#aedeee2ac4bfe4a25bc6f9943d4efc9b1',1,'polling.hpp']]]
 ];
