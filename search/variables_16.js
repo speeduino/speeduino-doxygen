@@ -26,9 +26,10 @@ var searchData=
   ['wmitable_23',['wmitable',['../globals_8cpp.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable:&#160;globals.cpp'],['../globals_8h.html#a8e70b20a15b4073f5ee7c0773595d466',1,'wmiTable:&#160;globals.cpp']]],
   ['wmitankempty_24',['wmiTankEmpty',['../structstatuses.html#a1868b574c2532cadb402a16421e6841e',1,'statuses']]],
   ['wmitps_25',['wmiTPS',['../structconfig10.html#a7323ac4c7d669e674b1e82d42e0e9766',1,'config10']]],
-  ['write_5fblock_5fsize_26',['write_block_size',['../structwrite__location.html#a17c2df253131aebb1a142af0691d3578',1,'write_location']]],
-  ['wuebins_27',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4']]],
-  ['wuecorrection_28',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
-  ['wueisactive_29',['wueIsActive',['../structstatuses.html#a02c7cfdf760065653dcfaaf5bc9ef97e',1,'statuses']]],
-  ['wuevalues_30',['wueValues',['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2']]]
+  ['write_5fblock_5fsize_26',['write_block_size',['../structwrite__location.html#a30a0b0f91fba9766f00f0fbcc610ddd4',1,'write_location']]],
+  ['writecounter_27',['writeCounter',['../structwrite__location.html#a5863587456a161ff6d352d0da4a65fd8',1,'write_location']]],
+  ['wuebins_28',['wueBins',['../structconfig4.html#a35f1fff1823a5bf4a86bfc7a3b924eda',1,'config4']]],
+  ['wuecorrection_29',['wueCorrection',['../structstatuses.html#a48a83016142263d94e3be18265e80c93',1,'statuses']]],
+  ['wueisactive_30',['wueIsActive',['../structstatuses.html#a02c7cfdf760065653dcfaaf5bc9ef97e',1,'statuses']]],
+  ['wuevalues_31',['wueValues',['../structconfig2.html#a1624c8e1d4073a8d2303a0052153262d',1,'config2']]]
 ];

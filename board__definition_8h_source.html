@@ -99,35 +99,40 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">   39</a></span>uint8_t <a class="code hl_function" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="comment">// Include a specific header for a board.</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__)</span></div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">  #include &quot;<a class="code" href="board__avr2560_8h.html">board_avr2560.h</a>&quot;</span></div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="preprocessor">#elif defined(CORE_TEENSY)</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="preprocessor">  #if defined(__MK64FX512__) || defined(__MK66FX1M0__)</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">    #include &quot;<a class="code" href="board__teensy35_8h.html">board_teensy35.h</a>&quot;</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span><span class="preprocessor">  #elif defined(__IMXRT1062__)</span></div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="preprocessor">    #include &quot;<a class="code" href="board__teensy41_8h.html">board_teensy41.h</a>&quot;</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="preprocessor">  #endif</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#elif defined(STM32_MCU_SERIES) || defined(ARDUINO_ARCH_STM32) || defined(STM32)</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">  #include &quot;<a class="code" href="board__stm32__official_8h.html">board_stm32_official.h</a>&quot;</span></div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#elif defined(__SAME51J19A__)</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="preprocessor">  #include &quot;board_same51.h&quot;</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="comment">// Allow external injection of the board definition via compiler flags</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#elif defined(EXTERNAL_BOARD_H)</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">  #include EXTERNAL_BOARD_H</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">  #error Incorrect board selected. Please select the correct board (Usually Mega 2560) and upload again</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#if defined(RTC_ENABLED)</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keywordtype">void</span> boardInitRTC(<span class="keywordtype">void</span>);</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="comment">// It is important that we cast this to the actual overflow limit of the timer. </span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="comment">// The compare variables type can be wider than the timer overflow.</span></div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">   68</a></span><span class="preprocessor">#define SET_COMPARE(compare, value) (compare) = (COMPARE_TYPE)(value)</span></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">struct </span><a class="code hl_struct" href="structstatuses.html">statuses</a>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a612acdf054430582ede36c0d5f8dd346">   55</a></span>uint16_t <a class="code hl_function" href="board__definition_8h.html#a612acdf054430582ede36c0d5f8dd346">getEepromWriteBlockSize</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structstatuses.html">statuses</a> &amp;current);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">// Include a specific header for a board.</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#if defined(__AVR_ATmega1280__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__)</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">  #include &quot;<a class="code" href="board__avr2560_8h.html">board_avr2560.h</a>&quot;</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#elif defined(CORE_TEENSY)</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">  #if defined(__MK64FX512__) || defined(__MK66FX1M0__)</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">    #include &quot;<a class="code" href="board__teensy35_8h.html">board_teensy35.h</a>&quot;</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">  #elif defined(__IMXRT1062__)</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">    #include &quot;<a class="code" href="board__teensy41_8h.html">board_teensy41.h</a>&quot;</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">  #endif</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#elif defined(STM32_MCU_SERIES) || defined(ARDUINO_ARCH_STM32) || defined(STM32)</span></div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="preprocessor">  #include &quot;<a class="code" href="board__stm32__official_8h.html">board_stm32_official.h</a>&quot;</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="preprocessor">#elif defined(__SAME51J19A__)</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="preprocessor">  #include &quot;board_same51.h&quot;</span></div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="comment">// Allow external injection of the board definition via compiler flags</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="preprocessor">#elif defined(EXTERNAL_BOARD_H)</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span><span class="preprocessor">  #include EXTERNAL_BOARD_H</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">#else</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span><span class="preprocessor">  #error Incorrect board selected. Please select the correct board (Usually Mega 2560) and upload again</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="preprocessor">#if defined(RTC_ENABLED)</span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keywordtype">void</span> boardInitRTC(<span class="keywordtype">void</span>);</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="comment">// It is important that we cast this to the actual overflow limit of the timer. </span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span><span class="comment">// The compare variables type can be wider than the timer overflow.</span></div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">   84</a></span><span class="preprocessor">#define SET_COMPARE(compare, value) (compare) = (COMPARE_TYPE)(value)</span></div>
 <div class="ttc" id="aboard__avr2560_8h_html"><div class="ttname"><a href="board__avr2560_8h.html">board_avr2560.h</a></div></div>
 <div class="ttc" id="aboard__definition_8h_html_a16d9661976d1370ded46920bf7cf53e7"><div class="ttname"><a href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a></div><div class="ttdeci">uint8_t getSystemTemp(void)</div><div class="ttdoc">Get the board temp for display in TunerStudio (optional)</div></div>
+<div class="ttc" id="aboard__definition_8h_html_a612acdf054430582ede36c0d5f8dd346"><div class="ttname"><a href="board__definition_8h.html#a612acdf054430582ede36c0d5f8dd346">getEepromWriteBlockSize</a></div><div class="ttdeci">uint16_t getEepromWriteBlockSize(const statuses &amp;current)</div><div class="ttdoc">The maximum number of write operations that will be performed in one go.</div></div>
 <div class="ttc" id="aboard__definition_8h_html_abed43bf7d094e1077de22cb6657afa15"><div class="ttname"><a href="board__definition_8h.html#abed43bf7d094e1077de22cb6657afa15">boardInitPins</a></div><div class="ttdeci">void boardInitPins(void)</div><div class="ttdoc">Pin specific initialisation (optional - can be empty)</div></div>
 <div class="ttc" id="aboard__definition_8h_html_ac6c1fef771128f7f248f5bebc7f25375"><div class="ttname"><a href="board__definition_8h.html#ac6c1fef771128f7f248f5bebc7f25375">jumpToBootloader</a></div><div class="ttdeci">void jumpToBootloader(void)</div><div class="ttdoc">Trigger the boot loader (optional)</div></div>
 <div class="ttc" id="aboard__definition_8h_html_ac76e62de073b850dd1233048d831e7a8"><div class="ttname"><a href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a></div><div class="ttdeci">void initBoard(uint32_t baudRate)</div><div class="ttdoc">Initialise the board, including USB comms.</div></div>
@@ -136,6 +141,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="ttc" id="aboard__stm32__official_8h_html"><div class="ttname"><a href="board__stm32__official_8h.html">board_stm32_official.h</a></div></div>
 <div class="ttc" id="aboard__teensy35_8h_html"><div class="ttname"><a href="board__teensy35_8h.html">board_teensy35.h</a></div></div>
 <div class="ttc" id="aboard__teensy41_8h_html"><div class="ttname"><a href="board__teensy41_8h.html">board_teensy41.h</a></div></div>
+<div class="ttc" id="astructstatuses_html"><div class="ttname"><a href="structstatuses.html">statuses</a></div><div class="ttdoc">The status struct with current values for all 'live' variables.</div><div class="ttdef"><b>Definition</b> statuses.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
