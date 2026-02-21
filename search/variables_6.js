@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8h.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
+  ['fan_5fpin_5fmask_0',['fan_pin_mask',['../auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a7a9192281ac01fa12e82829b6fce4406',1,'fan_pin_mask:&#160;auxiliaries.cpp']]],
   ['fan_5fpin_5fport_1',['fan_pin_port',['../auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff',1,'fan_pin_port:&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#afd7fc3d9d6c0cd2c485a23f9d48348ff',1,'fan_pin_port:&#160;auxiliaries.cpp']]],
   ['fanduty_2',['fanDuty',['../structstatuses.html#aa2d511c0ac5258ca660edaef8bfd1f20',1,'statuses']]],
   ['fanenable_3',['fanEnable',['../structconfig2.html#a0ff71093243f3cb6341165d20c4592fd',1,'config2']]],
@@ -69,7 +69,7 @@ var searchData=
   ['fuel2switchvalue_66',['fuel2SwitchValue',['../structconfig10.html#a3c68de65d17b17a2163f56ba9b9aaadd',1,'config10']]],
   ['fuel2switchvariable_67',['fuel2SwitchVariable',['../structconfig10.html#a93c281f6ab21f4e4886622aa148bd497',1,'config10']]],
   ['fuelalgorithm_68',['fuelAlgorithm',['../structconfig2.html#acfa8ed2700577576b4bd5e996afe9e24',1,'config2']]],
-  ['fuelchannelson_69',['fuelChannelsOn',['../speeduino_8ino.html#ab27b2ab4822ebf3cb8eedd8129beb049',1,'speeduino.ino']]],
+  ['fuelchannels_69',['fuelChannels',['../structstatuses_1_1scheduler__cut__t.html#abedda83faff87fbc899ff3a563f48a69',1,'statuses::scheduler_cut_t']]],
   ['fuelload_70',['fuelLoad',['../structstatuses.html#a7a1c820432fd488dc2d5c635c08f9696',1,'statuses']]],
   ['fuelpressure_71',['fuelPressure',['../structstatuses.html#a80e3b73f448eed0378b0468126090c37',1,'statuses']]],
   ['fuelpressureenable_72',['fuelPressureEnable',['../structconfig10.html#a4b3e649108cbd13aa81ba46449cd8295',1,'config10']]],

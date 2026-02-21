@@ -27,7 +27,7 @@ var searchData=
   ['oilpressureprotmins_24',['oilPressureProtMins',['../structconfig10.html#addb48a96074bbda557fdeae4c79a4e9f',1,'config10']]],
   ['oilpressureprotrpm_25',['oilPressureProtRPM',['../structconfig10.html#a2092b8cd212681376da95dfa8c15cbcd',1,'config10']]],
   ['oilpressureprottime_26',['oilPressureProtTime',['../structconfig10.html#a6221e7a4fb78cb146cdc26a617ef474b',1,'config10']]],
-  ['oilprotstarttime_27',['oilProtStartTime',['../engine_protection_8cpp.html#a4be3d5c05cb2ec2c369eb11dec0f0ccc',1,'engineProtection.cpp']]],
+  ['oilprotendtime_27',['oilProtEndTime',['../engine_protection_8cpp.html#a723502002b1519ecb217fded8bd022ac',1,'engineProtection.cpp']]],
   ['on_20cam_28',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
   ['onboard_5flog_5fcsv_5fseparator_29',['onboard_log_csv_separator',['../structconfig13.html#aa2485b8683ea6c348abb3b17ad1b36ab',1,'config13']]],
   ['onboard_5flog_5ffile_5frate_30',['onboard_log_file_rate',['../structconfig13.html#a4cc6d10023655bed4d78e0eca43755f2',1,'config13']]],

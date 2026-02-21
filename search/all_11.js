@@ -9,7 +9,7 @@ var searchData=
   ['get_5ftable_5fvalue_6',['get_table_value',['../pages_8cpp.html#aeb9bbdc929278c7bbee4959ed02a5cf5',1,'pages.cpp']]],
   ['get_5ftable_5fvalue_5fend_7',['get_table_value_end',['../pages_8cpp.html#af14d55e417c5d0065bea4d9c51e22745',1,'pages.cpp']]],
   ['getadvance1_8',['getAdvance1',['../speeduino_8ino.html#aef65c08bf25cdfc49f575080fe6da357',1,'speeduino.ino']]],
-  ['getafro2limit_9',['getAfrO2Limit',['../engine_protection_8cpp.html#a2c66efbf6045f21d7df820c72fa3b00c',1,'engineProtection.cpp']]],
+  ['getafro2limit_9',['getAfrO2Limit',['../engine_protection_8cpp.html#a03e43c54f11715d362c0dc94710ff040',1,'engineProtection.cpp']]],
   ['getanalogknock_10',['getanalogknock',['../sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp'],['../sensors_8h.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp']]],
   ['getcamangle_5fmiata9905_11',['getcamangle_miata9905',['../group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb',1,'getCamAngle_Miata9905(void):&#160;decoders.cpp'],['../group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb',1,'getCamAngle_Miata9905(void):&#160;decoders.cpp']]],
   ['getcrankangle_12',['getcrankangle',['../decoders_8cpp.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle:&#160;decoders.cpp'],['../decoders_8h.html#abcc0aa3b08a54f9972830e1dbca11d61',1,'getCrankAngle:&#160;decoders.cpp']]],
