@@ -8,5 +8,6 @@ var searchData=
   ['config4_5',['config4',['../structconfig4.html',1,'']]],
   ['config6_6',['config6',['../structconfig6.html',1,'']]],
   ['config9_7',['config9',['../structconfig9.html',1,'']]],
-  ['conversionfactor_8',['conversionFactor',['../structconversion_factor.html',1,'']]]
+  ['config_5fpage_5ft_8',['config_page_t',['../structconfig__page__t.html',1,'']]],
+  ['conversionfactor_9',['conversionFactor',['../structconversion_factor.html',1,'']]]
 ];

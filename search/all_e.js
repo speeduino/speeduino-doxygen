@@ -83,7 +83,7 @@ var searchData=
   ['div_5fround_5fnearest_80',['DIV_ROUND_NEAREST',['../group__group-rounded-div-behavior.html#ga12c14865a74fe89c749e666e453c336c',1,'maths.h']]],
   ['div_5fround_5fup_81',['DIV_ROUND_UP',['../group__group-rounded-div-behavior.html#gab70ffcffa591efaf0981a349740f389c',1,'maths.h']]],
   ['divider_82',['divider',['../structconfig2.html#a0569b32a3b4ba658c4a625c589711339',1,'config2']]],
-  ['dividetableload_83',['dividetableload',['../updates_8cpp.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#aea94b328adc80aa9fb922784a3e44797',1,'divideTableLoad(void *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
+  ['dividetableload_83',['dividetableload',['../updates_8cpp.html#add7d9b0963ad04bf741d3a96db35527c',1,'divideTableLoad(table3d_t *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#add7d9b0963ad04bf741d3a96db35527c',1,'divideTableLoad(table3d_t *pTable, table_type_t key, uint8_t divisor):&#160;updates.cpp']]],
   ['dividetablevalue_84',['dividetablevalue',['../updates_8cpp.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp']]],
   ['division_85',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
   ['dostep_86',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
