@@ -15,7 +15,7 @@ var searchData=
   ['batvoltcorrect_12',['batVoltCorrect',['../structconfig4.html#abe34979ab0005b0dc0495f309a0338fc',1,'config4']]],
   ['bitwise_13',['bitwise',['../structcmp_operation.html#af5e6b00b1107a09c804812af74a75e63',1,'cmpOperation']]],
   ['blankfield_14',['blankField',['../structconfig9.html#a7d8491ff93c29f999c6739ad40baed2c',1,'config9']]],
-  ['blocking_5ffactor_15',['blocking_factor',['../board__stm32__official_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_avr2560.h'],['../board__teensy41_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy41.h'],['../board__teensy35_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy35.h']]],
+  ['blocking_5ffactor_15',['blocking_factor',['../board__teensy35_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy35.h'],['../board__stm32__official_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_avr2560.h'],['../board__teensy41_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy41.h']]],
   ['boost_5fmode_5ffull_16',['BOOST_MODE_FULL',['../config__pages_8h.html#adf95b26b8e61b85cf8ebf2a4240c9831',1,'config_pages.h']]],
   ['boost_5fmode_5fsimple_17',['BOOST_MODE_SIMPLE',['../config__pages_8h.html#ab3a1711bf7001379072945834d2c556e',1,'config_pages.h']]],
   ['boost_5fpin_5fmask_18',['boost_pin_mask',['../auxiliaries_8cpp.html#a885685f8a01c572eafdc23841d467751',1,'auxiliaries.cpp']]],
@@ -53,6 +53,8 @@ var searchData=
   ['boosttablelookupduty_50',['boosttablelookupduty',['../globals_8cpp.html#ae0e05cc0c558c00ccc059ad3af5a9ed9',1,'boostTableLookupDuty:&#160;globals.cpp'],['../globals_8h.html#ae0e05cc0c558c00ccc059ad3af5a9ed9',1,'boostTableLookupDuty:&#160;globals.cpp']]],
   ['boosttarget_51',['boostTarget',['../structstatuses.html#a6905ad52e3e59bfa80680a1c288791d7',1,'statuses']]],
   ['boosttype_52',['boostType',['../structconfig4.html#aadb6009dcdce33b505aeccccd8ec0016',1,'config4']]],
-  ['bootloadercaps_53',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4']]],
-  ['burnpending_54',['burnPending',['../structstatuses.html#a39982ad8d048f2e11c8d937227d808c1',1,'statuses']]]
+  ['boostvvtpage_53',['boostvvtPage',['../pages_8h.html#a1ce235bc96453b15aa7af95b38349f0a',1,'pages.h']]],
+  ['boostvvtpage2_54',['boostvvtPage2',['../pages_8h.html#aa143abd7defa4429c196962cd0330850',1,'pages.h']]],
+  ['bootloadercaps_55',['bootloaderCaps',['../structconfig4.html#a169f1dfd6049b6e0de5270f4716ae999',1,'config4']]],
+  ['burnpending_56',['burnPending',['../structstatuses.html#a39982ad8d048f2e11c8d937227d808c1',1,'statuses']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['table_0',['Table',['../pages_8h.html#a6d8f83e710b27d4f86c45f0bb77066e3abdc82221e2bc2a210036a9bf0bb088b3',1,'pages.h']]],
+  ['table_0',['Table',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42a51c45b795d5d18a3e4e0c37e8b20a141',1,'pages.h']]],
   ['table2d_1',['table2d',['../structtable2_d.html#a2815985210859ede603bc554a373f872',1,'table2D::table2D()'],['../structtable2_d.html',1,'table2D&lt; axis_t, value_t, sizeT &gt;']]],
   ['table2d_2ecpp_2',['table2d.cpp',['../table2d_8cpp.html',1,'']]],
   ['table2d_2eh_3',['table2d.h',['../table2d_8h.html',1,'']]],
@@ -367,7 +367,7 @@ var searchData=
   ['ts_5fcommandbuttonshandler_364',['ts_commandbuttonshandler',['../_t_s___command_button_handler_8h.html#a1d5b41f39bf9439c1cb139a2bb27f225',1,'TS_CommandButtonsHandler(uint16_t buttonCommand):&#160;TS_CommandButtonHandler.cpp'],['../_t_s___command_button_handler_8cpp.html#a1d5b41f39bf9439c1cb139a2bb27f225',1,'TS_CommandButtonsHandler(uint16_t buttonCommand):&#160;TS_CommandButtonHandler.cpp']]],
   ['ts_5fserial_5fbuffer_5fsize_365',['ts_serial_buffer_size',['../board__teensy41_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy41.h'],['../board__teensy35_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy35.h'],['../board__stm32__official_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_avr2560.h']]],
   ['two_5fstroke_366',['TWO_STROKE',['../config__pages_8h.html#a6ca18a50243d39ef57238cf9d75c17e8',1,'config_pages.h']]],
-  ['type_367',['type',['../structtype__traits_1_1remove__reference_3_01_t_01_6_6_01_4.html#a36eaf2fda86a475a5e5275efaf43ac1d',1,'type_traits::remove_reference&lt; T &amp;&amp; &gt;::type'],['../structtype__traits_1_1remove__reference.html#a1e0f745a5a5fd798ca05966044ee57c2',1,'type_traits::remove_reference::type'],['../structtype__traits_1_1remove__reference_3_01_t_01_6_01_4.html#ac3c4b201f09768b607fad740203e254c',1,'type_traits::remove_reference&lt; T &amp; &gt;::type'],['../structpage__iterator__t.html#a6110447b9adc3afb4cc93a79a33e97a5',1,'page_iterator_t::type']]],
+  ['type_367',['type',['../structtype__traits_1_1remove__reference_3_01_t_01_6_6_01_4.html#a36eaf2fda86a475a5e5275efaf43ac1d',1,'type_traits::remove_reference&lt; T &amp;&amp; &gt;::type'],['../structtype__traits_1_1remove__reference.html#a1e0f745a5a5fd798ca05966044ee57c2',1,'type_traits::remove_reference::type'],['../structtype__traits_1_1remove__reference_3_01_t_01_6_01_4.html#ac3c4b201f09768b607fad740203e254c',1,'type_traits::remove_reference&lt; T &amp; &gt;::type'],['../structpage__iterator__t.html#a13d16ca9f514413a15f3c28894178334',1,'page_iterator_t::type']]],
   ['type_5fdetection_5fdetail_368',['type_detection_detail',['../namespacetype__detection__detail.html',1,'']]],
   ['type_5ftraits_369',['type_traits',['../namespacetype__traits.html',1,'']]],
   ['type_5ftraits_2eh_370',['type_traits.h',['../type__traits_8h.html',1,'']]]

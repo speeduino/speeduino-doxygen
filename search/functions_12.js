@@ -37,7 +37,7 @@ var searchData=
   ['setmapvaluesfromreadings_34',['setMAPValuesFromReadings',['../sensors_8cpp.html#aad0ecd2e7e0e03a7c8d249820003973f',1,'sensors.cpp']]],
   ['setnextafrcycle_35',['setNextAfrCycle',['../corrections_8cpp.html#acfd42abc690d32f5b90b1dfeb3ab7019',1,'corrections.cpp']]],
   ['setnoentity_36',['setNoEntity',['../structpage__iterator__t.html#a93ca2bc859e2f1e6361cc67e0abf2e62',1,'page_iterator_t']]],
-  ['setpagevalue_37',['setpagevalue',['../pages_8cpp.html#a80f8662755b31b48d67d31b14cf32e60',1,'setPageValue(byte pageNum, uint16_t offset, byte value):&#160;pages.cpp'],['../pages_8h.html#a80f8662755b31b48d67d31b14cf32e60',1,'setPageValue(byte pageNum, uint16_t offset, byte value):&#160;pages.cpp']]],
+  ['setpagevalue_37',['setpagevalue',['../pages_8cpp.html#a3476354cc0a01ebfe0ec29892c5afc68',1,'setPageValue(uint8_t pageNum, uint16_t offset, byte value):&#160;pages.cpp'],['../pages_8h.html#a3476354cc0a01ebfe0ec29892c5afc68',1,'setPageValue(uint8_t pageNum, uint16_t offset, byte value):&#160;pages.cpp']]],
   ['setpinmapping_38',['setpinmapping',['../init_8cpp.html#a86db22b96dc0b6738580853545476dd7',1,'setPinMapping(byte boardID):&#160;init.cpp'],['../init_8h.html#a86db22b96dc0b6738580853545476dd7',1,'setPinMapping(byte boardID):&#160;init.cpp']]],
   ['setraw_39',['setRaw',['../structpage__iterator__t.html#a36844f3248a9307f09b59a691d2a4b1d',1,'page_iterator_t']]],
   ['setresetcontrolpinstate_40',['setresetcontrolpinstate',['../utilities_8cpp.html#a8505b5089ad22d4a4e7587e24ec6cafb',1,'setResetControlPinState(void):&#160;utilities.cpp'],['../utilities_8h.html#a8505b5089ad22d4a4e7587e24ec6cafb',1,'setResetControlPinState(void):&#160;utilities.cpp']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['page_5fbegin_0',['page_begin',['../pages_8cpp.html#a06fec3cc7c60b26061ff7bf8a55606ca',1,'page_begin(byte pageNum):&#160;pages.cpp'],['../pages_8h.html#a06fec3cc7c60b26061ff7bf8a55606ca',1,'page_begin(byte pageNum):&#160;pages.cpp']]],
-  ['page_5fiterator_5ft_1',['page_iterator_t',['../structpage__iterator__t.html#afd4589454606f7116ce33221d866c786',1,'page_iterator_t']]],
+  ['page_5fbegin_0',['page_begin',['../pages_8cpp.html#a3057030ed67c5cd67e89ef2f75b2c448',1,'page_begin(uint8_t pageNum):&#160;pages.cpp'],['../pages_8h.html#a3057030ed67c5cd67e89ef2f75b2c448',1,'page_begin(uint8_t pageNum):&#160;pages.cpp']]],
+  ['page_5fiterator_5ft_1',['page_iterator_t',['../structpage__iterator__t.html#a18cd335857b148dee50e1842141361c2',1,'page_iterator_t']]],
   ['pageoffsettoentityoffset_2',['pageOffsetToEntityOffset',['../pages_8cpp.html#a21557a54eeac083b2c301e8b95595186',1,'pages.cpp']]],
   ['percentage_3',['percentage',['../maths_8h.html#a721697aa299475556eb611a74a7246f3',1,'maths.h']]],
   ['percentageapprox_4',['percentageapprox',['../maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1',1,'percentageApprox(uint16_t percent, uint32_t value):&#160;maths.h'],['../maths_8h.html#aef65c3c010bb901fcd87a24dfdd67e35',1,'percentageApprox(uint8_t percent, uint32_t value):&#160;maths.h']]],

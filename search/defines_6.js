@@ -26,6 +26,5 @@ var searchData=
   ['fuel8_5fcompare_23',['fuel8_compare',['../board__avr2560_8h.html#a3f9c2c8dd5fa6ce4001721b6623357e4',1,'FUEL8_COMPARE:&#160;board_avr2560.h'],['../board__teensy41_8h.html#a3f9c2c8dd5fa6ce4001721b6623357e4',1,'FUEL8_COMPARE:&#160;board_teensy41.h'],['../board__teensy35_8h.html#a3f9c2c8dd5fa6ce4001721b6623357e4',1,'FUEL8_COMPARE:&#160;board_teensy35.h'],['../board__stm32__official_8h.html#a3f9c2c8dd5fa6ce4001721b6623357e4',1,'FUEL8_COMPARE:&#160;board_stm32_official.h']]],
   ['fuel8_5fcounter_24',['fuel8_counter',['../board__avr2560_8h.html#a2ab5754274b9b485a3b5d5be3aa03a2e',1,'FUEL8_COUNTER:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a2ab5754274b9b485a3b5d5be3aa03a2e',1,'FUEL8_COUNTER:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a2ab5754274b9b485a3b5d5be3aa03a2e',1,'FUEL8_COUNTER:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a2ab5754274b9b485a3b5d5be3aa03a2e',1,'FUEL8_COUNTER:&#160;board_teensy41.h']]],
   ['fuel_5fpump_5foff_25',['FUEL_PUMP_OFF',['../auxiliaries_8h.html#a0aa02de5f4812b05badb756031ef9423',1,'auxiliaries.h']]],
-  ['fuel_5fpump_5fon_26',['FUEL_PUMP_ON',['../auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'auxiliaries.h']]],
-  ['fuelmap2page_27',['fuelMap2Page',['../pages_8h.html#a9c95c5c26c63bcde2bd910e328a42734',1,'pages.h']]]
+  ['fuel_5fpump_5fon_26',['FUEL_PUMP_ON',['../auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f',1,'auxiliaries.h']]]
 ];
