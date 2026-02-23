@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['partial_0',['Partial',['../decoders_8h.html#a0f8625c80686484ef32a81c6bc1420d9a44ffd38a6dea695cbe2b34efdcc6cf27',1,'decoders.h']]],
-  ['pending_1',['PENDING',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73',1,'scheduler.h']]]
+  ['o2sensor_0',['O2Sensor',['../group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a723ff4e07f5b1fb79915b1b8961f4743',1,'storage.h']]],
+  ['off_1',['OFF',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75',1,'scheduler.h']]]
 ];

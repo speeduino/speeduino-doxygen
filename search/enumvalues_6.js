@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['noentity_0',['NoEntity',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42a4c76324e7b4579f8cb8d404bd1730183',1,'pages.h']]],
-  ['none_1',['None',['../decoders_8h.html#a0f8625c80686484ef32a81c6bc1420d9a6adf97f83acf6453d4a6a4b1070f3754',1,'decoders.h']]]
+  ['mapsamplingcycleaverage_0',['MAPSamplingCycleAverage',['../config__pages_8h.html#a5fe60826056acd022194374c3bcc2b84acd9ad66460b3c9fc5ac7134b0339b643',1,'config_pages.h']]],
+  ['mapsamplingcycleminimum_1',['MAPSamplingCycleMinimum',['../config__pages_8h.html#a5fe60826056acd022194374c3bcc2b84a82aee8ad0303f1a4200fa7a7c9914c76',1,'config_pages.h']]],
+  ['mapsamplingignitioneventaverage_2',['MAPSamplingIgnitionEventAverage',['../config__pages_8h.html#a5fe60826056acd022194374c3bcc2b84ae084241c6c661556edde4ee9793ab838',1,'config_pages.h']]],
+  ['mapsamplinginstantaneous_3',['MAPSamplingInstantaneous',['../config__pages_8h.html#a5fe60826056acd022194374c3bcc2b84acd887f6ce9e900ec2a2509a69b49b4b6',1,'config_pages.h']]]
 ];

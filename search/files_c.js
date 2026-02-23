@@ -20,5 +20,7 @@ var searchData=
   ['static_5ffor_2ehpp_17',['static_for.hpp',['../static__for_8hpp.html',1,'']]],
   ['statuses_2eh_18',['statuses.h',['../statuses_8h.html',1,'']]],
   ['storage_2ecpp_19',['storage.cpp',['../storage_8cpp.html',1,'']]],
-  ['storage_2eh_20',['storage.h',['../storage_8h.html',1,'']]]
+  ['storage_2eh_20',['storage.h',['../storage_8h.html',1,'']]],
+  ['storage_5fapi_2ecpp_21',['storage_api.cpp',['../storage__api_8cpp.html',1,'']]],
+  ['storage_5fapi_2eh_22',['storage_api.h',['../storage__api_8h.html',1,'']]]
 ];

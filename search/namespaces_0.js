@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['type_5fdetection_5fdetail_0',['type_detection_detail',['../namespacetype__detection__detail.html',1,'']]],
-  ['type_5ftraits_1',['type_traits',['../namespacetype__traits.html',1,'']]]
+  ['eepromapi_0',['EEPROMApi',['../namespace_e_e_p_r_o_m_api.html',1,'']]]
 ];

@@ -88,7 +88,6 @@ $(function() {
 <code>#include &quot;STM32RTC.h&quot;</code><br />
 <code>#include &lt;SPI.h&gt;</code><br />
 <code>#include &quot;stm32f4xx_ll_tim.h&quot;</code><br />
-<code>#include &lt;EEPROM_LIB_H&gt;</code><br />
 </div>
 <p><a href="board__stm32__official_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -229,8 +228,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7a61772455acf72b30881bb0c1807d8b" id="r_a7a61772455acf72b30881bb0c1807d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#a7a61772455acf72b30881bb0c1807d8b">eeprom_address_t</a></td></tr>
-<tr class="separator:a7a61772455acf72b30881bb0c1807d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa09d8c7fc35f9f206647887a852db76c" id="r_aa09d8c7fc35f9f206647887a852db76c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#aa09d8c7fc35f9f206647887a852db76c">EEPROM_t</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">InternalSTM32F4_EEPROM_Class</a></td></tr>
+<tr class="separator:aa09d8c7fc35f9f206647887a852db76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -313,8 +312,6 @@ Variables</h2></td></tr>
 <tr class="separator:af3c3747029b44e4fca645e44613cc79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aadd01aee2f1b6c7d047b05d6142d5122" id="r_aadd01aee2f1b6c7d047b05d6142d5122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">STM32RTC</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#aadd01aee2f1b6c7d047b05d6142d5122">rtc</a></td></tr>
 <tr class="separator:aadd01aee2f1b6c7d047b05d6142d5122"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a298a7770a355efd5cfbe02194ddb8f0e" id="r_a298a7770a355efd5cfbe02194ddb8f0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">InternalSTM32F4_EEPROM_Class</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#a298a7770a355efd5cfbe02194ddb8f0e">EEPROM</a></td></tr>
-<tr class="separator:a298a7770a355efd5cfbe02194ddb8f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a56a8d0f1b866dce1515a41eda9f09275" name="a56a8d0f1b866dce1515a41eda9f09275"></a>
@@ -1285,14 +1282,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a7a61772455acf72b30881bb0c1807d8b" name="a7a61772455acf72b30881bb0c1807d8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a61772455acf72b30881bb0c1807d8b">&#9670;&#160;</a></span>eeprom_address_t</h2>
+<a id="aa09d8c7fc35f9f206647887a852db76c" name="aa09d8c7fc35f9f206647887a852db76c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa09d8c7fc35f9f206647887a852db76c">&#9670;&#160;</a></span>EEPROM_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typedef</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="board__avr2560_8h.html#a24c966784d69a8c589ec11c0b21363d5">eeprom_address_t</a></td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a> <a class="el" href="board__avr2560_8h.html#a0f2389e1ba97901a89898116af37a9fe">EEPROM_t</a> =  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">InternalSTM32F4_EEPROM_Class</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2273,28 +2270,6 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a298a7770a355efd5cfbe02194ddb8f0e" name="a298a7770a355efd5cfbe02194ddb8f0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a298a7770a355efd5cfbe02194ddb8f0e">&#9670;&#160;</a></span>EEPROM</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">InternalSTM32F4_EEPROM_Class</a> EEPROM</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

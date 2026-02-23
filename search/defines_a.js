@@ -11,8 +11,9 @@ var searchData=
   ['micros_5fper_5fhour_8',['MICROS_PER_HOUR',['../globals_8h.html#ac6a764d91cd8a6f56eef735a0eea34f4',1,'globals.h']]],
   ['micros_5fper_5fmin_9',['MICROS_PER_MIN',['../globals_8h.html#a03555a3d9c0464f2f0f5290f619ad08e',1,'globals.h']]],
   ['micros_5fper_5fsec_10',['MICROS_PER_SEC',['../globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b',1,'globals.h']]],
-  ['min_5fcycles_5ffor_5fendcompare_11',['MIN_CYCLES_FOR_ENDCOMPARE',['../schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3',1,'schedule_calcs.hpp']]],
-  ['min_5frpm_12',['MIN_RPM',['../crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce',1,'crankMaths.h']]],
-  ['mjr_13',['MJR',['../decoders_8cpp.html#a1043ba9870ef69f67068a9de2a47d60b',1,'decoders.cpp']]],
-  ['ms_5fper_5fsec_14',['MS_PER_SEC',['../timers_8h.html#a98c842b52ffe344288b6e38b12417baa',1,'timers.h']]]
+  ['milli_5fper_5fsec_11',['MILLI_PER_SEC',['../globals_8h.html#ae49dfee85186da4b42c1e96894cc772a',1,'globals.h']]],
+  ['min_5fcycles_5ffor_5fendcompare_12',['MIN_CYCLES_FOR_ENDCOMPARE',['../schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3',1,'schedule_calcs.hpp']]],
+  ['min_5frpm_13',['MIN_RPM',['../crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce',1,'crankMaths.h']]],
+  ['mjr_14',['MJR',['../decoders_8cpp.html#a1043ba9870ef69f67068a9de2a47d60b',1,'decoders.cpp']]],
+  ['ms_5fper_5fsec_15',['MS_PER_SEC',['../timers_8h.html#a98c842b52ffe344288b6e38b12417baa',1,'timers.h']]]
 ];

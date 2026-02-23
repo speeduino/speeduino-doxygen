@@ -56,7 +56,7 @@ var searchData=
   ['iscranking_53',['IsCranking',['../group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664',1,'decoders.cpp']]],
   ['isctpssensoractive_54',['isCTPSSensorActive',['../sensors_8cpp.html#a1f03a1d8b9bcf20fdbd8f5c032e327d0',1,'sensors.cpp']]],
   ['iscyclecurrent_55',['iscyclecurrent',['../sensors_8cpp.html#a09ff8621aeda8c803c3fc3100de84768',1,'isCycleCurrent(const statuses &amp;current, uint32_t cycleStartIndex):&#160;sensors.cpp'],['../sensors_8cpp.html#ad8a04fc29ef018a42107f573b2932d59',1,'isCycleCurrent(const statuses &amp;current, const map_cycle_average_t &amp;cycle_avg):&#160;sensors.cpp'],['../sensors_8cpp.html#afc1d32c94daef6ae8b5a9a540349aa0a',1,'isCycleCurrent(const statuses &amp;current, const map_cycle_min_t &amp;cycle_min):&#160;sensors.cpp']]],
-  ['iseepromwritepending_56',['iseepromwritepending',['../storage_8cpp.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp'],['../storage_8h.html#ae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp']]],
+  ['iseepromwritepending_56',['iseepromwritepending',['../group__storage-pages.html#gae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp'],['../group__storage-pages.html#gae787436cd4f0396c143ff53ef49f56ee',1,'isEepromWritePending(void):&#160;storage.cpp']]],
   ['isengineprotectactive_57',['isEngineProtectActive',['../statuses_8h.html#a118f8e02006a5b6d52cd78f9f0c2ef53',1,'statuses.h']]],
   ['isexternalvssmode_58',['isExternalVssMode',['../config__pages_8h.html#a5fceeeddc432fe1772f676d6ae9f2bf3',1,'config_pages.h']]],
   ['isfixedtimingon_59',['isFixedTimingOn',['../secondary_tables_8cpp.html#a6ce11b2aba71a5234998bae974e0752f',1,'secondaryTables.cpp']]],

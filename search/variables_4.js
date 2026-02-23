@@ -3,7 +3,7 @@ var searchData=
   ['decelamount_0',['decelAmount',['../structconfig2.html#afd9e52fb151e8c1caa9a2dbfaf91ae98',1,'config2']]],
   ['decoderfeatures_1',['decoderFeatures',['../group__dec__uni.html#ga769242d6bb3dd77c4c32ca1d95488ec7',1,'decoders.cpp']]],
   ['decoderstatus_2',['decoderStatus',['../decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5',1,'decoders.cpp']]],
-  ['defereepromwritesuntil_3',['defereepromwritesuntil',['../storage_8cpp.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil:&#160;storage.cpp'],['../storage_8h.html#ab959174cd83824eb43f452824a5fdca2',1,'deferEEPROMWritesUntil:&#160;storage.cpp']]],
+  ['defereepromwritesuntil_3',['deferEEPROMWritesUntil',['../group__group-serial-comms-impl.html#gab959174cd83824eb43f452824a5fdca2',1,'comms.cpp']]],
   ['degreespermicro_4',['degreesPerMicro',['../crank_maths_8cpp.html#aadcdf40840896ab1afafdb22303b8672',1,'crankMaths.cpp']]],
   ['degreespermicro_5fshift_5',['degreesPerMicro_Shift',['../crank_maths_8cpp.html#aee0304e945ca33ebf195131901140442',1,'crankMaths.cpp']]],
   ['dfcodelay_6',['dfcoDelay',['../structconfig2.html#afa36043c60695a80149c25cf75665e9f',1,'config2']]],
