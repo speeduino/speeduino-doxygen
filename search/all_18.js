@@ -48,7 +48,7 @@ var searchData=
   ['nitrous_5fstage2_45',['NITROUS_STAGE2',['../config__pages_8h.html#a8a6a4950394decb01dcb209ac36b0e9e',1,'config_pages.h']]],
   ['nitrous_5fstatus_46',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['nitrousactive_47',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
-  ['nitrouscontrol_48',['nitrouscontrol',['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
+  ['nitrouscontrol_48',['nitrouscontrol',['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
   ['no_5ffuel_5fcorrection_49',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
   ['noentity_50',['NoEntity',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42a4c76324e7b4579f8cb8d404bd1730183',1,'pages.h']]],
   ['non_20360_20dual_20wheel_51',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
@@ -59,5 +59,12 @@ var searchData=
   ['nullcallback_56',['nullcallback',['../scheduled_i_o_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp'],['../scheduled_i_o_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduledIO.cpp']]],
   ['nullgetcrankangle_57',['nullGetCrankAngle',['../decoders_8cpp.html#aee6d014372f953ea30954cfbc3b42acb',1,'decoders.cpp']]],
   ['nullgetrpm_58',['nullGetRPM',['../decoders_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoders.cpp']]],
-  ['nulltriggerhandler_59',['nullTriggerHandler',['../decoders_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoders.cpp']]]
+  ['nulltriggerhandler_59',['nullTriggerHandler',['../decoders_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoders.cpp']]],
+  ['numeric_5flimits_60',['numeric_limits',['../structnumeric__limits.html',1,'']]],
+  ['numeric_5flimits_3c_20int16_5ft_20_3e_61',['numeric_limits&lt; int16_t &gt;',['../structnumeric__limits_3_01int16__t_01_4.html',1,'']]],
+  ['numeric_5flimits_3c_20int32_5ft_20_3e_62',['numeric_limits&lt; int32_t &gt;',['../structnumeric__limits_3_01int32__t_01_4.html',1,'']]],
+  ['numeric_5flimits_3c_20int8_5ft_20_3e_63',['numeric_limits&lt; int8_t &gt;',['../structnumeric__limits_3_01int8__t_01_4.html',1,'']]],
+  ['numeric_5flimits_3c_20uint16_5ft_20_3e_64',['numeric_limits&lt; uint16_t &gt;',['../structnumeric__limits_3_01uint16__t_01_4.html',1,'']]],
+  ['numeric_5flimits_3c_20uint32_5ft_20_3e_65',['numeric_limits&lt; uint32_t &gt;',['../structnumeric__limits_3_01uint32__t_01_4.html',1,'']]],
+  ['numeric_5flimits_3c_20uint8_5ft_20_3e_66',['numeric_limits&lt; uint8_t &gt;',['../structnumeric__limits_3_01uint8__t_01_4.html',1,'']]]
 ];

@@ -283,8 +283,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxy__values.html">xy_values</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair of x and y values used for lookups in 3D tables.  <a href="structxy__values.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxy__pair__t.html">xy_pair_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pair of x and y values used for lookups in 3D tables.  <a href="structxy__pair__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structxy__coord2d.html">xy_coord2d</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D coordinate structure for table lookups  <a href="structxy__coord2d.html#details">More...</a><br /></td></tr>
@@ -295,23 +295,20 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3223fca1bcc3666499752fe5cfe94241" id="r_a3223fca1bcc3666499752fe5cfe94241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#a3223fca1bcc3666499752fe5cfe94241">operator==</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">lhs</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rhs</a>)</td></tr>
-<tr class="memdesc:a3223fca1bcc3666499752fe5cfe94241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator for <a class="el" href="structxy__values.html" title="A pair of x and y values used for lookups in 3D tables.">xy_values</a>.  <br /></td></tr>
-<tr class="separator:a3223fca1bcc3666499752fe5cfe94241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeff6c17210b06e779b7ed2c461ec114a" id="r_aeff6c17210b06e779b7ed2c461ec114a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#aeff6c17210b06e779b7ed2c461ec114a">invalidate_cache</a> (<a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pCache</a>)</td></tr>
 <tr class="memdesc:aeff6c17210b06e779b7ed2c461ec114a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the cache by resetting the last lookup values.  <br /></td></tr>
 <tr class="separator:aeff6c17210b06e779b7ed2c461ec114a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0ab53e972fc12c83b1a204a6da2e96f" id="r_ac0ab53e972fc12c83b1a204a6da2e96f"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> xFactor, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> yFactor&gt; </td></tr>
-<tr class="memitem:ac0ab53e972fc12c83b1a204a6da2e96f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f">get3DTableValue</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">struct</a> <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pValueCache</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">axisSize</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pValues</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pXAxis</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pYAxis</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">lookupValues</a>)</td></tr>
-<tr class="memdesc:ac0ab53e972fc12c83b1a204a6da2e96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a value from a 3D table using the specified lookup values.  <br /></td></tr>
-<tr class="separator:ac0ab53e972fc12c83b1a204a6da2e96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe61755e720344fa2014ebcf82d94da" id="r_a1fe61755e720344fa2014ebcf82d94da"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> xFactor, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> yFactor&gt; </td></tr>
+<tr class="memitem:a1fe61755e720344fa2014ebcf82d94da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da">get3DTableValue</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">struct</a> <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pValueCache</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">axisSize</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pValues</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pXAxis</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pYAxis</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__pair__t.html">xy_pair_t</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">lookupValues</a>)</td></tr>
+<tr class="memdesc:a1fe61755e720344fa2014ebcf82d94da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a value from a 3D table using the specified lookup values.  <br /></td></tr>
+<tr class="separator:a1fe61755e720344fa2014ebcf82d94da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions for interpolating values from 3D tables. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f" title="Get a value from a 3D table using the specified lookup values.">get3DTableValue</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values.">get3DTableValue</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="ac0ab53e972fc12c83b1a204a6da2e96f" name="ac0ab53e972fc12c83b1a204a6da2e96f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0ab53e972fc12c83b1a204a6da2e96f">&#9670;&#160;</a></span>get3DTableValue()</h2>
+<a id="a1fe61755e720344fa2014ebcf82d94da" name="a1fe61755e720344fa2014ebcf82d94da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fe61755e720344fa2014ebcf82d94da">&#9670;&#160;</a></span>get3DTableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,7 +348,7 @@ template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__pair__t.html">xy_pair_t</a> &amp;&#160;</td>
           <td class="paramname"><em>lookupValues</em>&#160;</td>
         </tr>
         <tr>
@@ -410,14 +407,14 @@ Instead, we:<ol type="1">
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_cgraph.png" border="0" usemap="#atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_cgraph" id="atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_cgraph">
+<div class="center"><img src="table3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_cgraph.png" border="0" usemap="#atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_cgraph" alt=""/></div>
+<map name="atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_cgraph" id="atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_cgraph">
 <area shape="rect" title="Get a value from a 3D table using the specified lookup values." alt="" coords="5,107,126,132"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="557,56,654,82"/>
 <area shape="poly" title=" " alt="" coords="126,105,173,98,375,79,542,69,542,74,376,84,174,103,126,111"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="872,233,1041,259"/>
 <area shape="poly" title=" " alt="" coords="126,117,434,117,607,117,653,120,700,128,788,156,866,191,923,223,921,227,863,196,787,161,698,134,653,125,607,122,434,122,126,122"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae29f8fcfad2e4ce69ec6255d2517c7ad" title="Interpolate a table value from axis bins &amp; values." alt="" coords="174,296,314,322"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="174,296,314,322"/>
 <area shape="poly" title=" " alt="" coords="81,131,222,283,218,286,77,134"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="702,5,824,31"/>
 <area shape="poly" title=" " alt="" coords="647,53,706,34,707,39,649,58"/>
@@ -453,8 +450,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_icgraph.png" border="0" usemap="#atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_icgraph" alt=""/></div>
-<map name="atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_icgraph" id="atable3d__interpolate_8h_ac0ab53e972fc12c83b1a204a6da2e96f_icgraph">
+<div class="center"><img src="table3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_icgraph.png" border="0" usemap="#atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_icgraph" alt=""/></div>
+<map name="atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_icgraph" id="atable3d__interpolate_8h_a1fe61755e720344fa2014ebcf82d94da_icgraph">
 <area shape="rect" title="Get a value from a 3D table using the specified lookup values." alt="" coords="894,304,1014,330"/>
 <area shape="rect" href="speeduino_8ino.html#a1896e745aed8649badb48ccef9c0ed6c" title=" " alt="" coords="278,39,416,64"/>
 <area shape="poly" title=" " alt="" coords="947,289,939,238,922,176,908,145,891,115,870,89,844,67,789,37,728,19,665,10,602,9,540,13,484,21,393,40,392,35,483,15,540,7,601,3,665,5,729,14,791,33,847,62,874,85,895,112,913,143,927,175,944,237,953,288"/>
@@ -554,59 +551,6 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Invalidate the cache by resetting the last lookup values." alt="" coords="221,5,339,31"/>
 <area shape="rect" href="classoffset__to__table.html#a327990d95a07b042a42d5cdf75684660" title=" " alt="" coords="5,5,173,31"/>
 <area shape="poly" title=" " alt="" coords="205,21,173,21,173,16,205,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a3223fca1bcc3666499752fe5cfe94241" name="a3223fca1bcc3666499752fe5cfe94241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3223fca1bcc3666499752fe5cfe94241">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">operator</a>== </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structxy__values.html">xy_values</a> &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Equality operator for <a class="el" href="structxy__values.html" title="A pair of x and y values used for lookups in 3D tables.">xy_values</a>. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="table3d__interpolate_8h_a3223fca1bcc3666499752fe5cfe94241_cgraph.png" border="0" usemap="#atable3d__interpolate_8h_a3223fca1bcc3666499752fe5cfe94241_cgraph" alt=""/></div>
-<map name="atable3d__interpolate_8h_a3223fca1bcc3666499752fe5cfe94241_cgraph" id="atable3d__interpolate_8h_a3223fca1bcc3666499752fe5cfe94241_cgraph">
-<area shape="rect" title="Equality operator for xy_values." alt="" coords="5,5,90,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="138,5,307,31"/>
-<area shape="poly" title=" " alt="" coords="90,16,122,16,122,21,90,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="529,5,623,31"/>
-<area shape="poly" title=" " alt="" coords="307,16,513,16,513,21,307,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="355,31,481,56"/>
-<area shape="poly" title=" " alt="" coords="308,26,340,31,339,36,307,32"/>
-<area shape="poly" title=" " alt="" coords="481,31,513,25,514,31,482,36"/>
 </map>
 </div>
 

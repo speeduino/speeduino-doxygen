@@ -1,7 +1,7 @@
 var searchData=
 [
   ['generatelivevalues_0',['generateLiveValues',['../group__group-serial-comms-impl.html#gaffe28fdfed911a20253152a719567df6',1,'comms.cpp']]],
-  ['get3dtablevalue_1',['get3DTableValue',['../table3d__interpolate_8h.html#ac0ab53e972fc12c83b1a204a6da2e96f',1,'table3d_interpolate.h']]],
+  ['get3dtablevalue_1',['get3DTableValue',['../table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da',1,'table3d_interpolate.h']]],
   ['get_5fraw_5flocation_2',['get_raw_location',['../pages_8cpp.html#a5b3d5aced0aeb86b09fc8f4cd9c03a14',1,'pages.cpp']]],
   ['get_5ftable_5faxisx_5fend_3',['get_table_axisx_end',['../pages_8cpp.html#a66a6fc49ded64ed8376a395db96d162c',1,'pages.cpp']]],
   ['get_5ftable_5faxisy_5fend_4',['get_table_axisy_end',['../pages_8cpp.html#ad3e949ea14de1434f6b2bd563376e6c4',1,'pages.cpp']]],
@@ -41,12 +41,12 @@ var searchData=
   ['geteeprom_38',['getEEPROM',['../board__definition_8h.html#ab18172ca7d251f047c74b7f5103f3b4c',1,'board_definition.h']]],
   ['geteepromstorageapi_39',['geteepromstorageapi',['../storage__api_8cpp.html#a830b3719e6e91af9ba13aac332814792',1,'getEEPROMStorageApi(void):&#160;storage_api.cpp'],['../storage__api_8h.html#a830b3719e6e91af9ba13aac332814792',1,'getEEPROMStorageApi(void):&#160;storage_api.cpp']]],
   ['geteepromwriteblocksize_40',['getEepromWriteBlockSize',['../board__definition_8h.html#a612acdf054430582ede36c0d5f8dd346',1,'board_definition.h']]],
-  ['getentityvalue_41',['getentityvalue',['../pages_8cpp.html#a9fcdb8b722497d5735e6e3991c1a936d',1,'getEntityValue(const page_iterator_t &amp;entity, uint16_t offset):&#160;pages.cpp'],['../pages_8h.html#a9fcdb8b722497d5735e6e3991c1a936d',1,'getEntityValue(const page_iterator_t &amp;entity, uint16_t offset):&#160;pages.cpp']]],
+  ['getentityvalue_41',['getentityvalue',['../pages_8h.html#a9fcdb8b722497d5735e6e3991c1a936d',1,'getEntityValue(const page_iterator_t &amp;entity, uint16_t offset):&#160;pages.cpp'],['../pages_8cpp.html#a9fcdb8b722497d5735e6e3991c1a936d',1,'getEntityValue(const page_iterator_t &amp;entity, uint16_t offset):&#160;pages.cpp']]],
   ['getfuelpressure_42',['getFuelPressure',['../sensors_8cpp.html#a8804e7a5b441937b034d6fb953c96e7b',1,'sensors.cpp']]],
   ['getgear_43',['getGear',['../sensors_8cpp.html#afa9cda951e4db3aa4dca2df7cc1ddd62',1,'sensors.cpp']]],
   ['getlegacysecondaryseriallogentry_44',['getlegacysecondaryseriallogentry',['../logger_8cpp.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
   ['getload_45',['getLoad',['../load__source_8h.html#ac4f24581db8033c7288e4b9a50044ebe',1,'load_source.h']]],
-  ['getmapdelta_46',['getmapdelta',['../sensors_8h.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp'],['../sensors_8cpp.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp']]],
+  ['getmapdelta_46',['getmapdelta',['../sensors_8cpp.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp'],['../sensors_8h.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp']]],
   ['getmapdeltatime_47',['getmapdeltatime',['../sensors_8cpp.html#a5ad24b38cd570c95f0e92ed6fe0c06ed',1,'getMAPDeltaTime(void):&#160;sensors.cpp'],['../sensors_8h.html#a5ad24b38cd570c95f0e92ed6fe0c06ed',1,'getMAPDeltaTime(void):&#160;sensors.cpp']]],
   ['getoilpressure_48',['getOilPressure',['../sensors_8cpp.html#a4f29318f21b6df0623f6914ecca2045f',1,'sensors.cpp']]],
   ['getpagesize_49',['getpagesize',['../pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3',1,'getPageSize(byte pageNum):&#160;pages.cpp'],['../pages_8h.html#a48f6eb96fa3fe5e619cc4988a65f04b3',1,'getPageSize(uint8_t pageNum):&#160;pages.cpp']]],
@@ -84,5 +84,6 @@ var searchData=
   ['getstorageapi_81',['getstorageapi',['../storage_8cpp.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp'],['../storage_8h.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp']]],
   ['getsystemtemp_82',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
   ['gettslogentry_83',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getve1_84',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
+  ['getvalue_84',['getValue',['../structtable2_d.html#aab53a11351af22cbb006e7996951c466',1,'table2D']]],
+  ['getve1_85',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
 ];
