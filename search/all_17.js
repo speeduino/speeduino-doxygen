@@ -93,7 +93,7 @@ var searchData=
   ['multiply_5fmap_5fmode_5fbaro_90',['MULTIPLY_MAP_MODE_BARO',['../config__pages_8h.html#a55d9a924740b76ed67e3b4320b671b2c',1,'config_pages.h']]],
   ['multiply_5fmap_5fmode_5foff_91',['MULTIPLY_MAP_MODE_OFF',['../config__pages_8h.html#ac9570103ae940284311aee503e6606c2',1,'config_pages.h']]],
   ['multiplymap_92',['multiplyMAP',['../structconfig2.html#a2bd32a7b436553911c789dca378f5521',1,'config2']]],
-  ['multiplytableload_93',['multiplytableload',['../updates_8h.html#a28163094708aba4716d04ac2444e2ea1',1,'multiplyTableLoad(table3d_t *pTable, table_type_t key, uint8_t multiplier):&#160;updates.cpp'],['../updates_8cpp.html#a28163094708aba4716d04ac2444e2ea1',1,'multiplyTableLoad(table3d_t *pTable, table_type_t key, uint8_t multiplier):&#160;updates.cpp']]],
+  ['multiplytableload_93',['multiplytableload',['../updates_8h.html#aa3162c44b9b33ddf9062a896c3d9660e',1,'multiplyTableLoad(table3d_t *pTable, TableType key, uint8_t multiplier):&#160;updates.cpp'],['../updates_8cpp.html#aa3162c44b9b33ddf9062a896c3d9660e',1,'multiplyTableLoad(table3d_t *pTable, TableType key, uint8_t multiplier):&#160;updates.cpp']]],
   ['multiplytablevalue_94',['multiplytablevalue',['../updates_8cpp.html#a4b2c9db66c87691e90140834dd9312ae',1,'multiplyTableValue(uint8_t pageNum, uint8_t multiplier):&#160;updates.cpp'],['../updates_8h.html#a4b2c9db66c87691e90140834dd9312ae',1,'multiplyTableValue(uint8_t pageNum, uint8_t multiplier):&#160;updates.cpp']]],
   ['mx_205_95',['Mistsubishi 4G63 and Miata + MX-5',['../group__dec__mitsu__miata.html',1,'']]]
 ];

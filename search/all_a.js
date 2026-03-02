@@ -7,5 +7,7 @@ var searchData=
   ['_5fcounter_4',['_counter',['../struct_schedule.html#a55ef10c396b19e1138d4bd9a1f85af4c',1,'Schedule']]],
   ['_5fcountof_5',['_countof',['../preprocessor_8h.html#a4987dd6844197a1b6267f4261ae70cf3',1,'preprocessor.h']]],
   ['_5fend_5frange_5faddress_6',['_end_range_address',['../preprocessor_8h.html#a9e1a3bd105504f0829c7e3eef19e9546',1,'preprocessor.h']]],
-  ['_5fend_5frange_5fbyte_5faddress_7',['_end_range_byte_address',['../preprocessor_8h.html#a701909f6fd8f5015960239ca57e31ebf',1,'preprocessor.h']]]
+  ['_5fend_5frange_5fbyte_5faddress_7',['_end_range_byte_address',['../preprocessor_8h.html#a701909f6fd8f5015960239ca57e31ebf',1,'preprocessor.h']]],
+  ['_5fnewvalue_8',['_newValue',['../structset__table__value__visitor.html#ab868476ea867ebb19965a9e7b6a1d11b',1,'set_table_value_visitor']]],
+  ['_5foffset_9',['_offset',['../structget__table__value__visitor.html#a01e44353075b5b7a71589947b3620eab',1,'get_table_value_visitor::_offset'],['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor::_offset']]]
 ];
