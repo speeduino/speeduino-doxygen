@@ -9,5 +9,7 @@ var searchData=
   ['updateobject_6',['updateObject',['../storage__api_8h.html#a39e71c020e9c61aa672e11059bbeefd6',1,'storage_api.h']]],
   ['updateoilpressure_7',['updateOilPressure',['../sensors_8cpp.html#a839e97fb5755437e11e5597ffa05ec81',1,'sensors.cpp']]],
   ['updatepagevalues_8',['updatePageValues',['../group__group-serial-comms-impl.html#ga2e4666c6ad95481c0f218666d7f9d3b1',1,'comms.cpp']]],
-  ['updaterevolutiontimefromteeth_9',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]]
+  ['updaterevolutiontimefromteeth_9',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]],
+  ['updatetableu16tou8_10',['updateTableU16toU8',['../updates_8cpp.html#a31c0bff6c6be529af519af8f8fe6acb6',1,'updates.cpp']]],
+  ['upgradev25tov26_11',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]]
 ];
