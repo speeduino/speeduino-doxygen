@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['update_0',['update',['../storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp'],['../storage__api_8h.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp']]],
+  ['update_0',['update',['../storage__api_8h.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp'],['../storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp']]],
   ['updateaetimeout_1',['updateAeTimeout',['../corrections_8cpp.html#ac746f6067333414c09f9d597c2ace697',1,'corrections.cpp']]],
   ['updateblock_2',['updateblock',['../storage__api_8cpp.html#ad79469409af4199c4e1f1345c5703b29',1,'updateBlock(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast):&#160;storage_api.cpp'],['../storage__api_8h.html#ad79469409af4199c4e1f1345c5703b29',1,'updateBlock(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast):&#160;storage_api.cpp']]],
   ['updateblocklimitwriteops_3',['updateblocklimitwriteops',['../storage__api_8cpp.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp'],['../storage__api_8h.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp']]],
@@ -11,5 +11,6 @@ var searchData=
   ['updatepagevalues_8',['updatePageValues',['../group__group-serial-comms-impl.html#ga2e4666c6ad95481c0f218666d7f9d3b1',1,'comms.cpp']]],
   ['updaterevolutiontimefromteeth_9',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]],
   ['updatetableu16tou8_10',['updateTableU16toU8',['../updates_8cpp.html#a31c0bff6c6be529af519af8f8fe6acb6',1,'updates.cpp']]],
-  ['upgradev25tov26_11',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]]
+  ['upgradev25tov26_11',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]],
+  ['us_5fto_5ftimer_5fcompare_12',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]]
 ];

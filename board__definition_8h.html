@@ -76,7 +76,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">board_definition.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -85,6 +86,7 @@ $(function() {
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;Arduino.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="type__traits_8h_source.html">type_traits.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -344,7 +346,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a6a188777b3fa3f7f6e93124fee711846" id="r_a6a188777b3fa3f7f6e93124fee711846"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">SET_COMPARE</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a48cde1bd957f6d7f7e9f106f61a67777">COMPARE_TYPE</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)</td></tr>
+<tr class="memitem:a6a188777b3fa3f7f6e93124fee711846" id="r_a6a188777b3fa3f7f6e93124fee711846"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">SET_COMPARE</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)</td></tr>
 <tr class="separator:a6a188777b3fa3f7f6e93124fee711846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -373,6 +375,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ab18172ca7d251f047c74b7f5103f3b4c" id="r_ab18172ca7d251f047c74b7f5103f3b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="board__avr2560_8h.html#a0f2389e1ba97901a89898116af37a9fe">EEPROM_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ab18172ca7d251f047c74b7f5103f3b4c">getEEPROM</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="memdesc:ab18172ca7d251f047c74b7f5103f3b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access the EEPROM singleton.  <br /></td></tr>
 <tr class="separator:ab18172ca7d251f047c74b7f5103f3b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a48dffc9bd3ea2556d7b7df2a2e48651d" id="r_a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d">MAX_TIMER_PERIOD</a> = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((<a class="el" href="structnumeric__limits.html">numeric_limits</a>&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;::max)())</td></tr>
+<tr class="memdesc:a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The longest period of time (in uS) that the timer can permit.  <br /></td></tr>
+<tr class="separator:a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Inclusion of board specific header files and board related definitions. </p>
@@ -399,7 +407,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a48cde1bd957f6d7f7e9f106f61a67777">COMPARE_TYPE</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -745,6 +753,31 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="602,57,570,53,571,48,603,52"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a48dffc9bd3ea2556d7b7df2a2e48651d" name="a48dffc9bd3ea2556d7b7df2a2e48651d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48dffc9bd3ea2556d7b7df2a2e48651d">&#9670;&#160;</a></span>MAX_TIMER_PERIOD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> MAX_TIMER_PERIOD = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((<a class="el" href="structnumeric__limits.html">numeric_limits</a>&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;::max)())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The longest period of time (in uS) that the timer can permit. </p>
 
 </div>
 </div>

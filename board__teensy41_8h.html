@@ -83,6 +83,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;FlexCAN_T4.h&gt;</code><br />
 </div>
 <p><a href="board__teensy41_8h_source.html">Go to the source code of this file.</a></p>
@@ -91,8 +92,6 @@ $(function() {
 Macros</h2></td></tr>
 <tr class="memitem:a551e5124e6ff1f504f733839df44c1fc" id="r_a551e5124e6ff1f504f733839df44c1fc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a551e5124e6ff1f504f733839df44c1fc">CORE_TEENSY41</a></td></tr>
 <tr class="separator:a551e5124e6ff1f504f733839df44c1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cde1bd957f6d7f7e9f106f61a67777" id="r_a48cde1bd957f6d7f7e9f106f61a67777"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a48cde1bd957f6d7f7e9f106f61a67777">COMPARE_TYPE</a>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a></td></tr>
-<tr class="separator:a48cde1bd957f6d7f7e9f106f61a67777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabbbb12ed42280c8fed7cd03a3f3a2e" id="r_aaabbbb12ed42280c8fed7cd03a3f3a2e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e">TS_SERIAL_BUFFER_SIZE</a>&#160;&#160;&#160;517</td></tr>
 <tr class="separator:aaabbbb12ed42280c8fed7cd03a3f3a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b30a845abfabbc1d0631bb6e7cd7098" id="r_a2b30a845abfabbc1d0631bb6e7cd7098"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a2b30a845abfabbc1d0631bb6e7cd7098">FPU_MAX_SIZE</a>&#160;&#160;&#160;32</td></tr>
@@ -220,6 +219,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a39e262bc4c1d7700c35b1bc5451af641" id="r_a39e262bc4c1d7700c35b1bc5451af641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a></td></tr>
+<tr class="memdesc:a39e262bc4c1d7700c35b1bc5451af641"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timer overflow type.  <br /></td></tr>
+<tr class="separator:a39e262bc4c1d7700c35b1bc5451af641"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f2389e1ba97901a89898116af37a9fe" id="r_a0f2389e1ba97901a89898116af37a9fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a0f2389e1ba97901a89898116af37a9fe">EEPROM_t</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">EEPROMClass</a></td></tr>
 <tr class="separator:a0f2389e1ba97901a89898116af37a9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -227,6 +229,12 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a29d795e004f80c3aca8396d00bd4042d" id="r_a29d795e004f80c3aca8396d00bd4042d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a29d795e004f80c3aca8396d00bd4042d">pinIsSerial</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>)</td></tr>
 <tr class="separator:a29d795e004f80c3aca8396d00bd4042d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f4abf52802a1a8c3937a4bceeda204" id="r_af4f4abf52802a1a8c3937a4bceeda204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204">uS_TO_TIMER_COMPARE</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">micros</a>)</td></tr>
+<tr class="memdesc:af4f4abf52802a1a8c3937a4bceeda204"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert µS to timer ticks.  <br /></td></tr>
+<tr class="separator:af4f4abf52802a1a8c3937a4bceeda204"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bc59caeffb99af2395f6350737df3e" id="r_a79bc59caeffb99af2395f6350737df3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a> (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ticks</a>)</td></tr>
+<tr class="memdesc:a79bc59caeffb99af2395f6350737df3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert timer ticks to µS.  <br /></td></tr>
+<tr class="separator:a79bc59caeffb99af2395f6350737df3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5307fe59275e346f25160482664dca2f" id="r_a5307fe59275e346f25160482664dca2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#a5307fe59275e346f25160482664dca2f">pinIsReserved</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pin</a>)</td></tr>
 <tr class="separator:a5307fe59275e346f25160482664dca2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3e84818f7c64bc5285f8ada5dfe176c" id="r_ae3e84818f7c64bc5285f8ada5dfe176c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__teensy41_8h.html#ae3e84818f7c64bc5285f8ada5dfe176c">FUEL1_TIMER_ENABLE</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -366,20 +374,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> BOOST_TIMER_COUNTER&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a48cde1bd957f6d7f7e9f106f61a67777" name="a48cde1bd957f6d7f7e9f106f61a67777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48cde1bd957f6d7f7e9f106f61a67777">&#9670;&#160;</a></span>COMPARE_TYPE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> COMPARE_TYPE&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1224,6 +1218,23 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a39e262bc4c1d7700c35b1bc5451af641" name="a39e262bc4c1d7700c35b1bc5451af641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e262bc4c1d7700c35b1bc5451af641">&#9670;&#160;</a></span>COMPARE_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a> <a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a> =  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The timer overflow type. </p>
+<p>On some boards timers can overflow at less than the timer register width </p>
+
+</div>
+</div>
 <a id="a0f2389e1ba97901a89898116af37a9fe" name="a0f2389e1ba97901a89898116af37a9fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f2389e1ba97901a89898116af37a9fe">&#9670;&#160;</a></span>EEPROM_t</h2>
 
@@ -2132,6 +2143,62 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="142,21,110,21,110,16,142,16"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a79bc59caeffb99af2395f6350737df3e" name="a79bc59caeffb99af2395f6350737df3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bc59caeffb99af2395f6350737df3e">&#9670;&#160;</a></span>ticksToMicros()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> ticksToMicros </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&#160;</td>
+          <td class="paramname"><em>ticks</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert timer ticks to µS. </p>
+
+</div>
+</div>
+<a id="af4f4abf52802a1a8c3937a4bceeda204" name="af4f4abf52802a1a8c3937a4bceeda204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f4abf52802a1a8c3937a4bceeda204">&#9670;&#160;</a></span>uS_TO_TIMER_COMPARE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a> uS_TO_TIMER_COMPARE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>micros</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert µS to timer ticks. </p>
 
 </div>
 </div>
