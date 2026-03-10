@@ -110,7 +110,7 @@ var searchData=
   ['chunkcomplete_107',['chunkComplete',['../comms__legacy_8cpp.html#a2579ec6aed1903a19a732839086d9fd7',1,'comms_legacy.cpp']]],
   ['chunkpending_108',['chunkPending',['../comms__legacy_8cpp.html#ab691ea6bc6e723003f66796b3cd24df9',1,'comms_legacy.cpp']]],
   ['chunksize_109',['chunkSize',['../comms__legacy_8cpp.html#aeb7cc51b3800b40d4b1f8f5a1464df29',1,'comms_legacy.cpp']]],
-  ['clamp_110',['clamp',['../maths_8h.html#aab9f0232e41c960b4a09629eac33aef3',1,'maths.h']]],
+  ['clamp_110',['clamp',['../maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be',1,'maths.h']]],
   ['clamptoactualteeth_111',['clampToActualTeeth',['../group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680',1,'decoders.cpp']]],
   ['clamptotoothcount_112',['clampToToothCount',['../group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439',1,'decoders.cpp']]],
   ['clidletarget_113',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],

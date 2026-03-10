@@ -81,7 +81,7 @@ var searchData=
   ['div360_78',['div360',['../maths_8h.html#a722ecd5834c45b061782ddb3a3036aee',1,'maths.h']]],
   ['div_5fround_5fbehavior_79',['DIV_ROUND_BEHAVIOR',['../group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf',1,'maths.h']]],
   ['div_5fround_5fclosest_80',['DIV_ROUND_CLOSEST',['../group__group-rounded-div.html#ga5996348be8a27108d31aecf3ed216f78',1,'maths.h']]],
-  ['div_5fround_5fclosest_5fu16_81',['div_round_closest_u16',['../group__group-rounded-div.html#ga2337c8dd2fe433d2167dc4ba95f9d834',1,'maths.h']]],
+  ['div_5fround_5fclosest_5fu16_81',['div_round_closest_u16',['../group__group-rounded-div.html#ga33c57fc943428490f84a7ccb7e4b7a76',1,'maths.h']]],
   ['div_5fround_5fcorrect_82',['DIV_ROUND_CORRECT',['../group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9',1,'maths.h']]],
   ['div_5fround_5fdown_83',['DIV_ROUND_DOWN',['../group__group-rounded-div-behavior.html#gac57268f7fec35dd9be9cbf563dac0aa8',1,'maths.h']]],
   ['div_5fround_5fnearest_84',['DIV_ROUND_NEAREST',['../group__group-rounded-div-behavior.html#ga12c14865a74fe89c749e666e453c336c',1,'maths.h']]],

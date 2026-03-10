@@ -21,7 +21,7 @@ var searchData=
   ['fanunused_18',['fanUnused',['../structconfig6.html#a87927ef9f95fa7481f4814d5f3c81bab',1,'config6']]],
   ['fanwhencranking_19',['fanWhenCranking',['../structconfig2.html#a23f29ebc0ea5cd7ed87bd491a3f31fbd',1,'config2']]],
   ['fanwhenoff_20',['fanWhenOff',['../structconfig2.html#a65c6f1035ece0f4502134a1bb0f18ca0',1,'config2']]],
-  ['fast_5fdiv_5fclosest_21',['fast_div_closest',['../maths_8h.html#aea74d515ad6882dd8441df37b7962ec2',1,'maths.h']]],
+  ['fast_5fdiv_5fclosest_21',['fast_div_closest',['../maths_8h.html#a577259499090f5cb6552c400f11e99be',1,'maths.h']]],
   ['fast_5fmap_22',['fast_map',['../maths_8h.html#a8862c407bd316c6b70ca7e86aecf59f2',1,'maths.h']]],
   ['fastmap10bit_23',['fastMap10Bit',['../sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71',1,'sensors.cpp']]],
   ['feedforwardterm_24',['feedforwardterm',['../idle_8cpp.html#a5bf8ab4ddb77f8413a73ca35154e5d21',1,'FeedForwardTerm:&#160;idle.cpp'],['../idle_8h.html#a5bf8ab4ddb77f8413a73ca35154e5d21',1,'FeedForwardTerm:&#160;idle.cpp']]],

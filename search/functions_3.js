@@ -52,7 +52,7 @@ var searchData=
   ['checkpertoothtiming_49',['checkPerToothTiming',['../group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8',1,'decoders.cpp']]],
   ['checkprogrammableio_50',['checkprogrammableio',['../utilities_8cpp.html#a7475cfb056dd97c0f1b0c4461cb33476',1,'checkProgrammableIO(void):&#160;utilities.cpp'],['../utilities_8h.html#a7475cfb056dd97c0f1b0c4461cb33476',1,'checkProgrammableIO(void):&#160;utilities.cpp']]],
   ['checkrevlimit_51',['checkrevlimit',['../engine_protection_8cpp.html#a233eb84037daeb56e4657d9ee2ecb1f4',1,'checkRevLimit(statuses &amp;current, const config4 &amp;page4, const config6 &amp;page6, const config9 &amp;page9):&#160;engineProtection.cpp'],['../engine_protection_8h.html#a233eb84037daeb56e4657d9ee2ecb1f4',1,'checkRevLimit(statuses &amp;current, const config4 &amp;page4, const config6 &amp;page6, const config9 &amp;page9):&#160;engineProtection.cpp']]],
-  ['clamp_52',['clamp',['../maths_8h.html#aab9f0232e41c960b4a09629eac33aef3',1,'maths.h']]],
+  ['clamp_52',['clamp',['../maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be',1,'maths.h']]],
   ['clamptoactualteeth_53',['clampToActualTeeth',['../group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680',1,'decoders.cpp']]],
   ['clamptotoothcount_54',['clampToToothCount',['../group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439',1,'decoders.cpp']]],
   ['clipduration_55',['clipDuration',['../scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1',1,'scheduler.cpp']]],

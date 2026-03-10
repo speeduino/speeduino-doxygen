@@ -1,7 +1,7 @@
 var searchData=
 [
   ['fancontrol_0',['fancontrol',['../auxiliaries_8h.html#a7a7fa820002b4c6e9f4ac04bb0594c52',1,'fanControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#a7a7fa820002b4c6e9f4ac04bb0594c52',1,'fanControl(void):&#160;auxiliaries.cpp']]],
-  ['fast_5fdiv_5fclosest_1',['fast_div_closest',['../maths_8h.html#aea74d515ad6882dd8441df37b7962ec2',1,'maths.h']]],
+  ['fast_5fdiv_5fclosest_1',['fast_div_closest',['../maths_8h.html#a577259499090f5cb6552c400f11e99be',1,'maths.h']]],
   ['fast_5fmap_2',['fast_map',['../maths_8h.html#a8862c407bd316c6b70ca7e86aecf59f2',1,'maths.h']]],
   ['fastmap10bit_3',['fastMap10Bit',['../sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71',1,'sensors.cpp']]],
   ['fillblock_4',['fillblock',['../storage__api_8cpp.html#adfa37c650a553c4e527213fcb38403ab',1,'fillBlock(const storage_api_t &amp;api, uint16_t address, uint16_t length, byte value):&#160;storage_api.cpp'],['../storage__api_8h.html#adfa37c650a553c4e527213fcb38403ab',1,'fillBlock(const storage_api_t &amp;api, uint16_t address, uint16_t length, byte value):&#160;storage_api.cpp']]],
