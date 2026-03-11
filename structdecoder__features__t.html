@@ -78,13 +78,13 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="decoders_8h_source.html">decoders.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="decoder__t_8h_source.html">decoder_t.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a03fc19969259bd1980e97acadc7618f5" id="r_a03fc19969259bd1980e97acadc7618f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__features__t.html#a03fc19969259bd1980e97acadc7618f5">decoder_features_t</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="memdesc:a03fc19969259bd1980e97acadc7618f5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
-<p>&zwj;Whether or not the decoder supports fixed cranking timing </p>
+<p>&zwj;Whether or not the decoder supports per-tooth ignition </p>
 </blockquote>
  <br /></td></tr>
 <tr class="separator:a03fc19969259bd1980e97acadc7618f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -99,18 +99,18 @@ Public Attributes</h2></td></tr>
 </blockquote>
  <br /></td></tr>
 <tr class="separator:a8af3d205c00648a3aad6f8b3a6e5d2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39c837266b46ce406153ab32d6195d1b" id="r_a39c837266b46ce406153ab32d6195d1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__features__t.html#a39c837266b46ce406153ab32d6195d1b">hasSecondary</a>: 1</td></tr>
-<tr class="memdesc:a39c837266b46ce406153ab32d6195d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
+<tr class="memitem:afb9453606f8d74478ee5c56cb94159d2" id="r_afb9453606f8d74478ee5c56cb94159d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__features__t.html#afb9453606f8d74478ee5c56cb94159d2">hasFixedCrankingTiming</a>: 1</td></tr>
+<tr class="memdesc:afb9453606f8d74478ee5c56cb94159d2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
 <p>&zwj;Whether or not the decoder supports sequential operation </p>
 </blockquote>
  <br /></td></tr>
-<tr class="separator:a39c837266b46ce406153ab32d6195d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb9453606f8d74478ee5c56cb94159d2" id="r_afb9453606f8d74478ee5c56cb94159d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__features__t.html#afb9453606f8d74478ee5c56cb94159d2">hasFixedCrankingTiming</a>: 1</td></tr>
-<tr class="memdesc:afb9453606f8d74478ee5c56cb94159d2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
-<p>&zwj;Whether or not the pattern uses a secondary input </p>
+<tr class="separator:afb9453606f8d74478ee5c56cb94159d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59017213c03e87e87c6bcc281a99cd3c" id="r_a59017213c03e87e87c6bcc281a99cd3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__features__t.html#a59017213c03e87e87c6bcc281a99cd3c">supportsPerToothIgnition</a>: 1</td></tr>
+<tr class="memdesc:a59017213c03e87e87c6bcc281a99cd3c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><blockquote class="doxtable">
+<p>&zwj;Whether or not the decoder supports fixed cranking timing </p>
 </blockquote>
  <br /></td></tr>
-<tr class="separator:afb9453606f8d74478ee5c56cb94159d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a59017213c03e87e87c6bcc281a99cd3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a03fc19969259bd1980e97acadc7618f5" name="a03fc19969259bd1980e97acadc7618f5"></a>
@@ -138,7 +138,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p><blockquote class="doxtable">
-<p>&zwj;Whether or not the decoder supports fixed cranking timing </p>
+<p>&zwj;Whether or not the decoder supports per-tooth ignition </p>
 </blockquote>
 </p>
 
@@ -153,25 +153,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> decoder_features_t::hasFixedCrankingTiming</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><blockquote class="doxtable">
-<p>&zwj;Whether or not the pattern uses a secondary input </p>
-</blockquote>
-</p>
-
-</div>
-</div>
-<a id="a39c837266b46ce406153ab32d6195d1b" name="a39c837266b46ce406153ab32d6195d1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39c837266b46ce406153ab32d6195d1b">&#9670;&#160;</a></span>hasSecondary</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> decoder_features_t::hasSecondary</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -197,6 +178,25 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a59017213c03e87e87c6bcc281a99cd3c" name="a59017213c03e87e87c6bcc281a99cd3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59017213c03e87e87c6bcc281a99cd3c">&#9670;&#160;</a></span>supportsPerToothIgnition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> decoder_features_t::supportsPerToothIgnition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><blockquote class="doxtable">
+<p>&zwj;Whether or not the decoder supports fixed cranking timing </p>
+</blockquote>
+</p>
+
+</div>
+</div>
 <a id="a8af3d205c00648a3aad6f8b3a6e5d2b1" name="a8af3d205c00648a3aad6f8b3a6e5d2b1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8af3d205c00648a3aad6f8b3a6e5d2b1">&#9670;&#160;</a></span>supportsSequential</h2>
 
@@ -217,7 +217,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>speeduino/<a class="el" href="decoders_8h_source.html">decoders.h</a></li>
+<li>speeduino/<a class="el" href="decoder__t_8h_source.html">decoder_t.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

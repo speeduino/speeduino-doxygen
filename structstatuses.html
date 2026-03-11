@@ -87,9 +87,17 @@ Collaboration diagram for statuses:</div>
 <div class="dyncontent">
 <div class="center"><img src="structstatuses__coll__graph.png" border="0" usemap="#astatuses_coll__map" alt="Collaboration graph"/></div>
 <map name="astatuses_coll__map" id="astatuses_coll__map">
-<area shape="rect" title="The status struct with current values for all &#39;live&#39; variables." alt="" coords="36,109,108,135"/>
-<area shape="rect" href="structstatuses_1_1scheduler__cut__t.html" title="Fuel and ignition scheduler cut state." alt="" coords="5,5,139,46"/>
-<area shape="poly" title=" " alt="" coords="75,61,75,109,69,109,69,61"/>
+<area shape="rect" title="The status struct with current values for all &#39;live&#39; variables." alt="" coords="107,228,178,253"/>
+<area shape="rect" href="structstatuses_1_1scheduler__cut__t.html" title="Fuel and ignition scheduler cut state." alt="" coords="5,124,139,165"/>
+<area shape="poly" title=" " alt="" coords="70,179,76,202,90,217,108,227,105,231,87,221,72,205,65,181"/>
+<area shape="rect" href="structdecoder__t.html" title="This structure represents a decoder configuration." alt="" coords="174,132,253,157"/>
+<area shape="poly" title=" " alt="" coords="205,173,186,205,161,229,157,225,182,202,201,170"/>
+<area shape="rect" href="structinterrupt__t.html" title="This structure represents a trigger interrupt." alt="" coords="50,5,129,31"/>
+<area shape="poly" title=" " alt="" coords="107,43,126,70,151,98,193,129,190,133,147,102,122,74,102,46"/>
+<area shape="rect" href="structdecoder__status__t.html" title="Current decoder status." alt="" coords="153,5,274,31"/>
+<area shape="poly" title=" " alt="" coords="216,47,216,131,211,131,211,47"/>
+<area shape="rect" href="structdecoder__features__t.html" title=" " alt="" coords="298,5,430,31"/>
+<area shape="poly" title=" " alt="" coords="343,44,279,102,234,133,231,129,276,98,340,40"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -510,6 +518,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aef51f926f64dd0cc72485821edb1ed80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d3c4d211ad932d421c65cdda618e41" id="r_a14d3c4d211ad932d421c65cdda618e41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">scheduler_cut_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a14d3c4d211ad932d421c65cdda618e41">schedulerCutState</a></td></tr>
 <tr class="separator:a14d3c4d211ad932d421c65cdda618e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d98812d31eaf37e01d0dc361017d46" id="r_aa6d98812d31eaf37e01d0dc361017d46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa6d98812d31eaf37e01d0dc361017d46">decoder</a> = <a class="el" href="structdecoder__builder__t.html">decoder_builder_t</a>().build()</td></tr>
+<tr class="memdesc:aa6d98812d31eaf37e01d0dc361017d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current decoder.  <br /></td></tr>
+<tr class="separator:aa6d98812d31eaf37e01d0dc361017d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The status struct with current values for all 'live' variables. </p>
@@ -1089,6 +1100,22 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Current CAN channel, defaults to 0 </p>
+
+</div>
+</div>
+<a id="aa6d98812d31eaf37e01d0dc361017d46" name="aa6d98812d31eaf37e01d0dc361017d46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d98812d31eaf37e01d0dc361017d46">&#9670;&#160;</a></span>decoder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> statuses::decoder = <a class="el" href="structdecoder__builder__t.html">decoder_builder_t</a>().build()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The current decoder. </p>
 
 </div>
 </div>

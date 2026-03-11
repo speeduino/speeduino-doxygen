@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['voidvoidcallback_0',['voidVoidCallback',['../scheduled_i_o_8h.html#ab5897abd5663aea86b4ac742c86c9fc3',1,'scheduledIO.h']]]
+  ['reset_5ft_0',['reset_t',['../structdecoder__t.html#a4f3d6124ed46fb8cd026d71326cfb6c1',1,'decoder_t']]]
 ];
