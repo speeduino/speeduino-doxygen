@@ -84,7 +84,8 @@ var searchData=
   ['engineprotectrpm_81',['engineProtectRpm',['../structstatuses.html#a0d53f153bd2ee26b99f0468b80eae6d5',1,'statuses']]],
   ['engineprotecttype_82',['engineProtectType',['../structconfig6.html#a72dc7d66fa102be0cd5632ea271f087c',1,'config6']]],
   ['enginetype_83',['engineType',['../structconfig2.html#abeff32531bcb16f024f2a51966a450d2',1,'config2']]],
-  ['ethanolpct_84',['ethanolPct',['../structstatuses.html#aea9edff465617a0fdb909aa596e89b7f',1,'statuses']]],
-  ['even_5ffire_85',['EVEN_FIRE',['../config__pages_8h.html#ad1b29d8913cce1e301ed5c52f6d3580d',1,'config_pages.h']]],
-  ['externalapi_86',['externalApi',['../storage_8cpp.html#a2c7e02da95e4e15b38860bfb7a240f79',1,'storage.cpp']]]
+  ['entity_84',['entity',['../structpage__iterator__t.html#af93e092cb6a6ef43669873733667c3b2',1,'page_iterator_t']]],
+  ['ethanolpct_85',['ethanolPct',['../structstatuses.html#aea9edff465617a0fdb909aa596e89b7f',1,'statuses']]],
+  ['even_5ffire_86',['EVEN_FIRE',['../config__pages_8h.html#ad1b29d8913cce1e301ed5c52f6d3580d',1,'config_pages.h']]],
+  ['externalapi_87',['externalApi',['../storage_8cpp.html#a2c7e02da95e4e15b38860bfb7a240f79',1,'storage.cpp']]]
 ];

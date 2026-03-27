@@ -1,7 +1,7 @@
 var searchData=
 [
   ['table_5fblocking_5ffactor_0',['table_blocking_factor',['../board__teensy41_8h.html#af3c3747029b44e4fca645e44613cc79f',1,'TABLE_BLOCKING_FACTOR:&#160;board_teensy41.h'],['../board__teensy35_8h.html#af3c3747029b44e4fca645e44613cc79f',1,'TABLE_BLOCKING_FACTOR:&#160;board_teensy35.h'],['../board__stm32__official_8h.html#af3c3747029b44e4fca645e44613cc79f',1,'TABLE_BLOCKING_FACTOR:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#af3c3747029b44e4fca645e44613cc79f',1,'TABLE_BLOCKING_FACTOR:&#160;board_avr2560.h']]],
-  ['table_5fkey_1',['table_key',['../structpage__iterator__t.html#a5efd0a169c95888d9ca5afbc1c95ae9e',1,'page_iterator_t']]],
+  ['table_5fkey_1',['table_key',['../structentity__t.html#a55318db348a1408003bcac3fd5281ecd',1,'entity_t']]],
   ['tach_5fpin_5fmask_2',['tach_pin_mask',['../globals_8h.html#a836d79e7ef17504e751977fa38e2de98',1,'tach_pin_mask:&#160;globals.cpp'],['../globals_8cpp.html#a836d79e7ef17504e751977fa38e2de98',1,'tach_pin_mask:&#160;globals.cpp']]],
   ['tach_5fpin_5fport_3',['tach_pin_port',['../globals_8h.html#a26c869c9cacc7d1cca3a2516d0bda33a',1,'tach_pin_port:&#160;globals.cpp'],['../globals_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a',1,'tach_pin_port:&#160;globals.cpp']]],
   ['tachoalt_4',['tachoAlt',['../structstatuses.html#a8627dd2aa47683fb00de640638b3ea3d',1,'statuses']]],
@@ -158,5 +158,5 @@ var searchData=
   ['ts_5fcmd_5fvss_5fratio5_155',['TS_CMD_VSS_RATIO5',['../_t_s___command_button_handler_8h.html#a862661a454799f7de7395da05e8edf5a',1,'TS_CommandButtonHandler.h']]],
   ['ts_5fcmd_5fvss_5fratio6_156',['TS_CMD_VSS_RATIO6',['../_t_s___command_button_handler_8h.html#ac07be758754663b66fcdc715bc9bc8e9',1,'TS_CommandButtonHandler.h']]],
   ['two_5fstroke_157',['TWO_STROKE',['../config__pages_8h.html#a6ca18a50243d39ef57238cf9d75c17e8',1,'config_pages.h']]],
-  ['type_158',['type',['../structpage__iterator__t.html#a13d16ca9f514413a15f3c28894178334',1,'page_iterator_t']]]
+  ['type_158',['type',['../structentity__t.html#a1f5add91639af1a6dc1a99b3093db7d1',1,'entity_t']]]
 ];

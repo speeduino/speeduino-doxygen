@@ -4,5 +4,6 @@ var searchData=
   ['_5fcounter_1',['_counter',['../struct_schedule.html#a55ef10c396b19e1138d4bd9a1f85af4c',1,'Schedule']]],
   ['_5fdecoder_2',['_decoder',['../structdecoder__builder__t.html#a78ab0dc70c2169724f9ab15fbf2bf152',1,'decoder_builder_t']]],
   ['_5fnewvalue_3',['_newValue',['../structset__table__value__visitor.html#ab868476ea867ebb19965a9e7b6a1d11b',1,'set_table_value_visitor']]],
-  ['_5foffset_4',['_offset',['../structget__table__value__visitor.html#a01e44353075b5b7a71589947b3620eab',1,'get_table_value_visitor::_offset'],['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor::_offset']]]
+  ['_5foffset_4',['_offset',['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor']]],
+  ['_5ftableoffset_5',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
 ];
