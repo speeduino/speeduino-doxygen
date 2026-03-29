@@ -75,14 +75,12 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">auxiliaries.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="port__pin_8h_source.html">port_pin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="atomic_8h_source.html">atomic.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -104,77 +102,6 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="auxiliaries_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9f143e315acc65b79c5267d6e5bc7be7" id="r_a9f143e315acc65b79c5267d6e5bc7be7"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9f143e315acc65b79c5267d6e5bc7be7">SIMPLE_BOOST_P</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a9f143e315acc65b79c5267d6e5bc7be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af836c2282a1aa7edbae3cef8ae432bdb" id="r_af836c2282a1aa7edbae3cef8ae432bdb"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af836c2282a1aa7edbae3cef8ae432bdb">SIMPLE_BOOST_I</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:af836c2282a1aa7edbae3cef8ae432bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e97860f92291f8439b060e35c82a417" id="r_a7e97860f92291f8439b060e35c82a417"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7e97860f92291f8439b060e35c82a417">SIMPLE_BOOST_D</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a7e97860f92291f8439b060e35c82a417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79525827fea86f89b88f822a8d97349b" id="r_a79525827fea86f89b88f822a8d97349b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a79525827fea86f89b88f822a8d97349b">BOOST_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae514df3ed28c6d74bb4e2ca761f4477c">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a885685f8a01c572eafdc23841d467751">boost_pin_mask</a>); }</td></tr>
-<tr class="separator:a79525827fea86f89b88f822a8d97349b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a6862c54b02337874d3af744eddde8a" id="r_a0a6862c54b02337874d3af744eddde8a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0a6862c54b02337874d3af744eddde8a">BOOST_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae514df3ed28c6d74bb4e2ca761f4477c">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a885685f8a01c572eafdc23841d467751">boost_pin_mask</a>);  }</td></tr>
-<tr class="separator:a0a6862c54b02337874d3af744eddde8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cd387733b633ed6e8a3836f06a6edc5" id="r_a7cd387733b633ed6e8a3836f06a6edc5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a74b403a7e2995335eca101cad5301a7b">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a00a8eada7535dda9542153f2da0f07e2">vvt1_pin_mask</a>);   }</td></tr>
-<tr class="separator:a7cd387733b633ed6e8a3836f06a6edc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84593c8201d36c38c8a3acde758e8d65" id="r_a84593c8201d36c38c8a3acde758e8d65"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a74b403a7e2995335eca101cad5301a7b">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a00a8eada7535dda9542153f2da0f07e2">vvt1_pin_mask</a>);    }</td></tr>
-<tr class="separator:a84593c8201d36c38c8a3acde758e8d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8ee49347ad040c1ca90973604c66010" id="r_aa8ee49347ad040c1ca90973604c66010"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa8ee49347ad040c1ca90973604c66010">VVT2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a14a6fdaf4d19e20b90ea4d00a65a1c61">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a8aed29f2473ea3e60971657ff0751335">vvt2_pin_mask</a>);   }</td></tr>
-<tr class="separator:aa8ee49347ad040c1ca90973604c66010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44b598e2879e2664d728dc760bbcbbb1" id="r_a44b598e2879e2664d728dc760bbcbbb1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a14a6fdaf4d19e20b90ea4d00a65a1c61">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a8aed29f2473ea3e60971657ff0751335">vvt2_pin_mask</a>);    }</td></tr>
-<tr class="separator:a44b598e2879e2664d728dc760bbcbbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abac195731d91c8081203bc631c00e680" id="r_abac195731d91c8081203bc631c00e680"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abac195731d91c8081203bc631c00e680">N2O_STAGE1_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9162787e8235ac57cb26d1189656ccfd">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#ab64ac396941fdb64ad2dda7c1abd524a">n2o_stage1_pin_mask</a>);  }</td></tr>
-<tr class="separator:abac195731d91c8081203bc631c00e680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcd434b22b5dda07854165ae1f111e3f" id="r_abcd434b22b5dda07854165ae1f111e3f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abcd434b22b5dda07854165ae1f111e3f">N2O_STAGE1_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9162787e8235ac57cb26d1189656ccfd">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#ab64ac396941fdb64ad2dda7c1abd524a">n2o_stage1_pin_mask</a>);   }</td></tr>
-<tr class="separator:abcd434b22b5dda07854165ae1f111e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa70c9c52509bedbe1385830810e1fc15" id="r_aa70c9c52509bedbe1385830810e1fc15"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa70c9c52509bedbe1385830810e1fc15">N2O_STAGE2_PIN_LOW</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7c7f973dfbc5ce899d67856ad3f82f9f">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a9cd21af70aba981db1a95d33a6808619">n2o_stage2_pin_mask</a>);  }</td></tr>
-<tr class="separator:aa70c9c52509bedbe1385830810e1fc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32a9c226eea4c1504663f277e33843c" id="r_ad32a9c226eea4c1504663f277e33843c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad32a9c226eea4c1504663f277e33843c">N2O_STAGE2_PIN_HIGH</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7c7f973dfbc5ce899d67856ad3f82f9f">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a9cd21af70aba981db1a95d33a6808619">n2o_stage2_pin_mask</a>);   }</td></tr>
-<tr class="separator:ad32a9c226eea4c1504663f277e33843c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f016ed83860c0188fab78d655997b6f" id="r_a3f016ed83860c0188fab78d655997b6f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3f016ed83860c0188fab78d655997b6f">FUEL_PUMP_ON</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a55c85d3b9bb607db8416de8b4c8751ee">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#a031731ecceb6c1b8c767d3bc159c67bc">pump_pin_mask</a>);  currentStatus.fuelPumpOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>;    }</td></tr>
-<tr class="separator:a3f016ed83860c0188fab78d655997b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aa02de5f4812b05badb756031ef9423" id="r_a0aa02de5f4812b05badb756031ef9423"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0aa02de5f4812b05badb756031ef9423">FUEL_PUMP_OFF</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a55c85d3b9bb607db8416de8b4c8751ee">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#a031731ecceb6c1b8c767d3bc159c67bc">pump_pin_mask</a>); currentStatus.fuelPumpOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>;   }</td></tr>
-<tr class="separator:a0aa02de5f4812b05badb756031ef9423"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6c6014d5b89fa6a7df5608ae9ef71b0" id="r_ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406">fan_pin_mask</a>)</td></tr>
-<tr class="separator:ae6c6014d5b89fa6a7df5608ae9ef71b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dddab3a7a6c1887e7d71f76a8ce641f" id="r_a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406">fan_pin_mask</a>)</td></tr>
-<tr class="separator:a6dddab3a7a6c1887e7d71f76a8ce641f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a047ddda83ce9c47e85d516b16e67b1d3" id="r_a047ddda83ce9c47e85d516b16e67b1d3"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a6e6e73d655b9972d29f84465df596168">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a7f9ed315e2a5097adbceababea50865b">aircon_comp_pin_mask</a>)</td></tr>
-<tr class="separator:a047ddda83ce9c47e85d516b16e67b1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac432aa21204f7c29b055fece01170f2c" id="r_ac432aa21204f7c29b055fece01170f2c"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a6e6e73d655b9972d29f84465df596168">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a7f9ed315e2a5097adbceababea50865b">aircon_comp_pin_mask</a>)</td></tr>
-<tr class="separator:ac432aa21204f7c29b055fece01170f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af56d1a3ffff4354fbb52be5175f03cfa" id="r_af56d1a3ffff4354fbb52be5175f03cfa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a01a121306a6eadcf874e38f6198e8a0b">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#ab5061fa2ca13450ddeaa54c7beaeb6e4">aircon_fan_pin_mask</a>)</td></tr>
-<tr class="separator:af56d1a3ffff4354fbb52be5175f03cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbab5e1d1d303c399113aa86e06c391e" id="r_afbab5e1d1d303c399113aa86e06c391e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a01a121306a6eadcf874e38f6198e8a0b">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#ab5061fa2ca13450ddeaa54c7beaeb6e4">aircon_fan_pin_mask</a>)</td></tr>
-<tr class="separator:afbab5e1d1d303c399113aa86e06c391e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5110a271a05002e0b85fde85c36917f" id="r_ab5110a271a05002e0b85fde85c36917f"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab5110a271a05002e0b85fde85c36917f">AIRCON_ON</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConCompPol)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); currentStatus.airconCompressorOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>; }</td></tr>
-<tr class="separator:ab5110a271a05002e0b85fde85c36917f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cf46d7c63d07ad35c4e3bdcf436dc16" id="r_a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a5cf46d7c63d07ad35c4e3bdcf436dc16">AIRCON_OFF</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConCompPol)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); currentStatus.airconCompressorOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>; }</td></tr>
-<tr class="separator:a5cf46d7c63d07ad35c4e3bdcf436dc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca30d2747e09e201ff1652a7a31e929d" id="r_aca30d2747e09e201ff1652a7a31e929d"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aca30d2747e09e201ff1652a7a31e929d">AIRCON_FAN_ON</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConFanPol)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); currentStatus.airconFanOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>; }</td></tr>
-<tr class="separator:aca30d2747e09e201ff1652a7a31e929d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a324fc81f622ae8b9d9903890fc75f8a4" id="r_a324fc81f622ae8b9d9903890fc75f8a4"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a324fc81f622ae8b9d9903890fc75f8a4">AIRCON_FAN_OFF</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConFanPol)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); currentStatus.airconFanOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>; }</td></tr>
-<tr class="separator:a324fc81f622ae8b9d9903890fc75f8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab55b7b24ff068319d2661b3e223f8efe" id="r_ab55b7b24ff068319d2661b3e223f8efe"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab55b7b24ff068319d2661b3e223f8efe">FAN_ON</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()); }</td></tr>
-<tr class="separator:ab55b7b24ff068319d2661b3e223f8efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aa0f0bf8f39de92f6b85b9976fbfbef" id="r_a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2aa0f0bf8f39de92f6b85b9976fbfbef">FAN_OFF</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()); }</td></tr>
-<tr class="separator:a2aa0f0bf8f39de92f6b85b9976fbfbef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa319e9011ba23adbaec669b487182a22" id="r_aa319e9011ba23adbaec669b487182a22"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#aa319e9011ba23adbaec669b487182a22">READ_N2O_ARM_PIN</a>()&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a60c491c301c46b2d3013660658f2df08">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#acf0c77f954b6264ab0827a38474f6f63">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a> : <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>)</td></tr>
-<tr class="separator:aa319e9011ba23adbaec669b487182a22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a459995728bbdd82cbf5bfcc2ef849b" id="r_a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a9a459995728bbdd82cbf5bfcc2ef849b">VVT1_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>();</td></tr>
-<tr class="separator:a9a459995728bbdd82cbf5bfcc2ef849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa8ec4cff1410792abfae713385e0b88" id="r_afa8ec4cff1410792abfae713385e0b88"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afa8ec4cff1410792abfae713385e0b88">VVT1_PIN_OFF</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>();</td></tr>
-<tr class="separator:afa8ec4cff1410792abfae713385e0b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe8c3722b6ed2f4fa80ba8af587ea52" id="r_a2fe8c3722b6ed2f4fa80ba8af587ea52"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2fe8c3722b6ed2f4fa80ba8af587ea52">VVT2_PIN_ON</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>();</td></tr>
-<tr class="separator:a2fe8c3722b6ed2f4fa80ba8af587ea52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bda37c25813d19db23d98b456822093" id="r_a0bda37c25813d19db23d98b456822093"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a0bda37c25813d19db23d98b456822093">VVT2_PIN_OFF</a>()&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#aa8ee49347ad040c1ca90973604c66010">VVT2_PIN_LOW</a>();</td></tr>
-<tr class="separator:a0bda37c25813d19db23d98b456822093"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43224ff849b6d864064cb370f08e5bb5" id="r_a43224ff849b6d864064cb370f08e5bb5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a43224ff849b6d864064cb370f08e5bb5">VVT_TIME_DELAY_MULTIPLIER</a>&#160;&#160;&#160;50</td></tr>
-<tr class="separator:a43224ff849b6d864064cb370f08e5bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ccd4b82b14cc4f65e49c4e69bb4e900" id="r_a1ccd4b82b14cc4f65e49c4e69bb4e900"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a1ccd4b82b14cc4f65e49c4e69bb4e900">WMI_TANK_IS_EMPTY</a>()&#160;&#160;&#160;((configPage10.wmiEmptyEnabled) ? ((configPage10.wmiEmptyPolarity) ? <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td></tr>
-<tr class="separator:a1ccd4b82b14cc4f65e49c4e69bb4e900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ab83a8ef510eb3cc0099d005b4647d8f1" id="r_ab83a8ef510eb3cc0099d005b4647d8f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab83a8ef510eb3cc0099d005b4647d8f1">initialiseAuxPWM</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -183,24 +110,38 @@ Functions</h2></td></tr>
 <tr class="separator:a5a0f5572764df70b61f5a912d5e0b60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af658fda3c20b91bdbef47a139ab4dc30" id="r_af658fda3c20b91bdbef47a139ab4dc30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#af658fda3c20b91bdbef47a139ab4dc30">boostDisable</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:af658fda3c20b91bdbef47a139ab4dc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb00e053aa3babe6f4157e8bdee64e07" id="r_acb00e053aa3babe6f4157e8bdee64e07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#acb00e053aa3babe6f4157e8bdee64e07">boostByGear</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
-<tr class="separator:acb00e053aa3babe6f4157e8bdee64e07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b5c6c7b15d2bc4dbaa41170f21290f" id="r_a54b5c6c7b15d2bc4dbaa41170f21290f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a54b5c6c7b15d2bc4dbaa41170f21290f">vvtControl</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a54b5c6c7b15d2bc4dbaa41170f21290f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b60d5ba0ad70076c7a7d813a995f7a7" id="r_a2b60d5ba0ad70076c7a7d813a995f7a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2b60d5ba0ad70076c7a7d813a995f7a7">initialiseFan</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
-<tr class="separator:a2b60d5ba0ad70076c7a7d813a995f7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4215cbb8ad0ff06a97bb192a1d01291c" id="r_a4215cbb8ad0ff06a97bb192a1d01291c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a4215cbb8ad0ff06a97bb192a1d01291c">initialiseFan</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> fanPin)</td></tr>
+<tr class="separator:a4215cbb8ad0ff06a97bb192a1d01291c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19ec030ab7936ea3c9e64e737fec6942" id="r_a19ec030ab7936ea3c9e64e737fec6942"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a19ec030ab7936ea3c9e64e737fec6942">initialiseAirCon</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a19ec030ab7936ea3c9e64e737fec6942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e45c4633a09456ce3fed08950643583" id="r_a7e45c4633a09456ce3fed08950643583"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7e45c4633a09456ce3fed08950643583">initialiseFuelPump</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pumpPin</a>)</td></tr>
+<tr class="separator:a7e45c4633a09456ce3fed08950643583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9156767bea1dd5393bba5f9605aea0a" id="r_ab9156767bea1dd5393bba5f9605aea0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a">nitrousControl</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:ab9156767bea1dd5393bba5f9605aea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7fa820002b4c6e9f4ac04bb0594c52" id="r_a7a7fa820002b4c6e9f4ac04bb0594c52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7a7fa820002b4c6e9f4ac04bb0594c52">fanControl</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a7a7fa820002b4c6e9f4ac04bb0594c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58f86af765ce5549341e632ede751dc6" id="r_a58f86af765ce5549341e632ede751dc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a58f86af765ce5549341e632ede751dc6">airConControl</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a58f86af765ce5549341e632ede751dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e127d9c90e01249325907645be1554" id="r_a71e127d9c90e01249325907645be1554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a71e127d9c90e01249325907645be1554">READ_AIRCON_REQUEST</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
-<tr class="separator:a71e127d9c90e01249325907645be1554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6437f16b1057eb1370f84e02c346d90f" id="r_a6437f16b1057eb1370f84e02c346d90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a6437f16b1057eb1370f84e02c346d90f">wmiControl</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a6437f16b1057eb1370f84e02c346d90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe67a8f6346ad928fc4ef4b7698d5d0" id="r_abbe67a8f6346ad928fc4ef4b7698d5d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abbe67a8f6346ad928fc4ef4b7698d5d0">vvt1On</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:abbe67a8f6346ad928fc4ef4b7698d5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b868a82e65d41894387fadfbf60ffbe" id="r_a3b868a82e65d41894387fadfbf60ffbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3b868a82e65d41894387fadfbf60ffbe">vvt1Off</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a3b868a82e65d41894387fadfbf60ffbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaaf20bf07f7b0bba2a6e6b869dbf44f" id="r_abaaf20bf07f7b0bba2a6e6b869dbf44f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#abaaf20bf07f7b0bba2a6e6b869dbf44f">vvt2On</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:abaaf20bf07f7b0bba2a6e6b869dbf44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99b3bb1583e75dfe6fe5c10e0da07154" id="r_a99b3bb1583e75dfe6fe5c10e0da07154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a99b3bb1583e75dfe6fe5c10e0da07154">vvt2Off</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a99b3bb1583e75dfe6fe5c10e0da07154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a13813e0403383a0a3115c44ca7a38" id="r_a01a13813e0403383a0a3115c44ca7a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a01a13813e0403383a0a3115c44ca7a38">fuelPumpOn</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a01a13813e0403383a0a3115c44ca7a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894823fa4324bab89cfed18eef404407" id="r_a894823fa4324bab89cfed18eef404407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a894823fa4324bab89cfed18eef404407">fuelPumpOff</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a894823fa4324bab89cfed18eef404407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43048b580fb5e41fe30c4441df6bb081" id="r_a43048b580fb5e41fe30c4441df6bb081"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a43048b580fb5e41fe30c4441df6bb081">fanOn</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a43048b580fb5e41fe30c4441df6bb081"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af8d235f81b57883354f595a4428039" id="r_a2af8d235f81b57883354f595a4428039"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a2af8d235f81b57883354f595a4428039">fanOff</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a2af8d235f81b57883354f595a4428039"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d9daee30b13a076f65801fca57e319" id="r_ad4d9daee30b13a076f65801fca57e319"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ad4d9daee30b13a076f65801fca57e319">boostInterrupt</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:ad4d9daee30b13a076f65801fca57e319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3817295e5731ea49e9a80753667121d6" id="r_a3817295e5731ea49e9a80753667121d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3817295e5731ea49e9a80753667121d6">vvtInterrupt</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -208,590 +149,11 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a74b403a7e2995335eca101cad5301a7b" id="r_a74b403a7e2995335eca101cad5301a7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a74b403a7e2995335eca101cad5301a7b">vvt1_pin_port</a></td></tr>
-<tr class="separator:a74b403a7e2995335eca101cad5301a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00a8eada7535dda9542153f2da0f07e2" id="r_a00a8eada7535dda9542153f2da0f07e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a00a8eada7535dda9542153f2da0f07e2">vvt1_pin_mask</a></td></tr>
-<tr class="separator:a00a8eada7535dda9542153f2da0f07e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14a6fdaf4d19e20b90ea4d00a65a1c61" id="r_a14a6fdaf4d19e20b90ea4d00a65a1c61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a14a6fdaf4d19e20b90ea4d00a65a1c61">vvt2_pin_port</a></td></tr>
-<tr class="separator:a14a6fdaf4d19e20b90ea4d00a65a1c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aed29f2473ea3e60971657ff0751335" id="r_a8aed29f2473ea3e60971657ff0751335"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a8aed29f2473ea3e60971657ff0751335">vvt2_pin_mask</a></td></tr>
-<tr class="separator:a8aed29f2473ea3e60971657ff0751335"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd7fc3d9d6c0cd2c485a23f9d48348ff" id="r_afd7fc3d9d6c0cd2c485a23f9d48348ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#afd7fc3d9d6c0cd2c485a23f9d48348ff">fan_pin_port</a></td></tr>
-<tr class="separator:afd7fc3d9d6c0cd2c485a23f9d48348ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a9192281ac01fa12e82829b6fce4406" id="r_a7a9192281ac01fa12e82829b6fce4406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a7a9192281ac01fa12e82829b6fce4406">fan_pin_mask</a></td></tr>
-<tr class="separator:a7a9192281ac01fa12e82829b6fce4406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f486b7f70d846017890618c3a046e2a" id="r_a3f486b7f70d846017890618c3a046e2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#a3f486b7f70d846017890618c3a046e2a">vvt_pwm_max_count</a></td></tr>
 <tr class="separator:a3f486b7f70d846017890618c3a046e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4a9fd24e32f7d18447906fb4a8f3857" id="r_ac4a9fd24e32f7d18447906fb4a8f3857"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="auxiliaries_8h.html#ac4a9fd24e32f7d18447906fb4a8f3857">boost_pwm_max_count</a></td></tr>
 <tr class="separator:ac4a9fd24e32f7d18447906fb4a8f3857"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a324fc81f622ae8b9d9903890fc75f8a4" name="a324fc81f622ae8b9d9903890fc75f8a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a324fc81f622ae8b9d9903890fc75f8a4">&#9670;&#160;</a></span>AIRCON_FAN_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_FAN_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConFanPol)==1)) ? <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>()); currentStatus.airconFanOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca30d2747e09e201ff1652a7a31e929d" name="aca30d2747e09e201ff1652a7a31e929d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca30d2747e09e201ff1652a7a31e929d">&#9670;&#160;</a></span>AIRCON_FAN_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_FAN_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConFanPol)==1)) ? <a class="el" href="auxiliaries_8h.html#af56d1a3ffff4354fbb52be5175f03cfa">AIRCON_FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#afbab5e1d1d303c399113aa86e06c391e">AIRCON_FAN_PIN_HIGH</a>()); currentStatus.airconFanOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afbab5e1d1d303c399113aa86e06c391e" name="afbab5e1d1d303c399113aa86e06c391e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbab5e1d1d303c399113aa86e06c391e">&#9670;&#160;</a></span>AIRCON_FAN_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_FAN_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a01a121306a6eadcf874e38f6198e8a0b">aircon_fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#ab5061fa2ca13450ddeaa54c7beaeb6e4">aircon_fan_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af56d1a3ffff4354fbb52be5175f03cfa" name="af56d1a3ffff4354fbb52be5175f03cfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af56d1a3ffff4354fbb52be5175f03cfa">&#9670;&#160;</a></span>AIRCON_FAN_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_FAN_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a01a121306a6eadcf874e38f6198e8a0b">aircon_fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#ab5061fa2ca13450ddeaa54c7beaeb6e4">aircon_fan_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5cf46d7c63d07ad35c4e3bdcf436dc16" name="a5cf46d7c63d07ad35c4e3bdcf436dc16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cf46d7c63d07ad35c4e3bdcf436dc16">&#9670;&#160;</a></span>AIRCON_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConCompPol)==1)) ? <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>()); currentStatus.airconCompressorOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab5110a271a05002e0b85fde85c36917f" name="ab5110a271a05002e0b85fde85c36917f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5110a271a05002e0b85fde85c36917f">&#9670;&#160;</a></span>AIRCON_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((((configPage15.airConCompPol)==1)) ? <a class="el" href="auxiliaries_8h.html#a047ddda83ce9c47e85d516b16e67b1d3">AIRCON_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#ac432aa21204f7c29b055fece01170f2c">AIRCON_PIN_HIGH</a>()); currentStatus.airconCompressorOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>; }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac432aa21204f7c29b055fece01170f2c" name="ac432aa21204f7c29b055fece01170f2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac432aa21204f7c29b055fece01170f2c">&#9670;&#160;</a></span>AIRCON_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a6e6e73d655b9972d29f84465df596168">aircon_comp_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a7f9ed315e2a5097adbceababea50865b">aircon_comp_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a047ddda83ce9c47e85d516b16e67b1d3" name="a047ddda83ce9c47e85d516b16e67b1d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a047ddda83ce9c47e85d516b16e67b1d3">&#9670;&#160;</a></span>AIRCON_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> AIRCON_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#a6e6e73d655b9972d29f84465df596168">aircon_comp_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a7f9ed315e2a5097adbceababea50865b">aircon_comp_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a6862c54b02337874d3af744eddde8a" name="a0a6862c54b02337874d3af744eddde8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a6862c54b02337874d3af744eddde8a">&#9670;&#160;</a></span>BOOST_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> BOOST_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae514df3ed28c6d74bb4e2ca761f4477c">boost_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a885685f8a01c572eafdc23841d467751">boost_pin_mask</a>);  }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a79525827fea86f89b88f822a8d97349b" name="a79525827fea86f89b88f822a8d97349b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79525827fea86f89b88f822a8d97349b">&#9670;&#160;</a></span>BOOST_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> BOOST_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#ae514df3ed28c6d74bb4e2ca761f4477c">boost_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a885685f8a01c572eafdc23841d467751">boost_pin_mask</a>); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2aa0f0bf8f39de92f6b85b9976fbfbef" name="a2aa0f0bf8f39de92f6b85b9976fbfbef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa0f0bf8f39de92f6b85b9976fbfbef">&#9670;&#160;</a></span>FAN_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FAN_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>() : <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>()); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab55b7b24ff068319d2661b3e223f8efe" name="ab55b7b24ff068319d2661b3e223f8efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab55b7b24ff068319d2661b3e223f8efe">&#9670;&#160;</a></span>FAN_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FAN_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { ((configPage6.fanInv) ? <a class="el" href="auxiliaries_8h.html#ae6c6014d5b89fa6a7df5608ae9ef71b0">FAN_PIN_LOW</a>() : <a class="el" href="auxiliaries_8h.html#a6dddab3a7a6c1887e7d71f76a8ce641f">FAN_PIN_HIGH</a>()); }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6dddab3a7a6c1887e7d71f76a8ce641f" name="a6dddab3a7a6c1887e7d71f76a8ce641f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dddab3a7a6c1887e7d71f76a8ce641f">&#9670;&#160;</a></span>FAN_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FAN_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff">fan_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406">fan_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae6c6014d5b89fa6a7df5608ae9ef71b0" name="ae6c6014d5b89fa6a7df5608ae9ef71b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6c6014d5b89fa6a7df5608ae9ef71b0">&#9670;&#160;</a></span>FAN_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FAN_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="auxiliaries_8cpp.html#afd7fc3d9d6c0cd2c485a23f9d48348ff">fan_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a7a9192281ac01fa12e82829b6fce4406">fan_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0aa02de5f4812b05badb756031ef9423" name="a0aa02de5f4812b05badb756031ef9423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aa02de5f4812b05badb756031ef9423">&#9670;&#160;</a></span>FUEL_PUMP_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FUEL_PUMP_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a55c85d3b9bb607db8416de8b4c8751ee">pump_pin_port</a> &amp;= ~(<a class="el" href="globals_8cpp.html#a031731ecceb6c1b8c767d3bc159c67bc">pump_pin_mask</a>); currentStatus.fuelPumpOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>;   }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3f016ed83860c0188fab78d655997b6f" name="a3f016ed83860c0188fab78d655997b6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f016ed83860c0188fab78d655997b6f">&#9670;&#160;</a></span>FUEL_PUMP_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> FUEL_PUMP_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="globals_8cpp.html#a55c85d3b9bb607db8416de8b4c8751ee">pump_pin_port</a> |= (<a class="el" href="globals_8cpp.html#a031731ecceb6c1b8c767d3bc159c67bc">pump_pin_mask</a>);  currentStatus.fuelPumpOn = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a>;    }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abcd434b22b5dda07854165ae1f111e3f" name="abcd434b22b5dda07854165ae1f111e3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcd434b22b5dda07854165ae1f111e3f">&#9670;&#160;</a></span>N2O_STAGE1_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> N2O_STAGE1_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9162787e8235ac57cb26d1189656ccfd">n2o_stage1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#ab64ac396941fdb64ad2dda7c1abd524a">n2o_stage1_pin_mask</a>);   }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abac195731d91c8081203bc631c00e680" name="abac195731d91c8081203bc631c00e680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abac195731d91c8081203bc631c00e680">&#9670;&#160;</a></span>N2O_STAGE1_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> N2O_STAGE1_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a9162787e8235ac57cb26d1189656ccfd">n2o_stage1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#ab64ac396941fdb64ad2dda7c1abd524a">n2o_stage1_pin_mask</a>);  }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad32a9c226eea4c1504663f277e33843c" name="ad32a9c226eea4c1504663f277e33843c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad32a9c226eea4c1504663f277e33843c">&#9670;&#160;</a></span>N2O_STAGE2_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> N2O_STAGE2_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7c7f973dfbc5ce899d67856ad3f82f9f">n2o_stage2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a9cd21af70aba981db1a95d33a6808619">n2o_stage2_pin_mask</a>);   }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa70c9c52509bedbe1385830810e1fc15" name="aa70c9c52509bedbe1385830810e1fc15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa70c9c52509bedbe1385830810e1fc15">&#9670;&#160;</a></span>N2O_STAGE2_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> N2O_STAGE2_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a7c7f973dfbc5ce899d67856ad3f82f9f">n2o_stage2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a9cd21af70aba981db1a95d33a6808619">n2o_stage2_pin_mask</a>);  }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa319e9011ba23adbaec669b487182a22" name="aa319e9011ba23adbaec669b487182a22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa319e9011ba23adbaec669b487182a22">&#9670;&#160;</a></span>READ_N2O_ARM_PIN</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> READ_N2O_ARM_PIN</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((*<a class="el" href="auxiliaries_8cpp.html#a60c491c301c46b2d3013660658f2df08">n2o_arming_pin_port</a> &amp; <a class="el" href="auxiliaries_8cpp.html#acf0c77f954b6264ab0827a38474f6f63">n2o_arming_pin_mask</a>) ? <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">true</a> : <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">false</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7e97860f92291f8439b060e35c82a417" name="a7e97860f92291f8439b060e35c82a417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e97860f92291f8439b060e35c82a417">&#9670;&#160;</a></span>SIMPLE_BOOST_D</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> SIMPLE_BOOST_D&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af836c2282a1aa7edbae3cef8ae432bdb" name="af836c2282a1aa7edbae3cef8ae432bdb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af836c2282a1aa7edbae3cef8ae432bdb">&#9670;&#160;</a></span>SIMPLE_BOOST_I</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> SIMPLE_BOOST_I&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f143e315acc65b79c5267d6e5bc7be7" name="a9f143e315acc65b79c5267d6e5bc7be7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f143e315acc65b79c5267d6e5bc7be7">&#9670;&#160;</a></span>SIMPLE_BOOST_P</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> SIMPLE_BOOST_P&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a84593c8201d36c38c8a3acde758e8d65" name="a84593c8201d36c38c8a3acde758e8d65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84593c8201d36c38c8a3acde758e8d65">&#9670;&#160;</a></span>VVT1_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT1_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a74b403a7e2995335eca101cad5301a7b">vvt1_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a00a8eada7535dda9542153f2da0f07e2">vvt1_pin_mask</a>);    }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7cd387733b633ed6e8a3836f06a6edc5" name="a7cd387733b633ed6e8a3836f06a6edc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cd387733b633ed6e8a3836f06a6edc5">&#9670;&#160;</a></span>VVT1_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT1_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a74b403a7e2995335eca101cad5301a7b">vvt1_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a00a8eada7535dda9542153f2da0f07e2">vvt1_pin_mask</a>);   }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afa8ec4cff1410792abfae713385e0b88" name="afa8ec4cff1410792abfae713385e0b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa8ec4cff1410792abfae713385e0b88">&#9670;&#160;</a></span>VVT1_PIN_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT1_PIN_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a7cd387733b633ed6e8a3836f06a6edc5">VVT1_PIN_LOW</a>();</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9a459995728bbdd82cbf5bfcc2ef849b" name="a9a459995728bbdd82cbf5bfcc2ef849b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a459995728bbdd82cbf5bfcc2ef849b">&#9670;&#160;</a></span>VVT1_PIN_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT1_PIN_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a84593c8201d36c38c8a3acde758e8d65">VVT1_PIN_HIGH</a>();</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a44b598e2879e2664d728dc760bbcbbb1" name="a44b598e2879e2664d728dc760bbcbbb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44b598e2879e2664d728dc760bbcbbb1">&#9670;&#160;</a></span>VVT2_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT2_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a14a6fdaf4d19e20b90ea4d00a65a1c61">vvt2_pin_port</a> |= (<a class="el" href="auxiliaries_8cpp.html#a8aed29f2473ea3e60971657ff0751335">vvt2_pin_mask</a>);    }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8ee49347ad040c1ca90973604c66010" name="aa8ee49347ad040c1ca90973604c66010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8ee49347ad040c1ca90973604c66010">&#9670;&#160;</a></span>VVT2_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT2_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">ATOMIC</a>() { *<a class="el" href="auxiliaries_8cpp.html#a14a6fdaf4d19e20b90ea4d00a65a1c61">vvt2_pin_port</a> &amp;= ~(<a class="el" href="auxiliaries_8cpp.html#a8aed29f2473ea3e60971657ff0751335">vvt2_pin_mask</a>);   }</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0bda37c25813d19db23d98b456822093" name="a0bda37c25813d19db23d98b456822093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bda37c25813d19db23d98b456822093">&#9670;&#160;</a></span>VVT2_PIN_OFF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT2_PIN_OFF</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#aa8ee49347ad040c1ca90973604c66010">VVT2_PIN_LOW</a>();</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2fe8c3722b6ed2f4fa80ba8af587ea52" name="a2fe8c3722b6ed2f4fa80ba8af587ea52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fe8c3722b6ed2f4fa80ba8af587ea52">&#9670;&#160;</a></span>VVT2_PIN_ON</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT2_PIN_ON</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="auxiliaries_8h.html#a44b598e2879e2664d728dc760bbcbbb1">VVT2_PIN_HIGH</a>();</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a43224ff849b6d864064cb370f08e5bb5" name="a43224ff849b6d864064cb370f08e5bb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43224ff849b6d864064cb370f08e5bb5">&#9670;&#160;</a></span>VVT_TIME_DELAY_MULTIPLIER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> VVT_TIME_DELAY_MULTIPLIER&#160;&#160;&#160;50</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ccd4b82b14cc4f65e49c4e69bb4e900" name="a1ccd4b82b14cc4f65e49c4e69bb4e900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ccd4b82b14cc4f65e49c4e69bb4e900">&#9670;&#160;</a></span>WMI_TANK_IS_EMPTY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> WMI_TANK_IS_EMPTY</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;((configPage10.wmiEmptyEnabled) ? ((configPage10.wmiEmptyPolarity) ? <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>) : !<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a8ab8128857677bc7fbe70b3762c5b970">pinWMIEmpty</a>)) : 1)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a58f86af765ce5549341e632ede751dc6" name="a58f86af765ce5549341e632ede751dc6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58f86af765ce5549341e632ede751dc6">&#9670;&#160;</a></span>airConControl()</h2>
@@ -820,7 +182,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="105,84,144,78,145,84,106,89"/>
 <area shape="rect" href="auxiliaries_8cpp.html#ab3f4b9089c3dadae7cbc6c86c7e00734" title=" " alt="" coords="162,104,330,130"/>
 <area shape="poly" title=" " alt="" coords="106,96,147,102,146,107,105,102"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a71e127d9c90e01249325907645be1554" title=" " alt="" coords="154,153,338,179"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a1b6eb4225df690f20a9d99ad0f8b4233" title=" " alt="" coords="154,153,338,179"/>
 <area shape="poly" title=" " alt="" coords="80,104,154,140,172,146,170,151,152,145,78,109"/>
 <area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="387,5,560,31"/>
 <area shape="poly" title=" " alt="" coords="339,16,371,16,371,21,339,21"/>
@@ -839,81 +201,6 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="auxiliaries_8h_a58f86af765ce5549341e632ede751dc6_icgraph.png" border="0" usemap="#aauxiliaries_8h_a58f86af765ce5549341e632ede751dc6_icgraph" alt=""/></div>
 <map name="aauxiliaries_8h_a58f86af765ce5549341e632ede751dc6_icgraph" id="aauxiliaries_8h_a58f86af765ce5549341e632ede751dc6_icgraph">
 <area shape="rect" title=" " alt="" coords="263,5,362,31"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="acb00e053aa3babe6f4157e8bdee64e07" name="acb00e053aa3babe6f4157e8bdee64e07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb00e053aa3babe6f4157e8bdee64e07">&#9670;&#160;</a></span>boostByGear()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> boostByGear </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_cgraph.png" border="0" usemap="#aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_cgraph" alt=""/></div>
-<map name="aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_cgraph" id="aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_cgraph">
-<area shape="rect" title=" " alt="" coords="5,107,102,132"/>
-<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="150,107,270,132"/>
-<area shape="poly" title=" " alt="" coords="102,117,134,117,134,122,102,122"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="694,56,791,82"/>
-<area shape="poly" title=" " alt="" coords="270,105,318,98,515,79,679,69,679,74,516,84,318,103,271,111"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1034,233,1204,259"/>
-<area shape="poly" title=" " alt="" coords="270,117,575,117,744,117,793,120,843,128,938,156,1021,191,1083,223,1081,228,1019,196,936,161,842,134,793,125,744,122,575,122,270,122"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="318,335,458,360"/>
-<area shape="poly" title=" " alt="" coords="223,131,369,321,365,324,219,134"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="852,5,974,31"/>
-<area shape="poly" title=" " alt="" coords="787,53,852,33,854,38,789,58"/>
-<area shape="poly" title=" " alt="" coords="791,63,834,63,885,68,938,79,988,98,1025,124,1058,156,1105,218,1100,222,1054,160,1022,128,985,103,936,84,884,73,834,69,791,68"/>
-<area shape="poly" title=" " alt="" coords="956,29,988,48,1028,89,1062,136,1108,218,1103,220,1058,139,1024,93,985,52,954,34"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1426,233,1519,259"/>
-<area shape="poly" title=" " alt="" coords="1204,244,1410,244,1410,249,1204,249"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1252,259,1378,284"/>
-<area shape="poly" title=" " alt="" coords="1204,254,1236,259,1236,264,1204,260"/>
-<area shape="poly" title=" " alt="" coords="1378,259,1410,253,1411,259,1379,264"/>
-<area shape="poly" title=" " alt="" coords="404,332,448,300,505,269,575,244,635,227,689,216,741,211,849,213,987,224,1027,228,1027,233,986,229,849,218,741,216,690,222,636,232,576,249,507,274,450,304,407,336"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="506,284,646,310"/>
-<area shape="poly" title=" " alt="" coords="438,331,511,312,512,317,439,337"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="839,360,986,386"/>
-<area shape="poly" title=" " alt="" coords="459,348,823,366,823,371,459,354"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="694,411,791,436"/>
-<area shape="poly" title=" " alt="" coords="421,359,461,375,507,389,596,406,679,416,678,421,596,412,506,394,459,380,419,363"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="534,461,618,487"/>
-<area shape="poly" title=" " alt="" coords="405,359,450,397,508,440,530,452,527,457,505,444,446,402,402,363"/>
-<area shape="poly" title=" " alt="" coords="622,281,693,264,766,250,839,244,931,240,1019,240,1019,246,931,245,839,249,766,256,694,269,624,286"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="868,259,958,284"/>
-<area shape="poly" title=" " alt="" coords="646,289,852,273,852,279,646,294"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="700,309,785,335"/>
-<area shape="poly" title=" " alt="" coords="647,305,685,311,684,316,646,310"/>
-<area shape="poly" title=" " alt="" coords="958,263,1019,256,1019,261,959,269"/>
-<area shape="poly" title=" " alt="" coords="785,318,878,312,986,294,1032,280,1075,263,1077,268,1034,285,987,299,879,317,786,324"/>
-<area shape="poly" title=" " alt="" coords="785,307,852,287,854,292,786,312"/>
-<area shape="poly" title=" " alt="" coords="947,357,985,339,1041,302,1088,267,1091,271,1044,307,988,343,949,362"/>
-<area shape="poly" title=" " alt="" coords="791,426,835,427,885,424,936,414,985,396,1023,369,1056,336,1082,301,1101,271,1106,274,1087,304,1060,339,1027,373,988,401,938,419,885,429,835,432,791,431"/>
-<area shape="poly" title=" " alt="" coords="619,478,692,485,787,485,838,479,889,470,939,454,985,432,1007,416,1028,398,1062,354,1088,310,1105,272,1110,275,1092,312,1066,357,1031,401,1011,420,988,436,941,459,890,475,839,485,787,490,692,490,618,483"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="auxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_icgraph.png" border="0" usemap="#aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_icgraph" alt=""/></div>
-<map name="aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_icgraph" id="aauxiliaries_8h_acb00e053aa3babe6f4157e8bdee64e07_icgraph">
-<area shape="rect" title=" " alt="" coords="405,5,501,31"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="263,5,357,31"/>
-<area shape="poly" title=" " alt="" coords="389,21,358,21,358,16,389,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
 </map>
@@ -942,7 +229,7 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="auxiliaries_8h_a5a0f5572764df70b61f5a912d5e0b60a_cgraph.png" border="0" usemap="#aauxiliaries_8h_a5a0f5572764df70b61f5a912d5e0b60a_cgraph" alt=""/></div>
 <map name="aauxiliaries_8h_a5a0f5572764df70b61f5a912d5e0b60a_cgraph" id="aauxiliaries_8h_a5a0f5572764df70b61f5a912d5e0b60a_cgraph">
 <area shape="rect" title=" " alt="" coords="5,235,100,260"/>
-<area shape="rect" href="auxiliaries_8cpp.html#acb00e053aa3babe6f4157e8bdee64e07" title=" " alt="" coords="166,133,262,159"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a2e9a2f41544deb079bda15a534b0cbe7" title=" " alt="" coords="166,133,262,159"/>
 <area shape="poly" title=" " alt="" coords="68,232,146,176,168,164,170,169,149,180,71,236"/>
 <area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="330,133,450,159"/>
 <area shape="poly" title=" " alt="" coords="97,231,329,161,330,167,99,237"/>
@@ -1073,25 +360,29 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="auxiliaries_8h_a7a7fa820002b4c6e9f4ac04bb0594c52_cgraph.png" border="0" usemap="#aauxiliaries_8h_a7a7fa820002b4c6e9f4ac04bb0594c52_cgraph" alt=""/></div>
 <map name="aauxiliaries_8h_a7a7fa820002b4c6e9f4ac04bb0594c52_cgraph" id="aauxiliaries_8h_a7a7fa820002b4c6e9f4ac04bb0594c52_cgraph">
-<area shape="rect" title=" " alt="" coords="5,80,86,106"/>
-<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="166,5,275,31"/>
-<area shape="poly" title=" " alt="" coords="65,77,96,58,133,40,151,33,153,38,135,45,99,63,68,82"/>
-<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="159,55,282,80"/>
-<area shape="poly" title=" " alt="" coords="86,84,143,76,144,81,87,90"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="146,104,295,130"/>
-<area shape="poly" title=" " alt="" coords="87,96,131,102,130,107,86,101"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="134,153,307,179"/>
-<area shape="poly" title=" " alt="" coords="68,104,135,140,150,146,148,151,133,145,66,109"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="355,80,524,106"/>
-<area shape="poly" title=" " alt="" coords="273,29,308,40,393,71,391,76,306,45,272,34"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="747,80,840,106"/>
-<area shape="poly" title=" " alt="" coords="525,90,731,90,731,96,525,96"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="572,105,699,131"/>
-<area shape="poly" title=" " alt="" coords="525,101,557,105,556,111,524,106"/>
-<area shape="poly" title=" " alt="" coords="699,105,731,100,731,105,699,111"/>
-<area shape="poly" title=" " alt="" coords="283,72,340,79,339,84,282,77"/>
-<area shape="poly" title=" " alt="" coords="295,106,339,101,340,106,295,111"/>
-<area shape="poly" title=" " alt="" coords="271,150,306,140,390,109,392,114,308,145,273,155"/>
+<area shape="rect" title=" " alt="" coords="5,129,86,155"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a2af8d235f81b57883354f595a4428039" title=" " alt="" coords="192,5,249,31"/>
+<area shape="poly" title=" " alt="" coords="52,127,84,84,106,60,132,40,154,29,176,22,177,28,156,34,135,44,110,64,88,88,57,131"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a43048b580fb5e41fe30c4441df6bb081" title=" " alt="" coords="192,55,249,80"/>
+<area shape="poly" title=" " alt="" coords="65,127,96,107,133,89,176,74,178,79,135,94,99,112,68,131"/>
+<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="166,104,275,130"/>
+<area shape="poly" title=" " alt="" coords="86,134,151,124,152,129,87,139"/>
+<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="159,153,282,179"/>
+<area shape="poly" title=" " alt="" coords="87,145,144,153,143,158,86,150"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="146,203,295,228"/>
+<area shape="poly" title=" " alt="" coords="68,153,135,189,150,195,148,200,133,194,66,158"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="134,252,307,278"/>
+<area shape="poly" title=" " alt="" coords="57,154,88,196,110,219,135,239,143,243,140,248,132,243,106,223,84,199,53,157"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="355,179,524,204"/>
+<area shape="poly" title=" " alt="" coords="273,128,308,138,393,170,391,175,306,143,272,133"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="747,179,840,204"/>
+<area shape="poly" title=" " alt="" coords="525,189,731,189,731,194,525,194"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="572,204,699,230"/>
+<area shape="poly" title=" " alt="" coords="525,200,557,204,556,209,524,205"/>
+<area shape="poly" title=" " alt="" coords="699,204,731,199,731,204,699,209"/>
+<area shape="poly" title=" " alt="" coords="283,171,340,177,339,183,282,176"/>
+<area shape="poly" title=" " alt="" coords="295,205,339,200,340,205,295,210"/>
+<area shape="poly" title=" " alt="" coords="271,249,306,238,390,208,392,213,308,243,273,254"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1102,6 +393,148 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="159,5,239,31"/>
 <area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
 <area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2af8d235f81b57883354f595a4428039" name="a2af8d235f81b57883354f595a4428039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af8d235f81b57883354f595a4428039">&#9670;&#160;</a></span>fanOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> fanOff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a2af8d235f81b57883354f595a4428039_icgraph.png" border="0" usemap="#aauxiliaries_8h_a2af8d235f81b57883354f595a4428039_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a2af8d235f81b57883354f595a4428039_icgraph" id="aauxiliaries_8h_a2af8d235f81b57883354f595a4428039_icgraph">
+<area shape="rect" title=" " alt="" coords="517,55,574,80"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="260,5,469,31"/>
+<area shape="poly" title=" " alt="" coords="502,55,469,45,428,34,429,29,470,40,503,50"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a7a7fa820002b4c6e9f4ac04bb0594c52" title=" " alt="" coords="325,55,405,80"/>
+<area shape="poly" title=" " alt="" coords="502,70,405,70,405,65,502,65"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a4215cbb8ad0ff06a97bb192a1d01291c" title=" " alt="" coords="320,104,410,130"/>
+<area shape="poly" title=" " alt="" coords="503,85,470,95,411,110,410,105,469,90,502,80"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="107,55,212,80"/>
+<area shape="poly" title=" " alt="" coords="309,70,213,70,213,65,309,65"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="118,104,201,130"/>
+<area shape="poly" title=" " alt="" coords="304,120,202,120,202,114,304,114"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,104,59,130"/>
+<area shape="poly" title=" " alt="" coords="102,120,59,120,59,114,102,114"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a43048b580fb5e41fe30c4441df6bb081" name="a43048b580fb5e41fe30c4441df6bb081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43048b580fb5e41fe30c4441df6bb081">&#9670;&#160;</a></span>fanOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> fanOn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a43048b580fb5e41fe30c4441df6bb081_icgraph.png" border="0" usemap="#aauxiliaries_8h_a43048b580fb5e41fe30c4441df6bb081_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a43048b580fb5e41fe30c4441df6bb081_icgraph" id="aauxiliaries_8h_a43048b580fb5e41fe30c4441df6bb081_icgraph">
+<area shape="rect" title=" " alt="" coords="287,5,343,31"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a7a7fa820002b4c6e9f4ac04bb0594c52" title=" " alt="" coords="159,5,239,31"/>
+<area shape="poly" title=" " alt="" coords="272,21,239,21,239,16,272,16"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="5,5,111,31"/>
+<area shape="poly" title=" " alt="" coords="143,21,111,21,111,16,143,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a894823fa4324bab89cfed18eef404407" name="a894823fa4324bab89cfed18eef404407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894823fa4324bab89cfed18eef404407">&#9670;&#160;</a></span>fuelPumpOff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> fuelPumpOff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a894823fa4324bab89cfed18eef404407_icgraph.png" border="0" usemap="#aauxiliaries_8h_a894823fa4324bab89cfed18eef404407_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a894823fa4324bab89cfed18eef404407_icgraph" id="aauxiliaries_8h_a894823fa4324bab89cfed18eef404407_icgraph">
+<area shape="rect" title=" " alt="" coords="495,55,589,80"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="238,5,447,31"/>
+<area shape="poly" title=" " alt="" coords="479,53,447,45,403,34,404,29,448,40,481,48"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a7e45c4633a09456ce3fed08950643583" title=" " alt="" coords="279,55,406,80"/>
+<area shape="poly" title=" " alt="" coords="480,70,407,70,407,65,480,65"/>
+<area shape="rect" href="timers_8cpp.html#afd0a7412c083cf45e1bb1bf7c3fa8d0f" title=" " alt="" coords="290,104,395,130"/>
+<area shape="poly" title=" " alt="" coords="481,87,448,95,396,108,395,103,447,90,479,82"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,55,190,80"/>
+<area shape="poly" title=" " alt="" coords="263,70,190,70,190,65,263,65"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
+<area shape="poly" title=" " alt="" coords="91,70,59,70,59,65,91,65"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a01a13813e0403383a0a3115c44ca7a38" name="a01a13813e0403383a0a3115c44ca7a38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a13813e0403383a0a3115c44ca7a38">&#9670;&#160;</a></span>fuelPumpOn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> fuelPumpOn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a01a13813e0403383a0a3115c44ca7a38_icgraph.png" border="0" usemap="#aauxiliaries_8h_a01a13813e0403383a0a3115c44ca7a38_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a01a13813e0403383a0a3115c44ca7a38_icgraph" id="aauxiliaries_8h_a01a13813e0403383a0a3115c44ca7a38_icgraph">
+<area shape="rect" title=" " alt="" coords="621,55,715,80"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="364,5,573,31"/>
+<area shape="poly" title=" " alt="" coords="605,53,573,45,529,34,530,29,574,40,607,48"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a7e45c4633a09456ce3fed08950643583" title=" " alt="" coords="405,55,532,80"/>
+<area shape="poly" title=" " alt="" coords="606,70,533,70,533,65,606,65"/>
+<area shape="rect" href="sensors_8cpp.html#a3eaeaee626935ce5b1ac29871ea6bcdc" title=" " alt="" coords="436,104,502,130"/>
+<area shape="poly" title=" " alt="" coords="607,87,574,95,503,112,502,107,573,90,605,82"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,55,253,80"/>
+<area shape="poly" title=" " alt="" coords="390,70,253,70,253,65,390,65"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
+<area shape="poly" title=" " alt="" coords="154,70,59,70,59,65,154,65"/>
+<area shape="rect" href="sensors_8cpp.html#a8b017fd1fb806d6c5afdd35ba6d68cc4" title=" " alt="" coords="107,104,316,130"/>
+<area shape="poly" title=" " alt="" coords="420,120,316,120,316,114,420,114"/>
 </map>
 </div>
 
@@ -1122,6 +555,34 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a19ec030ab7936ea3c9e64e737fec6942_cgraph.png" border="0" usemap="#aauxiliaries_8h_a19ec030ab7936ea3c9e64e737fec6942_cgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a19ec030ab7936ea3c9e64e737fec6942_cgraph" id="aauxiliaries_8h_a19ec030ab7936ea3c9e64e737fec6942_cgraph">
+<area shape="rect" title=" " alt="" coords="5,104,113,130"/>
+<area shape="rect" href="auxiliaries_8cpp.html#adef4f37952de3e96451913db8f90ca87" title=" " alt="" coords="161,5,327,31"/>
+<area shape="poly" title=" " alt="" coords="73,101,111,71,159,40,172,34,174,39,162,45,114,75,77,105"/>
+<area shape="rect" href="auxiliaries_8cpp.html#ab64032452e71213d1eafe028d9590650" title=" " alt="" coords="185,55,303,80"/>
+<area shape="poly" title=" " alt="" coords="109,101,178,82,179,87,111,106"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a9e283361febb86c2d85b26a2ef70a76e" title=" " alt="" coords="172,104,316,130"/>
+<area shape="poly" title=" " alt="" coords="113,114,156,114,156,120,113,120"/>
+<area shape="rect" href="globals_8cpp.html#a60110b76a861e7bdea2683562f6c6314" title=" " alt="" coords="200,205,288,231"/>
+<area shape="poly" title=" " alt="" coords="79,128,116,155,162,184,190,197,188,202,159,189,113,160,75,132"/>
+<area shape="rect" href="board__avr2560_8h.html#a5307fe59275e346f25160482664dca2f" title=" " alt="" coords="412,155,516,180"/>
+<area shape="poly" title=" " alt="" coords="108,128,161,140,286,155,396,162,396,168,285,160,160,145,106,133"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a2ec1d7ad37cbe79b613aba50f46dfc2e" title=" " alt="" coords="375,104,552,130"/>
+<area shape="poly" title=" " alt="" coords="316,114,359,114,359,120,316,120"/>
+<area shape="poly" title=" " alt="" coords="288,205,396,180,397,185,289,211"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="379,205,548,231"/>
+<area shape="poly" title=" " alt="" coords="289,216,363,216,363,221,289,221"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="775,205,868,231"/>
+<area shape="poly" title=" " alt="" coords="549,216,759,216,759,221,549,221"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="600,231,727,256"/>
+<area shape="poly" title=" " alt="" coords="549,226,585,231,585,236,548,232"/>
+<area shape="poly" title=" " alt="" coords="727,231,759,225,759,231,727,236"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1157,16 +618,28 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="auxiliaries_8h_ab83a8ef510eb3cc0099d005b4647d8f1_cgraph.png" border="0" usemap="#aauxiliaries_8h_ab83a8ef510eb3cc0099d005b4647d8f1_cgraph" alt=""/></div>
 <map name="aauxiliaries_8h_ab83a8ef510eb3cc0099d005b4647d8f1_cgraph" id="aauxiliaries_8h_ab83a8ef510eb3cc0099d005b4647d8f1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,128,31"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="176,5,349,31"/>
-<area shape="poly" title=" " alt="" coords="128,16,160,16,160,21,128,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="397,5,566,31"/>
-<area shape="poly" title=" " alt="" coords="349,16,381,16,381,21,349,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="789,5,882,31"/>
-<area shape="poly" title=" " alt="" coords="567,16,773,16,773,21,567,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="614,31,741,56"/>
-<area shape="poly" title=" " alt="" coords="567,26,599,31,598,36,566,32"/>
-<area shape="poly" title=" " alt="" coords="741,31,773,25,773,31,741,36"/>
+<area shape="rect" title=" " alt="" coords="5,105,128,131"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a1c1d12ac8e29ebffd82d9ab0d3dcf979" title=" " alt="" coords="203,31,322,56"/>
+<area shape="poly" title=" " alt="" coords="92,102,175,65,193,59,195,64,177,70,94,107"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a64606632f2b56a7add0aa454d5a8b7a7" title=" " alt="" coords="205,80,320,106"/>
+<area shape="poly" title=" " alt="" coords="128,108,189,100,190,105,128,113"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a73c46ab98cd8b26f8e0b3709d0745baf" title=" " alt="" coords="202,129,323,155"/>
+<area shape="poly" title=" " alt="" coords="128,123,187,130,186,136,128,128"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="176,179,349,204"/>
+<area shape="poly" title=" " alt="" coords="95,129,177,165,195,171,193,176,175,170,93,134"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a0b200c2c053ba4b7583c7312330bc751" title=" " alt="" coords="414,31,549,56"/>
+<area shape="poly" title=" " alt="" coords="322,41,399,41,399,46,322,46"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abcc26b872322445179253c834230007d" title=" " alt="" coords="614,5,764,31"/>
+<area shape="poly" title=" " alt="" coords="549,33,598,27,599,32,550,38"/>
+<area shape="rect" href="board__avr2560_8h.html#a5307fe59275e346f25160482664dca2f" title=" " alt="" coords="637,55,741,80"/>
+<area shape="poly" title=" " alt="" coords="550,49,622,57,621,62,549,54"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="397,179,566,204"/>
+<area shape="poly" title=" " alt="" coords="349,189,381,189,381,194,349,194"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="812,179,905,204"/>
+<area shape="poly" title=" " alt="" coords="567,189,796,189,796,194,567,194"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="626,204,752,230"/>
+<area shape="poly" title=" " alt="" coords="567,199,611,205,610,210,567,205"/>
+<area shape="poly" title=" " alt="" coords="752,205,796,198,796,203,753,210"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1184,8 +657,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2b60d5ba0ad70076c7a7d813a995f7a7" name="a2b60d5ba0ad70076c7a7d813a995f7a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b60d5ba0ad70076c7a7d813a995f7a7">&#9670;&#160;</a></span>initialiseFan()</h2>
+<a id="a4215cbb8ad0ff06a97bb192a1d01291c" name="a4215cbb8ad0ff06a97bb192a1d01291c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4215cbb8ad0ff06a97bb192a1d01291c">&#9670;&#160;</a></span>initialiseFan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1193,20 +666,86 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> initialiseFan </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>fanPin</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_cgraph.png" border="0" usemap="#aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_cgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_cgraph" id="aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_cgraph">
+<area shape="rect" title=" " alt="" coords="5,31,96,56"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a2af8d235f81b57883354f595a4428039" title=" " alt="" coords="170,5,227,31"/>
+<area shape="poly" title=" " alt="" coords="96,33,155,23,156,28,97,38"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abcd4958de485dd5b6fba4d63251bfcbd" title=" " alt="" coords="144,55,253,80"/>
+<area shape="poly" title=" " alt="" coords="97,48,129,54,128,59,96,53"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="auxiliaries_8h_a2b60d5ba0ad70076c7a7d813a995f7a7_icgraph.png" border="0" usemap="#aauxiliaries_8h_a2b60d5ba0ad70076c7a7d813a995f7a7_icgraph" alt=""/></div>
-<map name="aauxiliaries_8h_a2b60d5ba0ad70076c7a7d813a995f7a7_icgraph" id="aauxiliaries_8h_a2b60d5ba0ad70076c7a7d813a995f7a7_icgraph">
+<div class="center"><img src="auxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_icgraph.png" border="0" usemap="#aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_icgraph" id="aauxiliaries_8h_a4215cbb8ad0ff06a97bb192a1d01291c_icgraph">
 <area shape="rect" title=" " alt="" coords="238,5,328,31"/>
 <area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
 <area shape="poly" title=" " alt="" coords="222,21,191,21,191,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7e45c4633a09456ce3fed08950643583" name="a7e45c4633a09456ce3fed08950643583"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e45c4633a09456ce3fed08950643583">&#9670;&#160;</a></span>initialiseFuelPump()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> initialiseFuelPump </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>pumpPin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a7e45c4633a09456ce3fed08950643583_cgraph.png" border="0" usemap="#aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_cgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_cgraph" id="aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_cgraph">
+<area shape="rect" title=" " alt="" coords="5,55,133,80"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a894823fa4324bab89cfed18eef404407" title=" " alt="" coords="195,5,288,31"/>
+<area shape="poly" title=" " alt="" coords="116,51,179,33,180,38,117,57"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a01a13813e0403383a0a3115c44ca7a38" title=" " alt="" coords="195,55,288,80"/>
+<area shape="poly" title=" " alt="" coords="133,65,179,65,179,70,133,70"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a003e6c44c685084f39ee26ebf7da1929" title=" " alt="" coords="181,104,302,130"/>
+<area shape="poly" title=" " alt="" coords="117,78,180,97,178,102,116,84"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a7e45c4633a09456ce3fed08950643583_icgraph.png" border="0" usemap="#aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_icgraph" id="aauxiliaries_8h_a7e45c4633a09456ce3fed08950643583_icgraph">
+<area shape="rect" title=" " alt="" coords="238,5,365,31"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="223,21,190,21,190,16,223,16"/>
 <area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
 <area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
 </map>
@@ -1259,14 +798,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a71e127d9c90e01249325907645be1554" name="a71e127d9c90e01249325907645be1554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71e127d9c90e01249325907645be1554">&#9670;&#160;</a></span>READ_AIRCON_REQUEST()</h2>
+<a id="a3b868a82e65d41894387fadfbf60ffbe" name="a3b868a82e65d41894387fadfbf60ffbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b868a82e65d41894387fadfbf60ffbe">&#9670;&#160;</a></span>vvt1Off()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> READ_AIRCON_REQUEST </td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> vvt1Off </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1277,13 +816,119 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="auxiliaries_8h_a71e127d9c90e01249325907645be1554_icgraph.png" border="0" usemap="#aauxiliaries_8h_a71e127d9c90e01249325907645be1554_icgraph" alt=""/></div>
-<map name="aauxiliaries_8h_a71e127d9c90e01249325907645be1554_icgraph" id="aauxiliaries_8h_a71e127d9c90e01249325907645be1554_icgraph">
-<area shape="rect" title=" " alt="" coords="410,5,593,31"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a58f86af765ce5549341e632ede751dc6" title=" " alt="" coords="263,5,362,31"/>
-<area shape="poly" title=" " alt="" coords="394,21,362,21,362,16,394,16"/>
+<div class="center"><img src="auxiliaries_8h_a3b868a82e65d41894387fadfbf60ffbe_icgraph.png" border="0" usemap="#aauxiliaries_8h_a3b868a82e65d41894387fadfbf60ffbe_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a3b868a82e65d41894387fadfbf60ffbe_icgraph" id="aauxiliaries_8h_a3b868a82e65d41894387fadfbf60ffbe_icgraph">
+<area shape="rect" title=" " alt="" coords="398,31,461,56"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
+<area shape="poly" title=" " alt="" coords="383,29,350,21,282,14,215,14,215,8,282,9,350,16,384,24"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="266,31,347,56"/>
+<area shape="poly" title=" " alt="" coords="383,46,347,46,347,41,383,41"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6" title=" " alt="" coords="263,80,350,106"/>
+<area shape="poly" title=" " alt="" coords="385,64,342,82,340,77,383,59"/>
+<area shape="poly" title=" " alt="" coords="250,39,214,34,215,29,251,34"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abbe67a8f6346ad928fc4ef4b7698d5d0" name="abbe67a8f6346ad928fc4ef4b7698d5d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbe67a8f6346ad928fc4ef4b7698d5d0">&#9670;&#160;</a></span>vvt1On()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> vvt1On </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_abbe67a8f6346ad928fc4ef4b7698d5d0_icgraph.png" border="0" usemap="#aauxiliaries_8h_abbe67a8f6346ad928fc4ef4b7698d5d0_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_abbe67a8f6346ad928fc4ef4b7698d5d0_icgraph" id="aauxiliaries_8h_abbe67a8f6346ad928fc4ef4b7698d5d0_icgraph">
+<area shape="rect" title=" " alt="" coords="398,31,461,56"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="266,5,347,31"/>
+<area shape="poly" title=" " alt="" coords="382,37,346,29,347,24,383,31"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6" title=" " alt="" coords="263,55,350,80"/>
+<area shape="poly" title=" " alt="" coords="383,55,351,62,350,56,382,50"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
+<area shape="poly" title=" " alt="" coords="251,21,215,21,215,16,251,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a99b3bb1583e75dfe6fe5c10e0da07154" name="a99b3bb1583e75dfe6fe5c10e0da07154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99b3bb1583e75dfe6fe5c10e0da07154">&#9670;&#160;</a></span>vvt2Off()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> vvt2Off </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a99b3bb1583e75dfe6fe5c10e0da07154_icgraph.png" border="0" usemap="#aauxiliaries_8h_a99b3bb1583e75dfe6fe5c10e0da07154_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a99b3bb1583e75dfe6fe5c10e0da07154_icgraph" id="aauxiliaries_8h_a99b3bb1583e75dfe6fe5c10e0da07154_icgraph">
+<area shape="rect" title=" " alt="" coords="398,53,461,78"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,27,215,53"/>
+<area shape="poly" title=" " alt="" coords="400,45,376,29,349,17,297,9,243,11,193,19,152,29,150,24,192,13,243,5,297,4,351,12,379,25,403,41"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="266,27,347,53"/>
+<area shape="poly" title=" " alt="" coords="382,59,346,51,347,46,383,53"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6" title=" " alt="" coords="263,77,350,102"/>
+<area shape="poly" title=" " alt="" coords="383,77,351,84,350,78,382,72"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="263,126,350,152"/>
+<area shape="poly" title=" " alt="" coords="396,89,351,117,333,128,330,123,349,113,394,85"/>
+<area shape="poly" title=" " alt="" coords="251,43,215,43,215,38,251,38"/>
+<area shape="poly" title=" " alt="" coords="264,121,136,56,139,51,266,116"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abaaf20bf07f7b0bba2a6e6b869dbf44f" name="abaaf20bf07f7b0bba2a6e6b869dbf44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaaf20bf07f7b0bba2a6e6b869dbf44f">&#9670;&#160;</a></span>vvt2On()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> vvt2On </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_abaaf20bf07f7b0bba2a6e6b869dbf44f_icgraph.png" border="0" usemap="#aauxiliaries_8h_abaaf20bf07f7b0bba2a6e6b869dbf44f_icgraph" alt=""/></div>
+<map name="aauxiliaries_8h_abaaf20bf07f7b0bba2a6e6b869dbf44f_icgraph" id="aauxiliaries_8h_abaaf20bf07f7b0bba2a6e6b869dbf44f_icgraph">
+<area shape="rect" title=" " alt="" coords="398,55,461,80"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="266,5,347,31"/>
+<area shape="poly" title=" " alt="" coords="383,52,340,34,342,29,385,47"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3817295e5731ea49e9a80753667121d6" title=" " alt="" coords="263,55,350,80"/>
+<area shape="poly" title=" " alt="" coords="383,70,350,70,350,65,383,65"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="263,104,350,130"/>
+<area shape="poly" title=" " alt="" coords="385,88,342,106,340,101,383,83"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,55,215,80"/>
+<area shape="poly" title=" " alt="" coords="252,35,165,57,163,51,250,29"/>
+<area shape="poly" title=" " alt="" coords="248,105,163,84,165,78,249,100"/>
 </map>
 </div>
 
@@ -1309,21 +954,29 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="auxiliaries_8h_a54b5c6c7b15d2bc4dbaa41170f21290f_cgraph.png" border="0" usemap="#aauxiliaries_8h_a54b5c6c7b15d2bc4dbaa41170f21290f_cgraph" alt=""/></div>
 <map name="aauxiliaries_8h_a54b5c6c7b15d2bc4dbaa41170f21290f_cgraph" id="aauxiliaries_8h_a54b5c6c7b15d2bc4dbaa41170f21290f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,601,86,627"/>
-<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="134,208,254,234"/>
-<area shape="poly" title=" " alt="" coords="49,600,180,247,185,249,54,602"/>
+<area shape="rect" title=" " alt="" coords="5,727,86,752"/>
+<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="134,184,254,210"/>
+<area shape="poly" title=" " alt="" coords="48,725,182,224,187,226,53,727"/>
 <area shape="rect" href="group__miata__99__05.html#gaba68839972037b8043adf7af465f98bb" title=" " alt="" coords="719,569,885,595"/>
-<area shape="poly" title=" " alt="" coords="86,610,703,584,703,589,86,615"/>
-<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="140,651,248,676"/>
-<area shape="poly" title=" " alt="" coords="87,625,140,643,138,648,85,630"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="302,713,475,739"/>
-<area shape="poly" title=" " alt="" coords="60,625,91,657,112,673,135,686,172,700,210,711,287,722,286,727,209,716,170,705,133,691,109,678,88,661,56,629"/>
+<area shape="poly" title=" " alt="" coords="61,724,93,700,133,677,206,648,283,626,361,608,439,595,584,581,703,577,704,583,585,586,440,601,362,613,284,631,208,653,135,682,96,704,64,728"/>
+<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="335,651,443,676"/>
+<area shape="poly" title=" " alt="" coords="84,723,133,709,230,687,319,671,320,677,231,693,134,714,86,729"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="302,707,475,732"/>
+<area shape="poly" title=" " alt="" coords="86,735,286,723,287,728,86,740"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3b868a82e65d41894387fadfbf60ffbe" title=" " alt="" coords="162,752,226,778"/>
+<area shape="poly" title=" " alt="" coords="87,744,147,754,147,760,86,749"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abbe67a8f6346ad928fc4ef4b7698d5d0" title=" " alt="" coords="162,801,226,827"/>
+<area shape="poly" title=" " alt="" coords="69,751,135,788,149,794,146,799,132,793,66,755"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a99b3bb1583e75dfe6fe5c10e0da07154" title=" " alt="" coords="162,851,226,876"/>
+<area shape="poly" title=" " alt="" coords="58,751,89,793,111,817,135,837,149,846,146,850,132,842,107,820,85,797,53,755"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abaaf20bf07f7b0bba2a6e6b869dbf44f" title=" " alt="" coords="162,900,226,926"/>
+<area shape="poly" title=" " alt="" coords="54,752,82,815,105,853,135,887,149,896,146,901,132,891,101,857,77,818,49,754"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="754,56,850,82"/>
-<area shape="poly" title=" " alt="" coords="200,206,237,152,266,122,301,98,357,76,416,60,477,50,537,46,649,47,739,56,738,61,649,52,537,51,477,56,417,65,359,81,303,103,270,126,241,155,204,209"/>
+<area shape="poly" title=" " alt="" coords="203,182,242,139,270,116,301,98,358,78,418,64,479,55,539,51,650,51,739,58,738,63,650,56,539,56,479,61,419,70,360,84,303,103,273,121,246,143,207,185"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1173,335,1343,360"/>
-<area shape="poly" title=" " alt="" coords="225,205,291,180,382,151,487,127,542,119,596,117,803,117,897,114,972,115,1008,119,1044,129,1083,145,1127,169,1168,202,1202,243,1229,284,1247,319,1242,321,1224,287,1198,246,1164,206,1124,174,1081,150,1042,134,1007,125,972,120,897,120,803,122,596,122,542,125,488,132,383,156,293,185,227,210"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="319,335,459,360"/>
-<area shape="poly" title=" " alt="" coords="217,232,356,324,354,328,214,236"/>
+<area shape="poly" title=" " alt="" coords="236,181,304,161,393,141,493,124,596,117,803,117,897,116,972,119,1008,125,1044,136,1083,153,1127,177,1167,209,1201,247,1227,286,1246,320,1242,322,1223,289,1196,251,1163,213,1124,182,1081,158,1042,141,1006,130,972,124,897,121,803,122,596,122,494,129,394,146,305,167,237,186"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="319,309,459,335"/>
+<area shape="poly" title=" " alt="" coords="217,208,356,299,353,303,214,212"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="968,5,1090,31"/>
 <area shape="poly" title=" " alt="" coords="850,56,953,32,954,38,851,61"/>
 <area shape="poly" title=" " alt="" coords="850,58,910,52,982,54,1020,58,1057,67,1093,80,1127,99,1154,121,1178,148,1215,209,1239,270,1253,319,1248,320,1234,271,1210,211,1174,151,1151,125,1124,103,1091,85,1056,72,1019,64,982,59,910,58,851,63"/>
@@ -1333,15 +986,15 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1391,360,1517,386"/>
 <area shape="poly" title=" " alt="" coords="1343,356,1375,360,1375,365,1343,361"/>
 <area shape="poly" title=" " alt="" coords="1517,360,1549,355,1550,360,1518,365"/>
-<area shape="poly" title=" " alt="" coords="408,332,459,301,522,269,687,204,757,180,824,165,892,159,962,164,1039,182,1126,213,1164,234,1196,263,1222,293,1242,320,1238,323,1218,296,1192,266,1160,239,1124,218,1038,187,961,169,892,164,825,170,759,185,689,209,524,274,461,305,411,336"/>
+<area shape="poly" title=" " alt="" coords="416,306,531,256,615,227,710,201,813,182,919,175,972,177,1025,184,1076,196,1126,213,1164,234,1196,263,1222,293,1242,320,1238,323,1218,296,1192,266,1160,239,1124,218,1075,201,1024,189,972,183,919,180,813,188,711,206,616,232,533,261,418,311"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="527,284,667,310"/>
-<area shape="poly" title=" " alt="" coords="444,331,526,311,527,316,445,337"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="523,360,671,386"/>
-<area shape="poly" title=" " alt="" coords="459,353,508,359,508,365,459,359"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="753,411,851,436"/>
-<area shape="poly" title=" " alt="" coords="419,358,468,378,524,396,637,413,738,420,737,425,636,419,523,401,466,383,417,363"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="555,461,639,487"/>
-<area shape="poly" title=" " alt="" coords="408,359,459,397,525,440,549,452,547,457,522,444,456,402,405,363"/>
+<area shape="poly" title=" " alt="" coords="459,311,511,305,512,310,459,316"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="523,333,671,359"/>
+<area shape="poly" title=" " alt="" coords="459,328,508,333,508,339,459,333"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="548,383,646,408"/>
+<area shape="poly" title=" " alt="" coords="426,333,524,369,541,375,539,380,522,374,424,338"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="760,461,844,487"/>
+<area shape="poly" title=" " alt="" coords="405,333,455,376,488,399,524,418,581,439,640,453,745,468,744,473,639,458,580,444,522,423,486,404,452,380,402,337"/>
 <area shape="poly" title=" " alt="" coords="633,281,722,254,781,240,846,228,915,221,986,220,1058,227,1126,244,1159,259,1189,279,1237,321,1233,325,1186,283,1157,263,1124,249,1057,232,986,225,915,226,846,233,782,245,723,259,635,286"/>
 <area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="984,259,1074,284"/>
 <area shape="poly" title=" " alt="" coords="667,290,969,272,969,278,667,295"/>
@@ -1350,17 +1003,17 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1071,282,1203,327,1202,332,1070,287"/>
 <area shape="poly" title=" " alt="" coords="845,322,1158,339,1158,345,845,327"/>
 <area shape="poly" title=" " alt="" coords="844,310,968,282,969,287,845,315"/>
-<area shape="poly" title=" " alt="" coords="671,367,1158,349,1158,354,671,373"/>
-<area shape="poly" title=" " alt="" coords="850,419,975,411,1050,402,1125,389,1209,364,1210,369,1126,394,1051,407,976,416,851,425"/>
-<area shape="poly" title=" " alt="" coords="640,474,729,475,851,470,988,453,1058,440,1124,421,1179,396,1225,368,1228,372,1182,401,1126,426,1059,445,989,459,851,475,729,480,640,479"/>
-<area shape="poly" title=" " alt="" coords="857,566,1015,526,1085,505,1124,490,1160,464,1191,432,1238,371,1243,375,1195,435,1163,468,1127,495,1087,510,1016,531,859,571"/>
+<area shape="poly" title=" " alt="" coords="671,344,719,345,1158,345,1158,350,719,350,671,350"/>
+<area shape="poly" title=" " alt="" coords="646,389,1157,352,1158,357,646,395"/>
+<area shape="poly" title=" " alt="" coords="844,474,901,475,972,471,1049,461,1124,440,1155,425,1184,407,1231,369,1234,373,1187,411,1158,430,1126,445,1050,466,973,477,901,480,844,479"/>
+<area shape="poly" title=" " alt="" coords="857,566,1003,526,1075,502,1124,480,1158,455,1189,426,1236,371,1241,374,1193,430,1162,459,1127,484,1077,507,1005,531,858,571"/>
 <area shape="rect" href="maths_8h.html#a42d820a247b720e6deb44d57fc2f6145" title="Simple low pass IIR filter 16&#45;bit values." alt="" coords="956,563,1102,588"/>
 <area shape="poly" title=" " alt="" coords="885,577,940,575,941,581,886,582"/>
 <area shape="rect" href="crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656" title=" " alt="" coords="933,612,1125,638"/>
 <area shape="poly" title=" " alt="" coords="875,593,943,606,942,611,874,598"/>
 <area shape="poly" title=" " alt="" coords="1089,560,1124,541,1165,502,1199,456,1225,411,1243,374,1248,376,1229,414,1203,459,1169,506,1127,546,1091,564"/>
-<area shape="poly" title=" " alt="" coords="248,663,404,669,596,673,803,673,854,675,898,681,974,691,1010,692,1045,687,1083,673,1124,648,1155,620,1181,587,1202,549,1219,510,1241,435,1251,375,1256,376,1246,436,1224,512,1207,552,1186,589,1159,624,1127,652,1085,678,1047,692,1010,698,974,697,897,686,853,680,803,678,596,678,404,675,248,669"/>
-<area shape="poly" title=" " alt="" coords="436,737,565,766,652,779,746,785,845,783,944,769,991,757,1038,740,1082,718,1124,692,1159,660,1188,620,1210,577,1226,531,1246,443,1253,376,1258,376,1251,444,1231,533,1215,579,1192,623,1163,663,1127,696,1085,723,1040,745,993,762,945,774,845,789,746,791,651,784,565,771,435,742"/>
+<area shape="poly" title=" " alt="" coords="443,667,597,681,799,691,900,691,993,684,1070,670,1100,660,1124,648,1156,621,1182,588,1203,551,1220,512,1242,436,1252,376,1257,377,1247,437,1225,514,1208,553,1187,591,1160,625,1127,652,1102,665,1071,676,993,690,900,696,798,697,597,687,443,672"/>
+<area shape="poly" title=" " alt="" coords="433,730,562,762,648,776,743,784,842,783,942,771,990,758,1037,742,1082,721,1124,695,1160,662,1188,623,1210,579,1227,533,1246,444,1253,376,1259,376,1252,445,1232,534,1215,581,1193,625,1164,666,1127,699,1084,726,1039,747,992,764,943,776,843,789,743,789,647,781,561,767,432,736"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1391,6 +1044,22 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="auxiliaries_8h_a3817295e5731ea49e9a80753667121d6_cgraph.png" border="0" usemap="#aauxiliaries_8h_a3817295e5731ea49e9a80753667121d6_cgraph" alt=""/></div>
+<map name="aauxiliaries_8h_a3817295e5731ea49e9a80753667121d6_cgraph" id="aauxiliaries_8h_a3817295e5731ea49e9a80753667121d6_cgraph">
+<area shape="rect" title=" " alt="" coords="5,80,93,106"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a3b868a82e65d41894387fadfbf60ffbe" title=" " alt="" coords="141,5,204,31"/>
+<area shape="poly" title=" " alt="" coords="71,77,135,37,138,42,73,82"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abbe67a8f6346ad928fc4ef4b7698d5d0" title=" " alt="" coords="141,55,204,80"/>
+<area shape="poly" title=" " alt="" coords="93,81,125,74,126,80,94,86"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a99b3bb1583e75dfe6fe5c10e0da07154" title=" " alt="" coords="141,104,204,130"/>
+<area shape="poly" title=" " alt="" coords="94,99,126,105,125,110,93,104"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abaaf20bf07f7b0bba2a6e6b869dbf44f" title=" " alt="" coords="141,153,204,179"/>
+<area shape="poly" title=" " alt="" coords="74,104,138,143,135,147,71,109"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1414,50 +1083,54 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="auxiliaries_8h_a6437f16b1057eb1370f84e02c346d90f_cgraph.png" border="0" usemap="#aauxiliaries_8h_a6437f16b1057eb1370f84e02c346d90f_cgraph" alt=""/></div>
 <map name="aauxiliaries_8h_a6437f16b1057eb1370f84e02c346d90f_cgraph" id="aauxiliaries_8h_a6437f16b1057eb1370f84e02c346d90f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,512,92,538"/>
-<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="154,196,274,222"/>
-<area shape="poly" title=" " alt="" coords="54,510,196,234,201,237,59,513"/>
-<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="352,512,460,538"/>
-<area shape="poly" title=" " alt="" coords="92,522,337,522,337,528,92,528"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="140,563,288,588"/>
-<area shape="poly" title=" " alt="" coords="93,535,156,555,154,560,91,541"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="712,56,809,82"/>
-<area shape="poly" title=" " alt="" coords="223,194,267,145,299,119,335,98,382,82,430,70,529,57,621,55,697,59,696,64,621,60,529,62,431,75,383,87,337,103,302,123,271,149,227,197"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1052,284,1222,310"/>
-<area shape="poly" title=" " alt="" coords="247,193,310,171,395,146,493,125,543,119,593,117,762,117,834,121,889,135,941,158,1006,192,1065,231,1113,271,1110,275,1062,235,1003,196,939,163,887,140,833,126,762,122,593,122,543,124,493,130,397,151,312,176,249,198"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="336,323,476,348"/>
-<area shape="poly" title=" " alt="" coords="237,220,374,312,371,316,234,224"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="870,5,992,31"/>
-<area shape="poly" title=" " alt="" coords="805,53,870,33,872,38,807,58"/>
-<area shape="poly" title=" " alt="" coords="809,61,853,61,904,65,957,77,1006,99,1029,116,1050,136,1085,182,1111,229,1128,268,1123,270,1106,231,1081,185,1046,140,1026,120,1003,103,955,82,903,70,853,66,809,67"/>
-<area shape="poly" title=" " alt="" coords="976,29,1006,48,1031,74,1052,103,1088,164,1114,222,1130,269,1125,271,1109,224,1083,166,1048,106,1026,77,1003,52,974,34"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1444,284,1537,310"/>
-<area shape="poly" title=" " alt="" coords="1222,294,1428,294,1428,300,1222,300"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1270,309,1396,335"/>
-<area shape="poly" title=" " alt="" coords="1222,305,1254,309,1254,315,1222,310"/>
-<area shape="poly" title=" " alt="" coords="1396,309,1428,304,1429,309,1397,315"/>
-<area shape="poly" title=" " alt="" coords="426,320,469,294,523,269,655,224,710,209,762,199,814,195,870,197,933,206,1005,222,1061,244,1107,272,1104,277,1058,249,1004,227,932,211,870,202,814,200,763,204,711,214,656,229,525,274,472,299,429,324"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="524,284,664,310"/>
-<area shape="poly" title=" " alt="" coords="471,319,513,311,514,316,472,325"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="857,360,1004,386"/>
-<area shape="poly" title=" " alt="" coords="477,338,841,364,841,369,477,343"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="712,411,809,436"/>
-<area shape="poly" title=" " alt="" coords="431,346,474,369,525,389,614,408,697,418,696,423,613,414,524,394,472,374,429,351"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="552,461,636,487"/>
-<area shape="poly" title=" " alt="" coords="421,347,465,391,526,440,547,452,544,457,523,444,462,395,418,351"/>
-<area shape="poly" title=" " alt="" coords="636,281,706,262,798,245,901,236,953,237,1005,244,1053,257,1096,274,1094,279,1051,262,1004,249,953,242,901,241,798,250,707,267,637,286"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="886,259,976,284"/>
-<area shape="poly" title=" " alt="" coords="664,289,870,273,870,279,664,294"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="718,309,803,335"/>
-<area shape="poly" title=" " alt="" coords="665,305,703,311,702,316,664,310"/>
-<area shape="poly" title=" " alt="" coords="977,274,1037,282,1037,287,976,280"/>
-<area shape="poly" title=" " alt="" coords="803,317,1037,301,1037,306,804,322"/>
-<area shape="poly" title=" " alt="" coords="803,307,870,287,872,292,804,312"/>
-<area shape="poly" title=" " alt="" coords="967,357,1085,313,1086,318,969,362"/>
-<area shape="poly" title=" " alt="" coords="809,423,902,419,953,411,1003,396,1035,380,1064,360,1111,319,1115,323,1067,364,1037,384,1005,401,955,416,902,425,810,429"/>
-<area shape="poly" title=" " alt="" coords="637,476,709,480,803,477,854,472,905,462,955,448,1003,429,1039,406,1071,378,1117,321,1121,324,1074,382,1042,411,1006,434,957,453,906,468,855,477,803,483,709,485,637,481"/>
-<area shape="poly" title=" " alt="" coords="461,532,567,545,634,549,707,549,783,543,859,530,934,509,1003,477,1025,462,1045,444,1079,403,1105,360,1123,323,1127,325,1110,362,1084,406,1049,448,1028,467,1006,482,935,514,860,535,783,548,707,554,634,554,567,550,460,538"/>
-<area shape="poly" title=" " alt="" coords="289,573,593,573,762,573,833,576,890,577,917,574,943,567,972,554,1003,535,1029,513,1051,487,1087,429,1112,371,1127,324,1132,325,1117,373,1092,431,1056,490,1032,517,1006,539,974,559,945,572,918,579,891,582,833,581,762,578,593,578,289,578"/>
+<area shape="rect" title=" " alt="" coords="5,563,92,588"/>
+<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="140,196,260,222"/>
+<area shape="poly" title=" " alt="" coords="53,561,185,235,190,237,58,563"/>
+<area shape="rect" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31" title="Integer based half&#45;percentage calculation." alt="" coords="328,512,436,538"/>
+<area shape="poly" title=" " alt="" coords="92,563,139,554,312,530,313,535,140,559,93,569"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="308,563,456,588"/>
+<area shape="poly" title=" " alt="" coords="92,573,293,573,293,578,92,578"/>
+<area shape="rect" href="auxiliaries_8cpp.html#a99b3bb1583e75dfe6fe5c10e0da07154" title=" " alt="" coords="168,613,232,639"/>
+<area shape="poly" title=" " alt="" coords="90,586,155,608,153,613,88,591"/>
+<area shape="rect" href="auxiliaries_8cpp.html#abaaf20bf07f7b0bba2a6e6b869dbf44f" title=" " alt="" coords="168,663,232,688"/>
+<area shape="poly" title=" " alt="" coords="65,587,98,617,141,649,155,657,153,661,138,654,94,622,61,591"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="692,56,789,82"/>
+<area shape="poly" title=" " alt="" coords="207,194,246,145,274,119,307,98,354,80,404,67,505,54,600,52,677,58,677,63,600,58,505,59,405,72,356,85,309,103,277,123,249,149,212,197"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1032,284,1202,310"/>
+<area shape="poly" title=" " alt="" coords="233,193,295,171,378,146,474,125,524,119,573,117,742,117,814,121,869,135,921,158,986,192,1045,231,1093,271,1090,275,1042,235,983,196,919,163,867,140,813,126,742,122,573,122,524,124,475,130,380,151,297,176,235,198"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="312,323,452,348"/>
+<area shape="poly" title=" " alt="" coords="222,220,352,312,349,316,219,224"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="850,5,972,31"/>
+<area shape="poly" title=" " alt="" coords="785,53,850,33,852,38,787,58"/>
+<area shape="poly" title=" " alt="" coords="789,61,833,61,884,65,937,77,986,99,1009,116,1030,136,1065,182,1091,229,1108,268,1103,270,1086,231,1061,185,1026,140,1006,120,983,103,935,82,883,70,833,66,789,67"/>
+<area shape="poly" title=" " alt="" coords="956,29,986,48,1011,74,1032,103,1068,164,1094,222,1110,269,1105,271,1089,224,1063,166,1028,106,1006,77,983,52,954,34"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1424,284,1517,310"/>
+<area shape="poly" title=" " alt="" coords="1202,294,1408,294,1408,300,1202,300"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1250,309,1376,335"/>
+<area shape="poly" title=" " alt="" coords="1202,305,1234,309,1234,315,1202,310"/>
+<area shape="poly" title=" " alt="" coords="1376,309,1408,304,1409,309,1377,315"/>
+<area shape="poly" title=" " alt="" coords="403,320,448,294,503,269,635,224,690,209,742,199,795,195,850,197,913,206,985,222,1041,244,1087,272,1084,277,1038,249,984,227,912,211,850,202,795,200,743,204,691,214,636,230,505,274,450,299,405,324"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="504,284,644,310"/>
+<area shape="poly" title=" " alt="" coords="449,319,492,311,493,316,450,325"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="837,360,984,386"/>
+<area shape="poly" title=" " alt="" coords="453,338,822,364,822,369,453,343"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="692,411,789,436"/>
+<area shape="poly" title=" " alt="" coords="408,346,452,369,505,389,594,408,677,417,676,423,593,413,504,394,450,374,406,351"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="532,461,616,487"/>
+<area shape="poly" title=" " alt="" coords="398,347,443,391,506,440,527,452,524,456,503,444,440,395,394,351"/>
+<area shape="poly" title=" " alt="" coords="616,281,686,262,778,245,881,236,933,237,985,244,1033,257,1076,274,1074,279,1031,262,984,249,933,242,881,241,778,250,687,267,617,286"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="866,259,956,284"/>
+<area shape="poly" title=" " alt="" coords="644,289,850,273,850,279,644,294"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="698,309,783,335"/>
+<area shape="poly" title=" " alt="" coords="645,305,683,311,682,316,644,310"/>
+<area shape="poly" title=" " alt="" coords="957,274,1017,282,1017,287,956,280"/>
+<area shape="poly" title=" " alt="" coords="783,317,1017,301,1017,306,784,322"/>
+<area shape="poly" title=" " alt="" coords="783,307,850,287,852,292,784,312"/>
+<area shape="poly" title=" " alt="" coords="947,357,1065,313,1066,318,949,362"/>
+<area shape="poly" title=" " alt="" coords="789,423,882,419,933,411,983,396,1015,380,1044,360,1091,319,1095,323,1047,364,1017,384,985,401,935,416,882,425,790,429"/>
+<area shape="poly" title=" " alt="" coords="617,476,689,480,783,477,834,472,885,462,935,448,983,429,1019,406,1051,378,1097,321,1101,324,1054,382,1022,411,986,434,937,453,886,468,835,477,783,483,689,485,617,481"/>
+<area shape="poly" title=" " alt="" coords="437,532,544,545,611,549,685,549,761,543,838,531,913,509,983,477,1005,462,1025,444,1059,403,1085,360,1103,323,1107,325,1090,362,1064,406,1029,448,1008,467,986,482,915,514,839,536,762,549,685,554,611,555,543,551,436,538"/>
+<area shape="poly" title=" " alt="" coords="441,586,550,604,618,610,691,611,767,606,843,593,916,570,983,535,1009,513,1032,488,1068,430,1093,372,1107,324,1112,326,1098,374,1073,433,1036,491,1013,517,986,539,918,575,844,598,768,612,691,617,617,615,549,609,440,592"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1485,138 +1158,6 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> boost_pwm_max_count</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a9192281ac01fa12e82829b6fce4406" name="a7a9192281ac01fa12e82829b6fce4406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a9192281ac01fa12e82829b6fce4406">&#9670;&#160;</a></span>fan_pin_mask</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> fan_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afd7fc3d9d6c0cd2c485a23f9d48348ff" name="afd7fc3d9d6c0cd2c485a23f9d48348ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd7fc3d9d6c0cd2c485a23f9d48348ff">&#9670;&#160;</a></span>fan_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> fan_pin_port</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00a8eada7535dda9542153f2da0f07e2" name="a00a8eada7535dda9542153f2da0f07e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00a8eada7535dda9542153f2da0f07e2">&#9670;&#160;</a></span>vvt1_pin_mask</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> vvt1_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a74b403a7e2995335eca101cad5301a7b" name="a74b403a7e2995335eca101cad5301a7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74b403a7e2995335eca101cad5301a7b">&#9670;&#160;</a></span>vvt1_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> vvt1_pin_port</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8aed29f2473ea3e60971657ff0751335" name="a8aed29f2473ea3e60971657ff0751335"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aed29f2473ea3e60971657ff0751335">&#9670;&#160;</a></span>vvt2_pin_mask</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> vvt2_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14a6fdaf4d19e20b90ea4d00a65a1c61" name="a14a6fdaf4d19e20b90ea4d00a65a1c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14a6fdaf4d19e20b90ea4d00a65a1c61">&#9670;&#160;</a></span>vvt2_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> vvt2_pin_port</td>
         </tr>
       </table>
   </td>

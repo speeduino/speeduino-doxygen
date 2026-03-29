@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['tacho_5fpulse_5fhigh_0',['TACHO_PULSE_HIGH',['../timers_8h.html#a875ca956caff6c349e6bac8de2248801',1,'timers.h']]],
-  ['tacho_5fpulse_5flow_1',['TACHO_PULSE_LOW',['../timers_8h.html#ae960c1b872e48dfd99082e08af16cb07',1,'timers.h']]],
+  ['tacho_5fpulse_5fhigh_0',['TACHO_PULSE_HIGH',['../timers_8cpp.html#a875ca956caff6c349e6bac8de2248801',1,'timers.cpp']]],
+  ['tacho_5fpulse_5flow_1',['TACHO_PULSE_LOW',['../timers_8cpp.html#ae960c1b872e48dfd99082e08af16cb07',1,'timers.cpp']]],
   ['tacho_5fsweep_5framp_5fms_2',['TACHO_SWEEP_RAMP_MS',['../timers_8h.html#aa364fe1fc2c2c32eafe39fc9a6d1384e',1,'timers.h']]],
   ['tacho_5fsweep_5ftime_5fms_3',['TACHO_SWEEP_TIME_MS',['../timers_8h.html#ad1742544eda890463df786f92457bf20',1,'timers.h']]],
   ['test_5fand_5fapply_4',['TEST_AND_APPLY',['../maths_8h.html#a38520fe08cc41a4b59c9e763fcbbd4ca',1,'maths.h']]],

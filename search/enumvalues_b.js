@@ -9,6 +9,6 @@ var searchData=
   ['serial_5ftransmit_5finprogress_5flegacy_6',['SERIAL_TRANSMIT_INPROGRESS_LEGACY',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a06816a04bc11bfd7b965bb3ee195a782',1,'comms_legacy.h']]],
   ['serial_5ftransmit_5ftooth_5finprogress_7',['SERIAL_TRANSMIT_TOOTH_INPROGRESS',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a78038572c3563d5363fd6089d67ba25c',1,'comms_legacy.h']]],
   ['serial_5ftransmit_5ftooth_5finprogress_5flegacy_8',['SERIAL_TRANSMIT_TOOTH_INPROGRESS_LEGACY',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a5b78d53126366957b619b42f7e928a5c',1,'comms_legacy.h']]],
-  ['soff_9',['SOFF',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502',1,'idle.h']]],
-  ['stepping_10',['STEPPING',['../idle_8h.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.h']]]
+  ['soff_9',['SOFF',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502',1,'idle.cpp']]],
+  ['stepping_10',['STEPPING',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.cpp']]]
 ];
