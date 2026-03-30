@@ -80,9 +80,10 @@ $(function() {
   <div class="headertitle"><div class="title">acc_mc33810.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="acc__mc33810_8h_source.html">acc_mc33810.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;SPI.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="acc__mc33810_8h_source.html">acc_mc33810.h</a>&quot;</code><br />
+<code>#include &quot;src/pins/fastOutputPin.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &lt;SPI.h&gt;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -131,14 +132,10 @@ Variables</h2></td></tr>
 <tr class="separator:adf251edb62f074e17880824d2d70e0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92bebfe10fe57a09eef1d51eb379bc1f" id="r_a92bebfe10fe57a09eef1d51eb379bc1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#a92bebfe10fe57a09eef1d51eb379bc1f">MC33810_BIT_IGN8</a> = 8</td></tr>
 <tr class="separator:a92bebfe10fe57a09eef1d51eb379bc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a193740305abb88a4e7553435ab55cbff" id="r_a193740305abb88a4e7553435ab55cbff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#a193740305abb88a4e7553435ab55cbff">mc33810_1_pin_port</a></td></tr>
-<tr class="separator:a193740305abb88a4e7553435ab55cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1327ea8cb18cdaf9e2d3caba401eb1b" id="r_ab1327ea8cb18cdaf9e2d3caba401eb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#ab1327ea8cb18cdaf9e2d3caba401eb1b">mc33810_1_pin_mask</a></td></tr>
-<tr class="separator:ab1327ea8cb18cdaf9e2d3caba401eb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2afe8d7c07010e09b8999f3710271ec" id="r_ae2afe8d7c07010e09b8999f3710271ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#ae2afe8d7c07010e09b8999f3710271ec">mc33810_2_pin_port</a></td></tr>
-<tr class="separator:ae2afe8d7c07010e09b8999f3710271ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d5cd18bca7853e95341db0914eda0d6" id="r_a8d5cd18bca7853e95341db0914eda0d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#a8d5cd18bca7853e95341db0914eda0d6">mc33810_2_pin_mask</a></td></tr>
-<tr class="separator:a8d5cd18bca7853e95341db0914eda0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79e9ed91ff79843efc1a65a3b9c9e4e2" id="r_a79e9ed91ff79843efc1a65a3b9c9e4e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#a79e9ed91ff79843efc1a65a3b9c9e4e2">mc33810_1_pin</a></td></tr>
+<tr class="separator:a79e9ed91ff79843efc1a65a3b9c9e4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26402a6fc7455fb959d7e653b15d8d8b" id="r_a26402a6fc7455fb959d7e653b15d8d8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="acc__mc33810_8cpp.html#a26402a6fc7455fb959d7e653b15d8d8b">mc33810_2_pin</a></td></tr>
+<tr class="separator:a26402a6fc7455fb959d7e653b15d8d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a11e48e265acfa70aad4eac13044c1b54" name="a11e48e265acfa70aad4eac13044c1b54"></a>
@@ -326,8 +323,8 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ab1327ea8cb18cdaf9e2d3caba401eb1b" name="ab1327ea8cb18cdaf9e2d3caba401eb1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1327ea8cb18cdaf9e2d3caba401eb1b">&#9670;&#160;</a></span>mc33810_1_pin_mask</h2>
+<a id="a79e9ed91ff79843efc1a65a3b9c9e4e2" name="a79e9ed91ff79843efc1a65a3b9c9e4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79e9ed91ff79843efc1a65a3b9c9e4e2">&#9670;&#160;</a></span>mc33810_1_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -336,7 +333,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> mc33810_1_pin_mask</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> mc33810_1_pin</td>
         </tr>
       </table>
   </td>
@@ -348,8 +345,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a193740305abb88a4e7553435ab55cbff" name="a193740305abb88a4e7553435ab55cbff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a193740305abb88a4e7553435ab55cbff">&#9670;&#160;</a></span>mc33810_1_pin_port</h2>
+<a id="a26402a6fc7455fb959d7e653b15d8d8b" name="a26402a6fc7455fb959d7e653b15d8d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26402a6fc7455fb959d7e653b15d8d8b">&#9670;&#160;</a></span>mc33810_2_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,51 +355,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> mc33810_1_pin_port</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d5cd18bca7853e95341db0914eda0d6" name="a8d5cd18bca7853e95341db0914eda0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d5cd18bca7853e95341db0914eda0d6">&#9670;&#160;</a></span>mc33810_2_pin_mask</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> mc33810_2_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae2afe8d7c07010e09b8999f3710271ec" name="ae2afe8d7c07010e09b8999f3710271ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2afe8d7c07010e09b8999f3710271ec">&#9670;&#160;</a></span>mc33810_2_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> mc33810_2_pin_port</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> mc33810_2_pin</td>
         </tr>
       </table>
   </td>

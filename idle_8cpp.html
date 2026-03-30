@@ -90,8 +90,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 <code>#include &quot;src/PID_v1/PID_v1.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="port__pin_8h_source.html">port_pin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+<code>#include &quot;src/pins/fastOutputPin.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -100,14 +100,6 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab6272b00f4dfb3c2337ae3ab6b5d2012" id="r_ab6272b00f4dfb3c2337ae3ab6b5d2012"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ab6272b00f4dfb3c2337ae3ab6b5d2012">IDLE_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#afa4a68af88e0cc7ba894fa4490810146">idle_pin_port</a> &amp;= ~(<a class="el" href="idle_8cpp.html#a6a3ba5a6a7211cd7d85cc21872859702">idle_pin_mask</a>)</td></tr>
-<tr class="separator:ab6272b00f4dfb3c2337ae3ab6b5d2012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7f2deb6c578fcbef99176b078fa02ed" id="r_ac7f2deb6c578fcbef99176b078fa02ed"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ac7f2deb6c578fcbef99176b078fa02ed">IDLE_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#afa4a68af88e0cc7ba894fa4490810146">idle_pin_port</a> |= (<a class="el" href="idle_8cpp.html#a6a3ba5a6a7211cd7d85cc21872859702">idle_pin_mask</a>)</td></tr>
-<tr class="separator:ac7f2deb6c578fcbef99176b078fa02ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3033a7fd9c0d0f6393056fc5063f2fe0" id="r_a3033a7fd9c0d0f6393056fc5063f2fe0"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a3033a7fd9c0d0f6393056fc5063f2fe0">IDLE2_PIN_LOW</a>()&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#aa344e7dd58a5d33a8b0eb657e7dd82fb">idle2_pin_port</a> &amp;= ~(<a class="el" href="idle_8cpp.html#a91945837bc58c769ea7a36344b2b1128">idle2_pin_mask</a>)</td></tr>
-<tr class="separator:a3033a7fd9c0d0f6393056fc5063f2fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ad43ece631034ef24c3592ce384c855" id="r_a5ad43ece631034ef24c3592ce384c855"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a5ad43ece631034ef24c3592ce384c855">IDLE2_PIN_HIGH</a>()&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#aa344e7dd58a5d33a8b0eb657e7dd82fb">idle2_pin_port</a> |= (<a class="el" href="idle_8cpp.html#a91945837bc58c769ea7a36344b2b1128">idle2_pin_mask</a>)</td></tr>
-<tr class="separator:a5ad43ece631034ef24c3592ce384c855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af5d7ca56b9c99fa30f31f7b5d327fa" id="r_a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d48ab90c530af82df4cc6e16dfe660" id="r_a93d48ab90c530af82df4cc6e16dfe660"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>&#160;&#160;&#160;1</td></tr>
@@ -186,88 +178,16 @@ Variables</h2></td></tr>
 <tr class="separator:aad63421cdf7a89ab95c16c695900d288"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab370f333f23581c0d7fcf5f15a392e4d" id="r_ab370f333f23581c0d7fcf5f15a392e4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ab370f333f23581c0d7fcf5f15a392e4d">idle_cl_target_rpm</a></td></tr>
 <tr class="separator:ab370f333f23581c0d7fcf5f15a392e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa4a68af88e0cc7ba894fa4490810146" id="r_afa4a68af88e0cc7ba894fa4490810146"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#afa4a68af88e0cc7ba894fa4490810146">idle_pin_port</a></td></tr>
-<tr class="separator:afa4a68af88e0cc7ba894fa4490810146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a3ba5a6a7211cd7d85cc21872859702" id="r_a6a3ba5a6a7211cd7d85cc21872859702"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a6a3ba5a6a7211cd7d85cc21872859702">idle_pin_mask</a></td></tr>
-<tr class="separator:a6a3ba5a6a7211cd7d85cc21872859702"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa344e7dd58a5d33a8b0eb657e7dd82fb" id="r_aa344e7dd58a5d33a8b0eb657e7dd82fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#aa344e7dd58a5d33a8b0eb657e7dd82fb">idle2_pin_port</a></td></tr>
-<tr class="separator:aa344e7dd58a5d33a8b0eb657e7dd82fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91945837bc58c769ea7a36344b2b1128" id="r_a91945837bc58c769ea7a36344b2b1128"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a91945837bc58c769ea7a36344b2b1128">idle2_pin_mask</a></td></tr>
-<tr class="separator:a91945837bc58c769ea7a36344b2b1128"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd0c29ed583297021d9d2ecf2ad373fb" id="r_acd0c29ed583297021d9d2ecf2ad373fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#acd0c29ed583297021d9d2ecf2ad373fb">idle_pin</a></td></tr>
+<tr class="separator:acd0c29ed583297021d9d2ecf2ad373fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9484dbc4568dea87a9aa41f0ce1fe62b" id="r_a9484dbc4568dea87a9aa41f0ce1fe62b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a9484dbc4568dea87a9aa41f0ce1fe62b">idle2_pin</a></td></tr>
+<tr class="separator:a9484dbc4568dea87a9aa41f0ce1fe62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fed22ee12d85ed1af631036a11aa4b" id="r_a67fed22ee12d85ed1af631036a11aa4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="table2d_8h.html#a277c95be0c281127d3cd4afacaec5d60">table2D_u8_u8_10</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">iacPWMTable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a67fed22ee12d85ed1af631036a11aa4b">configPage6</a></td></tr>
 <tr class="separator:a67fed22ee12d85ed1af631036a11aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade580c8e4957ba77dbfd4be4e731e5c8" id="r_ade580c8e4957ba77dbfd4be4e731e5c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">integerPID</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">idlePID</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ade580c8e4957ba77dbfd4be4e731e5c8">currentStatus</a></td></tr>
 <tr class="separator:ade580c8e4957ba77dbfd4be4e731e5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a5ad43ece631034ef24c3592ce384c855" name="a5ad43ece631034ef24c3592ce384c855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ad43ece631034ef24c3592ce384c855">&#9670;&#160;</a></span>IDLE2_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> IDLE2_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#aa344e7dd58a5d33a8b0eb657e7dd82fb">idle2_pin_port</a> |= (<a class="el" href="idle_8cpp.html#a91945837bc58c769ea7a36344b2b1128">idle2_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3033a7fd9c0d0f6393056fc5063f2fe0" name="a3033a7fd9c0d0f6393056fc5063f2fe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3033a7fd9c0d0f6393056fc5063f2fe0">&#9670;&#160;</a></span>IDLE2_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> IDLE2_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#aa344e7dd58a5d33a8b0eb657e7dd82fb">idle2_pin_port</a> &amp;= ~(<a class="el" href="idle_8cpp.html#a91945837bc58c769ea7a36344b2b1128">idle2_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7f2deb6c578fcbef99176b078fa02ed" name="ac7f2deb6c578fcbef99176b078fa02ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7f2deb6c578fcbef99176b078fa02ed">&#9670;&#160;</a></span>IDLE_PIN_HIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> IDLE_PIN_HIGH</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#afa4a68af88e0cc7ba894fa4490810146">idle_pin_port</a> |= (<a class="el" href="idle_8cpp.html#a6a3ba5a6a7211cd7d85cc21872859702">idle_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab6272b00f4dfb3c2337ae3ab6b5d2012" name="ab6272b00f4dfb3c2337ae3ab6b5d2012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6272b00f4dfb3c2337ae3ab6b5d2012">&#9670;&#160;</a></span>IDLE_PIN_LOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> IDLE_PIN_LOW</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;*<a class="el" href="idle_8cpp.html#afa4a68af88e0cc7ba894fa4490810146">idle_pin_port</a> &amp;= ~(<a class="el" href="idle_8cpp.html#a6a3ba5a6a7211cd7d85cc21872859702">idle_pin_mask</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a93d48ab90c530af82df4cc6e16dfe660" name="a93d48ab90c530af82df4cc6e16dfe660"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93d48ab90c530af82df4cc6e16dfe660">&#9670;&#160;</a></span>STEPPER_BACKWARD</h2>
 
@@ -999,8 +919,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a91945837bc58c769ea7a36344b2b1128" name="a91945837bc58c769ea7a36344b2b1128"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91945837bc58c769ea7a36344b2b1128">&#9670;&#160;</a></span>idle2_pin_mask</h2>
+<a id="a9484dbc4568dea87a9aa41f0ce1fe62b" name="a9484dbc4568dea87a9aa41f0ce1fe62b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9484dbc4568dea87a9aa41f0ce1fe62b">&#9670;&#160;</a></span>idle2_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1009,29 +929,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> idle2_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa344e7dd58a5d33a8b0eb657e7dd82fb" name="aa344e7dd58a5d33a8b0eb657e7dd82fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa344e7dd58a5d33a8b0eb657e7dd82fb">&#9670;&#160;</a></span>idle2_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> idle2_pin_port</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> idle2_pin</td>
         </tr>
       </table>
   </td>
@@ -1087,8 +985,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6a3ba5a6a7211cd7d85cc21872859702" name="a6a3ba5a6a7211cd7d85cc21872859702"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a3ba5a6a7211cd7d85cc21872859702">&#9670;&#160;</a></span>idle_pin_mask</h2>
+<a id="acd0c29ed583297021d9d2ecf2ad373fb" name="acd0c29ed583297021d9d2ecf2ad373fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd0c29ed583297021d9d2ecf2ad373fb">&#9670;&#160;</a></span>idle_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1097,29 +995,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> idle_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afa4a68af88e0cc7ba894fa4490810146" name="afa4a68af88e0cc7ba894fa4490810146"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa4a68af88e0cc7ba894fa4490810146">&#9670;&#160;</a></span>idle_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> idle_pin_port</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> idle_pin</td>
         </tr>
       </table>
   </td>

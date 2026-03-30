@@ -91,12 +91,13 @@ $(function() {
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduled_i_o__ign_8h_source.html">scheduledIO_ign.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduled_i_o__inj_8h_source.html">scheduledIO_inj.h</a>&quot;</code><br />
+<code>#include &quot;src/pins/fastOutputPin.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a875ca956caff6c349e6bac8de2248801" id="r_a875ca956caff6c349e6bac8de2248801"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a875ca956caff6c349e6bac8de2248801">TACHO_PULSE_HIGH</a>()&#160;&#160;&#160;(*<a class="el" href="timers_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a">tach_pin_port</a> |= (<a class="el" href="timers_8cpp.html#a836d79e7ef17504e751977fa38e2de98">tach_pin_mask</a>))</td></tr>
+<tr class="memitem:a875ca956caff6c349e6bac8de2248801" id="r_a875ca956caff6c349e6bac8de2248801"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a875ca956caff6c349e6bac8de2248801">TACHO_PULSE_HIGH</a>()&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">tach_pin.setPinHigh</a>())</td></tr>
 <tr class="separator:a875ca956caff6c349e6bac8de2248801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae960c1b872e48dfd99082e08af16cb07" id="r_ae960c1b872e48dfd99082e08af16cb07"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#ae960c1b872e48dfd99082e08af16cb07">TACHO_PULSE_LOW</a>()&#160;&#160;&#160;(*<a class="el" href="timers_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a">tach_pin_port</a> &amp;= ~(<a class="el" href="timers_8cpp.html#a836d79e7ef17504e751977fa38e2de98">tach_pin_mask</a>))</td></tr>
+<tr class="memitem:ae960c1b872e48dfd99082e08af16cb07" id="r_ae960c1b872e48dfd99082e08af16cb07"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#ae960c1b872e48dfd99082e08af16cb07">TACHO_PULSE_LOW</a>()&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">tach_pin.setPinLow</a>())</td></tr>
 <tr class="separator:ae960c1b872e48dfd99082e08af16cb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -148,10 +149,8 @@ Variables</h2></td></tr>
 <tr class="separator:af12ef549e39165dd54cd3889c752a159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a674efd6411a6be612f6fb0faa9cd5c64" id="r_a674efd6411a6be612f6fb0faa9cd5c64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">volatile</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a674efd6411a6be612f6fb0faa9cd5c64">testIgnitionPulseCount</a> = 0</td></tr>
 <tr class="separator:a674efd6411a6be612f6fb0faa9cd5c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26c869c9cacc7d1cca3a2516d0bda33a" id="r_a26c869c9cacc7d1cca3a2516d0bda33a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a">tach_pin_port</a></td></tr>
-<tr class="separator:a26c869c9cacc7d1cca3a2516d0bda33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836d79e7ef17504e751977fa38e2de98" id="r_a836d79e7ef17504e751977fa38e2de98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a836d79e7ef17504e751977fa38e2de98">tach_pin_mask</a></td></tr>
-<tr class="separator:a836d79e7ef17504e751977fa38e2de98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad498a7ebe9cd1504d8aa67274461c680" id="r_ad498a7ebe9cd1504d8aa67274461c680"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#ad498a7ebe9cd1504d8aa67274461c680">tach_pin</a></td></tr>
+<tr class="separator:ad498a7ebe9cd1504d8aa67274461c680"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a875ca956caff6c349e6bac8de2248801" name="a875ca956caff6c349e6bac8de2248801"></a>
@@ -164,7 +163,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> TACHO_PULSE_HIGH</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;(*<a class="el" href="timers_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a">tach_pin_port</a> |= (<a class="el" href="timers_8cpp.html#a836d79e7ef17504e751977fa38e2de98">tach_pin_mask</a>))</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">tach_pin.setPinHigh</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,7 +180,7 @@ Variables</h2></td></tr>
           <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> TACHO_PULSE_LOW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;(*<a class="el" href="timers_8cpp.html#a26c869c9cacc7d1cca3a2516d0bda33a">tach_pin_port</a> &amp;= ~(<a class="el" href="timers_8cpp.html#a836d79e7ef17504e751977fa38e2de98">tach_pin_mask</a>))</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">tach_pin.setPinLow</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1187,8 +1186,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a836d79e7ef17504e751977fa38e2de98" name="a836d79e7ef17504e751977fa38e2de98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a836d79e7ef17504e751977fa38e2de98">&#9670;&#160;</a></span>tach_pin_mask</h2>
+<a id="ad498a7ebe9cd1504d8aa67274461c680" name="ad498a7ebe9cd1504d8aa67274461c680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad498a7ebe9cd1504d8aa67274461c680">&#9670;&#160;</a></span>tach_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1197,29 +1196,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a618306811cc6b8cdae0d08ba14526664">pin_mask_t</a> tach_pin_mask</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a26c869c9cacc7d1cca3a2516d0bda33a" name="a26c869c9cacc7d1cca3a2516d0bda33a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26c869c9cacc7d1cca3a2516d0bda33a">&#9670;&#160;</a></span>tach_pin_port</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="port__pin_8h.html#a9580c250021d58e40f397e00f9da38c6">port_register_t</a> tach_pin_port</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> tach_pin</td>
         </tr>
       </table>
   </td>
