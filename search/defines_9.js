@@ -1,19 +1,13 @@
 var searchData=
 [
-  ['led_5fbuiltin_0',['led_builtin',['../board__stm32__official_8h.html#a450a7c16ead7b3c7b882536b08f30a00',1,'LED_BUILTIN:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#a450a7c16ead7b3c7b882536b08f30a00',1,'LED_BUILTIN:&#160;board_avr2560.h']]],
-  ['log_5fentry_5fsize_1',['LOG_ENTRY_SIZE',['../logger_8h.html#a412b9fb00056eedfd7abea937207928d',1,'logger.h']]],
-  ['logger_5fbinary_2',['LOGGER_BINARY',['../globals_8h.html#a770a1ae7608c13aaeb00c71c2286aede',1,'globals.h']]],
-  ['logger_5fcsv_3',['LOGGER_CSV',['../globals_8h.html#abed654a4c18ec7cece7426d7746e9283',1,'globals.h']]],
-  ['logger_5fcsv_5fseparator_5fcomma_4',['LOGGER_CSV_SEPARATOR_COMMA',['../globals_8h.html#ae3f9a1c5bb48d0736a529e2d39e0d622',1,'globals.h']]],
-  ['logger_5fcsv_5fseparator_5fsemicolon_5',['LOGGER_CSV_SEPARATOR_SEMICOLON',['../globals_8h.html#acc3ec10da3c6b52e25fbfb4592eb86a2',1,'globals.h']]],
-  ['logger_5fcsv_5fseparator_5fspace_6',['LOGGER_CSV_SEPARATOR_SPACE',['../globals_8h.html#ad9dc0a14a2d3fd09c39abfbe43e37c72',1,'globals.h']]],
-  ['logger_5fcsv_5fseparator_5ftab_7',['LOGGER_CSV_SEPARATOR_TAB',['../globals_8h.html#a09d1153939d5b8f94469b45a39a9c3cd',1,'globals.h']]],
-  ['logger_5fdisabled_8',['LOGGER_DISABLED',['../globals_8h.html#a9703534f3a9518b09e6bf7e6c445a4bb',1,'globals.h']]],
-  ['logger_5ffilenaming_5fdatetime_9',['LOGGER_FILENAMING_DATETIME',['../globals_8h.html#ae4d4690422cb6bdce45132675f44d52e',1,'globals.h']]],
-  ['logger_5ffilenaming_5foverwrite_10',['LOGGER_FILENAMING_OVERWRITE',['../globals_8h.html#a4a7b3ad79fbbf800a01ddcde9a4f2c6c',1,'globals.h']]],
-  ['logger_5ffilenaming_5fseqential_11',['LOGGER_FILENAMING_SEQENTIAL',['../globals_8h.html#a0ef6b264a50e1d38d7104b053464f8b6',1,'globals.h']]],
-  ['logger_5frate_5f10hz_12',['LOGGER_RATE_10HZ',['../globals_8h.html#a29e83db3b19584b185d24db06a963649',1,'globals.h']]],
-  ['logger_5frate_5f1hz_13',['LOGGER_RATE_1HZ',['../globals_8h.html#a92914324a665b01bbd90282d7620dcad',1,'globals.h']]],
-  ['logger_5frate_5f30hz_14',['LOGGER_RATE_30HZ',['../globals_8h.html#a9277987e1ff76a230ca1445482780686',1,'globals.h']]],
-  ['logger_5frate_5f4hz_15',['LOGGER_RATE_4HZ',['../globals_8h.html#a1cc734cc6cf7e9457e37c20158cb2960',1,'globals.h']]]
+  ['map_5fread_5ftimer_5fbit_0',['MAP_READ_TIMER_BIT',['../sensors_8h.html#a0f4118f0504060dc4549e21ba37f8d4e',1,'sensors.h']]],
+  ['max_5frpm_1',['MAX_RPM',['../crank_maths_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'crankMaths.h']]],
+  ['micros_5fper_5fdeg_5f1_5frpm_2',['MICROS_PER_DEG_1_RPM',['../crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1',1,'crankMaths.h']]],
+  ['micros_5fper_5fhour_3',['MICROS_PER_HOUR',['../globals_8h.html#ac6a764d91cd8a6f56eef735a0eea34f4',1,'globals.h']]],
+  ['micros_5fper_5fmin_4',['MICROS_PER_MIN',['../globals_8h.html#a03555a3d9c0464f2f0f5290f619ad08e',1,'globals.h']]],
+  ['micros_5fper_5fsec_5',['MICROS_PER_SEC',['../globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b',1,'globals.h']]],
+  ['milli_5fper_5fsec_6',['MILLI_PER_SEC',['../globals_8h.html#ae49dfee85186da4b42c1e96894cc772a',1,'globals.h']]],
+  ['min_5fcycles_5ffor_5fendcompare_7',['MIN_CYCLES_FOR_ENDCOMPARE',['../schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3',1,'schedule_calcs.hpp']]],
+  ['min_5frpm_8',['MIN_RPM',['../crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce',1,'crankMaths.h']]],
+  ['ms_5fper_5fsec_9',['MS_PER_SEC',['../timers_8h.html#a98c842b52ffe344288b6e38b12417baa',1,'timers.h']]]
 ];

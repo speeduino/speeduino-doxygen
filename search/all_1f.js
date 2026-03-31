@@ -23,10 +23,10 @@ var searchData=
   ['unused9_5f0_20',['unused9_0',['../structconfig9.html#ab345d0d17897240994a14c6599891c0f',1,'config9']]],
   ['unused_5f13_21',['unused_13',['../structconfig13.html#aee61983e3ea96cac74ff06700c78cbea',1,'config13']]],
   ['unusedbits4_22',['unusedBits4',['../structconfig4.html#ac759eeedf630892040c8045ce3260672',1,'config4']]],
-  ['update_23',['update',['../storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp'],['../storage__api_8h.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp']]],
+  ['update_23',['update',['../storage__api_8h.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp'],['../storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8',1,'update(const storage_api_t &amp;api, uint16_t address, byte value):&#160;storage_api.cpp']]],
   ['updateaetimeout_24',['updateAeTimeout',['../corrections_8cpp.html#ac746f6067333414c09f9d597c2ace697',1,'corrections.cpp']]],
   ['updateblock_25',['updateblock',['../storage__api_8cpp.html#ad79469409af4199c4e1f1345c5703b29',1,'updateBlock(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast):&#160;storage_api.cpp'],['../storage__api_8h.html#ad79469409af4199c4e1f1345c5703b29',1,'updateBlock(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast):&#160;storage_api.cpp']]],
-  ['updateblocklimitwriteops_26',['updateblocklimitwriteops',['../storage__api_8h.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp'],['../storage__api_8cpp.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp']]],
+  ['updateblocklimitwriteops_26',['updateblocklimitwriteops',['../storage__api_8cpp.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp'],['../storage__api_8h.html#a32ce1aaf4c1b83189861a975b756ef67',1,'updateBlockLimitWriteOps(const storage_api_t &amp;api, uint16_t address, const byte *pFirst, const byte *pLast, uint16_t maxWrites):&#160;storage_api.cpp']]],
   ['updatecrc_27',['updateCrc',['../group__group-serial-comms-impl.html#gae3a7361a0fbe48d258eb011a3fb42a8c',1,'comms.cpp']]],
   ['updatefuelpressure_28',['updateFuelPressure',['../sensors_8cpp.html#a185fde53af628a9d3e79f6c37a4fb290',1,'sensors.cpp']]],
   ['updateobject_29',['updateObject',['../storage__api_8h.html#a39e71c020e9c61aa672e11059bbeefd6',1,'storage_api.h']]],
@@ -48,8 +48,9 @@ var searchData=
   ['useemap_45',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
   ['useextbaro_46',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
   ['useresync_47',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
-  ['usetachosweep_48',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]],
-  ['utilities_2ecpp_49',['utilities.cpp',['../utilities_8cpp.html',1,'']]],
-  ['utilities_2eh_50',['utilities.h',['../utilities_8h.html',1,'']]],
-  ['utility_20functions_51',['Storage utility functions',['../group__storage-utility.html',1,'']]]
+  ['userollingcut_48',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]],
+  ['usetachosweep_49',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]],
+  ['utilities_2ecpp_50',['utilities.cpp',['../utilities_8cpp.html',1,'']]],
+  ['utilities_2eh_51',['utilities.h',['../utilities_8h.html',1,'']]],
+  ['utility_20functions_52',['Storage utility functions',['../group__storage-utility.html',1,'']]]
 ];

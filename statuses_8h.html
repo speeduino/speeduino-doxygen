@@ -77,6 +77,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">statuses.h File Reference</div></div>
 </div><!--header-->
@@ -97,7 +98,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <area shape="rect" title="The statuses struct and related defines." alt="" coords="658,5,803,31"/>
 <area shape="rect" href="dwell_8h.html" title=" " alt="" coords="119,226,243,252"/>
 <area shape="poly" title=" " alt="" coords="643,24,542,28,431,38,331,55,292,67,264,81,246,96,231,115,208,156,194,196,186,226,181,225,189,194,203,154,227,112,243,93,261,77,290,62,330,50,430,33,542,23,643,18"/>
-<area shape="rect" href="engine_protection_8h.html" title=" " alt="" coords="370,226,561,252"/>
+<area shape="rect" href="engine_protection_8h.html" title="Engine &quot;protection&quot; via RPM limits." alt="" coords="370,226,561,252"/>
 <area shape="poly" title=" " alt="" coords="706,43,481,228,478,224,703,39"/>
 <area shape="rect" href="fuel__calcs_8h.html" title="Pulse width calculations." alt="" coords="953,226,1106,252"/>
 <area shape="poly" title=" " alt="" coords="794,34,841,52,887,77,932,114,971,156,1023,224,1019,227,967,159,928,118,884,81,838,56,792,39"/>
@@ -291,6 +292,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html">statuses</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The status struct with current values for all 'live' variables.  <a href="structstatuses.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses_1_1engine__protect__flags__t.html">statuses::engine_protect_flags_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Engine protection status fields.  <a href="structstatuses_1_1engine__protect__flags__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel and ignition scheduler cut state.  <a href="structstatuses_1_1scheduler__cut__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,13 +304,18 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3eca60932ee4119828944ccd69a6272b" id="r_a3eca60932ee4119828944ccd69a6272b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a></td></tr>
 <tr class="separator:a3eca60932ee4119828944ccd69a6272b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a63e3be764bc3d0098d9cb3b19aac60e8" id="r_a63e3be764bc3d0098d9cb3b19aac60e8"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8">SchedulerCutStatus</a> : uint8_t { <a class="el" href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+, <a class="el" href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8af4920797afb92022a9c6608efcd86317">Rolling</a>
+, <a class="el" href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8abbd47109890259c0127154db1af26c75">Full</a>
+ }</td></tr>
+<tr class="memdesc:a63e3be764bc3d0098d9cb3b19aac60e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current status of scheduler channel cuts.  <a href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8">More...</a><br /></td></tr>
+<tr class="separator:a63e3be764bc3d0098d9cb3b19aac60e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a118f8e02006a5b6d52cd78f9f0c2ef53" id="r_a118f8e02006a5b6d52cd78f9f0c2ef53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#a118f8e02006a5b6d52cd78f9f0c2ef53">isEngineProtectActive</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">status</a>)</td></tr>
-<tr class="separator:a118f8e02006a5b6d52cd78f9f0c2ef53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3861042f004bbc0f38e82bf511c57c2" id="r_ad3861042f004bbc0f38e82bf511c57c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#ad3861042f004bbc0f38e82bf511c57c2">resetEngineProtect</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">status</a>)</td></tr>
-<tr class="separator:ad3861042f004bbc0f38e82bf511c57c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa282443d4441252582d11eb8a033b8f2" id="r_aa282443d4441252582d11eb8a033b8f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#aa282443d4441252582d11eb8a033b8f2">setRpm</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">status</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rpm</a>)</td></tr>
+<tr class="memitem:aa282443d4441252582d11eb8a033b8f2" id="r_aa282443d4441252582d11eb8a033b8f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8h.html#aa282443d4441252582d11eb8a033b8f2">setRpm</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;status, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> rpm)</td></tr>
 <tr class="memdesc:aa282443d4441252582d11eb8a033b8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the RPM field, keeping RPMDiv100 in sync.  <br /></td></tr>
 <tr class="separator:aa282443d4441252582d11eb8a033b8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -327,121 +336,40 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a63e3be764bc3d0098d9cb3b19aac60e8" name="a63e3be764bc3d0098d9cb3b19aac60e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e3be764bc3d0098d9cb3b19aac60e8">&#9670;&#160;</a></span>SchedulerCutStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">enum</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">class</a> <a class="el" href="statuses_8h.html#a63e3be764bc3d0098d9cb3b19aac60e8">SchedulerCutStatus</a> : <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current status of scheduler channel cuts. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a63e3be764bc3d0098d9cb3b19aac60e8a6adf97f83acf6453d4a6a4b1070f3754" name="a63e3be764bc3d0098d9cb3b19aac60e8a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"><p>No cuts are in effect </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a63e3be764bc3d0098d9cb3b19aac60e8af4920797afb92022a9c6608efcd86317" name="a63e3be764bc3d0098d9cb3b19aac60e8af4920797afb92022a9c6608efcd86317"></a>Rolling&#160;</td><td class="fielddoc"><p>Rolling cut is in effect. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a63e3be764bc3d0098d9cb3b19aac60e8abbd47109890259c0127154db1af26c75" name="a63e3be764bc3d0098d9cb3b19aac60e8abbd47109890259c0127154db1af26c75"></a>Full&#160;</td><td class="fielddoc"><p>Full cut is applied. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a118f8e02006a5b6d52cd78f9f0c2ef53" name="a118f8e02006a5b6d52cd78f9f0c2ef53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a118f8e02006a5b6d52cd78f9f0c2ef53">&#9670;&#160;</a></span>isEngineProtectActive()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> isEngineProtectActive </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>status</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_cgraph.png" border="0" usemap="#astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_cgraph" alt=""/></div>
-<map name="astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_cgraph" id="astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,155,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="203,5,372,31"/>
-<area shape="poly" title=" " alt="" coords="155,16,187,16,187,21,155,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="594,5,688,31"/>
-<area shape="poly" title=" " alt="" coords="372,16,578,16,578,21,372,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="420,31,546,56"/>
-<area shape="poly" title=" " alt="" coords="373,26,405,31,404,36,372,32"/>
-<area shape="poly" title=" " alt="" coords="546,31,578,25,579,31,547,36"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_icgraph.png" border="0" usemap="#astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_icgraph" alt=""/></div>
-<map name="astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_icgraph" id="astatuses_8h_a118f8e02006a5b6d52cd78f9f0c2ef53_icgraph">
-<area shape="rect" title=" " alt="" coords="986,5,1135,31"/>
-<area shape="rect" href="sensors_8cpp.html#a8f5b0a4ed365a407171bd1ea30956682" title=" " alt="" coords="791,5,938,31"/>
-<area shape="poly" title=" " alt="" coords="971,21,939,21,939,16,971,16"/>
-<area shape="rect" href="sensors_8cpp.html#a3a25f82840a079b41d7d30d274b94ddb" title=" " alt="" coords="565,5,743,31"/>
-<area shape="poly" title=" " alt="" coords="775,21,743,21,743,16,775,16"/>
-<area shape="rect" href="sensors_8cpp.html#aa83e51bd5dccb07486f2e2f93a7fb5fc" title=" " alt="" coords="386,5,517,31"/>
-<area shape="poly" title=" " alt="" coords="550,21,518,21,518,16,550,16"/>
-<area shape="rect" href="sensors_8cpp.html#acc2f067fea5afe76491425dfd14bf937" title=" " alt="" coords="263,5,338,31"/>
-<area shape="poly" title=" " alt="" coords="370,21,338,21,338,16,370,16"/>
-<area shape="rect" href="sensors_8cpp.html#a8b017fd1fb806d6c5afdd35ba6d68cc4" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ad3861042f004bbc0f38e82bf511c57c2" name="ad3861042f004bbc0f38e82bf511c57c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3861042f004bbc0f38e82bf511c57c2">&#9670;&#160;</a></span>resetEngineProtect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> resetEngineProtect </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>status</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8h_ad3861042f004bbc0f38e82bf511c57c2_cgraph.png" border="0" usemap="#astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_cgraph" alt=""/></div>
-<map name="astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_cgraph" id="astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,137,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="185,5,354,31"/>
-<area shape="poly" title=" " alt="" coords="137,16,169,16,169,21,137,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="576,5,670,31"/>
-<area shape="poly" title=" " alt="" coords="354,16,560,16,560,21,354,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="402,31,528,56"/>
-<area shape="poly" title=" " alt="" coords="355,26,387,31,386,36,354,32"/>
-<area shape="poly" title=" " alt="" coords="528,31,560,25,561,31,529,36"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8h_ad3861042f004bbc0f38e82bf511c57c2_icgraph.png" border="0" usemap="#astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_icgraph" alt=""/></div>
-<map name="astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_icgraph" id="astatuses_8h_ad3861042f004bbc0f38e82bf511c57c2_icgraph">
-<area shape="rect" title=" " alt="" coords="238,31,369,56"/>
-<area shape="rect" href="engine_protection_8cpp.html#aa84b872c41cc780e16533c09769e1a5e" title=" " alt="" coords="129,5,168,31"/>
-<area shape="poly" title=" " alt="" coords="222,33,168,24,169,19,223,28"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,55,190,80"/>
-<area shape="poly" title=" " alt="" coords="223,59,191,64,190,58,222,53"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
-<area shape="poly" title=" " alt="" coords="91,70,59,70,59,65,91,65"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="aa282443d4441252582d11eb8a033b8f2" name="aa282443d4441252582d11eb8a033b8f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa282443d4441252582d11eb8a033b8f2">&#9670;&#160;</a></span>setRpm()</h2>
 

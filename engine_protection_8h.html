@@ -79,6 +79,9 @@ $(function() {
   <div class="headertitle"><div class="title">engineProtection.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Engine "protection" via RPM limits.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="statuses_8h_source.html">statuses.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -86,7 +89,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="engine_protection_8h__dep__incl.png" border="0" usemap="#aspeeduino_2engine_protection_8hdep" alt=""/></div>
 <map name="aspeeduino_2engine_protection_8hdep" id="aspeeduino_2engine_protection_8hdep">
-<area shape="rect" title=" " alt="" coords="116,5,308,31"/>
+<area shape="rect" title="Engine &quot;protection&quot; via RPM limits." alt="" coords="116,5,308,31"/>
 <area shape="rect" href="engine_protection_8cpp.html" title=" " alt="" coords="5,79,211,105"/>
 <area shape="poly" title=" " alt="" coords="184,42,127,81,124,76,181,38"/>
 <area shape="rect" href="speeduino_8ino.html" title=" " alt="" coords="234,79,398,105"/>
@@ -98,16 +101,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abde6232ecc7bd4f9607d8d3bf4ffe9e2" id="r_abde6232ecc7bd4f9607d8d3bf4ffe9e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8h.html#abde6232ecc7bd4f9607d8d3bf4ffe9e2">checkEngineProtect</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#a4190c3ae052c4f94097dbe07cc69ae73">page10</a>)</td></tr>
-<tr class="separator:abde6232ecc7bd4f9607d8d3bf4ffe9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a233eb84037daeb56e4657d9ee2ecb1f4" id="r_a233eb84037daeb56e4657d9ee2ecb1f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8h.html#a233eb84037daeb56e4657d9ee2ecb1f4">checkRevLimit</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
-<tr class="separator:a233eb84037daeb56e4657d9ee2ecb1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0818ae06558c5486a46b2d912403f504" id="r_a0818ae06558c5486a46b2d912403f504"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8h.html#a0818ae06558c5486a46b2d912403f504">calculateFuelIgnitionChannelCut</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#a4190c3ae052c4f94097dbe07cc69ae73">page10</a>)</td></tr>
-<tr class="separator:a0818ae06558c5486a46b2d912403f504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cefbcc6b52c51ed490242d209b75603" id="r_a1cefbcc6b52c51ed490242d209b75603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstatuses_1_1engine__protect__flags__t.html">statuses::engine_protect_flags_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8h.html#a1cefbcc6b52c51ed490242d209b75603">checkEngineProtection</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="memdesc:a1cefbcc6b52c51ed490242d209b75603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine what the engine protection state is.  <br /></td></tr>
+<tr class="separator:a1cefbcc6b52c51ed490242d209b75603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7874bd9baedb46908bc6ccbdec465105" id="r_a7874bd9baedb46908bc6ccbdec465105"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8h.html#a7874bd9baedb46908bc6ccbdec465105">calculateFuelIgnitionChannelCut</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="memdesc:a7874bd9baedb46908bc6ccbdec465105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determine which fuel and ignition channels to cut in order to limit RPM.  <br /></td></tr>
+<tr class="separator:a7874bd9baedb46908bc6ccbdec465105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a0818ae06558c5486a46b2d912403f504" name="a0818ae06558c5486a46b2d912403f504"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0818ae06558c5486a46b2d912403f504">&#9670;&#160;</a></span>calculateFuelIgnitionChannelCut()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Engine "protection" via RPM limits. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a7874bd9baedb46908bc6ccbdec465105" name="a7874bd9baedb46908bc6ccbdec465105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7874bd9baedb46908bc6ccbdec465105">&#9670;&#160;</a></span>calculateFuelIgnitionChannelCut()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -115,7 +120,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a> calculateFuelIgnitionChannelCut </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
@@ -123,108 +128,6 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
-          <td class="paramname"><em>page4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
-          <td class="paramname"><em>page6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
-          <td class="paramname"><em>page9</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
-          <td class="paramname"><em>page10</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="engine_protection_8h_a0818ae06558c5486a46b2d912403f504_icgraph.png" border="0" usemap="#aengine_protection_8h_a0818ae06558c5486a46b2d912403f504_icgraph" alt=""/></div>
-<map name="aengine_protection_8h_a0818ae06558c5486a46b2d912403f504_icgraph" id="aengine_protection_8h_a0818ae06558c5486a46b2d912403f504_icgraph">
-<area shape="rect" title=" " alt="" coords="263,5,470,31"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="abde6232ecc7bd4f9607d8d3bf4ffe9e2" name="abde6232ecc7bd4f9607d8d3bf4ffe9e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde6232ecc7bd4f9607d8d3bf4ffe9e2">&#9670;&#160;</a></span>checkEngineProtect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a> checkEngineProtect </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>current</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
-          <td class="paramname"><em>page4</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
-          <td class="paramname"><em>page6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
-          <td class="paramname"><em>page9</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
-          <td class="paramname"><em>page10</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a233eb84037daeb56e4657d9ee2ecb1f4" name="a233eb84037daeb56e4657d9ee2ecb1f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a233eb84037daeb56e4657d9ee2ecb1f4">&#9670;&#160;</a></span>checkRevLimit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> checkRevLimit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -251,25 +154,97 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determine which fuel and ignition channels to cut in order to limit RPM. </p>
+<dl class="section note"><dt>Note</dt><dd>This can only enforce RPM based limits; limits based on other factors (E.g. advance) are dealt with elsewhere.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>Current system state </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune </td></tr>
+    <tr><td class="paramname">page4</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page9</td><td>Tune </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structstatuses_1_1scheduler__cut__t.html" title="Fuel and ignition scheduler cut state.">statuses::scheduler_cut_t</a> Cut status &amp; fuel/ignition channels that should be cut. </dd></dl>
 <div class="dynheader">
-Here is the call graph for this function:</div>
+Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="engine_protection_8h_a233eb84037daeb56e4657d9ee2ecb1f4_cgraph.png" border="0" usemap="#aengine_protection_8h_a233eb84037daeb56e4657d9ee2ecb1f4_cgraph" alt=""/></div>
-<map name="aengine_protection_8h_a233eb84037daeb56e4657d9ee2ecb1f4_cgraph" id="aengine_protection_8h_a233eb84037daeb56e4657d9ee2ecb1f4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,23,114,49"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="358,23,527,49"/>
-<area shape="poly" title=" " alt="" coords="104,20,161,8,236,3,310,8,370,17,369,22,310,14,236,8,162,14,105,25"/>
-<area shape="rect" href="table2d_8h.html#a7b36928cbb53eaa379879e3189448c41" title="Interpolate a value from a 2d table." alt="" coords="174,23,298,49"/>
-<area shape="poly" title=" " alt="" coords="114,34,159,34,159,39,114,39"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="162,73,310,98"/>
-<area shape="poly" title=" " alt="" coords="109,47,174,66,172,71,108,52"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="750,23,843,49"/>
-<area shape="poly" title=" " alt="" coords="528,34,734,34,734,39,528,39"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="575,49,702,74"/>
-<area shape="poly" title=" " alt="" coords="528,45,560,49,559,54,527,50"/>
-<area shape="poly" title=" " alt="" coords="702,49,734,44,734,49,702,54"/>
-<area shape="poly" title=" " alt="" coords="298,34,342,34,342,39,298,39"/>
-<area shape="poly" title=" " alt="" coords="292,70,370,51,372,56,294,75"/>
+<div class="center"><img src="engine_protection_8h_a7874bd9baedb46908bc6ccbdec465105_icgraph.png" border="0" usemap="#aengine_protection_8h_a7874bd9baedb46908bc6ccbdec465105_icgraph" alt=""/></div>
+<map name="aengine_protection_8h_a7874bd9baedb46908bc6ccbdec465105_icgraph" id="aengine_protection_8h_a7874bd9baedb46908bc6ccbdec465105_icgraph">
+<area shape="rect" title="Determine which fuel and ignition channels to cut in order to limit RPM." alt="" coords="263,5,470,31"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
+<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1cefbcc6b52c51ed490242d209b75603" name="a1cefbcc6b52c51ed490242d209b75603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cefbcc6b52c51ed490242d209b75603">&#9670;&#160;</a></span>checkEngineProtection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structstatuses_1_1engine__protect__flags__t.html">statuses::engine_protect_flags_t</a> checkEngineProtection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Determine what the engine protection state is. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>Current system state </td></tr>
+    <tr><td class="paramname">page4</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page9</td><td>Tune </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structstatuses_1_1engine__protect__flags__t.html" title="Engine protection status fields.">statuses::engine_protect_flags_t</a> Which engine protections should be applied </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="engine_protection_8h_a1cefbcc6b52c51ed490242d209b75603_icgraph.png" border="0" usemap="#aengine_protection_8h_a1cefbcc6b52c51ed490242d209b75603_icgraph" alt=""/></div>
+<map name="aengine_protection_8h_a1cefbcc6b52c51ed490242d209b75603_icgraph" id="aengine_protection_8h_a1cefbcc6b52c51ed490242d209b75603_icgraph">
+<area shape="rect" title="Determine what the engine protection state is." alt="" coords="263,5,417,31"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
+<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
 </map>
 </div>
 

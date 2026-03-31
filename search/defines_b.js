@@ -1,9 +1,16 @@
 var searchData=
 [
-  ['n2o_5fstage1_5fpin_5fhigh_0',['N2O_STAGE1_PIN_HIGH',['../auxiliaries_8cpp.html#abcd434b22b5dda07854165ae1f111e3f',1,'auxiliaries.cpp']]],
-  ['n2o_5fstage1_5fpin_5flow_1',['N2O_STAGE1_PIN_LOW',['../auxiliaries_8cpp.html#abac195731d91c8081203bc631c00e680',1,'auxiliaries.cpp']]],
-  ['n2o_5fstage2_5fpin_5fhigh_2',['N2O_STAGE2_PIN_HIGH',['../auxiliaries_8cpp.html#ad32a9c226eea4c1504663f277e33843c',1,'auxiliaries.cpp']]],
-  ['n2o_5fstage2_5fpin_5flow_3',['N2O_STAGE2_PIN_LOW',['../auxiliaries_8cpp.html#aa70c9c52509bedbe1385830810e1fc15',1,'auxiliaries.cpp']]],
-  ['native_5fcan_5favailable_4',['native_can_available',['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h']]],
-  ['new_5fcan_5fpacket_5fsize_5',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]]
+  ['o2_5fread_5ftimer_5fbit_0',['O2_READ_TIMER_BIT',['../sensors_8h.html#a999146e0ed2542fb9224a73eba69fd41',1,'sensors.h']]],
+  ['offset_5ffueltrim_1',['OFFSET_FUELTRIM',['../globals_8h.html#a31e817fc9ea7d66640a4f42b1ea7e9a6',1,'globals.h']]],
+  ['offset_5fignition_2',['OFFSET_IGNITION',['../globals_8h.html#aa8d48ffa23ed01c0efe4237511231109',1,'globals.h']]],
+  ['openinjector1_5fmc33810_3',['openInjector1_MC33810',['../acc__mc33810_8h.html#a78cf834faa580a9b36f00ed7d1240acc',1,'acc_mc33810.h']]],
+  ['openinjector2_5fmc33810_4',['openInjector2_MC33810',['../acc__mc33810_8h.html#a64cd7bac4d8f53eda77fe79bba09b10d',1,'acc_mc33810.h']]],
+  ['openinjector3_5fmc33810_5',['openInjector3_MC33810',['../acc__mc33810_8h.html#ab4b983eb2375f4b2d3347556b7af4e55',1,'acc_mc33810.h']]],
+  ['openinjector4_5fmc33810_6',['openInjector4_MC33810',['../acc__mc33810_8h.html#a12b9a245492e0773df97caaf337a15a3',1,'acc_mc33810.h']]],
+  ['openinjector5_5fmc33810_7',['openInjector5_MC33810',['../acc__mc33810_8h.html#a2ed0d8a12be368b9a8a8fd78d57228be',1,'acc_mc33810.h']]],
+  ['openinjector6_5fmc33810_8',['openInjector6_MC33810',['../acc__mc33810_8h.html#abeb02d5b067b3701016374d6e32e270a',1,'acc_mc33810.h']]],
+  ['openinjector7_5fmc33810_9',['openInjector7_MC33810',['../acc__mc33810_8h.html#a568c0d7a0142b4b378bc8fcdf7d86c3b',1,'acc_mc33810.h']]],
+  ['openinjector8_5fmc33810_10',['openInjector8_MC33810',['../acc__mc33810_8h.html#aea742802d0ddb6833c3ddc6d02caab28',1,'acc_mc33810.h']]],
+  ['output_5fcontrol_5fdirect_11',['OUTPUT_CONTROL_DIRECT',['../globals_8h.html#ab903760e123907152bc7e44cfc3f9da4',1,'globals.h']]],
+  ['output_5fcontrol_5fmc33810_12',['OUTPUT_CONTROL_MC33810',['../globals_8h.html#a07c26b2925479007f69f8690ea5ebae5',1,'globals.h']]]
 ];

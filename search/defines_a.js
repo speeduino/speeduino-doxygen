@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['map_5fread_5ftimer_5fbit_0',['MAP_READ_TIMER_BIT',['../sensors_8h.html#a0f4118f0504060dc4549e21ba37f8d4e',1,'sensors.h']]],
-  ['max_5frpm_1',['MAX_RPM',['../crank_maths_8h.html#a0d0de63cb3b2b767719451b355cb94fa',1,'crankMaths.h']]],
-  ['micros_5fper_5fdeg_5f1_5frpm_2',['MICROS_PER_DEG_1_RPM',['../crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1',1,'crankMaths.h']]],
-  ['micros_5fper_5fhour_3',['MICROS_PER_HOUR',['../globals_8h.html#ac6a764d91cd8a6f56eef735a0eea34f4',1,'globals.h']]],
-  ['micros_5fper_5fmin_4',['MICROS_PER_MIN',['../globals_8h.html#a03555a3d9c0464f2f0f5290f619ad08e',1,'globals.h']]],
-  ['micros_5fper_5fsec_5',['MICROS_PER_SEC',['../globals_8h.html#a81bcea712b48d6bf8f7193e3de40404b',1,'globals.h']]],
-  ['milli_5fper_5fsec_6',['MILLI_PER_SEC',['../globals_8h.html#ae49dfee85186da4b42c1e96894cc772a',1,'globals.h']]],
-  ['min_5fcycles_5ffor_5fendcompare_7',['MIN_CYCLES_FOR_ENDCOMPARE',['../schedule__calcs_8hpp.html#a7cafbc75494e9d7e2499a404179a56f3',1,'schedule_calcs.hpp']]],
-  ['min_5frpm_8',['MIN_RPM',['../crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce',1,'crankMaths.h']]],
-  ['ms_5fper_5fsec_9',['MS_PER_SEC',['../timers_8h.html#a98c842b52ffe344288b6e38b12417baa',1,'timers.h']]]
+  ['n2o_5fstage1_5fpin_5fhigh_0',['N2O_STAGE1_PIN_HIGH',['../auxiliaries_8cpp.html#abcd434b22b5dda07854165ae1f111e3f',1,'auxiliaries.cpp']]],
+  ['n2o_5fstage1_5fpin_5flow_1',['N2O_STAGE1_PIN_LOW',['../auxiliaries_8cpp.html#abac195731d91c8081203bc631c00e680',1,'auxiliaries.cpp']]],
+  ['n2o_5fstage2_5fpin_5fhigh_2',['N2O_STAGE2_PIN_HIGH',['../auxiliaries_8cpp.html#ad32a9c226eea4c1504663f277e33843c',1,'auxiliaries.cpp']]],
+  ['n2o_5fstage2_5fpin_5flow_3',['N2O_STAGE2_PIN_LOW',['../auxiliaries_8cpp.html#aa70c9c52509bedbe1385830810e1fc15',1,'auxiliaries.cpp']]],
+  ['native_5fcan_5favailable_4',['native_can_available',['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h']]],
+  ['new_5fcan_5fpacket_5fsize_5',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]]
 ];
