@@ -24,9 +24,10 @@ var searchData=
   ['sensors_5fmap_5fstructs_2eh_21',['sensors_map_structs.h',['../sensors__map__structs_8h.html',1,'']]],
   ['speeduino_2eino_22',['speeduino.ino',['../speeduino_8ino.html',1,'']]],
   ['static_5ffor_2ehpp_23',['static_for.hpp',['../static__for_8hpp.html',1,'']]],
-  ['statuses_2eh_24',['statuses.h',['../statuses_8h.html',1,'']]],
-  ['storage_2ecpp_25',['storage.cpp',['../storage_8cpp.html',1,'']]],
-  ['storage_2eh_26',['storage.h',['../storage_8h.html',1,'']]],
-  ['storage_5fapi_2ecpp_27',['storage_api.cpp',['../storage__api_8cpp.html',1,'']]],
-  ['storage_5fapi_2eh_28',['storage_api.h',['../storage__api_8h.html',1,'']]]
+  ['statuses_2ecpp_24',['statuses.cpp',['../statuses_8cpp.html',1,'']]],
+  ['statuses_2eh_25',['statuses.h',['../statuses_8h.html',1,'']]],
+  ['storage_2ecpp_26',['storage.cpp',['../storage_8cpp.html',1,'']]],
+  ['storage_2eh_27',['storage.h',['../storage_8h.html',1,'']]],
+  ['storage_5fapi_2ecpp_28',['storage_api.cpp',['../storage__api_8cpp.html',1,'']]],
+  ['storage_5fapi_2eh_29',['storage_api.h',['../storage__api_8h.html',1,'']]]
 ];
