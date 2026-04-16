@@ -87,6 +87,8 @@ $(function() {
 <code>#include &lt;HardwareSerial.h&gt;</code><br />
 <code>#include &quot;STM32RTC.h&quot;</code><br />
 <code>#include &lt;SPI.h&gt;</code><br />
+<code>#include &quot;src/pins/inputPin.h&quot;</code><br />
+<code>#include &quot;src/pins/outputPin.h&quot;</code><br />
 <code>#include &quot;stm32f4xx_ll_tim.h&quot;</code><br />
 </div>
 <p><a href="board__stm32__official_8h_source.html">Go to the source code of this file.</a></p>
@@ -221,6 +223,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a39e262bc4c1d7700c35b1bc5451af641" id="r_a39e262bc4c1d7700c35b1bc5451af641"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a></td></tr>
 <tr class="memdesc:a39e262bc4c1d7700c35b1bc5451af641"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timer overflow type.  <br /></td></tr>
 <tr class="separator:a39e262bc4c1d7700c35b1bc5451af641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e925d7d7a584bbe5b81146e35408562" id="r_a7e925d7d7a584bbe5b81146e35408562"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#a7e925d7d7a584bbe5b81146e35408562">boardInputPin_t</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">inputPin_t</a></td></tr>
+<tr class="separator:a7e925d7d7a584bbe5b81146e35408562"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3b87672614bf031b0a56adc93b0307" id="r_a0c3b87672614bf031b0a56adc93b0307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__stm32__official_8h.html#a0c3b87672614bf031b0a56adc93b0307">boardOutputPin_t</a> = <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">outputPin_t</a></td></tr>
+<tr class="separator:a0c3b87672614bf031b0a56adc93b0307"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -1208,6 +1214,34 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7e925d7d7a584bbe5b81146e35408562" name="a7e925d7d7a584bbe5b81146e35408562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e925d7d7a584bbe5b81146e35408562">&#9670;&#160;</a></span>boardInputPin_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a> <a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a> =  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">inputPin_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c3b87672614bf031b0a56adc93b0307" name="a0c3b87672614bf031b0a56adc93b0307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3b87672614bf031b0a56adc93b0307">&#9670;&#160;</a></span>boardOutputPin_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">using</a> <a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a> =  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">outputPin_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a39e262bc4c1d7700c35b1bc5451af641" name="a39e262bc4c1d7700c35b1bc5451af641"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39e262bc4c1d7700c35b1bc5451af641">&#9670;&#160;</a></span>COMPARE_TYPE</h2>
 

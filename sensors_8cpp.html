@@ -75,7 +75,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">sensors.cpp File Reference</div></div>
@@ -103,12 +102,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="polling_8hpp_source.html">polling.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="decoders_8h_source.html">decoders.h</a>&quot;</code><br />
 <code>#include &quot;src/pins/fastInputPin.h&quot;</code><br />
+<code>#include &quot;src/pins/inputPin.h&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a943c6a4ab8a31f750ae41e1e50d8a5cc" id="r_a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#a943c6a4ab8a31f750ae41e1e50d8a5cc">READ_FLEX</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a881676bf3546a0b2d7bec83e8d50d45b">pinFlex</a>)==<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">HIGH</a></td></tr>
-<tr class="separator:a943c6a4ab8a31f750ae41e1e50d8a5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae428fae84e58801715e3ba43fd3eae71" id="r_ae428fae84e58801715e3ba43fd3eae71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71">fastMap10Bit</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">value</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rangeMin</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rangeMax</a>)</td></tr>
@@ -246,8 +241,6 @@ Functions</h2></td></tr>
 <tr class="separator:a8b017fd1fb806d6c5afdd35ba6d68cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae24010c3d6285afb811d8fab6cf29a4" id="r_aae24010c3d6285afb811d8fab6cf29a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4">getAnalogKnock</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:aae24010c3d6285afb811d8fab6cf29a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca848909730efcf5ecf56273fefc9929" id="r_aca848909730efcf5ecf56273fefc9929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#aca848909730efcf5ecf56273fefc9929">initialiseFlexPin</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pin</a>)</td></tr>
-<tr class="separator:aca848909730efcf5ecf56273fefc9929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2d8ed119f5ab04ea9eae66f7a249ef7" id="r_aa2d8ed119f5ab04ea9eae66f7a249ef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#aa2d8ed119f5ab04ea9eae66f7a249ef7">flexPulse</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:aa2d8ed119f5ab04ea9eae66f7a249ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18f59f9c95b51be3158eb6b725d2aa2b" id="r_a18f59f9c95b51be3158eb6b725d2aa2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#a18f59f9c95b51be3158eb6b725d2aa2b">initialiseFlexSensor</a> (<a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pin</a>)</td></tr>
@@ -294,28 +287,12 @@ Variables</h2></td></tr>
 <tr class="separator:ac596add24d3c38cec83182a133d80bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6f3bdfffc96df3a541c9d485e9b364" id="r_a9f6f3bdfffc96df3a541c9d485e9b364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#a9f6f3bdfffc96df3a541c9d485e9b364">VALID_MAP_MIN</a> =2<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td></tr>
 <tr class="separator:a9f6f3bdfffc96df3a541c9d485e9b364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433990daa81f494bbc5dc8df1f0f18c6" id="r_a433990daa81f494bbc5dc8df1f0f18c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8cpp.html#a433990daa81f494bbc5dc8df1f0f18c6">flex_pin</a></td></tr>
+<tr class="separator:a433990daa81f494bbc5dc8df1f0f18c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Read sensors with appropriate timing / scheduling. </p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a943c6a4ab8a31f750ae41e1e50d8a5cc" name="a943c6a4ab8a31f750ae41e1e50d8a5cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a943c6a4ab8a31f750ae41e1e50d8a5cc">&#9670;&#160;</a></span>READ_FLEX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> READ_FLEX</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a881676bf3546a0b2d7bec83e8d50d45b">pinFlex</a>)==<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">HIGH</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="aa83e51bd5dccb07486f2e2f93a7fb5fc" name="aa83e51bd5dccb07486f2e2f93a7fb5fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa83e51bd5dccb07486f2e2f93a7fb5fc">&#9670;&#160;</a></span>applyMapAlgorithm()</h2>
 
@@ -2302,61 +2279,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aca848909730efcf5ecf56273fefc9929" name="aca848909730efcf5ecf56273fefc9929"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca848909730efcf5ecf56273fefc9929">&#9670;&#160;</a></span>initialiseFlexPin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> initialiseFlexPin </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
-          <td class="paramname"><em>pin</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="sensors_8cpp_aca848909730efcf5ecf56273fefc9929_cgraph.png" border="0" usemap="#asensors_8cpp_aca848909730efcf5ecf56273fefc9929_cgraph" alt=""/></div>
-<map name="asensors_8cpp_aca848909730efcf5ecf56273fefc9929_cgraph" id="asensors_8cpp_aca848909730efcf5ecf56273fefc9929_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,117,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="165,5,334,31"/>
-<area shape="poly" title=" " alt="" coords="117,16,149,16,149,21,117,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="556,5,650,31"/>
-<area shape="poly" title=" " alt="" coords="334,16,540,16,540,21,334,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="382,31,508,56"/>
-<area shape="poly" title=" " alt="" coords="335,26,367,31,366,36,334,32"/>
-<area shape="poly" title=" " alt="" coords="508,31,540,25,541,31,509,36"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="sensors_8cpp_aca848909730efcf5ecf56273fefc9929_icgraph.png" border="0" usemap="#asensors_8cpp_aca848909730efcf5ecf56273fefc9929_icgraph" alt=""/></div>
-<map name="asensors_8cpp_aca848909730efcf5ecf56273fefc9929_icgraph" id="asensors_8cpp_aca848909730efcf5ecf56273fefc9929_icgraph">
-<area shape="rect" title=" " alt="" coords="419,5,531,31"/>
-<area shape="rect" href="sensors_8cpp.html#a18f59f9c95b51be3158eb6b725d2aa2b" title=" " alt="" coords="238,5,371,31"/>
-<area shape="poly" title=" " alt="" coords="404,21,372,21,372,16,404,16"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="223,21,191,21,191,16,223,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a18f59f9c95b51be3158eb6b725d2aa2b" name="a18f59f9c95b51be3158eb6b725d2aa2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18f59f9c95b51be3158eb6b725d2aa2b">&#9670;&#160;</a></span>initialiseFlexSensor()</h2>
 
@@ -2393,33 +2315,30 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="sensors_8cpp_a18f59f9c95b51be3158eb6b725d2aa2b_cgraph.png" border="0" usemap="#asensors_8cpp_a18f59f9c95b51be3158eb6b725d2aa2b_cgraph" alt=""/></div>
 <map name="asensors_8cpp_a18f59f9c95b51be3158eb6b725d2aa2b_cgraph" id="asensors_8cpp_a18f59f9c95b51be3158eb6b725d2aa2b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,157,139,183"/>
+<area shape="rect" title=" " alt="" coords="5,132,139,158"/>
 <area shape="rect" href="board__stm32__official_8h.html#a62d713858586a5aac399231239532cf3" title=" " alt="" coords="187,57,324,83"/>
-<area shape="poly" title=" " alt="" coords="89,155,131,124,185,92,196,87,198,92,188,97,134,128,92,159"/>
+<area shape="poly" title=" " alt="" coords="100,129,186,92,200,86,202,91,188,97,103,134"/>
 <area shape="rect" href="sensors_8cpp.html#aa2d8ed119f5ab04ea9eae66f7a249ef7" title=" " alt="" coords="219,107,292,132"/>
-<area shape="poly" title=" " alt="" coords="121,154,203,131,205,136,122,159"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="566,132,736,158"/>
-<area shape="poly" title=" " alt="" coords="139,165,551,147,551,152,139,170"/>
-<area shape="rect" href="sensors_8cpp.html#aca848909730efcf5ecf56273fefc9929" title=" " alt="" coords="390,208,501,234"/>
-<area shape="poly" title=" " alt="" coords="140,179,187,186,375,210,374,216,186,191,139,184"/>
-<area shape="rect" href="globals_8cpp.html#a60110b76a861e7bdea2683562f6c6314" title=" " alt="" coords="211,259,300,284"/>
-<area shape="poly" title=" " alt="" coords="95,181,188,237,212,249,210,254,185,242,92,186"/>
+<area shape="poly" title=" " alt="" coords="139,133,203,124,204,129,139,138"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="566,107,736,132"/>
+<area shape="poly" title=" " alt="" coords="139,146,311,151,415,149,518,142,577,133,578,139,519,147,415,154,311,156,139,151"/>
+<area shape="rect" href="globals_8cpp.html#a60110b76a861e7bdea2683562f6c6314" title=" " alt="" coords="211,208,300,234"/>
+<area shape="poly" title=" " alt="" coords="106,156,209,199,207,204,104,161"/>
 <area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="417,5,473,31"/>
 <area shape="poly" title=" " alt="" coords="291,107,323,93,337,82,346,71,370,48,401,31,404,36,374,52,350,75,340,86,325,98,294,112"/>
-<area shape="poly" title=" " alt="" coords="292,107,372,92,445,84,478,86,519,92,567,105,610,122,608,127,565,110,518,97,477,91,446,90,372,97,293,112"/>
+<area shape="poly" title=" " alt="" coords="292,107,372,92,445,87,519,92,578,100,577,106,518,97,445,92,372,97,293,112"/>
 <area shape="rect" href="maths_8h.html#a42d820a247b720e6deb44d57fc2f6145" title="Simple low pass IIR filter 16&#45;bit values." alt="" coords="372,107,518,132"/>
 <area shape="poly" title=" " alt="" coords="292,117,357,117,357,122,292,122"/>
-<area shape="poly" title=" " alt="" coords="475,26,520,48,576,84,623,120,620,124,573,89,517,52,473,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="958,132,1051,158"/>
-<area shape="poly" title=" " alt="" coords="736,142,942,142,942,148,736,148"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="784,157,910,183"/>
-<area shape="poly" title=" " alt="" coords="736,153,768,157,768,163,736,158"/>
-<area shape="poly" title=" " alt="" coords="910,157,942,152,943,157,911,163"/>
-<area shape="poly" title=" " alt="" coords="519,126,551,130,550,135,518,131"/>
-<area shape="poly" title=" " alt="" coords="481,205,599,161,600,166,483,210"/>
-<area shape="poly" title=" " alt="" coords="300,272,346,272,402,269,461,260,517,244,549,228,578,208,625,167,629,171,581,212,551,233,519,249,462,266,402,275,347,278,300,277"/>
-<area shape="rect" href="board__avr2560_8h.html#a5307fe59275e346f25160482664dca2f" title=" " alt="" coords="393,309,497,335"/>
-<area shape="poly" title=" " alt="" coords="301,281,380,302,379,307,299,286"/>
+<area shape="poly" title=" " alt="" coords="475,27,520,48,614,97,611,101,517,53,473,32"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="958,107,1051,132"/>
+<area shape="poly" title=" " alt="" coords="736,117,942,117,942,122,736,122"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="784,132,910,158"/>
+<area shape="poly" title=" " alt="" coords="736,128,768,132,768,137,736,133"/>
+<area shape="poly" title=" " alt="" coords="910,132,942,127,943,132,911,137"/>
+<area shape="poly" title=" " alt="" coords="519,117,551,117,551,122,519,122"/>
+<area shape="poly" title=" " alt="" coords="300,218,401,210,460,201,517,186,570,164,616,139,618,143,573,169,519,191,461,206,401,215,300,223"/>
+<area shape="rect" href="board__avr2560_8h.html#a5307fe59275e346f25160482664dca2f" title=" " alt="" coords="393,259,497,284"/>
+<area shape="poly" title=" " alt="" coords="301,230,380,252,379,257,299,235"/>
 </map>
 </div>
 <div class="dynheader">
@@ -5552,6 +5471,28 @@ Here is the caller graph for this function:</div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> cltCalibration_values[32]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a433990daa81f494bbc5dc8df1f0f18c6" name="a433990daa81f494bbc5dc8df1f0f18c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a433990daa81f494bbc5dc8df1f0f18c6">&#9670;&#160;</a></span>flex_pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a> flex_pin</td>
         </tr>
       </table>
   </td>

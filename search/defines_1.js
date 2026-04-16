@@ -8,13 +8,5 @@ var searchData=
   ['adcfilter_5fo2_5fdefault_5',['ADCFILTER_O2_DEFAULT',['../sensors_8h.html#a8eb2569912041b18354b60a04b066444',1,'sensors.h']]],
   ['adcfilter_5fpsi_5fdefault_6',['ADCFILTER_PSI_DEFAULT',['../sensors_8h.html#ace22449cf616a01acd8a8c7f8c54cf8a',1,'sensors.h']]],
   ['adcfilter_5ftps_5fdefault_7',['ADCFILTER_TPS_DEFAULT',['../sensors_8h.html#a60fb67afc3c33447f0ccd87e81178939',1,'sensors.h']]],
-  ['aircon_5ffan_5foff_8',['AIRCON_FAN_OFF',['../auxiliaries_8cpp.html#a324fc81f622ae8b9d9903890fc75f8a4',1,'auxiliaries.cpp']]],
-  ['aircon_5ffan_5fon_9',['AIRCON_FAN_ON',['../auxiliaries_8cpp.html#aca30d2747e09e201ff1652a7a31e929d',1,'auxiliaries.cpp']]],
-  ['aircon_5ffan_5fpin_5fhigh_10',['AIRCON_FAN_PIN_HIGH',['../auxiliaries_8cpp.html#afbab5e1d1d303c399113aa86e06c391e',1,'auxiliaries.cpp']]],
-  ['aircon_5ffan_5fpin_5flow_11',['AIRCON_FAN_PIN_LOW',['../auxiliaries_8cpp.html#af56d1a3ffff4354fbb52be5175f03cfa',1,'auxiliaries.cpp']]],
-  ['aircon_5foff_12',['AIRCON_OFF',['../auxiliaries_8cpp.html#a5cf46d7c63d07ad35c4e3bdcf436dc16',1,'auxiliaries.cpp']]],
-  ['aircon_5fon_13',['AIRCON_ON',['../auxiliaries_8cpp.html#ab5110a271a05002e0b85fde85c36917f',1,'auxiliaries.cpp']]],
-  ['aircon_5fpin_5fhigh_14',['AIRCON_PIN_HIGH',['../auxiliaries_8cpp.html#ac432aa21204f7c29b055fece01170f2c',1,'auxiliaries.cpp']]],
-  ['aircon_5fpin_5flow_15',['AIRCON_PIN_LOW',['../auxiliaries_8cpp.html#a047ddda83ce9c47e85d516b16e67b1d3',1,'auxiliaries.cpp']]],
-  ['assign_5fpulsewidth_5for_5fzero_16',['ASSIGN_PULSEWIDTH_OR_ZERO',['../fuel__calcs_8cpp.html#a2f516021a8527056dd1e306d59fc7193',1,'fuel_calcs.cpp']]]
+  ['assign_5fpulsewidth_5for_5fzero_8',['ASSIGN_PULSEWIDTH_OR_ZERO',['../fuel__calcs_8cpp.html#a2f516021a8527056dd1e306d59fc7193',1,'fuel_calcs.cpp']]]
 ];

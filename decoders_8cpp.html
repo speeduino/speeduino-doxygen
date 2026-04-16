@@ -94,15 +94,10 @@ $(function() {
 <code>#include &quot;<a class="el" href="decoder__builder_8h_source.html">decoder_builder.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduled_i_o__ign_8h_source.html">scheduledIO_ign.h</a>&quot;</code><br />
 <code>#include &quot;src/pins/fastInputPin.h&quot;</code><br />
+<code>#include &quot;src/pins/inputPin.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a66dc33369201e4f94f1069c0363e7693" id="r_a66dc33369201e4f94f1069c0363e7693"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a66dc33369201e4f94f1069c0363e7693">READ_PRI_TRIGGER</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a7f4858230128aedeb4be4f34058a8c58">pinTrigger</a>)</td></tr>
-<tr class="separator:a66dc33369201e4f94f1069c0363e7693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a937eaa5bfe2e2b7fae59fbd48759d51a" id="r_a937eaa5bfe2e2b7fae59fbd48759d51a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a937eaa5bfe2e2b7fae59fbd48759d51a">READ_SEC_TRIGGER</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a18a8717fbf36f4169602422e5ab63ef9">pinTrigger2</a>)</td></tr>
-<tr class="separator:a937eaa5bfe2e2b7fae59fbd48759d51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eb421cddc31c34f2255cb19ec1bf934" id="r_a4eb421cddc31c34f2255cb19ec1bf934"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4eb421cddc31c34f2255cb19ec1bf934">READ_THIRD_TRIGGER</a>()&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a0247d84fdc266d9278396e1d07e2b1aa">pinTrigger3</a>)</td></tr>
-<tr class="separator:a4eb421cddc31c34f2255cb19ec1bf934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7def3029c429bbdc07a487e8afe9cf" id="r_aff7def3029c429bbdc07a487e8afe9cf"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aff7def3029c429bbdc07a487e8afe9cf">TOOTH_CRANK</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aff7def3029c429bbdc07a487e8afe9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4401f69e9cc7e91f7bafa029216c035a" id="r_a4401f69e9cc7e91f7bafa029216c035a"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4401f69e9cc7e91f7bafa029216c035a">TOOTH_CAM_SECONDARY</a>&#160;&#160;&#160;1</td></tr>
@@ -571,12 +566,12 @@ Variables</h2></td></tr>
 <tr class="separator:a5aaa51bf35506156bc61d7abbfa6296e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4d08a0a0d2d77c73c00b817f9707fd5" id="r_ab4d08a0a0d2d77c73c00b817f9707fd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a></td></tr>
 <tr class="separator:ab4d08a0a0d2d77c73c00b817f9707fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa55429e51627ab97aaa39548ef166d3" id="r_aaa55429e51627ab97aaa39548ef166d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aaa55429e51627ab97aaa39548ef166d3">triggerPri_pin</a></td></tr>
-<tr class="separator:aaa55429e51627ab97aaa39548ef166d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0fa62719363c12caf5e811764074c7b" id="r_ab0fa62719363c12caf5e811764074c7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ab0fa62719363c12caf5e811764074c7b">triggerSec_pin</a></td></tr>
-<tr class="separator:ab0fa62719363c12caf5e811764074c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a820c46fbccc0bc7386f440fab0343282" id="r_a820c46fbccc0bc7386f440fab0343282"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a820c46fbccc0bc7386f440fab0343282">triggerThird_pin</a></td></tr>
-<tr class="separator:a820c46fbccc0bc7386f440fab0343282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04bc421e0d2395d0316918c3463e0855" id="r_a04bc421e0d2395d0316918c3463e0855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a04bc421e0d2395d0316918c3463e0855">triggerPri_pin</a></td></tr>
+<tr class="separator:a04bc421e0d2395d0316918c3463e0855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e05e4b90bc141a3ec27fc07ad2718e0" id="r_a3e05e4b90bc141a3ec27fc07ad2718e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a3e05e4b90bc141a3ec27fc07ad2718e0">triggerSec_pin</a></td></tr>
+<tr class="separator:a3e05e4b90bc141a3ec27fc07ad2718e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e7a1c5fb976825592554ff30b9f3695" id="r_a5e7a1c5fb976825592554ff30b9f3695"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a5e7a1c5fb976825592554ff30b9f3695">triggerThird_pin</a></td></tr>
+<tr class="separator:a5e7a1c5fb976825592554ff30b9f3695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga769242d6bb3dd77c4c32ca1d95488ec7" id="r_ga769242d6bb3dd77c4c32ca1d95488ec7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="structdecoder__features__t.html">decoder_features_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga769242d6bb3dd77c4c32ca1d95488ec7">decoderFeatures</a></td></tr>
 <tr class="separator:ga769242d6bb3dd77c4c32ca1d95488ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaafd320359e4b378e8172eac969b58fb9" id="r_gaafd320359e4b378e8172eac969b58fb9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">volatile</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">unsigned</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaafd320359e4b378e8172eac969b58fb9">roverMEMSTeethSeen</a> = 0</td></tr>
@@ -606,57 +601,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> ID_TOOTH_PATTERN&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a66dc33369201e4f94f1069c0363e7693" name="a66dc33369201e4f94f1069c0363e7693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66dc33369201e4f94f1069c0363e7693">&#9670;&#160;</a></span>READ_PRI_TRIGGER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> READ_PRI_TRIGGER</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a7f4858230128aedeb4be4f34058a8c58">pinTrigger</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a937eaa5bfe2e2b7fae59fbd48759d51a" name="a937eaa5bfe2e2b7fae59fbd48759d51a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a937eaa5bfe2e2b7fae59fbd48759d51a">&#9670;&#160;</a></span>READ_SEC_TRIGGER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> READ_SEC_TRIGGER</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a18a8717fbf36f4169602422e5ab63ef9">pinTrigger2</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4eb421cddc31c34f2255cb19ec1bf934" name="a4eb421cddc31c34f2255cb19ec1bf934"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4eb421cddc31c34f2255cb19ec1bf934">&#9670;&#160;</a></span>READ_THIRD_TRIGGER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> READ_THIRD_TRIGGER</td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">digitalRead</a>(<a class="el" href="globals_8cpp.html#a0247d84fdc266d9278396e1d07e2b1aa">pinTrigger3</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1837,8 +1781,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aaa55429e51627ab97aaa39548ef166d3" name="aaa55429e51627ab97aaa39548ef166d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa55429e51627ab97aaa39548ef166d3">&#9670;&#160;</a></span>triggerPri_pin</h2>
+<a id="a04bc421e0d2395d0316918c3463e0855" name="a04bc421e0d2395d0316918c3463e0855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04bc421e0d2395d0316918c3463e0855">&#9670;&#160;</a></span>triggerPri_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1847,7 +1791,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a> triggerPri_pin</td>
+          <td class="memname"><a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a> triggerPri_pin</td>
         </tr>
       </table>
   </td>
@@ -1859,8 +1803,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ab0fa62719363c12caf5e811764074c7b" name="ab0fa62719363c12caf5e811764074c7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0fa62719363c12caf5e811764074c7b">&#9670;&#160;</a></span>triggerSec_pin</h2>
+<a id="a3e05e4b90bc141a3ec27fc07ad2718e0" name="a3e05e4b90bc141a3ec27fc07ad2718e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e05e4b90bc141a3ec27fc07ad2718e0">&#9670;&#160;</a></span>triggerSec_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1869,7 +1813,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a> triggerSec_pin</td>
+          <td class="memname"><a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a> triggerSec_pin</td>
         </tr>
       </table>
   </td>
@@ -1925,8 +1869,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a820c46fbccc0bc7386f440fab0343282" name="a820c46fbccc0bc7386f440fab0343282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a820c46fbccc0bc7386f440fab0343282">&#9670;&#160;</a></span>triggerThird_pin</h2>
+<a id="a5e7a1c5fb976825592554ff30b9f3695" name="a5e7a1c5fb976825592554ff30b9f3695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e7a1c5fb976825592554ff30b9f3695">&#9670;&#160;</a></span>triggerThird_pin</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1935,7 +1879,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastInputPin_t</a> triggerThird_pin</td>
+          <td class="memname"><a class="el" href="board__avr2560_8h.html#a627e987204e075a92167db5a5bb24081">boardInputPin_t</a> triggerThird_pin</td>
         </tr>
       </table>
   </td>
