@@ -50,7 +50,5 @@ var searchData=
   ['useresync_47',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
   ['userollingcut_48',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]],
   ['usetachosweep_49',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]],
-  ['utilities_2ecpp_50',['utilities.cpp',['../utilities_8cpp.html',1,'']]],
-  ['utilities_2eh_51',['utilities.h',['../utilities_8h.html',1,'']]],
-  ['utility_20functions_52',['Storage utility functions',['../group__storage-utility.html',1,'']]]
+  ['utility_20functions_50',['Storage utility functions',['../group__storage-utility.html',1,'']]]
 ];

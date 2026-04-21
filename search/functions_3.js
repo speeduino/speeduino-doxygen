@@ -55,7 +55,7 @@ var searchData=
   ['checklaunchandflatshift_52',['checkLaunchAndFlatShift',['../speeduino_8ino.html#a9168b35c35de6fab99846d24a649e19a',1,'speeduino.ino']]],
   ['checkoilpressurelimit_53',['checkOilPressureLimit',['../engine_protection_8cpp.html#adaf6ff1ffeac6238f73130b690d1955d',1,'engineProtection.cpp']]],
   ['checkpertoothtiming_54',['checkPerToothTiming',['../group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8',1,'decoders.cpp']]],
-  ['checkprogrammableio_55',['checkprogrammableio',['../utilities_8cpp.html#a7475cfb056dd97c0f1b0c4461cb33476',1,'checkProgrammableIO(void):&#160;utilities.cpp'],['../utilities_8h.html#a7475cfb056dd97c0f1b0c4461cb33476',1,'checkProgrammableIO(void):&#160;utilities.cpp']]],
+  ['checkprogrammableio_55',['checkprogrammableio',['../programmable_i_o_control_8cpp.html#ad41a7f0f744631666f47b2b8c8a134d4',1,'checkProgrammableIO(statuses &amp;current, const config13 &amp;page13, int16_t(*getData)(uint16_t index)):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8cpp.html#ae7406aff0b6ca632e6e71c43c6f80f38',1,'checkProgrammableIO(statuses &amp;current, const config13 &amp;page13):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8h.html#ae7406aff0b6ca632e6e71c43c6f80f38',1,'checkProgrammableIO(statuses &amp;current, const config13 &amp;page13):&#160;programmableIOControl.cpp']]],
   ['checkrpmlimit_56',['checkRpmLimit',['../engine_protection_8cpp.html#a121a10d9e0724f79ca795e999a4392cc',1,'engineProtection.cpp']]],
   ['clamp_57',['clamp',['../maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be',1,'maths.h']]],
   ['clamptoactualteeth_58',['clampToActualTeeth',['../group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680',1,'decoders.cpp']]],

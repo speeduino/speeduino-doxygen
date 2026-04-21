@@ -14,6 +14,6 @@ var searchData=
   ['processresetstoragerequest_11',['processResetStorageRequest',['../init_8cpp.html#a0e59a414c285af1419e224813d7585ba',1,'init.cpp']]],
   ['processserialcommand_12',['processSerialCommand',['../group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c',1,'comms.cpp']]],
   ['processtemperaturecalibrationtableupdate_13',['processTemperatureCalibrationTableUpdate',['../group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef',1,'comms.cpp']]],
-  ['programmableiogetdata_14',['programmableiogetdata',['../utilities_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utilities.cpp'],['../utilities_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;utilities.cpp']]],
+  ['programmableiogetdata_14',['programmableiogetdata',['../programmable_i_o_control_8cpp.html#a3ae5935a99403a3fae53567880e74a39',1,'ProgrammableIOGetData(uint16_t index, byte(*pGetLogEntry)(uint16_t byteNum)):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp']]],
   ['pwapplynitrous_15',['pwApplyNitrous',['../fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e',1,'fuel_calcs.cpp']]]
 ];

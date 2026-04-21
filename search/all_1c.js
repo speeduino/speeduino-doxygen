@@ -50,7 +50,7 @@ var searchData=
   ['resetpreventactive_47',['resetPreventActive',['../structstatuses.html#adaf5958429f32c2729da53477a6ef38e',1,'statuses']]],
   ['response_20for_20some_20ts_20messages_48',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]],
   ['return_20codes_20sent_20to_20ts_49',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
-  ['reuse_5frules_50',['REUSE_RULES',['../utilities_8h.html#acf871ff8a124f29d65b8ae6cf2d84e14',1,'utilities.h']]],
+  ['reuse_5frules_50',['REUSE_RULES',['../programmable_i_o_control_8cpp.html#a2f7150cc8a7d09534e2ac3f2b76f1059',1,'programmableIOControl.cpp']]],
   ['reverse_5fbytes_51',['reverse_bytes',['../group__group-serial-comms-impl.html#gac830a2c53cacd8ea05176f1705f2fb84',1,'comms.cpp']]],
   ['revolutionone_52',['revolutionOne',['../decoders_8cpp.html#afce12e6bb920a5a0e061554aa2959221',1,'decoders.cpp']]],
   ['revolutiontime_53',['revolutionTime',['../structstatuses.html#a1c3243ef635c145798da6e3bf3693024',1,'statuses']]],
