@@ -11,5 +11,7 @@ var searchData=
   ['_5fend_5frange_5fbyte_5faddress_8',['_end_range_byte_address',['../preprocessor_8h.html#a701909f6fd8f5015960239ca57e31ebf',1,'preprocessor.h']]],
   ['_5fnewvalue_9',['_newValue',['../structset__table__value__visitor.html#ab868476ea867ebb19965a9e7b6a1d11b',1,'set_table_value_visitor']]],
   ['_5foffset_10',['_offset',['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor']]],
-  ['_5ftableoffset_11',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
+  ['_5fresetcontrol_11',['_resetControl',['../reset_control_8cpp.html#ad68f44844dc3cdf95becef45d05b5470',1,'resetControl.cpp']]],
+  ['_5fresetpin_12',['_resetPin',['../reset_control_8cpp.html#a17e2185eeb9db9cce113ac8fb718df1b',1,'resetControl.cpp']]],
+  ['_5ftableoffset_13',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
 ];
