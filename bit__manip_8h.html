@@ -75,7 +75,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">bit_manip.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -357,6 +358,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a011484a60e91f633573a1b3b757ae354" id="r_a011484a60e91f633573a1b3b757ae354"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bit__manip_8h.html#a011484a60e91f633573a1b3b757ae354">BIT_WRITE</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">var</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pos</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bitvalue</a>)&#160;&#160;&#160;((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bitvalue</a>) ? <a class="el" href="bit__manip_8h.html#a71b71595cbacd7eb8643dbde70db816a">BIT_SET</a>((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">var</a>), (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pos</a>)) : <a class="el" href="bit__manip_8h.html#a34d530905cd080e8c2a3ce917e3a2a81">BIT_CLEAR</a>((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">var</a>), (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pos</a>)))</td></tr>
 <tr class="memdesc:a011484a60e91f633573a1b3b757ae354"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the value ([0,1], [true, false]) of bit pos (0-7) in byte var.  <br /></td></tr>
 <tr class="separator:a011484a60e91f633573a1b3b757ae354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:af34f1f2d5528470acb7d1062e5cb36d1" id="r_af34f1f2d5528470acb7d1062e5cb36d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="bit__manip_8h.html#af34f1f2d5528470acb7d1062e5cb36d1">setBits</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>)</td></tr>
+<tr class="memdesc:af34f1f2d5528470acb7d1062e5cb36d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the first n bits of a byte.  <br /></td></tr>
+<tr class="separator:af34f1f2d5528470acb7d1062e5cb36d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bit twiddling macros. </p>
@@ -514,6 +521,45 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the value ([0,1], [true, false]) of bit pos (0-7) in byte var. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af34f1f2d5528470acb7d1062e5cb36d1" name="af34f1f2d5528470acb7d1062e5cb36d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34f1f2d5528470acb7d1062e5cb36d1">&#9670;&#160;</a></span>setBits()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> setBits </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the first n bits of a byte. </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="bit__manip_8h_af34f1f2d5528470acb7d1062e5cb36d1_icgraph.png" border="0" usemap="#abit__manip_8h_af34f1f2d5528470acb7d1062e5cb36d1_icgraph" alt=""/></div>
+<map name="abit__manip_8h_af34f1f2d5528470acb7d1062e5cb36d1_icgraph" id="abit__manip_8h_af34f1f2d5528470acb7d1062e5cb36d1_icgraph">
+<area shape="rect" title="Set the first n bits of a byte." alt="" coords="206,5,268,31"/>
+<area shape="rect" href="engine_protection_8cpp.html#ab5f553e126a247106f405d73574ef340" title=" " alt="" coords="5,5,158,31"/>
+<area shape="poly" title=" " alt="" coords="190,21,158,21,158,16,190,16"/>
+</map>
+</div>
 
 </div>
 </div>

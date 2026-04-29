@@ -93,6 +93,14 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="bit__manip_8h.html#a117dd62b706ad8c85c76ed08c9292cef">   18</a></span><span class="preprocessor">#define BIT_TOGGLE(var,pos) ((var)^= 1UL &lt;&lt; (pos))</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="bit__manip_8h.html#a011484a60e91f633573a1b3b757ae354">   21</a></span><span class="preprocessor">#define BIT_WRITE(var, pos, bitvalue) ((bitvalue) ? BIT_SET((var), (pos)) : BIT_CLEAR((var), (pos)))</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="bit__manip_8h.html#af34f1f2d5528470acb7d1062e5cb36d1">   24</a></span><span class="keyword">static</span> <span class="keyword">constexpr</span> uint8_t <a class="code hl_function" href="bit__manip_8h.html#af34f1f2d5528470acb7d1062e5cb36d1">setBits</a>(uint8_t n)</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    <span class="keywordflow">return</span> (1U &lt;&lt; n) - 1U;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
+</div>
+<div class="ttc" id="abit__manip_8h_html_af34f1f2d5528470acb7d1062e5cb36d1"><div class="ttname"><a href="bit__manip_8h.html#af34f1f2d5528470acb7d1062e5cb36d1">setBits</a></div><div class="ttdeci">static constexpr uint8_t setBits(uint8_t n)</div><div class="ttdoc">Set the first n bits of a byte.</div><div class="ttdef"><b>Definition</b> bit_manip.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
