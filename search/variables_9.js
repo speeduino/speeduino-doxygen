@@ -97,7 +97,7 @@ var searchData=
   ['ignbypasshilo_94',['ignBypassHiLo',['../structconfig4.html#a0c80971114f86a089f8879edfecbb95b',1,'config4']]],
   ['ignbypasspin_95',['ignBypassPin',['../structconfig4.html#af8617103843ea36e52a3562a081af19c',1,'config4']]],
   ['igncranklock_96',['ignCranklock',['../structconfig4.html#af79479b41a71ae0e94744327e91fd4a2',1,'config4']]],
-  ['ignition_5fadvance_5flarge_97',['IGNITION_ADVANCE_LARGE',['../units_8h.html#a757c8ec936b75ae77314c4741b6d6c35',1,'units.h']]],
+  ['ignition_5fadvance_5flarge_97',['IGNITION_ADVANCE_LARGE',['../units_8h.html#ab5db1350b542d3d19afb19f45f9b0a14',1,'units.h']]],
   ['ignition_5fadvance_5fsmall_98',['IGNITION_ADVANCE_SMALL',['../units_8h.html#a797cdee4fa8dfa68c94ad2b48972f6be',1,'units.h']]],
   ['ignitionchannels_99',['ignitionChannels',['../structstatuses_1_1scheduler__cut__t.html#afbbbc7f440554344559c314cea8fca28',1,'statuses::scheduler_cut_t']]],
   ['ignitionchannelspending_100',['ignitionChannelsPending',['../structstatuses_1_1scheduler__cut__t.html#af1ec2054d675229c987fe477d174ec7b',1,'statuses::scheduler_cut_t']]],

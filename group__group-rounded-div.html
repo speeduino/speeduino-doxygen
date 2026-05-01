@@ -103,6 +103,9 @@ Macros</h2></td></tr>
 <tr class="memitem:gac0277533cdcf4f952c4a7920e78e0a6e" id="r_gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)&#160;&#160;&#160;((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>))/(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>))</td></tr>
 <tr class="memdesc:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded <em>unsigned</em> integer division.  <br /></td></tr>
 <tr class="separator:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d08820c2e72c1228a3b093f20a9d32e" id="r_ga6d08820c2e72c1228a3b093f20a9d32e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e">UDIV_ROUND_UP</a>(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)&#160;&#160;&#160;((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) + (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>)+1<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a>))/(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>))</td></tr>
+<tr class="memdesc:ga6d08820c2e72c1228a3b093f20a9d32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounding up <em>unsigned</em> integer division.  <br /></td></tr>
+<tr class="separator:ga6d08820c2e72c1228a3b093f20a9d32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -149,7 +152,7 @@ Functions</h2></td></tr>
 <div class="line">    (((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) &lt; (<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(0)) ^ ((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>) &lt; (<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(0))) ? \</div>
 <div class="line">        ((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) - <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>, <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>))/(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>)) : \</div>
 <div class="line">        ((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>, <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>))/(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>)))</div>
-<div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition</b> maths.h:58</div></div>
+<div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition</b> maths.h:70</div></div>
 <div class="ttc" id="agroup__group-serial-comms-impl_html_gaceea4a4b8c6f90cdc396b043773b709f"><div class="ttname"><a href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">readSerialIntegralTimeout</a></div><div class="ttdeci">static TIntegral readSerialIntegralTimeout(void)</div><div class="ttdoc">Reads an integral type, timing out if necessary.</div><div class="ttdef"><b>Definition</b> comms.cpp:175</div></div>
 </div><!-- fragment -->
 <p>Rounded integer division. </p>
@@ -209,6 +212,42 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ga6d08820c2e72c1228a3b093f20a9d32e" name="ga6d08820c2e72c1228a3b093f20a9d32e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d08820c2e72c1228a3b093f20a9d32e">&#9670;&#160;</a></span>UDIV_ROUND_UP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> UDIV_ROUND_UP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">n</a>) + (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)((<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>)+1<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a>))/(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">t</a>)(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">d</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Rounding up <em>unsigned</em> integer division. </p>
 
 </div>
 </div>

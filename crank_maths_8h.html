@@ -75,11 +75,14 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">crankMaths.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Crank revolution based mathematical functions.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -87,7 +90,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="crank_maths_8h__dep__incl.png" border="0" usemap="#aspeeduino_2crank_maths_8hdep" alt=""/></div>
 <map name="aspeeduino_2crank_maths_8hdep" id="aspeeduino_2crank_maths_8hdep">
-<area shape="rect" title=" " alt="" coords="655,5,817,31"/>
+<area shape="rect" title="Crank revolution based mathematical functions." alt="" coords="655,5,817,31"/>
 <area shape="rect" href="crank_maths_8cpp.html" title=" " alt="" coords="5,79,182,105"/>
 <area shape="poly" title=" " alt="" coords="640,33,182,83,182,78,639,28"/>
 <area shape="rect" href="decoders_8cpp.html" title=" " alt="" coords="261,338,422,363"/>
@@ -139,18 +142,6 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="crank_maths_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a9fab3a7cfce27f49d49d54a0465abaf1" id="r_a9fab3a7cfce27f49d49d54a0465abaf1"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">INT32_C</a>(166667)</td></tr>
-<tr class="memdesc:a9fab3a7cfce27f49d49d54a0465abaf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">At 1 RPM, each degree of angular rotation takes this many microseconds.  <br /></td></tr>
-<tr class="separator:a9fab3a7cfce27f49d49d54a0465abaf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d0de63cb3b2b767719451b355cb94fa" id="r_a0d0de63cb3b2b767719451b355cb94fa"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0d0de63cb3b2b767719451b355cb94fa">MAX_RPM</a>&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">INT16_C</a>(18000)</td></tr>
-<tr class="memdesc:a0d0de63cb3b2b767719451b355cb94fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum rpm that the ECU will attempt to run at.  <br /></td></tr>
-<tr class="separator:a0d0de63cb3b2b767719451b355cb94fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30fac99294fa9280d3d00c679d2221ce" id="r_a30fac99294fa9280d3d00c679d2221ce"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a30fac99294fa9280d3d00c679d2221ce">MIN_RPM</a>&#160;&#160;&#160;((<a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>/(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UINT16_MAX</a>/16<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>))+1<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>)</td></tr>
-<tr class="memdesc:a30fac99294fa9280d3d00c679d2221ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with.  <br /></td></tr>
-<tr class="separator:a30fac99294fa9280d3d00c679d2221ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a623c310de1a24748fb9be60b294ab5a2" id="r_a623c310de1a24748fb9be60b294ab5a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">angle</a>)</td></tr>
@@ -171,59 +162,28 @@ Functions</h2></td></tr>
 <tr class="memitem:a437337d1ba43119e466b3d417aa31656" id="r_a437337d1ba43119e466b3d417aa31656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656">timeToAngleDegPerMicroSec</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">time</a>)</td></tr>
 <tr class="memdesc:a437337d1ba43119e466b3d417aa31656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a time interval in microsecods to the equivalent degrees of angular (crank) rotation at current RPM.  <br /></td></tr>
 <tr class="separator:a437337d1ba43119e466b3d417aa31656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0c7f3e3bc88c6c4c28a7f413e5096ef8" id="r_a0c7f3e3bc88c6c4c28a7f413e5096ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0c7f3e3bc88c6c4c28a7f413e5096ef8">MICROS_PER_DEG_1_RPM</a> = <a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(<a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>, 360UL, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)</td></tr>
+<tr class="memdesc:a0c7f3e3bc88c6c4c28a7f413e5096ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">At 1 RPM, each degree of angular rotation takes this many microseconds.  <br /></td></tr>
+<tr class="separator:a0c7f3e3bc88c6c4c28a7f413e5096ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e4822b149c3d334452165d849958b22" id="r_a9e4822b149c3d334452165d849958b22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a9e4822b149c3d334452165d849958b22">MAX_RPM</a> = 18000U</td></tr>
+<tr class="memdesc:a9e4822b149c3d334452165d849958b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum rpm that the ECU will attempt to run at.  <br /></td></tr>
+<tr class="separator:a9e4822b149c3d334452165d849958b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff93c93ba5bd6c1f341eca0212b2ec29" id="r_aff93c93ba5bd6c1f341eca0212b2ec29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#aff93c93ba5bd6c1f341eca0212b2ec29">MIN_RPM</a> = (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>)<a class="el" href="group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e">UDIV_ROUND_UP</a>(<a class="el" href="crank_maths_8h.html#a0c7f3e3bc88c6c4c28a7f413e5096ef8">MICROS_PER_DEG_1_RPM</a>, (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UINT16_MAX</a>/16<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)</td></tr>
+<tr class="memdesc:aff93c93ba5bd6c1f341eca0212b2ec29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with.  <br /></td></tr>
+<tr class="separator:aff93c93ba5bd6c1f341eca0212b2ec29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba37367fd0871cea0f376598968332e" id="r_aeba37367fd0871cea0f376598968332e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#aeba37367fd0871cea0f376598968332e">MIN_REVOLUTION_TIME</a> = <a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>/<a class="el" href="crank_maths_8h.html#a9e4822b149c3d334452165d849958b22">MAX_RPM</a></td></tr>
+<tr class="memdesc:aeba37367fd0871cea0f376598968332e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Minimum time in µS that one crank revolution can take.  <br /></td></tr>
+<tr class="separator:aeba37367fd0871cea0f376598968332e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a708965cce07a080e03ac7b4bda83f718" id="r_a708965cce07a080e03ac7b4bda83f718"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a708965cce07a080e03ac7b4bda83f718">MAX_REVOLUTION_TIME</a> = <a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>/<a class="el" href="crank_maths_8h.html#aff93c93ba5bd6c1f341eca0212b2ec29">MIN_RPM</a></td></tr>
+<tr class="memdesc:a708965cce07a080e03ac7b4bda83f718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum time in µS that one crank revolution can take.  <br /></td></tr>
+<tr class="separator:a708965cce07a080e03ac7b4bda83f718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a0d0de63cb3b2b767719451b355cb94fa" name="a0d0de63cb3b2b767719451b355cb94fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d0de63cb3b2b767719451b355cb94fa">&#9670;&#160;</a></span>MAX_RPM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> MAX_RPM&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">INT16_C</a>(18000)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>The maximum rpm that the ECU will attempt to run at. </p>
-<p>It is NOT related to the rev limiter, but is instead dictates how fast certain operations will be allowed to run. Lower number gives better performance </p>
-
-</div>
-</div>
-<a id="a9fab3a7cfce27f49d49d54a0465abaf1" name="a9fab3a7cfce27f49d49d54a0465abaf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fab3a7cfce27f49d49d54a0465abaf1">&#9670;&#160;</a></span>MICROS_PER_DEG_1_RPM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> MICROS_PER_DEG_1_RPM&#160;&#160;&#160;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">INT32_C</a>(166667)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>At 1 RPM, each degree of angular rotation takes this many microseconds. </p>
-
-</div>
-</div>
-<a id="a30fac99294fa9280d3d00c679d2221ce" name="a30fac99294fa9280d3d00c679d2221ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30fac99294fa9280d3d00c679d2221ce">&#9670;&#160;</a></span>MIN_RPM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> MIN_RPM&#160;&#160;&#160;((<a class="el" href="crank_maths_8h.html#a9fab3a7cfce27f49d49d54a0465abaf1">MICROS_PER_DEG_1_RPM</a>/(<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UINT16_MAX</a>/16<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>))+1<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with. </p>
-<p>This is dictated by the use of uint16_t as the base type for storing angle&lt;-&gt;time conversion factor (degreesPerMicro) </p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Crank revolution based mathematical functions. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="ab5234186ab1e03e073582f33852fc3f2" name="ab5234186ab1e03e073582f33852fc3f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5234186ab1e03e073582f33852fc3f2">&#9670;&#160;</a></span>angleToTimeMicroSecPerDegree()</h2>
 
@@ -1076,6 +1036,131 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="701,1469,689,1460,672,1436,656,1405,631,1324,611,1227,597,1121,580,921,574,795,580,795,585,921,602,1121,616,1226,636,1323,661,1403,676,1433,693,1456,704,1465"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a708965cce07a080e03ac7b4bda83f718" name="a708965cce07a080e03ac7b4bda83f718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a708965cce07a080e03ac7b4bda83f718">&#9670;&#160;</a></span>MAX_REVOLUTION_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> MAX_REVOLUTION_TIME = <a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>/<a class="el" href="crank_maths_8h.html#aff93c93ba5bd6c1f341eca0212b2ec29">MIN_RPM</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maximum time in µS that one crank revolution can take. </p>
+<dl class="section note"><dt>Note</dt><dd>: many calculations are done over 2 revolutions (cycles), in which case this would be doubled </dd></dl>
+
+</div>
+</div>
+<a id="a9e4822b149c3d334452165d849958b22" name="a9e4822b149c3d334452165d849958b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e4822b149c3d334452165d849958b22">&#9670;&#160;</a></span>MAX_RPM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> MAX_RPM = 18000U</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum rpm that the ECU will attempt to run at. </p>
+<p>It is NOT related to the rev limiter, but is instead dictates how fast certain operations will be allowed to run. Lower number gives better performance </p>
+
+</div>
+</div>
+<a id="a0c7f3e3bc88c6c4c28a7f413e5096ef8" name="a0c7f3e3bc88c6c4c28a7f413e5096ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c7f3e3bc88c6c4c28a7f413e5096ef8">&#9670;&#160;</a></span>MICROS_PER_DEG_1_RPM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> MICROS_PER_DEG_1_RPM = <a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(<a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>, 360UL, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>At 1 RPM, each degree of angular rotation takes this many microseconds. </p>
+
+</div>
+</div>
+<a id="aeba37367fd0871cea0f376598968332e" name="aeba37367fd0871cea0f376598968332e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba37367fd0871cea0f376598968332e">&#9670;&#160;</a></span>MIN_REVOLUTION_TIME</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> MIN_REVOLUTION_TIME = <a class="el" href="maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114">MICROS_PER_MIN</a>/<a class="el" href="crank_maths_8h.html#a9e4822b149c3d334452165d849958b22">MAX_RPM</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Minimum time in µS that one crank revolution can take. </p>
+<dl class="section note"><dt>Note</dt><dd>: many calculations are done over 2 revolutions (cycles), in which case this would be doubled </dd></dl>
+
+</div>
+</div>
+<a id="aff93c93ba5bd6c1f341eca0212b2ec29" name="aff93c93ba5bd6c1f341eca0212b2ec29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff93c93ba5bd6c1f341eca0212b2ec29">&#9670;&#160;</a></span>MIN_RPM</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> MIN_RPM = (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>)<a class="el" href="group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e">UDIV_ROUND_UP</a>(<a class="el" href="crank_maths_8h.html#a0c7f3e3bc88c6c4c28a7f413e5096ef8">MICROS_PER_DEG_1_RPM</a>, (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UINT16_MAX</a>/16<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">UL</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Absolute minimum RPM that the crank math (&amp; therefore all of Speeduino) can be used with. </p>
+<p>This is dictated by the use of uint16_t as the base type for storing time --&gt; angle conversion factor (degreesPerMicro) </p>
 
 </div>
 </div>

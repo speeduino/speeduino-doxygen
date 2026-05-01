@@ -1,7 +1,7 @@
 var searchData=
 [
   ['udiv_5fround_5fclosest_0',['UDIV_ROUND_CLOSEST',['../group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e',1,'maths.h']]],
-  ['uint16_5fhalf_5frange_1',['UINT16_HALF_RANGE',['../globals_8h.html#a912cdd9d452ae2e3e568904ca9cdd2ac',1,'globals.h']]],
+  ['udiv_5fround_5fup_1',['UDIV_ROUND_UP',['../group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e',1,'maths.h']]],
   ['unit_5ftesting_2eh_2',['unit_testing.h',['../unit__testing_8h.html',1,'']]],
   ['units_2eh_3',['units.h',['../units_8h.html',1,'']]],
   ['universal_20decoder_20routines_4',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]],

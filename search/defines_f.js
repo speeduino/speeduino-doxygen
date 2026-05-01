@@ -10,8 +10,7 @@ var searchData=
   ['tooth_5fcam_5fsecondary_7',['TOOTH_CAM_SECONDARY',['../decoders_8cpp.html#a4401f69e9cc7e91f7bafa029216c035a',1,'decoders.cpp']]],
   ['tooth_5fcam_5ftertiary_8',['TOOTH_CAM_TERTIARY',['../decoders_8cpp.html#a0478d82d3e1657e4305e9f1850a8a6dd',1,'decoders.cpp']]],
   ['tooth_5fcrank_9',['TOOTH_CRANK',['../decoders_8cpp.html#aff7def3029c429bbdc07a487e8afe9cf',1,'decoders.cpp']]],
-  ['tooth_5flog_5fsize_10',['TOOTH_LOG_SIZE',['../globals_8h.html#a49ace293e0ae63863e3a0358ad205578',1,'globals.h']]],
-  ['tps_5fread_5ffrequency_11',['TPS_READ_FREQUENCY',['../sensors_8h.html#a8c08f026ab10562b8bb3f257f76946bc',1,'sensors.h']]],
-  ['ts_5fcan_5foffset_12',['TS_CAN_OFFSET',['../comms___c_a_n_8h.html#abedf536cc82ecd72ed86eb7bd1123325',1,'comms_CAN.h']]],
-  ['ts_5fserial_5fbuffer_5fsize_13',['ts_serial_buffer_size',['../board__avr2560_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy41.h']]]
+  ['tps_5fread_5ffrequency_10',['TPS_READ_FREQUENCY',['../sensors_8h.html#a8c08f026ab10562b8bb3f257f76946bc',1,'sensors.h']]],
+  ['ts_5fcan_5foffset_11',['TS_CAN_OFFSET',['../comms___c_a_n_8h.html#abedf536cc82ecd72ed86eb7bd1123325',1,'comms_CAN.h']]],
+  ['ts_5fserial_5fbuffer_5fsize_12',['ts_serial_buffer_size',['../board__avr2560_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#aaabbbb12ed42280c8fed7cd03a3f3a2e',1,'TS_SERIAL_BUFFER_SIZE:&#160;board_teensy41.h']]]
 ];

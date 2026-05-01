@@ -295,6 +295,9 @@ Variables</h2></td></tr>
 <tr class="memitem:af2749e54389ad92dd48cb7f8202730d9" id="r_af2749e54389ad92dd48cb7f8202730d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#af2749e54389ad92dd48cb7f8202730d9">ANALOG_PINS</a> [] = { <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">_ANALOG_PINS_A0_A14</a> }</td></tr>
 <tr class="memdesc:af2749e54389ad92dd48cb7f8202730d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analog pin mapping.  <br /></td></tr>
 <tr class="separator:af2749e54389ad92dd48cb7f8202730d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae153e87e1d7db4e3676a99666858a239" id="r_ae153e87e1d7db4e3676a99666858a239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__avr2560_8h.html#ae153e87e1d7db4e3676a99666858a239">SERIAL_BUFFER_THRESHOLD</a> = 32<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td></tr>
+<tr class="memdesc:ae153e87e1d7db4e3676a99666858a239"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the serial buffer is filled to greater than this threshold value, the serial processing operations will be performed more urgently in order to avoid it overflowing. Serial buffer is 64 bytes long, so the threshold is set at half this as a reasonable figure.  <br /></td></tr>
+<tr class="separator:ae153e87e1d7db4e3676a99666858a239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a7ddc6951f5fd82529f844d8c987c3e39" name="a7ddc6951f5fd82529f844d8c987c3e39"></a>
@@ -2335,6 +2338,30 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae153e87e1d7db4e3676a99666858a239" name="ae153e87e1d7db4e3676a99666858a239"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae153e87e1d7db4e3676a99666858a239">&#9670;&#160;</a></span>SERIAL_BUFFER_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">constexpr</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> SERIAL_BUFFER_THRESHOLD = 32<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">U</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>When the serial buffer is filled to greater than this threshold value, the serial processing operations will be performed more urgently in order to avoid it overflowing. Serial buffer is 64 bytes long, so the threshold is set at half this as a reasonable figure. </p>
 
 </div>
 </div>
