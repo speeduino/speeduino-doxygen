@@ -81,7 +81,7 @@ var searchData=
   ['triggersetendteeth_5fmiata9905_78',['triggerSetEndTeeth_Miata9905',['../group__miata__99__05.html#ga89d6362170a5ee83c7643297f40dfacc',1,'decoders.cpp']]],
   ['triggersetendteeth_5fmissingtooth_79',['triggerSetEndTeeth_missingTooth',['../group__dec__miss.html#gad0efbfde018e9305f601afe9820801b5',1,'decoders.cpp']]],
   ['triggersetendteeth_5fngc_80',['triggerSetEndTeeth_NGC',['../group__dec.html#gab3954990a8af881151b4cc725917f944',1,'decoders.cpp']]],
-  ['triggersetendteeth_5fnissan360_81',['triggerSetEndTeeth_Nissan360',['../group__dec__nissan360.html#gaf8e85a97aa4249a12a2bcb08bf8eb391',1,'decoders.cpp']]],
+  ['triggersetendteeth_5fnissan360_81',['triggerSetEndTeeth_Nissan360',['../group__dec__nissan360.html#ga1f5ea027de23cc76d94a78b0f47297e8',1,'decoders.cpp']]],
   ['triggersetendteeth_5frenix_82',['triggerSetEndTeeth_Renix',['../group__dec__renix.html#gaf6dfa9bd0c1162316215b230f64e039e',1,'decoders.cpp']]],
   ['triggersetendteeth_5frovermems_83',['triggerSetEndTeeth_RoverMEMS',['../group__dec.html#gaba56963b2fe97f1606220a1d7c749c76',1,'decoders.cpp']]],
   ['triggersetendteeth_5fsubaru67_84',['triggerSetEndTeeth_Subaru67',['../group__dec__subaru__6__7.html#gad10283c974bdbf8965b258b2174fa0a9',1,'decoders.cpp']]],

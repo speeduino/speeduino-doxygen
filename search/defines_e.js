@@ -48,7 +48,7 @@ var searchData=
   ['serial_5fprint_5fspace_5fdelimited_5farray_45',['serial_print_space_delimited_array',['../comms__legacy_8cpp.html#a5b2ea18c2a7771751e6a6466bc4248a2',1,'comms_legacy.cpp']]],
   ['set_5fcompare_46',['SET_COMPARE',['../board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'board_definition.h']]],
   ['set_5ffuel_5fchannel_47',['SET_FUEL_CHANNEL',['../speeduino_8ino.html#a095fd6ca4db6fcfae0278b7e6ad60513',1,'speeduino.ino']]],
-  ['set_5fignition_5fchannel_48',['SET_IGNITION_CHANNEL',['../speeduino_8ino.html#aec703c7b4d9e47cbd4461e26ebd0546a',1,'speeduino.ino']]],
+  ['set_5fignition_5fchannel_48',['SET_IGNITION_CHANNEL',['../scheduler__ignition__controller_8cpp.html#aec703c7b4d9e47cbd4461e26ebd0546a',1,'scheduler_ignition_controller.cpp']]],
   ['skip_5ftooth1_49',['SKIP_TOOTH1',['../decoders_8cpp.html#a42f5e89a25e4147493ade3b55fe8e9bc',1,'decoders.cpp']]],
   ['skip_5ftooth2_50',['SKIP_TOOTH2',['../decoders_8cpp.html#acbba70e2df4a63516ef98fb3f81c4700',1,'decoders.cpp']]],
   ['skip_5ftooth3_51',['SKIP_TOOTH3',['../decoders_8cpp.html#ab8f2641ae9a99e2c182d079e4eed46f9',1,'decoders.cpp']]],

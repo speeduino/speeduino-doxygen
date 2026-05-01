@@ -42,13 +42,12 @@ var searchData=
   ['uq24x8_5fshift_39',['UQ24X8_Shift',['../crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586',1,'crankMaths.cpp']]],
   ['uq24x8_5ft_40',['UQ24X8_t',['../crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572',1,'crankMaths.cpp']]],
   ['us_5fto_5ftimer_5fcompare_41',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]],
-  ['use_5fign_5frefresh_42',['USE_IGN_REFRESH',['../scheduler_8h.html#a5e5e7065ac68865b7edd56eb92a2e164',1,'scheduler.h']]],
-  ['usedwelllim_43',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
-  ['usedwellmap_44',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
-  ['useemap_45',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
-  ['useextbaro_46',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
-  ['useresync_47',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
-  ['userollingcut_48',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]],
-  ['usetachosweep_49',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]],
-  ['utility_20functions_50',['Storage utility functions',['../group__storage-utility.html',1,'']]]
+  ['usedwelllim_42',['useDwellLim',['../structconfig4.html#a97f238fcef7dfb04e88d631f68f08aaa',1,'config4']]],
+  ['usedwellmap_43',['useDwellMap',['../structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf',1,'config2']]],
+  ['useemap_44',['useEMAP',['../structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13',1,'config6']]],
+  ['useextbaro_45',['useExtBaro',['../structconfig6.html#aa3620c7319d7b2f7e426193a60f51248',1,'config6']]],
+  ['useresync_46',['useResync',['../structconfig4.html#aea19422586e920c0ea9052c4e96aa83b',1,'config4']]],
+  ['userollingcut_47',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]],
+  ['usetachosweep_48',['useTachoSweep',['../structconfig2.html#ab0cd6e925d34750df91c1ecbdde1180e',1,'config2']]],
+  ['utility_20functions_49',['Storage utility functions',['../group__storage-utility.html',1,'']]]
 ];
