@@ -22,7 +22,7 @@ var searchData=
   ['pending_19',['PENDING',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1869818fd53ff519eb8e429301bdff73',1,'scheduler.h']]],
   ['pendingtorunning_20',['pendingToRunning',['../schedule__state__machine_8cpp.html#a4fea516031a258d5da6851f9536e7ff8',1,'schedule_state_machine.cpp']]],
   ['percentage_21',['percentage',['../maths_8h.html#a721697aa299475556eb611a74a7246f3',1,'maths.h']]],
-  ['percentageapprox_22',['percentageapprox',['../maths_8h.html#aef65c3c010bb901fcd87a24dfdd67e35',1,'percentageApprox(uint8_t percent, uint32_t value):&#160;maths.h'],['../maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1',1,'percentageApprox(uint16_t percent, uint32_t value):&#160;maths.h']]],
+  ['percentageapprox_22',['percentageapprox',['../maths_8h.html#a28e19b77b065e6e4cf7f13b116570e4c',1,'percentageApprox(uint8_t percent, uint32_t value) noexcept:&#160;maths.h'],['../maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1',1,'percentageApprox(uint16_t percent, uint32_t value):&#160;maths.h']]],
   ['pertoothign_23',['perToothIgn',['../structconfig2.html#af3bba01758d44f2924605f0f12e1e936',1,'config2']]],
   ['pid_5fafrtarget_24',['PID_AFRTarget',['../corrections_8cpp.html#a6290f0cfc0c525c9a2eb40d50cc71a40',1,'corrections.cpp']]],
   ['pid_5fo2_25',['PID_O2',['../corrections_8cpp.html#a39a3fb522fe0f6c6b53b9228d0a9a406',1,'corrections.cpp']]],

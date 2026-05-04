@@ -98,7 +98,7 @@ var searchData=
   ['getsystemtemp_95',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
   ['gettablesize_96',['getTableSize',['../pages_8cpp.html#ac291dbed25e043179a4d25dd281649c1',1,'pages.cpp']]],
   ['gettslogentry_97',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getvalue_98',['getValue',['../structtable2_d.html#aab53a11351af22cbb006e7996951c466',1,'table2D']]],
+  ['getvalue_98',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
   ['getve1_99',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]],
   ['globals_2ecpp_100',['globals.cpp',['../globals_8cpp.html',1,'']]],
   ['globals_2eh_101',['globals.h',['../globals_8h.html',1,'']]],
