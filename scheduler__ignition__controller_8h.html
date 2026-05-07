@@ -112,7 +112,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aafe2867396502db69ca4333d1cbb6e7f" id="r_aafe2867396502db69ca4333d1cbb6e7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8h.html#aafe2867396502db69ca4333d1cbb6e7f">calculateIgnitionAngles</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="memdesc:aafe2867396502db69ca4333d1cbb6e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the charge &amp; discharge angles for all ignition channels.  <br /></td></tr>
 <tr class="separator:aafe2867396502db69ca4333d1cbb6e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c24fadd039c268107af5311a4dce88f" id="r_a4c24fadd039c268107af5311a4dce88f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8h.html#a4c24fadd039c268107af5311a4dce88f">setIgnitionChannels</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">dwellTime</a>)</td></tr>
+<tr class="memitem:a4c24fadd039c268107af5311a4dce88f" id="r_a4c24fadd039c268107af5311a4dce88f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8h.html#a4c24fadd039c268107af5311a4dce88f">setIgnitionChannels</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#aef75193926a9b0c0ea67d41447bab6c1">dwellTime</a>)</td></tr>
 <tr class="memdesc:a4c24fadd039c268107af5311a4dce88f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_schedule.html" title="A schedule for a single output channel.">Schedule</a> all ignition channels.  <br /></td></tr>
 <tr class="separator:a4c24fadd039c268107af5311a4dce88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07987e313e9d878a1db022bad839f197" id="r_a07987e313e9d878a1db022bad839f197"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8h.html#a07987e313e9d878a1db022bad839f197">startIgnitionSchedulers</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -170,6 +170,41 @@ Variables</h2></td></tr>
 <p>Check that no ignition channel has been charging the coil for too long. </p>
 <p>The over dwell protection system runs independently of the standard ignition schedules and monitors the time that each ignition output has been active. If the active time exceeds the tune defined amount, the output will be ended to prevent damage to coils.</p>
 <dl class="section note"><dt>Note</dt><dd>Must be called once per millisecond by an <b>external</b> timer. </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler__ignition__controller_8h_ac98971d4e151ec432800c27617eb8974_cgraph.png" border="0" usemap="#ascheduler__ignition__controller_8h_ac98971d4e151ec432800c27617eb8974_cgraph" alt=""/></div>
+<map name="ascheduler__ignition__controller_8h_ac98971d4e151ec432800c27617eb8974_cgraph" id="ascheduler__ignition__controller_8h_ac98971d4e151ec432800c27617eb8974_cgraph">
+<area shape="rect" title="Check that no ignition channel has been charging the coil for too long." alt="" coords="5,255,176,280"/>
+<area shape="rect" href="scheduler__ignition__controller_8cpp.html#aedf528ad43ddedaebe3754cf3dff2485" title=" " alt="" coords="224,179,441,204"/>
+<area shape="poly" title=" " alt="" coords="133,252,273,207,275,212,135,257"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="663,204,833,230"/>
+<area shape="poly" title=" " alt="" coords="176,264,377,258,496,251,615,240,672,230,673,236,616,245,496,256,377,264,176,270"/>
+<area shape="rect" href="scheduler__ignition__controller_8cpp.html#ace22b1cfb85df90aca6b36d84232f1fd" title=" " alt="" coords="268,305,397,331"/>
+<area shape="poly" title=" " alt="" coords="156,278,254,299,252,304,155,284"/>
+<area shape="rect" href="scheduler_8h.html#ac110a217cb4aece97c3500bd269b567f" title="Is the schedule running? I.e. the action has started, but not finished. E.g. injector is open." alt="" coords="513,204,591,230"/>
+<area shape="poly" title=" " alt="" coords="442,201,498,208,498,213,441,207"/>
+<area shape="poly" title=" " alt="" coords="442,184,527,184,616,189,675,198,674,203,615,194,527,189,442,189"/>
+<area shape="rect" href="group__fuel-schedule-_i_s_r.html#ga0e317a92c954f48ec6b97d247e7a636a" title="Shared fuel schedule timer ISR implementation. Should be called by the actual timer ISRs (as timed in..." alt="" coords="489,103,615,128"/>
+<area shape="poly" title=" " alt="" coords="371,176,497,131,499,136,373,181"/>
+<area shape="poly" title=" " alt="" coords="592,214,648,214,648,220,592,220"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1055,204,1148,230"/>
+<area shape="poly" title=" " alt="" coords="833,214,1039,214,1039,220,833,220"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="881,229,1007,255"/>
+<area shape="poly" title=" " alt="" coords="833,225,865,229,865,235,833,230"/>
+<area shape="poly" title=" " alt="" coords="1007,229,1039,224,1040,229,1008,235"/>
+<area shape="poly" title=" " alt="" coords="585,127,617,145,641,168,650,179,665,189,677,195,675,200,662,194,647,183,637,172,614,150,582,131"/>
+<area shape="rect" href="group__schedule-state-machine.html#gadd5242d84fa48f806b6fd29adeaa03bb" title="Default action for PENDING to RUNNING state transition." alt="" coords="663,55,833,80"/>
+<area shape="poly" title=" " alt="" coords="607,99,677,82,678,87,608,105"/>
+<area shape="rect" href="group__schedule-state-machine.html#ga4c3a962cc7bb4df862f6141e1385c174" title="Default action for RUNNING to OFF state transition." alt="" coords="678,104,818,130"/>
+<area shape="poly" title=" " alt="" coords="616,113,663,114,663,119,616,119"/>
+<area shape="rect" href="group__schedule-state-machine.html#gaae5231c1e83ae42b88669d7f72b0f310" title="Default action for RUNNING to PENDING state transition." alt="" coords="663,153,833,179"/>
+<area shape="poly" title=" " alt="" coords="605,126,682,146,680,151,604,132"/>
+<area shape="rect" href="group__schedule-state-machine.html#gad40c619649b2d99955eac10bde0fcaaf" title="The engine/pump that moves a schedule through it&#39;s various timer driven states." alt="" coords="687,5,809,31"/>
+<area shape="poly" title=" " alt="" coords="568,100,610,70,662,40,676,34,678,39,665,45,613,74,572,104"/>
+<area shape="poly" title=" " alt="" coords="397,315,500,307,558,298,614,284,668,262,713,236,716,240,670,266,616,289,559,303,501,312,397,320"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -640,6 +675,30 @@ Here is the caller graph for this function:</div>
 <p>Start the timers that drive schedulers <br  />
  </p>
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_cgraph.png" border="0" usemap="#ascheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_cgraph" alt=""/></div>
+<map name="ascheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_cgraph" id="ascheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_cgraph">
+<area shape="rect" title="Start the timers that drive schedulers" alt="" coords="5,179,160,204"/>
+<area shape="rect" href="board__avr2560_8h.html#a0930a1b33ee59f567bfe926fc7acbdb2" title=" " alt="" coords="208,5,366,31"/>
+<area shape="poly" title=" " alt="" coords="89,177,133,112,166,73,206,40,213,36,216,40,209,44,170,77,137,115,93,180"/>
+<area shape="rect" href="board__avr2560_8h.html#aabd3ecb9eb5e5e5dc8c03f5919a3f9be" title=" " alt="" coords="208,55,366,80"/>
+<area shape="poly" title=" " alt="" coords="95,176,142,134,173,110,206,89,217,84,219,89,209,94,176,114,145,138,99,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a217fb60552300aa56eae653b742bd2fc" title=" " alt="" coords="208,104,366,130"/>
+<area shape="poly" title=" " alt="" coords="114,176,207,138,224,132,226,137,209,143,116,181"/>
+<area shape="rect" href="board__avr2560_8h.html#ad3e16bf53cb8c8fa0b50008a71cd20ba" title=" " alt="" coords="208,153,366,179"/>
+<area shape="poly" title=" " alt="" coords="160,179,192,175,192,181,160,185"/>
+<area shape="rect" href="board__avr2560_8h.html#a4c3f012298e7a7c9896cff210269d9a4" title=" " alt="" coords="208,203,366,228"/>
+<area shape="poly" title=" " alt="" coords="160,198,192,202,192,207,160,203"/>
+<area shape="rect" href="board__avr2560_8h.html#a9d752c4ce1451b2415fccadae9257b64" title=" " alt="" coords="208,252,366,278"/>
+<area shape="poly" title=" " alt="" coords="117,203,209,238,226,244,224,249,207,243,115,207"/>
+<area shape="rect" href="board__avr2560_8h.html#ad8e40d41a836992fa17b067007fa273d" title=" " alt="" coords="208,301,366,327"/>
+<area shape="poly" title=" " alt="" coords="99,203,145,244,176,268,209,288,219,293,217,298,206,293,173,272,142,249,95,207"/>
+<area shape="rect" href="board__avr2560_8h.html#ab3034e08983a70887ea6753acbb54a18" title=" " alt="" coords="208,351,366,376"/>
+<area shape="poly" title=" " alt="" coords="93,203,137,267,170,305,209,337,216,342,214,346,206,342,167,309,133,271,89,206"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_icgraph.png" border="0" usemap="#ascheduler__ignition__controller_8h_a07987e313e9d878a1db022bad839f197_icgraph" alt=""/></div>
@@ -672,6 +731,30 @@ Here is the caller graph for this function:</div>
 
 <p>Stop the timers that drive schedulers <br  />
  </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler__ignition__controller_8h_a5d3ac2a7080cbcc99515735f5806077a_cgraph.png" border="0" usemap="#ascheduler__ignition__controller_8h_a5d3ac2a7080cbcc99515735f5806077a_cgraph" alt=""/></div>
+<map name="ascheduler__ignition__controller_8h_a5d3ac2a7080cbcc99515735f5806077a_cgraph" id="ascheduler__ignition__controller_8h_a5d3ac2a7080cbcc99515735f5806077a_cgraph">
+<area shape="rect" title="Stop the timers that drive schedulers" alt="" coords="5,179,159,204"/>
+<area shape="rect" href="board__avr2560_8h.html#a099d2412fd620552827ab916e08551aa" title=" " alt="" coords="207,5,369,31"/>
+<area shape="poly" title=" " alt="" coords="88,177,132,111,166,73,205,40,212,36,215,40,208,44,169,77,136,115,93,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a90bb6ffac23f03f9969bcb61c8f49ca4" title=" " alt="" coords="207,55,369,80"/>
+<area shape="poly" title=" " alt="" coords="94,176,141,134,172,110,205,89,217,84,219,89,208,94,175,114,144,138,98,180"/>
+<area shape="rect" href="board__avr2560_8h.html#a09345afdf3f7b4f085eb19e714b62367" title=" " alt="" coords="207,104,369,130"/>
+<area shape="poly" title=" " alt="" coords="112,176,206,138,224,132,226,137,208,143,114,181"/>
+<area shape="rect" href="board__avr2560_8h.html#adcf17ec5e1adb6d3f7d4cddc4ffe611e" title=" " alt="" coords="207,153,369,179"/>
+<area shape="poly" title=" " alt="" coords="159,179,191,175,191,181,159,185"/>
+<area shape="rect" href="board__avr2560_8h.html#ada97138136b4c7718c5eaeb9ef3862fd" title=" " alt="" coords="207,203,369,228"/>
+<area shape="poly" title=" " alt="" coords="159,198,191,202,191,207,159,203"/>
+<area shape="rect" href="board__avr2560_8h.html#a78270acc0c4d2cbc0a5f721f3eeb72f0" title=" " alt="" coords="207,252,369,278"/>
+<area shape="poly" title=" " alt="" coords="115,202,208,238,226,244,224,249,206,243,114,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a900159a56a1d54a9d4bd572fb3419d61" title=" " alt="" coords="207,301,369,327"/>
+<area shape="poly" title=" " alt="" coords="98,203,145,245,175,268,208,288,219,293,217,298,205,293,172,272,141,249,95,207"/>
+<area shape="rect" href="board__avr2560_8h.html#a9d61b6a15d1e3ad21449367d532bc71a" title=" " alt="" coords="207,351,369,376"/>
+<area shape="poly" title=" " alt="" coords="93,203,136,268,169,305,208,337,216,342,213,346,205,342,166,309,132,271,88,206"/>
+</map>
+</div>
 
 </div>
 </div>
