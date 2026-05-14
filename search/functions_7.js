@@ -58,7 +58,7 @@ var searchData=
   ['getpagevalue_55',['getpagevalue',['../pages_8cpp.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp'],['../pages_8h.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp']]],
   ['getpulsesperrev_56',['getPulsesPerRev',['../corrections_8cpp.html#a9008c5b083810d4e7fdcb424e8d2c4f4',1,'corrections.cpp']]],
   ['getreadablelogentry_57',['getreadablelogentry',['../logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp'],['../logger_8h.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp']]],
-  ['getresetcontrol_58',['getresetcontrol',['../reset_control_8cpp.html#a425c1962bdc70aa4c68b4a64df78e869',1,'getResetControl(void):&#160;resetControl.cpp'],['../reset_control_8h.html#a425c1962bdc70aa4c68b4a64df78e869',1,'getResetControl(void):&#160;resetControl.cpp']]],
+  ['getresetcontrolmode_58',['getresetcontrolmode',['../reset_control_8cpp.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp'],['../reset_control_8h.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp']]],
   ['getrpm_5f24x_59',['getRPM_24X',['../group__dec__gm.html#ga8c1b2482be620c1ae84b2ca263ed17a8',1,'decoders.cpp']]],
   ['getrpm_5f420a_60',['getRPM_420a',['../group__dec__dsm__420a.html#gac923e50769e7017f0db0ef5874a5aa87',1,'decoders.cpp']]],
   ['getrpm_5f4g63_61',['getRPM_4G63',['../group__dec__mitsu__miata.html#ga9fc600e8a9f099fd7400041537f06807',1,'decoders.cpp']]],

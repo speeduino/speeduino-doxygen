@@ -14,8 +14,9 @@ var searchData=
   ['_5fend_5frange_5fbyte_5faddress_11',['_end_range_byte_address',['../preprocessor_8h.html#a701909f6fd8f5015960239ca57e31ebf',1,'preprocessor.h']]],
   ['_5fnewvalue_12',['_newValue',['../structset__table__value__visitor.html#ab868476ea867ebb19965a9e7b6a1d11b',1,'set_table_value_visitor']]],
   ['_5foffset_13',['_offset',['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor']]],
-  ['_5fresetcontrol_14',['_resetControl',['../reset_control_8cpp.html#ad68f44844dc3cdf95becef45d05b5470',1,'resetControl.cpp']]],
+  ['_5fresetcontrol_14',['_resetControl',['../reset_control_8cpp.html#af32b7151e527710fe31a7d82944ef7de',1,'resetControl.cpp']]],
   ['_5fresetpin_15',['_resetPin',['../reset_control_8cpp.html#a17e2185eeb9db9cce113ac8fb718df1b',1,'resetControl.cpp']]],
-  ['_5fstarttime_16',['_startTime',['../struct_ignition_schedule.html#a7dc92a01df0855d3351e3d059c409e5c',1,'IgnitionSchedule']]],
-  ['_5ftableoffset_17',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
+  ['_5fresetpreventactive_16',['_resetPreventActive',['../reset_control_8cpp.html#a6d8dc0726847f5a63a3fbe7946001549',1,'resetControl.cpp']]],
+  ['_5fstarttime_17',['_startTime',['../struct_ignition_schedule.html#a7dc92a01df0855d3351e3d059c409e5c',1,'IgnitionSchedule']]],
+  ['_5ftableoffset_18',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
 ];
