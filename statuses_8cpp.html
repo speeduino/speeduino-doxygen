@@ -74,91 +74,13 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">statuses.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="statuses_8h_source.html">statuses.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="atomic_8h_source.html">atomic.h</a>&quot;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5b327ee6ee1c7ab04e2468a1633025d8" id="r_a5b327ee6ee1c7ab04e2468a1633025d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="statuses_8cpp.html#a5b327ee6ee1c7ab04e2468a1633025d8">setRpm</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;status, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> rpm)</td></tr>
-<tr class="memdesc:a5b327ee6ee1c7ab04e2468a1633025d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the RPM field, keeping RPMDiv100 in sync.  <br /></td></tr>
-<tr class="separator:a5b327ee6ee1c7ab04e2468a1633025d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a5b327ee6ee1c7ab04e2468a1633025d8" name="a5b327ee6ee1c7ab04e2468a1633025d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b327ee6ee1c7ab04e2468a1633025d8">&#9670;&#160;</a></span>setRpm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> setRpm </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>status</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td>
-          <td class="paramname"><em>rpm</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the RPM field, keeping RPMDiv100 in sync. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">status</td><td></td></tr>
-    <tr><td class="paramname">smallRpm</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_cgraph.png" border="0" usemap="#astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_cgraph" alt=""/></div>
-<map name="astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_cgraph" id="astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_cgraph">
-<area shape="rect" title="Set the RPM field, keeping RPMDiv100 in sync." alt="" coords="5,31,72,56"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="120,5,179,31"/>
-<area shape="poly" title=" " alt="" coords="72,33,104,26,105,31,73,38"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="227,31,396,56"/>
-<area shape="poly" title=" " alt="" coords="72,41,212,41,212,46,72,46"/>
-<area shape="poly" title=" " alt="" coords="180,20,212,25,211,30,179,25"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="619,31,712,56"/>
-<area shape="poly" title=" " alt="" coords="397,41,603,41,603,46,397,46"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="444,56,571,82"/>
-<area shape="poly" title=" " alt="" coords="397,52,429,56,428,61,396,57"/>
-<area shape="poly" title=" " alt="" coords="571,56,603,51,603,56,571,61"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="statuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_icgraph.png" border="0" usemap="#astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_icgraph" alt=""/></div>
-<map name="astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_icgraph" id="astatuses_8cpp_a5b327ee6ee1c7ab04e2468a1633025d8_icgraph">
-<area shape="rect" title="Set the RPM field, keeping RPMDiv100 in sync." alt="" coords="364,31,430,56"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="107,5,316,31"/>
-<area shape="poly" title=" " alt="" coords="348,40,310,34,310,29,349,34"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,55,253,80"/>
-<area shape="poly" title=" " alt="" coords="349,52,254,65,253,59,348,47"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
-<area shape="poly" title=" " alt="" coords="154,70,59,70,59,65,154,65"/>
-</map>
-</div>
-
-</div>
-</div>
-</div><!-- contents -->
+<code>#include &quot;<a class="el" href="decoder__builder_8h_source.html">decoder_builder.h</a>&quot;</code><br />
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

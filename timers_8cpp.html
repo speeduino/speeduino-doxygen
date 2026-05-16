@@ -98,6 +98,8 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a82d103c1270ab099efd96deda93d4dc1" id="r_a82d103c1270ab099efd96deda93d4dc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a82d103c1270ab099efd96deda93d4dc1">initialiseTimers</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a82d103c1270ab099efd96deda93d4dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4e59212c9c778688fc62410f576edb" id="r_a7c4e59212c9c778688fc62410f576edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a7c4e59212c9c778688fc62410f576edb">getAndClearTimerMask</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
+<tr class="separator:a7c4e59212c9c778688fc62410f576edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a051a57d9c8da830353ce5e4a3354ad54" id="r_a051a57d9c8da830353ce5e4a3354ad54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a051a57d9c8da830353ce5e4a3354ad54">initTacho</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> tachoPin)</td></tr>
 <tr class="separator:a051a57d9c8da830353ce5e4a3354ad54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4707ac00227bae0b8f26e039e3e71a9f" id="r_a4707ac00227bae0b8f26e039e3e71a9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a4707ac00227bae0b8f26e039e3e71a9f">tachoPulseHigh</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -139,8 +141,53 @@ Variables</h2></td></tr>
 <tr class="separator:a674efd6411a6be612f6fb0faa9cd5c64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab8bd3358386d9ceb69df6d7e5d8758" id="r_aeab8bd3358386d9ceb69df6d7e5d8758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#aeab8bd3358386d9ceb69df6d7e5d8758">tach_pin</a></td></tr>
 <tr class="separator:aeab8bd3358386d9ceb69df6d7e5d8758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cdcfd9ae3c23521c4e4243ad6084161" id="r_a3cdcfd9ae3c23521c4e4243ad6084161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">volatile</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="timers_8cpp.html#a3cdcfd9ae3c23521c4e4243ad6084161">TIMER_mask</a></td></tr>
+<tr class="separator:a3cdcfd9ae3c23521c4e4243ad6084161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a7c4e59212c9c778688fc62410f576edb" name="a7c4e59212c9c778688fc62410f576edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c4e59212c9c778688fc62410f576edb">&#9670;&#160;</a></span>getAndClearTimerMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> getAndClearTimerMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="timers_8cpp_a7c4e59212c9c778688fc62410f576edb_cgraph.png" border="0" usemap="#atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_cgraph" alt=""/></div>
+<map name="atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_cgraph" id="atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,163,31"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="211,5,380,31"/>
+<area shape="poly" title=" " alt="" coords="163,16,195,16,195,21,163,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="602,5,696,31"/>
+<area shape="poly" title=" " alt="" coords="380,16,586,16,586,21,380,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="428,31,554,56"/>
+<area shape="poly" title=" " alt="" coords="381,26,413,31,412,36,380,32"/>
+<area shape="poly" title=" " alt="" coords="554,31,586,25,587,31,555,36"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="timers_8cpp_a7c4e59212c9c778688fc62410f576edb_icgraph.png" border="0" usemap="#atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_icgraph" alt=""/></div>
+<map name="atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_icgraph" id="atimers_8cpp_a7c4e59212c9c778688fc62410f576edb_icgraph">
+<area shape="rect" title=" " alt="" coords="263,5,420,31"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
+<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a82d103c1270ab099efd96deda93d4dc1" name="a82d103c1270ab099efd96deda93d4dc1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a82d103c1270ab099efd96deda93d4dc1">&#9670;&#160;</a></span>initialiseTimers()</h2>
 
@@ -1106,6 +1153,28 @@ Here is the caller graph for this function:</div>
           <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">volatile</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> testInjectorPulseCount = 0</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3cdcfd9ae3c23521c4e4243ad6084161" name="a3cdcfd9ae3c23521c4e4243ad6084161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cdcfd9ae3c23521c4e4243ad6084161">&#9670;&#160;</a></span>TIMER_mask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">volatile</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> TIMER_mask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

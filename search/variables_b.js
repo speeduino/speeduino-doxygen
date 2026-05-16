@@ -27,7 +27,7 @@ var searchData=
   ['load_24',['Load',['../group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede',1,'table3d.h']]],
   ['location_25',['location',['../structpage__iterator__t.html#a43dec492d949d2dde890121b97dce38c',1,'page_iterator_t']]],
   ['log_5fentry_5fsize_26',['LOG_ENTRY_SIZE',['../logger_8h.html#a45662a6c69363a76593f7c2ff62498ea',1,'logger.h']]],
-  ['logitemstransmitted_27',['logitemstransmitted',['../comms__legacy_8h.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp']]],
+  ['logitemstransmitted_27',['logitemstransmitted',['../comms__legacy_8cpp.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#af8250e027017a92f65685274ee28ea83',1,'logItemsTransmitted:&#160;comms_legacy.cpp']]],
   ['longrpm_28',['longRPM',['../structstatuses.html#a950c168f3abcc4e7be1eb8fcbbb229b1',1,'statuses']]],
   ['loop100ms_29',['loop100ms',['../timers_8cpp.html#abee157bd72540348338826e26f4ff526',1,'timers.cpp']]],
   ['loop20ms_30',['loop20ms',['../timers_8cpp.html#a8921b94a2892230b5fb9a16cfd62b1e1',1,'timers.cpp']]],
@@ -35,7 +35,7 @@ var searchData=
   ['loop33ms_32',['loop33ms',['../timers_8cpp.html#abb944e77bfd49a4c2699d59a178a17ec',1,'timers.cpp']]],
   ['loop5ms_33',['loop5ms',['../timers_8cpp.html#a231ee6f19e5c5af256d1fdf5a37db335',1,'timers.cpp']]],
   ['loop66ms_34',['loop66ms',['../timers_8cpp.html#a0835d65288cd3fc5162a111762f598ea',1,'timers.cpp']]],
-  ['loop_5ftimer_35',['loop_timer',['../globals_8cpp.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp'],['../globals_8h.html#a958501f2836dfbcc03a94b46b68490dd',1,'LOOP_TIMER:&#160;globals.cpp']]],
+  ['loop_5ftimer_35',['LOOP_TIMER',['../structstatuses.html#aa45ebd2d2ec6fdd4470a35edadf15de0',1,'statuses']]],
   ['loopsec_36',['loopSec',['../timers_8cpp.html#a1321f3ca7623708598b3751940e9b343',1,'timers.cpp']]],
   ['loopspersecond_37',['loopsPerSecond',['../structstatuses.html#a37e2707f614bc75ee1115e534648f9f0',1,'statuses']]]
 ];

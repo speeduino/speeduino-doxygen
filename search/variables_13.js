@@ -31,7 +31,7 @@ var searchData=
   ['time_5ften_5fmillis_28',['TIME_TEN_MILLIS',['../units_8h.html#a8ce353b9d9b32975a16e58da19dbffa0',1,'units.h']]],
   ['time_5ftenth_5fmillis_29',['TIME_TENTH_MILLIS',['../units_8h.html#af6f08175782615f726c0dcd93d4777c4',1,'units.h']]],
   ['time_5ftwenty_5fmillis_30',['TIME_TWENTY_MILLIS',['../units_8h.html#a20a455fd3ce57494be9c137c4f1ea7c6',1,'units.h']]],
-  ['timer_5fmask_31',['timer_mask',['../globals_8h.html#a242654f754c0d3eec14d536259ed96b8',1,'TIMER_mask:&#160;globals.cpp'],['../globals_8cpp.html#a242654f754c0d3eec14d536259ed96b8',1,'TIMER_mask:&#160;globals.cpp']]],
+  ['timer_5fmask_31',['TIMER_mask',['../timers_8cpp.html#a3cdcfd9ae3c23521c4e4243ad6084161',1,'timers.cpp']]],
   ['timer_5fresolution_32',['TIMER_RESOLUTION',['../board__stm32__official_8h.html#a97a32d4e054e3bb8177e8ac02d8db054',1,'board_stm32_official.h']]],
   ['timerbit_33',['timerBit',['../structpolled_action__t.html#acb1669c53e6b666b87d20821688498cb',1,'polledAction_t']]],
   ['tooth_5flog_5fsize_34',['TOOTH_LOG_SIZE',['../globals_8h.html#a2fb32ae1c484e50c47958e33aae83de6',1,'globals.h']]],
