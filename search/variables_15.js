@@ -72,7 +72,7 @@ var searchData=
   ['vvtclkp_69',['vvtCLKP',['../structconfig10.html#a09c7e3dfa274432109cea0bc31fe83e6',1,'config10']]],
   ['vvtclmaxang_70',['vvtCLMaxAng',['../structconfig10.html#a5db8c39dba652b2fe7f56ae2b1c567ce',1,'config10']]],
   ['vvtclmaxduty_71',['vvtCLmaxDuty',['../structconfig10.html#afd63b499856b4b67cd5f5b2edc1b95bf',1,'config10']]],
-  ['vvtclminang_72',['vvtCLMinAng',['../structconfig10.html#a4dc1b8e9e3e23bb7396c5b48f98ddac8',1,'config10']]],
+  ['vvtclminang_72',['vvtCLMinAng',['../structconfig10.html#a08e8e4e7c21ceaf59861105b4ed41156',1,'config10']]],
   ['vvtclminduty_73',['vvtCLminDuty',['../structconfig10.html#abb1c00a928c35581b9b996b6f24781fe',1,'config10']]],
   ['vvtclusehold_74',['vvtCLUseHold',['../structconfig6.html#adb0e86e144e3592844cfac3ebb2b52c4',1,'config6']]],
   ['vvtcounter_75',['vvtCounter',['../auxiliaries_8cpp.html#ad6484d55169d38b365629ef73541c62f',1,'auxiliaries.cpp']]],
