@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n2o_5farming_5fpin_0',['n2o_arming_pin',['../auxiliaries_8cpp.html#afadeaf70a970f3d679414a823fbc9fba',1,'n2o_arming_pin:&#160;auxiliaries.cpp'],['../structconfig10.html#ad3687a56311203b7fd28dcc7a3a1b986',1,'config10::n2o_arming_pin']]],
+  ['n2o_5farming_5fpin_0',['n2o_arming_pin',['../structconfig10.html#ad3687a56311203b7fd28dcc7a3a1b986',1,'config10::n2o_arming_pin'],['../auxiliaries_8cpp.html#afadeaf70a970f3d679414a823fbc9fba',1,'n2o_arming_pin:&#160;auxiliaries.cpp']]],
   ['n2o_5fenable_1',['n2o_enable',['../structconfig10.html#acf6e38bb8245d5975438d26db1d87bcb',1,'config10']]],
   ['n2o_5fmaxafr_2',['n2o_maxAFR',['../structconfig10.html#a0c2189d62857f49e89f9729118e181a8',1,'config10']]],
   ['n2o_5fmaxmap_3',['n2o_maxMAP',['../structconfig10.html#ac8ec1458885661d3b4d25a57aa38471e',1,'config10']]],
@@ -18,10 +18,10 @@ var searchData=
   ['n2o_5fstage2_5faddermin_15',['n2o_stage2_adderMin',['../structconfig10.html#a96e6034accc42087e14f54824a3fd0f0',1,'config10']]],
   ['n2o_5fstage2_5fmaxrpm_16',['n2o_stage2_maxRPM',['../structconfig10.html#a720f7eb6e256badbc9aed70c64dd40fa',1,'config10']]],
   ['n2o_5fstage2_5fminrpm_17',['n2o_stage2_minRPM',['../structconfig10.html#adb23117ae2f998e7ef51705bda5028d3',1,'config10']]],
-  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10::n2o_stage2_pin'],['../auxiliaries_8cpp.html#ae0b1e61920acad4e72531746ba8e49dd',1,'n2o_stage2_pin:&#160;auxiliaries.cpp']]],
+  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../auxiliaries_8cpp.html#ae0b1e61920acad4e72531746ba8e49dd',1,'n2o_stage2_pin:&#160;auxiliaries.cpp'],['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10::n2o_stage2_pin']]],
   ['n2o_5fstage2_5fretard_19',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_20',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
-  ['native_5fcan_5favailable_21',['native_can_available',['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h']]],
+  ['native_5fcan_5favailable_21',['native_can_available',['../board__teensy41_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy41.h'],['../board__teensy35_8h.html#a53a1c98d4e5f1f2d273eac2272c6dce2',1,'NATIVE_CAN_AVAILABLE:&#160;board_teensy35.h']]],
   ['ncylinders_22',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
   ['new_5fcan_5fpacket_5fsize_23',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]],
   ['next_24',['next',['../structentity__page__location__t.html#ab8d8e532cb57f1095e931a33e11a8a3c',1,'entity_page_location_t']]],
@@ -37,7 +37,7 @@ var searchData=
   ['nitrous_5fstage2_34',['NITROUS_STAGE2',['../config__pages_8h.html#a8a6a4950394decb01dcb209ac36b0e9e',1,'config_pages.h']]],
   ['nitrous_5fstatus_35',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['nitrousactive_36',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
-  ['nitrouscontrol_37',['nitrouscontrol',['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
+  ['nitrouscontrol_37',['nitrouscontrol',['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
   ['no_5ffuel_5fcorrection_38',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
   ['noentity_39',['NoEntity',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42a4c76324e7b4579f8cb8d404bd1730183',1,'pages.h']]],
   ['non_20360_20dual_20wheel_40',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
@@ -51,12 +51,5 @@ var searchData=
   ['nullgetfeatures_48',['nullGetFeatures',['../decoder__builder_8cpp.html#a870ce5bd5768bbc29af36606c6afd79d',1,'decoder_builder.cpp']]],
   ['nullgetrpm_49',['nullGetRPM',['../decoder__builder_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoder_builder.cpp']]],
   ['nullgetstatus_50',['nullGetStatus',['../decoder__builder_8cpp.html#ab88da84a5579b9e279766079dd4c2265',1,'decoder_builder.cpp']]],
-  ['nulltriggerhandler_51',['nullTriggerHandler',['../decoder__builder_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoder_builder.cpp']]],
-  ['numeric_5flimits_52',['numeric_limits',['../structnumeric__limits.html',1,'']]],
-  ['numeric_5flimits_3c_20int16_5ft_20_3e_53',['numeric_limits&lt; int16_t &gt;',['../structnumeric__limits_3_01int16__t_01_4.html',1,'']]],
-  ['numeric_5flimits_3c_20int32_5ft_20_3e_54',['numeric_limits&lt; int32_t &gt;',['../structnumeric__limits_3_01int32__t_01_4.html',1,'']]],
-  ['numeric_5flimits_3c_20int8_5ft_20_3e_55',['numeric_limits&lt; int8_t &gt;',['../structnumeric__limits_3_01int8__t_01_4.html',1,'']]],
-  ['numeric_5flimits_3c_20uint16_5ft_20_3e_56',['numeric_limits&lt; uint16_t &gt;',['../structnumeric__limits_3_01uint16__t_01_4.html',1,'']]],
-  ['numeric_5flimits_3c_20uint32_5ft_20_3e_57',['numeric_limits&lt; uint32_t &gt;',['../structnumeric__limits_3_01uint32__t_01_4.html',1,'']]],
-  ['numeric_5flimits_3c_20uint8_5ft_20_3e_58',['numeric_limits&lt; uint8_t &gt;',['../structnumeric__limits_3_01uint8__t_01_4.html',1,'']]]
+  ['nulltriggerhandler_51',['nullTriggerHandler',['../decoder__builder_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoder_builder.cpp']]]
 ];
