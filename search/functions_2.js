@@ -22,7 +22,7 @@ var searchData=
   ['begininjectorpriming_19',['begininjectorpriming',['../scheduler_8cpp.html#ad9e6e319fc3f59869a5d87139b4413c1',1,'beginInjectorPriming(void):&#160;scheduler.cpp'],['../scheduler_8h.html#ad9e6e319fc3f59869a5d87139b4413c1',1,'beginInjectorPriming(void):&#160;scheduler.cpp']]],
   ['begintrailingcoilcharge_20',['begintrailingcoilcharge',['../scheduled_i_o__ign_8cpp.html#a4a8864c0ba0702560d6afaebc1914a2d',1,'beginTrailingCoilCharge(void):&#160;scheduledIO_ign.cpp'],['../scheduled_i_o__ign_8h.html#a4a8864c0ba0702560d6afaebc1914a2d',1,'beginTrailingCoilCharge(void):&#160;scheduledIO_ign.cpp']]],
   ['bilinear_5finterpolation_21',['bilinear_interpolation',['../table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778',1,'table3d_interpolate.cpp']]],
-  ['boardinitpins_22',['boardInitPins',['../board__definition_8h.html#abed43bf7d094e1077de22cb6657afa15',1,'board_definition.h']]],
+  ['boardinitpins_22',['boardInitPins',['../board__definition_8h.html#ab00f50729bea335a99178fc6d0866fa6',1,'board_definition.h']]],
   ['boostbygear_23',['boostByGear',['../auxiliaries_8cpp.html#a2e9a2f41544deb079bda15a534b0cbe7',1,'auxiliaries.cpp']]],
   ['boostcontrol_24',['boostcontrol',['../auxiliaries_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a',1,'boostControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a5a0f5572764df70b61f5a912d5e0b60a',1,'boostControl(void):&#160;auxiliaries.cpp']]],
   ['boostdisable_25',['boostdisable',['../auxiliaries_8cpp.html#af658fda3c20b91bdbef47a139ab4dc30',1,'boostDisable(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#af658fda3c20b91bdbef47a139ab4dc30',1,'boostDisable(void):&#160;auxiliaries.cpp']]],
