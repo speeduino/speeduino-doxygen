@@ -49,7 +49,7 @@ var searchData=
   ['four_5fstroke_46',['FOUR_STROKE',['../config__pages_8h.html#a1510507ac38a67970d77c6b39dbb6076',1,'config_pages.h']]],
   ['fpprime_47',['fpPrime',['../structconfig2.html#a84234a5747dfc018779ccc2d17ca7a1c',1,'config2']]],
   ['fpprimed_48',['fpPrimed',['../structstatuses.html#abb8130a63f94b2a190767a11098b33be',1,'statuses']]],
-  ['fpprimetime_49',['fpprimetime',['../globals_8h.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime:&#160;globals.cpp'],['../globals_8cpp.html#a5afda543e68de000ad4ae9c0aea10374',1,'fpPrimeTime:&#160;globals.cpp']]],
+  ['fpprimetime_49',['fpPrimeTime',['../auxiliaries_8cpp.html#afe161d58a0a9f2deda9911f1aa5bf38c',1,'auxiliaries.cpp']]],
   ['freeram_50',['freeRAM',['../structstatuses.html#abf1477f1c30424755c4072dac58ec61e',1,'statuses']]],
   ['fuel2_5fcondition_5feth_51',['FUEL2_CONDITION_ETH',['../config__pages_8h.html#a1214fe1641746162a3764a0f821974b0',1,'config_pages.h']]],
   ['fuel2_5fcondition_5fmap_52',['FUEL2_CONDITION_MAP',['../config__pages_8h.html#a4b8f6e806d129deb394cc5415f603f04',1,'config_pages.h']]],
