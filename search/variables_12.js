@@ -94,7 +94,7 @@ var searchData=
   ['stagingtable_91',['stagingtable',['../globals_8h.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp'],['../globals_8cpp.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp']]],
   ['start_92',['start',['../structpage__entity__t.html#a60e1cb1a3e9b1a5ce5e8058ba32332dc',1,'page_entity_t']]],
   ['startrevolutions_93',['startRevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses']]],
-  ['status_94',['status',['../structstatuses_1_1scheduler__cut__t.html#ac5a701f29b4e20da3c2a94ce96af5147',1,'statuses::scheduler_cut_t::status'],['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status']]],
+  ['status_94',['status',['../struct_schedule.html#a778619a6259c4942fa0044fc393bc7da',1,'Schedule::Status'],['../structstatuses_1_1scheduler__cut__t.html#ac5a701f29b4e20da3c2a94ce96af5147',1,'statuses::scheduler_cut_t::status']]],
   ['statussensors_95',['statussensors',['../sensors_8cpp.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp'],['../sensors_8h.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp']]],
   ['stepperstatus_96',['stepperStatus',['../struct_stepper_idle.html#a74d81abd204873af010d8b4dc85ea7ab',1,'StepperIdle']]],
   ['stepstarttime_97',['stepStartTime',['../struct_stepper_idle.html#a48abedea5bf28f2efcd071ce631ce418',1,'StepperIdle']]],
