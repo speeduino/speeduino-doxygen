@@ -10,11 +10,12 @@ var searchData=
   ['pinisreserved_7',['pinisreserved',['../board__teensy35_8h.html#a5307fe59275e346f25160482664dca2f',1,'pinIsReserved(uint8_t pin):&#160;board_teensy35.h'],['../board__teensy41_8h.html#a5307fe59275e346f25160482664dca2f',1,'pinIsReserved(uint8_t pin):&#160;board_teensy41.h'],['../board__stm32__official_8h.html#a5307fe59275e346f25160482664dca2f',1,'pinIsReserved(uint8_t pin):&#160;board_stm32_official.h'],['../board__avr2560_8h.html#a5307fe59275e346f25160482664dca2f',1,'pinIsReserved(uint8_t pin):&#160;board_avr2560.h']]],
   ['pinisserial_8',['pinIsSerial',['../board__teensy41_8h.html#a29d795e004f80c3aca8396d00bd4042d',1,'board_teensy41.h']]],
   ['pinisused_9',['pinisused',['../globals_8cpp.html#ae6c8253aa4032451c645f4cfdaff6f04',1,'pinIsUsed(byte pin):&#160;globals.cpp'],['../globals_8h.html#ae6c8253aa4032451c645f4cfdaff6f04',1,'pinIsUsed(byte pin):&#160;globals.cpp']]],
-  ['primingtimeexpired_10',['primingTimeExpired',['../auxiliaries_8cpp.html#a65c899e32581260544d433b44aedd4e4',1,'auxiliaries.cpp']]],
-  ['print2dtable_11',['print2dTable',['../comms__legacy_8cpp.html#aabcf6e692e6dd40a277669e5c24534c0',1,'comms_legacy.cpp']]],
-  ['processresetstoragerequest_12',['processResetStorageRequest',['../init_8cpp.html#a0e59a414c285af1419e224813d7585ba',1,'init.cpp']]],
-  ['processserialcommand_13',['processSerialCommand',['../group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c',1,'comms.cpp']]],
-  ['processtemperaturecalibrationtableupdate_14',['processTemperatureCalibrationTableUpdate',['../group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef',1,'comms.cpp']]],
-  ['programmableiogetdata_15',['programmableiogetdata',['../programmable_i_o_control_8cpp.html#a3ae5935a99403a3fae53567880e74a39',1,'ProgrammableIOGetData(uint16_t index, byte(*pGetLogEntry)(uint16_t byteNum)):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp']]],
-  ['pwapplynitrous_16',['pwApplyNitrous',['../fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e',1,'fuel_calcs.cpp']]]
+  ['postprocessanalogread_10',['postProcessAnalogRead',['../sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196',1,'sensors.cpp']]],
+  ['primingtimeexpired_11',['primingTimeExpired',['../auxiliaries_8cpp.html#a65c899e32581260544d433b44aedd4e4',1,'auxiliaries.cpp']]],
+  ['print2dtable_12',['print2dTable',['../comms__legacy_8cpp.html#aabcf6e692e6dd40a277669e5c24534c0',1,'comms_legacy.cpp']]],
+  ['processresetstoragerequest_13',['processResetStorageRequest',['../init_8cpp.html#a0e59a414c285af1419e224813d7585ba',1,'init.cpp']]],
+  ['processserialcommand_14',['processSerialCommand',['../group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c',1,'comms.cpp']]],
+  ['processtemperaturecalibrationtableupdate_15',['processTemperatureCalibrationTableUpdate',['../group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef',1,'comms.cpp']]],
+  ['programmableiogetdata_16',['programmableiogetdata',['../programmable_i_o_control_8cpp.html#a3ae5935a99403a3fae53567880e74a39',1,'ProgrammableIOGetData(uint16_t index, byte(*pGetLogEntry)(uint16_t byteNum)):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp']]],
+  ['pwapplynitrous_17',['pwApplyNitrous',['../fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e',1,'fuel_calcs.cpp']]]
 ];
