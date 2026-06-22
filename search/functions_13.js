@@ -13,7 +13,7 @@ var searchData=
   ['temperatureremoveoffset_10',['temperatureRemoveOffset',['../units_8h.html#a36a02b948d899a64a1ccce02a099ebba',1,'units.h']]],
   ['testcomm_11',['testcomm',['../comms__legacy_8cpp.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#af4258e102ae9b8ffe9268a1ee4a299df',1,'testComm(void):&#160;comms_legacy.cpp']]],
   ['tickstomicros_12',['tickstomicros',['../board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_teensy35.h'],['../board__teensy41_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_teensy41.h']]],
-  ['timetoangledegpermicrosec_13',['timeToAngleDegPerMicroSec',['../crank_maths_8h.html#ae19bc45493639eb25b78aa17429620d3',1,'crankMaths.h']]],
+  ['timetoangledegpermicrosec_13',['timeToAngleDegPerMicroSec',['../crank_maths_8h.html#a437337d1ba43119e466b3d417aa31656',1,'crankMaths.h']]],
   ['timetoangleintervaltooth_14',['timeToAngleIntervalTooth',['../group__dec__uni.html#gaffacbfaa5231714384f143fb3b95c772',1,'decoders.cpp']]],
   ['tobottomleft_15',['toBottomLeft',['../table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f',1,'table3d_interpolate.cpp']]],
   ['toqu1x8_16',['toQU1X8',['../table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255',1,'table3d_interpolate.cpp']]],

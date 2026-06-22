@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">fuel_calcs.cpp File Reference</div></div>
 </div><!--header-->
@@ -84,24 +85,27 @@ $(function() {
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="decoders_8h_source.html">decoders.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="scheduler__fuel__controller_8h_source.html">scheduler_fuel_controller.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2f516021a8527056dd1e306d59fc7193" id="r_a2f516021a8527056dd1e306d59fc7193"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a2f516021a8527056dd1e306d59fc7193">ASSIGN_PULSEWIDTH_OR_ZERO</a>(index,  <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>)&#160;&#160;&#160;    <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current.PW</a> ## index = ((current.maxInjOutputs) &gt;= (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>)(index)) ? (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>) : 0U</td></tr>
+<tr class="separator:a2f516021a8527056dd1e306d59fc7193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3f21f6b9b4231d9763b80e459c51a7a7" id="r_a3f21f6b9b4231d9763b80e459c51a7a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a3f21f6b9b4231d9763b80e459c51a7a7">calculateRequiredFuel</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:a3f21f6b9b4231d9763b80e459c51a7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d4c089863e28884b9f8d7890fa267e" id="r_ae5d4c089863e28884b9f8d7890fa267e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ae5d4c089863e28884b9f8d7890fa267e">calcNitrousStagePercent</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">minRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">maxRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a762a5df04c2536fd0aaaac4a9eebb7be" id="r_a762a5df04c2536fd0aaaac4a9eebb7be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a762a5df04c2536fd0aaaac4a9eebb7be">calculateRequiredFuel</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
+<tr class="separator:a762a5df04c2536fd0aaaac4a9eebb7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5d4c089863e28884b9f8d7890fa267e" id="r_ae5d4c089863e28884b9f8d7890fa267e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ae5d4c089863e28884b9f8d7890fa267e">calcNitrousStagePercent</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">minRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">maxRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:ae5d4c089863e28884b9f8d7890fa267e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e49bf9441f060d27502c1bc8f899d76" id="r_a8e49bf9441f060d27502c1bc8f899d76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a8e49bf9441f060d27502c1bc8f899d76">calcNitrousStagePulseWidth</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">minRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">maxRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">adderMinDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">adderMaxDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a8e49bf9441f060d27502c1bc8f899d76" id="r_a8e49bf9441f060d27502c1bc8f899d76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a8e49bf9441f060d27502c1bc8f899d76">calcNitrousStagePulseWidth</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">minRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">maxRPMDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">adderMinDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">adderMaxDiv100</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a8e49bf9441f060d27502c1bc8f899d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e158209ce303b27076d4d9adcf727e" id="r_a05e158209ce303b27076d4d9adcf727e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e">pwApplyNitrous</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> pw, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a05e158209ce303b27076d4d9adcf727e" id="r_a05e158209ce303b27076d4d9adcf727e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e">pwApplyNitrous</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a05e158209ce303b27076d4d9adcf727e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281d921acd1394a2efbe45c1bbed1bfd" id="r_a281d921acd1394a2efbe45c1bbed1bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a281d921acd1394a2efbe45c1bbed1bfd">calculatePWLimit</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a281d921acd1394a2efbe45c1bbed1bfd" id="r_a281d921acd1394a2efbe45c1bbed1bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a281d921acd1394a2efbe45c1bbed1bfd">calculatePWLimit</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a281d921acd1394a2efbe45c1bbed1bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7b7357e5c9badf02f239a4e78124d60" id="r_ad7b7357e5c9badf02f239a4e78124d60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60">applyMapMode</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:ad7b7357e5c9badf02f239a4e78124d60" id="r_ad7b7357e5c9badf02f239a4e78124d60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60">applyMapMode</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:ad7b7357e5c9badf02f239a4e78124d60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59002992de04d8e21f0913a9eadc5357" id="r_a59002992de04d8e21f0913a9eadc5357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357">applyAFRMultiplier</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a59002992de04d8e21f0913a9eadc5357" id="r_a59002992de04d8e21f0913a9eadc5357"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357">applyAFRMultiplier</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a59002992de04d8e21f0913a9eadc5357"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac087508589c090c115e2ccb9cd65e113" id="r_ac087508589c090c115e2ccb9cd65e113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ac087508589c090c115e2ccb9cd65e113">applyCorrections</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> corrections)</td></tr>
 <tr class="separator:ac087508589c090c115e2ccb9cd65e113"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,11 +113,11 @@ Functions</h2></td></tr>
 <tr class="separator:ae503661a89ae168d23e9430a8c26ee5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7efec02ce6bb6e965d6398e438168e22" id="r_a7efec02ce6bb6e965d6398e438168e22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a7efec02ce6bb6e965d6398e438168e22">includeOpenTime</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> injOpen)</td></tr>
 <tr class="separator:a7efec02ce6bb6e965d6398e438168e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3658b7687cadb06cb7ec723171fd2f37" id="r_a3658b7687cadb06cb7ec723171fd2f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a3658b7687cadb06cb7ec723171fd2f37">includeAe</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">REQ_FUEL</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a3658b7687cadb06cb7ec723171fd2f37" id="r_a3658b7687cadb06cb7ec723171fd2f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a3658b7687cadb06cb7ec723171fd2f37">includeAe</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">intermediate</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">REQ_FUEL</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a3658b7687cadb06cb7ec723171fd2f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af57595d14d1e9f5418e5e61edb1fcbed" id="r_af57595d14d1e9f5418e5e61edb1fcbed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed">calcPrimaryPulseWidth</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:af57595d14d1e9f5418e5e61edb1fcbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bac2d8236b6ccd45653db15220b15ce" id="r_a5bac2d8236b6ccd45653db15220b15ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce">applyPwLimits</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> pw, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pwLimit</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a01a34ebab7a7803fd1c7379540bfe35e" id="r_a01a34ebab7a7803fd1c7379540bfe35e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e">calcPrimaryPulseWidth</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
+<tr class="separator:a01a34ebab7a7803fd1c7379540bfe35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bac2d8236b6ccd45653db15220b15ce" id="r_a5bac2d8236b6ccd45653db15220b15ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce">applyPwLimits</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pwLimit</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a5bac2d8236b6ccd45653db15220b15ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1121485a32150f15485437440ad7ad3" id="r_af1121485a32150f15485437440ad7ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#af1121485a32150f15485437440ad7ad3">canApplyStaging</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:af1121485a32150f15485437440ad7ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,18 +127,50 @@ Functions</h2></td></tr>
 <tr class="separator:a5319f81acb37c53e540087dfdbc66c4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a850ea4083fdd0e3baeda89a03e04bdd0" id="r_a850ea4083fdd0e3baeda89a03e04bdd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a850ea4083fdd0e3baeda89a03e04bdd0">calcStageSecondaryPw</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint32_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">totalPw</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>) <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">noexcept</a></td></tr>
 <tr class="separator:a850ea4083fdd0e3baeda89a03e04bdd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2846d54c8ac06e27e63e36d14649d6b" id="r_ac2846d54c8ac06e27e63e36d14649d6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b">applyStagingModeTable</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">primaryPW</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:ac2846d54c8ac06e27e63e36d14649d6b" id="r_ac2846d54c8ac06e27e63e36d14649d6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b">applyStagingModeTable</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">primaryPW</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:ac2846d54c8ac06e27e63e36d14649d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc0732293930ebf5d17fe10483a61a61" id="r_afc0732293930ebf5d17fe10483a61a61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#afc0732293930ebf5d17fe10483a61a61">applyStagingModeAuto</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">primaryPW</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pwLimit</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:afc0732293930ebf5d17fe10483a61a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b74a5bd905b832438df6a5358d9d10a" id="r_a4b74a5bd905b832438df6a5358d9d10a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a">calculateSecondaryPw</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">primaryPw</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pwLimit</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a4b74a5bd905b832438df6a5358d9d10a" id="r_a4b74a5bd905b832438df6a5358d9d10a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a">calculateSecondaryPw</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">primaryPw</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pwLimit</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">injOpenTime</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a4b74a5bd905b832438df6a5358d9d10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1046135fb15cb1c4ea0f3f4c2784c53b" id="r_a1046135fb15cb1c4ea0f3f4c2784c53b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a1046135fb15cb1c4ea0f3f4c2784c53b">calculateOpenTime</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a1a0103639acb55f56b928c3aea9f9bdc" id="r_a1a0103639acb55f56b928c3aea9f9bdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a1a0103639acb55f56b928c3aea9f9bdc">applyPwToInjectorChannels</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pulse_widths</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
+<tr class="memdesc:a1a0103639acb55f56b928c3aea9f9bdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the calculated pulse widths to the current system state.  <br /></td></tr>
+<tr class="separator:a1a0103639acb55f56b928c3aea9f9bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1046135fb15cb1c4ea0f3f4c2784c53b" id="r_a1046135fb15cb1c4ea0f3f4c2784c53b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a1046135fb15cb1c4ea0f3f4c2784c53b">calculateOpenTime</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
 <tr class="separator:a1046135fb15cb1c4ea0f3f4c2784c53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca67c7723ed6f9b66ffe1b665c2ae3e1" id="r_aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1">computePulseWidths</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="memdesc:aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state.  <br /></td></tr>
-<tr class="separator:aca67c7723ed6f9b66ffe1b665c2ae3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1455021008f797cca52bd7c536c373f0" id="r_a1455021008f797cca52bd7c536c373f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpulse_widths.html">pulseWidths</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0">computePulseWidths</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a">current</a>)</td></tr>
+<tr class="memdesc:a1455021008f797cca52bd7c536c373f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state.  <br /></td></tr>
+<tr class="separator:a1455021008f797cca52bd7c536c373f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2f516021a8527056dd1e306d59fc7193" name="a2f516021a8527056dd1e306d59fc7193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f516021a8527056dd1e306d59fc7193">&#9670;&#160;</a></span>ASSIGN_PULSEWIDTH_OR_ZERO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">define</a> ASSIGN_PULSEWIDTH_OR_ZERO</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">index, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;    <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">current.PW</a> ## index = ((current.maxInjOutputs) &gt;= (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>)(index)) ? (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">pw</a>) : 0U</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a59002992de04d8e21f0913a9eadc5357" name="a59002992de04d8e21f0913a9eadc5357"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59002992de04d8e21f0913a9eadc5357">&#9670;&#160;</a></span>applyAFRMultiplier()</h2>
@@ -202,9 +238,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a59002992de04d8e21f0913a9eadc5357_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a59002992de04d8e21f0913a9eadc5357_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a59002992de04d8e21f0913a9eadc5357_icgraph" id="afuel__calcs_8cpp_a59002992de04d8e21f0913a9eadc5357_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,788,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,610,21,610,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -270,9 +306,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_ac087508589c090c115e2ccb9cd65e113_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_ac087508589c090c115e2ccb9cd65e113_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_ac087508589c090c115e2ccb9cd65e113_icgraph" id="afuel__calcs_8cpp_ac087508589c090c115e2ccb9cd65e113_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,776,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,611,21,611,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -344,9 +380,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_ad7b7357e5c9badf02f239a4e78124d60_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_ad7b7357e5c9badf02f239a4e78124d60_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_ad7b7357e5c9badf02f239a4e78124d60_icgraph" id="afuel__calcs_8cpp_ad7b7357e5c9badf02f239a4e78124d60_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,767,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,611,21,611,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -413,8 +449,77 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a5bac2d8236b6ccd45653db15220b15ce_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a5bac2d8236b6ccd45653db15220b15ce_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a5bac2d8236b6ccd45653db15220b15ce_icgraph" id="afuel__calcs_8cpp_a5bac2d8236b6ccd45653db15220b15ce_icgraph">
 <area shape="rect" title=" " alt="" coords="455,5,561,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
+<area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1a0103639acb55f56b928c3aea9f9bdc" name="a1a0103639acb55f56b928c3aea9f9bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0103639acb55f56b928c3aea9f9bdc">&#9670;&#160;</a></span>applyPwToInjectorChannels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> applyPwToInjectorChannels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
+          <td class="paramname"><em>pulse_widths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Apply the calculated pulse widths to the current system state. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname"><a class="el" href="structpulse_widths.html" title="Result of pulse width calculation.">pulseWidths</a></td><td>Result of <a class="el" href="fuel__calcs_8h.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state.">computePulseWidths()</a> </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune settings </td></tr>
+    <tr><td class="paramname">current</td><td>Current system state </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_cgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_cgraph" id="afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_cgraph">
+<area shape="rect" title="Apply the calculated pulse widths to the current system state." alt="" coords="5,5,188,31"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="236,5,405,31"/>
+<area shape="poly" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="627,5,721,31"/>
+<area shape="poly" title=" " alt="" coords="405,16,611,16,611,21,405,21"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="453,31,579,56"/>
+<area shape="poly" title=" " alt="" coords="406,26,438,31,437,36,405,32"/>
+<area shape="poly" title=" " alt="" coords="579,31,611,25,612,31,580,36"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="fuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_icgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_icgraph" id="afuel__calcs_8cpp_a1a0103639acb55f56b928c3aea9f9bdc_icgraph">
+<area shape="rect" title="Apply the calculated pulse widths to the current system state." alt="" coords="263,5,445,31"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
 </map>
@@ -496,7 +601,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="656,5,811,31"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,5,608,31"/>
 <area shape="poly" title=" " alt="" coords="640,21,609,21,609,16,640,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -616,7 +721,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="656,5,816,31"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,5,608,31"/>
 <area shape="poly" title=" " alt="" coords="641,21,608,21,608,16,641,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -689,9 +794,9 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1038,21,1007,21,1007,16,1038,16"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e" title=" " alt="" coords="658,5,771,31"/>
 <area shape="poly" title=" " alt="" coords="803,21,771,21,771,16,803,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,610,21,610,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -780,9 +885,9 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="819,5,1006,31"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e" title=" " alt="" coords="658,5,771,31"/>
 <area shape="poly" title=" " alt="" coords="803,21,771,21,771,16,803,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,610,21,610,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -791,8 +896,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af57595d14d1e9f5418e5e61edb1fcbed" name="af57595d14d1e9f5418e5e61edb1fcbed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af57595d14d1e9f5418e5e61edb1fcbed">&#9670;&#160;</a></span>calcPrimaryPulseWidth()</h2>
+<a id="a01a34ebab7a7803fd1c7379540bfe35e" name="a01a34ebab7a7803fd1c7379540bfe35e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a34ebab7a7803fd1c7379540bfe35e">&#9670;&#160;</a></span>calcPrimaryPulseWidth()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -824,6 +929,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>decoderStatus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>&#160;</td>
         </tr>
@@ -837,8 +948,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_cgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_cgraph" id="afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_cgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_cgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_cgraph" id="afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_cgraph">
 <area shape="rect" title=" " alt="" coords="5,289,161,314"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357" title=" " alt="" coords="660,86,789,112"/>
 <area shape="poly" title=" " alt="" coords="99,286,146,253,208,219,324,177,443,145,553,122,644,107,645,112,554,127,444,150,325,182,210,224,149,257,103,290"/>
@@ -848,7 +959,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="116,286,208,254,322,227,425,208,426,214,323,232,209,259,117,291"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60" title=" " alt="" coords="446,339,554,365"/>
 <area shape="poly" title=" " alt="" coords="162,308,430,341,429,347,161,314"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#a3f21f6b9b4231d9763b80e459c51a7a7" title=" " alt="" coords="209,515,358,541"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a762a5df04c2536fd0aaaac4a9eebb7be" title=" " alt="" coords="209,515,358,541"/>
 <area shape="poly" title=" " alt="" coords="94,313,138,387,172,434,210,477,246,505,243,509,207,481,168,437,134,390,89,316"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#ae503661a89ae168d23e9430a8c26ee5e" title=" " alt="" coords="439,238,560,264"/>
 <area shape="poly" title=" " alt="" coords="161,287,208,280,423,256,424,261,209,286,162,292"/>
@@ -891,10 +1002,10 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_icgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_icgraph" id="afuel__calcs_8cpp_af57595d14d1e9f5418e5e61edb1fcbed_icgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_icgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_icgraph" id="afuel__calcs_8cpp_a01a34ebab7a7803fd1c7379540bfe35e_icgraph">
 <area shape="rect" title=" " alt="" coords="455,5,610,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -963,7 +1074,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="849,57,816,61,816,55,848,51"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,31,608,56"/>
 <area shape="poly" title=" " alt="" coords="644,32,609,37,608,31,643,27"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,31,407,56"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,31,407,56"/>
 <area shape="poly" title=" " alt="" coords="440,46,407,46,407,41,440,41"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,31,215,56"/>
 <area shape="poly" title=" " alt="" coords="247,46,215,46,215,41,247,41"/>
@@ -1031,7 +1142,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="848,21,816,21,816,16,848,16"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,5,608,31"/>
 <area shape="poly" title=" " alt="" coords="641,21,608,21,608,16,641,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1106,7 +1217,7 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="848,56,817,60,816,55,848,51"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,31,608,56"/>
 <area shape="poly" title=" " alt="" coords="644,32,609,37,608,31,643,27"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,31,407,56"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,31,407,56"/>
 <area shape="poly" title=" " alt="" coords="440,46,407,46,407,41,440,41"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,31,215,56"/>
 <area shape="poly" title=" " alt="" coords="247,46,215,46,215,41,247,41"/>
@@ -1147,7 +1258,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a1046135fb15cb1c4ea0f3f4c2784c53b_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a1046135fb15cb1c4ea0f3f4c2784c53b_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a1046135fb15cb1c4ea0f3f4c2784c53b_icgraph" id="afuel__calcs_8cpp_a1046135fb15cb1c4ea0f3f4c2784c53b_icgraph">
 <area shape="rect" title=" " alt="" coords="455,5,588,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="439,21,407,21,407,16,439,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1205,7 +1316,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a281d921acd1394a2efbe45c1bbed1bfd_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a281d921acd1394a2efbe45c1bbed1bfd_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a281d921acd1394a2efbe45c1bbed1bfd_icgraph" id="afuel__calcs_8cpp_a281d921acd1394a2efbe45c1bbed1bfd_icgraph">
 <area shape="rect" title=" " alt="" coords="455,5,578,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="439,21,407,21,407,16,439,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1214,8 +1325,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a3f21f6b9b4231d9763b80e459c51a7a7" name="a3f21f6b9b4231d9763b80e459c51a7a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f21f6b9b4231d9763b80e459c51a7a7">&#9670;&#160;</a></span>calculateRequiredFuel()</h2>
+<a id="a762a5df04c2536fd0aaaac4a9eebb7be" name="a762a5df04c2536fd0aaaac4a9eebb7be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762a5df04c2536fd0aaaac4a9eebb7be">&#9670;&#160;</a></span>calculateRequiredFuel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1229,8 +1340,8 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>current</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>decoderStatus</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1242,8 +1353,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_cgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_cgraph" id="afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_cgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_cgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_cgraph" id="afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,155,31"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="203,5,372,31"/>
 <area shape="poly" title=" " alt="" coords="155,16,187,16,187,21,155,21"/>
@@ -1257,12 +1368,12 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_icgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_icgraph" id="afuel__calcs_8cpp_a3f21f6b9b4231d9763b80e459c51a7a7_icgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_icgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_icgraph" id="afuel__calcs_8cpp_a762a5df04c2536fd0aaaac4a9eebb7be_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,808,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,611,21,611,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1395,7 +1506,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a4b74a5bd905b832438df6a5358d9d10a_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a4b74a5bd905b832438df6a5358d9d10a_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a4b74a5bd905b832438df6a5358d9d10a_icgraph" id="afuel__calcs_8cpp_a4b74a5bd905b832438df6a5358d9d10a_icgraph">
 <area shape="rect" title=" " alt="" coords="455,5,608,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1460,7 +1571,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="656,5,775,31"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="455,5,608,31"/>
 <area shape="poly" title=" " alt="" coords="641,21,608,21,608,16,641,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1526,9 +1637,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_ae503661a89ae168d23e9430a8c26ee5e_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_ae503661a89ae168d23e9430a8c26ee5e_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_ae503661a89ae168d23e9430a8c26ee5e_icgraph" id="afuel__calcs_8cpp_ae503661a89ae168d23e9430a8c26ee5e_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,780,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,611,21,611,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1537,8 +1648,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="aca67c7723ed6f9b66ffe1b665c2ae3e1" name="aca67c7723ed6f9b66ffe1b665c2ae3e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca67c7723ed6f9b66ffe1b665c2ae3e1">&#9670;&#160;</a></span>computePulseWidths()</h2>
+<a id="a1455021008f797cca52bd7c536c373f0" name="a1455021008f797cca52bd7c536c373f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1455021008f797cca52bd7c536c373f0">&#9670;&#160;</a></span>computePulseWidths()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1560,6 +1671,12 @@ Here is the caller graph for this function:</div>
           <td></td>
           <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>decoderStatus</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1589,14 +1706,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph" id="afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_cgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_cgraph.png" border="0" usemap="#afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_cgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_cgraph" id="afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_cgraph">
 <area shape="rect" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="5,442,150,468"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a5bac2d8236b6ccd45653db15220b15ce" title=" " alt="" coords="823,65,930,91"/>
 <area shape="poly" title=" " alt="" coords="76,442,79,379,94,287,108,237,130,189,158,144,196,108,233,84,271,64,312,48,354,36,441,21,528,18,613,22,691,32,816,58,815,63,690,37,612,27,528,23,442,27,355,41,314,53,274,69,235,88,199,112,162,148,134,191,113,239,99,288,84,380,81,442"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1651,873,1820,899"/>
 <area shape="poly" title=" " alt="" coords="84,441,131,366,170,314,217,261,273,210,335,167,368,150,403,137,440,129,477,126,1296,126,1388,119,1464,110,1499,112,1533,120,1568,137,1605,167,1623,189,1640,220,1668,299,1691,397,1707,504,1728,712,1736,857,1731,857,1723,712,1702,504,1685,398,1663,301,1635,222,1619,192,1601,170,1565,142,1531,125,1498,117,1464,116,1388,124,1296,131,477,131,441,134,405,142,371,155,338,171,276,214,221,264,174,318,136,369,88,443"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="799,417,954,443"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="799,417,954,443"/>
 <area shape="poly" title=" " alt="" coords="150,450,783,430,783,435,150,456"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#a1046135fb15cb1c4ea0f3f4c2784c53b" title=" " alt="" coords="208,468,341,493"/>
 <area shape="poly" title=" " alt="" coords="150,462,193,467,192,473,150,467"/>
@@ -1617,7 +1734,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="954,427,1221,428,1221,434,954,433"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#ad7b7357e5c9badf02f239a4e78124d60" title=" " alt="" coords="1241,316,1349,341"/>
 <area shape="poly" title=" " alt="" coords="893,414,940,382,971,365,1003,351,1060,337,1119,328,1225,323,1225,329,1120,334,1061,342,1005,356,973,370,943,386,896,419"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#a3f21f6b9b4231d9763b80e459c51a7a7" title=" " alt="" coords="1004,366,1153,392"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a762a5df04c2536fd0aaaac4a9eebb7be" title=" " alt="" coords="1004,366,1153,392"/>
 <area shape="poly" title=" " alt="" coords="930,414,1009,394,1010,399,931,419"/>
 <area shape="rect" href="fuel__calcs_8cpp.html#ae503661a89ae168d23e9430a8c26ee5e" title=" " alt="" coords="1234,469,1356,495"/>
 <area shape="poly" title=" " alt="" coords="955,437,1220,470,1219,475,954,442"/>
@@ -1710,8 +1827,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="fuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph" alt=""/></div>
-<map name="afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph" id="afuel__calcs_8cpp_aca67c7723ed6f9b66ffe1b665c2ae3e1_icgraph">
+<div class="center"><img src="fuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_icgraph" alt=""/></div>
+<map name="afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_icgraph" id="afuel__calcs_8cpp_a1455021008f797cca52bd7c536c373f0_icgraph">
 <area shape="rect" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1789,9 +1906,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a3658b7687cadb06cb7ec723171fd2f37_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a3658b7687cadb06cb7ec723171fd2f37_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a3658b7687cadb06cb7ec723171fd2f37_icgraph" id="afuel__calcs_8cpp_a3658b7687cadb06cb7ec723171fd2f37_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,737,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,610,21,610,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1854,9 +1971,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a7efec02ce6bb6e965d6398e438168e22_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a7efec02ce6bb6e965d6398e438168e22_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a7efec02ce6bb6e965d6398e438168e22_icgraph" id="afuel__calcs_8cpp_a7efec02ce6bb6e965d6398e438168e22_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,781,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,611,21,611,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
@@ -1926,9 +2043,9 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="fuel__calcs_8cpp_a05e158209ce303b27076d4d9adcf727e_icgraph.png" border="0" usemap="#afuel__calcs_8cpp_a05e158209ce303b27076d4d9adcf727e_icgraph" alt=""/></div>
 <map name="afuel__calcs_8cpp_a05e158209ce303b27076d4d9adcf727e_icgraph" id="afuel__calcs_8cpp_a05e158209ce303b27076d4d9adcf727e_icgraph">
 <area shape="rect" title=" " alt="" coords="658,5,771,31"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed" title=" " alt="" coords="455,5,610,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a01a34ebab7a7803fd1c7379540bfe35e" title=" " alt="" coords="455,5,610,31"/>
 <area shape="poly" title=" " alt="" coords="643,21,610,21,610,16,643,16"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
+<area shape="rect" href="fuel__calcs_8cpp.html#a1455021008f797cca52bd7c536c373f0" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="263,5,407,31"/>
 <area shape="poly" title=" " alt="" coords="440,21,407,21,407,16,440,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>

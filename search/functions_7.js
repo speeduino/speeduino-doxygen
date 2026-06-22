@@ -47,7 +47,7 @@ var searchData=
   ['getgear_44',['getGear',['../sensors_8cpp.html#afa9cda951e4db3aa4dca2df7cc1ddd62',1,'sensors.cpp']]],
   ['gethardrevlimit_45',['getHardRevLimit',['../engine_protection_8cpp.html#a3dcf2826547a6986f04df6d7f6f42e99',1,'engineProtection.cpp']]],
   ['getinjectorstatus_46',['getinjectorstatus',['../scheduled_i_o__inj_8cpp.html#ad2bfd628ae87990c88cae4f754fe130c',1,'getInjectorStatus(void):&#160;scheduledIO_inj.cpp'],['../scheduled_i_o__inj_8h.html#ad2bfd628ae87990c88cae4f754fe130c',1,'getInjectorStatus(void):&#160;scheduledIO_inj.cpp']]],
-  ['getlegacysecondaryseriallogentry_47',['getlegacysecondaryseriallogentry',['../logger_8h.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8cpp.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
+  ['getlegacysecondaryseriallogentry_47',['getlegacysecondaryseriallogentry',['../logger_8cpp.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#a637720998932598c11cacd6efc8e4d20',1,'getLegacySecondarySerialLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
   ['getload_48',['getLoad',['../load__source_8h.html#ac4f24581db8033c7288e4b9a50044ebe',1,'load_source.h']]],
   ['getmapdelta_49',['getmapdelta',['../sensors_8cpp.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp'],['../sensors_8h.html#a64d1261ebf6183e1e6ea1c9fdf219295',1,'getMAPDelta(void):&#160;sensors.cpp']]],
   ['getmapdeltatime_50',['getmapdeltatime',['../sensors_8cpp.html#a5ad24b38cd570c95f0e92ed6fe0c06ed',1,'getMAPDeltaTime(void):&#160;sensors.cpp'],['../sensors_8h.html#a5ad24b38cd570c95f0e92ed6fe0c06ed',1,'getMAPDeltaTime(void):&#160;sensors.cpp']]],
@@ -56,7 +56,7 @@ var searchData=
   ['getoilpressure_53',['getOilPressure',['../sensors_8cpp.html#a4f29318f21b6df0623f6914ecca2045f',1,'sensors.cpp']]],
   ['getpagemap_54',['getPageMap',['../pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e',1,'pages.cpp']]],
   ['getpagesize_55',['getpagesize',['../pages_8cpp.html#a55967413d2f9a104839ae6cca6daafe3',1,'getPageSize(byte pageNum):&#160;pages.cpp'],['../pages_8h.html#a48f6eb96fa3fe5e619cc4988a65f04b3',1,'getPageSize(uint8_t pageNum):&#160;pages.cpp']]],
-  ['getpagevalue_56',['getpagevalue',['../pages_8cpp.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp'],['../pages_8h.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp']]],
+  ['getpagevalue_56',['getpagevalue',['../pages_8h.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp'],['../pages_8cpp.html#a59ba87b7c480087f298a16fbf3b84e40',1,'getPageValue(uint8_t pageNum, uint16_t pageOffset):&#160;pages.cpp']]],
   ['getpulsesperrev_57',['getPulsesPerRev',['../corrections_8cpp.html#a9008c5b083810d4e7fdcb424e8d2c4f4',1,'corrections.cpp']]],
   ['getreadablelogentry_58',['getreadablelogentry',['../logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp'],['../logger_8h.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp']]],
   ['getresetcontrolmode_59',['getresetcontrolmode',['../reset_control_8cpp.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp'],['../reset_control_8h.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp']]],
@@ -91,8 +91,7 @@ var searchData=
   ['getstorageapi_88',['getstorageapi',['../storage_8cpp.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp'],['../storage_8h.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp']]],
   ['getsystemtemp_89',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
   ['gettablesize_90',['getTableSize',['../pages_8cpp.html#ac291dbed25e043179a4d25dd281649c1',1,'pages.cpp']]],
-  ['gettotalinjchannelcount_91',['getTotalInjChannelCount',['../statuses_8h.html#a83203b5f6225fb12de021437547a82d9',1,'statuses.h']]],
-  ['gettslogentry_92',['gettslogentry',['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getvalue_93',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
-  ['getve1_94',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
+  ['gettslogentry_91',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
+  ['getvalue_92',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
+  ['getve1_93',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
 ];

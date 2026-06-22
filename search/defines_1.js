@@ -8,7 +8,5 @@ var searchData=
   ['adcfilter_5fo2_5fdefault_5',['ADCFILTER_O2_DEFAULT',['../sensors_8h.html#a8eb2569912041b18354b60a04b066444',1,'sensors.h']]],
   ['adcfilter_5fpsi_5fdefault_6',['ADCFILTER_PSI_DEFAULT',['../sensors_8h.html#ace22449cf616a01acd8a8c7f8c54cf8a',1,'sensors.h']]],
   ['adcfilter_5ftps_5fdefault_7',['ADCFILTER_TPS_DEFAULT',['../sensors_8h.html#a60fb67afc3c33447f0ccd87e81178939',1,'sensors.h']]],
-  ['assign_5fprimary_5fpw_8',['ASSIGN_PRIMARY_PW',['../scheduler__fuel__controller_8cpp.html#ac7caf2fb5d8057bb67bffdc5840be7e5',1,'scheduler_fuel_controller.cpp']]],
-  ['assign_5fsecondary_5fpw_9',['ASSIGN_SECONDARY_PW',['../scheduler__fuel__controller_8cpp.html#a175cba383e845fd635408d070c2f5050',1,'scheduler_fuel_controller.cpp']]],
-  ['assign_5fzero_5fpw_10',['ASSIGN_ZERO_PW',['../scheduler__fuel__controller_8cpp.html#a8aabc24c027ef48aa96f01b305b86d77',1,'scheduler_fuel_controller.cpp']]]
+  ['assign_5fpulsewidth_5for_5fzero_8',['ASSIGN_PULSEWIDTH_OR_ZERO',['../fuel__calcs_8cpp.html#a2f516021a8527056dd1e306d59fc7193',1,'fuel_calcs.cpp']]]
 ];

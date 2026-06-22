@@ -9,10 +9,9 @@ var searchData=
   ['updateobject_6',['updateObject',['../storage__api_8h.html#a39e71c020e9c61aa672e11059bbeefd6',1,'storage_api.h']]],
   ['updateoilpressure_7',['updateOilPressure',['../sensors_8cpp.html#a839e97fb5755437e11e5597ffa05ec81',1,'sensors.cpp']]],
   ['updatepagevalues_8',['updatePageValues',['../group__group-serial-comms-impl.html#ga2e4666c6ad95481c0f218666d7f9d3b1',1,'comms.cpp']]],
-  ['updatepwanglecache_9',['updatePwAngleCache',['../schedule__calcs_8hpp.html#a23b542733487f173ea9cc6c79b4bb990',1,'schedule_calcs.hpp']]],
-  ['updaterevolutiontimefromteeth_10',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]],
-  ['updatetableu16tou8_11',['updateTableU16toU8',['../updates_8cpp.html#a31c0bff6c6be529af519af8f8fe6acb6',1,'updates.cpp']]],
-  ['upgradev25tov26_12',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]],
-  ['us_5fto_5ftimer_5fcompare_13',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]],
-  ['userollingcut_14',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]]
+  ['updaterevolutiontimefromteeth_9',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]],
+  ['updatetableu16tou8_10',['updateTableU16toU8',['../updates_8cpp.html#a31c0bff6c6be529af519af8f8fe6acb6',1,'updates.cpp']]],
+  ['upgradev25tov26_11',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]],
+  ['us_5fto_5ftimer_5fcompare_12',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]],
+  ['userollingcut_13',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]]
 ];
