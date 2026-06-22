@@ -13,13 +13,14 @@ var searchData=
   ['harley_20davidson_10',['Harley Davidson',['../group__dec__harley.html',1,'']]],
   ['hasfixedcrankingtiming_11',['hasFixedCrankingTiming',['../structdecoder__features__t.html#afb9453606f8d74478ee5c56cb94159d2',1,'decoder_features_t']]],
   ['hasnextschedule_12',['hasNextSchedule',['../schedule__state__machine_8cpp.html#a5cb5d0f708345a681c3bf7b0a01cf735',1,'schedule_state_machine.cpp']]],
-  ['honda_20d17_13',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
-  ['honda_20j_2032_14',['Honda J 32',['../group__dec__honda__j__32.html',1,'']]],
-  ['how_20to_20contribute_15',['How to contribute',['../md_contributing.html',1,'']]],
-  ['hwtest_5fign_16',['hwtest_ign',['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp'],['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp']]],
-  ['hwtest_5fign_5fpulsed_17',['hwtest_ign_pulsed',['../globals_8h.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp'],['../globals_8cpp.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp']]],
-  ['hwtest_5finj_18',['hwtest_inj',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp']]],
-  ['hwtest_5finj_5fpulsed_19',['hwtest_inj_pulsed',['../globals_8cpp.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp'],['../globals_8h.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp']]],
-  ['hwtestignduration_20',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
-  ['hwtestinjduration_21',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
+  ['haveswitchedtobatterypower_13',['haveSwitchedToBatteryPower',['../speeduino_8ino.html#acf75ddd1f94d2a2fa560b41d3b8dfad6',1,'speeduino.ino']]],
+  ['honda_20d17_14',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
+  ['honda_20j_2032_15',['Honda J 32',['../group__dec__honda__j__32.html',1,'']]],
+  ['how_20to_20contribute_16',['How to contribute',['../md_contributing.html',1,'']]],
+  ['hwtest_5fign_17',['hwtest_ign',['../globals_8cpp.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp'],['../globals_8h.html#aa3995e40e6c7c3fb6e7d9d7bc515c151',1,'HWTest_IGN:&#160;globals.cpp']]],
+  ['hwtest_5fign_5fpulsed_18',['hwtest_ign_pulsed',['../globals_8cpp.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp'],['../globals_8h.html#a596c388a38ee3fae4f6a886fc9703763',1,'HWTest_IGN_Pulsed:&#160;globals.cpp']]],
+  ['hwtest_5finj_19',['hwtest_inj',['../globals_8cpp.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp'],['../globals_8h.html#a73e27da69bd895118aae004eb0640e88',1,'HWTest_INJ:&#160;globals.cpp']]],
+  ['hwtest_5finj_5fpulsed_20',['hwtest_inj_pulsed',['../globals_8cpp.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp'],['../globals_8h.html#ac8328ec535dcc22d0ed4ccf14c933427',1,'HWTest_INJ_Pulsed:&#160;globals.cpp']]],
+  ['hwtestignduration_21',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
+  ['hwtestinjduration_22',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
 ];
