@@ -11,5 +11,6 @@ var searchData=
   ['serial_5ftransmit_5ftooth_5finprogress_5flegacy_8',['SERIAL_TRANSMIT_TOOTH_INPROGRESS_LEGACY',['../comms__legacy_8h.html#a71c113451bfafdaf5fcabcd807acd480a5b78d53126366957b619b42f7e928a5c',1,'comms_legacy.h']]],
   ['serialcommand_9',['SerialCommand',['../reset_control_8h.html#adb2d2ac342d8c046fd408d3410c29d7baec7027204621523091f263218aff5c2b',1,'resetControl.h']]],
   ['soff_10',['SOFF',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502',1,'idle.cpp']]],
-  ['stepping_11',['STEPPING',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.cpp']]]
+  ['stepping_11',['STEPPING',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6',1,'idle.cpp']]],
+  ['stopped_12',['Stopped',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2ac23e2b09ebe6bf4cb5e2a9abe85c0be2',1,'statuses.h']]]
 ];

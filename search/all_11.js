@@ -99,13 +99,14 @@ var searchData=
   ['getstorageapi_96',['getstorageapi',['../storage_8cpp.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp'],['../storage_8h.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp']]],
   ['getsystemtemp_97',['getSystemTemp',['../board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7',1,'board_definition.h']]],
   ['gettablesize_98',['getTableSize',['../pages_8cpp.html#ac291dbed25e043179a4d25dd281649c1',1,'pages.cpp']]],
-  ['gettslogentry_99',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
-  ['getvalue_100',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
-  ['getve1_101',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]],
-  ['globals_2ecpp_102',['globals.cpp',['../globals_8cpp.html',1,'']]],
-  ['globals_2eh_103',['globals.h',['../globals_8h.html',1,'']]],
-  ['gm_2024x_104',['GM 24X',['../group__dec__gm.html',1,'']]],
-  ['gm7x_105',['GM7X',['../group__dec__gm7x.html',1,'']]],
-  ['going_5fhigh_106',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
-  ['going_5flow_107',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
+  ['gettotalinjchannelcount_99',['getTotalInjChannelCount',['../statuses_8h.html#a83203b5f6225fb12de021437547a82d9',1,'statuses.h']]],
+  ['gettslogentry_100',['gettslogentry',['../logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp'],['../logger_8h.html#af1156ed72bfc08458ff2aa6ccdacb27c',1,'getTSLogEntry(uint16_t byteNum):&#160;logger.cpp']]],
+  ['getvalue_101',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
+  ['getve1_102',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]],
+  ['globals_2ecpp_103',['globals.cpp',['../globals_8cpp.html',1,'']]],
+  ['globals_2eh_104',['globals.h',['../globals_8h.html',1,'']]],
+  ['gm_2024x_105',['GM 24X',['../group__dec__gm.html',1,'']]],
+  ['gm7x_106',['GM7X',['../group__dec__gm7x.html',1,'']]],
+  ['going_5fhigh_107',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
+  ['going_5flow_108',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
 ];
