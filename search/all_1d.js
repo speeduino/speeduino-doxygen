@@ -320,7 +320,7 @@ var searchData=
   ['stepstarttime_317',['stepStartTime',['../struct_stepper_idle.html#a48abedea5bf28f2efcd071ce631ce418',1,'StepperIdle']]],
   ['stgcycles_318',['StgCycles',['../structconfig4.html#a15bf258370909917a4f075b66c01fe02',1,'config4']]],
   ['stoich_319',['stoich',['../structconfig2.html#ab97d94aaffe9d86b49e971a24cef5268',1,'config2']]],
-  ['stopallcoilscharging_320',['stopAllCoilsCharging',['../init_8cpp.html#a93d6c21f0017916c0d8d53cc55f32bb1',1,'init.cpp']]],
+  ['stopallcoilscharging_320',['stopallcoilscharging',['../scheduler__ignition__controller_8cpp.html#abffc0c6d4570d2c46f75a2d0c043eae7',1,'stopAllCoilsCharging(void):&#160;scheduler_ignition_controller.cpp'],['../scheduler__ignition__controller_8h.html#abffc0c6d4570d2c46f75a2d0c043eae7',1,'stopAllCoilsCharging(void):&#160;scheduler_ignition_controller.cpp']]],
   ['stopcompositelogger_321',['stopcompositelogger',['../logger_8h.html#afa4f2f2a9a321defcce1d72994118f80',1,'stopCompositeLogger(void):&#160;logger.cpp'],['../logger_8cpp.html#afa4f2f2a9a321defcce1d72994118f80',1,'stopCompositeLogger(void):&#160;logger.cpp']]],
   ['stopcompositeloggercams_322',['stopcompositeloggercams',['../logger_8cpp.html#a6f35759d3231876d135762a453ca3492',1,'stopCompositeLoggerCams(void):&#160;logger.cpp'],['../logger_8h.html#a6f35759d3231876d135762a453ca3492',1,'stopCompositeLoggerCams(void):&#160;logger.cpp']]],
   ['stopcompositeloggertertiary_323',['stopcompositeloggertertiary',['../logger_8cpp.html#a5dcc44cefa70e09739c35e77c5f81130',1,'stopCompositeLoggerTertiary(void):&#160;logger.cpp'],['../logger_8h.html#a5dcc44cefa70e09739c35e77c5f81130',1,'stopCompositeLoggerTertiary(void):&#160;logger.cpp']]],

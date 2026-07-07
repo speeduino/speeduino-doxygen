@@ -119,7 +119,7 @@ var searchData=
   ['clamptotoothcount_116',['clampToToothCount',['../group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439',1,'decoders.cpp']]],
   ['clidletarget_117',['CLIdleTarget',['../structstatuses.html#a1e936fdea2bc2724dc462cf09bed38e6',1,'statuses']]],
   ['clipduration_118',['clipDuration',['../scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1',1,'scheduler.cpp']]],
-  ['closeallinjectors_119',['closeAllInjectors',['../init_8cpp.html#a5f0d8d78b95c01ae120b9d80048fa801',1,'init.cpp']]],
+  ['closeallinjectors_119',['closeallinjectors',['../scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65',1,'closeAllInjectors(void):&#160;scheduler_fuel_controller.cpp'],['../scheduler__fuel__controller_8h.html#aeb53f4dcd97c9d8d46dfa87061f3fc65',1,'closeAllInjectors(void):&#160;scheduler_fuel_controller.cpp']]],
   ['closed_5floop_5fboost_120',['CLOSED_LOOP_BOOST',['../config__pages_8h.html#a16d21810cc9e57689c0a11344d637698',1,'config_pages.h']]],
   ['closeinjector_121',['closeinjector',['../scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc',1,'closeInjector(uint8_t channel):&#160;scheduledIO_inj.cpp'],['../scheduled_i_o__inj_8h.html#a476c93cc37c6b5420f3882520e85defc',1,'closeInjector(uint8_t channel):&#160;scheduledIO_inj.cpp']]],
   ['closeinjector1_122',['closeinjector1',['../scheduled_i_o__inj_8cpp.html#a6d93b3471f174de80ea90226da8bd349',1,'closeInjector1(void):&#160;scheduledIO_inj.cpp'],['../scheduled_i_o__inj_8h.html#a6d93b3471f174de80ea90226da8bd349',1,'closeInjector1(void):&#160;scheduledIO_inj.cpp']]],
