@@ -144,14 +144,11 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9f1311a4080e41d43340bc3efe252cf1" id="r_a9f1311a4080e41d43340bc3efe252cf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1">RPMdiv100</a></td></tr>
 <tr class="memdesc:a9f1311a4080e41d43340bc3efe252cf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM value scaled (divided by 100) to fit a byte (0-255, e.g. 12000 =&gt; 120)  <br /></td></tr>
 <tr class="separator:a9f1311a4080e41d43340bc3efe252cf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a950c168f3abcc4e7be1eb8fcbbb229b1" id="r_a950c168f3abcc4e7be1eb8fcbbb229b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a950c168f3abcc4e7be1eb8fcbbb229b1">longRPM</a></td></tr>
-<tr class="memdesc:a950c168f3abcc4e7be1eb8fcbbb229b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM as long int (gets assigned to / maintained in <a class="el" href="structstatuses.html#a9037d88f97b094a89e0536c4b778eb98" title="RPM - Current Revs per minute.">statuses.RPM</a> as well)  <br /></td></tr>
-<tr class="separator:a950c168f3abcc4e7be1eb8fcbbb229b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03e42824142ad385e102a56b9b506f03" id="r_a03e42824142ad385e102a56b9b506f03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a03e42824142ad385e102a56b9b506f03">baroADC</a></td></tr>
 <tr class="separator:a03e42824142ad385e102a56b9b506f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbf7841ecb42302848f968f2a1f9933e" id="r_adbf7841ecb42302848f968f2a1f9933e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#adbf7841ecb42302848f968f2a1f9933e">MAP</a></td></tr>
-<tr class="memdesc:adbf7841ecb42302848f968f2a1f9933e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manifold absolute pressure. Has to be a long for PID calcs (Boost control)  <br /></td></tr>
-<tr class="separator:adbf7841ecb42302848f968f2a1f9933e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278733298607353de273da8725c0cea4" id="r_a278733298607353de273da8725c0cea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a278733298607353de273da8725c0cea4">MAP</a></td></tr>
+<tr class="memdesc:a278733298607353de273da8725c0cea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manifold absolute pressure.  <br /></td></tr>
+<tr class="separator:a278733298607353de273da8725c0cea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9102c2d86a4f754c8348eb253a10b3" id="r_a6a9102c2d86a4f754c8348eb253a10b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a6a9102c2d86a4f754c8348eb253a10b3">EMAP</a></td></tr>
 <tr class="memdesc:a6a9102c2d86a4f754c8348eb253a10b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">EMAP ... (See <a class="el" href="structconfig6.html#a67004ec61433e47ec9fbcda9ced23b13">config6::useEMAP</a> for EMAP enablement)  <br /></td></tr>
 <tr class="separator:a6a9102c2d86a4f754c8348eb253a10b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -383,10 +380,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac96ffdc194ebf2f71ce9d4c0007fb9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eb8af70fbcd2277f14198a1d8fa3e60" id="r_a2eb8af70fbcd2277f14198a1d8fa3e60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a2eb8af70fbcd2277f14198a1d8fa3e60">vvt1Angle</a></td></tr>
 <tr class="separator:a2eb8af70fbcd2277f14198a1d8fa3e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e72c1cbe5431a683fbe0b2449162a06" id="r_a9e72c1cbe5431a683fbe0b2449162a06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a9e72c1cbe5431a683fbe0b2449162a06">vvt1TargetAngle</a></td></tr>
-<tr class="separator:a9e72c1cbe5431a683fbe0b2449162a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18fbbf203926f7b1c3cc5f052a97b242" id="r_a18fbbf203926f7b1c3cc5f052a97b242"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a18fbbf203926f7b1c3cc5f052a97b242">vvt1Duty</a></td></tr>
-<tr class="separator:a18fbbf203926f7b1c3cc5f052a97b242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f3394174c5325f09b2cdceda575dc9" id="r_a07f3394174c5325f09b2cdceda575dc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a07f3394174c5325f09b2cdceda575dc9">vvt1TargetAngle</a></td></tr>
+<tr class="separator:a07f3394174c5325f09b2cdceda575dc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad709d051a653c40cf2d6398bef0b9c76" id="r_ad709d051a653c40cf2d6398bef0b9c76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ad709d051a653c40cf2d6398bef0b9c76">vvt1Duty</a></td></tr>
+<tr class="separator:ad709d051a653c40cf2d6398bef0b9c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6187c4e49425ad9dccdb3600662d4b4" id="r_ad6187c4e49425ad9dccdb3600662d4b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ad6187c4e49425ad9dccdb3600662d4b4">injAngle</a></td></tr>
 <tr class="separator:ad6187c4e49425ad9dccdb3600662d4b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a096124988d98c74d6904b3f63d3d7e59" id="r_a096124988d98c74d6904b3f63d3d7e59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a096124988d98c74d6904b3f63d3d7e59">ASEValue</a></td></tr>
@@ -412,10 +409,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a96a3a7d21679524d69b8d3570776d8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a45df2aab3f07288ad24c966cdb4db5" id="r_a0a45df2aab3f07288ad24c966cdb4db5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a0a45df2aab3f07288ad24c966cdb4db5">vvt2Angle</a></td></tr>
 <tr class="separator:a0a45df2aab3f07288ad24c966cdb4db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2011269356b3d64b87f608948278f30e" id="r_a2011269356b3d64b87f608948278f30e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a2011269356b3d64b87f608948278f30e">vvt2TargetAngle</a></td></tr>
-<tr class="separator:a2011269356b3d64b87f608948278f30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa28ff97a3d9d4d3cf09405feb21eae02" id="r_aa28ff97a3d9d4d3cf09405feb21eae02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa28ff97a3d9d4d3cf09405feb21eae02">vvt2Duty</a></td></tr>
-<tr class="separator:aa28ff97a3d9d4d3cf09405feb21eae02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa383277254ca7d9a590790a515b1bb01" id="r_aa383277254ca7d9a590790a515b1bb01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa383277254ca7d9a590790a515b1bb01">vvt2TargetAngle</a></td></tr>
+<tr class="separator:aa383277254ca7d9a590790a515b1bb01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b234b7f2954e9f8e035789c2c38ddd0" id="r_a0b234b7f2954e9f8e035789c2c38ddd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a0b234b7f2954e9f8e035789c2c38ddd0">vvt2Duty</a></td></tr>
+<tr class="separator:a0b234b7f2954e9f8e035789c2c38ddd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa565f72fbb3b6934b461cc6a868d317c" id="r_aa565f72fbb3b6934b461cc6a868d317c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c">outputsStatus</a></td></tr>
 <tr class="separator:aa565f72fbb3b6934b461cc6a868d317c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e6d2ea2edf4821df081f094dd5e9fa" id="r_aa1e6d2ea2edf4821df081f094dd5e9fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa1e6d2ea2edf4821df081f094dd5e9fa">sdCardPresent</a>: 1</td></tr>
@@ -564,6 +561,20 @@ Here is the call graph for this function:</div>
 <area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="500,56,627,82"/>
 <area shape="poly" title=" " alt="" coords="453,52,485,56,484,61,452,57"/>
 <area shape="poly" title=" " alt="" coords="627,56,659,51,659,56,627,61"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="structstatuses_a7f6cd9bff380c4f78456ed5406214229_icgraph.png" border="0" usemap="#astructstatuses_a7f6cd9bff380c4f78456ed5406214229_icgraph" alt=""/></div>
+<map name="astructstatuses_a7f6cd9bff380c4f78456ed5406214229_icgraph" id="astructstatuses_a7f6cd9bff380c4f78456ed5406214229_icgraph">
+<area shape="rect" title="Set the RPM field, keeping RPMDiv100 in sync." alt="" coords="364,31,486,56"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="107,5,316,31"/>
+<area shape="poly" title=" " alt="" coords="348,37,316,33,317,28,349,32"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,55,253,80"/>
+<area shape="poly" title=" " alt="" coords="349,55,254,66,253,60,349,49"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,55,59,80"/>
+<area shape="poly" title=" " alt="" coords="154,70,59,70,59,65,154,65"/>
 </map>
 </div>
 
@@ -1840,22 +1851,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a950c168f3abcc4e7be1eb8fcbbb229b1" name="a950c168f3abcc4e7be1eb8fcbbb229b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a950c168f3abcc4e7be1eb8fcbbb229b1">&#9670;&#160;</a></span>longRPM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> statuses::longRPM</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>RPM as long int (gets assigned to / maintained in <a class="el" href="structstatuses.html#a9037d88f97b094a89e0536c4b778eb98" title="RPM - Current Revs per minute.">statuses.RPM</a> as well) </p>
-
-</div>
-</div>
 <a id="aa45ebd2d2ec6fdd4470a35edadf15de0" name="aa45ebd2d2ec6fdd4470a35edadf15de0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa45ebd2d2ec6fdd4470a35edadf15de0">&#9670;&#160;</a></span>LOOP_TIMER</h2>
 
@@ -1887,19 +1882,19 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="adbf7841ecb42302848f968f2a1f9933e" name="adbf7841ecb42302848f968f2a1f9933e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbf7841ecb42302848f968f2a1f9933e">&#9670;&#160;</a></span>MAP</h2>
+<a id="a278733298607353de273da8725c0cea4" name="a278733298607353de273da8725c0cea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278733298607353de273da8725c0cea4">&#9670;&#160;</a></span>MAP</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> statuses::MAP</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a> statuses::MAP</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Manifold absolute pressure. Has to be a long for PID calcs (Boost control) </p>
+<p>Manifold absolute pressure. </p>
 
 </div>
 </div>
@@ -2700,28 +2695,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a18fbbf203926f7b1c3cc5f052a97b242" name="a18fbbf203926f7b1c3cc5f052a97b242"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18fbbf203926f7b1c3cc5f052a97b242">&#9670;&#160;</a></span>vvt1Duty</h2>
+<a id="ad709d051a653c40cf2d6398bef0b9c76" name="ad709d051a653c40cf2d6398bef0b9c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad709d051a653c40cf2d6398bef0b9c76">&#9670;&#160;</a></span>vvt1Duty</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> statuses::vvt1Duty</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> statuses::vvt1Duty</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9e72c1cbe5431a683fbe0b2449162a06" name="a9e72c1cbe5431a683fbe0b2449162a06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e72c1cbe5431a683fbe0b2449162a06">&#9670;&#160;</a></span>vvt1TargetAngle</h2>
+<a id="a07f3394174c5325f09b2cdceda575dc9" name="a07f3394174c5325f09b2cdceda575dc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f3394174c5325f09b2cdceda575dc9">&#9670;&#160;</a></span>vvt1TargetAngle</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> statuses::vvt1TargetAngle</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> statuses::vvt1TargetAngle</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2758,28 +2753,28 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aa28ff97a3d9d4d3cf09405feb21eae02" name="aa28ff97a3d9d4d3cf09405feb21eae02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa28ff97a3d9d4d3cf09405feb21eae02">&#9670;&#160;</a></span>vvt2Duty</h2>
+<a id="a0b234b7f2954e9f8e035789c2c38ddd0" name="a0b234b7f2954e9f8e035789c2c38ddd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b234b7f2954e9f8e035789c2c38ddd0">&#9670;&#160;</a></span>vvt2Duty</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> statuses::vvt2Duty</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> statuses::vvt2Duty</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2011269356b3d64b87f608948278f30e" name="a2011269356b3d64b87f608948278f30e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2011269356b3d64b87f608948278f30e">&#9670;&#160;</a></span>vvt2TargetAngle</h2>
+<a id="aa383277254ca7d9a590790a515b1bb01" name="aa383277254ca7d9a590790a515b1bb01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa383277254ca7d9a590790a515b1bb01">&#9670;&#160;</a></span>vvt2TargetAngle</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> statuses::vvt2TargetAngle</td>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> statuses::vvt2TargetAngle</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -83,7 +83,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="scheduled_i_o__direct__ign_8h_source.html">scheduledIO_direct_ign.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="board__definition_8h_source.html">board_definition.h</a>&quot;</code><br />
-<code>#include &quot;src/pins/fastOutputPin.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="fast_output_pin_8h_source.html">src/pins/fastOutputPin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -106,7 +106,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab92b21f57c844240f4a731069d412cf2" id="r_ab92b21f57c844240f4a731069d412cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ab92b21f57c844240f4a731069d412cf2">pins</a> [<a class="el" href="board__avr2560_8h.html#a439a031201d0c977e0d5d238a231ed87">IGN_CHANNELS</a>]</td></tr>
+<tr class="memitem:ab92b21f57c844240f4a731069d412cf2" id="r_ab92b21f57c844240f4a731069d412cf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ab92b21f57c844240f4a731069d412cf2">pins</a> [<a class="el" href="board__avr2560_8h.html#a439a031201d0c977e0d5d238a231ed87">IGN_CHANNELS</a>]</td></tr>
 <tr class="separator:ab92b21f57c844240f4a731069d412cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b0e0568e23e664def89f42dffe68f46" id="r_a9b0e0568e23e664def89f42dffe68f46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="scheduled_i_o__direct__ign_8cpp.html#a56055757f6841b2e5ae34574531532b3">channelFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__direct__ign_8cpp.html#a9b0e0568e23e664def89f42dffe68f46">coilChargingFn</a> = <a class="el" href="scheduled_i_o__direct__ign_8cpp.html#a532e1ac5e6ce75b8ff2818bc81043741">coilHigh</a></td></tr>
 <tr class="separator:a9b0e0568e23e664def89f42dffe68f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,14 +317,21 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o__direct__ign_8cpp_a532e1ac5e6ce75b8ff2818bc81043741_cgraph.png" border="0" usemap="#ascheduled_i_o__direct__ign_8cpp_a532e1ac5e6ce75b8ff2818bc81043741_cgraph" alt=""/></div>
 <map name="ascheduled_i_o__direct__ign_8cpp_a532e1ac5e6ce75b8ff2818bc81043741_cgraph" id="ascheduled_i_o__direct__ign_8cpp_a532e1ac5e6ce75b8ff2818bc81043741_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,74,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="122,5,291,31"/>
-<area shape="poly" title=" " alt="" coords="74,16,106,16,106,21,74,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="513,5,607,31"/>
-<area shape="poly" title=" " alt="" coords="291,16,497,16,497,21,291,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="339,31,465,56"/>
-<area shape="poly" title=" " alt="" coords="292,26,324,31,323,36,291,32"/>
-<area shape="poly" title=" " alt="" coords="465,31,497,25,498,31,466,36"/>
+<area shape="rect" title=" " alt="" coords="5,55,74,80"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="352,31,521,56"/>
+<area shape="poly" title=" " alt="" coords="74,63,336,47,337,52,74,68"/>
+<area shape="rect" href="classfast_output_pin__t.html#a491782e30061cd1f79f01c9b7be9eab2" title="Set the pin high." alt="" coords="122,80,304,106"/>
+<area shape="poly" title=" " alt="" coords="75,70,107,75,106,80,74,75"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="744,5,837,31"/>
+<area shape="poly" title=" " alt="" coords="495,27,569,16,652,11,728,12,728,18,652,17,570,21,496,33"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="569,31,696,56"/>
+<area shape="poly" title=" " alt="" coords="522,41,554,41,554,46,522,46"/>
+<area shape="poly" title=" " alt="" coords="696,31,728,25,728,31,696,36"/>
+<area shape="poly" title=" " alt="" coords="274,77,360,58,361,63,275,82"/>
+<area shape="rect" href="classfast_output_pin__t.html#ac1ca5a8bb5b1e71a5f042d6fefb882ca" title="Is the pin set?" alt="" coords="358,80,515,106"/>
+<area shape="poly" title=" " alt="" coords="304,90,342,90,342,96,304,96"/>
+<area shape="rect" href="structport__pin__t.html#a4749dab0016b3bda19f0118e050dd220" title="Is the port register initialised?" alt="" coords="571,80,694,106"/>
+<area shape="poly" title=" " alt="" coords="515,90,555,90,555,96,515,96"/>
 </map>
 </div>
 <div class="dynheader">
@@ -374,14 +381,21 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o__direct__ign_8cpp_ad8c3a7b13fb0f6754a5c5c8378477769_cgraph.png" border="0" usemap="#ascheduled_i_o__direct__ign_8cpp_ad8c3a7b13fb0f6754a5c5c8378477769_cgraph" alt=""/></div>
 <map name="ascheduled_i_o__direct__ign_8cpp_ad8c3a7b13fb0f6754a5c5c8378477769_cgraph" id="ascheduled_i_o__direct__ign_8cpp_ad8c3a7b13fb0f6754a5c5c8378477769_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,72,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="120,5,289,31"/>
-<area shape="poly" title=" " alt="" coords="72,16,104,16,104,21,72,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="511,5,605,31"/>
-<area shape="poly" title=" " alt="" coords="289,16,495,16,495,21,289,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="337,31,463,56"/>
-<area shape="poly" title=" " alt="" coords="290,26,322,31,321,36,289,32"/>
-<area shape="poly" title=" " alt="" coords="463,31,495,25,496,31,464,36"/>
+<area shape="rect" title=" " alt="" coords="5,55,72,80"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="348,31,517,56"/>
+<area shape="poly" title=" " alt="" coords="72,63,332,47,333,52,72,68"/>
+<area shape="rect" href="classfast_output_pin__t.html#a33ba8fea69a3a221577b5176beab4444" title="Set the pin low." alt="" coords="120,80,300,106"/>
+<area shape="poly" title=" " alt="" coords="72,70,105,75,104,80,72,75"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="740,5,833,31"/>
+<area shape="poly" title=" " alt="" coords="491,27,565,16,648,11,724,12,724,18,648,17,566,21,492,33"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="565,31,692,56"/>
+<area shape="poly" title=" " alt="" coords="518,41,550,41,550,46,518,46"/>
+<area shape="poly" title=" " alt="" coords="692,31,724,25,724,31,692,36"/>
+<area shape="poly" title=" " alt="" coords="271,77,356,58,357,63,272,82"/>
+<area shape="rect" href="classfast_output_pin__t.html#ac1ca5a8bb5b1e71a5f042d6fefb882ca" title="Is the pin set?" alt="" coords="354,80,511,106"/>
+<area shape="poly" title=" " alt="" coords="300,90,338,90,338,96,300,96"/>
+<area shape="rect" href="structport__pin__t.html#a4749dab0016b3bda19f0118e050dd220" title="Is the port register initialised?" alt="" coords="567,80,690,106"/>
+<area shape="poly" title=" " alt="" coords="511,90,551,90,551,96,511,96"/>
 </map>
 </div>
 <div class="dynheader">
@@ -632,20 +646,34 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduled_i_o__direct__ign_8cpp_ad254736dc024c85b8dce43b0375c1b60_cgraph.png" border="0" usemap="#ascheduled_i_o__direct__ign_8cpp_ad254736dc024c85b8dce43b0375c1b60_cgraph" alt=""/></div>
 <map name="ascheduled_i_o__direct__ign_8cpp_ad254736dc024c85b8dce43b0375c1b60_cgraph" id="ascheduled_i_o__direct__ign_8cpp_ad254736dc024c85b8dce43b0375c1b60_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,110,82"/>
-<area shape="rect" href="scheduled_i_o__direct__ign_8cpp.html#a532e1ac5e6ce75b8ff2818bc81043741" title=" " alt="" coords="158,5,226,31"/>
-<area shape="poly" title=" " alt="" coords="93,53,142,34,144,39,95,58"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="274,56,443,82"/>
-<area shape="poly" title=" " alt="" coords="110,66,258,66,258,72,110,72"/>
-<area shape="rect" href="scheduled_i_o__direct__ign_8cpp.html#ad8c3a7b13fb0f6754a5c5c8378477769" title=" " alt="" coords="159,107,225,132"/>
-<area shape="poly" title=" " alt="" coords="95,80,145,99,143,104,93,85"/>
-<area shape="poly" title=" " alt="" coords="227,26,301,49,299,54,226,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="666,56,759,82"/>
-<area shape="poly" title=" " alt="" coords="444,66,650,66,650,72,444,72"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="491,81,618,107"/>
-<area shape="poly" title=" " alt="" coords="444,77,476,81,475,87,443,82"/>
-<area shape="poly" title=" " alt="" coords="618,81,650,76,650,81,618,87"/>
-<area shape="poly" title=" " alt="" coords="225,107,298,84,300,89,226,112"/>
+<area shape="rect" title=" " alt="" coords="5,60,110,86"/>
+<area shape="rect" href="scheduled_i_o__direct__ign_8cpp.html#a532e1ac5e6ce75b8ff2818bc81043741" title=" " alt="" coords="158,86,226,111"/>
+<area shape="poly" title=" " alt="" coords="111,80,143,87,142,92,110,86"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="504,111,674,137"/>
+<area shape="poly" title=" " alt="" coords="90,57,158,34,250,12,301,5,354,3,406,8,457,20,490,35,520,55,568,97,564,101,517,59,488,40,455,25,406,13,354,8,302,10,251,17,159,39,92,62"/>
+<area shape="rect" href="scheduled_i_o__direct__ign_8cpp.html#ad8c3a7b13fb0f6754a5c5c8378477769" title=" " alt="" coords="159,187,225,213"/>
+<area shape="poly" title=" " alt="" coords="74,84,168,174,164,178,71,88"/>
+<area shape="rect" href="classfast_output_pin__t.html#a6c2f64aa2d4eb2180ec6592fd86c9b3a" title="Set the output pin." alt="" coords="288,35,443,61"/>
+<area shape="poly" title=" " alt="" coords="110,66,272,53,272,58,110,71"/>
+<area shape="poly" title=" " alt="" coords="227,98,489,115,489,120,226,103"/>
+<area shape="rect" href="classfast_output_pin__t.html#a491782e30061cd1f79f01c9b7be9eab2" title="Set the pin high." alt="" coords="274,136,456,162"/>
+<area shape="poly" title=" " alt="" coords="227,106,305,129,304,134,226,111"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="896,99,989,125"/>
+<area shape="poly" title=" " alt="" coords="674,112,722,109,881,108,881,113,722,114,675,118"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="722,124,848,150"/>
+<area shape="poly" title=" " alt="" coords="674,127,706,129,706,134,674,132"/>
+<area shape="poly" title=" " alt="" coords="848,124,880,119,881,124,849,130"/>
+<area shape="poly" title=" " alt="" coords="456,136,488,132,489,138,457,141"/>
+<area shape="rect" href="classfast_output_pin__t.html#ac1ca5a8bb5b1e71a5f042d6fefb882ca" title="Is the pin set?" alt="" coords="510,199,668,225"/>
+<area shape="poly" title=" " alt="" coords="415,160,526,192,525,197,413,165"/>
+<area shape="rect" href="structport__pin__t.html#a4749dab0016b3bda19f0118e050dd220" title="Is the port register initialised?" alt="" coords="723,199,847,225"/>
+<area shape="poly" title=" " alt="" coords="668,209,708,209,708,214,668,214"/>
+<area shape="poly" title=" " alt="" coords="225,197,329,191,393,184,456,172,502,158,545,141,547,146,504,163,457,177,393,189,329,196,226,202"/>
+<area shape="rect" href="classfast_output_pin__t.html#a33ba8fea69a3a221577b5176beab4444" title="Set the pin low." alt="" coords="275,238,455,263"/>
+<area shape="poly" title=" " alt="" coords="226,207,305,230,304,235,225,212"/>
+<area shape="poly" title=" " alt="" coords="411,235,455,216,556,144,559,148,458,221,413,240"/>
+<area shape="poly" title=" " alt="" coords="443,234,495,225,496,230,444,240"/>
+<area shape="poly" title=" " alt="" coords="406,59,535,103,533,108,405,64"/>
 </map>
 </div>
 <div class="dynheader">
@@ -720,7 +748,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">fastOutputPin_t</a> pins[<a class="el" href="board__avr2560_8h.html#a439a031201d0c977e0d5d238a231ed87">IGN_CHANNELS</a>]</td>
+          <td class="memname"><a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a> pins[<a class="el" href="board__avr2560_8h.html#a439a031201d0c977e0d5d238a231ed87">IGN_CHANNELS</a>]</td>
         </tr>
       </table>
   </td>

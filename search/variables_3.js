@@ -98,7 +98,7 @@ var searchData=
   ['currentpage_95',['currentPage',['../comms__legacy_8cpp.html#a2b88e8085d30a5021f05251216095266',1,'comms_legacy.cpp']]],
   ['currentrulestatus_96',['currentRuleStatus',['../programmable_i_o_control_8cpp.html#a25693380d2e62cf4ef003ee8e65ccd5c',1,'programmableIOControl.cpp']]],
   ['currentsecondarycommand_97',['currentSecondaryCommand',['../comms__secondary_8cpp.html#ac03efae2041d808e5ef294e3b6d4f877',1,'comms_secondary.cpp']]],
-  ['currentstatus_98',['currentstatus',['../globals_8cpp.html#a1f40d45116b758fe0b792db21f3cecea',1,'currentStatus:&#160;globals.cpp'],['../idle_8cpp.html#ade580c8e4957ba77dbfd4be4e731e5c8',1,'currentStatus:&#160;idle.cpp'],['../globals_8h.html#a1f40d45116b758fe0b792db21f3cecea',1,'currentStatus:&#160;globals.cpp'],['../auxiliaries_8cpp.html#ab37b2c924dbc7ef6c40afe83380ae2d0',1,'currentStatus:&#160;auxiliaries.cpp']]],
+  ['currentstatus_98',['currentstatus',['../globals_8cpp.html#a1f40d45116b758fe0b792db21f3cecea',1,'currentStatus:&#160;globals.cpp'],['../globals_8h.html#a1f40d45116b758fe0b792db21f3cecea',1,'currentStatus:&#160;globals.cpp']]],
   ['curtime_99',['curTime',['../decoders_8cpp.html#a9026a9c5d90202a2c5edf446c18311c0',1,'decoders.cpp']]],
   ['curtime2_100',['curTime2',['../decoders_8cpp.html#a59eda7c50b47e1df0e122f367f0201fa',1,'decoders.cpp']]],
   ['curtime3_101',['curTime3',['../decoders_8cpp.html#aa755cd1bf7e412b5a3de15b144695669',1,'decoders.cpp']]],

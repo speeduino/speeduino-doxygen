@@ -88,7 +88,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
-<code>#include &quot;src/PID/PID.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_p_i_d_8h_source.html">src/PID/PID.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fuel__calcs_8h_source.html">fuel_calcs.h</a>&quot;</code><br />
 </div><table class="memberdecls">
@@ -105,6 +105,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aefd780fd0e66ca709d5c3eefa0f833c9" id="r_aefd780fd0e66ca709d5c3eefa0f833c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9">setEgoPidTunings</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:aefd780fd0e66ca709d5c3eefa0f833c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6083298125f11bf344e139a92c2b0445" id="r_a6083298125f11bf344e139a92c2b0445"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a6083298125f11bf344e139a92c2b0445">initialiseCorrections</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
 <tr class="separator:a6083298125f11bf344e139a92c2b0445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b99b5a7f051cf460be48c4fd010f410" id="r_a6b99b5a7f051cf460be48c4fd010f410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a6b99b5a7f051cf460be48c4fd010f410">correctionWUE</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>)</td></tr>
@@ -263,12 +265,8 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a39a3fb522fe0f6c6b53b9228d0a9a406" id="r_a39a3fb522fe0f6c6b53b9228d0a9a406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a39a3fb522fe0f6c6b53b9228d0a9a406">PID_O2</a></td></tr>
-<tr class="separator:a39a3fb522fe0f6c6b53b9228d0a9a406"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c70568d59d03ad0c36d21190b683b3c" id="r_a3c70568d59d03ad0c36d21190b683b3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a3c70568d59d03ad0c36d21190b683b3c">PID_output</a></td></tr>
-<tr class="separator:a3c70568d59d03ad0c36d21190b683b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6290f0cfc0c525c9a2eb40d50cc71a40" id="r_a6290f0cfc0c525c9a2eb40d50cc71a40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a6290f0cfc0c525c9a2eb40d50cc71a40">PID_AFRTarget</a></td></tr>
-<tr class="separator:a6290f0cfc0c525c9a2eb40d50cc71a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c79595625e28a4fb60d49086478e6b0" id="r_a3c79595625e28a4fb60d49086478e6b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="class_p_i_d.html">PID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a3c79595625e28a4fb60d49086478e6b0">egoPID</a></td></tr>
+<tr class="separator:a3c79595625e28a4fb60d49086478e6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a3e598bb171baa846a45a8840a1dd60" id="r_a5a3e598bb171baa846a45a8840a1dd60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a5a3e598bb171baa846a45a8840a1dd60">aeActivatedReading</a></td></tr>
 <tr class="separator:a5a3e598bb171baa846a45a8840a1dd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d21ab134d814bc0e24ce3926baadd70" id="r_a9d21ab134d814bc0e24ce3926baadd70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="corrections_8cpp.html#a9d21ab134d814bc0e24ce3926baadd70">AFRnextCycle</a></td></tr>
@@ -1162,23 +1160,49 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_a6870269fdd0bed21dea671a82e0271e1_cgraph.png" border="0" usemap="#acorrections_8cpp_a6870269fdd0bed21dea671a82e0271e1_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_a6870269fdd0bed21dea671a82e0271e1_cgraph" id="acorrections_8cpp_a6870269fdd0bed21dea671a82e0271e1_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,162,82"/>
-<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="219,5,371,31"/>
-<area shape="poly" title=" " alt="" coords="140,53,223,33,224,38,141,58"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="443,19,612,44"/>
-<area shape="poly" title=" " alt="" coords="162,60,427,37,428,43,162,65"/>
-<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="210,107,380,132"/>
-<area shape="poly" title=" " alt="" coords="141,80,224,100,223,105,140,85"/>
-<area shape="poly" title=" " alt="" coords="372,20,428,23,427,28,371,25"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="850,19,943,44"/>
-<area shape="poly" title=" " alt="" coords="613,29,834,29,834,34,613,34"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="675,44,802,70"/>
-<area shape="poly" title=" " alt="" coords="613,39,660,45,659,50,612,44"/>
-<area shape="poly" title=" " alt="" coords="802,44,834,39,834,44,802,49"/>
-<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="428,81,627,107"/>
-<area shape="poly" title=" " alt="" coords="380,108,412,104,413,109,381,113"/>
-<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="430,131,626,156"/>
-<area shape="poly" title=" " alt="" coords="381,126,414,129,414,134,380,131"/>
+<area shape="rect" title=" " alt="" coords="5,476,162,501"/>
+<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="219,298,371,324"/>
+<area shape="poly" title=" " alt="" coords="99,473,265,332,268,336,102,477"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1080,248,1249,273"/>
+<area shape="poly" title=" " alt="" coords="162,486,526,486,748,486,831,488,897,488,927,483,959,475,993,461,1030,439,1072,406,1106,364,1132,322,1150,286,1154,288,1136,325,1110,367,1076,409,1034,444,995,465,961,480,929,489,897,493,831,493,748,491,526,491,162,491"/>
+<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="210,526,380,552"/>
+<area shape="poly" title=" " alt="" coords="141,499,224,519,223,525,140,504"/>
+<area shape="rect" href="class_p_i_d.html#a0022f6329cd655ac1a3ec0d30d6c521d" title="Compute the next correction." alt="" coords="478,121,577,147"/>
+<area shape="poly" title=" " alt="" coords="303,296,350,233,386,196,427,163,462,146,464,151,429,168,389,200,354,236,307,299"/>
+<area shape="poly" title=" " alt="" coords="357,295,481,272,648,248,839,233,936,232,1032,236,1079,242,1079,247,1032,242,936,237,839,239,649,254,481,277,358,300"/>
+<area shape="rect" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9" title=" " alt="" coords="465,298,591,324"/>
+<area shape="poly" title=" " alt="" coords="372,308,449,308,449,314,372,314"/>
+<area shape="rect" href="class_p_i_d.html#a46d8eaa8aee79bd01992108b8f9e62e4" title="Set the controller set point." alt="" coords="688,398,805,424"/>
+<area shape="poly" title=" " alt="" coords="357,322,673,392,672,397,356,327"/>
+<area shape="rect" href="class_pid_core.html#ae896489f1d8cfbf9b895a912488cfe91" title="Compute the next correction." alt="" coords="685,70,808,96"/>
+<area shape="poly" title=" " alt="" coords="577,120,672,97,674,102,578,125"/>
+<area shape="poly" title=" " alt="" coords="578,125,665,120,780,120,843,124,908,132,971,145,1033,163,1064,178,1094,196,1141,234,1138,238,1091,200,1062,182,1031,168,970,150,907,137,843,129,780,125,666,125,578,131"/>
+<area shape="rect" href="struct_pid_tuning_parameters.html#a8f85e91554011e97b7b3ebd849f26649" title="Basic PID calculation." alt="" coords="876,5,1022,46"/>
+<area shape="poly" title=" " alt="" coords="794,67,860,48,861,53,795,72"/>
+<area shape="poly" title=" " alt="" coords="808,75,859,75,917,79,977,91,1033,113,1071,138,1104,170,1150,232,1146,236,1100,174,1068,142,1031,117,975,96,916,85,859,80,809,80"/>
+<area shape="poly" title=" " alt="" coords="1007,44,1034,62,1074,104,1108,150,1153,232,1149,235,1103,153,1070,107,1030,66,1004,49"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1472,248,1565,273"/>
+<area shape="poly" title=" " alt="" coords="1250,258,1456,258,1456,263,1250,263"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1297,273,1424,299"/>
+<area shape="poly" title=" " alt="" coords="1250,269,1282,273,1281,278,1249,274"/>
+<area shape="poly" title=" " alt="" coords="1424,273,1456,268,1456,273,1424,278"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="675,273,818,299"/>
+<area shape="poly" title=" " alt="" coords="591,301,660,293,660,298,591,306"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="690,324,803,349"/>
+<area shape="poly" title=" " alt="" coords="591,316,675,325,674,331,591,321"/>
+<area shape="poly" title=" " alt="" coords="799,270,865,258,968,252,1065,252,1065,258,968,257,866,263,800,275"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="866,273,1032,299"/>
+<area shape="poly" title=" " alt="" coords="818,283,850,283,850,288,818,288"/>
+<area shape="poly" title=" " alt="" coords="1032,273,1064,269,1065,275,1033,279"/>
+<area shape="poly" title=" " alt="" coords="803,333,910,327,971,320,1031,308,1078,294,1120,277,1122,282,1080,299,1033,314,972,325,910,332,804,339"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="880,374,1018,400"/>
+<area shape="poly" title=" " alt="" coords="801,347,881,367,879,372,800,352"/>
+<area shape="poly" title=" " alt="" coords="989,371,1031,353,1087,317,1134,281,1138,285,1090,321,1033,357,991,376"/>
+<area shape="poly" title=" " alt="" coords="803,422,854,429,912,433,973,427,1003,420,1031,410,1070,385,1103,352,1129,316,1148,285,1152,288,1133,319,1107,355,1073,389,1033,415,1004,426,974,433,912,438,853,435,803,427"/>
+<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="428,526,627,552"/>
+<area shape="poly" title=" " alt="" coords="381,536,412,536,412,542,381,542"/>
+<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="430,576,626,601"/>
+<area shape="poly" title=" " alt="" coords="360,550,449,569,448,574,359,555"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1417,14 +1441,40 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_a9bb82cb19fa8c50e79d1f2dbdf2b4517_cgraph.png" border="0" usemap="#acorrections_8cpp_a9bb82cb19fa8c50e79d1f2dbdf2b4517_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_a9bb82cb19fa8c50e79d1f2dbdf2b4517_cgraph" id="acorrections_8cpp_a9bb82cb19fa8c50e79d1f2dbdf2b4517_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,158,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="206,5,375,31"/>
-<area shape="poly" title=" " alt="" coords="158,16,190,16,190,21,158,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="597,5,691,31"/>
-<area shape="poly" title=" " alt="" coords="375,16,581,16,581,21,375,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="423,31,549,56"/>
-<area shape="poly" title=" " alt="" coords="376,26,408,31,407,36,375,32"/>
-<area shape="poly" title=" " alt="" coords="549,31,581,25,582,31,550,36"/>
+<area shape="rect" title=" " alt="" coords="5,197,158,223"/>
+<area shape="rect" href="class_p_i_d.html#a0022f6329cd655ac1a3ec0d30d6c521d" title="Compute the next correction." alt="" coords="219,121,319,147"/>
+<area shape="poly" title=" " alt="" coords="114,194,220,150,222,155,116,199"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="785,222,954,248"/>
+<area shape="poly" title=" " alt="" coords="158,209,737,227,769,228,769,234,737,232,158,214"/>
+<area shape="rect" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9" title=" " alt="" coords="206,248,332,273"/>
+<area shape="poly" title=" " alt="" coords="133,221,205,240,204,246,131,226"/>
+<area shape="rect" href="class_p_i_d.html#a46d8eaa8aee79bd01992108b8f9e62e4" title="Set the controller set point." alt="" coords="210,348,328,373"/>
+<area shape="poly" title=" " alt="" coords="101,221,242,336,238,340,98,225"/>
+<area shape="rect" href="class_pid_core.html#ae896489f1d8cfbf9b895a912488cfe91" title="Compute the next correction." alt="" coords="390,70,513,96"/>
+<area shape="poly" title=" " alt="" coords="317,118,387,98,389,103,319,123"/>
+<area shape="poly" title=" " alt="" coords="319,128,400,126,505,128,622,139,680,149,737,163,792,185,838,211,835,216,789,190,736,168,679,155,621,145,505,133,400,131,319,133"/>
+<area shape="rect" href="struct_pid_tuning_parameters.html#a8f85e91554011e97b7b3ebd849f26649" title="Basic PID calculation." alt="" coords="580,5,727,46"/>
+<area shape="poly" title=" " alt="" coords="499,67,564,48,566,53,500,72"/>
+<area shape="poly" title=" " alt="" coords="513,77,563,77,621,82,680,93,738,113,772,133,804,158,851,208,847,212,800,162,769,137,736,117,679,98,620,87,563,82,513,82"/>
+<area shape="poly" title=" " alt="" coords="710,44,738,62,776,97,808,137,855,207,851,210,804,140,772,101,735,66,707,49"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1176,222,1270,248"/>
+<area shape="poly" title=" " alt="" coords="954,232,1160,232,1160,238,954,238"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1002,248,1128,273"/>
+<area shape="poly" title=" " alt="" coords="955,243,987,248,986,253,954,249"/>
+<area shape="poly" title=" " alt="" coords="1128,248,1160,242,1161,248,1129,253"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="380,248,522,273"/>
+<area shape="poly" title=" " alt="" coords="333,258,364,258,364,263,333,263"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="395,324,508,349"/>
+<area shape="poly" title=" " alt="" coords="303,271,406,315,403,320,301,276"/>
+<area shape="poly" title=" " alt="" coords="523,253,769,238,769,244,523,259"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="570,273,737,299"/>
+<area shape="poly" title=" " alt="" coords="523,267,555,271,554,276,523,272"/>
+<area shape="poly" title=" " alt="" coords="711,270,796,249,798,254,712,275"/>
+<area shape="poly" title=" " alt="" coords="508,336,615,331,676,323,736,308,791,284,837,255,840,259,793,289,738,314,677,328,616,337,508,341"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="585,374,722,400"/>
+<area shape="poly" title=" " alt="" coords="506,347,585,367,584,372,505,352"/>
+<area shape="poly" title=" " alt="" coords="697,371,735,353,797,305,844,258,848,261,800,309,738,357,699,376"/>
+<area shape="poly" title=" " alt="" coords="299,371,378,402,431,418,490,431,552,440,615,440,677,431,736,410,758,396,778,379,812,339,838,297,855,261,860,263,842,300,816,342,781,383,761,401,738,415,678,436,615,446,552,445,489,437,430,423,377,407,297,376"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2207,56 +2257,81 @@ Here is the caller graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Lookup the AFR target table and perform either a simple or PID adjustment based on this.</p>
+<p>Lookup the AFR target table and perform either a simple or <a class="el" href="class_p_i_d.html">PID</a> adjustment based on this.</p>
 <p>Simple (Best suited to narrowband sensors): If the O2 sensor reports that the mixture is lean/rich compared to the desired AFR target, it will make a 1% adjustment It then waits egoDelta number of ignition events and compares O2 against the target table again. If it is still lean/rich then the adjustment is increased to 2%.</p>
 <p>This continues until either:</p><ul>
 <li>the O2 reading flips from lean to rich, at which point the adjustment cycle starts again at 1% or</li>
 <li>the adjustment amount increases to egoLimit at which point it stays at this level until the O2 state (rich/lean) changes</li>
 </ul>
-<p>PID (Best suited to wideband sensors): </p>
+<p><a class="el" href="class_p_i_d.html">PID</a> (Best suited to wideband sensors): </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_ab5df2bd365fb3ff8a76f2c3cd80be071_cgraph.png" border="0" usemap="#acorrections_8cpp_ab5df2bd365fb3ff8a76f2c3cd80be071_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_ab5df2bd365fb3ff8a76f2c3cd80be071_cgraph" id="acorrections_8cpp_ab5df2bd365fb3ff8a76f2c3cd80be071_cgraph">
-<area shape="rect" title=" " alt="" coords="5,183,179,208"/>
-<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="517,56,573,82"/>
-<area shape="poly" title=" " alt="" coords="105,180,155,138,189,116,226,98,299,78,375,67,445,63,501,64,501,69,445,69,375,72,301,83,228,103,192,121,158,143,108,184"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="694,157,864,183"/>
-<area shape="poly" title=" " alt="" coords="157,179,249,163,367,148,499,139,632,142,699,151,699,157,631,147,499,144,368,153,250,169,158,185"/>
-<area shape="rect" href="corrections_8cpp.html#a6870269fdd0bed21dea671a82e0271e1" title=" " alt="" coords="240,259,397,284"/>
-<area shape="poly" title=" " alt="" coords="134,206,264,251,263,256,132,211"/>
-<area shape="rect" href="corrections_8cpp.html#a04953efcdd2ec0f8bec3b5cf7e3b11fd" title=" " alt="" coords="227,183,410,208"/>
-<area shape="poly" title=" " alt="" coords="179,193,211,193,211,198,179,198"/>
-<area shape="rect" href="corrections_8cpp.html#ac6b484124436d55fe26918d21fb1b189" title=" " alt="" coords="242,308,395,334"/>
-<area shape="poly" title=" " alt="" coords="109,207,159,250,192,274,228,294,240,300,238,305,225,299,189,278,155,254,105,211"/>
-<area shape="rect" href="corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac" title=" " alt="" coords="238,5,399,31"/>
-<area shape="poly" title=" " alt="" coords="100,181,148,118,184,81,225,48,250,35,253,39,228,52,188,85,152,121,104,184"/>
-<area shape="rect" href="corrections_8cpp.html#acfd42abc690d32f5b90b1dfeb3ab7019" title=" " alt="" coords="261,357,376,383"/>
-<area shape="poly" title=" " alt="" coords="103,207,150,273,186,311,228,344,247,353,245,358,225,348,183,315,146,276,99,210"/>
-<area shape="poly" title=" " alt="" coords="574,76,632,98,738,147,736,152,630,103,572,81"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1101,157,1194,183"/>
-<area shape="poly" title=" " alt="" coords="864,168,1086,168,1086,173,864,173"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="927,183,1053,208"/>
-<area shape="poly" title=" " alt="" coords="864,178,911,183,911,189,863,183"/>
-<area shape="poly" title=" " alt="" coords="1053,183,1085,177,1086,183,1054,188"/>
-<area shape="poly" title=" " alt="" coords="384,256,631,202,707,185,708,190,632,207,385,261"/>
-<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="469,309,621,335"/>
-<area shape="poly" title=" " alt="" coords="380,282,470,303,469,308,378,288"/>
-<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="460,359,630,384"/>
-<area shape="poly" title=" " alt="" coords="389,283,411,293,427,306,436,320,445,333,460,345,468,350,465,354,456,350,441,337,432,323,423,310,409,298,386,287"/>
-<area shape="poly" title=" " alt="" coords="589,306,630,288,698,240,752,192,756,196,702,244,633,292,591,311"/>
-<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="679,383,879,408"/>
-<area shape="poly" title=" " alt="" coords="631,378,664,381,663,386,630,383"/>
-<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="681,333,877,359"/>
-<area shape="poly" title=" " alt="" coords="630,360,665,356,666,361,631,365"/>
-<area shape="poly" title=" " alt="" coords="411,197,516,198,631,193,699,184,699,189,632,198,517,203,411,202"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="458,157,631,183"/>
-<area shape="poly" title=" " alt="" coords="410,183,442,179,443,184,411,188"/>
-<area shape="poly" title=" " alt="" coords="632,168,679,168,679,173,632,173"/>
-<area shape="rect" href="corrections_8cpp.html#a4cd03bbf6432745f9150ee31c282394b" title=" " alt="" coords="476,408,613,434"/>
-<area shape="poly" title=" " alt="" coords="389,332,411,343,427,356,436,369,445,382,460,395,468,399,465,404,456,399,441,386,432,372,423,359,409,347,386,337"/>
-<area shape="poly" title=" " alt="" coords="399,9,452,8,512,12,573,22,632,41,671,62,707,89,760,143,756,147,703,93,668,67,630,46,572,28,511,17,452,14,399,14"/>
+<area shape="rect" title=" " alt="" coords="5,611,179,637"/>
+<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="970,66,1026,91"/>
+<area shape="poly" title=" " alt="" coords="92,610,104,510,130,357,148,278,170,205,195,147,210,125,225,109,268,78,315,54,364,35,415,21,467,11,520,5,626,4,727,13,819,28,897,46,955,62,954,68,895,51,818,34,727,18,626,10,521,11,468,16,416,26,366,40,317,58,271,83,228,113,214,128,200,149,175,207,153,279,135,358,110,511,97,611"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1331,406,1501,431"/>
+<area shape="poly" title=" " alt="" coords="95,610,139,501,177,422,228,339,290,259,325,223,363,191,404,165,447,144,494,131,543,127,999,127,1085,129,1152,139,1183,149,1214,164,1285,211,1328,253,1363,302,1389,350,1407,390,1402,392,1384,352,1358,305,1324,256,1282,215,1212,169,1181,154,1151,144,1084,134,999,132,543,132,495,136,449,149,406,169,366,196,328,227,294,263,232,342,182,425,143,503,100,612"/>
+<area shape="rect" href="corrections_8cpp.html#a6870269fdd0bed21dea671a82e0271e1" title=" " alt="" coords="240,498,397,523"/>
+<area shape="poly" title=" " alt="" coords="119,608,276,528,279,533,121,613"/>
+<area shape="rect" href="corrections_8cpp.html#a04953efcdd2ec0f8bec3b5cf7e3b11fd" title=" " alt="" coords="227,611,410,637"/>
+<area shape="poly" title=" " alt="" coords="179,621,211,621,211,627,179,627"/>
+<area shape="rect" href="corrections_8cpp.html#ac6b484124436d55fe26918d21fb1b189" title=" " alt="" coords="242,660,395,686"/>
+<area shape="poly" title=" " alt="" coords="155,635,242,654,241,659,154,640"/>
+<area shape="rect" href="corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac" title=" " alt="" coords="1120,738,1280,763"/>
+<area shape="poly" title=" " alt="" coords="114,635,164,666,228,696,314,724,382,740,453,746,543,748,780,748,1104,748,1104,753,780,753,543,753,452,752,382,745,312,729,226,701,161,671,111,640"/>
+<area shape="rect" href="corrections_8cpp.html#acfd42abc690d32f5b90b1dfeb3ab7019" title=" " alt="" coords="261,788,376,814"/>
+<area shape="poly" title=" " alt="" coords="104,635,152,698,188,735,228,767,253,780,250,785,225,771,184,739,148,701,100,639"/>
+<area shape="poly" title=" " alt="" coords="1026,71,1079,65,1147,64,1183,68,1219,77,1253,90,1285,108,1317,138,1344,173,1365,212,1382,252,1404,329,1414,390,1409,391,1399,330,1377,254,1360,214,1339,176,1313,142,1282,113,1251,94,1217,82,1182,74,1146,70,1079,70,1027,76"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1723,406,1816,431"/>
+<area shape="poly" title=" " alt="" coords="1501,416,1707,416,1707,421,1501,421"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1549,431,1675,457"/>
+<area shape="poly" title=" " alt="" coords="1501,427,1533,431,1533,436,1501,432"/>
+<area shape="poly" title=" " alt="" coords="1675,431,1707,426,1708,431,1676,436"/>
+<area shape="poly" title=" " alt="" coords="326,496,383,420,429,368,484,313,548,262,619,218,657,201,696,188,736,180,778,177,999,177,1084,181,1150,196,1212,225,1285,270,1321,298,1353,330,1400,391,1396,394,1349,334,1317,302,1282,274,1209,229,1148,201,1084,187,999,183,778,183,737,185,697,194,659,206,622,223,551,266,488,317,433,371,387,423,331,499"/>
+<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="469,447,621,473"/>
+<area shape="poly" title=" " alt="" coords="378,494,469,474,470,479,380,500"/>
+<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="460,548,630,574"/>
+<area shape="poly" title=" " alt="" coords="380,521,470,542,469,547,378,527"/>
+<area shape="poly" title=" " alt="" coords="554,445,602,389,638,357,678,332,744,307,799,299,855,299,926,297,1028,285,1109,274,1147,272,1188,275,1233,284,1284,301,1319,319,1350,343,1397,392,1393,395,1347,347,1316,324,1282,306,1231,289,1187,280,1147,277,1109,279,1029,290,927,303,855,304,799,305,745,313,681,337,641,362,606,393,558,448"/>
+<area shape="rect" href="class_p_i_d.html#a0022f6329cd655ac1a3ec0d30d6c521d" title="Compute the next correction." alt="" coords="729,347,829,373"/>
+<area shape="poly" title=" " alt="" coords="576,444,732,377,734,382,578,449"/>
+<area shape="rect" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9" title=" " alt="" coords="716,447,842,473"/>
+<area shape="poly" title=" " alt="" coords="621,457,700,457,700,463,621,463"/>
+<area shape="rect" href="class_p_i_d.html#a46d8eaa8aee79bd01992108b8f9e62e4" title="Set the controller set point." alt="" coords="939,610,1057,635"/>
+<area shape="poly" title=" " alt="" coords="613,471,771,505,880,533,905,551,928,571,967,599,964,603,925,575,902,555,878,538,770,510,611,476"/>
+<area shape="poly" title=" " alt="" coords="829,344,916,326,1030,311,1093,308,1158,309,1222,317,1284,331,1315,343,1343,359,1390,393,1387,397,1340,363,1312,347,1283,336,1221,322,1157,315,1093,313,1030,316,916,331,830,349"/>
+<area shape="rect" href="class_pid_core.html#ae896489f1d8cfbf9b895a912488cfe91" title="Compute the next correction." alt="" coords="936,347,1060,373"/>
+<area shape="poly" title=" " alt="" coords="829,357,921,357,921,363,829,363"/>
+<area shape="poly" title=" " alt="" coords="1060,349,1165,343,1225,346,1284,355,1337,372,1382,395,1380,400,1335,377,1283,360,1224,351,1165,348,1060,354"/>
+<area shape="rect" href="struct_pid_tuning_parameters.html#a8f85e91554011e97b7b3ebd849f26649" title="Basic PID calculation." alt="" coords="1127,369,1273,410"/>
+<area shape="poly" title=" " alt="" coords="1061,366,1112,374,1111,379,1060,371"/>
+<area shape="poly" title=" " alt="" coords="1274,396,1316,402,1316,408,1273,402"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="927,447,1069,473"/>
+<area shape="poly" title=" " alt="" coords="842,457,911,457,911,463,842,463"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="941,535,1055,561"/>
+<area shape="poly" title=" " alt="" coords="827,471,880,489,959,525,956,530,878,494,825,476"/>
+<area shape="poly" title=" " alt="" coords="1069,450,1315,426,1316,431,1070,456"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="1117,484,1283,510"/>
+<area shape="poly" title=" " alt="" coords="1070,470,1112,478,1111,484,1069,476"/>
+<area shape="poly" title=" " alt="" coords="1237,481,1363,435,1365,440,1239,486"/>
+<area shape="poly" title=" " alt="" coords="1055,549,1105,550,1163,547,1224,538,1282,520,1314,504,1344,483,1391,441,1394,445,1347,488,1317,509,1284,525,1225,543,1163,552,1105,555,1055,555"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="1132,586,1269,611"/>
+<area shape="poly" title=" " alt="" coords="1053,559,1132,579,1131,584,1051,564"/>
+<area shape="poly" title=" " alt="" coords="1246,583,1282,564,1317,536,1348,503,1396,443,1400,446,1352,507,1320,540,1285,569,1248,588"/>
+<area shape="poly" title=" " alt="" coords="1047,633,1099,643,1159,648,1223,642,1253,634,1282,622,1306,605,1328,585,1363,537,1388,487,1404,445,1409,447,1393,489,1368,540,1332,588,1310,609,1285,626,1255,639,1224,648,1159,653,1098,648,1046,639"/>
+<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="679,548,879,574"/>
+<area shape="poly" title=" " alt="" coords="630,559,664,559,664,564,630,564"/>
+<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="681,598,877,623"/>
+<area shape="poly" title=" " alt="" coords="610,572,700,591,699,596,609,577"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="458,611,631,637"/>
+<area shape="poly" title=" " alt="" coords="411,621,442,621,442,627,411,627"/>
+<area shape="poly" title=" " alt="" coords="622,635,780,658,973,679,1069,683,1157,682,1230,672,1259,664,1282,654,1309,634,1332,609,1352,582,1368,552,1392,494,1406,446,1411,447,1398,496,1373,555,1356,585,1336,613,1312,638,1285,658,1260,669,1231,677,1157,687,1069,689,973,684,779,664,621,640"/>
+<area shape="rect" href="corrections_8cpp.html#a4cd03bbf6432745f9150ee31c282394b" title=" " alt="" coords="476,660,613,686"/>
+<area shape="poly" title=" " alt="" coords="395,671,460,671,460,676,395,676"/>
+<area shape="poly" title=" " alt="" coords="1253,735,1282,717,1309,685,1333,650,1370,575,1394,503,1407,446,1412,448,1399,504,1375,577,1338,653,1314,689,1285,721,1255,739"/>
 </map>
 </div>
 <div class="dynheader">
@@ -3330,54 +3405,57 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_accf26669788d2f911c85b47a8963b0e4_cgraph.png" border="0" usemap="#acorrections_8cpp_accf26669788d2f911c85b47a8963b0e4_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_accf26669788d2f911c85b47a8963b0e4_cgraph" id="acorrections_8cpp_accf26669788d2f911c85b47a8963b0e4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,122,160,147"/>
-<area shape="rect" href="corrections_8cpp.html#a6c5ae66fcbbce5c4872db05ab23c9a6c" title=" " alt="" coords="208,46,379,71"/>
-<area shape="poly" title=" " alt="" coords="120,118,240,74,242,79,121,123"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1018,374,1187,399"/>
-<area shape="poly" title=" " alt="" coords="160,124,314,113,495,106,687,106,771,106,838,112,869,119,901,131,972,174,995,193,1016,216,1052,266,1078,317,1095,358,1090,360,1073,319,1047,269,1012,219,992,197,968,178,898,136,868,124,837,117,771,112,687,112,495,112,315,118,160,130"/>
-<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="258,147,329,173"/>
-<area shape="poly" title=" " alt="" coords="160,141,243,151,242,156,160,146"/>
-<area shape="rect" href="sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4" title=" " alt="" coords="235,475,352,501"/>
-<area shape="poly" title=" " alt="" coords="94,146,279,460,274,462,89,149"/>
-<area shape="poly" title=" " alt="" coords="342,42,463,18,541,8,627,3,716,6,806,19,892,46,933,65,972,88,1004,116,1030,149,1051,186,1068,224,1091,299,1101,358,1096,359,1085,300,1063,226,1047,188,1026,152,1000,119,968,93,930,70,890,51,805,25,716,11,627,8,542,13,464,23,343,48"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1410,374,1503,399"/>
-<area shape="poly" title=" " alt="" coords="1188,384,1394,384,1394,389,1188,389"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1235,399,1362,425"/>
-<area shape="poly" title=" " alt="" coords="1188,395,1220,399,1219,404,1187,400"/>
-<area shape="poly" title=" " alt="" coords="1362,399,1394,394,1394,399,1362,404"/>
-<area shape="poly" title=" " alt="" coords="329,152,442,139,519,136,606,136,698,143,792,158,885,184,971,221,1012,251,1045,287,1072,325,1091,358,1086,361,1067,328,1041,291,1008,255,969,226,883,189,791,164,698,149,606,142,520,141,442,145,329,157"/>
-<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="427,231,565,272"/>
-<area shape="poly" title=" " alt="" coords="325,171,437,222,435,227,323,176"/>
-<area shape="poly" title=" " alt="" coords="566,235,650,224,753,219,808,221,864,228,919,240,971,257,1007,278,1040,305,1086,359,1082,363,1036,309,1004,282,969,262,917,245,863,233,808,227,753,225,650,229,566,240"/>
-<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="638,274,733,299"/>
-<area shape="poly" title=" " alt="" coords="566,262,624,272,623,278,565,267"/>
-<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="613,348,758,374"/>
-<area shape="poly" title=" " alt="" coords="534,270,650,338,647,342,532,275"/>
-<area shape="poly" title=" " alt="" coords="733,275,783,269,843,266,908,270,971,284,1004,299,1034,318,1081,360,1077,364,1030,323,1001,303,969,289,907,275,843,271,783,274,733,280"/>
-<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="837,348,939,374"/>
-<area shape="poly" title=" " alt="" coords="717,297,807,335,825,341,823,346,805,340,715,302"/>
-<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="845,299,931,325"/>
-<area shape="poly" title=" " alt="" coords="733,290,830,302,829,307,733,295"/>
-<area shape="poly" title=" " alt="" coords="940,364,1003,372,1002,377,939,370"/>
-<area shape="poly" title=" " alt="" coords="932,321,971,333,1055,365,1054,370,969,338,930,326"/>
-<area shape="poly" title=" " alt="" coords="739,372,806,384,907,390,1003,389,1003,394,907,395,805,389,738,377"/>
-<area shape="poly" title=" " alt="" coords="758,358,821,358,821,364,758,364"/>
-<area shape="poly" title=" " alt="" coords="352,478,1003,396,1003,401,352,483"/>
-<area shape="rect" href="sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71" title="A specialist function to map a value in the range [0, 1023] (I.e. 10&#45;bit) to a different range." alt="" coords="447,500,545,526"/>
-<area shape="poly" title=" " alt="" coords="352,492,432,502,432,508,352,498"/>
-<area shape="rect" href="sensors_8cpp.html#a67edb677b0734f1cb1e6dbea6ed23e3e" title=" " alt="" coords="433,551,560,577"/>
-<area shape="poly" title=" " alt="" coords="330,499,428,536,445,542,443,547,426,541,329,504"/>
-<area shape="poly" title=" " alt="" coords="546,516,628,521,735,520,854,508,912,496,969,479,1000,464,1029,446,1076,408,1079,412,1032,451,1002,469,971,484,914,501,854,513,736,525,628,526,546,521"/>
-<area shape="poly" title=" " alt="" coords="561,569,645,574,750,572,806,566,862,556,917,541,969,520,1005,497,1036,469,1083,411,1087,414,1040,472,1008,502,971,525,918,546,863,561,806,571,750,577,645,579,560,574"/>
-<area shape="rect" href="sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311" title=" " alt="" coords="633,627,738,653"/>
-<area shape="poly" title=" " alt="" coords="531,575,639,618,637,623,529,580"/>
-<area shape="poly" title=" " alt="" coords="738,638,790,635,850,626,912,609,969,580,1011,542,1045,497,1071,451,1089,412,1094,414,1076,453,1050,500,1015,546,971,585,914,614,851,631,790,640,738,643"/>
-<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="860,652,916,678"/>
-<area shape="poly" title=" " alt="" coords="739,644,845,657,844,662,738,649"/>
-<area shape="rect" href="sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196" title=" " alt="" coords="806,702,970,727"/>
-<area shape="poly" title=" " alt="" coords="717,651,807,688,825,694,823,699,805,693,715,656"/>
-<area shape="poly" title=" " alt="" coords="916,657,943,647,968,631,993,606,1014,578,1050,518,1075,460,1091,413,1096,415,1080,462,1054,520,1019,581,997,610,972,635,945,652,917,662"/>
-<area shape="poly" title=" " alt="" coords="952,699,968,688,997,658,1022,622,1043,585,1059,546,1082,472,1095,414,1100,415,1088,473,1064,548,1047,587,1027,625,1002,661,972,692,955,703"/>
+<area shape="rect" title=" " alt="" coords="5,123,160,149"/>
+<area shape="rect" href="corrections_8cpp.html#a6c5ae66fcbbce5c4872db05ab23c9a6c" title=" " alt="" coords="208,47,379,73"/>
+<area shape="poly" title=" " alt="" coords="120,120,240,76,242,81,121,125"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1018,401,1187,426"/>
+<area shape="poly" title=" " alt="" coords="160,126,314,114,495,108,687,108,771,107,838,110,870,117,901,128,935,146,972,171,998,194,1020,221,1056,280,1082,338,1097,385,1092,386,1077,340,1052,282,1016,224,994,198,968,175,932,151,899,133,868,122,838,116,771,112,687,113,495,113,315,119,160,131"/>
+<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="258,149,329,174"/>
+<area shape="poly" title=" " alt="" coords="160,143,243,153,242,158,160,148"/>
+<area shape="rect" href="sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4" title=" " alt="" coords="235,502,352,528"/>
+<area shape="poly" title=" " alt="" coords="94,148,280,487,275,489,89,151"/>
+<area shape="poly" title=" " alt="" coords="341,44,462,19,541,8,627,3,717,6,806,20,850,31,893,47,933,66,972,90,1006,120,1033,157,1055,197,1072,240,1093,321,1102,385,1097,385,1088,322,1067,241,1050,200,1029,160,1002,124,968,94,931,71,891,52,849,36,805,25,716,11,627,9,541,14,463,24,342,49"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1410,401,1503,426"/>
+<area shape="poly" title=" " alt="" coords="1188,411,1394,411,1394,416,1188,416"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1235,426,1362,452"/>
+<area shape="poly" title=" " alt="" coords="1188,422,1220,426,1219,431,1187,427"/>
+<area shape="poly" title=" " alt="" coords="1362,426,1394,421,1394,426,1362,431"/>
+<area shape="poly" title=" " alt="" coords="329,152,443,138,521,133,608,132,700,139,794,154,886,180,930,199,971,220,995,237,1016,256,1051,301,1077,347,1094,385,1089,387,1072,349,1046,304,1012,260,991,241,969,225,927,203,884,185,793,159,700,144,608,138,521,138,443,143,329,158"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="427,233,565,274"/>
+<area shape="poly" title=" " alt="" coords="325,172,437,224,435,229,323,177"/>
+<area shape="poly" title=" " alt="" coords="566,235,651,222,754,216,810,218,865,225,919,238,971,258,1011,284,1045,318,1071,354,1090,386,1086,388,1067,357,1041,322,1008,288,969,262,918,243,864,230,809,223,754,221,651,227,566,240"/>
+<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="638,275,733,301"/>
+<area shape="poly" title=" " alt="" coords="566,263,624,274,623,279,565,269"/>
+<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="613,350,758,376"/>
+<area shape="poly" title=" " alt="" coords="534,272,650,340,647,344,532,276"/>
+<area shape="poly" title=" " alt="" coords="733,275,783,268,844,265,908,269,971,286,1007,306,1039,332,1086,386,1082,389,1036,336,1004,310,969,291,908,274,844,270,784,273,733,281"/>
+<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="837,350,939,376"/>
+<area shape="poly" title=" " alt="" coords="717,299,807,336,825,342,823,347,805,341,715,304"/>
+<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="845,301,931,326"/>
+<area shape="poly" title=" " alt="" coords="733,291,830,304,829,309,733,297"/>
+<area shape="poly" title=" " alt="" coords="940,372,1031,394,1030,399,939,377"/>
+<area shape="poly" title=" " alt="" coords="932,321,971,335,1024,362,1070,389,1068,394,1022,366,969,340,930,326"/>
+<area shape="poly" title=" " alt="" coords="743,374,806,385,907,398,1003,405,1002,411,907,403,805,391,742,379"/>
+<area shape="poly" title=" " alt="" coords="758,360,821,360,821,365,758,365"/>
+<area shape="poly" title=" " alt="" coords="352,504,427,493,1002,422,1003,428,427,499,352,509"/>
+<area shape="rect" href="sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71" title="A specialist function to map a value in the range [0, 1023] (I.e. 10&#45;bit) to a different range." alt="" coords="636,502,735,528"/>
+<area shape="poly" title=" " alt="" coords="352,512,621,512,621,517,352,517"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a7c3868d15d9340aa2aa78ec1ed9cbf1e" title="Translate a pin number (0 &#45; 22) to the relevant Ax (analog) pin reference." alt="" coords="430,553,562,578"/>
+<area shape="poly" title=" " alt="" coords="348,526,428,546,426,551,347,531"/>
+<area shape="rect" href="sensors_8cpp.html#a67edb677b0734f1cb1e6dbea6ed23e3e" title=" " alt="" coords="433,603,560,629"/>
+<area shape="poly" title=" " alt="" coords="317,526,367,556,428,588,443,595,441,600,426,593,364,561,314,530"/>
+<area shape="poly" title=" " alt="" coords="735,512,844,505,907,495,969,480,1022,458,1068,432,1071,437,1025,463,971,485,908,501,844,510,735,517"/>
+<area shape="poly" title=" " alt="" coords="563,567,647,569,750,564,861,547,916,533,969,515,1001,499,1030,478,1077,436,1081,440,1033,482,1003,503,971,520,918,538,862,552,751,569,647,574,563,573"/>
+<area shape="poly" title=" " alt="" coords="560,621,645,625,751,621,806,614,863,602,917,586,969,563,1007,536,1040,503,1066,468,1085,438,1090,441,1070,471,1044,507,1010,541,971,568,919,591,864,607,807,619,751,626,645,630,560,626"/>
+<area shape="rect" href="sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311" title=" " alt="" coords="633,679,738,705"/>
+<area shape="poly" title=" " alt="" coords="531,627,639,671,637,676,529,632"/>
+<area shape="poly" title=" " alt="" coords="739,691,791,688,851,680,912,662,941,649,968,633,993,612,1014,589,1049,536,1075,484,1091,440,1096,442,1079,486,1054,539,1018,592,996,616,972,637,944,654,914,667,852,685,791,694,739,696"/>
+<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="860,705,916,730"/>
+<area shape="poly" title=" " alt="" coords="739,696,845,709,844,715,738,701"/>
+<area shape="rect" href="sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196" title=" " alt="" coords="806,754,970,780"/>
+<area shape="poly" title=" " alt="" coords="717,703,807,740,825,746,823,751,805,745,715,708"/>
+<area shape="poly" title=" " alt="" coords="916,709,943,700,968,683,994,656,1017,624,1053,557,1078,492,1092,441,1098,442,1083,494,1058,559,1021,627,998,659,972,687,945,704,918,714"/>
+<area shape="poly" title=" " alt="" coords="953,751,968,741,999,707,1025,668,1046,627,1063,584,1085,503,1096,441,1101,442,1090,504,1068,586,1051,629,1030,671,1003,710,972,745,956,756"/>
 </map>
 </div>
 <div class="dynheader">
@@ -3591,178 +3669,203 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_a663aceceb4f0a01b0e40555046c88016_cgraph.png" border="0" usemap="#acorrections_8cpp_a663aceceb4f0a01b0e40555046c88016_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_a663aceceb4f0a01b0e40555046c88016_cgraph" id="acorrections_8cpp_a663aceceb4f0a01b0e40555046c88016_cgraph">
-<area shape="rect" title=" " alt="" coords="5,1356,116,1382"/>
-<area shape="rect" href="corrections_8cpp.html#aec7d30e71fe9289ed9f295400ed7e66f" title=" " alt="" coords="1021,473,1157,499"/>
-<area shape="poly" title=" " alt="" coords="62,1355,101,1173,136,1032,181,879,234,731,263,664,294,605,327,555,361,517,397,492,416,486,435,483,646,483,1006,483,1006,489,646,489,435,489,417,491,400,497,365,521,331,559,299,608,268,667,239,733,186,880,141,1033,106,1174,67,1356"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1503,1056,1672,1082"/>
-<area shape="poly" title=" " alt="" coords="59,1355,64,1189,79,911,92,760,110,618,133,497,146,448,161,409,210,300,234,252,260,211,291,177,329,152,376,136,435,130,1090,130,1170,129,1273,130,1325,134,1373,141,1413,153,1441,171,1465,200,1485,239,1503,286,1519,340,1545,464,1563,600,1575,737,1583,863,1588,1040,1583,1040,1578,864,1570,737,1558,601,1540,465,1514,341,1498,287,1481,241,1460,203,1438,175,1411,158,1372,146,1325,139,1273,135,1170,134,1091,135,435,135,377,141,331,157,294,181,264,215,239,255,215,302,166,411,151,450,138,498,115,619,98,761,85,911,70,1190,65,1355"/>
-<area shape="rect" href="corrections_8cpp.html#a1b406302d79572aea242fb170bd4da03" title=" " alt="" coords="178,423,290,448"/>
-<area shape="poly" title=" " alt="" coords="59,1356,59,1196,69,931,81,788,99,655,125,544,142,500,162,466,172,455,176,459,166,469,147,502,131,546,104,656,86,789,74,931,64,1197,64,1356"/>
-<area shape="rect" href="corrections_8cpp.html#ab5df2bd365fb3ff8a76f2c3cd80be071" title=" " alt="" coords="769,1815,942,1840"/>
-<area shape="poly" title=" " alt="" coords="65,1382,69,1434,83,1511,96,1553,113,1593,136,1631,165,1664,232,1714,306,1753,385,1782,465,1803,545,1817,622,1826,753,1830,753,1835,622,1831,545,1823,464,1809,383,1787,304,1758,229,1718,162,1668,132,1635,109,1596,91,1554,78,1512,64,1435,59,1382"/>
-<area shape="rect" href="corrections_8cpp.html#ae11005be5151523e7099dc05e6547226" title=" " alt="" coords="1037,1232,1141,1258"/>
-<area shape="poly" title=" " alt="" coords="116,1360,260,1348,435,1341,646,1341,796,1310,1021,1258,1022,1263,797,1315,646,1346,435,1346,260,1353,116,1365"/>
-<area shape="rect" href="corrections_8cpp.html#aad8e5468a722f494c7f51212b5654049" title=" " alt="" coords="1037,1533,1142,1559"/>
-<area shape="poly" title=" " alt="" coords="71,1381,107,1434,133,1463,165,1488,234,1523,293,1539,355,1544,435,1543,646,1543,1021,1543,1021,1549,646,1549,435,1549,355,1549,292,1544,232,1528,162,1492,130,1467,103,1437,67,1384"/>
-<area shape="rect" href="corrections_8cpp.html#a8a94c4cf1766c143191074d0c103b881" title=" " alt="" coords="1018,1584,1160,1610"/>
-<area shape="poly" title=" " alt="" coords="68,1381,79,1415,98,1460,127,1507,145,1528,165,1545,200,1568,232,1583,262,1592,291,1596,355,1596,435,1594,646,1594,1003,1594,1003,1599,646,1599,435,1599,355,1602,291,1601,261,1597,230,1587,198,1572,162,1550,141,1531,122,1510,93,1463,74,1417,63,1383"/>
-<area shape="rect" href="corrections_8cpp.html#ad6f5d711a0c1dc5aad6b0a64e8876d94" title=" " alt="" coords="791,1080,920,1106"/>
-<area shape="poly" title=" " alt="" coords="69,1354,107,1310,133,1286,162,1265,241,1226,325,1192,410,1165,494,1143,651,1112,775,1096,775,1102,652,1118,495,1148,411,1170,326,1197,243,1230,165,1270,136,1290,110,1314,73,1357"/>
-<area shape="rect" href="corrections_8cpp.html#ae2bfa8bf2b6b95bff448be5d4574c3ba" title=" " alt="" coords="1032,1992,1146,2018"/>
-<area shape="poly" title=" " alt="" coords="65,1382,69,1444,84,1540,97,1595,114,1650,137,1704,166,1754,223,1837,249,1871,277,1899,307,1921,342,1938,384,1948,435,1951,646,1951,747,1955,848,1965,1017,1989,1016,1994,848,1970,747,1960,646,1957,435,1957,383,1953,340,1943,304,1926,273,1903,245,1874,218,1840,161,1757,132,1706,109,1652,92,1596,79,1542,64,1445,60,1382"/>
-<area shape="rect" href="corrections_8cpp.html#a77b70ee2d7c101615eba3c84f343f0c6" title=" " alt="" coords="369,19,504,44"/>
-<area shape="poly" title=" " alt="" coords="59,1356,62,1111,74,693,87,476,105,282,116,201,129,135,144,85,162,55,183,38,207,25,259,11,314,8,364,13,363,18,313,13,260,16,209,30,186,42,166,58,149,87,134,136,121,202,110,283,92,476,79,694,67,1111,65,1356"/>
-<area shape="rect" href="corrections_8cpp.html#aaa75c05b0385f4d643c6febb37e3002c" title=" " alt="" coords="1038,1635,1140,1660"/>
-<area shape="poly" title=" " alt="" coords="66,1382,73,1425,90,1485,103,1518,120,1549,140,1577,165,1601,199,1625,230,1639,260,1648,290,1651,354,1648,435,1645,646,1645,1022,1645,1022,1650,646,1650,435,1650,355,1654,290,1656,259,1653,229,1644,197,1629,162,1605,136,1581,115,1552,98,1520,85,1487,68,1426,61,1382"/>
-<area shape="rect" href="corrections_8cpp.html#ae85d6de0cad4e5684d2fd1f5b1d5d42d" title=" " alt="" coords="164,1280,304,1306"/>
-<area shape="poly" title=" " alt="" coords="91,1353,188,1310,190,1315,93,1358"/>
-<area shape="rect" href="corrections_8cpp.html#afd5b14c4e1ba3c49d7fc157dd9cc07d4" title=" " alt="" coords="1021,1281,1157,1307"/>
-<area shape="poly" title=" " alt="" coords="116,1372,260,1385,435,1391,646,1391,730,1391,795,1389,860,1379,941,1360,1000,1338,1051,1312,1053,1317,1002,1343,943,1365,861,1385,796,1394,730,1397,646,1397,435,1397,260,1390,116,1377"/>
-<area shape="rect" href="corrections_8cpp.html#ab4ed32df1c90cf53bb9ad52b6579edc5" title=" " alt="" coords="1018,1433,1160,1459"/>
-<area shape="poly" title=" " alt="" coords="102,1380,165,1399,247,1419,340,1435,435,1442,646,1442,1003,1443,1003,1448,646,1447,435,1447,340,1441,246,1424,163,1404,100,1385"/>
-<area shape="rect" href="corrections_8cpp.html#a0ac22942fa946edac92953167c50a189" title=" " alt="" coords="173,69,295,95"/>
-<area shape="poly" title=" " alt="" coords="59,1355,66,1123,83,727,97,520,114,335,135,193,148,143,161,113,171,102,175,106,166,116,153,145,141,194,119,336,102,521,89,727,71,1123,65,1356"/>
-<area shape="rect" href="corrections_8cpp.html#a6b99b5a7f051cf460be48c4fd010f410" title=" " alt="" coords="1035,1483,1143,1508"/>
-<area shape="poly" title=" " alt="" coords="79,1380,117,1408,165,1434,237,1464,296,1482,357,1490,435,1493,646,1493,1020,1493,1020,1498,646,1498,435,1498,356,1496,295,1487,236,1469,163,1439,114,1412,76,1384"/>
-<area shape="rect" href="maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1" title="Integer based percentage calculation: faster, but less accurate, than percentage()" alt="" coords="1275,625,1401,651"/>
-<area shape="poly" title=" " alt="" coords="1114,497,1304,615,1301,619,1111,502"/>
-<area shape="poly" title=" " alt="" coords="1150,470,1217,462,1294,462,1333,468,1372,478,1409,494,1441,516,1457,533,1471,555,1497,614,1520,686,1540,766,1569,925,1585,1040,1580,1041,1564,926,1535,767,1515,688,1493,616,1467,558,1453,536,1438,520,1406,498,1370,483,1332,473,1293,468,1217,467,1151,475"/>
-<area shape="poly" title=" " alt="" coords="1402,646,1423,655,1441,668,1479,712,1510,761,1534,813,1553,867,1577,966,1587,1040,1581,1041,1571,967,1548,868,1529,815,1505,763,1475,715,1438,672,1420,659,1400,651"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1909,1056,2003,1082"/>
-<area shape="poly" title=" " alt="" coords="1673,1066,1894,1066,1894,1071,1673,1071"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1735,1081,1861,1107"/>
-<area shape="poly" title=" " alt="" coords="1672,1076,1720,1082,1719,1087,1672,1082"/>
-<area shape="poly" title=" " alt="" coords="1861,1081,1893,1076,1894,1081,1862,1087"/>
-<area shape="rect" href="corrections_8cpp.html#a888a6fb11941a4e90c01900a3f51da69" title=" " alt="" coords="352,347,520,372"/>
-<area shape="poly" title=" " alt="" coords="289,420,400,377,402,382,291,425"/>
-<area shape="rect" href="corrections_8cpp.html#ad45e15982f2cc0272877dc8ea980b265" title=" " alt="" coords="354,801,519,827"/>
-<area shape="poly" title=" " alt="" coords="243,447,326,610,421,787,416,789,321,612,238,450"/>
-<area shape="poly" title=" " alt="" coords="521,346,751,320,1039,295,1178,287,1299,285,1390,291,1421,298,1441,308,1462,331,1481,363,1498,401,1513,446,1538,550,1557,664,1570,779,1579,887,1588,1040,1582,1041,1574,887,1565,780,1552,664,1533,551,1508,448,1493,403,1477,365,1458,334,1438,312,1419,303,1389,297,1299,291,1178,292,1040,300,751,326,521,352"/>
-<area shape="poly" title=" " alt="" coords="379,375,270,418,268,413,377,370"/>
-<area shape="rect" href="corrections_8cpp.html#a9072983fc6df1abea6cb765ef6cf9936" title=" " alt="" coords="1031,372,1147,398"/>
-<area shape="poly" title=" " alt="" coords="521,360,1015,379,1015,385,520,365"/>
-<area shape="rect" href="corrections_8cpp.html#aa2d2df2c9f680f8c3d02a3049ae1ea7e" title=" " alt="" coords="587,652,702,678"/>
-<area shape="poly" title=" " alt="" coords="449,371,628,637,624,640,444,374"/>
-<area shape="rect" href="corrections_8cpp.html#a4214c1b743407757b7948cec6725ce94" title=" " alt="" coords="568,221,721,247"/>
-<area shape="poly" title=" " alt="" coords="450,344,499,301,532,277,567,256,578,251,580,255,570,260,535,281,502,305,453,348"/>
-<area shape="rect" href="corrections_8cpp.html#a5ca5d3b401ad623fac9522a51c616aee" title=" " alt="" coords="787,171,924,196"/>
-<area shape="poly" title=" " alt="" coords="442,345,460,315,487,276,523,237,567,206,617,187,671,176,723,172,772,172,772,178,724,177,672,181,619,192,570,211,527,241,491,279,464,317,447,347"/>
-<area shape="rect" href="corrections_8cpp.html#abcd2bdc9abb0d7ff4eadeb395d992336" title=" " alt="" coords="579,271,710,296"/>
-<area shape="poly" title=" " alt="" coords="473,343,592,299,594,304,475,348"/>
-<area shape="poly" title=" " alt="" coords="1148,393,1322,430,1399,451,1426,461,1441,469,1457,489,1471,514,1498,579,1521,659,1540,746,1570,918,1586,1040,1580,1041,1564,918,1535,747,1516,660,1493,581,1467,516,1453,492,1438,473,1424,465,1398,456,1320,435,1147,398"/>
-<area shape="rect" href="sensors_8cpp.html#a64d1261ebf6183e1e6ea1c9fdf219295" title="Get the MAP change between the last 2 readings." alt="" coords="1289,372,1387,398"/>
-<area shape="poly" title=" " alt="" coords="1148,382,1273,382,1273,387,1148,387"/>
-<area shape="rect" href="sensors_8cpp.html#a5ad24b38cd570c95f0e92ed6fe0c06ed" title="Get the time in µS between the last 2 MAP readings." alt="" coords="1274,323,1402,348"/>
-<area shape="poly" title=" " alt="" coords="1147,371,1258,348,1259,354,1148,376"/>
-<area shape="poly" title=" " alt="" coords="1389,387,1417,397,1442,415,1458,437,1473,465,1500,537,1523,625,1542,722,1571,909,1586,1040,1581,1041,1566,909,1537,722,1518,627,1495,539,1468,467,1453,440,1438,419,1414,402,1387,392"/>
-<area shape="poly" title=" " alt="" coords="692,649,856,606,964,583,1078,562,1191,547,1294,541,1340,543,1380,549,1414,559,1441,573,1456,587,1470,607,1495,658,1518,722,1537,793,1567,935,1585,1040,1579,1041,1562,936,1532,794,1512,723,1490,660,1465,609,1452,591,1438,578,1412,564,1379,554,1339,548,1294,546,1191,552,1079,567,965,588,858,612,693,654"/>
-<area shape="rect" href="corrections_8cpp.html#a2c052bf7869552f61cf9d0aad82d820c" title=" " alt="" coords="784,701,927,727"/>
-<area shape="poly" title=" " alt="" coords="703,675,783,695,782,700,702,681"/>
-<area shape="rect" href="corrections_8cpp.html#a3046c7564b8982aea4664720f4a6e114" title=" " alt="" coords="780,652,931,678"/>
-<area shape="poly" title=" " alt="" coords="702,662,764,662,764,667,702,667"/>
-<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="1276,1385,1400,1411"/>
-<area shape="poly" title=" " alt="" coords="679,676,703,692,723,714,738,743,748,770,757,822,755,870,747,917,739,964,737,1012,746,1062,756,1089,771,1117,789,1141,809,1157,851,1176,897,1194,920,1208,944,1230,960,1254,967,1277,974,1298,991,1317,1263,1379,1262,1384,989,1322,969,1300,961,1278,955,1256,940,1233,917,1212,894,1199,849,1181,806,1162,786,1144,766,1120,751,1091,741,1064,732,1012,734,964,742,917,749,870,752,822,743,771,733,745,718,717,699,696,676,680"/>
-<area shape="poly" title=" " alt="" coords="927,704,1054,693,1205,688,1278,690,1345,696,1401,707,1441,725,1478,758,1509,797,1533,840,1552,886,1576,973,1586,1040,1581,1041,1570,974,1547,887,1528,843,1504,800,1474,761,1438,730,1399,712,1344,701,1278,695,1205,693,1054,699,928,709"/>
-<area shape="rect" href="corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620" title=" " alt="" coords="1017,727,1161,752"/>
-<area shape="poly" title=" " alt="" coords="928,719,1002,727,1001,733,927,724"/>
-<area shape="rect" href="corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291" title=" " alt="" coords="1026,625,1153,651"/>
-<area shape="poly" title=" " alt="" coords="908,698,941,688,989,668,1029,654,1031,659,991,673,943,693,909,703"/>
-<area shape="poly" title=" " alt="" coords="1122,723,1290,655,1292,659,1124,728"/>
-<area shape="poly" title=" " alt="" coords="1162,724,1226,719,1299,722,1336,727,1373,737,1408,750,1441,769,1474,797,1502,831,1525,868,1544,907,1570,982,1584,1040,1579,1042,1565,983,1539,909,1521,871,1498,834,1471,801,1438,774,1406,755,1371,742,1335,733,1298,727,1226,725,1162,730"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="1264,1284,1412,1310"/>
-<area shape="poly" title=" " alt="" coords="1099,752,1327,1268,1322,1271,1094,754"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="1251,1689,1425,1715"/>
-<area shape="poly" title=" " alt="" coords="1096,752,1135,919,1191,1170,1212,1297,1222,1352,1239,1423,1285,1565,1328,1674,1323,1676,1280,1567,1234,1424,1217,1353,1207,1298,1186,1171,1130,920,1091,753"/>
-<area shape="poly" title=" " alt="" coords="1401,1281,1438,1263,1482,1223,1520,1177,1550,1132,1571,1094,1575,1097,1554,1135,1524,1180,1486,1227,1441,1267,1403,1286"/>
-<area shape="poly" title=" " alt="" coords="1411,1686,1438,1668,1452,1649,1466,1624,1492,1558,1514,1478,1534,1391,1564,1219,1580,1097,1585,1097,1569,1220,1539,1392,1519,1480,1497,1560,1471,1626,1457,1652,1442,1672,1414,1691"/>
-<area shape="poly" title=" " alt="" coords="1153,635,1260,635,1260,641,1153,641"/>
-<area shape="poly" title=" " alt="" coords="1118,622,1182,598,1266,579,1312,575,1358,578,1401,589,1441,611,1468,641,1492,688,1515,747,1534,812,1565,943,1584,1040,1579,1041,1560,944,1529,813,1510,748,1488,690,1464,644,1438,615,1399,594,1357,583,1312,580,1267,584,1183,604,1120,627"/>
-<area shape="poly" title=" " alt="" coords="1399,1385,1420,1376,1438,1364,1468,1334,1494,1299,1534,1224,1562,1152,1577,1096,1583,1097,1567,1154,1539,1227,1498,1302,1472,1337,1441,1368,1422,1381,1401,1390"/>
-<area shape="poly" title=" " alt="" coords="924,174,1052,166,1205,164,1280,168,1347,177,1403,192,1424,202,1441,213,1464,240,1485,277,1502,321,1518,372,1544,490,1562,619,1574,749,1582,870,1588,1040,1583,1040,1577,870,1569,750,1557,620,1538,491,1513,374,1497,323,1480,279,1460,243,1438,217,1422,206,1401,197,1346,182,1280,174,1205,170,1052,172,924,180"/>
-<area shape="poly" title=" " alt="" coords="710,269,879,243,986,230,1097,221,1205,217,1303,222,1384,236,1416,248,1441,264,1464,289,1483,322,1501,363,1516,411,1541,521,1560,642,1573,765,1581,879,1588,1040,1583,1041,1576,879,1568,765,1555,643,1536,522,1511,413,1496,365,1479,325,1459,292,1438,268,1414,253,1383,241,1303,227,1205,223,1097,226,986,236,880,248,710,274"/>
-<area shape="poly" title=" " alt="" coords="457,825,506,858,569,889,647,916,709,931,772,938,854,939,1090,939,1190,939,1268,943,1345,956,1441,984,1504,1012,1557,1044,1554,1049,1502,1017,1439,989,1344,961,1268,948,1190,945,1091,945,854,945,772,943,708,936,645,921,567,894,503,862,454,830"/>
-<area shape="poly" title=" " alt="" coords="427,802,345,640,249,463,254,460,349,637,432,800"/>
-<area shape="rect" href="corrections_8cpp.html#ad5f957b792afbdb5131fc26daa4f1835" title=" " alt="" coords="793,980,918,1006"/>
-<area shape="poly" title=" " alt="" coords="447,826,465,855,492,892,528,929,570,958,621,978,675,990,729,995,778,996,778,1001,729,1001,675,995,619,984,567,963,524,933,488,895,461,858,443,829"/>
-<area shape="rect" href="corrections_8cpp.html#a8c5fb04063aa9f2e75914130366b61c7" title=" " alt="" coords="591,777,698,803"/>
-<area shape="poly" title=" " alt="" coords="519,802,575,795,576,801,520,807"/>
-<area shape="rect" href="corrections_8cpp.html#aae96002c8137c3c28a0cdc2243e57164" title=" " alt="" coords="572,728,717,754"/>
-<area shape="poly" title=" " alt="" coords="471,798,567,762,585,756,586,761,569,767,473,803"/>
-<area shape="rect" href="corrections_8cpp.html#a8a108192e30355f6ad8cb4127fce6d77" title=" " alt="" coords="580,827,709,852"/>
-<area shape="poly" title=" " alt="" coords="520,822,565,827,564,832,519,827"/>
-<area shape="rect" href="corrections_8cpp.html#a5f76f1e97a256e73ab434e1ebbd2dc22" title=" " alt="" coords="794,879,917,904"/>
-<area shape="poly" title=" " alt="" coords="466,825,514,845,569,862,678,880,778,887,778,893,677,885,568,867,512,850,464,830"/>
-<area shape="poly" title=" " alt="" coords="918,987,1018,985,1149,986,1294,995,1440,1015,1494,1030,1543,1047,1541,1052,1493,1035,1439,1021,1294,1001,1148,992,1018,990,918,992"/>
-<area shape="poly" title=" " alt="" coords="699,784,863,778,1082,779,1192,784,1294,795,1379,812,1414,824,1441,837,1469,858,1493,882,1533,938,1562,994,1580,1040,1575,1042,1557,997,1529,941,1489,886,1465,862,1438,842,1412,828,1378,817,1293,800,1192,789,1082,784,863,784,699,790"/>
-<area shape="poly" title=" " alt="" coords="688,774,720,764,806,731,808,736,722,769,690,779"/>
-<area shape="poly" title=" " alt="" coords="697,776,719,764,735,746,742,726,750,706,767,687,773,683,776,687,770,691,754,709,747,728,739,748,722,768,700,781"/>
-<area shape="poly" title=" " alt="" coords="700,797,723,812,751,857,763,899,763,940,758,982,751,1023,747,1066,752,1112,771,1161,815,1234,836,1261,859,1285,914,1323,991,1361,1060,1384,1131,1396,1201,1401,1261,1401,1261,1406,1200,1407,1131,1402,1058,1389,989,1366,912,1328,855,1289,832,1265,810,1237,766,1163,747,1113,742,1066,745,1022,752,981,758,940,758,900,746,859,719,816,697,801"/>
-<area shape="poly" title=" " alt="" coords="709,833,876,827,1090,826,1197,831,1296,840,1380,855,1414,865,1441,877,1466,893,1488,912,1527,957,1556,1002,1577,1041,1572,1043,1552,1005,1522,960,1484,916,1462,897,1438,882,1412,870,1378,860,1296,845,1197,836,1089,832,876,832,709,838"/>
-<area shape="poly" title=" " alt="" coords="917,878,1020,867,1154,864,1226,869,1300,879,1372,896,1441,921,1482,946,1519,978,1549,1012,1571,1041,1567,1045,1545,1015,1515,982,1479,950,1439,926,1370,901,1299,884,1226,874,1154,870,1021,873,918,884"/>
-<area shape="poly" title=" " alt="" coords="909,1838,1034,1867,1192,1894,1270,1901,1341,1902,1399,1894,1421,1887,1438,1876,1459,1852,1479,1819,1496,1778,1511,1730,1537,1620,1555,1498,1568,1375,1576,1260,1583,1097,1588,1097,1581,1260,1573,1375,1560,1499,1542,1621,1517,1732,1501,1780,1484,1822,1464,1855,1441,1880,1423,1891,1400,1899,1341,1907,1270,1907,1191,1899,1033,1872,908,1843"/>
-<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="1310,1941,1366,1967"/>
-<area shape="poly" title=" " alt="" coords="872,1839,921,1880,955,1902,991,1920,1073,1942,1156,1953,1233,1956,1294,1954,1294,1960,1233,1961,1156,1958,1072,1947,989,1925,952,1907,918,1885,868,1843"/>
-<area shape="rect" href="corrections_8cpp.html#a6870269fdd0bed21dea671a82e0271e1" title=" " alt="" coords="1011,2068,1167,2094"/>
-<area shape="poly" title=" " alt="" coords="865,1839,910,1925,947,1979,992,2028,1015,2045,1039,2059,1037,2063,1012,2050,988,2032,943,1982,905,1928,860,1842"/>
-<area shape="rect" href="corrections_8cpp.html#a04953efcdd2ec0f8bec3b5cf7e3b11fd" title=" " alt="" coords="998,1740,1181,1766"/>
-<area shape="poly" title=" " alt="" coords="888,1811,989,1774,1013,1767,1014,1772,991,1779,890,1817"/>
-<area shape="rect" href="corrections_8cpp.html#ac6b484124436d55fe26918d21fb1b189" title=" " alt="" coords="1013,1789,1166,1815"/>
-<area shape="poly" title=" " alt="" coords="942,1815,997,1809,997,1815,942,1821"/>
-<area shape="rect" href="corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac" title=" " alt="" coords="1258,1840,1418,1866"/>
-<area shape="poly" title=" " alt="" coords="943,1829,1242,1845,1242,1850,942,1835"/>
-<area shape="rect" href="corrections_8cpp.html#acfd42abc690d32f5b90b1dfeb3ab7019" title=" " alt="" coords="1032,1691,1147,1716"/>
-<area shape="poly" title=" " alt="" coords="868,1812,919,1769,953,1745,989,1725,1016,1715,1018,1720,991,1730,955,1750,922,1774,872,1816"/>
-<area shape="poly" title=" " alt="" coords="1366,1950,1404,1942,1422,1933,1438,1920,1457,1892,1475,1854,1506,1757,1530,1639,1549,1511,1573,1264,1582,1097,1588,1097,1578,1264,1555,1512,1536,1640,1511,1759,1480,1856,1462,1895,1442,1924,1425,1938,1406,1947,1367,1956"/>
-<area shape="poly" title=" " alt="" coords="1168,2079,1243,2077,1323,2070,1393,2056,1420,2047,1438,2035,1462,2004,1483,1962,1502,1912,1518,1853,1544,1718,1562,1570,1574,1422,1580,1286,1583,1097,1589,1097,1585,1286,1579,1423,1567,1571,1549,1719,1524,1854,1507,1913,1488,1965,1466,2007,1441,2039,1422,2051,1395,2062,1324,2075,1243,2082,1168,2084"/>
-<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="1262,2093,1414,2119"/>
-<area shape="poly" title=" " alt="" coords="1168,2086,1247,2094,1246,2099,1167,2091"/>
-<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="1253,2143,1423,2168"/>
-<area shape="poly" title=" " alt="" coords="1127,2092,1237,2129,1263,2136,1261,2141,1236,2134,1125,2097"/>
-<area shape="poly" title=" " alt="" coords="1413,2091,1438,2072,1460,2038,1481,1993,1499,1939,1514,1877,1540,1736,1558,1583,1570,1431,1578,1290,1583,1097,1588,1097,1583,1291,1576,1431,1563,1584,1545,1737,1520,1878,1504,1940,1486,1995,1465,2041,1442,2076,1416,2095"/>
-<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="1488,2167,1687,2192"/>
-<area shape="poly" title=" " alt="" coords="1424,2161,1473,2166,1472,2171,1423,2166"/>
-<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="1489,2117,1686,2143"/>
-<area shape="poly" title=" " alt="" coords="1423,2144,1473,2139,1474,2144,1424,2149"/>
-<area shape="poly" title=" " alt="" coords="1181,1755,1254,1756,1330,1753,1396,1744,1420,1736,1438,1725,1455,1706,1471,1680,1500,1609,1524,1521,1543,1423,1569,1232,1581,1097,1587,1098,1574,1233,1548,1424,1529,1522,1505,1610,1476,1682,1459,1709,1441,1729,1423,1741,1397,1749,1331,1759,1255,1762,1181,1761"/>
-<area shape="poly" title=" " alt="" coords="1155,1737,1256,1716,1257,1721,1156,1742"/>
-<area shape="rect" href="corrections_8cpp.html#a4cd03bbf6432745f9150ee31c282394b" title=" " alt="" coords="1269,1791,1407,1816"/>
-<area shape="poly" title=" " alt="" coords="1166,1800,1254,1800,1254,1806,1166,1805"/>
-<area shape="poly" title=" " alt="" coords="1417,1841,1438,1827,1456,1803,1473,1770,1503,1685,1527,1582,1546,1469,1571,1249,1582,1097,1587,1097,1576,1249,1551,1469,1532,1583,1508,1687,1478,1772,1461,1805,1442,1831,1420,1845"/>
-<area shape="poly" title=" " alt="" coords="1142,1245,1204,1245,1280,1240,1361,1226,1401,1215,1438,1200,1477,1177,1512,1149,1565,1092,1569,1096,1516,1153,1480,1181,1441,1204,1402,1220,1362,1231,1281,1245,1204,1251,1142,1251"/>
-<area shape="poly" title=" " alt="" coords="1142,1253,1259,1278,1258,1283,1141,1258"/>
-<area shape="poly" title=" " alt="" coords="1142,1249,1166,1256,1190,1266,1206,1279,1216,1292,1238,1320,1306,1374,1303,1378,1234,1324,1212,1295,1202,1283,1187,1271,1165,1261,1141,1254"/>
-<area shape="poly" title=" " alt="" coords="1141,1557,1206,1568,1285,1572,1326,1569,1366,1561,1404,1546,1438,1525,1462,1504,1484,1480,1519,1425,1545,1365,1563,1303,1575,1241,1581,1184,1584,1097,1590,1097,1587,1185,1580,1242,1568,1304,1550,1367,1524,1428,1488,1483,1466,1508,1441,1530,1406,1551,1367,1566,1327,1574,1285,1578,1206,1574,1140,1562"/>
-<area shape="poly" title=" " alt="" coords="1141,1535,1187,1518,1224,1496,1258,1470,1312,1420,1316,1424,1262,1474,1227,1501,1189,1523,1143,1540"/>
-<area shape="poly" title=" " alt="" coords="1139,1608,1204,1620,1284,1625,1325,1621,1365,1613,1404,1599,1438,1577,1452,1563,1465,1544,1491,1491,1513,1425,1533,1351,1563,1205,1580,1097,1585,1097,1568,1205,1538,1352,1518,1426,1495,1493,1470,1546,1456,1567,1441,1581,1406,1604,1367,1618,1326,1627,1284,1630,1204,1625,1138,1613"/>
-<area shape="poly" title=" " alt="" coords="1159,1582,1187,1569,1230,1536,1267,1496,1297,1457,1319,1423,1324,1426,1302,1460,1271,1500,1233,1540,1190,1574,1162,1587"/>
-<area shape="poly" title=" " alt="" coords="920,1088,1487,1069,1487,1075,920,1093"/>
-<area shape="rect" href="corrections_8cpp.html#a4c64820a1044156e0d50a5940b40f089" title=" " alt="" coords="1236,1031,1440,1056"/>
-<area shape="poly" title=" " alt="" coords="920,1081,990,1073,1220,1050,1221,1056,990,1078,921,1087"/>
-<area shape="rect" href="corrections_8cpp.html#a37ba24b4231172a726bedbef7a933611" title=" " alt="" coords="990,1183,1188,1208"/>
-<area shape="poly" title=" " alt="" coords="896,1104,943,1122,1050,1173,1048,1178,941,1127,894,1109"/>
-<area shape="poly" title=" " alt="" coords="1440,1051,1487,1056,1487,1061,1440,1056"/>
-<area shape="poly" title=" " alt="" coords="1189,1196,1310,1189,1376,1178,1439,1161,1473,1146,1505,1128,1558,1090,1561,1094,1508,1132,1475,1151,1441,1166,1377,1183,1311,1194,1189,1201"/>
-<area shape="poly" title=" " alt="" coords="1156,1206,1189,1217,1251,1244,1303,1273,1301,1278,1248,1249,1187,1222,1154,1211"/>
-<area shape="poly" title=" " alt="" coords="1173,1207,1190,1217,1210,1242,1218,1267,1223,1293,1238,1320,1269,1350,1302,1374,1298,1379,1265,1354,1234,1324,1218,1295,1212,1269,1205,1245,1187,1221,1170,1211"/>
-<area shape="poly" title=" " alt="" coords="1141,2016,1207,2027,1287,2031,1328,2027,1368,2017,1405,2001,1438,1977,1461,1949,1482,1911,1500,1864,1516,1809,1542,1683,1560,1545,1572,1406,1579,1277,1583,1097,1589,1097,1584,1277,1577,1406,1565,1545,1547,1684,1521,1810,1505,1865,1487,1913,1466,1952,1441,1981,1408,2006,1370,2022,1329,2032,1287,2036,1207,2033,1140,2021"/>
-<area shape="poly" title=" " alt="" coords="1095,1990,1146,1896,1187,1835,1234,1776,1267,1746,1300,1722,1303,1726,1270,1750,1238,1780,1191,1838,1151,1899,1099,1993"/>
-<area shape="poly" title=" " alt="" coords="504,29,854,29,1090,29,1145,26,1194,19,1281,5,1321,4,1360,11,1400,29,1442,62,1468,94,1490,138,1510,191,1527,253,1553,394,1571,547,1582,702,1587,844,1589,1040,1584,1040,1582,844,1576,702,1566,548,1548,394,1522,254,1505,193,1485,140,1463,97,1438,65,1397,34,1359,16,1320,9,1281,10,1195,24,1146,31,1091,34,854,34,504,34"/>
-<area shape="poly" title=" " alt="" coords="1141,1649,1218,1654,1306,1655,1386,1648,1417,1640,1438,1629,1453,1613,1468,1592,1494,1532,1517,1459,1536,1377,1565,1215,1580,1097,1586,1098,1570,1215,1542,1378,1522,1460,1499,1534,1472,1594,1457,1617,1441,1634,1419,1645,1387,1653,1306,1661,1217,1660,1141,1655"/>
-<area shape="poly" title=" " alt="" coords="1140,1639,1164,1632,1187,1620,1212,1599,1236,1575,1275,1521,1304,1468,1324,1424,1329,1426,1309,1470,1279,1524,1240,1578,1216,1603,1190,1624,1166,1637,1142,1644"/>
-<area shape="poly" title=" " alt="" coords="293,1277,351,1265,677,1207,998,1154,1487,1080,1488,1085,999,1159,678,1212,353,1270,294,1282"/>
-<area shape="rect" href="corrections_8cpp.html#a03bb2aaac418b065432d7a1037f568fe" title=" " alt="" coords="371,1280,501,1306"/>
-<area shape="poly" title=" " alt="" coords="304,1290,355,1290,355,1295,304,1295"/>
-<area shape="poly" title=" " alt="" coords="1154,1305,1229,1318,1312,1329,1387,1331,1417,1327,1438,1320,1468,1298,1494,1272,1516,1242,1534,1210,1561,1147,1577,1096,1582,1098,1566,1149,1539,1213,1520,1245,1498,1275,1471,1302,1441,1324,1418,1333,1387,1336,1311,1334,1228,1324,1153,1310"/>
-<area shape="poly" title=" " alt="" coords="1158,1292,1248,1293,1248,1298,1158,1297"/>
-<area shape="poly" title=" " alt="" coords="1145,1305,1190,1324,1214,1344,1238,1364,1268,1377,1266,1382,1235,1368,1211,1348,1187,1328,1143,1310"/>
-<area shape="poly" title=" " alt="" coords="1149,1457,1214,1466,1290,1467,1329,1463,1368,1454,1404,1441,1438,1421,1475,1388,1506,1347,1530,1303,1548,1256,1572,1166,1581,1097,1587,1098,1577,1167,1553,1257,1534,1305,1510,1350,1479,1391,1441,1426,1407,1446,1369,1460,1330,1468,1290,1472,1213,1471,1148,1462"/>
-<area shape="poly" title=" " alt="" coords="1111,1431,1300,1316,1303,1320,1114,1435"/>
-<area shape="poly" title=" " alt="" coords="1159,1430,1260,1410,1262,1415,1160,1435"/>
-<area shape="poly" title=" " alt="" coords="295,79,643,79,1090,79,1170,77,1273,75,1325,78,1373,84,1413,95,1441,112,1466,143,1488,184,1507,235,1524,293,1550,426,1568,572,1579,718,1585,853,1589,1040,1583,1040,1580,853,1574,718,1562,572,1544,427,1518,294,1502,236,1483,187,1462,146,1438,116,1411,100,1372,89,1325,83,1273,81,1170,82,1091,85,643,85,295,85"/>
-<area shape="poly" title=" " alt="" coords="1144,1506,1209,1517,1287,1520,1327,1516,1366,1508,1404,1494,1438,1473,1480,1434,1512,1386,1537,1334,1556,1279,1569,1225,1577,1175,1583,1097,1588,1097,1582,1176,1574,1226,1561,1281,1542,1336,1517,1389,1484,1437,1441,1478,1406,1499,1368,1513,1328,1521,1287,1525,1208,1522,1143,1511"/>
-<area shape="poly" title=" " alt="" coords="1143,1488,1166,1481,1187,1469,1205,1447,1212,1424,1219,1399,1234,1371,1265,1340,1299,1316,1302,1320,1269,1344,1238,1374,1224,1401,1218,1425,1210,1450,1190,1473,1168,1486,1144,1494"/>
-<area shape="poly" title=" " alt="" coords="1145,1500,1168,1508,1190,1518,1234,1554,1272,1597,1303,1639,1325,1674,1320,1677,1298,1642,1268,1600,1231,1558,1187,1523,1166,1512,1143,1505"/>
-<area shape="poly" title=" " alt="" coords="1143,1482,1187,1469,1247,1443,1299,1416,1302,1421,1249,1448,1189,1474,1145,1487"/>
+<area shape="rect" title=" " alt="" coords="5,1311,116,1337"/>
+<area shape="rect" href="corrections_8cpp.html#aec7d30e71fe9289ed9f295400ed7e66f" title=" " alt="" coords="1098,171,1234,197"/>
+<area shape="poly" title=" " alt="" coords="61,1311,95,1081,130,898,175,699,201,601,231,506,263,419,298,341,336,276,377,226,398,207,421,193,444,185,468,182,688,182,1082,182,1082,187,688,187,468,187,445,190,423,198,402,211,381,229,341,279,303,344,268,421,236,508,207,602,180,701,135,899,101,1082,66,1311"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1565,1235,1734,1261"/>
+<area shape="poly" title=" " alt="" coords="60,1311,70,1167,90,929,121,679,140,575,161,498,188,419,211,343,233,272,258,209,290,157,310,134,334,116,361,101,392,89,427,83,468,80,1167,80,1247,78,1350,76,1402,78,1450,84,1490,95,1519,113,1534,137,1548,178,1573,297,1595,455,1612,634,1638,987,1649,1220,1644,1220,1632,988,1607,635,1589,456,1568,298,1543,179,1529,140,1515,117,1488,100,1449,90,1402,84,1350,81,1247,83,1168,86,468,86,428,88,393,95,363,105,337,120,314,138,295,160,263,212,238,274,216,344,193,420,166,500,145,576,126,680,95,930,75,1167,65,1311"/>
+<area shape="rect" href="corrections_8cpp.html#a1b406302d79572aea242fb170bd4da03" title=" " alt="" coords="195,779,306,805"/>
+<area shape="poly" title=" " alt="" coords="64,1310,161,1026,236,818,241,820,166,1028,69,1312"/>
+<area shape="rect" href="corrections_8cpp.html#ab5df2bd365fb3ff8a76f2c3cd80be071" title=" " alt="" coords="164,1818,337,1844"/>
+<area shape="poly" title=" " alt="" coords="67,1337,101,1474,130,1572,166,1671,201,1744,235,1804,231,1806,196,1747,161,1673,125,1574,96,1475,62,1338"/>
+<area shape="rect" href="corrections_8cpp.html#ae11005be5151523e7099dc05e6547226" title=" " alt="" coords="1114,1133,1218,1158"/>
+<area shape="poly" title=" " alt="" coords="72,1309,128,1255,171,1220,221,1183,277,1149,337,1120,402,1101,468,1094,688,1094,801,1097,914,1107,1099,1132,1098,1137,913,1112,801,1103,688,1099,468,1099,403,1106,339,1125,279,1154,224,1188,174,1224,132,1259,76,1313"/>
+<area shape="rect" href="corrections_8cpp.html#aad8e5468a722f494c7f51212b5654049" title=" " alt="" coords="1114,1433,1219,1458"/>
+<area shape="poly" title=" " alt="" coords="105,1335,174,1354,264,1374,365,1391,468,1398,688,1398,801,1401,914,1410,1098,1433,1098,1438,913,1415,801,1406,688,1403,468,1403,364,1396,263,1380,173,1359,104,1340"/>
+<area shape="rect" href="corrections_8cpp.html#a8a94c4cf1766c143191074d0c103b881" title=" " alt="" coords="1095,1482,1237,1508"/>
+<area shape="poly" title=" " alt="" coords="78,1335,116,1364,165,1391,246,1422,312,1439,380,1447,468,1448,688,1448,794,1451,900,1459,1080,1480,1080,1485,900,1464,794,1457,688,1454,468,1454,380,1452,311,1445,245,1427,163,1396,113,1368,75,1339"/>
+<area shape="rect" href="corrections_8cpp.html#ad6f5d711a0c1dc5aad6b0a64e8876d94" title=" " alt="" coords="855,1033,984,1058"/>
+<area shape="poly" title=" " alt="" coords="60,1311,66,1264,81,1199,94,1164,112,1131,134,1100,162,1075,204,1049,249,1028,295,1011,343,999,442,984,540,980,635,986,722,997,858,1026,857,1031,721,1002,634,991,540,986,442,989,344,1004,297,1016,251,1033,207,1054,165,1080,138,1104,116,1133,99,1166,86,1200,71,1265,65,1311"/>
+<area shape="rect" href="corrections_8cpp.html#ae2bfa8bf2b6b95bff448be5d4574c3ba" title=" " alt="" coords="1109,1641,1223,1666"/>
+<area shape="poly" title=" " alt="" coords="66,1337,73,1383,89,1448,102,1483,119,1517,140,1548,165,1576,203,1605,237,1626,270,1639,303,1647,376,1652,468,1651,688,1651,1094,1651,1094,1656,688,1656,468,1656,376,1657,302,1653,269,1644,235,1630,200,1609,162,1580,136,1552,114,1519,97,1485,84,1449,67,1384,60,1338"/>
+<area shape="rect" href="corrections_8cpp.html#a77b70ee2d7c101615eba3c84f343f0c6" title=" " alt="" coords="183,2153,318,2178"/>
+<area shape="poly" title=" " alt="" coords="67,1337,102,1542,132,1697,166,1856,208,2015,243,2137,238,2138,203,2017,161,1857,127,1698,97,1543,61,1338"/>
+<area shape="rect" href="corrections_8cpp.html#aaa75c05b0385f4d643c6febb37e3002c" title=" " alt="" coords="1115,1531,1217,1557"/>
+<area shape="poly" title=" " alt="" coords="71,1336,106,1391,133,1422,165,1447,206,1469,243,1484,276,1494,309,1499,379,1501,468,1499,688,1499,802,1502,915,1511,1100,1532,1099,1537,914,1516,801,1508,688,1504,468,1504,379,1506,308,1504,275,1499,241,1489,204,1474,162,1452,129,1426,101,1395,66,1339"/>
+<area shape="rect" href="corrections_8cpp.html#ae85d6de0cad4e5684d2fd1f5b1d5d42d" title=" " alt="" coords="180,1539,321,1565"/>
+<area shape="poly" title=" " alt="" coords="68,1336,79,1372,98,1421,127,1473,145,1497,165,1518,183,1530,180,1535,162,1522,141,1500,122,1476,93,1423,74,1374,63,1338"/>
+<area shape="rect" href="corrections_8cpp.html#afd5b14c4e1ba3c49d7fc157dd9cc07d4" title=" " alt="" coords="1098,1182,1234,1208"/>
+<area shape="poly" title=" " alt="" coords="94,1308,163,1286,247,1266,314,1254,381,1247,468,1246,688,1246,795,1242,902,1232,1083,1207,1083,1212,902,1238,795,1247,688,1251,468,1251,382,1253,315,1259,249,1271,164,1291,95,1313"/>
+<area shape="rect" href="corrections_8cpp.html#ab4ed32df1c90cf53bb9ad52b6579edc5" title=" " alt="" coords="1095,1334,1237,1360"/>
+<area shape="poly" title=" " alt="" coords="116,1316,274,1303,468,1296,688,1296,794,1300,900,1308,1080,1330,1079,1336,899,1313,794,1305,688,1302,468,1302,274,1309,116,1321"/>
+<area shape="rect" href="corrections_8cpp.html#a0ac22942fa946edac92953167c50a189" title=" " alt="" coords="190,19,311,45"/>
+<area shape="poly" title=" " alt="" coords="59,1311,65,1077,81,679,95,471,112,285,134,142,147,93,162,63,174,50,178,54,166,66,152,95,139,143,117,286,100,471,87,679,70,1077,65,1311"/>
+<area shape="rect" href="corrections_8cpp.html#a6b99b5a7f051cf460be48c4fd010f410" title=" " alt="" coords="1112,1383,1220,1409"/>
+<area shape="poly" title=" " alt="" coords="116,1327,274,1340,468,1347,688,1347,801,1351,913,1360,1097,1383,1096,1388,912,1365,800,1356,688,1352,468,1352,274,1345,116,1332"/>
+<area shape="rect" href="maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1" title="Integer based percentage calculation: faster, but less accurate, than percentage()" alt="" coords="1352,627,1478,653"/>
+<area shape="poly" title=" " alt="" coords="1187,196,1228,232,1250,257,1268,284,1282,317,1290,346,1294,399,1297,451,1303,480,1316,512,1332,542,1352,569,1391,615,1387,618,1348,573,1328,545,1311,515,1298,481,1291,452,1288,399,1284,347,1277,319,1263,287,1246,260,1224,236,1184,199"/>
+<area shape="poly" title=" " alt="" coords="1215,168,1283,156,1364,152,1406,156,1447,166,1485,183,1519,208,1533,230,1546,266,1570,375,1591,518,1609,681,1636,1004,1649,1220,1644,1220,1631,1005,1604,682,1586,519,1565,376,1541,268,1528,232,1515,211,1482,187,1445,171,1405,161,1364,157,1283,161,1216,173"/>
+<area shape="poly" title=" " alt="" coords="1479,647,1500,656,1519,670,1546,714,1570,777,1590,854,1608,937,1634,1101,1648,1220,1643,1220,1629,1102,1603,938,1585,855,1565,779,1541,716,1515,674,1498,661,1477,652"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1956,1235,2050,1261"/>
+<area shape="poly" title=" " alt="" coords="1734,1246,1940,1246,1940,1251,1734,1251"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1782,1261,1908,1286"/>
+<area shape="poly" title=" " alt="" coords="1735,1257,1767,1261,1766,1266,1734,1262"/>
+<area shape="poly" title=" " alt="" coords="1908,1261,1940,1256,1941,1261,1909,1266"/>
+<area shape="rect" href="corrections_8cpp.html#a888a6fb11941a4e90c01900a3f51da69" title=" " alt="" coords="385,399,553,425"/>
+<area shape="poly" title=" " alt="" coords="259,778,355,615,453,438,458,440,359,618,264,780"/>
+<area shape="rect" href="corrections_8cpp.html#ad45e15982f2cc0272877dc8ea980b265" title=" " alt="" coords="387,779,552,805"/>
+<area shape="poly" title=" " alt="" coords="306,797,371,799,371,804,306,803"/>
+<area shape="poly" title=" " alt="" coords="475,398,521,330,557,291,600,258,684,218,796,179,928,145,1068,118,1206,103,1272,101,1334,103,1391,109,1442,121,1485,138,1519,161,1534,184,1548,222,1573,335,1594,486,1612,657,1637,996,1649,1220,1644,1220,1632,996,1607,658,1589,487,1568,336,1543,223,1529,186,1515,165,1482,143,1440,126,1390,115,1334,108,1272,106,1207,109,1068,124,929,150,798,184,686,223,603,262,561,295,525,334,480,401"/>
+<area shape="poly" title=" " alt="" coords="460,427,365,589,267,767,262,764,360,587,456,424"/>
+<area shape="rect" href="corrections_8cpp.html#a9072983fc6df1abea6cb765ef6cf9936" title=" " alt="" coords="1108,298,1224,324"/>
+<area shape="poly" title=" " alt="" coords="497,396,545,376,601,359,735,334,871,319,994,311,1092,308,1092,314,994,317,871,324,736,339,602,364,547,381,499,401"/>
+<area shape="rect" href="corrections_8cpp.html#aa2d2df2c9f680f8c3d02a3049ae1ea7e" title=" " alt="" coords="629,678,744,704"/>
+<area shape="poly" title=" " alt="" coords="483,424,668,664,664,667,479,427"/>
+<area shape="rect" href="corrections_8cpp.html#a4214c1b743407757b7948cec6725ce94" title=" " alt="" coords="610,273,763,298"/>
+<area shape="poly" title=" " alt="" coords="484,397,534,358,600,315,628,302,631,307,603,320,537,362,488,401"/>
+<area shape="rect" href="corrections_8cpp.html#a5ca5d3b401ad623fac9522a51c616aee" title=" " alt="" coords="618,374,755,400"/>
+<area shape="poly" title=" " alt="" coords="553,400,602,394,603,399,554,405"/>
+<area shape="rect" href="corrections_8cpp.html#abcd2bdc9abb0d7ff4eadeb395d992336" title=" " alt="" coords="621,425,752,450"/>
+<area shape="poly" title=" " alt="" coords="554,419,606,426,605,431,553,425"/>
+<area shape="poly" title=" " alt="" coords="1202,295,1268,276,1352,264,1397,264,1441,270,1482,285,1519,309,1532,328,1545,361,1568,457,1589,585,1607,732,1634,1023,1649,1219,1644,1220,1629,1023,1602,732,1584,586,1563,458,1540,362,1527,331,1515,313,1479,290,1439,275,1396,269,1353,269,1269,281,1204,300"/>
+<area shape="rect" href="sensors_8cpp.html#a64d1261ebf6183e1e6ea1c9fdf219295" title="Get the MAP change between the last 2 readings." alt="" coords="1366,323,1464,349"/>
+<area shape="poly" title=" " alt="" coords="1225,314,1351,327,1350,332,1224,319"/>
+<area shape="rect" href="sensors_8cpp.html#a5ad24b38cd570c95f0e92ed6fe0c06ed" title="Get the time in µS between the last 2 MAP readings." alt="" coords="1351,222,1479,248"/>
+<area shape="poly" title=" " alt="" coords="1210,295,1355,250,1357,255,1212,300"/>
+<area shape="poly" title=" " alt="" coords="1466,338,1494,348,1519,366,1539,397,1557,436,1587,537,1610,660,1626,792,1638,925,1645,1048,1650,1219,1645,1220,1639,1048,1632,925,1621,793,1605,660,1582,539,1552,438,1534,399,1515,370,1492,353,1464,343"/>
+<area shape="poly" title=" " alt="" coords="728,675,898,625,1011,595,1133,568,1253,549,1363,540,1412,541,1454,547,1490,558,1518,574,1537,594,1554,622,1582,695,1604,785,1621,885,1642,1082,1650,1220,1644,1220,1636,1082,1616,886,1599,787,1577,697,1549,624,1533,598,1515,578,1488,563,1453,552,1411,547,1363,546,1254,554,1134,574,1013,600,899,630,730,680"/>
+<area shape="rect" href="corrections_8cpp.html#a2c052bf7869552f61cf9d0aad82d820c" title=" " alt="" coords="848,678,991,704"/>
+<area shape="poly" title=" " alt="" coords="744,688,832,688,832,694,744,694"/>
+<area shape="rect" href="corrections_8cpp.html#a3046c7564b8982aea4664720f4a6e114" title=" " alt="" coords="844,729,995,754"/>
+<area shape="poly" title=" " alt="" coords="745,701,843,722,842,727,744,706"/>
+<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="1353,1286,1477,1312"/>
+<area shape="poly" title=" " alt="" coords="745,697,761,704,774,716,790,739,802,761,813,805,811,848,804,891,796,933,792,977,799,1022,808,1045,822,1069,843,1097,864,1116,886,1130,908,1141,960,1159,1020,1189,1044,1205,1068,1218,1122,1236,1165,1245,1266,1262,1343,1279,1341,1285,1265,1267,1164,1250,1120,1241,1066,1223,1041,1209,1018,1193,958,1164,906,1146,883,1135,861,1121,839,1100,817,1072,803,1048,794,1023,787,977,790,933,799,890,806,847,807,806,797,763,786,741,770,719,758,709,743,702"/>
+<area shape="poly" title=" " alt="" coords="991,683,1121,676,1277,675,1353,680,1422,689,1478,704,1518,725,1533,740,1546,761,1571,816,1591,885,1609,960,1634,1110,1648,1220,1643,1220,1629,1111,1604,961,1586,886,1566,818,1542,764,1529,744,1515,729,1476,709,1421,694,1353,685,1277,681,1122,681,991,688"/>
+<area shape="rect" href="corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620" title=" " alt="" coords="1094,729,1238,754"/>
+<area shape="poly" title=" " alt="" coords="986,702,1086,722,1085,728,985,707"/>
+<area shape="rect" href="corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291" title=" " alt="" coords="1103,627,1230,653"/>
+<area shape="poly" title=" " alt="" coords="985,675,1087,654,1088,659,986,680"/>
+<area shape="poly" title=" " alt="" coords="1199,726,1367,657,1369,662,1201,731"/>
+<area shape="poly" title=" " alt="" coords="1229,725,1295,718,1372,718,1411,724,1449,734,1486,749,1518,772,1544,804,1567,854,1587,916,1605,984,1632,1119,1647,1220,1642,1221,1626,1120,1600,985,1582,917,1562,856,1540,807,1515,776,1483,754,1448,739,1410,729,1371,723,1295,723,1229,731"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="1341,1185,1489,1210"/>
+<area shape="poly" title=" " alt="" coords="1177,754,1316,1019,1401,1170,1396,1173,1311,1022,1172,756"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="1328,1590,1502,1616"/>
+<area shape="poly" title=" " alt="" coords="1174,754,1215,882,1268,1070,1283,1141,1291,1197,1300,1253,1316,1324,1362,1466,1405,1575,1400,1577,1357,1468,1311,1325,1294,1254,1286,1198,1277,1142,1263,1072,1210,883,1169,755"/>
+<area shape="poly" title=" " alt="" coords="1478,1208,1573,1229,1571,1234,1477,1214"/>
+<area shape="poly" title=" " alt="" coords="1485,1587,1515,1569,1545,1536,1570,1498,1591,1457,1608,1416,1631,1337,1642,1276,1647,1277,1636,1338,1613,1417,1596,1459,1575,1501,1549,1539,1518,1573,1487,1592"/>
+<area shape="poly" title=" " alt="" coords="1230,638,1337,638,1337,643,1230,643"/>
+<area shape="poly" title=" " alt="" coords="1194,624,1259,599,1300,587,1344,578,1390,574,1436,577,1479,590,1518,613,1536,632,1552,657,1579,726,1601,810,1618,904,1640,1088,1649,1219,1644,1220,1635,1088,1613,904,1596,811,1574,727,1547,660,1532,635,1515,617,1477,594,1435,583,1390,580,1345,584,1301,592,1260,604,1196,629"/>
+<area shape="poly" title=" " alt="" coords="1477,1283,1571,1262,1572,1268,1478,1288"/>
+<area shape="poly" title=" " alt="" coords="755,377,934,363,1045,358,1162,357,1275,361,1377,373,1461,394,1493,409,1518,426,1540,452,1559,487,1575,530,1590,579,1613,692,1629,815,1640,940,1646,1056,1651,1220,1645,1220,1641,1056,1635,941,1624,816,1608,693,1585,580,1570,532,1554,490,1536,455,1515,430,1491,413,1459,399,1376,378,1274,367,1161,362,1045,363,934,368,755,382"/>
+<area shape="poly" title=" " alt="" coords="752,432,942,427,1182,425,1299,428,1399,434,1476,445,1502,452,1518,461,1540,485,1558,518,1575,559,1589,605,1612,713,1628,831,1639,950,1646,1061,1650,1220,1645,1220,1640,1061,1634,951,1623,831,1606,714,1584,607,1569,560,1553,521,1535,488,1515,465,1500,457,1474,450,1399,439,1298,433,1182,430,942,432,752,438"/>
+<area shape="poly" title=" " alt="" coords="489,803,539,835,570,852,602,864,688,886,757,893,918,891,1167,891,1222,889,1270,884,1354,874,1393,875,1432,883,1473,900,1518,929,1551,959,1578,996,1600,1036,1617,1077,1639,1157,1648,1219,1643,1220,1633,1158,1612,1079,1595,1038,1574,999,1547,963,1515,933,1471,905,1431,888,1392,881,1354,880,1271,889,1222,894,1168,896,918,896,757,899,687,891,601,869,567,856,536,840,487,808"/>
+<area shape="poly" title=" " alt="" coords="386,786,321,786,321,781,386,781"/>
+<area shape="rect" href="corrections_8cpp.html#ad5f957b792afbdb5131fc26daa4f1835" title=" " alt="" coords="857,931,982,957"/>
+<area shape="poly" title=" " alt="" coords="482,804,530,858,564,887,602,910,663,930,726,942,787,947,842,947,842,952,787,952,725,947,661,935,600,915,561,891,526,861,478,807"/>
+<area shape="rect" href="corrections_8cpp.html#a8c5fb04063aa9f2e75914130366b61c7" title=" " alt="" coords="633,779,740,805"/>
+<area shape="poly" title=" " alt="" coords="552,790,617,790,617,795,552,795"/>
+<area shape="rect" href="corrections_8cpp.html#aae96002c8137c3c28a0cdc2243e57164" title=" " alt="" coords="614,730,759,756"/>
+<area shape="poly" title=" " alt="" coords="529,776,611,757,613,762,530,781"/>
+<area shape="rect" href="corrections_8cpp.html#a8a108192e30355f6ad8cb4127fce6d77" title=" " alt="" coords="1350,475,1480,501"/>
+<area shape="poly" title=" " alt="" coords="479,777,527,724,604,650,652,611,704,574,760,542,819,518,887,499,958,485,1030,476,1100,472,1231,471,1335,477,1335,482,1230,476,1100,477,1030,482,959,490,888,504,821,523,762,547,707,578,655,615,608,654,530,728,483,781"/>
+<area shape="rect" href="corrections_8cpp.html#a5f76f1e97a256e73ab434e1ebbd2dc22" title=" " alt="" coords="625,829,748,854"/>
+<area shape="poly" title=" " alt="" coords="530,803,613,822,611,827,529,808"/>
+<area shape="poly" title=" " alt="" coords="982,936,1110,929,1267,926,1345,929,1416,937,1475,949,1518,967,1549,993,1575,1024,1596,1058,1612,1094,1635,1164,1647,1220,1642,1221,1630,1166,1608,1096,1591,1061,1570,1027,1545,997,1515,972,1474,954,1415,942,1345,935,1267,932,1110,934,982,942"/>
+<area shape="poly" title=" " alt="" coords="741,788,927,786,1171,788,1290,793,1394,800,1474,811,1501,819,1518,827,1560,870,1592,920,1616,975,1632,1032,1643,1088,1649,1140,1652,1220,1646,1220,1643,1140,1638,1089,1627,1033,1611,977,1587,922,1556,873,1515,832,1499,824,1472,817,1394,805,1290,798,1171,794,927,792,741,794"/>
+<area shape="poly" title=" " alt="" coords="740,779,770,766,785,754,793,741,803,727,818,714,832,707,834,712,821,718,807,731,798,744,789,757,773,770,742,784"/>
+<area shape="poly" title=" " alt="" coords="740,778,841,756,843,761,741,783"/>
+<area shape="poly" title=" " alt="" coords="742,795,759,802,774,814,790,837,802,859,812,903,809,947,801,990,792,1032,789,1075,797,1119,807,1141,822,1164,848,1193,874,1214,901,1228,928,1237,991,1247,1068,1262,1138,1276,1210,1285,1338,1295,1337,1300,1210,1291,1137,1281,1066,1267,990,1253,927,1242,899,1233,871,1219,845,1197,818,1167,802,1144,792,1121,783,1076,786,1032,795,988,804,946,806,904,797,861,786,840,770,818,756,807,739,800"/>
+<area shape="poly" title=" " alt="" coords="1481,495,1501,504,1519,518,1536,543,1552,575,1578,657,1600,756,1617,864,1640,1074,1649,1220,1644,1220,1634,1075,1612,865,1595,757,1573,658,1547,577,1531,546,1515,522,1499,509,1479,500"/>
+<area shape="poly" title=" " alt="" coords="748,833,923,820,1151,813,1265,816,1370,826,1457,844,1491,857,1518,873,1557,909,1587,953,1610,1001,1627,1051,1638,1101,1645,1147,1651,1220,1645,1220,1640,1148,1633,1102,1622,1052,1605,1003,1582,955,1553,913,1515,877,1489,862,1455,849,1369,831,1265,822,1151,818,923,825,749,838"/>
+<area shape="poly" title=" " alt="" coords="337,1820,499,1809,685,1803,1168,1803,1349,1808,1400,1806,1448,1801,1487,1791,1515,1775,1529,1760,1542,1740,1566,1684,1587,1615,1604,1539,1629,1387,1643,1276,1648,1276,1635,1387,1609,1540,1592,1617,1571,1686,1547,1742,1533,1764,1518,1780,1489,1796,1448,1806,1401,1811,1349,1813,1167,1808,685,1808,499,1814,338,1826"/>
+<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="441,1843,497,1869"/>
+<area shape="poly" title=" " alt="" coords="337,1838,426,1849,425,1854,337,1844"/>
+<area shape="rect" href="corrections_8cpp.html#a6870269fdd0bed21dea671a82e0271e1" title=" " alt="" coords="391,2095,547,2121"/>
+<area shape="poly" title=" " alt="" coords="264,1843,450,2082,446,2085,260,1846"/>
+<area shape="rect" href="corrections_8cpp.html#a04953efcdd2ec0f8bec3b5cf7e3b11fd" title=" " alt="" coords="828,1691,1011,1717"/>
+<area shape="poly" title=" " alt="" coords="262,1816,311,1770,346,1746,384,1727,439,1710,495,1698,610,1685,719,1683,812,1689,812,1694,719,1689,610,1690,496,1703,440,1715,386,1732,349,1750,315,1774,265,1820"/>
+<area shape="rect" href="corrections_8cpp.html#ac6b484124436d55fe26918d21fb1b189" title=" " alt="" coords="393,2275,546,2301"/>
+<area shape="poly" title=" " alt="" coords="260,1843,310,1963,387,2132,455,2260,450,2263,383,2135,305,1965,255,1845"/>
+<area shape="rect" href="corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac" title=" " alt="" coords="389,1742,549,1768"/>
+<area shape="poly" title=" " alt="" coords="289,1815,415,1771,416,1776,291,1820"/>
+<area shape="rect" href="corrections_8cpp.html#acfd42abc690d32f5b90b1dfeb3ab7019" title=" " alt="" coords="412,1893,527,1918"/>
+<area shape="poly" title=" " alt="" coords="286,1842,386,1879,405,1885,404,1890,384,1884,284,1847"/>
+<area shape="poly" title=" " alt="" coords="498,1854,918,1854,1168,1854,1247,1856,1349,1857,1401,1854,1448,1848,1487,1838,1515,1822,1530,1805,1544,1783,1569,1721,1590,1646,1607,1562,1631,1396,1643,1276,1648,1277,1637,1396,1612,1563,1595,1647,1574,1723,1548,1785,1534,1809,1518,1826,1489,1843,1449,1853,1401,1860,1349,1862,1247,1861,1167,1859,918,1859,498,1859"/>
+<area shape="poly" title=" " alt="" coords="486,2119,535,2161,568,2184,602,2203,689,2240,803,2281,933,2323,1072,2359,1209,2385,1274,2392,1335,2395,1391,2393,1440,2385,1482,2370,1515,2349,1529,2327,1543,2290,1568,2175,1590,2022,1608,1848,1633,1503,1644,1276,1649,1277,1638,1504,1613,1848,1595,2022,1574,2176,1548,2291,1534,2330,1519,2353,1484,2375,1441,2390,1391,2398,1335,2401,1274,2398,1208,2390,1071,2364,932,2328,801,2286,687,2245,600,2208,565,2188,532,2165,482,2124"/>
+<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="610,2025,763,2050"/>
+<area shape="poly" title=" " alt="" coords="511,2092,629,2053,631,2058,512,2097"/>
+<area shape="rect" href="corrections_8cpp.html#aaef907777eb18b918094e4cf57336034" title=" " alt="" coords="601,2167,772,2193"/>
+<area shape="poly" title=" " alt="" coords="511,2119,632,2159,630,2165,510,2124"/>
+<area shape="poly" title=" " alt="" coords="753,2021,819,2010,953,1998,1175,1982,1291,1971,1394,1957,1473,1942,1499,1933,1515,1924,1532,1903,1547,1875,1575,1801,1596,1710,1613,1610,1635,1414,1644,1276,1649,1277,1640,1414,1619,1611,1602,1711,1580,1803,1552,1878,1536,1906,1518,1928,1501,1938,1474,1947,1395,1962,1292,1976,1176,1987,953,2004,820,2015,754,2027"/>
+<area shape="rect" href="class_p_i_d.html#a0022f6329cd655ac1a3ec0d30d6c521d" title="Compute the next correction." alt="" coords="870,2025,969,2050"/>
+<area shape="poly" title=" " alt="" coords="763,2035,854,2035,854,2040,763,2040"/>
+<area shape="rect" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9" title=" " alt="" coords="856,2118,983,2144"/>
+<area shape="poly" title=" " alt="" coords="722,2048,872,2109,870,2114,720,2053"/>
+<area shape="rect" href="class_p_i_d.html#a46d8eaa8aee79bd01992108b8f9e62e4" title="Set the controller set point." alt="" coords="861,1894,978,1920"/>
+<area shape="poly" title=" " alt="" coords="700,2022,751,1981,818,1937,851,1923,853,1928,821,1941,754,1985,704,2026"/>
+<area shape="poly" title=" " alt="" coords="969,2033,1106,2027,1279,2015,1433,1998,1486,1987,1515,1974,1533,1952,1550,1922,1578,1842,1601,1744,1617,1635,1637,1423,1645,1276,1650,1277,1643,1424,1623,1636,1606,1745,1583,1844,1555,1924,1538,1955,1518,1978,1488,1992,1434,2003,1279,2021,1107,2032,970,2039"/>
+<area shape="rect" href="class_pid_core.html#ae896489f1d8cfbf9b895a912488cfe91" title="Compute the next correction." alt="" coords="1105,2053,1228,2078"/>
+<area shape="poly" title=" " alt="" coords="970,2041,1089,2054,1089,2060,969,2046"/>
+<area shape="poly" title=" " alt="" coords="1194,2077,1258,2104,1299,2117,1344,2128,1390,2133,1435,2130,1477,2119,1515,2096,1537,2070,1557,2035,1574,1992,1589,1941,1612,1825,1628,1696,1638,1567,1643,1446,1646,1277,1651,1277,1649,1447,1643,1567,1633,1697,1617,1826,1594,1943,1579,1994,1561,2038,1541,2073,1518,2100,1479,2124,1436,2136,1390,2138,1343,2133,1298,2122,1256,2109,1192,2081"/>
+<area shape="rect" href="struct_pid_tuning_parameters.html#a8f85e91554011e97b7b3ebd849f26649" title="Basic PID calculation." alt="" coords="1342,2045,1488,2086"/>
+<area shape="poly" title=" " alt="" coords="1228,2063,1326,2063,1326,2068,1228,2068"/>
+<area shape="poly" title=" " alt="" coords="1487,2046,1502,2037,1515,2025,1532,1999,1547,1965,1575,1876,1597,1770,1614,1653,1635,1429,1644,1276,1650,1276,1641,1430,1619,1654,1602,1771,1580,1878,1552,1967,1536,2002,1519,2029,1506,2041,1490,2051"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="1095,2161,1237,2186"/>
+<area shape="poly" title=" " alt="" coords="983,2139,1080,2156,1079,2161,982,2144"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="1110,2262,1223,2288"/>
+<area shape="poly" title=" " alt="" coords="984,2139,1020,2153,1046,2173,1069,2197,1137,2251,1133,2255,1065,2201,1042,2177,1018,2157,982,2144"/>
+<area shape="poly" title=" " alt="" coords="1223,2184,1291,2194,1369,2195,1409,2189,1448,2179,1483,2162,1515,2138,1537,2110,1557,2073,1574,2026,1589,1973,1612,1849,1628,1714,1638,1578,1643,1453,1646,1276,1651,1277,1649,1453,1644,1579,1634,1715,1618,1850,1594,1974,1579,2028,1562,2075,1542,2113,1519,2142,1486,2167,1449,2184,1410,2194,1369,2200,1290,2199,1223,2190"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="1332,2211,1498,2237"/>
+<area shape="poly" title=" " alt="" coords="1233,2184,1334,2205,1333,2210,1232,2190"/>
+<area shape="poly" title=" " alt="" coords="1490,2209,1515,2190,1536,2159,1555,2116,1571,2066,1586,2008,1609,1876,1625,1733,1635,1590,1642,1459,1645,1276,1651,1276,1647,1459,1641,1590,1630,1734,1614,1877,1591,2009,1576,2067,1560,2118,1540,2161,1519,2194,1493,2213"/>
+<area shape="poly" title=" " alt="" coords="1223,2276,1301,2279,1387,2278,1465,2269,1495,2260,1515,2248,1528,2228,1540,2194,1564,2090,1585,1952,1603,1796,1630,1485,1644,1276,1649,1277,1635,1485,1608,1796,1590,1953,1569,2091,1545,2195,1532,2230,1519,2251,1497,2265,1466,2274,1388,2283,1300,2285,1223,2282"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="1346,2313,1484,2338"/>
+<area shape="poly" title=" " alt="" coords="1224,2284,1334,2306,1333,2312,1223,2289"/>
+<area shape="poly" title=" " alt="" coords="1483,2313,1500,2304,1515,2292,1538,2256,1558,2209,1576,2152,1591,2088,1615,1941,1631,1781,1640,1623,1645,1477,1646,1277,1651,1277,1650,1477,1645,1623,1636,1782,1620,1942,1596,2089,1581,2154,1563,2211,1543,2259,1519,2295,1503,2309,1485,2318"/>
+<area shape="poly" title=" " alt="" coords="979,1910,1108,1918,1268,1921,1346,1917,1417,1908,1475,1894,1498,1884,1515,1873,1531,1855,1546,1830,1573,1763,1594,1679,1611,1587,1634,1406,1644,1276,1649,1277,1639,1406,1617,1588,1599,1680,1578,1764,1551,1832,1536,1858,1518,1877,1500,1889,1477,1899,1418,1914,1347,1922,1268,1926,1108,1923,978,1915"/>
+<area shape="rect" href="corrections_8cpp.html#ab40f0f594193f74a8fe41a608824c0d1" title=" " alt="" coords="820,2217,1019,2242"/>
+<area shape="poly" title=" " alt="" coords="751,2191,841,2210,840,2216,750,2196"/>
+<area shape="rect" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9" title=" " alt="" coords="821,2167,1018,2193"/>
+<area shape="poly" title=" " alt="" coords="772,2178,806,2178,806,2183,772,2183"/>
+<area shape="poly" title=" " alt="" coords="1012,1705,1133,1699,1200,1691,1265,1676,1327,1652,1380,1622,1382,1627,1329,1656,1266,1681,1201,1696,1134,1705,1012,1710"/>
+<area shape="rect" href="corrections_8cpp.html#a4cd03bbf6432745f9150ee31c282394b" title=" " alt="" coords="618,2375,755,2401"/>
+<area shape="poly" title=" " alt="" coords="495,2299,602,2354,634,2367,632,2372,600,2359,493,2304"/>
+<area shape="poly" title=" " alt="" coords="550,1752,918,1752,1168,1752,1223,1755,1272,1760,1356,1770,1395,1769,1433,1760,1473,1742,1515,1712,1539,1680,1561,1632,1581,1573,1599,1507,1626,1374,1642,1276,1647,1277,1631,1375,1604,1508,1586,1574,1566,1634,1544,1683,1519,1715,1475,1747,1435,1765,1395,1774,1356,1775,1271,1765,1222,1760,1167,1758,918,1758,550,1758"/>
+<area shape="poly" title=" " alt="" coords="1218,1140,1280,1139,1355,1142,1437,1151,1518,1170,1573,1194,1620,1224,1617,1228,1571,1199,1516,1175,1436,1156,1355,1147,1280,1144,1219,1145"/>
+<area shape="poly" title=" " alt="" coords="1219,1154,1336,1178,1335,1184,1218,1159"/>
+<area shape="poly" title=" " alt="" coords="1219,1150,1243,1156,1267,1167,1283,1180,1293,1193,1315,1221,1383,1275,1380,1279,1311,1225,1289,1196,1279,1184,1264,1172,1242,1161,1218,1155"/>
+<area shape="poly" title=" " alt="" coords="1219,1448,1282,1449,1358,1445,1439,1430,1478,1417,1515,1401,1554,1373,1586,1339,1613,1304,1632,1273,1636,1276,1617,1307,1590,1343,1557,1377,1518,1405,1480,1422,1441,1435,1359,1450,1282,1455,1219,1453"/>
+<area shape="poly" title=" " alt="" coords="1218,1435,1264,1419,1301,1397,1335,1371,1390,1321,1393,1325,1339,1375,1304,1402,1266,1424,1220,1440"/>
+<area shape="poly" title=" " alt="" coords="1238,1501,1301,1504,1373,1500,1447,1484,1482,1471,1515,1454,1539,1436,1560,1415,1595,1366,1621,1316,1637,1275,1642,1277,1626,1318,1600,1369,1564,1418,1543,1440,1518,1458,1485,1476,1449,1489,1374,1505,1301,1509,1238,1507"/>
+<area shape="poly" title=" " alt="" coords="1236,1481,1264,1469,1307,1436,1344,1397,1374,1357,1396,1324,1401,1326,1379,1360,1348,1400,1310,1440,1267,1473,1239,1486"/>
+<area shape="poly" title=" " alt="" coords="985,1042,1112,1043,1267,1050,1414,1066,1474,1078,1518,1094,1557,1121,1590,1155,1617,1190,1636,1221,1632,1224,1613,1193,1586,1158,1554,1125,1515,1099,1472,1083,1414,1071,1267,1055,1111,1049,985,1048"/>
+<area shape="rect" href="corrections_8cpp.html#a4c64820a1044156e0d50a5940b40f089" title=" " alt="" coords="1313,982,1517,1008"/>
+<area shape="poly" title=" " alt="" coords="984,1034,1067,1024,1297,1002,1298,1007,1067,1030,985,1040"/>
+<area shape="rect" href="corrections_8cpp.html#a37ba24b4231172a726bedbef7a933611" title=" " alt="" coords="1067,1083,1265,1109"/>
+<area shape="poly" title=" " alt="" coords="985,1056,1086,1077,1085,1082,984,1061"/>
+<area shape="poly" title=" " alt="" coords="1483,1006,1518,1025,1563,1071,1599,1125,1625,1177,1641,1220,1637,1222,1620,1179,1594,1127,1559,1074,1515,1029,1481,1011"/>
+<area shape="poly" title=" " alt="" coords="1266,1090,1325,1093,1389,1100,1455,1114,1518,1135,1551,1153,1582,1176,1629,1222,1625,1226,1578,1180,1548,1158,1516,1140,1453,1119,1388,1105,1324,1098,1266,1096"/>
+<area shape="poly" title=" " alt="" coords="1233,1107,1266,1118,1328,1145,1380,1174,1378,1179,1325,1150,1264,1123,1231,1112"/>
+<area shape="poly" title=" " alt="" coords="1250,1107,1267,1118,1287,1143,1295,1168,1300,1194,1315,1221,1346,1251,1379,1275,1375,1280,1342,1255,1311,1224,1295,1196,1289,1170,1282,1145,1264,1122,1247,1112"/>
+<area shape="poly" title=" " alt="" coords="1199,1664,1263,1686,1346,1704,1391,1706,1435,1703,1477,1691,1515,1670,1538,1643,1560,1601,1580,1548,1597,1488,1625,1367,1641,1276,1646,1277,1630,1368,1602,1489,1585,1549,1565,1603,1543,1646,1518,1674,1479,1696,1436,1708,1391,1712,1345,1709,1261,1692,1197,1670"/>
+<area shape="poly" title=" " alt="" coords="1223,1639,1333,1617,1334,1622,1225,1645"/>
+<area shape="poly" title=" " alt="" coords="263,2177,312,2240,347,2277,387,2311,462,2367,526,2406,558,2419,594,2429,636,2434,685,2436,1168,2436,1223,2439,1273,2446,1359,2459,1398,2460,1436,2452,1475,2434,1515,2401,1529,2377,1543,2337,1568,2216,1590,2055,1608,1872,1633,1512,1644,1276,1650,1277,1638,1513,1613,1873,1595,2056,1574,2217,1548,2339,1534,2380,1519,2405,1478,2438,1438,2457,1399,2465,1359,2465,1272,2451,1222,2445,1167,2442,685,2442,635,2440,593,2434,556,2424,523,2411,459,2372,383,2316,343,2281,307,2243,259,2180"/>
+<area shape="poly" title=" " alt="" coords="1218,1551,1282,1557,1360,1557,1401,1552,1441,1543,1480,1529,1515,1509,1543,1485,1567,1457,1587,1425,1604,1392,1628,1328,1641,1276,1646,1277,1633,1329,1609,1394,1592,1428,1572,1460,1547,1489,1518,1513,1482,1533,1443,1548,1402,1557,1361,1562,1282,1563,1217,1556"/>
+<area shape="poly" title=" " alt="" coords="1217,1537,1241,1530,1264,1518,1289,1498,1312,1474,1351,1421,1381,1368,1401,1325,1406,1327,1386,1371,1356,1424,1316,1477,1293,1501,1267,1522,1243,1535,1218,1542"/>
+<area shape="poly" title=" " alt="" coords="316,1563,385,1575,535,1594,685,1600,921,1600,1031,1603,1117,1611,1203,1619,1314,1626,1373,1634,1422,1646,1444,1649,1466,1648,1489,1641,1515,1626,1554,1590,1584,1547,1607,1499,1624,1448,1635,1397,1641,1350,1646,1276,1651,1277,1647,1351,1640,1398,1629,1449,1612,1501,1589,1550,1558,1594,1518,1630,1492,1646,1467,1653,1444,1655,1421,1652,1372,1639,1313,1631,1203,1625,1117,1616,1031,1609,921,1606,685,1606,534,1600,385,1580,315,1568"/>
+<area shape="rect" href="corrections_8cpp.html#a03bb2aaac418b065432d7a1037f568fe" title=" " alt="" coords="404,1539,534,1565"/>
+<area shape="poly" title=" " alt="" coords="321,1550,388,1550,388,1555,321,1555"/>
+<area shape="poly" title=" " alt="" coords="1230,1206,1314,1220,1436,1233,1549,1241,1549,1246,1435,1238,1313,1226,1229,1211"/>
+<area shape="poly" title=" " alt="" coords="1235,1193,1325,1194,1325,1199,1235,1198"/>
+<area shape="poly" title=" " alt="" coords="1222,1206,1267,1225,1291,1245,1315,1265,1345,1278,1343,1283,1312,1269,1288,1249,1264,1229,1220,1211"/>
+<area shape="poly" title=" " alt="" coords="1238,1349,1298,1350,1369,1347,1443,1338,1516,1322,1571,1298,1617,1268,1620,1273,1573,1302,1518,1327,1444,1343,1369,1352,1298,1355,1238,1354"/>
+<area shape="poly" title=" " alt="" coords="1188,1331,1377,1216,1380,1221,1191,1336"/>
+<area shape="poly" title=" " alt="" coords="1236,1331,1337,1311,1339,1316,1237,1336"/>
+<area shape="poly" title=" " alt="" coords="312,30,685,30,1167,30,1222,26,1272,19,1359,5,1399,3,1438,11,1478,29,1519,62,1535,88,1549,130,1575,255,1596,421,1614,608,1638,978,1650,1220,1644,1220,1633,978,1609,609,1591,421,1569,256,1544,132,1530,90,1515,66,1475,34,1436,16,1398,9,1359,10,1273,25,1223,32,1168,35,685,35,312,35"/>
+<area shape="poly" title=" " alt="" coords="1221,1397,1283,1397,1358,1391,1438,1378,1516,1354,1548,1337,1578,1315,1625,1271,1628,1275,1581,1319,1551,1341,1518,1359,1439,1383,1359,1397,1283,1402,1221,1402"/>
+<area shape="poly" title=" " alt="" coords="1220,1389,1243,1382,1264,1370,1282,1348,1289,1325,1296,1300,1311,1272,1342,1241,1376,1217,1379,1221,1346,1245,1315,1275,1301,1302,1295,1326,1287,1350,1267,1374,1245,1387,1221,1394"/>
+<area shape="poly" title=" " alt="" coords="1222,1400,1245,1407,1267,1418,1312,1454,1350,1497,1381,1540,1402,1575,1398,1578,1376,1543,1346,1500,1308,1458,1264,1422,1243,1412,1220,1405"/>
+<area shape="poly" title=" " alt="" coords="1220,1383,1264,1370,1324,1344,1376,1317,1379,1322,1326,1349,1266,1375,1222,1388"/>
 </map>
 </div>
 <div class="dynheader">
@@ -3805,134 +3908,136 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_abb6e25cc6b33ea84b9ecfaec0aa06d46_cgraph.png" border="0" usemap="#acorrections_8cpp_abb6e25cc6b33ea84b9ecfaec0aa06d46_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_abb6e25cc6b33ea84b9ecfaec0aa06d46_cgraph" id="acorrections_8cpp_abb6e25cc6b33ea84b9ecfaec0aa06d46_cgraph">
-<area shape="rect" title=" " alt="" coords="5,762,109,787"/>
-<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="705,838,775,863"/>
-<area shape="poly" title=" " alt="" coords="109,773,325,785,465,798,605,816,690,834,689,840,604,821,464,803,325,790,109,779"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1556,712,1725,738"/>
-<area shape="poly" title=" " alt="" coords="57,761,64,700,79,602,106,481,147,351,174,286,205,225,240,168,281,117,328,75,380,43,438,22,503,14,1196,14,1290,9,1367,3,1402,6,1437,15,1473,34,1510,65,1527,86,1542,113,1569,186,1590,274,1608,372,1630,562,1640,697,1635,697,1625,563,1602,373,1585,276,1564,187,1537,116,1522,89,1506,68,1470,39,1435,20,1401,11,1367,8,1290,14,1197,20,503,20,439,27,382,47,331,79,285,121,245,171,209,227,179,288,152,352,112,482,85,603,69,701,62,762"/>
-<area shape="rect" href="corrections_8cpp.html#af1162204829e06af029f94d288734e9d" title=" " alt="" coords="428,560,580,586"/>
-<area shape="poly" title=" " alt="" coords="64,760,99,710,125,683,155,659,202,639,268,619,413,587,414,592,269,624,203,644,158,663,128,686,103,714,68,763"/>
-<area shape="rect" href="corrections_8cpp.html#a772dfea7ea13932573c8dbbc0933ca02" title=" " alt="" coords="157,559,356,585"/>
-<area shape="poly" title=" " alt="" coords="60,760,71,728,91,686,118,641,155,602,175,589,178,594,158,606,123,644,95,688,76,730,65,762"/>
-<area shape="rect" href="corrections_8cpp.html#afe09c6fe4ed0032f9989e7270ee140ee" title=" " alt="" coords="427,660,582,686"/>
-<area shape="poly" title=" " alt="" coords="109,760,429,687,430,693,110,765"/>
-<area shape="rect" href="corrections_8cpp.html#a28fd470690407ed9f2febf7682310e77" title=" " alt="" coords="182,812,331,838"/>
-<area shape="poly" title=" " alt="" coords="110,785,189,805,187,810,108,790"/>
-<area shape="rect" href="corrections_8cpp.html#aeb6d2bd4bb6eac1801bf92e5b6b4eda1" title=" " alt="" coords="434,408,575,434"/>
-<area shape="poly" title=" " alt="" coords="56,761,60,710,74,637,86,597,104,558,126,521,155,490,184,468,216,451,285,428,355,417,418,414,418,419,355,422,286,433,218,456,187,473,158,494,130,524,108,560,91,599,79,638,65,711,61,762"/>
-<area shape="rect" href="corrections_8cpp.html#a1a2563bdd14478d6504487d41875994a" title=" " alt="" coords="438,458,570,483"/>
-<area shape="poly" title=" " alt="" coords="57,761,65,719,81,660,110,598,131,569,155,544,185,523,218,506,288,482,359,470,422,466,422,471,359,475,290,487,220,511,188,528,158,549,135,572,115,600,86,662,70,720,63,762"/>
-<area shape="rect" href="corrections_8cpp.html#a2f8f7154c97a94d29aa76137f36b53a3" title=" " alt="" coords="181,1344,332,1370"/>
-<area shape="poly" title=" " alt="" coords="63,787,94,943,122,1056,159,1170,201,1259,241,1330,237,1333,196,1262,154,1171,117,1057,88,944,58,788"/>
-<area shape="rect" href="corrections_8cpp.html#accf26669788d2f911c85b47a8963b0e4" title=" " alt="" coords="427,611,581,637"/>
-<area shape="poly" title=" " alt="" coords="74,759,110,733,156,708,221,683,288,663,411,635,412,641,289,668,222,688,158,713,113,738,77,763"/>
-<area shape="rect" href="corrections_8cpp.html#a68f424a032335e3c94607307b18f63a4" title=" " alt="" coords="444,1164,564,1190"/>
-<area shape="poly" title=" " alt="" coords="60,788,62,846,73,932,85,979,103,1025,127,1068,158,1105,188,1127,221,1145,256,1158,292,1168,364,1178,429,1180,429,1185,364,1184,291,1173,254,1163,218,1150,185,1132,155,1108,122,1071,98,1027,80,981,68,933,56,846,55,788"/>
-<area shape="rect" href="corrections_8cpp.html#a8eec37be2063ba4e4f6131c5b3c480b8" title=" " alt="" coords="181,863,332,889"/>
-<area shape="poly" title=" " alt="" coords="74,786,110,817,158,848,174,855,172,860,155,853,107,821,70,790"/>
-<area shape="rect" href="corrections_8cpp.html#a7f3a229d4142fde83bd4c49a963c8725" title=" " alt="" coords="184,912,329,938"/>
-<area shape="poly" title=" " alt="" coords="67,786,101,841,127,873,158,899,170,906,168,910,155,903,123,876,96,845,62,789"/>
-<area shape="rect" href="corrections_8cpp.html#a76cd7e4d6770545ab91073199e16286b" title=" " alt="" coords="179,964,334,990"/>
-<area shape="poly" title=" " alt="" coords="64,787,75,820,94,864,122,910,158,948,168,955,165,959,155,953,117,913,89,866,70,822,59,789"/>
-<area shape="rect" href="corrections_8cpp.html#affd86897e77cfb4bee39406d3e1db75c" title=" " alt="" coords="432,1115,576,1141"/>
-<area shape="poly" title=" " alt="" coords="63,787,72,828,89,885,118,946,136,975,159,1001,187,1025,218,1045,285,1078,354,1100,417,1114,416,1120,353,1106,283,1083,215,1050,183,1029,155,1004,132,978,113,949,84,887,67,829,58,788"/>
-<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="892,931,1031,972"/>
-<area shape="poly" title=" " alt="" coords="771,862,902,922,900,927,769,866"/>
-<area shape="poly" title=" " alt="" coords="776,850,898,855,1080,853,1185,847,1293,835,1402,817,1507,792,1560,770,1606,744,1609,749,1563,775,1508,797,1403,822,1294,840,1185,852,1081,858,898,860,776,856"/>
-<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="1148,915,1242,941"/>
-<area shape="poly" title=" " alt="" coords="1030,942,1132,932,1132,937,1031,947"/>
-<area shape="poly" title=" " alt="" coords="1000,970,1095,1017,1158,1041,1227,1061,1299,1074,1372,1075,1407,1071,1442,1063,1475,1050,1506,1032,1539,1005,1566,971,1587,933,1604,893,1625,815,1634,753,1640,754,1630,816,1609,895,1592,935,1570,974,1543,1008,1509,1037,1477,1055,1443,1068,1408,1076,1372,1081,1299,1079,1226,1066,1156,1046,1093,1022,997,975"/>
-<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="1123,964,1267,990"/>
-<area shape="poly" title=" " alt="" coords="1031,957,1108,965,1107,970,1030,962"/>
-<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="1374,964,1477,990"/>
-<area shape="poly" title=" " alt="" coords="1243,935,1360,960,1358,966,1242,940"/>
-<area shape="poly" title=" " alt="" coords="1242,916,1385,883,1457,862,1506,843,1539,822,1569,797,1616,748,1620,752,1573,801,1542,826,1509,848,1458,867,1387,888,1243,921"/>
-<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="1383,915,1468,941"/>
-<area shape="poly" title=" " alt="" coords="1243,925,1367,925,1367,930,1243,930"/>
-<area shape="poly" title=" " alt="" coords="1476,966,1506,951,1530,929,1551,904,1586,849,1612,795,1628,751,1633,753,1617,797,1591,852,1555,907,1534,933,1509,955,1478,971"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1947,712,2041,738"/>
-<area shape="poly" title=" " alt="" coords="1725,722,1931,722,1931,728,1725,728"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1773,738,1899,763"/>
-<area shape="poly" title=" " alt="" coords="1726,733,1758,738,1757,743,1725,739"/>
-<area shape="poly" title=" " alt="" coords="1899,738,1931,732,1932,738,1900,743"/>
-<area shape="poly" title=" " alt="" coords="1467,914,1506,894,1544,860,1576,821,1623,750,1627,753,1580,824,1547,863,1509,898,1470,919"/>
-<area shape="poly" title=" " alt="" coords="1268,974,1359,974,1359,980,1268,980"/>
-<area shape="poly" title=" " alt="" coords="1227,988,1283,1008,1356,1024,1395,1027,1434,1025,1472,1017,1506,1000,1536,976,1562,946,1582,913,1599,878,1622,808,1633,753,1638,754,1627,810,1604,880,1587,916,1566,950,1540,980,1509,1005,1473,1022,1435,1030,1395,1033,1355,1029,1282,1013,1225,993"/>
-<area shape="poly" title=" " alt="" coords="582,583,606,596,633,621,656,649,693,712,719,773,734,822,729,823,714,774,688,714,652,652,629,625,603,601,580,588"/>
-<area shape="poly" title=" " alt="" coords="580,561,603,551,618,539,626,526,635,512,651,499,676,486,699,479,741,473,782,467,803,459,826,444,841,426,849,407,856,388,874,370,916,352,971,340,1034,333,1103,330,1239,331,1343,333,1391,327,1430,317,1449,314,1468,315,1488,321,1509,334,1550,371,1581,417,1604,467,1621,520,1632,572,1638,621,1642,697,1637,697,1633,621,1627,573,1616,521,1599,469,1576,419,1546,375,1506,338,1486,326,1467,320,1449,320,1431,322,1392,332,1343,338,1239,337,1103,336,1035,339,971,345,917,357,877,374,861,391,853,409,846,429,829,449,806,464,783,472,742,479,700,484,678,491,654,503,639,516,631,529,622,543,606,555,582,566"/>
-<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="678,408,802,434"/>
-<area shape="poly" title=" " alt="" coords="567,557,603,538,619,517,626,496,633,474,651,451,669,439,672,443,654,455,638,476,631,497,624,520,606,542,570,562"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="887,712,1036,738"/>
-<area shape="poly" title=" " alt="" coords="562,584,605,596,775,653,912,704,911,709,773,658,604,601,561,589"/>
-<area shape="poly" title=" " alt="" coords="756,406,807,367,874,325,933,296,981,276,1030,262,1094,249,1158,236,1215,221,1314,196,1361,192,1408,198,1457,216,1509,250,1536,282,1559,331,1580,392,1597,460,1623,595,1638,697,1633,697,1618,596,1592,461,1575,393,1554,333,1531,285,1506,254,1454,221,1406,203,1361,198,1315,201,1216,226,1159,241,1096,254,1031,267,983,281,936,301,877,330,810,371,759,410"/>
-<area shape="poly" title=" " alt="" coords="1036,722,1540,722,1540,728,1036,728"/>
-<area shape="poly" title=" " alt="" coords="271,583,326,638,364,669,405,696,434,709,459,717,504,725,550,733,606,753,631,772,654,792,706,827,703,831,651,797,627,776,603,758,549,738,503,730,457,723,432,714,403,701,360,673,322,642,267,587"/>
-<area shape="poly" title=" " alt="" coords="260,557,308,447,350,367,405,281,471,200,509,163,549,131,592,104,638,83,687,70,739,65,1196,65,1290,59,1366,53,1402,55,1437,64,1472,83,1510,113,1526,132,1540,157,1566,224,1587,305,1605,395,1628,571,1640,697,1634,697,1623,571,1599,396,1582,306,1561,225,1535,160,1521,135,1506,116,1469,87,1435,69,1401,60,1366,58,1290,64,1197,70,739,70,688,75,640,88,595,109,552,135,512,167,475,204,409,285,355,369,313,449,265,559"/>
-<area shape="poly" title=" " alt="" coords="356,570,412,570,412,575,356,575"/>
-<area shape="poly" title=" " alt="" coords="572,684,606,703,624,725,632,747,639,769,654,793,676,812,699,827,696,832,672,816,650,796,634,772,627,749,620,728,603,707,570,689"/>
-<area shape="poly" title=" " alt="" coords="553,684,764,739,877,763,960,773,1196,773,1292,770,1387,761,1551,738,1552,744,1387,767,1292,775,1197,778,960,778,876,768,763,744,552,689"/>
-<area shape="poly" title=" " alt="" coords="331,826,689,845,689,851,331,832"/>
-<area shape="poly" title=" " alt="" coords="577,426,606,443,623,461,633,479,642,514,645,552,655,598,732,822,727,824,650,599,640,553,637,515,628,481,618,465,603,447,574,431"/>
-<area shape="poly" title=" " alt="" coords="513,406,572,336,618,289,673,239,736,192,806,153,881,126,920,118,960,116,1196,116,1289,109,1366,102,1401,104,1436,112,1472,130,1510,159,1525,177,1538,200,1563,261,1584,335,1602,417,1626,580,1639,697,1634,697,1621,580,1596,418,1579,336,1558,262,1534,202,1520,180,1506,163,1469,135,1434,117,1400,109,1366,107,1290,115,1197,121,960,121,921,124,883,131,808,158,739,197,677,243,622,292,576,340,517,409"/>
-<area shape="poly" title=" " alt="" coords="575,418,663,418,663,424,575,424"/>
-<area shape="poly" title=" " alt="" coords="530,482,568,509,606,546,653,619,690,696,717,767,734,822,729,823,712,769,685,698,649,621,602,550,565,513,527,486"/>
-<area shape="poly" title=" " alt="" coords="570,458,603,444,618,433,628,421,650,394,693,352,728,311,788,238,820,209,857,186,903,172,960,166,1196,166,1245,164,1289,159,1365,150,1400,151,1435,158,1471,175,1509,203,1524,219,1537,240,1561,295,1581,363,1599,439,1625,588,1639,697,1633,698,1619,589,1594,440,1576,365,1556,297,1532,243,1519,222,1506,207,1469,180,1434,163,1400,156,1365,155,1289,165,1246,170,1197,172,960,172,904,177,859,191,823,213,792,242,732,315,697,356,654,398,632,425,622,437,606,449,572,463"/>
-<area shape="poly" title=" " alt="" coords="569,454,662,435,663,440,570,460"/>
-<area shape="poly" title=" " alt="" coords="258,1343,273,1291,301,1214,343,1128,370,1088,402,1051,428,1029,452,1014,498,996,547,982,573,971,603,955,662,912,711,872,715,876,666,917,606,959,576,976,548,987,500,1001,454,1018,431,1033,406,1055,375,1091,348,1131,305,1216,278,1292,263,1344"/>
-<area shape="poly" title=" " alt="" coords="332,1361,517,1373,739,1380,1197,1380,1246,1383,1289,1389,1365,1403,1400,1404,1434,1399,1469,1385,1506,1358,1522,1339,1537,1314,1564,1246,1585,1161,1602,1068,1625,884,1635,754,1640,754,1630,885,1608,1069,1591,1162,1569,1247,1542,1316,1527,1342,1509,1362,1471,1389,1435,1404,1400,1410,1365,1408,1289,1394,1245,1388,1196,1385,739,1385,516,1378,332,1366"/>
-<area shape="poly" title=" " alt="" coords="260,1343,303,1206,330,1106,353,1002,358,957,360,900,360,767,362,699,369,637,381,585,390,563,402,546,425,525,448,514,472,510,496,509,547,510,574,505,603,493,617,484,627,473,636,462,651,451,677,438,680,442,654,455,640,466,631,477,621,488,606,498,576,510,547,515,496,515,473,515,450,519,428,530,406,550,395,566,386,586,374,638,367,699,365,767,365,900,363,958,359,1003,335,1107,308,1207,265,1345"/>
-<area shape="rect" href="corrections_8cpp.html#a179f849d5de6dbf6c9f986df4afa9e14" title=" " alt="" coords="424,1319,584,1345"/>
-<area shape="poly" title=" " alt="" coords="332,1347,408,1339,409,1344,332,1352"/>
-<area shape="rect" href="corrections_8cpp.html#a1c5b87891d441ccbee37a148a4d82af2" title=" " alt="" coords="1095,1420,1295,1446"/>
-<area shape="poly" title=" " alt="" coords="294,1368,346,1385,404,1399,588,1422,773,1433,942,1436,1079,1435,1080,1440,942,1442,773,1438,588,1427,404,1404,344,1390,292,1373"/>
-<area shape="rect" href="corrections_8cpp.html#a611665fa37e5b1d8bad8ee1fc14569d7" title=" " alt="" coords="444,1520,564,1546"/>
-<area shape="poly" title=" " alt="" coords="269,1369,321,1436,360,1474,405,1507,431,1518,429,1523,403,1511,357,1478,317,1439,264,1372"/>
-<area shape="rect" href="corrections_8cpp.html#a5251b18c15f8060bbd52a0189fd2ae98" title=" " alt="" coords="420,1471,589,1497"/>
-<area shape="poly" title=" " alt="" coords="276,1368,332,1407,405,1449,439,1463,437,1468,403,1454,329,1412,273,1373"/>
-<area shape="poly" title=" " alt="" coords="516,1317,557,1268,602,1201,646,1111,682,1020,728,878,734,879,687,1022,651,1114,607,1204,561,1271,520,1320"/>
-<area shape="poly" title=" " alt="" coords="585,1329,960,1329,1197,1329,1246,1332,1289,1338,1365,1351,1400,1353,1434,1347,1469,1333,1506,1306,1521,1289,1535,1266,1560,1204,1581,1127,1599,1043,1623,875,1634,754,1640,754,1628,875,1604,1043,1587,1129,1565,1206,1540,1268,1525,1292,1509,1310,1471,1337,1435,1352,1400,1358,1364,1356,1288,1343,1245,1337,1196,1334,960,1334,585,1334"/>
-<area shape="poly" title=" " alt="" coords="1260,1444,1319,1450,1385,1448,1418,1443,1450,1433,1479,1419,1506,1399,1523,1379,1539,1351,1566,1278,1588,1187,1605,1087,1626,891,1635,753,1640,753,1632,891,1610,1088,1593,1188,1571,1279,1544,1354,1527,1382,1509,1403,1482,1423,1452,1438,1419,1448,1385,1453,1319,1455,1260,1449"/>
-<area shape="poly" title=" " alt="" coords="583,634,606,646,635,677,669,725,727,823,722,825,664,728,631,680,603,650,581,639"/>
-<area shape="poly" title=" " alt="" coords="580,635,754,659,857,668,960,672,1197,672,1292,675,1387,684,1552,707,1551,712,1387,689,1292,680,1196,677,960,677,856,673,753,664,580,640"/>
-<area shape="rect" href="corrections_8cpp.html#a6c5ae66fcbbce5c4872db05ab23c9a6c" title=" " alt="" coords="876,384,1047,410"/>
-<area shape="poly" title=" " alt="" coords="577,608,603,596,617,584,626,572,636,559,651,546,698,523,738,514,778,506,827,488,884,454,931,418,934,422,887,458,829,493,780,511,739,519,700,528,654,550,640,562,631,575,621,588,606,601,579,613"/>
-<area shape="rect" href="sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4" title=" " alt="" coords="682,560,798,586"/>
-<area shape="poly" title=" " alt="" coords="567,608,666,586,667,591,568,613"/>
-<area shape="poly" title=" " alt="" coords="1027,381,1146,361,1287,343,1356,340,1419,341,1471,348,1509,364,1547,398,1577,440,1600,486,1617,534,1635,626,1641,697,1636,697,1630,627,1611,535,1595,488,1572,442,1543,402,1506,369,1470,354,1418,346,1356,345,1287,349,1146,366,1028,386"/>
-<area shape="poly" title=" " alt="" coords="798,562,929,551,1015,547,1109,548,1209,554,1311,567,1412,589,1509,621,1541,638,1571,658,1618,699,1614,703,1567,662,1538,642,1507,626,1411,594,1310,572,1209,559,1109,553,1015,553,930,556,799,568"/>
-<area shape="rect" href="sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71" title="A specialist function to map a value in the range [0, 1023] (I.e. 10&#45;bit) to a different range." alt="" coords="1146,611,1244,637"/>
-<area shape="poly" title=" " alt="" coords="799,579,876,589,1131,616,1130,621,875,594,798,584"/>
-<area shape="rect" href="sensors_8cpp.html#a67edb677b0734f1cb1e6dbea6ed23e3e" title=" " alt="" coords="898,510,1025,535"/>
-<area shape="poly" title=" " alt="" coords="798,557,887,537,888,542,799,562"/>
-<area shape="poly" title=" " alt="" coords="1245,620,1366,627,1438,637,1508,653,1562,675,1608,701,1606,706,1560,680,1507,658,1437,642,1365,632,1244,626"/>
-<area shape="poly" title=" " alt="" coords="1025,508,1123,495,1248,492,1315,497,1382,507,1447,526,1509,552,1551,583,1585,622,1611,662,1630,697,1625,699,1607,665,1581,625,1547,587,1506,557,1445,531,1381,513,1314,502,1248,497,1124,501,1026,513"/>
-<area shape="rect" href="sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311" title=" " alt="" coords="1143,434,1248,459"/>
-<area shape="poly" title=" " alt="" coords="1003,507,1138,462,1140,467,1004,512"/>
-<area shape="poly" title=" " alt="" coords="1218,431,1273,403,1349,378,1390,370,1432,370,1472,377,1509,395,1544,425,1573,463,1595,504,1612,547,1632,631,1640,696,1635,697,1627,632,1607,549,1590,506,1568,465,1541,429,1506,399,1470,382,1431,375,1391,376,1350,383,1275,408,1220,435"/>
-<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="1397,410,1454,435"/>
-<area shape="poly" title=" " alt="" coords="1248,438,1382,424,1382,430,1248,444"/>
-<area shape="rect" href="sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196" title=" " alt="" coords="1343,459,1508,485"/>
-<area shape="poly" title=" " alt="" coords="1248,450,1328,458,1327,464,1248,455"/>
-<area shape="poly" title=" " alt="" coords="1455,422,1483,429,1509,444,1537,473,1561,505,1598,575,1623,643,1636,696,1631,698,1618,645,1593,577,1557,508,1533,476,1506,449,1481,434,1454,428"/>
-<area shape="poly" title=" " alt="" coords="1477,483,1509,502,1553,549,1588,603,1615,655,1632,697,1627,699,1610,657,1584,605,1549,552,1506,506,1475,488"/>
-<area shape="poly" title=" " alt="" coords="564,1169,584,1162,603,1151,633,1121,658,1087,679,1049,696,1010,720,936,732,878,737,879,725,938,701,1012,684,1051,662,1089,637,1125,606,1155,587,1167,565,1174"/>
-<area shape="poly" title=" " alt="" coords="530,1188,585,1217,653,1243,737,1264,805,1275,873,1278,960,1278,1197,1278,1246,1281,1289,1287,1365,1299,1399,1300,1433,1294,1468,1279,1506,1252,1520,1237,1533,1217,1557,1161,1577,1092,1595,1016,1620,864,1634,753,1639,753,1625,864,1600,1017,1583,1093,1562,1163,1538,1219,1524,1241,1509,1256,1471,1284,1435,1299,1400,1305,1364,1304,1288,1292,1245,1286,1196,1284,960,1284,872,1283,804,1280,736,1269,652,1248,583,1221,527,1193"/>
-<area shape="poly" title=" " alt="" coords="332,869,689,850,690,856,332,875"/>
-<area shape="poly" title=" " alt="" coords="329,912,604,869,689,856,690,861,605,874,330,917"/>
-<area shape="poly" title=" " alt="" coords="334,963,461,940,604,904,696,868,698,873,605,909,462,945,335,969"/>
-<area shape="rect" href="corrections_8cpp.html#af907aeeadb87b77cd72f153bde8d5ebf" title=" " alt="" coords="404,1066,604,1091"/>
-<area shape="poly" title=" " alt="" coords="291,988,457,1057,455,1062,289,993"/>
-<area shape="poly" title=" " alt="" coords="567,1063,603,1044,645,1005,679,959,706,914,725,876,730,878,711,916,684,962,649,1009,606,1049,569,1067"/>
-<area shape="poly" title=" " alt="" coords="605,1083,836,1096,1118,1107,1253,1108,1369,1105,1457,1096,1487,1090,1506,1082,1543,1048,1572,1008,1595,963,1611,915,1630,823,1636,753,1641,754,1635,824,1617,916,1600,965,1577,1011,1547,1052,1509,1086,1489,1095,1458,1102,1370,1110,1253,1113,1118,1112,836,1102,604,1088"/>
-<area shape="poly" title=" " alt="" coords="576,1116,603,1102,629,1078,652,1050,689,987,714,926,730,877,735,879,719,928,694,990,657,1053,633,1081,606,1106,578,1121"/>
-<area shape="poly" title=" " alt="" coords="578,1137,606,1150,621,1163,630,1178,639,1191,654,1203,696,1221,734,1232,768,1237,801,1238,871,1232,960,1228,1197,1228,1246,1230,1289,1236,1365,1246,1399,1246,1433,1240,1468,1225,1506,1198,1531,1166,1553,1117,1573,1056,1591,988,1617,853,1633,753,1638,753,1623,854,1596,990,1578,1058,1558,1119,1535,1169,1510,1202,1471,1229,1435,1245,1399,1252,1364,1251,1288,1241,1245,1235,1196,1233,960,1233,872,1238,801,1243,767,1243,732,1237,694,1226,651,1207,635,1195,626,1181,617,1167,603,1154,576,1142"/>
-<area shape="poly" title=" " alt="" coords="576,1119,590,1112,602,1102,615,1082,625,1057,637,993,641,917,640,834,636,671,639,601,650,547,663,517,680,490,714,444,718,447,684,493,668,520,655,549,644,602,641,671,646,834,647,917,643,994,630,1058,620,1085,606,1106,593,1117,578,1124"/>
-<area shape="rect" href="corrections_8cpp.html#ab880bb43e2f85f7012df63ea0108b104" title=" " alt="" coords="662,1118,818,1143"/>
-<area shape="poly" title=" " alt="" coords="577,1126,647,1127,647,1132,577,1131"/>
-<area shape="rect" href="corrections_8cpp.html#af37928198207d583d3922077e544aecf" title=" " alt="" coords="652,1167,828,1193"/>
-<area shape="poly" title=" " alt="" coords="566,1139,664,1161,663,1166,565,1144"/>
-<area shape="poly" title=" " alt="" coords="828,1186,995,1197,1196,1201,1294,1197,1382,1187,1455,1171,1484,1159,1506,1146,1529,1119,1550,1076,1570,1023,1587,964,1615,844,1632,753,1637,754,1620,845,1593,965,1575,1025,1555,1078,1533,1122,1509,1150,1486,1164,1457,1176,1383,1193,1294,1202,1196,1206,995,1202,828,1191"/>
-<area shape="poly" title=" " alt="" coords="813,1164,826,1154,847,1126,859,1099,864,1073,864,1047,862,989,865,956,873,919,909,825,944,751,949,753,914,827,878,921,870,956,868,989,870,1047,869,1074,864,1101,852,1129,830,1158,816,1169"/>
+<area shape="rect" title=" " alt="" coords="5,556,109,581"/>
+<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="705,801,775,827"/>
+<area shape="poly" title=" " alt="" coords="64,581,76,614,94,658,122,703,158,743,189,764,222,783,292,811,367,828,442,836,515,838,582,835,689,821,690,826,583,840,515,843,441,842,366,833,291,816,219,788,186,769,155,747,118,707,90,660,71,616,59,583"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1533,765,1702,791"/>
+<area shape="poly" title=" " alt="" coords="57,555,68,475,88,356,117,238,135,190,155,158,194,115,231,82,269,57,307,39,348,27,394,20,503,15,1173,15,1267,9,1344,3,1379,5,1414,15,1450,34,1487,64,1505,87,1521,117,1549,196,1571,293,1588,399,1609,606,1618,749,1612,750,1604,606,1583,400,1566,294,1544,198,1516,119,1500,90,1483,68,1447,38,1412,20,1379,11,1344,8,1267,14,1174,21,503,21,394,25,349,32,309,44,271,61,235,86,198,119,159,161,140,193,123,239,94,357,73,476,63,556"/>
+<area shape="rect" href="corrections_8cpp.html#af1162204829e06af029f94d288734e9d" title=" " alt="" coords="428,252,580,277"/>
+<area shape="poly" title=" " alt="" coords="58,555,66,515,83,460,112,401,132,374,155,351,184,330,215,312,282,287,350,272,412,264,413,269,351,277,284,292,217,317,187,334,158,355,136,377,117,404,88,462,71,516,63,556"/>
+<area shape="rect" href="corrections_8cpp.html#a772dfea7ea13932573c8dbbc0933ca02" title=" " alt="" coords="157,365,356,391"/>
+<area shape="poly" title=" " alt="" coords="63,554,99,498,125,464,155,433,182,413,210,396,213,401,185,417,158,437,129,468,103,501,68,557"/>
+<area shape="rect" href="corrections_8cpp.html#afe09c6fe4ed0032f9989e7270ee140ee" title=" " alt="" coords="427,353,582,379"/>
+<area shape="poly" title=" " alt="" coords="71,553,108,522,155,490,228,454,303,424,435,381,437,386,305,429,230,459,158,495,111,527,74,557"/>
+<area shape="rect" href="corrections_8cpp.html#a28fd470690407ed9f2febf7682310e77" title=" " alt="" coords="182,957,331,983"/>
+<area shape="poly" title=" " alt="" coords="63,582,73,656,94,766,122,874,140,916,159,944,170,953,166,957,155,948,135,919,117,876,88,767,68,657,57,582"/>
+<area shape="rect" href="corrections_8cpp.html#aeb6d2bd4bb6eac1801bf92e5b6b4eda1" title=" " alt="" coords="434,150,575,176"/>
+<area shape="poly" title=" " alt="" coords="57,555,63,507,79,437,91,399,108,361,129,325,155,293,183,268,215,246,283,211,353,187,417,172,418,178,355,193,285,216,217,250,186,272,159,297,133,328,113,364,96,401,84,439,68,508,62,556"/>
+<area shape="rect" href="corrections_8cpp.html#a1a2563bdd14478d6504487d41875994a" title=" " alt="" coords="438,101,570,127"/>
+<area shape="poly" title=" " alt="" coords="55,555,58,496,70,408,82,359,99,310,123,264,155,223,183,197,215,176,285,144,357,125,422,115,423,121,358,130,287,149,218,180,186,201,159,226,128,267,104,312,87,360,75,409,63,497,61,555"/>
+<area shape="rect" href="corrections_8cpp.html#a2f8f7154c97a94d29aa76137f36b53a3" title=" " alt="" coords="181,505,332,531"/>
+<area shape="poly" title=" " alt="" coords="108,553,187,533,189,538,110,558"/>
+<area shape="rect" href="corrections_8cpp.html#accf26669788d2f911c85b47a8963b0e4" title=" " alt="" coords="427,1158,581,1184"/>
+<area shape="poly" title=" " alt="" coords="61,582,66,689,80,855,92,942,109,1021,131,1086,144,1110,159,1128,186,1149,217,1165,250,1177,285,1184,355,1188,419,1184,419,1189,355,1194,284,1189,249,1182,215,1170,183,1154,155,1132,140,1113,126,1088,104,1023,87,943,75,856,60,689,56,582"/>
+<area shape="rect" href="corrections_8cpp.html#a68f424a032335e3c94607307b18f63a4" title=" " alt="" coords="444,1109,564,1135"/>
+<area shape="poly" title=" " alt="" coords="62,582,69,675,87,815,100,888,116,955,136,1009,159,1046,187,1069,219,1088,254,1102,290,1112,363,1123,428,1125,428,1130,363,1129,289,1118,252,1107,217,1093,184,1074,155,1049,131,1012,111,956,95,889,81,816,64,675,57,582"/>
+<area shape="rect" href="corrections_8cpp.html#a8eec37be2063ba4e4f6131c5b3c480b8" title=" " alt="" coords="181,908,332,933"/>
+<area shape="poly" title=" " alt="" coords="61,582,64,637,77,719,89,764,106,808,129,850,159,887,173,898,170,902,155,890,125,853,102,811,84,766,72,720,59,638,56,582"/>
+<area shape="rect" href="corrections_8cpp.html#a7f3a229d4142fde83bd4c49a963c8725" title=" " alt="" coords="184,706,329,732"/>
+<area shape="poly" title=" " alt="" coords="77,580,228,695,225,699,74,584"/>
+<area shape="rect" href="corrections_8cpp.html#a76cd7e4d6770545ab91073199e16286b" title=" " alt="" coords="179,1009,334,1035"/>
+<area shape="poly" title=" " alt="" coords="62,582,72,665,91,789,104,854,120,913,138,961,159,994,167,1001,164,1005,155,997,133,964,115,914,99,855,85,790,66,666,57,582"/>
+<area shape="rect" href="corrections_8cpp.html#affd86897e77cfb4bee39406d3e1db75c" title=" " alt="" coords="432,554,576,580"/>
+<area shape="poly" title=" " alt="" coords="109,566,416,565,416,570,109,571"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="881,770,1019,810"/>
+<area shape="poly" title=" " alt="" coords="775,807,865,797,865,802,776,813"/>
+<area shape="poly" title=" " alt="" coords="772,825,890,871,974,897,1069,920,1172,936,1278,941,1331,938,1383,931,1434,919,1484,902,1519,882,1551,856,1597,802,1601,805,1554,860,1522,887,1486,907,1436,924,1384,936,1331,943,1278,946,1171,941,1068,925,972,902,888,876,770,830"/>
+<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="1125,814,1219,840"/>
+<area shape="poly" title=" " alt="" coords="1020,799,1110,814,1109,819,1019,804"/>
+<area shape="poly" title=" " alt="" coords="1009,767,1071,750,1187,728,1278,716,1369,715,1485,730,1531,741,1574,756,1572,761,1530,746,1484,735,1369,721,1278,721,1188,733,1073,755,1010,772"/>
+<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="1100,765,1244,791"/>
+<area shape="poly" title=" " alt="" coords="1019,784,1085,780,1085,785,1020,789"/>
+<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="1351,765,1454,791"/>
+<area shape="poly" title=" " alt="" coords="1219,815,1335,789,1337,795,1220,820"/>
+<area shape="poly" title=" " alt="" coords="1219,823,1340,815,1484,801,1539,792,1540,797,1485,806,1340,821,1220,828"/>
+<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="1360,866,1445,892"/>
+<area shape="poly" title=" " alt="" coords="1220,835,1345,864,1344,869,1219,840"/>
+<area shape="poly" title=" " alt="" coords="1454,775,1517,775,1517,781,1454,781"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1924,765,2018,791"/>
+<area shape="poly" title=" " alt="" coords="1702,775,1908,775,1908,781,1702,781"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1750,790,1876,816"/>
+<area shape="poly" title=" " alt="" coords="1703,786,1735,790,1734,796,1702,792"/>
+<area shape="poly" title=" " alt="" coords="1876,790,1908,785,1909,791,1877,796"/>
+<area shape="poly" title=" " alt="" coords="1439,863,1484,845,1578,796,1581,801,1486,850,1441,868"/>
+<area shape="poly" title=" " alt="" coords="1245,775,1336,775,1336,781,1245,781"/>
+<area shape="poly" title=" " alt="" coords="1237,762,1320,750,1403,745,1485,750,1544,759,1543,764,1484,755,1403,750,1321,755,1238,767"/>
+<area shape="poly" title=" " alt="" coords="534,276,572,301,591,319,607,339,625,375,636,407,640,437,642,466,642,526,646,561,655,600,692,704,728,786,723,788,687,706,650,601,641,562,637,527,636,466,635,437,630,408,620,377,602,342,587,322,569,306,531,280"/>
+<area shape="poly" title=" " alt="" coords="581,250,749,229,849,221,948,218,1173,218,1244,217,1336,217,1424,226,1460,236,1486,251,1501,266,1514,288,1538,344,1559,412,1576,488,1602,639,1616,749,1610,750,1597,640,1571,489,1554,414,1533,345,1510,290,1497,270,1483,255,1458,241,1423,231,1335,222,1244,222,1174,223,949,223,849,226,749,234,581,255"/>
+<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="678,157,802,183"/>
+<area shape="poly" title=" " alt="" coords="554,249,603,230,627,215,651,200,682,186,684,191,654,204,630,220,606,235,556,254"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="876,410,1024,436"/>
+<area shape="poly" title=" " alt="" coords="544,275,898,402,896,407,542,281"/>
+<area shape="poly" title=" " alt="" coords="802,161,961,148,1164,142,1266,146,1357,155,1433,173,1463,185,1486,200,1502,217,1517,241,1543,302,1564,378,1581,463,1605,629,1617,749,1611,750,1600,630,1576,463,1559,379,1538,304,1512,243,1498,220,1483,204,1461,190,1432,178,1357,160,1265,151,1164,148,961,154,802,166"/>
+<area shape="poly" title=" " alt="" coords="1002,407,1101,390,1162,383,1227,382,1295,386,1363,398,1427,420,1486,453,1520,484,1548,521,1570,561,1587,604,1608,686,1617,749,1611,750,1603,687,1582,605,1565,564,1543,523,1516,487,1483,457,1425,425,1361,403,1294,391,1227,387,1162,389,1101,395,1003,412"/>
+<area shape="poly" title=" " alt="" coords="273,389,313,433,358,491,372,520,378,546,386,568,406,591,431,607,455,615,502,618,551,620,577,627,606,641,646,674,681,713,708,753,728,786,723,789,703,756,676,717,642,678,603,646,576,632,550,625,502,624,454,621,429,612,402,595,382,571,373,547,367,522,354,494,309,436,269,393"/>
+<area shape="poly" title=" " alt="" coords="329,362,355,355,403,338,554,303,673,282,794,271,948,269,1173,269,1268,267,1344,270,1379,278,1414,292,1449,314,1487,345,1526,392,1557,445,1581,503,1597,561,1608,618,1615,670,1619,750,1614,750,1609,670,1603,619,1592,562,1576,504,1553,448,1522,395,1483,349,1446,318,1411,297,1377,283,1343,275,1268,272,1174,274,949,274,794,277,674,287,555,308,405,343,357,360,331,367"/>
+<area shape="poly" title=" " alt="" coords="292,362,355,332,378,313,403,294,434,281,436,285,405,299,381,317,357,336,294,367"/>
+<area shape="poly" title=" " alt="" coords="520,377,561,426,607,491,664,622,730,786,725,788,659,624,602,494,557,429,516,381"/>
+<area shape="poly" title=" " alt="" coords="582,351,750,330,849,322,948,319,1173,319,1268,319,1344,325,1379,334,1413,349,1449,372,1487,404,1522,443,1550,489,1572,537,1589,587,1609,680,1617,749,1612,750,1604,680,1584,588,1567,539,1545,491,1517,447,1483,408,1445,377,1411,354,1377,339,1343,330,1268,324,1174,325,949,325,849,328,751,336,583,356"/>
+<area shape="poly" title=" " alt="" coords="331,969,392,967,461,960,534,946,603,922,636,904,667,882,715,837,719,840,670,886,639,909,605,927,535,951,462,965,392,972,331,975"/>
+<area shape="poly" title=" " alt="" coords="535,174,573,200,591,217,607,238,630,288,643,332,647,374,646,414,641,498,644,546,655,600,671,653,691,704,728,786,723,788,686,706,666,654,650,601,639,546,636,498,641,414,642,374,638,333,625,290,602,241,588,221,570,204,532,179"/>
+<area shape="poly" title=" " alt="" coords="575,149,745,128,846,120,948,117,1173,117,1266,110,1343,102,1378,103,1413,112,1449,129,1487,159,1503,178,1518,204,1544,271,1565,354,1582,444,1606,623,1617,750,1612,750,1601,623,1577,445,1560,355,1539,273,1513,206,1498,181,1483,163,1446,134,1412,117,1378,109,1343,107,1267,115,1174,122,949,122,847,125,745,133,576,155"/>
+<area shape="poly" title=" " alt="" coords="576,163,663,165,663,170,575,168"/>
+<area shape="poly" title=" " alt="" coords="572,116,590,123,606,136,618,154,627,175,640,229,645,292,647,361,647,497,649,555,655,600,671,653,690,704,727,786,723,788,685,706,666,655,650,601,643,555,641,497,642,361,640,292,634,229,622,177,613,156,602,140,588,128,570,120"/>
+<area shape="poly" title=" " alt="" coords="571,100,741,78,845,69,948,66,1173,66,1267,59,1343,52,1379,55,1414,64,1449,82,1487,112,1504,133,1519,161,1546,234,1568,323,1585,422,1608,614,1617,749,1612,750,1602,614,1580,422,1563,324,1541,236,1515,163,1499,136,1483,116,1446,87,1412,69,1378,60,1344,58,1267,65,1174,71,949,71,845,75,742,83,571,106"/>
+<area shape="poly" title=" " alt="" coords="562,125,668,150,667,156,561,130"/>
+<area shape="poly" title=" " alt="" coords="267,530,330,642,370,703,389,726,405,741,515,766,690,801,689,807,514,771,403,746,385,730,366,706,325,645,262,533"/>
+<area shape="poly" title=" " alt="" coords="331,503,355,495,378,482,403,470,459,461,503,462,548,467,604,470,949,471,1173,471,1265,467,1339,462,1374,465,1409,473,1446,489,1486,514,1515,539,1539,568,1559,600,1576,633,1600,698,1613,749,1608,750,1595,699,1571,635,1554,602,1534,571,1511,543,1483,519,1443,494,1407,478,1373,470,1339,467,1265,472,1174,477,948,477,604,475,547,472,503,467,459,466,405,475,381,487,357,500,333,508"/>
+<area shape="poly" title=" " alt="" coords="271,503,312,460,334,432,354,402,364,378,368,356,370,315,375,276,385,257,402,237,439,222,505,207,662,179,663,184,506,212,440,227,406,241,390,260,381,278,375,316,374,357,369,380,358,405,339,435,316,464,274,506"/>
+<area shape="rect" href="corrections_8cpp.html#a179f849d5de6dbf6c9f986df4afa9e14" title=" " alt="" coords="424,656,584,681"/>
+<area shape="poly" title=" " alt="" coords="272,529,327,580,365,609,405,634,436,648,434,653,403,639,362,613,324,584,269,533"/>
+<area shape="rect" href="corrections_8cpp.html#a1c5b87891d441ccbee37a148a4d82af2" title=" " alt="" coords="1072,512,1272,537"/>
+<area shape="poly" title=" " alt="" coords="321,502,404,490,532,487,708,493,1057,514,1056,519,708,498,532,493,404,495,322,507"/>
+<area shape="rect" href="corrections_8cpp.html#a611665fa37e5b1d8bad8ee1fc14569d7" title=" " alt="" coords="444,705,564,731"/>
+<area shape="poly" title=" " alt="" coords="267,530,286,563,317,607,357,653,405,692,430,703,428,708,403,696,354,657,313,610,282,566,262,532"/>
+<area shape="rect" href="corrections_8cpp.html#a5251b18c15f8060bbd52a0189fd2ae98" title=" " alt="" coords="420,505,589,531"/>
+<area shape="poly" title=" " alt="" coords="332,515,404,515,404,521,332,521"/>
+<area shape="poly" title=" " alt="" coords="580,680,606,690,640,712,671,738,720,787,716,791,668,742,637,716,603,695,578,684"/>
+<area shape="poly" title=" " alt="" coords="585,664,787,662,1047,665,1302,677,1406,688,1485,703,1541,726,1587,754,1584,758,1538,731,1484,708,1405,693,1301,682,1047,670,787,668,585,670"/>
+<area shape="poly" title=" " alt="" coords="1273,510,1325,510,1380,516,1435,530,1486,554,1512,574,1534,598,1570,651,1595,705,1611,749,1606,751,1590,707,1565,654,1530,601,1508,578,1483,559,1433,535,1379,521,1324,516,1273,516"/>
+<area shape="poly" title=" " alt="" coords="580,1159,603,1145,613,1130,628,1100,664,1014,727,840,732,842,669,1016,633,1102,618,1132,606,1149,583,1163"/>
+<area shape="poly" title=" " alt="" coords="516,1183,572,1255,616,1304,669,1355,730,1404,798,1445,834,1461,871,1473,910,1481,949,1483,1174,1483,1223,1486,1267,1491,1343,1500,1378,1499,1412,1492,1446,1475,1483,1447,1500,1426,1515,1399,1542,1326,1564,1236,1581,1137,1603,943,1612,806,1617,806,1608,943,1586,1138,1569,1237,1547,1328,1520,1401,1504,1429,1487,1451,1449,1480,1413,1497,1378,1505,1343,1505,1266,1496,1222,1491,1173,1489,948,1489,909,1486,870,1478,832,1466,796,1450,727,1408,666,1360,612,1308,568,1258,512,1186"/>
+<area shape="rect" href="corrections_8cpp.html#a6c5ae66fcbbce5c4872db05ab23c9a6c" title=" " alt="" coords="1087,1069,1258,1095"/>
+<area shape="poly" title=" " alt="" coords="582,1156,875,1111,1071,1089,1071,1094,876,1117,582,1161"/>
+<area shape="rect" href="sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4" title=" " alt="" coords="682,1220,798,1245"/>
+<area shape="poly" title=" " alt="" coords="557,1182,674,1213,672,1218,556,1187"/>
+<area shape="poly" title=" " alt="" coords="1259,1092,1313,1093,1372,1089,1430,1074,1458,1063,1483,1048,1512,1023,1536,993,1557,960,1573,926,1597,859,1609,805,1614,806,1602,860,1578,928,1561,963,1541,996,1516,1027,1486,1052,1460,1068,1432,1080,1373,1094,1313,1099,1258,1097"/>
+<area shape="poly" title=" " alt="" coords="782,1243,935,1290,1036,1317,1144,1341,1250,1359,1348,1368,1390,1367,1428,1362,1459,1353,1483,1340,1498,1324,1512,1302,1538,1243,1559,1169,1576,1087,1600,924,1611,806,1617,806,1605,924,1581,1088,1564,1170,1543,1245,1517,1305,1502,1327,1486,1344,1461,1358,1429,1367,1391,1372,1348,1373,1250,1365,1143,1346,1035,1322,934,1295,781,1249"/>
+<area shape="rect" href="sensors_8cpp.html#ae428fae84e58801715e3ba43fd3eae71" title="A specialist function to map a value in the range [0, 1023] (I.e. 10&#45;bit) to a different range." alt="" coords="901,1422,999,1448"/>
+<area shape="poly" title=" " alt="" coords="751,1244,798,1317,835,1362,877,1401,896,1413,893,1417,874,1405,831,1365,794,1320,746,1247"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a7c3868d15d9340aa2aa78ec1ed9cbf1e" title="Translate a pin number (0 &#45; 22) to the relevant Ax (analog) pin reference." alt="" coords="1336,1120,1469,1145"/>
+<area shape="poly" title=" " alt="" coords="797,1217,922,1189,1072,1162,1203,1146,1321,1135,1321,1141,1203,1151,1072,1167,923,1194,798,1222"/>
+<area shape="rect" href="sensors_8cpp.html#a67edb677b0734f1cb1e6dbea6ed23e3e" title=" " alt="" coords="886,1220,1014,1245"/>
+<area shape="poly" title=" " alt="" coords="798,1230,871,1230,871,1235,798,1235"/>
+<area shape="poly" title=" " alt="" coords="1000,1437,1115,1444,1259,1445,1330,1442,1395,1434,1447,1420,1483,1401,1499,1383,1514,1358,1540,1291,1562,1208,1579,1116,1602,935,1612,806,1617,807,1607,936,1584,1117,1567,1209,1546,1293,1519,1360,1503,1386,1486,1405,1449,1425,1396,1439,1331,1447,1259,1451,1115,1449,999,1442"/>
+<area shape="poly" title=" " alt="" coords="1454,1117,1483,1099,1512,1065,1537,1026,1557,986,1574,944,1597,866,1609,806,1615,807,1603,867,1579,946,1562,988,1542,1029,1516,1068,1486,1103,1457,1121"/>
+<area shape="poly" title=" " alt="" coords="1014,1225,1285,1197,1414,1177,1459,1166,1483,1156,1520,1118,1549,1074,1571,1025,1588,975,1607,879,1613,807,1618,807,1612,880,1593,976,1576,1027,1554,1076,1524,1121,1486,1160,1460,1171,1415,1182,1286,1202,1014,1230"/>
+<area shape="rect" href="sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311" title=" " alt="" coords="1120,1245,1225,1271"/>
+<area shape="poly" title=" " alt="" coords="1014,1237,1104,1248,1104,1253,1014,1243"/>
+<area shape="poly" title=" " alt="" coords="1196,1269,1252,1298,1288,1313,1328,1325,1369,1333,1410,1334,1448,1326,1483,1306,1497,1292,1511,1272,1535,1216,1556,1147,1573,1071,1598,918,1611,806,1616,806,1603,918,1579,1072,1561,1149,1540,1218,1515,1274,1501,1295,1486,1311,1450,1331,1410,1339,1368,1338,1327,1331,1287,1318,1250,1303,1194,1274"/>
+<area shape="rect" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be" title="clamps a given value between the minimum and maximum thresholds." alt="" coords="1374,1221,1431,1247"/>
+<area shape="poly" title=" " alt="" coords="1225,1250,1359,1236,1359,1241,1225,1255"/>
+<area shape="rect" href="sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196" title=" " alt="" coords="1320,1270,1485,1296"/>
+<area shape="poly" title=" " alt="" coords="1225,1261,1305,1270,1304,1275,1225,1266"/>
+<area shape="poly" title=" " alt="" coords="1430,1227,1458,1217,1483,1200,1519,1153,1548,1100,1570,1044,1587,988,1606,883,1613,806,1618,807,1611,884,1592,989,1575,1046,1553,1103,1523,1156,1487,1204,1461,1222,1432,1232"/>
+<area shape="poly" title=" " alt="" coords="1469,1268,1483,1257,1525,1204,1557,1144,1580,1080,1597,1014,1607,951,1612,893,1614,806,1620,806,1618,894,1612,952,1602,1015,1585,1081,1562,1146,1529,1207,1487,1261,1472,1272"/>
+<area shape="poly" title=" " alt="" coords="564,1114,585,1107,602,1096,626,1059,661,987,725,840,730,842,666,989,631,1061,606,1100,587,1112,566,1119"/>
+<area shape="poly" title=" " alt="" coords="564,1106,784,1058,888,1037,948,1029,1174,1029,1265,1033,1337,1038,1371,1036,1405,1029,1442,1015,1483,992,1508,973,1529,951,1564,899,1590,848,1605,805,1610,806,1594,850,1569,902,1533,954,1511,977,1486,996,1445,1020,1407,1034,1372,1042,1337,1044,1264,1039,1173,1034,949,1034,889,1042,785,1063,565,1111"/>
+<area shape="poly" title=" " alt="" coords="332,920,461,913,533,903,603,886,660,862,707,833,710,838,662,867,605,891,534,908,461,919,333,925"/>
+<area shape="poly" title=" " alt="" coords="281,730,336,759,405,785,481,800,559,809,689,813,689,818,559,814,480,805,403,790,334,764,279,735"/>
+<area shape="poly" title=" " alt="" coords="334,1024,395,1022,465,1015,536,998,603,970,642,942,675,907,702,871,722,839,727,842,707,874,680,910,646,946,606,975,538,1003,466,1020,396,1027,334,1029"/>
+<area shape="rect" href="corrections_8cpp.html#af907aeeadb87b77cd72f153bde8d5ebf" title=" " alt="" coords="404,1060,604,1085"/>
+<area shape="poly" title=" " alt="" coords="323,1033,423,1053,422,1059,322,1038"/>
+<area shape="poly" title=" " alt="" coords="569,1057,602,1039,721,839,726,842,606,1043,571,1061"/>
+<area shape="poly" title=" " alt="" coords="534,1057,598,1030,652,1010,734,991,799,982,864,978,948,978,1174,978,1264,982,1336,986,1369,984,1404,977,1441,964,1483,944,1523,914,1557,876,1583,837,1601,804,1606,806,1587,840,1561,879,1527,918,1486,948,1443,969,1405,983,1370,989,1336,991,1264,987,1173,983,949,983,864,984,799,987,735,997,653,1015,600,1035,536,1062"/>
+<area shape="poly" title=" " alt="" coords="571,578,606,597,651,642,686,693,713,744,731,785,726,788,709,746,682,696,647,645,603,601,568,583"/>
+<area shape="poly" title=" " alt="" coords="557,578,653,598,779,612,889,615,1077,605,1166,604,1261,611,1366,632,1486,673,1518,689,1548,710,1595,752,1592,756,1545,714,1515,694,1484,678,1364,638,1260,616,1166,609,1077,611,889,620,779,617,652,603,556,583"/>
+<area shape="poly" title=" " alt="" coords="576,557,603,541,618,525,627,509,636,477,640,441,650,397,725,196,730,198,655,399,645,442,641,478,632,511,622,528,606,545,578,562"/>
+<area shape="rect" href="corrections_8cpp.html#ab880bb43e2f85f7012df63ea0108b104" title=" " alt="" coords="662,562,818,588"/>
+<area shape="poly" title=" " alt="" coords="577,567,647,569,647,575,577,572"/>
+<area shape="rect" href="corrections_8cpp.html#af37928198207d583d3922077e544aecf" title=" " alt="" coords="652,410,828,436"/>
+<area shape="poly" title=" " alt="" coords="576,552,603,541,637,520,668,495,716,446,720,450,671,499,640,524,606,546,578,557"/>
+<area shape="poly" title=" " alt="" coords="828,421,860,421,860,426,828,426"/>
 </map>
 </div>
 <div class="dynheader">
@@ -4183,44 +4288,43 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_affd86897e77cfb4bee39406d3e1db75c_cgraph.png" border="0" usemap="#acorrections_8cpp_affd86897e77cfb4bee39406d3e1db75c_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_affd86897e77cfb4bee39406d3e1db75c_cgraph" id="acorrections_8cpp_affd86897e77cfb4bee39406d3e1db75c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,363,150,389"/>
-<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="240,186,311,212"/>
-<area shape="poly" title=" " alt="" coords="92,361,246,220,250,224,95,365"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="1007,237,1176,262"/>
-<area shape="poly" title=" " alt="" coords="135,360,197,348,332,329,469,323,676,323,775,317,872,302,961,283,1032,264,1033,270,962,288,873,307,775,322,676,328,469,328,333,334,198,353,136,365"/>
-<area shape="rect" href="corrections_8cpp.html#ab880bb43e2f85f7012df63ea0108b104" title=" " alt="" coords="198,363,353,389"/>
-<area shape="poly" title=" " alt="" coords="150,373,182,373,182,379,150,379"/>
-<area shape="rect" href="corrections_8cpp.html#af37928198207d583d3922077e544aecf" title=" " alt="" coords="587,414,763,440"/>
-<area shape="poly" title=" " alt="" coords="133,387,198,399,297,410,397,417,572,423,572,429,396,422,296,415,197,404,132,392"/>
-<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="409,465,532,490"/>
-<area shape="poly" title=" " alt="" coords="98,387,142,416,199,443,248,456,299,466,393,474,393,479,298,471,247,462,197,448,139,421,95,392"/>
-<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="401,178,539,219"/>
-<area shape="poly" title=" " alt="" coords="311,196,385,196,385,201,311,201"/>
-<area shape="poly" title=" " alt="" coords="295,183,400,119,479,80,569,44,666,16,716,8,767,3,817,4,866,11,914,24,960,44,985,61,1007,82,1043,130,1068,179,1085,221,1080,223,1064,182,1038,133,1003,85,982,65,958,49,912,29,865,16,817,9,767,9,717,13,667,22,571,49,481,85,403,124,297,188"/>
-<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="628,137,722,162"/>
-<area shape="poly" title=" " alt="" coords="539,179,612,162,614,167,541,185"/>
-<area shape="poly" title=" " alt="" coords="540,213,588,221,695,234,804,241,992,247,991,252,803,247,695,239,587,227,539,218"/>
-<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="603,186,747,212"/>
-<area shape="poly" title=" " alt="" coords="540,196,587,196,587,201,540,201"/>
-<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="834,161,936,186"/>
-<area shape="poly" title=" " alt="" coords="723,152,818,163,818,169,723,157"/>
-<area shape="poly" title=" " alt="" coords="722,138,772,131,832,128,897,131,960,146,993,161,1023,181,1070,223,1067,227,1020,185,990,165,958,151,896,137,832,133,773,136,723,143"/>
-<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="842,59,928,85"/>
-<area shape="poly" title=" " alt="" coords="711,133,832,88,834,93,713,138"/>
-<area shape="poly" title=" " alt="" coords="923,184,1041,228,1039,233,921,189"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1399,237,1492,262"/>
-<area shape="poly" title=" " alt="" coords="1177,247,1383,247,1383,252,1177,252"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1224,262,1351,288"/>
-<area shape="poly" title=" " alt="" coords="1177,258,1209,262,1208,267,1176,263"/>
-<area shape="poly" title=" " alt="" coords="1351,262,1383,257,1383,262,1351,267"/>
-<area shape="poly" title=" " alt="" coords="926,83,960,102,995,131,1027,163,1074,222,1070,225,1023,167,992,135,958,106,924,88"/>
-<area shape="poly" title=" " alt="" coords="747,187,818,179,819,184,748,193"/>
-<area shape="poly" title=" " alt="" coords="748,205,992,235,991,240,747,210"/>
-<area shape="poly" title=" " alt="" coords="745,411,848,384,904,365,958,342,1015,307,1063,270,1066,275,1018,311,960,346,906,370,850,389,747,416"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="811,414,959,440"/>
-<area shape="poly" title=" " alt="" coords="763,424,795,424,795,429,763,429"/>
-<area shape="poly" title=" " alt="" coords="924,411,958,393,992,364,1023,332,1070,274,1074,277,1027,336,995,368,960,397,926,416"/>
-<area shape="poly" title=" " alt="" coords="533,488,621,501,731,505,790,501,848,491,905,475,958,450,982,433,1003,413,1038,365,1063,317,1079,276,1084,278,1068,319,1042,368,1007,416,985,437,960,454,907,480,849,496,790,506,731,510,621,506,532,494"/>
+<area shape="rect" title=" " alt="" coords="5,324,150,350"/>
+<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="250,147,321,172"/>
+<area shape="poly" title=" " alt="" coords="93,322,256,181,259,185,96,326"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="954,172,1123,198"/>
+<area shape="poly" title=" " alt="" coords="134,321,197,309,342,289,489,284,683,284,727,281,772,275,859,254,936,227,995,202,998,207,938,232,860,259,773,280,728,287,683,289,489,289,343,294,198,314,135,326"/>
+<area shape="rect" href="corrections_8cpp.html#ab880bb43e2f85f7012df63ea0108b104" title=" " alt="" coords="208,324,363,350"/>
+<area shape="poly" title=" " alt="" coords="150,334,192,334,192,340,150,340"/>
+<area shape="rect" href="corrections_8cpp.html#af37928198207d583d3922077e544aecf" title=" " alt="" coords="198,373,373,399"/>
+<area shape="poly" title=" " alt="" coords="136,348,214,367,213,372,134,353"/>
+<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="429,417,552,443"/>
+<area shape="poly" title=" " alt="" coords="96,348,140,381,169,397,199,409,253,423,310,430,413,433,413,438,309,435,252,428,197,414,166,401,137,385,93,353"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="421,139,559,180"/>
+<area shape="poly" title=" " alt="" coords="321,157,405,157,405,162,321,162"/>
+<area shape="poly" title=" " alt="" coords="307,144,405,92,475,62,555,34,642,13,732,3,777,4,821,9,865,19,907,35,946,59,980,92,1006,126,1026,157,1021,160,1002,130,976,96,943,64,905,39,863,24,821,14,777,9,732,8,643,18,557,39,477,67,407,97,310,149"/>
+<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="634,97,729,123"/>
+<area shape="poly" title=" " alt="" coords="559,139,619,124,620,129,560,144"/>
+<area shape="poly" title=" " alt="" coords="560,174,608,182,695,189,782,191,938,188,938,194,782,197,694,194,607,188,559,180"/>
+<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="609,147,754,172"/>
+<area shape="poly" title=" " alt="" coords="560,157,594,157,594,162,560,162"/>
+<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="804,121,906,147"/>
+<area shape="poly" title=" " alt="" coords="729,114,789,123,788,128,729,119"/>
+<area shape="poly" title=" " alt="" coords="703,95,742,75,793,56,850,48,879,50,907,57,943,77,975,104,1022,158,1018,161,972,107,940,82,905,62,878,55,850,53,795,62,744,80,706,99"/>
+<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="812,72,898,98"/>
+<area shape="poly" title=" " alt="" coords="729,101,797,91,798,96,729,106"/>
+<area shape="poly" title=" " alt="" coords="905,145,976,165,974,170,904,150"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1346,172,1439,198"/>
+<area shape="poly" title=" " alt="" coords="1124,182,1330,182,1330,188,1124,188"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="1171,197,1298,223"/>
+<area shape="poly" title=" " alt="" coords="1124,193,1156,198,1155,203,1123,199"/>
+<area shape="poly" title=" " alt="" coords="1298,198,1330,192,1330,198,1298,203"/>
+<area shape="poly" title=" " alt="" coords="886,96,907,107,1004,161,1001,166,905,111,884,101"/>
+<area shape="poly" title=" " alt="" coords="754,146,788,141,789,147,755,152"/>
+<area shape="poly" title=" " alt="" coords="754,162,939,175,939,181,754,167"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="607,337,756,363"/>
+<area shape="poly" title=" " alt="" coords="373,376,591,356,592,361,374,381"/>
+<area shape="poly" title=" " alt="" coords="755,343,830,330,868,318,905,303,938,282,968,257,1015,208,1019,212,972,261,941,286,907,307,870,323,831,335,756,348"/>
+<area shape="poly" title=" " alt="" coords="552,427,627,422,719,408,815,383,861,364,905,341,943,312,975,277,1021,210,1025,213,979,280,946,316,907,346,863,369,816,388,720,414,628,427,553,433"/>
 </map>
 </div>
 <div class="dynheader">
@@ -4358,14 +4462,32 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="corrections_8cpp_a6083298125f11bf344e139a92c2b0445_cgraph.png" border="0" usemap="#acorrections_8cpp_a6083298125f11bf344e139a92c2b0445_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_a6083298125f11bf344e139a92c2b0445_cgraph" id="acorrections_8cpp_a6083298125f11bf344e139a92c2b0445_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,140,31"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="188,5,357,31"/>
-<area shape="poly" title=" " alt="" coords="140,16,172,16,172,21,140,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="579,5,673,31"/>
-<area shape="poly" title=" " alt="" coords="357,16,563,16,563,21,357,21"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="405,31,531,56"/>
-<area shape="poly" title=" " alt="" coords="358,26,390,31,389,36,357,32"/>
-<area shape="poly" title=" " alt="" coords="531,31,563,25,564,31,532,36"/>
+<area shape="rect" title=" " alt="" coords="5,53,140,79"/>
+<area shape="rect" href="class_p_i_d.html#ae2cc3dd654f2269a8f693118d3382cc2" title="Initialize/reset the controller." alt="" coords="190,28,312,53"/>
+<area shape="poly" title=" " alt="" coords="140,53,175,48,175,54,141,59"/>
+<area shape="rect" href="corrections_8cpp.html#aefd780fd0e66ca709d5c3eefa0f833c9" title=" " alt="" coords="188,77,314,103"/>
+<area shape="poly" title=" " alt="" coords="141,72,173,76,172,82,140,77"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="770,77,939,103"/>
+<area shape="poly" title=" " alt="" coords="299,24,362,12,463,4,543,6,623,18,722,40,808,68,806,73,721,46,622,23,543,11,464,9,362,18,300,29"/>
+<area shape="rect" href="class_pid_core.html#a0c57ada60968c1db87c504beced10667" title="(Optional) Reset the integral term" alt="" coords="362,28,507,53"/>
+<area shape="poly" title=" " alt="" coords="312,38,346,38,346,43,312,43"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="1161,77,1255,103"/>
+<area shape="poly" title=" " alt="" coords="939,87,1145,87,1145,92,939,92"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="987,102,1113,128"/>
+<area shape="poly" title=" " alt="" coords="940,98,972,102,971,108,939,103"/>
+<area shape="poly" title=" " alt="" coords="1113,102,1145,97,1146,102,1114,107"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="364,77,506,103"/>
+<area shape="poly" title=" " alt="" coords="315,87,348,87,348,92,315,92"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="378,128,491,153"/>
+<area shape="poly" title=" " alt="" coords="301,101,372,120,370,125,300,106"/>
+<area shape="poly" title=" " alt="" coords="487,74,555,62,638,56,722,62,781,71,780,76,721,67,638,61,556,67,488,79"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="555,77,722,103"/>
+<area shape="poly" title=" " alt="" coords="506,87,540,87,540,92,506,92"/>
+<area shape="poly" title=" " alt="" coords="722,87,754,87,754,92,722,92"/>
+<area shape="poly" title=" " alt="" coords="491,134,598,126,721,112,775,103,776,109,722,118,599,132,492,140"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="570,178,707,204"/>
+<area shape="poly" title=" " alt="" coords="490,151,570,171,568,176,489,156"/>
+<area shape="poly" title=" " alt="" coords="676,175,721,157,815,108,818,113,723,161,678,180"/>
 </map>
 </div>
 <div class="dynheader">
@@ -4466,16 +4588,15 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="corrections_8cpp_a04953efcdd2ec0f8bec3b5cf7e3b11fd_cgraph.png" border="0" usemap="#acorrections_8cpp_a04953efcdd2ec0f8bec3b5cf7e3b11fd_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_a04953efcdd2ec0f8bec3b5cf7e3b11fd_cgraph" id="acorrections_8cpp_a04953efcdd2ec0f8bec3b5cf7e3b11fd_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,189,31"/>
+<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="237,5,410,31"/>
+<area shape="poly" title=" " alt="" coords="189,16,221,16,221,21,189,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="458,5,627,31"/>
-<area shape="poly" title=" " alt="" coords="189,16,442,16,442,21,189,21"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="237,31,410,56"/>
-<area shape="poly" title=" " alt="" coords="190,26,222,29,221,35,189,31"/>
+<area shape="poly" title=" " alt="" coords="410,16,442,16,442,21,410,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="850,5,943,31"/>
 <area shape="poly" title=" " alt="" coords="628,16,834,16,834,21,628,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="675,31,802,56"/>
 <area shape="poly" title=" " alt="" coords="628,26,660,31,659,36,627,32"/>
 <area shape="poly" title=" " alt="" coords="802,31,834,25,834,31,802,36"/>
-<area shape="poly" title=" " alt="" coords="410,31,442,27,443,32,411,36"/>
 </map>
 </div>
 <div class="dynheader">
@@ -4811,16 +4932,15 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="corrections_8cpp_af37928198207d583d3922077e544aecf_cgraph.png" border="0" usemap="#acorrections_8cpp_af37928198207d583d3922077e544aecf_cgraph" alt=""/></div>
 <map name="acorrections_8cpp_af37928198207d583d3922077e544aecf_cgraph" id="acorrections_8cpp_af37928198207d583d3922077e544aecf_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,181,31"/>
+<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="229,5,377,31"/>
+<area shape="poly" title=" " alt="" coords="181,16,213,16,213,21,181,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="425,5,594,31"/>
-<area shape="poly" title=" " alt="" coords="181,16,410,16,410,21,181,21"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="229,31,377,56"/>
-<area shape="poly" title=" " alt="" coords="181,26,214,30,213,35,181,31"/>
+<area shape="poly" title=" " alt="" coords="377,16,409,16,409,21,377,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="817,5,910,31"/>
 <area shape="poly" title=" " alt="" coords="595,16,801,16,801,21,595,21"/>
 <area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="642,31,769,56"/>
 <area shape="poly" title=" " alt="" coords="595,26,627,31,626,36,594,32"/>
 <area shape="poly" title=" " alt="" coords="769,31,801,25,801,31,769,36"/>
-<area shape="poly" title=" " alt="" coords="377,32,409,28,410,33,378,37"/>
 </map>
 </div>
 <div class="dynheader">
@@ -5210,6 +5330,83 @@ Here is the caller graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="405,21,374,21,374,16,405,16"/>
 <area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
 <area shape="poly" title=" " alt="" coords="247,21,215,21,215,16,247,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aefd780fd0e66ca709d5c3eefa0f833c9" name="aefd780fd0e66ca709d5c3eefa0f833c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefd780fd0e66ca709d5c3eefa0f833c9">&#9670;&#160;</a></span>setEgoPidTunings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> setEgoPidTunings </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="corrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_cgraph.png" border="0" usemap="#acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_cgraph" alt=""/></div>
+<map name="acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_cgraph" id="acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_cgraph">
+<area shape="rect" title=" " alt="" coords="5,52,132,77"/>
+<area shape="rect" href="class_p_i_d.html#affdbc50eb7df869ceb14552d08d87578" title="Set the output limits." alt="" coords="180,26,322,52"/>
+<area shape="poly" title=" " alt="" coords="132,53,164,48,165,54,133,58"/>
+<area shape="rect" href="class_p_i_d.html#a10c57259a1d3353e2eed4490913257ad" title="Set the PID parameters." alt="" coords="194,77,308,103"/>
+<area shape="poly" title=" " alt="" coords="133,71,179,77,178,82,132,76"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="584,52,754,77"/>
+<area shape="poly" title=" " alt="" coords="303,23,370,11,453,3,490,4,537,11,585,24,628,42,626,47,583,29,536,16,490,10,454,8,370,16,304,28"/>
+<area shape="rect" href="class_pid_core.html#a2f5086f98185ba70ed09c91477005213" title="Set the output limits." alt="" coords="370,26,536,52"/>
+<area shape="poly" title=" " alt="" coords="323,36,354,36,354,42,323,42"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="976,52,1069,77"/>
+<area shape="poly" title=" " alt="" coords="754,62,960,62,960,67,754,67"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="802,77,928,103"/>
+<area shape="poly" title=" " alt="" coords="754,73,786,77,786,82,754,78"/>
+<area shape="poly" title=" " alt="" coords="928,77,960,72,961,77,929,82"/>
+<area shape="poly" title=" " alt="" coords="537,46,569,50,568,55,537,51"/>
+<area shape="poly" title=" " alt="" coords="308,84,569,68,569,73,308,89"/>
+<area shape="rect" href="class_pid_core.html#a3763fb4cd11fd420aee3078360274534" title="Set the PID parameters." alt="" coords="385,128,522,153"/>
+<area shape="poly" title=" " alt="" coords="306,101,385,121,384,126,304,106"/>
+<area shape="poly" title=" " alt="" coords="491,124,615,80,617,85,493,129"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="corrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_icgraph.png" border="0" usemap="#acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_icgraph" alt=""/></div>
+<map name="acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_icgraph" id="acorrections_8cpp_aefd780fd0e66ca709d5c3eefa0f833c9_icgraph">
+<area shape="rect" title=" " alt="" coords="1047,32,1173,58"/>
+<area shape="rect" href="corrections_8cpp.html#a9bb82cb19fa8c50e79d1f2dbdf2b4517" title=" " alt="" coords="847,7,999,32"/>
+<area shape="poly" title=" " alt="" coords="1031,37,999,32,1000,27,1032,32"/>
+<area shape="rect" href="corrections_8cpp.html#a6083298125f11bf344e139a92c2b0445" title=" " alt="" coords="856,56,990,82"/>
+<area shape="poly" title=" " alt="" coords="1032,57,990,63,990,58,1032,52"/>
+<area shape="rect" href="corrections_8cpp.html#a6870269fdd0bed21dea671a82e0271e1" title=" " alt="" coords="642,5,799,31"/>
+<area shape="poly" title=" " alt="" coords="831,22,799,21,799,16,831,16"/>
+<area shape="rect" href="corrections_8cpp.html#ab5df2bd365fb3ff8a76f2c3cd80be071" title=" " alt="" coords="421,5,594,31"/>
+<area shape="poly" title=" " alt="" coords="627,21,595,21,595,16,627,16"/>
+<area shape="rect" href="corrections_8cpp.html#a663aceceb4f0a01b0e40555046c88016" title=" " alt="" coords="263,5,373,31"/>
+<area shape="poly" title=" " alt="" coords="405,21,374,21,374,16,405,16"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,31,215,56"/>
+<area shape="poly" title=" " alt="" coords="247,29,216,33,215,28,247,24"/>
+<area shape="poly" title=" " alt="" coords="840,69,215,49,215,44,840,64"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="679,107,762,132"/>
+<area shape="poly" title=" " alt="" coords="855,89,763,112,762,107,853,83"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="481,107,534,132"/>
+<area shape="poly" title=" " alt="" coords="663,122,535,122,535,117,663,117"/>
 </map>
 </div>
 
@@ -5712,6 +5909,21 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a3c79595625e28a4fb60d49086478e6b0" name="a3c79595625e28a4fb60d49086478e6b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c79595625e28a4fb60d49086478e6b0">&#9670;&#160;</a></span>egoPID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="class_p_i_d.html">PID</a> egoPID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Instance of the <a class="el" href="class_p_i_d.html">PID</a> object in case that algorithm is used (Always instantiated). Needs to be global as it maintains state outside of each function call. Comes from Arduino (?) <a class="el" href="class_p_i_d.html">PID</a> library. </p>
+
+</div>
+</div>
 <a id="a00fe6fe69bfe96e645a832baaf7ba34e" name="a00fe6fe69bfe96e645a832baaf7ba34e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00fe6fe69bfe96e645a832baaf7ba34e">&#9670;&#160;</a></span>IGN_IDLE_THRESHOLD</h2>
 
@@ -5795,73 +6007,6 @@ Here is the caller graph for this function:</div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6290f0cfc0c525c9a2eb40d50cc71a40" name="a6290f0cfc0c525c9a2eb40d50cc71a40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6290f0cfc0c525c9a2eb40d50cc71a40">&#9670;&#160;</a></span>PID_AFRTarget</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> PID_AFRTarget</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39a3fb522fe0f6c6b53b9228d0a9a406" name="a39a3fb522fe0f6c6b53b9228d0a9a406"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39a3fb522fe0f6c6b53b9228d0a9a406">&#9670;&#160;</a></span>PID_O2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">PID</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">egoPID</a> &amp; PID_O2</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Instance of the PID object in case that algorithm is used (Always instantiated). Needs to be global as it maintains state outside of each function call. Comes from Arduino (?) PID library. </p>
-
-</div>
-</div>
-<a id="a3c70568d59d03ad0c36d21190b683b3c" name="a3c70568d59d03ad0c36d21190b683b3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c70568d59d03ad0c36d21190b683b3c">&#9670;&#160;</a></span>PID_output</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">long</a> PID_output</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

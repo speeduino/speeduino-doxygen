@@ -34,6 +34,7 @@ var searchData=
   ['not_5fa_5fpin_31',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
   ['nsquirts_32',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
   ['nsquirtsstatus_33',['nSquirtsStatus',['../structstatuses.html#aff448564da6894b483a9fd429b0fc4db',1,'statuses']]],
-  ['numprimaryinjoutputs_34',['numPrimaryInjOutputs',['../structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2',1,'statuses']]],
-  ['numsecondaryinjoutputs_35',['numSecondaryInjOutputs',['../structstatuses.html#a749eda9094235a10648a518f97b5282a',1,'statuses']]]
+  ['null_5fport_34',['NULL_PORT',['../structport__pin__t.html#ac747621fb245c468e8fdf6c56b5e5239',1,'port_pin_t']]],
+  ['numprimaryinjoutputs_35',['numPrimaryInjOutputs',['../structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2',1,'statuses']]],
+  ['numsecondaryinjoutputs_36',['numSecondaryInjOutputs',['../structstatuses.html#a749eda9094235a10648a518f97b5282a',1,'statuses']]]
 ];
