@@ -114,7 +114,7 @@ var searchData=
   ['and_208_20cylinder_111',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]],
   ['and_20miata_20mx_205_112',['Mistsubishi 4G63 and Miata + MX-5',['../group__dec__mitsu__miata.html',1,'']]],
   ['anglefilter_5fvvt_113',['ANGLEFILTER_VVT',['../structconfig4.html#affdd82923d6cbda4964026982989beaa',1,'config4']]],
-  ['angletotimemicrosecperdegree_114',['angleToTimeMicroSecPerDegree',['../crank_maths_8h.html#a68f64728f72be4fedd328587d630b494',1,'crankMaths.h']]],
+  ['angletotime_114',['angleToTime',['../crank_maths_8h.html#a7bcd09a084dac7796c88ed638c266b80',1,'crankMaths.h']]],
   ['angletotimerticks_115',['angleToTimerTicks',['../crank_maths_8h.html#a5ab57719f027be2d276ca6c25e2a8a94',1,'crankMaths.h']]],
   ['applyaecoolanttaper_116',['applyAeCoolantTaper',['../corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620',1,'corrections.cpp']]],
   ['applyaerpmtaper_117',['applyAeRpmTaper',['../corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291',1,'corrections.cpp']]],

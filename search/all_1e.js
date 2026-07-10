@@ -92,7 +92,7 @@ var searchData=
   ['timerbit_89',['timerBit',['../structpolled_action__t.html#acb1669c53e6b666b87d20821688498cb',1,'polledAction_t']]],
   ['timers_2ecpp_90',['timers.cpp',['../timers_8cpp.html',1,'']]],
   ['timers_2eh_91',['timers.h',['../timers_8h.html',1,'']]],
-  ['timetoangledegpermicrosec_92',['timeToAngleDegPerMicroSec',['../crank_maths_8h.html#ae19bc45493639eb25b78aa17429620d3',1,'crankMaths.h']]],
+  ['timetoangle_92',['timeToAngle',['../crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3',1,'crankMaths.h']]],
   ['timetoangleintervaltooth_93',['timeToAngleIntervalTooth',['../group__dec__uni.html#gaffacbfaa5231714384f143fb3b95c772',1,'decoders.cpp']]],
   ['to_2005_94',['Miata &apos;99 to &apos;05',['../group__miata__99__05.html',1,'']]],
   ['to_20contribute_95',['How to contribute',['../md_contributing.html',1,'']]],

@@ -11,7 +11,7 @@ var searchData=
   ['airconfanon_8',['airConFanOn',['../auxiliaries_8cpp.html#a78ab79fca5f823c39098928890d9e23b',1,'auxiliaries.cpp']]],
   ['airconoff_9',['airConOff',['../auxiliaries_8cpp.html#a9ac6ae42f03f69a27d959fcf24591e1a',1,'auxiliaries.cpp']]],
   ['airconon_10',['airConOn',['../auxiliaries_8cpp.html#a828c11394187618aa4ad53a92e699d6f',1,'auxiliaries.cpp']]],
-  ['angletotimemicrosecperdegree_11',['angleToTimeMicroSecPerDegree',['../crank_maths_8h.html#a68f64728f72be4fedd328587d630b494',1,'crankMaths.h']]],
+  ['angletotime_11',['angleToTime',['../crank_maths_8h.html#a7bcd09a084dac7796c88ed638c266b80',1,'crankMaths.h']]],
   ['angletotimerticks_12',['angleToTimerTicks',['../crank_maths_8h.html#a5ab57719f027be2d276ca6c25e2a8a94',1,'crankMaths.h']]],
   ['applyaecoolanttaper_13',['applyAeCoolantTaper',['../corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620',1,'corrections.cpp']]],
   ['applyaerpmtaper_14',['applyAeRpmTaper',['../corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291',1,'corrections.cpp']]],
