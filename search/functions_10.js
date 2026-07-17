@@ -1,7 +1,7 @@
 var searchData=
 [
   ['page_5fbegin_0',['page_begin',['../pages_8h.html#a3057030ed67c5cd67e89ef2f75b2c448',1,'page_begin(uint8_t pageNum):&#160;pages.cpp'],['../pages_8cpp.html#a3057030ed67c5cd67e89ef2f75b2c448',1,'page_begin(uint8_t pageNum):&#160;pages.cpp']]],
-  ['page_5fentity_5ft_1',['page_entity_t',['../structpage__entity__t.html#a3e2302461687775594ddb28c5951be5b',1,'page_entity_t::page_entity_t(void)'],['../structpage__entity__t.html#ab72a7d85561df0df584ec16f62c6a30b',1,'page_entity_t::page_entity_t(const entity_t &amp;entity, uint16_t base)']]],
+  ['page_5fentity_5ft_1',['page_entity_t',['../structpage__entity__t.html#ab72a7d85561df0df584ec16f62c6a30b',1,'page_entity_t::page_entity_t(const entity_t &amp;entity, uint16_t base)'],['../structpage__entity__t.html#a3e2302461687775594ddb28c5951be5b',1,'page_entity_t::page_entity_t(void)']]],
   ['page_5fiterator_5ft_2',['page_iterator_t',['../structpage__iterator__t.html#afdb28b4c0384ebb9f2d9cd8653edb0f4',1,'page_iterator_t::page_iterator_t(const page_entity_t &amp;theEntity, const entity_page_location_t &amp;entityLocation)'],['../structpage__iterator__t.html#a6841fc5cd42a828bcef7ddf3e6975608',1,'page_iterator_t::page_iterator_t(void)=default']]],
   ['pageoffsettoentityoffset_3',['pageOffsetToEntityOffset',['../pages_8cpp.html#a940710a97b1b01e4d5c3520c323a3220',1,'pages.cpp']]],
   ['percentage_4',['percentage',['../maths_8h.html#a721697aa299475556eb611a74a7246f3',1,'maths.h']]],
@@ -23,5 +23,6 @@ var searchData=
   ['processtemperaturecalibrationtableupdate_20',['processTemperatureCalibrationTableUpdate',['../group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef',1,'comms.cpp']]],
   ['programmableiogetdata_21',['programmableiogetdata',['../programmable_i_o_control_8cpp.html#a3ae5935a99403a3fae53567880e74a39',1,'ProgrammableIOGetData(uint16_t index, byte(*pGetLogEntry)(uint16_t byteNum)):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8cpp.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp'],['../programmable_i_o_control_8h.html#a6d65d36c291073121ae86496d6a6f73b',1,'ProgrammableIOGetData(uint16_t index):&#160;programmableIOControl.cpp']]],
   ['pump_5fstate_5ft_22',['pump_state_t',['../structfuel_pump_controller_1_1detsil_1_1pump__state__t.html#a22f393cc873faddd9bc302a3c6302280',1,'fuelPumpController::detsil::pump_state_t']]],
-  ['pwapplynitrous_23',['pwApplyNitrous',['../fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e',1,'fuel_calcs.cpp']]]
+  ['pwapplynitrous_23',['pwApplyNitrous',['../fuel__calcs_8cpp.html#a05e158209ce303b27076d4d9adcf727e',1,'fuel_calcs.cpp']]],
+  ['pwmfreqtoticks_24',['pwmfreqtoticks',['../maths_8cpp.html#a5bec6ef62f972ccc980c45f3d0f98e56',1,'pwmFreqToTicks(uint16_t frequency):&#160;maths.cpp'],['../maths_8h.html#a5bec6ef62f972ccc980c45f3d0f98e56',1,'pwmFreqToTicks(uint16_t frequency):&#160;maths.cpp']]]
 ];
