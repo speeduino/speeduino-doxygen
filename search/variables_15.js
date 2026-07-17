@@ -60,7 +60,7 @@ var searchData=
   ['vvt_5fmode_5fclosed_5floop_57',['VVT_MODE_CLOSED_LOOP',['../config__pages_8h.html#acbbe9a802861680418ae22656faa4514',1,'config_pages.h']]],
   ['vvt_5fmode_5fonoff_58',['VVT_MODE_ONOFF',['../config__pages_8h.html#ac82ebd7e35f45e8d53b6bb1bfd89d27a',1,'config_pages.h']]],
   ['vvt_5fmode_5fopen_5floop_59',['VVT_MODE_OPEN_LOOP',['../config__pages_8h.html#a3c30b47b163bfbb609ec533ed934de55',1,'config_pages.h']]],
-  ['vvt_5fpwm_5fmax_5fcount_60',['vvt_pwm_max_count',['../auxiliaries_8cpp.html#a3f486b7f70d846017890618c3a046e2a',1,'auxiliaries.cpp']]],
+  ['vvt_5fpwm_5fmax_5fcount_60',['vvt_pwm_max_count',['../auxiliaries_8cpp.html#ac3c20547b95f82638f6254f3abd41f99',1,'auxiliaries.cpp']]],
   ['vvtcl0dutyang_61',['vvtCL0DutyAng',['../structconfig10.html#a75fab192d6f06f77014da828987c8eff',1,'config10']]],
   ['vvtclalterfueltiming_62',['vvtCLAlterFuelTiming',['../structconfig6.html#a890eb5c98238ff37335f028f829089e6',1,'config6']]],
   ['vvtclholdduty_63',['vvtCLholdDuty',['../structconfig10.html#a62e8d70df3bdc8b36d25614fdf4ea2b9',1,'config10']]],
