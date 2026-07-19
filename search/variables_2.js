@@ -33,7 +33,7 @@ var searchData=
   ['boost_5fby_5fgear_5fpercent_30',['BOOST_BY_GEAR_PERCENT',['../config__pages_8h.html#ada9a1918af8556291e35208c42daa345',1,'config_pages.h']]],
   ['boost_5fmode_5ffull_31',['BOOST_MODE_FULL',['../config__pages_8h.html#adf95b26b8e61b85cf8ebf2a4240c9831',1,'config_pages.h']]],
   ['boost_5fmode_5fsimple_32',['BOOST_MODE_SIMPLE',['../config__pages_8h.html#ab3a1711bf7001379072945834d2c556e',1,'config_pages.h']]],
-  ['boost_5fpin_33',['boost_pin',['../auxiliaries_8cpp.html#a4b76ba169276e056b9ec30a270c9985a',1,'auxiliaries.cpp']]],
+  ['boost_5fpin_33',['boost_pin',['../auxiliaries_8cpp.html#a446ab634a86bf97e2a5ed779dc543d78',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fcur_5fvalue_34',['boost_pwm_cur_value',['../auxiliaries_8cpp.html#af227a8cd80c5ae711f997a27af6e21a9',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fmax_5fcount_35',['boost_pwm_max_count',['../auxiliaries_8cpp.html#ac4a9fd24e32f7d18447906fb4a8f3857',1,'auxiliaries.cpp']]],
   ['boost_5fpwm_5fstate_36',['boost_pwm_state',['../auxiliaries_8cpp.html#a3e0f99648dc3d20fce90b70c00efbebb',1,'auxiliaries.cpp']]],

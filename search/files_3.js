@@ -7,6 +7,8 @@ var searchData=
   ['decoder_5ft_2eh_4',['decoder_t.h',['../decoder__t_8h.html',1,'']]],
   ['decoders_2ecpp_5',['decoders.cpp',['../decoders_8cpp.html',1,'']]],
   ['decoders_2eh_6',['decoders.h',['../decoders_8h.html',1,'']]],
-  ['dwell_2ecpp_7',['dwell.cpp',['../dwell_8cpp.html',1,'']]],
-  ['dwell_2eh_8',['dwell.h',['../dwell_8h.html',1,'']]]
+  ['digitalpin_2ecpp_7',['digitalPin.cpp',['../digital_pin_8cpp.html',1,'']]],
+  ['digitalpin_2eh_8',['digitalPin.h',['../digital_pin_8h.html',1,'']]],
+  ['dwell_2ecpp_9',['dwell.cpp',['../dwell_8cpp.html',1,'']]],
+  ['dwell_2eh_10',['dwell.h',['../dwell_8h.html',1,'']]]
 ];
