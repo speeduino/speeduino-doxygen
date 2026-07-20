@@ -26,7 +26,7 @@ var searchData=
   ['new_5fcan_5fpacket_5fsize_23',['NEW_CAN_PACKET_SIZE',['../comms__secondary_8h.html#a938ff26019a31d5d003e577a8683086c',1,'comms_secondary.h']]],
   ['next_24',['next',['../structentity__page__location__t.html#ab8d8e532cb57f1095e931a33e11a8a3c',1,'entity_page_location_t']]],
   ['nextafrcyclehasstarted_25',['nextAfrCycleHasStarted',['../corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac',1,'corrections.cpp']]],
-  ['nextvvt_26',['nextVVT',['../auxiliaries_8cpp.html#a8fd3e8f33d94f4ac1bac29b6552f68d9',1,'auxiliaries.cpp']]],
+  ['nextvvt_26',['nextVVT',['../auxiliaries_8cpp.html#ad7e72baaccc3b327507263d36031e816',1,'auxiliaries.cpp']]],
   ['ngc_204_206_20and_208_20cylinder_27',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]],
   ['ninjectors_28',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
   ['nissan_20360_20tooth_20on_20cam_29',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
