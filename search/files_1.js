@@ -16,5 +16,7 @@ var searchData=
   ['board_5fteensy41_2ecpp_13',['board_teensy41.cpp',['../board__teensy41_8cpp.html',1,'']]],
   ['board_5fteensy41_2eh_14',['board_teensy41.h',['../board__teensy41_8h.html',1,'']]],
   ['board_5ftemplate_2ecpp_15',['board_template.cpp',['../board__template_8cpp.html',1,'']]],
-  ['board_5ftemplate_2eh_16',['board_template.h',['../board__template_8h.html',1,'']]]
+  ['board_5ftemplate_2eh_16',['board_template.h',['../board__template_8h.html',1,'']]],
+  ['boardinputpin_2eh_17',['boardInputPin.h',['../board_input_pin_8h.html',1,'']]],
+  ['boardoutputpin_2eh_18',['boardOutputPin.h',['../board_output_pin_8h.html',1,'']]]
 ];
