@@ -12,7 +12,7 @@ var searchData=
   ['table3d_5fvisitor_2eh_9',['table3d_visitor.h',['../table3d__visitor_8h.html',1,'']]],
   ['timers_2ecpp_10',['timers.cpp',['../timers_8cpp.html',1,'']]],
   ['timers_2eh_11',['timers.h',['../timers_8h.html',1,'']]],
-  ['ts_5fcommandbuttonhandler_2ecpp_12',['TS_CommandButtonHandler.cpp',['../_t_s___command_button_handler_8cpp.html',1,'']]],
-  ['ts_5fcommandbuttonhandler_2eh_13',['TS_CommandButtonHandler.h',['../_t_s___command_button_handler_8h.html',1,'']]],
+  ['tscommandcontroller_2ecpp_12',['tsCommandController.cpp',['../ts_command_controller_8cpp.html',1,'']]],
+  ['tscommandcontroller_2eh_13',['tsCommandController.h',['../ts_command_controller_8h.html',1,'']]],
   ['type_5ftraits_2eh_14',['type_traits.h',['../type__traits_8h.html',1,'']]]
 ];

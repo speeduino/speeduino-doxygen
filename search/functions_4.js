@@ -14,12 +14,13 @@ var searchData=
   ['detachloggerinterrupt_11',['detachLoggerInterrupt',['../logger_8cpp.html#a2fc15220b209202b14a0be4201a48aee',1,'logger.cpp']]],
   ['digitalpintointerrupt_12',['digitalPinToInterrupt',['../board__stm32__official_8h.html#a62d713858586a5aac399231239532cf3',1,'board_stm32_official.h']]],
   ['disableidle_13',['disableidle',['../idle_8h.html#a3e762585d25c60a9672cacfff3b2d572',1,'disableIdle(void):&#160;idle.cpp'],['../idle_8cpp.html#a3e762585d25c60a9672cacfff3b2d572',1,'disableIdle(void):&#160;idle.cpp']]],
-  ['div100_14',['div100',['../maths_8h.html#af04d6ab82ec9f03c6991bb264601813e',1,'div100(uint16_t n):&#160;maths.h'],['../maths_8h.html#a47f4de8204f37c9b3a684215e7ff8da9',1,'div100(int16_t n):&#160;maths.h'],['../maths_8h.html#a79bc81078c3833d37ac5ef4bf3e3f9e4',1,'div100(uint32_t n):&#160;maths.h'],['../maths_8h.html#a4b7ecb520225701a711526fb1422638a',1,'div100(int32_t n):&#160;maths.h']]],
-  ['div360_15',['div360',['../maths_8h.html#a722ecd5834c45b061782ddb3a3036aee',1,'maths.h']]],
-  ['div_5fround_5fclosest_5fu16_16',['div_round_closest_u16',['../group__group-rounded-div.html#ga33c57fc943428490f84a7ccb7e4b7a76',1,'maths.h']]],
-  ['dividetableload_17',['dividetableload',['../updates_8cpp.html#ab5c0d7e74c0b726a6a1e8d761ccbcec8',1,'divideTableLoad(table3d_t *pTable, TableType key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#ab5c0d7e74c0b726a6a1e8d761ccbcec8',1,'divideTableLoad(table3d_t *pTable, TableType key, uint8_t divisor):&#160;updates.cpp']]],
-  ['dividetablevalue_18',['dividetablevalue',['../updates_8cpp.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp']]],
-  ['dostep_19',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
-  ['dosystemreset_20',['doSystemReset',['../board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c',1,'board_definition.h']]],
-  ['doupdates_21',['doupdates',['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]]
+  ['dischargepulsedcoils_14',['dischargePulsedCoils',['../ts_command_controller_8cpp.html#a67fe37c0fb808d698a44cc1248d5c39e',1,'tsCommandController.cpp']]],
+  ['div100_15',['div100',['../maths_8h.html#af04d6ab82ec9f03c6991bb264601813e',1,'div100(uint16_t n):&#160;maths.h'],['../maths_8h.html#a47f4de8204f37c9b3a684215e7ff8da9',1,'div100(int16_t n):&#160;maths.h'],['../maths_8h.html#a79bc81078c3833d37ac5ef4bf3e3f9e4',1,'div100(uint32_t n):&#160;maths.h'],['../maths_8h.html#a4b7ecb520225701a711526fb1422638a',1,'div100(int32_t n):&#160;maths.h']]],
+  ['div360_16',['div360',['../maths_8h.html#a722ecd5834c45b061782ddb3a3036aee',1,'maths.h']]],
+  ['div_5fround_5fclosest_5fu16_17',['div_round_closest_u16',['../group__group-rounded-div.html#ga33c57fc943428490f84a7ccb7e4b7a76',1,'maths.h']]],
+  ['dividetableload_18',['dividetableload',['../updates_8cpp.html#ab5c0d7e74c0b726a6a1e8d761ccbcec8',1,'divideTableLoad(table3d_t *pTable, TableType key, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#ab5c0d7e74c0b726a6a1e8d761ccbcec8',1,'divideTableLoad(table3d_t *pTable, TableType key, uint8_t divisor):&#160;updates.cpp']]],
+  ['dividetablevalue_19',['dividetablevalue',['../updates_8cpp.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp'],['../updates_8h.html#a4f88f0073382993179a8800185542d19',1,'divideTableValue(uint8_t pageNum, uint8_t divisor):&#160;updates.cpp']]],
+  ['dostep_20',['doStep',['../idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338',1,'idle.cpp']]],
+  ['dosystemreset_21',['doSystemReset',['../board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c',1,'board_definition.h']]],
+  ['doupdates_22',['doupdates',['../updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp'],['../updates_8h.html#a719c025633fab0a1e49d6ec192c1c6bb',1,'doUpdates(void):&#160;updates.cpp']]]
 ];
