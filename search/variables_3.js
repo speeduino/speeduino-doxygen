@@ -92,7 +92,7 @@ var searchData=
   ['curgap2_89',['curGap2',['../decoders_8cpp.html#a283a7f0f69cb28a9582a4388eca996f5',1,'decoders.cpp']]],
   ['curgap3_90',['curGap3',['../decoders_8cpp.html#a9c61da07dfe847a1fa79374a1f0d5185',1,'decoders.cpp']]],
   ['curidlestep_91',['curIdleStep',['../struct_stepper_idle.html#ae7ef6afd9d6e9772a37ad5d16125dcbd',1,'StepperIdle']]],
-  ['current_92',['current',['../scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449',1,'current:&#160;scheduler_fuel_controller.cpp'],['../scheduler__ignition__controller_8cpp.html#aa7449df890bd5ce15a934eab4fce660a',1,'current:&#160;scheduler_ignition_controller.cpp']]],
+  ['current_92',['current',['../scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449',1,'current:&#160;scheduler_fuel_controller.cpp'],['../scheduler__ignition__controller_8cpp.html#a0066e39898a18535ae0bcca44456e057',1,'current:&#160;scheduler_ignition_controller.cpp']]],
   ['current_5fcaninchannel_93',['current_caninchannel',['../structstatuses.html#a0f77ce8a4d56b9565bc5976482b76244',1,'statuses']]],
   ['currentcommand_94',['currentCommand',['../comms__legacy_8cpp.html#a5550f817b31a10cae662619ac5f71e72',1,'comms_legacy.cpp']]],
   ['currentlooptime_95',['currentlooptime',['../globals_8cpp.html#a45ad906e34abe5d3fd7f7f628110fbe5',1,'currentLoopTime:&#160;globals.cpp'],['../globals_8h.html#a45ad906e34abe5d3fd7f7f628110fbe5',1,'currentLoopTime:&#160;globals.cpp']]],
