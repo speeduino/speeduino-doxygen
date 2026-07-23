@@ -1,8 +1,13 @@
 var searchData=
 [
-  ['decoder_5fbuilder_5ft_0',['decoder_builder_t',['../structdecoder__builder__t.html',1,'']]],
-  ['decoder_5ffeatures_5ft_1',['decoder_features_t',['../structdecoder__features__t.html',1,'']]],
-  ['decoder_5fstatus_5ft_2',['decoder_status_t',['../structdecoder__status__t.html',1,'']]],
-  ['decoder_5ft_3',['decoder_t',['../structdecoder__t.html',1,'']]],
-  ['digitalpin_5ft_4',['digitalPin_t',['../classdigital_pin__t.html',1,'']]]
+  ['cmpoperation_0',['cmpOperation',['../structcmp_operation.html',1,'']]],
+  ['config10_1',['config10',['../structconfig10.html',1,'']]],
+  ['config13_2',['config13',['../structconfig13.html',1,'']]],
+  ['config15_3',['config15',['../structconfig15.html',1,'']]],
+  ['config2_4',['config2',['../structconfig2.html',1,'']]],
+  ['config4_5',['config4',['../structconfig4.html',1,'']]],
+  ['config6_6',['config6',['../structconfig6.html',1,'']]],
+  ['config9_7',['config9',['../structconfig9.html',1,'']]],
+  ['config_5fpage_5ft_8',['config_page_t',['../structconfig__page__t.html',1,'']]],
+  ['conversionfactor_9',['conversionFactor',['../structconversion_factor.html',1,'']]]
 ];

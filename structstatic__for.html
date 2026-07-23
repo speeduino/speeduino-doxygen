@@ -84,27 +84,27 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8" id="r_ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typename</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">funcType</a> , typename... Args&gt; </td></tr>
-<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">funcType</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">f</a>, Args...args)</td></tr>
+<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8" id="r_ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structarray.html">typename</a> <a class="el" href="structarray.html">funcType</a> , typename... Args&gt; </td></tr>
+<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a> (<a class="el" href="structarray.html">funcType</a> <a class="el" href="structarray.html">f</a>, Args...args)</td></tr>
 <tr class="memdesc:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unroll, calling a free function.  <br /></td></tr>
 <tr class="separator:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> from, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> to&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="structarray.html">uint8_t</a> from, <a class="el" href="structarray.html">uint8_t</a> to&gt;<br />
 struct static_for&lt; from, to &gt;</div><p>Generate a fixed number of calls to a given free function <em>at compile time</em>. </p>
-<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">foo</a>(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> index, <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">time_t</a> *<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">currTime</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">message</a>) {</div>
+<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_struct" href="structarray.html">foo</a>(<a class="code hl_struct" href="structarray.html">uint8_t</a> index, <a class="code hl_struct" href="structarray.html">time_t</a> *<a class="code hl_struct" href="structarray.html">currTime</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_struct" href="structarray.html">message</a>) {</div>
 <div class="line">  <span class="comment">// Do something</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">time_t</a> <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">currTime</a> = <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">time</a>(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">NULL</a>);</div>
-<div class="line"><span class="keywordtype">char</span> <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">message</a>[] = <span class="stringliteral">&quot;Unrolled!&quot;</span>;</div>
+<div class="line"><a class="code hl_struct" href="structarray.html">time_t</a> <a class="code hl_struct" href="structarray.html">currTime</a> = <a class="code hl_struct" href="structarray.html">time</a>(<a class="code hl_struct" href="structarray.html">NULL</a>);</div>
+<div class="line"><span class="keywordtype">char</span> <a class="code hl_struct" href="structarray.html">message</a>[] = <span class="stringliteral">&quot;Unrolled!&quot;</span>;</div>
 <div class="line"><span class="comment">// Equivalent of</span></div>
 <div class="line"><span class="comment">// foo(3, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(4, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(5, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(6, &amp;currTime, message);</span></div>
-<div class="line"><a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for&lt;3, 7&gt;::repeat_n</a>(<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">foo</a>, &amp;<a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">currTime</a>, <a class="code hl_function" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">message</a>);</div>
-<div class="ttc" id="agroup__group-serial-comms-impl_html_gaceea4a4b8c6f90cdc396b043773b709f"><div class="ttname"><a href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">readSerialIntegralTimeout</a></div><div class="ttdeci">static TIntegral readSerialIntegralTimeout(void)</div><div class="ttdoc">Reads an integral type, timing out if necessary.</div><div class="ttdef"><b>Definition</b> comms.cpp:183</div></div>
+<div class="line"><a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for&lt;3, 7&gt;::repeat_n</a>(<a class="code hl_struct" href="structarray.html">foo</a>, &amp;<a class="code hl_struct" href="structarray.html">currTime</a>, <a class="code hl_struct" href="structarray.html">message</a>);</div>
+<div class="ttc" id="astructarray_html"><div class="ttname"><a href="structarray.html">array</a></div><div class="ttdef"><b>Definition</b> array.h:14</div></div>
 <div class="ttc" id="astructstatic__for_html_ae02ff9c42ffb05ae6ddeb3b556f014c8"><div class="ttname"><a href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for::repeat_n</a></div><div class="ttdeci">static void repeat_n(funcType f, Args...args)</div><div class="ttdoc">Unroll, calling a free function.</div><div class="ttdef"><b>Definition</b> static_for.hpp:55</div></div>
 </div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -120,17 +120,17 @@ struct static_for&lt; from, to &gt;</div><p>Generate a fixed number of calls to 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> from, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> to&gt; </div>
+template&lt;<a class="el" href="structarray.html">uint8_t</a> from, <a class="el" href="structarray.html">uint8_t</a> to&gt; </div>
 <div class="memtemplate">
-template&lt;<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">typename</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">funcType</a> , typename... Args&gt; </div>
+template&lt;<a class="el" href="structarray.html">typename</a> <a class="el" href="structarray.html">funcType</a> , typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">static</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">void</a> <a class="el" href="structstatic__for.html">static_for</a>&lt; <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">from</a>, <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">to</a> &gt;::repeat_n </td>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> <a class="el" href="structstatic__for.html">static_for</a>&lt; <a class="el" href="structarray.html">from</a>, <a class="el" href="structarray.html">to</a> &gt;::repeat_n </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">funcType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structarray.html">funcType</a>&#160;</td>
           <td class="paramname"><em>f</em>, </td>
         </tr>
         <tr>
@@ -173,21 +173,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="structstatic__for_ae02ff9c42ffb05ae6ddeb3b556f014c8_cgraph.png" border="0" usemap="#astructstatic__for_ae02ff9c42ffb05ae6ddeb3b556f014c8_cgraph" alt=""/></div>
 <map name="astructstatic__for_ae02ff9c42ffb05ae6ddeb3b556f014c8_cgraph" id="astructstatic__for_ae02ff9c42ffb05ae6ddeb3b556f014c8_cgraph">
-<area shape="rect" title="Unroll, calling a free function." alt="" coords="5,50,137,76"/>
-<area shape="poly" title=" " alt="" coords="38,51,31,42,35,32,49,26,71,23,95,26,108,33,105,38,94,31,71,29,50,31,39,36,37,41,42,48"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="185,50,354,76"/>
-<area shape="poly" title=" " alt="" coords="137,60,169,60,169,66,137,66"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="576,25,670,50"/>
-<area shape="poly" title=" " alt="" coords="296,47,344,26,401,10,465,3,529,10,567,18,566,23,528,15,465,8,403,15,346,31,298,52"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="402,25,528,50"/>
-<area shape="poly" title=" " alt="" coords="354,49,386,45,387,50,355,55"/>
-<area shape="rect" href="elapsed__time_8h.html#affa826db48e50808397a2308507442c0" title="Check whether at least interval counter ticks have elapsed since start." alt="" coords="718,75,849,101"/>
-<area shape="poly" title=" " alt="" coords="667,49,727,68,725,73,665,54"/>
-<area shape="poly" title=" " alt="" coords="717,88,369,71,369,65,717,82"/>
-<area shape="rect" href="elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662" title="Compute the number of counter ticks elapsed from start to now." alt="" coords="897,101,989,126"/>
-<area shape="poly" title=" " alt="" coords="850,96,882,101,881,107,849,101"/>
-<area shape="poly" title=" " alt="" coords="897,118,813,119,718,116,559,104,402,84,369,80,370,75,402,79,560,99,718,111,813,113,897,112"/>
-<area shape="poly" title=" " alt="" coords="529,35,561,35,561,40,529,40"/>
+<area shape="rect" title="Unroll, calling a free function." alt="" coords="5,29,137,55"/>
+<area shape="poly" title=" " alt="" coords="48,30,44,21,46,11,56,5,71,3,87,5,96,12,93,16,85,10,71,8,58,10,51,14,49,20,53,28"/>
 </map>
 </div>
 <div class="dynheader">

@@ -87,26 +87,27 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="config__pages_8h.html">config_pages.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="board__definition_8h.html">board_definition.h</a>&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#if defined(MC33810_SUPPORT)</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keywordtype">void</span> initMC33810(   <span class="keyword">const</span> <a class="code hl_struct" href="structconfig4.html">config4</a> &amp;<a class="code hl_variable" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>,</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>                    uint8_t pinMC33810_1, uint8_t pinMC33810_2,</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>                    <span class="keyword">const</span> uint8_t (&amp;injBits)[8],</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>                    <span class="keyword">const</span> uint8_t (&amp;ignBits)[8]);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keywordtype">void</span> openInjector_MC33810(uint8_t channel);</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keywordtype">void</span> closeInjector_MC33810(uint8_t channel);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keywordtype">void</span> coilCharging_MC33810(uint8_t channel);</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keywordtype">void</span> coilStopCharging_MC33810(uint8_t channel);</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="pin_numbers__t_8h.html">src/pins/pinNumbers_t.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#if defined(MC33810_SUPPORT)</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keywordtype">void</span> initMC33810(<span class="keyword">const</span> <a class="code hl_struct" href="structconfig4.html">config4</a> &amp;<a class="code hl_variable" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <span class="keyword">const</span> <a class="code hl_struct" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="code hl_variable" href="scheduled_i_o__direct__ign_8cpp.html#a8dee625c424067a1469744612ebaf4cb">pins</a>);</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keywordtype">void</span> openInjector_MC33810(uint8_t channel);</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keywordtype">void</span> closeInjector_MC33810(uint8_t channel);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keywordtype">void</span> coilCharging_MC33810(uint8_t channel);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keywordtype">void</span> coilStopCharging_MC33810(uint8_t channel);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aboard__definition_8h_html"><div class="ttname"><a href="board__definition_8h.html">board_definition.h</a></div><div class="ttdoc">Inclusion of board specific header files and board related definitions.</div></div>
 <div class="ttc" id="aconfig__pages_8h_html"><div class="ttname"><a href="config__pages_8h.html">config_pages.h</a></div><div class="ttdoc">The tune page structs and related defines.</div></div>
 <div class="ttc" id="aengine_protection_8cpp_html_aa12f930df9a77069574d9dbdcf15b690"><div class="ttname"><a href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a></div><div class="ttdeci">const config4 &amp; page4</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:155</div></div>
+<div class="ttc" id="apin_numbers__t_8h_html"><div class="ttname"><a href="pin_numbers__t_8h.html">pinNumbers_t.h</a></div></div>
+<div class="ttc" id="ascheduled_i_o__direct__ign_8cpp_html_a8dee625c424067a1469744612ebaf4cb"><div class="ttname"><a href="scheduled_i_o__direct__ign_8cpp.html#a8dee625c424067a1469744612ebaf4cb">pins</a></div><div class="ttdeci">static fastOutputPin_t pins[_countof(coil_pins_t::_elements)]</div><div class="ttdef"><b>Definition</b> scheduledIO_direct_ign.cpp:10</div></div>
 <div class="ttc" id="astructconfig4_html"><div class="ttname"><a href="structconfig4.html">config4</a></div><div class="ttdef"><b>Definition</b> config_pages.h:355</div></div>
+<div class="ttc" id="astructpin_numbers__t_html"><div class="ttname"><a href="structpin_numbers__t.html">pinNumbers_t</a></div><div class="ttdoc">Store the pin assignments, as defined by the board.</div><div class="ttdef"><b>Definition</b> pinNumbers_t.h:40</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

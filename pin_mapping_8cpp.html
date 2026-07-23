@@ -82,17 +82,622 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="pin_mapping_8h_source.html">pinMapping.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="board__definition_8h_source.html">../../board_definition.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">../../preprocessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">../../unit_testing.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adad26e92f6163f148f2765eb71c04bcf" id="r_adad26e92f6163f148f2765eb71c04bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#adad26e92f6163f148f2765eb71c04bcf">pinTranslate</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rawPin</a>)</td></tr>
+<tr class="memitem:adad26e92f6163f148f2765eb71c04bcf" id="r_adad26e92f6163f148f2765eb71c04bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#adad26e92f6163f148f2765eb71c04bcf">pinTranslate</a> (<a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">rawPin</a>)</td></tr>
 <tr class="memdesc:adad26e92f6163f148f2765eb71c04bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate between the pin list that appears in TS and the actual pin numbers.  <br /></td></tr>
 <tr class="separator:adad26e92f6163f148f2765eb71c04bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c3868d15d9340aa2aa78ec1ed9cbf1e" id="r_a7c3868d15d9340aa2aa78ec1ed9cbf1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a7c3868d15d9340aa2aa78ec1ed9cbf1e">pinTranslateAnalog</a> (<a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> <a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">rawPin</a>)</td></tr>
+<tr class="memitem:a7c3868d15d9340aa2aa78ec1ed9cbf1e" id="r_a7c3868d15d9340aa2aa78ec1ed9cbf1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a7c3868d15d9340aa2aa78ec1ed9cbf1e">pinTranslateAnalog</a> (<a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">rawPin</a>)</td></tr>
 <tr class="memdesc:a7c3868d15d9340aa2aa78ec1ed9cbf1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translate a pin number (0 - 22) to the relevant Ax (analog) pin reference.  <br /></td></tr>
 <tr class="separator:a7c3868d15d9340aa2aa78ec1ed9cbf1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609fd18bb62ef391b3c84b4a6f660f67" id="r_a609fd18bb62ef391b3c84b4a6f660f67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a609fd18bb62ef391b3c84b4a6f660f67">getV02ShieldMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a609fd18bb62ef391b3c84b4a6f660f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f2f93143f8cd5012ca2d3cdfffefde4" id="r_a7f2f93143f8cd5012ca2d3cdfffefde4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a7f2f93143f8cd5012ca2d3cdfffefde4">getDefaultPinMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a7f2f93143f8cd5012ca2d3cdfffefde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a55cc9d4a37ae1fa26a543c9c04632d" id="r_a4a55cc9d4a37ae1fa26a543c9c04632d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a4a55cc9d4a37ae1fa26a543c9c04632d">getV03ShieldMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a4a55cc9d4a37ae1fa26a543c9c04632d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7efbdc6556e2dab9b86cfd007e17da2" id="r_ac7efbdc6556e2dab9b86cfd007e17da2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#ac7efbdc6556e2dab9b86cfd007e17da2">getV04ShieldMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:ac7efbdc6556e2dab9b86cfd007e17da2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c4dd5ccb00b3be4590807dc5498fce" id="r_ae1c4dd5ccb00b3be4590807dc5498fce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#ae1c4dd5ccb00b3be4590807dc5498fce">getMiataNB2Mapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:ae1c4dd5ccb00b3be4590807dc5498fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b7377f6d8158c767681cb263e3aece" id="r_ad2b7377f6d8158c767681cb263e3aece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#ad2b7377f6d8158c767681cb263e3aece">getMiataNA18Mapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:ad2b7377f6d8158c767681cb263e3aece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6d132d00b2940bedbd60bfb6ea40a3" id="r_a5a6d132d00b2940bedbd60bfb6ea40a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a5a6d132d00b2940bedbd60bfb6ea40a3">getMiataNA16Mapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a5a6d132d00b2940bedbd60bfb6ea40a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4353961e9bafae8a9d12d52e37017746" id="r_a4353961e9bafae8a9d12d52e37017746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a4353961e9bafae8a9d12d52e37017746">getTurtanasPcbPinMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a4353961e9bafae8a9d12d52e37017746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a58771c8032d3413794f7b37396c90" id="r_af1a58771c8032d3413794f7b37396c90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#af1a58771c8032d3413794f7b37396c90">getDazV6V01Mapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:af1a58771c8032d3413794f7b37396c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5ad29f23400763ec2530bf4d749e9e" id="r_a9c5ad29f23400763ec2530bf4d749e9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a9c5ad29f23400763ec2530bf4d749e9e">getNO2CMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a9c5ad29f23400763ec2530bf4d749e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02dd7d6c084806fad485425afb4b0ab4" id="r_a02dd7d6c084806fad485425afb4b0ab4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a02dd7d6c084806fad485425afb4b0ab4">getUA4CMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a02dd7d6c084806fad485425afb4b0ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a147f7c1507708b79e6165f28711cad78" id="r_a147f7c1507708b79e6165f28711cad78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a147f7c1507708b79e6165f28711cad78">getBlitzboxBL49spMapping</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="separator:a147f7c1507708b79e6165f28711cad78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712e597afdec8cd5bd9c9efc816a109d" id="r_a712e597afdec8cd5bd9c9efc816a109d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structpin_numbers__t.html">pinNumbers_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d">getPinMapping</a> (<a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">boardID</a>)</td></tr>
+<tr class="memdesc:a712e597afdec8cd5bd9c9efc816a109d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the pin numbers for the relevant board, based on the boardID.  <br /></td></tr>
+<tr class="separator:a712e597afdec8cd5bd9c9efc816a109d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a147f7c1507708b79e6165f28711cad78" name="a147f7c1507708b79e6165f28711cad78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a147f7c1507708b79e6165f28711cad78">&#9670;&#160;</a></span>getBlitzboxBL49spMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getBlitzboxBL49spMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a147f7c1507708b79e6165f28711cad78_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a147f7c1507708b79e6165f28711cad78_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a147f7c1507708b79e6165f28711cad78_icgraph" id="apin_mapping_8cpp_a147f7c1507708b79e6165f28711cad78_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,727,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af1a58771c8032d3413794f7b37396c90" name="af1a58771c8032d3413794f7b37396c90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a58771c8032d3413794f7b37396c90">&#9670;&#160;</a></span>getDazV6V01Mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getDazV6V01Mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_af1a58771c8032d3413794f7b37396c90_icgraph.png" border="0" usemap="#apin_mapping_8cpp_af1a58771c8032d3413794f7b37396c90_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_af1a58771c8032d3413794f7b37396c90_icgraph" id="apin_mapping_8cpp_af1a58771c8032d3413794f7b37396c90_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,698,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7f2f93143f8cd5012ca2d3cdfffefde4" name="a7f2f93143f8cd5012ca2d3cdfffefde4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f2f93143f8cd5012ca2d3cdfffefde4">&#9670;&#160;</a></span>getDefaultPinMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getDefaultPinMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_cgraph.png" border="0" usemap="#apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_cgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_cgraph" id="apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,154,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a609fd18bb62ef391b3c84b4a6f660f67" title=" " alt="" coords="202,5,349,31"/>
+<area shape="poly" title=" " alt="" coords="154,16,186,16,186,21,154,21"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_icgraph" id="apin_mapping_8cpp_a7f2f93143f8cd5012ca2d3cdfffefde4_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,697,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5a6d132d00b2940bedbd60bfb6ea40a3" name="a5a6d132d00b2940bedbd60bfb6ea40a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6d132d00b2940bedbd60bfb6ea40a3">&#9670;&#160;</a></span>getMiataNA16Mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getMiataNA16Mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a5a6d132d00b2940bedbd60bfb6ea40a3_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a5a6d132d00b2940bedbd60bfb6ea40a3_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a5a6d132d00b2940bedbd60bfb6ea40a3_icgraph" id="apin_mapping_8cpp_a5a6d132d00b2940bedbd60bfb6ea40a3_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,702,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad2b7377f6d8158c767681cb263e3aece" name="ad2b7377f6d8158c767681cb263e3aece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2b7377f6d8158c767681cb263e3aece">&#9670;&#160;</a></span>getMiataNA18Mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getMiataNA18Mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_ad2b7377f6d8158c767681cb263e3aece_icgraph.png" border="0" usemap="#apin_mapping_8cpp_ad2b7377f6d8158c767681cb263e3aece_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_ad2b7377f6d8158c767681cb263e3aece_icgraph" id="apin_mapping_8cpp_ad2b7377f6d8158c767681cb263e3aece_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,702,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae1c4dd5ccb00b3be4590807dc5498fce" name="ae1c4dd5ccb00b3be4590807dc5498fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c4dd5ccb00b3be4590807dc5498fce">&#9670;&#160;</a></span>getMiataNB2Mapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getMiataNB2Mapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_ae1c4dd5ccb00b3be4590807dc5498fce_icgraph.png" border="0" usemap="#apin_mapping_8cpp_ae1c4dd5ccb00b3be4590807dc5498fce_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_ae1c4dd5ccb00b3be4590807dc5498fce_icgraph" id="apin_mapping_8cpp_ae1c4dd5ccb00b3be4590807dc5498fce_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,695,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="534,21,501,21,501,16,534,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9c5ad29f23400763ec2530bf4d749e9e" name="a9c5ad29f23400763ec2530bf4d749e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5ad29f23400763ec2530bf4d749e9e">&#9670;&#160;</a></span>getNO2CMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getNO2CMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a9c5ad29f23400763ec2530bf4d749e9e_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a9c5ad29f23400763ec2530bf4d749e9e_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a9c5ad29f23400763ec2530bf4d749e9e_icgraph" id="apin_mapping_8cpp_a9c5ad29f23400763ec2530bf4d749e9e_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,673,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a712e597afdec8cd5bd9c9efc816a109d" name="a712e597afdec8cd5bd9c9efc816a109d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a712e597afdec8cd5bd9c9efc816a109d">&#9670;&#160;</a></span>getPinMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getPinMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramname"><em>boardID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the pin numbers for the relevant board, based on the boardID. </p>
+<p>The boardID is set in the tuning SW and is used to allow the same firmware to be used across different hardware configurations with different pin layouts. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_cgraph.png" border="0" usemap="#apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_cgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_cgraph" id="apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_cgraph">
+<area shape="rect" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="5,280,113,306"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a147f7c1507708b79e6165f28711cad78" title=" " alt="" coords="162,5,341,31"/>
+<area shape="poly" title=" " alt="" coords="59,279,66,234,82,169,95,134,112,100,133,68,159,40,162,37,166,42,163,44,137,71,117,103,100,137,87,171,71,235,64,280"/>
+<area shape="rect" href="pin_mapping_8cpp.html#af1a58771c8032d3413794f7b37396c90" title=" " alt="" coords="177,55,326,80"/>
+<area shape="poly" title=" " alt="" coords="60,279,70,242,89,190,118,136,137,111,159,89,164,86,167,90,162,94,141,115,122,139,94,192,75,243,66,280"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a7f2f93143f8cd5012ca2d3cdfffefde4" title=" " alt="" coords="177,104,326,130"/>
+<area shape="poly" title=" " alt="" coords="64,278,98,216,125,179,159,147,181,134,183,138,162,151,129,183,102,219,68,281"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a609fd18bb62ef391b3c84b4a6f660f67" title=" " alt="" coords="390,129,537,155"/>
+<area shape="poly" title=" " alt="" coords="67,278,104,234,130,210,159,190,212,169,268,154,324,145,374,140,375,146,324,150,270,159,214,174,162,195,133,214,108,238,71,281"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a5a6d132d00b2940bedbd60bfb6ea40a3" title=" " alt="" coords="175,205,328,231"/>
+<area shape="poly" title=" " alt="" coords="82,277,160,240,178,233,180,238,162,245,85,282"/>
+<area shape="rect" href="pin_mapping_8cpp.html#ad2b7377f6d8158c767681cb263e3aece" title=" " alt="" coords="175,255,328,280"/>
+<area shape="poly" title=" " alt="" coords="113,283,159,277,159,282,114,288"/>
+<area shape="rect" href="pin_mapping_8cpp.html#ae1c4dd5ccb00b3be4590807dc5498fce" title=" " alt="" coords="178,304,325,330"/>
+<area shape="poly" title=" " alt="" coords="114,297,163,303,163,308,113,302"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a9c5ad29f23400763ec2530bf4d749e9e" title=" " alt="" coords="189,353,314,379"/>
+<area shape="poly" title=" " alt="" coords="85,304,162,340,180,346,178,351,160,345,83,309"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a4353961e9bafae8a9d12d52e37017746" title=" " alt="" coords="161,403,342,428"/>
+<area shape="poly" title=" " alt="" coords="72,304,109,347,134,370,162,389,172,394,169,399,159,394,131,374,105,350,68,308"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a02dd7d6c084806fad485425afb4b0ab4" title=" " alt="" coords="190,452,313,478"/>
+<area shape="poly" title=" " alt="" coords="68,305,101,370,128,407,162,439,177,447,174,452,159,443,124,411,96,372,63,307"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a4a55cc9d4a37ae1fa26a543c9c04632d" title=" " alt="" coords="178,501,325,527"/>
+<area shape="poly" title=" " alt="" coords="66,306,76,342,94,392,123,444,141,468,162,488,167,491,164,496,159,492,137,471,118,447,89,394,71,344,61,307"/>
+<area shape="rect" href="pin_mapping_8cpp.html#ac7efbdc6556e2dab9b86cfd007e17da2" title=" " alt="" coords="178,551,325,576"/>
+<area shape="poly" title=" " alt="" coords="64,305,71,350,88,413,117,480,138,511,162,538,166,541,163,545,159,541,133,514,112,483,83,414,66,351,59,306"/>
+<area shape="poly" title=" " alt="" coords="326,123,375,129,374,134,326,128"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_icgraph" id="apin_mapping_8cpp_a712e597afdec8cd5bd9c9efc816a109d_icgraph">
+<area shape="rect" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4353961e9bafae8a9d12d52e37017746" name="a4353961e9bafae8a9d12d52e37017746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4353961e9bafae8a9d12d52e37017746">&#9670;&#160;</a></span>getTurtanasPcbPinMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getTurtanasPcbPinMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a4353961e9bafae8a9d12d52e37017746_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a4353961e9bafae8a9d12d52e37017746_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a4353961e9bafae8a9d12d52e37017746_icgraph" id="apin_mapping_8cpp_a4353961e9bafae8a9d12d52e37017746_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,730,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a02dd7d6c084806fad485425afb4b0ab4" name="a02dd7d6c084806fad485425afb4b0ab4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02dd7d6c084806fad485425afb4b0ab4">&#9670;&#160;</a></span>getUA4CMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getUA4CMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a02dd7d6c084806fad485425afb4b0ab4_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a02dd7d6c084806fad485425afb4b0ab4_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a02dd7d6c084806fad485425afb4b0ab4_icgraph" id="apin_mapping_8cpp_a02dd7d6c084806fad485425afb4b0ab4_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,672,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a609fd18bb62ef391b3c84b4a6f660f67" name="a609fd18bb62ef391b3c84b4a6f660f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a609fd18bb62ef391b3c84b4a6f660f67">&#9670;&#160;</a></span>getV02ShieldMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getV02ShieldMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a609fd18bb62ef391b3c84b4a6f660f67_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a609fd18bb62ef391b3c84b4a6f660f67_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a609fd18bb62ef391b3c84b4a6f660f67_icgraph" id="apin_mapping_8cpp_a609fd18bb62ef391b3c84b4a6f660f67_icgraph">
+<area shape="rect" title=" " alt="" coords="745,31,892,56"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a7f2f93143f8cd5012ca2d3cdfffefde4" title=" " alt="" coords="549,5,697,31"/>
+<area shape="poly" title=" " alt="" coords="730,35,697,30,697,25,730,29"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,31,501,56"/>
+<area shape="poly" title=" " alt="" coords="729,46,501,46,501,41,729,41"/>
+<area shape="poly" title=" " alt="" coords="533,34,501,38,500,33,533,28"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,31,345,56"/>
+<area shape="poly" title=" " alt="" coords="377,46,346,46,346,41,377,41"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,31,190,56"/>
+<area shape="poly" title=" " alt="" coords="222,46,190,46,190,41,222,41"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,31,59,56"/>
+<area shape="poly" title=" " alt="" coords="91,46,59,46,59,41,91,41"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4a55cc9d4a37ae1fa26a543c9c04632d" name="a4a55cc9d4a37ae1fa26a543c9c04632d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a55cc9d4a37ae1fa26a543c9c04632d">&#9670;&#160;</a></span>getV03ShieldMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getV03ShieldMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_a4a55cc9d4a37ae1fa26a543c9c04632d_icgraph.png" border="0" usemap="#apin_mapping_8cpp_a4a55cc9d4a37ae1fa26a543c9c04632d_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_a4a55cc9d4a37ae1fa26a543c9c04632d_icgraph" id="apin_mapping_8cpp_a4a55cc9d4a37ae1fa26a543c9c04632d_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,696,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac7efbdc6556e2dab9b86cfd007e17da2" name="ac7efbdc6556e2dab9b86cfd007e17da2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7efbdc6556e2dab9b86cfd007e17da2">&#9670;&#160;</a></span>getV04ShieldMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> getV04ShieldMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="pin_mapping_8cpp_ac7efbdc6556e2dab9b86cfd007e17da2_icgraph.png" border="0" usemap="#apin_mapping_8cpp_ac7efbdc6556e2dab9b86cfd007e17da2_icgraph" alt=""/></div>
+<map name="apin_mapping_8cpp_ac7efbdc6556e2dab9b86cfd007e17da2_icgraph" id="apin_mapping_8cpp_ac7efbdc6556e2dab9b86cfd007e17da2_icgraph">
+<area shape="rect" title=" " alt="" coords="549,5,696,31"/>
+<area shape="rect" href="pin_mapping_8cpp.html#a712e597afdec8cd5bd9c9efc816a109d" title="Get the pin numbers for the relevant board, based on the boardID." alt="" coords="393,5,501,31"/>
+<area shape="poly" title=" " alt="" coords="533,21,501,21,501,16,533,16"/>
+<area shape="rect" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7" title=" " alt="" coords="238,5,345,31"/>
+<area shape="poly" title=" " alt="" coords="377,21,346,21,346,16,377,16"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
+<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
+<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="adad26e92f6163f148f2765eb71c04bcf" name="adad26e92f6163f148f2765eb71c04bcf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adad26e92f6163f148f2765eb71c04bcf">&#9670;&#160;</a></span>pinTranslate()</h2>
 
@@ -100,9 +705,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> pinTranslate </td>
+          <td class="memname"><a class="el" href="structarray.html">uint8_t</a> pinTranslate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
           <td class="paramname"><em>rawPin</em></td><td>)</td>
           <td></td>
         </tr>
@@ -117,27 +722,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Translated / usable pin number </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pin_mapping_8cpp_adad26e92f6163f148f2765eb71c04bcf_cgraph.png" border="0" usemap="#apin_mapping_8cpp_adad26e92f6163f148f2765eb71c04bcf_cgraph" alt=""/></div>
-<map name="apin_mapping_8cpp_adad26e92f6163f148f2765eb71c04bcf_cgraph" id="apin_mapping_8cpp_adad26e92f6163f148f2765eb71c04bcf_cgraph">
-<area shape="rect" title="Translate between the pin list that appears in TS and the actual pin numbers." alt="" coords="5,50,98,76"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="146,50,315,76"/>
-<area shape="poly" title=" " alt="" coords="98,60,130,60,130,66,98,66"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="537,25,631,50"/>
-<area shape="poly" title=" " alt="" coords="257,47,305,26,362,10,426,3,490,10,528,18,527,23,489,15,426,8,364,15,307,31,259,52"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="363,25,489,50"/>
-<area shape="poly" title=" " alt="" coords="315,49,347,45,348,50,316,55"/>
-<area shape="rect" href="elapsed__time_8h.html#affa826db48e50808397a2308507442c0" title="Check whether at least interval counter ticks have elapsed since start." alt="" coords="679,75,810,101"/>
-<area shape="poly" title=" " alt="" coords="628,49,688,68,686,73,626,54"/>
-<area shape="poly" title=" " alt="" coords="678,88,330,71,330,65,678,82"/>
-<area shape="rect" href="elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662" title="Compute the number of counter ticks elapsed from start to now." alt="" coords="858,101,950,126"/>
-<area shape="poly" title=" " alt="" coords="811,96,843,101,842,107,810,101"/>
-<area shape="poly" title=" " alt="" coords="858,118,774,119,679,116,520,104,363,84,330,80,331,75,363,79,521,99,679,111,774,113,858,112"/>
-<area shape="poly" title=" " alt="" coords="490,35,522,35,522,40,490,40"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -162,9 +746,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a> pinTranslateAnalog </td>
+          <td class="memname"><a class="el" href="structarray.html">uint8_t</a> pinTranslateAnalog </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f">uint8_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
           <td class="paramname"><em>rawPin</em></td><td>)</td>
           <td></td>
         </tr>
@@ -179,27 +763,6 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>uint8_t </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pin_mapping_8cpp_a7c3868d15d9340aa2aa78ec1ed9cbf1e_cgraph.png" border="0" usemap="#apin_mapping_8cpp_a7c3868d15d9340aa2aa78ec1ed9cbf1e_cgraph" alt=""/></div>
-<map name="apin_mapping_8cpp_a7c3868d15d9340aa2aa78ec1ed9cbf1e_cgraph" id="apin_mapping_8cpp_a7c3868d15d9340aa2aa78ec1ed9cbf1e_cgraph">
-<area shape="rect" title="Translate a pin number (0 &#45; 22) to the relevant Ax (analog) pin reference." alt="" coords="5,50,138,76"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaceea4a4b8c6f90cdc396b043773b709f" title="Reads an integral type, timing out if necessary." alt="" coords="186,50,355,76"/>
-<area shape="poly" title=" " alt="" coords="138,60,170,60,170,66,138,66"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gac5cac0fcdb201602960f6610b20a1f92" title="Has the current receive operation timed out?" alt="" coords="577,25,671,50"/>
-<area shape="poly" title=" " alt="" coords="297,47,345,26,402,10,466,3,530,10,568,18,567,23,529,15,466,8,404,15,347,31,299,52"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga5370e4e80f694b4f34babb7335fbae52" title="Read from the serial port into the supplied buffer." alt="" coords="403,25,529,50"/>
-<area shape="poly" title=" " alt="" coords="355,49,387,45,388,50,356,55"/>
-<area shape="rect" href="elapsed__time_8h.html#affa826db48e50808397a2308507442c0" title="Check whether at least interval counter ticks have elapsed since start." alt="" coords="719,75,850,101"/>
-<area shape="poly" title=" " alt="" coords="668,49,728,68,726,73,666,54"/>
-<area shape="poly" title=" " alt="" coords="718,88,370,71,370,65,718,82"/>
-<area shape="rect" href="elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662" title="Compute the number of counter ticks elapsed from start to now." alt="" coords="898,101,990,126"/>
-<area shape="poly" title=" " alt="" coords="851,96,883,101,882,107,850,101"/>
-<area shape="poly" title=" " alt="" coords="898,118,814,119,719,116,560,104,403,84,370,80,371,75,403,79,561,99,719,111,814,113,898,112"/>
-<area shape="poly" title=" " alt="" coords="530,35,562,35,562,40,530,40"/>
-</map>
-</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
