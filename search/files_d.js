@@ -34,5 +34,6 @@ var searchData=
   ['storage_2ecpp_31',['storage.cpp',['../storage_8cpp.html',1,'']]],
   ['storage_2eh_32',['storage.h',['../storage_8h.html',1,'']]],
   ['storage_5fapi_2ecpp_33',['storage_api.cpp',['../storage__api_8cpp.html',1,'']]],
-  ['storage_5fapi_2eh_34',['storage_api.h',['../storage__api_8h.html',1,'']]]
+  ['storage_5fapi_2eh_34',['storage_api.h',['../storage__api_8h.html',1,'']]],
+  ['storage_5fdetails_2eh_35',['storage_details.h',['../storage__details_8h.html',1,'']]]
 ];

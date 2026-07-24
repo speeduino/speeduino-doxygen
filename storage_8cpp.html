@@ -89,6 +89,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduler_8h_source.html">scheduler.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="storage__details_8h_source.html">storage_details.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -118,6 +119,8 @@ Functions</h2></td></tr>
 <tr class="memitem:af09f0556c18468dfe9225b30d09d2c84" id="r_af09f0556c18468dfe9225b30d09d2c84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">const</a> <a class="el" href="structstorage__api__t.html">storage_api_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#af09f0556c18468dfe9225b30d09d2c84">getStorageAPI</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
 <tr class="memdesc:af09f0556c18468dfe9225b30d09d2c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide global access to the raw storage API.  <br /></td></tr>
 <tr class="separator:af09f0556c18468dfe9225b30d09d2c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1281b342c8933c69f58757a0f147c90d" id="r_a1281b342c8933c69f58757a0f147c90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a1281b342c8933c69f58757a0f147c90d">getSensorCalibrationAddress</a> (<a class="el" href="group__storage-calibration-tables.html#gadc154ffce99bb9ec1202cfbb7d51ed10">SensorCalibrationTable</a> <a class="el" href="structarray.html">sensor</a>, <a class="el" href="structarray.html">SensorCalibrationTableElement</a> <a class="el" href="structarray.html">element</a>)</td></tr>
+<tr class="separator:a1281b342c8933c69f58757a0f147c90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae787436cd4f0396c143ff53ef49f56ee" id="r_gae787436cd4f0396c143ff53ef49f56ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__storage-pages.html#gae787436cd4f0396c143ff53ef49f56ee">isEepromWritePending</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
 <tr class="memdesc:gae787436cd4f0396c143ff53ef49f56ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do we have page data that needs to be written to durable storage?  <br /></td></tr>
 <tr class="separator:gae787436cd4f0396c143ff53ef49f56ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,8 +165,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga406e39fadb4e9b3567b1769b2c172358" id="r_ga406e39fadb4e9b3567b1769b2c172358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__storage-calibration-tables.html#ga406e39fadb4e9b3567b1769b2c172358">saveCalibrationTable</a> (<a class="el" href="group__storage-calibration-tables.html#gadc154ffce99bb9ec1202cfbb7d51ed10">SensorCalibrationTable</a> <a class="el" href="structarray.html">sensor</a>)</td></tr>
 <tr class="memdesc:ga406e39fadb4e9b3567b1769b2c172358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store one sensor curve in durable storage.  <br /></td></tr>
 <tr class="separator:ga406e39fadb4e9b3567b1769b2c172358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefce8256955067b2e850b9c5991fa1e5" id="r_aefce8256955067b2e850b9c5991fa1e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aefce8256955067b2e850b9c5991fa1e5">getSensorCalibrationCrcAddress</a> (<a class="el" href="group__storage-calibration-tables.html#gadc154ffce99bb9ec1202cfbb7d51ed10">SensorCalibrationTable</a> <a class="el" href="structarray.html">sensor</a>)</td></tr>
-<tr class="separator:aefce8256955067b2e850b9c5991fa1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa488a262511ec237080221b99ff812f0" id="r_gaa488a262511ec237080221b99ff812f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__storage-calibration-tables.html#gaa488a262511ec237080221b99ff812f0">saveCalibrationCrc</a> (<a class="el" href="group__storage-calibration-tables.html#gadc154ffce99bb9ec1202cfbb7d51ed10">SensorCalibrationTable</a> <a class="el" href="structarray.html">sensor</a>, <a class="el" href="structarray.html">uint32_t</a> <a class="el" href="structarray.html">calibrationCRC</a>)</td></tr>
 <tr class="memdesc:gaa488a262511ec237080221b99ff812f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the CRC for one sensor curve in durable storage.  <br /></td></tr>
 <tr class="separator:gaa488a262511ec237080221b99ff812f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,17 +192,17 @@ Variables</h2></td></tr>
 <tr class="separator:a2e7d6b6622685959801123f63671f652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab37bcc66db3e13205c778b51d00eb0b" id="r_aab37bcc66db3e13205c778b51d00eb0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a> = 0xFFF</td></tr>
 <tr class="separator:aab37bcc66db3e13205c778b51d00eb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3791563396b95871106bf35c6cf80433" id="r_a3791563396b95871106bf35c6cf80433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a> = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a676b6e42436241d158e7df24edaadfe7">cltCalibrationTable</a>)::values)</td></tr>
+<tr class="memitem:a3791563396b95871106bf35c6cf80433" id="r_a3791563396b95871106bf35c6cf80433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a> = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3">SensorCalibrationTable::CoolantSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td></tr>
 <tr class="separator:a3791563396b95871106bf35c6cf80433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a428778c22bf1b31bea9630027123bf0d" id="r_a428778c22bf1b31bea9630027123bf0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a> = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a676b6e42436241d158e7df24edaadfe7">cltCalibrationTable</a>)::axis)</td></tr>
+<tr class="memitem:a428778c22bf1b31bea9630027123bf0d" id="r_a428778c22bf1b31bea9630027123bf0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a> = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3">SensorCalibrationTable::CoolantSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td></tr>
 <tr class="separator:a428778c22bf1b31bea9630027123bf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d987d73715c4793e497cbdc61509d1" id="r_ae8d987d73715c4793e497cbdc61509d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a> = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a8d07a7d39282522e96f87c6115f515d7">iatCalibrationTable</a>)::values)</td></tr>
+<tr class="memitem:ae8d987d73715c4793e497cbdc61509d1" id="r_ae8d987d73715c4793e497cbdc61509d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a> = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a935b03c4c05b6edfca3a1e55d1fda7ec">SensorCalibrationTable::IntakeAirTempSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td></tr>
 <tr class="separator:ae8d987d73715c4793e497cbdc61509d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a644d5fb504e475b37bd0d77204f05212" id="r_a644d5fb504e475b37bd0d77204f05212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a> = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a8d07a7d39282522e96f87c6115f515d7">iatCalibrationTable</a>)::axis)</td></tr>
+<tr class="memitem:a644d5fb504e475b37bd0d77204f05212" id="r_a644d5fb504e475b37bd0d77204f05212"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a> = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a935b03c4c05b6edfca3a1e55d1fda7ec">SensorCalibrationTable::IntakeAirTempSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td></tr>
 <tr class="separator:a644d5fb504e475b37bd0d77204f05212"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a291efb00dbeed85aad255ff387ede82a" id="r_a291efb00dbeed85aad255ff387ede82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a> = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::values)</td></tr>
+<tr class="memitem:a291efb00dbeed85aad255ff387ede82a" id="r_a291efb00dbeed85aad255ff387ede82a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a> = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a723ff4e07f5b1fb79915b1b8961f4743">SensorCalibrationTable::O2Sensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td></tr>
 <tr class="separator:a291efb00dbeed85aad255ff387ede82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c2127b33b82f3cb76225336a71f3bad" id="r_a4c2127b33b82f3cb76225336a71f3bad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a> = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::axis)</td></tr>
+<tr class="memitem:a4c2127b33b82f3cb76225336a71f3bad" id="r_a4c2127b33b82f3cb76225336a71f3bad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a> = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a723ff4e07f5b1fb79915b1b8961f4743">SensorCalibrationTable::O2Sensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td></tr>
 <tr class="separator:a4c2127b33b82f3cb76225336a71f3bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a593c495298c9182905cf29d495443edf" id="r_a593c495298c9182905cf29d495443edf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="storage_8cpp.html#a593c495298c9182905cf29d495443edf">EEPROM_LAST_BARO</a> = (<a class="el" href="storage_8cpp.html#a4c2127b33b82f3cb76225336a71f3bad">EEPROM_CALIBRATION_O2_BINS</a>-(<a class="el" href="structarray.html">uint16_t</a>)1)</td></tr>
 <tr class="separator:a593c495298c9182905cf29d495443edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -414,46 +415,84 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aefce8256955067b2e850b9c5991fa1e5" name="aefce8256955067b2e850b9c5991fa1e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefce8256955067b2e850b9c5991fa1e5">&#9670;&#160;</a></span>getSensorCalibrationCrcAddress()</h2>
+<a id="a1281b342c8933c69f58757a0f147c90d" name="a1281b342c8933c69f58757a0f147c90d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1281b342c8933c69f58757a0f147c90d">&#9670;&#160;</a></span>getSensorCalibrationAddress()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> getSensorCalibrationCrcAddress </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> getSensorCalibrationAddress </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__storage-calibration-tables.html#gadc154ffce99bb9ec1202cfbb7d51ed10">SensorCalibrationTable</a>&#160;</td>
-          <td class="paramname"><em>sensor</em></td><td>)</td>
+          <td class="paramname"><em>sensor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structarray.html">SensorCalibrationTableElement</a>&#160;</td>
+          <td class="paramname"><em>element</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="storage_8cpp_a1281b342c8933c69f58757a0f147c90d_cgraph.png" border="0" usemap="#astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_cgraph" alt=""/></div>
+<map name="astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_cgraph" id="astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,195,31"/>
+<area shape="rect" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8" title=" " alt="" coords="243,5,326,31"/>
+<area shape="poly" title=" " alt="" coords="195,16,227,16,227,21,195,21"/>
+</map>
+</div>
+<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="storage_8cpp_aefce8256955067b2e850b9c5991fa1e5_icgraph.png" border="0" usemap="#astorage_8cpp_aefce8256955067b2e850b9c5991fa1e5_icgraph" alt=""/></div>
-<map name="astorage_8cpp_aefce8256955067b2e850b9c5991fa1e5_icgraph" id="astorage_8cpp_aefce8256955067b2e850b9c5991fa1e5_icgraph">
-<area shape="rect" title=" " alt="" coords="1253,31,1463,56"/>
-<area shape="rect" href="group__storage-calibration-tables.html#gae9718695460cc4fefe0c0a9ff1c8eea1" title="Retrieve the CRC for one sensor curve from durable storage." alt="" coords="1077,5,1203,31"/>
-<area shape="poly" title=" " alt="" coords="1238,32,1204,28,1204,23,1238,27"/>
-<area shape="rect" href="group__storage-calibration-tables.html#gaa488a262511ec237080221b99ff812f0" title="Store the CRC for one sensor curve in durable storage." alt="" coords="1075,55,1205,80"/>
-<area shape="poly" title=" " alt="" coords="1238,59,1206,63,1205,58,1237,54"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="618,55,778,80"/>
-<area shape="poly" title=" " alt="" coords="1062,24,950,32,826,45,759,57,758,51,825,40,950,26,1062,19"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="471,55,570,80"/>
-<area shape="poly" title=" " alt="" coords="603,70,571,70,571,65,603,65"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,55,215,80"/>
-<area shape="poly" title=" " alt="" coords="455,70,215,70,215,65,455,65"/>
-<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="263,80,423,106"/>
-<area shape="poly" title=" " alt="" coords="456,79,424,84,423,79,455,74"/>
-<area shape="poly" title=" " alt="" coords="247,85,215,82,215,76,247,80"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaf5b4ef8e0caf756c612a3bd48539556e" title="Update the oxygen sensor table from serialPayload." alt="" coords="846,55,1007,80"/>
-<area shape="poly" title=" " alt="" coords="1060,70,1007,70,1007,65,1060,65"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef" title="Update a temperature calibration table from serialPayload." alt="" coords="826,105,1027,145"/>
-<area shape="poly" title=" " alt="" coords="1075,88,1006,106,1004,101,1074,82"/>
-<area shape="poly" title=" " alt="" coords="831,70,778,70,778,65,831,65"/>
-<area shape="poly" title=" " alt="" coords="827,103,752,84,753,78,829,98"/>
+<div class="center"><img src="storage_8cpp_a1281b342c8933c69f58757a0f147c90d_icgraph.png" border="0" usemap="#astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_icgraph" alt=""/></div>
+<map name="astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_icgraph" id="astorage_8cpp_a1281b342c8933c69f58757a0f147c90d_icgraph">
+<area shape="rect" title=" " alt="" coords="1266,139,1456,164"/>
+<area shape="rect" href="group__storage-calibration-tables.html#ga05be6c390d80f4f44a819f42b2df87ef" title="Load the curves for all sensors from durable storage." alt="" coords="618,5,779,31"/>
+<area shape="poly" title=" " alt="" coords="1309,135,1217,103,1123,70,1082,58,1028,46,897,29,779,22,779,17,897,24,1028,41,1083,53,1125,65,1219,98,1311,130"/>
+<area shape="rect" href="group__storage-calibration-tables.html#gae9718695460cc4fefe0c0a9ff1c8eea1" title="Retrieve the CRC for one sensor curve from durable storage." alt="" coords="1084,216,1210,242"/>
+<area shape="poly" title=" " alt="" coords="1309,173,1186,218,1184,213,1308,168"/>
+<area shape="rect" href="group__storage-calibration-tables.html#gaa488a262511ec237080221b99ff812f0" title="Store the CRC for one sensor curve in durable storage." alt="" coords="1082,163,1212,188"/>
+<area shape="poly" title=" " alt="" coords="1251,167,1213,171,1213,166,1250,161"/>
+<area shape="rect" href="group__storage-calibration-tables.html#ga406e39fadb4e9b3567b1769b2c172358" title="Store one sensor curve in durable storage." alt="" coords="1076,113,1218,139"/>
+<area shape="poly" title=" " alt="" coords="1251,141,1218,137,1219,132,1251,136"/>
+<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="301,31,385,56"/>
+<area shape="poly" title=" " alt="" coords="603,28,385,43,385,38,602,22"/>
+<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="83,31,137,56"/>
+<area shape="poly" title=" " alt="" coords="286,46,137,46,137,41,286,41"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="619,171,778,196"/>
+<area shape="poly" title=" " alt="" coords="1069,230,954,224,826,211,758,200,759,194,827,206,955,218,1069,224"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="471,171,570,196"/>
+<area shape="poly" title=" " alt="" coords="603,186,571,186,571,181,603,181"/>
+<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,171,215,196"/>
+<area shape="poly" title=" " alt="" coords="455,186,215,186,215,181,455,181"/>
+<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="263,196,423,222"/>
+<area shape="poly" title=" " alt="" coords="456,195,424,200,423,195,455,190"/>
+<area shape="poly" title=" " alt="" coords="247,201,215,198,215,192,247,196"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#gaf5b4ef8e0caf756c612a3bd48539556e" title="Update the oxygen sensor table from serialPayload." alt="" coords="847,171,1008,196"/>
+<area shape="poly" title=" " alt="" coords="1067,181,1008,183,1008,178,1067,176"/>
+<area shape="rect" href="group__group-serial-comms-impl.html#ga49548ae398e390ad9ecb5601bbd5faef" title="Update a temperature calibration table from serialPayload." alt="" coords="827,106,1028,147"/>
+<area shape="poly" title=" " alt="" coords="1071,161,1020,150,1022,145,1072,156"/>
+<area shape="poly" title=" " alt="" coords="832,186,779,186,779,181,832,181"/>
+<area shape="poly" title=" " alt="" coords="830,153,753,173,752,167,828,148"/>
+<area shape="poly" title=" " alt="" coords="1083,146,1029,161,982,173,981,168,1027,156,1082,141"/>
+<area shape="poly" title=" " alt="" coords="1061,129,1028,129,1028,124,1061,124"/>
+<area shape="rect" href="group__storage-calibration-tables.html#ga9e9b873a9688cb0ea4ccada839c8192b" title="Store the curves for all sensors in durable storage." alt="" coords="845,56,1010,82"/>
+<area shape="poly" title=" " alt="" coords="1082,111,1027,97,981,85,982,80,1029,92,1083,106"/>
+<area shape="rect" href="updates_8cpp.html#a719c025633fab0a1e49d6ec192c1c6bb" title=" " alt="" coords="479,56,563,82"/>
+<area shape="poly" title=" " alt="" coords="830,72,563,72,563,66,830,66"/>
+<area shape="rect" href="updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1" title=" " alt="" coords="636,107,761,132"/>
+<area shape="poly" title=" " alt="" coords="852,88,760,109,759,103,851,83"/>
+<area shape="poly" title=" " alt="" coords="463,63,385,52,385,47,464,58"/>
+<area shape="poly" title=" " alt="" coords="635,104,563,83,564,78,637,99"/>
 </map>
 </div>
 
@@ -1439,7 +1478,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_CLT_BINS = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a676b6e42436241d158e7df24edaadfe7">cltCalibrationTable</a>)::axis)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_CLT_BINS = <a class="el" href="storage_8cpp.html#a3791563396b95871106bf35c6cf80433">EEPROM_CALIBRATION_CLT_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3">SensorCalibrationTable::CoolantSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td>
         </tr>
       </table>
   </td>
@@ -1461,7 +1500,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_CLT_VALUES = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a676b6e42436241d158e7df24edaadfe7">cltCalibrationTable</a>)::values)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_CLT_VALUES = <a class="el" href="storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b">STORAGE_END</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3">SensorCalibrationTable::CoolantSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td>
         </tr>
       </table>
   </td>
@@ -1483,7 +1522,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_IAT_BINS = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a8d07a7d39282522e96f87c6115f515d7">iatCalibrationTable</a>)::axis)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_IAT_BINS = <a class="el" href="storage_8cpp.html#ae8d987d73715c4793e497cbdc61509d1">EEPROM_CALIBRATION_IAT_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a935b03c4c05b6edfca3a1e55d1fda7ec">SensorCalibrationTable::IntakeAirTempSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td>
         </tr>
       </table>
   </td>
@@ -1505,7 +1544,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_IAT_VALUES = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a8d07a7d39282522e96f87c6115f515d7">iatCalibrationTable</a>)::values)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_IAT_VALUES = <a class="el" href="storage_8cpp.html#a428778c22bf1b31bea9630027123bf0d">EEPROM_CALIBRATION_CLT_BINS</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a935b03c4c05b6edfca3a1e55d1fda7ec">SensorCalibrationTable::IntakeAirTempSensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td>
         </tr>
       </table>
   </td>
@@ -1527,7 +1566,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_O2_BINS = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::axis)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_O2_BINS = <a class="el" href="storage_8cpp.html#a291efb00dbeed85aad255ff387ede82a">EEPROM_CALIBRATION_O2_VALUES</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a723ff4e07f5b1fb79915b1b8961f4743">SensorCalibrationTable::O2Sensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Bins</a>)</td>
         </tr>
       </table>
   </td>
@@ -1549,7 +1588,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_O2_VALUES = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-(<a class="el" href="structarray.html">uint16_t</a>)<a class="el" href="structarray.html">sizeof</a>(<a class="el" href="structarray.html">decltype</a>(<a class="el" href="sensors_8h.html#a88597ef79463bbbd36087afd9e94aa06">o2CalibrationTable</a>)::values)</td>
+          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint16_t</a> EEPROM_CALIBRATION_O2_VALUES = <a class="el" href="storage_8cpp.html#a644d5fb504e475b37bd0d77204f05212">EEPROM_CALIBRATION_IAT_BINS</a>-<a class="el" href="structarray.html">getCalibrationElementSize</a>(<a class="el" href="group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a723ff4e07f5b1fb79915b1b8961f4743">SensorCalibrationTable::O2Sensor</a>, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">SensorCalibrationTableElement::Values</a>)</td>
         </tr>
       </table>
   </td>
@@ -2224,10 +2263,10 @@ Here is the caller graph for this function:</div>
 <div class="line">    .length = <a class="code hl_function" href="storage_8cpp.html#a1e48e24d7680f42dfbca18954e7369d8">default_length</a>,</div>
 <div class="line">    .getMaxWriteBlockSize = <a class="code hl_function" href="storage_8cpp.html#aa3792dd85a3693312fe16f2f9ca160ee">default_write_size</a>,</div>
 <div class="line">  }</div>
-<div class="ttc" id="astorage_8cpp_html_a1e48e24d7680f42dfbca18954e7369d8"><div class="ttname"><a href="storage_8cpp.html#a1e48e24d7680f42dfbca18954e7369d8">default_length</a></div><div class="ttdeci">static uint16_t default_length(void)</div><div class="ttdef"><b>Definition</b> storage.cpp:29</div></div>
-<div class="ttc" id="astorage_8cpp_html_a6ad954388c806d98e83101626396e00d"><div class="ttname"><a href="storage_8cpp.html#a6ad954388c806d98e83101626396e00d">default_read</a></div><div class="ttdeci">static byte default_read(uint16_t address)</div><div class="ttdef"><b>Definition</b> storage.cpp:27</div></div>
-<div class="ttc" id="astorage_8cpp_html_a853a1a55dca4466580aa2f71f60e511a"><div class="ttname"><a href="storage_8cpp.html#a853a1a55dca4466580aa2f71f60e511a">default_write</a></div><div class="ttdeci">static void default_write(uint16_t address, byte value)</div><div class="ttdef"><b>Definition</b> storage.cpp:28</div></div>
-<div class="ttc" id="astorage_8cpp_html_aa3792dd85a3693312fe16f2f9ca160ee"><div class="ttname"><a href="storage_8cpp.html#aa3792dd85a3693312fe16f2f9ca160ee">default_write_size</a></div><div class="ttdeci">static uint16_t default_write_size(const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> storage.cpp:30</div></div>
+<div class="ttc" id="astorage_8cpp_html_a1e48e24d7680f42dfbca18954e7369d8"><div class="ttname"><a href="storage_8cpp.html#a1e48e24d7680f42dfbca18954e7369d8">default_length</a></div><div class="ttdeci">static uint16_t default_length(void)</div><div class="ttdef"><b>Definition</b> storage.cpp:32</div></div>
+<div class="ttc" id="astorage_8cpp_html_a6ad954388c806d98e83101626396e00d"><div class="ttname"><a href="storage_8cpp.html#a6ad954388c806d98e83101626396e00d">default_read</a></div><div class="ttdeci">static byte default_read(uint16_t address)</div><div class="ttdef"><b>Definition</b> storage.cpp:30</div></div>
+<div class="ttc" id="astorage_8cpp_html_a853a1a55dca4466580aa2f71f60e511a"><div class="ttname"><a href="storage_8cpp.html#a853a1a55dca4466580aa2f71f60e511a">default_write</a></div><div class="ttdeci">static void default_write(uint16_t address, byte value)</div><div class="ttdef"><b>Definition</b> storage.cpp:31</div></div>
+<div class="ttc" id="astorage_8cpp_html_aa3792dd85a3693312fe16f2f9ca160ee"><div class="ttname"><a href="storage_8cpp.html#aa3792dd85a3693312fe16f2f9ca160ee">default_write_size</a></div><div class="ttdeci">static uint16_t default_write_size(const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> storage.cpp:33</div></div>
 </div><!-- fragment -->
 </div>
 </div>

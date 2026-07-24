@@ -103,7 +103,7 @@ var searchData=
   ['getrpm_5fthirtysixminus21_100',['getRPM_ThirtySixMinus21',['../group__dec__36__2__1.html#gaaf418ac9b44326d7be1b8741c329195c',1,'decoders.cpp']]],
   ['getrpm_5fthirtysixminus222_101',['getRPM_ThirtySixMinus222',['../group__dec__36__2__2__2.html#ga13bb3b1c7f3af6c7b69f2c4a4cc932e0',1,'decoders.cpp']]],
   ['getrpm_5fvmax_102',['getRPM_Vmax',['../group__dec__vmax.html#gaba1f6ace87b83831b409d8c06c369e65',1,'decoders.cpp']]],
-  ['getsensorcalibrationcrcaddress_103',['getSensorCalibrationCrcAddress',['../storage_8cpp.html#aefce8256955067b2e850b9c5991fa1e5',1,'storage.cpp']]],
+  ['getsensorcalibrationaddress_103',['getSensorCalibrationAddress',['../storage_8cpp.html#a1281b342c8933c69f58757a0f147c90d',1,'storage.cpp']]],
   ['getspeed_104',['getSpeed',['../sensors_8cpp.html#af41e1d41b2d8d30cc3a27361c4dad07b',1,'sensors.cpp']]],
   ['getstatus_105',['getStatus',['../structdecoder__t.html#ab862f18c6058310969c3be65dd8864d3',1,'decoder_t']]],
   ['getstorageapi_106',['getstorageapi',['../storage_8cpp.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp'],['../storage_8h.html#af09f0556c18468dfe9225b30d09d2c84',1,'getStorageAPI(void):&#160;storage.cpp']]],
