@@ -36,7 +36,7 @@ var searchData=
   ['setbarofrommap_33',['setBaroFromMAP',['../sensors_8cpp.html#a6b6a51ab58ee438f5afb6edaedd855bb',1,'sensors.cpp']]],
   ['setbarofromsensorreading_34',['setBaroFromSensorReading',['../sensors_8cpp.html#ad74ecb136d8a25c835bc9f83f6413a89',1,'sensors.cpp']]],
   ['setbits_35',['setBits',['../bit__manip_8h.html#af34f1f2d5528470acb7d1062e5cb36d1',1,'bit_manip.h']]],
-  ['setboostpidtunings_36',['setBoostPidTunings',['../auxiliaries_8cpp.html#a722f134061c7ac8fc1164ada52a19753',1,'auxiliaries.cpp']]],
+  ['setboostpidtunings_36',['setBoostPidTunings',['../boost_controller_8cpp.html#a722f134061c7ac8fc1164ada52a19753',1,'boostController.cpp']]],
   ['setcallbacks_37',['setcallbacks',['../scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9',1,'setCallbacks(Schedule &amp;schedule, Schedule::callback pStartCallback, Schedule::callback pEndCallback) noexcept:&#160;scheduler.cpp'],['../scheduler_8h.html#accbfbe59d875d20cb1052c02e34d04e9',1,'setCallbacks(Schedule &amp;schedule, Schedule::callback pStartCallback, Schedule::callback pEndCallback) noexcept:&#160;scheduler.cpp'],['../scheduler__ignition__controller_8cpp.html#aa6a45e1271a69c3c07089aabad64adc4',1,'setCallbacks(uint8_t sparkMode, uint8_t numCylinders, uint8_t rotaryMode):&#160;scheduler_ignition_controller.cpp']]],
   ['setcoilpin_38',['setCoilPin',['../structpin_numbers__t.html#adea41f0a34b65849d5a3c0c53297d759',1,'pinNumbers_t']]],
   ['seteepromwritepending_39',['seteepromwritepending',['../group__storage-pages.html#gadd7682628e187828b4a2163717cdfd16',1,'setEepromWritePending(bool isPending):&#160;storage.cpp'],['../group__storage-pages.html#gadd7682628e187828b4a2163717cdfd16',1,'setEepromWritePending(bool isPending):&#160;storage.cpp']]],
