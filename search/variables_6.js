@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['fan_5fpin_0',['fan_pin',['../auxiliaries_8cpp.html#a05e4b3057eec73ba08fa07c0e80cb682',1,'auxiliaries.cpp']]],
+  ['fan_5fpin_0',['fan_pin',['../fan_controller_8cpp.html#a05e4b3057eec73ba08fa07c0e80cb682',1,'fanController.cpp']]],
   ['fanduty_1',['fanDuty',['../structstatuses.html#aa2d511c0ac5258ca660edaef8bfd1f20',1,'statuses']]],
   ['fanenable_2',['fanEnable',['../structconfig2.html#a0ff71093243f3cb6341165d20c4592fd',1,'config2']]],
   ['fanfreq_3',['fanFreq',['../structconfig6.html#a20baaa4c37604a39ffef7e1b275623cc',1,'config6']]],
