@@ -2,7 +2,7 @@ var searchData=
 [
   ['random1to100_0',['random1to100',['../maths_8cpp.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp'],['../maths_8h.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp']]],
   ['read_1',['read',['../namespace_e_e_p_r_o_m_api.html#a857b4d2cdfc96a80551050f2b0d3af1f',1,'EEPROMApi']]],
-  ['read_5faircon_5frequest_2',['READ_AIRCON_REQUEST',['../auxiliaries_8cpp.html#a1b6eb4225df690f20a9d99ad0f8b4233',1,'auxiliaries.cpp']]],
+  ['read_5faircon_5frequest_2',['READ_AIRCON_REQUEST',['../aircon_controller_8cpp.html#a1b6eb4225df690f20a9d99ad0f8b4233',1,'airconController.cpp']]],
   ['readanalogpin_3',['readAnalogPin',['../sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311',1,'sensors.cpp']]],
   ['readanalogsensor_4',['readAnalogSensor',['../sensors_8cpp.html#a67edb677b0734f1cb1e6dbea6ed23e3e',1,'sensors.cpp']]],
   ['readauxanalog_5',['readauxanalog',['../sensors_8h.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.cpp'],['../sensors_8cpp.html#af6d90525c9e6c5514dd98142ac8ef943',1,'readAuxanalog(uint8_t analogPin):&#160;sensors.cpp']]],

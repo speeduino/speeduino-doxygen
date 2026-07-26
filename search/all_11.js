@@ -10,7 +10,7 @@ var searchData=
   ['get_5ftable_5fvalue_5fvisitor_7',['get_table_value_visitor',['../structget__table__value__visitor.html',1,'get_table_value_visitor'],['../structget__table__value__visitor.html#a1c6262e2041970de8cbfaf2be97d50b4',1,'get_table_value_visitor::get_table_value_visitor()']]],
   ['getadvance1_8',['getAdvance1',['../speeduino_8ino.html#aef65c08bf25cdfc49f575080fe6da357',1,'speeduino.ino']]],
   ['getafro2limit_9',['getAfrO2Limit',['../engine_protection_8cpp.html#a03e43c54f11715d362c0dc94710ff040',1,'engineProtection.cpp']]],
-  ['getairconrequestpinmode_10',['getAirConRequestPinMode',['../auxiliaries_8cpp.html#a2ec1d7ad37cbe79b613aba50f46dfc2e',1,'auxiliaries.cpp']]],
+  ['getairconrequestpinmode_10',['getAirConRequestPinMode',['../aircon_controller_8cpp.html#a2ec1d7ad37cbe79b613aba50f46dfc2e',1,'airconController.cpp']]],
   ['getanalogknock_11',['getanalogknock',['../sensors_8cpp.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp'],['../sensors_8h.html#aae24010c3d6285afb811d8fab6cf29a4',1,'getAnalogKnock(void):&#160;sensors.cpp']]],
   ['getandcleartimermask_12',['getandcleartimermask',['../timers_8cpp.html#a7c4e59212c9c778688fc62410f576edb',1,'getAndClearTimerMask(void):&#160;timers.cpp'],['../timers_8h.html#a7c4e59212c9c778688fc62410f576edb',1,'getAndClearTimerMask(void):&#160;timers.cpp']]],
   ['getblitzboxbl49spmapping_13',['getBlitzboxBL49spMapping',['../pin_mapping_8cpp.html#a147f7c1507708b79e6165f28711cad78',1,'pinMapping.cpp']]],
