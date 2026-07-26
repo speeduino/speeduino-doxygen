@@ -298,7 +298,7 @@ var searchData=
   ['istoothlog1full_295',['isToothLog1Full',['../structstatuses.html#a89dc44b08d6fe5c81fc2546137ebe9be',1,'statuses']]],
   ['istriggered_296',['isTriggered',['../structinterrupt__t.html#ac16617a1e803a4625b944131c7790bd0',1,'interrupt_t']]],
   ['isvalid_297',['isvalid',['../classfast_input_pin__t.html#a4b1dd5aae6073269febdd09257dc166c',1,'fastInputPin_t::isValid()'],['../classdigital_pin__t.html#a4cda92c8d67525fd66e8e525817931dc',1,'digitalPin_t::isValid()'],['../structinterrupt__t.html#abc15fe56a205b17f9912f185acbd0c32',1,'interrupt_t::isValid()'],['../classfast_output_pin__t.html#ae18a44413a1f94f41edde78fca1f0b82',1,'fastOutputPin_t::isValid()'],['../classinput_pin__t.html#a9d3376f93f84f48aa5ee5e9e0a029f4a',1,'inputPin_t::isValid()'],['../classoutput_pin__t.html#a64a29d0bdbae8ce626805c4102d11932',1,'outputPin_t::isValid()'],['../structport__pin__t.html#a4749dab0016b3bda19f0118e050dd220',1,'port_pin_t::isValid()']]],
-  ['isvalidbaro_298',['isValidBaro',['../sensors_8cpp.html#a8beb41cd2b2314b35527fc85fcb5d739',1,'sensors.cpp']]],
+  ['isvalidbaro_298',['isValidBaro',['../sensors_8cpp.html#a20749115850c925c5902d04731dc9176',1,'sensors.cpp']]],
   ['isvalidegoalgorithm_299',['isValidEgoAlgorithm',['../corrections_8cpp.html#a4cd03bbf6432745f9150ee31c282394b',1,'corrections.cpp']]],
   ['isvalidmapsensorreading_300',['isValidMapSensorReading',['../sensors_8cpp.html#a0b651192b393a1c53fe7d92d9442412f',1,'sensors.cpp']]],
   ['iswmiadvanceenabled_301',['isWMIAdvanceEnabled',['../corrections_8cpp.html#ab880bb43e2f85f7012df63ea0108b104',1,'corrections.cpp']]],
