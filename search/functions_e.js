@@ -3,7 +3,7 @@ var searchData=
   ['next_0',['next',['../structentity__page__location__t.html#ab8d8e532cb57f1095e931a33e11a8a3c',1,'entity_page_location_t']]],
   ['nextafrcyclehasstarted_1',['nextAfrCycleHasStarted',['../corrections_8cpp.html#a506a99d0e34be8a2fa2350839be568ac',1,'corrections.cpp']]],
   ['nextpulsecount_2',['nextPulseCount',['../ts_command_controller_8cpp.html#a2d9eb929c7123de04c605bc98735e26b',1,'tsCommandController.cpp']]],
-  ['nitrouscontrol_3',['nitrouscontrol',['../auxiliaries_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;auxiliaries.cpp']]],
+  ['nitrouscontrol_3',['nitrouscontrol',['../nitrous_controller_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;nitrousController.cpp'],['../nitrous_controller_8h.html#ab9156767bea1dd5393bba5f9605aea0a',1,'nitrousControl(void):&#160;nitrousController.cpp']]],
   ['nudge_4',['nudge',['../maths_8h.html#acf16d92a564e280af1210c940ff4ef14',1,'maths.h']]],
   ['nullcallback_5',['nullcallback',['../scheduler_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduler.cpp'],['../scheduler_8h.html#a8ff5e230478080dbc00c6f21596d5ab9',1,'nullCallback(void):&#160;scheduler.cpp']]],
   ['nullengineisrunning_6',['nullEngineIsRunning',['../decoder__builder_8cpp.html#a7e0973edfe3da043b0da1e511fa31830',1,'decoder_builder.cpp']]],

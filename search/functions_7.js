@@ -59,7 +59,7 @@ var searchData=
   ['getmiatana16mapping_56',['getMiataNA16Mapping',['../pin_mapping_8cpp.html#a5a6d132d00b2940bedbd60bfb6ea40a3',1,'pinMapping.cpp']]],
   ['getmiatana18mapping_57',['getMiataNA18Mapping',['../pin_mapping_8cpp.html#ad2b7377f6d8158c767681cb263e3aece',1,'pinMapping.cpp']]],
   ['getmiatanb2mapping_58',['getMiataNB2Mapping',['../pin_mapping_8cpp.html#ae1c4dd5ccb00b3be4590807dc5498fce',1,'pinMapping.cpp']]],
-  ['getn2oarmpinpolarity_59',['getN2oArmPinPolarity',['../auxiliaries_8cpp.html#abcc26b872322445179253c834230007d',1,'auxiliaries.cpp']]],
+  ['getn2oarmpinpolarity_59',['getN2oArmPinPolarity',['../nitrous_controller_8cpp.html#abcc26b872322445179253c834230007d',1,'nitrousController.cpp']]],
   ['getno2cmapping_60',['getNO2CMapping',['../pin_mapping_8cpp.html#a9c5ad29f23400763ec2530bf4d749e9e',1,'pinMapping.cpp']]],
   ['getoilpressure_61',['getOilPressure',['../sensors_8cpp.html#a4f29318f21b6df0623f6914ecca2045f',1,'sensors.cpp']]],
   ['getpagemap_62',['getPageMap',['../pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e',1,'pages.cpp']]],
