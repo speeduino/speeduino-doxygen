@@ -31,7 +31,7 @@ var searchData=
   ['address_28',['address',['../structwrite__location.html#a99a948d7ec9adf2fb6b9e245de94fa96',1,'write_location']]],
   ['addtoothlogentry_29',['addToothLogEntry',['../group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a',1,'decoders.cpp']]],
   ['addwithoutoverflow_30',['addWithoutOverflow',['../group__group-serial-comms-impl.html#ga3a1c7dd7cd1bae9ef6f774f2d25df144',1,'comms.cpp']]],
-  ['adjustcrankangle_31',['adjustCrankAngle',['../schedule__calcs_8hpp.html#ac3336b011acf3308ff9e14b8b582fe4e',1,'schedule_calcs.hpp']]],
+  ['adjustcrankangle_31',['adjustCrankAngle',['../schedule__calcs_8hpp.html#a44d1a484b65dff80efaf6fb23512e5d3',1,'schedule_calcs.hpp']]],
   ['advance_32',['advance',['../pages_8h.html#a5a72453b79576e4855834673719536c8',1,'advance(const page_iterator_t &amp;it):&#160;pages.cpp'],['../pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99',1,'advance(const page_iterator_t &amp;iter):&#160;pages.cpp'],['../structstatuses.html#a4a50e4af8c3d7c15c08a76ec00163091',1,'statuses::advance'],['../classtable__axis__iterator.html#a654ef682a2f73e4ea4c70d9c7112caae',1,'table_axis_iterator::advance()'],['../classtable__row__iterator.html#ab6a63b7d3c7ef065e00fce6a099c7e49',1,'table_row_iterator::advance()'],['../classtable__value__iterator.html#ad21c402254bbba2c5a615c1ca18ca456',1,'table_value_iterator::advance()']]],
   ['advance1_33',['advance1',['../structstatuses.html#a8fbbc9e427f0bbfadd50299db8586668',1,'statuses']]],
   ['advance2_34',['advance2',['../structstatuses.html#a5aeaf88a9972235864249d2c6b314660',1,'statuses']]],

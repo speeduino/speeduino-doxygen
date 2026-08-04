@@ -84,6 +84,9 @@ $(function() {
 <code>#include &quot;<a class="el" href="crank_maths_8h_source.html">crankMaths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="atomic_8h_source.html">atomic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="statuses_8h_source.html">statuses.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
@@ -176,9 +179,9 @@ Functions</h2></td></tr>
 <tr class="separator:ac93164cacf7b65306da9e6d15520e356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a035a8f3c2f73f1775c318f851ad87ef3" id="r_a035a8f3c2f73f1775c318f851ad87ef3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a035a8f3c2f73f1775c318f851ad87ef3">_calculateIgnitionTimeout</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">int16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>)</td></tr>
 <tr class="separator:a035a8f3c2f73f1775c318f851ad87ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3336b011acf3308ff9e14b8b582fe4e" id="r_ac3336b011acf3308ff9e14b8b582fe4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#ac3336b011acf3308ff9e14b8b582fe4e">adjustCrankAngle</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">int16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>)</td></tr>
-<tr class="memdesc:ac3336b011acf3308ff9e14b8b582fe4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjust the crank angle used to originally set the schedule.  <br /></td></tr>
-<tr class="separator:ac3336b011acf3308ff9e14b8b582fe4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44d1a484b65dff80efaf6fb23512e5d3" id="r_a44d1a484b65dff80efaf6fb23512e5d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="schedule__calcs_8hpp.html#a44d1a484b65dff80efaf6fb23512e5d3">adjustCrankAngle</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">int16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>)</td></tr>
+<tr class="memdesc:a44d1a484b65dff80efaf6fb23512e5d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adjust the crank angle used to originally set the schedule.  <br /></td></tr>
+<tr class="separator:a44d1a484b65dff80efaf6fb23512e5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a3a326ca181163cf9466b8047f220652e" name="a3a326ca181163cf9466b8047f220652e"></a>
@@ -635,8 +638,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="ac3336b011acf3308ff9e14b8b582fe4e" name="ac3336b011acf3308ff9e14b8b582fe4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3336b011acf3308ff9e14b8b582fe4e">&#9670;&#160;</a></span>adjustCrankAngle()</h2>
+<a id="a44d1a484b65dff80efaf6fb23512e5d3" name="a44d1a484b65dff80efaf6fb23512e5d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44d1a484b65dff80efaf6fb23512e5d3">&#9670;&#160;</a></span>adjustCrankAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,6 +650,12 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> adjustCrankAngle </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
         </tr>
@@ -681,8 +690,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_cgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_cgraph" id="aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_cgraph">
+<div class="center"><img src="schedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_cgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_cgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_cgraph" id="aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_cgraph">
 <area shape="rect" title="Adjust the crank angle used to originally set the schedule." alt="" coords="5,55,129,80"/>
 <area shape="rect" href="crank_maths_8h.html#a5ab57719f027be2d276ca6c25e2a8a94" title="Converts angular degrees to the equivalent timer ticks at current RPM." alt="" coords="177,5,309,31"/>
 <area shape="poly" title=" " alt="" coords="115,51,179,33,181,38,116,57"/>
@@ -697,8 +706,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="schedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_icgraph" alt=""/></div>
-<map name="aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_icgraph" id="aschedule__calcs_8hpp_ac3336b011acf3308ff9e14b8b582fe4e_icgraph">
+<div class="center"><img src="schedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_icgraph.png" border="0" usemap="#aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_icgraph" alt=""/></div>
+<map name="aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_icgraph" id="aschedule__calcs_8hpp_a44d1a484b65dff80efaf6fb23512e5d3_icgraph">
 <area shape="rect" title="Adjust the crank angle used to originally set the schedule." alt="" coords="1612,576,1735,602"/>
 <area shape="rect" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8" title=" " alt="" coords="1416,576,1564,602"/>
 <area shape="poly" title=" " alt="" coords="1596,592,1564,592,1564,586,1596,586"/>

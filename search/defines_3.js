@@ -30,7 +30,7 @@ var searchData=
   ['core_5fstm32_27',['CORE_STM32',['../board__stm32__official_8h.html#a7877e7056d1ffdf4927424f7bc2c83ed',1,'board_stm32_official.h']]],
   ['core_5fteensy35_28',['CORE_TEENSY35',['../board__teensy35_8h.html#a518e4909c28382fdef8df8cd02d3fd87',1,'board_teensy35.h']]],
   ['core_5fteensy41_29',['CORE_TEENSY41',['../board__teensy41_8h.html#a551e5124e6ff1f504f733839df44c1fc',1,'board_teensy41.h']]],
-  ['crank_5fangle_5fmax_30',['CRANK_ANGLE_MAX',['../globals_8h.html#ae2ea5607b682b5faf59806f6548b9a71',1,'globals.h']]],
+  ['crank_5fangle_5fmax_30',['CRANK_ANGLE_MAX',['../decoders_8cpp.html#ae2ea5607b682b5faf59806f6548b9a71',1,'decoders.cpp']]],
   ['crank_5frun_5fhyster_31',['CRANK_RUN_HYSTER',['../speeduino_8ino.html#a6dbfca2e3413e1880ac4ea9cef316a4b',1,'speeduino.ino']]],
   ['current_5fdata_5fversion_32',['CURRENT_DATA_VERSION',['../updates_8cpp.html#a3e241f6a9fc66e45880cb69062ded84e',1,'updates.cpp']]]
 ];
