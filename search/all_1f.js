@@ -31,7 +31,7 @@ var searchData=
   ['updateobject_28',['updateObject',['../storage__api_8h.html#a39e71c020e9c61aa672e11059bbeefd6',1,'storage_api.h']]],
   ['updateoilpressure_29',['updateOilPressure',['../sensors_8cpp.html#a839e97fb5755437e11e5597ffa05ec81',1,'sensors.cpp']]],
   ['updatepagevalues_30',['updatePageValues',['../group__group-serial-comms-impl.html#ga2e4666c6ad95481c0f218666d7f9d3b1',1,'comms.cpp']]],
-  ['updatepwanglecache_31',['updatePwAngleCache',['../schedule__calcs_8hpp.html#a23b542733487f173ea9cc6c79b4bb990',1,'schedule_calcs.hpp']]],
+  ['updatepwanglecache_31',['updatePwAngleCache',['../scheduler__fuel__controller_8cpp.html#a2eff440d3aa4db7091accce3d48f6587',1,'scheduler_fuel_controller.cpp']]],
   ['updaterevolutiontimefromteeth_32',['UpdateRevolutionTimeFromTeeth',['../group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2',1,'decoders.cpp']]],
   ['updates_2ecpp_33',['updates.cpp',['../updates_8cpp.html',1,'']]],
   ['updates_2eh_34',['updates.h',['../updates_8h.html',1,'']]],
