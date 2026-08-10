@@ -78,7 +78,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Integer division returns the quotient. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a>. rounds to zero. This code will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a>.  
+<p>Integer division returns the quotient. I.e. rounds to zero. This code will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a>.  
 <a href="#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for Rounding integer division:</div>
@@ -97,25 +97,25 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ga5996348be8a27108d31aecf3ed216f78" id="r_ga5996348be8a27108d31aecf3ed216f78"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga5996348be8a27108d31aecf3ed216f78">DIV_ROUND_CLOSEST</a>(<a class="el" href="structarray.html">n</a>,  <a class="el" href="structarray.html">d</a>,  <a class="el" href="structarray.html">t</a>)</td></tr>
+<tr class="memitem:ga5996348be8a27108d31aecf3ed216f78" id="r_ga5996348be8a27108d31aecf3ed216f78"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga5996348be8a27108d31aecf3ed216f78">DIV_ROUND_CLOSEST</a>(n,  d,  t)</td></tr>
 <tr class="memdesc:ga5996348be8a27108d31aecf3ed216f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded integer division.  <br /></td></tr>
 <tr class="separator:ga5996348be8a27108d31aecf3ed216f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0277533cdcf4f952c4a7920e78e0a6e" id="r_gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(<a class="el" href="structarray.html">n</a>,  <a class="el" href="structarray.html">d</a>,  <a class="el" href="structarray.html">t</a>)&#160;&#160;&#160;((<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">n</a>) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="el" href="structarray.html">d</a>, <a class="el" href="structarray.html">t</a>))/(<a class="el" href="structarray.html">t</a>)(<a class="el" href="structarray.html">d</a>))</td></tr>
+<tr class="memitem:gac0277533cdcf4f952c4a7920e78e0a6e" id="r_gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#gac0277533cdcf4f952c4a7920e78e0a6e">UDIV_ROUND_CLOSEST</a>(n,  d,  t)&#160;&#160;&#160;((t)((n) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(d, t))/(t)(d))</td></tr>
 <tr class="memdesc:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded <em>unsigned</em> integer division.  <br /></td></tr>
 <tr class="separator:gac0277533cdcf4f952c4a7920e78e0a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6d08820c2e72c1228a3b093f20a9d32e" id="r_ga6d08820c2e72c1228a3b093f20a9d32e"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e">UDIV_ROUND_UP</a>(<a class="el" href="structarray.html">n</a>,  <a class="el" href="structarray.html">d</a>,  <a class="el" href="structarray.html">t</a>)&#160;&#160;&#160;((<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">n</a>) + (<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">d</a>)+1<a class="el" href="structarray.html">U</a>))/(<a class="el" href="structarray.html">t</a>)(<a class="el" href="structarray.html">d</a>))</td></tr>
+<tr class="memitem:ga6d08820c2e72c1228a3b093f20a9d32e" id="r_ga6d08820c2e72c1228a3b093f20a9d32e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga6d08820c2e72c1228a3b093f20a9d32e">UDIV_ROUND_UP</a>(n,  d,  t)&#160;&#160;&#160;((t)((n) + (t)((d)+1U))/(t)(d))</td></tr>
 <tr class="memdesc:ga6d08820c2e72c1228a3b093f20a9d32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounding up <em>unsigned</em> integer division.  <br /></td></tr>
 <tr class="separator:ga6d08820c2e72c1228a3b093f20a9d32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga33c57fc943428490f84a7ccb7e4b7a76" id="r_ga33c57fc943428490f84a7ccb7e4b7a76"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structarray.html">uint16_t</a> divisor&gt; </td></tr>
-<tr class="memitem:ga33c57fc943428490f84a7ccb7e4b7a76"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a7ea72cde701aa18a9390e9da190e9864">TESTABLE_STATIC_CONSTEXPR</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga33c57fc943428490f84a7ccb7e4b7a76">div_round_closest_u16</a> (<a class="el" href="structarray.html">uint16_t</a> <a class="el" href="structarray.html">n</a>)</td></tr>
+<tr class="memitem:ga33c57fc943428490f84a7ccb7e4b7a76" id="r_ga33c57fc943428490f84a7ccb7e4b7a76"><td class="memTemplParams" colspan="2">template&lt;uint16_t divisor&gt; </td></tr>
+<tr class="memitem:ga33c57fc943428490f84a7ccb7e4b7a76"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a7ea72cde701aa18a9390e9da190e9864">TESTABLE_STATIC_CONSTEXPR</a> uint16_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__group-rounded-div.html#ga33c57fc943428490f84a7ccb7e4b7a76">div_round_closest_u16</a> (uint16_t n)</td></tr>
 <tr class="memdesc:ga33c57fc943428490f84a7ccb7e4b7a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounded <em>unsigned</em> integer division optimized for compile time constants.  <br /></td></tr>
 <tr class="separator:ga33c57fc943428490f84a7ccb7e4b7a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>Integer division returns the quotient. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a>. rounds to zero. This code will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a>. </p>
+<p>Integer division returns the quotient. I.e. rounds to zero. This code will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a>. </p>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ga5996348be8a27108d31aecf3ed216f78" name="ga5996348be8a27108d31aecf3ed216f78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga5996348be8a27108d31aecf3ed216f78">&#9670;&#160;</a></span>DIV_ROUND_CLOSEST</h2>
@@ -124,22 +124,22 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> DIV_ROUND_CLOSEST</td>
+          <td class="memname">#define DIV_ROUND_CLOSEST</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">n</a>, </td>
+          <td class="paramname">n, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">d</a>, </td>
+          <td class="paramname">d, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">t</a>&#160;</td>
+          <td class="paramname">t&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -149,20 +149,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    ( \</div>
-<div class="line">    (((<a class="code hl_struct" href="structarray.html">n</a>) &lt; (<a class="code hl_struct" href="structarray.html">t</a>)(0)) ^ ((<a class="code hl_struct" href="structarray.html">d</a>) &lt; (<a class="code hl_struct" href="structarray.html">t</a>)(0))) ? \</div>
-<div class="line">        ((<a class="code hl_struct" href="structarray.html">t</a>)((<a class="code hl_struct" href="structarray.html">n</a>) - <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_struct" href="structarray.html">d</a>, <a class="code hl_struct" href="structarray.html">t</a>))/(<a class="code hl_struct" href="structarray.html">t</a>)(<a class="code hl_struct" href="structarray.html">d</a>)) : \</div>
-<div class="line">        ((<a class="code hl_struct" href="structarray.html">t</a>)((<a class="code hl_struct" href="structarray.html">n</a>) + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="code hl_struct" href="structarray.html">d</a>, <a class="code hl_struct" href="structarray.html">t</a>))/(<a class="code hl_struct" href="structarray.html">t</a>)(<a class="code hl_struct" href="structarray.html">d</a>)))</div>
+<div class="line">    (((n) &lt; (t)(0)) ^ ((d) &lt; (t)(0))) ? \</div>
+<div class="line">        ((t)((n) - <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(d, t))/(t)(d)) : \</div>
+<div class="line">        ((t)((n) + <a class="code hl_define" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(d, t))/(t)(d)))</div>
 <div class="ttc" id="agroup__group-rounded-div-behavior_html_gaa6f501835ae44596261c5ada560013d9"><div class="ttname"><a href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a></div><div class="ttdeci">#define DIV_ROUND_CORRECT(d, t)</div><div class="ttdoc">Computes the denominator correction for rounding division based on our rounding behavior.</div><div class="ttdef"><b>Definition</b> maths.h:73</div></div>
-<div class="ttc" id="astructarray_html"><div class="ttname"><a href="structarray.html">array</a></div><div class="ttdef"><b>Definition</b> array.h:14</div></div>
 </div><!-- fragment -->
 <p>Rounded integer division. </p>
-<p>Integer division returns the quotient. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a>. rounds to zero. This macro will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a></p>
+<p>Integer division returns the quotient. I.e. rounds to zero. This macro will round the result to nearest integer. Rounding behavior is controlled by <a class="el" href="group__group-rounded-div-behavior.html#gac72b4e94ae5d7a52bfc6351ef05a26cf" title="Integer division rounding behavior.">DIV_ROUND_BEHAVIOR</a></p>
 <dl class="section warning"><dt>Warning</dt><dd>For performance reasons, this macro does not promote integers. So it will overflow if n&gt;MAX(t)-(d/2).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">n</td><td>The numerator (dividee) (an integer) </td></tr>
     <tr><td class="paramname">d</td><td>The denominator (divider) (an integer) </td></tr>
-    <tr><td class="paramname">t</td><td>The type of the result. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. uint16_t </td></tr>
+    <tr><td class="paramname">t</td><td>The type of the result. E.g. uint16_t </td></tr>
   </table>
   </dd>
 </dl>
@@ -176,27 +175,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> UDIV_ROUND_CLOSEST</td>
+          <td class="memname">#define UDIV_ROUND_CLOSEST</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">n</a>, </td>
+          <td class="paramname">n, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">d</a>, </td>
+          <td class="paramname">d, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">t</a>&#160;</td>
+          <td class="paramname">t&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">n</a>) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(<a class="el" href="structarray.html">d</a>, <a class="el" href="structarray.html">t</a>))/(<a class="el" href="structarray.html">t</a>)(<a class="el" href="structarray.html">d</a>))</td>
+          <td></td><td>&#160;&#160;&#160;((t)((n) + <a class="el" href="group__group-rounded-div-behavior.html#gaa6f501835ae44596261c5ada560013d9">DIV_ROUND_CORRECT</a>(d, t))/(t)(d))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,7 +207,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">n</td><td>The numerator (dividee) (an <em>unsigned</em> integer) </td></tr>
     <tr><td class="paramname">d</td><td>The denominator (divider) (an <em>unsigned</em> integer) </td></tr>
-    <tr><td class="paramname">t</td><td>The type of the result. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. uint16_t </td></tr>
+    <tr><td class="paramname">t</td><td>The type of the result. E.g. uint16_t </td></tr>
   </table>
   </dd>
 </dl>
@@ -222,27 +221,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> UDIV_ROUND_UP</td>
+          <td class="memname">#define UDIV_ROUND_UP</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">n</a>, </td>
+          <td class="paramname">n, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">d</a>, </td>
+          <td class="paramname">d, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">t</a>&#160;</td>
+          <td class="paramname">t&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">n</a>) + (<a class="el" href="structarray.html">t</a>)((<a class="el" href="structarray.html">d</a>)+1<a class="el" href="structarray.html">U</a>))/(<a class="el" href="structarray.html">t</a>)(<a class="el" href="structarray.html">d</a>))</td>
+          <td></td><td>&#160;&#160;&#160;((t)((n) + (t)((d)+1U))/(t)(d))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -258,12 +257,12 @@ Functions</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="structarray.html">uint16_t</a> divisor&gt; </div>
+template&lt;uint16_t divisor&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a7ea72cde701aa18a9390e9da190e9864">TESTABLE_STATIC_CONSTEXPR</a> <a class="el" href="structarray.html">uint16_t</a> div_round_closest_u16 </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a7ea72cde701aa18a9390e9da190e9864">TESTABLE_STATIC_CONSTEXPR</a> uint16_t div_round_closest_u16 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>n</em></td><td>)</td>
           <td></td>
         </tr>

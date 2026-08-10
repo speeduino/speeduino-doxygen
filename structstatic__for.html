@@ -84,27 +84,26 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8" id="r_ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplParams" colspan="2">template&lt;<a class="el" href="structarray.html">typename</a> <a class="el" href="structarray.html">funcType</a> , typename... Args&gt; </td></tr>
-<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a> (<a class="el" href="structarray.html">funcType</a> <a class="el" href="structarray.html">f</a>, Args...args)</td></tr>
+<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8" id="r_ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplParams" colspan="2">template&lt;typename funcType , typename... Args&gt; </td></tr>
+<tr class="memitem:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a> (funcType f, Args...args)</td></tr>
 <tr class="memdesc:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unroll, calling a free function.  <br /></td></tr>
 <tr class="separator:ae02ff9c42ffb05ae6ddeb3b556f014c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="structarray.html">uint8_t</a> from, <a class="el" href="structarray.html">uint8_t</a> to&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;uint8_t from, uint8_t to&gt;<br />
 struct static_for&lt; from, to &gt;</div><p>Generate a fixed number of calls to a given free function <em>at compile time</em>. </p>
-<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_struct" href="structarray.html">foo</a>(<a class="code hl_struct" href="structarray.html">uint8_t</a> index, <a class="code hl_struct" href="structarray.html">time_t</a> *<a class="code hl_struct" href="structarray.html">currTime</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code hl_struct" href="structarray.html">message</a>) {</div>
+<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> foo(uint8_t index, time_t *currTime, <span class="keyword">const</span> <span class="keywordtype">char</span> *message) {</div>
 <div class="line">  <span class="comment">// Do something</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><a class="code hl_struct" href="structarray.html">time_t</a> <a class="code hl_struct" href="structarray.html">currTime</a> = <a class="code hl_struct" href="structarray.html">time</a>(<a class="code hl_struct" href="structarray.html">NULL</a>);</div>
-<div class="line"><span class="keywordtype">char</span> <a class="code hl_struct" href="structarray.html">message</a>[] = <span class="stringliteral">&quot;Unrolled!&quot;</span>;</div>
+<div class="line">time_t currTime = time(NULL);</div>
+<div class="line"><span class="keywordtype">char</span> message[] = <span class="stringliteral">&quot;Unrolled!&quot;</span>;</div>
 <div class="line"><span class="comment">// Equivalent of</span></div>
 <div class="line"><span class="comment">// foo(3, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(4, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(5, &amp;currTime, message);</span></div>
 <div class="line"><span class="comment">// foo(6, &amp;currTime, message);</span></div>
-<div class="line"><a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for&lt;3, 7&gt;::repeat_n</a>(<a class="code hl_struct" href="structarray.html">foo</a>, &amp;<a class="code hl_struct" href="structarray.html">currTime</a>, <a class="code hl_struct" href="structarray.html">message</a>);</div>
-<div class="ttc" id="astructarray_html"><div class="ttname"><a href="structarray.html">array</a></div><div class="ttdef"><b>Definition</b> array.h:14</div></div>
+<div class="line"><a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for&lt;3, 7&gt;::repeat_n</a>(foo, &amp;currTime, message);</div>
 <div class="ttc" id="astructstatic__for_html_ae02ff9c42ffb05ae6ddeb3b556f014c8"><div class="ttname"><a href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for::repeat_n</a></div><div class="ttdeci">static void repeat_n(funcType f, Args...args)</div><div class="ttdoc">Unroll, calling a free function.</div><div class="ttdef"><b>Definition</b> static_for.hpp:55</div></div>
 </div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -120,17 +119,17 @@ struct static_for&lt; from, to &gt;</div><p>Generate a fixed number of calls to 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;<a class="el" href="structarray.html">uint8_t</a> from, <a class="el" href="structarray.html">uint8_t</a> to&gt; </div>
+template&lt;uint8_t from, uint8_t to&gt; </div>
 <div class="memtemplate">
-template&lt;<a class="el" href="structarray.html">typename</a> <a class="el" href="structarray.html">funcType</a> , typename... Args&gt; </div>
+template&lt;typename funcType , typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> <a class="el" href="structstatic__for.html">static_for</a>&lt; <a class="el" href="structarray.html">from</a>, <a class="el" href="structarray.html">to</a> &gt;::repeat_n </td>
+          <td class="memname">static void <a class="el" href="structstatic__for.html">static_for</a>&lt; from, to &gt;::repeat_n </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">funcType</a>&#160;</td>
+          <td class="paramtype">funcType&#160;</td>
           <td class="paramname"><em>f</em>, </td>
         </tr>
         <tr>

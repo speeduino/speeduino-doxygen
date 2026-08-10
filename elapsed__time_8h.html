@@ -112,16 +112,16 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab5104e4bc755b44e71de4f17981da662" id="r_ab5104e4bc755b44e71de4f17981da662"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662">timeElapsed</a> (<a class="el" href="structarray.html">uint32_t</a> <a class="el" href="structarray.html">now</a>, <a class="el" href="structarray.html">uint32_t</a> start)</td></tr>
+<tr class="memitem:ab5104e4bc755b44e71de4f17981da662" id="r_ab5104e4bc755b44e71de4f17981da662"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662">timeElapsed</a> (uint32_t now, uint32_t start)</td></tr>
 <tr class="memdesc:ab5104e4bc755b44e71de4f17981da662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the number of counter ticks elapsed from start to now.  <br /></td></tr>
 <tr class="separator:ab5104e4bc755b44e71de4f17981da662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affa826db48e50808397a2308507442c0" id="r_affa826db48e50808397a2308507442c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elapsed__time_8h.html#affa826db48e50808397a2308507442c0">hasIntervalElapsed</a> (<a class="el" href="structarray.html">uint32_t</a> <a class="el" href="structarray.html">now</a>, <a class="el" href="structarray.html">uint32_t</a> start, <a class="el" href="structarray.html">uint32_t</a> <a class="el" href="structarray.html">interval</a>)</td></tr>
+<tr class="memitem:affa826db48e50808397a2308507442c0" id="r_affa826db48e50808397a2308507442c0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="elapsed__time_8h.html#affa826db48e50808397a2308507442c0">hasIntervalElapsed</a> (uint32_t now, uint32_t start, uint32_t interval)</td></tr>
 <tr class="memdesc:affa826db48e50808397a2308507442c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether at least <code>interval</code> counter ticks have elapsed since <code>start</code>.  <br /></td></tr>
 <tr class="separator:affa826db48e50808397a2308507442c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Rollover-safe elapsed time calculations for free-running counters. </p>
-<p>Timestamps taken from free-running counters such as micros(), millis() or runSecsX10 wrap back to zero when the counter overflows (micros() every ~71.6 minutes). Comparing absolute timestamps, <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. <code>micros() &gt; startTime + interval</code>, breaks when either the addition overflows or the counter wraps between the two samples. Unsigned modular subtraction is exact across a single wrap, so elapsed-time based comparisons remain correct provided the real elapsed time is less than one full counter period (<a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a>. the check runs at least once per counter period).</p>
+<p>Timestamps taken from free-running counters such as micros(), millis() or runSecsX10 wrap back to zero when the counter overflows (micros() every ~71.6 minutes). Comparing absolute timestamps, E.g. <code>micros() &gt; startTime + interval</code>, breaks when either the addition overflows or the counter wraps between the two samples. Unsigned modular subtraction is exact across a single wrap, so elapsed-time based comparisons remain correct provided the real elapsed time is less than one full counter period (I.e. the check runs at least once per counter period).</p>
 <p>Both functions take <code>now</code> as a parameter rather than calling micros() internally so that callers can be unit tested with arbitrary counter values, including values either side of the wrap point. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="affa826db48e50808397a2308507442c0" name="affa826db48e50808397a2308507442c0"></a>
@@ -134,21 +134,21 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">bool</a> hasIntervalElapsed </td>
+          <td class="memname">static bool hasIntervalElapsed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>now</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>start</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>interval</em>&#160;</td>
         </tr>
         <tr>
@@ -168,7 +168,7 @@ Functions</h2></td></tr>
 <p>Rollover-safe replacement for <code>now &gt;= start + interval</code> style comparisons. The boundary is inclusive: an elapsed time exactly equal to <code>interval</code> counts as elapsed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">now</td><td>The current counter reading (<a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. micros()) </td></tr>
+    <tr><td class="paramname">now</td><td>The current counter reading (E.g. micros()) </td></tr>
     <tr><td class="paramname">start</td><td>The counter reading taken when the interval started </td></tr>
     <tr><td class="paramname">interval</td><td>The minimum number of ticks that must have elapsed </td></tr>
   </table>
@@ -277,15 +277,15 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint32_t</a> timeElapsed </td>
+          <td class="memname">static uint32_t timeElapsed </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>now</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>start</em>&#160;</td>
         </tr>
         <tr>
@@ -305,7 +305,7 @@ Here is the caller graph for this function:</div>
 <p>Correct across counter rollover thanks to unsigned modular arithmetic, as long as the real elapsed time is less than one full counter period.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">now</td><td>The current counter reading (<a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. micros()) </td></tr>
+    <tr><td class="paramname">now</td><td>The current counter reading (E.g. micros()) </td></tr>
     <tr><td class="paramname">start</td><td>The counter reading taken when the interval started </td></tr>
   </table>
   </dd>

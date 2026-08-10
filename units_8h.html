@@ -141,10 +141,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2fdd25bf304093a2a13a8eaacc091135" id="r_a2fdd25bf304093a2a13a8eaacc091135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135">temperatureAddOffset</a> (<a class="el" href="structarray.html">int16_t</a> <a class="el" href="structarray.html">temp</a>)</td></tr>
+<tr class="memitem:a2fdd25bf304093a2a13a8eaacc091135" id="r_a2fdd25bf304093a2a13a8eaacc091135"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135">temperatureAddOffset</a> (int16_t temp)</td></tr>
 <tr class="memdesc:a2fdd25bf304093a2a13a8eaacc091135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from a user temperature (-40, 215) to storage (0, 255)  <br /></td></tr>
 <tr class="separator:a2fdd25bf304093a2a13a8eaacc091135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36a02b948d899a64a1ccce02a099ebba" id="r_a36a02b948d899a64a1ccce02a099ebba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba">temperatureRemoveOffset</a> (<a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">temp</a>)</td></tr>
+<tr class="memitem:a36a02b948d899a64a1ccce02a099ebba" id="r_a36a02b948d899a64a1ccce02a099ebba"><td class="memItemLeft" align="right" valign="top">static constexpr int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba">temperatureRemoveOffset</a> (uint8_t temp)</td></tr>
 <tr class="memdesc:a36a02b948d899a64a1ccce02a099ebba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from a storage temperature (0, 255) to user (-40, 215)  <br /></td></tr>
 <tr class="separator:a36a02b948d899a64a1ccce02a099ebba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -153,55 +153,55 @@ Variables</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Conversion factors</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><dl class="section note"><dt>Note</dt><dd>Since these are all constexpr, they should be zero overhead in time &amp; space (unless we take the address of one of them) </dd></dl>
 </div></td></tr>
-<tr class="memitem:ab7f71779513cd1b18ed3c073560a26dc" id="r_ab7f71779513cd1b18ed3c073560a26dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ab7f71779513cd1b18ed3c073560a26dc">RPM_COARSE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td></tr>
-<tr class="memdesc:ab7f71779513cd1b18ed3c073560a26dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/100. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 2700 -&gt; 27 -&gt; 2700.  <br /></td></tr>
+<tr class="memitem:ab7f71779513cd1b18ed3c073560a26dc" id="r_ab7f71779513cd1b18ed3c073560a26dc"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ab7f71779513cd1b18ed3c073560a26dc">RPM_COARSE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td></tr>
+<tr class="memdesc:ab7f71779513cd1b18ed3c073560a26dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/100. E.g. 2700 -&gt; 27 -&gt; 2700.  <br /></td></tr>
 <tr class="separator:ab7f71779513cd1b18ed3c073560a26dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0553c3b72507d9b172f270ed26ee5f0a" id="r_a0553c3b72507d9b172f270ed26ee5f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a0553c3b72507d9b172f270ed26ee5f0a">RPM_MEDIUM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
-<tr class="memdesc:a0553c3b72507d9b172f270ed26ee5f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/10. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 2700 -&gt; 270 -&gt; 2700.  <br /></td></tr>
+<tr class="memitem:a0553c3b72507d9b172f270ed26ee5f0a" id="r_a0553c3b72507d9b172f270ed26ee5f0a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a0553c3b72507d9b172f270ed26ee5f0a">RPM_MEDIUM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
+<tr class="memdesc:a0553c3b72507d9b172f270ed26ee5f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/10. E.g. 2700 -&gt; 270 -&gt; 2700.  <br /></td></tr>
 <tr class="separator:a0553c3b72507d9b172f270ed26ee5f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac52fd50b4662b10e48124b69c7865a7" id="r_aac52fd50b4662b10e48124b69c7865a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">int8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#aac52fd50b4662b10e48124b69c7865a7">SIGNED_RPM_MEDIUM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10, .translate=0 }</td></tr>
+<tr class="memitem:aac52fd50b4662b10e48124b69c7865a7" id="r_aac52fd50b4662b10e48124b69c7865a7"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int16_t, int8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#aac52fd50b4662b10e48124b69c7865a7">SIGNED_RPM_MEDIUM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10, .translate=0 }</td></tr>
 <tr class="separator:aac52fd50b4662b10e48124b69c7865a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a563dafa3806f48f51cb333a673a23dd2" id="r_a563dafa3806f48f51cb333a673a23dd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a563dafa3806f48f51cb333a673a23dd2">RPM_FINE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
-<tr class="memdesc:a563dafa3806f48f51cb333a673a23dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/5. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 1300-&gt;260-&gt;1300.  <br /></td></tr>
+<tr class="memitem:a563dafa3806f48f51cb333a673a23dd2" id="r_a563dafa3806f48f51cb333a673a23dd2"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a563dafa3806f48f51cb333a673a23dd2">RPM_FINE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td></tr>
+<tr class="memdesc:a563dafa3806f48f51cb333a673a23dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/5. E.g. 1300-&gt;260-&gt;1300.  <br /></td></tr>
 <tr class="separator:a563dafa3806f48f51cb333a673a23dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f08175782615f726c0dcd93d4777c4" id="r_af6f08175782615f726c0dcd93d4777c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint32_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#af6f08175782615f726c0dcd93d4777c4">TIME_TENTH_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10000U, .translate=0U }</td></tr>
-<tr class="memdesc:af6f08175782615f726c0dcd93d4777c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in 1/10th milliseconds <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a> ms/10.  <br /></td></tr>
+<tr class="memitem:af6f08175782615f726c0dcd93d4777c4" id="r_af6f08175782615f726c0dcd93d4777c4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint32_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#af6f08175782615f726c0dcd93d4777c4">TIME_TENTH_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10000U, .translate=0U }</td></tr>
+<tr class="memdesc:af6f08175782615f726c0dcd93d4777c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in 1/10th milliseconds I.e ms/10.  <br /></td></tr>
 <tr class="separator:af6f08175782615f726c0dcd93d4777c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20a455fd3ce57494be9c137c4f1ea7c6" id="r_a20a455fd3ce57494be9c137c4f1ea7c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a20a455fd3ce57494be9c137c4f1ea7c6">TIME_TWENTY_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
+<tr class="memitem:a20a455fd3ce57494be9c137c4f1ea7c6" id="r_a20a455fd3ce57494be9c137c4f1ea7c6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a20a455fd3ce57494be9c137c4f1ea7c6">TIME_TWENTY_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td></tr>
 <tr class="memdesc:a20a455fd3ce57494be9c137c4f1ea7c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in 20 milliseconds.  <br /></td></tr>
 <tr class="separator:a20a455fd3ce57494be9c137c4f1ea7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ce353b9d9b32975a16e58da19dbffa0" id="r_a8ce353b9d9b32975a16e58da19dbffa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a8ce353b9d9b32975a16e58da19dbffa0">TIME_TEN_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td></tr>
+<tr class="memitem:a8ce353b9d9b32975a16e58da19dbffa0" id="r_a8ce353b9d9b32975a16e58da19dbffa0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a8ce353b9d9b32975a16e58da19dbffa0">TIME_TEN_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td></tr>
 <tr class="memdesc:a8ce353b9d9b32975a16e58da19dbffa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in 10 milliseconds.  <br /></td></tr>
 <tr class="separator:a8ce353b9d9b32975a16e58da19dbffa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26eb6b5d8de98dd063872c631237e62d" id="r_a26eb6b5d8de98dd063872c631237e62d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a26eb6b5d8de98dd063872c631237e62d">MAP</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
+<tr class="memitem:a26eb6b5d8de98dd063872c631237e62d" id="r_a26eb6b5d8de98dd063872c631237e62d"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a26eb6b5d8de98dd063872c631237e62d">MAP</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2U, .translate=0U }</td></tr>
 <tr class="memdesc:a26eb6b5d8de98dd063872c631237e62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAP values: kpa.  <br /></td></tr>
 <tr class="separator:a26eb6b5d8de98dd063872c631237e62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f87ddee250cc26f3afa5b013af031d6" id="r_a8f87ddee250cc26f3afa5b013af031d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a8f87ddee250cc26f3afa5b013af031d6">MAP_DOT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
+<tr class="memitem:a8f87ddee250cc26f3afa5b013af031d6" id="r_a8f87ddee250cc26f3afa5b013af031d6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a8f87ddee250cc26f3afa5b013af031d6">MAP_DOT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
 <tr class="memdesc:a8f87ddee250cc26f3afa5b013af031d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAP rate of change: kpa/s <br  />
   <br /></td></tr>
 <tr class="separator:a8f87ddee250cc26f3afa5b013af031d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae112c4f13686c2a5314a7f813b1eeca3" id="r_ae112c4f13686c2a5314a7f813b1eeca3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ae112c4f13686c2a5314a7f813b1eeca3">TPS_DOT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
+<tr class="memitem:ae112c4f13686c2a5314a7f813b1eeca3" id="r_ae112c4f13686c2a5314a7f813b1eeca3"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ae112c4f13686c2a5314a7f813b1eeca3">TPS_DOT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td></tr>
 <tr class="memdesc:ae112c4f13686c2a5314a7f813b1eeca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">TPS rate of change: %/s.  <br /></td></tr>
 <tr class="separator:ae112c4f13686c2a5314a7f813b1eeca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee41b0b189447213c4c49fdd6f64bed" id="r_a9ee41b0b189447213c4c49fdd6f64bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a9ee41b0b189447213c4c49fdd6f64bed">CRANKING_ENRICHMENT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
+<tr class="memitem:a9ee41b0b189447213c4c49fdd6f64bed" id="r_a9ee41b0b189447213c4c49fdd6f64bed"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a9ee41b0b189447213c4c49fdd6f64bed">CRANKING_ENRICHMENT</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td></tr>
 <tr class="memdesc:a9ee41b0b189447213c4c49fdd6f64bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cranking enrichment values range from 0% to 1275%.  <br /></td></tr>
 <tr class="separator:a9ee41b0b189447213c4c49fdd6f64bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5db1350b542d3d19afb19f45f9b0a14" id="r_ab5db1350b542d3d19afb19f45f9b0a14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ab5db1350b542d3d19afb19f45f9b0a14">IGNITION_ADVANCE_LARGE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-40 }</td></tr>
+<tr class="memitem:ab5db1350b542d3d19afb19f45f9b0a14" id="r_ab5db1350b542d3d19afb19f45f9b0a14"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#ab5db1350b542d3d19afb19f45f9b0a14">IGNITION_ADVANCE_LARGE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-40 }</td></tr>
 <tr class="memdesc:ab5db1350b542d3d19afb19f45f9b0a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignition values from the main spark table are offset 40 degrees downwards to allow for negative spark timing.  <br /></td></tr>
 <tr class="separator:ab5db1350b542d3d19afb19f45f9b0a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a797cdee4fa8dfa68c94ad2b48972f6be" id="r_a797cdee4fa8dfa68c94ad2b48972f6be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int8_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a797cdee4fa8dfa68c94ad2b48972f6be">IGNITION_ADVANCE_SMALL</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-15 }</td></tr>
+<tr class="memitem:a797cdee4fa8dfa68c94ad2b48972f6be" id="r_a797cdee4fa8dfa68c94ad2b48972f6be"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int8_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a797cdee4fa8dfa68c94ad2b48972f6be">IGNITION_ADVANCE_SMALL</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-15 }</td></tr>
 <tr class="memdesc:a797cdee4fa8dfa68c94ad2b48972f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignition advance adjustments can use a smaller offset.  <br /></td></tr>
 <tr class="separator:a797cdee4fa8dfa68c94ad2b48972f6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bebd1a56ca616b5be6a45452644bb4d" id="r_a3bebd1a56ca616b5be6a45452644bb4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a3bebd1a56ca616b5be6a45452644bb4d">TEMPERATURE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-40 }</td></tr>
+<tr class="memitem:a3bebd1a56ca616b5be6a45452644bb4d" id="r_a3bebd1a56ca616b5be6a45452644bb4d"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a3bebd1a56ca616b5be6a45452644bb4d">TEMPERATURE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-40 }</td></tr>
 <tr class="memdesc:a3bebd1a56ca616b5be6a45452644bb4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All temperature measurements are stored offset by 40 degrees, to represent temperature ranges from -40 to 215.  <br /></td></tr>
 <tr class="separator:a3bebd1a56ca616b5be6a45452644bb4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09913095e1ed0ed3b9b5c9fe6d899db1" id="r_a09913095e1ed0ed3b9b5c9fe6d899db1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">int8_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a09913095e1ed0ed3b9b5c9fe6d899db1">FUEL_TRIM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-127 }</td></tr>
+<tr class="memitem:a09913095e1ed0ed3b9b5c9fe6d899db1" id="r_a09913095e1ed0ed3b9b5c9fe6d899db1"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; int8_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a09913095e1ed0ed3b9b5c9fe6d899db1">FUEL_TRIM</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-127 }</td></tr>
 <tr class="memdesc:a09913095e1ed0ed3b9b5c9fe6d899db1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The fuel trim tables are offset by 128 to allow for -50% to +50% values.  <br /></td></tr>
 <tr class="separator:a09913095e1ed0ed3b9b5c9fe6d899db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa467c89efa07cd1f72116d78fe0fd372" id="r_aa467c89efa07cd1f72116d78fe0fd372"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#aa467c89efa07cd1f72116d78fe0fd372">FREQUENCY</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
+<tr class="memitem:aa467c89efa07cd1f72116d78fe0fd372" id="r_aa467c89efa07cd1f72116d78fe0fd372"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#aa467c89efa07cd1f72116d78fe0fd372">FREQUENCY</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2U, .translate=0U }</td></tr>
 <tr class="memdesc:aa467c89efa07cd1f72116d78fe0fd372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency range from 0 to 512.  <br /></td></tr>
 <tr class="separator:aa467c89efa07cd1f72116d78fe0fd372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fab0e819df51f7ae41a32d300969f1f" id="r_a7fab0e819df51f7ae41a32d300969f1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; <a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a7fab0e819df51f7ae41a32d300969f1f">IAC_STEPS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=3<a class="el" href="structarray.html">U</a>, .translate=0U }</td></tr>
+<tr class="memitem:a7fab0e819df51f7ae41a32d300969f1f" id="r_a7fab0e819df51f7ae41a32d300969f1f"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a7fab0e819df51f7ae41a32d300969f1f">IAC_STEPS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=3U, .translate=0U }</td></tr>
 <tr class="memdesc:a7fab0e819df51f7ae41a32d300969f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAC steps.  <br /></td></tr>
 <tr class="separator:a7fab0e819df51f7ae41a32d300969f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -218,9 +218,9 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint8_t</a> temperatureAddOffset </td>
+          <td class="memname">static constexpr uint8_t temperatureAddOffset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">int16_t</a>&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>temp</em></td><td>)</td>
           <td></td>
         </tr>
@@ -394,9 +394,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">int16_t</a> temperatureRemoveOffset </td>
+          <td class="memname">static constexpr int16_t temperatureRemoveOffset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>temp</em></td><td>)</td>
           <td></td>
         </tr>
@@ -507,7 +507,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; CRANKING_ENRICHMENT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; CRANKING_ENRICHMENT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -531,7 +531,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; FREQUENCY = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; FREQUENCY = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -555,7 +555,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int8_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; FUEL_TRIM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-127 }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int8_t, uint8_t&gt; FUEL_TRIM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-127 }</td>
         </tr>
       </table>
   </td>
@@ -579,7 +579,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; IAC_STEPS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=3<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; IAC_STEPS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=3U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -603,7 +603,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; IGNITION_ADVANCE_LARGE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-40 }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int16_t, uint8_t&gt; IGNITION_ADVANCE_LARGE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-40 }</td>
         </tr>
       </table>
   </td>
@@ -627,7 +627,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int8_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; IGNITION_ADVANCE_SMALL = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-15 }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int8_t, uint8_t&gt; IGNITION_ADVANCE_SMALL = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-15 }</td>
         </tr>
       </table>
   </td>
@@ -651,7 +651,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; MAP = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; MAP = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=2U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -675,7 +675,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; MAP_DOT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int16_t, uint8_t&gt; MAP_DOT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -700,7 +700,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; RPM_COARSE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; RPM_COARSE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -710,7 +710,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>RPM stored as RPM/100. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 2700 -&gt; 27 -&gt; 2700. </p>
+<p>RPM stored as RPM/100. E.g. 2700 -&gt; 27 -&gt; 2700. </p>
 
 </div>
 </div>
@@ -724,7 +724,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; RPM_FINE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; RPM_FINE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -734,7 +734,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>RPM stored as RPM/5. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 1300-&gt;260-&gt;1300. </p>
+<p>RPM stored as RPM/5. E.g. 1300-&gt;260-&gt;1300. </p>
 <p>This limits the maximum value to 1275 RPM, but gives more precision than RPM_MEDIUM </p>
 
 </div>
@@ -749,7 +749,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; RPM_MEDIUM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; RPM_MEDIUM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -759,7 +759,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>RPM stored as RPM/10. <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">E.g</a>. 2700 -&gt; 270 -&gt; 2700. </p>
+<p>RPM stored as RPM/10. E.g. 2700 -&gt; 270 -&gt; 2700. </p>
 <p>This limits the maximum value to 2550 RPM, but gives more precision than RPM_COARSE </p>
 
 </div>
@@ -774,7 +774,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">int8_t</a>&gt; SIGNED_RPM_MEDIUM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10, .translate=0 }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int16_t, int8_t&gt; SIGNED_RPM_MEDIUM = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10, .translate=0 }</td>
         </tr>
       </table>
   </td>
@@ -797,7 +797,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; TEMPERATURE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1<a class="el" href="structarray.html">U</a>, .translate=-40 }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int16_t, uint8_t&gt; TEMPERATURE = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1U, .translate=-40 }</td>
         </tr>
       </table>
   </td>
@@ -821,7 +821,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; TIME_TEN_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; TIME_TEN_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=100U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -846,7 +846,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint32_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; TIME_TENTH_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10000U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint32_t, uint8_t&gt; TIME_TENTH_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10000U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -856,7 +856,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Time values stored in 1/10th milliseconds <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">I.e</a> ms/10. </p>
+<p>Time values stored in 1/10th milliseconds I.e ms/10. </p>
 <p>We convert to/from µS </p>
 
 </div>
@@ -871,7 +871,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">uint16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; TIME_TWENTY_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5<a class="el" href="structarray.html">U</a>, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint16_t, uint8_t&gt; TIME_TWENTY_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td>
         </tr>
       </table>
   </td>
@@ -882,7 +882,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Time values stored in 20 milliseconds. </p>
-<p>We convert to/from <a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">secs/0.1</a> </p>
+<p>We convert to/from secs/0.1 </p>
 
 </div>
 </div>
@@ -896,7 +896,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;<a class="el" href="structarray.html">int16_t</a>, <a class="el" href="structarray.html">uint8_t</a>&gt; TPS_DOT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;int16_t, uint8_t&gt; TPS_DOT = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10U, .translate=0U }</td>
         </tr>
       </table>
   </td>

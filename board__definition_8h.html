@@ -85,9 +85,9 @@ $(function() {
 <p>Inclusion of board specific header files and board related definitions.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 <code>#include &lt;Arduino.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="type__traits_8h_source.html">src/stdlib/type_traits.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="limits_8h_source.html">src/stdlib/limits.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="storage__api_8h_source.html">storage_api.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
@@ -482,47 +482,47 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a6a188777b3fa3f7f6e93124fee711846" id="r_a6a188777b3fa3f7f6e93124fee711846"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">SET_COMPARE</a>(<a class="el" href="structarray.html">compare</a>,  <a class="el" href="structarray.html">value</a>)&#160;&#160;&#160;(<a class="el" href="structarray.html">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(<a class="el" href="structarray.html">value</a>)</td></tr>
+<tr class="memitem:a6a188777b3fa3f7f6e93124fee711846" id="r_a6a188777b3fa3f7f6e93124fee711846"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846">SET_COMPARE</a>(compare,  value)&#160;&#160;&#160;(compare) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(value)</td></tr>
 <tr class="separator:a6a188777b3fa3f7f6e93124fee711846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac76e62de073b850dd1233048d831e7a8" id="r_ac76e62de073b850dd1233048d831e7a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a> (<a class="el" href="structarray.html">uint32_t</a> <a class="el" href="structarray.html">baudRate</a>)</td></tr>
+<tr class="memitem:ac76e62de073b850dd1233048d831e7a8" id="r_ac76e62de073b850dd1233048d831e7a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac76e62de073b850dd1233048d831e7a8">initBoard</a> (uint32_t baudRate)</td></tr>
 <tr class="memdesc:ac76e62de073b850dd1233048d831e7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the board, including USB comms.  <br /></td></tr>
 <tr class="separator:ac76e62de073b850dd1233048d831e7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59cd8e64cabdc52e3a4a9e4d8d4603bc" id="r_a59cd8e64cabdc52e3a4a9e4d8d4603bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a59cd8e64cabdc52e3a4a9e4d8d4603bc">boardInitPins</a> (<a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">boardID</a>, <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#a8dee625c424067a1469744612ebaf4cb">pins</a>)</td></tr>
+<tr class="memitem:a59cd8e64cabdc52e3a4a9e4d8d4603bc" id="r_a59cd8e64cabdc52e3a4a9e4d8d4603bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a59cd8e64cabdc52e3a4a9e4d8d4603bc">boardInitPins</a> (uint8_t boardID, <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
 <tr class="memdesc:a59cd8e64cabdc52e3a4a9e4d8d4603bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pin specific initialisation (optional - can be empty)  <br /></td></tr>
 <tr class="separator:a59cd8e64cabdc52e3a4a9e4d8d4603bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87fa722b545868277fe412e4786fa96" id="r_af87fa722b545868277fe412e4786fa96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">freeRam</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:af87fa722b545868277fe412e4786fa96" id="r_af87fa722b545868277fe412e4786fa96"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96">freeRam</a> (void)</td></tr>
 <tr class="memdesc:af87fa722b545868277fe412e4786fa96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate free RAM for display in TunerStudio.  <br /></td></tr>
 <tr class="separator:af87fa722b545868277fe412e4786fa96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af08fa12aed30d95abbcf80e9c7ccb93c" id="r_af08fa12aed30d95abbcf80e9c7ccb93c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c">doSystemReset</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:af08fa12aed30d95abbcf80e9c7ccb93c" id="r_af08fa12aed30d95abbcf80e9c7ccb93c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#af08fa12aed30d95abbcf80e9c7ccb93c">doSystemReset</a> (void)</td></tr>
 <tr class="memdesc:af08fa12aed30d95abbcf80e9c7ccb93c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the board (optional)  <br /></td></tr>
 <tr class="separator:af08fa12aed30d95abbcf80e9c7ccb93c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6c1fef771128f7f248f5bebc7f25375" id="r_ac6c1fef771128f7f248f5bebc7f25375"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac6c1fef771128f7f248f5bebc7f25375">jumpToBootloader</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:ac6c1fef771128f7f248f5bebc7f25375" id="r_ac6c1fef771128f7f248f5bebc7f25375"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac6c1fef771128f7f248f5bebc7f25375">jumpToBootloader</a> (void)</td></tr>
 <tr class="memdesc:ac6c1fef771128f7f248f5bebc7f25375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger the boot loader (optional)  <br /></td></tr>
 <tr class="separator:ac6c1fef771128f7f248f5bebc7f25375"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16d9661976d1370ded46920bf7cf53e7" id="r_a16d9661976d1370ded46920bf7cf53e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a16d9661976d1370ded46920bf7cf53e7" id="r_a16d9661976d1370ded46920bf7cf53e7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a16d9661976d1370ded46920bf7cf53e7">getSystemTemp</a> (void)</td></tr>
 <tr class="memdesc:a16d9661976d1370ded46920bf7cf53e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the board temp for display in TunerStudio (optional)  <br /></td></tr>
 <tr class="separator:a16d9661976d1370ded46920bf7cf53e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d78f332a09182d366380731cdd2bcc6" id="r_a5d78f332a09182d366380731cdd2bcc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstorage__api__t.html">storage_api_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a5d78f332a09182d366380731cdd2bcc6">getBoardStorageApi</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a5d78f332a09182d366380731cdd2bcc6" id="r_a5d78f332a09182d366380731cdd2bcc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstorage__api__t.html">storage_api_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a5d78f332a09182d366380731cdd2bcc6">getBoardStorageApi</a> (void)</td></tr>
 <tr class="memdesc:a5d78f332a09182d366380731cdd2bcc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the storage API for the board.  <br /></td></tr>
 <tr class="separator:a5d78f332a09182d366380731cdd2bcc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9501c9a837329516616378006c9e7788" id="r_a9501c9a837329516616378006c9e7788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a9501c9a837329516616378006c9e7788">getPwmTimerResolution</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a9501c9a837329516616378006c9e7788" id="r_a9501c9a837329516616378006c9e7788"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a9501c9a837329516616378006c9e7788">getPwmTimerResolution</a> (void)</td></tr>
 <tr class="memdesc:a9501c9a837329516616378006c9e7788"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PWM timer resolution in uS.  <br /></td></tr>
 <tr class="separator:a9501c9a837329516616378006c9e7788"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a48dffc9bd3ea2556d7b7df2a2e48651d" id="r_a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d">MAX_TIMER_PERIOD</a> = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((<a class="el" href="structnumeric__limits.html">numeric_limits</a>&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;::max)())</td></tr>
+<tr class="memitem:a48dffc9bd3ea2556d7b7df2a2e48651d" id="r_a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="memItemLeft" align="right" valign="top">constexpr uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d">MAX_TIMER_PERIOD</a> = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((std::numeric_limits&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;<a class="el" href="minmax_8h.html#a37d9dfe92cbf9777552dd75ec2b7f17b">::max</a>)())</td></tr>
 <tr class="memdesc:a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The longest period of time (in uS) that the timer can permit.  <br /></td></tr>
 <tr class="separator:a48dffc9bd3ea2556d7b7df2a2e48651d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2746b46b109c3f51096be3a11cbc6fd" id="r_ac2746b46b109c3f51096be3a11cbc6fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd">NOT_A_PIN</a> = <a class="el" href="structarray.html">UINT8_MAX</a></td></tr>
+<tr class="memitem:ac2746b46b109c3f51096be3a11cbc6fd" id="r_ac2746b46b109c3f51096be3a11cbc6fd"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd">NOT_A_PIN</a> = UINT8_MAX</td></tr>
 <tr class="separator:ac2746b46b109c3f51096be3a11cbc6fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Inclusion of board specific header files and board related definitions. </p>
-<dl class="section note"><dt>Note</dt><dd>This file should be named "board.h", but one of the STM32 Arduino implementations has a &lt;<a class="el" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8">board.h</a>&gt; include. Which picks up <em>this file</em> instead of the intended file :-( </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This file should be named "board.h", but one of the STM32 Arduino implementations has a &lt;board.h&gt; include. Which picks up <em>this file</em> instead of the intended file :-( </dd></dl>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a6a188777b3fa3f7f6e93124fee711846" name="a6a188777b3fa3f7f6e93124fee711846"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a188777b3fa3f7f6e93124fee711846">&#9670;&#160;</a></span>SET_COMPARE</h2>
@@ -531,21 +531,21 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> SET_COMPARE</td>
+          <td class="memname">#define SET_COMPARE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">compare</a>, </td>
+          <td class="paramname">compare, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">value</a>&#160;</td>
+          <td class="paramname">value&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="structarray.html">compare</a>) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(<a class="el" href="structarray.html">value</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(compare) = (<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>)(value)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -560,9 +560,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> boardInitPins </td>
+          <td class="memname">void boardInitPins </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>boardID</em>, </td>
         </tr>
         <tr>
@@ -603,9 +603,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> doSystemReset </td>
+          <td class="memname">void doSystemReset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -645,9 +645,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">uint16_t</a> freeRam </td>
+          <td class="memname">uint16_t freeRam </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -710,7 +710,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="structstorage__api__t.html">storage_api_t</a> getBoardStorageApi </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -740,9 +740,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">uint8_t</a> getPwmTimerResolution </td>
+          <td class="memname">uint8_t getPwmTimerResolution </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -792,9 +792,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">uint8_t</a> getSystemTemp </td>
+          <td class="memname">uint8_t getSystemTemp </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -822,9 +822,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> initBoard </td>
+          <td class="memname">void initBoard </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint32_t</a>&#160;</td>
+          <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>baudRate</em></td><td>)</td>
           <td></td>
         </tr>
@@ -861,9 +861,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> jumpToBootloader </td>
+          <td class="memname">void jumpToBootloader </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -907,7 +907,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint32_t</a> MAX_TIMER_PERIOD = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((<a class="el" href="structnumeric__limits.html">numeric_limits</a>&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;::max)())</td>
+          <td class="memname">constexpr uint32_t MAX_TIMER_PERIOD = <a class="el" href="board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e">ticksToMicros</a>((std::numeric_limits&lt;<a class="el" href="board__avr2560_8h.html#a39e262bc4c1d7700c35b1bc5451af641">COMPARE_TYPE</a>&gt;<a class="el" href="minmax_8h.html#a37d9dfe92cbf9777552dd75ec2b7f17b">::max</a>)())</td>
         </tr>
       </table>
   </td>
@@ -931,7 +931,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">constexpr</a> <a class="el" href="structarray.html">uint8_t</a> NOT_A_PIN = <a class="el" href="structarray.html">UINT8_MAX</a></td>
+          <td class="memname">constexpr uint8_t NOT_A_PIN = UINT8_MAX</td>
         </tr>
       </table>
   </td>

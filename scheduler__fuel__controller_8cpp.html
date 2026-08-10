@@ -89,96 +89,96 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a131a5bd7707f4b2e95daae2bff9ee350" id="r_a131a5bd7707f4b2e95daae2bff9ee350"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a131a5bd7707f4b2e95daae2bff9ee350">SET_CALLBACKS</a>(index)&#160;&#160;&#160;<a class="el" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9">setCallbacks</a>(<a class="el" href="structarray.html">fuelSchedule</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0">openInjector</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc">closeInjector</a> ## index);\</td></tr>
+<tr class="memitem:a131a5bd7707f4b2e95daae2bff9ee350" id="r_a131a5bd7707f4b2e95daae2bff9ee350"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a131a5bd7707f4b2e95daae2bff9ee350">SET_CALLBACKS</a>(index)&#160;&#160;&#160;<a class="el" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9">setCallbacks</a>(fuelSchedule ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0">openInjector</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc">closeInjector</a> ## index);\</td></tr>
 <tr class="separator:a131a5bd7707f4b2e95daae2bff9ee350"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a095fd6ca4db6fcfae0278b7e6ad60513" id="r_a095fd6ca4db6fcfae0278b7e6ad60513"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a095fd6ca4db6fcfae0278b7e6ad60513">SET_FUEL_CHANNEL</a>(<a class="el" href="structarray.html">channel</a>)&#160;&#160;&#160;  <a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a>(<a class="el" href="structarray.html">fuelSchedule</a> ##<a class="el" href="structarray.html">channel</a>, <a class="el" href="structarray.html">UINT8_C</a>(<a class="el" href="structarray.html">channel</a>), <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="structarray.html">injChannelMask</a>, injAngle, &amp;<a class="el" href="structarray.html">angleCalcCache</a>);</td></tr>
+<tr class="memitem:a095fd6ca4db6fcfae0278b7e6ad60513" id="r_a095fd6ca4db6fcfae0278b7e6ad60513"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a095fd6ca4db6fcfae0278b7e6ad60513">SET_FUEL_CHANNEL</a>(channel)&#160;&#160;&#160;  <a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a>(fuelSchedule ##channel, UINT8_C(channel), <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, injChannelMask, injAngle, &amp;angleCalcCache);</td></tr>
 <tr class="separator:a095fd6ca4db6fcfae0278b7e6ad60513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7caf2fb5d8057bb67bffdc5840be7e5" id="r_ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac7caf2fb5d8057bb67bffdc5840be7e5">ASSIGN_PRIMARY_PW</a>(index)&#160;&#160;&#160;<a class="el" href="structarray.html">fuelSchedule</a> ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1<a class="el" href="structarray.html">U</a>], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td></tr>
+<tr class="memitem:ac7caf2fb5d8057bb67bffdc5840be7e5" id="r_ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac7caf2fb5d8057bb67bffdc5840be7e5">ASSIGN_PRIMARY_PW</a>(index)&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td></tr>
 <tr class="separator:ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a175cba383e845fd635408d070c2f5050" id="r_a175cba383e845fd635408d070c2f5050"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a175cba383e845fd635408d070c2f5050">ASSIGN_SECONDARY_PW</a>(index)</td></tr>
+<tr class="memitem:a175cba383e845fd635408d070c2f5050" id="r_a175cba383e845fd635408d070c2f5050"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a175cba383e845fd635408d070c2f5050">ASSIGN_SECONDARY_PW</a>(index)</td></tr>
 <tr class="separator:a175cba383e845fd635408d070c2f5050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aabc24c027ef48aa96f01b305b86d77" id="r_a8aabc24c027ef48aa96f01b305b86d77"><td class="memItemLeft" align="right" valign="top">#<a class="el" href="structarray.html">define</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a8aabc24c027ef48aa96f01b305b86d77">ASSIGN_ZERO_PW</a>(index)&#160;&#160;&#160;<a class="el" href="structarray.html">fuelSchedule</a> ## index .pw = 0U;</td></tr>
+<tr class="memitem:a8aabc24c027ef48aa96f01b305b86d77" id="r_a8aabc24c027ef48aa96f01b305b86d77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a8aabc24c027ef48aa96f01b305b86d77">ASSIGN_ZERO_PW</a>(index)&#160;&#160;&#160;fuelSchedule ## index .pw = 0U;</td></tr>
 <tr class="separator:a8aabc24c027ef48aa96f01b305b86d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e2cfd76cf2adca385157903168e5ad1" id="r_a3e2cfd76cf2adca385157903168e5ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a3e2cfd76cf2adca385157903168e5ad1">setupSequentialCallbacks</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a3e2cfd76cf2adca385157903168e5ad1" id="r_a3e2cfd76cf2adca385157903168e5ad1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a3e2cfd76cf2adca385157903168e5ad1">setupSequentialCallbacks</a> (void)</td></tr>
 <tr class="separator:a3e2cfd76cf2adca385157903168e5ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf29258b5f09b88c248e16c04e1c8251" id="r_aaf29258b5f09b88c248e16c04e1c8251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aaf29258b5f09b88c248e16c04e1c8251">setupPairedCallbacks</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:aaf29258b5f09b88c248e16c04e1c8251" id="r_aaf29258b5f09b88c248e16c04e1c8251"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aaf29258b5f09b88c248e16c04e1c8251">setupPairedCallbacks</a> (void)</td></tr>
 <tr class="separator:aaf29258b5f09b88c248e16c04e1c8251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b89edb754b5f3907bf11e70598345a" id="r_a85b89edb754b5f3907bf11e70598345a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a85b89edb754b5f3907bf11e70598345a">setupSemiSequentialCallbacks</a> (<a class="el" href="structarray.html">uint8_t</a> nCylinders, <a class="el" href="structarray.html">uint8_t</a> inj4cylPairing)</td></tr>
+<tr class="memitem:a85b89edb754b5f3907bf11e70598345a" id="r_a85b89edb754b5f3907bf11e70598345a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a85b89edb754b5f3907bf11e70598345a">setupSemiSequentialCallbacks</a> (uint8_t nCylinders, uint8_t inj4cylPairing)</td></tr>
 <tr class="separator:a85b89edb754b5f3907bf11e70598345a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93a8f902348203810bb7ec6fc8331c86" id="r_a93a8f902348203810bb7ec6fc8331c86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a93a8f902348203810bb7ec6fc8331c86">setupCallbacks</a> (<a class="el" href="structarray.html">uint8_t</a> injLayout, <a class="el" href="structarray.html">uint8_t</a> nCylinders, <a class="el" href="structarray.html">uint8_t</a> inj4cylPairing)</td></tr>
+<tr class="memitem:a93a8f902348203810bb7ec6fc8331c86" id="r_a93a8f902348203810bb7ec6fc8331c86"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a93a8f902348203810bb7ec6fc8331c86">setupCallbacks</a> (uint8_t injLayout, uint8_t nCylinders, uint8_t inj4cylPairing)</td></tr>
 <tr class="separator:a93a8f902348203810bb7ec6fc8331c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910b3981322d4e0d6a102a46683e956a" id="r_a910b3981322d4e0d6a102a46683e956a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a910b3981322d4e0d6a102a46683e956a">isSwitchableCylinderCount</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="memitem:a910b3981322d4e0d6a102a46683e956a" id="r_a910b3981322d4e0d6a102a46683e956a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a910b3981322d4e0d6a102a46683e956a">isSwitchableCylinderCount</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
 <tr class="separator:a910b3981322d4e0d6a102a46683e956a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f03daeedda5adda231b1a0fb67b5781" id="r_a2f03daeedda5adda231b1a0fb67b5781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2f03daeedda5adda231b1a0fb67b5781">changeToSemiSequentialInjection</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
+<tr class="memitem:a2f03daeedda5adda231b1a0fb67b5781" id="r_a2f03daeedda5adda231b1a0fb67b5781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2f03daeedda5adda231b1a0fb67b5781">changeToSemiSequentialInjection</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
 <tr class="separator:a2f03daeedda5adda231b1a0fb67b5781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ab3ad7c34e2bdb4214dc8288de29c3" id="r_af5ab3ad7c34e2bdb4214dc8288de29c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af5ab3ad7c34e2bdb4214dc8288de29c3">changeToFullSequentialInjection</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
+<tr class="memitem:af5ab3ad7c34e2bdb4214dc8288de29c3" id="r_af5ab3ad7c34e2bdb4214dc8288de29c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af5ab3ad7c34e2bdb4214dc8288de29c3">changeToFullSequentialInjection</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
 <tr class="separator:af5ab3ad7c34e2bdb4214dc8288de29c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e1616adc92bb75d33cdf92090b82d6" id="r_a16e1616adc92bb75d33cdf92090b82d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a16e1616adc92bb75d33cdf92090b82d6">isAnyFuelScheduleRunning</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a16e1616adc92bb75d33cdf92090b82d6" id="r_a16e1616adc92bb75d33cdf92090b82d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a16e1616adc92bb75d33cdf92090b82d6">isAnyFuelScheduleRunning</a> (void)</td></tr>
 <tr class="separator:a16e1616adc92bb75d33cdf92090b82d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92bc858240d66f233807a6dd9b94d94c" id="r_a92bc858240d66f233807a6dd9b94d94c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a92bc858240d66f233807a6dd9b94d94c">changeFuellingToFullSequential</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a92bc858240d66f233807a6dd9b94d94c" id="r_a92bc858240d66f233807a6dd9b94d94c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a92bc858240d66f233807a6dd9b94d94c">changeFuellingToFullSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a92bc858240d66f233807a6dd9b94d94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21955f9db8e3589174a113b6dc42ccb8" id="r_a21955f9db8e3589174a113b6dc42ccb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a21955f9db8e3589174a113b6dc42ccb8">changeFuellingToSemiSequential</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a21955f9db8e3589174a113b6dc42ccb8" id="r_a21955f9db8e3589174a113b6dc42ccb8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a21955f9db8e3589174a113b6dc42ccb8">changeFuellingToSemiSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a21955f9db8e3589174a113b6dc42ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ebd57095099ae2ff28f2fad0898c54e" id="r_a9ebd57095099ae2ff28f2fad0898c54e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e">matchFuelSchedulersToSyncState</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a9ebd57095099ae2ff28f2fad0898c54e" id="r_a9ebd57095099ae2ff28f2fad0898c54e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e">matchFuelSchedulersToSyncState</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a9ebd57095099ae2ff28f2fad0898c54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f3e3dea1dbd39b4ac89402ab696e0e" id="r_af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af3f3e3dea1dbd39b4ac89402ab696e0e">lookupInjectorAngle</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:af3f3e3dea1dbd39b4ac89402ab696e0e" id="r_af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af3f3e3dea1dbd39b4ac89402ab696e0e">lookupInjectorAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eff440d3aa4db7091accce3d48f6587" id="r_a2eff440d3aa4db7091accce3d48f6587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2eff440d3aa4db7091accce3d48f6587">updatePwAngleCache</a> (<a class="el" href="structarray.html">uint16_t</a> pw, <a class="el" href="structinjector_angle_calc_cache.html">injectorAngleCalcCache</a> *<a class="el" href="structarray.html">pCache</a>)</td></tr>
+<tr class="memitem:a2eff440d3aa4db7091accce3d48f6587" id="r_a2eff440d3aa4db7091accce3d48f6587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2eff440d3aa4db7091accce3d48f6587">updatePwAngleCache</a> (uint16_t pw, <a class="el" href="structinjector_angle_calc_cache.html">injectorAngleCalcCache</a> *pCache)</td></tr>
 <tr class="separator:a2eff440d3aa4db7091accce3d48f6587"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38b060127c1c1a519baa65edf31423af" id="r_a38b060127c1c1a519baa65edf31423af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a38b060127c1c1a519baa65edf31423af">_calculateOpenAngle</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">uint16_t</a> pwDegrees, <a class="el" href="structarray.html">uint16_t</a> injAngle)</td></tr>
+<tr class="memitem:a38b060127c1c1a519baa65edf31423af" id="r_a38b060127c1c1a519baa65edf31423af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a38b060127c1c1a519baa65edf31423af">_calculateOpenAngle</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, uint16_t pwDegrees, uint16_t injAngle)</td></tr>
 <tr class="memdesc:a38b060127c1c1a519baa65edf31423af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the injector open angle for an injection channel.  <br /></td></tr>
 <tr class="separator:a38b060127c1c1a519baa65edf31423af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af98ab7765a79f1cc88822d5cfd1e483d" id="r_af98ab7765a79f1cc88822d5cfd1e483d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af98ab7765a79f1cc88822d5cfd1e483d">calculateInjectorTimeout</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">int16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="structarray.html">uint16_t</a> <a class="el" href="structarray.html">openAngle</a>)</td></tr>
+<tr class="memitem:af98ab7765a79f1cc88822d5cfd1e483d" id="r_af98ab7765a79f1cc88822d5cfd1e483d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af98ab7765a79f1cc88822d5cfd1e483d">calculateInjectorTimeout</a> (const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, uint16_t openAngle)</td></tr>
 <tr class="memdesc:af98ab7765a79f1cc88822d5cfd1e483d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the time in uS from now to when the injector should be opened.  <br /></td></tr>
 <tr class="separator:af98ab7765a79f1cc88822d5cfd1e483d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bf054cfb7f682c76a961b18ea97baa1" id="r_a9bf054cfb7f682c76a961b18ea97baa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;<a class="el" href="structarray.html">schedule</a>, <a class="el" href="structarray.html">uint8_t</a> <a class="el" href="structarray.html">channel</a>, <a class="el" href="structarray.html">uint16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> <a class="el" href="structarray.html">injChannelMask</a>, <a class="el" href="structarray.html">uint16_t</a> injAngle, <a class="el" href="structinjector_angle_calc_cache.html">injectorAngleCalcCache</a> *<a class="el" href="structarray.html">pCache</a>) <a class="el" href="structarray.html">noexcept</a></td></tr>
+<tr class="memitem:a9bf054cfb7f682c76a961b18ea97baa1" id="r_a9bf054cfb7f682c76a961b18ea97baa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a> (<a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;schedule, uint8_t channel, uint16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> injChannelMask, uint16_t injAngle, <a class="el" href="structinjector_angle_calc_cache.html">injectorAngleCalcCache</a> *pCache) noexcept</td></tr>
 <tr class="separator:a9bf054cfb7f682c76a961b18ea97baa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaea2b8cda843fceb7487093f5881b986" id="r_aaea2b8cda843fceb7487093f5881b986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a> (<a class="el" href="structarray.html">uint16_t</a> <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> <a class="el" href="structarray.html">injChannelMask</a>, <a class="el" href="structarray.html">uint16_t</a> injAngle)</td></tr>
+<tr class="memitem:aaea2b8cda843fceb7487093f5881b986" id="r_aaea2b8cda843fceb7487093f5881b986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a> (uint16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> injChannelMask, uint16_t injAngle)</td></tr>
 <tr class="separator:aaea2b8cda843fceb7487093f5881b986"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dbdd1150ed02e49b6bd84b476e51e7c" id="r_a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4dbdd1150ed02e49b6bd84b476e51e7c">injectorLimits</a> (<a class="el" href="structarray.html">uint16_t</a> <a class="el" href="structarray.html">angle</a>)</td></tr>
+<tr class="memitem:a4dbdd1150ed02e49b6bd84b476e51e7c" id="r_a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4dbdd1150ed02e49b6bd84b476e51e7c">injectorLimits</a> (uint16_t angle)</td></tr>
 <tr class="memdesc:a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamp the angle to within [0,CRANK_ANGLE_MAX_INJ].  <br /></td></tr>
 <tr class="separator:a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f1e8f3fd636be6c0aa749ced2c4c2c2" id="r_a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4f1e8f3fd636be6c0aa749ced2c4c2c2">BEGIN_LTO_ALWAYS_INLINE</a> (<a class="el" href="structarray.html">uint16_t</a>) <a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a>(<a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a4f1e8f3fd636be6c0aa749ced2c4c2c2" id="r_a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4f1e8f3fd636be6c0aa749ced2c4c2c2">BEGIN_LTO_ALWAYS_INLINE</a> (uint16_t) <a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a>(const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fbf0fe419340ddb82e8a7100b035ebf" id="r_a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structarray.html">table3d6RpmLoad</a> &amp;<a class="el" href="structarray.html">trimTable</a>, <a class="el" href="structarray.html">uint16_t</a> pw, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a9fbf0fe419340ddb82e8a7100b035ebf" id="r_a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a> (const table3d6RpmLoad &amp;trimTable, uint16_t pw, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d1ca04b64a6c603dbb6d601dd60b5e" id="r_ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ad8d1ca04b64a6c603dbb6d601dd60b5e">assignPrimaryPws</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;<a class="el" href="structarray.html">pulse_widths</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:ad8d1ca04b64a6c603dbb6d601dd60b5e" id="r_ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ad8d1ca04b64a6c603dbb6d601dd60b5e">assignPrimaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3029c7fc14e0bef107f00358e9982d" id="r_a1a3029c7fc14e0bef107f00358e9982d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a1a3029c7fc14e0bef107f00358e9982d">assignSecondaryPws</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;<a class="el" href="structarray.html">pulse_widths</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a1a3029c7fc14e0bef107f00358e9982d" id="r_a1a3029c7fc14e0bef107f00358e9982d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a1a3029c7fc14e0bef107f00358e9982d">assignSecondaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a1a3029c7fc14e0bef107f00358e9982d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9c3cd8f84aa8749f9929b6525d8613e" id="r_ab9c3cd8f84aa8749f9929b6525d8613e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab9c3cd8f84aa8749f9929b6525d8613e">zeroAllChannels</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:ab9c3cd8f84aa8749f9929b6525d8613e" id="r_ab9c3cd8f84aa8749f9929b6525d8613e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab9c3cd8f84aa8749f9929b6525d8613e">zeroAllChannels</a> (void)</td></tr>
 <tr class="separator:ab9c3cd8f84aa8749f9929b6525d8613e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72ae245c9c78347bb768cc42e303592f" id="r_a72ae245c9c78347bb768cc42e303592f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a72ae245c9c78347bb768cc42e303592f">BEGIN_LTO_ALWAYS_INLINE</a> (<a class="el" href="structarray.html">void</a>) <a class="el" href="scheduler__fuel__controller_8h.html#a83d560c2efdcdba44f8a8f340868c8c4">applyPwToInjectorChannels</a>(<a class="el" href="structarray.html">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;<a class="el" href="structarray.html">pulse_widths</a></td></tr>
+<tr class="memitem:a72ae245c9c78347bb768cc42e303592f" id="r_a72ae245c9c78347bb768cc42e303592f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a72ae245c9c78347bb768cc42e303592f">BEGIN_LTO_ALWAYS_INLINE</a> (void) <a class="el" href="scheduler__fuel__controller_8h.html#a83d560c2efdcdba44f8a8f340868c8c4">applyPwToInjectorChannels</a>(const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths</td></tr>
 <tr class="separator:a72ae245c9c78347bb768cc42e303592f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d76cdfa2061fca1f5dcb13c56114676" id="r_a9d76cdfa2061fca1f5dcb13c56114676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9d76cdfa2061fca1f5dcb13c56114676">assignPrimaryPws</a> (<a class="el" href="structarray.html">pulse_widths</a>, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a9d76cdfa2061fca1f5dcb13c56114676" id="r_a9d76cdfa2061fca1f5dcb13c56114676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9d76cdfa2061fca1f5dcb13c56114676">assignPrimaryPws</a> (pulse_widths, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:a9d76cdfa2061fca1f5dcb13c56114676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3cdbb34929099706487572755032ae6" id="r_ac3cdbb34929099706487572755032ae6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac3cdbb34929099706487572755032ae6">assignSecondaryPws</a> (<a class="el" href="structarray.html">pulse_widths</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:ac3cdbb34929099706487572755032ae6" id="r_ac3cdbb34929099706487572755032ae6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac3cdbb34929099706487572755032ae6">assignSecondaryPws</a> (pulse_widths, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
 <tr class="separator:ac3cdbb34929099706487572755032ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74e0696f1def940f46061834c41262bd" id="r_a74e0696f1def940f46061834c41262bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a74e0696f1def940f46061834c41262bd">resetFuelSchedules</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a74e0696f1def940f46061834c41262bd" id="r_a74e0696f1def940f46061834c41262bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a74e0696f1def940f46061834c41262bd">resetFuelSchedules</a> (void)</td></tr>
 <tr class="separator:a74e0696f1def940f46061834c41262bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a709098dca85053fd26418472663aae69" id="r_a709098dca85053fd26418472663aae69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a709098dca85053fd26418472663aae69">startFuelSchedulers</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a709098dca85053fd26418472663aae69" id="r_a709098dca85053fd26418472663aae69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a709098dca85053fd26418472663aae69">startFuelSchedulers</a> (void)</td></tr>
 <tr class="memdesc:a709098dca85053fd26418472663aae69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the timers that drive schedulers.  <br /></td></tr>
 <tr class="separator:a709098dca85053fd26418472663aae69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa94fdf850c7dc29d62f3140ae4aeae7b" id="r_aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b">stopFuelSchedulers</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:aa94fdf850c7dc29d62f3140ae4aeae7b" id="r_aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b">stopFuelSchedulers</a> (void)</td></tr>
 <tr class="memdesc:aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the timers that drive schedulers.  <br /></td></tr>
 <tr class="separator:aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac27bf26ef7570429ac9dc112599c8946" id="r_ac27bf26ef7570429ac9dc112599c8946"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac27bf26ef7570429ac9dc112599c8946">beginInjectorPriming</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="memitem:ac27bf26ef7570429ac9dc112599c8946" id="r_ac27bf26ef7570429ac9dc112599c8946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac27bf26ef7570429ac9dc112599c8946">beginInjectorPriming</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
 <tr class="memdesc:ac27bf26ef7570429ac9dc112599c8946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start priming the fuel system.  <br /></td></tr>
 <tr class="separator:ac27bf26ef7570429ac9dc112599c8946"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb53f4dcd97c9d8d46dfa87061f3fc65" id="r_aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">closeAllInjectors</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:aeb53f4dcd97c9d8d46dfa87061f3fc65" id="r_aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">closeAllInjectors</a> (void)</td></tr>
 <tr class="memdesc:aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to close all injectors.  <br /></td></tr>
 <tr class="separator:aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7539063e9bab4c8f3edf5b65936677d4" id="r_a7539063e9bab4c8f3edf5b65936677d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4">clampInjectionChannelAngles</a> (<a class="el" href="structarray.html">void</a>)</td></tr>
+<tr class="memitem:a7539063e9bab4c8f3edf5b65936677d4" id="r_a7539063e9bab4c8f3edf5b65936677d4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4">clampInjectionChannelAngles</a> (void)</td></tr>
 <tr class="memdesc:a7539063e9bab4c8f3edf5b65936677d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit all injection schedule channel angles to 0-CRANK_ANGLE_MAX_INJ.  <br /></td></tr>
 <tr class="separator:a7539063e9bab4c8f3edf5b65936677d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f4011d2aa653c691e2e74cc92910f3" id="r_aa2f4011d2aa653c691e2e74cc92910f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa2f4011d2aa653c691e2e74cc92910f3">initFuelScheduleAngles</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="memitem:aa2f4011d2aa653c691e2e74cc92910f3" id="r_aa2f4011d2aa653c691e2e74cc92910f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa2f4011d2aa653c691e2e74cc92910f3">initFuelScheduleAngles</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:aa2f4011d2aa653c691e2e74cc92910f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ecd99c3c24e90901c2c1fd1a56aa6de" id="r_a5ecd99c3c24e90901c2c1fd1a56aa6de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de">calulateDefaultSquirts</a> (<a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="memitem:a5ecd99c3c24e90901c2c1fd1a56aa6de" id="r_a5ecd99c3c24e90901c2c1fd1a56aa6de"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de">calulateDefaultSquirts</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
 <tr class="separator:a5ecd99c3c24e90901c2c1fd1a56aa6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd91a770246475d326bc7383b3045bf" id="r_a6fd91a770246475d326bc7383b3045bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a6fd91a770246475d326bc7383b3045bf">initialiseFuelSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="structarray.html">const</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#a8dee625c424067a1469744612ebaf4cb">pins</a>)</td></tr>
+<tr class="memitem:a6fd91a770246475d326bc7383b3045bf" id="r_a6fd91a770246475d326bc7383b3045bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a6fd91a770246475d326bc7383b3045bf">initialiseFuelSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
 <tr class="memdesc:a6fd91a770246475d326bc7383b3045bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise this module.  <br /></td></tr>
 <tr class="separator:a6fd91a770246475d326bc7383b3045bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -186,15 +186,15 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a95ce3387fef38bbccf626eacb08079aa" id="r_a95ce3387fef38bbccf626eacb08079aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a95ce3387fef38bbccf626eacb08079aa">fuelSchedule1</a> (<a class="el" href="board__avr2560_8h.html#a171fdad01dd2dd62e3bf51b0017c1af7">FUEL1_COUNTER</a>, <a class="el" href="board__avr2560_8h.html#a6f066efb8378eec8c2bef59309d4d1f6">FUEL1_COMPARE</a>)</td></tr>
 <tr class="separator:a95ce3387fef38bbccf626eacb08079aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d74e096b7064e3998aeb149242390c" id="r_aa1d74e096b7064e3998aeb149242390c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="table2d_8h.html#a365847870b1bc69b1000188c03262fe0">table2D_u8_u16_4</a> <a class="el" href="structarray.html">injectorAngleTable</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa1d74e096b7064e3998aeb149242390c">configPage2</a></td></tr>
+<tr class="memitem:aa1d74e096b7064e3998aeb149242390c" id="r_aa1d74e096b7064e3998aeb149242390c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="table2d_8h.html#a365847870b1bc69b1000188c03262fe0">table2D_u8_u16_4</a> injectorAngleTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa1d74e096b7064e3998aeb149242390c">configPage2</a></td></tr>
 <tr class="separator:aa1d74e096b7064e3998aeb149242390c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a428f336e2618f8293663468b80230dcc" id="r_a428f336e2618f8293663468b80230dcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a></td></tr>
+<tr class="memitem:a428f336e2618f8293663468b80230dcc" id="r_a428f336e2618f8293663468b80230dcc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a></td></tr>
 <tr class="separator:a428f336e2618f8293663468b80230dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb758a9ad5b09bd45b0d153e6ccdc974" id="r_afb758a9ad5b09bd45b0d153e6ccdc974"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a></td></tr>
+<tr class="memitem:afb758a9ad5b09bd45b0d153e6ccdc974" id="r_afb758a9ad5b09bd45b0d153e6ccdc974"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a></td></tr>
 <tr class="separator:afb758a9ad5b09bd45b0d153e6ccdc974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae030f77cca7c1e0a2122d69ae17d73d8" id="r_ae030f77cca7c1e0a2122d69ae17d73d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae030f77cca7c1e0a2122d69ae17d73d8">page6</a></td></tr>
+<tr class="memitem:ae030f77cca7c1e0a2122d69ae17d73d8" id="r_ae030f77cca7c1e0a2122d69ae17d73d8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae030f77cca7c1e0a2122d69ae17d73d8">page6</a></td></tr>
 <tr class="separator:ae030f77cca7c1e0a2122d69ae17d73d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cca910a352bee202301e770f045449" id="r_ab3cca910a352bee202301e770f045449"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a></td></tr>
+<tr class="memitem:ab3cca910a352bee202301e770f045449" id="r_ab3cca910a352bee202301e770f045449"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a></td></tr>
 <tr class="separator:ab3cca910a352bee202301e770f045449"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -205,11 +205,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> ASSIGN_PRIMARY_PW</td>
+          <td class="memname">#define ASSIGN_PRIMARY_PW</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">index</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="structarray.html">fuelSchedule</a> ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1<a class="el" href="structarray.html">U</a>], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td>
+          <td>&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -223,7 +223,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> ASSIGN_SECONDARY_PW</td>
+          <td class="memname">#define ASSIGN_SECONDARY_PW</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">index</td><td>)</td>
@@ -233,11 +233,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> ((index&gt;<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>.numPrimaryInjOutputs) &amp;&amp; (index&lt;=<a class="code hl_function" href="statuses_8h.html#a83203b5f6225fb12de021437547a82d9">getTotalInjChannelCount</a>(<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>))) \</div>
 <div class="line">    { \</div>
-<div class="line">      <a class="code hl_struct" href="structarray.html">fuelSchedule</a> ## index .pw = <a class="code hl_struct" href="structarray.html">pulse_widths</a>.secondary; \</div>
+<div class="line">      fuelSchedule ## index .pw = pulse_widths.secondary; \</div>
 <div class="line">    }</div>
 <div class="ttc" id="ascheduler__fuel__controller_8cpp_html_ab3cca910a352bee202301e770f045449"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a></div><div class="ttdeci">const config2 const config4 const config6 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:506</div></div>
 <div class="ttc" id="astatuses_8h_html_a83203b5f6225fb12de021437547a82d9"><div class="ttname"><a href="statuses_8h.html#a83203b5f6225fb12de021437547a82d9">getTotalInjChannelCount</a></div><div class="ttdeci">static uint8_t getTotalInjChannelCount(const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> statuses.h:336</div></div>
-<div class="ttc" id="astructarray_html"><div class="ttname"><a href="structarray.html">array</a></div><div class="ttdef"><b>Definition</b> array.h:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -248,11 +247,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> ASSIGN_ZERO_PW</td>
+          <td class="memname">#define ASSIGN_ZERO_PW</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">index</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="structarray.html">fuelSchedule</a> ## index .pw = 0U;</td>
+          <td>&#160;&#160;&#160;fuelSchedule ## index .pw = 0U;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -266,11 +265,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> SET_CALLBACKS</td>
+          <td class="memname">#define SET_CALLBACKS</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">index</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9">setCallbacks</a>(<a class="el" href="structarray.html">fuelSchedule</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0">openInjector</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc">closeInjector</a> ## index);\</td>
+          <td>&#160;&#160;&#160;<a class="el" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9">setCallbacks</a>(fuelSchedule ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0">openInjector</a> ## index, <a class="el" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc">closeInjector</a> ## index);\</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -284,11 +283,11 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#<a class="el" href="structarray.html">define</a> SET_FUEL_CHANNEL</td>
+          <td class="memname">#define SET_FUEL_CHANNEL</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="structarray.html">channel</a></td><td>)</td>
-          <td>&#160;&#160;&#160;  <a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a>(<a class="el" href="structarray.html">fuelSchedule</a> ##<a class="el" href="structarray.html">channel</a>, <a class="el" href="structarray.html">UINT8_C</a>(<a class="el" href="structarray.html">channel</a>), <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="structarray.html">injChannelMask</a>, injAngle, &amp;<a class="el" href="structarray.html">angleCalcCache</a>);</td>
+          <td class="paramname">channel</td><td>)</td>
+          <td>&#160;&#160;&#160;  <a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a>(fuelSchedule ##channel, UINT8_C(channel), <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, injChannelMask, injAngle, &amp;angleCalcCache);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -303,7 +302,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> _calculateOpenAngle </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t _calculateOpenAngle </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
@@ -311,13 +310,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>pwDegrees</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>injAngle</em>&#160;</td>
         </tr>
         <tr>
@@ -361,27 +360,27 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint16_t</a> applyFuelTrim </td>
+          <td class="memname">static uint16_t applyFuelTrim </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structarray.html">table3d6RpmLoad</a> &amp;&#160;</td>
+          <td class="paramtype">const table3d6RpmLoad &amp;&#160;</td>
           <td class="paramname"><em>trimTable</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>pw</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
           <td class="paramname"><em>page6</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>&#160;</td>
         </tr>
         <tr>
@@ -401,33 +400,30 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler__fuel__controller_8cpp_a9fbf0fe419340ddb82e8a7100b035ebf_cgraph.png" border="0" usemap="#ascheduler__fuel__controller_8cpp_a9fbf0fe419340ddb82e8a7100b035ebf_cgraph" alt=""/></div>
 <map name="ascheduler__fuel__controller_8cpp_a9fbf0fe419340ddb82e8a7100b035ebf_cgraph" id="ascheduler__fuel__controller_8cpp_a9fbf0fe419340ddb82e8a7100b035ebf_cgraph">
-<area shape="rect" title=" " alt="" coords="5,117,108,143"/>
-<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="158,92,279,118"/>
-<area shape="poly" title=" " alt="" coords="108,120,142,114,143,119,109,125"/>
-<area shape="rect" href="maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1" title="Integer based percentage calculation: faster, but less accurate, than percentage()" alt="" coords="156,141,281,167"/>
-<area shape="poly" title=" " alt="" coords="109,135,140,140,140,145,108,140"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="351,43,447,68"/>
-<area shape="poly" title=" " alt="" coords="268,89,336,70,337,75,269,94"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="329,141,469,167"/>
-<area shape="poly" title=" " alt="" coords="269,116,335,134,334,139,268,121"/>
-<area shape="rect" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8" title=" " alt="" coords="714,5,797,31"/>
-<area shape="poly" title=" " alt="" coords="447,41,517,28,613,19,698,16,699,21,613,24,518,33,448,46"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="530,43,652,68"/>
-<area shape="poly" title=" " alt="" coords="448,53,514,53,514,58,448,58"/>
-<area shape="poly" title=" " alt="" coords="650,39,698,28,699,34,651,45"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="521,92,661,118"/>
-<area shape="poly" title=" " alt="" coords="452,138,523,119,524,125,453,143"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="517,141,665,167"/>
-<area shape="poly" title=" " alt="" coords="470,152,502,152,502,157,470,157"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="542,191,640,216"/>
-<area shape="poly" title=" " alt="" coords="453,165,528,185,527,190,452,170"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="549,240,633,266"/>
-<area shape="poly" title=" " alt="" coords="420,165,464,195,519,226,535,234,533,238,516,231,461,200,417,170"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="846,105,936,131"/>
-<area shape="poly" title=" " alt="" coords="661,105,831,113,830,118,661,111"/>
-<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="713,131,798,156"/>
-<area shape="poly" title=" " alt="" coords="649,116,698,127,697,133,648,121"/>
-<area shape="poly" title=" " alt="" coords="798,133,830,127,831,132,799,138"/>
+<area shape="rect" title=" " alt="" coords="5,93,108,119"/>
+<area shape="rect" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values." alt="" coords="158,68,279,94"/>
+<area shape="poly" title=" " alt="" coords="108,96,142,90,143,95,109,101"/>
+<area shape="rect" href="maths_8h.html#a8b0af0d236d4f4f89bbd83321a8e22a1" title="Integer based percentage calculation: faster, but less accurate, than percentage()" alt="" coords="156,117,281,143"/>
+<area shape="poly" title=" " alt="" coords="109,111,140,116,140,121,108,116"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a214d95aa18e8f9baa92470a7c70c1b8a" title="Find the bin that covers the test value." alt="" coords="351,31,447,56"/>
+<area shape="poly" title=" " alt="" coords="278,66,335,54,336,59,280,71"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a96b685adf2a1904d3f9eed508f235baf" title="Interpolate a table value from axis bins &amp; values." alt="" coords="329,104,469,130"/>
+<area shape="poly" title=" " alt="" coords="280,90,317,98,316,103,278,95"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#ae4556ff6a4723c83407460d95f79d707" title="Perform a linear search on an array for the bin that contains value." alt="" coords="530,5,652,31"/>
+<area shape="poly" title=" " alt="" coords="447,35,515,26,515,31,448,40"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a3c1742db67b27dea18734b27d714a778" title="2d interpolation, given 4 corner values and x/y percentages" alt="" coords="521,55,661,80"/>
+<area shape="poly" title=" " alt="" coords="452,101,523,82,524,87,453,106"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin." alt="" coords="517,104,665,130"/>
+<area shape="poly" title=" " alt="" coords="470,114,502,114,502,120,470,120"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f" title="Get the bottom left corner of the value coordinates in a 3D table, based on top right corner." alt="" coords="542,153,640,179"/>
+<area shape="poly" title=" " alt="" coords="453,128,528,147,527,152,452,133"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a248291a391aa240c0c1a18f9702f9a38" title="Get the top right corner of the value coordinates in a 3D table, based on x/y axis coords." alt="" coords="549,203,633,228"/>
+<area shape="poly" title=" " alt="" coords="420,128,464,158,519,189,535,196,533,201,516,194,461,163,417,132"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#a75bcfb9f47cad545241584c04482aa05" title="Unsigned fixed point number type with 1 integer bit &amp; 8 fractional bits." alt="" coords="846,55,936,80"/>
+<area shape="poly" title=" " alt="" coords="661,65,830,65,830,70,661,70"/>
+<area shape="rect" href="table3d__interpolate_8cpp.html#afc344f5e266c89e30dbcaaf77398519c" title="Multiply two QU1X8_t values." alt="" coords="713,80,798,106"/>
+<area shape="poly" title=" " alt="" coords="661,76,698,81,697,87,660,81"/>
+<area shape="poly" title=" " alt="" coords="798,82,830,76,831,81,799,88"/>
 </map>
 </div>
 
@@ -443,21 +439,21 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> assignPrimaryPws </td>
+          <td class="memname">static void assignPrimaryPws </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
           <td class="paramname"><em>pulse_widths</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
           <td class="paramname"><em>page6</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>&#160;</td>
         </tr>
         <tr>
@@ -472,16 +468,6 @@ Here is the call graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="scheduler__fuel__controller_8cpp_ad8d1ca04b64a6c603dbb6d601dd60b5e_cgraph.png" border="0" usemap="#ascheduler__fuel__controller_8cpp_ad8d1ca04b64a6c603dbb6d601dd60b5e_cgraph" alt=""/></div>
-<map name="ascheduler__fuel__controller_8cpp_ad8d1ca04b64a6c603dbb6d601dd60b5e_cgraph" id="ascheduler__fuel__controller_8cpp_ad8d1ca04b64a6c603dbb6d601dd60b5e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,135,31"/>
-<area shape="rect" href="structarray.html#a3f13b4a11ad2070e211cba8862fb49e8" title=" " alt="" coords="183,5,266,31"/>
-<area shape="poly" title=" " alt="" coords="135,16,167,16,167,21,135,21"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -494,7 +480,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">assignPrimaryPws </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">pulse_widths</a>&#160;</td>
+          <td class="paramtype">pulse_widths&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -529,15 +515,15 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> assignSecondaryPws </td>
+          <td class="memname">static void assignSecondaryPws </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;&#160;</td>
           <td class="paramname"><em>pulse_widths</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>&#160;</td>
         </tr>
         <tr>
@@ -564,7 +550,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">assignSecondaryPws </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">pulse_widths</a>&#160;</td>
+          <td class="paramtype">pulse_widths&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -592,7 +578,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">BEGIN_LTO_ALWAYS_INLINE </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> const &amp;</td>
         </tr>
@@ -610,8 +596,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="215,65,265,65,265,70,215,70"/>
 <area shape="rect" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986" title=" " alt="" coords="263,104,435,130"/>
 <area shape="poly" title=" " alt="" coords="176,78,269,98,268,103,175,84"/>
-<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="483,55,606,80"/>
-<area shape="poly" title=" " alt="" coords="417,65,467,65,467,70,417,70"/>
+<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="524,31,566,56"/>
+<area shape="poly" title=" " alt="" coords="416,57,508,45,508,51,417,62"/>
+<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="483,80,606,106"/>
+<area shape="poly" title=" " alt="" coords="417,74,468,80,467,86,416,79"/>
 </map>
 </div>
 
@@ -626,7 +614,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">BEGIN_LTO_ALWAYS_INLINE </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> const &amp;</td>
         </tr>
@@ -728,6 +716,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1367,496,1391,485,1449,448,1497,410,1500,414,1452,452,1394,490,1369,501"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1660,376,1809,402"/>
 <area shape="poly" title=" " alt="" coords="1574,386,1644,386,1644,392,1574,392"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1858,376,2038,402"/>
+<area shape="poly" title=" " alt="" coords="1810,386,1842,386,1842,392,1810,392"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="2088,376,2235,402"/>
+<area shape="poly" title=" " alt="" coords="2039,386,2073,386,2073,392,2039,392"/>
 <area shape="poly" title=" " alt="" coords="1371,545,1391,535,1427,506,1459,474,1506,413,1510,416,1463,477,1430,510,1394,539,1373,550"/>
 <area shape="poly" title=" " alt="" coords="1373,594,1391,584,1432,544,1466,498,1493,452,1511,415,1516,417,1498,455,1471,501,1436,548,1394,588,1375,599"/>
 <area shape="poly" title=" " alt="" coords="1374,644,1391,633,1416,609,1438,582,1473,521,1499,463,1515,416,1520,418,1504,465,1478,524,1442,585,1419,613,1394,638,1377,648"/>
@@ -745,6 +737,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1370,866,1394,879,1436,919,1471,967,1498,1013,1516,1051,1511,1054,1493,1015,1467,969,1432,923,1391,883,1368,870"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1661,1067,1808,1092"/>
 <area shape="poly" title=" " alt="" coords="1572,1077,1646,1077,1646,1082,1572,1082"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1857,1067,2039,1092"/>
+<area shape="poly" title=" " alt="" coords="1808,1077,1841,1077,1841,1082,1808,1082"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="2087,1067,2236,1092"/>
+<area shape="poly" title=" " alt="" coords="2039,1077,2072,1077,2072,1082,2039,1082"/>
 <area shape="poly" title=" " alt="" coords="1362,1016,1393,1026,1478,1058,1476,1063,1391,1031,1361,1021"/>
 <area shape="poly" title=" " alt="" coords="1373,917,1394,928,1430,957,1463,990,1510,1052,1506,1055,1459,994,1427,961,1391,932,1371,922"/>
 <area shape="poly" title=" " alt="" coords="1369,967,1394,977,1453,1015,1501,1054,1497,1058,1450,1020,1391,982,1367,971"/>
@@ -773,15 +769,15 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> beginInjectorPriming </td>
+          <td class="memname">void beginInjectorPriming </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>&#160;</td>
         </tr>
         <tr>
@@ -818,6 +814,8 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="531,101,622,79,624,84,532,106"/>
 <area shape="rect" href="board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204" title="Convert µS to timer ticks." alt="" coords="592,104,774,130"/>
 <area shape="poly" title=" " alt="" coords="535,114,577,114,577,120,535,120"/>
+<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="822,55,864,80"/>
+<area shape="poly" title=" " alt="" coords="728,65,806,65,806,70,728,70"/>
 <area shape="poly" title=" " alt="" coords="545,65,623,65,623,70,545,70"/>
 <area shape="poly" title=" " alt="" coords="532,78,611,97,610,102,531,84"/>
 </map>
@@ -842,21 +840,21 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint32_t</a> calculateInjectorTimeout </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint32_t calculateInjectorTimeout </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">int16_t</a>&#160;</td>
+          <td class="paramtype">int16_t&#160;</td>
           <td class="paramname"><em>crankAngle</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>openAngle</em>&#160;</td>
         </tr>
         <tr>
@@ -910,9 +908,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">uint8_t</a> calulateDefaultSquirts </td>
+          <td class="memname">static uint8_t calulateDefaultSquirts </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em></td><td>)</td>
           <td></td>
         </tr>
@@ -923,6 +921,16 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="scheduler__fuel__controller_8cpp_a5ecd99c3c24e90901c2c1fd1a56aa6de_cgraph.png" border="0" usemap="#ascheduler__fuel__controller_8cpp_a5ecd99c3c24e90901c2c1fd1a56aa6de_cgraph" alt=""/></div>
+<map name="ascheduler__fuel__controller_8cpp_a5ecd99c3c24e90901c2c1fd1a56aa6de_cgraph" id="ascheduler__fuel__controller_8cpp_a5ecd99c3c24e90901c2c1fd1a56aa6de_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,154,31"/>
+<area shape="rect" href="minmax_8h.html#a37d9dfe92cbf9777552dd75ec2b7f17b" title=" " alt="" coords="202,5,247,31"/>
+<area shape="poly" title=" " alt="" coords="154,16,187,16,187,21,154,21"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -950,9 +958,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> changeFuellingToFullSequential </td>
+          <td class="memname">static void changeFuellingToFullSequential </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
@@ -1055,6 +1063,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="862,226,884,237,921,266,953,300,1001,361,996,365,949,303,917,270,881,242,859,231"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1150,376,1299,402"/>
 <area shape="poly" title=" " alt="" coords="1064,386,1134,386,1134,391,1064,391"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1348,376,1529,402"/>
+<area shape="poly" title=" " alt="" coords="1300,386,1333,386,1333,391,1300,391"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1579,376,1725,402"/>
+<area shape="poly" title=" " alt="" coords="1529,386,1563,386,1563,391,1529,391"/>
 <area shape="poly" title=" " alt="" coords="859,276,884,286,943,325,991,363,988,368,940,329,881,291,857,281"/>
 <area shape="poly" title=" " alt="" coords="853,325,884,336,968,368,967,373,882,341,851,330"/>
 <area shape="poly" title=" " alt="" coords="875,369,954,379,953,384,874,374"/>
@@ -1072,6 +1084,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="853,1016,884,1026,968,1058,967,1063,882,1031,851,1021"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1152,1067,1298,1092"/>
 <area shape="poly" title=" " alt="" coords="1063,1077,1136,1077,1136,1082,1063,1082"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1347,1067,1530,1092"/>
+<area shape="poly" title=" " alt="" coords="1298,1077,1331,1077,1331,1082,1298,1082"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1578,1067,1726,1092"/>
+<area shape="poly" title=" " alt="" coords="1530,1077,1562,1077,1562,1082,1530,1082"/>
 <area shape="poly" title=" " alt="" coords="873,1059,955,1069,954,1075,873,1065"/>
 <area shape="poly" title=" " alt="" coords="873,1094,954,1084,955,1089,873,1099"/>
 <area shape="poly" title=" " alt="" coords="851,1137,882,1126,965,1096,967,1101,884,1131,853,1142"/>
@@ -1112,15 +1128,15 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> changeFuellingToSemiSequential </td>
+          <td class="memname">static void changeFuellingToSemiSequential </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>, </td>
         </tr>
         <tr>
@@ -1223,6 +1239,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="871,226,893,237,930,266,962,300,1010,361,1005,365,958,303,926,270,890,242,868,231"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1159,376,1308,402"/>
 <area shape="poly" title=" " alt="" coords="1073,386,1143,386,1143,391,1073,391"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1357,376,1538,402"/>
+<area shape="poly" title=" " alt="" coords="1309,386,1342,386,1342,391,1309,391"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1588,376,1734,402"/>
+<area shape="poly" title=" " alt="" coords="1538,386,1572,386,1572,391,1538,391"/>
 <area shape="poly" title=" " alt="" coords="868,276,893,286,952,325,1000,363,997,368,949,329,890,291,866,281"/>
 <area shape="poly" title=" " alt="" coords="862,325,893,336,977,368,976,373,891,341,860,330"/>
 <area shape="poly" title=" " alt="" coords="884,369,963,379,962,384,883,374"/>
@@ -1240,6 +1260,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="862,1016,893,1026,977,1058,976,1063,891,1031,860,1021"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1161,1067,1307,1092"/>
 <area shape="poly" title=" " alt="" coords="1072,1077,1145,1077,1145,1082,1072,1082"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1356,1067,1539,1092"/>
+<area shape="poly" title=" " alt="" coords="1307,1077,1340,1077,1340,1082,1307,1082"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1587,1067,1735,1092"/>
+<area shape="poly" title=" " alt="" coords="1539,1077,1571,1077,1571,1082,1539,1082"/>
 <area shape="poly" title=" " alt="" coords="882,1059,964,1069,963,1075,882,1065"/>
 <area shape="poly" title=" " alt="" coords="882,1094,963,1084,964,1089,882,1099"/>
 <area shape="poly" title=" " alt="" coords="860,1137,891,1126,974,1096,976,1101,893,1131,862,1142"/>
@@ -1277,15 +1301,15 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a> changeToFullSequentialInjection </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool changeToFullSequentialInjection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
           <td class="paramname"><em>decoderStatus</em>&#160;</td>
         </tr>
         <tr>
@@ -1317,15 +1341,15 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a> changeToSemiSequentialInjection </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool changeToSemiSequentialInjection </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
           <td class="paramname"><em>decoderStatus</em>&#160;</td>
         </tr>
         <tr>
@@ -1370,9 +1394,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> clampInjectionChannelAngles </td>
+          <td class="memname">static void clampInjectionChannelAngles </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1419,9 +1443,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> closeAllInjectors </td>
+          <td class="memname">void closeAllInjectors </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1439,6 +1463,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="123,16,155,16,155,21,123,21"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="314,5,463,31"/>
 <area shape="poly" title=" " alt="" coords="266,16,299,16,299,21,266,21"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="511,5,692,31"/>
+<area shape="poly" title=" " alt="" coords="464,16,496,16,496,21,464,21"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="740,5,886,31"/>
+<area shape="poly" title=" " alt="" coords="692,16,724,16,724,21,692,21"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1487,7 +1515,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> initFuelScheduleAngles </td>
+          <td class="memname">static void initFuelScheduleAngles </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
@@ -1495,13 +1523,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em>&#160;</td>
         </tr>
         <tr>
@@ -1540,7 +1568,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> initialiseFuelSchedules </td>
+          <td class="memname">void initialiseFuelSchedules </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
@@ -1548,25 +1576,25 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;&#160;</td>
           <td class="paramname"><em>pins</em>&#160;</td>
         </tr>
         <tr>
@@ -1583,133 +1611,145 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler__fuel__controller_8cpp_a6fd91a770246475d326bc7383b3045bf_cgraph.png" border="0" usemap="#ascheduler__fuel__controller_8cpp_a6fd91a770246475d326bc7383b3045bf_cgraph" alt=""/></div>
 <map name="ascheduler__fuel__controller_8cpp_a6fd91a770246475d326bc7383b3045bf_cgraph" id="ascheduler__fuel__controller_8cpp_a6fd91a770246475d326bc7383b3045bf_cgraph">
-<area shape="rect" title="Initialise this module." alt="" coords="5,799,160,824"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de" title=" " alt="" coords="230,649,378,675"/>
-<area shape="poly" title=" " alt="" coords="91,796,136,742,169,710,206,684,216,679,219,684,209,688,172,715,140,745,95,800"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4" title="Limit all injection schedule channel angles to 0&#45;CRANK_ANGLE_MAX_INJ." alt="" coords="208,699,400,724"/>
-<area shape="poly" title=" " alt="" coords="100,796,147,765,207,733,223,727,225,732,209,738,150,769,103,800"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65" title="Utility function to close all injectors." alt="" coords="490,797,607,823"/>
-<area shape="poly" title=" " alt="" coords="160,809,474,808,474,813,160,814"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aa2f4011d2aa653c691e2e74cc92910f3" title=" " alt="" coords="225,899,383,924"/>
-<area shape="poly" title=" " alt="" coords="103,823,150,854,209,885,225,891,223,896,207,890,147,858,100,827"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a5d24a4608760f86675a8eee787ffffa2" title=" " alt="" coords="238,1293,370,1319"/>
-<area shape="poly" title=" " alt="" coords="92,824,293,1278,288,1281,87,826"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a74e0696f1def940f46061834c41262bd" title=" " alt="" coords="236,748,372,774"/>
-<area shape="poly" title=" " alt="" coords="141,795,229,775,231,780,142,801"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a93a8f902348203810bb7ec6fc8331c86" title=" " alt="" coords="249,849,359,875"/>
-<area shape="poly" title=" " alt="" coords="142,822,234,844,233,849,141,828"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a4dbdd1150ed02e49b6bd84b476e51e7c" title="Clamp the angle to within [0,CRANK_ANGLE_MAX_INJ]." alt="" coords="499,699,598,724"/>
-<area shape="poly" title=" " alt="" coords="401,709,483,709,483,714,401,714"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc" title=" " alt="" coords="931,453,1026,479"/>
-<area shape="poly" title=" " alt="" coords="607,806,629,798,647,784,662,761,671,731,676,695,678,654,675,561,666,461,658,362,656,271,659,230,666,195,678,166,696,143,732,119,750,113,769,112,806,121,846,143,881,172,909,209,931,249,948,291,969,374,978,438,973,438,964,375,943,293,926,251,905,211,877,176,843,147,804,126,768,117,751,118,734,123,699,147,683,168,672,197,665,231,661,271,663,362,671,461,680,561,684,654,682,695,676,732,666,763,651,788,632,803,608,811"/>
-<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1112,453,1261,479"/>
-<area shape="poly" title=" " alt="" coords="1026,464,1096,464,1096,469,1026,469"/>
-<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#a0319b38ec26899766952180f708f93c4" title=" " alt="" coords="499,1640,599,1666"/>
-<area shape="poly" title=" " alt="" coords="310,1319,322,1373,347,1454,365,1499,388,1542,416,1583,450,1619,466,1630,485,1639,483,1643,464,1635,446,1623,412,1587,384,1545,360,1501,342,1456,316,1375,305,1320"/>
-<area shape="rect" href="struct_fuel_schedule.html#a2e1387f317d3dfc528c6bd3d38ed1544" title=" " alt="" coords="481,748,616,774"/>
-<area shape="poly" title=" " alt="" coords="373,758,466,758,466,764,373,764"/>
-<area shape="rect" href="struct_schedule.html#af6db236e44705c559872516e4571b0cc" title=" " alt="" coords="716,5,826,31"/>
-<area shape="poly" title=" " alt="" coords="616,754,633,747,647,735,663,710,674,678,680,640,683,598,682,501,675,397,667,292,664,194,671,110,681,76,695,49,705,38,709,42,700,52,686,78,677,111,669,194,672,292,680,396,687,501,689,598,686,641,679,680,668,712,651,739,636,751,618,759"/>
-<area shape="rect" href="scheduler_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title="A scheduler callback that does nothing." alt="" coords="933,5,1024,31"/>
-<area shape="poly" title=" " alt="" coords="827,16,917,16,917,21,827,21"/>
-<area shape="rect" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9" title="Set the schedule callbacks. I.e the functions called when the action needs to start &amp; stop." alt="" coords="930,81,1027,107"/>
-<area shape="poly" title=" " alt="" coords="809,29,927,73,926,78,808,34"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aaf29258b5f09b88c248e16c04e1c8251" title=" " alt="" coords="697,1539,845,1564"/>
-<area shape="poly" title=" " alt="" coords="360,865,382,872,402,884,443,922,475,961,500,1001,518,1041,531,1081,541,1122,554,1203,567,1285,589,1366,606,1407,629,1447,660,1486,699,1526,702,1528,699,1532,696,1529,656,1490,625,1450,601,1409,583,1368,561,1286,549,1204,536,1123,526,1082,513,1043,495,1003,470,964,439,926,398,888,380,877,358,870"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a3e2cfd76cf2adca385157903168e5ad1" title=" " alt="" coords="893,1564,1064,1590"/>
-<area shape="poly" title=" " alt="" coords="361,862,383,870,402,884,416,907,426,936,435,1007,434,1092,429,1183,423,1275,421,1360,429,1431,438,1459,450,1482,470,1505,493,1525,544,1557,601,1579,662,1592,724,1598,785,1599,891,1590,892,1595,785,1604,724,1603,662,1597,600,1584,542,1562,490,1529,466,1509,446,1485,433,1461,424,1432,416,1360,418,1274,423,1183,429,1092,430,1008,421,937,411,910,398,888,380,874,359,867"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a85b89edb754b5f3907bf11e70598345a" title=" " alt="" coords="448,848,649,874"/>
-<area shape="poly" title=" " alt="" coords="359,859,432,859,432,864,360,865"/>
-<area shape="poly" title=" " alt="" coords="845,1558,877,1562,877,1567,845,1563"/>
-<area shape="poly" title=" " alt="" coords="634,845,647,834,663,808,673,776,679,737,681,694,678,595,669,489,660,383,658,284,661,241,667,202,679,169,695,143,718,123,744,107,772,96,801,88,861,82,914,83,914,88,861,87,802,94,773,101,746,112,721,127,699,147,683,171,672,203,666,241,663,285,666,382,674,489,683,595,687,694,684,738,678,777,667,811,651,837,637,850"/>
-<area shape="poly" title=" " alt="" coords="557,873,599,1010,627,1109,652,1212,659,1261,659,1305,653,1382,653,1417,658,1451,673,1487,699,1526,700,1527,696,1530,695,1529,668,1490,653,1453,647,1417,648,1381,654,1305,654,1262,647,1213,622,1111,594,1011,552,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a6d93b3471f174de80ea90226da8bd349" title=" " alt="" coords="720,601,822,627"/>
-<area shape="poly" title=" " alt="" coords="631,845,647,834,665,810,672,786,674,762,672,738,669,713,670,688,678,662,695,636,704,629,708,633,699,640,683,664,676,688,675,713,677,737,679,762,678,787,669,813,651,837,635,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a788092bf263239ea66e6b7436ef54bf2" title=" " alt="" coords="706,651,836,676"/>
-<area shape="poly" title=" " alt="" coords="630,845,648,834,662,816,669,799,671,762,674,724,681,705,695,686,698,684,701,688,699,689,686,707,679,725,677,762,674,800,666,819,651,837,633,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ac1420462082d8e4a5ea14f2c9eaff8b1" title=" " alt="" coords="706,700,836,726"/>
-<area shape="poly" title=" " alt="" coords="628,845,648,833,659,822,665,811,671,786,677,761,684,748,695,735,699,732,702,736,699,739,688,751,682,762,676,787,670,813,663,825,651,838,631,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad30736d7c54adf619c2eb19083b670a1" title=" " alt="" coords="706,749,836,775"/>
-<area shape="poly" title=" " alt="" coords="621,845,648,833,662,822,671,810,681,797,696,784,704,779,706,784,699,788,685,800,676,813,666,825,651,838,623,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#accd79079df1cfde4d8438b7662c4f2bc" title=" " alt="" coords="720,799,822,824"/>
-<area shape="poly" title=" " alt="" coords="609,845,704,823,705,829,611,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab571a23f9e4424c6bb4b41a918014479" title=" " alt="" coords="706,157,836,183"/>
-<area shape="poly" title=" " alt="" coords="634,845,647,834,662,810,672,780,678,745,681,705,679,614,672,516,665,418,663,326,671,249,681,218,695,193,696,192,700,195,700,196,686,220,676,250,668,327,670,418,677,516,684,614,686,705,683,746,677,782,666,813,651,837,637,849"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a01f1069def009dfaada0dda73d739355" title=" " alt="" coords="706,207,836,232"/>
-<area shape="poly" title=" " alt="" coords="634,845,647,834,661,812,670,785,679,715,678,631,672,541,666,450,665,365,673,294,682,265,695,242,696,241,700,244,700,245,687,267,678,295,670,366,671,450,677,540,683,631,684,715,675,786,665,815,651,837,637,849"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a156f7ddf2c73820e8414fb64730ee412" title=" " alt="" coords="706,256,836,282"/>
-<area shape="poly" title=" " alt="" coords="634,845,647,834,660,814,668,789,677,725,677,648,672,565,667,482,667,405,674,339,683,312,695,291,696,290,700,294,700,294,688,315,680,340,672,405,672,482,677,565,682,648,682,725,673,790,664,816,651,837,637,849"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ae744632a7ba6e3ea15181f2803d93f85" title=" " alt="" coords="706,305,836,331"/>
-<area shape="poly" title=" " alt="" coords="633,845,647,834,659,816,667,793,675,735,675,665,672,590,668,514,668,444,676,384,684,360,695,341,696,340,700,343,700,344,689,362,681,385,674,444,674,514,677,590,681,665,680,735,672,794,663,818,651,837,637,849"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a6074b19cd7b767d16037798b48508aba" title=" " alt="" coords="706,355,836,380"/>
-<area shape="poly" title=" " alt="" coords="633,846,647,834,668,806,681,779,689,752,691,725,686,670,673,616,659,561,653,505,655,477,662,448,675,419,695,390,696,389,700,392,699,393,680,422,667,450,660,477,658,505,664,560,678,615,691,669,697,725,694,753,686,781,672,809,651,837,636,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a360fd44c13affa415fcddb12f61e708e" title=" " alt="" coords="706,404,836,430"/>
-<area shape="poly" title=" " alt="" coords="633,845,647,834,666,809,678,785,685,761,688,737,684,689,673,640,661,591,656,542,659,516,665,491,677,465,695,439,696,438,700,442,699,442,682,468,670,493,664,517,662,542,666,590,678,639,689,688,693,737,690,762,683,787,670,812,651,837,636,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a5250f7880507336c3f6312d17f40eeb6" title=" " alt="" coords="706,453,836,479"/>
-<area shape="poly" title=" " alt="" coords="633,845,647,834,664,812,674,791,684,749,681,707,672,665,663,622,660,578,669,534,679,511,695,489,696,487,700,491,699,492,684,514,674,535,665,578,668,621,677,664,686,707,689,750,679,793,668,815,651,837,636,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a85a7c3d5b8c8e0f7283426484cd0f007" title=" " alt="" coords="720,503,822,528"/>
-<area shape="poly" title=" " alt="" coords="633,845,647,834,671,798,680,762,679,726,672,689,665,652,663,615,672,576,695,538,704,530,708,534,699,541,677,578,669,615,671,652,677,688,684,725,685,762,676,800,651,837,636,849"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a2f9d4c19d1c252267d4b21d2eef33ada" title=" " alt="" coords="706,552,836,578"/>
-<area shape="poly" title=" " alt="" coords="632,845,647,834,668,804,676,774,676,744,672,714,667,683,667,651,675,619,695,587,697,585,701,589,699,590,680,621,672,652,673,682,677,713,681,744,681,775,673,806,651,837,635,850"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ae0f54e1ad265b7e85992c7458976b959" title=" " alt="" coords="721,1292,821,1318"/>
-<area shape="poly" title=" " alt="" coords="556,874,576,956,610,1078,653,1200,676,1247,699,1279,709,1286,705,1291,695,1283,672,1250,648,1202,605,1080,571,957,550,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab835f4934d752441f66ceb6f1b60a352" title=" " alt="" coords="707,1341,835,1367"/>
-<area shape="poly" title=" " alt="" coords="556,874,630,1123,673,1261,700,1329,701,1330,697,1334,695,1332,668,1263,625,1125,551,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad0ebdaf0224728a007d4918b00d60e80" title=" " alt="" coords="707,1391,835,1416"/>
-<area shape="poly" title=" " alt="" coords="556,873,700,1378,701,1379,697,1383,695,1381,551,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a53140965215bb547014175b4b2f6f77a" title=" " alt="" coords="707,1440,835,1466"/>
-<area shape="poly" title=" " alt="" coords="557,873,597,1010,652,1212,658,1246,660,1276,660,1329,662,1353,668,1377,680,1401,699,1427,701,1429,697,1432,695,1431,675,1404,663,1379,657,1354,655,1329,655,1277,653,1247,647,1213,592,1012,552,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#aefdf6cc455bd89c1c80583d103a32888" title=" " alt="" coords="721,1489,821,1515"/>
-<area shape="poly" title=" " alt="" coords="557,873,598,1010,652,1212,659,1254,660,1291,657,1355,657,1385,663,1414,676,1444,699,1476,709,1485,706,1489,695,1480,672,1447,658,1416,652,1386,651,1355,655,1291,653,1254,647,1213,593,1011,552,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab522d332837d9e29ad077d1c0a09e2b2" title=" " alt="" coords="707,848,835,874"/>
-<area shape="poly" title=" " alt="" coords="650,858,692,858,692,864,650,864"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a3a98c95794f220080e61e1521085e84e" title=" " alt="" coords="707,897,835,923"/>
-<area shape="poly" title=" " alt="" coords="611,872,695,891,694,896,609,877"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a4895a3346c2c3f8623a9d60abab9f7cb" title=" " alt="" coords="707,947,835,972"/>
-<area shape="poly" title=" " alt="" coords="575,872,630,901,698,933,712,939,710,943,696,938,628,906,572,876"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#aed14d2586985c434682006a41859c28c" title=" " alt="" coords="707,996,835,1022"/>
-<area shape="poly" title=" " alt="" coords="564,872,620,925,658,956,699,983,708,987,706,992,696,987,654,960,616,929,561,876"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a376ca38947500b25245885295ab87f75" title=" " alt="" coords="707,1045,835,1071"/>
-<area shape="poly" title=" " alt="" coords="560,873,612,948,652,993,699,1032,705,1036,703,1040,696,1036,648,997,608,951,556,876"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#adb6c87d371c6d3d9a8db61bc1c06cbf6" title=" " alt="" coords="707,1095,835,1120"/>
-<area shape="poly" title=" " alt="" coords="558,873,575,913,605,970,647,1030,672,1057,699,1081,704,1085,701,1089,696,1086,668,1061,643,1033,601,972,571,916,553,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a20551653de30ff496ae73ca6eacdeb70" title=" " alt="" coords="707,1144,835,1170"/>
-<area shape="poly" title=" " alt="" coords="556,873,571,921,599,991,641,1066,668,1100,699,1131,703,1134,700,1138,696,1135,664,1104,637,1069,594,993,566,923,551,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a134f4116240c5e08ab24e8f2e89f0979" title=" " alt="" coords="721,1243,821,1268"/>
-<area shape="poly" title=" " alt="" coords="554,874,564,937,587,1033,606,1085,631,1138,662,1187,699,1230,709,1237,706,1241,696,1233,657,1190,626,1140,601,1087,582,1034,558,938,549,875"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad880cd6a74aa2a1f1fd32ffe2344207a" title=" " alt="" coords="707,1193,835,1219"/>
-<area shape="poly" title=" " alt="" coords="555,873,567,929,593,1012,612,1057,636,1102,665,1144,699,1180,702,1183,699,1187,696,1184,661,1147,632,1105,608,1059,588,1014,562,931,550,875"/>
-<area shape="poly" title=" " alt="" coords="821,598,843,588,876,565,907,539,955,489,959,493,910,543,880,569,846,592,823,603"/>
-<area shape="poly" title=" " alt="" coords="824,648,843,637,882,603,915,564,961,492,966,494,919,567,886,607,846,642,827,652"/>
-<area shape="poly" title=" " alt="" coords="826,697,843,687,887,641,922,588,948,536,965,493,970,495,953,538,927,590,891,644,846,691,828,702"/>
-<area shape="poly" title=" " alt="" coords="827,746,843,736,870,709,893,678,929,610,954,545,969,493,974,494,959,546,934,612,897,681,874,712,846,740,830,751"/>
-<area shape="poly" title=" " alt="" coords="821,799,843,785,873,752,898,714,919,674,936,633,959,554,971,494,976,495,964,556,941,634,924,676,903,717,877,756,846,790,824,803"/>
-<area shape="poly" title=" " alt="" coords="830,181,846,192,874,220,897,252,934,320,959,386,974,438,969,439,954,388,929,322,893,255,870,224,843,196,827,186"/>
-<area shape="poly" title=" " alt="" coords="828,231,846,241,891,288,927,342,953,395,970,437,965,439,948,397,922,345,887,291,843,246,826,235"/>
-<area shape="poly" title=" " alt="" coords="827,280,846,291,886,325,919,365,966,438,961,441,915,368,882,329,843,295,824,285"/>
-<area shape="poly" title=" " alt="" coords="823,329,846,340,880,363,910,390,959,440,955,443,907,394,876,367,843,344,821,334"/>
-<area shape="poly" title=" " alt="" coords="818,378,846,389,898,415,945,442,942,447,896,420,844,394,816,383"/>
-<area shape="poly" title=" " alt="" coords="829,428,916,449,915,454,828,433"/>
-<area shape="poly" title=" " alt="" coords="837,464,915,464,915,469,837,469"/>
-<area shape="poly" title=" " alt="" coords="822,501,915,478,916,484,823,506"/>
-<area shape="poly" title=" " alt="" coords="816,549,844,538,896,512,942,485,945,490,898,517,846,543,818,554"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0" title=" " alt="" coords="932,1169,1025,1195"/>
-<area shape="poly" title=" " alt="" coords="819,1289,843,1278,902,1241,949,1203,953,1208,905,1246,846,1283,821,1294"/>
-<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1114,1169,1260,1195"/>
-<area shape="poly" title=" " alt="" coords="1025,1180,1098,1180,1098,1185,1025,1185"/>
-<area shape="poly" title=" " alt="" coords="823,1338,843,1328,879,1300,911,1267,958,1206,963,1209,915,1271,883,1304,846,1332,825,1343"/>
-<area shape="poly" title=" " alt="" coords="825,1388,843,1377,885,1338,919,1291,945,1246,964,1208,968,1210,950,1248,923,1294,889,1341,846,1382,828,1392"/>
-<area shape="poly" title=" " alt="" coords="826,1437,843,1427,868,1403,890,1375,926,1315,951,1256,967,1209,972,1211,956,1258,931,1317,894,1378,872,1406,846,1431,829,1442"/>
-<area shape="poly" title=" " alt="" coords="820,1490,843,1476,871,1446,895,1412,932,1337,956,1266,970,1210,975,1211,962,1267,937,1340,900,1415,875,1449,846,1480,823,1494"/>
-<area shape="poly" title=" " alt="" coords="830,872,846,883,876,914,900,949,938,1025,962,1097,975,1154,970,1155,957,1099,933,1027,896,952,871,917,843,887,827,876"/>
-<area shape="poly" title=" " alt="" coords="829,921,846,932,872,957,895,986,931,1047,957,1107,972,1154,967,1156,952,1108,926,1049,890,989,868,961,843,936,826,926"/>
-<area shape="poly" title=" " alt="" coords="828,971,846,981,889,1022,923,1069,950,1116,968,1154,964,1156,945,1118,919,1072,885,1026,843,986,825,975"/>
-<area shape="poly" title=" " alt="" coords="825,1020,846,1031,883,1059,915,1093,963,1155,958,1158,911,1096,879,1063,843,1035,823,1025"/>
-<area shape="poly" title=" " alt="" coords="821,1069,846,1080,905,1118,953,1157,950,1161,902,1122,843,1085,819,1074"/>
-<area shape="poly" title=" " alt="" coords="815,1118,846,1129,930,1161,929,1166,844,1134,813,1123"/>
-<area shape="poly" title=" " alt="" coords="835,1162,917,1172,916,1177,835,1167"/>
-<area shape="poly" title=" " alt="" coords="813,1240,844,1229,927,1198,929,1203,846,1234,815,1245"/>
-<area shape="poly" title=" " alt="" coords="835,1196,916,1187,917,1192,835,1201"/>
+<area shape="rect" title="Initialise this module." alt="" coords="5,153,160,179"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de" title=" " alt="" coords="230,5,378,31"/>
+<area shape="poly" title=" " alt="" coords="91,151,136,97,169,66,206,40,216,35,219,40,209,44,172,70,140,101,95,155"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4" title="Limit all injection schedule channel angles to 0&#45;CRANK_ANGLE_MAX_INJ." alt="" coords="208,55,400,80"/>
+<area shape="poly" title=" " alt="" coords="101,150,147,120,207,89,223,83,225,88,209,94,150,124,104,155"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65" title="Utility function to close all injectors." alt="" coords="490,249,607,275"/>
+<area shape="poly" title=" " alt="" coords="102,177,148,210,177,226,208,238,277,254,348,263,415,266,474,265,474,270,415,271,348,268,276,260,207,243,175,231,145,214,99,182"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aa2f4011d2aa653c691e2e74cc92910f3" title=" " alt="" coords="225,153,383,179"/>
+<area shape="poly" title=" " alt="" coords="160,164,210,164,210,169,160,169"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a5d24a4608760f86675a8eee787ffffa2" title=" " alt="" coords="238,203,370,228"/>
+<area shape="poly" title=" " alt="" coords="144,177,229,196,227,201,143,182"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a74e0696f1def940f46061834c41262bd" title=" " alt="" coords="236,104,372,130"/>
+<area shape="poly" title=" " alt="" coords="143,150,227,131,229,136,144,155"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a93a8f902348203810bb7ec6fc8331c86" title=" " alt="" coords="249,1220,359,1246"/>
+<area shape="poly" title=" " alt="" coords="89,179,299,1204,294,1205,84,180"/>
+<area shape="rect" href="minmax_8h.html#a37d9dfe92cbf9777552dd75ec2b7f17b" title=" " alt="" coords="526,5,571,31"/>
+<area shape="poly" title=" " alt="" coords="378,16,511,16,511,21,378,21"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a4dbdd1150ed02e49b6bd84b476e51e7c" title="Clamp the angle to within [0,CRANK_ANGLE_MAX_INJ]." alt="" coords="499,55,598,80"/>
+<area shape="poly" title=" " alt="" coords="401,65,483,65,483,70,401,70"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc" title=" " alt="" coords="939,640,1034,666"/>
+<area shape="poly" title=" " alt="" coords="608,258,665,261,730,272,796,293,826,309,854,329,886,362,913,400,934,441,951,483,974,563,985,624,979,625,969,564,946,485,929,443,908,403,882,366,851,334,824,314,793,298,728,277,664,266,607,263"/>
+<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1120,640,1269,666"/>
+<area shape="poly" title=" " alt="" coords="1034,650,1104,650,1104,656,1034,656"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1318,640,1499,666"/>
+<area shape="poly" title=" " alt="" coords="1270,650,1303,650,1303,656,1270,656"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1549,640,1695,666"/>
+<area shape="poly" title=" " alt="" coords="1499,650,1533,650,1533,656,1499,656"/>
+<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#a0319b38ec26899766952180f708f93c4" title=" " alt="" coords="499,192,599,218"/>
+<area shape="poly" title=" " alt="" coords="370,210,483,205,483,210,370,215"/>
+<area shape="rect" href="classfast_output_pin__t.html#a0ae8ae1ae1666e63e37fa9888a12abb1" title="Set the output pin." alt="" coords="697,192,853,218"/>
+<area shape="poly" title=" " alt="" coords="599,202,682,202,682,208,599,208"/>
+<area shape="rect" href="struct_fuel_schedule.html#a2e1387f317d3dfc528c6bd3d38ed1544" title=" " alt="" coords="481,116,616,142"/>
+<area shape="poly" title=" " alt="" coords="373,118,466,122,466,127,372,123"/>
+<area shape="rect" href="struct_schedule.html#af6db236e44705c559872516e4571b0cc" title=" " alt="" coords="720,119,830,144"/>
+<area shape="poly" title=" " alt="" coords="617,127,704,128,704,133,616,132"/>
+<area shape="rect" href="scheduler_8cpp.html#a8ff5e230478080dbc00c6f21596d5ab9" title="A scheduler callback that does nothing." alt="" coords="941,119,1032,144"/>
+<area shape="poly" title=" " alt="" coords="831,129,925,129,925,134,831,134"/>
+<area shape="rect" href="scheduler_8cpp.html#accbfbe59d875d20cb1052c02e34d04e9" title="Set the schedule callbacks. I.e the functions called when the action needs to start &amp; stop." alt="" coords="938,231,1035,256"/>
+<area shape="poly" title=" " alt="" coords="802,142,948,221,946,225,800,147"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#aaf29258b5f09b88c248e16c04e1c8251" title=" " alt="" coords="701,1725,849,1751"/>
+<area shape="poly" title=" " alt="" coords="315,1245,361,1325,444,1451,498,1521,559,1591,626,1656,699,1712,705,1716,703,1721,696,1716,623,1660,555,1594,494,1525,440,1454,356,1328,310,1248"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a3e2cfd76cf2adca385157903168e5ad1" title=" " alt="" coords="901,1751,1072,1776"/>
+<area shape="poly" title=" " alt="" coords="308,1246,313,1320,320,1375,332,1435,350,1499,375,1563,408,1623,450,1676,497,1715,550,1743,608,1763,668,1775,729,1781,788,1783,891,1776,892,1781,788,1788,728,1787,667,1780,607,1768,548,1748,494,1719,446,1680,403,1626,370,1566,345,1501,327,1437,315,1375,308,1321,303,1246"/>
+<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a85b89edb754b5f3907bf11e70598345a" title=" " alt="" coords="448,1035,649,1060"/>
+<area shape="poly" title=" " alt="" coords="321,1217,517,1068,520,1072,324,1222"/>
+<area shape="poly" title=" " alt="" coords="850,1744,885,1749,885,1754,849,1750"/>
+<area shape="poly" title=" " alt="" coords="548,1034,560,903,586,691,606,578,631,474,660,389,677,355,695,330,719,308,746,290,806,264,867,249,922,242,923,248,868,254,808,269,749,294,722,312,699,333,682,358,665,391,636,476,611,579,592,691,565,903,554,1035"/>
+<area shape="poly" title=" " alt="" coords="557,1060,599,1196,627,1296,652,1399,659,1470,664,1562,675,1652,685,1687,700,1713,700,1714,696,1717,695,1716,680,1689,670,1653,659,1563,654,1470,647,1400,622,1297,594,1198,552,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a6d93b3471f174de80ea90226da8bd349" title=" " alt="" coords="724,541,826,567"/>
+<area shape="poly" title=" " alt="" coords="547,1034,552,956,559,898,570,833,589,765,615,697,650,633,695,576,708,567,711,571,699,580,654,636,620,699,594,767,576,834,564,899,557,956,553,1034"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a788092bf263239ea66e6b7436ef54bf2" title=" " alt="" coords="710,591,840,616"/>
+<area shape="poly" title=" " alt="" coords="548,1034,555,963,576,854,595,793,620,732,653,676,695,626,698,623,702,627,699,629,658,679,625,735,600,795,581,855,560,964,553,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ac1420462082d8e4a5ea14f2c9eaff8b1" title=" " alt="" coords="710,640,840,666"/>
+<area shape="poly" title=" " alt="" coords="549,1034,558,970,582,874,601,820,626,768,657,718,695,675,699,672,702,676,699,679,661,721,630,770,606,822,587,875,563,971,554,1034"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad30736d7c54adf619c2eb19083b670a1" title=" " alt="" coords="710,689,840,715"/>
+<area shape="poly" title=" " alt="" coords="550,1034,562,977,588,894,607,849,631,803,661,761,696,724,699,721,702,726,699,728,665,764,636,806,612,851,593,896,567,979,555,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#accd79079df1cfde4d8438b7662c4f2bc" title=" " alt="" coords="724,739,826,764"/>
+<area shape="poly" title=" " alt="" coords="551,1034,566,985,594,915,637,839,664,804,696,773,708,765,711,770,699,778,668,808,641,842,599,917,571,987,556,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab571a23f9e4424c6bb4b41a918014479" title=" " alt="" coords="710,788,840,814"/>
+<area shape="poly" title=" " alt="" coords="553,1033,570,992,600,936,642,875,668,847,696,823,701,819,704,824,699,827,671,851,647,878,605,938,575,995,557,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a01f1069def009dfaada0dda73d739355" title=" " alt="" coords="710,837,840,863"/>
+<area shape="poly" title=" " alt="" coords="555,1033,576,1001,607,957,648,912,696,872,703,867,706,872,699,876,652,915,611,961,580,1004,560,1036"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a156f7ddf2c73820e8414fb64730ee412" title=" " alt="" coords="710,887,840,912"/>
+<area shape="poly" title=" " alt="" coords="560,1032,616,979,654,948,696,921,706,916,708,921,699,926,657,953,619,983,564,1036"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ae744632a7ba6e3ea15181f2803d93f85" title=" " alt="" coords="710,936,840,962"/>
+<area shape="poly" title=" " alt="" coords="572,1032,628,1002,696,970,711,965,713,970,698,975,630,1007,575,1036"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a6074b19cd7b767d16037798b48508aba" title=" " alt="" coords="710,985,840,1011"/>
+<area shape="poly" title=" " alt="" coords="611,1031,697,1012,698,1018,612,1037"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a360fd44c13affa415fcddb12f61e708e" title=" " alt="" coords="710,344,840,370"/>
+<area shape="poly" title=" " alt="" coords="548,1034,561,910,590,713,610,609,634,513,662,434,678,403,695,379,697,377,701,381,699,383,683,405,667,436,639,515,615,610,595,714,567,911,554,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a5250f7880507336c3f6312d17f40eeb6" title=" " alt="" coords="710,393,840,419"/>
+<area shape="poly" title=" " alt="" coords="549,1034,563,918,592,736,613,640,637,552,664,478,679,450,695,428,697,427,701,430,699,432,684,453,669,481,642,553,618,641,598,737,568,919,554,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a85a7c3d5b8c8e0f7283426484cd0f007" title=" " alt="" coords="724,443,826,468"/>
+<area shape="poly" title=" " alt="" coords="549,1034,565,926,595,759,616,671,639,590,666,523,680,497,695,478,708,468,711,472,699,481,685,500,671,526,644,592,621,673,601,760,570,927,554,1035"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a2f9d4c19d1c252267d4b21d2eef33ada" title=" " alt="" coords="710,492,840,518"/>
+<area shape="poly" title=" " alt="" coords="547,1034,549,949,554,885,565,813,583,737,609,661,646,590,669,557,695,527,697,525,701,529,699,531,673,560,651,593,614,664,588,739,570,814,559,886,554,949,552,1034"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ae0f54e1ad265b7e85992c7458976b959" title=" " alt="" coords="725,1528,825,1554"/>
+<area shape="poly" title=" " alt="" coords="556,1060,630,1310,673,1448,699,1515,713,1525,709,1529,695,1518,668,1450,625,1311,551,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab835f4934d752441f66ceb6f1b60a352" title=" " alt="" coords="711,1577,839,1603"/>
+<area shape="poly" title=" " alt="" coords="556,1060,700,1565,701,1566,697,1570,695,1568,551,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad0ebdaf0224728a007d4918b00d60e80" title=" " alt="" coords="711,1627,839,1652"/>
+<area shape="poly" title=" " alt="" coords="557,1060,597,1197,652,1399,658,1433,660,1463,660,1516,662,1540,668,1564,679,1588,699,1614,701,1615,697,1619,695,1617,675,1591,663,1565,657,1541,655,1516,655,1463,653,1434,647,1400,592,1198,552,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a53140965215bb547014175b4b2f6f77a" title=" " alt="" coords="711,1676,839,1702"/>
+<area shape="poly" title=" " alt="" coords="557,1060,598,1197,652,1399,659,1440,660,1478,656,1542,657,1572,663,1601,676,1631,699,1663,701,1665,697,1668,695,1667,671,1634,658,1603,652,1572,651,1542,654,1478,653,1441,647,1400,593,1198,552,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#aefdf6cc455bd89c1c80583d103a32888" title=" " alt="" coords="725,1035,825,1060"/>
+<area shape="poly" title=" " alt="" coords="649,1045,710,1045,710,1050,649,1050"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ab522d332837d9e29ad077d1c0a09e2b2" title=" " alt="" coords="711,1084,839,1110"/>
+<area shape="poly" title=" " alt="" coords="612,1058,698,1077,697,1083,611,1064"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a3a98c95794f220080e61e1521085e84e" title=" " alt="" coords="711,1133,839,1159"/>
+<area shape="poly" title=" " alt="" coords="575,1059,630,1088,698,1120,713,1125,711,1130,696,1125,628,1093,572,1063"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a4895a3346c2c3f8623a9d60abab9f7cb" title=" " alt="" coords="711,1183,839,1208"/>
+<area shape="poly" title=" " alt="" coords="564,1059,619,1112,657,1142,699,1169,708,1174,706,1179,696,1174,654,1147,616,1116,560,1063"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#aed14d2586985c434682006a41859c28c" title=" " alt="" coords="711,1232,839,1258"/>
+<area shape="poly" title=" " alt="" coords="560,1059,580,1091,611,1134,652,1180,699,1219,706,1223,703,1228,696,1223,648,1183,607,1138,576,1094,555,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a376ca38947500b25245885295ab87f75" title=" " alt="" coords="711,1281,839,1307"/>
+<area shape="poly" title=" " alt="" coords="557,1060,575,1100,605,1157,647,1217,671,1244,699,1268,704,1271,701,1276,696,1272,668,1248,642,1220,600,1159,570,1103,553,1062"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#adb6c87d371c6d3d9a8db61bc1c06cbf6" title=" " alt="" coords="711,1331,839,1356"/>
+<area shape="poly" title=" " alt="" coords="556,1060,571,1108,599,1178,641,1253,668,1287,699,1317,703,1320,700,1325,696,1322,664,1291,637,1256,594,1180,566,1110,551,1061"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a20551653de30ff496ae73ca6eacdeb70" title=" " alt="" coords="711,1380,839,1406"/>
+<area shape="poly" title=" " alt="" coords="555,1060,567,1116,593,1199,612,1244,636,1289,665,1331,699,1367,702,1369,699,1374,696,1371,661,1334,631,1292,607,1246,588,1201,562,1118,550,1061"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a134f4116240c5e08ab24e8f2e89f0979" title=" " alt="" coords="725,1429,825,1455"/>
+<area shape="poly" title=" " alt="" coords="554,1061,563,1124,587,1220,606,1273,630,1325,661,1374,699,1416,713,1426,710,1430,696,1420,657,1377,626,1327,601,1275,582,1221,558,1125,549,1061"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad880cd6a74aa2a1f1fd32ffe2344207a" title=" " alt="" coords="711,1479,839,1504"/>
+<area shape="poly" title=" " alt="" coords="556,1060,576,1143,610,1265,653,1386,676,1434,699,1466,702,1468,698,1472,695,1469,671,1437,648,1389,605,1267,570,1144,550,1062"/>
+<area shape="poly" title=" " alt="" coords="825,565,854,576,907,602,953,629,950,634,904,607,852,581,824,570"/>
+<area shape="poly" title=" " alt="" coords="834,614,924,636,923,641,833,620"/>
+<area shape="poly" title=" " alt="" coords="841,650,923,650,923,656,841,656"/>
+<area shape="poly" title=" " alt="" coords="833,686,923,665,924,670,834,691"/>
+<area shape="poly" title=" " alt="" coords="824,736,852,725,904,699,950,672,953,677,907,704,854,730,825,741"/>
+<area shape="poly" title=" " alt="" coords="829,785,851,775,884,752,915,726,963,676,967,679,919,730,888,756,854,779,831,790"/>
+<area shape="poly" title=" " alt="" coords="832,834,851,824,890,790,923,751,969,678,974,681,928,754,894,794,854,828,834,839"/>
+<area shape="poly" title=" " alt="" coords="834,884,851,873,874,852,895,828,931,775,956,722,973,680,978,682,961,725,935,777,900,831,878,856,854,878,836,888"/>
+<area shape="poly" title=" " alt="" coords="835,933,851,923,878,896,901,865,938,797,962,732,977,680,982,681,967,733,943,799,906,868,882,899,854,927,837,938"/>
+<area shape="poly" title=" " alt="" coords="836,983,851,972,881,939,907,901,927,861,944,820,967,741,979,681,984,682,972,742,949,821,932,863,911,904,885,942,854,976,839,987"/>
+<area shape="poly" title=" " alt="" coords="837,368,854,379,882,407,906,438,943,506,967,572,982,624,977,626,962,574,938,509,901,441,878,410,851,383,835,372"/>
+<area shape="poly" title=" " alt="" coords="836,417,854,428,878,450,900,475,935,528,961,581,978,624,973,626,956,583,931,531,895,478,874,454,851,432,834,422"/>
+<area shape="poly" title=" " alt="" coords="828,464,854,477,894,512,928,552,974,625,969,628,923,555,890,516,851,482,825,469"/>
+<area shape="poly" title=" " alt="" coords="831,516,854,527,888,550,919,576,967,626,963,630,915,580,884,554,851,531,829,521"/>
+<area shape="rect" href="scheduled_i_o__inj_8cpp.html#a1b5c69f5c97d068e03072b84142fe3c0" title=" " alt="" coords="940,1356,1033,1382"/>
+<area shape="poly" title=" " alt="" coords="824,1527,851,1515,887,1487,919,1454,966,1393,971,1396,923,1458,891,1491,854,1519,826,1532"/>
+<area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1122,1356,1268,1382"/>
+<area shape="poly" title=" " alt="" coords="1033,1366,1106,1366,1106,1372,1033,1372"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1317,1356,1500,1382"/>
+<area shape="poly" title=" " alt="" coords="1268,1366,1301,1366,1301,1372,1268,1372"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1548,1356,1696,1382"/>
+<area shape="poly" title=" " alt="" coords="1500,1366,1532,1366,1532,1372,1500,1372"/>
+<area shape="poly" title=" " alt="" coords="833,1574,851,1564,893,1525,927,1478,953,1433,972,1395,976,1397,958,1435,931,1481,897,1528,854,1568,835,1579"/>
+<area shape="poly" title=" " alt="" coords="834,1624,851,1613,876,1589,898,1562,934,1501,960,1442,975,1395,980,1397,965,1444,939,1504,903,1565,880,1593,854,1618,837,1628"/>
+<area shape="poly" title=" " alt="" coords="835,1673,851,1663,879,1633,904,1599,924,1562,941,1525,965,1453,978,1397,983,1398,970,1454,946,1526,929,1565,908,1602,883,1636,854,1667,838,1678"/>
+<area shape="poly" title=" " alt="" coords="826,1054,854,1069,884,1100,908,1135,929,1173,946,1211,970,1284,983,1340,978,1342,965,1285,941,1213,924,1175,904,1138,880,1104,851,1074,824,1058"/>
+<area shape="poly" title=" " alt="" coords="837,1108,854,1119,880,1144,903,1172,939,1233,965,1293,980,1341,975,1342,960,1295,934,1236,898,1175,876,1147,851,1123,834,1112"/>
+<area shape="poly" title=" " alt="" coords="835,1157,854,1168,897,1209,932,1256,958,1302,976,1340,972,1343,953,1304,927,1259,893,1212,851,1172,833,1162"/>
+<area shape="poly" title=" " alt="" coords="833,1207,854,1217,891,1246,923,1279,971,1341,966,1344,919,1283,887,1250,851,1222,831,1211"/>
+<area shape="poly" title=" " alt="" coords="828,1256,854,1266,914,1305,962,1344,958,1348,910,1309,851,1271,826,1261"/>
+<area shape="poly" title=" " alt="" coords="821,1305,854,1316,938,1347,937,1352,852,1321,820,1310"/>
+<area shape="poly" title=" " alt="" coords="839,1348,925,1359,924,1364,839,1354"/>
+<area shape="poly" title=" " alt="" coords="839,1383,924,1373,925,1378,839,1388"/>
+<area shape="poly" title=" " alt="" coords="820,1426,852,1416,935,1385,937,1390,854,1421,821,1431"/>
+<area shape="poly" title=" " alt="" coords="826,1476,851,1465,910,1428,958,1390,961,1394,913,1432,854,1470,828,1481"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1734,9 +1774,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> injectorLimits </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t injectorLimits </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>angle</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1772,9 +1812,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">bool</a> isAnyFuelScheduleRunning </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool isAnyFuelScheduleRunning </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1820,9 +1860,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">bool</a> isSwitchableCylinderCount </td>
+          <td class="memname">static bool isSwitchableCylinderCount </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1858,9 +1898,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> lookupInjectorAngle </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t lookupInjectorAngle </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1871,9 +1911,11 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="scheduler__fuel__controller_8cpp_af3f3e3dea1dbd39b4ac89402ab696e0e_cgraph.png" border="0" usemap="#ascheduler__fuel__controller_8cpp_af3f3e3dea1dbd39b4ac89402ab696e0e_cgraph" alt=""/></div>
 <map name="ascheduler__fuel__controller_8cpp_af3f3e3dea1dbd39b4ac89402ab696e0e_cgraph" id="ascheduler__fuel__controller_8cpp_af3f3e3dea1dbd39b4ac89402ab696e0e_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,141,31"/>
-<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="189,5,312,31"/>
-<area shape="poly" title=" " alt="" coords="141,16,173,16,173,21,141,21"/>
+<area shape="rect" title=" " alt="" coords="5,31,141,56"/>
+<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="229,5,272,31"/>
+<area shape="poly" title=" " alt="" coords="140,31,214,21,214,26,141,36"/>
+<area shape="rect" href="table2d_8h.html#a16595aa0e4a4984febb0afea4c5af932" title="Interpolate a value from a 2d table." alt="" coords="189,55,312,80"/>
+<area shape="poly" title=" " alt="" coords="141,50,174,54,173,60,141,55"/>
 </map>
 </div>
 <div class="dynheader">
@@ -1896,15 +1938,15 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structarray.html">void</a> matchFuelSchedulersToSyncState </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void matchFuelSchedulersToSyncState </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>, </td>
         </tr>
         <tr>
@@ -2012,6 +2054,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1109,496,1134,485,1192,448,1240,410,1243,414,1195,452,1136,490,1111,501"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="1402,376,1552,402"/>
 <area shape="poly" title=" " alt="" coords="1317,386,1387,386,1387,392,1317,392"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1601,376,1781,402"/>
+<area shape="poly" title=" " alt="" coords="1552,386,1585,386,1585,392,1552,392"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1831,376,1977,402"/>
+<area shape="poly" title=" " alt="" coords="1782,386,1815,386,1815,392,1782,392"/>
 <area shape="poly" title=" " alt="" coords="1113,545,1134,535,1169,506,1201,474,1249,413,1253,416,1205,477,1173,510,1136,539,1116,550"/>
 <area shape="poly" title=" " alt="" coords="1115,594,1133,584,1175,544,1209,498,1236,452,1254,415,1259,417,1240,455,1214,501,1179,548,1137,588,1118,599"/>
 <area shape="poly" title=" " alt="" coords="1117,644,1133,633,1158,609,1180,582,1216,521,1242,463,1257,416,1262,418,1247,465,1221,524,1185,585,1162,613,1137,638,1119,648"/>
@@ -2029,6 +2075,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1113,866,1137,879,1179,919,1214,967,1240,1013,1259,1051,1254,1054,1236,1015,1209,969,1175,923,1133,883,1110,870"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="1404,1067,1550,1092"/>
 <area shape="poly" title=" " alt="" coords="1315,1077,1388,1077,1388,1082,1315,1082"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1600,1067,1782,1092"/>
+<area shape="poly" title=" " alt="" coords="1550,1077,1584,1077,1584,1082,1550,1082"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1830,1067,1978,1092"/>
+<area shape="poly" title=" " alt="" coords="1782,1077,1815,1077,1815,1082,1782,1082"/>
 <area shape="poly" title=" " alt="" coords="1105,1016,1136,1026,1221,1058,1219,1063,1134,1031,1103,1021"/>
 <area shape="poly" title=" " alt="" coords="1116,917,1136,928,1173,957,1205,990,1253,1052,1249,1055,1201,994,1169,961,1134,932,1113,922"/>
 <area shape="poly" title=" " alt="" coords="1112,967,1136,977,1196,1015,1243,1054,1240,1058,1192,1020,1134,982,1110,971"/>
@@ -2070,9 +2120,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> resetFuelSchedules </td>
+          <td class="memname">static void resetFuelSchedules </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2126,7 +2176,7 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">void</a> setFuelChannelSchedule </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> void setFuelChannelSchedule </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_fuel_schedule.html">FuelSchedule</a> &amp;&#160;</td>
           <td class="paramname"><em>schedule</em>, </td>
@@ -2134,13 +2184,13 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>crankAngle</em>, </td>
         </tr>
         <tr>
@@ -2152,7 +2202,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>injAngle</em>, </td>
         </tr>
         <tr>
@@ -2200,6 +2250,8 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="557,201,648,179,650,184,558,206"/>
 <area shape="rect" href="board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204" title="Convert µS to timer ticks." alt="" coords="618,204,800,230"/>
 <area shape="poly" title=" " alt="" coords="561,214,603,214,603,220,561,220"/>
+<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="848,155,890,180"/>
+<area shape="poly" title=" " alt="" coords="754,165,832,165,832,170,754,170"/>
 <area shape="poly" title=" " alt="" coords="571,165,649,165,649,170,571,170"/>
 <area shape="poly" title=" " alt="" coords="558,178,637,197,636,202,557,184"/>
 <area shape="rect" href="crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3" title="Converts a time interval in microsecods to the equivalent degrees of angular (crank) rotation at curr..." alt="" coords="453,253,547,279"/>
@@ -2216,9 +2268,9 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> setFuelChannelSchedules </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t setFuelChannelSchedules </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>crankAngle</em>, </td>
         </tr>
         <tr>
@@ -2230,7 +2282,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>injAngle</em>&#160;</td>
         </tr>
         <tr>
@@ -2265,21 +2317,21 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> setupCallbacks </td>
+          <td class="memname">static void setupCallbacks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>injLayout</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>nCylinders</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>inj4cylPairing</em>&#160;</td>
         </tr>
         <tr>
@@ -2370,6 +2422,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="539,301,562,312,598,341,631,374,678,436,674,439,627,378,595,345,559,316,537,305"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="828,451,977,476"/>
 <area shape="poly" title=" " alt="" coords="742,461,812,461,812,466,742,466"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="1026,451,1206,476"/>
+<area shape="poly" title=" " alt="" coords="978,461,1010,461,1010,466,978,466"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1256,451,1403,476"/>
+<area shape="poly" title=" " alt="" coords="1207,461,1241,461,1241,466,1207,466"/>
 <area shape="poly" title=" " alt="" coords="537,351,562,361,621,399,669,438,665,442,618,404,559,366,535,355"/>
 <area shape="poly" title=" " alt="" coords="530,400,561,410,646,442,644,447,559,415,529,405"/>
 <area shape="poly" title=" " alt="" coords="553,443,632,453,631,459,552,449"/>
@@ -2387,6 +2443,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="530,1090,561,1101,645,1132,643,1137,559,1106,529,1095"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="829,1140,976,1166"/>
 <area shape="poly" title=" " alt="" coords="740,1150,814,1150,814,1156,740,1156"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="1025,1140,1207,1166"/>
+<area shape="poly" title=" " alt="" coords="976,1150,1009,1150,1009,1156,976,1156"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1255,1140,1404,1166"/>
+<area shape="poly" title=" " alt="" coords="1207,1150,1240,1150,1240,1156,1207,1156"/>
 <area shape="poly" title=" " alt="" coords="551,1134,633,1143,632,1148,550,1139"/>
 <area shape="poly" title=" " alt="" coords="550,1168,632,1158,633,1163,551,1173"/>
 <area shape="poly" title=" " alt="" coords="529,1212,559,1201,644,1169,646,1174,561,1206,530,1217"/>
@@ -2438,9 +2498,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> setupPairedCallbacks </td>
+          <td class="memname">static void setupPairedCallbacks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2502,15 +2562,15 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> setupSemiSequentialCallbacks </td>
+          <td class="memname">static void setupSemiSequentialCallbacks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>nCylinders</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint8_t</a>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>inj4cylPairing</em>&#160;</td>
         </tr>
         <tr>
@@ -2595,6 +2655,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="381,27,404,40,433,71,458,106,495,182,519,255,532,311,527,312,514,256,490,184,453,109,429,75,400,44,379,31"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81" title=" " alt="" coords="669,327,819,352"/>
 <area shape="poly" title=" " alt="" coords="584,337,654,337,654,342,584,342"/>
+<area shape="rect" href="classfast_output_pin__t.html#aaacbe9a193d5a3287df91f53de05faf8" title="Set the pin low." alt="" coords="868,327,1048,352"/>
+<area shape="poly" title=" " alt="" coords="819,337,852,337,852,342,819,342"/>
+<area shape="rect" href="structport__pin__t.html#abf5f5a60e6664a871c71ec5a46ba1377" title="Set the pin low." alt="" coords="1098,327,1244,352"/>
+<area shape="poly" title=" " alt="" coords="1049,337,1082,337,1082,342,1049,342"/>
 <area shape="poly" title=" " alt="" coords="386,79,404,89,429,114,452,143,488,204,514,264,530,311,525,313,509,266,484,207,448,146,425,118,400,94,384,83"/>
 <area shape="poly" title=" " alt="" coords="385,128,404,139,446,179,481,227,507,273,526,311,521,314,503,275,476,229,442,183,400,143,383,133"/>
 <area shape="poly" title=" " alt="" coords="383,177,403,188,440,217,472,250,520,312,516,315,468,254,436,221,401,192,380,182"/>
@@ -2612,6 +2676,10 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="380,717,404,731,433,762,457,796,495,871,519,944,532,1000,527,1001,514,945,490,874,453,799,429,765,400,735,377,721"/>
 <area shape="rect" href="scheduled_i_o__direct__inj_8cpp.html#aac5308a1690db9437711c0760c45f5f6" title=" " alt="" coords="671,1016,817,1042"/>
 <area shape="poly" title=" " alt="" coords="582,1026,655,1026,655,1032,582,1032"/>
+<area shape="rect" href="classfast_output_pin__t.html#a2fdd786db7f273d18946109b101ab9f4" title="Set the pin high." alt="" coords="867,1016,1049,1042"/>
+<area shape="poly" title=" " alt="" coords="817,1026,851,1026,851,1032,817,1032"/>
+<area shape="rect" href="structport__pin__t.html#a87cd5189528b476943f9e9a5c02bf3f4" title="Set the pin high." alt="" coords="1097,1016,1245,1042"/>
+<area shape="poly" title=" " alt="" coords="1049,1026,1082,1026,1082,1032,1049,1032"/>
 <area shape="poly" title=" " alt="" coords="386,769,404,780,429,805,452,833,488,894,514,953,529,1000,524,1002,509,955,483,896,447,836,425,808,400,784,384,774"/>
 <area shape="poly" title=" " alt="" coords="385,819,404,829,446,870,481,917,507,963,526,1001,521,1003,503,965,476,920,442,873,400,834,382,823"/>
 <area shape="poly" title=" " alt="" coords="383,868,403,879,440,907,472,940,520,1002,516,1005,468,944,436,911,401,883,380,873"/>
@@ -2667,9 +2735,9 @@ Here is the caller graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">static</a> <a class="el" href="structarray.html">void</a> setupSequentialCallbacks </td>
+          <td class="memname">static void setupSequentialCallbacks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2721,9 +2789,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> startFuelSchedulers </td>
+          <td class="memname">void startFuelSchedulers </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2777,9 +2845,9 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">void</a> stopFuelSchedulers </td>
+          <td class="memname">void stopFuelSchedulers </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2821,9 +2889,9 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> <a class="el" href="structarray.html">uint16_t</a> updatePwAngleCache </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t updatePwAngleCache </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">uint16_t</a>&#160;</td>
+          <td class="paramtype">uint16_t&#160;</td>
           <td class="paramname"><em>pw</em>, </td>
         </tr>
         <tr>
@@ -2874,7 +2942,7 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname">zeroAllChannels </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structarray.html">void</a>&#160;</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2906,7 +2974,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> <a class="el" href="structarray.html">PrimingPulseTable</a>&amp; configPage2</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> PrimingPulseTable&amp; configPage2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2920,7 +2988,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a>&amp; current</td>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a>&amp; current</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2967,7 +3035,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a>&amp; page2</td>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a>&amp; page2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2981,7 +3049,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a>&amp; page4</td>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a>&amp; page4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2995,7 +3063,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structarray.html">const</a> <a class="el" href="structconfig2.html">config2</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig4.html">config4</a> <a class="el" href="structarray.html">const</a> <a class="el" href="structconfig6.html">config6</a>&amp; page6</td>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a>&amp; page6</td>
         </tr>
       </table>
 </div><div class="memdoc">
