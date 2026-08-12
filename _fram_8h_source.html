@@ -156,8 +156,8 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> enableWrite (uint8_t state);</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">void</span> setClock(uint32_t clockSpeed);</div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    uint8_t <a class="code hl_function" href="storage_8cpp.html#a1b9967f37ccf7c7e53c0465fdb3b1b47">write</a> (uint32_t addr, uint8_t *data, uint16_t count);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    uint8_t <a class="code hl_function" href="storage_8cpp.html#a1b9967f37ccf7c7e53c0465fdb3b1b47">write</a> (uint32_t addr, uint8_t data);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    uint8_t write (uint32_t addr, uint8_t *data, uint16_t count);</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    uint8_t write (uint32_t addr, uint8_t data);</div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    uint8_t read (uint32_t addr, uint8_t *dataBuffer, uint16_t count);</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    uint8_t read (uint32_t addr);</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    uint8_t <a class="code hl_function" href="storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8">update</a> (uint32_t addr, uint8_t data);</div>
@@ -176,7 +176,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keyword">template</span>&lt; <span class="keyword">typename</span> T &gt; <span class="keyword">const</span> T &amp;put( <span class="keywordtype">int</span> idx, <span class="keyword">const</span> T &amp;t ){        </div>
 <div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>        <span class="keyword">const</span> uint8_t *ptr = (<span class="keyword">const</span> uint8_t*) &amp;t;</div>
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        uint16_t e = idx;</div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> count = <span class="keyword">sizeof</span>(T) ; count ; --count, ++e )  <a class="code hl_function" href="storage_8cpp.html#a1b9967f37ccf7c7e53c0465fdb3b1b47">write</a>(e, *ptr++);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <span class="keywordflow">for</span>( <span class="keywordtype">int</span> count = <span class="keyword">sizeof</span>(T) ; count ; --count, ++e )  write(e, *ptr++);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>        <span class="keywordflow">return</span> t;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    }</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
@@ -234,7 +234,6 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span> </div>
 <div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span><span class="preprocessor">#endif   </span><span class="comment">// __FRAM_H__</span></div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
-<div class="ttc" id="astorage_8cpp_html_a1b9967f37ccf7c7e53c0465fdb3b1b47"><div class="ttname"><a href="storage_8cpp.html#a1b9967f37ccf7c7e53c0465fdb3b1b47">write</a></div><div class="ttdeci">static write_location write(const table_row_iterator &amp;row, const write_location &amp;location)</div><div class="ttdef"><b>Definition</b> storage.cpp:261</div></div>
 <div class="ttc" id="astorage__api_8cpp_html_a573585a4bfa716970289cff4af01c4d8"><div class="ttname"><a href="storage__api_8cpp.html#a573585a4bfa716970289cff4af01c4d8">update</a></div><div class="ttdeci">bool update(const storage_api_t &amp;api, uint16_t address, byte value)</div><div class="ttdoc">Conditionally write a byte to storage if it differs from the one already saved.</div><div class="ttdef"><b>Definition</b> storage_api.cpp:7</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -80,7 +80,8 @@ $(function() {
   <div class="headertitle"><div class="title">pages.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;tuple&gt;</code><br />
+<code>#include &quot;<a class="el" href="pages_8h_source.html">pages.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="table3d__visitor_8h_source.html">table3d_visitor.h</a>&quot;</code><br />
@@ -95,6 +96,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structset__table__value__visitor.html">set_table_value_visitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structpage__map__t.html">page_map_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structset_table_to_empty__visitor.html">setTableToEmpty_visitor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -136,12 +139,6 @@ Functions</h2></td></tr>
 <tr class="separator:a9a04522295f0136fc7ca3ab0478cf657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09b6e24c9862b3082eaae010c502b813" id="r_a09b6e24c9862b3082eaae010c502b813"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structpage__iterator__t.html">page_iterator_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813">map_page_offset_to_entity</a> (uint8_t pageNumber, uint16_t offset)</td></tr>
 <tr class="separator:a09b6e24c9862b3082eaae010c502b813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26bb1a4a88de02cef0cbb2c10ced1ea7" id="r_a26bb1a4a88de02cef0cbb2c10ced1ea7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a26bb1a4a88de02cef0cbb2c10ced1ea7">setTableRowToEmpty</a> (<a class="el" href="classtable__row__iterator.html">table_row_iterator</a> row)</td></tr>
-<tr class="separator:a26bb1a4a88de02cef0cbb2c10ced1ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade150cb69159d1cfe7c9603dca34ae07" id="r_ade150cb69159d1cfe7c9603dca34ae07"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#ade150cb69159d1cfe7c9603dca34ae07">setTableValuesToEmpty</a> (<a class="el" href="classtable__value__iterator.html">table_value_iterator</a> it)</td></tr>
-<tr class="separator:ade150cb69159d1cfe7c9603dca34ae07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f7637e8c98c44e9c6eb2b807afcc38b" id="r_a6f7637e8c98c44e9c6eb2b807afcc38b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a6f7637e8c98c44e9c6eb2b807afcc38b">setTableAxisToEmpty</a> (<a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a> it)</td></tr>
-<tr class="separator:a6f7637e8c98c44e9c6eb2b807afcc38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cac2652655f1fdaca688135f30bde60" id="r_a8cac2652655f1fdaca688135f30bde60"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60">setTableToEmpty</a> (const <a class="el" href="structpage__iterator__t.html">page_iterator_t</a> &amp;iter)</td></tr>
 <tr class="separator:a8cac2652655f1fdaca688135f30bde60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e4c2961c171af0a299f2db0f0e14dda" id="r_a3e4c2961c171af0a299f2db0f0e14dda"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda">setEntityToEmpty</a> (<a class="el" href="structpage__iterator__t.html">page_iterator_t</a> iter)</td></tr>
@@ -2083,27 +2080,9 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pages_8cpp_a3e4c2961c171af0a299f2db0f0e14dda_cgraph.png" border="0" usemap="#apages_8cpp_a3e4c2961c171af0a299f2db0f0e14dda_cgraph" alt=""/></div>
 <map name="apages_8cpp_a3e4c2961c171af0a299f2db0f0e14dda_cgraph" id="apages_8cpp_a3e4c2961c171af0a299f2db0f0e14dda_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,128,130"/>
-<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="176,104,298,130"/>
-<area shape="poly" title=" " alt="" coords="128,114,160,114,160,120,128,120"/>
-<area shape="rect" href="group__table__3d.html#gae66f4285820d443a99d83c3c014694e7" title=" " alt="" coords="384,5,471,31"/>
-<area shape="poly" title=" " alt="" coords="252,101,293,71,345,40,368,30,370,35,347,45,296,75,256,106"/>
-<area shape="rect" href="pages_8cpp.html#a6f7637e8c98c44e9c6eb2b807afcc38b" title=" " alt="" coords="354,55,501,80"/>
-<area shape="poly" title=" " alt="" coords="289,101,359,82,361,87,290,106"/>
-<area shape="rect" href="pages_8cpp.html#ade150cb69159d1cfe7c9603dca34ae07" title=" " alt="" coords="346,104,508,130"/>
-<area shape="poly" title=" " alt="" coords="299,114,330,114,330,120,299,120"/>
-<area shape="rect" href="group__table__3d.html#gae1a5f4e7fb46e7dd9ed2c46a867e34e7" title=" " alt="" coords="395,153,460,179"/>
-<area shape="poly" title=" " alt="" coords="290,128,380,151,379,157,289,133"/>
-<area shape="rect" href="group__table__3d.html#gaffe6eba9528b85728fec5c4fc8984990" title=" " alt="" coords="395,203,460,228"/>
-<area shape="poly" title=" " alt="" coords="256,128,296,158,347,189,380,202,378,207,345,194,293,163,252,132"/>
-<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="567,31,694,72"/>
-<area shape="poly" title=" " alt="" coords="501,59,552,55,552,60,501,64"/>
-<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="563,97,698,137"/>
-<area shape="poly" title=" " alt="" coords="509,114,548,114,548,120,509,120"/>
-<area shape="rect" href="pages_8cpp.html#a26bb1a4a88de02cef0cbb2c10ced1ea7" title=" " alt="" coords="556,161,705,187"/>
-<area shape="poly" title=" " alt="" coords="476,128,568,154,567,159,475,133"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="753,154,877,195"/>
-<area shape="poly" title=" " alt="" coords="705,172,737,172,737,177,705,177"/>
+<area shape="rect" title=" " alt="" coords="5,5,128,31"/>
+<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="176,5,298,31"/>
+<area shape="poly" title=" " alt="" coords="128,16,160,16,160,21,128,21"/>
 </map>
 </div>
 <div class="dynheader">
@@ -2336,116 +2315,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6f7637e8c98c44e9c6eb2b807afcc38b" name="a6f7637e8c98c44e9c6eb2b807afcc38b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7637e8c98c44e9c6eb2b807afcc38b">&#9670;&#160;</a></span>setTableAxisToEmpty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void setTableAxisToEmpty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classtable__axis__iterator.html">table_axis_iterator</a>&#160;</td>
-          <td class="paramname"><em>it</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_cgraph.png" border="0" usemap="#apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_cgraph" alt=""/></div>
-<map name="apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_cgraph" id="apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,153,39"/>
-<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="201,5,327,46"/>
-<area shape="poly" title=" " alt="" coords="153,23,185,23,185,28,153,28"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_icgraph.png" border="0" usemap="#apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_icgraph" alt=""/></div>
-<map name="apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_icgraph" id="apages_8cpp_a6f7637e8c98c44e9c6eb2b807afcc38b_icgraph">
-<area shape="rect" title=" " alt="" coords="746,5,893,31"/>
-<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="576,5,698,31"/>
-<area shape="poly" title=" " alt="" coords="730,21,699,21,699,16,730,16"/>
-<area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="405,5,528,31"/>
-<area shape="poly" title=" " alt="" coords="560,21,528,21,528,16,560,16"/>
-<area shape="rect" href="pages_8cpp.html#a09136cff6b0dc7f71512be5b3e21510f" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="238,5,357,31"/>
-<area shape="poly" title=" " alt="" coords="390,21,357,21,357,16,390,16"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a26bb1a4a88de02cef0cbb2c10ced1ea7" name="a26bb1a4a88de02cef0cbb2c10ced1ea7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26bb1a4a88de02cef0cbb2c10ced1ea7">&#9670;&#160;</a></span>setTableRowToEmpty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void setTableRowToEmpty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classtable__row__iterator.html">table_row_iterator</a>&#160;</td>
-          <td class="paramname"><em>row</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_cgraph.png" border="0" usemap="#apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_cgraph" alt=""/></div>
-<map name="apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_cgraph" id="apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,13,154,39"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="202,5,326,46"/>
-<area shape="poly" title=" " alt="" coords="154,23,186,23,186,28,154,28"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_icgraph.png" border="0" usemap="#apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_icgraph" alt=""/></div>
-<map name="apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_icgraph" id="apages_8cpp_a26bb1a4a88de02cef0cbb2c10ced1ea7_icgraph">
-<area shape="rect" title=" " alt="" coords="956,5,1105,31"/>
-<area shape="rect" href="pages_8cpp.html#ade150cb69159d1cfe7c9603dca34ae07" title=" " alt="" coords="746,5,908,31"/>
-<area shape="poly" title=" " alt="" coords="941,21,909,21,909,16,941,16"/>
-<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="576,5,698,31"/>
-<area shape="poly" title=" " alt="" coords="731,21,698,21,698,16,731,16"/>
-<area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="405,5,528,31"/>
-<area shape="poly" title=" " alt="" coords="560,21,528,21,528,16,560,16"/>
-<area shape="rect" href="pages_8cpp.html#a09136cff6b0dc7f71512be5b3e21510f" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="238,5,357,31"/>
-<area shape="poly" title=" " alt="" coords="390,21,357,21,357,16,390,16"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a8cac2652655f1fdaca688135f30bde60" name="a8cac2652655f1fdaca688135f30bde60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8cac2652655f1fdaca688135f30bde60">&#9670;&#160;</a></span>setTableToEmpty()</h2>
 
@@ -2470,95 +2339,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_a8cac2652655f1fdaca688135f30bde60_cgraph.png" border="0" usemap="#apages_8cpp_a8cac2652655f1fdaca688135f30bde60_cgraph" alt=""/></div>
-<map name="apages_8cpp_a8cac2652655f1fdaca688135f30bde60_cgraph" id="apages_8cpp_a8cac2652655f1fdaca688135f30bde60_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,128,130"/>
-<area shape="rect" href="group__table__3d.html#gae66f4285820d443a99d83c3c014694e7" title=" " alt="" coords="213,5,301,31"/>
-<area shape="poly" title=" " alt="" coords="82,101,123,71,174,40,198,30,200,35,177,45,125,75,85,106"/>
-<area shape="rect" href="pages_8cpp.html#a6f7637e8c98c44e9c6eb2b807afcc38b" title=" " alt="" coords="183,55,331,80"/>
-<area shape="poly" title=" " alt="" coords="118,101,189,82,190,87,120,106"/>
-<area shape="rect" href="pages_8cpp.html#ade150cb69159d1cfe7c9603dca34ae07" title=" " alt="" coords="176,104,338,130"/>
-<area shape="poly" title=" " alt="" coords="128,114,160,114,160,120,128,120"/>
-<area shape="rect" href="group__table__3d.html#gae1a5f4e7fb46e7dd9ed2c46a867e34e7" title=" " alt="" coords="224,153,290,179"/>
-<area shape="poly" title=" " alt="" coords="120,128,210,151,208,157,118,133"/>
-<area shape="rect" href="group__table__3d.html#gaffe6eba9528b85728fec5c4fc8984990" title=" " alt="" coords="224,203,290,228"/>
-<area shape="poly" title=" " alt="" coords="85,128,125,158,177,189,210,202,208,207,175,194,123,163,82,132"/>
-<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="397,31,523,72"/>
-<area shape="poly" title=" " alt="" coords="330,59,381,55,382,60,331,64"/>
-<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="393,97,527,137"/>
-<area shape="poly" title=" " alt="" coords="339,114,377,114,377,120,339,120"/>
-<area shape="rect" href="pages_8cpp.html#a26bb1a4a88de02cef0cbb2c10ced1ea7" title=" " alt="" coords="386,161,534,187"/>
-<area shape="poly" title=" " alt="" coords="306,128,398,154,397,159,304,133"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="582,154,707,195"/>
-<area shape="poly" title=" " alt="" coords="535,172,567,172,567,177,535,177"/>
-</map>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pages_8cpp_a8cac2652655f1fdaca688135f30bde60_icgraph.png" border="0" usemap="#apages_8cpp_a8cac2652655f1fdaca688135f30bde60_icgraph" alt=""/></div>
 <map name="apages_8cpp_a8cac2652655f1fdaca688135f30bde60_icgraph" id="apages_8cpp_a8cac2652655f1fdaca688135f30bde60_icgraph">
 <area shape="rect" title=" " alt="" coords="576,5,698,31"/>
-<area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="405,5,528,31"/>
-<area shape="poly" title=" " alt="" coords="560,21,528,21,528,16,560,16"/>
-<area shape="rect" href="pages_8cpp.html#a09136cff6b0dc7f71512be5b3e21510f" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="238,5,357,31"/>
-<area shape="poly" title=" " alt="" coords="390,21,357,21,357,16,390,16"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="222,21,190,21,190,16,222,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ade150cb69159d1cfe7c9603dca34ae07" name="ade150cb69159d1cfe7c9603dca34ae07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade150cb69159d1cfe7c9603dca34ae07">&#9670;&#160;</a></span>setTableValuesToEmpty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void setTableValuesToEmpty </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classtable__value__iterator.html">table_value_iterator</a>&#160;</td>
-          <td class="paramname"><em>it</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_cgraph.png" border="0" usemap="#apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_cgraph" alt=""/></div>
-<map name="apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_cgraph" id="apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_cgraph">
-<area shape="rect" title=" " alt="" coords="5,42,168,68"/>
-<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="223,5,357,46"/>
-<area shape="poly" title=" " alt="" coords="168,41,207,35,208,40,169,46"/>
-<area shape="rect" href="pages_8cpp.html#a26bb1a4a88de02cef0cbb2c10ced1ea7" title=" " alt="" coords="216,70,364,96"/>
-<area shape="poly" title=" " alt="" coords="169,64,201,68,200,73,168,69"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="412,63,536,103"/>
-<area shape="poly" title=" " alt="" coords="365,80,396,80,396,86,365,86"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="pages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_icgraph.png" border="0" usemap="#apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_icgraph" alt=""/></div>
-<map name="apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_icgraph" id="apages_8cpp_ade150cb69159d1cfe7c9603dca34ae07_icgraph">
-<area shape="rect" title=" " alt="" coords="746,5,908,31"/>
-<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="576,5,698,31"/>
-<area shape="poly" title=" " alt="" coords="731,21,698,21,698,16,731,16"/>
 <area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="405,5,528,31"/>
 <area shape="poly" title=" " alt="" coords="560,21,528,21,528,16,560,16"/>
 <area shape="rect" href="pages_8cpp.html#a09136cff6b0dc7f71512be5b3e21510f" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="238,5,357,31"/>
@@ -2594,51 +2379,33 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="pages_8cpp_a09136cff6b0dc7f71512be5b3e21510f_cgraph.png" border="0" usemap="#apages_8cpp_a09136cff6b0dc7f71512be5b3e21510f_cgraph" alt=""/></div>
 <map name="apages_8cpp_a09136cff6b0dc7f71512be5b3e21510f_cgraph" id="apages_8cpp_a09136cff6b0dc7f71512be5b3e21510f_cgraph">
-<area shape="rect" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="5,161,125,187"/>
-<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="199,112,269,138"/>
-<area shape="poly" title=" " alt="" coords="111,158,183,137,185,142,112,163"/>
-<area shape="rect" href="pages_8cpp.html#a3057030ed67c5cd67e89ef2f75b2c448" title=" " alt="" coords="190,161,278,187"/>
-<area shape="poly" title=" " alt="" coords="125,172,175,172,175,177,125,177"/>
-<area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="173,251,295,276"/>
-<area shape="poly" title=" " alt="" coords="92,185,196,241,193,245,90,190"/>
-<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="343,105,481,145"/>
-<area shape="poly" title=" " alt="" coords="269,122,328,122,328,128,269,128"/>
-<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="563,55,658,80"/>
-<area shape="poly" title=" " alt="" coords="481,102,548,83,550,88,483,107"/>
-<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="538,112,683,138"/>
-<area shape="poly" title=" " alt="" coords="482,122,523,122,523,128,482,128"/>
-<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="785,55,887,80"/>
-<area shape="poly" title=" " alt="" coords="658,65,769,65,769,70,658,70"/>
-<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="793,5,879,31"/>
-<area shape="poly" title=" " alt="" coords="657,55,777,28,778,33,659,60"/>
-<area shape="poly" title=" " alt="" coords="663,109,769,82,770,87,665,114"/>
-<area shape="rect" href="structpage__entity__t.html#ab70e9812394e4f15fc51c50498099ca6" title="Check if the offset is within the entity address range." alt="" coords="740,105,932,145"/>
-<area shape="poly" title=" " alt="" coords="683,122,724,122,724,128,683,128"/>
-<area shape="rect" href="structentity__page__location__t.html#ab8d8e532cb57f1095e931a33e11a8a3c" title=" " alt="" coords="766,170,906,211"/>
-<area shape="poly" title=" " alt="" coords="658,136,752,163,751,168,657,141"/>
-<area shape="rect" href="structentity__page__location__t.html#a531ccdf9b69472120b652b3965e5741b" title=" " alt="" coords="980,170,1147,211"/>
-<area shape="poly" title=" " alt="" coords="906,188,965,188,965,193,906,193"/>
-<area shape="poly" title=" " alt="" coords="277,160,327,145,329,151,279,165"/>
-<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="351,280,473,306"/>
-<area shape="poly" title=" " alt="" coords="296,271,336,278,335,283,295,276"/>
-<area shape="rect" href="group__table__3d.html#gae66f4285820d443a99d83c3c014694e7" title=" " alt="" coords="567,201,654,227"/>
-<area shape="poly" title=" " alt="" coords="438,277,528,236,551,228,553,233,530,241,440,282"/>
-<area shape="rect" href="pages_8cpp.html#a6f7637e8c98c44e9c6eb2b807afcc38b" title=" " alt="" coords="537,251,684,276"/>
-<area shape="poly" title=" " alt="" coords="473,281,521,274,522,279,474,286"/>
-<area shape="rect" href="pages_8cpp.html#ade150cb69159d1cfe7c9603dca34ae07" title=" " alt="" coords="529,300,692,326"/>
-<area shape="poly" title=" " alt="" coords="474,296,514,300,513,306,474,302"/>
-<area shape="rect" href="group__table__3d.html#gae1a5f4e7fb46e7dd9ed2c46a867e34e7" title=" " alt="" coords="578,349,643,375"/>
-<area shape="poly" title=" " alt="" coords="447,304,530,336,564,346,562,352,528,341,445,309"/>
-<area shape="rect" href="group__table__3d.html#gaffe6eba9528b85728fec5c4fc8984990" title=" " alt="" coords="578,399,643,424"/>
-<area shape="poly" title=" " alt="" coords="428,304,471,344,500,366,531,385,564,398,562,403,528,390,497,370,468,348,424,308"/>
-<area shape="rect" href="classtable__axis__iterator.html#a05051d0734e9a8500d3e855f8d609eec" title="Test for end of iteration." alt="" coords="773,235,899,276"/>
-<area shape="poly" title=" " alt="" coords="685,258,757,256,757,261,685,264"/>
-<area shape="rect" href="classtable__value__iterator.html#af20486ed89bb7f98ceef94a9e288aeb0" title="Test for end of iteration." alt="" coords="769,301,903,341"/>
-<area shape="poly" title=" " alt="" coords="692,313,753,315,753,321,692,318"/>
-<area shape="rect" href="pages_8cpp.html#a26bb1a4a88de02cef0cbb2c10ced1ea7" title=" " alt="" coords="762,365,910,391"/>
-<area shape="poly" title=" " alt="" coords="658,324,692,334,740,350,768,358,767,363,739,355,691,339,657,329"/>
-<area shape="rect" href="classtable__row__iterator.html#ab55777ca6ccf1e31874fa043a584b129" title="Number of elements available." alt="" coords="1002,358,1126,399"/>
-<area shape="poly" title=" " alt="" coords="910,376,986,376,986,381,910,381"/>
+<area shape="rect" title="Fill the tune (config pages &amp; tables) with zeroes." alt="" coords="5,109,125,135"/>
+<area shape="rect" href="pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99" title=" " alt="" coords="199,60,269,86"/>
+<area shape="poly" title=" " alt="" coords="111,106,183,85,185,90,112,111"/>
+<area shape="rect" href="pages_8cpp.html#a3057030ed67c5cd67e89ef2f75b2c448" title=" " alt="" coords="190,109,278,135"/>
+<area shape="poly" title=" " alt="" coords="125,120,175,120,175,125,125,125"/>
+<area shape="rect" href="pages_8cpp.html#a3e4c2961c171af0a299f2db0f0e14dda" title=" " alt="" coords="173,159,295,184"/>
+<area shape="poly" title=" " alt="" coords="112,133,174,151,172,156,111,138"/>
+<area shape="rect" href="pages_8cpp.html#a09b6e24c9862b3082eaae010c502b813" title=" " alt="" coords="343,74,481,115"/>
+<area shape="poly" title=" " alt="" coords="270,74,328,81,327,87,269,80"/>
+<area shape="rect" href="pages_8cpp.html#a766e9fb4e5c3959e71ea06454099607e" title=" " alt="" coords="554,55,649,80"/>
+<area shape="poly" title=" " alt="" coords="482,82,539,74,539,79,482,87"/>
+<area shape="rect" href="pages_8cpp.html#a9a04522295f0136fc7ca3ab0478cf657" title="Search for the page_iterator_t that spans pageOffset." alt="" coords="529,108,674,134"/>
+<area shape="poly" title=" " alt="" coords="482,101,514,106,514,111,482,107"/>
+<area shape="rect" href="prog__mem__support_8h.html#a8f113beb48b8c2ec085ad15703567f40" title="Copy an object stored in flash to an existing RAM based instance." alt="" coords="767,55,869,80"/>
+<area shape="poly" title=" " alt="" coords="649,65,751,65,751,70,649,70"/>
+<area shape="rect" href="pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9" title=" " alt="" coords="775,5,861,31"/>
+<area shape="poly" title=" " alt="" coords="649,54,759,29,760,34,650,59"/>
+<area shape="poly" title=" " alt="" coords="656,105,751,81,752,86,657,110"/>
+<area shape="rect" href="structpage__entity__t.html#ab70e9812394e4f15fc51c50498099ca6" title="Check if the offset is within the entity address range." alt="" coords="722,105,914,145"/>
+<area shape="poly" title=" " alt="" coords="674,119,706,120,706,125,674,125"/>
+<area shape="rect" href="structentity__page__location__t.html#ab8d8e532cb57f1095e931a33e11a8a3c" title=" " alt="" coords="748,170,888,211"/>
+<area shape="poly" title=" " alt="" coords="645,132,738,162,737,167,643,137"/>
+<area shape="rect" href="structentity__page__location__t.html#a531ccdf9b69472120b652b3965e5741b" title=" " alt="" coords="962,170,1129,211"/>
+<area shape="poly" title=" " alt="" coords="888,188,947,188,947,193,888,193"/>
+<area shape="poly" title=" " alt="" coords="278,113,327,105,328,110,279,118"/>
+<area shape="rect" href="pages_8cpp.html#a8cac2652655f1fdaca688135f30bde60" title=" " alt="" coords="351,159,473,184"/>
+<area shape="poly" title=" " alt="" coords="296,169,336,169,336,174,296,174"/>
 </map>
 </div>
 <div class="dynheader">

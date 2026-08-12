@@ -2,7 +2,7 @@ var searchData=
 [
   ['gear_0',['gear',['../structstatuses.html#a6cbc535835703d8f4b05de0e914479fd',1,'statuses']]],
   ['generatelivevalues_1',['generateLiveValues',['../group__group-serial-comms-impl.html#gaffe28fdfed911a20253152a719567df6',1,'comms.cpp']]],
-  ['get3dtablevalue_2',['get3DTableValue',['../table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da',1,'table3d_interpolate.h']]],
+  ['get3dtablevalue_2',['get3dtablevalue',['../table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da',1,'get3DTableValue(struct table3DGetValueCache *pValueCache, const table3d_dim_t axisSize, const table3d_value_t *pValues, const table3d_axis_t *pXAxis, const table3d_axis_t *pYAxis, const xy_pair_t &amp;lookupValues):&#160;table3d_interpolate.h'],['../group__table__3d.html#gadf4d0a5a3fb543ec773de5535f382ae5',1,'get3DTableValue(const TTable *pTable, const uint16_t y, const uint16_t x):&#160;table3d.h']]],
   ['get_5fraw_5flocation_3',['get_raw_location',['../pages_8cpp.html#a706af1e66243f7aa89d36c94876ec577',1,'pages.cpp']]],
   ['get_5ftable_5faxisx_5fend_4',['get_table_axisx_end',['../pages_8cpp.html#a66a6fc49ded64ed8376a395db96d162c',1,'pages.cpp']]],
   ['get_5ftable_5fvalue_5',['get_table_value',['../pages_8cpp.html#a970a89134e5a4bdcea568be1e9acfbd6',1,'pages.cpp']]],
@@ -48,7 +48,7 @@ var searchData=
   ['getdecoderinitfunc_45',['getDecoderInitFunc',['../decoder__init_8cpp.html#abcd528416236a75ba97883f9d66b3181',1,'decoder_init.cpp']]],
   ['getdefaultpinmapping_46',['getDefaultPinMapping',['../pin_mapping_8cpp.html#a7f2f93143f8cd5012ca2d3cdfffefde4',1,'pinMapping.cpp']]],
   ['geteepromstorageapi_47',['getEEPROMStorageApi',['../board__eeprom__adapter_8hpp.html#a705cd3c11c7deae76ce10f1941dd47cc',1,'board_eeprom_adapter.hpp']]],
-  ['getentityvalue_48',['getentityvalue',['../pages_8cpp.html#afc8ffbb79165fa797e3a63eb5f1c7af6',1,'getEntityValue(const entity_t &amp;entity, uint16_t entityOffset):&#160;pages.cpp'],['../pages_8h.html#ac79623d02868250aca9b3fbf6bb945f9',1,'getEntityValue(const entity_t &amp;entity, uint16_t offset):&#160;pages.cpp']]],
+  ['getentityvalue_48',['getentityvalue',['../pages_8h.html#ac79623d02868250aca9b3fbf6bb945f9',1,'getEntityValue(const entity_t &amp;entity, uint16_t offset):&#160;pages.cpp'],['../pages_8cpp.html#afc8ffbb79165fa797e3a63eb5f1c7af6',1,'getEntityValue(const entity_t &amp;entity, uint16_t entityOffset):&#160;pages.cpp']]],
   ['getfeatures_49',['getFeatures',['../structdecoder__t.html#a3ced8077c2319e91f9af9cf98aaee6cc',1,'decoder_t']]],
   ['getfuelpressure_50',['getFuelPressure',['../sensors_8cpp.html#a8804e7a5b441937b034d6fb953c96e7b',1,'sensors.cpp']]],
   ['getgear_51',['getGear',['../sensors_8cpp.html#afa9cda951e4db3aa4dca2df7cc1ddd62',1,'sensors.cpp']]],
