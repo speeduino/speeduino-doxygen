@@ -12,6 +12,7 @@ var searchData=
   ['pinnumbers_5ft_9',['pinNumbers_t',['../structpin_numbers__t.html',1,'']]],
   ['polledaction_5ft_10',['polledAction_t',['../structpolled_action__t.html',1,'']]],
   ['port_5fpin_5ft_11',['port_pin_t',['../structport__pin__t.html',1,'']]],
-  ['pulsewidths_12',['pulseWidths',['../structpulse_widths.html',1,'']]],
-  ['pump_5fstate_5ft_13',['pump_state_t',['../structfuel_pump_controller_1_1detsil_1_1pump__state__t.html',1,'fuelPumpController::detsil']]]
+  ['processing_5fchannel_5ft_12',['processing_channel_t',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html',1,'programmableIOControl_details']]],
+  ['pulsewidths_13',['pulseWidths',['../structpulse_widths.html',1,'']]],
+  ['pump_5fstate_5ft_14',['pump_state_t',['../structfuel_pump_controller_1_1detsil_1_1pump__state__t.html',1,'fuelPumpController::detsil']]]
 ];

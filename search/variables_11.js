@@ -6,7 +6,7 @@ var searchData=
   ['reset_3',['reset',['../structdecoder__t.html#a274ed2cce5d1d68f19c141ada7ec737f',1,'decoder_t']]],
   ['resetcontrolconfig_4',['resetControlConfig',['../structconfig4.html#afe47b134962ff13a38467d04b4967162',1,'config4']]],
   ['resetcontrolpin_5',['resetControlPin',['../structconfig4.html#a0dbe4850b2ec9f99c2423261de1d94e6',1,'config4']]],
-  ['reuse_5frules_6',['REUSE_RULES',['../programmable_i_o_control_8h.html#a2f7150cc8a7d09534e2ac3f2b76f1059',1,'programmableIOControl.h']]],
+  ['reuse_5frules_6',['REUSE_RULES',['../namespaceprogrammable_i_o_control__details.html#a0bc35422a69a92a6f129ecf6d10ac258',1,'programmableIOControl_details']]],
   ['revolutionone_7',['revolutionOne',['../decoders_8cpp.html#afce12e6bb920a5a0e061554aa2959221',1,'decoders.cpp']]],
   ['revolutiontime_8',['revolutionTime',['../structstatuses.html#a1c3243ef635c145798da6e3bf3693024',1,'statuses']]],
   ['rollingcutlastrev_9',['rollingCutLastRev',['../engine_protection_8cpp.html#ade54e1926e6cf4c0e9aaf528f6434a9a',1,'engineProtection.cpp']]],

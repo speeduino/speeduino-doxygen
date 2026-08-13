@@ -47,9 +47,10 @@ var searchData=
   ['one_5fhundred_5fpct_44',['ONE_HUNDRED_PCT',['../maths_8h.html#aa0315ad03bc9b48cbfed0fef465f5a67',1,'maths.h']]],
   ['open_5floop_5fboost_45',['OPEN_LOOP_BOOST',['../config__pages_8h.html#a452b0109a32af33d6def1665724b0fa2',1,'config_pages.h']]],
   ['operation_46',['operation',['../structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33',1,'config13']]],
-  ['outputdelay_47',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
-  ['outputinverted_48',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
-  ['outputpin_49',['outputPin',['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13']]],
-  ['outputsstatus_50',['outputsStatus',['../structstatuses.html#aa565f72fbb3b6934b461cc6a868d317c',1,'statuses']]],
-  ['outputtimelimit_51',['outputTimeLimit',['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13']]]
+  ['optype_47',['opType',['../structprogrammable_i_o_control__details_1_1comp_operation__t.html#ab369991c427d573755d3c11caf2d6894',1,'programmableIOControl_details::compOperation_t']]],
+  ['outputdelay_48',['outputDelay',['../structconfig13.html#aa5f029678452789d02461c68c0770341',1,'config13']]],
+  ['outputdelaycount_49',['outputDelayCount',['../structprogrammable_i_o_control__details_1_1channel__state__t.html#a7e66721ee378819e185e84a96eb91872',1,'programmableIOControl_details::channel_state_t']]],
+  ['outputinverted_50',['outputInverted',['../structconfig13.html#a9b892bccf43e1414043c3026c442c11d',1,'config13']]],
+  ['outputpin_51',['outputpin',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#a63376d21d64321724b0f99d449d16b64',1,'programmableIOControl_details::processing_channel_t::outputPin'],['../structconfig13.html#ae459fc8dd6e1fb867b793dfd35a337a3',1,'config13::outputPin']]],
+  ['outputtimelimit_52',['outputtimelimit',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3a10fefbf0d804facd220cef1f8c2b2d',1,'programmableIOControl_details::processing_channel_t::outputTimeLimit'],['../structconfig13.html#afd8f4ba1047f195c354aabed68e890e3',1,'config13::outputTimeLimit']]]
 ];

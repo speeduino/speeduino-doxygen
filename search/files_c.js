@@ -18,5 +18,7 @@ var searchData=
   ['preprocessor_2eh_15',['preprocessor.h',['../preprocessor_8h.html',1,'']]],
   ['prog_5fmem_5fsupport_2eh_16',['prog_mem_support.h',['../prog__mem__support_8h.html',1,'']]],
   ['programmableiocontrol_2ecpp_17',['programmableIOControl.cpp',['../programmable_i_o_control_8cpp.html',1,'']]],
-  ['programmableiocontrol_2eh_18',['programmableIOControl.h',['../programmable_i_o_control_8h.html',1,'']]]
+  ['programmableiocontrol_2eh_18',['programmableIOControl.h',['../programmable_i_o_control_8h.html',1,'']]],
+  ['programmableiocontrol_5fdetails_2ecpp_19',['programmableIOControl_details.cpp',['../programmable_i_o_control__details_8cpp.html',1,'']]],
+  ['programmableiocontrol_5fdetails_2eh_20',['programmableIOControl_details.h',['../programmable_i_o_control__details_8h.html',1,'']]]
 ];
