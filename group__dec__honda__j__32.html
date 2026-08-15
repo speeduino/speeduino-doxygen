@@ -82,8 +82,8 @@ Functions</h2></td></tr>
 <tr class="separator:gac84f9992aa838421dec8e261ea4a2cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1354261a8d324f327b2a7002629172e8" id="r_ga1354261a8d324f327b2a7002629172e8"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__honda__j__32.html#ga1354261a8d324f327b2a7002629172e8">getRPM_HondaJ32</a> (void)</td></tr>
 <tr class="separator:ga1354261a8d324f327b2a7002629172e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6fe34662f84c9c297a7012668057421f" id="r_ga6fe34662f84c9c297a7012668057421f"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__honda__j__32.html#ga6fe34662f84c9c297a7012668057421f">getCrankAngle_HondaJ32</a> (void)</td></tr>
-<tr class="separator:ga6fe34662f84c9c297a7012668057421f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga42e7672b2077201c7f0e2f5b02aa4caf" id="r_ga42e7672b2077201c7f0e2f5b02aa4caf"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__honda__j__32.html#ga42e7672b2077201c7f0e2f5b02aa4caf">getCrankAngle_HondaJ32</a> (uint32_t currMicros)</td></tr>
+<tr class="separator:ga42e7672b2077201c7f0e2f5b02aa4caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac779385a9168efebe16bdd701c4720ba" id="r_gac779385a9168efebe16bdd701c4720ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__honda__j__32.html#gac779385a9168efebe16bdd701c4720ba">triggerSetup_HondaJ32</a> (void)</td></tr>
 <tr class="separator:gac779385a9168efebe16bdd701c4720ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -91,8 +91,8 @@ Functions</h2></td></tr>
 <p>Honda J 32 (3.2 liter 6 cyl SOHC). The Honda J32a4 (and all J series I'm aware of) has a crank trigger with nominal 24 teeth (22 teeth actually present). It has one missing tooth, then 7 teeth, then another missing tooth, then 15 teeth. The tooth rising edges all have uniform spacing between them, except for teeth 14 and 22, which measure about 18 degrees between rising edges, rather than 15 degrees as the other teeth do. These slightly larger teeth are immediately before a gap, and the extra 3 degrees is made up for in the gap, the gap being about 3 degrees smaller than might be nominally expected, such that the expected rotational angle is restored immediately after the gap (missing tooth) passes. <br  />
  Teeth are represented as 0V at the ECU, no teeth are represented as 5V. Top dead center of cylinder number 1 occurs as we lose sight of (just pass) the first tooth in the string of 15 teeth (this is a rising edge). The second tooth in the string of 15 teeth is designated as tooth 1 in this code. This means that when the interrupt for tooth 1 fires (as we just pass tooth 1), crank angle = 360/24 = 15 degrees. It follows that the first tooth in the string of 7 teeth is tooth 16. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga6fe34662f84c9c297a7012668057421f" name="ga6fe34662f84c9c297a7012668057421f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga6fe34662f84c9c297a7012668057421f">&#9670;&#160;</a></span>getCrankAngle_HondaJ32()</h2>
+<a id="ga42e7672b2077201c7f0e2f5b02aa4caf" name="ga42e7672b2077201c7f0e2f5b02aa4caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga42e7672b2077201c7f0e2f5b02aa4caf">&#9670;&#160;</a></span>getCrankAngle_HondaJ32()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -103,8 +103,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static int16_t getCrankAngle_HondaJ32 </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>currMicros</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -117,8 +117,8 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_cgraph.png" border="0" usemap="#agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_cgraph" alt=""/></div>
-<map name="agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_cgraph" id="agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_cgraph">
+<div class="center"><img src="group__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_cgraph.png" border="0" usemap="#agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_cgraph" alt=""/></div>
+<map name="agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_cgraph" id="agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,178,31"/>
 <area shape="rect" href="crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3" title="Converts a time interval in microsecods to the equivalent degrees of angular (crank) rotation at curr..." alt="" coords="226,5,320,31"/>
 <area shape="poly" title=" " alt="" coords="178,16,210,16,210,21,178,21"/>
@@ -127,8 +127,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_icgraph.png" border="0" usemap="#agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_icgraph" alt=""/></div>
-<map name="agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_icgraph" id="agroup__dec__honda__j__32_ga6fe34662f84c9c297a7012668057421f_icgraph">
+<div class="center"><img src="group__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_icgraph.png" border="0" usemap="#agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_icgraph" alt=""/></div>
+<map name="agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_icgraph" id="agroup__dec__honda__j__32_ga42e7672b2077201c7f0e2f5b02aa4caf_icgraph">
 <area shape="rect" title=" " alt="" coords="896,31,1068,56"/>
 <area shape="rect" href="group__dec__honda__j__32.html#gac779385a9168efebe16bdd701c4720ba" title=" " alt="" coords="691,31,848,56"/>
 <area shape="poly" title=" " alt="" coords="880,46,849,46,849,41,880,41"/>
@@ -292,7 +292,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,438,163,464"/>
 <area shape="rect" href="structdecoder__builder__t.html#a10a623ad387a69f55448a5effdcb3d1a" title=" " alt="" coords="236,5,366,46"/>
 <area shape="poly" title=" " alt="" coords="83,438,88,371,105,269,121,213,142,156,172,103,209,56,221,46,225,50,213,60,176,106,147,159,126,215,110,271,93,372,88,438"/>
-<area shape="rect" href="group__dec__honda__j__32.html#ga6fe34662f84c9c297a7012668057421f" title=" " alt="" coords="215,70,387,96"/>
+<area shape="rect" href="group__dec__honda__j__32.html#ga42e7672b2077201c7f0e2f5b02aa4caf" title=" " alt="" coords="215,70,387,96"/>
 <area shape="poly" title=" " alt="" coords="83,437,90,377,108,288,124,239,146,190,174,145,209,105,212,103,215,107,213,109,178,148,151,193,129,241,114,289,95,378,89,438"/>
 <area shape="rect" href="group__dec__honda__j__32.html#ga1354261a8d324f327b2a7002629172e8" title=" " alt="" coords="234,120,368,145"/>
 <area shape="poly" title=" " alt="" coords="84,437,94,385,115,309,131,268,152,227,178,189,209,156,218,149,222,153,212,160,182,192,157,230,136,270,120,311,99,386,90,438"/>
@@ -328,7 +328,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="625,134,751,134,751,139,625,139"/>
 <area shape="rect" href="maths_8h.html#a577259499090f5cb6552c400f11e99be" title="Same as fast_div(), except this will round to nearest integer instead of truncating." alt="" coords="965,422,1081,448"/>
 <area shape="poly" title=" " alt="" coords="587,147,625,162,738,224,844,294,933,360,996,410,993,414,930,364,841,298,735,229,623,167,585,152"/>
-<area shape="rect" href="decoder__builder_8cpp.html#a19ae2dc18371a2278cea27d88ff85f51" title=" " alt="" coords="467,177,596,203"/>
+<area shape="rect" href="decoder__builder_8cpp.html#a052c06187e6d2e0fbda03a3005e06f8f" title=" " alt="" coords="467,177,596,203"/>
 <area shape="poly" title=" " alt="" coords="366,187,452,187,452,192,366,192"/>
 <area shape="rect" href="decoder__builder_8cpp.html#a870ce5bd5768bbc29af36606c6afd79d" title=" " alt="" coords="475,242,588,268"/>
 <area shape="poly" title=" " alt="" coords="366,252,459,252,459,258,366,258"/>

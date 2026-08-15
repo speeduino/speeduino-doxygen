@@ -82,8 +82,8 @@ Functions</h2></td></tr>
 <tr class="separator:gabb083f015ed6de52c52e5e1a0bfb1d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga40094fa25998a053dd4bf43efdceb96b" id="r_ga40094fa25998a053dd4bf43efdceb96b"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__gm7x.html#ga40094fa25998a053dd4bf43efdceb96b">getRPM_GM7X</a> (void)</td></tr>
 <tr class="separator:ga40094fa25998a053dd4bf43efdceb96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga450a55f7801edb86ae6ee13c247dbfdd" id="r_ga450a55f7801edb86ae6ee13c247dbfdd"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__gm7x.html#ga450a55f7801edb86ae6ee13c247dbfdd">getCrankAngle_GM7X</a> (void)</td></tr>
-<tr class="separator:ga450a55f7801edb86ae6ee13c247dbfdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga15bf539f696d5eb71c1f242bfd242767" id="r_ga15bf539f696d5eb71c1f242bfd242767"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__gm7x.html#ga15bf539f696d5eb71c1f242bfd242767">getCrankAngle_GM7X</a> (uint32_t currMicros)</td></tr>
+<tr class="separator:ga15bf539f696d5eb71c1f242bfd242767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga19eb66df60ee034e8819e069ca93d871" id="r_ga19eb66df60ee034e8819e069ca93d871"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__gm7x.html#ga19eb66df60ee034e8819e069ca93d871">triggerSetEndTeeth_GM7X</a> (void)</td></tr>
 <tr class="separator:ga19eb66df60ee034e8819e069ca93d871"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6ef919755c43090f0a2203a2e4a7b72c" id="r_ga6ef919755c43090f0a2203a2e4a7b72c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__gm7x.html#ga6ef919755c43090f0a2203a2e4a7b72c">triggerSetup_GM7X</a> (void)</td></tr>
@@ -92,8 +92,8 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Decode GM 7X trigger wheel with six equally spaced teeth and a seventh tooth for cylinder identification. Note: Within the decoder code pf GM7X, the sync tooth is referred to as tooth #3 rather than tooth #7. This makes for simpler angle calculations (See: <a href="http://www.speeduino.com/forum/download/file.php?id=4743">http://www.speeduino.com/forum/download/file.php?id=4743</a> ). </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga450a55f7801edb86ae6ee13c247dbfdd" name="ga450a55f7801edb86ae6ee13c247dbfdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga450a55f7801edb86ae6ee13c247dbfdd">&#9670;&#160;</a></span>getCrankAngle_GM7X()</h2>
+<a id="ga15bf539f696d5eb71c1f242bfd242767" name="ga15bf539f696d5eb71c1f242bfd242767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga15bf539f696d5eb71c1f242bfd242767">&#9670;&#160;</a></span>getCrankAngle_GM7X()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -104,8 +104,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static int16_t getCrankAngle_GM7X </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>currMicros</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -118,8 +118,8 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_cgraph.png" border="0" usemap="#agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_cgraph" alt=""/></div>
-<map name="agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_cgraph" id="agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_cgraph">
+<div class="center"><img src="group__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_cgraph.png" border="0" usemap="#agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_cgraph" alt=""/></div>
+<map name="agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_cgraph" id="agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,156,31"/>
 <area shape="rect" href="crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3" title="Converts a time interval in microsecods to the equivalent degrees of angular (crank) rotation at curr..." alt="" coords="204,5,298,31"/>
 <area shape="poly" title=" " alt="" coords="156,16,188,16,188,21,156,21"/>
@@ -128,8 +128,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_icgraph.png" border="0" usemap="#agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_icgraph" alt=""/></div>
-<map name="agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_icgraph" id="agroup__dec__gm7x_ga450a55f7801edb86ae6ee13c247dbfdd_icgraph">
+<div class="center"><img src="group__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_icgraph.png" border="0" usemap="#agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_icgraph" alt=""/></div>
+<map name="agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_icgraph" id="agroup__dec__gm7x_ga15bf539f696d5eb71c1f242bfd242767_icgraph">
 <area shape="rect" title=" " alt="" coords="874,31,1024,56"/>
 <area shape="rect" href="group__dec__gm7x.html#ga6ef919755c43090f0a2203a2e4a7b72c" title=" " alt="" coords="691,31,826,56"/>
 <area shape="poly" title=" " alt="" coords="858,46,826,46,826,41,858,41"/>
@@ -362,7 +362,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="73,520,85,429,108,290,124,217,142,150,163,94,187,56,199,45,202,49,191,59,168,97,147,151,129,218,114,291,90,429,78,521"/>
 <area shape="rect" href="group__dec__uni.html#ga6a5d7b9993588397420abe176df6008d" title=" " alt="" coords="199,70,359,96"/>
 <area shape="poly" title=" " alt="" coords="73,520,86,436,110,312,126,247,144,187,164,138,187,105,189,103,193,107,191,109,169,141,149,189,131,248,115,313,91,437,79,521"/>
-<area shape="rect" href="group__dec__gm7x.html#ga450a55f7801edb86ae6ee13c247dbfdd" title=" " alt="" coords="204,120,354,145"/>
+<area shape="rect" href="group__dec__gm7x.html#ga15bf539f696d5eb71c1f242bfd242767" title=" " alt="" coords="204,120,354,145"/>
 <area shape="poly" title=" " alt="" coords="71,520,74,455,88,357,102,303,122,249,150,199,187,154,189,152,193,156,191,158,155,202,127,251,107,304,93,358,79,456,77,520"/>
 <area shape="rect" href="group__dec__gm7x.html#ga40094fa25998a053dd4bf43efdceb96b" title=" " alt="" coords="223,169,335,195"/>
 <area shape="poly" title=" " alt="" coords="72,520,78,463,94,378,109,332,129,286,154,243,187,205,207,192,209,196,190,209,159,246,133,288,114,334,99,380,83,464,77,521"/>
@@ -415,7 +415,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="1241,228,1348,197,1350,202,1243,233"/>
 <area shape="rect" href="maths_8h.html#a722ecd5834c45b061782ddb3a3036aee" title="Optimised integer division by 360." alt="" coords="1381,232,1440,257"/>
 <area shape="poly" title=" " alt="" coords="1305,242,1365,242,1365,247,1305,247"/>
-<area shape="rect" href="decoder__builder_8cpp.html#a19ae2dc18371a2278cea27d88ff85f51" title=" " alt="" coords="427,226,556,252"/>
+<area shape="rect" href="decoder__builder_8cpp.html#a052c06187e6d2e0fbda03a3005e06f8f" title=" " alt="" coords="427,226,556,252"/>
 <area shape="poly" title=" " alt="" coords="344,236,411,236,411,242,344,242"/>
 <area shape="rect" href="decoder__builder_8cpp.html#a870ce5bd5768bbc29af36606c6afd79d" title=" " alt="" coords="435,292,548,317"/>
 <area shape="poly" title=" " alt="" coords="344,302,419,302,419,307,344,307"/>

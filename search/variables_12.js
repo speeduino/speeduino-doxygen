@@ -23,7 +23,7 @@ var searchData=
   ['seclx10_20',['seclx10',['../globals_8h.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10:&#160;globals.cpp'],['../globals_8cpp.html#a2df8f59c1b2fbf25df88f6e72f4ae5b6',1,'seclx10:&#160;globals.cpp']]],
   ['secondary_21',['secondary',['../structdecoder__t.html#aa84e80561f5a7b335b52f3d96d198875',1,'decoder_t::secondary'],['../structpulse_widths.html#a5047b2e159c5df56eb720af6093fb7c6',1,'pulseWidths::secondary']]],
   ['secondaryserialprotocol_22',['secondarySerialProtocol',['../structconfig9.html#a84249b31381d412aa67e378e62ed04de',1,'config9']]],
-  ['secondarytoothcount_23',['secondaryToothCount',['../decoders_8cpp.html#aa7670219a37eedbce147e5e742d315c0',1,'decoders.cpp']]],
+  ['secondarytoothcount_23',['secondaryToothCount',['../decoders_8cpp.html#a0416a9c1ae0f552b6c4b25247853f30b',1,'decoders.cpp']]],
   ['secondcomptype_24',['secondCompType',['../structcmp_operation.html#afbac1bfa2d5005d2c0f2e1f27807aa3d',1,'cmpOperation']]],
   ['seconddatain_25',['secondDataIn',['../structconfig13.html#ae8cfe9c5c758835513e1f8066c6367e0',1,'config13']]],
   ['secondfueltableactive_26',['secondFuelTableActive',['../structstatuses.html#a73c5682eeb8212c1d73d30f118c20fbd',1,'statuses']]],

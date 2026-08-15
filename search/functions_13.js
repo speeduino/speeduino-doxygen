@@ -12,7 +12,7 @@ var searchData=
   ['tickstomicros_9',['tickstomicros',['../board__avr2560_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_teensy35.h'],['../board__teensy41_8h.html#a79bc59caeffb99af2395f6350737df3e',1,'ticksToMicros(COMPARE_TYPE ticks):&#160;board_teensy41.h']]],
   ['timeelapsed_10',['timeElapsed',['../elapsed__time_8h.html#ab5104e4bc755b44e71de4f17981da662',1,'elapsed_time.h']]],
   ['timetoangle_11',['timeToAngle',['../crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3',1,'crankMaths.h']]],
-  ['timetoangleintervaltooth_12',['timeToAngleIntervalTooth',['../group__dec__uni.html#gaffacbfaa5231714384f143fb3b95c772',1,'decoders.cpp']]],
+  ['timetoangleintervaltooth_12',['timeToAngleIntervalTooth',['../group__dec__uni.html#gafb734a17101b6d65a5c8fc180eb29e5a',1,'decoders.cpp']]],
   ['tobottomleft_13',['toBottomLeft',['../table3d__interpolate_8cpp.html#a6db63b6b0cc0a7cd324402bf94b6c30f',1,'table3d_interpolate.cpp']]],
   ['toqu1x8_14',['toQU1X8',['../table3d__interpolate_8cpp.html#a483a5708bbe65f235e712e9bf11cf255',1,'table3d_interpolate.cpp']]],
   ['toraw_15',['toRaw',['../structconversion_factor.html#a803213dc2a5fb571b61faa394bb9eb4c',1,'conversionFactor']]],

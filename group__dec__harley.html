@@ -82,16 +82,16 @@ Functions</h2></td></tr>
 <tr class="separator:ga677ee9d6ffb2cfae8abff969330e7245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga98226abfd4ba8827f1cccd4a675fc170" id="r_ga98226abfd4ba8827f1cccd4a675fc170"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#ga98226abfd4ba8827f1cccd4a675fc170">getRPM_Harley</a> (void)</td></tr>
 <tr class="separator:ga98226abfd4ba8827f1cccd4a675fc170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0c170a9d8badf0faa198034e076f89a" id="r_gaf0c170a9d8badf0faa198034e076f89a"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#gaf0c170a9d8badf0faa198034e076f89a">getCrankAngle_Harley</a> (void)</td></tr>
-<tr class="separator:gaf0c170a9d8badf0faa198034e076f89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4b02c84e8b86718fcc86f5b18c6f6880" id="r_ga4b02c84e8b86718fcc86f5b18c6f6880"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#ga4b02c84e8b86718fcc86f5b18c6f6880">getCrankAngle_Harley</a> (uint32_t currMicros)</td></tr>
+<tr class="separator:ga4b02c84e8b86718fcc86f5b18c6f6880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed0c456df895ee62ac39e81c0310089b" id="r_gaed0c456df895ee62ac39e81c0310089b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#gaed0c456df895ee62ac39e81c0310089b">triggerSetup_Harley</a> (void)</td></tr>
 <tr class="separator:gaed0c456df895ee62ac39e81c0310089b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Harley Davidson (V2) with 2 unevenly Spaced Teeth. Within the decoder code, the sync tooth is referred to as tooth #1. Derived from GMX7 and adapted for Harley. Only rising Edge is used for simplicity.The second input is ignored, as it does not help to resolve cam position. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gaf0c170a9d8badf0faa198034e076f89a" name="gaf0c170a9d8badf0faa198034e076f89a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaf0c170a9d8badf0faa198034e076f89a">&#9670;&#160;</a></span>getCrankAngle_Harley()</h2>
+<a id="ga4b02c84e8b86718fcc86f5b18c6f6880" name="ga4b02c84e8b86718fcc86f5b18c6f6880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4b02c84e8b86718fcc86f5b18c6f6880">&#9670;&#160;</a></span>getCrankAngle_Harley()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -102,8 +102,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">static int16_t getCrankAngle_Harley </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>currMicros</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -116,8 +116,8 @@ Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_cgraph.png" border="0" usemap="#agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_cgraph" alt=""/></div>
-<map name="agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_cgraph" id="agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_cgraph">
+<div class="center"><img src="group__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_cgraph.png" border="0" usemap="#agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_cgraph" alt=""/></div>
+<map name="agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_cgraph" id="agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,156,31"/>
 <area shape="rect" href="crank_maths_8h.html#a5a51b752c5daec19bb6f6b1ea51acca3" title="Converts a time interval in microsecods to the equivalent degrees of angular (crank) rotation at curr..." alt="" coords="204,5,298,31"/>
 <area shape="poly" title=" " alt="" coords="156,16,188,16,188,21,156,21"/>
@@ -126,8 +126,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="group__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_icgraph.png" border="0" usemap="#agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_icgraph" alt=""/></div>
-<map name="agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_icgraph" id="agroup__dec__harley_gaf0c170a9d8badf0faa198034e076f89a_icgraph">
+<div class="center"><img src="group__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_icgraph.png" border="0" usemap="#agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_icgraph" alt=""/></div>
+<map name="agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_icgraph" id="agroup__dec__harley_ga4b02c84e8b86718fcc86f5b18c6f6880_icgraph">
 <area shape="rect" title=" " alt="" coords="874,31,1024,56"/>
 <area shape="rect" href="group__dec__harley.html#gaed0c456df895ee62ac39e81c0310089b" title=" " alt="" coords="691,31,826,56"/>
 <area shape="poly" title=" " alt="" coords="858,46,826,46,826,41,858,41"/>
@@ -307,7 +307,7 @@ Here is the call graph for this function:</div>
 <area shape="rect" title=" " alt="" coords="5,438,141,464"/>
 <area shape="rect" href="structdecoder__builder__t.html#a10a623ad387a69f55448a5effdcb3d1a" title=" " alt="" coords="214,5,344,46"/>
 <area shape="poly" title=" " alt="" coords="71,438,74,371,88,270,102,213,123,157,151,103,187,56,199,45,202,50,191,60,155,106,128,159,108,215,94,271,79,372,77,438"/>
-<area shape="rect" href="group__dec__harley.html#gaf0c170a9d8badf0faa198034e076f89a" title=" " alt="" coords="204,70,354,96"/>
+<area shape="rect" href="group__dec__harley.html#ga4b02c84e8b86718fcc86f5b18c6f6880" title=" " alt="" coords="204,70,354,96"/>
 <area shape="poly" title=" " alt="" coords="72,438,76,378,92,288,106,239,126,190,153,145,187,105,190,103,193,107,191,109,157,148,131,193,111,241,97,290,81,378,77,438"/>
 <area shape="rect" href="group__dec__harley.html#ga98226abfd4ba8827f1cccd4a675fc170" title=" " alt="" coords="223,120,335,145"/>
 <area shape="poly" title=" " alt="" coords="73,437,80,385,98,309,113,268,132,227,157,189,187,156,207,143,210,147,190,160,161,192,137,230,118,270,104,311,85,386,78,438"/>
@@ -357,7 +357,7 @@ Here is the call graph for this function:</div>
 <area shape="poly" title=" " alt="" coords="820,131,887,117,888,122,821,136"/>
 <area shape="rect" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664" title=" " alt="" coords="927,140,1011,165"/>
 <area shape="poly" title=" " alt="" coords="821,150,912,150,912,155,821,155"/>
-<area shape="rect" href="decoder__builder_8cpp.html#a19ae2dc18371a2278cea27d88ff85f51" title=" " alt="" coords="423,185,552,211"/>
+<area shape="rect" href="decoder__builder_8cpp.html#a052c06187e6d2e0fbda03a3005e06f8f" title=" " alt="" coords="423,185,552,211"/>
 <area shape="poly" title=" " alt="" coords="344,189,408,192,407,197,344,195"/>
 <area shape="rect" href="decoder__builder_8cpp.html#a870ce5bd5768bbc29af36606c6afd79d" title=" " alt="" coords="431,242,544,268"/>
 <area shape="poly" title=" " alt="" coords="344,252,415,252,415,258,344,258"/>
