@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['wmicontrol_0',['wmicontrol',['../auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.cpp'],['../auxiliaries_8h.html#a6437f16b1057eb1370f84e02c346d90f',1,'wmiControl(void):&#160;auxiliaries.cpp']]],
+  ['wmicontrol_0',['wmicontrol',['../vvt_controller_8cpp.html#af89531299571a81dfcdc39f6b19fe906',1,'wmiControl(statuses &amp;current, const config10 &amp;page10):&#160;vvtController.cpp'],['../vvt_controller_8h.html#af89531299571a81dfcdc39f6b19fe906',1,'wmiControl(statuses &amp;current, const config10 &amp;page10):&#160;vvtController.cpp']]],
   ['write_1',['write',['../namespace_e_e_p_r_o_m_api.html#a283b5e6be3bdee55d445684e7dd0b20f',1,'EEPROMApi']]],
   ['write_5frange_2',['write_range',['../storage_8cpp.html#acf75cd7cd16c60e69e7b81ab616d99a8',1,'write_range(const byte *pStart, const byte *pEnd, uint16_t address, uint16_t writesRemaining):&#160;storage.cpp'],['../storage_8cpp.html#a788632338265a59a46d29865772438f7',1,'write_range(Iter pStart, Iter pEnd, write_location location):&#160;storage.cpp']]],
   ['writebytereliableblocking_3',['writeByteReliableBlocking',['../group__group-serial-comms-impl.html#ga81dde0c7c20cd0b9c87c534eeb9a6dbf',1,'comms.cpp']]],

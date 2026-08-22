@@ -124,10 +124,11 @@ var searchData=
   ['getv04shieldmapping_121',['getV04ShieldMapping',['../pin_mapping_8cpp.html#ac7efbdc6556e2dab9b86cfd007e17da2',1,'pinMapping.cpp']]],
   ['getvalue_122',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
   ['getve1_123',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]],
-  ['globals_2ecpp_124',['globals.cpp',['../globals_8cpp.html',1,'']]],
-  ['globals_2eh_125',['globals.h',['../globals_8h.html',1,'']]],
-  ['gm_2024x_126',['GM 24X',['../group__dec__gm.html',1,'']]],
-  ['gm7x_127',['GM7X',['../group__dec__gm7x.html',1,'']]],
-  ['going_5fhigh_128',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
-  ['going_5flow_129',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
+  ['getvvtload_124',['getVvtLoad',['../vvt_controller_8cpp.html#ab82d366f6ae252957ebbf63902fe6ea9',1,'vvtController.cpp']]],
+  ['globals_2ecpp_125',['globals.cpp',['../globals_8cpp.html',1,'']]],
+  ['globals_2eh_126',['globals.h',['../globals_8h.html',1,'']]],
+  ['gm_2024x_127',['GM 24X',['../group__dec__gm.html',1,'']]],
+  ['gm7x_128',['GM7X',['../group__dec__gm7x.html',1,'']]],
+  ['going_5fhigh_129',['GOING_HIGH',['../config__pages_8h.html#abb9a9245be24459e3972fa6757bf1b20',1,'config_pages.h']]],
+  ['going_5flow_130',['GOING_LOW',['../config__pages_8h.html#ab02ce2e3722fb3c33530c946b0766310',1,'config_pages.h']]]
 ];

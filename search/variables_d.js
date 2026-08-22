@@ -22,7 +22,7 @@ var searchData=
   ['n2o_5fstage2_5fretard_19',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_20',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
   ['ncylinders_21',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
-  ['nextvvt_22',['nextVVT',['../auxiliaries_8cpp.html#ad7e72baaccc3b327507263d36031e816',1,'auxiliaries.cpp']]],
+  ['nextvvt_22',['nextVVT',['../vvt_controller_8cpp.html#a6f5588ab3a96e5625a874adf7b02b941',1,'vvtController.cpp']]],
   ['ninjectors_23',['nInjectors',['../structconfig2.html#ab86491f4937c47ce775a6769dd99c100',1,'config2']]],
   ['nitrous_5fboth_24',['NITROUS_BOTH',['../config__pages_8h.html#a6dab94284a8b1397d239138af2c0d8cd',1,'config_pages.h']]],
   ['nitrous_5foff_25',['NITROUS_OFF',['../config__pages_8h.html#a86e5b22df96d8453649c01d588f709db',1,'config_pages.h']]],
@@ -31,8 +31,9 @@ var searchData=
   ['nitrous_5fstatus_28',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
   ['nitrousactive_29',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
   ['no_5ffuel_5fcorrection_30',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
-  ['not_5fa_5fpin_31',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
-  ['nsquirts_32',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['numprimaryinjoutputs_33',['numPrimaryInjOutputs',['../structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2',1,'statuses']]],
-  ['numsecondaryinjoutputs_34',['numSecondaryInjOutputs',['../structstatuses.html#a749eda9094235a10648a518f97b5282a',1,'statuses']]]
+  ['noexcept_31',['noexcept',['../group__table__3d.html#ga76e040baf116c44c661710c111962f1a',1,'table3d.h']]],
+  ['not_5fa_5fpin_32',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
+  ['nsquirts_33',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
+  ['numprimaryinjoutputs_34',['numPrimaryInjOutputs',['../structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2',1,'statuses']]],
+  ['numsecondaryinjoutputs_35',['numSecondaryInjOutputs',['../structstatuses.html#a749eda9094235a10648a518f97b5282a',1,'statuses']]]
 ];

@@ -75,7 +75,7 @@ var searchData=
   ['getpwmtimerresolution_72',['getPwmTimerResolution',['../board__definition_8h.html#a9501c9a837329516616378006c9e7788',1,'board_definition.h']]],
   ['getreadablefloatlogentry_73',['getReadableFloatLogEntry',['../logger_8h.html#aca70278673197e923a2aadf3b1ef45ae',1,'logger.h']]],
   ['getreadablelogentry_74',['getreadablelogentry',['../logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp'],['../logger_8h.html#a8c8cf5536fa7b0175d0d939fbae9a63e',1,'getReadableLogEntry(uint16_t logIndex):&#160;logger.cpp']]],
-  ['getresetcontrolmode_75',['getresetcontrolmode',['../reset_control_8cpp.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp'],['../reset_control_8h.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp']]],
+  ['getresetcontrolmode_75',['getresetcontrolmode',['../reset_control_8h.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp'],['../reset_control_8cpp.html#a1264bb836080eba1dadea7b5500b765d',1,'getResetControlMode(void):&#160;resetControl.cpp']]],
   ['getrpm_5f24x_76',['getRPM_24X',['../group__dec__gm.html#ga8c1b2482be620c1ae84b2ca263ed17a8',1,'decoders.cpp']]],
   ['getrpm_5f420a_77',['getRPM_420a',['../group__dec__dsm__420a.html#gac923e50769e7017f0db0ef5874a5aa87',1,'decoders.cpp']]],
   ['getrpm_5f4g63_78',['getRPM_4G63',['../group__dec__mitsu__miata.html#ga9fc600e8a9f099fd7400041537f06807',1,'decoders.cpp']]],
@@ -115,5 +115,6 @@ var searchData=
   ['getv03shieldmapping_112',['getV03ShieldMapping',['../pin_mapping_8cpp.html#a4a55cc9d4a37ae1fa26a543c9c04632d',1,'pinMapping.cpp']]],
   ['getv04shieldmapping_113',['getV04ShieldMapping',['../pin_mapping_8cpp.html#ac7efbdc6556e2dab9b86cfd007e17da2',1,'pinMapping.cpp']]],
   ['getvalue_114',['getValue',['../structtable2_d.html#aef5af84c0133d4aa3a657ef410a2205b',1,'table2D']]],
-  ['getve1_115',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]]
+  ['getve1_115',['getVE1',['../speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5',1,'speeduino.ino']]],
+  ['getvvtload_116',['getVvtLoad',['../vvt_controller_8cpp.html#ab82d366f6ae252957ebbf63902fe6ea9',1,'vvtController.cpp']]]
 ];

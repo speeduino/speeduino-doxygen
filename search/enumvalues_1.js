@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['coolantsensor_0',['CoolantSensor',['../group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3',1,'storage.h']]],
-  ['cooling_1',['COOLING',['../idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696',1,'idle.cpp']]],
-  ['cranking_2',['Cranking',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2af121d45e69dd16605bb700032779ceb4',1,'statuses.h']]]
+  ['bothoff_0',['BothOff',['../vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85a908f23050213d0e227f50e383a2429cc',1,'vvtController.cpp']]],
+  ['bothon_1',['BothOn',['../vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85a9696572cdcd45f49fc0f454e1313d114',1,'vvtController.cpp']]]
 ];
