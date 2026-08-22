@@ -83,8 +83,10 @@ $(function() {
 
 <p>Functions for interpolating values from 3D tables.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="table3d__typedefs_8h_source.html">table3d_typedefs.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;iterator&gt;</code><br />
+<code>#include &quot;<a class="el" href="table3d__typedefs_8h_source.html">table3d_typedefs.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="table2d_8h_source.html">table2d.h</a>&quot;</code><br />
 </div>
 <p><a href="table3d__interpolate_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -108,22 +110,22 @@ Functions</h2></td></tr>
 <tr class="memitem:aeff6c17210b06e779b7ed2c461ec114a" id="r_aeff6c17210b06e779b7ed2c461ec114a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#aeff6c17210b06e779b7ed2c461ec114a">invalidate_cache</a> (<a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *pCache)</td></tr>
 <tr class="memdesc:aeff6c17210b06e779b7ed2c461ec114a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalidate the cache by resetting the last lookup values.  <br /></td></tr>
 <tr class="separator:aeff6c17210b06e779b7ed2c461ec114a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fe61755e720344fa2014ebcf82d94da" id="r_a1fe61755e720344fa2014ebcf82d94da"><td class="memTemplParams" colspan="2">template&lt;uint16_t xFactor, uint16_t yFactor&gt; </td></tr>
-<tr class="memitem:a1fe61755e720344fa2014ebcf82d94da"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da">get3DTableValue</a> (struct <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *pValueCache, const <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a> axisSize, const <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *pValues, const <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *pXAxis, const <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *pYAxis, const <a class="el" href="structxy__pair__t.html">xy_pair_t</a> &amp;lookupValues)</td></tr>
-<tr class="memdesc:a1fe61755e720344fa2014ebcf82d94da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a value from a 3D table using the specified lookup values.  <br /></td></tr>
-<tr class="separator:a1fe61755e720344fa2014ebcf82d94da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27030fdf6935bdccbba416853d17dc56" id="r_a27030fdf6935bdccbba416853d17dc56"><td class="memTemplParams" colspan="2">template&lt;uint16_t xFactor, uint16_t yFactor, typename TValues , typename TXAxis , typename TYAxis &gt; </td></tr>
+<tr class="memitem:a27030fdf6935bdccbba416853d17dc56"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="table3d__interpolate_8h.html#a27030fdf6935bdccbba416853d17dc56">get3DTableValue</a> (struct <a class="el" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> *pValueCache, const TValues &amp;values, const TXAxis &amp;xAxis, const TYAxis &amp;yAxis, const <a class="el" href="structxy__pair__t.html">xy_pair_t</a> &amp;lookupValues)</td></tr>
+<tr class="memdesc:a27030fdf6935bdccbba416853d17dc56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a value from a 3D table using the specified lookup values.  <br /></td></tr>
+<tr class="separator:a27030fdf6935bdccbba416853d17dc56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Functions for interpolating values from 3D tables. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da" title="Get a value from a 3D table using the specified lookup values.">get3DTableValue</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="table3d__interpolate_8h.html#a27030fdf6935bdccbba416853d17dc56" title="Get a value from a 3D table using the specified lookup values.">get3DTableValue</a> </dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a1fe61755e720344fa2014ebcf82d94da" name="a1fe61755e720344fa2014ebcf82d94da"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe61755e720344fa2014ebcf82d94da">&#9670;&#160;</a></span>get3DTableValue()</h2>
+<a id="a27030fdf6935bdccbba416853d17dc56" name="a27030fdf6935bdccbba416853d17dc56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27030fdf6935bdccbba416853d17dc56">&#9670;&#160;</a></span>get3DTableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;uint16_t xFactor, uint16_t yFactor&gt; </div>
+template&lt;uint16_t xFactor, uint16_t yFactor, typename TValues , typename TXAxis , typename TYAxis &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> get3DTableValue </td>
@@ -134,26 +136,20 @@ template&lt;uint16_t xFactor, uint16_t yFactor&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__table__3d.html#gab88a2bbeb40e1c41752955d5da0a0674">table3d_dim_t</a>&#160;</td>
-          <td class="paramname"><em>axisSize</em>, </td>
+          <td class="paramtype">const TValues &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> *&#160;</td>
-          <td class="paramname"><em>pValues</em>, </td>
+          <td class="paramtype">const TXAxis &amp;&#160;</td>
+          <td class="paramname"><em>xAxis</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pXAxis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a> *&#160;</td>
-          <td class="paramname"><em>pYAxis</em>, </td>
+          <td class="paramtype">const TYAxis &amp;&#160;</td>
+          <td class="paramname"><em>yAxis</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -188,7 +184,7 @@ YMin | V  V  V  V  V  V
 <p>Our overall task is to accurately interpolate a value from the table, given X and Y axis values. The x/y values will likely be in-between axis values. The function performs a 2D linear interpolation as described in: www.megamanual.com/v22manual/ve_tuner.pdf</p>
 <dl class="section note"><dt>Note</dt><dd>[x|y]Factor are multipliers used to convert the lookup values to the same scale as the axis values. </dd>
 <dd>
-Background: the axes are sent from TunerStudio compressed into a byte. E.g. RPM is stored /100 (I.e. 2500-&gt;25) in the table x-axis. We can save a lot of SRAM by <em>not</em> rehydrating the axis values. However, we do <em>not</em> want to simply divide the axis lookup value by 100, as that would result in a loss of fidelity <em>when interpolating the x-axis position</em>: see <a class="el" href="table3d__interpolate_8cpp.html#aaa754b71856c8f2bb70d972f08fd7e39" title="Compute the % position of a value within a bin.">compute_bin_position()</a> </dd>
+Background: the axes are sent from TunerStudio compressed into a byte. E.g. RPM is stored /100 (I.e. 2500-&gt;25) in the table x-axis. We can save a lot of SRAM by <em>not</em> rehydrating the axis values. However, we do <em>not</em> want to simply divide the axis lookup value by 100, as that would result in a loss of fidelity <em>when interpolating the x-axis position</em>: see <a class="el" href="table3d__interpolate_8cpp.html#a4ee67e1c994cb24aef5ee14368ee7e58" title="Compute the % position of a value within a bin.">compute_bin_position()</a> </dd>
 <dd>
 Instead, we:<ol type="1">
 <li>Divide the axis <em>lookup value</em> when searching for the axis bin (no loss of fidelity, since we're comparing bin thresholds). E.g RPM of 2153/100 -&gt; 22</li>
@@ -205,10 +201,9 @@ Instead, we:<ol type="1">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pValueCache</td><td>Pointer to the value cache structure. </td></tr>
-    <tr><td class="paramname">axisSize</td><td>The size of the axis. </td></tr>
-    <tr><td class="paramname">pValues</td><td>Pointer to the table values. </td></tr>
-    <tr><td class="paramname">pXAxis</td><td>Pointer to the X axis array. </td></tr>
-    <tr><td class="paramname">pYAxis</td><td>Pointer to the Y axis array. </td></tr>
+    <tr><td class="paramname">values</td><td>The table values. </td></tr>
+    <tr><td class="paramname">xAxis</td><td>The X axis array. </td></tr>
+    <tr><td class="paramname">yAxis</td><td>The Y axis array. </td></tr>
     <tr><td class="paramname">lookupValues</td><td>The X axis and Y axis values to look up. </td></tr>
   </table>
   </dd>

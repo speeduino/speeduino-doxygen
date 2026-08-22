@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Speeduino: speeduino/static_for.hpp File Reference</title>
+<title>Speeduino: speeduino/src/utils/static_for.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,12 +70,12 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li><li class="navelem"><a class="el" href="dir_e4a66514fb29f537cc6ec306b5dcc979.html">src</a></li><li class="navelem"><a class="el" href="dir_e5312595b41e04ae969a4f16f79d965d.html">utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">static_for.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -83,14 +83,17 @@ $(function() {
 <p>A compile time <em>unrolled</em> loop.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;utility&gt;</code><br />
+<code>#include &lt;initializer_list&gt;</code><br />
 </div>
 <p><a href="static__for_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatic__for.html">static_for&lt; from, to &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a fixed number of calls to a given free function <em>at compile time</em>.  <a href="structstatic__for.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a84cffe19d8de2c357c5ab666c5ead22c" id="r_a84cffe19d8de2c357c5ab666c5ead22c"><td class="memTemplParams" colspan="2">template&lt;uint8_t N, typename F &gt; </td></tr>
+<tr class="memitem:a84cffe19d8de2c357c5ab666c5ead22c"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="static__for_8hpp.html#a84cffe19d8de2c357c5ab666c5ead22c">static_for</a> (F &amp;&amp;f)</td></tr>
+<tr class="memdesc:a84cffe19d8de2c357c5ab666c5ead22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a fixed number of calls to a given free function <em>at compile time</em>.  <br /></td></tr>
+<tr class="separator:a84cffe19d8de2c357c5ab666c5ead22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A compile time <em>unrolled</em> loop. </p>
@@ -100,7 +103,63 @@ Classes</h2></td></tr>
 <li>other factors I don't quite understand yet</li>
 </ul>
 <p>In summary, it's designed for very simple cases where loop overhead is obviously high </p><dl class="section see"><dt>See also</dt><dd><a href="https://godbolt.org/z/6KGWajPaY">https://godbolt.org/z/6KGWajPaY</a> </dd></dl>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a84cffe19d8de2c357c5ab666c5ead22c" name="a84cffe19d8de2c357c5ab666c5ead22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cffe19d8de2c357c5ab666c5ead22c">&#9670;&#160;</a></span>static_for()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;uint8_t N, typename F &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void static_for </td>
+          <td>(</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generate a fixed number of calls to a given free function <em>at compile time</em>. </p>
+<p>Usage: </p><div class="fragment"><div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> foo(uint8_t index, time_t *currTime, <span class="keyword">const</span> <span class="keywordtype">char</span> *message) {</div>
+<div class="line">  <span class="comment">// Do something</span></div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line">time_t currTime = time(NULL);</div>
+<div class="line"><span class="keywordtype">char</span> message[] = <span class="stringliteral">&quot;Unrolled!&quot;</span>;</div>
+<div class="line"><span class="comment">// Equivalent of</span></div>
+<div class="line"><span class="comment">// foo(3, &amp;currTime, message);</span></div>
+<div class="line"><span class="comment">// foo(4, &amp;currTime, message);</span></div>
+<div class="line"><span class="comment">// foo(5, &amp;currTime, message);</span></div>
+<div class="line"><span class="comment">// foo(6, &amp;currTime, message);</span></div>
+<div class="line">static_for&lt;3, 7&gt;::repeat_n(foo, &amp;currTime, message);</div>
+</div><!-- fragment --><dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">N</td><td>The upper bound (exclusive) </td></tr>
+    <tr><td class="paramname">F</td><td>Callable type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>Callable instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8

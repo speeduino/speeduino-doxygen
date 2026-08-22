@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Speeduino: speeduino/static_for.hpp Source File</title>
+<title>Speeduino: speeduino/src/utils/static_for.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -75,7 +75,7 @@ $(document).ready(function() { init_codefold(0); });
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li><li class="navelem"><a class="el" href="dir_e4a66514fb29f537cc6ec306b5dcc979.html">src</a></li><li class="navelem"><a class="el" href="dir_e5312595b41e04ae969a4f16f79d965d.html">utils</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -85,35 +85,26 @@ $(document).ready(function() { init_codefold(0); });
 <a href="static__for_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">template</span> &lt;u<span class="keywordtype">int</span>8_t from, u<span class="keywordtype">int</span>8_t to&gt; </div>
-<div class="foldopen" id="foldopen00041" data-start="{" data-end="};">
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="structstatic__for.html">   41</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structstatic__for.html">static_for</a> {</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> funcType, <span class="keyword">typename</span>...Args&gt;</div>
-<div class="foldopen" id="foldopen00055" data-start="{" data-end="}">
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">   55</a></span>    <span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline)) <span class="keywordtype">void</span> <a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a> (funcType f, Args...args){</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        f(from, args...); <span class="comment">// Call the supplied free function</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>        <span class="comment">//cppcheck-suppress misra-c2012-17.7</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for&lt;from + 1U, to&gt;::repeat_n</a>(f, args...); <span class="comment">// Call next iteration</span></div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;utility&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;initializer_list&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">namespace </span>detail {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> F, uint8_t... Is&gt;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline)) <span class="keywordtype">void</span> unroll_impl(F&amp;&amp; f, std::integer_sequence&lt;uint8_t, Is...&gt;) {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="comment">// C++14 expansion using an initializer list to evaluate f(Is) in order</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    (void)std::initializer_list&lt;uint8_t&gt;{ (f(std::integral_constant&lt;uint8_t, Is&gt;{}), (uint8_t)0)... };</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>}</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>} <span class="comment">// detail</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="keyword">template</span> &lt;u<span class="keywordtype">int</span>8_t N, <span class="keyword">typename</span> F&gt;</div>
+<div class="foldopen" id="foldopen00056" data-start="{" data-end="}">
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="static__for_8hpp.html#a84cffe19d8de2c357c5ab666c5ead22c">   56</a></span><span class="keyword">static</span> <span class="keyword">inline</span> __attribute__((always_inline)) <span class="keywordtype">void</span> <a class="code hl_function" href="static__for_8hpp.html#a84cffe19d8de2c357c5ab666c5ead22c">static_for</a>(F&amp;&amp; f) {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    detail::unroll_impl(std::forward&lt;F&gt;(f), std::make_integer_sequence&lt;uint8_t, N&gt;{});</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>}</div>
 </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>};</div>
-</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">// The loop termination specialization for static_for&lt;uint8_t, uint8_t&gt; (you can ignore this)</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">template</span> &lt;u<span class="keywordtype">int</span>8_t to&gt;</div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">struct </span><a class="code hl_struct" href="structstatic__for.html">static_for</a>&lt;to, to&gt; {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> funcType, <span class="keyword">typename</span>...Args&gt;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="comment">//cppcheck-suppress misra-c2012-17.7</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="comment">//cppcheck-suppress misra-c2012-8.2</span></div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code hl_function" href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">repeat_n</a>(funcType, Args...){</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    }    </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>};</div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="ttc" id="astructstatic__for_html"><div class="ttname"><a href="structstatic__for.html">static_for</a></div><div class="ttdoc">Generate a fixed number of calls to a given free function at compile time.</div><div class="ttdef"><b>Definition</b> static_for.hpp:41</div></div>
-<div class="ttc" id="astructstatic__for_html_ae02ff9c42ffb05ae6ddeb3b556f014c8"><div class="ttname"><a href="structstatic__for.html#ae02ff9c42ffb05ae6ddeb3b556f014c8">static_for::repeat_n</a></div><div class="ttdeci">static void repeat_n(funcType f, Args...args)</div><div class="ttdoc">Unroll, calling a free function.</div><div class="ttdef"><b>Definition</b> static_for.hpp:55</div></div>
+<div class="ttc" id="astatic__for_8hpp_html_a84cffe19d8de2c357c5ab666c5ead22c"><div class="ttname"><a href="static__for_8hpp.html#a84cffe19d8de2c357c5ab666c5ead22c">static_for</a></div><div class="ttdeci">static void static_for(F &amp;&amp;f)</div><div class="ttdoc">Generate a fixed number of calls to a given free function at compile time.</div><div class="ttdef"><b>Definition</b> static_for.hpp:56</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
