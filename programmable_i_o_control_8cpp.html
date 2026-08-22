@@ -111,6 +111,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0d521b706d4e7961bd43676d66626164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control function for the programmable I/O system. Should be called regularly (e.g. in main loop) to check the rules and update outputs accordingly.  <br /></td></tr>
 <tr class="separator:a0d521b706d4e7961bd43676d66626164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce4bafa7b467c47c46d05399b8943a9" id="r_a0ce4bafa7b467c47c46d05399b8943a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programmable_i_o_control_8cpp.html#a0ce4bafa7b467c47c46d05399b8943a9">programmableIOGetData</a> (uint16_t index, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>(*pGetLogEntry)(uint16_t byteNum))</td></tr>
+<tr class="memdesc:a0ce4bafa7b467c47c46d05399b8943a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get single I/O data var (from current) for comparison.  <br /></td></tr>
 <tr class="separator:a0ce4bafa7b467c47c46d05399b8943a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f023beadd2ccb06ddcadfbb13ecea4a" id="r_a7f023beadd2ccb06ddcadfbb13ecea4a"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="programmable_i_o_control_8cpp.html#a7f023beadd2ccb06ddcadfbb13ecea4a">programmableIOGetData</a> (uint16_t index)</td></tr>
 <tr class="memdesc:a7f023beadd2ccb06ddcadfbb13ecea4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get single I/O data var (from current) for comparison.  <br /></td></tr>
@@ -152,44 +153,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_cgraph" id="aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_cgraph">
-<area shape="rect" title=" " alt="" coords="5,60,154,86"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="220,5,384,61"/>
-<area shape="poly" title=" " alt="" coords="154,57,204,48,205,53,154,62"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="202,85,402,141"/>
-<area shape="poly" title=" " alt="" coords="154,84,187,90,186,95,154,89"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_icgraph" id="aprogrammable_i_o_control_8cpp_a9e0eaab62aa782dd7c7c20f0f8a0b8aa_icgraph">
-<area shape="rect" title=" " alt="" coords="927,54,1075,79"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a1c5e95470f00818762521dab2dcbbed4" title=" " alt="" coords="785,54,879,79"/>
-<area shape="poly" title=" " alt="" coords="912,69,879,69,879,64,912,64"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1channel__state__t.html#a789976586a7b9741453e102acd652020" title=" " alt="" coords="578,5,737,61"/>
-<area shape="poly" title=" " alt="" coords="769,57,737,51,738,46,770,52"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="600,86,715,111"/>
-<area shape="poly" title=" " alt="" coords="770,81,716,91,715,85,769,75"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a90151a9fde6a65eeb38d5b719d75b14a" title="Initialise the programmable I/O system." alt="" coords="364,20,530,46"/>
-<area shape="poly" title=" " alt="" coords="563,36,531,36,531,31,563,31"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,20,253,46"/>
-<area shape="poly" title=" " alt="" coords="349,36,254,36,254,31,349,31"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,20,59,46"/>
-<area shape="poly" title=" " alt="" coords="154,36,59,36,59,31,154,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="368,86,526,111"/>
-<area shape="poly" title=" " alt="" coords="585,101,527,101,527,96,585,96"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="107,78,316,103"/>
-<area shape="poly" title=" " alt="" coords="352,98,316,97,317,91,352,93"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="132,127,291,153"/>
-<area shape="poly" title=" " alt="" coords="356,117,289,129,288,124,355,112"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -211,58 +174,6 @@ Here is the caller graph for this function:</div>
 
 <p>Get the output status of the programmable I/O system. </p>
 <dl class="section return"><dt>Returns</dt><dd>The compressed output status. </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_cgraph" id="aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_cgraph">
-<area shape="rect" title="Get the output status of the programmable I/O system." alt="" coords="5,20,220,46"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1state__t.html#ad27e34bf521b3d2f5da728acd750085a" title=" " alt="" coords="268,5,457,61"/>
-<area shape="poly" title=" " alt="" coords="220,31,252,31,252,36,220,36"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_icgraph" id="aprogrammable_i_o_control_8cpp_ae1dda5c8fb4d285b424f30f650b555e2_icgraph">
-<area shape="rect" title="Get the output status of the programmable I/O system." alt="" coords="1436,81,1650,107"/>
-<area shape="rect" href="logger_8cpp.html#a637720998932598c11cacd6efc8e4d20" title=" " alt="" coords="622,5,798,46"/>
-<area shape="poly" title=" " alt="" coords="1454,80,1387,71,1224,55,1062,44,798,31,798,26,1062,38,1225,50,1388,66,1455,75"/>
-<area shape="rect" href="logger_8cpp.html#a8c8cf5536fa7b0175d0d939fbae9a63e" title=" " alt="" coords="1243,81,1388,107"/>
-<area shape="poly" title=" " alt="" coords="1420,96,1388,96,1388,91,1420,91"/>
-<area shape="rect" href="logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="1262,156,1369,181"/>
-<area shape="poly" title=" " alt="" coords="1488,114,1358,157,1357,152,1486,109"/>
-<area shape="rect" href="comms__secondary_8cpp.html#a7c6918eaefbe2574c2a1133062129633" title=" " alt="" coords="263,160,423,185"/>
-<area shape="poly" title=" " alt="" coords="607,29,539,38,505,48,472,60,435,82,402,110,356,161,352,157,399,106,432,78,470,55,503,42,538,33,607,23"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,160,215,185"/>
-<area shape="poly" title=" " alt="" coords="247,175,215,175,215,170,247,170"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gaffe28fdfed911a20253152a719567df6" title="Send a status record back to tuning/logging SW. This will &quot;live&quot; information from currentStatus struc..." alt="" coords="1045,238,1181,264"/>
-<area shape="poly" title=" " alt="" coords="1269,190,1148,240,1146,235,1267,185"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a7f023beadd2ccb06ddcadfbb13ecea4a" title="Get single I/O data var (from current) for comparison." alt="" coords="1030,90,1195,116"/>
-<area shape="poly" title=" " alt="" coords="1262,152,1195,130,1160,119,1162,114,1196,124,1263,147"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a32227f23123281ecb856eb1f57f4f6b2" title=" " alt="" coords="1068,164,1157,189"/>
-<area shape="poly" title=" " alt="" coords="1247,174,1158,177,1157,172,1247,168"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#gad3f266b2b216f7b2b7b3d08dd3661b6c" title="Processes a message once it has been fully received." alt="" coords="630,272,790,297"/>
-<area shape="poly" title=" " alt="" coords="1029,261,790,280,790,275,1029,255"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga7e59b4f0d357a308ac2f7257cca678e1" title="The serial receive pump. Should be called whenever the serial port has data available to read." alt="" coords="473,222,572,248"/>
-<area shape="poly" title=" " alt="" coords="643,270,572,251,573,245,645,264"/>
-<area shape="poly" title=" " alt="" coords="468,219,381,188,383,183,470,214"/>
-<area shape="poly" title=" " alt="" coords="457,229,262,200,189,188,190,183,263,195,458,224"/>
-<area shape="poly" title=" " alt="" coords="1053,170,982,162,838,153,727,149,615,151,471,159,424,163,423,158,471,154,615,146,727,144,839,147,982,156,1053,164"/>
-<area shape="poly" title=" " alt="" coords="1147,151,1136,145,1113,142,1092,144,1081,149,1078,154,1084,162,1079,165,1073,155,1077,145,1090,139,1113,137,1137,140,1150,146"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a70fb263f2214d5c61eb49d6f8c33df4f" title=" " alt="" coords="635,222,785,248"/>
-<area shape="poly" title=" " alt="" coords="1053,196,982,212,880,226,785,234,785,229,879,221,982,207,1052,191"/>
-<area shape="rect" href="comms__legacy_8cpp.html#a1d530850376962379a55601369b4fb42" title=" " alt="" coords="846,172,982,197"/>
-<area shape="poly" title=" " alt="" coords="1053,181,983,184,982,179,1053,176"/>
-<area shape="rect" href="group__group-serial-comms-impl.html#ga9f7ff4d3336019845d217d0f94739193" title="The serial transmit pump. Should be called when serialStatusFlag indicates a transmit operation is in..." alt="" coords="471,70,574,96"/>
-<area shape="poly" title=" " alt="" coords="1075,158,1031,136,981,118,869,96,756,85,654,82,575,83,575,78,654,77,757,80,870,91,983,112,1034,131,1078,153"/>
-<area shape="poly" title=" " alt="" coords="619,238,573,238,573,232,619,232"/>
-<area shape="poly" title=" " alt="" coords="830,185,423,177,423,171,830,180"/>
-<area shape="poly" title=" " alt="" coords="845,204,765,224,764,219,844,199"/>
-<area shape="poly" title=" " alt="" coords="456,100,174,161,173,156,455,95"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -289,38 +200,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_cgraph" id="aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_cgraph">
-<area shape="rect" title="Initialise the programmable I/O system." alt="" coords="5,54,172,79"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1channel__state__t.html#a789976586a7b9741453e102acd652020" title=" " alt="" coords="220,39,378,94"/>
-<area shape="poly" title=" " alt="" coords="172,64,204,64,204,69,172,69"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab369ef789af954ba8cf9195a409c94ea" title=" " alt="" coords="426,5,594,61"/>
-<area shape="poly" title=" " alt="" coords="378,51,410,46,411,52,379,57"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a1c5e95470f00818762521dab2dcbbed4" title=" " alt="" coords="463,86,557,111"/>
-<area shape="poly" title=" " alt="" coords="379,76,448,86,447,92,378,81"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a9e0eaab62aa782dd7c7c20f0f8a0b8aa" title=" " alt="" coords="642,86,791,111"/>
-<area shape="poly" title=" " alt="" coords="558,96,627,96,627,101,558,101"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="857,31,1021,86"/>
-<area shape="poly" title=" " alt="" coords="791,83,841,73,842,79,791,88"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="839,111,1039,166"/>
-<area shape="poly" title=" " alt="" coords="791,109,824,115,823,120,791,114"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_icgraph" id="aprogrammable_i_o_control_8cpp_a90151a9fde6a65eeb38d5b719d75b14a_icgraph">
-<area shape="rect" title="Initialise the programmable I/O system." alt="" coords="238,5,404,31"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="107,5,190,31"/>
-<area shape="poly" title=" " alt="" coords="223,21,190,21,190,16,223,16"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,5,59,31"/>
-<area shape="poly" title=" " alt="" coords="91,21,59,21,59,16,91,16"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -363,44 +242,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_cgraph" id="aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,60,100,86"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a9e0eaab62aa782dd7c7c20f0f8a0b8aa" title=" " alt="" coords="148,60,296,86"/>
-<area shape="poly" title=" " alt="" coords="100,71,132,71,132,76,100,76"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="362,5,526,61"/>
-<area shape="poly" title=" " alt="" coords="296,57,346,48,347,53,297,62"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="344,85,544,141"/>
-<area shape="poly" title=" " alt="" coords="297,84,329,90,328,95,296,89"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_icgraph" id="aprogrammable_i_o_control_8cpp_a1c5e95470f00818762521dab2dcbbed4_icgraph">
-<area shape="rect" title=" " alt="" coords="785,54,879,79"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1channel__state__t.html#a789976586a7b9741453e102acd652020" title=" " alt="" coords="578,5,737,61"/>
-<area shape="poly" title=" " alt="" coords="769,57,737,51,738,46,770,52"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="600,86,715,111"/>
-<area shape="poly" title=" " alt="" coords="770,81,716,91,715,85,769,75"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a90151a9fde6a65eeb38d5b719d75b14a" title="Initialise the programmable I/O system." alt="" coords="364,20,530,46"/>
-<area shape="poly" title=" " alt="" coords="563,36,531,36,531,31,563,31"/>
-<area shape="rect" href="init_8cpp.html#adb296edeed2f9690941f64a06def7ec8" title=" " alt="" coords="170,20,253,46"/>
-<area shape="poly" title=" " alt="" coords="349,36,254,36,254,31,349,31"/>
-<area shape="rect" href="speeduino_8ino.html#a7dfd9b79bc5a37d7df40207afbc5431f" title=" " alt="" coords="5,20,59,46"/>
-<area shape="poly" title=" " alt="" coords="154,36,59,36,59,31,154,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="368,86,526,111"/>
-<area shape="poly" title=" " alt="" coords="585,101,527,101,527,96,585,96"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="107,78,316,103"/>
-<area shape="poly" title=" " alt="" coords="352,98,316,97,317,91,352,93"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="132,127,291,153"/>
-<area shape="poly" title=" " alt="" coords="356,117,289,129,288,124,355,112"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -443,51 +284,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_cgraph" id="aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_cgraph">
-<area shape="rect" title=" " alt="" coords="5,195,120,221"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a1c5e95470f00818762521dab2dcbbed4" title=" " alt="" coords="201,72,295,98"/>
-<area shape="poly" title=" " alt="" coords="82,192,213,105,216,109,85,197"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a662925d2086584f06c82e723af795b11" title=" " alt="" coords="172,195,324,221"/>
-<area shape="poly" title=" " alt="" coords="120,205,157,205,157,211,120,211"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ac0f04f0997882afa4c10d682f4887830" title=" " alt="" coords="168,322,328,347"/>
-<area shape="poly" title=" " alt="" coords="85,219,217,311,214,315,82,223"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a9e0eaab62aa782dd7c7c20f0f8a0b8aa" title=" " alt="" coords="421,35,569,61"/>
-<area shape="poly" title=" " alt="" coords="295,76,405,59,406,64,295,81"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="679,5,844,61"/>
-<area shape="poly" title=" " alt="" coords="569,41,664,36,664,41,569,46"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="661,85,862,141"/>
-<area shape="poly" title=" " alt="" coords="551,59,647,82,645,88,549,64"/>
-<area shape="poly" title=" " alt="" coords="262,192,309,155,341,136,375,121,444,105,514,97,583,95,646,97,646,103,583,101,515,102,445,110,377,126,343,141,312,159,265,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a11cf7cc9876c847d9c6b096bb56f0bbe" title=" " alt="" coords="385,136,605,192"/>
-<area shape="poly" title=" " alt="" coords="323,192,369,184,370,189,324,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ac2bb407fa496d171cb1899ccdc323f0e" title=" " alt="" coords="376,216,613,272"/>
-<area shape="poly" title=" " alt="" coords="324,216,361,222,360,227,324,222"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#acea4af201c897c2d536bd96b7270075c" title=" " alt="" coords="422,296,567,322"/>
-<area shape="poly" title=" " alt="" coords="269,219,316,250,377,281,408,291,406,296,375,286,314,255,266,223"/>
-<area shape="poly" title=" " alt="" coords="297,345,363,358,444,366,488,365,531,360,573,349,612,332,637,316,659,296,696,249,724,199,744,155,749,157,729,202,701,252,663,300,640,320,615,337,574,354,532,365,488,370,444,371,362,364,296,351"/>
-<area shape="poly" title=" " alt="" coords="328,324,406,316,407,321,329,329"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a8d0a6b55d3827d9ee5f57c6651d877d9" title=" " alt="" coords="386,397,604,453"/>
-<area shape="poly" title=" " alt="" coords="286,345,404,389,402,394,284,350"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_icgraph" id="aprogrammable_i_o_control_8cpp_a6fd96b360a33e0a4db1129a8ba09bda7_icgraph">
-<area shape="rect" title=" " alt="" coords="469,31,583,56"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="263,31,421,56"/>
-<area shape="poly" title=" " alt="" coords="453,46,422,46,422,41,453,41"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,36,215,32,215,27,247,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="31,55,189,80"/>
-<area shape="poly" title=" " alt="" coords="247,56,190,62,189,57,247,51"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -514,38 +310,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_cgraph" id="aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_cgraph">
-<area shape="rect" title=" " alt="" coords="5,140,157,166"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a11cf7cc9876c847d9c6b096bb56f0bbe" title=" " alt="" coords="213,5,434,61"/>
-<area shape="poly" title=" " alt="" coords="98,138,145,105,203,71,216,65,218,70,206,76,147,110,101,142"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ac2bb407fa496d171cb1899ccdc323f0e" title=" " alt="" coords="205,85,442,141"/>
-<area shape="poly" title=" " alt="" coords="156,138,189,133,190,138,157,143"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="223,165,424,221"/>
-<area shape="poly" title=" " alt="" coords="157,163,208,171,207,177,156,168"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#acea4af201c897c2d536bd96b7270075c" title=" " alt="" coords="251,246,396,271"/>
-<area shape="poly" title=" " alt="" coords="100,164,146,198,206,231,237,241,235,246,204,236,143,202,97,169"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_icgraph" id="aprogrammable_i_o_control_8cpp_a662925d2086584f06c82e723af795b11_icgraph">
-<area shape="rect" title=" " alt="" coords="631,31,783,56"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="469,31,583,56"/>
-<area shape="poly" title=" " alt="" coords="616,46,584,46,584,41,616,41"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="263,31,421,56"/>
-<area shape="poly" title=" " alt="" coords="453,46,422,46,422,41,453,41"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,36,215,32,215,27,247,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="31,55,189,80"/>
-<area shape="poly" title=" " alt="" coords="247,56,190,62,189,57,247,51"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -572,36 +336,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_cgraph" id="aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_cgraph">
-<area shape="rect" title=" " alt="" coords="5,100,166,126"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a8d0a6b55d3827d9ee5f57c6651d877d9" title=" " alt="" coords="214,5,432,61"/>
-<area shape="poly" title=" " alt="" coords="125,97,223,64,225,69,127,102"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="223,85,423,141"/>
-<area shape="poly" title=" " alt="" coords="166,111,207,111,207,116,166,116"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#acea4af201c897c2d536bd96b7270075c" title=" " alt="" coords="250,166,396,191"/>
-<area shape="poly" title=" " alt="" coords="127,124,214,151,247,159,245,164,213,156,126,129"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_icgraph" id="aprogrammable_i_o_control_8cpp_ac0f04f0997882afa4c10d682f4887830_icgraph">
-<area shape="rect" title=" " alt="" coords="631,31,792,56"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="469,31,583,56"/>
-<area shape="poly" title=" " alt="" coords="616,46,584,46,584,41,616,41"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="263,31,421,56"/>
-<area shape="poly" title=" " alt="" coords="453,46,422,46,422,41,453,41"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,36,215,32,215,27,247,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="31,55,189,80"/>
-<area shape="poly" title=" " alt="" coords="247,56,190,62,189,57,247,51"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -628,49 +362,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a0d521b706d4e7961bd43676d66626164_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a0d521b706d4e7961bd43676d66626164_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a0d521b706d4e7961bd43676d66626164_cgraph" id="aprogrammable_i_o_control_8cpp_a0d521b706d4e7961bd43676d66626164_cgraph">
-<area shape="rect" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="5,246,164,271"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="215,208,374,234"/>
-<area shape="poly" title=" " alt="" coords="160,242,203,235,204,240,161,248"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0ce4bafa7b467c47c46d05399b8943a9" title=" " alt="" coords="212,270,377,295"/>
-<area shape="poly" title=" " alt="" coords="164,265,196,269,196,274,164,270"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="455,195,569,221"/>
-<area shape="poly" title=" " alt="" coords="374,214,439,210,439,215,374,219"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a1c5e95470f00818762521dab2dcbbed4" title=" " alt="" coords="679,72,774,98"/>
-<area shape="poly" title=" " alt="" coords="535,192,688,104,690,108,537,197"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a662925d2086584f06c82e723af795b11" title=" " alt="" coords="651,195,802,221"/>
-<area shape="poly" title=" " alt="" coords="569,205,635,205,635,211,569,211"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ac0f04f0997882afa4c10d682f4887830" title=" " alt="" coords="646,322,807,347"/>
-<area shape="poly" title=" " alt="" coords="570,218,600,229,658,268,704,309,700,313,655,272,597,234,568,223"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a9e0eaab62aa782dd7c7c20f0f8a0b8aa" title=" " alt="" coords="899,35,1048,61"/>
-<area shape="poly" title=" " alt="" coords="773,76,883,59,884,64,774,81"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="1158,5,1322,61"/>
-<area shape="poly" title=" " alt="" coords="1048,41,1142,36,1143,41,1048,46"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="1140,85,1340,141"/>
-<area shape="poly" title=" " alt="" coords="1029,59,1125,82,1124,88,1028,64"/>
-<area shape="poly" title=" " alt="" coords="740,192,788,155,820,136,854,121,922,105,993,97,1062,95,1125,97,1124,103,1062,101,993,102,923,110,855,126,822,141,791,159,744,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a11cf7cc9876c847d9c6b096bb56f0bbe" title=" " alt="" coords="863,136,1084,192"/>
-<area shape="poly" title=" " alt="" coords="802,192,847,184,848,189,803,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ac2bb407fa496d171cb1899ccdc323f0e" title=" " alt="" coords="855,216,1092,272"/>
-<area shape="poly" title=" " alt="" coords="803,216,839,222,839,227,802,222"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#acea4af201c897c2d536bd96b7270075c" title=" " alt="" coords="901,296,1046,322"/>
-<area shape="poly" title=" " alt="" coords="747,219,795,250,856,281,886,291,885,296,854,286,792,255,744,223"/>
-<area shape="poly" title=" " alt="" coords="776,345,842,358,923,366,966,365,1009,360,1051,349,1091,332,1115,316,1138,296,1175,249,1203,199,1222,155,1227,157,1208,202,1180,252,1142,300,1119,320,1093,337,1053,354,1010,365,967,370,923,371,841,364,775,351"/>
-<area shape="poly" title=" " alt="" coords="807,324,885,316,885,321,807,329"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a8d0a6b55d3827d9ee5f57c6651d877d9" title=" " alt="" coords="864,397,1083,453"/>
-<area shape="poly" title=" " alt="" coords="765,345,882,389,880,394,763,350"/>
-<area shape="rect" href="logger_8cpp.html#ad5815fac5301ceb5eef90fad69925d08" title=" " alt="" coords="465,244,558,270"/>
-<area shape="poly" title=" " alt="" coords="377,270,450,262,450,267,378,275"/>
-<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="491,294,533,319"/>
-<area shape="poly" title=" " alt="" coords="378,289,475,300,475,305,377,294"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="425,343,598,369"/>
-<area shape="poly" title=" " alt="" coords="329,293,426,329,446,336,444,341,424,334,327,298"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -699,52 +390,7 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Check all (8) programmable I/O:s and carry out action on output pin as needed. Compare 2 (16 bit) vars in a way configured by <a class="el" href="structcmp_operation.html">cmpOperation</a> (see also <a class="el" href="structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33">config13::operation</a>). Use <a class="el" href="programmable_i_o_control_8cpp.html#a0ce4bafa7b467c47c46d05399b8943a9">programmableIOGetData()</a> to get 2 vars to compare. Skip all programmable I/O:s where output pin is set 0 (meaning: not programmed). </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_cgraph" id="aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_cgraph">
-<area shape="rect" title=" " alt="" coords="5,195,164,221"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="212,195,326,221"/>
-<area shape="poly" title=" " alt="" coords="164,205,196,205,196,211,164,211"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a1c5e95470f00818762521dab2dcbbed4" title=" " alt="" coords="407,72,501,98"/>
-<area shape="poly" title=" " alt="" coords="289,192,419,105,422,109,292,197"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a662925d2086584f06c82e723af795b11" title=" " alt="" coords="379,195,530,221"/>
-<area shape="poly" title=" " alt="" coords="326,205,363,205,363,211,326,211"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ac0f04f0997882afa4c10d682f4887830" title=" " alt="" coords="374,322,534,347"/>
-<area shape="poly" title=" " alt="" coords="291,219,423,311,420,315,288,223"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a9e0eaab62aa782dd7c7c20f0f8a0b8aa" title=" " alt="" coords="627,35,775,61"/>
-<area shape="poly" title=" " alt="" coords="501,76,611,59,612,64,502,81"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e" title=" " alt="" coords="886,5,1050,61"/>
-<area shape="poly" title=" " alt="" coords="775,41,870,36,870,41,776,46"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a3f5a8589f65b6cb8a6e2b1cf8528c62c" title=" " alt="" coords="868,85,1068,141"/>
-<area shape="poly" title=" " alt="" coords="757,59,853,82,852,88,756,64"/>
-<area shape="poly" title=" " alt="" coords="468,192,516,155,547,136,582,121,650,105,721,97,789,95,852,97,852,103,789,101,721,102,651,110,583,126,550,141,519,159,471,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a11cf7cc9876c847d9c6b096bb56f0bbe" title=" " alt="" coords="591,136,811,192"/>
-<area shape="poly" title=" " alt="" coords="530,192,575,184,576,189,531,197"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#ac2bb407fa496d171cb1899ccdc323f0e" title=" " alt="" coords="582,216,820,272"/>
-<area shape="poly" title=" " alt="" coords="531,216,567,222,566,227,530,222"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#acea4af201c897c2d536bd96b7270075c" title=" " alt="" coords="628,296,774,322"/>
-<area shape="poly" title=" " alt="" coords="475,219,523,250,583,281,614,291,612,296,581,286,520,255,472,223"/>
-<area shape="poly" title=" " alt="" coords="504,345,570,358,651,366,694,365,737,360,779,349,818,332,843,316,865,296,903,249,931,199,950,155,955,157,936,202,907,252,869,300,846,320,821,337,781,354,738,365,694,370,651,371,569,364,503,351"/>
-<area shape="poly" title=" " alt="" coords="534,324,612,316,613,321,535,329"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1processing__channel__t.html#a8d0a6b55d3827d9ee5f57c6651d877d9" title=" " alt="" coords="592,397,810,453"/>
-<area shape="poly" title=" " alt="" coords="492,345,610,389,608,394,491,350"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_icgraph" id="aprogrammable_i_o_control_8cpp_ae27d42f9acb915360f0fb86d20992248_icgraph">
-<area shape="rect" title=" " alt="" coords="263,31,421,56"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,36,215,32,215,27,247,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="31,55,189,80"/>
-<area shape="poly" title=" " alt="" coords="247,56,190,62,189,57,247,51"/>
-</map>
-</div>
+<p>Check all (8) programmable I/O:s and carry out action on output pin as needed. Compare 2 (16 bit) vars in a way configured by <a class="el" href="structcmp_operation.html">cmpOperation</a> (see also <a class="el" href="structconfig13.html#a69bab95eee7f6b3f5f0d255c72823a33">config13::operation</a>). Use <a class="el" href="programmable_i_o_control_8cpp.html#a0ce4bafa7b467c47c46d05399b8943a9" title="Get single I/O data var (from current) for comparison.">programmableIOGetData()</a> to get 2 vars to compare. Skip all programmable I/O:s where output pin is set 0 (meaning: not programmed). </p>
 
 </div>
 </div>
@@ -771,71 +417,6 @@ Here is the caller graph for this function:</div>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a7f023beadd2ccb06ddcadfbb13ecea4a_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a7f023beadd2ccb06ddcadfbb13ecea4a_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a7f023beadd2ccb06ddcadfbb13ecea4a_cgraph" id="aprogrammable_i_o_control_8cpp_a7f023beadd2ccb06ddcadfbb13ecea4a_cgraph">
-<area shape="rect" title="Get single I/O data var (from current) for comparison." alt="" coords="5,579,171,605"/>
-<area shape="rect" href="logger_8cpp.html#af1156ed72bfc08458ff2aa6ccdacb27c" title=" " alt="" coords="248,382,355,407"/>
-<area shape="poly" title=" " alt="" coords="102,577,273,416,277,420,105,581"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0ce4bafa7b467c47c46d05399b8943a9" title=" " alt="" coords="219,751,384,777"/>
-<area shape="poly" title=" " alt="" coords="108,603,274,739,270,743,104,607"/>
-<area shape="rect" href="logger_8cpp.html#a78e08e25125a68fd8a2b33429ead2a5f" title=" " alt="" coords="477,628,602,654"/>
-<area shape="poly" title=" " alt="" coords="309,407,322,448,347,505,384,565,407,592,433,615,463,629,460,634,431,619,403,596,380,568,342,507,317,450,304,408"/>
-<area shape="rect" href="logger_8cpp.html#a0e5164af91026f150d00eaafea1a32ec" title=" " alt="" coords="456,678,623,703"/>
-<area shape="poly" title=" " alt="" coords="307,407,318,456,341,526,358,564,378,601,404,635,434,664,443,671,440,675,430,669,400,639,374,604,353,567,336,528,313,458,302,408"/>
-<area shape="rect" href="logger_8cpp.html#a443b331d601da07827d977d5543f45b3" title="Build the TunerStudio engine status byte from the current status." alt="" coords="477,480,602,506"/>
-<area shape="poly" title=" " alt="" coords="323,406,372,436,433,467,462,476,460,481,431,472,369,441,320,410"/>
-<area shape="rect" href="logger_8cpp.html#a4bc56b2268371ad895a97793ccd56d7c" title="Build the TunerStudio SD card status byte from the current status." alt="" coords="475,184,604,210"/>
-<area shape="poly" title=" " alt="" coords="306,380,323,347,350,303,386,257,431,219,458,206,460,211,433,223,390,261,354,306,328,349,311,382"/>
-<area shape="rect" href="logger_8cpp.html#a40ec6ecbdc1b2e8a5d22755f2fc9737f" title=" " alt="" coords="493,86,586,111"/>
-<area shape="poly" title=" " alt="" coords="302,381,313,331,336,261,353,222,374,185,400,150,430,120,452,108,476,100,478,105,454,112,434,125,404,154,378,188,358,225,341,263,318,333,307,382"/>
-<area shape="rect" href="logger_8cpp.html#a3e2ed118fdf081b7539488b631c90be1" title=" " alt="" coords="493,234,586,259"/>
-<area shape="poly" title=" " alt="" coords="310,379,358,325,392,294,431,268,476,252,478,257,433,273,395,298,362,329,314,383"/>
-<area shape="rect" href="logger_8cpp.html#a0d83143f6855110174e6db2214f8b277" title=" " alt="" coords="493,135,586,161"/>
-<area shape="poly" title=" " alt="" coords="304,381,317,339,342,282,380,221,403,193,430,170,453,158,477,150,478,155,455,162,434,174,407,197,384,224,347,284,322,341,309,382"/>
-<area shape="rect" href="logger_8cpp.html#adf2c509a2c18dbff433ab0c541482a34" title=" " alt="" coords="493,382,586,407"/>
-<area shape="poly" title=" " alt="" coords="355,392,477,392,477,397,355,397"/>
-<area shape="rect" href="logger_8cpp.html#ab66150105b9397333d50417ddf3b86a1" title=" " alt="" coords="493,530,586,555"/>
-<area shape="poly" title=" " alt="" coords="314,406,362,460,395,491,433,516,478,532,476,537,431,521,392,495,358,464,310,410"/>
-<area shape="rect" href="logger_8cpp.html#a42e1ff84a81e9b25b2fc2d6524971cea" title=" " alt="" coords="483,579,596,605"/>
-<area shape="poly" title=" " alt="" coords="311,407,328,440,354,483,390,528,433,566,469,581,467,586,431,570,386,532,350,486,323,442,306,409"/>
-<area shape="rect" href="maths_8h.html#af04d6ab82ec9f03c6991bb264601813e" title="Performance optimised integer division by 100. I.e. same as n/100." alt="" coords="510,283,569,309"/>
-<area shape="poly" title=" " alt="" coords="320,379,369,348,431,317,493,300,495,305,433,322,372,353,323,383"/>
-<area shape="rect" href="board__definition_8h.html#af87fa722b545868277fe412e4786fa96" title="Calculate free RAM for display in TunerStudio." alt="" coords="504,332,574,358"/>
-<area shape="poly" title=" " alt="" coords="355,381,488,353,489,358,356,386"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae1dda5c8fb4d285b424f30f650b555e2" title="Get the output status of the programmable I/O system." alt="" coords="432,28,646,54"/>
-<area shape="poly" title=" " alt="" coords="301,381,310,324,331,241,348,196,370,150,397,108,430,71,447,59,450,63,434,75,401,111,374,153,353,198,336,243,315,325,307,382"/>
-<area shape="rect" href="units_8h.html#a2fdd25bf304093a2a13a8eaacc091135" title="Convert from a user temperature (&#45;40, 215) to storage (0, 255)" alt="" coords="465,431,613,457"/>
-<area shape="poly" title=" " alt="" coords="356,403,459,425,458,430,355,408"/>
-<area shape="rect" href="logger_8cpp.html#ae641f4b70dc978a4a0faf3c0429180ab" title=" " alt="" coords="739,431,839,457"/>
-<area shape="poly" title=" " alt="" coords="601,632,624,625,645,615,687,582,722,543,751,503,771,469,776,472,755,506,726,546,690,586,648,619,626,630,603,637"/>
-<area shape="rect" href="logger_8cpp.html#a01f6874e4748cb52e9adbb592712c5f9" title=" " alt="" coords="932,431,1025,457"/>
-<area shape="poly" title=" " alt="" coords="839,441,916,441,916,447,839,447"/>
-<area shape="poly" title=" " alt="" coords="622,676,645,664,670,644,692,620,730,566,758,513,776,470,781,472,763,516,735,569,696,623,673,648,648,669,624,681"/>
-<area shape="poly" title=" " alt="" coords="602,478,723,454,724,459,603,483"/>
-<area shape="poly" title=" " alt="" coords="605,201,627,208,648,219,673,240,696,264,735,319,763,372,781,416,776,418,758,374,730,321,692,268,670,244,645,223,625,213,604,206"/>
-<area shape="poly" title=" " alt="" coords="587,97,619,104,648,120,681,153,708,191,731,232,749,274,774,354,786,415,781,416,769,355,744,276,726,234,704,194,677,157,645,125,617,109,586,102"/>
-<area shape="rect" href="scheduled_i_o__inj_8cpp.html#ad2bfd628ae87990c88cae4f754fe130c" title="Injector open/close status bits." alt="" coords="729,86,849,111"/>
-<area shape="poly" title=" " alt="" coords="586,96,713,96,713,101,586,101"/>
-<area shape="poly" title=" " alt="" coords="587,248,618,255,648,268,690,302,726,342,755,382,776,416,771,419,751,385,722,345,687,306,645,273,616,260,586,253"/>
-<area shape="poly" title=" " alt="" coords="587,147,618,154,648,170,677,196,702,227,742,296,769,362,784,415,779,417,764,364,737,298,698,230,673,200,645,174,617,159,586,152"/>
-<area shape="rect" href="reset_control_8cpp.html#a240892464b2ee8c0ab256cbe5a6fed72" title="Check if reset prevention is active." alt="" coords="715,135,863,161"/>
-<area shape="poly" title=" " alt="" coords="586,145,700,145,700,151,586,151"/>
-<area shape="poly" title=" " alt="" coords="587,401,724,428,723,434,586,406"/>
-<area shape="poly" title=" " alt="" coords="585,532,645,516,703,490,752,463,755,467,705,495,647,521,587,537"/>
-<area shape="poly" title=" " alt="" coords="595,582,645,565,681,544,714,517,765,466,769,470,717,521,684,548,647,570,597,587"/>
-<area shape="rect" href="structprogrammable_i_o_control__details_1_1state__t.html#ad27e34bf521b3d2f5da728acd750085a" title=" " alt="" coords="694,5,884,61"/>
-<area shape="poly" title=" " alt="" coords="647,35,679,34,679,39,647,40"/>
-<area shape="rect" href="logger_8cpp.html#ad5815fac5301ceb5eef90fad69925d08" title=" " alt="" coords="493,727,586,753"/>
-<area shape="poly" title=" " alt="" coords="384,753,477,743,477,749,385,758"/>
-<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="518,776,560,802"/>
-<area shape="poly" title=" " alt="" coords="385,770,502,783,502,788,384,775"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="453,826,626,851"/>
-<area shape="poly" title=" " alt="" coords="334,775,433,812,458,819,456,824,431,817,332,780"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -864,39 +445,8 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get single I/O data var (from current) for comparison. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>- Field index/number (?) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>16 bit (int) result </dd></dl>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_cgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_cgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_cgraph" id="aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,55,171,80"/>
-<area shape="rect" href="logger_8cpp.html#ad5815fac5301ceb5eef90fad69925d08" title=" " alt="" coords="259,5,352,31"/>
-<area shape="poly" title=" " alt="" coords="147,51,243,29,244,35,149,57"/>
-<area shape="rect" href="minmax_8h.html#a6bd9c1d1c197f912bdcd93817c52fa4a" title=" " alt="" coords="284,55,327,80"/>
-<area shape="poly" title=" " alt="" coords="171,65,268,65,268,70,171,70"/>
-<area shape="rect" href="units_8h.html#a36a02b948d899a64a1ccce02a099ebba" title="Convert from a storage temperature (0, 255) to user (&#45;40, 215)" alt="" coords="219,104,392,130"/>
-<area shape="poly" title=" " alt="" coords="149,78,231,97,230,103,147,84"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_icgraph" id="aprogrammable_i_o_control_8cpp_a0ce4bafa7b467c47c46d05399b8943a9_icgraph">
-<area shape="rect" title=" " alt="" coords="219,31,384,56"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="9,5,167,31"/>
-<area shape="poly" title=" " alt="" coords="203,35,167,30,168,25,204,29"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a7f023beadd2ccb06ddcadfbb13ecea4a" title="Get single I/O data var (from current) for comparison." alt="" coords="5,55,171,80"/>
-<area shape="poly" title=" " alt="" coords="204,57,172,61,171,56,203,52"/>
-</map>
-</div>
+
+<p>Get single I/O data var (from current) for comparison. </p>
 
 </div>
 </div>
@@ -933,27 +483,6 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="programmable_i_o_control_8cpp_acea4af201c897c2d536bd96b7270075c_icgraph.png" border="0" usemap="#aprogrammable_i_o_control_8cpp_acea4af201c897c2d536bd96b7270075c_icgraph" alt=""/></div>
-<map name="aprogrammable_i_o_control_8cpp_acea4af201c897c2d536bd96b7270075c_icgraph" id="aprogrammable_i_o_control_8cpp_acea4af201c897c2d536bd96b7270075c_icgraph">
-<area shape="rect" title=" " alt="" coords="840,31,985,56"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a662925d2086584f06c82e723af795b11" title=" " alt="" coords="636,5,787,31"/>
-<area shape="poly" title=" " alt="" coords="824,35,787,30,788,25,825,30"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ac0f04f0997882afa4c10d682f4887830" title=" " alt="" coords="631,55,792,80"/>
-<area shape="poly" title=" " alt="" coords="825,57,793,61,792,55,824,51"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7" title=" " alt="" coords="469,31,583,56"/>
-<area shape="poly" title=" " alt="" coords="621,33,584,38,583,33,620,28"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#ae27d42f9acb915360f0fb86d20992248" title=" " alt="" coords="263,31,421,56"/>
-<area shape="poly" title=" " alt="" coords="453,46,422,46,422,41,453,41"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,5,215,31"/>
-<area shape="poly" title=" " alt="" coords="247,36,215,32,215,27,247,31"/>
-<area shape="rect" href="programmable_i_o_control_8cpp.html#a0d521b706d4e7961bd43676d66626164" title="Control function for the programmable I/O system. Should be called regularly (e.g...." alt="" coords="31,55,189,80"/>
-<area shape="poly" title=" " alt="" coords="247,56,190,62,189,57,247,51"/>
-<area shape="poly" title=" " alt="" coords="616,58,583,54,584,48,616,52"/>
-</map>
-</div>
 
 </div>
 </div>

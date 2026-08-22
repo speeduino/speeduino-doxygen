@@ -253,7 +253,7 @@ var searchData=
   ['configureidlepid_250',['configureIdlePID',['../idle_8cpp.html#aff6d08676d9554aac5c36c02c43fe699',1,'idle.cpp']]],
   ['constrainadvance_251',['constrainAdvance',['../secondary_tables_8cpp.html#a4f887905ec97ba47f7feba3bbae89484',1,'secondaryTables.cpp']]],
   ['constrainadvancetrim_252',['constrainAdvanceTrim',['../scheduler__ignition__controller_8cpp.html#a2b48e46744c2d93c7322c63e3d60a227',1,'scheduler_ignition_controller.cpp']]],
-  ['contribute_253',['How to contribute',['../md_contributing.html',1,'']]],
+  ['contribute_253',['How to contribute',['../how-to-contribute.html',1,'']]],
   ['contributing_2emd_254',['contributing.md',['../contributing_8md.html',1,'']]],
   ['conversionfactor_255',['conversionFactor',['../structconversion_factor.html',1,'']]],
   ['coolant_256',['coolant',['../structstatuses.html#a7a9f35075a213a363be285a3988a32da',1,'statuses::coolant'],['../structstatuses_1_1engine__protect__flags__t.html#ab7cc06bcf8ac337231e3eb52cc776f51',1,'statuses::engine_protect_flags_t::coolant']]],

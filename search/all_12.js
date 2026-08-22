@@ -19,7 +19,7 @@ var searchData=
   ['haveswitchedtobatterypower_16',['haveSwitchedToBatteryPower',['../speeduino_8ino.html#acf75ddd1f94d2a2fa560b41d3b8dfad6',1,'speeduino.ino']]],
   ['honda_20d17_17',['Honda D17',['../group__dec__honda__d17.html',1,'']]],
   ['honda_20j_2032_18',['Honda J 32',['../group__dec__honda__j__32.html',1,'']]],
-  ['how_20to_20contribute_19',['How to contribute',['../md_contributing.html',1,'']]],
+  ['how_20to_20contribute_19',['How to contribute',['../how-to-contribute.html',1,'']]],
   ['hwtest_5fign_5fpulsed_20',['HWTest_IGN_Pulsed',['../ts_command_controller_8cpp.html#ac442a653cbc8e26b3dbb470587bcbd67',1,'tsCommandController.cpp']]],
   ['hwtest_5finj_5fpulsed_21',['HWTest_INJ_Pulsed',['../ts_command_controller_8cpp.html#ae76d6162fd42ed3e619bcc9267433e94',1,'tsCommandController.cpp']]],
   ['hwtestignduration_22',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],

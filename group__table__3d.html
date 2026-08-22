@@ -73,9 +73,11 @@ $(function() {
   <div class="summary">
 <a href="#files">Files</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">3D Tables</div></div>
 </div><!--header-->
 <div class="contents">
@@ -99,6 +101,20 @@ Files</h2></td></tr>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtable3d__t.html">table3d_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:gace22337d3f56c3cc72d6999d927dc51f" id="r_gace22337d3f56c3cc72d6999d927dc51f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gace22337d3f56c3cc72d6999d927dc51f">TO_TYPE_KEY</a>(size,  xDom,  yDom)&#160;&#160;&#160;table3d ## size ## xDom ## yDom ## _key</td></tr>
+<tr class="separator:gace22337d3f56c3cc72d6999d927dc51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaae9466b86c174c6e63f712d1fdf5cf84" id="r_gaae9466b86c174c6e63f712d1fdf5cf84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaae9466b86c174c6e63f712d1fdf5cf84">TABLE3D_GEN_TYPE_INNER</a>(size,  xDom,  yDom,  typeName)</td></tr>
+<tr class="separator:gaae9466b86c174c6e63f712d1fdf5cf84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f1a3457bfdb286aa77d8032956e9d3f" id="r_ga4f1a3457bfdb286aa77d8032956e9d3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga4f1a3457bfdb286aa77d8032956e9d3f">TABLE3D_GEN_TYPE</a>(size,  xDom,  yDom)&#160;&#160;&#160;<a class="el" href="group__table__3d.html#gaae9466b86c174c6e63f712d1fdf5cf84">TABLE3D_GEN_TYPE_INNER</a>(size, xDom, yDom, <a class="el" href="group__table__3d.html#ga94f317067f763e6f71e49f213edcc620">TABLE3D_TYPENAME_BASE</a>(size, xDom, yDom))</td></tr>
+<tr class="separator:ga4f1a3457bfdb286aa77d8032956e9d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade6dc4c6d77131025573547db5ee4be1" id="r_gade6dc4c6d77131025573547db5ee4be1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gade6dc4c6d77131025573547db5ee4be1">TABLE3D_GENERATOR</a>(GENERATOR, ...)</td></tr>
+<tr class="memdesc:gade6dc4c6d77131025573547db5ee4be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Core 3d table generation macro.  <br /></td></tr>
+<tr class="separator:gade6dc4c6d77131025573547db5ee4be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94f317067f763e6f71e49f213edcc620" id="r_ga94f317067f763e6f71e49f213edcc620"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga94f317067f763e6f71e49f213edcc620">TABLE3D_TYPENAME_BASE</a>(size,  xDom,  yDom)&#160;&#160;&#160;table3d ## size ## xDom ## yDom</td></tr>
+<tr class="separator:ga94f317067f763e6f71e49f213edcc620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -126,12 +142,31 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gadf4d0a5a3fb543ec773de5535f382ae5" id="r_gadf4d0a5a3fb543ec773de5535f382ae5"><td class="memTemplParams" colspan="2">template&lt;typename TTable &gt; </td></tr>
-<tr class="memitem:gadf4d0a5a3fb543ec773de5535f382ae5"><td class="memTemplItemLeft" align="right" valign="top">struct TABLE3D_TYPENAME_BASE(6, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct TABLE3D_TYPENAME_BASE(4, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct TABLE3D_TYPENAME_BASE(8, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct static TABLE3D_TYPENAME_BASE(16, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gadf4d0a5a3fb543ec773de5535f382ae5">get3DTableValue</a> (const TTable *pTable, const uint16_t <a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a>, const uint16_t <a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>)</td></tr>
-<tr class="memdesc:gadf4d0a5a3fb543ec773de5535f382ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 3D table with 6 x 6 dimensions, Rpm x-axis and Load y-axis.  <br /></td></tr>
-<tr class="separator:gadf4d0a5a3fb543ec773de5535f382ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27e04e1db426c486def3800cabbfc1fa" id="r_ga27e04e1db426c486def3800cabbfc1fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga27e04e1db426c486def3800cabbfc1fa">TABLE3D_GEN_TYPE_INNER</a> (6, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>, <a class="el" href="group__table__3d.html#ga94f317067f763e6f71e49f213edcc620">TABLE3D_TYPENAME_BASE</a>(6, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>))) TABLE3D_GEN_TYPE_INNER(4</td></tr>
+<tr class="separator:ga27e04e1db426c486def3800cabbfc1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaceebfece5f81f19dc2c33dac19134e9a" id="r_gaceebfece5f81f19dc2c33dac19134e9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaceebfece5f81f19dc2c33dac19134e9a">TABLE3D_TYPENAME_BASE</a> (4, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>))) <a class="el" href="group__table__3d.html#gaae9466b86c174c6e63f712d1fdf5cf84">TABLE3D_GEN_TYPE_INNER</a>(8</td></tr>
+<tr class="separator:gaceebfece5f81f19dc2c33dac19134e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga79ca70556d7c7b6b4a162c941f203494" id="r_ga79ca70556d7c7b6b4a162c941f203494"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga79ca70556d7c7b6b4a162c941f203494">TABLE3D_TYPENAME_BASE</a> (8, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>))) <a class="el" href="group__table__3d.html#gaae9466b86c174c6e63f712d1fdf5cf84">TABLE3D_GEN_TYPE_INNER</a>(16</td></tr>
+<tr class="separator:ga79ca70556d7c7b6b4a162c941f203494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c3d36089949d51cd42faac59a723dd2" id="r_ga8c3d36089949d51cd42faac59a723dd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga8c3d36089949d51cd42faac59a723dd2">TABLE3D_TYPENAME_BASE</a> (16, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>))) template&lt; typename TTable &gt; static inline <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> <a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da">get3DTableValue</a>(const TTable *pTable</td></tr>
+<tr class="separator:ga8c3d36089949d51cd42faac59a723dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga11d36f43b9ed135304d6c81c6e91c7e2" id="r_ga11d36f43b9ed135304d6c81c6e91c7e2"><td class="memItemLeft" align="right" valign="top">return&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga11d36f43b9ed135304d6c81c6e91c7e2">get3DTableValue&lt; xFactor, yFactor &gt;</a> (&amp;pTable-&gt;get_value_cache, pTable-&gt;axisX.size(), pTable-&gt;values.data(), pTable-&gt;axisX.data(), pTable-&gt;axisY.data(), { <a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>, <a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a> })</td></tr>
+<tr class="separator:ga11d36f43b9ed135304d6c81c6e91c7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9c49d21f1007b324f5a82b0514412662" id="r_ga9c49d21f1007b324f5a82b0514412662"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662">getConversionFactor</a> (<a class="el" href="group__table__3d.html#ga07bc44ea2a1d9d87af4c249aacd7c25e">AxisDomain</a> domain)</td></tr>
 <tr class="separator:ga9c49d21f1007b324f5a82b0514412662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga86d4b0defaecf0b6fec5ba06e73bd6da" id="r_ga86d4b0defaecf0b6fec5ba06e73bd6da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a></td></tr>
+<tr class="separator:ga86d4b0defaecf0b6fec5ba06e73bd6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaee00fdc948f0555fbe3276253bfe7ede" id="r_gaee00fdc948f0555fbe3276253bfe7ede"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a></td></tr>
+<tr class="separator:gaee00fdc948f0555fbe3276253bfe7ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c0ec31697f9c4e429449a52404336ba" id="r_ga0c0ec31697f9c4e429449a52404336ba"><td class="memItemLeft" align="right" valign="top">const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#ga0c0ec31697f9c4e429449a52404336ba">y</a></td></tr>
+<tr class="separator:ga0c0ec31697f9c4e429449a52404336ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef8cd9b0dff98857507e93ce8f721f9d" id="r_gaef8cd9b0dff98857507e93ce8f721f9d"><td class="memItemLeft" align="right" valign="top">const uint16_t const uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gaef8cd9b0dff98857507e93ce8f721f9d">x</a></td></tr>
+<tr class="separator:gaef8cd9b0dff98857507e93ce8f721f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad5b205b98f1951d641663fb95a3d2442" id="r_gad5b205b98f1951d641663fb95a3d2442"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__table__3d.html#gad5b205b98f1951d641663fb95a3d2442">yFactor</a> = <a class="el" href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662">getConversionFactor</a>(TTable::YDomain)</td></tr>
+<tr class="separator:gad5b205b98f1951d641663fb95a3d2442"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Structures and functions related to 3D tables, such as VE, Spark Advance, AFR etc. </p>
@@ -172,7 +207,205 @@ Functions</h2></td></tr>
      Y-Int    V3      V4      V5
      Y-Max    V6      V7      V8
              X-Min   X-Int   X-Max
-</pre> <h2 class="groupheader">Typedef Documentation</h2>
+</pre> <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga4f1a3457bfdb286aa77d8032956e9d3f" name="ga4f1a3457bfdb286aa77d8032956e9d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f1a3457bfdb286aa77d8032956e9d3f">&#9670;&#160;</a></span>TABLE3D_GEN_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TABLE3D_GEN_TYPE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">size, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">xDom, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">yDom&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="group__table__3d.html#gaae9466b86c174c6e63f712d1fdf5cf84">TABLE3D_GEN_TYPE_INNER</a>(size, xDom, yDom, <a class="el" href="group__table__3d.html#ga94f317067f763e6f71e49f213edcc620">TABLE3D_TYPENAME_BASE</a>(size, xDom, yDom))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaae9466b86c174c6e63f712d1fdf5cf84" name="gaae9466b86c174c6e63f712d1fdf5cf84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaae9466b86c174c6e63f712d1fdf5cf84">&#9670;&#160;</a></span>TABLE3D_GEN_TYPE_INNER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TABLE3D_GEN_TYPE_INNER</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">size, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">xDom, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">yDom, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">typeName&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> \</div>
+<div class="line">    <span class="keyword">struct </span>typeName : <span class="keyword">public</span> <a class="code hl_struct" href="structtable3d__t.html">table3d_t</a> \</div>
+<div class="line">    { \</div>
+<div class="line">        <span class="comment">/* This will take up zero space unless we take the address somewhere */</span> \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="group__table__3d.html#ga944ebdcb0c25a544ca511c4d66f57dde">TableType</a> type_key = TableType::TO_TYPE_KEY(size, xDom, yDom); \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="group__table__3d.html#ga07bc44ea2a1d9d87af4c249aacd7c25e">AxisDomain</a> XDomain = AxisDomain::xDom; \</div>
+<div class="line">        <span class="keyword">static</span> <span class="keyword">constexpr</span> <a class="code hl_enumeration" href="group__table__3d.html#ga07bc44ea2a1d9d87af4c249aacd7c25e">AxisDomain</a> YDomain = AxisDomain::yDom; \</div>
+<div class="line">        \</div>
+<div class="line">        <span class="keyword">mutable</span> <a class="code hl_struct" href="structtable3_d_get_value_cache.html">table3DGetValueCache</a> get_value_cache; \</div>
+<div class="line">        std::array&lt;<a class="code hl_typedef" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a>, (size)*(size)&gt; values; \</div>
+<div class="line">        std::array&lt;<a class="code hl_typedef" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a>, (size)&gt; axisX; \</div>
+<div class="line">        std::array&lt;<a class="code hl_typedef" href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a>, (size)&gt; axisY; \</div>
+<div class="line">    };</div>
+<div class="ttc" id="agroup__table__3d_html_ga07bc44ea2a1d9d87af4c249aacd7c25e"><div class="ttname"><a href="group__table__3d.html#ga07bc44ea2a1d9d87af4c249aacd7c25e">AxisDomain</a></div><div class="ttdeci">AxisDomain</div><div class="ttdoc">Encodes the real world measurement that a table axis captures.</div><div class="ttdef"><b>Definition</b> table3d_axes.h:17</div></div>
+<div class="ttc" id="agroup__table__3d_html_ga3cb179e8a4049fcd4d6d5ac583631842"><div class="ttname"><a href="group__table__3d.html#ga3cb179e8a4049fcd4d6d5ac583631842">table3d_axis_t</a></div><div class="ttdeci">uint8_t table3d_axis_t</div><div class="ttdoc">The type of each axis value.</div><div class="ttdef"><b>Definition</b> table3d_typedefs.h:28</div></div>
+<div class="ttc" id="agroup__table__3d_html_ga944ebdcb0c25a544ca511c4d66f57dde"><div class="ttname"><a href="group__table__3d.html#ga944ebdcb0c25a544ca511c4d66f57dde">TableType</a></div><div class="ttdeci">TableType</div><div class="ttdoc">Table type identifiers. Limited compile time RTTI.</div><div class="ttdef"><b>Definition</b> table3d.h:69</div></div>
+<div class="ttc" id="astructtable3_d_get_value_cache_html"><div class="ttname"><a href="structtable3_d_get_value_cache.html">table3DGetValueCache</a></div><div class="ttdoc">Cache structure for 3D table value lookups.</div><div class="ttdef"><b>Definition</b> table3d_interpolate.h:34</div></div>
+<div class="ttc" id="astructtable3d__t_html"><div class="ttname"><a href="structtable3d__t.html">table3d_t</a></div><div class="ttdef"><b>Definition</b> table3d.h:79</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="gade6dc4c6d77131025573547db5ee4be1" name="gade6dc4c6d77131025573547db5ee4be1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gade6dc4c6d77131025573547db5ee4be1">&#9670;&#160;</a></span>TABLE3D_GENERATOR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TABLE3D_GENERATOR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">GENERATOR, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    GENERATOR(6, <a class="code hl_variable" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="code hl_variable" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>, ##__VA_ARGS__) \</div>
+<div class="line">    GENERATOR(4, <a class="code hl_variable" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="code hl_variable" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>, ##__VA_ARGS__) \</div>
+<div class="line">    GENERATOR(8, <a class="code hl_variable" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="code hl_variable" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>, ##__VA_ARGS__) \</div>
+<div class="line">    GENERATOR(16, <a class="code hl_variable" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="code hl_variable" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>, ##__VA_ARGS__)</div>
+<div class="ttc" id="agroup__table__3d_html_ga86d4b0defaecf0b6fec5ba06e73bd6da"><div class="ttname"><a href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a></div><div class="ttdeci">Rpm</div><div class="ttdef"><b>Definition</b> table3d.h:100</div></div>
+<div class="ttc" id="agroup__table__3d_html_gaee00fdc948f0555fbe3276253bfe7ede"><div class="ttname"><a href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a></div><div class="ttdeci">Load</div><div class="ttdef"><b>Definition</b> table3d.h:100</div></div>
+</div><!-- fragment -->
+<p>Core 3d table generation macro. </p>
+<p>We have a fixed number of table types: they are defined by this macro. GENERATOR is expected to be another macros that takes at least 3 arguments: axis length, x-axis domain, y-axis domain </p>
+
+</div>
+</div>
+<a id="ga94f317067f763e6f71e49f213edcc620" name="ga94f317067f763e6f71e49f213edcc620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94f317067f763e6f71e49f213edcc620">&#9670;&#160;</a></span>TABLE3D_TYPENAME_BASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TABLE3D_TYPENAME_BASE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">size, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">xDom, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">yDom&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;table3d ## size ## xDom ## yDom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gace22337d3f56c3cc72d6999d927dc51f" name="gace22337d3f56c3cc72d6999d927dc51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace22337d3f56c3cc72d6999d927dc51f">&#9670;&#160;</a></span>TO_TYPE_KEY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TO_TYPE_KEY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">size, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">xDom, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">yDom&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;table3d ## size ## xDom ## yDom ## _key</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga3cb179e8a4049fcd4d6d5ac583631842" name="ga3cb179e8a4049fcd4d6d5ac583631842"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga3cb179e8a4049fcd4d6d5ac583631842">&#9670;&#160;</a></span>table3d_axis_t</h2>
 
@@ -284,34 +517,47 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="gadf4d0a5a3fb543ec773de5535f382ae5" name="gadf4d0a5a3fb543ec773de5535f382ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadf4d0a5a3fb543ec773de5535f382ae5">&#9670;&#160;</a></span>get3DTableValue()</h2>
+<a id="ga11d36f43b9ed135304d6c81c6e91c7e2" name="ga11d36f43b9ed135304d6c81c6e91c7e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga11d36f43b9ed135304d6c81c6e91c7e2">&#9670;&#160;</a></span>get3DTableValue&lt; xFactor, yFactor &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename TTable &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">struct TABLE3D_TYPENAME_BASE(6, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct TABLE3D_TYPENAME_BASE(4, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct TABLE3D_TYPENAME_BASE(8, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) struct static TABLE3D_TYPENAME_BASE(16, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eabfbb9bf22207805b46664fc3576f1701">Rpm</a>, <a class="el" href="group__table__3d.html#gga07bc44ea2a1d9d87af4c249aacd7c25eaf19dbf2edb3a0bd74b0524d960ff21eb">Load</a>) <a class="el" href="group__table__3d.html#gab69ba2fe8af0812c23a6136789c169e1">table3d_value_t</a> get3DTableValue </td>
+          <td class="memname">return <a class="el" href="table3d__interpolate_8h.html#a1fe61755e720344fa2014ebcf82d94da">get3DTableValue</a>&lt; xFactor, <a class="el" href="group__table__3d.html#gad5b205b98f1951d641663fb95a3d2442">yFactor</a> &gt; </td>
           <td>(</td>
-          <td class="paramtype">const TTable *&#160;</td>
-          <td class="paramname"><em>pTable</em>, </td>
+          <td class="paramtype">&amp;pTable-&gt;&#160;</td>
+          <td class="paramname"><em>get_value_cache</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
+          <td class="paramtype">pTable-&gt;axisX.&#160;</td>
+          <td class="paramname"><em>size</em>(), </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const uint16_t&#160;</td>
-          <td class="paramname"><em>x</em>&#160;</td>
+          <td class="paramtype">pTable-&gt;values.&#160;</td>
+          <td class="paramname"><em>data</em>(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pTable-&gt;axisX.&#160;</td>
+          <td class="paramname"><em>data</em>(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pTable-&gt;axisY.&#160;</td>
+          <td class="paramname"><em>data</em>(), </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">{ <a class="el" href="maths_8cpp.html#a0f561e77fa0f040b637f4e04f6cd8078">x</a>, <a class="el" href="maths_8cpp.html#a17f97f62d93bc8cfb4a2b5d273a2aa72">y</a> }&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -319,79 +565,7 @@ template&lt;typename TTable &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>A 3D table with 6 x 6 dimensions, Rpm x-axis and Load y-axis. </p>
-<p>A 3D table with 4 x 4 dimensions, Rpm x-axis and Load y-axis</p>
-<p>A 3D table with 8 x 8 dimensions, Rpm x-axis and Load y-axis</p>
-<p>A 3D table with 16 x 16 dimensions, Rpm x-axis and Load y-axis </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_cgraph.png" border="0" usemap="#agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_cgraph" alt=""/></div>
-<map name="agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_cgraph" id="agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_cgraph">
-<area shape="rect" title="A 3D table with 6 x 6 dimensions, Rpm x&#45;axis and Load y&#45;axis." alt="" coords="5,5,126,31"/>
-<area shape="rect" href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662" title=" " alt="" coords="174,5,315,31"/>
-<area shape="poly" title=" " alt="" coords="126,16,158,16,158,21,126,21"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_icgraph.png" border="0" usemap="#agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_icgraph" alt=""/></div>
-<map name="agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_icgraph" id="agroup__table__3d_gadf4d0a5a3fb543ec773de5535f382ae5_icgraph">
-<area shape="rect" title="A 3D table with 6 x 6 dimensions, Rpm x&#45;axis and Load y&#45;axis." alt="" coords="894,281,1014,307"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf" title=" " alt="" coords="715,5,817,31"/>
-<area shape="poly" title=" " alt="" coords="946,267,936,218,917,159,887,97,867,69,844,44,816,29,819,24,847,40,871,65,891,94,922,157,941,217,951,266"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b" title=" " alt="" coords="686,55,846,80"/>
-<area shape="poly" title=" " alt="" coords="943,267,930,228,910,181,881,134,844,94,827,83,830,79,847,89,885,131,914,179,935,226,948,266"/>
-<area shape="rect" href="boost_controller_8cpp.html#a2e9a2f41544deb079bda15a534b0cbe7" title=" " alt="" coords="718,104,814,130"/>
-<area shape="poly" title=" " alt="" coords="937,269,899,210,874,179,844,151,811,133,814,128,847,147,878,175,904,207,941,266"/>
-<area shape="rect" href="boost_controller_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="512,155,606,180"/>
-<area shape="poly" title=" " alt="" coords="931,272,894,234,870,216,845,202,783,182,718,171,657,167,606,167,606,162,657,161,719,165,784,176,847,197,873,212,897,230,935,268"/>
-<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="283,205,411,231"/>
-<area shape="poly" title=" " alt="" coords="890,280,845,270,725,252,605,239,411,224,411,219,606,234,726,247,846,265,891,274"/>
-<area shape="rect" href="dwell_8cpp.html#a09af92f232fbacded8ff3093601491a1" title="Compute the ignition dwell." alt="" coords="295,255,399,280"/>
-<area shape="poly" title=" " alt="" coords="878,293,846,291,399,272,399,267,846,286,878,288"/>
-<area shape="rect" href="speeduino_8ino.html#aef65c08bf25cdfc49f575080fe6da357" title=" " alt="" coords="510,307,607,332"/>
-<area shape="poly" title=" " alt="" coords="878,302,608,319,608,314,878,296"/>
-<area shape="rect" href="speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5" title=" " alt="" coords="527,356,590,382"/>
-<area shape="poly" title=" " alt="" coords="879,313,846,319,591,366,590,361,845,314,878,308"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="716,408,816,434"/>
-<area shape="poly" title=" " alt="" coords="932,320,894,356,847,391,809,410,806,405,844,387,891,352,929,316"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="724,457,808,483"/>
-<area shape="poly" title=" " alt="" coords="943,322,906,386,879,419,847,448,829,459,809,466,807,461,826,454,844,444,875,416,902,383,938,320"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="307,508,387,534"/>
-<area shape="poly" title=" " alt="" coords="949,323,938,364,918,412,888,460,869,481,847,498,809,513,757,524,695,530,627,533,492,532,387,526,388,521,492,526,627,527,695,525,756,518,808,508,844,493,866,477,884,456,913,410,933,362,944,321"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="304,557,390,583"/>
-<area shape="poly" title=" " alt="" coords="952,323,942,371,924,429,893,488,872,513,847,535,791,567,729,587,664,599,600,604,538,603,480,598,390,583,391,578,481,592,538,597,600,598,664,594,727,582,788,562,844,531,868,510,888,485,919,427,937,370,946,322"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="482,68,635,94"/>
-<area shape="poly" title=" " alt="" coords="671,76,636,79,636,73,671,71"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="275,80,419,106"/>
-<area shape="poly" title=" " alt="" coords="467,89,420,91,419,86,467,83"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,331,215,356"/>
-<area shape="poly" title=" " alt="" coords="311,116,264,151,218,199,177,251,122,332,117,329,173,248,214,196,261,147,307,112"/>
-<area shape="poly" title=" " alt="" coords="703,135,607,159,606,153,702,130"/>
-<area shape="poly" title=" " alt="" coords="496,164,444,162,384,165,323,175,264,195,216,225,175,264,143,302,122,332,117,329,139,299,171,260,213,221,262,190,321,170,384,160,444,157,496,158"/>
-<area shape="poly" title=" " alt="" coords="277,239,264,245,224,266,187,290,129,332,126,328,184,285,222,261,262,240,275,234"/>
-<area shape="poly" title=" " alt="" coords="291,288,153,333,152,328,289,283"/>
-<area shape="poly" title=" " alt="" coords="495,326,215,341,215,335,494,320"/>
-<area shape="poly" title=" " alt="" coords="512,369,215,352,215,347,512,364"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="263,407,431,432"/>
-<area shape="poly" title=" " alt="" coords="700,423,431,422,431,417,700,418"/>
-<area shape="poly" title=" " alt="" coords="289,404,152,359,153,354,291,399"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="479,457,638,483"/>
-<area shape="poly" title=" " alt="" coords="709,473,639,473,639,468,709,468"/>
-<area shape="poly" title=" " alt="" coords="464,477,365,470,312,461,262,447,220,428,181,404,124,359,127,355,184,400,222,424,264,442,314,456,366,465,464,471"/>
-<area shape="poly" title=" " alt="" coords="291,506,261,491,217,458,176,421,120,359,124,355,180,417,220,454,264,487,293,501"/>
-<area shape="poly" title=" " alt="" coords="288,561,261,548,234,527,209,501,166,447,134,396,115,358,120,355,139,393,171,444,213,498,237,523,264,544,290,557"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -418,60 +592,230 @@ Here is the caller graph for this function:</div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="group__table__3d_ga9c49d21f1007b324f5a82b0514412662_icgraph.png" border="0" usemap="#agroup__table__3d_ga9c49d21f1007b324f5a82b0514412662_icgraph" alt=""/></div>
-<map name="agroup__table__3d_ga9c49d21f1007b324f5a82b0514412662_icgraph" id="agroup__table__3d_ga9c49d21f1007b324f5a82b0514412662_icgraph">
-<area shape="rect" title=" " alt="" coords="1062,281,1203,307"/>
-<area shape="rect" href="group__table__3d.html#gadf4d0a5a3fb543ec773de5535f382ae5" title="A 3D table with 6 x 6 dimensions, Rpm x&#45;axis and Load y&#45;axis." alt="" coords="894,281,1014,307"/>
-<area shape="poly" title=" " alt="" coords="1047,297,1015,297,1015,292,1047,292"/>
-<area shape="rect" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf" title=" " alt="" coords="715,5,817,31"/>
-<area shape="poly" title=" " alt="" coords="946,267,936,218,917,159,887,97,867,69,844,44,816,29,819,24,847,40,871,65,891,94,922,157,941,217,951,266"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#ac2846d54c8ac06e27e63e36d14649d6b" title=" " alt="" coords="686,55,846,80"/>
-<area shape="poly" title=" " alt="" coords="943,267,930,228,910,181,881,134,844,94,827,83,830,79,847,89,885,131,914,179,935,226,948,266"/>
-<area shape="rect" href="boost_controller_8cpp.html#a2e9a2f41544deb079bda15a534b0cbe7" title=" " alt="" coords="718,104,814,130"/>
-<area shape="poly" title=" " alt="" coords="937,269,899,210,874,179,844,151,811,133,814,128,847,147,878,175,904,207,941,266"/>
-<area shape="rect" href="boost_controller_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a" title=" " alt="" coords="512,155,606,180"/>
-<area shape="poly" title=" " alt="" coords="931,272,894,234,870,216,845,202,783,182,718,171,657,167,606,167,606,162,657,161,719,165,784,176,847,197,873,212,897,230,935,268"/>
-<area shape="rect" href="corrections_8cpp.html#a1d4ca52f526ab7a92deda14728b685dc" title=" " alt="" coords="283,205,411,231"/>
-<area shape="poly" title=" " alt="" coords="897,279,845,266,726,247,606,235,411,223,411,217,606,229,726,242,846,261,898,274"/>
-<area shape="rect" href="dwell_8cpp.html#a09af92f232fbacded8ff3093601491a1" title="Compute the ignition dwell." alt="" coords="507,256,610,282"/>
-<area shape="poly" title=" " alt="" coords="878,292,611,275,611,269,878,287"/>
-<area shape="rect" href="speeduino_8ino.html#aef65c08bf25cdfc49f575080fe6da357" title=" " alt="" coords="298,307,396,332"/>
-<area shape="poly" title=" " alt="" coords="879,300,396,320,396,315,878,295"/>
-<area shape="rect" href="speeduino_8ino.html#aa7cb149e53f772c6077a7e05cae0daa5" title=" " alt="" coords="527,357,590,383"/>
-<area shape="poly" title=" " alt="" coords="913,316,846,341,776,355,704,365,591,372,591,367,704,359,775,350,845,336,912,311"/>
-<area shape="rect" href="secondary_tables_8cpp.html#ae20ce008a6e4936b356978c22ea3df3d" title=" " alt="" coords="716,408,816,434"/>
-<area shape="poly" title=" " alt="" coords="932,320,894,356,847,391,809,410,806,405,844,387,891,352,929,316"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a2970a2f27e9079e5a37f698f29edd701" title="Looks up and returns the VE value from the secondary fuel table." alt="" coords="724,457,808,483"/>
-<area shape="poly" title=" " alt="" coords="943,322,906,386,879,419,847,448,829,459,809,466,807,461,826,454,844,444,875,416,902,383,938,320"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a54b5c6c7b15d2bc4dbaa41170f21290f" title=" " alt="" coords="307,509,387,535"/>
-<area shape="poly" title=" " alt="" coords="949,323,938,364,918,412,888,460,869,480,847,498,809,513,757,524,695,530,627,533,492,532,387,528,388,522,492,527,627,528,695,525,756,519,808,508,844,493,866,477,884,456,913,410,933,362,944,321"/>
-<area shape="rect" href="auxiliaries_8cpp.html#a6437f16b1057eb1370f84e02c346d90f" title=" " alt="" coords="304,559,390,584"/>
-<area shape="poly" title=" " alt="" coords="952,323,942,371,924,429,893,488,872,513,847,535,791,567,729,588,664,599,600,604,538,603,480,598,390,584,391,579,481,593,538,598,600,599,664,594,727,582,788,562,844,531,868,510,888,485,919,427,937,369,946,322"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#a4b74a5bd905b832438df6a5358d9d10a" title=" " alt="" coords="482,68,635,94"/>
-<area shape="poly" title=" " alt="" coords="671,76,636,79,636,73,671,71"/>
-<area shape="rect" href="fuel__calcs_8cpp.html#aca67c7723ed6f9b66ffe1b665c2ae3e1" title="This function calculates the required pulsewidth time (in µS) given the current tune &amp; system state." alt="" coords="275,80,419,106"/>
-<area shape="poly" title=" " alt="" coords="467,89,420,91,419,86,467,83"/>
-<area shape="rect" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884" title=" " alt="" coords="5,332,215,358"/>
-<area shape="poly" title=" " alt="" coords="311,116,264,151,218,200,177,252,122,333,117,330,173,249,214,196,261,147,307,112"/>
-<area shape="poly" title=" " alt="" coords="703,135,607,159,606,153,702,130"/>
-<area shape="poly" title=" " alt="" coords="496,164,444,162,384,165,323,175,264,195,216,226,175,264,143,303,122,333,117,330,139,300,171,261,213,222,262,190,321,170,384,160,444,157,496,158"/>
-<area shape="poly" title=" " alt="" coords="293,240,264,253,190,295,132,334,129,329,187,291,261,248,291,235"/>
-<area shape="poly" title=" " alt="" coords="492,273,384,280,263,297,200,314,145,334,143,329,198,309,262,292,384,274,492,267"/>
-<area shape="poly" title=" " alt="" coords="283,329,216,336,215,331,282,324"/>
-<area shape="poly" title=" " alt="" coords="512,370,215,353,215,348,512,365"/>
-<area shape="rect" href="secondary_tables_8cpp.html#a1db1199febb50fa98c8ee4e101704a41" title=" " alt="" coords="263,408,431,434"/>
-<area shape="poly" title=" " alt="" coords="700,424,431,424,431,418,700,418"/>
-<area shape="poly" title=" " alt="" coords="289,405,152,361,153,356,291,400"/>
-<area shape="rect" href="secondary_tables_8cpp.html#aa1642452a68dbdd12786413ce77ae6e3" title=" " alt="" coords="479,459,638,484"/>
-<area shape="poly" title=" " alt="" coords="709,473,639,474,639,468,709,468"/>
-<area shape="poly" title=" " alt="" coords="464,478,365,472,312,463,262,449,220,430,181,406,124,360,127,356,184,401,222,425,264,444,314,458,366,466,464,473"/>
-<area shape="poly" title=" " alt="" coords="291,507,261,492,217,459,176,422,120,360,124,357,180,418,220,455,264,488,293,503"/>
-<area shape="poly" title=" " alt="" coords="288,563,261,550,234,528,209,503,166,448,134,397,115,359,120,357,139,394,171,445,213,499,237,524,264,545,290,558"/>
-</map>
+
 </div>
+</div>
+<a id="ga27e04e1db426c486def3800cabbfc1fa" name="ga27e04e1db426c486def3800cabbfc1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga27e04e1db426c486def3800cabbfc1fa">&#9670;&#160;</a></span>TABLE3D_GEN_TYPE_INNER()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TABLE3D_GEN_TYPE_INNER </td>
+          <td>(</td>
+          <td class="paramtype">6&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga94f317067f763e6f71e49f213edcc620">TABLE3D_TYPENAME_BASE</a>(6, <a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>, <a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>)&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga8c3d36089949d51cd42faac59a723dd2" name="ga8c3d36089949d51cd42faac59a723dd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c3d36089949d51cd42faac59a723dd2">&#9670;&#160;</a></span>TABLE3D_TYPENAME_BASE() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TABLE3D_TYPENAME_BASE </td>
+          <td>(</td>
+          <td class="paramtype">16&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaceebfece5f81f19dc2c33dac19134e9a" name="gaceebfece5f81f19dc2c33dac19134e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaceebfece5f81f19dc2c33dac19134e9a">&#9670;&#160;</a></span>TABLE3D_TYPENAME_BASE() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TABLE3D_TYPENAME_BASE </td>
+          <td>(</td>
+          <td class="paramtype">4&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga79ca70556d7c7b6b4a162c941f203494" name="ga79ca70556d7c7b6b4a162c941f203494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga79ca70556d7c7b6b4a162c941f203494">&#9670;&#160;</a></span>TABLE3D_TYPENAME_BASE() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TABLE3D_TYPENAME_BASE </td>
+          <td>(</td>
+          <td class="paramtype">8&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da">Rpm</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__table__3d.html#gaee00fdc948f0555fbe3276253bfe7ede">Load</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="gaee00fdc948f0555fbe3276253bfe7ede" name="gaee00fdc948f0555fbe3276253bfe7ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaee00fdc948f0555fbe3276253bfe7ede">&#9670;&#160;</a></span>Load</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Load</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga86d4b0defaecf0b6fec5ba06e73bd6da" name="ga86d4b0defaecf0b6fec5ba06e73bd6da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86d4b0defaecf0b6fec5ba06e73bd6da">&#9670;&#160;</a></span>Rpm</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rpm</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gaef8cd9b0dff98857507e93ce8f721f9d" name="gaef8cd9b0dff98857507e93ce8f721f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaef8cd9b0dff98857507e93ce8f721f9d">&#9670;&#160;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t const uint16_t x</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">{ </div>
+<div class="line">    <span class="keyword">constexpr</span> uint16_t xFactor = <a class="code hl_function" href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662">getConversionFactor</a>(TTable::XDomain)</div>
+<div class="ttc" id="agroup__table__3d_html_ga9c49d21f1007b324f5a82b0514412662"><div class="ttname"><a href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662">getConversionFactor</a></div><div class="ttdeci">static constexpr uint16_t getConversionFactor(AxisDomain domain)</div><div class="ttdef"><b>Definition</b> table3d_axes.h:24</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ga0c0ec31697f9c4e429449a52404336ba" name="ga0c0ec31697f9c4e429449a52404336ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0c0ec31697f9c4e429449a52404336ba">&#9670;&#160;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const uint16_t y</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gad5b205b98f1951d641663fb95a3d2442" name="gad5b205b98f1951d641663fb95a3d2442"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad5b205b98f1951d641663fb95a3d2442">&#9670;&#160;</a></span>yFactor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t yFactor = <a class="el" href="group__table__3d.html#ga9c49d21f1007b324f5a82b0514412662">getConversionFactor</a>(TTable::YDomain)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

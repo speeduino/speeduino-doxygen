@@ -3,7 +3,7 @@ var searchData=
   ['_5fcalculatecoilchargeangle_0',['_calculateCoilChargeAngle',['../scheduler__ignition__controller_8cpp.html#a75d017cb5b7820dd5621f280008fa1c1',1,'scheduler_ignition_controller.cpp']]],
   ['_5fcalculateignitiontimeout_1',['_calculateIgnitionTimeout',['../scheduler__ignition__controller_8cpp.html#a9d57d940823ad06c8a295ca63d2de553',1,'scheduler_ignition_controller.cpp']]],
   ['_5fcalculateknockrecovery_2',['_calculateKnockRecovery',['../corrections_8cpp.html#a6c5ae66fcbbce5c4872db05ab23c9a6c',1,'corrections.cpp']]],
-  ['_5fcalculateopenangle_3',['_calculateOpenAngle',['../scheduler__fuel__controller_8cpp.html#a38b060127c1c1a519baa65edf31423af',1,'scheduler_fuel_controller.cpp']]],
+  ['_5fcalculateopenangle_3',['_calculateOpenAngle',['../scheduler__fuel__controller_8cpp.html#a62095dd5a045a73d4ba3104b8c36eac7',1,'scheduler_fuel_controller.cpp']]],
   ['_5fcalculatesparkangle_4',['_calculateSparkAngle',['../scheduler__ignition__controller_8cpp.html#a29b606c60f74ec92622a132398bb33fb',1,'scheduler_ignition_controller.cpp']]],
   ['_5fchannel_5fstate_5',['_channel_state',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#a26b2a3aadf0f60c93a19e501fa301cd7',1,'programmableIOControl_details::processing_channel_t']]],
   ['_5fcompare_6',['_compare',['../struct_schedule.html#acace5e4b19312fe459df06129acb901b',1,'Schedule']]],
@@ -25,5 +25,6 @@ var searchData=
   ['_5fresetpreventactive_22',['_resetPreventActive',['../reset_control_8cpp.html#a6d8dc0726847f5a63a3fbe7946001549',1,'resetControl.cpp']]],
   ['_5fstarttime_23',['_startTime',['../struct_ignition_schedule.html#a7dc92a01df0855d3351e3d059c409e5c',1,'IgnitionSchedule']]],
   ['_5fstatus_24',['_status',['../struct_schedule.html#a9c7dc14fd10571f16cb44a2995ba4383',1,'Schedule']]],
-  ['_5ftableoffset_25',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
+  ['_5ftable2d_5fdetail_25',['_table2d_detail',['../namespace__table2d__detail.html',1,'']]],
+  ['_5ftableoffset_26',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
 ];

@@ -81,23 +81,12 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for config2:</div>
 <div class="dyncontent">
-<div class="center"><img src="structconfig2__inherit__graph.png" border="0" usemap="#aconfig2_inherit__map" alt="Inheritance graph"/></div>
-<map name="aconfig2_inherit__map" id="aconfig2_inherit__map">
-<area shape="rect" title=" " alt="" coords="25,79,87,105"/>
-<area shape="rect" href="structconfig__page__t.html" title=" " alt="" coords="5,5,107,31"/>
-<area shape="poly" title=" " alt="" coords="59,46,59,79,53,79,53,46"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for config2:</div>
-<div class="dyncontent">
-<div class="center"><img src="structconfig2__coll__graph.png" border="0" usemap="#aconfig2_coll__map" alt="Collaboration graph"/></div>
-<map name="aconfig2_coll__map" id="aconfig2_coll__map">
-<area shape="rect" title=" " alt="" coords="25,79,87,105"/>
-<area shape="rect" href="structconfig__page__t.html" title=" " alt="" coords="5,5,107,31"/>
-<area shape="poly" title=" " alt="" coords="59,46,59,79,53,79,53,46"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+ <div class="center">
+  <img src="structconfig2.png" usemap="#config2_map" alt=""/>
+  <map id="config2_map" name="config2_map">
+<area href="structconfig__page__t.html" alt="config_page_t" shape="rect" coords="0,0,92,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -122,10 +111,10 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a2bd32a7b436553911c789dca378f5521"><td class="mdescLeft">&#160;</td><td class="mdescRight">MAP value processing: 0 = off, 1 = div by currentStatus.baro, 2 = div by 100 (to gain usable value)  <br /></td></tr>
 <tr class="separator:a2bd32a7b436553911c789dca378f5521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1624c8e1d4073a8d2303a0052153262d" id="r_a1624c8e1d4073a8d2303a0052153262d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a1624c8e1d4073a8d2303a0052153262d">wueValues</a> [10]</td></tr>
-<tr class="memdesc:a1624c8e1d4073a8d2303a0052153262d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warm up enrichment array (10 bytes, transferred to WUETable)  <br /></td></tr>
+<tr class="memdesc:a1624c8e1d4073a8d2303a0052153262d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Warm up enrichment array.  <br /></td></tr>
 <tr class="separator:a1624c8e1d4073a8d2303a0052153262d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d6cd573533b4b7875c8e827b8ae11c" id="r_a46d6cd573533b4b7875c8e827b8ae11c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a46d6cd573533b4b7875c8e827b8ae11c">crankingPct</a></td></tr>
-<tr class="memdesc:a46d6cd573533b4b7875c8e827b8ae11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, updates.ino)  <br /></td></tr>
+<tr class="memdesc:a46d6cd573533b4b7875c8e827b8ae11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, <a class="el" href="updates_8cpp.html">updates.cpp</a>)  <br /></td></tr>
 <tr class="separator:a46d6cd573533b4b7875c8e827b8ae11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa639bb97df66c4f0aca60fea75a8856" id="r_aaa639bb97df66c4f0aca60fea75a8856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#aaa639bb97df66c4f0aca60fea75a8856">pinMapping</a></td></tr>
 <tr class="memdesc:aaa639bb97df66c4f0aca60fea75a8856"><td class="mdescLeft">&#160;</td><td class="mdescRight">The board / ping mapping number / id to be used (See: <a class="el" href="init_8cpp.html#a86db22b96dc0b6738580853545476dd7">setPinMapping</a> in init.ino)  <br /></td></tr>
@@ -190,7 +179,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:acfa8ed2700577576b4bd5e996afe9e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fuel algorithm - 0=Manifold pressure/MAP (LOAD_SOURCE_MAP, default, proven), 1=Throttle/TPS (LOAD_SOURCE_TPS), 2=IMAP/EMAP (LOAD_SOURCE_IMAPEMAP)  <br /></td></tr>
 <tr class="separator:acfa8ed2700577576b4bd5e996afe9e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac59aebab192641059276fa40878779fa" id="r_ac59aebab192641059276fa40878779fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#ac59aebab192641059276fa40878779fa">fixAngEnable</a>: 1</td></tr>
-<tr class="memdesc:ac59aebab192641059276fa40878779fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether fixed/locked timing is enabled (0=disable, 1=enable, See configPage4.FixAng)  <br /></td></tr>
+<tr class="memdesc:ac59aebab192641059276fa40878779fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether fixed/locked timing is enabled (0=disable, 1=enable, See <a class="el" href="structconfig4.html#afd9fde15111d45388e2b19f568103c0a">config4::FixAng</a>)  <br /></td></tr>
 <tr class="separator:ac59aebab192641059276fa40878779fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86491f4937c47ce775a6769dd99c100" id="r_ab86491f4937c47ce775a6769dd99c100"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#ab86491f4937c47ce775a6769dd99c100">nInjectors</a>: 4</td></tr>
 <tr class="memdesc:ab86491f4937c47ce775a6769dd99c100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of injectors.  <br /></td></tr>
@@ -281,7 +270,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a23f29ebc0ea5cd7ed87bd491a3f31fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether the fan output will stay on when the engine is cranking (0=force off, 1=allow on)  <br /></td></tr>
 <tr class="separator:a23f29ebc0ea5cd7ed87bd491a3f31fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22b0eff0dfb5b09424cf25f7a209fcaf" id="r_a22b0eff0dfb5b09424cf25f7a209fcaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a22b0eff0dfb5b09424cf25f7a209fcaf">useDwellMap</a>: 1</td></tr>
-<tr class="memdesc:a22b0eff0dfb5b09424cf25f7a209fcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting to change between fixed dwell value and dwell map (0=Fixed value from configPage4.dwellRun, 1=Use <a class="el" href="globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6">dwellTable</a>)  <br /></td></tr>
+<tr class="memdesc:a22b0eff0dfb5b09424cf25f7a209fcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting to change between fixed dwell value and dwell map (0=Fixed value from <a class="el" href="structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c">config4::dwellRun</a>, 1=Use <a class="el" href="globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6">dwellTable</a>)  <br /></td></tr>
 <tr class="separator:a22b0eff0dfb5b09424cf25f7a209fcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ff71093243f3cb6341165d20c4592fd" id="r_a0ff71093243f3cb6341165d20c4592fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfig2.html#a0ff71093243f3cb6341165d20c4592fd">fanEnable</a>: 2</td></tr>
 <tr class="memdesc:a0ff71093243f3cb6341165d20c4592fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fan mode. 0=Off, 1=On/Off, 2=PWM.  <br /></td></tr>
@@ -650,7 +639,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, updates.ino) </p>
+<p>Cranking enrichment (See <a class="el" href="structconfig10.html">config10</a>, <a class="el" href="updates_8cpp.html">updates.cpp</a>) </p>
 
 </div>
 </div>
@@ -928,7 +917,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Whether fixed/locked timing is enabled (0=disable, 1=enable, See configPage4.FixAng) </p>
+<p>Whether fixed/locked timing is enabled (0=disable, 1=enable, See <a class="el" href="structconfig4.html#afd9fde15111d45388e2b19f568103c0a">config4::FixAng</a>) </p>
 
 </div>
 </div>
@@ -1957,7 +1946,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Setting to change between fixed dwell value and dwell map (0=Fixed value from configPage4.dwellRun, 1=Use <a class="el" href="globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6">dwellTable</a>) </p>
+<p>Setting to change between fixed dwell value and dwell map (0=Fixed value from <a class="el" href="structconfig4.html#acfd3cc4c0cc8cc110943b8056e1be63c">config4::dwellRun</a>, 1=Use <a class="el" href="globals_8cpp.html#aa4b389d176a13844913ee9454c3ab5b6">dwellTable</a>) </p>
 
 </div>
 </div>
@@ -2077,7 +2066,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Warm up enrichment array (10 bytes, transferred to WUETable) </p>
+<p>Warm up enrichment array. </p>
 
 </div>
 </div>
