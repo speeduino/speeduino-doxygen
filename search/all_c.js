@@ -66,7 +66,7 @@ var searchData=
   ['bit_5fwrite_63',['BIT_WRITE',['../bit__manip_8h.html#a011484a60e91f633573a1b3b757ae354',1,'bit_manip.h']]],
   ['bitwise_64',['bitwise',['../structcmp_operation.html#af5e6b00b1107a09c804812af74a75e63',1,'cmpOperation']]],
   ['blankfield_65',['blankField',['../structconfig9.html#a7d8491ff93c29f999c6739ad40baed2c',1,'config9']]],
-  ['blocking_5ffactor_66',['blocking_factor',['../board__teensy41_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy41.h'],['../board__avr2560_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy35.h']]],
+  ['blocking_5ffactor_66',['blocking_factor',['../board__teensy35_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy35.h'],['../board__avr2560_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_stm32_official.h'],['../board__teensy41_8h.html#a681a903da6d2efb36239edbf18e25870',1,'BLOCKING_FACTOR:&#160;board_teensy41.h']]],
   ['board_5favr2560_2ecpp_67',['board_avr2560.cpp',['../board__avr2560_8cpp.html',1,'']]],
   ['board_5favr2560_2eh_68',['board_avr2560.h',['../board__avr2560_8h.html',1,'']]],
   ['board_5fdefinition_2eh_69',['board_definition.h',['../board__definition_8h.html',1,'']]],
@@ -121,7 +121,7 @@ var searchData=
   ['boostduty_118',['boostDuty',['../structstatuses.html#a88a87b361621c3cae045a7e966d01169',1,'statuses']]],
   ['boostenabled_119',['boostEnabled',['../structconfig6.html#a10d8ea32706493d84f711d92f768946d',1,'config6']]],
   ['boostfreq_120',['boostFreq',['../structconfig6.html#a124a4a935e774e04d84abfa712d5183d',1,'config6']]],
-  ['boostinterrupt_121',['boostinterrupt',['../boost_controller_8h.html#ad4d9daee30b13a076f65801fca57e319',1,'boostInterrupt(void):&#160;boostController.cpp'],['../boost_controller_8cpp.html#ad4d9daee30b13a076f65801fca57e319',1,'boostInterrupt(void):&#160;boostController.cpp']]],
+  ['boostinterrupt_121',['boostinterrupt',['../boost_controller_8cpp.html#ad4d9daee30b13a076f65801fca57e319',1,'boostInterrupt(void):&#160;boostController.cpp'],['../boost_controller_8h.html#ad4d9daee30b13a076f65801fca57e319',1,'boostInterrupt(void):&#160;boostController.cpp']]],
   ['boostintv_122',['boostIntv',['../structconfig10.html#a78603816cdc81c71b2dab0766c5d0542',1,'config10']]],
   ['boostkd_123',['boostKD',['../structconfig6.html#a76e4cde01bd2d5899180898d7aeff920',1,'config6']]],
   ['boostki_124',['boostKI',['../structconfig6.html#a32be3c1476bceca9bc9af91fe353d375',1,'config6']]],
@@ -156,5 +156,5 @@ var searchData=
   ['buildtestoutput_153',['buildTestOutput',['../logger_8cpp.html#a42e1ff84a81e9b25b2fc2d6524971cea',1,'logger.cpp']]],
   ['burnpending_154',['burnPending',['../structstatuses.html#a39982ad8d048f2e11c8d937227d808c1',1,'statuses']]],
   ['burnsinglepage_155',['burnSinglePage',['../group__group-serial-comms-impl.html#gae66e8182a3ace437a194321fef590ea3',1,'comms.cpp']]],
-  ['byte_156',['byte',['../config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;config_pages.h'],['../polling_8hpp.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;polling.hpp'],['../statuses_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;statuses.h'],['../storage__api_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;storage_api.h']]]
+  ['byte_156',['byte',['../config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;config_pages.h'],['../statuses_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;statuses.h'],['../storage__api_8h.html#a3eca60932ee4119828944ccd69a6272b',1,'byte:&#160;storage_api.h']]]
 ];
