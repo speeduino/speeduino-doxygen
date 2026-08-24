@@ -82,6 +82,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 <code>#include &lt;avr-fast-shift.h&gt;</code><br />
 <code>#include &lt;avr-fast-div.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
@@ -150,9 +151,14 @@ Functions</h2></td></tr>
 <tr class="memitem:aeaabbd719d960b3b342272e5328d1d31" id="r_aeaabbd719d960b3b342272e5328d1d31"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8h.html#aeaabbd719d960b3b342272e5328d1d31">halfPercentage</a> (uint8_t percent, uint16_t value)</td></tr>
 <tr class="memdesc:aeaabbd719d960b3b342272e5328d1d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer based half-percentage calculation.  <br /></td></tr>
 <tr class="separator:aeaabbd719d960b3b342272e5328d1d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf16d92a564e280af1210c940ff4ef14" id="r_acf16d92a564e280af1210c940ff4ef14"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="maths_8h.html#acf16d92a564e280af1210c940ff4ef14">nudge</a> (int16_t min, int16_t max, int16_t value, int16_t nudgeAmount)</td></tr>
-<tr class="memdesc:acf16d92a564e280af1210c940ff4ef14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make one pass at correcting the value into the range [min, max)  <br /></td></tr>
-<tr class="separator:acf16d92a564e280af1210c940ff4ef14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaac0037d29204fe230b937768d6617c" id="r_aeaac0037d29204fe230b937768d6617c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aeaac0037d29204fe230b937768d6617c"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="maths_8h.html#aeaac0037d29204fe230b937768d6617c">nudge</a> (T min, T max, T value)</td></tr>
+<tr class="memdesc:aeaac0037d29204fe230b937768d6617c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make **one* pass at correcting the <code>value</code> into the range [ <code>min</code>, <code>max</code>)  <br /></td></tr>
+<tr class="separator:aeaac0037d29204fe230b937768d6617c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e743884494fc5d7ff9301b540d78f6" id="r_a14e743884494fc5d7ff9301b540d78f6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a14e743884494fc5d7ff9301b540d78f6"><td class="memTemplItemLeft" align="right" valign="top">static T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="maths_8h.html#a14e743884494fc5d7ff9301b540d78f6">normalize</a> (T min, T max, T value)</td></tr>
+<tr class="memdesc:a14e743884494fc5d7ff9301b540d78f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Correct <code>value</code> into the range [ <code>min</code>, <code>max</code> ) by adding or subtracting ( <code>max-</code> <code>min</code> )  <br /></td></tr>
+<tr class="separator:a14e743884494fc5d7ff9301b540d78f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a577259499090f5cb6552c400f11e99be" id="r_a577259499090f5cb6552c400f11e99be"><td class="memTemplParams" colspan="2">template&lt;typename TDividend , typename TDivisor &gt; </td></tr>
 <tr class="memitem:a577259499090f5cb6552c400f11e99be"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a7ea72cde701aa18a9390e9da190e9864">TESTABLE_STATIC_CONSTEXPR</a> TDividend&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="maths_8h.html#a577259499090f5cb6552c400f11e99be">fast_div_closest</a> (TDividend dividend, TDivisor divisor)</td></tr>
 <tr class="memdesc:a577259499090f5cb6552c400f11e99be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as fast_div(), except this will round to nearest integer instead of truncating.  <br /></td></tr>
@@ -726,38 +732,34 @@ template&lt;typename TDividend , typename TDivisor &gt; </div>
 
 </div>
 </div>
-<a id="acf16d92a564e280af1210c940ff4ef14" name="acf16d92a564e280af1210c940ff4ef14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf16d92a564e280af1210c940ff4ef14">&#9670;&#160;</a></span>nudge()</h2>
+<a id="a14e743884494fc5d7ff9301b540d78f6" name="a14e743884494fc5d7ff9301b540d78f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14e743884494fc5d7ff9301b540d78f6">&#9670;&#160;</a></span>normalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int16_t nudge </td>
+          <td class="memname">static T normalize </td>
           <td>(</td>
-          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>min</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int16_t&#160;</td>
+          <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>max</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>nudgeAmount</em>&#160;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -772,17 +774,70 @@ template&lt;typename TDividend , typename TDivisor &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Make one pass at correcting the value into the range [min, max) </p>
+<p>Correct <code>value</code> into the range [ <code>min</code>, <code>max</code> ) by adding or subtracting ( <code>max-</code> <code>min</code> ) </p>
+<p>We assume <code>value</code> is only a few multiples outside the range</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">min</td><td>Minimum value (inclusive) </td></tr>
+    <tr><td class="paramname">max</td><td>Maximum value (exclusive). Must be greater than min. </td></tr>
+    <tr><td class="paramname">value</td><td>Value to nudge </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeaac0037d29204fe230b937768d6617c" name="aeaac0037d29204fe230b937768d6617c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaac0037d29204fe230b937768d6617c">&#9670;&#160;</a></span>nudge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T nudge </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>max</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make **one* pass at correcting the <code>value</code> into the range [ <code>min</code>, <code>max</code>) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">min</td><td>Minimum value (inclusive) </td></tr>
     <tr><td class="paramname">max</td><td>Maximum value (exclusive) </td></tr>
     <tr><td class="paramname">value</td><td>Value to nudge </td></tr>
-    <tr><td class="paramname">nudgeAmount</td><td>Amount to change value by </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>int16_t </dd></dl>
 
 </div>
 </div>
