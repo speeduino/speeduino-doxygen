@@ -84,15 +84,12 @@ $(function() {
 <code>#include &quot;<a class="el" href="acc__mc33810_8h_source.html">acc_mc33810.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tacho_controller_8h_source.html">src/controllers/tacho/tachoController.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a05f37b9ed5fafa49334827169e86711b" id="r_a05f37b9ed5fafa49334827169e86711b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__ign_8cpp.html#a05f37b9ed5fafa49334827169e86711b">initialiseIgnitionIO</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
 <tr class="separator:a05f37b9ed5fafa49334827169e86711b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac010856eed03e1364e4a31a00f2e504b" id="r_ac010856eed03e1364e4a31a00f2e504b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__ign_8cpp.html#ac010856eed03e1364e4a31a00f2e504b">tachoOutputOn</a> (void)</td></tr>
-<tr class="separator:ac010856eed03e1364e4a31a00f2e504b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a5b5f1a95f564a895e0cd3d001e82c" id="r_ae2a5b5f1a95f564a895e0cd3d001e82c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__ign_8cpp.html#ae2a5b5f1a95f564a895e0cd3d001e82c">tachoOutputOff</a> (void)</td></tr>
-<tr class="separator:ae2a5b5f1a95f564a895e0cd3d001e82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85b7e8d8736cee503189e6eeaac87492" id="r_a85b7e8d8736cee503189e6eeaac87492"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__ign_8cpp.html#a85b7e8d8736cee503189e6eeaac87492">beginCoilCharge</a> (uint8_t channel)</td></tr>
 <tr class="separator:a85b7e8d8736cee503189e6eeaac87492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22eb8effccd16347f2e25934d178a390" id="r_a22eb8effccd16347f2e25934d178a390"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduled_i_o__ign_8cpp.html#a22eb8effccd16347f2e25934d178a390">endCoilCharge</a> (uint8_t channel)</td></tr>
@@ -899,58 +896,6 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae2a5b5f1a95f564a895e0cd3d001e82c" name="ae2a5b5f1a95f564a895e0cd3d001e82c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a5b5f1a95f564a895e0cd3d001e82c">&#9670;&#160;</a></span>tachoOutputOff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void tachoOutputOff </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac010856eed03e1364e4a31a00f2e504b" name="ac010856eed03e1364e4a31a00f2e504b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac010856eed03e1364e4a31a00f2e504b">&#9670;&#160;</a></span>tachoOutputOn()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void tachoOutputOn </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

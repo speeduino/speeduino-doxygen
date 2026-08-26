@@ -8,9 +8,12 @@ var searchData=
   ['table3d_5finterpolate_2eh_5',['table3d_interpolate.h',['../table3d__interpolate_8h.html',1,'']]],
   ['table3d_5ftypedefs_2eh_6',['table3d_typedefs.h',['../table3d__typedefs_8h.html',1,'']]],
   ['table3d_5fvisitor_2eh_7',['table3d_visitor.h',['../table3d__visitor_8h.html',1,'']]],
-  ['timers_2ecpp_8',['timers.cpp',['../timers_8cpp.html',1,'']]],
-  ['timers_2eh_9',['timers.h',['../timers_8h.html',1,'']]],
-  ['trackedoutputpin_2eh_10',['trackedOutputPin.h',['../tracked_output_pin_8h.html',1,'']]],
-  ['tscommandcontroller_2ecpp_11',['tsCommandController.cpp',['../ts_command_controller_8cpp.html',1,'']]],
-  ['tscommandcontroller_2eh_12',['tsCommandController.h',['../ts_command_controller_8h.html',1,'']]]
+  ['tachocontroller_2ecpp_8',['tachoController.cpp',['../tacho_controller_8cpp.html',1,'']]],
+  ['tachocontroller_2eh_9',['tachoController.h',['../tacho_controller_8h.html',1,'']]],
+  ['tachocontroller_5fdetail_2eh_10',['tachoController_detail.h',['../tacho_controller__detail_8h.html',1,'']]],
+  ['timers_2ecpp_11',['timers.cpp',['../timers_8cpp.html',1,'']]],
+  ['timers_2eh_12',['timers.h',['../timers_8h.html',1,'']]],
+  ['trackedoutputpin_2eh_13',['trackedOutputPin.h',['../tracked_output_pin_8h.html',1,'']]],
+  ['tscommandcontroller_2ecpp_14',['tsCommandController.cpp',['../ts_command_controller_8cpp.html',1,'']]],
+  ['tscommandcontroller_2eh_15',['tsCommandController.h',['../ts_command_controller_8h.html',1,'']]]
 ];
