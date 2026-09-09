@@ -390,40 +390,19 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a5f175c5202d65ba2e82a3cf931e68c23" id="r_a5f175c5202d65ba2e82a3cf931e68c23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a5f175c5202d65ba2e82a3cf931e68c23">sdCardUnused</a>: 1</td></tr>
 <tr class="memdesc:a5f175c5202d65ba2e82a3cf931e68c23"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if unused, false if not  <br /></td></tr>
 <tr class="separator:a5f175c5202d65ba2e82a3cf931e68c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a058b2af3bbc863a5bd9d20cbd455f2b5" id="r_a058b2af3bbc863a5bd9d20cbd455f2b5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a058b2af3bbc863a5bd9d20cbd455f2b5">airconRequested</a>: 1</td></tr>
-<tr class="memdesc:a058b2af3bbc863a5bd9d20cbd455f2b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the A/C button is pressed.  <br /></td></tr>
-<tr class="separator:a058b2af3bbc863a5bd9d20cbd455f2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0daa2198bd417c012638ecfc81ac16f" id="r_ad0daa2198bd417c012638ecfc81ac16f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ad0daa2198bd417c012638ecfc81ac16f">airconCompressorOn</a>: 1</td></tr>
-<tr class="memdesc:ad0daa2198bd417c012638ecfc81ac16f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the A/C compressor is running.  <br /></td></tr>
-<tr class="separator:ad0daa2198bd417c012638ecfc81ac16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7385f268d836f5fb5f136ef71d8dd981" id="r_a7385f268d836f5fb5f136ef71d8dd981"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a7385f268d836f5fb5f136ef71d8dd981">airconRpmLockout</a>: 1</td></tr>
-<tr class="memdesc:a7385f268d836f5fb5f136ef71d8dd981"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the A/C is locked out due to the RPM being too high/low, or the post-high/post-low-RPM "stand-down" lockout period.  <br /></td></tr>
-<tr class="separator:a7385f268d836f5fb5f136ef71d8dd981"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b42fcba0aa760f373a6d6367bcab13e" id="r_a3b42fcba0aa760f373a6d6367bcab13e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a3b42fcba0aa760f373a6d6367bcab13e">airconTpsLockout</a>: 1</td></tr>
-<tr class="memdesc:a3b42fcba0aa760f373a6d6367bcab13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the A/C is locked out due to high TPS, or the post-high-TPS "stand-down" lockout period.  <br /></td></tr>
-<tr class="separator:a3b42fcba0aa760f373a6d6367bcab13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bfb5a78c1a892c89fe6a9f45c5c36a1" id="r_a6bfb5a78c1a892c89fe6a9f45c5c36a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a6bfb5a78c1a892c89fe6a9f45c5c36a1">airconTurningOn</a>: 1</td></tr>
-<tr class="memdesc:a6bfb5a78c1a892c89fe6a9f45c5c36a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the A/C request is on (i.e. A/C button pressed), the lockouts are off, however the start delay has not yet elapsed. This gives the idle up time to kick in before the compressor.  <br /></td></tr>
-<tr class="separator:a6bfb5a78c1a892c89fe6a9f45c5c36a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3eac4d2862a88c1a5dd3441f63db193" id="r_ab3eac4d2862a88c1a5dd3441f63db193"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ab3eac4d2862a88c1a5dd3441f63db193">airconCltLockout</a>: 1</td></tr>
-<tr class="memdesc:ab3eac4d2862a88c1a5dd3441f63db193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the A/C is locked out either due to high coolant temp.  <br /></td></tr>
-<tr class="separator:ab3eac4d2862a88c1a5dd3441f63db193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01936b4043dd084680060d3a8ba50e83" id="r_a01936b4043dd084680060d3a8ba50e83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a01936b4043dd084680060d3a8ba50e83">airconFanOn</a>: 1</td></tr>
-<tr class="memdesc:a01936b4043dd084680060d3a8ba50e83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates whether the A/C fan is running.  <br /></td></tr>
-<tr class="separator:a01936b4043dd084680060d3a8ba50e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d3db08d433aed737dd74afc2eaa928" id="r_a68d3db08d433aed737dd74afc2eaa928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structair_con_status__t.html">airConStatus_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a68d3db08d433aed737dd74afc2eaa928">acStatus</a> = {}</td></tr>
+<tr class="separator:a68d3db08d433aed737dd74afc2eaa928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa6e07aa4eccdddd3a931a0a08eb266" id="r_abaa6e07aa4eccdddd3a931a0a08eb266"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266">systemTemp</a></td></tr>
 <tr class="separator:abaa6e07aa4eccdddd3a931a0a08eb266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c3243ef635c145798da6e3bf3693024" id="r_a1c3243ef635c145798da6e3bf3693024"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a1c3243ef635c145798da6e3bf3693024">revolutionTime</a></td></tr>
 <tr class="separator:a1c3243ef635c145798da6e3bf3693024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7297af1ce949a9664eb48b3724ac826b" id="r_a7297af1ce949a9664eb48b3724ac826b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a7297af1ce949a9664eb48b3724ac826b">maxIgnOutputs</a></td></tr>
 <tr class="separator:a7297af1ce949a9664eb48b3724ac826b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e2e5ed532034e2f493ce064958b9ca2" id="r_a2e2e5ed532034e2f493ce064958b9ca2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2">numPrimaryInjOutputs</a>: 4</td></tr>
-<tr class="separator:a2e2e5ed532034e2f493ce064958b9ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749eda9094235a10648a518f97b5282a" id="r_a749eda9094235a10648a518f97b5282a"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a749eda9094235a10648a518f97b5282a">numSecondaryInjOutputs</a>: 4</td></tr>
-<tr class="separator:a749eda9094235a10648a518f97b5282a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e14d2fe46486609a69bbeac07a6fc54" id="r_a9e14d2fe46486609a69bbeac07a6fc54"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a9e14d2fe46486609a69bbeac07a6fc54">injLayout</a>: 3</td></tr>
 <tr class="memdesc:a9e14d2fe46486609a69bbeac07a6fc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normally the same value as <a class="el" href="structconfig2.html#a7c8f825b401e80c2758d694522d88360">config2::injLayout</a>, but under some situations will change to one of the other INJ_* constants.  <br /></td></tr>
 <tr class="separator:a9e14d2fe46486609a69bbeac07a6fc54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c7168e7cc123ee1a606327b57ec074" id="r_a01c7168e7cc123ee1a606327b57ec074"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structnum__injector__t.html">num_injector_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a01c7168e7cc123ee1a606327b57ec074">injOutputs</a></td></tr>
+<tr class="separator:a01c7168e7cc123ee1a606327b57ec074"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d3c4d211ad932d421c65cdda618e41" id="r_a14d3c4d211ad932d421c65cdda618e41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structstatuses_1_1scheduler__cut__t.html">scheduler_cut_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a14d3c4d211ad932d421c65cdda618e41">schedulerCutState</a></td></tr>
 <tr class="separator:a14d3c4d211ad932d421c65cdda618e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6d98812d31eaf37e01d0dc361017d46" id="r_aa6d98812d31eaf37e01d0dc361017d46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa6d98812d31eaf37e01d0dc361017d46">decoder</a></td></tr>
@@ -490,6 +469,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a68d3db08d433aed737dd74afc2eaa928" name="a68d3db08d433aed737dd74afc2eaa928"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d3db08d433aed737dd74afc2eaa928">&#9670;&#160;</a></span>acStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structair_con_status__t.html">airConStatus_t</a> statuses::acStatus = {}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7ead0b647b54fa064ec422e72730950a" name="a7ead0b647b54fa064ec422e72730950a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7ead0b647b54fa064ec422e72730950a">&#9670;&#160;</a></span>actualDwell</h2>
 
@@ -593,118 +586,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Current AFR Target looked up from AFR target table (x10 ? See <a class="el" href="globals_8cpp.html#a4d02c5d0d95adab2513eaa52413723a9">afrTable</a>) </p>
-
-</div>
-</div>
-<a id="ab3eac4d2862a88c1a5dd3441f63db193" name="ab3eac4d2862a88c1a5dd3441f63db193"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3eac4d2862a88c1a5dd3441f63db193">&#9670;&#160;</a></span>airconCltLockout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconCltLockout</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates the A/C is locked out either due to high coolant temp. </p>
-
-</div>
-</div>
-<a id="ad0daa2198bd417c012638ecfc81ac16f" name="ad0daa2198bd417c012638ecfc81ac16f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0daa2198bd417c012638ecfc81ac16f">&#9670;&#160;</a></span>airconCompressorOn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconCompressorOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates whether the A/C compressor is running. </p>
-
-</div>
-</div>
-<a id="a01936b4043dd084680060d3a8ba50e83" name="a01936b4043dd084680060d3a8ba50e83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01936b4043dd084680060d3a8ba50e83">&#9670;&#160;</a></span>airconFanOn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconFanOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates whether the A/C fan is running. </p>
-
-</div>
-</div>
-<a id="a058b2af3bbc863a5bd9d20cbd455f2b5" name="a058b2af3bbc863a5bd9d20cbd455f2b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a058b2af3bbc863a5bd9d20cbd455f2b5">&#9670;&#160;</a></span>airconRequested</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconRequested</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates whether the A/C button is pressed. </p>
-
-</div>
-</div>
-<a id="a7385f268d836f5fb5f136ef71d8dd981" name="a7385f268d836f5fb5f136ef71d8dd981"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7385f268d836f5fb5f136ef71d8dd981">&#9670;&#160;</a></span>airconRpmLockout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconRpmLockout</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates the A/C is locked out due to the RPM being too high/low, or the post-high/post-low-RPM "stand-down" lockout period. </p>
-
-</div>
-</div>
-<a id="a3b42fcba0aa760f373a6d6367bcab13e" name="a3b42fcba0aa760f373a6d6367bcab13e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b42fcba0aa760f373a6d6367bcab13e">&#9670;&#160;</a></span>airconTpsLockout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconTpsLockout</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates the A/C is locked out due to high TPS, or the post-high-TPS "stand-down" lockout period. </p>
-
-</div>
-</div>
-<a id="a6bfb5a78c1a892c89fe6a9f45c5c36a1" name="a6bfb5a78c1a892c89fe6a9f45c5c36a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bfb5a78c1a892c89fe6a9f45c5c36a1">&#9670;&#160;</a></span>airconTurningOn</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::airconTurningOn</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Indicates the A/C request is on (i.e. A/C button pressed), the lockouts are off, however the start delay has not yet elapsed. This gives the idle up time to kick in before the compressor. </p>
 
 </div>
 </div>
@@ -1547,6 +1428,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a01c7168e7cc123ee1a606327b57ec074" name="a01c7168e7cc123ee1a606327b57ec074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c7168e7cc123ee1a606327b57ec074">&#9670;&#160;</a></span>injOutputs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structnum__injector__t.html">num_injector_t</a> statuses::injOutputs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a6f46bb3756e8d45495ab5401215ebd86" name="a6f46bb3756e8d45495ab5401215ebd86"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f46bb3756e8d45495ab5401215ebd86">&#9670;&#160;</a></span>injPrimed</h2>
 
@@ -1880,36 +1775,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Number of injector squirts per cycle (per injector) </p>
-
-</div>
-</div>
-<a id="a2e2e5ed532034e2f493ce064958b9ca2" name="a2e2e5ed532034e2f493ce064958b9ca2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e2e5ed532034e2f493ce064958b9ca2">&#9670;&#160;</a></span>numPrimaryInjOutputs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t statuses::numPrimaryInjOutputs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Number of primary injection outputs </p>
-
-</div>
-</div>
-<a id="a749eda9094235a10648a518f97b5282a" name="a749eda9094235a10648a518f97b5282a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a749eda9094235a10648a518f97b5282a">&#9670;&#160;</a></span>numSecondaryInjOutputs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t statuses::numSecondaryInjOutputs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Number of secondary injection outputs (staged injection only) </p>
 
 </div>
 </div>

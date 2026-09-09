@@ -74,6 +74,7 @@ $(function() {
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>calcAccelEnrichment()&#160;:&#160;<a class="el" href="corrections_8cpp.html#a2c052bf7869552f61cf9d0aad82d820c">corrections.cpp</a></li>
+<li>calcAngularCylinderSeparation()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#ad79b85cdac3abdf285a271a433848acf">scheduler_fuel_controller.cpp</a></li>
 <li>calcBaseCutRevolutions()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a8a64f3d3195c4476d7a15ca3be02b038">engineProtection.cpp</a></li>
 <li>calcDeccelEnrichment()&#160;:&#160;<a class="el" href="corrections_8cpp.html#a3046c7564b8982aea4664720f4a6e114">corrections.cpp</a></li>
 <li>calcEndTeeth_DualWheel()&#160;:&#160;<a class="el" href="group__dec__dual.html#ga1d69d0d7c18b8eb252088bf236620114">decoders.cpp</a></li>
@@ -84,10 +85,14 @@ $(function() {
 <li>calcEndTooth_RoverMEMS()&#160;:&#160;<a class="el" href="group__dec.html#ga4e023e7ad2388dd117736f4960f78522">decoders.cpp</a></li>
 <li>calcNitrousStagePercent()&#160;:&#160;<a class="el" href="fuel__calcs_8cpp.html#ae5d4c089863e28884b9f8d7890fa267e">fuel_calcs.cpp</a></li>
 <li>calcNitrousStagePulseWidth()&#160;:&#160;<a class="el" href="fuel__calcs_8cpp.html#a8e49bf9441f060d27502c1bc8f899d76">fuel_calcs.cpp</a></li>
+<li>calcNumInjectors()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a5447efef3fff0adcf33a7b6282346a3c">scheduler_fuel_controller.cpp</a></li>
+<li>calcNumPrimaryInjectors()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a44980784c9988aa17af978755fa55e84">scheduler_fuel_controller.cpp</a></li>
+<li>calcNumSecondaryInjectors()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a5fd352baf14c2ecd49daf17690970da8">scheduler_fuel_controller.cpp</a></li>
 <li>calcPrimaryPulseWidth()&#160;:&#160;<a class="el" href="fuel__calcs_8cpp.html#af57595d14d1e9f5418e5e61edb1fcbed">fuel_calcs.cpp</a></li>
 <li>calcPulsesPerKm()&#160;:&#160;<a class="el" href="ts_command_controller_8cpp.html#ad514b00096dad8933fb614ded8d9bd44">tsCommandController.cpp</a></li>
 <li>calcRollingCutPercentage()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a94f3412d740c771a0cf28d95817c2fd8">engineProtection.cpp</a></li>
 <li>calcRollingCutRevolutions()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a37083aa39b87d71d99479a4868b5bd72">engineProtection.cpp</a></li>
+<li>calcScheduleAngle()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a50f24bd46860bb5988eaef5fde1cc40e">scheduler_fuel_controller.cpp</a></li>
 <li>calcSetEndTeeth_FordST170()&#160;:&#160;<a class="el" href="group__dec__ford__st170.html#ga4fe1b31c74e29b3b799bd9e60ca3ed0e">decoders.cpp</a></li>
 <li>calcSetEndTeeth_NGC()&#160;:&#160;<a class="el" href="group__dec.html#gafce2e8c998f4c6d214562d66986577af">decoders.cpp</a></li>
 <li>calcSetEndTeeth_NGC_SkipMissing()&#160;:&#160;<a class="el" href="group__dec.html#ga5bbf504722943d166bae2281a5ae411e">decoders.cpp</a></li>
@@ -100,6 +105,7 @@ $(function() {
 <li>calculateIgnitionAngles()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a084ff5bf81c35e4772bd0a0b10b6be0e">scheduler_ignition_controller.cpp</a>, <a class="el" href="scheduler__ignition__controller_8h.html#a10450ef54bd67fdeed6ab520d569fa8a">scheduler_ignition_controller.h</a></li>
 <li>calculateIgnitionTrailingRotary()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#ab3ba6a002d4879ef967d6e5696740431">scheduler_ignition_controller.cpp</a></li>
 <li>calculateInjectorTimeout()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#af98ab7765a79f1cc88822d5cfd1e483d">scheduler_fuel_controller.cpp</a></li>
+<li>calculateMaxInjAngle()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a2e466ea4250eb3fcb595474dfa6cf491">scheduler_fuel_controller.cpp</a></li>
 <li>calculateNextInterrupt()&#160;:&#160;<a class="el" href="vvt_controller_8cpp.html#ab4a8cbb91b13c209def5e38a7b593f82">vvtController.cpp</a></li>
 <li>calculateNextInterruptSingleOff()&#160;:&#160;<a class="el" href="vvt_controller_8cpp.html#a9be9cd7539ebf1d953f5471c2e77a09e">vvtController.cpp</a></li>
 <li>calculateNonRotaryIgnitionAngles()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a405d824b0560e9648036c36c6c452928">scheduler_ignition_controller.cpp</a></li>
@@ -114,23 +120,20 @@ $(function() {
 <li>calculateSoftRevLimitAdvance()&#160;:&#160;<a class="el" href="corrections_8cpp.html#af907aeeadb87b77cd72f153bde8d5ebf">corrections.cpp</a></li>
 <li>calculateUnitlessError()&#160;:&#160;<a class="el" href="integer_p_i_d__ideal_8cpp.html#a1254bc409ae08d385a6ff790349a017e">integerPID_ideal.cpp</a></li>
 <li>calculateWmiPw()&#160;:&#160;<a class="el" href="vvt_controller_8cpp.html#abd02ec7ebfe2725afbf3df98fbdfceef">vvtController.cpp</a></li>
-<li>calulateDefaultSquirts()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de">scheduler_fuel_controller.cpp</a></li>
+<li>calulateNumSquirts()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#ae6148d4ae6cf074c1e80307ac998fa2a">scheduler_fuel_controller.cpp</a></li>
 <li>canApplyAfrLimit()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a9563ca0a2b252acdcbe0abc0e5aba24b">engineProtection.cpp</a></li>
 <li>canApplyStaging()&#160;:&#160;<a class="el" href="fuel__calcs_8cpp.html#af1121485a32150f15485437440ad7ad3">fuel_calcs.cpp</a></li>
 <li>canUseCycleAverage()&#160;:&#160;<a class="el" href="sensors_8cpp.html#a2ebf28329864bc180f9d085dcfbced51">sensors.cpp</a></li>
 <li>canUseEventAverage()&#160;:&#160;<a class="el" href="sensors_8cpp.html#a8f5b0a4ed365a407171bd1ea30956682">sensors.cpp</a></li>
-<li>changeFuellingToFullSequential()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a92bc858240d66f233807a6dd9b94d94c">scheduler_fuel_controller.cpp</a></li>
-<li>changeFuellingToSemiSequential()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a21955f9db8e3589174a113b6dc42ccb8">scheduler_fuel_controller.cpp</a></li>
+<li>changeFuellingToFullSequential()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a12aad1949feb1b30305b0a5e96e6621f">scheduler_fuel_controller.cpp</a></li>
+<li>changeFuellingToSemiSequential()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a95aa5a4adaf45bf1ea397aef29c2aa98">scheduler_fuel_controller.cpp</a></li>
 <li>changeIgnitionToFullSequential()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a343c29897a9d5f769f6c36394d522289">scheduler_ignition_controller.cpp</a></li>
 <li>changeIgnitionToHalfSync()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a0b912e2a459037482dc02eafaf621287">scheduler_ignition_controller.cpp</a></li>
-<li>changeToFullSequentialInjection()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#af5ab3ad7c34e2bdb4214dc8288de29c3">scheduler_fuel_controller.cpp</a></li>
-<li>changeToSemiSequentialInjection()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a2f03daeedda5adda231b1a0fb67b5781">scheduler_fuel_controller.cpp</a></li>
+<li>changeToFullSequentialInjection()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a8e434f6c202a5cb13d8c3183e0dd12f5">scheduler_fuel_controller.cpp</a></li>
+<li>changeToSemiSequentialInjection()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a2bd706a27568455ae503a439590c6803">scheduler_fuel_controller.cpp</a></li>
 <li>channelOff()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a6838223facd46d05ca5c6057a91c529b">engineProtection.cpp</a></li>
 <li>channelOn()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a6da60778c390d8e483b8e976044b3b73">engineProtection.cpp</a></li>
 <li>checkAFRLimit()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#aaed6354aab1501c2c8ca855892839389">engineProtection.cpp</a></li>
-<li>checkAirConCoolantLockout()&#160;:&#160;<a class="el" href="aircon_controller_8cpp.html#a28d216c746144e2c78510ea6b1769e9d">airconController.cpp</a></li>
-<li>checkAirConRPMLockout()&#160;:&#160;<a class="el" href="aircon_controller_8cpp.html#a9aec95c19047f5ff7b42359390c8f9ee">airconController.cpp</a></li>
-<li>checkAirConTPSLockout()&#160;:&#160;<a class="el" href="aircon_controller_8cpp.html#ab3f4b9089c3dadae7cbc6c86c7e00734">airconController.cpp</a></li>
 <li>checkBoostLimit()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a0829abeff31958138710913337c75c99">engineProtection.cpp</a></li>
 <li>checkCoolantLimit()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#ac4f19acad519ac8283b0832723028f56">engineProtection.cpp</a></li>
 <li>checkEngineProtection()&#160;:&#160;<a class="el" href="engine_protection_8h.html#a1cefbcc6b52c51ed490242d209b75603">engineProtection.h</a></li>
@@ -140,11 +143,10 @@ $(function() {
 <li>checkPerToothTiming()&#160;:&#160;<a class="el" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8">decoders.cpp</a></li>
 <li>checkRpmLimit()&#160;:&#160;<a class="el" href="engine_protection_8cpp.html#a121a10d9e0724f79ca795e999a4392cc">engineProtection.cpp</a></li>
 <li>clamp()&#160;:&#160;<a class="el" href="maths_8h.html#abdc5b3af9416845e8dcb0d9ce971b7be">maths.h</a></li>
-<li>clampInjectionChannelAngles()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4">scheduler_fuel_controller.cpp</a></li>
 <li>clampToActualTeeth()&#160;:&#160;<a class="el" href="group__dec__miss.html#ga2ee424019fc8616da15c2ab1ad3c5680">decoders.cpp</a></li>
 <li>clampToToothCount()&#160;:&#160;<a class="el" href="group__dec__miss.html#ga3d30bc414d8f7b3a4540bc8bedffd439">decoders.cpp</a></li>
 <li>clipDuration()&#160;:&#160;<a class="el" href="scheduler_8cpp.html#a493c546cce5394aa1888a348840fe8d1">scheduler.cpp</a></li>
-<li>closeAllInjectors()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8h.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">scheduler_fuel_controller.h</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">scheduler_fuel_controller.cpp</a></li>
+<li>closeAllInjectors()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">scheduler_fuel_controller.cpp</a>, <a class="el" href="scheduler__fuel__controller_8h.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">scheduler_fuel_controller.h</a></li>
 <li>closeInjector()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a476c93cc37c6b5420f3882520e85defc">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a476c93cc37c6b5420f3882520e85defc">scheduledIO_inj.h</a></li>
 <li>closeInjector1()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a6d93b3471f174de80ea90226da8bd349">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a6d93b3471f174de80ea90226da8bd349">scheduledIO_inj.h</a></li>
 <li>closeInjector1and3()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a788092bf263239ea66e6b7436ef54bf2">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a788092bf263239ea66e6b7436ef54bf2">scheduledIO_inj.h</a></li>
@@ -163,7 +165,7 @@ $(function() {
 <li>closeInjector4and8()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a2f9d4c19d1c252267d4b21d2eef33ada">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a2f9d4c19d1c252267d4b21d2eef33ada">scheduledIO_inj.h</a></li>
 <li>closeInjector5()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#aac1b67661822fa3992043379e10c39bd">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#aac1b67661822fa3992043379e10c39bd">scheduledIO_inj.h</a></li>
 <li>closeInjector6()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a8b17c8396adbb6502f07e10f92dd29f8">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a8b17c8396adbb6502f07e10f92dd29f8">scheduledIO_inj.h</a></li>
-<li>closeInjector7()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#adc70995df6c94b71196c0669bf3124dd">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#adc70995df6c94b71196c0669bf3124dd">scheduledIO_inj.h</a></li>
+<li>closeInjector7()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8h.html#adc70995df6c94b71196c0669bf3124dd">scheduledIO_inj.h</a>, <a class="el" href="scheduled_i_o__inj_8cpp.html#adc70995df6c94b71196c0669bf3124dd">scheduledIO_inj.cpp</a></li>
 <li>closeInjector8()&#160;:&#160;<a class="el" href="scheduled_i_o__inj_8cpp.html#a0468d9b7deef33740903efa7ab8921a9">scheduledIO_inj.cpp</a>, <a class="el" href="scheduled_i_o__inj_8h.html#a0468d9b7deef33740903efa7ab8921a9">scheduledIO_inj.h</a></li>
 <li>closeInjector_DIRECT()&#160;:&#160;<a class="el" href="scheduled_i_o__direct__inj_8cpp.html#af29d7d187905a35ccbdc909e7512be81">scheduledIO_direct_inj.cpp</a>, <a class="el" href="scheduled_i_o__direct__inj_8h.html#af29d7d187905a35ccbdc909e7512be81">scheduledIO_direct_inj.h</a></li>
 <li>closePulsedInjectors()&#160;:&#160;<a class="el" href="ts_command_controller_8cpp.html#ac0e1f984026966700047712cd6284f2e">tsCommandController.cpp</a></li>
@@ -191,6 +193,7 @@ $(function() {
 <li>computeSimpleRichCorrection()&#160;:&#160;<a class="el" href="corrections_8cpp.html#a8a5ea3fa4e57639a4ce6bf78cce19ed9">corrections.cpp</a></li>
 <li>computeTPSDOT()&#160;:&#160;<a class="el" href="corrections_8cpp.html#ad5f957b792afbdb5131fc26daa4f1835">corrections.cpp</a></li>
 <li>computeVssRatio()&#160;:&#160;<a class="el" href="ts_command_controller_8cpp.html#ae269d231323c7511ba9695d778439393">tsCommandController.cpp</a></li>
+<li>configureFuelSchedules()&#160;:&#160;<a class="el" href="scheduler__fuel__controller_8cpp.html#acb08b694a17abde0581cdcbef8826ec3">scheduler_fuel_controller.cpp</a></li>
 <li>configureIdlePID()&#160;:&#160;<a class="el" href="idle_8cpp.html#aff6d08676d9554aac5c36c02c43fe699">idle.cpp</a></li>
 <li>constrainAdvance()&#160;:&#160;<a class="el" href="secondary_tables_8cpp.html#a4f887905ec97ba47f7feba3bbae89484">secondaryTables.cpp</a></li>
 <li>constrainAdvanceTrim()&#160;:&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a2b48e46744c2d93c7322c63e3d60a227">scheduler_ignition_controller.cpp</a></li>
@@ -228,7 +231,7 @@ $(function() {
 <li>correctionSoftRevLimit()&#160;:&#160;<a class="el" href="corrections_8cpp.html#a76cd7e4d6770545ab91073199e16286b">corrections.cpp</a></li>
 <li>correctionWMITiming()&#160;:&#160;<a class="el" href="corrections_8cpp.html#affd86897e77cfb4bee39406d3e1db75c">corrections.cpp</a></li>
 <li>correctionWUE()&#160;:&#160;<a class="el" href="corrections_8cpp.html#a6b99b5a7f051cf460be48c4fd010f410">corrections.cpp</a></li>
-<li>crankingGetRPM()&#160;:&#160;<a class="el" href="group__dec__uni.html#gab655d4a17851815ebd22646e91b09042">decoders.cpp</a></li>
+<li>crankingGetRPM()&#160;:&#160;<a class="el" href="group__dec__uni.html#ga5f2428f4d76cb0bcb7ccb86c5d0064ba">decoders.cpp</a></li>
 <li>cycleAverageEndCycle()&#160;:&#160;<a class="el" href="sensors_8cpp.html#a535332edc123faa578210be51748fda1">sensors.cpp</a></li>
 <li>cycleAverageMAPReading()&#160;:&#160;<a class="el" href="sensors_8cpp.html#a7c0df6272a01ac3dd9ecb0d65bc2de4f">sensors.cpp</a></li>
 <li>cycleAverageMAPReadingAccumulate()&#160;:&#160;<a class="el" href="sensors_8cpp.html#ab3815b1fe246f9449744e8bb30510ee6">sensors.cpp</a></li>

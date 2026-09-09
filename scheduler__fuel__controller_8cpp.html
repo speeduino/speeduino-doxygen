@@ -93,12 +93,14 @@ Macros</h2></td></tr>
 <tr class="separator:a131a5bd7707f4b2e95daae2bff9ee350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095fd6ca4db6fcfae0278b7e6ad60513" id="r_a095fd6ca4db6fcfae0278b7e6ad60513"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a095fd6ca4db6fcfae0278b7e6ad60513">SET_FUEL_CHANNEL</a>(channel)&#160;&#160;&#160;  <a class="el" href="scheduler__fuel__controller_8cpp.html#a9bf054cfb7f682c76a961b18ea97baa1">setFuelChannelSchedule</a>(fuelSchedule ##channel, UINT8_C(channel), <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, injChannelMask, injAngle, &amp;angleCalcCache);</td></tr>
 <tr class="separator:a095fd6ca4db6fcfae0278b7e6ad60513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7caf2fb5d8057bb67bffdc5840be7e5" id="r_ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac7caf2fb5d8057bb67bffdc5840be7e5">ASSIGN_PRIMARY_PW</a>(index)&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td></tr>
+<tr class="memitem:ac7caf2fb5d8057bb67bffdc5840be7e5" id="r_ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac7caf2fb5d8057bb67bffdc5840be7e5">ASSIGN_PRIMARY_PW</a>(index)&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>);</td></tr>
 <tr class="separator:ac7caf2fb5d8057bb67bffdc5840be7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a175cba383e845fd635408d070c2f5050" id="r_a175cba383e845fd635408d070c2f5050"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a175cba383e845fd635408d070c2f5050">ASSIGN_SECONDARY_PW</a>(index)</td></tr>
 <tr class="separator:a175cba383e845fd635408d070c2f5050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8aabc24c027ef48aa96f01b305b86d77" id="r_a8aabc24c027ef48aa96f01b305b86d77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a8aabc24c027ef48aa96f01b305b86d77">ASSIGN_ZERO_PW</a>(index)&#160;&#160;&#160;fuelSchedule ## index .pw = 0U;</td></tr>
 <tr class="separator:a8aabc24c027ef48aa96f01b305b86d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d8b8b6e0c75faf9d768a8d70f09f5e7" id="r_a1d8b8b6e0c75faf9d768a8d70f09f5e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a1d8b8b6e0c75faf9d768a8d70f09f5e7">ASSIGN_PRIMARY_ANGLE</a>(index)&#160;&#160;&#160;    fuelSchedule ## index .channelDegrees = <a class="el" href="scheduler__fuel__controller_8cpp.html#a50f24bd46860bb5988eaef5fde1cc40e">calcScheduleAngle</a>(<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, index);</td></tr>
+<tr class="separator:a1d8b8b6e0c75faf9d768a8d70f09f5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -110,21 +112,9 @@ Functions</h2></td></tr>
 <tr class="separator:a85b89edb754b5f3907bf11e70598345a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93a8f902348203810bb7ec6fc8331c86" id="r_a93a8f902348203810bb7ec6fc8331c86"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a93a8f902348203810bb7ec6fc8331c86">setupCallbacks</a> (uint8_t injLayout, uint8_t nCylinders, uint8_t inj4cylPairing)</td></tr>
 <tr class="separator:a93a8f902348203810bb7ec6fc8331c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910b3981322d4e0d6a102a46683e956a" id="r_a910b3981322d4e0d6a102a46683e956a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a910b3981322d4e0d6a102a46683e956a">isSwitchableCylinderCount</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
-<tr class="separator:a910b3981322d4e0d6a102a46683e956a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f03daeedda5adda231b1a0fb67b5781" id="r_a2f03daeedda5adda231b1a0fb67b5781"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2f03daeedda5adda231b1a0fb67b5781">changeToSemiSequentialInjection</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
-<tr class="separator:a2f03daeedda5adda231b1a0fb67b5781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ab3ad7c34e2bdb4214dc8288de29c3" id="r_af5ab3ad7c34e2bdb4214dc8288de29c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af5ab3ad7c34e2bdb4214dc8288de29c3">changeToFullSequentialInjection</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;<a class="el" href="decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5">decoderStatus</a>)</td></tr>
-<tr class="separator:af5ab3ad7c34e2bdb4214dc8288de29c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e1616adc92bb75d33cdf92090b82d6" id="r_a16e1616adc92bb75d33cdf92090b82d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a16e1616adc92bb75d33cdf92090b82d6">isAnyFuelScheduleRunning</a> (void)</td></tr>
 <tr class="separator:a16e1616adc92bb75d33cdf92090b82d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92bc858240d66f233807a6dd9b94d94c" id="r_a92bc858240d66f233807a6dd9b94d94c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a92bc858240d66f233807a6dd9b94d94c">changeFuellingToFullSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:a92bc858240d66f233807a6dd9b94d94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21955f9db8e3589174a113b6dc42ccb8" id="r_a21955f9db8e3589174a113b6dc42ccb8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a21955f9db8e3589174a113b6dc42ccb8">changeFuellingToSemiSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:a21955f9db8e3589174a113b6dc42ccb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ebd57095099ae2ff28f2fad0898c54e" id="r_a9ebd57095099ae2ff28f2fad0898c54e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e">matchFuelSchedulersToSyncState</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:a9ebd57095099ae2ff28f2fad0898c54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f3e3dea1dbd39b4ac89402ab696e0e" id="r_af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af3f3e3dea1dbd39b4ac89402ab696e0e">lookupInjectorAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:af3f3e3dea1dbd39b4ac89402ab696e0e" id="r_af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#af3f3e3dea1dbd39b4ac89402ab696e0e">lookupInjectorAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
 <tr class="separator:af3f3e3dea1dbd39b4ac89402ab696e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2eff440d3aa4db7091accce3d48f6587" id="r_a2eff440d3aa4db7091accce3d48f6587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2eff440d3aa4db7091accce3d48f6587">updatePwAngleCache</a> (uint16_t pw, <a class="el" href="structinjector_angle_calc_cache.html">injectorAngleCalcCache</a> *pCache)</td></tr>
 <tr class="separator:a2eff440d3aa4db7091accce3d48f6587"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,22 +131,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a4dbdd1150ed02e49b6bd84b476e51e7c" id="r_a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4dbdd1150ed02e49b6bd84b476e51e7c">injectorLimits</a> (uint16_t angle)</td></tr>
 <tr class="memdesc:a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clamp the angle to within [0,CRANK_ANGLE_MAX_INJ)  <br /></td></tr>
 <tr class="separator:a4dbdd1150ed02e49b6bd84b476e51e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f1e8f3fd636be6c0aa749ced2c4c2c2" id="r_a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4f1e8f3fd636be6c0aa749ced2c4c2c2">BEGIN_LTO_ALWAYS_INLINE</a> (uint16_t) <a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a>(const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a4f1e8f3fd636be6c0aa749ced2c4c2c2" id="r_a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a4f1e8f3fd636be6c0aa749ced2c4c2c2">BEGIN_LTO_ALWAYS_INLINE</a> (uint16_t) <a class="el" href="scheduler__fuel__controller_8cpp.html#aaea2b8cda843fceb7487093f5881b986">setFuelChannelSchedules</a>(const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
 <tr class="separator:a4f1e8f3fd636be6c0aa749ced2c4c2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fbf0fe419340ddb82e8a7100b035ebf" id="r_a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a> (const table3d6RpmLoad &amp;trimTable, uint16_t pw, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a9fbf0fe419340ddb82e8a7100b035ebf" id="r_a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a> (const table3d6RpmLoad &amp;trimTable, uint16_t pw, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
 <tr class="separator:a9fbf0fe419340ddb82e8a7100b035ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8d1ca04b64a6c603dbb6d601dd60b5e" id="r_ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ad8d1ca04b64a6c603dbb6d601dd60b5e">assignPrimaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:ad8d1ca04b64a6c603dbb6d601dd60b5e" id="r_ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ad8d1ca04b64a6c603dbb6d601dd60b5e">assignPrimaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
 <tr class="separator:ad8d1ca04b64a6c603dbb6d601dd60b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3029c7fc14e0bef107f00358e9982d" id="r_a1a3029c7fc14e0bef107f00358e9982d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a1a3029c7fc14e0bef107f00358e9982d">assignSecondaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
+<tr class="memitem:a1a3029c7fc14e0bef107f00358e9982d" id="r_a1a3029c7fc14e0bef107f00358e9982d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a1a3029c7fc14e0bef107f00358e9982d">assignSecondaryPws</a> (const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
 <tr class="separator:a1a3029c7fc14e0bef107f00358e9982d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c3cd8f84aa8749f9929b6525d8613e" id="r_ab9c3cd8f84aa8749f9929b6525d8613e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab9c3cd8f84aa8749f9929b6525d8613e">zeroAllChannels</a> (void)</td></tr>
 <tr class="separator:ab9c3cd8f84aa8749f9929b6525d8613e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72ae245c9c78347bb768cc42e303592f" id="r_a72ae245c9c78347bb768cc42e303592f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a72ae245c9c78347bb768cc42e303592f">BEGIN_LTO_ALWAYS_INLINE</a> (void) <a class="el" href="scheduler__fuel__controller_8h.html#a83d560c2efdcdba44f8a8f340868c8c4">applyPwToInjectorChannels</a>(const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths</td></tr>
-<tr class="separator:a72ae245c9c78347bb768cc42e303592f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d76cdfa2061fca1f5dcb13c56114676" id="r_a9d76cdfa2061fca1f5dcb13c56114676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9d76cdfa2061fca1f5dcb13c56114676">assignPrimaryPws</a> (pulse_widths, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:a9d76cdfa2061fca1f5dcb13c56114676"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3cdbb34929099706487572755032ae6" id="r_ac3cdbb34929099706487572755032ae6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac3cdbb34929099706487572755032ae6">assignSecondaryPws</a> (pulse_widths, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</td></tr>
-<tr class="separator:ac3cdbb34929099706487572755032ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e0696f1def940f46061834c41262bd" id="r_a74e0696f1def940f46061834c41262bd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a74e0696f1def940f46061834c41262bd">resetFuelSchedules</a> (void)</td></tr>
 <tr class="separator:a74e0696f1def940f46061834c41262bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a709098dca85053fd26418472663aae69" id="r_a709098dca85053fd26418472663aae69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a709098dca85053fd26418472663aae69">startFuelSchedulers</a> (void)</td></tr>
@@ -165,22 +149,62 @@ Functions</h2></td></tr>
 <tr class="memitem:aa94fdf850c7dc29d62f3140ae4aeae7b" id="r_aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa94fdf850c7dc29d62f3140ae4aeae7b">stopFuelSchedulers</a> (void)</td></tr>
 <tr class="memdesc:aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the timers that drive schedulers.  <br /></td></tr>
 <tr class="separator:aa94fdf850c7dc29d62f3140ae4aeae7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac27bf26ef7570429ac9dc112599c8946" id="r_ac27bf26ef7570429ac9dc112599c8946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac27bf26ef7570429ac9dc112599c8946">beginInjectorPriming</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="memitem:ac27bf26ef7570429ac9dc112599c8946" id="r_ac27bf26ef7570429ac9dc112599c8946"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac27bf26ef7570429ac9dc112599c8946">beginInjectorPriming</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
 <tr class="memdesc:ac27bf26ef7570429ac9dc112599c8946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start priming the fuel system.  <br /></td></tr>
 <tr class="separator:ac27bf26ef7570429ac9dc112599c8946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb53f4dcd97c9d8d46dfa87061f3fc65" id="r_aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aeb53f4dcd97c9d8d46dfa87061f3fc65">closeAllInjectors</a> (void)</td></tr>
 <tr class="memdesc:aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to close all injectors.  <br /></td></tr>
 <tr class="separator:aeb53f4dcd97c9d8d46dfa87061f3fc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7539063e9bab4c8f3edf5b65936677d4" id="r_a7539063e9bab4c8f3edf5b65936677d4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a7539063e9bab4c8f3edf5b65936677d4">clampInjectionChannelAngles</a> (void)</td></tr>
-<tr class="memdesc:a7539063e9bab4c8f3edf5b65936677d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Limit all injection schedule channel angles to 0-CRANK_ANGLE_MAX_INJ.  <br /></td></tr>
-<tr class="separator:a7539063e9bab4c8f3edf5b65936677d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2f4011d2aa653c691e2e74cc92910f3" id="r_aa2f4011d2aa653c691e2e74cc92910f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa2f4011d2aa653c691e2e74cc92910f3">initFuelScheduleAngles</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
-<tr class="separator:aa2f4011d2aa653c691e2e74cc92910f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ecd99c3c24e90901c2c1fd1a56aa6de" id="r_a5ecd99c3c24e90901c2c1fd1a56aa6de"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a5ecd99c3c24e90901c2c1fd1a56aa6de">calulateDefaultSquirts</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
-<tr class="separator:a5ecd99c3c24e90901c2c1fd1a56aa6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd91a770246475d326bc7383b3045bf" id="r_a6fd91a770246475d326bc7383b3045bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a6fd91a770246475d326bc7383b3045bf">initialiseFuelSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
-<tr class="memdesc:a6fd91a770246475d326bc7383b3045bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise this module.  <br /></td></tr>
-<tr class="separator:a6fd91a770246475d326bc7383b3045bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad79b85cdac3abdf285a271a433848acf" id="r_ad79b85cdac3abdf285a271a433848acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ad79b85cdac3abdf285a271a433848acf">calcAngularCylinderSeparation</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:ad79b85cdac3abdf285a271a433848acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1c7e623285561ecf0565a68d4531bb0" id="r_aa1c7e623285561ecf0565a68d4531bb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#aa1c7e623285561ecf0565a68d4531bb0">getOddfireAngle</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, uint8_t channel)</td></tr>
+<tr class="separator:aa1c7e623285561ecf0565a68d4531bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0786bee7c5c28c9e132383aa21e126" id="r_a0b0786bee7c5c28c9e132383aa21e126"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a0b0786bee7c5c28c9e132383aa21e126">useEvenFire</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a0b0786bee7c5c28c9e132383aa21e126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d04640cc43702aabdeec40ed10c81c1" id="r_a0d04640cc43702aabdeec40ed10c81c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a0d04640cc43702aabdeec40ed10c81c1">getEvenFireAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, uint8_t channel)</td></tr>
+<tr class="separator:a0d04640cc43702aabdeec40ed10c81c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f24bd46860bb5988eaef5fde1cc40e" id="r_a50f24bd46860bb5988eaef5fde1cc40e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a50f24bd46860bb5988eaef5fde1cc40e">calcScheduleAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, uint8_t channel)</td></tr>
+<tr class="memdesc:a50f24bd46860bb5988eaef5fde1cc40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the schedule channel angle. I.e. <a class="el" href="struct_fuel_schedule.html#a5d8bcc8f99362529ac3dfb9256a3d6ec">FuelSchedule::channelDegrees</a>.  <br /></td></tr>
+<tr class="separator:a50f24bd46860bb5988eaef5fde1cc40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d53c95ee7ef01d511f529b0cec88c1" id="r_a76d53c95ee7ef01d511f529b0cec88c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a76d53c95ee7ef01d511f529b0cec88c1">setInjectorAngles</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a76d53c95ee7ef01d511f529b0cec88c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6148d4ae6cf074c1e80307ac998fa2a" id="r_ae6148d4ae6cf074c1e80307ac998fa2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae6148d4ae6cf074c1e80307ac998fa2a">calulateNumSquirts</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:ae6148d4ae6cf074c1e80307ac998fa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e466ea4250eb3fcb595474dfa6cf491" id="r_a2e466ea4250eb3fcb595474dfa6cf491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2e466ea4250eb3fcb595474dfa6cf491">calculateMaxInjAngle</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a2e466ea4250eb3fcb595474dfa6cf491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44980784c9988aa17af978755fa55e84" id="r_a44980784c9988aa17af978755fa55e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a44980784c9988aa17af978755fa55e84">calcNumPrimaryInjectors</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a44980784c9988aa17af978755fa55e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd352baf14c2ecd49daf17690970da8" id="r_a5fd352baf14c2ecd49daf17690970da8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a5fd352baf14c2ecd49daf17690970da8">calcNumSecondaryInjectors</a> (uint16_t primary, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a5fd352baf14c2ecd49daf17690970da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5447efef3fff0adcf33a7b6282346a3c" id="r_a5447efef3fff0adcf33a7b6282346a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structnum__injector__t.html">num_injector_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a5447efef3fff0adcf33a7b6282346a3c">calcNumInjectors</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a5447efef3fff0adcf33a7b6282346a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7fe921e8b4529cb14867c42cef3320" id="r_abb7fe921e8b4529cb14867c42cef3320"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#abb7fe921e8b4529cb14867c42cef3320">validateInjLayout</a> (uint8_t layout, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:abb7fe921e8b4529cb14867c42cef3320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf8e8aa3a75d8569e1ccb71f86a62ed" id="r_a2bf8e8aa3a75d8569e1ccb71f86a62ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2bf8e8aa3a75d8569e1ccb71f86a62ed">validateInjectionSetup</a> (<a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:a2bf8e8aa3a75d8569e1ccb71f86a62ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb08b694a17abde0581cdcbef8826ec3" id="r_acb08b694a17abde0581cdcbef8826ec3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#acb08b694a17abde0581cdcbef8826ec3">configureFuelSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:acb08b694a17abde0581cdcbef8826ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6833c8e09f05c498ea3c70c88e0ec1" id="r_adc6833c8e09f05c498ea3c70c88e0ec1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#adc6833c8e09f05c498ea3c70c88e0ec1">initialiseFuelSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
+<tr class="memdesc:adc6833c8e09f05c498ea3c70c88e0ec1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise this module.  <br /></td></tr>
+<tr class="separator:adc6833c8e09f05c498ea3c70c88e0ec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3790f435b62c7b07640a70c7531cce39" id="r_a3790f435b62c7b07640a70c7531cce39"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a3790f435b62c7b07640a70c7531cce39">isSwitchableConfig</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a3790f435b62c7b07640a70c7531cce39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bd706a27568455ae503a439590c6803" id="r_a2bd706a27568455ae503a439590c6803"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a2bd706a27568455ae503a439590c6803">changeToSemiSequentialInjection</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a2bd706a27568455ae503a439590c6803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e434f6c202a5cb13d8c3183e0dd12f5" id="r_a8e434f6c202a5cb13d8c3183e0dd12f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a8e434f6c202a5cb13d8c3183e0dd12f5">changeToFullSequentialInjection</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:a8e434f6c202a5cb13d8c3183e0dd12f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12aad1949feb1b30305b0a5e96e6621f" id="r_a12aad1949feb1b30305b0a5e96e6621f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a12aad1949feb1b30305b0a5e96e6621f">changeFuellingToFullSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:a12aad1949feb1b30305b0a5e96e6621f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95aa5a4adaf45bf1ea397aef29c2aa98" id="r_a95aa5a4adaf45bf1ea397aef29c2aa98"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a95aa5a4adaf45bf1ea397aef29c2aa98">changeFuellingToSemiSequential</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:a95aa5a4adaf45bf1ea397aef29c2aa98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e7b9a9c5e1fa5901304fe031bebdb1" id="r_ae1e7b9a9c5e1fa5901304fe031bebdb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae1e7b9a9c5e1fa5901304fe031bebdb1">matchFuelSchedulersToSyncState</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:ae1e7b9a9c5e1fa5901304fe031bebdb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ae245c9c78347bb768cc42e303592f" id="r_a72ae245c9c78347bb768cc42e303592f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a72ae245c9c78347bb768cc42e303592f">BEGIN_LTO_ALWAYS_INLINE</a> (void) <a class="el" href="scheduler__fuel__controller_8h.html#af7e47ced959d01d96ccbfdfc8002f320">applyPwToInjectorChannels</a>(const <a class="el" href="structpulse_widths.html">pulseWidths</a> &amp;pulse_widths</td></tr>
+<tr class="separator:a72ae245c9c78347bb768cc42e303592f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d76cdfa2061fca1f5dcb13c56114676" id="r_a9d76cdfa2061fca1f5dcb13c56114676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a9d76cdfa2061fca1f5dcb13c56114676">assignPrimaryPws</a> (pulse_widths, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:a9d76cdfa2061fca1f5dcb13c56114676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3cdbb34929099706487572755032ae6" id="r_ac3cdbb34929099706487572755032ae6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ac3cdbb34929099706487572755032ae6">assignSecondaryPws</a> (pulse_widths, <a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:ac3cdbb34929099706487572755032ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -194,10 +218,30 @@ Variables</h2></td></tr>
 <tr class="separator:afb758a9ad5b09bd45b0d153e6ccdc974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae030f77cca7c1e0a2122d69ae17d73d8" id="r_ae030f77cca7c1e0a2122d69ae17d73d8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae030f77cca7c1e0a2122d69ae17d73d8">page6</a></td></tr>
 <tr class="separator:ae030f77cca7c1e0a2122d69ae17d73d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cca910a352bee202301e770f045449" id="r_ab3cca910a352bee202301e770f045449"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a></td></tr>
-<tr class="separator:ab3cca910a352bee202301e770f045449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae09096f73f6d9a58b9e264e6ff178f1a" id="r_ae09096f73f6d9a58b9e264e6ff178f1a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#ae09096f73f6d9a58b9e264e6ff178f1a">page10</a></td></tr>
+<tr class="separator:ae09096f73f6d9a58b9e264e6ff178f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106d27640980c78e8757d0952db96e9f" id="r_a106d27640980c78e8757d0952db96e9f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> const <a class="el" href="structconfig10.html">config10</a> <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a></td></tr>
+<tr class="separator:a106d27640980c78e8757d0952db96e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a1d8b8b6e0c75faf9d768a8d70f09f5e7" name="a1d8b8b6e0c75faf9d768a8d70f09f5e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d8b8b6e0c75faf9d768a8d70f09f5e7">&#9670;&#160;</a></span>ASSIGN_PRIMARY_ANGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ASSIGN_PRIMARY_ANGLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">index</td><td>)</td>
+          <td>&#160;&#160;&#160;    fuelSchedule ## index .channelDegrees = <a class="el" href="scheduler__fuel__controller_8cpp.html#a50f24bd46860bb5988eaef5fde1cc40e">calcScheduleAngle</a>(<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, index);</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac7caf2fb5d8057bb67bffdc5840be7e5" name="ac7caf2fb5d8057bb67bffdc5840be7e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7caf2fb5d8057bb67bffdc5840be7e5">&#9670;&#160;</a></span>ASSIGN_PRIMARY_PW</h2>
 
@@ -209,7 +253,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">index</td><td>)</td>
-          <td>&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>);</td>
+          <td>&#160;&#160;&#160;fuelSchedule ## index .pw = <a class="el" href="scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf">applyFuelTrim</a>(<a class="el" href="globals_8cpp.html#a40df286db8af040608e1002f7ab11360">trimTables</a>[index-1U], pulse_widths.primary, <a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, <a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,12 +275,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> ((index&gt;<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>.numPrimaryInjOutputs) &amp;&amp; (index&lt;=<a class="code hl_function" href="statuses_8h.html#a83203b5f6225fb12de021437547a82d9">getTotalInjChannelCount</a>(<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>))) \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>.injOutputs.isSecondaryInjector(index)) \</div>
 <div class="line">    { \</div>
 <div class="line">      fuelSchedule ## index .pw = pulse_widths.secondary; \</div>
 <div class="line">    }</div>
-<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_ab3cca910a352bee202301e770f045449"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a></div><div class="ttdeci">const config2 const config4 const config6 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:500</div></div>
-<div class="ttc" id="astatuses_8h_html_a83203b5f6225fb12de021437547a82d9"><div class="ttname"><a href="statuses_8h.html#a83203b5f6225fb12de021437547a82d9">getTotalInjChannelCount</a></div><div class="ttdeci">static uint8_t getTotalInjChannelCount(const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> statuses.h:346</div></div>
+<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_a106d27640980c78e8757d0952db96e9f"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a></div><div class="ttdeci">const config2 const config4 const config6 const config10 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:913</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -451,7 +494,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -515,7 +558,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -595,6 +638,168 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ad79b85cdac3abdf285a271a433848acf" name="ad79b85cdac3abdf285a271a433848acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad79b85cdac3abdf285a271a433848acf">&#9670;&#160;</a></span>calcAngularCylinderSeparation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t calcAngularCylinderSeparation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5447efef3fff0adcf33a7b6282346a3c" name="a5447efef3fff0adcf33a7b6282346a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5447efef3fff0adcf33a7b6282346a3c">&#9670;&#160;</a></span>calcNumInjectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structnum__injector__t.html">num_injector_t</a> calcNumInjectors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44980784c9988aa17af978755fa55e84" name="a44980784c9988aa17af978755fa55e84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44980784c9988aa17af978755fa55e84">&#9670;&#160;</a></span>calcNumPrimaryInjectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint8_t calcNumPrimaryInjectors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fd352baf14c2ecd49daf17690970da8" name="a5fd352baf14c2ecd49daf17690970da8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd352baf14c2ecd49daf17690970da8">&#9670;&#160;</a></span>calcNumSecondaryInjectors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t calcNumSecondaryInjectors </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>primary</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50f24bd46860bb5988eaef5fde1cc40e" name="a50f24bd46860bb5988eaef5fde1cc40e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f24bd46860bb5988eaef5fde1cc40e">&#9670;&#160;</a></span>calcScheduleAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t calcScheduleAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculate the schedule channel angle. I.e. <a class="el" href="struct_fuel_schedule.html#a5d8bcc8f99362529ac3dfb9256a3d6ec">FuelSchedule::channelDegrees</a>. </p>
+<p>Most cases are spaced evenly round the crank cycle, with cylinder 1 at 0deg. E.g. 2 cylinder non-sequential is over 360deg so cylinder 2 is at 180deg.</p>
+<p>There are special cases to account for though. </p>
+
+</div>
+</div>
 <a id="af98ab7765a79f1cc88822d5cfd1e483d" name="af98ab7765a79f1cc88822d5cfd1e483d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af98ab7765a79f1cc88822d5cfd1e483d">&#9670;&#160;</a></span>calculateInjectorTimeout()</h2>
 
@@ -640,34 +845,64 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5ecd99c3c24e90901c2c1fd1a56aa6de" name="a5ecd99c3c24e90901c2c1fd1a56aa6de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ecd99c3c24e90901c2c1fd1a56aa6de">&#9670;&#160;</a></span>calulateDefaultSquirts()</h2>
+<a id="a2e466ea4250eb3fcb595474dfa6cf491" name="a2e466ea4250eb3fcb595474dfa6cf491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e466ea4250eb3fcb595474dfa6cf491">&#9670;&#160;</a></span>calculateMaxInjAngle()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static uint8_t calulateDefaultSquirts </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint16_t calculateMaxInjAngle </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
-          <td class="paramname"><em>page2</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a92bc858240d66f233807a6dd9b94d94c" name="a92bc858240d66f233807a6dd9b94d94c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92bc858240d66f233807a6dd9b94d94c">&#9670;&#160;</a></span>changeFuellingToFullSequential()</h2>
+<a id="ae6148d4ae6cf074c1e80307ac998fa2a" name="ae6148d4ae6cf074c1e80307ac998fa2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6148d4ae6cf074c1e80307ac998fa2a">&#9670;&#160;</a></span>calulateNumSquirts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t calulateNumSquirts </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12aad1949feb1b30305b0a5e96e6621f" name="a12aad1949feb1b30305b0a5e96e6621f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12aad1949feb1b30305b0a5e96e6621f">&#9670;&#160;</a></span>changeFuellingToFullSequential()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -680,6 +915,18 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -702,8 +949,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a21955f9db8e3589174a113b6dc42ccb8" name="a21955f9db8e3589174a113b6dc42ccb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21955f9db8e3589174a113b6dc42ccb8">&#9670;&#160;</a></span>changeFuellingToSemiSequential()</h2>
+<a id="a95aa5a4adaf45bf1ea397aef29c2aa98" name="a95aa5a4adaf45bf1ea397aef29c2aa98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95aa5a4adaf45bf1ea397aef29c2aa98">&#9670;&#160;</a></span>changeFuellingToSemiSequential()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -726,6 +973,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>&#160;</td>
         </tr>
@@ -744,8 +997,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af5ab3ad7c34e2bdb4214dc8288de29c3" name="af5ab3ad7c34e2bdb4214dc8288de29c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5ab3ad7c34e2bdb4214dc8288de29c3">&#9670;&#160;</a></span>changeToFullSequentialInjection()</h2>
+<a id="a8e434f6c202a5cb13d8c3183e0dd12f5" name="a8e434f6c202a5cb13d8c3183e0dd12f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e434f6c202a5cb13d8c3183e0dd12f5">&#9670;&#160;</a></span>changeToFullSequentialInjection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -753,14 +1006,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool changeToFullSequentialInjection </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
-          <td class="paramname"><em>page2</em>, </td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>decoderStatus</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -772,8 +1025,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f03daeedda5adda231b1a0fb67b5781" name="a2f03daeedda5adda231b1a0fb67b5781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f03daeedda5adda231b1a0fb67b5781">&#9670;&#160;</a></span>changeToSemiSequentialInjection()</h2>
+<a id="a2bd706a27568455ae503a439590c6803" name="a2bd706a27568455ae503a439590c6803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bd706a27568455ae503a439590c6803">&#9670;&#160;</a></span>changeToSemiSequentialInjection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -781,14 +1034,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool changeToSemiSequentialInjection </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
-          <td class="paramname"><em>page2</em>, </td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> &amp;&#160;</td>
-          <td class="paramname"><em>decoderStatus</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -797,34 +1050,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7539063e9bab4c8f3edf5b65936677d4" name="a7539063e9bab4c8f3edf5b65936677d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7539063e9bab4c8f3edf5b65936677d4">&#9670;&#160;</a></span>clampInjectionChannelAngles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void clampInjectionChannelAngles </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Limit all injection schedule channel angles to 0-CRANK_ANGLE_MAX_INJ. </p>
 
 </div>
 </div>
@@ -848,56 +1073,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa2f4011d2aa653c691e2e74cc92910f3" name="aa2f4011d2aa653c691e2e74cc92910f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2f4011d2aa653c691e2e74cc92910f3">&#9670;&#160;</a></span>initFuelScheduleAngles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void initFuelScheduleAngles </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
-          <td class="paramname"><em>current</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
-          <td class="paramname"><em>page2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
-          <td class="paramname"><em>page10</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6fd91a770246475d326bc7383b3045bf" name="a6fd91a770246475d326bc7383b3045bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fd91a770246475d326bc7383b3045bf">&#9670;&#160;</a></span>initialiseFuelSchedules()</h2>
+<a id="acb08b694a17abde0581cdcbef8826ec3" name="acb08b694a17abde0581cdcbef8826ec3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb08b694a17abde0581cdcbef8826ec3">&#9670;&#160;</a></span>configureFuelSchedules()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void initialiseFuelSchedules </td>
+          <td class="memname">void configureFuelSchedules </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
@@ -918,6 +1101,114 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d04640cc43702aabdeec40ed10c81c1" name="a0d04640cc43702aabdeec40ed10c81c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d04640cc43702aabdeec40ed10c81c1">&#9670;&#160;</a></span>getEvenFireAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t getEvenFireAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1c7e623285561ecf0565a68d4531bb0" name="aa1c7e623285561ecf0565a68d4531bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1c7e623285561ecf0565a68d4531bb0">&#9670;&#160;</a></span>getOddfireAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> uint16_t getOddfireAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc6833c8e09f05c498ea3c70c88e0ec1" name="adc6833c8e09f05c498ea3c70c88e0ec1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc6833c8e09f05c498ea3c70c88e0ec1">&#9670;&#160;</a></span>initialiseFuelSchedules()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initialiseFuelSchedules </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em>, </td>
         </tr>
         <tr>
@@ -976,8 +1267,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a910b3981322d4e0d6a102a46683e956a" name="a910b3981322d4e0d6a102a46683e956a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a910b3981322d4e0d6a102a46683e956a">&#9670;&#160;</a></span>isSwitchableCylinderCount()</h2>
+<a id="a3790f435b62c7b07640a70c7531cce39" name="a3790f435b62c7b07640a70c7531cce39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3790f435b62c7b07640a70c7531cce39">&#9670;&#160;</a></span>isSwitchableConfig()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -986,7 +1277,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool isSwitchableCylinderCount </td>
+          <td class="memname">static bool isSwitchableConfig </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em></td><td>)</td>
@@ -1020,8 +1311,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ebd57095099ae2ff28f2fad0898c54e" name="a9ebd57095099ae2ff28f2fad0898c54e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ebd57095099ae2ff28f2fad0898c54e">&#9670;&#160;</a></span>matchFuelSchedulersToSyncState()</h2>
+<a id="ae1e7b9a9c5e1fa5901304fe031bebdb1" name="ae1e7b9a9c5e1fa5901304fe031bebdb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1e7b9a9c5e1fa5901304fe031bebdb1">&#9670;&#160;</a></span>matchFuelSchedulersToSyncState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1037,6 +1328,12 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1170,6 +1467,42 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76d53c95ee7ef01d511f529b0cec88c1" name="a76d53c95ee7ef01d511f529b0cec88c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d53c95ee7ef01d511f529b0cec88c1">&#9670;&#160;</a></span>setInjectorAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setInjectorAngles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1372,6 +1705,88 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0b0786bee7c5c28c9e132383aa21e126" name="a0b0786bee7c5c28c9e132383aa21e126"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b0786bee7c5c28c9e132383aa21e126">&#9670;&#160;</a></span>useEvenFire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool useEvenFire </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bf8e8aa3a75d8569e1ccb71f86a62ed" name="a2bf8e8aa3a75d8569e1ccb71f86a62ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf8e8aa3a75d8569e1ccb71f86a62ed">&#9670;&#160;</a></span>validateInjectionSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void validateInjectionSetup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb7fe921e8b4529cb14867c42cef3320" name="abb7fe921e8b4529cb14867c42cef3320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb7fe921e8b4529cb14867c42cef3320">&#9670;&#160;</a></span>validateInjLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t validateInjLayout </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>layout</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9c3cd8f84aa8749f9929b6525d8613e" name="ab9c3cd8f84aa8749f9929b6525d8613e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9c3cd8f84aa8749f9929b6525d8613e">&#9670;&#160;</a></span>zeroAllChannels()</h2>
 
@@ -1413,22 +1828,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3cca910a352bee202301e770f045449" name="ab3cca910a352bee202301e770f045449"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3cca910a352bee202301e770f045449">&#9670;&#160;</a></span>current</h2>
+<a id="a106d27640980c78e8757d0952db96e9f" name="a106d27640980c78e8757d0952db96e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a106d27640980c78e8757d0952db96e9f">&#9670;&#160;</a></span>current</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> <a class="el" href="structstatuses.html">statuses</a>&amp; current</td>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> const <a class="el" href="structconfig10.html">config10</a> <a class="el" href="structstatuses.html">statuses</a>&amp; current</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
-<div class="line">  <a class="code hl_function" href="scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e">matchFuelSchedulersToSyncState</a>(<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a>, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ab3cca910a352bee202301e770f045449">current</a>)</div>
-<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_a428f336e2618f8293663468b80230dcc"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a></div><div class="ttdeci">const config2 &amp; page2</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:500</div></div>
-<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_a9ebd57095099ae2ff28f2fad0898c54e"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e">matchFuelSchedulersToSyncState</a></div><div class="ttdeci">TESTABLE_STATIC void matchFuelSchedulersToSyncState(const config2 &amp;page2, const config4 &amp;page4, statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:219</div></div>
-<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_afb758a9ad5b09bd45b0d153e6ccdc974"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a></div><div class="ttdeci">const config2 const config4 &amp; page4</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:500</div></div>
+<div class="line">  <a class="code hl_function" href="scheduler__fuel__controller_8cpp.html#ae1e7b9a9c5e1fa5901304fe031bebdb1">matchFuelSchedulersToSyncState</a>(<a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a>, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#ae09096f73f6d9a58b9e264e6ff178f1a">page10</a>, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</div>
+<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_a428f336e2618f8293663468b80230dcc"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a></div><div class="ttdeci">const config2 &amp; page2</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:913</div></div>
+<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_ae09096f73f6d9a58b9e264e6ff178f1a"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#ae09096f73f6d9a58b9e264e6ff178f1a">page10</a></div><div class="ttdeci">const config2 const config4 const config6 const config10 &amp; page10</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:913</div></div>
+<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_ae1e7b9a9c5e1fa5901304fe031bebdb1"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#ae1e7b9a9c5e1fa5901304fe031bebdb1">matchFuelSchedulersToSyncState</a></div><div class="ttdeci">TESTABLE_STATIC void matchFuelSchedulersToSyncState(const config2 &amp;page2, const config4 &amp;page4, const config10 &amp;page10, statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:900</div></div>
+<div class="ttc" id="ascheduler__fuel__controller_8cpp_html_afb758a9ad5b09bd45b0d153e6ccdc974"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974">page4</a></div><div class="ttdeci">const config2 const config4 &amp; page4</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:913</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1454,6 +1870,20 @@ Variables</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae09096f73f6d9a58b9e264e6ff178f1a" name="ae09096f73f6d9a58b9e264e6ff178f1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae09096f73f6d9a58b9e264e6ff178f1a">&#9670;&#160;</a></span>page10</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structconfig2.html">config2</a> const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> const <a class="el" href="structconfig10.html">config10</a>&amp; page10</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y_5fbegin_5fvisitor_0',['y_begin_visitor',['../structy__begin__visitor.html',1,'']]],
-  ['y_5frbegin_5fvisitor_1',['y_rbegin_visitor',['../structy__rbegin__visitor.html',1,'']]]
+  ['xy_5fcoord2d_0',['xy_coord2d',['../structxy__coord2d.html',1,'']]],
+  ['xy_5fpair_5ft_1',['xy_pair_t',['../structxy__pair__t.html',1,'']]]
 ];

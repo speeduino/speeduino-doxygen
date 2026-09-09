@@ -18,7 +18,7 @@ var searchData=
   ['n2o_5fstage2_5faddermin_15',['n2o_stage2_adderMin',['../structconfig10.html#a96e6034accc42087e14f54824a3fd0f0',1,'config10']]],
   ['n2o_5fstage2_5fmaxrpm_16',['n2o_stage2_maxRPM',['../structconfig10.html#a720f7eb6e256badbc9aed70c64dd40fa',1,'config10']]],
   ['n2o_5fstage2_5fminrpm_17',['n2o_stage2_minRPM',['../structconfig10.html#adb23117ae2f998e7ef51705bda5028d3',1,'config10']]],
-  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10::n2o_stage2_pin'],['../nitrous_controller_8cpp.html#a17ea10eadf3aa62cc40c4b4d76c03a21',1,'n2o_stage2_pin:&#160;nitrousController.cpp']]],
+  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../nitrous_controller_8cpp.html#a17ea10eadf3aa62cc40c4b4d76c03a21',1,'n2o_stage2_pin:&#160;nitrousController.cpp'],['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10::n2o_stage2_pin']]],
   ['n2o_5fstage2_5fretard_19',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_20',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
   ['ncylinders_21',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
@@ -33,7 +33,5 @@ var searchData=
   ['no_5ffuel_5fcorrection_30',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
   ['noexcept_31',['noexcept',['../group__table__3d.html#ga76e040baf116c44c661710c111962f1a',1,'table3d.h']]],
   ['not_5fa_5fpin_32',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
-  ['nsquirts_33',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['numprimaryinjoutputs_34',['numPrimaryInjOutputs',['../structstatuses.html#a2e2e5ed532034e2f493ce064958b9ca2',1,'statuses']]],
-  ['numsecondaryinjoutputs_35',['numSecondaryInjOutputs',['../structstatuses.html#a749eda9094235a10648a518f97b5282a',1,'statuses']]]
+  ['nsquirts_33',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]]
 ];

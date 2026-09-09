@@ -10,7 +10,7 @@ var searchData=
   ['_5fnextstartcompare_7',['_nextStartCompare',['../struct_schedule.html#a047c0fc1e3b8c1f98b3d37de0859f7f1',1,'Schedule']]],
   ['_5foffset_8',['_offset',['../structset__table__value__visitor.html#aea23d185dc5d424ba8accf1e278a1119',1,'set_table_value_visitor']]],
   ['_5fpendcallback_9',['_pEndCallback',['../struct_schedule.html#a760fbe79bdbc53c0563dbca15f279e50',1,'Schedule']]],
-  ['_5fpin_10',['_pin',['../structinterrupt__t.html#a90f632b778423437847de4667c461806',1,'interrupt_t']]],
+  ['_5fpin_10',['_pin',['../structinterrupt__t.html#a90f632b778423437847de4667c461806',1,'interrupt_t::_pin'],['../structprogrammable_i_o_control__details_1_1channel__state__t.html#a8d6a345606bae8f67040124cd2c06ef7',1,'programmableIOControl_details::channel_state_t::_pin']]],
   ['_5fpstartcallback_11',['_pStartCallback',['../struct_schedule.html#af205d2742488a098dba67812a72e3496',1,'Schedule']]],
   ['_5fresetcontrol_12',['_resetControl',['../reset_control_8cpp.html#af32b7151e527710fe31a7d82944ef7de',1,'resetControl.cpp']]],
   ['_5fresetpin_13',['_resetPin',['../reset_control_8cpp.html#a17e2185eeb9db9cce113ac8fb718df1b',1,'resetControl.cpp']]],

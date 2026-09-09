@@ -9,7 +9,7 @@ var searchData=
   ['mapshouldresetae_6',['mapShouldResetAe',['../corrections_8cpp.html#a5ca5d3b401ad623fac9522a51c616aee',1,'corrections.cpp']]],
   ['mapshouldstartae_7',['mapShouldStartAe',['../corrections_8cpp.html#abcd2bdc9abb0d7ff4eadeb395d992336',1,'corrections.cpp']]],
   ['maskunusedchannels_8',['maskUnusedChannels',['../engine_protection_8cpp.html#ab5f553e126a247106f405d73574ef340',1,'engineProtection.cpp']]],
-  ['matchfuelschedulerstosyncstate_9',['matchFuelSchedulersToSyncState',['../scheduler__fuel__controller_8cpp.html#a9ebd57095099ae2ff28f2fad0898c54e',1,'scheduler_fuel_controller.cpp']]],
+  ['matchfuelschedulerstosyncstate_9',['matchFuelSchedulersToSyncState',['../scheduler__fuel__controller_8cpp.html#ae1e7b9a9c5e1fa5901304fe031bebdb1',1,'scheduler_fuel_controller.cpp']]],
   ['matchignitionschedulerstosyncstate_10',['matchIgnitionSchedulersToSyncState',['../scheduler__ignition__controller_8cpp.html#a16822c90af29ff0425c20355f50cfac5',1,'scheduler_ignition_controller.cpp']]],
   ['matchresetcontroltoenginestate_11',['matchresetcontroltoenginestate',['../reset_control_8cpp.html#ad1a20f05e9b12ce6e8d4414090505730',1,'matchResetControlToEngineState(const statuses &amp;current):&#160;resetControl.cpp'],['../reset_control_8h.html#ad1a20f05e9b12ce6e8d4414090505730',1,'matchResetControlToEngineState(const statuses &amp;current):&#160;resetControl.cpp']]],
   ['moveblock_12',['moveblock',['../storage__api_8cpp.html#a40633796965b21ccf3eebb73990bf4a9',1,'moveBlock(const storage_api_t &amp;api, uint16_t dest, uint16_t source, uint16_t size):&#160;storage_api.cpp'],['../storage__api_8h.html#a40633796965b21ccf3eebb73990bf4a9',1,'moveBlock(const storage_api_t &amp;api, uint16_t dest, uint16_t source, uint16_t size):&#160;storage_api.cpp']]],

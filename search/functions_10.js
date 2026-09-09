@@ -20,7 +20,7 @@ var searchData=
   ['postprocessanalogread_17',['postProcessAnalogRead',['../sensors_8cpp.html#a744740c0d88b9fc95a301e2aa9ba9196',1,'sensors.cpp']]],
   ['primingtimeexpired_18',['primingTimeExpired',['../fuel_pump_controller_8cpp.html#a65c899e32581260544d433b44aedd4e4',1,'fuelPumpController.cpp']]],
   ['print2dtable_19',['print2dTable',['../comms__legacy_8cpp.html#aabcf6e692e6dd40a277669e5c24534c0',1,'comms_legacy.cpp']]],
-  ['processchannel_20',['processChannel',['../programmable_i_o_control_8cpp.html#a6fd96b360a33e0a4db1129a8ba09bda7',1,'programmableIOControl.cpp']]],
+  ['processchannel_20',['processChannel',['../programmable_i_o_control_8cpp.html#a777f13657459247c75747f7309a90913',1,'programmableIOControl.cpp']]],
   ['processchannelactive_21',['processChannelActive',['../programmable_i_o_control_8cpp.html#a662925d2086584f06c82e723af795b11',1,'programmableIOControl.cpp']]],
   ['processchannelinactive_22',['processChannelInactive',['../programmable_i_o_control_8cpp.html#ac0f04f0997882afa4c10d682f4887830',1,'programmableIOControl.cpp']]],
   ['processing_5fchannel_5ft_23',['processing_channel_t',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#ad7b99e94516efc132513507dc75faac5',1,'programmableIOControl_details::processing_channel_t']]],

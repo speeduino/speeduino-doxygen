@@ -1,10 +1,10 @@
 var searchData=
 [
   ['page_0',['page',['../structentity__page__location__t.html#a04687cf99209af424d59a7fba55aeff9',1,'entity_page_location_t']]],
-  ['page10_1',['page10',['../engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288',1,'engineProtection.cpp']]],
+  ['page10_1',['page10',['../scheduler__fuel__controller_8cpp.html#ae09096f73f6d9a58b9e264e6ff178f1a',1,'page10:&#160;scheduler_fuel_controller.cpp'],['../engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288',1,'page10:&#160;engineProtection.cpp']]],
   ['page13_2',['page13',['../scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743',1,'scheduler_ignition_controller.cpp']]],
   ['page2_3',['page2',['../scheduler__fuel__controller_8cpp.html#a428f336e2618f8293663468b80230dcc',1,'page2:&#160;scheduler_fuel_controller.cpp'],['../engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc',1,'page2:&#160;engineProtection.cpp']]],
-  ['page4_4',['page4',['../engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690',1,'page4:&#160;engineProtection.cpp'],['../scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974',1,'page4:&#160;scheduler_fuel_controller.cpp'],['../scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3',1,'page4:&#160;scheduler_ignition_controller.cpp']]],
+  ['page4_4',['page4',['../scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3',1,'page4:&#160;scheduler_ignition_controller.cpp'],['../scheduler__fuel__controller_8cpp.html#afb758a9ad5b09bd45b0d153e6ccdc974',1,'page4:&#160;scheduler_fuel_controller.cpp'],['../engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690',1,'page4:&#160;engineProtection.cpp']]],
   ['page6_5',['page6',['../engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab',1,'page6:&#160;engineProtection.cpp'],['../scheduler__fuel__controller_8cpp.html#ae030f77cca7c1e0a2122d69ae17d73d8',1,'page6:&#160;scheduler_fuel_controller.cpp']]],
   ['page9_6',['page9',['../engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab',1,'engineProtection.cpp']]],
   ['page_5fidx_5fcalibration_5fbins_7',['PAGE_IDX_CALIBRATION_BINS',['../pages_8h.html#a952d21e218223c07f71f8c551b5261be',1,'pages.h']]],
@@ -63,7 +63,7 @@ var searchData=
   ['pprimaryserial_60',['pprimaryserial',['../group__group-serial-comms-impl.html#ga9f49e2ed648d3b97f09ac5d0670d11bd',1,'pPrimarySerial:&#160;comms.cpp'],['../group__group-serial-comms-impl.html#ga9f49e2ed648d3b97f09ac5d0670d11bd',1,'pPrimarySerial:&#160;comms.cpp']]],
   ['praw_61',['pRaw',['../structentity__t.html#a2902e9955261069391f82a0850a6857d',1,'entity_t']]],
   ['previousclutchtrigger_62',['previousClutchTrigger',['../structstatuses.html#a8a0ca9ebf8440cd1a978a3d326558eda',1,'statuses']]],
-  ['primary_63',['primary',['../structpulse_widths.html#a9d3e7080ffa1d98815ecb80483affb2a',1,'pulseWidths::primary'],['../structdecoder__t.html#aab064bfbee4f4f0143925e209011f8f9',1,'decoder_t::primary']]],
+  ['primary_63',['primary',['../structnum__injector__t.html#a573319f188fdb25c4ce3d551f19803de',1,'num_injector_t::primary'],['../structpulse_widths.html#a9d3e7080ffa1d98815ecb80483affb2a',1,'pulseWidths::primary'],['../structdecoder__t.html#aab064bfbee4f4f0143925e209011f8f9',1,'decoder_t::primary']]],
   ['primebins_64',['primeBins',['../structconfig2.html#aeb0a7b03267be2eb9bc44ad0790d4c5c',1,'config2']]],
   ['primepulse_65',['primePulse',['../structconfig2.html#ae06d26086ac84e38203cdf0556afff7e',1,'config2']]],
   ['primingdelay_66',['primingDelay',['../structconfig2.html#ae347c1dd6fbb916f2eeb1cf7058e367c',1,'config2']]],

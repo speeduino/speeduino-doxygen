@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['engine_5fprotect_5fflags_5ft_0',['engine_protect_flags_t',['../structstatuses_1_1engine__protect__flags__t.html',1,'statuses']]],
-  ['entity_5fpage_5flocation_5ft_1',['entity_page_location_t',['../structentity__page__location__t.html',1,'']]],
-  ['entity_5ft_2',['entity_t',['../structentity__t.html',1,'']]]
+  ['decoder_5fbuilder_5ft_0',['decoder_builder_t',['../structdecoder__builder__t.html',1,'']]],
+  ['decoder_5ffeatures_5ft_1',['decoder_features_t',['../structdecoder__features__t.html',1,'']]],
+  ['decoder_5fstatus_5ft_2',['decoder_status_t',['../structdecoder__status__t.html',1,'']]],
+  ['decoder_5ft_3',['decoder_t',['../structdecoder__t.html',1,'']]],
+  ['digitalpin_5ft_4',['digitalPin_t',['../classdigital_pin__t.html',1,'']]]
 ];
