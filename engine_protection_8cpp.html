@@ -82,6 +82,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="engine_protection_8h_source.html">engineProtection.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="elapsed__time_8h_source.html">elapsed_time.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
@@ -90,6 +91,8 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a7d62c365868375c00a055cd784848aa2" id="r_a7d62c365868375c00a055cd784848aa2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a7d62c365868375c00a055cd784848aa2">protectionDeadlineReached</a> (uint32_t now, uint32_t deadline)</td></tr>
+<tr class="separator:a7d62c365868375c00a055cd784848aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaf6ff1ffeac6238f73130b690d1955d" id="r_adaf6ff1ffeac6238f73130b690d1955d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#adaf6ff1ffeac6238f73130b690d1955d">checkOilPressureLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, uint32_t currMillis)</td></tr>
 <tr class="separator:adaf6ff1ffeac6238f73130b690d1955d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0829abeff31958138710913337c75c99" id="r_a0829abeff31958138710913337c75c99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a0829abeff31958138710913337c75c99">checkBoostLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
@@ -157,6 +160,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a723502002b1519ecb217fded8bd022ac" id="r_a723502002b1519ecb217fded8bd022ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a723502002b1519ecb217fded8bd022ac">oilProtEndTime</a></td></tr>
 <tr class="separator:a723502002b1519ecb217fded8bd022ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e2143d8cd7d05f7071515bc3e96257b" id="r_a5e2143d8cd7d05f7071515bc3e96257b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a5e2143d8cd7d05f7071515bc3e96257b">oilProtTimerStarted</a> = false</td></tr>
+<tr class="separator:a5e2143d8cd7d05f7071515bc3e96257b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f6f6fb8a3231a1737a282a036343f3f" id="r_a6f6f6fb8a3231a1737a282a036343f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> oilPressureProtectTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a6f6f6fb8a3231a1737a282a036343f3f">configPage10</a></td></tr>
 <tr class="separator:a6f6f6fb8a3231a1737a282a036343f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a185af6e0142b38eece86d225b2786b5d" id="r_a185af6e0142b38eece86d225b2786b5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a9358862b7b629f12dc740f79dd5d0fad">table2D_u8_u8_6</a> coolantProtectTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a185af6e0142b38eece86d225b2786b5d">configPage9</a></td></tr>
@@ -165,6 +170,8 @@ Variables</h2></td></tr>
 <tr class="separator:aa6cbde5e43f7cd1e767c2e4a6bb599dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aef8d8a4ac2849674e419090807e341" id="r_a9aef8d8a4ac2849674e419090807e341"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a9aef8d8a4ac2849674e419090807e341">afrProtectedActivateTime</a> = 0</td></tr>
 <tr class="separator:a9aef8d8a4ac2849674e419090807e341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43d4dde5a54350805573f94fc974c5d5" id="r_a43d4dde5a54350805573f94fc974c5d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a43d4dde5a54350805573f94fc974c5d5">afrProtTimerStarted</a> = false</td></tr>
+<tr class="separator:a43d4dde5a54350805573f94fc974c5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa12f930df9a77069574d9dbdcf15b690" id="r_aa12f930df9a77069574d9dbdcf15b690"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a></td></tr>
 <tr class="separator:aa12f930df9a77069574d9dbdcf15b690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d0ca59283f91ea1c2bbc17dca7562ab" id="r_a7d0ca59283f91ea1c2bbc17dca7562ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structconfig4.html">config4</a> const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a></td></tr>
@@ -1108,6 +1115,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d62c365868375c00a055cd784848aa2" name="a7d62c365868375c00a055cd784848aa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d62c365868375c00a055cd784848aa2">&#9670;&#160;</a></span>protectionDeadlineReached()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool protectionDeadlineReached </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>now</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>deadline</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab3445ce85124458f8ccff12d5bd79a5a" name="ab3445ce85124458f8ccff12d5bd79a5a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab3445ce85124458f8ccff12d5bd79a5a">&#9670;&#160;</a></span>supportPendingIgnitionCut()</h2>
 
@@ -1185,6 +1228,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> unsigned long afrProtectedActivateTime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43d4dde5a54350805573f94fc974c5d5" name="a43d4dde5a54350805573f94fc974c5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43d4dde5a54350805573f94fc974c5d5">&#9670;&#160;</a></span>afrProtTimerStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool afrProtTimerStarted = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1380,7 +1437,7 @@ Variables</h2></td></tr>
 <div class="line">  }</div>
 <div class="line"> </div>
 <div class="line">  <span class="keywordflow">return</span> <a class="code hl_function" href="engine_protection_8cpp.html#ab5f553e126a247106f405d73574ef340">maskUnusedChannels</a>(cutState, <a class="code hl_variable" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</div>
-<div class="ttc" id="aengine_protection_8cpp_html_ab5f553e126a247106f405d73574ef340"><div class="ttname"><a href="engine_protection_8cpp.html#ab5f553e126a247106f405d73574ef340">maskUnusedChannels</a></div><div class="ttdeci">statuses::scheduler_cut_t maskUnusedChannels(statuses::scheduler_cut_t cutState, const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:430</div></div>
+<div class="ttc" id="aengine_protection_8cpp_html_ab5f553e126a247106f405d73574ef340"><div class="ttname"><a href="engine_protection_8cpp.html#ab5f553e126a247106f405d73574ef340">maskUnusedChannels</a></div><div class="ttdeci">statuses::scheduler_cut_t maskUnusedChannels(statuses::scheduler_cut_t cutState, const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:447</div></div>
 <div class="ttc" id="ascheduler__fuel__controller_8cpp_html_a106d27640980c78e8757d0952db96e9f"><div class="ttname"><a href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a></div><div class="ttdeci">const config2 const config4 const config6 const config10 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_fuel_controller.cpp:913</div></div>
 </div><!-- fragment -->
 </div>
@@ -1413,6 +1470,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e2143d8cd7d05f7071515bc3e96257b" name="a5e2143d8cd7d05f7071515bc3e96257b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e2143d8cd7d05f7071515bc3e96257b">&#9670;&#160;</a></span>oilProtTimerStarted</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool oilProtTimerStarted = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afd7fa06a22de3e5b9915ea53ce05a288" name="afd7fa06a22de3e5b9915ea53ce05a288"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd7fa06a22de3e5b9915ea53ce05a288">&#9670;&#160;</a></span>page10</h2>
 
@@ -1426,7 +1497,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">  <a class="code hl_struct" href="structstatuses_1_1engine__protect__flags__t.html">statuses::engine_protect_flags_t</a> <a class="code hl_variable" href="engine_protection_8cpp.html#a2dfe16589ad663cd4c9a54c69bba66a7">flags</a> = { <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span> }</div>
-<div class="ttc" id="aengine_protection_8cpp_html_a2dfe16589ad663cd4c9a54c69bba66a7"><div class="ttname"><a href="engine_protection_8cpp.html#a2dfe16589ad663cd4c9a54c69bba66a7">flags</a></div><div class="ttdeci">return flags</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:170</div></div>
+<div class="ttc" id="aengine_protection_8cpp_html_a2dfe16589ad663cd4c9a54c69bba66a7"><div class="ttname"><a href="engine_protection_8cpp.html#a2dfe16589ad663cd4c9a54c69bba66a7">flags</a></div><div class="ttdeci">return flags</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:187</div></div>
 <div class="ttc" id="astructstatuses_1_1engine__protect__flags__t_html"><div class="ttname"><a href="structstatuses_1_1engine__protect__flags__t.html">statuses::engine_protect_flags_t</a></div><div class="ttdoc">Engine protection status fields.</div><div class="ttdef"><b>Definition</b> statuses.h:283</div></div>
 </div><!-- fragment -->
 </div>
@@ -1486,7 +1557,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">  <a class="code hl_struct" href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a> cutState = <a class="code hl_variable" href="engine_protection_8cpp.html#ad73a2b48993505d8ff365b5852e65f85">CUT_NONE</a></div>
-<div class="ttc" id="aengine_protection_8cpp_html_ad73a2b48993505d8ff365b5852e65f85"><div class="ttname"><a href="engine_protection_8cpp.html#ad73a2b48993505d8ff365b5852e65f85">CUT_NONE</a></div><div class="ttdeci">constexpr statuses::scheduler_cut_t CUT_NONE</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:253</div></div>
+<div class="ttc" id="aengine_protection_8cpp_html_ad73a2b48993505d8ff365b5852e65f85"><div class="ttname"><a href="engine_protection_8cpp.html#ad73a2b48993505d8ff365b5852e65f85">CUT_NONE</a></div><div class="ttdeci">constexpr statuses::scheduler_cut_t CUT_NONE</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:270</div></div>
 <div class="ttc" id="astructstatuses_1_1scheduler__cut__t_html"><div class="ttname"><a href="structstatuses_1_1scheduler__cut__t.html">statuses::scheduler_cut_t</a></div><div class="ttdoc">Fuel and ignition scheduler cut state.</div><div class="ttdef"><b>Definition</b> statuses.h:351</div></div>
 </div><!-- fragment -->
 </div>
