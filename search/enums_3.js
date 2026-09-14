@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mapsamplingmethod_0',['MAPSamplingMethod',['../config__pages_8h.html#a5fe60826056acd022194374c3bcc2b84',1,'config_pages.h']]]
+  ['limitingtype_0',['LimitingType',['../namespaceprogrammable_i_o_control__details.html#a180e954bf701f7eea97ae7152c30da7f',1,'programmableIOControl_details']]],
+  ['loadsource_1',['LoadSource',['../load__source_8h.html#aac34765e100bac4eb6e6475db7bcaad3',1,'load_source.h']]]
 ];

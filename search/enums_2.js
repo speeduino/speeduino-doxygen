@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['limitingtype_0',['LimitingType',['../namespaceprogrammable_i_o_control__details.html#a180e954bf701f7eea97ae7152c30da7f',1,'programmableIOControl_details']]],
-  ['loadsource_1',['LoadSource',['../load__source_8h.html#aac34765e100bac4eb6e6475db7bcaad3',1,'load_source.h']]]
+  ['enginerotationstatus_0',['EngineRotationStatus',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2',1,'statuses.h']]],
+  ['entitytype_1',['EntityType',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42',1,'pages.h']]]
 ];

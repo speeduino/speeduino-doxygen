@@ -19,7 +19,7 @@ var searchData=
   ['max_5frpm_16',['MAX_RPM',['../crank_maths_8h.html#a9e4822b149c3d334452165d849958b22',1,'crankMaths.h']]],
   ['max_5fstall_5ftime_17',['MAX_STALL_TIME',['../decoders_8cpp.html#a3aa6161f5b17b119bc6f737613013145',1,'decoders.cpp']]],
   ['max_5ftimer_5fperiod_18',['MAX_TIMER_PERIOD',['../board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d',1,'board_definition.h']]],
-  ['maxduty_19',['maxDuty',['../struct_vvt_output_channel.html#a5636ea0ab49c16089d3109397b5543ad',1,'VvtOutputChannel']]],
+  ['maxduty_19',['maxDuty',['../struct_pwm_output_channel.html#ad8639c17d130224120586527252c3b39',1,'PwmOutputChannel']]],
   ['maxignoutputs_20',['maxIgnOutputs',['../structstatuses.html#a7297af1ce949a9664eb48b3724ac826b',1,'statuses']]],
   ['micros_5fper_5fdeg_5f1_5frpm_21',['MICROS_PER_DEG_1_RPM',['../crank_maths_8h.html#a0c7f3e3bc88c6c4c28a7f413e5096ef8',1,'crankMaths.h']]],
   ['micros_5fper_5fhour_22',['MICROS_PER_HOUR',['../maths_8h.html#a58b31e48bc0b675937f7f12c1798617d',1,'maths.h']]],

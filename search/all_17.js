@@ -42,7 +42,7 @@ var searchData=
   ['max_5frpm_39',['MAX_RPM',['../crank_maths_8h.html#a9e4822b149c3d334452165d849958b22',1,'crankMaths.h']]],
   ['max_5fstall_5ftime_40',['MAX_STALL_TIME',['../decoders_8cpp.html#a3aa6161f5b17b119bc6f737613013145',1,'decoders.cpp']]],
   ['max_5ftimer_5fperiod_41',['MAX_TIMER_PERIOD',['../board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d',1,'board_definition.h']]],
-  ['maxduty_42',['maxDuty',['../struct_vvt_output_channel.html#a5636ea0ab49c16089d3109397b5543ad',1,'VvtOutputChannel']]],
+  ['maxduty_42',['maxDuty',['../struct_pwm_output_channel.html#ad8639c17d130224120586527252c3b39',1,'PwmOutputChannel']]],
   ['maxignoutputs_43',['maxIgnOutputs',['../structstatuses.html#a7297af1ce949a9664eb48b3724ac826b',1,'statuses']]],
   ['mazda_20au_44',['Mazda AU',['../group__mazda__au.html',1,'']]],
   ['mc33810_5fsupport_45',['mc33810_support',['../board__teensy35_8h.html#a752c8e9d9192131f35e9694db83854f4',1,'MC33810_SUPPORT:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a752c8e9d9192131f35e9694db83854f4',1,'MC33810_SUPPORT:&#160;board_teensy41.h']]],

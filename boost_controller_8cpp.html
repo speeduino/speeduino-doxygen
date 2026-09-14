@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">boostController.cpp File Reference</div></div>
@@ -85,44 +86,71 @@ $(function() {
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">../../../unit_testing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">../../../units.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="integer_p_i_d__ideal_8h_source.html">../../PID/integerPID_ideal.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timers_8h_source.html">../../../timers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_pwm_output_channel_8h_source.html">../../pwm/PwmOutputChannel.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a5f1105784f54dd7325f1d3ebf4c3cbff" id="r_a5f1105784f54dd7325f1d3ebf4c3cbff"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbff">BoostByGearMode</a> : uint8_t { <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbffad15305d7a4e34e02489c74a5ef542f36">Off</a>
+, <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbffaadaaee4b22041c27198d410c68d952c9">Percent</a>
+, <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbffacb17869fe51048b5a5c4c6106551a255">Constant</a>
+ }</td></tr>
+<tr class="separator:a5f1105784f54dd7325f1d3ebf4c3cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a722f134061c7ac8fc1164ada52a19753" id="r_a722f134061c7ac8fc1164ada52a19753"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a722f134061c7ac8fc1164ada52a19753">setBoostPidTunings</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
-<tr class="separator:a722f134061c7ac8fc1164ada52a19753"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37078d8dd6b66f7f8a4f479cc3466309" id="r_a37078d8dd6b66f7f8a4f479cc3466309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a37078d8dd6b66f7f8a4f479cc3466309">initialiseBoost</a> (uint8_t boostPin)</td></tr>
-<tr class="separator:a37078d8dd6b66f7f8a4f479cc3466309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af658fda3c20b91bdbef47a139ab4dc30" id="r_af658fda3c20b91bdbef47a139ab4dc30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#af658fda3c20b91bdbef47a139ab4dc30">boostDisable</a> (void)</td></tr>
-<tr class="separator:af658fda3c20b91bdbef47a139ab4dc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9a2f41544deb079bda15a534b0cbe7" id="r_a2e9a2f41544deb079bda15a534b0cbe7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a2e9a2f41544deb079bda15a534b0cbe7">boostByGear</a> (void)</td></tr>
-<tr class="separator:a2e9a2f41544deb079bda15a534b0cbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0f5572764df70b61f5a912d5e0b60a" id="r_a5a0f5572764df70b61f5a912d5e0b60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a5a0f5572764df70b61f5a912d5e0b60a">boostControl</a> (void)</td></tr>
-<tr class="separator:a5a0f5572764df70b61f5a912d5e0b60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46701243c792616ef427b95614052c30" id="r_a46701243c792616ef427b95614052c30"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a46701243c792616ef427b95614052c30">percentToHalfPct</a> (uint16_t percent)</td></tr>
+<tr class="separator:a46701243c792616ef427b95614052c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d559a591d47d11959c8425dc716e189" id="r_a9d559a591d47d11959c8425dc716e189"><td class="memItemLeft" align="right" valign="top">static constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a9d559a591d47d11959c8425dc716e189">percentToDuty</a> (uint16_t percent)</td></tr>
+<tr class="separator:a9d559a591d47d11959c8425dc716e189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76973257d65a16eb77a206565e1bb781" id="r_a76973257d65a16eb77a206565e1bb781"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a76973257d65a16eb77a206565e1bb781">setBoostPidTunings</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a76973257d65a16eb77a206565e1bb781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3e0ff4ede1996a0a32f7ba2174ae90" id="r_aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#aff3e0ff4ede1996a0a32f7ba2174ae90">initialiseBoost</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
+<tr class="memdesc:aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the boost controller.  <br /></td></tr>
+<tr class="separator:aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a27abbab25053c7c96798a6867cb190" id="r_a3a27abbab25053c7c96798a6867cb190"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a3a27abbab25053c7c96798a6867cb190">getBoostByGearFactor</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a3a27abbab25053c7c96798a6867cb190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08f4f6d5903cb569d289de6460a5b2bd" id="r_a08f4f6d5903cb569d289de6460a5b2bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbff">BoostByGearMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a08f4f6d5903cb569d289de6460a5b2bd">getBoostByGearMode</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:a08f4f6d5903cb569d289de6460a5b2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca95f5c0351c065aea7093ea1382ff70" id="r_aca95f5c0351c065aea7093ea1382ff70"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#aca95f5c0351c065aea7093ea1382ff70">lookupBoostTable</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:aca95f5c0351c065aea7093ea1382ff70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a63efafb0852ba88cf171d64eb11a4" id="r_a73a63efafb0852ba88cf171d64eb11a4"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a73a63efafb0852ba88cf171d64eb11a4">getBoostDuty</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:a73a63efafb0852ba88cf171d64eb11a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8cc1c6d54cd6f0da294d7e428289274" id="r_af8cc1c6d54cd6f0da294d7e428289274"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#af8cc1c6d54cd6f0da294d7e428289274">getBoostTarget</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:af8cc1c6d54cd6f0da294d7e428289274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac52d21e96cf82f38ba5b8905b5acec86" id="r_ac52d21e96cf82f38ba5b8905b5acec86"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#ac52d21e96cf82f38ba5b8905b5acec86">getFlexCorrection</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:ac52d21e96cf82f38ba5b8905b5acec86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c19292f8616a2f5d1e4b29f6f6d26e" id="r_a55c19292f8616a2f5d1e4b29f6f6d26e"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a55c19292f8616a2f5d1e4b29f6f6d26e">convertTargetToDuty</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a55c19292f8616a2f5d1e4b29f6f6d26e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9544aca2214e12e0994c0522c63913e" id="r_af9544aca2214e12e0994c0522c63913e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#af9544aca2214e12e0994c0522c63913e">applyDutyToPwm</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:af9544aca2214e12e0994c0522c63913e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add779b7225b759dcca228372a4d2d400" id="r_add779b7225b759dcca228372a4d2d400"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#add779b7225b759dcca228372a4d2d400">isBoostActive</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:add779b7225b759dcca228372a4d2d400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f72ccf494bc0834936692b2c4ba645a" id="r_a8f72ccf494bc0834936692b2c4ba645a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a8f72ccf494bc0834936692b2c4ba645a">isBoostControlBaroActive</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:a8f72ccf494bc0834936692b2c4ba645a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1971b187189c57df99ea9a46f572768" id="r_ad1971b187189c57df99ea9a46f572768"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#ad1971b187189c57df99ea9a46f572768">isBoostControlFixedActive</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:ad1971b187189c57df99ea9a46f572768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12188e939ff3e90ab06a35ce9bf00a4f" id="r_a12188e939ff3e90ab06a35ce9bf00a4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a12188e939ff3e90ab06a35ce9bf00a4f">boostControlCore</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:a12188e939ff3e90ab06a35ce9bf00a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc313eb7ed2a228fc1ac3aaa9e9aabd" id="r_a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a1fc313eb7ed2a228fc1ac3aaa9e9aabd">boostControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="memdesc:a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the boost control algorithm. Should be called periodically from the main loop.  <br /></td></tr>
+<tr class="separator:a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d9daee30b13a076f65801fca57e319" id="r_ad4d9daee30b13a076f65801fca57e319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#ad4d9daee30b13a076f65801fca57e319">boostInterrupt</a> (void)</td></tr>
+<tr class="memdesc:ad4d9daee30b13a076f65801fca57e319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost timer ISR. The board needs to hook this into a timer.  <br /></td></tr>
 <tr class="separator:ad4d9daee30b13a076f65801fca57e319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a64fc1ed1fa8d2c4bbe0075437a6fce1f" id="r_a64fc1ed1fa8d2c4bbe0075437a6fce1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a64fc1ed1fa8d2c4bbe0075437a6fce1f">boostCounter</a></td></tr>
-<tr class="separator:a64fc1ed1fa8d2c4bbe0075437a6fce1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a446ab634a86bf97e2a5ed779dc543d78" id="r_a446ab634a86bf97e2a5ed779dc543d78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a446ab634a86bf97e2a5ed779dc543d78">boost_pin</a></td></tr>
-<tr class="separator:a446ab634a86bf97e2a5ed779dc543d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acae17315fb084f7f8a2f9d0ca2add257" id="r_acae17315fb084f7f8a2f9d0ca2add257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#acae17315fb084f7f8a2f9d0ca2add257">boost_pwm_target_value</a></td></tr>
-<tr class="separator:acae17315fb084f7f8a2f9d0ca2add257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e0f99648dc3d20fce90b70c00efbebb" id="r_a3e0f99648dc3d20fce90b70c00efbebb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a3e0f99648dc3d20fce90b70c00efbebb">boost_pwm_state</a></td></tr>
-<tr class="separator:a3e0f99648dc3d20fce90b70c00efbebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af227a8cd80c5ae711f997a27af6e21a9" id="r_af227a8cd80c5ae711f997a27af6e21a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#af227a8cd80c5ae711f997a27af6e21a9">boost_pwm_cur_value</a> = 0</td></tr>
-<tr class="separator:af227a8cd80c5ae711f997a27af6e21a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4a9fd24e32f7d18447906fb4a8f3857" id="r_ac4a9fd24e32f7d18447906fb4a8f3857"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#ac4a9fd24e32f7d18447906fb4a8f3857">boost_pwm_max_count</a></td></tr>
-<tr class="separator:ac4a9fd24e32f7d18447906fb4a8f3857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ff721dd3760534e80902feaaf90534e" id="r_a6ff721dd3760534e80902feaaf90534e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classinteger_p_i_d__ideal.html">integerPID_ideal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a6ff721dd3760534e80902feaaf90534e">boostPID</a></td></tr>
-<tr class="separator:a6ff721dd3760534e80902feaaf90534e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b218bf8da05b25aaf4c70aa16d27efe" id="r_a2b218bf8da05b25aaf4c70aa16d27efe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a2b218bf8da05b25aaf4c70aa16d27efe">boostOutput</a></td></tr>
+<tr class="separator:a2b218bf8da05b25aaf4c70aa16d27efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a932419634f95ce1c0c39d0d906a5c328" id="r_a932419634f95ce1c0c39d0d906a5c328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinteger_p_i_d__ideal.html">integerPID_ideal</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a932419634f95ce1c0c39d0d906a5c328">boostPID</a></td></tr>
+<tr class="separator:a932419634f95ce1c0c39d0d906a5c328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81bd2ef660f13772274910348a00c963" id="r_a81bd2ef660f13772274910348a00c963"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a6451f963396f7eaf80bbed5a78d44e88">table2D_u8_s16_6</a> flexBoostTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8cpp.html#a81bd2ef660f13772274910348a00c963">configPage10</a></td></tr>
 <tr class="separator:a81bd2ef660f13772274910348a00c963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a2e9a2f41544deb079bda15a534b0cbe7" name="a2e9a2f41544deb079bda15a534b0cbe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9a2f41544deb079bda15a534b0cbe7">&#9670;&#160;</a></span>boostByGear()</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5f1105784f54dd7325f1d3ebf4c3cbff" name="a5f1105784f54dd7325f1d3ebf4c3cbff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1105784f54dd7325f1d3ebf4c3cbff">&#9670;&#160;</a></span>BoostByGearMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,10 +159,38 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void boostByGear </td>
+          <td class="memname">enum class <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbff">BoostByGearMode</a> : uint8_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5f1105784f54dd7325f1d3ebf4c3cbffad15305d7a4e34e02489c74a5ef542f36" name="a5f1105784f54dd7325f1d3ebf4c3cbffad15305d7a4e34e02489c74a5ef542f36"></a>Off&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5f1105784f54dd7325f1d3ebf4c3cbffaadaaee4b22041c27198d410c68d952c9" name="a5f1105784f54dd7325f1d3ebf4c3cbffaadaaee4b22041c27198d410c68d952c9"></a>Percent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a5f1105784f54dd7325f1d3ebf4c3cbffacb17869fe51048b5a5c4c6106551a255" name="a5f1105784f54dd7325f1d3ebf4c3cbffacb17869fe51048b5a5c4c6106551a255"></a>Constant&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af9544aca2214e12e0994c0522c63913e" name="af9544aca2214e12e0994c0522c63913e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9544aca2214e12e0994c0522c63913e">&#9670;&#160;</a></span>applyDutyToPwm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void applyDutyToPwm </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -147,8 +203,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5a0f5572764df70b61f5a912d5e0b60a" name="a5a0f5572764df70b61f5a912d5e0b60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0f5572764df70b61f5a912d5e0b60a">&#9670;&#160;</a></span>boostControl()</h2>
+<a id="a1fc313eb7ed2a228fc1ac3aaa9e9aabd" name="a1fc313eb7ed2a228fc1ac3aaa9e9aabd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc313eb7ed2a228fc1ac3aaa9e9aabd">&#9670;&#160;</a></span>boostControl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,27 +212,121 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void boostControl </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Run the boost control algorithm. Should be called periodically from the main loop. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>System state </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune </td></tr>
+    <tr><td class="paramname">page4</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page9</td><td>Tune </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune </td></tr>
+    <tr><td class="paramname">page15</td><td>Tune </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="af658fda3c20b91bdbef47a139ab4dc30" name="af658fda3c20b91bdbef47a139ab4dc30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af658fda3c20b91bdbef47a139ab4dc30">&#9670;&#160;</a></span>boostDisable()</h2>
+<a id="a12188e939ff3e90ab06a35ce9bf00a4f" name="a12188e939ff3e90ab06a35ce9bf00a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12188e939ff3e90ab06a35ce9bf00a4f">&#9670;&#160;</a></span>boostControlCore()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void boostDisable </td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void boostControlCore </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -199,10 +349,252 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Boost timer ISR. The board needs to hook this into a timer. </p>
+
 </div>
 </div>
-<a id="a37078d8dd6b66f7f8a4f479cc3466309" name="a37078d8dd6b66f7f8a4f479cc3466309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37078d8dd6b66f7f8a4f479cc3466309">&#9670;&#160;</a></span>initialiseBoost()</h2>
+<a id="a55c19292f8616a2f5d1e4b29f6f6d26e" name="a55c19292f8616a2f5d1e4b29f6f6d26e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c19292f8616a2f5d1e4b29f6f6d26e">&#9670;&#160;</a></span>convertTargetToDuty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t convertTargetToDuty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a27abbab25053c7c96798a6867cb190" name="a3a27abbab25053c7c96798a6867cb190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a27abbab25053c7c96798a6867cb190">&#9670;&#160;</a></span>getBoostByGearFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t getBoostByGearFactor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08f4f6d5903cb569d289de6460a5b2bd" name="a08f4f6d5903cb569d289de6460a5b2bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f4f6d5903cb569d289de6460a5b2bd">&#9670;&#160;</a></span>getBoostByGearMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbff">BoostByGearMode</a> getBoostByGearMode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73a63efafb0852ba88cf171d64eb11a4" name="a73a63efafb0852ba88cf171d64eb11a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a63efafb0852ba88cf171d64eb11a4">&#9670;&#160;</a></span>getBoostDuty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t getBoostDuty </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8cc1c6d54cd6f0da294d7e428289274" name="af8cc1c6d54cd6f0da294d7e428289274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8cc1c6d54cd6f0da294d7e428289274">&#9670;&#160;</a></span>getBoostTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t getBoostTarget </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac52d21e96cf82f38ba5b8905b5acec86" name="ac52d21e96cf82f38ba5b8905b5acec86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac52d21e96cf82f38ba5b8905b5acec86">&#9670;&#160;</a></span>getFlexCorrection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int16_t getFlexCorrection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff3e0ff4ede1996a0a32f7ba2174ae90" name="aff3e0ff4ede1996a0a32f7ba2174ae90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3e0ff4ede1996a0a32f7ba2174ae90">&#9670;&#160;</a></span>initialiseBoost()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,17 +602,243 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void initialiseBoost </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>boostPin</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>pins</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Initialise the boost controller. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>System state </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune </td></tr>
+    <tr><td class="paramname">pins</td><td>Board pin numbers </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a722f134061c7ac8fc1164ada52a19753" name="a722f134061c7ac8fc1164ada52a19753"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a722f134061c7ac8fc1164ada52a19753">&#9670;&#160;</a></span>setBoostPidTunings()</h2>
+<a id="add779b7225b759dcca228372a4d2d400" name="add779b7225b759dcca228372a4d2d400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add779b7225b759dcca228372a4d2d400">&#9670;&#160;</a></span>isBoostActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isBoostActive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f72ccf494bc0834936692b2c4ba645a" name="a8f72ccf494bc0834936692b2c4ba645a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f72ccf494bc0834936692b2c4ba645a">&#9670;&#160;</a></span>isBoostControlBaroActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isBoostControlBaroActive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1971b187189c57df99ea9a46f572768" name="ad1971b187189c57df99ea9a46f572768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1971b187189c57df99ea9a46f572768">&#9670;&#160;</a></span>isBoostControlFixedActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isBoostControlFixedActive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca95f5c0351c065aea7093ea1382ff70" name="aca95f5c0351c065aea7093ea1382ff70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca95f5c0351c065aea7093ea1382ff70">&#9670;&#160;</a></span>lookupBoostTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t lookupBoostTable </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d559a591d47d11959c8425dc716e189" name="a9d559a591d47d11959c8425dc716e189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d559a591d47d11959c8425dc716e189">&#9670;&#160;</a></span>percentToDuty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr uint16_t percentToDuty </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46701243c792616ef427b95614052c30" name="a46701243c792616ef427b95614052c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46701243c792616ef427b95614052c30">&#9670;&#160;</a></span>percentToHalfPct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr uint16_t percentToHalfPct </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a76973257d65a16eb77a206565e1bb781" name="a76973257d65a16eb77a206565e1bb781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76973257d65a16eb77a206565e1bb781">&#9670;&#160;</a></span>setBoostPidTunings()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -254,7 +872,7 @@ Variables</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -262,116 +880,30 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a446ab634a86bf97e2a5ed779dc543d78" name="a446ab634a86bf97e2a5ed779dc543d78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a446ab634a86bf97e2a5ed779dc543d78">&#9670;&#160;</a></span>boost_pin</h2>
+<a id="a2b218bf8da05b25aaf4c70aa16d27efe" name="a2b218bf8da05b25aaf4c70aa16d27efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b218bf8da05b25aaf4c70aa16d27efe">&#9670;&#160;</a></span>boostOutput</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a> boost_pin</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> boostOutput</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af227a8cd80c5ae711f997a27af6e21a9" name="af227a8cd80c5ae711f997a27af6e21a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af227a8cd80c5ae711f997a27af6e21a9">&#9670;&#160;</a></span>boost_pwm_cur_value</h2>
+<a id="a932419634f95ce1c0c39d0d906a5c328" name="a932419634f95ce1c0c39d0d906a5c328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a932419634f95ce1c0c39d0d906a5c328">&#9670;&#160;</a></span>boostPID</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned int boost_pwm_cur_value = 0</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinteger_p_i_d__ideal.html">integerPID_ideal</a> boostPID</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac4a9fd24e32f7d18447906fb4a8f3857" name="ac4a9fd24e32f7d18447906fb4a8f3857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4a9fd24e32f7d18447906fb4a8f3857">&#9670;&#160;</a></span>boost_pwm_max_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t boost_pwm_max_count</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3e0f99648dc3d20fce90b70c00efbebb" name="a3e0f99648dc3d20fce90b70c00efbebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e0f99648dc3d20fce90b70c00efbebb">&#9670;&#160;</a></span>boost_pwm_state</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile bool boost_pwm_state</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acae17315fb084f7f8a2f9d0ca2add257" name="acae17315fb084f7f8a2f9d0ca2add257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae17315fb084f7f8a2f9d0ca2add257">&#9670;&#160;</a></span>boost_pwm_target_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> long boost_pwm_target_value</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a64fc1ed1fa8d2c4bbe0075437a6fce1f" name="a64fc1ed1fa8d2c4bbe0075437a6fce1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64fc1ed1fa8d2c4bbe0075437a6fce1f">&#9670;&#160;</a></span>boostCounter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> boostCounter</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6ff721dd3760534e80902feaaf90534e" name="a6ff721dd3760534e80902feaaf90534e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ff721dd3760534e80902feaaf90534e">&#9670;&#160;</a></span>boostPID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classinteger_p_i_d__ideal.html">integerPID_ideal</a> boostPID</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>

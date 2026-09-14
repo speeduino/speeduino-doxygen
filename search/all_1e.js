@@ -69,7 +69,7 @@ var searchData=
   ['taevalues_66',['taeValues',['../structconfig4.html#a661ec7d63fb6c8696207c2f9f5f481ae',1,'config4']]],
   ['target_67',['target',['../structprogrammable_i_o_control__details_1_1comp_operation__t.html#aa7a23f991a8e1cdd40802b3766a98874',1,'programmableIOControl_details::compOperation_t']]],
   ['targetangle_68',['targetAngle',['../structvvt_status__t.html#ae4d1502692b6b98bce9b227c770fe400',1,'vvtStatus_t']]],
-  ['targetduty_69',['targetDuty',['../struct_vvt_output_channel.html#aaf3a0eafa7e3d369fe9feebb6d95866c',1,'VvtOutputChannel']]],
+  ['targetduty_69',['targetDuty',['../struct_pwm_output_channel.html#a53cb2c7b477148328e6410910485b9f8',1,'PwmOutputChannel']]],
   ['targetgap_70',['targetGap',['../decoders_8cpp.html#a581f2bcc9bef8295750b0da5e024b572',1,'decoders.cpp']]],
   ['targetgap2_71',['targetGap2',['../decoders_8cpp.html#ac1d19fb1ad4f6a7772547c99a869be10',1,'decoders.cpp']]],
   ['targetgap3_72',['targetGap3',['../decoders_8cpp.html#a3ae344231c225275d7dcf93dba82c0be',1,'decoders.cpp']]],

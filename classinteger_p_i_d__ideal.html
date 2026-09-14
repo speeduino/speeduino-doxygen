@@ -87,9 +87,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a887e92eee278d30570234fadb4fefce1" id="r_a887e92eee278d30570234fadb4fefce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinteger_p_i_d__ideal.html#a887e92eee278d30570234fadb4fefce1">initialize</a> (uint16_t input)</td></tr>
 <tr class="memdesc:a887e92eee278d30570234fadb4fefce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the controller.  <br /></td></tr>
 <tr class="separator:a887e92eee278d30570234fadb4fefce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d1dfb67d4783d67c61203f23b6288a9" id="r_a8d1dfb67d4783d67c61203f23b6288a9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinteger_p_i_d__ideal.html#a8d1dfb67d4783d67c61203f23b6288a9">compute</a> (uint32_t now, uint16_t input, uint16_t *pOutput)</td></tr>
-<tr class="memdesc:a8d1dfb67d4783d67c61203f23b6288a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the new output.  <br /></td></tr>
-<tr class="separator:a8d1dfb67d4783d67c61203f23b6288a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3eca7aca0934380e38dbed97072bf0a" id="r_ac3eca7aca0934380e38dbed97072bf0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinteger_p_i_d__ideal.html#ac3eca7aca0934380e38dbed97072bf0a">compute</a> (uint32_t now, uint16_t input, uint16_t *pOutput) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="memdesc:ac3eca7aca0934380e38dbed97072bf0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the new output.  <br /></td></tr>
+<tr class="separator:ac3eca7aca0934380e38dbed97072bf0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Configuration methods</div></td></tr>
 <tr class="memitem:aecedc05dceffa5e4c1d5f3598b68145f" id="r_aecedc05dceffa5e4c1d5f3598b68145f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classinteger_p_i_d__ideal.html#aecedc05dceffa5e4c1d5f3598b68145f">setOutputLimits</a> (uint8_t min, uint8_t max)</td></tr>
 <tr class="memdesc:aecedc05dceffa5e4c1d5f3598b68145f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the output limits.  <br /></td></tr>
@@ -132,11 +132,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8d1dfb67d4783d67c61203f23b6288a9" name="a8d1dfb67d4783d67c61203f23b6288a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d1dfb67d4783d67c61203f23b6288a9">&#9670;&#160;</a></span>compute()</h2>
+<a id="ac3eca7aca0934380e38dbed97072bf0a" name="ac3eca7aca0934380e38dbed97072bf0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3eca7aca0934380e38dbed97072bf0a">&#9670;&#160;</a></span>compute()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool integerPID_ideal::compute </td>
@@ -162,6 +165,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Compute the new output. </p>
@@ -197,7 +205,7 @@ Public Member Functions</h2></td></tr>
 <p>Initialize the controller. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">input</td><td>The first input value (same as the <a class="el" href="classinteger_p_i_d__ideal.html#a8d1dfb67d4783d67c61203f23b6288a9" title="Compute the new output.">compute()</a> input parameter) </td></tr>
+    <tr><td class="paramname">input</td><td>The first input value (same as the <a class="el" href="classinteger_p_i_d__ideal.html#ac3eca7aca0934380e38dbed97072bf0a" title="Compute the new output.">compute()</a> input parameter) </td></tr>
   </table>
   </dd>
 </dl>
@@ -300,7 +308,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">now</td><td>Current time </td></tr>
-    <tr><td class="paramname">minComputeInterval</td><td>Interval between valid calls to <a class="el" href="classinteger_p_i_d__ideal.html#a8d1dfb67d4783d67c61203f23b6288a9" title="Compute the new output.">compute()</a>. Must be in same units as <code>now</code> </td></tr>
+    <tr><td class="paramname">minComputeInterval</td><td>Interval between valid calls to <a class="el" href="classinteger_p_i_d__ideal.html#ac3eca7aca0934380e38dbed97072bf0a" title="Compute the new output.">compute()</a>. Must be in same units as <code>now</code> </td></tr>
   </table>
   </dd>
 </dl>

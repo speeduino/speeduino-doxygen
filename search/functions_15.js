@@ -10,6 +10,5 @@ var searchData=
   ['vsspulse_7',['vsspulse',['../sensors_8cpp.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.cpp'],['../sensors_8h.html#a50f72c4000219b95063ab2cddb592586',1,'vssPulse(void):&#160;sensors.cpp']]],
   ['vvtcontrol_8',['vvtcontrol',['../vvt_controller_8cpp.html#a27039dda0f9837759310e4cf6397bf0c',1,'vvtControl(statuses &amp;current, const config4 &amp;page4, const config6 &amp;page6, config10 &amp;page10):&#160;vvtController.cpp'],['../vvt_controller_8h.html#a27039dda0f9837759310e4cf6397bf0c',1,'vvtControl(statuses &amp;current, const config4 &amp;page4, const config6 &amp;page6, config10 &amp;page10):&#160;vvtController.cpp']]],
   ['vvtinterrupt_9',['vvtinterrupt',['../vvt_controller_8cpp.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;vvtController.cpp'],['../vvt_controller_8h.html#a3817295e5731ea49e9a80753667121d6',1,'vvtInterrupt(void):&#160;vvtController.cpp']]],
-  ['vvtoutputchannel_10',['vvtoutputchannel',['../struct_vvt_output_channel.html#ac3c73a30e1fd47b9173f6d7f50535da2',1,'VvtOutputChannel::VvtOutputChannel(uint8_t pinNum, uint16_t motorFrequency)'],['../struct_vvt_output_channel.html#abb7aa40d24ebeaffb5ee23bd73bd3272',1,'VvtOutputChannel::VvtOutputChannel()=default']]],
-  ['vvtstatus_5ft_11',['vvtStatus_t',['../structvvt_status__t.html#a51548297a304eea7ed0f7ddc64be5183',1,'vvtStatus_t']]]
+  ['vvtstatus_5ft_10',['vvtStatus_t',['../structvvt_status__t.html#a51548297a304eea7ed0f7ddc64be5183',1,'vvtStatus_t']]]
 ];

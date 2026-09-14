@@ -79,24 +79,27 @@ $(function() {
   <div class="headertitle"><div class="title">boostController.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="statuses_8h_source.html">../../../statuses.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config__pages_8h_source.html">../../../config_pages.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pin_numbers__t_8h_source.html">../../pins/pinNumbers_t.h</a>&quot;</code><br />
 </div>
 <p><a href="boost_controller_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a37078d8dd6b66f7f8a4f479cc3466309" id="r_a37078d8dd6b66f7f8a4f479cc3466309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#a37078d8dd6b66f7f8a4f479cc3466309">initialiseBoost</a> (uint8_t boostPin)</td></tr>
-<tr class="separator:a37078d8dd6b66f7f8a4f479cc3466309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0f5572764df70b61f5a912d5e0b60a" id="r_a5a0f5572764df70b61f5a912d5e0b60a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#a5a0f5572764df70b61f5a912d5e0b60a">boostControl</a> (void)</td></tr>
-<tr class="separator:a5a0f5572764df70b61f5a912d5e0b60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af658fda3c20b91bdbef47a139ab4dc30" id="r_af658fda3c20b91bdbef47a139ab4dc30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#af658fda3c20b91bdbef47a139ab4dc30">boostDisable</a> (void)</td></tr>
-<tr class="separator:af658fda3c20b91bdbef47a139ab4dc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3e0ff4ede1996a0a32f7ba2174ae90" id="r_aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#aff3e0ff4ede1996a0a32f7ba2174ae90">initialiseBoost</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
+<tr class="memdesc:aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise the boost controller.  <br /></td></tr>
+<tr class="separator:aff3e0ff4ede1996a0a32f7ba2174ae90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc313eb7ed2a228fc1ac3aaa9e9aabd" id="r_a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#a1fc313eb7ed2a228fc1ac3aaa9e9aabd">boostControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="memdesc:a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run the boost control algorithm. Should be called periodically from the main loop.  <br /></td></tr>
+<tr class="separator:a1fc313eb7ed2a228fc1ac3aaa9e9aabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d9daee30b13a076f65801fca57e319" id="r_ad4d9daee30b13a076f65801fca57e319"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boost_controller_8h.html#ad4d9daee30b13a076f65801fca57e319">boostInterrupt</a> (void)</td></tr>
+<tr class="memdesc:ad4d9daee30b13a076f65801fca57e319"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boost timer ISR. The board needs to hook this into a timer.  <br /></td></tr>
 <tr class="separator:ad4d9daee30b13a076f65801fca57e319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5a0f5572764df70b61f5a912d5e0b60a" name="a5a0f5572764df70b61f5a912d5e0b60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0f5572764df70b61f5a912d5e0b60a">&#9670;&#160;</a></span>boostControl()</h2>
+<a id="a1fc313eb7ed2a228fc1ac3aaa9e9aabd" name="a1fc313eb7ed2a228fc1ac3aaa9e9aabd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fc313eb7ed2a228fc1ac3aaa9e9aabd">&#9670;&#160;</a></span>boostControl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -104,30 +107,66 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void boostControl </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af658fda3c20b91bdbef47a139ab4dc30" name="af658fda3c20b91bdbef47a139ab4dc30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af658fda3c20b91bdbef47a139ab4dc30">&#9670;&#160;</a></span>boostDisable()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void boostDisable </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Run the boost control algorithm. Should be called periodically from the main loop. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>System state </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune </td></tr>
+    <tr><td class="paramname">page4</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page9</td><td>Tune </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune </td></tr>
+    <tr><td class="paramname">page15</td><td>Tune </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -147,10 +186,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Boost timer ISR. The board needs to hook this into a timer. </p>
+
 </div>
 </div>
-<a id="a37078d8dd6b66f7f8a4f479cc3466309" name="a37078d8dd6b66f7f8a4f479cc3466309"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37078d8dd6b66f7f8a4f479cc3466309">&#9670;&#160;</a></span>initialiseBoost()</h2>
+<a id="aff3e0ff4ede1996a0a32f7ba2174ae90" name="aff3e0ff4ede1996a0a32f7ba2174ae90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3e0ff4ede1996a0a32f7ba2174ae90">&#9670;&#160;</a></span>initialiseBoost()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,12 +199,52 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void initialiseBoost </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>boostPin</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>pins</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initialise the boost controller. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>System state </td></tr>
+    <tr><td class="paramname">page2</td><td>Tune </td></tr>
+    <tr><td class="paramname">page6</td><td>Tune </td></tr>
+    <tr><td class="paramname">page10</td><td>Tune </td></tr>
+    <tr><td class="paramname">pins</td><td>Board pin numbers </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
