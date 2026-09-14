@@ -129,7 +129,7 @@ var searchData=
   ['applycorrections_126',['applyCorrections',['../fuel__calcs_8cpp.html#ac087508589c090c115e2ccb9cd65e113',1,'fuel_calcs.cpp']]],
   ['applydutytopwm_127',['applyDutyToPwm',['../boost_controller_8cpp.html#af9544aca2214e12e0994c0522c63913e',1,'boostController.cpp']]],
   ['applyengineprotectionrevlimit_128',['applyEngineProtectionRevLimit',['../engine_protection_8cpp.html#a8b25cbdceae1765a203cac7c7a18032d',1,'engineProtection.cpp']]],
-  ['applyeventtochannel_129',['applyEventToChannel',['../vvt_controller_8cpp.html#a3fe066556e18a4239909c4f4ed43b082',1,'vvtController.cpp']]],
+  ['applyeventtochannel_129',['applyEventToChannel',['../vvt_controller_8cpp.html#a122c3cbe44b694d8faeb04be1cc933b3',1,'vvtController.cpp']]],
   ['applyflatshiftrevlimit_130',['applyFlatShiftRevLimit',['../engine_protection_8cpp.html#ac9c7cf13f62825e0c2f9763db7732403',1,'engineProtection.cpp']]],
   ['applyfueltrim_131',['applyFuelTrim',['../scheduler__fuel__controller_8cpp.html#a9fbf0fe419340ddb82e8a7100b035ebf',1,'scheduler_fuel_controller.cpp']]],
   ['applyfullcut_132',['applyFullCut',['../engine_protection_8cpp.html#a67bc10783dd6c7508228a325df0445db',1,'engineProtection.cpp']]],

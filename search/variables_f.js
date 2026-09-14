@@ -14,7 +14,7 @@ var searchData=
   ['pertoothign_11',['perToothIgn',['../structconfig2.html#af3bba01758d44f2924605f0f12e1e936',1,'config2']]],
   ['pgetcrankangle_12',['pGetCrankAngle',['../structdecoder__t.html#a44f7ae7dd366dc1796faefcc57b39473',1,'decoder_t']]],
   ['pid_5fshifts_13',['PID_SHIFTS',['../integer_p_i_d_8cpp.html#a130aba2afe4fcb441580414f5a507d69',1,'integerPID.cpp']]],
-  ['pin_14',['pin',['../struct_pwm_output_channel.html#ac20006aec940c6301a6e5188df035de5',1,'PwmOutputChannel']]],
+  ['pin_14',['pin',['../struct_pwm_output_channel.html#a33cf89e3d8de3cc01870a574611e214f',1,'PwmOutputChannel']]],
   ['pinairconcomp_15',['pinAirConComp',['../structpin_numbers__t.html#af93bfe3642171c61aa8963570bda442b',1,'pinNumbers_t']]],
   ['pinairconfan_16',['pinAirConFan',['../structpin_numbers__t.html#ada0547d3db3107c32042ae6024fda5e1',1,'pinNumbers_t']]],
   ['pinairconrequest_17',['pinAirConRequest',['../structpin_numbers__t.html#ae2f03c21748f8c204f3f8832d900ffd7',1,'pinNumbers_t']]],

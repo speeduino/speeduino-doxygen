@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -97,6 +98,11 @@ $(function() {
 <code>#include &quot;<a class="el" href="scheduler__fuel__controller_8h_source.html">../../../scheduler_fuel_controller.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_pwm_output_channel_8h_source.html">../../pwm/PwmOutputChannel.h</a>&quot;</code><br />
 </div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:acf026a7264cf111078544c8c506d6371" id="r_acf026a7264cf111078544c8c506d6371"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> = <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a>&lt; <a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a> &gt;</td></tr>
+<tr class="separator:acf026a7264cf111078544c8c506d6371"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:aa9d9172104fa84179adb8e6b08c23d85" id="r_aa9d9172104fa84179adb8e6b08c23d85"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> : uint8_t { <br />
@@ -153,26 +159,26 @@ Functions</h2></td></tr>
 <tr class="separator:af89531299571a81dfcdc39f6b19fe906"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa560576bc6702a7fdab8cd249bd61b5a" id="r_aa560576bc6702a7fdab8cd249bd61b5a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#aa560576bc6702a7fdab8cd249bd61b5a">setVvtTimerCompare</a> (uint16_t offset)</td></tr>
 <tr class="separator:aa560576bc6702a7fdab8cd249bd61b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93dcaa1f4d16c5d1d28b8cc8101bbb6c" id="r_a93dcaa1f4d16c5d1d28b8cc8101bbb6c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a93dcaa1f4d16c5d1d28b8cc8101bbb6c">isVvtOff</a> (const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel)</td></tr>
-<tr class="separator:a93dcaa1f4d16c5d1d28b8cc8101bbb6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a419288d1d9ed9d731514fc5b1e07d26a" id="r_a419288d1d9ed9d731514fc5b1e07d26a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a419288d1d9ed9d731514fc5b1e07d26a">overrideNextEvent</a> (<a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> next, const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel1, const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel2) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
-<tr class="separator:a419288d1d9ed9d731514fc5b1e07d26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fe066556e18a4239909c4f4ed43b082" id="r_a3fe066556e18a4239909c4f4ed43b082"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a3fe066556e18a4239909c4f4ed43b082">applyEventToChannel</a> (<a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> event, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> onEvent, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> offEvent) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
-<tr class="separator:a3fe066556e18a4239909c4f4ed43b082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adedb8f745ab8d1438eddab714d0355d2" id="r_adedb8f745ab8d1438eddab714d0355d2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#adedb8f745ab8d1438eddab714d0355d2">calculateNextInterruptSingleOff</a> (const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;primary, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> primaryOff, const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;other, uint16_t &amp;offset) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
-<tr class="separator:adedb8f745ab8d1438eddab714d0355d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8653d9f51b2ff4fdd91a1b5fad208ab9" id="r_a8653d9f51b2ff4fdd91a1b5fad208ab9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a8653d9f51b2ff4fdd91a1b5fad208ab9">calculateNextInterrupt</a> (<a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> currentEvent, const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel1, const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;channel2, uint16_t &amp;offset) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
-<tr class="separator:a8653d9f51b2ff4fdd91a1b5fad208ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35f3e048dc5fd3e010b9dd167b6b8cf" id="r_ad35f3e048dc5fd3e010b9dd167b6b8cf"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#ad35f3e048dc5fd3e010b9dd167b6b8cf">isVvtOff</a> (const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel)</td></tr>
+<tr class="separator:ad35f3e048dc5fd3e010b9dd167b6b8cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69180ea46b064bffe118760649eeec95" id="r_a69180ea46b064bffe118760649eeec95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a69180ea46b064bffe118760649eeec95">overrideNextEvent</a> (<a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> next, const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel1, const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel2) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a69180ea46b064bffe118760649eeec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122c3cbe44b694d8faeb04be1cc933b3" id="r_a122c3cbe44b694d8faeb04be1cc933b3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a122c3cbe44b694d8faeb04be1cc933b3">applyEventToChannel</a> (<a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> event, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> onEvent, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> offEvent) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a122c3cbe44b694d8faeb04be1cc933b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3cc71db175bcf8c8d0f1a5cd426269" id="r_a5f3cc71db175bcf8c8d0f1a5cd426269"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a5f3cc71db175bcf8c8d0f1a5cd426269">calculateNextInterruptSingleOff</a> (const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;primary, <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> primaryOff, const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;other, uint16_t &amp;offset) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a5f3cc71db175bcf8c8d0f1a5cd426269"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86817f3ca57dd15b7aa6741e83e5e603" id="r_a86817f3ca57dd15b7aa6741e83e5e603"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a86817f3ca57dd15b7aa6741e83e5e603">calculateNextInterrupt</a> (<a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> currentEvent, const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel1, const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;channel2, uint16_t &amp;offset) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:a86817f3ca57dd15b7aa6741e83e5e603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3817295e5731ea49e9a80753667121d6" id="r_a3817295e5731ea49e9a80753667121d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a3817295e5731ea49e9a80753667121d6">vvtInterrupt</a> (void)</td></tr>
 <tr class="memdesc:a3817295e5731ea49e9a80753667121d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">VVT timer callback for PWM control.  <br /></td></tr>
 <tr class="separator:a3817295e5731ea49e9a80753667121d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae8f3c85873c3016f74841a2c57a76049" id="r_ae8f3c85873c3016f74841a2c57a76049"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#ae8f3c85873c3016f74841a2c57a76049">vvtChannel1</a></td></tr>
-<tr class="separator:ae8f3c85873c3016f74841a2c57a76049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1111d91f57ac7f793e65a9ec0e61e069" id="r_a1111d91f57ac7f793e65a9ec0e61e069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a1111d91f57ac7f793e65a9ec0e61e069">vvtChannel2</a></td></tr>
-<tr class="separator:a1111d91f57ac7f793e65a9ec0e61e069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6728853b17333f69cca82210a0d44f" id="r_a3a6728853b17333f69cca82210a0d44f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a3a6728853b17333f69cca82210a0d44f">vvtChannel1</a></td></tr>
+<tr class="separator:a3a6728853b17333f69cca82210a0d44f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82727b3fd4a8a912c2f3da82b635d3c2" id="r_a82727b3fd4a8a912c2f3da82b635d3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a82727b3fd4a8a912c2f3da82b635d3c2">vvtChannel2</a></td></tr>
+<tr class="separator:a82727b3fd4a8a912c2f3da82b635d3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5588ab3a96e5625a874adf7b02b941" id="r_a6f5588ab3a96e5625a874adf7b02b941"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a6f5588ab3a96e5625a874adf7b02b941">nextVVT</a></td></tr>
 <tr class="separator:a6f5588ab3a96e5625a874adf7b02b941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34c2b282d9d9d6209e40876b48734b9b" id="r_a34c2b282d9d9d6209e40876b48734b9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a34c2b282d9d9d6209e40876b48734b9b">vvtWarmStartTime</a></td></tr>
@@ -186,6 +192,21 @@ Variables</h2></td></tr>
 <tr class="memitem:a78902bd4370f9cb1ddf4943fefa67433" id="r_a78902bd4370f9cb1ddf4943fefa67433"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classinteger_p_i_d.html">integerPID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="vvt_controller_8cpp.html#a78902bd4370f9cb1ddf4943fefa67433">vvt2PID</a></td></tr>
 <tr class="separator:a78902bd4370f9cb1ddf4943fefa67433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="acf026a7264cf111078544c8c506d6371" name="acf026a7264cf111078544c8c506d6371"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf026a7264cf111078544c8c506d6371">&#9670;&#160;</a></span>vvtPwmChannel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> =  <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a>&lt;<a class="el" href="board__avr2560_8h.html#a90916ed4b8cb6f1a5243a6a1c006be5c">boardOutputPin_t</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="aa9d9172104fa84179adb8e6b08c23d85" name="aa9d9172104fa84179adb8e6b08c23d85"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9d9172104fa84179adb8e6b08c23d85">&#9670;&#160;</a></span>NextInterruptEvent</h2>
@@ -219,8 +240,8 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a3fe066556e18a4239909c4f4ed43b082" name="a3fe066556e18a4239909c4f4ed43b082"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fe066556e18a4239909c4f4ed43b082">&#9670;&#160;</a></span>applyEventToChannel()</h2>
+<a id="a122c3cbe44b694d8faeb04be1cc933b3" name="a122c3cbe44b694d8faeb04be1cc933b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122c3cbe44b694d8faeb04be1cc933b3">&#9670;&#160;</a></span>applyEventToChannel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +252,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static void applyEventToChannel </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel</em>, </td>
         </tr>
         <tr>
@@ -267,8 +288,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a8653d9f51b2ff4fdd91a1b5fad208ab9" name="a8653d9f51b2ff4fdd91a1b5fad208ab9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8653d9f51b2ff4fdd91a1b5fad208ab9">&#9670;&#160;</a></span>calculateNextInterrupt()</h2>
+<a id="a86817f3ca57dd15b7aa6741e83e5e603" name="a86817f3ca57dd15b7aa6741e83e5e603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86817f3ca57dd15b7aa6741e83e5e603">&#9670;&#160;</a></span>calculateNextInterrupt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -285,13 +306,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel2</em>, </td>
         </tr>
         <tr>
@@ -315,8 +336,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="adedb8f745ab8d1438eddab714d0355d2" name="adedb8f745ab8d1438eddab714d0355d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adedb8f745ab8d1438eddab714d0355d2">&#9670;&#160;</a></span>calculateNextInterruptSingleOff()</h2>
+<a id="a5f3cc71db175bcf8c8d0f1a5cd426269" name="a5f3cc71db175bcf8c8d0f1a5cd426269"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3cc71db175bcf8c8d0f1a5cd426269">&#9670;&#160;</a></span>calculateNextInterruptSingleOff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +348,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="vvt_controller_8cpp.html#aa9d9172104fa84179adb8e6b08c23d85">NextInterruptEvent</a> calculateNextInterruptSingleOff </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>primary</em>, </td>
         </tr>
         <tr>
@@ -339,7 +360,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>other</em>, </td>
         </tr>
         <tr>
@@ -573,8 +594,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a93dcaa1f4d16c5d1d28b8cc8101bbb6c" name="a93dcaa1f4d16c5d1d28b8cc8101bbb6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93dcaa1f4d16c5d1d28b8cc8101bbb6c">&#9670;&#160;</a></span>isVvtOff()</h2>
+<a id="ad35f3e048dc5fd3e010b9dd167b6b8cf" name="ad35f3e048dc5fd3e010b9dd167b6b8cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35f3e048dc5fd3e010b9dd167b6b8cf">&#9670;&#160;</a></span>isVvtOff()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -585,7 +606,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static bool isVvtOff </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel</em></td><td>)</td>
           <td></td>
         </tr>
@@ -733,8 +754,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a419288d1d9ed9d731514fc5b1e07d26a" name="a419288d1d9ed9d731514fc5b1e07d26a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a419288d1d9ed9d731514fc5b1e07d26a">&#9670;&#160;</a></span>overrideNextEvent()</h2>
+<a id="a69180ea46b064bffe118760649eeec95" name="a69180ea46b064bffe118760649eeec95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69180ea46b064bffe118760649eeec95">&#9670;&#160;</a></span>overrideNextEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -751,13 +772,13 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> &amp;&#160;</td>
           <td class="paramname"><em>channel2</em>&#160;</td>
         </tr>
         <tr>
@@ -1214,28 +1235,28 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8f3c85873c3016f74841a2c57a76049" name="ae8f3c85873c3016f74841a2c57a76049"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8f3c85873c3016f74841a2c57a76049">&#9670;&#160;</a></span>vvtChannel1</h2>
+<a id="a3a6728853b17333f69cca82210a0d44f" name="a3a6728853b17333f69cca82210a0d44f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6728853b17333f69cca82210a0d44f">&#9670;&#160;</a></span>vvtChannel1</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> vvtChannel1</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> vvtChannel1</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1111d91f57ac7f793e65a9ec0e61e069" name="a1111d91f57ac7f793e65a9ec0e61e069"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1111d91f57ac7f793e65a9ec0e61e069">&#9670;&#160;</a></span>vvtChannel2</h2>
+<a id="a82727b3fd4a8a912c2f3da82b635d3c2" name="a82727b3fd4a8a912c2f3da82b635d3c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82727b3fd4a8a912c2f3da82b635d3c2">&#9670;&#160;</a></span>vvtChannel2</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="struct_pwm_output_channel.html">PwmOutputChannel</a> vvtChannel2</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371">vvtPwmChannel</a> vvtChannel2</td>
         </tr>
       </table>
 </div><div class="memdoc">

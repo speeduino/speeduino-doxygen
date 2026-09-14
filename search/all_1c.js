@@ -98,7 +98,7 @@ var searchData=
   ['rtc_5fsettime_95',['rtc_setTime',['../rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65',1,'rtc_common.h']]],
   ['rtc_5ftrim_96',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
   ['rule_5ft_97',['rule_t',['../structprogrammable_i_o_control__details_1_1rule__t.html#af438db60e0416c877ac2be5e90099d2e',1,'programmableIOControl_details::rule_t::rule_t(const config13 &amp;page13, uint8_t index)'],['../structprogrammable_i_o_control__details_1_1rule__t.html#a54c93917e1d6dac449751d7d1b8f31a3',1,'programmableIOControl_details::rule_t::rule_t()=default'],['../structprogrammable_i_o_control__details_1_1rule__t.html',1,'programmableIOControl_details::rule_t']]],
-  ['running_98',['running',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2a5bda814c4aedb126839228f1a3d92f09',1,'Running:&#160;statuses.h'],['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'RUNNING:&#160;scheduler.h']]],
+  ['running_98',['running',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'RUNNING:&#160;scheduler.h'],['../statuses_8h.html#a088dad44f112c22d71816376baa237d2a5bda814c4aedb126839228f1a3d92f09',1,'Running:&#160;statuses.h']]],
   ['running_5fwithnext_99',['RUNNING_WITHNEXT',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a20955cc33299df01e639321f412b75eb',1,'scheduler.h']]],
   ['runningtooff_100',['runningToOff',['../schedule__state__machine_8cpp.html#ad87cdc94395fd370d259c8202b39b715',1,'schedule_state_machine.cpp']]],
   ['runsecs_101',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],

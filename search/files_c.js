@@ -20,6 +20,5 @@ var searchData=
   ['programmableiocontrol_2eh_17',['programmableIOControl.h',['../programmable_i_o_control_8h.html',1,'']]],
   ['programmableiocontrol_5fdetails_2ecpp_18',['programmableIOControl_details.cpp',['../programmable_i_o_control__details_8cpp.html',1,'']]],
   ['programmableiocontrol_5fdetails_2eh_19',['programmableIOControl_details.h',['../programmable_i_o_control__details_8h.html',1,'']]],
-  ['pwmoutputchannel_2ecpp_20',['PwmOutputChannel.cpp',['../_pwm_output_channel_8cpp.html',1,'']]],
-  ['pwmoutputchannel_2eh_21',['PwmOutputChannel.h',['../_pwm_output_channel_8h.html',1,'']]]
+  ['pwmoutputchannel_2eh_20',['PwmOutputChannel.h',['../_pwm_output_channel_8h.html',1,'']]]
 ];

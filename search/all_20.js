@@ -57,8 +57,8 @@ var searchData=
   ['vvt_5fmode_5fopen_5floop_54',['VVT_MODE_OPEN_LOOP',['../config__pages_8h.html#a3c30b47b163bfbb609ec533ed934de55',1,'config_pages.h']]],
   ['vvt_5ftimer_5fcompare_55',['vvt_timer_compare',['../board__teensy35_8h.html#a4b3024a4881651a3437541f806190586',1,'VVT_TIMER_COMPARE:&#160;board_teensy35.h'],['../board__teensy41_8h.html#a4b3024a4881651a3437541f806190586',1,'VVT_TIMER_COMPARE:&#160;board_teensy41.h'],['../board__avr2560_8h.html#a4b3024a4881651a3437541f806190586',1,'VVT_TIMER_COMPARE:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#a4b3024a4881651a3437541f806190586',1,'VVT_TIMER_COMPARE:&#160;board_stm32_official.h']]],
   ['vvt_5ftimer_5fcounter_56',['vvt_timer_counter',['../board__avr2560_8h.html#acef90106f06a872508bf502de1a192c3',1,'VVT_TIMER_COUNTER:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#acef90106f06a872508bf502de1a192c3',1,'VVT_TIMER_COUNTER:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#acef90106f06a872508bf502de1a192c3',1,'VVT_TIMER_COUNTER:&#160;board_teensy35.h'],['../board__teensy41_8h.html#acef90106f06a872508bf502de1a192c3',1,'VVT_TIMER_COUNTER:&#160;board_teensy41.h']]],
-  ['vvtchannel1_57',['vvtChannel1',['../vvt_controller_8cpp.html#ae8f3c85873c3016f74841a2c57a76049',1,'vvtController.cpp']]],
-  ['vvtchannel2_58',['vvtChannel2',['../vvt_controller_8cpp.html#a1111d91f57ac7f793e65a9ec0e61e069',1,'vvtController.cpp']]],
+  ['vvtchannel1_57',['vvtChannel1',['../vvt_controller_8cpp.html#a3a6728853b17333f69cca82210a0d44f',1,'vvtController.cpp']]],
+  ['vvtchannel2_58',['vvtChannel2',['../vvt_controller_8cpp.html#a82727b3fd4a8a912c2f3da82b635d3c2',1,'vvtController.cpp']]],
   ['vvtcl0dutyang_59',['vvtCL0DutyAng',['../structconfig10.html#a75fab192d6f06f77014da828987c8eff',1,'config10']]],
   ['vvtclalterfueltiming_60',['vvtCLAlterFuelTiming',['../structconfig6.html#a890eb5c98238ff37335f028f829089e6',1,'config6']]],
   ['vvtclholdduty_61',['vvtCLholdDuty',['../structconfig10.html#a62e8d70df3bdc8b36d25614fdf4ea2b9',1,'config10']]],
@@ -81,8 +81,9 @@ var searchData=
   ['vvtminclt_78',['vvtMinClt',['../structconfig4.html#a13b5ea53ab93c11c1ec1e07ace3efe75',1,'config4']]],
   ['vvtmode_79',['vvtMode',['../structconfig6.html#ab74b7b01069e84b4696abd1769d3ca30',1,'config6']]],
   ['vvtpid_80',['vvtPID',['../vvt_controller_8cpp.html#afcd9e4bf57163b7707a041db7422118c',1,'vvtController.cpp']]],
-  ['vvtpwmdir_81',['vvtPWMdir',['../structconfig6.html#a92d87a8e778df123eb790e4f298823f3',1,'config6']]],
-  ['vvtstatus_5ft_82',['vvtstatus_t',['../structvvt_status__t.html#a51548297a304eea7ed0f7ddc64be5183',1,'vvtStatus_t::vvtStatus_t()'],['../structvvt_status__t.html',1,'vvtStatus_t']]],
-  ['vvttable_83',['vvttable',['../globals_8cpp.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable:&#160;globals.cpp'],['../globals_8h.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable:&#160;globals.cpp']]],
-  ['vvtwarmstarttime_84',['vvtWarmStartTime',['../vvt_controller_8cpp.html#a34c2b282d9d9d6209e40876b48734b9b',1,'vvtController.cpp']]]
+  ['vvtpwmchannel_81',['vvtPwmChannel',['../vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371',1,'vvtController.cpp']]],
+  ['vvtpwmdir_82',['vvtPWMdir',['../structconfig6.html#a92d87a8e778df123eb790e4f298823f3',1,'config6']]],
+  ['vvtstatus_5ft_83',['vvtstatus_t',['../structvvt_status__t.html#a51548297a304eea7ed0f7ddc64be5183',1,'vvtStatus_t::vvtStatus_t()'],['../structvvt_status__t.html',1,'vvtStatus_t']]],
+  ['vvttable_84',['vvttable',['../globals_8cpp.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable:&#160;globals.cpp'],['../globals_8h.html#aff7600776d78ec3288a4c4c06eae1b64',1,'vvtTable:&#160;globals.cpp']]],
+  ['vvtwarmstarttime_85',['vvtWarmStartTime',['../vvt_controller_8cpp.html#a34c2b282d9d9d6209e40876b48734b9b',1,'vvtController.cpp']]]
 ];

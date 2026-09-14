@@ -88,65 +88,57 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">template</span> &lt;<span class="keyword">class</span> TPin&gt;</div>
 <div class="foldopen" id="foldopen00013" data-start="{" data-end="};">
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classtracked_output_pin__t.html">trackedOutputPin_t</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="classtracked_output_pin_adapter__t.html">trackedOutputPinAdapter_t</a> : <span class="keyword">public</span> TPin</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#a3d34d69efd22fdeaac71e2ae16d583f1">   18</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin__t.html#a3d34d69efd22fdeaac71e2ae16d583f1">setPin</a>(uint8_t pin, uint8_t mode) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        _pin.setPin(pin, mode);</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html#ac4e143e616700af1a1ebbef988c09111">   18</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin_adapter__t.html#ac4e143e616700af1a1ebbef988c09111">setPin</a>(uint8_t pin, uint8_t mode) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        TPin::setPin(pin, mode);</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        _pinState = LOW;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    }</div>
 </div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="foldopen" id="foldopen00024" data-start="{" data-end="}">
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#a5ca537479a6e50f9984a31d1163d8ea8">   24</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classtracked_output_pin__t.html#a5ca537479a6e50f9984a31d1163d8ea8">isValid</a>(<span class="keywordtype">void</span>)<span class="keyword"> const </span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> _pin.isValid();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html#a71dad8536ff7fa5dbbaf75e61840fb22">   24</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classtracked_output_pin_adapter__t.html#a71dad8536ff7fa5dbbaf75e61840fb22">isPinHigh</a>(<span class="keywordtype">void</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        <span class="keywordflow">return</span> _pinState==HIGH;</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    }</div>
 </div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="foldopen" id="foldopen00029" data-start="{" data-end="}">
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#a102329fa0ba71ec2a1b53f90aace8373">   29</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classtracked_output_pin__t.html#a102329fa0ba71ec2a1b53f90aace8373">isPinHigh</a>(<span class="keywordtype">void</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> _pinState==HIGH;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html#ab65ffcbb64363fb3dd8567c1568ccbae">   29</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classtracked_output_pin_adapter__t.html#ab65ffcbb64363fb3dd8567c1568ccbae">isPinLow</a>(<span class="keywordtype">void</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>        <span class="keywordflow">return</span> !<a class="code hl_function" href="classtracked_output_pin_adapter__t.html#a71dad8536ff7fa5dbbaf75e61840fb22">isPinHigh</a>();</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    }</div>
 </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
 <div class="foldopen" id="foldopen00034" data-start="{" data-end="}">
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#ad0b01be406b1fcbfc10a88d847946d56">   34</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classtracked_output_pin__t.html#ad0b01be406b1fcbfc10a88d847946d56">isPinLow</a>(<span class="keywordtype">void</span>) <span class="keyword">const</span> <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordflow">return</span> !<a class="code hl_function" href="classtracked_output_pin__t.html#a102329fa0ba71ec2a1b53f90aace8373">isPinHigh</a>();</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    }</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html#a76cadec46becf523158f21e4081d1ab5">   34</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin_adapter__t.html#a76cadec46becf523158f21e4081d1ab5">setPinHigh</a>(<span class="keywordtype">void</span>) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        ATOMIC() {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            TPin::setPinHigh();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            _pinState = HIGH;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    }</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="foldopen" id="foldopen00039" data-start="{" data-end="}">
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#a9e62d47bf6c4f8e4d6bece80e1a43e84">   39</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin__t.html#a9e62d47bf6c4f8e4d6bece80e1a43e84">setPinHigh</a>(<span class="keywordtype">void</span>) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        ATOMIC() {</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            _pin.setPinHigh();</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            _pinState = HIGH;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        }</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="foldopen" id="foldopen00042" data-start="{" data-end="}">
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classtracked_output_pin_adapter__t.html#ae51b8579c2d7b329f2140404d0958b62">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin_adapter__t.html#ae51b8579c2d7b329f2140404d0958b62">setPinLow</a>(<span class="keywordtype">void</span>) <span class="keyword">noexcept</span> {</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        ATOMIC() {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            TPin::setPinLow();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            _pinState = LOW;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    }</div>
 </div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="foldopen" id="foldopen00047" data-start="{" data-end="}">
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classtracked_output_pin__t.html#a421861afd9c766c193d8a0c2fb7dbead">   47</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtracked_output_pin__t.html#a421861afd9c766c193d8a0c2fb7dbead">setPinLow</a>(<span class="keywordtype">void</span>) <span class="keyword">noexcept</span> {</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        ATOMIC() {</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            _pin.setPinLow();</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            _pinState = LOW;</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>        }</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    }</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <span class="keywordtype">bool</span> _pinState = LOW;</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>};</div>
 </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    TPin _pin;</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">bool</span> _pinState = LOW;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>};</div>
-</div>
-<div class="ttc" id="aclasstracked_output_pin__t_html"><div class="ttname"><a href="classtracked_output_pin__t.html">trackedOutputPin_t</a></div><div class="ttdoc">An output pin that tracks it's state (HIGH/LOW)</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:14</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_a102329fa0ba71ec2a1b53f90aace8373"><div class="ttname"><a href="classtracked_output_pin__t.html#a102329fa0ba71ec2a1b53f90aace8373">trackedOutputPin_t::isPinHigh</a></div><div class="ttdeci">bool isPinHigh(void) const noexcept</div><div class="ttdoc">Check if the pin is set high.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:29</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_a3d34d69efd22fdeaac71e2ae16d583f1"><div class="ttname"><a href="classtracked_output_pin__t.html#a3d34d69efd22fdeaac71e2ae16d583f1">trackedOutputPin_t::setPin</a></div><div class="ttdeci">void setPin(uint8_t pin, uint8_t mode) noexcept</div><div class="ttdoc">Set the input pin.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:18</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_a421861afd9c766c193d8a0c2fb7dbead"><div class="ttname"><a href="classtracked_output_pin__t.html#a421861afd9c766c193d8a0c2fb7dbead">trackedOutputPin_t::setPinLow</a></div><div class="ttdeci">void setPinLow(void) noexcept</div><div class="ttdoc">Set the pin low.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:47</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_a5ca537479a6e50f9984a31d1163d8ea8"><div class="ttname"><a href="classtracked_output_pin__t.html#a5ca537479a6e50f9984a31d1163d8ea8">trackedOutputPin_t::isValid</a></div><div class="ttdeci">bool isValid(void) const</div><div class="ttdoc">Is the pin set?</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:24</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_a9e62d47bf6c4f8e4d6bece80e1a43e84"><div class="ttname"><a href="classtracked_output_pin__t.html#a9e62d47bf6c4f8e4d6bece80e1a43e84">trackedOutputPin_t::setPinHigh</a></div><div class="ttdeci">void setPinHigh(void) noexcept</div><div class="ttdoc">Set the pin high.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:39</div></div>
-<div class="ttc" id="aclasstracked_output_pin__t_html_ad0b01be406b1fcbfc10a88d847946d56"><div class="ttname"><a href="classtracked_output_pin__t.html#ad0b01be406b1fcbfc10a88d847946d56">trackedOutputPin_t::isPinLow</a></div><div class="ttdeci">bool isPinLow(void) const noexcept</div><div class="ttdoc">Check if the pin is set low.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:34</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html">trackedOutputPinAdapter_t</a></div><div class="ttdoc">An output pin that tracks it's state (HIGH/LOW)</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:14</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html_a71dad8536ff7fa5dbbaf75e61840fb22"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html#a71dad8536ff7fa5dbbaf75e61840fb22">trackedOutputPinAdapter_t::isPinHigh</a></div><div class="ttdeci">bool isPinHigh(void) const noexcept</div><div class="ttdoc">Check if the pin is set high.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:24</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html_a76cadec46becf523158f21e4081d1ab5"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html#a76cadec46becf523158f21e4081d1ab5">trackedOutputPinAdapter_t::setPinHigh</a></div><div class="ttdeci">void setPinHigh(void) noexcept</div><div class="ttdoc">Set the pin high.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:34</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html_ab65ffcbb64363fb3dd8567c1568ccbae"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html#ab65ffcbb64363fb3dd8567c1568ccbae">trackedOutputPinAdapter_t::isPinLow</a></div><div class="ttdeci">bool isPinLow(void) const noexcept</div><div class="ttdoc">Check if the pin is set low.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:29</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html_ac4e143e616700af1a1ebbef988c09111"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html#ac4e143e616700af1a1ebbef988c09111">trackedOutputPinAdapter_t::setPin</a></div><div class="ttdeci">void setPin(uint8_t pin, uint8_t mode) noexcept</div><div class="ttdoc">Set the input pin.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:18</div></div>
+<div class="ttc" id="aclasstracked_output_pin_adapter__t_html_ae51b8579c2d7b329f2140404d0958b62"><div class="ttname"><a href="classtracked_output_pin_adapter__t.html#ae51b8579c2d7b329f2140404d0958b62">trackedOutputPinAdapter_t::setPinLow</a></div><div class="ttdeci">void setPinLow(void) noexcept</div><div class="ttdoc">Set the pin low.</div><div class="ttdef"><b>Definition</b> trackedOutputPin.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

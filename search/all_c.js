@@ -119,7 +119,7 @@ var searchData=
   ['boostmaxduty_116',['boostMaxDuty',['../structconfig2.html#a95f78c2918cdaaba89679a370b92df02',1,'config2']]],
   ['boostminduty_117',['boostMinDuty',['../structconfig2.html#abd40bbec116052043019f2a2043ec1c3',1,'config2']]],
   ['boostmode_118',['boostMode',['../structconfig6.html#a1596707d4fe7e5b792de6ca601c9db62',1,'config6']]],
-  ['boostoutput_119',['boostOutput',['../boost_controller_8cpp.html#a2b218bf8da05b25aaf4c70aa16d27efe',1,'boostController.cpp']]],
+  ['boostoutput_119',['boostOutput',['../boost_controller_8cpp.html#a403e814f5e30a7922ce9e10bc15aa4b5',1,'boostController.cpp']]],
   ['boostpid_120',['boostPID',['../boost_controller_8cpp.html#a932419634f95ce1c0c39d0d906a5c328',1,'boostController.cpp']]],
   ['boostpin_121',['boostPin',['../structconfig6.html#affae77efa7b1d4db094a551c936f0142',1,'config6']]],
   ['boostsens_122',['boostSens',['../structconfig10.html#aac52cb34d266af948f3abc9be440b56d',1,'config10']]],

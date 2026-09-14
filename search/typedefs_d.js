@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_5ftype_0',['value_type',['../structarray.html#a0ab9a345cd82462b52c998bca1f06ea8',1,'array']]]
+  ['vvtpwmchannel_0',['vvtPwmChannel',['../vvt_controller_8cpp.html#acf026a7264cf111078544c8c506d6371',1,'vvtController.cpp']]]
 ];
