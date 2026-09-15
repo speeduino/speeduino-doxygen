@@ -89,6 +89,8 @@ $(function() {
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a204874095d9267ac723ecb6da56ddfe6" id="r_a204874095d9267ac723ecb6da56ddfe6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a204874095d9267ac723ecb6da56ddfe6">SET_CHANNEL_ANGLE</a>(channel)&#160;&#160;&#160;ignitionSchedule ##channel .channelDegrees = ((channel)-1)*interCylinderAngle;</td></tr>
+<tr class="separator:a204874095d9267ac723ecb6da56ddfe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec703c7b4d9e47cbd4461e26ebd0546a" id="r_aec703c7b4d9e47cbd4461e26ebd0546a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#aec703c7b4d9e47cbd4461e26ebd0546a">SET_IGNITION_CHANNEL</a>(channelIdx)&#160;&#160;&#160;<a class="el" href="scheduler__ignition__controller_8cpp.html#a72c16ff242d1560498c023971b53eb97">setIgnitionChannel</a>(ignitionSchedule ##channelIdx, <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, <a class="el" href="scheduler__ignition__controller_8cpp.html#aef75193926a9b0c0ea67d41447bab6c1">dwellTime</a>, current.schedulerCutState.ignitionChannels, channelIdx);</td></tr>
 <tr class="separator:aec703c7b4d9e47cbd4461e26ebd0546a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -104,8 +106,18 @@ Functions</h2></td></tr>
 <tr class="separator:aef09dd2e920cedf2f3993e1a78876d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf7ab81c2eceb812869ad146afc9bac2" id="r_aaf7ab81c2eceb812869ad146afc9bac2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#aaf7ab81c2eceb812869ad146afc9bac2">setSingleChannelCallbacks</a> (void)</td></tr>
 <tr class="separator:aaf7ab81c2eceb812869ad146afc9bac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6906cba596c9ae067914870f87b6812d" id="r_a6906cba596c9ae067914870f87b6812d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a6906cba596c9ae067914870f87b6812d">set4CylinderWastedCOPCallbacks</a> (void)</td></tr>
+<tr class="separator:a6906cba596c9ae067914870f87b6812d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b34d1790ea1bf037e54724cc69d18a" id="r_a53b34d1790ea1bf037e54724cc69d18a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a53b34d1790ea1bf037e54724cc69d18a">set6CylinderWastedCOPCallbacks</a> (void)</td></tr>
+<tr class="separator:a53b34d1790ea1bf037e54724cc69d18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa52c4d7aa089e91853163d53acdb2d07" id="r_aa52c4d7aa089e91853163d53acdb2d07"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#aa52c4d7aa089e91853163d53acdb2d07">set8CylinderWastedCOPCallbacks</a> (void)</td></tr>
+<tr class="separator:aa52c4d7aa089e91853163d53acdb2d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61386dc9e7ef82003a45bfe63d0b8f62" id="r_a61386dc9e7ef82003a45bfe63d0b8f62"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a61386dc9e7ef82003a45bfe63d0b8f62">setWastedCOPCallbacks</a> (uint8_t numCylinders)</td></tr>
 <tr class="separator:a61386dc9e7ef82003a45bfe63d0b8f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa799cc338c5fae7c7b609ec85d29ffd9" id="r_aa799cc338c5fae7c7b609ec85d29ffd9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#aa799cc338c5fae7c7b609ec85d29ffd9">setRotaryFcCallbacks</a> (void)</td></tr>
+<tr class="separator:aa799cc338c5fae7c7b609ec85d29ffd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51595ebf7b4feada9e14fcc6430701a6" id="r_a51595ebf7b4feada9e14fcc6430701a6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a51595ebf7b4feada9e14fcc6430701a6">setRotaryFdCallbacks</a> (void)</td></tr>
+<tr class="separator:a51595ebf7b4feada9e14fcc6430701a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cb34b243d6cfc9bbfb12c34d3a606b3" id="r_a5cb34b243d6cfc9bbfb12c34d3a606b3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a5cb34b243d6cfc9bbfb12c34d3a606b3">setRotaryCallbacks</a> (uint8_t rotaryType)</td></tr>
 <tr class="separator:a5cb34b243d6cfc9bbfb12c34d3a606b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c8b26e77487d40454d113e9d5b3079" id="r_a01c8b26e77487d40454d113e9d5b3079"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a01c8b26e77487d40454d113e9d5b3079">setCallbacks</a> (uint8_t sparkMode, uint8_t numCylinders, uint8_t rotaryMode)</td></tr>
@@ -115,11 +127,31 @@ Functions</h2></td></tr>
 <tr class="memitem:abffc0c6d4570d2c46f75a2d0c043eae7" id="r_abffc0c6d4570d2c46f75a2d0c043eae7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#abffc0c6d4570d2c46f75a2d0c043eae7">stopAllCoilsCharging</a> (void)</td></tr>
 <tr class="memdesc:abffc0c6d4570d2c46f75a2d0c043eae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function to stop charging all ignition coils.  <br /></td></tr>
 <tr class="separator:abffc0c6d4570d2c46f75a2d0c043eae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61095a4162ea1a1a7b5c454c84edd988" id="r_a61095a4162ea1a1a7b5c454c84edd988"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a61095a4162ea1a1a7b5c454c84edd988">initScheduleAngles</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
-<tr class="separator:a61095a4162ea1a1a7b5c454c84edd988"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50741784bdde9c7ea1f953f9c45fcb2a" id="r_a50741784bdde9c7ea1f953f9c45fcb2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a50741784bdde9c7ea1f953f9c45fcb2a">initialiseIgnitionSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
-<tr class="memdesc:a50741784bdde9c7ea1f953f9c45fcb2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise all ignition schedules.  <br /></td></tr>
-<tr class="separator:a50741784bdde9c7ea1f953f9c45fcb2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb94271cc9da8ebc918d8b48a3ca3b02" id="r_abb94271cc9da8ebc918d8b48a3ca3b02"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#abb94271cc9da8ebc918d8b48a3ca3b02">setOddfireScheduleAngles</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:abb94271cc9da8ebc918d8b48a3ca3b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5135325d75d13676c28b27d72a745c5" id="r_ad5135325d75d13676c28b27d72a745c5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#ad5135325d75d13676c28b27d72a745c5">setRotaryScheduleAngles</a> (void)</td></tr>
+<tr class="separator:ad5135325d75d13676c28b27d72a745c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a899b728f2b0f18f149036067871e888c" id="r_a899b728f2b0f18f149036067871e888c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a899b728f2b0f18f149036067871e888c">setEvenfireScheduleAngles</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>)</td></tr>
+<tr class="separator:a899b728f2b0f18f149036067871e888c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95315cbbe778b589a59418a58d0d6f32" id="r_a95315cbbe778b589a59418a58d0d6f32"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a95315cbbe778b589a59418a58d0d6f32">initScheduleAngles</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:a95315cbbe778b589a59418a58d0d6f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b46561393f297f0aa06d043f6c064d" id="r_ac8b46561393f297f0aa06d043f6c064d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#ac8b46561393f297f0aa06d043f6c064d">validateSparkMode</a> (uint8_t mode, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
+<tr class="separator:ac8b46561393f297f0aa06d043f6c064d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d958c51d42d09bb4ec00514a4871022" id="r_a7d958c51d42d09bb4ec00514a4871022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a7d958c51d42d09bb4ec00514a4871022">validateIgnitionSetup</a> (<a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, <a class="el" href="structconfig13.html">config13</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743">page13</a>)</td></tr>
+<tr class="separator:a7d958c51d42d09bb4ec00514a4871022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac85e4debf1570f771e9edb0522805691" id="r_ac85e4debf1570f771e9edb0522805691"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#ac85e4debf1570f771e9edb0522805691">isSequential720</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:ac85e4debf1570f771e9edb0522805691"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af13b771df330bd577c899f4d65b6c0c2" id="r_af13b771df330bd577c899f4d65b6c0c2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#af13b771df330bd577c899f4d65b6c0c2">isSingle720</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:af13b771df330bd577c899f4d65b6c0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2afedf3d93834c7ba7a2b71cf3f0819" id="r_ab2afedf3d93834c7ba7a2b71cf3f0819"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#ab2afedf3d93834c7ba7a2b71cf3f0819">is720</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:ab2afedf3d93834c7ba7a2b71cf3f0819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90f5e0b7319e7ab8cc2bf37629f8fc8" id="r_ae90f5e0b7319e7ab8cc2bf37629f8fc8"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#ae90f5e0b7319e7ab8cc2bf37629f8fc8">calculateMaxIgnCrankAngle</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:ae90f5e0b7319e7ab8cc2bf37629f8fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70df979b163a51ea5cf8b7535a2e1bfc" id="r_a70df979b163a51ea5cf8b7535a2e1bfc"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a70df979b163a51ea5cf8b7535a2e1bfc">calculateMaxIgnChannels</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
+<tr class="separator:a70df979b163a51ea5cf8b7535a2e1bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b62b02e144deca2189e7ee33c619123" id="r_a7b62b02e144deca2189e7ee33c619123"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a7b62b02e144deca2189e7ee33c619123">initialiseIgnitionSchedules</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, <a class="el" href="structconfig13.html">config13</a> &amp;<a class="el" href="scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743">page13</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
+<tr class="memdesc:a7b62b02e144deca2189e7ee33c619123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise all ignition schedules.  <br /></td></tr>
+<tr class="separator:a7b62b02e144deca2189e7ee33c619123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e0e95d3a50265de1e4067a4599a107" id="r_a16e0e95d3a50265de1e4067a4599a107"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ab21e24142ca71f50640ca50cccbd41f4">TESTABLE_INLINE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a16e0e95d3a50265de1e4067a4599a107">isAnyIgnScheduleRunning</a> (void)</td></tr>
 <tr class="separator:a16e0e95d3a50265de1e4067a4599a107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a910b3981322d4e0d6a102a46683e956a" id="r_a910b3981322d4e0d6a102a46683e956a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="scheduler__ignition__controller_8cpp.html#a910b3981322d4e0d6a102a46683e956a">isSwitchableCylinderCount</a> (const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>)</td></tr>
@@ -198,6 +230,24 @@ Variables</h2></td></tr>
 <tr class="separator:aef75193926a9b0c0ea67d41447bab6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a204874095d9267ac723ecb6da56ddfe6" name="a204874095d9267ac723ecb6da56ddfe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a204874095d9267ac723ecb6da56ddfe6">&#9670;&#160;</a></span>SET_CHANNEL_ANGLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SET_CHANNEL_ANGLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">channel</td><td>)</td>
+          <td>&#160;&#160;&#160;ignitionSchedule ##channel .channelDegrees = ((channel)-1)*interCylinderAngle;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aec703c7b4d9e47cbd4461e26ebd0546a" name="aec703c7b4d9e47cbd4461e26ebd0546a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec703c7b4d9e47cbd4461e26ebd0546a">&#9670;&#160;</a></span>SET_IGNITION_CHANNEL</h2>
 
@@ -512,6 +562,78 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a70df979b163a51ea5cf8b7535a2e1bfc" name="a70df979b163a51ea5cf8b7535a2e1bfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70df979b163a51ea5cf8b7535a2e1bfc">&#9670;&#160;</a></span>calculateMaxIgnChannels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t calculateMaxIgnChannels </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae90f5e0b7319e7ab8cc2bf37629f8fc8" name="ae90f5e0b7319e7ab8cc2bf37629f8fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90f5e0b7319e7ab8cc2bf37629f8fc8">&#9670;&#160;</a></span>calculateMaxIgnCrankAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t calculateMaxIgnCrankAngle </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a405d824b0560e9648036c36c6c452928" name="a405d824b0560e9648036c36c6c452928"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a405d824b0560e9648036c36c6c452928">&#9670;&#160;</a></span>calculateNonRotaryIgnitionAngles()</h2>
 
@@ -756,8 +878,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a50741784bdde9c7ea1f953f9c45fcb2a" name="a50741784bdde9c7ea1f953f9c45fcb2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50741784bdde9c7ea1f953f9c45fcb2a">&#9670;&#160;</a></span>initialiseIgnitionSchedules()</h2>
+<a id="a7b62b02e144deca2189e7ee33c619123" name="a7b62b02e144deca2189e7ee33c619123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b62b02e144deca2189e7ee33c619123">&#9670;&#160;</a></span>initialiseIgnitionSchedules()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -771,7 +893,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
           <td class="paramname"><em>page2</em>, </td>
         </tr>
         <tr>
@@ -785,6 +907,12 @@ Variables</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig13.html">config13</a> &amp;&#160;</td>
+          <td class="paramname"><em>page13</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -804,8 +932,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a61095a4162ea1a1a7b5c454c84edd988" name="a61095a4162ea1a1a7b5c454c84edd988"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61095a4162ea1a1a7b5c454c84edd988">&#9670;&#160;</a></span>initScheduleAngles()</h2>
+<a id="a95315cbbe778b589a59418a58d0d6f32" name="a95315cbbe778b589a59418a58d0d6f32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95315cbbe778b589a59418a58d0d6f32">&#9670;&#160;</a></span>initScheduleAngles()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -816,7 +944,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static void initScheduleAngles </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
@@ -828,7 +956,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
           <td class="paramname"><em>page4</em>&#160;</td>
         </tr>
         <tr>
@@ -840,6 +968,42 @@ Variables</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab2afedf3d93834c7ba7a2b71cf3f0819" name="ab2afedf3d93834c7ba7a2b71cf3f0819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2afedf3d93834c7ba7a2b71cf3f0819">&#9670;&#160;</a></span>is720()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool is720 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -970,6 +1134,68 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac85e4debf1570f771e9edb0522805691" name="ac85e4debf1570f771e9edb0522805691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac85e4debf1570f771e9edb0522805691">&#9670;&#160;</a></span>isSequential720()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isSequential720 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af13b771df330bd577c899f4d65b6c0c2" name="af13b771df330bd577c899f4d65b6c0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af13b771df330bd577c899f4d65b6c0c2">&#9670;&#160;</a></span>isSingle720()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isSingle720 </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a910b3981322d4e0d6a102a46683e956a" name="a910b3981322d4e0d6a102a46683e956a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a910b3981322d4e0d6a102a46683e956a">&#9670;&#160;</a></span>isSwitchableCylinderCount()</h2>
 
@@ -1048,6 +1274,84 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6906cba596c9ae067914870f87b6812d" name="a6906cba596c9ae067914870f87b6812d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6906cba596c9ae067914870f87b6812d">&#9670;&#160;</a></span>set4CylinderWastedCOPCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void set4CylinderWastedCOPCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53b34d1790ea1bf037e54724cc69d18a" name="a53b34d1790ea1bf037e54724cc69d18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b34d1790ea1bf037e54724cc69d18a">&#9670;&#160;</a></span>set6CylinderWastedCOPCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void set6CylinderWastedCOPCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa52c4d7aa089e91853163d53acdb2d07" name="aa52c4d7aa089e91853163d53acdb2d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52c4d7aa089e91853163d53acdb2d07">&#9670;&#160;</a></span>set8CylinderWastedCOPCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void set8CylinderWastedCOPCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a01c8b26e77487d40454d113e9d5b3079" name="a01c8b26e77487d40454d113e9d5b3079"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01c8b26e77487d40454d113e9d5b3079">&#9670;&#160;</a></span>setCallbacks()</h2>
 
@@ -1078,6 +1382,32 @@ Variables</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a899b728f2b0f18f149036067871e888c" name="a899b728f2b0f18f149036067871e888c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a899b728f2b0f18f149036067871e888c">&#9670;&#160;</a></span>setEvenfireScheduleAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setEvenfireScheduleAngles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -1170,6 +1500,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="abb94271cc9da8ebc918d8b48a3ca3b02" name="abb94271cc9da8ebc918d8b48a3ca3b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb94271cc9da8ebc918d8b48a3ca3b02">&#9670;&#160;</a></span>setOddfireScheduleAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setOddfireScheduleAngles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5cb34b243d6cfc9bbfb12c34d3a606b3" name="a5cb34b243d6cfc9bbfb12c34d3a606b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5cb34b243d6cfc9bbfb12c34d3a606b3">&#9670;&#160;</a></span>setRotaryCallbacks()</h2>
 
@@ -1184,6 +1540,84 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>rotaryType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa799cc338c5fae7c7b609ec85d29ffd9" name="aa799cc338c5fae7c7b609ec85d29ffd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa799cc338c5fae7c7b609ec85d29ffd9">&#9670;&#160;</a></span>setRotaryFcCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setRotaryFcCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51595ebf7b4feada9e14fcc6430701a6" name="a51595ebf7b4feada9e14fcc6430701a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51595ebf7b4feada9e14fcc6430701a6">&#9670;&#160;</a></span>setRotaryFdCallbacks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setRotaryFdCallbacks </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5135325d75d13676c28b27d72a745c5" name="ad5135325d75d13676c28b27d72a745c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5135325d75d13676c28b27d72a745c5">&#9670;&#160;</a></span>setRotaryScheduleAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setRotaryScheduleAngles </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1362,6 +1796,68 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d958c51d42d09bb4ec00514a4871022" name="a7d958c51d42d09bb4ec00514a4871022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d958c51d42d09bb4ec00514a4871022">&#9670;&#160;</a></span>validateIgnitionSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void validateIgnitionSetup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig13.html">config13</a> &amp;&#160;</td>
+          <td class="paramname"><em>page13</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8b46561393f297f0aa06d043f6c064d" name="ac8b46561393f297f0aa06d043f6c064d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b46561393f297f0aa06d043f6c064d">&#9670;&#160;</a></span>validateSparkMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint8_t validateSparkMode </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>mode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a4730bf8bb3033bffcb1b980e0221f0fc" name="a4730bf8bb3033bffcb1b980e0221f0fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4730bf8bb3033bffcb1b980e0221f0fc">&#9670;&#160;</a></span>configPage10</h2>
@@ -1413,9 +1909,9 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">  <a class="code hl_function" href="scheduler__ignition__controller_8cpp.html#a16822c90af29ff0425c20355f50cfac5">matchIgnitionSchedulersToSyncState</a>(<a class="code hl_variable" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3">page4</a>, <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#a0066e39898a18535ae0bcca44456e057">current</a>)</div>
 <div class="ttc" id="aengine_protection_8cpp_html_a428f336e2618f8293663468b80230dcc"><div class="ttname"><a href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a></div><div class="ttdeci">const config2 &amp; page2</div><div class="ttdef"><b>Definition</b> engineProtection.cpp:455</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a0066e39898a18535ae0bcca44456e057"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a0066e39898a18535ae0bcca44456e057">current</a></div><div class="ttdeci">const config4 const config13 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:658</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a16822c90af29ff0425c20355f50cfac5"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a16822c90af29ff0425c20355f50cfac5">matchIgnitionSchedulersToSyncState</a></div><div class="ttdeci">TESTABLE_INLINE_STATIC void matchIgnitionSchedulersToSyncState(const config2 &amp;page2, const config4 &amp;page4, statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:550</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_aa1f688a7f9f75b552cfa605ab4a517c3"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3">page4</a></div><div class="ttdeci">const config4 &amp; page4</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:657</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a0066e39898a18535ae0bcca44456e057"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a0066e39898a18535ae0bcca44456e057">current</a></div><div class="ttdeci">const config4 const config13 statuses &amp; current</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:646</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a16822c90af29ff0425c20355f50cfac5"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a16822c90af29ff0425c20355f50cfac5">matchIgnitionSchedulersToSyncState</a></div><div class="ttdeci">TESTABLE_INLINE_STATIC void matchIgnitionSchedulersToSyncState(const config2 &amp;page2, const config4 &amp;page4, statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:538</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_aa1f688a7f9f75b552cfa605ab4a517c3"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3">page4</a></div><div class="ttdeci">const config4 &amp; page4</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:645</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1447,7 +1943,7 @@ Variables</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">  <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a> = <a class="code hl_function" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a>(<a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>)</div>
 <div class="ttc" id="acrank_maths_8h_html_a623c310de1a24748fb9be60b294ab5a2"><div class="ttname"><a href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a></div><div class="ttdeci">static int16_t ignitionLimits(int16_t angle)</div><div class="ttdoc">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN].</div><div class="ttdef"><b>Definition</b> crankMaths.h:54</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a59adc29002844edbb0dca2020b143062"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a></div><div class="ttdeci">uint16_t crankAngle</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:695</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a59adc29002844edbb0dca2020b143062"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a></div><div class="ttdeci">uint16_t crankAngle</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:683</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1464,9 +1960,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Initial value:</b><div class="fragment"><div class="line">{</div>
 <div class="line">    <a class="code hl_function" href="scheduler__ignition__controller_8cpp.html#a405d824b0560e9648036c36c6c452928">calculateNonRotaryIgnitionAngles</a>(<a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#aa1f688a7f9f75b552cfa605ab4a517c3">page4</a>, <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743">page13</a>, <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#ae15335e64cc38fedaa2fc2dc310de7ce">dwellAngle</a>, <a class="code hl_variable" href="scheduler__ignition__controller_8cpp.html#a0066e39898a18535ae0bcca44456e057">current</a>)</div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a405d824b0560e9648036c36c6c452928"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a405d824b0560e9648036c36c6c452928">calculateNonRotaryIgnitionAngles</a></div><div class="ttdeci">static void calculateNonRotaryIgnitionAngles(const config4 &amp;page4, const config13 &amp;page13, uint16_t dwellAngle, const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:599</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_aa4875c1b96a12529342d1f7150c8c743"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743">page13</a></div><div class="ttdeci">const config4 const config13 &amp; page13</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:657</div></div>
-<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_ae15335e64cc38fedaa2fc2dc310de7ce"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#ae15335e64cc38fedaa2fc2dc310de7ce">dwellAngle</a></div><div class="ttdeci">uint16_t dwellAngle</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:661</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_a405d824b0560e9648036c36c6c452928"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#a405d824b0560e9648036c36c6c452928">calculateNonRotaryIgnitionAngles</a></div><div class="ttdeci">static void calculateNonRotaryIgnitionAngles(const config4 &amp;page4, const config13 &amp;page13, uint16_t dwellAngle, const statuses &amp;current)</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:587</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_aa4875c1b96a12529342d1f7150c8c743"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#aa4875c1b96a12529342d1f7150c8c743">page13</a></div><div class="ttdeci">const config4 const config13 &amp; page13</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:645</div></div>
+<div class="ttc" id="ascheduler__ignition__controller_8cpp_html_ae15335e64cc38fedaa2fc2dc310de7ce"><div class="ttname"><a href="scheduler__ignition__controller_8cpp.html#ae15335e64cc38fedaa2fc2dc310de7ce">dwellAngle</a></div><div class="ttdeci">uint16_t dwellAngle</div><div class="ttdef"><b>Definition</b> scheduler_ignition_controller.cpp:649</div></div>
 </div><!-- fragment -->
 </div>
 </div>

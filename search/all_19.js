@@ -13,7 +13,7 @@ var searchData=
   ['obd_5faddress_10',['obd_address',['../structconfig9.html#aa5f564132e429c1cc32f2559ef8856c2',1,'config9']]],
   ['odd_5ffire_11',['ODD_FIRE',['../config__pages_8h.html#acbae9cf336c02f07af08ae7a394b7aef',1,'config_pages.h']]],
   ['oddfire_12',['oddfire',['../structconfig2.html#a0b3be3ba266ddd28bf2d5ee45e9c880f',1,'config2']]],
-  ['off_13',['off',['../boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbffad15305d7a4e34e02489c74a5ef542f36',1,'Off:&#160;boostController.cpp'],['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75',1,'OFF:&#160;scheduler.h']]],
+  ['off_13',['off',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54aac132f2982b98bcaa3445e535a03ff75',1,'OFF:&#160;scheduler.h'],['../boost_controller_8cpp.html#a5f1105784f54dd7325f1d3ebf4c3cbffad15305d7a4e34e02489c74a5ef542f36',1,'Off:&#160;boostController.cpp']]],
   ['offset_5fto_5ftable_14',['offset_to_table',['../classoffset__to__table.html',1,'offset_to_table&lt; table_t &gt;'],['../classoffset__to__table.html#a558333b12375572e7d2b9fa6a08d8609',1,'offset_to_table::offset_to_table()']]],
   ['oil_15',['oil',['../structstatuses_1_1engine__protect__flags__t.html#a41c1121cd3e964b1e43df6759c5d0956',1,'statuses::engine_protect_flags_t']]],
   ['oilpressure_16',['oilPressure',['../structstatuses.html#a0da40a5747d89893759efa2770f2ac4a',1,'statuses']]],
