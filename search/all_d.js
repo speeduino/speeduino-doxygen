@@ -302,7 +302,7 @@ var searchData=
   ['correctioniatdensity_299',['correctionIATDensity',['../corrections_8cpp.html#ab4ed32df1c90cf53bb9ad52b6579edc5',1,'corrections.cpp']]],
   ['correctioniatretard_300',['correctionIATretard',['../corrections_8cpp.html#a1a2563bdd14478d6504487d41875994a',1,'corrections.cpp']]],
   ['correctionidleadvance_301',['correctionIdleAdvance',['../corrections_8cpp.html#a2f8f7154c97a94d29aa76137f36b53a3',1,'corrections.cpp']]],
-  ['correctionknocktiming_302',['correctionKnockTiming',['../corrections_8cpp.html#accf26669788d2f911c85b47a8963b0e4',1,'corrections.cpp']]],
+  ['correctionknocktiming_302',['correctionKnockTiming',['../corrections_8cpp.html#a3e88c439a5645fd8a9595080caf020cb',1,'corrections.cpp']]],
   ['correctionlaunch_303',['correctionLaunch',['../corrections_8cpp.html#a0ac22942fa946edac92953167c50a189',1,'corrections.cpp']]],
   ['correctionnitrous_304',['correctionNitrous',['../corrections_8cpp.html#a68f424a032335e3c94607307b18f63a4',1,'corrections.cpp']]],
   ['corrections_305',['corrections',['../structstatuses.html#aa245b2696e156287330c3aae3aa7cf2c',1,'statuses']]],

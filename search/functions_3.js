@@ -153,7 +153,7 @@ var searchData=
   ['correctioniatdensity_150',['correctionIATDensity',['../corrections_8cpp.html#ab4ed32df1c90cf53bb9ad52b6579edc5',1,'corrections.cpp']]],
   ['correctioniatretard_151',['correctionIATretard',['../corrections_8cpp.html#a1a2563bdd14478d6504487d41875994a',1,'corrections.cpp']]],
   ['correctionidleadvance_152',['correctionIdleAdvance',['../corrections_8cpp.html#a2f8f7154c97a94d29aa76137f36b53a3',1,'corrections.cpp']]],
-  ['correctionknocktiming_153',['correctionKnockTiming',['../corrections_8cpp.html#accf26669788d2f911c85b47a8963b0e4',1,'corrections.cpp']]],
+  ['correctionknocktiming_153',['correctionKnockTiming',['../corrections_8cpp.html#a3e88c439a5645fd8a9595080caf020cb',1,'corrections.cpp']]],
   ['correctionlaunch_154',['correctionLaunch',['../corrections_8cpp.html#a0ac22942fa946edac92953167c50a189',1,'corrections.cpp']]],
   ['correctionnitrous_155',['correctionNitrous',['../corrections_8cpp.html#a68f424a032335e3c94607307b18f63a4',1,'corrections.cpp']]],
   ['correctionsdwell_156',['correctionsdwell',['../corrections_8h.html#a22b41ec6dc42b8f7c831ea87d16560f5',1,'correctionsDwell(uint16_t dwell):&#160;corrections.cpp'],['../corrections_8cpp.html#a22b41ec6dc42b8f7c831ea87d16560f5',1,'correctionsDwell(uint16_t dwell):&#160;corrections.cpp']]],

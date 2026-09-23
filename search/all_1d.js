@@ -9,7 +9,7 @@ var searchData=
   ['savelastbaro_6',['savelastbaro',['../group__storage-utility.html#gad1cd3a5d7a5061dc40eef749ee55cfc9',1,'saveLastBaro(uint8_t newValue):&#160;storage.cpp'],['../group__storage-utility.html#gad1cd3a5d7a5061dc40eef749ee55cfc9',1,'saveLastBaro(uint8_t newValue):&#160;storage.cpp']]],
   ['savepage_7',['savepage',['../group__storage-pages.html#ga7b9e369396806ef1d65673b569b7d273',1,'savePage(uint8_t pageNum):&#160;storage.cpp'],['../group__storage-pages.html#ga7b9e369396806ef1d65673b569b7d273',1,'savePage(uint8_t pageNum):&#160;storage.cpp']]],
   ['sbrk_8',['sbrk',['../board__stm32__official_8h.html#ae6727605038d56c99955e14284be21ef',1,'board_stm32_official.h']]],
-  ['scale_9',['scale',['../maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429',1,'scale():&#160;maths.h'],['../structconversion_factor.html#a73970af51f51dc3bdb81450189b8a9c0',1,'conversionFactor::scale']]],
+  ['scale_9',['scale',['../maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429',1,'scale():&#160;maths.h'],['../structconversion_factor.html#a81332770dbbb61aa4ea5c610ca3cb939',1,'conversionFactor::scale']]],
   ['scaletuningparameters_10',['scaleTuningParameters',['../integer_p_i_d_8cpp.html#ad5677ae859dc811d4aff3464a21b1bf9',1,'integerPID.cpp']]],
   ['schedule_11',['schedule',['../struct_ignition_schedule.html#a879e93b650ddbf4e4be18f30fe86bfa8',1,'IgnitionSchedule::Schedule()'],['../struct_schedule.html#a879e93b650ddbf4e4be18f30fe86bfa8',1,'Schedule::Schedule()'],['../struct_fuel_schedule.html#a879e93b650ddbf4e4be18f30fe86bfa8',1,'FuelSchedule::Schedule()'],['../struct_schedule.html',1,'Schedule']]],
   ['schedule_20finite_20state_20machine_12',['Schedule finite state machine',['../group__schedule-state-machine.html',1,'']]],

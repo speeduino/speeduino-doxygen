@@ -30,11 +30,11 @@ var searchData=
   ['knock_5fwindow_5fdur_27',['knock_window_dur',['../structconfig10.html#a62ff915274fe397a3f3cbdeb92a56d36',1,'config10']]],
   ['knock_5fwindow_5frpms_28',['knock_window_rpms',['../structconfig10.html#a4925070bb65f938ff9d0ff23c54ccff3',1,'config10']]],
   ['knockcount_29',['knockCount',['../structstatuses.html#a53d83ed34ecc9ce968d4e837448648af',1,'statuses']]],
-  ['knocklastrecoverystep_30',['knockLastRecoveryStep',['../corrections_8cpp.html#a74af4202df0cddea46669b6494fbc26b',1,'corrections.cpp']]],
+  ['knocklastrecoverystep_30',['knockLastRecoveryStep',['../corrections_8cpp.html#af6921e2d70f2a2fe58c4a2fb4f28a3fa',1,'corrections.cpp']]],
   ['knockpulse_31',['knockpulse',['../sensors_8cpp.html#ab91b1494d48935a25a4666b5a0b933c6',1,'knockPulse(void):&#160;sensors.cpp'],['../sensors_8h.html#ab91b1494d48935a25a4666b5a0b933c6',1,'knockPulse(void):&#160;sensors.cpp']]],
   ['knockpulsedetected_32',['knockPulseDetected',['../structstatuses.html#a588c6c9b8873f78e08ab5ba92edc8b85',1,'statuses']]],
   ['knockretard_33',['knockRetard',['../structstatuses.html#a66e9742cc2d9e2393a6a17979b63f9b7',1,'statuses']]],
   ['knockretardactive_34',['knockRetardActive',['../structstatuses.html#a54e49ef68370a22e83bc02ab6eaf9c4d',1,'statuses']]],
-  ['knockstarttime_35',['knockStartTime',['../corrections_8cpp.html#a0b530997a0d6bda8cb05f565500466f2',1,'corrections.cpp']]],
+  ['knockstarttime_35',['knockStartTime',['../corrections_8cpp.html#a977792fb445236a0dd10e923c61d8636',1,'corrections.cpp']]],
   ['kp_36',['Kp',['../struct_pid_tuning_parameters.html#aed5f8decc5e50c1ae2730da03b12d31c',1,'PidTuningParameters']]]
 ];

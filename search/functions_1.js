@@ -17,7 +17,7 @@ var searchData=
   ['airconon_14',['airConOn',['../aircon_controller_8cpp.html#a337a9a034b796128b29e07cd522547db',1,'airconController.cpp']]],
   ['angletotime_15',['angleToTime',['../crank_maths_8h.html#a7bcd09a084dac7796c88ed638c266b80',1,'crankMaths.h']]],
   ['angletotimerticks_16',['angleToTimerTicks',['../crank_maths_8h.html#a5ab57719f027be2d276ca6c25e2a8a94',1,'crankMaths.h']]],
-  ['applyadditionaldigitalknockretard_17',['applyAdditionalDigitalKnockRetard',['../corrections_8cpp.html#a420d2ae3596b73954750ca1b76b83ef6',1,'corrections.cpp']]],
+  ['applyadditionaldigitalknockretard_17',['applyAdditionalDigitalKnockRetard',['../corrections_8cpp.html#a2d4040e7921a6d88d255da9e2dd95d6f',1,'corrections.cpp']]],
   ['applyaecoolanttaper_18',['applyAeCoolantTaper',['../corrections_8cpp.html#a9d8c15bfb93a2e07b9d61954b0872620',1,'corrections.cpp']]],
   ['applyaerpmtaper_19',['applyAeRpmTaper',['../corrections_8cpp.html#ae28dffe1c162f5f7794a135c6927b291',1,'corrections.cpp']]],
   ['applyafrmultiplier_20',['applyAFRMultiplier',['../fuel__calcs_8cpp.html#a59002992de04d8e21f0913a9eadc5357',1,'fuel_calcs.cpp']]],
