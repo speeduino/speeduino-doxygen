@@ -10,7 +10,7 @@ var searchData=
   ['advance_7',['advance',['../pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99',1,'advance(const page_iterator_t &amp;iter):&#160;pages.cpp'],['../pages_8h.html#a5a72453b79576e4855834673719536c8',1,'advance(const page_iterator_t &amp;it):&#160;pages.cpp']]],
   ['aetimeoutexpired_8',['aeTimeoutExpired',['../corrections_8cpp.html#a10e75edb9aed9b8ae313c5d657887911',1,'corrections.cpp']]],
   ['afterenginestartdelayexpired_9',['afterEngineStartDelayExpired',['../structair_con_controller_1_1details_1_1state__t.html#a2f0d93ea5b03731f32f487f9c4437e60',1,'airConController::details::state_t']]],
-  ['airconcontrol_10',['airconcontrol',['../aircon_controller_8h.html#a163dfc6983d152b0d36cde4b44e360c5',1,'airConControl(statuses &amp;current, const config15 &amp;page15):&#160;airconController.cpp'],['../aircon_controller_8cpp.html#a163dfc6983d152b0d36cde4b44e360c5',1,'airConControl(statuses &amp;current, const config15 &amp;page15):&#160;airconController.cpp']]],
+  ['airconcontrol_10',['airconcontrol',['../aircon_controller_8cpp.html#a163dfc6983d152b0d36cde4b44e360c5',1,'airConControl(statuses &amp;current, const config15 &amp;page15):&#160;airconController.cpp'],['../aircon_controller_8h.html#a163dfc6983d152b0d36cde4b44e360c5',1,'airConControl(statuses &amp;current, const config15 &amp;page15):&#160;airconController.cpp']]],
   ['airconfanoff_11',['airConFanOff',['../aircon_controller_8cpp.html#a97daacdf236b82770ac4ffd9eefbd056',1,'airconController.cpp']]],
   ['airconfanon_12',['airConFanOn',['../aircon_controller_8cpp.html#a0700382a287c93c162b7b4b312ebcafd',1,'airconController.cpp']]],
   ['airconoff_13',['airConOff',['../aircon_controller_8cpp.html#a61f41d916835376d4d635203600cafa8',1,'airconController.cpp']]],
@@ -49,5 +49,6 @@ var searchData=
   ['atomic_5fmake_5flookup_5fcaa_46',['atomic_make_lookup_caa',['../group__dec__uni.html#ga002a2085e441e99c8ea86ef369390d6a',1,'decoders.cpp']]],
   ['atomic_5fmake_5flookup_5fcaa_5fsecondary_47',['atomic_make_lookup_caa_secondary',['../group__dec__uni.html#gaef4ffeea3ee358edd6eeca4be5e652a3',1,'decoders.cpp']]],
   ['attach_48',['attach',['../structinterrupt__t.html#a14e6fe02d6750f4dd47b3c8dacf392c0',1,'interrupt_t']]],
-  ['attachloggerinterrupt_49',['attachLoggerInterrupt',['../logger_8cpp.html#aff53c59fc9bfd87d2df8b40596e79815',1,'logger.cpp']]]
+  ['attachloggerinterrupt_49',['attachLoggerInterrupt',['../logger_8cpp.html#aff53c59fc9bfd87d2df8b40596e79815',1,'logger.cpp']]],
+  ['auxchannelcontrol_50',['auxchannelcontrol',['../aux_channel_controller_8cpp.html#ab4467263e3fe9641755e9e9e117fe632',1,'auxChannelControl(statuses &amp;current, const config9 &amp;page9, fnSendCanCommand_t fnSendCanCommand, fnReadAuxanalog_t fnReadAuxanalog, fnReadAuxdigital_t fnReadAuxdigital):&#160;auxChannelController.cpp'],['../aux_channel_controller_8cpp.html#a5ff10b67117aa9ac1057486cad596dd3',1,'auxChannelControl(statuses &amp;current, const config9 &amp;page9):&#160;auxChannelController.cpp'],['../aux_channel_controller_8h.html#a5ff10b67117aa9ac1057486cad596dd3',1,'auxChannelControl(statuses &amp;current, const config9 &amp;page9):&#160;auxChannelController.cpp']]]
 ];
