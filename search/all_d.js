@@ -335,7 +335,7 @@ var searchData=
   ['crank_5frun_5fhyster_332',['CRANK_RUN_HYSTER',['../speeduino_8ino.html#a6dbfca2e3413e1880ac4ea9cef316a4b',1,'speeduino.ino']]],
   ['crank_5fspeed_333',['CRANK_SPEED',['../config__pages_8h.html#a2ea0c499e370bcb2854579a477dc8e9f',1,'config_pages.h']]],
   ['crankang_334',['CrankAng',['../structconfig4.html#a0471531c92bcbf2d6032ce40f0c81527',1,'config4']]],
-  ['crankangle_335',['crankAngle',['../scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062',1,'scheduler_ignition_controller.cpp']]],
+  ['crankangle_335',['crankAngle',['../scheduler__ignition__controller_8cpp.html#a8fb38dd18b97292439f0f82f937122c5',1,'scheduler_ignition_controller.cpp']]],
   ['cranking_336',['Cranking',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2af121d45e69dd16605bb700032779ceb4',1,'statuses.h']]],
   ['cranking_5fenrichment_337',['CRANKING_ENRICHMENT',['../units_8h.html#a9ee41b0b189447213c4c49fdd6f64bed',1,'units.h']]],
   ['crankingenrichbins_338',['crankingEnrichBins',['../structconfig10.html#a7b0fe7e46d129d4a32ee59cae00a36c9',1,'config10']]],

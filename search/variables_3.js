@@ -86,7 +86,7 @@ var searchData=
   ['crank_5fangle_5fmax_5finj_83',['crank_angle_max_inj',['../crank_maths_8cpp.html#a6f1c313d44c4c6f41c0c82925abb1c22',1,'CRANK_ANGLE_MAX_INJ:&#160;crankMaths.cpp'],['../crank_maths_8h.html#a6f1c313d44c4c6f41c0c82925abb1c22',1,'CRANK_ANGLE_MAX_INJ:&#160;crankMaths.cpp']]],
   ['crank_5fspeed_84',['CRANK_SPEED',['../config__pages_8h.html#a2ea0c499e370bcb2854579a477dc8e9f',1,'config_pages.h']]],
   ['crankang_85',['CrankAng',['../structconfig4.html#a0471531c92bcbf2d6032ce40f0c81527',1,'config4']]],
-  ['crankangle_86',['crankAngle',['../scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062',1,'scheduler_ignition_controller.cpp']]],
+  ['crankangle_86',['crankAngle',['../scheduler__ignition__controller_8cpp.html#a8fb38dd18b97292439f0f82f937122c5',1,'scheduler_ignition_controller.cpp']]],
   ['cranking_5fenrichment_87',['CRANKING_ENRICHMENT',['../units_8h.html#a9ee41b0b189447213c4c49fdd6f64bed',1,'units.h']]],
   ['crankingenrichbins_88',['crankingEnrichBins',['../structconfig10.html#a7b0fe7e46d129d4a32ee59cae00a36c9',1,'config10']]],
   ['crankingenrichtaper_89',['crankingEnrichTaper',['../structconfig10.html#a29c03d63921111f0515c7602be7e78ee',1,'config10']]],

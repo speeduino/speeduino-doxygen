@@ -58,7 +58,7 @@ var searchData=
   ['setgetstatus_55',['setGetStatus',['../structdecoder__builder__t.html#a8c44371b583047a8f8dceedd3b931b80',1,'decoder_builder_t']]],
   ['setidlepidtunings_56',['setIdlePidTunings',['../idle_8cpp.html#a08950782eb51b89b7f3320ecb910b379',1,'idle.cpp']]],
   ['setignitionchannel_57',['setIgnitionChannel',['../scheduler__ignition__controller_8cpp.html#a72c16ff242d1560498c023971b53eb97',1,'scheduler_ignition_controller.cpp']]],
-  ['setignitionchannels_58',['setIgnitionChannels',['../scheduler__ignition__controller_8h.html#a4c24fadd039c268107af5311a4dce88f',1,'scheduler_ignition_controller.h']]],
+  ['setignitionchannels_58',['setIgnitionChannels',['../scheduler__ignition__controller_8h.html#a67e1e2d24aa28e5c458c3ed995cd61ab',1,'scheduler_ignition_controller.h']]],
   ['setignitionscheduleduration_59',['setIgnitionScheduleDuration',['../scheduler__ignition__controller_8cpp.html#a28513ff869c43190401bb2482f921395',1,'scheduler_ignition_controller.cpp']]],
   ['setinjectorangles_60',['setInjectorAngles',['../scheduler__fuel__controller_8cpp.html#a76d53c95ee7ef01d511f529b0cec88c1',1,'scheduler_fuel_controller.cpp']]],
   ['setinjectorpin_61',['setInjectorPin',['../structpin_numbers__t.html#a7843b660e4dcbef7d3a5673a09875dc1',1,'pinNumbers_t']]],
