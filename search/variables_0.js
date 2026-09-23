@@ -15,7 +15,13 @@ var searchData=
   ['_5fresetcontrol_12',['_resetControl',['../reset_control_8cpp.html#af32b7151e527710fe31a7d82944ef7de',1,'resetControl.cpp']]],
   ['_5fresetpin_13',['_resetPin',['../reset_control_8cpp.html#a17e2185eeb9db9cce113ac8fb718df1b',1,'resetControl.cpp']]],
   ['_5fresetpreventactive_14',['_resetPreventActive',['../reset_control_8cpp.html#a6d8dc0726847f5a63a3fbe7946001549',1,'resetControl.cpp']]],
-  ['_5fstarttime_15',['_startTime',['../struct_ignition_schedule.html#a7dc92a01df0855d3351e3d059c409e5c',1,'IgnitionSchedule']]],
-  ['_5fstatus_16',['_status',['../struct_schedule.html#a9c7dc14fd10571f16cb44a2995ba4383',1,'Schedule']]],
-  ['_5ftableoffset_17',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]]
+  ['_5frevzeroorone_15',['_revZeroOrOne',['../structsequential__correction__calculator__t.html#a173d018c290f84f2ae5724666202e84a',1,'sequential_correction_calculator_t']]],
+  ['_5fstarttime_16',['_startTime',['../struct_ignition_schedule.html#a7dc92a01df0855d3351e3d059c409e5c',1,'IgnitionSchedule']]],
+  ['_5fstatus_17',['_status',['../struct_schedule.html#a9c7dc14fd10571f16cb44a2995ba4383',1,'Schedule']]],
+  ['_5ftableoffset_18',['_tableOffset',['../structget__table__value__visitor.html#a14470a4a838d810f0864cfe2d5409821',1,'get_table_value_visitor']]],
+  ['_5ftoothangle_19',['_toothangle',['../structtooth__interval__calculator__t.html#a2b9371fb9ac3ba32a374e567a1686c8b',1,'tooth_interval_calculator_t::_toothAngle'],['../structcompute__initial__calculator__t.html#acf1a548c5b2d72cf871111cfe139cf5a',1,'compute_initial_calculator_t::_toothAngle']]],
+  ['_5ftoothanglecorrect_20',['_toothAngleCorrect',['../structtooth__interval__calculator__t.html#adfcb7a0d1d248b0896d1f7867d34cd69',1,'tooth_interval_calculator_t']]],
+  ['_5ftoothcurrentcount_21',['_toothcurrentcount',['../structlookup__initial__calculator__t.html#a69244b4ecaad7de58583187d7ee1b091',1,'lookup_initial_calculator_t::_toothCurrentCount'],['../structcompute__initial__calculator__t.html#a70a27b6070e08c5a82b003502bf1603b',1,'compute_initial_calculator_t::_toothCurrentCount']]],
+  ['_5ftoothlastminusonetoothtime_22',['_toothLastMinusOneToothTime',['../structtooth__interval__calculator__t.html#ade6792915e9c92bd36a0658e39227087',1,'tooth_interval_calculator_t']]],
+  ['_5ftoothlasttoothtime_23',['_toothlasttoothtime',['../structlast__tooth__rev__calculator__t.html#a0fb3e94b97d0e3e6f070b71ce61775fe',1,'last_tooth_rev_calculator_t::_toothLastToothTime'],['../structtooth__interval__calculator__t.html#a4eb7b5a2261fd0abed8dd72383a74215',1,'tooth_interval_calculator_t::_toothLastToothTime']]]
 ];

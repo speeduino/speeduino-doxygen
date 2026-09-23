@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['write_5flocation_0',['write_location',['../structwrite__location.html',1,'']]]
+  ['vvtstatus_5ft_0',['vvtStatus_t',['../structvvt_status__t.html',1,'']]]
 ];

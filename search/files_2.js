@@ -13,6 +13,8 @@ var searchData=
   ['contributing_2emd_10',['contributing.md',['../contributing_8md.html',1,'']]],
   ['corrections_2ecpp_11',['corrections.cpp',['../corrections_8cpp.html',1,'']]],
   ['corrections_2eh_12',['corrections.h',['../corrections_8h.html',1,'']]],
-  ['crankmaths_2ecpp_13',['crankMaths.cpp',['../crank_maths_8cpp.html',1,'']]],
-  ['crankmaths_2eh_14',['crankMaths.h',['../crank_maths_8h.html',1,'']]]
+  ['crank_5fangle_5fcalculator_2ecpp_13',['crank_angle_calculator.cpp',['../crank__angle__calculator_8cpp.html',1,'']]],
+  ['crank_5fangle_5fcalculator_2eh_14',['crank_angle_calculator.h',['../crank__angle__calculator_8h.html',1,'']]],
+  ['crankmaths_2ecpp_15',['crankMaths.cpp',['../crank_maths_8cpp.html',1,'']]],
+  ['crankmaths_2eh_16',['crankMaths.h',['../crank_maths_8h.html',1,'']]]
 ];

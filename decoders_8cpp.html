@@ -95,11 +95,10 @@ $(function() {
 <code>#include &quot;<a class="el" href="scheduled_i_o__ign_8h_source.html">scheduledIO_ign.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="board_input_pin_8h_source.html">src/pins/boardInputPin.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scheduler__ignition__controller_8h_source.html">scheduler_ignition_controller.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="crank__angle__calculator_8h_source.html">src/decoders/crank_angle_calculator.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ae2ea5607b682b5faf59806f6548b9a71" id="r_ae2ea5607b682b5faf59806f6548b9a71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ae2ea5607b682b5faf59806f6548b9a71">CRANK_ANGLE_MAX</a>&#160;&#160;&#160;((std::max)(<a class="el" href="crank_maths_8cpp.html#a4234564809fca85a03ac95da2e9d5849">CRANK_ANGLE_MAX_IGN</a>, <a class="el" href="crank_maths_8cpp.html#a6f1c313d44c4c6f41c0c82925abb1c22">CRANK_ANGLE_MAX_INJ</a>))</td></tr>
-<tr class="separator:ae2ea5607b682b5faf59806f6548b9a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7def3029c429bbdc07a487e8afe9cf" id="r_aff7def3029c429bbdc07a487e8afe9cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aff7def3029c429bbdc07a487e8afe9cf">TOOTH_CRANK</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:aff7def3029c429bbdc07a487e8afe9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4401f69e9cc7e91f7bafa029216c035a" id="r_a4401f69e9cc7e91f7bafa029216c035a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4401f69e9cc7e91f7bafa029216c035a">TOOTH_CAM_SECONDARY</a>&#160;&#160;&#160;1</td></tr>
@@ -145,8 +144,6 @@ Functions</h2></td></tr>
 <tr class="separator:gacd9814e949e3cc3c5cec3cba1d2a96f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab5272450c360b4c5c50d13d53b447f15" id="r_gab5272450c360b4c5c50d13d53b447f15"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdecoder__status__t.html">decoder_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gab5272450c360b4c5c50d13d53b447f15">sharedGetStatus</a> (void) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
 <tr class="separator:gab5272450c360b4c5c50d13d53b447f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafb734a17101b6d65a5c8fc180eb29e5a" id="r_gafb734a17101b6d65a5c8fc180eb29e5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gafb734a17101b6d65a5c8fc180eb29e5a">timeToAngleIntervalTooth</a> (uint32_t time)</td></tr>
-<tr class="separator:gafb734a17101b6d65a5c8fc180eb29e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac6278a7fd1ef8d6d837f20d2acfb9664" id="r_gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gac6278a7fd1ef8d6d837f20d2acfb9664">IsCranking</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;status)</td></tr>
 <tr class="separator:gac6278a7fd1ef8d6d837f20d2acfb9664"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7760543a4e34332c0467c7addb3bdac6" id="r_ga7760543a4e34332c0467c7addb3bdac6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga7760543a4e34332c0467c7addb3bdac6">sharedEngineIsRunning</a> (uint32_t curTime)</td></tr>
@@ -157,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="separator:gad9e5f95ac3e4b39f9a0667dc0fdff483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b493d2fb01be75cd1b601cb60bc8eed" id="r_ga3b493d2fb01be75cd1b601cb60bc8eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga3b493d2fb01be75cd1b601cb60bc8eed">SetRevolutionTime</a> (uint32_t revTime)</td></tr>
 <tr class="separator:ga3b493d2fb01be75cd1b601cb60bc8eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga262da070115bd47d7485cb3b21253ff4" id="r_ga262da070115bd47d7485cb3b21253ff4"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga262da070115bd47d7485cb3b21253ff4">calcToothCalcShift</a> (bool isCamTeeth)</td></tr>
+<tr class="separator:ga262da070115bd47d7485cb3b21253ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb6f1cf680d1b52d56847080de7e51d2" id="r_gadb6f1cf680d1b52d56847080de7e51d2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gadb6f1cf680d1b52d56847080de7e51d2">UpdateRevolutionTimeFromTeeth</a> (bool isCamTeeth)</td></tr>
 <tr class="separator:gadb6f1cf680d1b52d56847080de7e51d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaba9611c61c89e816ecb74e2c25b04dcf" id="r_gaba9611c61c89e816ecb74e2c25b04dcf"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf">RpmFromRevolutionTimeUs</a> (uint32_t revTime)</td></tr>
@@ -167,6 +166,18 @@ Functions</h2></td></tr>
 <tr class="separator:ga7e47fa64b01c6c1908f133f37313b25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5f2428f4d76cb0bcb7ccb86c5d0064ba" id="r_ga5f2428f4d76cb0bcb7ccb86c5d0064ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga5f2428f4d76cb0bcb7ccb86c5d0064ba">crankingGetRPM</a> (<a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> totalTeeth, bool isCamTeeth)</td></tr>
 <tr class="separator:ga5f2428f4d76cb0bcb7ccb86c5d0064ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga894b34c3c2b052f5b33730ea2c8babba" id="r_ga894b34c3c2b052f5b33730ea2c8babba"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ga894b34c3c2b052f5b33730ea2c8babba"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga894b34c3c2b052f5b33730ea2c8babba">atomic_copy</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:ga894b34c3c2b052f5b33730ea2c8babba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically copy the <b>forwarding reference</b> arguments into a std::tuple&lt;&gt;  <br /></td></tr>
+<tr class="separator:ga894b34c3c2b052f5b33730ea2c8babba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga002a2085e441e99c8ea86ef369390d6a" id="r_ga002a2085e441e99c8ea86ef369390d6a"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga002a2085e441e99c8ea86ef369390d6a">atomic_make_lookup_caa</a> (void)</td></tr>
+<tr class="separator:ga002a2085e441e99c8ea86ef369390d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef4ffeea3ee358edd6eeca4be5e652a3" id="r_gaef4ffeea3ee358edd6eeca4be5e652a3"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gaef4ffeea3ee358edd6eeca4be5e652a3">atomic_make_lookup_caa_secondary</a> (void)</td></tr>
+<tr class="separator:gaef4ffeea3ee358edd6eeca4be5e652a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae8cb30ed45cfbac3c813e536392f9a74" id="r_gae8cb30ed45cfbac3c813e536392f9a74"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gae8cb30ed45cfbac3c813e536392f9a74">atomic_make_angle_caa</a> (void)</td></tr>
+<tr class="separator:gae8cb30ed45cfbac3c813e536392f9a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9e187b8d260e240cd78ab238e6e4df0c" id="r_ga9e187b8d260e240cd78ab238e6e4df0c"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga9e187b8d260e240cd78ab238e6e4df0c">clampCrankAngle</a> (int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>)</td></tr>
+<tr class="separator:ga9e187b8d260e240cd78ab238e6e4df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga62a160e1172b583d383d8ca212f5a3f8" id="r_ga62a160e1172b583d383d8ca212f5a3f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8">checkPerToothTiming</a> (int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a59adc29002844edbb0dca2020b143062">crankAngle</a>, uint16_t currentTooth)</td></tr>
 <tr class="separator:ga62a160e1172b583d383d8ca212f5a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6a5d7b9993588397420abe176df6008d" id="r_ga6a5d7b9993588397420abe176df6008d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga6a5d7b9993588397420abe176df6008d">getConfigPriTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#aa12f930df9a77069574d9dbdcf15b690">page4</a>)</td></tr>
@@ -501,14 +512,14 @@ Variables</h2></td></tr>
 <tr class="separator:aeb8ed8c69c7915d37e18f652052c575a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc521ea985c3d76abbaad7818004347" id="r_a1dc521ea985c3d76abbaad7818004347"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1dc521ea985c3d76abbaad7818004347">toothSystemLastToothTime</a> = 0</td></tr>
 <tr class="separator:a1dc521ea985c3d76abbaad7818004347"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0ffca5b36a2abe1dd6ef98981186307" id="r_ac0ffca5b36a2abe1dd6ef98981186307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ac0ffca5b36a2abe1dd6ef98981186307">toothLastToothTime</a> = 0</td></tr>
-<tr class="separator:ac0ffca5b36a2abe1dd6ef98981186307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f44f556b050c3c42126ace57c5db60" id="r_a55f44f556b050c3c42126ace57c5db60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a55f44f556b050c3c42126ace57c5db60">toothLastToothTime</a> = 0</td></tr>
+<tr class="separator:a55f44f556b050c3c42126ace57c5db60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab69617dffafae741c8411cd8bf4bcd1c" id="r_ab69617dffafae741c8411cd8bf4bcd1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ab69617dffafae741c8411cd8bf4bcd1c">toothLastSecToothTime</a> = 0</td></tr>
 <tr class="separator:ab69617dffafae741c8411cd8bf4bcd1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0806e6b2a200d8c7bcde5b2f601caa78" id="r_a0806e6b2a200d8c7bcde5b2f601caa78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a0806e6b2a200d8c7bcde5b2f601caa78">toothLastThirdToothTime</a> = 0</td></tr>
 <tr class="separator:a0806e6b2a200d8c7bcde5b2f601caa78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a308889f83320593db992aa16909be986" id="r_a308889f83320593db992aa16909be986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a308889f83320593db992aa16909be986">toothLastMinusOneToothTime</a> = 0</td></tr>
-<tr class="separator:a308889f83320593db992aa16909be986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10b1eee20d41a93cb2a64559b937cae4" id="r_a10b1eee20d41a93cb2a64559b937cae4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a10b1eee20d41a93cb2a64559b937cae4">toothLastMinusOneToothTime</a> = 0</td></tr>
+<tr class="separator:a10b1eee20d41a93cb2a64559b937cae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52eb1d8b9e1badb760a8962f32144983" id="r_a52eb1d8b9e1badb760a8962f32144983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a52eb1d8b9e1badb760a8962f32144983">toothLastMinusOneSecToothTime</a> = 0</td></tr>
 <tr class="separator:a52eb1d8b9e1badb760a8962f32144983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5cf838f8c67c7b7b2401af20bfc2ef" id="r_a5a5cf838f8c67c7b7b2401af20bfc2ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a5a5cf838f8c67c7b7b2401af20bfc2ef">toothLastToothRisingTime</a> = 0</td></tr>
@@ -527,8 +538,8 @@ Variables</h2></td></tr>
 <tr class="separator:ac7c5b5480c5041cb63229d8626e09bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89aeb700bb1b96c034fa771891795177" id="r_a89aeb700bb1b96c034fa771891795177"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a89aeb700bb1b96c034fa771891795177">revolutionOne</a> = 0</td></tr>
 <tr class="separator:a89aeb700bb1b96c034fa771891795177"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0416a9c1ae0f552b6c4b25247853f30b" id="r_a0416a9c1ae0f552b6c4b25247853f30b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a0416a9c1ae0f552b6c4b25247853f30b">secondaryToothCount</a></td></tr>
-<tr class="separator:a0416a9c1ae0f552b6c4b25247853f30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca74a4653f57e65c3baf913992f0e16" id="r_adca74a4653f57e65c3baf913992f0e16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#adca74a4653f57e65c3baf913992f0e16">secondaryToothCount</a></td></tr>
+<tr class="separator:adca74a4653f57e65c3baf913992f0e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf68328136d414e0c8a5d8938ad74ad1" id="r_abf68328136d414e0c8a5d8938ad74ad1"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#abf68328136d414e0c8a5d8938ad74ad1">triggerActualTeeth</a></td></tr>
 <tr class="separator:abf68328136d414e0c8a5d8938ad74ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33178d538a8879e2b6058ad67517e6f7" id="r_a33178d538a8879e2b6058ad67517e6f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a33178d538a8879e2b6058ad67517e6f7">triggerFilterTime</a></td></tr>
@@ -582,20 +593,6 @@ Variables</h2></td></tr>
 <li>toothLastToothTime - The time (In uS) that the last primary tooth was 'seen' </li>
 </ul>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ae2ea5607b682b5faf59806f6548b9a71" name="ae2ea5607b682b5faf59806f6548b9a71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2ea5607b682b5faf59806f6548b9a71">&#9670;&#160;</a></span>CRANK_ANGLE_MAX</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define CRANK_ANGLE_MAX&#160;&#160;&#160;((std::max)(<a class="el" href="crank_maths_8cpp.html#a4234564809fca85a03ac95da2e9d5849">CRANK_ANGLE_MAX_IGN</a>, <a class="el" href="crank_maths_8cpp.html#a6f1c313d44c4c6f41c0c82925abb1c22">CRANK_ANGLE_MAX_INJ</a>))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7c38f5dffa0b172a464c0fa31fde817c" name="a7c38f5dffa0b172a464c0fa31fde817c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c38f5dffa0b172a464c0fa31fde817c">&#9670;&#160;</a></span>ID_TOOTH_PATTERN</h2>
 
@@ -1096,14 +1093,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a0416a9c1ae0f552b6c4b25247853f30b" name="a0416a9c1ae0f552b6c4b25247853f30b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0416a9c1ae0f552b6c4b25247853f30b">&#9670;&#160;</a></span>secondaryToothCount</h2>
+<a id="adca74a4653f57e65c3baf913992f0e16" name="adca74a4653f57e65c3baf913992f0e16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca74a4653f57e65c3baf913992f0e16">&#9670;&#160;</a></span>secondaryToothCount</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned int secondaryToothCount</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint16_t secondaryToothCount</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1218,14 +1215,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a308889f83320593db992aa16909be986" name="a308889f83320593db992aa16909be986"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a308889f83320593db992aa16909be986">&#9670;&#160;</a></span>toothLastMinusOneToothTime</h2>
+<a id="a10b1eee20d41a93cb2a64559b937cae4" name="a10b1eee20d41a93cb2a64559b937cae4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10b1eee20d41a93cb2a64559b937cae4">&#9670;&#160;</a></span>toothLastMinusOneToothTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long toothLastMinusOneToothTime = 0</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint32_t toothLastMinusOneToothTime = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1288,14 +1285,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0ffca5b36a2abe1dd6ef98981186307" name="ac0ffca5b36a2abe1dd6ef98981186307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0ffca5b36a2abe1dd6ef98981186307">&#9670;&#160;</a></span>toothLastToothTime</h2>
+<a id="a55f44f556b050c3c42126ace57c5db60" name="a55f44f556b050c3c42126ace57c5db60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55f44f556b050c3c42126ace57c5db60">&#9670;&#160;</a></span>toothLastToothTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile unsigned long toothLastToothTime = 0</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> volatile uint32_t toothLastToothTime = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
