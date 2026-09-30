@@ -77,8 +77,8 @@ var searchData=
   ['protect_5fio_5ferror_74',['PROTECT_IO_ERROR',['../config__pages_8h.html#a5eca8a86a768baffe578ba0dd9a35115',1,'config_pages.h']]],
   ['psecondaryserial_75',['psecondaryserial',['../comms__secondary_8cpp.html#a48dfd3b0fa1fa11aa3ff71b3b5296573',1,'pSecondarySerial:&#160;comms_secondary.cpp'],['../comms__secondary_8h.html#a48dfd3b0fa1fa11aa3ff71b3b5296573',1,'pSecondarySerial:&#160;comms_secondary.cpp']]],
   ['ptable_76',['pTable',['../structentity__t.html#a03da8420d593e43be1565a0bed95e2d3',1,'entity_t']]],
-  ['pump_5fpin_77',['pump_pin',['../structfuel_pump_controller_1_1detsil_1_1pump__state__t.html#a14c18d8079e16d7fa52fd04c85e58ce6',1,'fuelPumpController::detsil::pump_state_t']]],
-  ['pump_5fstate_78',['pump_state',['../fuel_pump_controller_8cpp.html#a566b68e193712abd74ff39330fc084af',1,'fuelPumpController.cpp']]],
+  ['pump_5fpin_77',['pump_pin',['../structfuel_pump_controller_1_1detail_1_1pump__state__t.html#a344784d104aafe9cc013562a93991bf9',1,'fuelPumpController::detail::pump_state_t']]],
+  ['pump_5fstate_78',['pump_state',['../fuel_pump_controller_8cpp.html#a1da40db429732edee05b783a1c62af83',1,'fuelPumpController.cpp']]],
   ['pw_79',['pw',['../struct_fuel_schedule.html#a2e6661825faaf89d253b549465739587',1,'FuelSchedule::pw'],['../structinjector_angle_calc_cache.html#a90b07251dda8d7b5f214a9346819fa97',1,'injectorAngleCalcCache::pw']]],
   ['pwdegrees_80',['pwDegrees',['../structinjector_angle_calc_cache.html#a509739be695d718d69bd662bd0fed403',1,'injectorAngleCalcCache']]],
   ['pwmfanduty_81',['PWMFanDuty',['../structconfig9.html#aac19884a597af07357b47e0f2bcc592e',1,'config9']]]
