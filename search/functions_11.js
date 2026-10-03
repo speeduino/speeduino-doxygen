@@ -35,7 +35,7 @@ var searchData=
   ['resetstartdelay_32',['resetStartDelay',['../structair_con_controller_1_1details_1_1state__t.html#a55cf071fac034c88db78b7ebe1f79578',1,'airConController::details::state_t']]],
   ['resettpslockoutdelay_33',['resetTpsLockoutDelay',['../structair_con_controller_1_1details_1_1state__t.html#ab732300ae61c07cc46264e7525832b3b',1,'airConController::details::state_t']]],
   ['reverse_5fbytes_34',['reverse_bytes',['../group__group-serial-comms-impl.html#gac830a2c53cacd8ea05176f1705f2fb84',1,'comms.cpp']]],
-  ['rpmfromrevolutiontimeus_35',['RpmFromRevolutionTimeUs',['../group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf',1,'decoders.cpp']]],
+  ['rpmfromrevolutiontimeus_35',['RpmFromRevolutionTimeUs',['../crank_maths_8h.html#a95c3b606aecc6c3701d87c3e24ea720a',1,'crankMaths.h']]],
   ['rshift_5fround_36',['rshift_round',['../maths_8h.html#aadb0d9d75ad2d5726a97abca19d9371d',1,'maths.h']]],
   ['rtc_5fgetday_37',['rtc_getDay',['../rtc__common_8h.html#accb4c02b04b5d1594eaa897570d8d962',1,'rtc_common.h']]],
   ['rtc_5fgetdow_38',['rtc_getDOW',['../rtc__common_8h.html#a283612449768dd391ae21477cecc7853',1,'rtc_common.h']]],

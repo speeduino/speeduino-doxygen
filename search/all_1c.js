@@ -78,7 +78,7 @@ var searchData=
   ['rpm_5fmedium_75',['RPM_MEDIUM',['../units_8h.html#a0553c3b72507d9b172f270ed26ee5f0a',1,'units.h']]],
   ['rpmdiv100_76',['RPMdiv100',['../structstatuses.html#a9f1311a4080e41d43340bc3efe252cf1',1,'statuses']]],
   ['rpmdot_77',['rpmDOT',['../structstatuses.html#ab03beec6b24b72197a78cc48828a36df',1,'statuses']]],
-  ['rpmfromrevolutiontimeus_78',['RpmFromRevolutionTimeUs',['../group__dec__uni.html#gaba9611c61c89e816ecb74e2c25b04dcf',1,'decoders.cpp']]],
+  ['rpmfromrevolutiontimeus_78',['RpmFromRevolutionTimeUs',['../crank_maths_8h.html#a95c3b606aecc6c3701d87c3e24ea720a',1,'crankMaths.h']]],
   ['rpmlockoutactive_79',['rpmLockoutActive',['../structair_con_status__t.html#a5f1ef304d7846450d7cadce00f3cd4b1',1,'airConStatus_t']]],
   ['rpmlockoutdelay_80',['rpmLockoutDelay',['../structair_con_controller_1_1details_1_1state__t.html#a6ee803c73bf2823857995b12067815a9',1,'airConController::details::state_t']]],
   ['rshift_5fround_81',['rshift_round',['../maths_8h.html#aadb0d9d75ad2d5726a97abca19d9371d',1,'maths.h']]],

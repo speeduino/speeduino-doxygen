@@ -90,6 +90,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a95c3b606aecc6c3701d87c3e24ea720a" id="r_a95c3b606aecc6c3701d87c3e24ea720a"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a95c3b606aecc6c3701d87c3e24ea720a">RpmFromRevolutionTimeUs</a> (uint32_t revolutionTime)</td></tr>
+<tr class="memdesc:a95c3b606aecc6c3701d87c3e24ea720a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a crank revolution time to engine speed.  <br /></td></tr>
+<tr class="separator:a95c3b606aecc6c3701d87c3e24ea720a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a623c310de1a24748fb9be60b294ab5a2" id="r_a623c310de1a24748fb9be60b294ab5a2"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a> (int16_t angle)</td></tr>
 <tr class="memdesc:a623c310de1a24748fb9be60b294ab5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN].  <br /></td></tr>
 <tr class="separator:a623c310de1a24748fb9be60b294ab5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +239,41 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int16_t </dd></dl>
+
+</div>
+</div>
+<a id="a95c3b606aecc6c3701d87c3e24ea720a" name="a95c3b606aecc6c3701d87c3e24ea720a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c3b606aecc6c3701d87c3e24ea720a">&#9670;&#160;</a></span>RpmFromRevolutionTimeUs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t RpmFromRevolutionTimeUs </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>revolutionTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts a crank revolution time to engine speed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">revolutionTime</td><td>The time in µS that one crank revolution takes. Zero if the engine speed is unknown </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The engine speed in RPM, rounded to the closest integer &amp; limited to MAX_RPM. Zero if revolutionTime is zero </dd></dl>
 
 </div>
 </div>
