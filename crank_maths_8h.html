@@ -75,6 +75,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">crankMaths.h File Reference</div></div>
@@ -88,6 +89,12 @@ $(function() {
 </div>
 <p><a href="crank_maths_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factors used to convert between crank angle &amp; time. These are derived from the crank revolution time.  <a href="structangle__converter__factors__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a95c3b606aecc6c3701d87c3e24ea720a" id="r_a95c3b606aecc6c3701d87c3e24ea720a"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a95c3b606aecc6c3701d87c3e24ea720a">RpmFromRevolutionTimeUs</a> (uint32_t revolutionTime)</td></tr>
@@ -96,6 +103,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a623c310de1a24748fb9be60b294ab5a2" id="r_a623c310de1a24748fb9be60b294ab5a2"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a623c310de1a24748fb9be60b294ab5a2">ignitionLimits</a> (int16_t angle)</td></tr>
 <tr class="memdesc:a623c310de1a24748fb9be60b294ab5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes one pass at nudging the angle to within [0,CRANK_ANGLE_MAX_IGN].  <br /></td></tr>
 <tr class="separator:a623c310de1a24748fb9be60b294ab5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a6cdce90d45b9fd6176586e03e95b84" id="r_a6a6cdce90d45b9fd6176586e03e95b84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a6a6cdce90d45b9fd6176586e03e95b84">calculateAngleConverterFactors</a> (uint32_t revolutionTime) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="memdesc:a6a6cdce90d45b9fd6176586e03e95b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time.  <br /></td></tr>
+<tr class="separator:a6a6cdce90d45b9fd6176586e03e95b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec33d0793240fb35c151f69b1387a29" id="r_a0ec33d0793240fb35c151f69b1387a29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#a0ec33d0793240fb35c151f69b1387a29">applyAngleConverterFactors</a> (const <a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> &amp;factors) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="memdesc:a0ec33d0793240fb35c151f69b1387a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the factors used by the degree&lt;--&gt;angle conversions.  <br /></td></tr>
+<tr class="separator:a0ec33d0793240fb35c151f69b1387a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33ce8c5351518aac2d24e90f49fce4b" id="r_ad33ce8c5351518aac2d24e90f49fce4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8h.html#ad33ce8c5351518aac2d24e90f49fce4b">setAngleConverterRevolutionTime</a> (uint32_t revolutionTime) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
 <tr class="memdesc:ad33ce8c5351518aac2d24e90f49fce4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived.  <br /></td></tr>
 <tr class="separator:ad33ce8c5351518aac2d24e90f49fce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +220,76 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0ec33d0793240fb35c151f69b1387a29" name="a0ec33d0793240fb35c151f69b1387a29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec33d0793240fb35c151f69b1387a29">&#9670;&#160;</a></span>applyAngleConverterFactors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void applyAngleConverterFactors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>factors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the factors used by the degree&lt;--&gt;angle conversions. </p>
+<dl class="section note"><dt>Note</dt><dd>If an ISR could be converting angles, call this from within an ATOMIC() block.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factors</td><td>The factors to use. See <a class="el" href="crank_maths_8h.html#a6a6cdce90d45b9fd6176586e03e95b84" title="Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time.">calculateAngleConverterFactors()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6a6cdce90d45b9fd6176586e03e95b84" name="a6a6cdce90d45b9fd6176586e03e95b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6cdce90d45b9fd6176586e03e95b84">&#9670;&#160;</a></span>calculateAngleConverterFactors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> calculateAngleConverterFactors </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>revolutionTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time. </p>
+<p>This does not change the factors in use (see <a class="el" href="crank_maths_8h.html#a0ec33d0793240fb35c151f69b1387a29" title="Set the factors used by the degree&lt;--&gt;angle conversions.">applyAngleConverterFactors()</a>), so the (relatively slow) divisions can be done outside of a critical section.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">revolutionTime</td><td>The crank revolution time in uS. Zero results in zero factors. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a623c310de1a24748fb9be60b294ab5a2" name="a623c310de1a24748fb9be60b294ab5a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a623c310de1a24748fb9be60b294ab5a2">&#9670;&#160;</a></span>ignitionLimits()</h2>
 
@@ -302,6 +385,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived. </p>
+<p>Shorthand for applyAngleConverterFactors(calculateAngleConverterFactors(revolutionTime))</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">revolutionTime</td><td>The crank revolution time. </td></tr>

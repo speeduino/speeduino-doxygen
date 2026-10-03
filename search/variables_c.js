@@ -25,7 +25,7 @@ var searchData=
   ['micros_5fper_5fhour_22',['MICROS_PER_HOUR',['../maths_8h.html#a58b31e48bc0b675937f7f12c1798617d',1,'maths.h']]],
   ['micros_5fper_5fmin_23',['MICROS_PER_MIN',['../maths_8h.html#a0fb0136c6e8888de88dbc0d134aad114',1,'maths.h']]],
   ['micros_5fper_5fsec_24',['MICROS_PER_SEC',['../maths_8h.html#a18af76b8e5ca2f986e25d6a44880d323',1,'maths.h']]],
-  ['microsperdegree_25',['microsPerDegree',['../crank_maths_8cpp.html#a1a2d182a827bee47cfda6dc696442d6e',1,'crankMaths.cpp']]],
+  ['microsperdegree_25',['microsPerDegree',['../structangle__converter__factors__t.html#a67789e05ac909b616f5f1b8f8f23cc57',1,'angle_converter_factors_t']]],
   ['microsperdegree_5fshift_26',['microsPerDegree_Shift',['../crank_maths_8cpp.html#ad5ceeabcb03430a05e9748ca61a34cb3',1,'crankMaths.cpp']]],
   ['milli_5fper_5fsec_27',['MILLI_PER_SEC',['../maths_8h.html#a3e980bd6b9038c1edb540ed502247554',1,'maths.h']]],
   ['min_5fpage_5fnum_28',['MIN_PAGE_NUM',['../pages_8h.html#a39187efcd63a814abc04e375a0f30cb6',1,'pages.h']]],

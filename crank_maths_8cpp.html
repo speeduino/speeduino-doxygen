@@ -96,11 +96,15 @@ Macros</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a8c876e0304c6beb71a0b5a4a140a7572" id="r_a8c876e0304c6beb71a0b5a4a140a7572"><td class="memItemLeft" align="right" valign="top">typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a></td></tr>
 <tr class="separator:a8c876e0304c6beb71a0b5a4a140a7572"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ede0e919c14e4a60cbeef6ef70b5e4b" id="r_a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memItemLeft" align="right" valign="top">typedef uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td></tr>
-<tr class="separator:a2ede0e919c14e4a60cbeef6ef70b5e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a6a6cdce90d45b9fd6176586e03e95b84" id="r_a6a6cdce90d45b9fd6176586e03e95b84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a6a6cdce90d45b9fd6176586e03e95b84">calculateAngleConverterFactors</a> (uint32_t revolutionTime) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="memdesc:a6a6cdce90d45b9fd6176586e03e95b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time.  <br /></td></tr>
+<tr class="separator:a6a6cdce90d45b9fd6176586e03e95b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec33d0793240fb35c151f69b1387a29" id="r_a0ec33d0793240fb35c151f69b1387a29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a0ec33d0793240fb35c151f69b1387a29">applyAngleConverterFactors</a> (const <a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> &amp;factors) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="memdesc:a0ec33d0793240fb35c151f69b1387a29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the factors used by the degree&lt;--&gt;angle conversions.  <br /></td></tr>
+<tr class="separator:a0ec33d0793240fb35c151f69b1387a29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad33ce8c5351518aac2d24e90f49fce4b" id="r_ad33ce8c5351518aac2d24e90f49fce4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ad33ce8c5351518aac2d24e90f49fce4b">setAngleConverterRevolutionTime</a> (uint32_t revolutionTime) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
 <tr class="memdesc:ad33ce8c5351518aac2d24e90f49fce4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived.  <br /></td></tr>
 <tr class="separator:ad33ce8c5351518aac2d24e90f49fce4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,18 +123,15 @@ Variables</h2></td></tr>
 <tr class="separator:a6f1c313d44c4c6f41c0c82925abb1c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a246cd50dc6c7b56fc208d895188f6586" id="r_a246cd50dc6c7b56fc208d895188f6586"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a> = 8U</td></tr>
 <tr class="separator:a246cd50dc6c7b56fc208d895188f6586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a2d182a827bee47cfda6dc696442d6e" id="r_a1a2d182a827bee47cfda6dc696442d6e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a1a2d182a827bee47cfda6dc696442d6e">microsPerDegree</a></td></tr>
-<tr class="memdesc:a1a2d182a827bee47cfda6dc696442d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">uS per degree at current RPM in UQ24.8 fixed point  <br /></td></tr>
-<tr class="separator:a1a2d182a827bee47cfda6dc696442d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ceeabcb03430a05e9748ca61a34cb3" id="r_ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ad5ceeabcb03430a05e9748ca61a34cb3">microsPerDegree_Shift</a> = <a class="el" href="crank_maths_8cpp.html#a246cd50dc6c7b56fc208d895188f6586">UQ24X8_Shift</a></td></tr>
 <tr class="separator:ad5ceeabcb03430a05e9748ca61a34cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c17b92de916811068da998345d143f" id="r_ac1c17b92de916811068da998345d143f"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a> = 15U</td></tr>
 <tr class="separator:ac1c17b92de916811068da998345d143f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadcdf40840896ab1afafdb22303b8672" id="r_aadcdf40840896ab1afafdb22303b8672"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aadcdf40840896ab1afafdb22303b8672">degreesPerMicro</a></td></tr>
-<tr class="memdesc:aadcdf40840896ab1afafdb22303b8672"><td class="mdescLeft">&#160;</td><td class="mdescRight">Degrees per uS in UQ1.15 fixed point.  <br /></td></tr>
-<tr class="separator:aadcdf40840896ab1afafdb22303b8672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0304e945ca33ebf195131901140442" id="r_aee0304e945ca33ebf195131901140442"><td class="memItemLeft" align="right" valign="top">static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#aee0304e945ca33ebf195131901140442">degreesPerMicro_Shift</a> = <a class="el" href="crank_maths_8cpp.html#ac1c17b92de916811068da998345d143f">UQ1X15_Shift</a></td></tr>
 <tr class="separator:aee0304e945ca33ebf195131901140442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbc29538108ce6536b9891e1eaaa238" id="r_a0dbc29538108ce6536b9891e1eaaa238"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="crank_maths_8cpp.html#a0dbc29538108ce6536b9891e1eaaa238">angleConverterFactors</a></td></tr>
+<tr class="memdesc:a0dbc29538108ce6536b9891e1eaaa238"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factors used by the angle&lt;-&gt;time conversion functions.  <br /></td></tr>
+<tr class="separator:a0dbc29538108ce6536b9891e1eaaa238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a796685254307924eeddb95ed21f0492c" name="a796685254307924eeddb95ed21f0492c"></a>
@@ -148,20 +149,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a2ede0e919c14e4a60cbeef6ef70b5e4b" name="a2ede0e919c14e4a60cbeef6ef70b5e4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ede0e919c14e4a60cbeef6ef70b5e4b">&#9670;&#160;</a></span>UQ1X15_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef uint16_t <a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8c876e0304c6beb71a0b5a4a140a7572" name="a8c876e0304c6beb71a0b5a4a140a7572"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c876e0304c6beb71a0b5a4a140a7572">&#9670;&#160;</a></span>UQ24X8_t</h2>
 
@@ -177,6 +164,41 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a0ec33d0793240fb35c151f69b1387a29" name="a0ec33d0793240fb35c151f69b1387a29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec33d0793240fb35c151f69b1387a29">&#9670;&#160;</a></span>applyAngleConverterFactors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void applyAngleConverterFactors </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>factors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the factors used by the degree&lt;--&gt;angle conversions. </p>
+<dl class="section note"><dt>Note</dt><dd>If an ISR could be converting angles, call this from within an ATOMIC() block.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">factors</td><td>The factors to use. See <a class="el" href="crank_maths_8h.html#a6a6cdce90d45b9fd6176586e03e95b84" title="Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time.">calculateAngleConverterFactors()</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a02088fd5c7fe84724c0e9100e4582591" name="a02088fd5c7fe84724c0e9100e4582591"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02088fd5c7fe84724c0e9100e4582591">&#9670;&#160;</a></span>BEGIN_LTO_ALWAYS_INLINE() <span class="overload">[1/2]</span></h2>
 
@@ -229,6 +251,41 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6a6cdce90d45b9fd6176586e03e95b84" name="a6a6cdce90d45b9fd6176586e03e95b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a6cdce90d45b9fd6176586e03e95b84">&#9670;&#160;</a></span>calculateAngleConverterFactors()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> calculateAngleConverterFactors </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>revolutionTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the angle&lt;--&gt;time conversion factors for a crank revolution time. </p>
+<p>This does not change the factors in use (see <a class="el" href="crank_maths_8h.html#a0ec33d0793240fb35c151f69b1387a29" title="Set the factors used by the degree&lt;--&gt;angle conversions.">applyAngleConverterFactors()</a>), so the (relatively slow) divisions can be done outside of a critical section.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">revolutionTime</td><td>The crank revolution time in uS. Zero results in zero factors. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad33ce8c5351518aac2d24e90f49fce4b" name="ad33ce8c5351518aac2d24e90f49fce4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad33ce8c5351518aac2d24e90f49fce4b">&#9670;&#160;</a></span>setAngleConverterRevolutionTime()</h2>
 
@@ -254,6 +311,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived. </p>
+<p>Shorthand for applyAngleConverterFactors(calculateAngleConverterFactors(revolutionTime))</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">revolutionTime</td><td>The crank revolution time. </td></tr>
@@ -264,6 +322,30 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a0dbc29538108ce6536b9891e1eaaa238" name="a0dbc29538108ce6536b9891e1eaaa238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dbc29538108ce6536b9891e1eaaa238">&#9670;&#160;</a></span>angleConverterFactors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structangle__converter__factors__t.html">angle_converter_factors_t</a> angleConverterFactors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The factors used by the angle&lt;-&gt;time conversion functions. </p>
+
+</div>
+</div>
 <a id="a4234564809fca85a03ac95da2e9d5849" name="a4234564809fca85a03ac95da2e9d5849"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4234564809fca85a03ac95da2e9d5849">&#9670;&#160;</a></span>CRANK_ANGLE_MAX_IGN</h2>
 
@@ -296,31 +378,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aadcdf40840896ab1afafdb22303b8672" name="aadcdf40840896ab1afafdb22303b8672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadcdf40840896ab1afafdb22303b8672">&#9670;&#160;</a></span>degreesPerMicro</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="crank_maths_8cpp.html#a2ede0e919c14e4a60cbeef6ef70b5e4b">UQ1X15_t</a> degreesPerMicro</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Degrees per uS in UQ1.15 fixed point. </p>
-<p>Ranges from 8 (0.000246) at MIN_RPM to 3542 (0.108) at MAX_RPM </p>
-
-</div>
-</div>
 <a id="aee0304e945ca33ebf195131901140442" name="aee0304e945ca33ebf195131901140442"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee0304e945ca33ebf195131901140442">&#9670;&#160;</a></span>degreesPerMicro_Shift</h2>
 
@@ -340,30 +397,6 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1a2d182a827bee47cfda6dc696442d6e" name="a1a2d182a827bee47cfda6dc696442d6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a2d182a827bee47cfda6dc696442d6e">&#9670;&#160;</a></span>microsPerDegree</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="crank_maths_8cpp.html#a8c876e0304c6beb71a0b5a4a140a7572">UQ24X8_t</a> microsPerDegree</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>uS per degree at current RPM in UQ24.8 fixed point </p>
 
 </div>
 </div>

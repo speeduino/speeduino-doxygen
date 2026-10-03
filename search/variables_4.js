@@ -36,7 +36,7 @@ var searchData=
   ['decoderstatus_33',['decoderStatus',['../decoders_8cpp.html#ab4d08a0a0d2d77c73c00b817f9707fd5',1,'decoders.cpp']]],
   ['defereepromwritesdelay_34',['deferEEPROMWritesDelay',['../group__group-serial-comms-impl.html#ga2aa957c576bbe056c343c66dd3d24371',1,'comms.cpp']]],
   ['defereepromwritesstart_35',['deferEEPROMWritesStart',['../group__group-serial-comms-impl.html#ga6d596fafa33e1f709cf7e5803e6a1d69',1,'comms.cpp']]],
-  ['degreespermicro_36',['degreesPerMicro',['../crank_maths_8cpp.html#aadcdf40840896ab1afafdb22303b8672',1,'crankMaths.cpp']]],
+  ['degreespermicro_36',['degreesPerMicro',['../structangle__converter__factors__t.html#a90bcc64d612599835bf806970d4f21c2',1,'angle_converter_factors_t']]],
   ['degreespermicro_5fshift_37',['degreesPerMicro_Shift',['../crank_maths_8cpp.html#aee0304e945ca33ebf195131901140442',1,'crankMaths.cpp']]],
   ['dfcodelay_38',['dfcoDelay',['../structconfig2.html#afa36043c60695a80149c25cf75665e9f',1,'config2']]],
   ['dfcoenabled_39',['dfcoEnabled',['../structconfig2.html#a2a57959fa68a521afb1b2baaf5113cd1',1,'config2']]],
