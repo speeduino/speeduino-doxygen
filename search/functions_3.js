@@ -173,7 +173,7 @@ var searchData=
   ['correctionsoftrevlimit_170',['correctionSoftRevLimit',['../corrections_8cpp.html#a76cd7e4d6770545ab91073199e16286b',1,'corrections.cpp']]],
   ['correctionwmitiming_171',['correctionWMITiming',['../corrections_8cpp.html#affd86897e77cfb4bee39406d3e1db75c',1,'corrections.cpp']]],
   ['correctionwue_172',['correctionWUE',['../corrections_8cpp.html#a6b99b5a7f051cf460be48c4fd010f410',1,'corrections.cpp']]],
-  ['crankinggetrpm_173',['crankingGetRPM',['../group__dec__uni.html#ga5f2428f4d76cb0bcb7ccb86c5d0064ba',1,'decoders.cpp']]],
+  ['crankinggetrevolutiontime_173',['crankingGetRevolutionTime',['../group__dec__uni.html#ga496f9ae7c83c7fc29bf019c18e65b1de',1,'decoders.cpp']]],
   ['cycleaverageendcycle_174',['cycleAverageEndCycle',['../sensors_8cpp.html#a535332edc123faa578210be51748fda1',1,'sensors.cpp']]],
   ['cycleaveragemapreading_175',['cycleAverageMAPReading',['../sensors_8cpp.html#a7c0df6272a01ac3dd9ecb0d65bc2de4f',1,'sensors.cpp']]],
   ['cycleaveragemapreadingaccumulate_176',['cycleAverageMAPReadingAccumulate',['../sensors_8cpp.html#ab3815b1fe246f9449744e8bb30510ee6',1,'sensors.cpp']]],

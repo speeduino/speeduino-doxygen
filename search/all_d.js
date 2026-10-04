@@ -344,7 +344,7 @@ var searchData=
   ['crankingenrichbins_341',['crankingEnrichBins',['../structconfig10.html#a7b0fe7e46d129d4a32ee59cae00a36c9',1,'config10']]],
   ['crankingenrichtaper_342',['crankingEnrichTaper',['../structconfig10.html#a29c03d63921111f0515c7602be7e78ee',1,'config10']]],
   ['crankingenrichvalues_343',['crankingEnrichValues',['../structconfig10.html#a17319b8ecbe0ff4519141e44d3499a26',1,'config10']]],
-  ['crankinggetrpm_344',['crankingGetRPM',['../group__dec__uni.html#ga5f2428f4d76cb0bcb7ccb86c5d0064ba',1,'decoders.cpp']]],
+  ['crankinggetrevolutiontime_344',['crankingGetRevolutionTime',['../group__dec__uni.html#ga496f9ae7c83c7fc29bf019c18e65b1de',1,'decoders.cpp']]],
   ['crankingpct_345',['crankingPct',['../structconfig2.html#a46d6cd573533b4b7875c8e827b8ae11c',1,'config2']]],
   ['crankmaths_2ecpp_346',['crankMaths.cpp',['../crank_maths_8cpp.html',1,'']]],
   ['crankmaths_2eh_347',['crankMaths.h',['../crank_maths_8h.html',1,'']]],
