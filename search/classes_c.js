@@ -6,8 +6,8 @@ var searchData=
   ['set_5ftable_5fvalue_5fvisitor_3',['set_table_value_visitor',['../structset__table__value__visitor.html',1,'']]],
   ['settabletoempty_5fvisitor_4',['setTableToEmpty_visitor',['../structset_table_to_empty__visitor.html',1,'']]],
   ['simple_5fcrank_5fangle_5fcalculator_5ft_5',['simple_crank_angle_calculator_t',['../structsimple__crank__angle__calculator__t.html',1,'']]],
-  ['state_5ft_6',['state_t',['../structair_con_controller_1_1details_1_1state__t.html',1,'airConController::details::state_t'],['../structprogrammable_i_o_control__details_1_1state__t.html',1,'programmableIOControl_details::state_t']]],
+  ['state_5ft_6',['state_t',['../structair_con_controller_1_1details_1_1state__t.html',1,'airConController::details::state_t'],['../structidle_controller_1_1detail_1_1state__t.html',1,'idleController::detail::state_t'],['../structprogrammable_i_o_control__details_1_1state__t.html',1,'programmableIOControl_details::state_t']]],
   ['statuses_7',['statuses',['../structstatuses.html',1,'']]],
-  ['stepperidle_8',['StepperIdle',['../struct_stepper_idle.html',1,'']]],
+  ['stepperidle_8',['StepperIdle',['../structidle_controller_1_1detail_1_1_stepper_idle.html',1,'idleController::detail']]],
   ['storage_5fapi_5ft_9',['storage_api_t',['../structstorage__api__t.html',1,'']]]
 ];

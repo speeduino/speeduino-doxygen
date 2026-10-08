@@ -27,7 +27,7 @@ var searchData=
   ['targetgap_24',['targetGap',['../decoders_8cpp.html#a581f2bcc9bef8295750b0da5e024b572',1,'decoders.cpp']]],
   ['targetgap2_25',['targetGap2',['../decoders_8cpp.html#ac1d19fb1ad4f6a7772547c99a869be10',1,'decoders.cpp']]],
   ['targetgap3_26',['targetGap3',['../decoders_8cpp.html#a3ae344231c225275d7dcf93dba82c0be',1,'decoders.cpp']]],
-  ['targetidlestep_27',['targetIdleStep',['../struct_stepper_idle.html#a0c9435ef965954e6b2af9ea17a088932',1,'StepperIdle']]],
+  ['targetidlestep_27',['targetIdleStep',['../structidle_controller_1_1detail_1_1_stepper_idle.html#af05056bf21fa298d0bb1ad7e7c712aa6',1,'idleController::detail::StepperIdle']]],
   ['temperature_28',['TEMPERATURE',['../units_8h.html#a3bebd1a56ca616b5be6a45452644bb4d',1,'units.h']]],
   ['tertiary_29',['tertiary',['../structdecoder__t.html#a562b99bed0f7a662c94227d50dc2c441',1,'decoder_t']]],
   ['testactive_30',['testActive',['../structstatuses.html#a256bd5d4b8e6608bd4b66d61d5588516',1,'statuses']]],

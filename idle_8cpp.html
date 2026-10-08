@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Speeduino: speeduino/idle.cpp File Reference</title>
+<title>Speeduino: speeduino/src/controllers/idle/idle.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,35 +70,25 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li><li class="navelem"><a class="el" href="dir_e4a66514fb29f537cc6ec306b5dcc979.html">src</a></li><li class="navelem"><a class="el" href="dir_f0025826666fa82218e3295af7dc8ed1.html">controllers</a></li><li class="navelem"><a class="el" href="dir_b262cac107765d785b001c66a30924a8.html">idle</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">idle.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;Arduino.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="idle_8h_source.html">idle.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="idle_8h_source.html">idle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="idle_controller__state_8h_source.html">idleController_state.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="elapsed__time_8h_source.html">elapsed_time.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="maths_8h_source.html">maths.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="timers_8h_source.html">timers.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="preprocessor_8h_source.html">preprocessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="integer_p_i_d_8h_source.html">src/PID/integerPID.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fast_output_pin_8h_source.html">src/pins/fastOutputPin.h</a>&quot;</code><br />
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_stepper_idle.html">StepperIdle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a1af5d7ca56b9c99fa30f31f7b5d327fa" id="r_a1af5d7ca56b9c99fa30f31f7b5d327fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a>&#160;&#160;&#160;0</td></tr>
@@ -111,14 +101,6 @@ Macros</h2></td></tr>
 <tr class="separator:abe01e46cd428d4c16138f0da6fe3307f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3873f5397605cc5552678388161bdf97" id="r_a3873f5397605cc5552678388161bdf97"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a3873f5397605cc5552678388161bdf97">STEPPER_MORE_AIR_DIRECTION</a>()&#160;&#160;&#160;((configPage9.iacStepperInv == 0) ? <a class="el" href="idle_8cpp.html#a1af5d7ca56b9c99fa30f31f7b5d327fa">STEPPER_FORWARD</a> : <a class="el" href="idle_8cpp.html#a93d48ab90c530af82df4cc6e16dfe660">STEPPER_BACKWARD</a>)</td></tr>
 <tr class="separator:a3873f5397605cc5552678388161bdf97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:ae818db0cc84bf646086fdd76ce4a2f1c" id="r_ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1c">StepperStatus</a> { <a class="el" href="idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502">SOFF</a>
-, <a class="el" href="idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6">STEPPING</a>
-, <a class="el" href="idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696">COOLING</a>
- }</td></tr>
-<tr class="separator:ae818db0cc84bf646086fdd76ce4a2f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -136,9 +118,9 @@ Functions</h2></td></tr>
 <tr class="separator:aeff9175f8ddc7425682018bf79e3dc92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9371a9c2f0bfff7304df0ad01008a338" id="r_a9371a9c2f0bfff7304df0ad01008a338"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a9371a9c2f0bfff7304df0ad01008a338">doStep</a> (void)</td></tr>
 <tr class="separator:a9371a9c2f0bfff7304df0ad01008a338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4950572b85c21488743121b0faad081" id="r_ad4950572b85c21488743121b0faad081"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ad4950572b85c21488743121b0faad081">calculateIdleLoad</a> (const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, const <a class="el" href="struct_stepper_idle.html">StepperIdle</a> &amp;idleState)</td></tr>
+<tr class="memitem:ad4950572b85c21488743121b0faad081" id="r_ad4950572b85c21488743121b0faad081"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ad4950572b85c21488743121b0faad081">calculateIdleLoad</a> (const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, const <a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">StepperIdle</a> &amp;idleState)</td></tr>
 <tr class="separator:ad4950572b85c21488743121b0faad081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0a98dc7e3acbcbe98bec441bc1adcaf" id="r_ab0a98dc7e3acbcbe98bec441bc1adcaf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ab0a98dc7e3acbcbe98bec441bc1adcaf">updateIdleStepAndLoad</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="struct_stepper_idle.html">StepperIdle</a> &amp;idleState)</td></tr>
+<tr class="memitem:ab0a98dc7e3acbcbe98bec441bc1adcaf" id="r_ab0a98dc7e3acbcbe98bec441bc1adcaf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ab0a98dc7e3acbcbe98bec441bc1adcaf">updateIdleStepAndLoad</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">StepperIdle</a> &amp;idleState)</td></tr>
 <tr class="separator:ab0a98dc7e3acbcbe98bec441bc1adcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28cb4fad6cd0cc6dc34b7d1329298803" id="r_a28cb4fad6cd0cc6dc34b7d1329298803"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a28cb4fad6cd0cc6dc34b7d1329298803">isStepperHomed</a> (void)</td></tr>
 <tr class="separator:a28cb4fad6cd0cc6dc34b7d1329298803"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,50 +133,12 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1ce6073247ed24c043504a50e2153c1c" id="r_a1ce6073247ed24c043504a50e2153c1c"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a1ce6073247ed24c043504a50e2153c1c">idleUpOutputHIGH</a> = HIGH</td></tr>
-<tr class="separator:a1ce6073247ed24c043504a50e2153c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4afa2c50c67abc4ead94036a156a27d" id="r_ae4afa2c50c67abc4ead94036a156a27d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ae4afa2c50c67abc4ead94036a156a27d">idleUpOutputLOW</a> = LOW</td></tr>
-<tr class="separator:ae4afa2c50c67abc4ead94036a156a27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8527601b6a5459714c10ec36550b2f93" id="r_a8527601b6a5459714c10ec36550b2f93"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a8527601b6a5459714c10ec36550b2f93">idleCounter</a></td></tr>
-<tr class="separator:a8527601b6a5459714c10ec36550b2f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a613eb696bcfc47045f02b63559d55ba7" id="r_a613eb696bcfc47045f02b63559d55ba7"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a613eb696bcfc47045f02b63559d55ba7">idleTaper</a></td></tr>
-<tr class="separator:a613eb696bcfc47045f02b63559d55ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade7b38d1e8feac00386abec2e1fac754" id="r_ade7b38d1e8feac00386abec2e1fac754"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="struct_stepper_idle.html">StepperIdle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ade7b38d1e8feac00386abec2e1fac754">idleStepper</a></td></tr>
-<tr class="separator:ade7b38d1e8feac00386abec2e1fac754"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1524e6afb86c3952d4552e9abe2de8aa" id="r_a1524e6afb86c3952d4552e9abe2de8aa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a1524e6afb86c3952d4552e9abe2de8aa">idleOn</a></td></tr>
-<tr class="separator:a1524e6afb86c3952d4552e9abe2de8aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb2d02db177fc03e46c7f5180791f6b4" id="r_acb2d02db177fc03e46c7f5180791f6b4"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#acb2d02db177fc03e46c7f5180791f6b4">idleInitComplete</a> = 99</td></tr>
-<tr class="separator:acb2d02db177fc03e46c7f5180791f6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e84ca3c94a6cf6b6fe646760f73f8bf" id="r_a5e84ca3c94a6cf6b6fe646760f73f8bf"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a5e84ca3c94a6cf6b6fe646760f73f8bf">iacStepTime_uS</a></td></tr>
-<tr class="separator:a5e84ca3c94a6cf6b6fe646760f73f8bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c83259ad2bf6e2ddfc4eb5a15e70989" id="r_a3c83259ad2bf6e2ddfc4eb5a15e70989"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a3c83259ad2bf6e2ddfc4eb5a15e70989">iacCoolTime_uS</a></td></tr>
-<tr class="separator:a3c83259ad2bf6e2ddfc4eb5a15e70989"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a502e8f4e37a2bfb2e7f11b00ef3443a7" id="r_a502e8f4e37a2bfb2e7f11b00ef3443a7"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a502e8f4e37a2bfb2e7f11b00ef3443a7">completedHomeSteps</a></td></tr>
-<tr class="separator:a502e8f4e37a2bfb2e7f11b00ef3443a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b4b852ecc9711a151cc540864083fe7" id="r_a8b4b852ecc9711a151cc540864083fe7"><td class="memItemLeft" align="right" valign="top">static volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a8b4b852ecc9711a151cc540864083fe7">idle_pwm_state</a></td></tr>
-<tr class="separator:a8b4b852ecc9711a151cc540864083fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21c791535a2ac65fe4cdb0ca79a0600a" id="r_a21c791535a2ac65fe4cdb0ca79a0600a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a21c791535a2ac65fe4cdb0ca79a0600a">lastDFCOValue</a></td></tr>
-<tr class="separator:a21c791535a2ac65fe4cdb0ca79a0600a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e65bd7af4bf32d2ad3d3795ea002d55" id="r_a4e65bd7af4bf32d2ad3d3795ea002d55"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a4e65bd7af4bf32d2ad3d3795ea002d55">idle_pwm_max_count</a></td></tr>
-<tr class="separator:a4e65bd7af4bf32d2ad3d3795ea002d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d6a9734c098c30fceca6b35657ae5cd" id="r_a1d6a9734c098c30fceca6b35657ae5cd"><td class="memItemLeft" align="right" valign="top">static volatile unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a1d6a9734c098c30fceca6b35657ae5cd">idle_pwm_cur_value</a></td></tr>
-<tr class="separator:a1d6a9734c098c30fceca6b35657ae5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae96eb85f79dcc06c0595e7406816cf3d" id="r_ae96eb85f79dcc06c0595e7406816cf3d"><td class="memItemLeft" align="right" valign="top">static int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ae96eb85f79dcc06c0595e7406816cf3d">idle_pid_target_value</a></td></tr>
-<tr class="separator:ae96eb85f79dcc06c0595e7406816cf3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac802eba9c17681ced19314c0b9e973b8" id="r_ac802eba9c17681ced19314c0b9e973b8"><td class="memItemLeft" align="right" valign="top">static int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ac802eba9c17681ced19314c0b9e973b8">FeedForwardTerm</a></td></tr>
-<tr class="separator:ac802eba9c17681ced19314c0b9e973b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad63421cdf7a89ab95c16c695900d288" id="r_aad63421cdf7a89ab95c16c695900d288"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#aad63421cdf7a89ab95c16c695900d288">idle_pwm_target_value</a></td></tr>
-<tr class="separator:aad63421cdf7a89ab95c16c695900d288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab34b1d106ea4134c8279dab573eb6c5a" id="r_ab34b1d106ea4134c8279dab573eb6c5a"><td class="memItemLeft" align="right" valign="top">static int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#ab34b1d106ea4134c8279dab573eb6c5a">idle_cl_target_rpm</a></td></tr>
-<tr class="separator:ab34b1d106ea4134c8279dab573eb6c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd0c29ed583297021d9d2ecf2ad373fb" id="r_acd0c29ed583297021d9d2ecf2ad373fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#acd0c29ed583297021d9d2ecf2ad373fb">idle_pin</a></td></tr>
-<tr class="separator:acd0c29ed583297021d9d2ecf2ad373fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9484dbc4568dea87a9aa41f0ce1fe62b" id="r_a9484dbc4568dea87a9aa41f0ce1fe62b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a9484dbc4568dea87a9aa41f0ce1fe62b">idle2_pin</a></td></tr>
-<tr class="separator:a9484dbc4568dea87a9aa41f0ce1fe62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67fed22ee12d85ed1af631036a11aa4b" id="r_a67fed22ee12d85ed1af631036a11aa4b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="table2d_8h.html#a277c95be0c281127d3cd4afacaec5d60">table2D_u8_u8_10</a> iacPWMTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a67fed22ee12d85ed1af631036a11aa4b">configPage6</a></td></tr>
-<tr class="separator:a67fed22ee12d85ed1af631036a11aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca33e9bbba83da52dec2974d59768d74" id="r_aca33e9bbba83da52dec2974d59768d74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classinteger_p_i_d.html">integerPID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#aca33e9bbba83da52dec2974d59768d74">idlePID</a></td></tr>
-<tr class="separator:aca33e9bbba83da52dec2974d59768d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60bb6d2539f1a4cd55f82356a344c2ad" id="r_a60bb6d2539f1a4cd55f82356a344c2ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structidle_controller_1_1detail_1_1state__t.html">state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a60bb6d2539f1a4cd55f82356a344c2ad">_idleState</a></td></tr>
+<tr class="separator:a60bb6d2539f1a4cd55f82356a344c2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80b9839349001e6a0284eabdd56dfb80" id="r_a80b9839349001e6a0284eabdd56dfb80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="namespaceidle_controller_1_1detail.html#a7c8dcf6cae51633a495cf0e80b3858df">fnCurMicros_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a80b9839349001e6a0284eabdd56dfb80">_idleCurMicros</a> = &amp;micros</td></tr>
+<tr class="separator:a80b9839349001e6a0284eabdd56dfb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bfff415d799d6e05252f6681be61714" id="r_a2bfff415d799d6e05252f6681be61714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a277c95be0c281127d3cd4afacaec5d60">table2D_u8_u8_10</a> iacPWMTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="idle_8cpp.html#a2bfff415d799d6e05252f6681be61714">configPage6</a></td></tr>
+<tr class="separator:a2bfff415d799d6e05252f6681be61714"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a93d48ab90c530af82df4cc6e16dfe660" name="a93d48ab90c530af82df4cc6e16dfe660"></a>
@@ -273,26 +217,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ae818db0cc84bf646086fdd76ce4a2f1c" name="ae818db0cc84bf646086fdd76ce4a2f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae818db0cc84bf646086fdd76ce4a2f1c">&#9670;&#160;</a></span>StepperStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="idle_8cpp.html#ae818db0cc84bf646086fdd76ce4a2f1c">StepperStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502" name="ae818db0cc84bf646086fdd76ce4a2f1ca038158d200366d1825befdac15178502"></a>SOFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6" name="ae818db0cc84bf646086fdd76ce4a2f1cae69ccdc3ac8758552e4149a99a2dc3c6"></a>STEPPING&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696" name="ae818db0cc84bf646086fdd76ce4a2f1ca3b043537875f509fa630e3dfd6360696"></a>COOLING&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad4950572b85c21488743121b0faad081" name="ad4950572b85c21488743121b0faad081"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad4950572b85c21488743121b0faad081">&#9670;&#160;</a></span>calculateIdleLoad()</h2>
@@ -312,7 +236,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="struct_stepper_idle.html">StepperIdle</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">StepperIdle</a> &amp;&#160;</td>
           <td class="paramname"><em>idleState</em>&#160;</td>
         </tr>
         <tr>
@@ -630,7 +554,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_stepper_idle.html">StepperIdle</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">StepperIdle</a> &amp;&#160;</td>
           <td class="paramname"><em>idleState</em>&#160;</td>
         </tr>
         <tr>
@@ -649,30 +573,36 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a502e8f4e37a2bfb2e7f11b00ef3443a7" name="a502e8f4e37a2bfb2e7f11b00ef3443a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a502e8f4e37a2bfb2e7f11b00ef3443a7">&#9670;&#160;</a></span>completedHomeSteps</h2>
+<a id="a80b9839349001e6a0284eabdd56dfb80" name="a80b9839349001e6a0284eabdd56dfb80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80b9839349001e6a0284eabdd56dfb80">&#9670;&#160;</a></span>_idleCurMicros</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int completedHomeSteps</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="namespaceidle_controller_1_1detail.html#a7c8dcf6cae51633a495cf0e80b3858df">fnCurMicros_t</a> _idleCurMicros = &amp;micros</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a67fed22ee12d85ed1af631036a11aa4b" name="a67fed22ee12d85ed1af631036a11aa4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67fed22ee12d85ed1af631036a11aa4b">&#9670;&#160;</a></span>configPage6</h2>
+<a id="a60bb6d2539f1a4cd55f82356a344c2ad" name="a60bb6d2539f1a4cd55f82356a344c2ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60bb6d2539f1a4cd55f82356a344c2ad">&#9670;&#160;</a></span>_idleState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structidle_controller_1_1detail_1_1state__t.html">state_t</a> _idleState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bfff415d799d6e05252f6681be61714" name="a2bfff415d799d6e05252f6681be61714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bfff415d799d6e05252f6681be61714">&#9670;&#160;</a></span>configPage6</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -681,444 +611,12 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> iacCrankDutyTable&amp; configPage6</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#ae82e89f1042b035446110d96543bceb8">TESTABLE_CONSTEXPR</a> <a class="el" href="table2d_8h.html#a4ffd4b9550cfd84b9971fd7fe113df52">table2D_u8_u8_4</a> iacCrankDutyTable&amp; configPage6</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac802eba9c17681ced19314c0b9e973b8" name="ac802eba9c17681ced19314c0b9e973b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac802eba9c17681ced19314c0b9e973b8">&#9670;&#160;</a></span>FeedForwardTerm</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t FeedForwardTerm</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3c83259ad2bf6e2ddfc4eb5a15e70989" name="a3c83259ad2bf6e2ddfc4eb5a15e70989"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c83259ad2bf6e2ddfc4eb5a15e70989">&#9670;&#160;</a></span>iacCoolTime_uS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int iacCoolTime_uS</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5e84ca3c94a6cf6b6fe646760f73f8bf" name="a5e84ca3c94a6cf6b6fe646760f73f8bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e84ca3c94a6cf6b6fe646760f73f8bf">&#9670;&#160;</a></span>iacStepTime_uS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int iacStepTime_uS</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9484dbc4568dea87a9aa41f0ce1fe62b" name="a9484dbc4568dea87a9aa41f0ce1fe62b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9484dbc4568dea87a9aa41f0ce1fe62b">&#9670;&#160;</a></span>idle2_pin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a> idle2_pin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab34b1d106ea4134c8279dab573eb6c5a" name="ab34b1d106ea4134c8279dab573eb6c5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab34b1d106ea4134c8279dab573eb6c5a">&#9670;&#160;</a></span>idle_cl_target_rpm</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t idle_cl_target_rpm</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae96eb85f79dcc06c0595e7406816cf3d" name="ae96eb85f79dcc06c0595e7406816cf3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae96eb85f79dcc06c0595e7406816cf3d">&#9670;&#160;</a></span>idle_pid_target_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int32_t idle_pid_target_value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acd0c29ed583297021d9d2ecf2ad373fb" name="acd0c29ed583297021d9d2ecf2ad373fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd0c29ed583297021d9d2ecf2ad373fb">&#9670;&#160;</a></span>idle_pin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classfast_output_pin__t.html">fastOutputPin_t</a> idle_pin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1d6a9734c098c30fceca6b35657ae5cd" name="a1d6a9734c098c30fceca6b35657ae5cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d6a9734c098c30fceca6b35657ae5cd">&#9670;&#160;</a></span>idle_pwm_cur_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile unsigned int idle_pwm_cur_value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4e65bd7af4bf32d2ad3d3795ea002d55" name="a4e65bd7af4bf32d2ad3d3795ea002d55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e65bd7af4bf32d2ad3d3795ea002d55">&#9670;&#160;</a></span>idle_pwm_max_count</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t idle_pwm_max_count</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b4b852ecc9711a151cc540864083fe7" name="a8b4b852ecc9711a151cc540864083fe7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b4b852ecc9711a151cc540864083fe7">&#9670;&#160;</a></span>idle_pwm_state</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">volatile bool idle_pwm_state</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aad63421cdf7a89ab95c16c695900d288" name="aad63421cdf7a89ab95c16c695900d288"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad63421cdf7a89ab95c16c695900d288">&#9670;&#160;</a></span>idle_pwm_target_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t idle_pwm_target_value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8527601b6a5459714c10ec36550b2f93" name="a8527601b6a5459714c10ec36550b2f93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8527601b6a5459714c10ec36550b2f93">&#9670;&#160;</a></span>idleCounter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t idleCounter</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acb2d02db177fc03e46c7f5180791f6b4" name="acb2d02db177fc03e46c7f5180791f6b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb2d02db177fc03e46c7f5180791f6b4">&#9670;&#160;</a></span>idleInitComplete</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t idleInitComplete = 99</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1524e6afb86c3952d4552e9abe2de8aa" name="a1524e6afb86c3952d4552e9abe2de8aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1524e6afb86c3952d4552e9abe2de8aa">&#9670;&#160;</a></span>idleOn</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool idleOn</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca33e9bbba83da52dec2974d59768d74" name="aca33e9bbba83da52dec2974d59768d74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca33e9bbba83da52dec2974d59768d74">&#9670;&#160;</a></span>idlePID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classinteger_p_i_d.html">integerPID</a> idlePID</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade7b38d1e8feac00386abec2e1fac754" name="ade7b38d1e8feac00386abec2e1fac754"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade7b38d1e8feac00386abec2e1fac754">&#9670;&#160;</a></span>idleStepper</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="struct_stepper_idle.html">StepperIdle</a> idleStepper</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a613eb696bcfc47045f02b63559d55ba7" name="a613eb696bcfc47045f02b63559d55ba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a613eb696bcfc47045f02b63559d55ba7">&#9670;&#160;</a></span>idleTaper</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t idleTaper</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1ce6073247ed24c043504a50e2153c1c" name="a1ce6073247ed24c043504a50e2153c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ce6073247ed24c043504a50e2153c1c">&#9670;&#160;</a></span>idleUpOutputHIGH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t idleUpOutputHIGH = HIGH</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae4afa2c50c67abc4ead94036a156a27d" name="ae4afa2c50c67abc4ead94036a156a27d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4afa2c50c67abc4ead94036a156a27d">&#9670;&#160;</a></span>idleUpOutputLOW</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t idleUpOutputLOW = LOW</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a21c791535a2ac65fe4cdb0ca79a0600a" name="a21c791535a2ac65fe4cdb0ca79a0600a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21c791535a2ac65fe4cdb0ca79a0600a">&#9670;&#160;</a></span>lastDFCOValue</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool lastDFCOValue</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

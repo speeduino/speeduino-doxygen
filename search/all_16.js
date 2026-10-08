@@ -3,7 +3,7 @@ var searchData=
   ['last_5flookup_0',['last_lookup',['../structtable3_d_get_value_cache.html#a076e2c179f5671edc576e628e309e537',1,'table3DGetValueCache']]],
   ['last_5ftooth_5frev_5fcalculator_5ft_1',['last_tooth_rev_calculator_t',['../structlast__tooth__rev__calculator__t.html',1,'last_tooth_rev_calculator_t'],['../structlast__tooth__rev__calculator__t.html#abfb81539d57433619b1c84b6ee1f6417',1,'last_tooth_rev_calculator_t::last_tooth_rev_calculator_t(uint32_t toothLastToothTime)'],['../structlast__tooth__rev__calculator__t.html#aa4f01343e6399694a6930e7c7585fe40',1,'last_tooth_rev_calculator_t::last_tooth_rev_calculator_t()=default']]],
   ['lastbinmax_2',['lastBinMax',['../structtable3_d_get_value_cache.html#a4ce185c1c30b78cec1cf304c819da1f5',1,'table3DGetValueCache']]],
-  ['lastdfcovalue_3',['lastDFCOValue',['../idle_8cpp.html#a21c791535a2ac65fe4cdb0ca79a0600a',1,'idle.cpp']]],
+  ['lastdfcovalue_3',['lastDFCOValue',['../structidle_controller_1_1detail_1_1state__t.html#af133eb6512ddb82f2425f1dba7a402d7',1,'idleController::detail::state_t']]],
   ['lastgap_4',['lastGap',['../decoders_8cpp.html#a6c79b70e0eb86cd98ddf348af152c761',1,'decoders.cpp']]],
   ['lastoutput_5',['lastOutput',['../structtable3_d_get_value_cache.html#af442e86e1bcff6718def849264ef1e42',1,'table3DGetValueCache']]],
   ['lastrpm_5f100ms_6',['lastRPM_100ms',['../timers_8cpp.html#a62308a8f5625eee6429f4ffd7198071c',1,'timers.cpp']]],
