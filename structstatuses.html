@@ -98,9 +98,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e22aac79af24604c47c30f68408f9d0" id="r_a5e22aac79af24604c47c30f68408f9d0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a5e22aac79af24604c47c30f68408f9d0">statuses</a> (void)</td></tr>
 <tr class="memdesc:a5e22aac79af24604c47c30f68408f9d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default construct.  <br /></td></tr>
 <tr class="separator:a5e22aac79af24604c47c30f68408f9d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6cd9bff380c4f78456ed5406214229" id="r_a7f6cd9bff380c4f78456ed5406214229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a7f6cd9bff380c4f78456ed5406214229">setRpm</a> (uint16_t rpm)</td></tr>
-<tr class="memdesc:a7f6cd9bff380c4f78456ed5406214229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the RPM field, keeping RPMDiv100 in sync.  <br /></td></tr>
-<tr class="separator:a7f6cd9bff380c4f78456ed5406214229"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b9befd31d6f84932f3b3e77152f2f7" id="r_a55b9befd31d6f84932f3b3e77152f2f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a55b9befd31d6f84932f3b3e77152f2f7">setRevolutionTime</a> (uint32_t revTime)</td></tr>
 <tr class="memdesc:a55b9befd31d6f84932f3b3e77152f2f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the crank revolution time &amp; the values derived from it.  <br /></td></tr>
 <tr class="separator:a55b9befd31d6f84932f3b3e77152f2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -479,7 +476,7 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Set the crank revolution time &amp; the values derived from it. </p>
-<p>Keeps the following in sync:</p><ul>
+<p>This is the single point at which the engine speed is updated. It keeps the following in sync:</p><ul>
 <li>revolutionTime</li>
 <li>RPM &amp; RPMdiv100</li>
 <li>The crank angle&lt;-&gt;time conversion factors (see <a class="el" href="crank_maths_8cpp.html#ad33ce8c5351518aac2d24e90f49fce4b" title="Set the revolution time, from which some of the degree&lt;--&gt;angle conversions are derived.">setAngleConverterRevolutionTime()</a>)</li>
@@ -487,32 +484,6 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">revTime</td><td>The time in µS that one crank revolution takes at the current speed. Zero means the engine speed is unknown (E.g. the engine has stopped): RPM will be zero and the angle&lt;-&gt;time conversion factors are left unchanged. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a7f6cd9bff380c4f78456ed5406214229" name="a7f6cd9bff380c4f78456ed5406214229"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f6cd9bff380c4f78456ed5406214229">&#9670;&#160;</a></span>setRpm()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void statuses::setRpm </td>
-          <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>rpm</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set the RPM field, keeping RPMDiv100 in sync. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">rpm</td><td></td></tr>
   </table>
   </dd>
 </dl>

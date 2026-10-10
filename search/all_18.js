@@ -59,7 +59,7 @@ var searchData=
   ['nullengineisrunning_56',['nullEngineIsRunning',['../decoder__builder_8cpp.html#a7e0973edfe3da043b0da1e511fa31830',1,'decoder_builder.cpp']]],
   ['nullgetcrankangle_57',['nullGetCrankAngle',['../decoder__builder_8cpp.html#a052c06187e6d2e0fbda03a3005e06f8f',1,'decoder_builder.cpp']]],
   ['nullgetfeatures_58',['nullGetFeatures',['../decoder__builder_8cpp.html#a870ce5bd5768bbc29af36606c6afd79d',1,'decoder_builder.cpp']]],
-  ['nullgetrpm_59',['nullGetRPM',['../decoder__builder_8cpp.html#a0a5e253861c4fc68d3f0379cf3591bfe',1,'decoder_builder.cpp']]],
+  ['nullgetrevolutiontime_59',['nullGetRevolutionTime',['../decoder__builder_8cpp.html#a03f0b03266beba71745b354419716cfb',1,'decoder_builder.cpp']]],
   ['nullgetstatus_60',['nullGetStatus',['../decoder__builder_8cpp.html#ab88da84a5579b9e279766079dd4c2265',1,'decoder_builder.cpp']]],
   ['nulltriggerhandler_61',['nullTriggerHandler',['../decoder__builder_8cpp.html#a99de80f2e1dfc81a876eb810bbca7a5a',1,'decoder_builder.cpp']]],
   ['num_5finjector_5ft_62',['num_injector_t',['../structnum__injector__t.html',1,'']]]

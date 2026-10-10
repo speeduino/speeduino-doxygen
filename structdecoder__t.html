@@ -100,12 +100,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a562b99bed0f7a662c94227d50dc2c441" id="r_a562b99bed0f7a662c94227d50dc2c441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structinterrupt__t.html">interrupt_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#a562b99bed0f7a662c94227d50dc2c441">tertiary</a></td></tr>
 <tr class="memdesc:a562b99bed0f7a662c94227d50dc2c441"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tertiary interrupt configuration - for decoders that use a 3rd input. E.g. VVT.  <br /></td></tr>
 <tr class="separator:a562b99bed0f7a662c94227d50dc2c441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31bc3f02806396344cab0738730b1c91" id="r_a31bc3f02806396344cab0738730b1c91"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#a31bc3f02806396344cab0738730b1c91">getRPM_t</a> = uint16_t(*)(void)</td></tr>
-<tr class="memdesc:a31bc3f02806396344cab0738730b1c91"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to get the RPM.  <br /></td></tr>
-<tr class="separator:a31bc3f02806396344cab0738730b1c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710bf94a4b4c119d3e8810da578ef08c" id="r_a710bf94a4b4c119d3e8810da578ef08c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html#a31bc3f02806396344cab0738730b1c91">getRPM_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#a710bf94a4b4c119d3e8810da578ef08c">getRPM</a></td></tr>
-<tr class="memdesc:a710bf94a4b4c119d3e8810da578ef08c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to get the RPM.  <br /></td></tr>
-<tr class="separator:a710bf94a4b4c119d3e8810da578ef08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af101b396cb3775d7a0fc84cdc9afbaf9" id="r_af101b396cb3775d7a0fc84cdc9afbaf9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#af101b396cb3775d7a0fc84cdc9afbaf9">getRevolutionTime_t</a> = uint32_t(*)(void)</td></tr>
+<tr class="memdesc:af101b396cb3775d7a0fc84cdc9afbaf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to get the current crank revolution time.  <br /></td></tr>
+<tr class="separator:af101b396cb3775d7a0fc84cdc9afbaf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9f1cce1e7f34986d7100db484cbce9c" id="r_ac9f1cce1e7f34986d7100db484cbce9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html#af101b396cb3775d7a0fc84cdc9afbaf9">getRevolutionTime_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#ac9f1cce1e7f34986d7100db484cbce9c">getRevolutionTime</a></td></tr>
+<tr class="memdesc:ac9f1cce1e7f34986d7100db484cbce9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to get the current crank revolution time.  <br /></td></tr>
+<tr class="separator:ac9f1cce1e7f34986d7100db484cbce9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14dd13f774de819f2ad82079a254b2ae" id="r_a14dd13f774de819f2ad82079a254b2ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoder__t.html#a14dd13f774de819f2ad82079a254b2ae">getCrankAngle_t</a> = int16_t(*)(uint32_t)</td></tr>
 <tr class="memdesc:a14dd13f774de819f2ad82079a254b2ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">The function to get the crank angle.  <br /></td></tr>
 <tr class="separator:a14dd13f774de819f2ad82079a254b2ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,19 +205,21 @@ false If the engine is not turning </dd></dl>
 
 </div>
 </div>
-<a id="a31bc3f02806396344cab0738730b1c91" name="a31bc3f02806396344cab0738730b1c91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31bc3f02806396344cab0738730b1c91">&#9670;&#160;</a></span>getRPM_t</h2>
+<a id="af101b396cb3775d7a0fc84cdc9afbaf9" name="af101b396cb3775d7a0fc84cdc9afbaf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af101b396cb3775d7a0fc84cdc9afbaf9">&#9670;&#160;</a></span>getRevolutionTime_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structdecoder__t.html#a31bc3f02806396344cab0738730b1c91">decoder_t::getRPM_t</a> =  uint16_t(*)(void)</td>
+          <td class="memname">using <a class="el" href="structdecoder__t.html#af101b396cb3775d7a0fc84cdc9afbaf9">decoder_t::getRevolutionTime_t</a> =  uint32_t(*)(void)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The function to get the RPM. </p>
+<p>The function to get the current crank revolution time. </p>
+<p>This is the time in µS that one crank revolution would take at the current speed, as measured by the decoder. RPM is derived from this (see <a class="el" href="structstatuses.html#a55b9befd31d6f84932f3b3e77152f2f7" title="Set the crank revolution time &amp; the values derived from it.">statuses::setRevolutionTime()</a>).</p>
+<dl class="section return"><dt>Returns</dt><dd>The revolution time in µS, or 0 if the engine speed is unknown (E.g. no sync). If the decoder can't take a new measurement (E.g. no tooth history yet), it can return the current <a class="el" href="structstatuses.html#a1c3243ef635c145798da6e3bf3693024">statuses::revolutionTime</a> to keep the last known speed. </dd></dl>
 
 </div>
 </div>
@@ -315,19 +317,21 @@ false If the engine is not turning </dd></dl>
 
 </div>
 </div>
-<a id="a710bf94a4b4c119d3e8810da578ef08c" name="a710bf94a4b4c119d3e8810da578ef08c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710bf94a4b4c119d3e8810da578ef08c">&#9670;&#160;</a></span>getRPM</h2>
+<a id="ac9f1cce1e7f34986d7100db484cbce9c" name="ac9f1cce1e7f34986d7100db484cbce9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9f1cce1e7f34986d7100db484cbce9c">&#9670;&#160;</a></span>getRevolutionTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structdecoder__t.html#a31bc3f02806396344cab0738730b1c91">getRPM_t</a> decoder_t::getRPM</td>
+          <td class="memname"><a class="el" href="structdecoder__t.html#af101b396cb3775d7a0fc84cdc9afbaf9">getRevolutionTime_t</a> decoder_t::getRevolutionTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>The function to get the RPM. </p>
+<p>The function to get the current crank revolution time. </p>
+<p>This is the time in µS that one crank revolution would take at the current speed, as measured by the decoder. RPM is derived from this (see <a class="el" href="structstatuses.html#a55b9befd31d6f84932f3b3e77152f2f7" title="Set the crank revolution time &amp; the values derived from it.">statuses::setRevolutionTime()</a>).</p>
+<dl class="section return"><dt>Returns</dt><dd>The revolution time in µS, or 0 if the engine speed is unknown (E.g. no sync). If the decoder can't take a new measurement (E.g. no tooth history yet), it can return the current <a class="el" href="structstatuses.html#a1c3243ef635c145798da6e3bf3693024">statuses::revolutionTime</a> to keep the last known speed. </dd></dl>
 
 </div>
 </div>
