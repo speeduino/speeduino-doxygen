@@ -141,6 +141,8 @@ Functions</h2></td></tr>
 <tr class="separator:acf75ddd1f94d2a2fa560b41d3b8dfad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df19c205ccf82f57cd0f2750f2d8699" id="r_a8df19c205ccf82f57cd0f2750f2d8699"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#a8df19c205ccf82f57cd0f2750f2d8699">onPowerSourceSwitch</a> (uint8_t originalBatteryVoltage, const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
 <tr class="separator:a8df19c205ccf82f57cd0f2750f2d8699"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5933dfa2df5815f221fe62c14cfd0474" id="r_a5933dfa2df5815f221fe62c14cfd0474"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#a5933dfa2df5815f221fe62c14cfd0474">updateTimingTracking</a> (void)</td></tr>
+<tr class="separator:a5933dfa2df5815f221fe62c14cfd0474"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab2144d627465c54a1edaaf228daf884" id="r_aab2144d627465c54a1edaaf228daf884"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#aab2144d627465c54a1edaaf228daf884">BEGIN_LTO_ALWAYS_INLINE</a> (void) loop(void)</td></tr>
 <tr class="separator:aab2144d627465c54a1edaaf228daf884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -148,6 +150,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aaa80149e9b844c93bce371386b2beb6e" id="r_aaa80149e9b844c93bce371386b2beb6e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="table2d_8h.html#a277c95be0c281127d3cd4afacaec5d60">table2D_u8_u8_10</a> idleTargetTable &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#aaa80149e9b844c93bce371386b2beb6e">configPage6</a></td></tr>
 <tr class="separator:aaa80149e9b844c93bce371386b2beb6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a3197de230b9015fbaa163616c75e8" id="r_af1a3197de230b9015fbaa163616c75e8"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="speeduino_8ino.html#af1a3197de230b9015fbaa163616c75e8">mainLoopCount</a> = 0</td></tr>
+<tr class="separator:af1a3197de230b9015fbaa163616c75e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Speeduino initialisation and main loop. </p>
@@ -359,6 +363,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5933dfa2df5815f221fe62c14cfd0474" name="a5933dfa2df5815f221fe62c14cfd0474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5933dfa2df5815f221fe62c14cfd0474">&#9670;&#160;</a></span>updateTimingTracking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void updateTimingTracking </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="aaa80149e9b844c93bce371386b2beb6e" name="aaa80149e9b844c93bce371386b2beb6e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaa80149e9b844c93bce371386b2beb6e">&#9670;&#160;</a></span>configPage6</h2>
@@ -376,6 +406,28 @@ Variables</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a3197de230b9015fbaa163616c75e8" name="af1a3197de230b9015fbaa163616c75e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a3197de230b9015fbaa163616c75e8">&#9670;&#160;</a></span>mainLoopCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t mainLoopCount = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

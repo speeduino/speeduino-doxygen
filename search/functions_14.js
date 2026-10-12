@@ -16,13 +16,14 @@ var searchData=
   ['updatepwanglecache_13',['updatePwAngleCache',['../scheduler__fuel__controller_8cpp.html#a2eff440d3aa4db7091accce3d48f6587',1,'scheduler_fuel_controller.cpp']]],
   ['updatestatus_14',['updateStatus',['../structprogrammable_i_o_control__details_1_1channel__state__t.html#aa8595ffd6626eec5d5e7e6fb1147db09',1,'programmableIOControl_details::channel_state_t']]],
   ['updatetableu16tou8_15',['updateTableU16toU8',['../updates_8cpp.html#a31c0bff6c6be529af519af8f8fe6acb6',1,'updates.cpp']]],
-  ['updatevvtduty_16',['updateVvtDuty',['../vvt_controller_8cpp.html#a33364141d5c531ad506cea39aa6b36a4',1,'vvtController.cpp']]],
-  ['updatevvtdutycl_17',['updateVvtDutyCl',['../vvt_controller_8cpp.html#af431b5d0df6af37776760ff826437cfb',1,'vvtController.cpp']]],
-  ['updatevvtdutyol_18',['updateVvtDutyOl',['../vvt_controller_8cpp.html#a5301c4b4372394b058f917fb052fdeb3',1,'vvtController.cpp']]],
-  ['updatevvtdutyonoff_19',['updateVvtDutyOnOff',['../vvt_controller_8cpp.html#ae015590d25e59d3aa3264b7a68a018a8',1,'vvtController.cpp']]],
-  ['upgradev25tov26_20',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]],
-  ['upgradev26tov27_21',['upgradeV26toV27',['../updates_8cpp.html#abc503a7c257fa57eea3a2e02dfff721d',1,'updates.cpp']]],
-  ['us_5fto_5ftimer_5fcompare_22',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]],
-  ['useevenfire_23',['useEvenFire',['../scheduler__fuel__controller_8cpp.html#a0b0786bee7c5c28c9e132383aa21e126',1,'scheduler_fuel_controller.cpp']]],
-  ['userollingcut_24',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]]
+  ['updatetimingtracking_16',['updateTimingTracking',['../speeduino_8ino.html#a5933dfa2df5815f221fe62c14cfd0474',1,'speeduino.ino']]],
+  ['updatevvtduty_17',['updateVvtDuty',['../vvt_controller_8cpp.html#a33364141d5c531ad506cea39aa6b36a4',1,'vvtController.cpp']]],
+  ['updatevvtdutycl_18',['updateVvtDutyCl',['../vvt_controller_8cpp.html#af431b5d0df6af37776760ff826437cfb',1,'vvtController.cpp']]],
+  ['updatevvtdutyol_19',['updateVvtDutyOl',['../vvt_controller_8cpp.html#a5301c4b4372394b058f917fb052fdeb3',1,'vvtController.cpp']]],
+  ['updatevvtdutyonoff_20',['updateVvtDutyOnOff',['../vvt_controller_8cpp.html#ae015590d25e59d3aa3264b7a68a018a8',1,'vvtController.cpp']]],
+  ['upgradev25tov26_21',['upgradeV25toV26',['../updates_8cpp.html#a4a744bd4677d2c1cb0d3cd2a6095ffe1',1,'updates.cpp']]],
+  ['upgradev26tov27_22',['upgradeV26toV27',['../updates_8cpp.html#abc503a7c257fa57eea3a2e02dfff721d',1,'updates.cpp']]],
+  ['us_5fto_5ftimer_5fcompare_23',['us_to_timer_compare',['../board__avr2560_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_avr2560.h'],['../board__stm32__official_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_stm32_official.h'],['../board__teensy35_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy35.h'],['../board__teensy41_8h.html#af4f4abf52802a1a8c3937a4bceeda204',1,'uS_TO_TIMER_COMPARE(uint32_t micros):&#160;board_teensy41.h']]],
+  ['useevenfire_24',['useEvenFire',['../scheduler__fuel__controller_8cpp.html#a0b0786bee7c5c28c9e132383aa21e126',1,'scheduler_fuel_controller.cpp']]],
+  ['userollingcut_25',['useRollingCut',['../engine_protection_8cpp.html#a71fa9ff611225ee44ed4562e4eda7858',1,'engineProtection.cpp']]]
 ];

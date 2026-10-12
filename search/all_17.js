@@ -5,7 +5,7 @@ var searchData=
   ['maeminchange_2',['maeMinChange',['../structconfig2.html#a27eec7c58b8f13f15118a5ed5800b070',1,'config2']]],
   ['maerates_3',['maeRates',['../structconfig4.html#a4f820547aaea5a3c94790bcc952edc92',1,'config4']]],
   ['maethresh_4',['maeThresh',['../structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1',1,'config2']]],
-  ['mainloopcount_5',['mainloopcount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount:&#160;globals.cpp'],['../globals_8cpp.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount:&#160;globals.cpp']]],
+  ['mainloopcount_5',['mainLoopCount',['../speeduino_8ino.html#af1a3197de230b9015fbaa163616c75e8',1,'speeduino.ino']]],
   ['makeentity_6',['makeentity',['../pages_8cpp.html#a36a4baf5b42fdec89e7b39a6bfbda7e8',1,'makeEntity(uint16_t entitySize):&#160;pages.cpp'],['../pages_8cpp.html#a77b8beee6a382797f43b95cd56faee76',1,'makeEntity(config_page_t *pEntity, uint16_t entitySize):&#160;pages.cpp'],['../pages_8cpp.html#a1a16aac7e71cfa5bea09ea6b1a8ba0a9',1,'makeEntity(table_t *pTable):&#160;pages.cpp']]],
   ['map_7',['map',['../structstatuses.html#a278733298607353de273da8725c0cea4',1,'statuses::MAP'],['../units_8h.html#a26eb6b5d8de98dd063872c631237e62d',1,'MAP:&#160;units.h']]],
   ['map_5fdot_8',['MAP_DOT',['../units_8h.html#a8f87ddee250cc26f3afa5b013af031d6',1,'units.h']]],

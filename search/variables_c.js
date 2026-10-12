@@ -4,7 +4,7 @@ var searchData=
   ['maeminchange_1',['maeMinChange',['../structconfig2.html#a27eec7c58b8f13f15118a5ed5800b070',1,'config2']]],
   ['maerates_2',['maeRates',['../structconfig4.html#a4f820547aaea5a3c94790bcc952edc92',1,'config4']]],
   ['maethresh_3',['maeThresh',['../structconfig2.html#a95fdd220ad72f16cf7249aa3555459a1',1,'config2']]],
-  ['mainloopcount_4',['mainloopcount',['../globals_8h.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount:&#160;globals.cpp'],['../globals_8cpp.html#ad44f3f762f2000a037d22c24424c70e7',1,'mainLoopCount:&#160;globals.cpp']]],
+  ['mainloopcount_4',['mainLoopCount',['../speeduino_8ino.html#af1a3197de230b9015fbaa163616c75e8',1,'speeduino.ino']]],
   ['map_5',['map',['../structstatuses.html#a278733298607353de273da8725c0cea4',1,'statuses::MAP'],['../units_8h.html#a26eb6b5d8de98dd063872c631237e62d',1,'MAP:&#160;units.h']]],
   ['map_5fdot_6',['MAP_DOT',['../units_8h.html#a8f87ddee250cc26f3afa5b013af031d6',1,'units.h']]],
   ['mapalgorithmstate_7',['mapAlgorithmState',['../sensors_8cpp.html#a5ebf78908b3a049379fb372b48d51cd3',1,'sensors.cpp']]],
