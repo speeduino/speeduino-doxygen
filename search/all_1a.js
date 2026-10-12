@@ -111,7 +111,7 @@ var searchData=
   ['pressure_108',['PRESSURE',['../units_8h.html#ad8b33d54147209f7211ff8f3139d2bd2',1,'units.h']]],
   ['preventalways_109',['PreventAlways',['../reset_control_8h.html#adb2d2ac342d8c046fd408d3410c29d7ba01d2e15f2b3db15660186f19b89c9273',1,'resetControl.h']]],
   ['preventwhenrunning_110',['PreventWhenRunning',['../reset_control_8h.html#adb2d2ac342d8c046fd408d3410c29d7ba8dd891a3fd33cea5125355881a9cd436',1,'resetControl.h']]],
-  ['previousclutchtrigger_111',['previousClutchTrigger',['../structstatuses.html#a8a0ca9ebf8440cd1a978a3d326558eda',1,'statuses']]],
+  ['previousclutchtrigger_111',['previousClutchTrigger',['../structlaunch_status__t.html#a11833dbd5105af644cc130f5099f76b2',1,'launchStatus_t']]],
   ['prevtoothonetime_112',['prevToothOneTime',['../structtooth__speed__sample__t.html#a59350c6f656c424dde92e4a7d59b2c5f',1,'tooth_speed_sample_t']]],
   ['prevtoothtime_113',['prevToothTime',['../structtooth__speed__sample__t.html#a475c8d7b3ddef012021edb97e20d13f0',1,'tooth_speed_sample_t']]],
   ['primary_114',['primary',['../structnum__injector__t.html#a573319f188fdb25c4ce3d551f19803de',1,'num_injector_t::primary'],['../structpulse_widths.html#a9d3e7080ffa1d98815ecb80483affb2a',1,'pulseWidths::primary'],['../structdecoder__t.html#aab064bfbee4f4f0143925e209011f8f9',1,'decoder_t::primary']]],

@@ -75,31 +75,52 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">launchController.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="launch_controller_8h_source.html">launchController.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="units_8h_source.html">../../../units.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="input_pin_8h_source.html">src/pins/inputPin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bit__manip_8h_source.html">bit_manip.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2cfdbe51c371f1a9387cc9fd69a89ad3" id="r_a2cfdbe51c371f1a9387cc9fd69a89ad3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a2cfdbe51c371f1a9387cc9fd69a89ad3">updateClutchState</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, uint8_t launchPin, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
-<tr class="separator:a2cfdbe51c371f1a9387cc9fd69a89ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f59121c6ada0f789372a2974b5189a" id="r_a92f59121c6ada0f789372a2974b5189a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a92f59121c6ada0f789372a2974b5189a">initialiseLaunchControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;<a class="el" href="scheduled_i_o__direct__ign_8cpp.html#ae27f1939b8b7a2cf244287c93f9e261a">pins</a>)</td></tr>
+<tr class="separator:a92f59121c6ada0f789372a2974b5189a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c765e1f7a87f7b9313d59a9b858060d" id="r_a1c765e1f7a87f7b9313d59a9b858060d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a1c765e1f7a87f7b9313d59a9b858060d">updateClutchState</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:a1c765e1f7a87f7b9313d59a9b858060d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50109d5a03d6d089262a2562a8e5d3f6" id="r_a50109d5a03d6d089262a2562a8e5d3f6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a50109d5a03d6d089262a2562a8e5d3f6">isLaunchArmed</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:a50109d5a03d6d089262a2562a8e5d3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a898f565fd4866a66dd8d0dc94da047" id="r_a1a898f565fd4866a66dd8d0dc94da047"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a1a898f565fd4866a66dd8d0dc94da047">isFlatShiftActive</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:a1a898f565fd4866a66dd8d0dc94da047"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7294f2394498fc8fd944437940c4e2" id="r_a5a7294f2394498fc8fd944437940c4e2"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a5a7294f2394498fc8fd944437940c4e2">getHardCutRpmLimit</a> (uint16_t baseRpm, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
 <tr class="separator:a5a7294f2394498fc8fd944437940c4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55af936a96766b823bed667365c3870c" id="r_a55af936a96766b823bed667365c3870c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a55af936a96766b823bed667365c3870c">withinLaunchSpeedLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:a55af936a96766b823bed667365c3870c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ef00643c6d7009f9e424933b27535dd" id="r_a6ef00643c6d7009f9e424933b27535dd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a6ef00643c6d7009f9e424933b27535dd">aboveLaunchRpmLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
-<tr class="separator:a6ef00643c6d7009f9e424933b27535dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d06895494c06f9d4d6213b9b16aad0" id="r_a72d06895494c06f9d4d6213b9b16aad0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a72d06895494c06f9d4d6213b9b16aad0">checkLaunchAndFlatShift</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, uint8_t launchPin, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
-<tr class="separator:a72d06895494c06f9d4d6213b9b16aad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3f47fa88d01989a568fcda62aad2582" id="r_ae3f47fa88d01989a568fcda62aad2582"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#ae3f47fa88d01989a568fcda62aad2582">aboveHardLaunchRpmLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:ae3f47fa88d01989a568fcda62aad2582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7f5a58c138bbc3bc3fe088951298fe" id="r_a4b7f5a58c138bbc3bc3fe088951298fe"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a4b7f5a58c138bbc3bc3fe088951298fe">aboveSoftLaunchRpmLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:a4b7f5a58c138bbc3bc3fe088951298fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd989499623a0f0cefd05159f7c738dc" id="r_abd989499623a0f0cefd05159f7c738dc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#abd989499623a0f0cefd05159f7c738dc">aboveFlatShiftHardRpmLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:abd989499623a0f0cefd05159f7c738dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9bf92204d25264b4dd34d1624d95dd3" id="r_ac9bf92204d25264b4dd34d1624d95dd3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#ac9bf92204d25264b4dd34d1624d95dd3">aboveFlatShiftSoftRpmLimit</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>)</td></tr>
+<tr class="separator:ac9bf92204d25264b4dd34d1624d95dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5875dfdc27730da533769ddeedcb1f6" id="r_ae5875dfdc27730da533769ddeedcb1f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#ae5875dfdc27730da533769ddeedcb1f6">updateLaunchFlagsCore</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:ae5875dfdc27730da533769ddeedcb1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeccfe03282290f9b94cc1b083bdd835" id="r_abeccfe03282290f9b94cc1b083bdd835"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#abeccfe03282290f9b94cc1b083bdd835">updateLaunchAndFlatShift</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig2.html">config2</a> &amp;<a class="el" href="engine_protection_8cpp.html#a428f336e2618f8293663468b80230dcc">page2</a>, const <a class="el" href="structconfig6.html">config6</a> &amp;<a class="el" href="engine_protection_8cpp.html#a7d0ca59283f91ea1c2bbc17dca7562ab">page6</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>, const <a class="el" href="structconfig15.html">config15</a> &amp;page15)</td></tr>
+<tr class="separator:abeccfe03282290f9b94cc1b083bdd835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a4dc3ac29cd37049b3eb37dda7fe1a525" id="r_a4dc3ac29cd37049b3eb37dda7fe1a525"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinput_pin__t.html">inputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="launch_controller_8cpp.html#a4dc3ac29cd37049b3eb37dda7fe1a525">launchPin</a></td></tr>
+<tr class="separator:a4dc3ac29cd37049b3eb37dda7fe1a525"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6ef00643c6d7009f9e424933b27535dd" name="a6ef00643c6d7009f9e424933b27535dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ef00643c6d7009f9e424933b27535dd">&#9670;&#160;</a></span>aboveLaunchRpmLimit()</h2>
+<a id="abd989499623a0f0cefd05159f7c738dc" name="abd989499623a0f0cefd05159f7c738dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd989499623a0f0cefd05159f7c738dc">&#9670;&#160;</a></span>aboveFlatShiftHardRpmLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -108,7 +129,85 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool aboveLaunchRpmLimit </td>
+          <td class="memname">static bool aboveFlatShiftHardRpmLimit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9bf92204d25264b4dd34d1624d95dd3" name="ac9bf92204d25264b4dd34d1624d95dd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9bf92204d25264b4dd34d1624d95dd3">&#9670;&#160;</a></span>aboveFlatShiftSoftRpmLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool aboveFlatShiftSoftRpmLimit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3f47fa88d01989a568fcda62aad2582" name="ae3f47fa88d01989a568fcda62aad2582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3f47fa88d01989a568fcda62aad2582">&#9670;&#160;</a></span>aboveHardLaunchRpmLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool aboveHardLaunchRpmLimit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
@@ -146,47 +245,26 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a72d06895494c06f9d4d6213b9b16aad0" name="a72d06895494c06f9d4d6213b9b16aad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72d06895494c06f9d4d6213b9b16aad0">&#9670;&#160;</a></span>checkLaunchAndFlatShift()</h2>
+<a id="a4b7f5a58c138bbc3bc3fe088951298fe" name="a4b7f5a58c138bbc3bc3fe088951298fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b7f5a58c138bbc3bc3fe088951298fe">&#9670;&#160;</a></span>aboveSoftLaunchRpmLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void checkLaunchAndFlatShift </td>
+          <td class="memname">static bool aboveSoftLaunchRpmLimit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>launchPin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
-          <td class="paramname"><em>page2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
-          <td class="paramname"><em>page6</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
-          <td class="paramname"><em>page10</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
-          <td class="paramname"><em>page15</em>&#160;</td>
+          <td class="paramname"><em>page6</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -194,6 +272,11 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -224,6 +307,76 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
           <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92f59121c6ada0f789372a2974b5189a" name="a92f59121c6ada0f789372a2974b5189a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f59121c6ada0f789372a2974b5189a">&#9670;&#160;</a></span>initialiseLaunchControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initialiseLaunchControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structpin_numbers__t.html">pinNumbers_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>pins</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1a898f565fd4866a66dd8d0dc94da047" name="a1a898f565fd4866a66dd8d0dc94da047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a898f565fd4866a66dd8d0dc94da047">&#9670;&#160;</a></span>isFlatShiftActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isFlatShiftActive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -282,8 +435,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2cfdbe51c371f1a9387cc9fd69a89ad3" name="a2cfdbe51c371f1a9387cc9fd69a89ad3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cfdbe51c371f1a9387cc9fd69a89ad3">&#9670;&#160;</a></span>updateClutchState()</h2>
+<a id="a1c765e1f7a87f7b9313d59a9b858060d" name="a1c765e1f7a87f7b9313d59a9b858060d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c765e1f7a87f7b9313d59a9b858060d">&#9670;&#160;</a></span>updateClutchState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -296,12 +449,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
           <td class="paramname"><em>current</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>launchPin</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -320,6 +467,98 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeccfe03282290f9b94cc1b083bdd835" name="abeccfe03282290f9b94cc1b083bdd835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeccfe03282290f9b94cc1b083bdd835">&#9670;&#160;</a></span>updateLaunchAndFlatShift()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void updateLaunchAndFlatShift </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5875dfdc27730da533769ddeedcb1f6" name="ae5875dfdc27730da533769ddeedcb1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5875dfdc27730da533769ddeedcb1f6">&#9670;&#160;</a></span>updateLaunchFlagsCore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void updateLaunchFlagsCore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig2.html">config2</a> &amp;&#160;</td>
+          <td class="paramname"><em>page2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig6.html">config6</a> &amp;&#160;</td>
+          <td class="paramname"><em>page6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig15.html">config15</a> &amp;&#160;</td>
+          <td class="paramname"><em>page15</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -362,6 +601,21 @@ Functions</h2></td></tr>
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a4dc3ac29cd37049b3eb37dda7fe1a525" name="a4dc3ac29cd37049b3eb37dda7fe1a525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dc3ac29cd37049b3eb37dda7fe1a525">&#9670;&#160;</a></span>launchPin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinput_pin__t.html">inputPin_t</a> launchPin</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
