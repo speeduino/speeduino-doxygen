@@ -118,6 +118,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a563dafa3806f48f51cb333a673a23dd2" id="r_a563dafa3806f48f51cb333a673a23dd2"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint16_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a563dafa3806f48f51cb333a673a23dd2">RPM_FINE</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=5U, .translate=0U }</td></tr>
 <tr class="memdesc:a563dafa3806f48f51cb333a673a23dd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">RPM stored as RPM/5. E.g. 1300-&gt;260-&gt;1300.  <br /></td></tr>
 <tr class="separator:a563dafa3806f48f51cb333a673a23dd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e94f6c4df65d7360395a30a17677b33" id="r_a2e94f6c4df65d7360395a30a17677b33"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#a2e94f6c4df65d7360395a30a17677b33">TIME_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1000U, .translate=0U }</td></tr>
+<tr class="memdesc:a2e94f6c4df65d7360395a30a17677b33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in milliseconds.  <br /></td></tr>
+<tr class="separator:a2e94f6c4df65d7360395a30a17677b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6f08175782615f726c0dcd93d4777c4" id="r_af6f08175782615f726c0dcd93d4777c4"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt; uint32_t, uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="units_8h.html#af6f08175782615f726c0dcd93d4777c4">TIME_TENTH_MILLIS</a> = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=10000U, .translate=0U }</td></tr>
 <tr class="memdesc:af6f08175782615f726c0dcd93d4777c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time values stored in 1/10th milliseconds I.e ms/10.  <br /></td></tr>
 <tr class="separator:af6f08175782615f726c0dcd93d4777c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -601,6 +604,31 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Time values stored in 100 milliseconds (tenth of a second) </p>
+<p>We convert to/from µS </p>
+
+</div>
+</div>
+<a id="a2e94f6c4df65d7360395a30a17677b33" name="a2e94f6c4df65d7360395a30a17677b33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e94f6c4df65d7360395a30a17677b33">&#9670;&#160;</a></span>TIME_MILLIS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structconversion_factor.html">conversionFactor</a>&lt;uint32_t, uint32_t&gt; TIME_MILLIS = { .<a class="el" href="maths_8h.html#a77db1d5c016773cb4d69c8a023b5d429">scale</a>=1000U, .translate=0U }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time values stored in milliseconds. </p>
 <p>We convert to/from µS </p>
 
 </div>
