@@ -74,13 +74,57 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">atomic.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="board__definition_8h_source.html">board_definition.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="nominmax_8h_source.html">src/utils/nominmax.h</a>&quot;</code><br />
+<code>#include &lt;tuple&gt;</code><br />
+<code>#include &quot;<a class="el" href="board__definition_8h_source.html">board_definition.h</a>&quot;</code><br />
 <code>#include &lt;SimplyAtomic.h&gt;</code><br />
 </div>
 <p><a href="atomic_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a894b34c3c2b052f5b33730ea2c8babba" id="r_a894b34c3c2b052f5b33730ea2c8babba"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a894b34c3c2b052f5b33730ea2c8babba"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="atomic_8h.html#a894b34c3c2b052f5b33730ea2c8babba">atomic_copy</a> (Args &amp;&amp;... args)</td></tr>
+<tr class="memdesc:a894b34c3c2b052f5b33730ea2c8babba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically copy the <b>forwarding reference</b> arguments into a std::tuple&lt;&gt;  <br /></td></tr>
+<tr class="separator:a894b34c3c2b052f5b33730ea2c8babba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a894b34c3c2b052f5b33730ea2c8babba" name="a894b34c3c2b052f5b33730ea2c8babba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894b34c3c2b052f5b33730ea2c8babba">&#9670;&#160;</a></span>atomic_copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto atomic_copy </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically copy the <b>forwarding reference</b> arguments into a std::tuple&lt;&gt; </p>
+<p>Using a forwarding reference (Args&amp;&amp;...) preserves the arguments value catgeory (lvalue, rvalue) and cv-qualifier. E.g. volatile uint32_t foo; volatile uint8_t bar; // This calls atomic_copy(volatile uint32_t &amp;, volatile uint8_t &amp;) auto copy = atomic_copy(foo, bar); </p>
+
+</div>
+</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

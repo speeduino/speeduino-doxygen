@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['eepromapi_0',['EEPROMApi',['../namespace_e_e_p_r_o_m_api.html',1,'']]]
+  ['decoders_0',['decoders',['../namespacedecoders.html',1,'']]],
+  ['decoders_3a_3ashared_1',['shared',['../namespacedecoders_1_1shared.html',1,'decoders']]]
 ];

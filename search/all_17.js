@@ -40,7 +40,7 @@ var searchData=
   ['max_5fpage_5fnum_37',['MAX_PAGE_NUM',['../pages_8h.html#add6b62f47ac4178dfce1404a83f81527',1,'pages.h']]],
   ['max_5frevolution_5ftime_38',['MAX_REVOLUTION_TIME',['../crank_maths_8h.html#a708965cce07a080e03ac7b4bda83f718',1,'crankMaths.h']]],
   ['max_5frpm_39',['MAX_RPM',['../crank_maths_8h.html#a9e4822b149c3d334452165d849958b22',1,'crankMaths.h']]],
-  ['max_5fstall_5ftime_40',['MAX_STALL_TIME',['../decoders_8cpp.html#a3aa6161f5b17b119bc6f737613013145',1,'decoders.cpp']]],
+  ['max_5fstall_5ftime_40',['MAX_STALL_TIME',['../structdecoders_1_1shared_1_1state__t.html#a29ad34352e6499a02aacc673729de3d3',1,'decoders::shared::state_t']]],
   ['max_5ftimer_5fperiod_41',['MAX_TIMER_PERIOD',['../board__definition_8h.html#a48dffc9bd3ea2556d7b7df2a2e48651d',1,'board_definition.h']]],
   ['maxduty_42',['maxDuty',['../struct_pwm_output_channel.html#a1e44936695ffefd30d0291ab21d67742',1,'PwmOutputChannel']]],
   ['maxignoutputs_43',['maxIgnOutputs',['../structstatuses.html#a7297af1ce949a9664eb48b3724ac826b',1,'statuses']]],
