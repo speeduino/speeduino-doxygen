@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['random1to100_0',['random1to100',['../maths_8cpp.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp'],['../maths_8h.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp']]],
+  ['random1to100_0',['random1to100',['../maths_8h.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp'],['../maths_8cpp.html#a090ba135927b5187b7bacbf0ad43918b',1,'random1to100(void) noexcept:&#160;maths.cpp']]],
   ['raw_1',['Raw',['../pages_8h.html#abe8d6dde4121d7d9f1dbed0221c4be42a65e65c8ab0d8609ce12fc68a03cb8e00',1,'pages.h']]],
   ['read_2',['read',['../structstorage__api__t.html#abbe11b12a75341e608d3c95ffec0acca',1,'storage_api_t::read'],['../namespace_e_e_p_r_o_m_api.html#a857b4d2cdfc96a80551050f2b0d3af1f',1,'EEPROMApi::read()']]],
   ['readanalogpin_3',['readAnalogPin',['../sensors_8cpp.html#a61a9c9d24ab757e6e35e485b5f0f0311',1,'sensors.cpp']]],
@@ -67,7 +67,7 @@ var searchData=
   ['rotarysplitbins_64',['rotarySplitBins',['../structconfig10.html#ab21d22f544655d8ec01b50173ad735d1',1,'config10']]],
   ['rotarysplitvalues_65',['rotarySplitValues',['../structconfig10.html#a1d6329e6cde496dec192da046d9a4401',1,'config10']]],
   ['rotarytype_66',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10']]],
-  ['rotationstatus_67',['rotationStatus',['../structstatuses.html#a108f45a2f828787c0c373b55592ad264',1,'statuses']]],
+  ['rotationstatus_67',['rotationstatus',['../structign_bypass_controller_1_1details_1_1state__t.html#a6e57b9da9641ff5104c717d64fb97dc0',1,'ignBypassController::details::state_t::rotationStatus'],['../structstatuses.html#a108f45a2f828787c0c373b55592ad264',1,'statuses::rotationStatus']]],
   ['rounding_20behavior_68',['Rounding behavior',['../group__group-rounded-div-behavior.html',1,'']]],
   ['rounding_20integer_20division_69',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
   ['routines_70',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]],
@@ -100,7 +100,7 @@ var searchData=
   ['rtc_5fsettime_97',['rtc_setTime',['../rtc__common_8h.html#ae2e34575e5b58ab5073a956ba70c4e65',1,'rtc_common.h']]],
   ['rtc_5ftrim_98',['rtc_trim',['../structconfig2.html#ad6a50367a4a2c87f814884f75ac1a22b',1,'config2']]],
   ['rule_5ft_99',['rule_t',['../structprogrammable_i_o_control__details_1_1rule__t.html#af438db60e0416c877ac2be5e90099d2e',1,'programmableIOControl_details::rule_t::rule_t(const config13 &amp;page13, uint8_t index)'],['../structprogrammable_i_o_control__details_1_1rule__t.html#a54c93917e1d6dac449751d7d1b8f31a3',1,'programmableIOControl_details::rule_t::rule_t()=default'],['../structprogrammable_i_o_control__details_1_1rule__t.html',1,'programmableIOControl_details::rule_t']]],
-  ['running_100',['running',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'RUNNING:&#160;scheduler.h'],['../statuses_8h.html#a088dad44f112c22d71816376baa237d2a5bda814c4aedb126839228f1a3d92f09',1,'Running:&#160;statuses.h']]],
+  ['running_100',['running',['../statuses_8h.html#a088dad44f112c22d71816376baa237d2a5bda814c4aedb126839228f1a3d92f09',1,'Running:&#160;statuses.h'],['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a1061be6c3fb88d32829cba6f6b2be304',1,'RUNNING:&#160;scheduler.h']]],
   ['running_5fwithnext_101',['RUNNING_WITHNEXT',['../scheduler_8h.html#ae47578e47c890aeec4d5ba7fdfc68e54a20955cc33299df01e639321f412b75eb',1,'scheduler.h']]],
   ['runningtooff_102',['runningToOff',['../schedule__state__machine_8cpp.html#ad87cdc94395fd370d259c8202b39b715',1,'schedule_state_machine.cpp']]],
   ['runsecs_103',['runSecs',['../structstatuses.html#a8e1171e36b9918d61de526e01f2d6db4',1,'statuses']]],

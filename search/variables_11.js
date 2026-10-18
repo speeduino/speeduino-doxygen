@@ -20,7 +20,7 @@ var searchData=
   ['rotarysplitbins_17',['rotarySplitBins',['../structconfig10.html#ab21d22f544655d8ec01b50173ad735d1',1,'config10']]],
   ['rotarysplitvalues_18',['rotarySplitValues',['../structconfig10.html#a1d6329e6cde496dec192da046d9a4401',1,'config10']]],
   ['rotarytype_19',['rotaryType',['../structconfig10.html#a09c8d74dc892e19bbd5e02410f110506',1,'config10']]],
-  ['rotationstatus_20',['rotationStatus',['../structstatuses.html#a108f45a2f828787c0c373b55592ad264',1,'statuses']]],
+  ['rotationstatus_20',['rotationstatus',['../structign_bypass_controller_1_1details_1_1state__t.html#a6e57b9da9641ff5104c717d64fb97dc0',1,'ignBypassController::details::state_t::rotationStatus'],['../structstatuses.html#a108f45a2f828787c0c373b55592ad264',1,'statuses::rotationStatus']]],
   ['rovermemsteethseen_21',['roverMEMSTeethSeen',['../group__dec.html#gaafd320359e4b378e8172eac969b58fb9',1,'decoders.cpp']]],
   ['row_22',['row',['../structrow__col2d.html#a6a6b1aa6538ab4470d94803ed50765fa',1,'row_col2d']]],
   ['rpm_23',['rpm',['../group__table__3d.html#ga86d4b0defaecf0b6fec5ba06e73bd6da',1,'Rpm:&#160;table3d.h'],['../structstatuses_1_1engine__protect__flags__t.html#a1f248b2f8b87c1d44ed987b0cf3c4c88',1,'statuses::engine_protect_flags_t::rpm'],['../structstatuses.html#a9037d88f97b094a89e0536c4b778eb98',1,'statuses::RPM']]],
