@@ -171,7 +171,7 @@ var searchData=
   ['atomic_5fmake_5fangle_5fcaa_168',['atomic_make_angle_caa',['../group__dec__uni.html#gae8cb30ed45cfbac3c813e536392f9a74',1,'decoders.cpp']]],
   ['atomic_5fmake_5flookup_5fcaa_169',['atomic_make_lookup_caa',['../group__dec__uni.html#ga002a2085e441e99c8ea86ef369390d6a',1,'decoders.cpp']]],
   ['atomic_5fmake_5flookup_5fcaa_5fsecondary_170',['atomic_make_lookup_caa_secondary',['../group__dec__uni.html#gaef4ffeea3ee358edd6eeca4be5e652a3',1,'decoders.cpp']]],
-  ['atomictoothspeedsample_171',['atomicToothSpeedSample',['../group__dec__uni.html#ga7628b80abc8edc5b59e871a64583b73d',1,'decoders.cpp']]],
+  ['atomictoothspeedsample_171',['atomicToothSpeedSample',['../namespacedecoders_1_1shared.html#a58928296147449e75cdca43f492e042e',1,'decoders::shared']]],
   ['attach_172',['attach',['../structinterrupt__t.html#a14e6fe02d6750f4dd47b3c8dacf392c0',1,'interrupt_t']]],
   ['attachloggerinterrupt_173',['attachLoggerInterrupt',['../logger_8cpp.html#aff53c59fc9bfd87d2df8b40596e79815',1,'logger.cpp']]],
   ['au_174',['Mazda AU',['../group__mazda__au.html',1,'']]],

@@ -43,7 +43,7 @@ var searchData=
   ['timer_5fmask_40',['TIMER_mask',['../timers_8cpp.html#ad7c4ac47fcda00ba1aede6b54e12698c',1,'timers.cpp']]],
   ['timer_5fresolution_41',['TIMER_RESOLUTION',['../board__stm32__official_8h.html#a97a32d4e054e3bb8177e8ac02d8db054',1,'board_stm32_official.h']]],
   ['tooth_5flog_5fsize_42',['TOOTH_LOG_SIZE',['../globals_8h.html#a2fb32ae1c484e50c47958e33aae83de6',1,'globals.h']]],
-  ['toothangle_43',['toothAngle',['../structtooth__speed__sample__t.html#add200c6fd2b8d4f024f24856f548454c',1,'tooth_speed_sample_t']]],
+  ['toothangle_43',['toothAngle',['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#ad59881fe524ddb1b3b2ccb0bcd29f52d',1,'decoders::shared::tooth_speed_sample_t']]],
   ['toothangleiscorrect_44',['toothAngleIsCorrect',['../structdecoder__status__t.html#a7f52582946ec2994204d39fb95e607ae',1,'decoder_status_t']]],
   ['toothangles_45',['toothAngles',['../structdecoders_1_1shared_1_1state__t.html#a7ed7cdede28d51005517ae10d5c990be',1,'decoders::shared::state_t']]],
   ['toothcurrentcount_46',['toothCurrentCount',['../structdecoders_1_1shared_1_1state__t.html#a94ba1c09ee43f1748319a7498fcdfc06',1,'decoders::shared::state_t']]],

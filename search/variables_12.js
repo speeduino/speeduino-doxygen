@@ -90,7 +90,7 @@ var searchData=
   ['stagingtable_87',['stagingtable',['../globals_8cpp.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp'],['../globals_8h.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp']]],
   ['start_88',['start',['../structpage__entity__t.html#a60e1cb1a3e9b1a5ce5e8058ba32332dc',1,'page_entity_t']]],
   ['startdelay_89',['startDelay',['../structair_con_controller_1_1details_1_1state__t.html#a9d8ebb0f8a01050992586629d4921804',1,'airConController::details::state_t']]],
-  ['startrevolutions_90',['startrevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions'],['../structtooth__speed__sample__t.html#abc20ebbaace29f362dcd8dc1f6fcd89f',1,'tooth_speed_sample_t::startRevolutions']]],
+  ['startrevolutions_90',['startrevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#abd88e10793edf10ef22d7d8b4f6fd045',1,'decoders::shared::tooth_speed_sample_t::startRevolutions']]],
   ['state_91',['state',['../programmable_i_o_control_8cpp.html#aee32c89a21511621a64a092665259bfd',1,'state:&#160;programmableIOControl.cpp'],['../namespacetacho_controller.html#a6b9620a4ddec20b335db9d89df7a20c1',1,'tachoController::state']]],
   ['status_92',['status',['../structstatuses_1_1scheduler__cut__t.html#ac5a701f29b4e20da3c2a94ce96af5147',1,'statuses::scheduler_cut_t']]],
   ['statussensors_93',['statussensors',['../sensors_8cpp.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp'],['../sensors_8h.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp']]],
@@ -104,6 +104,6 @@ var searchData=
   ['supportspertoothignition_101',['supportsPerToothIgnition',['../structdecoder__features__t.html#a59017213c03e87e87c6bcc281a99cd3c',1,'decoder_features_t']]],
   ['supportssequential_102',['supportsSequential',['../structdecoder__features__t.html#a8af3d205c00648a3aad6f8b3a6e5d2b1',1,'decoder_features_t']]],
   ['synclosscounter_103',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
-  ['syncstatus_104',['syncstatus',['../structtooth__speed__sample__t.html#aa1787fdd429a400b723a05ddfeedc4cd',1,'tooth_speed_sample_t::syncStatus'],['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus']]],
+  ['syncstatus_104',['syncstatus',['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#aef013908126037b43f87071395d3db5c',1,'decoders::shared::tooth_speed_sample_t::syncStatus'],['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus']]],
   ['systemtemp_105',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
 ];

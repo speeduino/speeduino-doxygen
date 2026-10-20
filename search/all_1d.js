@@ -322,7 +322,7 @@ var searchData=
   ['startfuelschedulers_319',['startfuelschedulers',['../scheduler__fuel__controller_8h.html#a709098dca85053fd26418472663aae69',1,'startFuelSchedulers(void):&#160;scheduler_fuel_controller.cpp'],['../scheduler__fuel__controller_8cpp.html#a709098dca85053fd26418472663aae69',1,'startFuelSchedulers(void):&#160;scheduler_fuel_controller.cpp']]],
   ['startignitionschedulers_320',['startignitionschedulers',['../scheduler__ignition__controller_8h.html#a07987e313e9d878a1db022bad839f197',1,'startIgnitionSchedulers(void):&#160;scheduler_ignition_controller.cpp'],['../scheduler__ignition__controller_8cpp.html#a07987e313e9d878a1db022bad839f197',1,'startIgnitionSchedulers(void):&#160;scheduler_ignition_controller.cpp']]],
   ['startpumppriming_321',['startpumppriming',['../fuel_pump_controller_8h.html#a03bc06c79171e08911c49be2b755a8e3',1,'startPumpPriming(const statuses &amp;current, const config2 &amp;page2):&#160;fuelPumpController.cpp'],['../fuel_pump_controller_8cpp.html#a03bc06c79171e08911c49be2b755a8e3',1,'startPumpPriming(const statuses &amp;current, const config2 &amp;page2):&#160;fuelPumpController.cpp']]],
-  ['startrevolutions_322',['startrevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions'],['../structtooth__speed__sample__t.html#abc20ebbaace29f362dcd8dc1f6fcd89f',1,'tooth_speed_sample_t::startRevolutions']]],
+  ['startrevolutions_322',['startrevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#abd88e10793edf10ef22d7d8b4f6fd045',1,'decoders::shared::tooth_speed_sample_t::startRevolutions']]],
   ['starttoothlogger_323',['starttoothlogger',['../logger_8h.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1',1,'startToothLogger(void):&#160;logger.cpp'],['../logger_8cpp.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1',1,'startToothLogger(void):&#160;logger.cpp']]],
   ['state_324',['state',['../namespacetacho_controller.html#a6b9620a4ddec20b335db9d89df7a20c1',1,'tachoController::state'],['../programmable_i_o_control_8cpp.html#aee32c89a21511621a64a092665259bfd',1,'state:&#160;programmableIOControl.cpp']]],
   ['state_20machine_325',['Schedule finite state machine',['../group__schedule-state-machine.html',1,'']]],
@@ -336,7 +336,7 @@ var searchData=
   ['statuses_2eh_333',['statuses.h',['../statuses_8h.html',1,'']]],
   ['statussensors_334',['statussensors',['../sensors_8h.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp'],['../sensors_8cpp.html#a30da07660429664e980f7e76628b1263',1,'statusSensors:&#160;sensors.cpp']]],
   ['stdext_335',['stdext',['../namespacestdext.html',1,'']]],
-  ['stdgetrevolutiontime_336',['stdGetRevolutionTime',['../group__dec__uni.html#ga8d380942c503fecd5ca13ed1123af88c',1,'decoders.cpp']]],
+  ['stdgetrevolutiontime_336',['stdGetRevolutionTime',['../namespacedecoders_1_1shared.html#a3af9d2a674a91a5f4d6c5fe3638cd2c7',1,'decoders::shared']]],
   ['stepper_5fbackward_337',['STEPPER_BACKWARD',['../idle_8cpp.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.cpp']]],
   ['stepper_5fforward_338',['STEPPER_FORWARD',['../idle_8cpp.html#a1af5d7ca56b9c99fa30f31f7b5d327fa',1,'idle.cpp']]],
   ['stepper_5fless_5fair_5fdirection_339',['STEPPER_LESS_AIR_DIRECTION',['../idle_8cpp.html#abe01e46cd428d4c16138f0da6fe3307f',1,'idle.cpp']]],
@@ -376,6 +376,6 @@ var searchData=
   ['supportssequential_373',['supportsSequential',['../structdecoder__features__t.html#a8af3d205c00648a3aad6f8b3a6e5d2b1',1,'decoder_features_t']]],
   ['suzuki_20k6a_374',['Suzuki K6A',['../group___suzuki___k6_a.html',1,'']]],
   ['synclosscounter_375',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
-  ['syncstatus_376',['syncstatus',['../decoder__t_8h.html#a0f8625c80686484ef32a81c6bc1420d9',1,'SyncStatus:&#160;decoder_t.h'],['../structtooth__speed__sample__t.html#aa1787fdd429a400b723a05ddfeedc4cd',1,'tooth_speed_sample_t::syncStatus'],['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus']]],
+  ['syncstatus_376',['syncstatus',['../decoder__t_8h.html#a0f8625c80686484ef32a81c6bc1420d9',1,'SyncStatus:&#160;decoder_t.h'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#aef013908126037b43f87071395d3db5c',1,'decoders::shared::tooth_speed_sample_t::syncStatus'],['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus']]],
   ['systemtemp_377',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
 ];

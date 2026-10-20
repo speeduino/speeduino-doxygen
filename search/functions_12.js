@@ -127,7 +127,7 @@ var searchData=
   ['starttoothlogger_124',['starttoothlogger',['../logger_8cpp.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1',1,'startToothLogger(void):&#160;logger.cpp'],['../logger_8h.html#a9ff3b0edd3e4df982c0abb6ef2ef5ed1',1,'startToothLogger(void):&#160;logger.cpp']]],
   ['static_5ffor_125',['static_for',['../static__for_8hpp.html#a84cffe19d8de2c357c5ab666c5ead22c',1,'static_for.hpp']]],
   ['statuses_126',['statuses',['../structstatuses.html#a5e22aac79af24604c47c30f68408f9d0',1,'statuses']]],
-  ['stdgetrevolutiontime_127',['stdGetRevolutionTime',['../group__dec__uni.html#ga8d380942c503fecd5ca13ed1123af88c',1,'decoders.cpp']]],
+  ['stdgetrevolutiontime_127',['stdGetRevolutionTime',['../namespacedecoders_1_1shared.html#a3af9d2a674a91a5f4d6c5fe3638cd2c7',1,'decoders::shared']]],
   ['stopallcoilscharging_128',['stopallcoilscharging',['../scheduler__ignition__controller_8cpp.html#abffc0c6d4570d2c46f75a2d0c043eae7',1,'stopAllCoilsCharging(void):&#160;scheduler_ignition_controller.cpp'],['../scheduler__ignition__controller_8h.html#abffc0c6d4570d2c46f75a2d0c043eae7',1,'stopAllCoilsCharging(void):&#160;scheduler_ignition_controller.cpp']]],
   ['stopcompositelogger_129',['stopcompositelogger',['../logger_8h.html#afa4f2f2a9a321defcce1d72994118f80',1,'stopCompositeLogger(void):&#160;logger.cpp'],['../logger_8cpp.html#afa4f2f2a9a321defcce1d72994118f80',1,'stopCompositeLogger(void):&#160;logger.cpp']]],
   ['stopcompositeloggercams_130',['stopcompositeloggercams',['../logger_8cpp.html#a6f35759d3231876d135762a453ca3492',1,'stopCompositeLoggerCams(void):&#160;logger.cpp'],['../logger_8h.html#a6f35759d3231876d135762a453ca3492',1,'stopCompositeLoggerCams(void):&#160;logger.cpp']]],
