@@ -128,8 +128,6 @@ Functions</h2></td></tr>
 <tr class="separator:gae8cb30ed45cfbac3c813e536392f9a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9e187b8d260e240cd78ab238e6e4df0c" id="r_ga9e187b8d260e240cd78ab238e6e4df0c"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga9e187b8d260e240cd78ab238e6e4df0c">clampCrankAngle</a> (int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a8fb38dd18b97292439f0f82f937122c5">crankAngle</a>)</td></tr>
 <tr class="separator:ga9e187b8d260e240cd78ab238e6e4df0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga62a160e1172b583d383d8ca212f5a3f8" id="r_ga62a160e1172b583d383d8ca212f5a3f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga62a160e1172b583d383d8ca212f5a3f8">checkPerToothTiming</a> (int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a8fb38dd18b97292439f0f82f937122c5">crankAngle</a>, uint16_t currentTooth)</td></tr>
-<tr class="separator:ga62a160e1172b583d383d8ca212f5a3f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga6a5d7b9993588397420abe176df6008d" id="r_ga6a5d7b9993588397420abe176df6008d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga6a5d7b9993588397420abe176df6008d">getConfigPriTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
 <tr class="separator:ga6a5d7b9993588397420abe176df6008d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaacf9066ca4c01379f1f0e375757d9e1e" id="r_gaacf9066ca4c01379f1f0e375757d9e1e"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gaacf9066ca4c01379f1f0e375757d9e1e">getConfigSecTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
@@ -310,43 +308,6 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ga62a160e1172b583d383d8ca212f5a3f8" name="ga62a160e1172b583d383d8ca212f5a3f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga62a160e1172b583d383d8ca212f5a3f8">&#9670;&#160;</a></span>checkPerToothTiming()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void checkPerToothTiming </td>
-          <td>(</td>
-          <td class="paramtype">int16_t&#160;</td>
-          <td class="paramname"><em>crankAngle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>currentTooth</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>On decoders that are enabled for per tooth based timing adjustments, this function performs the timer compare changes on the schedules themselves For each ignition channel, a check is made whether we're at the relevant tooth and whether that ignition schedule is currently running Only if both these conditions are met will the schedule be updated with the latest timing information. If it's the correct tooth, but the schedule is not yet started, calculate and an end compare value (This situation occurs when both the start and end of the ignition pulse happen after the end tooth, but before the next tooth) </p>
 
 </div>
 </div>

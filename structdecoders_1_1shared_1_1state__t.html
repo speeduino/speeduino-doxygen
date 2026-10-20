@@ -94,6 +94,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a151392b64a1b15e2f90cebbe8a08bd71" id="r_a151392b64a1b15e2f90cebbe8a08bd71"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1state__t.html#a151392b64a1b15e2f90cebbe8a08bd71">toothWithinMaxStallTime</a> (uint32_t curTime)</td></tr>
 <tr class="memdesc:a151392b64a1b15e2f90cebbe8a08bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check how long ago the last tooth was seen compared to now. If it was more than MAX_STALL_TIME then the engine is probably stopped.  <br /></td></tr>
 <tr class="separator:a151392b64a1b15e2f90cebbe8a08bd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65776f3558961dc536825ac741a11d55" id="r_a65776f3558961dc536825ac741a11d55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1state__t.html#a65776f3558961dc536825ac741a11d55">setTriggerToothAngle</a> (uint16_t angle)</td></tr>
+<tr class="memdesc:a65776f3558961dc536825ac741a11d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the angle between teeth.  <br /></td></tr>
+<tr class="separator:a65776f3558961dc536825ac741a11d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a817fd50563da78a65c087236c1844e83" id="r_a817fd50563da78a65c087236c1844e83"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1state__t.html#a817fd50563da78a65c087236c1844e83">clampToActualTeeth</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>, uint16_t toothNum, uint8_t toothAdder) const</td></tr>
+<tr class="separator:a817fd50563da78a65c087236c1844e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22597d9bc41b136af50828894fc124dd" id="r_a22597d9bc41b136af50828894fc124dd"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1state__t.html#a22597d9bc41b136af50828894fc124dd">toothNumFromScheduleAngles</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>, const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule) const</td></tr>
+<tr class="separator:a22597d9bc41b136af50828894fc124dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -167,6 +174,48 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ae2e41a5bc6dde6070dfc6cbaa8368601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a817fd50563da78a65c087236c1844e83" name="a817fd50563da78a65c087236c1844e83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a817fd50563da78a65c087236c1844e83">&#9670;&#160;</a></span>clampToActualTeeth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t decoders::shared::state_t::clampToActualTeeth </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>toothNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a22863edb7ed0cb4c1593d543c4d2a0c4" name="a22863edb7ed0cb4c1593d543c4d2a0c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22863edb7ed0cb4c1593d543c4d2a0c4">&#9670;&#160;</a></span>reset()</h2>
 
@@ -213,6 +262,63 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Sets the new filter time based on the current settings. This ONLY works for even spaced decoders. </p>
+
+</div>
+</div>
+<a id="a65776f3558961dc536825ac741a11d55" name="a65776f3558961dc536825ac741a11d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65776f3558961dc536825ac741a11d55">&#9670;&#160;</a></span>setTriggerToothAngle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void decoders::shared::state_t::setTriggerToothAngle </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the angle between teeth. </p>
+<p>This ONLY works for even spaced decoders. </p>
+
+</div>
+</div>
+<a id="a22597d9bc41b136af50828894fc124dd" name="a22597d9bc41b136af50828894fc124dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22597d9bc41b136af50828894fc124dd">&#9670;&#160;</a></span>toothNumFromScheduleAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t decoders::shared::state_t::toothNumFromScheduleAngles </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
