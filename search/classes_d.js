@@ -4,8 +4,8 @@ var searchData=
   ['table3d_5ft_1',['table3d_t',['../structtable3d__t.html',1,'']]],
   ['table3dgetvaluecache_2',['table3DGetValueCache',['../structtable3_d_get_value_cache.html',1,'']]],
   ['tacho_5fcontrol_5fstate_3',['tacho_control_state',['../structtacho_controller_1_1detail_1_1tacho__control__state.html',1,'tachoController::detail']]],
-  ['tooth_5finterval_5fcalculator_5ft_4',['tooth_interval_calculator_t',['../structtooth__interval__calculator__t.html',1,'']]],
+  ['tooth_5finterval_5fcalculator_5ft_4',['tooth_interval_calculator_t',['../structdecoders_1_1shared_1_1tooth__interval__calculator__t.html',1,'decoders::shared']]],
   ['tooth_5fspeed_5fsample_5ft_5',['tooth_speed_sample_t',['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html',1,'decoders::shared']]],
   ['trackedoutputpinadapter_5ft_6',['trackedOutputPinAdapter_t',['../classtracked_output_pin_adapter__t.html',1,'']]],
-  ['trigger_5fangle_5fcrank_5fangle_5fcalculator_5ft_7',['trigger_angle_crank_angle_calculator_t',['../structtrigger__angle__crank__angle__calculator__t.html',1,'']]]
+  ['trigger_5fangle_5fcrank_5fangle_5fcalculator_5ft_7',['trigger_angle_crank_angle_calculator_t',['../structdecoders_1_1shared_1_1trigger__angle__crank__angle__calculator__t.html',1,'decoders::shared']]]
 ];

@@ -76,15 +76,18 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">auxChannelController.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="aux_channel_controller_8h_source.html">auxChannelController.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="aux_channel_controller__detail_8h_source.html">auxChannelController_detail.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="pin_mapping_8h_source.html">src/pins/pinMapping.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sensors_8h_source.html">sensors.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="comms__secondary_8h_source.html">comms_secondary.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -92,15 +95,64 @@ Typedefs</h2></td></tr>
 <tr class="separator:a468840424b6ad2fcbd240191ab0bb283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a532a4fb28672f959619cee52852b3e83" id="r_a532a4fb28672f959619cee52852b3e83"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a532a4fb28672f959619cee52852b3e83">fnReadAuxanalog_t</a> = uint16_t(*)(uint8_t analogPin)</td></tr>
 <tr class="separator:a532a4fb28672f959619cee52852b3e83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac74c90dfe6a0650d439b96cd04d7b7a6" id="r_ac74c90dfe6a0650d439b96cd04d7b7a6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#ac74c90dfe6a0650d439b96cd04d7b7a6">fnReadAuxdigital_t</a> = uint16_t(*)(uint8_t digitalPin)</td></tr>
-<tr class="separator:ac74c90dfe6a0650d439b96cd04d7b7a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35828d618fe7ceb60f78c7116b2d61d" id="r_ab35828d618fe7ceb60f78c7116b2d61d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#ab35828d618fe7ceb60f78c7116b2d61d">fnReadAuxdigital_t</a> = decltype(&amp;digitalRead)</td></tr>
+<tr class="separator:ab35828d618fe7ceb60f78c7116b2d61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab4467263e3fe9641755e9e9e117fe632" id="r_ab4467263e3fe9641755e9e9e117fe632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#ab4467263e3fe9641755e9e9e117fe632">auxChannelControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="aux_channel_controller_8cpp.html#a468840424b6ad2fcbd240191ab0bb283">fnSendCanCommand_t</a> fnSendCanCommand, <a class="el" href="aux_channel_controller_8cpp.html#a532a4fb28672f959619cee52852b3e83">fnReadAuxanalog_t</a> fnReadAuxanalog, <a class="el" href="aux_channel_controller_8cpp.html#ac74c90dfe6a0650d439b96cd04d7b7a6">fnReadAuxdigital_t</a> fnReadAuxdigital)</td></tr>
+<tr class="memitem:a158e0e7d3b94728390e55ab875512e86" id="r_a158e0e7d3b94728390e55ab875512e86"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a158e0e7d3b94728390e55ab875512e86">isExternalInput</a> (uint8_t selector)</td></tr>
+<tr class="separator:a158e0e7d3b94728390e55ab875512e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04aa742c9fb879632ff61b1ab6982cb7" id="r_a04aa742c9fb879632ff61b1ab6982cb7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a04aa742c9fb879632ff61b1ab6982cb7">isAnalogInput</a> (uint8_t selector)</td></tr>
+<tr class="separator:a04aa742c9fb879632ff61b1ab6982cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a145a18aed12825ca95e79e51ece94ab6" id="r_a145a18aed12825ca95e79e51ece94ab6"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a145a18aed12825ca95e79e51ece94ab6">getAnalogPin</a> (uint8_t channel, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:a145a18aed12825ca95e79e51ece94ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a377b601c975a1fcddd4942283f4ea6" id="r_a8a377b601c975a1fcddd4942283f4ea6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a8a377b601c975a1fcddd4942283f4ea6">isDigitalInput</a> (uint8_t selector)</td></tr>
+<tr class="separator:a8a377b601c975a1fcddd4942283f4ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14d53634e28d071ddce315fa0120bff" id="r_ab14d53634e28d071ddce315fa0120bff"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#ab14d53634e28d071ddce315fa0120bff">getDigitalPin</a> (uint8_t channel, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:ab14d53634e28d071ddce315fa0120bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d60f5b4a610173ffcf1a8d0d7f1db8" id="r_a37d60f5b4a610173ffcf1a8d0d7f1db8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a37d60f5b4a610173ffcf1a8d0d7f1db8">initAuxChannels</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
+<tr class="separator:a37d60f5b4a610173ffcf1a8d0d7f1db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4467263e3fe9641755e9e9e117fe632" id="r_ab4467263e3fe9641755e9e9e117fe632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#ab4467263e3fe9641755e9e9e117fe632">auxChannelControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>, <a class="el" href="aux_channel_controller_8cpp.html#a468840424b6ad2fcbd240191ab0bb283">fnSendCanCommand_t</a> fnSendCanCommand, <a class="el" href="aux_channel_controller_8cpp.html#a532a4fb28672f959619cee52852b3e83">fnReadAuxanalog_t</a> fnReadAuxanalog, <a class="el" href="aux_channel_controller_8cpp.html#ab35828d618fe7ceb60f78c7116b2d61d">fnReadAuxdigital_t</a> fnReadAuxdigital)</td></tr>
 <tr class="separator:ab4467263e3fe9641755e9e9e117fe632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ff10b67117aa9ac1057486cad596dd3" id="r_a5ff10b67117aa9ac1057486cad596dd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a5ff10b67117aa9ac1057486cad596dd3">auxChannelControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig9.html">config9</a> &amp;<a class="el" href="engine_protection_8cpp.html#a782504937b6504af9f87db03803419ab">page9</a>)</td></tr>
 <tr class="separator:a5ff10b67117aa9ac1057486cad596dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a0248f4c923282c452e1021539a4236cc" id="r_a0248f4c923282c452e1021539a4236cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structaux_channel_controller_1_1detail_1_1state.html">state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a0248f4c923282c452e1021539a4236cc">_auxState</a></td></tr>
+<tr class="separator:a0248f4c923282c452e1021539a4236cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65090fa1bc9fe2dc0179e545bd6bb6f" id="r_af65090fa1bc9fe2dc0179e545bd6bb6f"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#af65090fa1bc9fe2dc0179e545bd6bb6f">MASK_SELECTORA</a> = 0b00000011</td></tr>
+<tr class="separator:af65090fa1bc9fe2dc0179e545bd6bb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4b712737159fbf3955093f434cbcc6" id="r_a6d4b712737159fbf3955093f434cbcc6"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a6d4b712737159fbf3955093f434cbcc6">SELECTORA_ANALOG</a> = 0b00000010</td></tr>
+<tr class="separator:a6d4b712737159fbf3955093f434cbcc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61d5f11fdaca8c61c610704fa7377510" id="r_a61d5f11fdaca8c61c610704fa7377510"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a61d5f11fdaca8c61c610704fa7377510">SELECTORA_DIGITAL</a> = 0b00000011</td></tr>
+<tr class="separator:a61d5f11fdaca8c61c610704fa7377510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d7db59824f7ec60fd465c0a09d95d90" id="r_a0d7db59824f7ec60fd465c0a09d95d90"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a0d7db59824f7ec60fd465c0a09d95d90">MASK_SELECTORB</a> = 0b00001100</td></tr>
+<tr class="separator:a0d7db59824f7ec60fd465c0a09d95d90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f01b57c528f423fd7fb4f521a84ffd9" id="r_a4f01b57c528f423fd7fb4f521a84ffd9"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a4f01b57c528f423fd7fb4f521a84ffd9">SELECTORB_EXTERNAL</a> = 0b00000100</td></tr>
+<tr class="separator:a4f01b57c528f423fd7fb4f521a84ffd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf29b764a9443a8732a1d15cc1563be" id="r_afdf29b764a9443a8732a1d15cc1563be"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#afdf29b764a9443a8732a1d15cc1563be">SELECTORB_ANALOG</a> = 0b00001000</td></tr>
+<tr class="separator:afdf29b764a9443a8732a1d15cc1563be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9677ce38697b60c8cae5f60cb35639" id="r_a5a9677ce38697b60c8cae5f60cb35639"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a5a9677ce38697b60c8cae5f60cb35639">SELECTORB_DIGITAL</a> = 0b00001100</td></tr>
+<tr class="separator:a5a9677ce38697b60c8cae5f60cb35639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83aadba0e365379c920a90d874a09510" id="r_a83aadba0e365379c920a90d874a09510"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a83aadba0e365379c920a90d874a09510">MASK_SOURCEA</a> = 0b00100000</td></tr>
+<tr class="separator:a83aadba0e365379c920a90d874a09510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e1ddb544e22ec78a4162e166394a8ff" id="r_a0e1ddb544e22ec78a4162e166394a8ff"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a0e1ddb544e22ec78a4162e166394a8ff">MASK_SOURCEB</a> = 0b01000000</td></tr>
+<tr class="separator:a0e1ddb544e22ec78a4162e166394a8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2097b7cd18add073d7e0a231fc105619" id="r_a2097b7cd18add073d7e0a231fc105619"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a2097b7cd18add073d7e0a231fc105619">SOURCEB_SECONDARY_SERIAL</a> = 0b00000000</td></tr>
+<tr class="separator:a2097b7cd18add073d7e0a231fc105619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77644c0a8d7973df6ec9b7fc8a17112d" id="r_a77644c0a8d7973df6ec9b7fc8a17112d"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a77644c0a8d7973df6ec9b7fc8a17112d">SOURCEB_INTERNAL_CAN</a> = 0b01000000</td></tr>
+<tr class="separator:a77644c0a8d7973df6ec9b7fc8a17112d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a268039fa13c0eb878fdd5d2d30d72e3b" id="r_a268039fa13c0eb878fdd5d2d30d72e3b"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a268039fa13c0eb878fdd5d2d30d72e3b">MASK_SOURCEC</a> = 0b10000000</td></tr>
+<tr class="separator:a268039fa13c0eb878fdd5d2d30d72e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c977b0077a32530d8802062260f5285" id="r_a1c977b0077a32530d8802062260f5285"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a1c977b0077a32530d8802062260f5285">SOURCEC_INTERNAL_CAN</a> = 0b10000000</td></tr>
+<tr class="separator:a1c977b0077a32530d8802062260f5285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc5e5a77b96bede7470def4cc1bbd72d" id="r_acc5e5a77b96bede7470def4cc1bbd72d"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#acc5e5a77b96bede7470def4cc1bbd72d">MASK_ANALOG_PIN</a> = 0b00111111</td></tr>
+<tr class="separator:acc5e5a77b96bede7470def4cc1bbd72d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80910e9c08d40f5ea50c3e25f1ce817b" id="r_a80910e9c08d40f5ea50c3e25f1ce817b"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a80910e9c08d40f5ea50c3e25f1ce817b">MASK_DIGITAL_PIN</a> = 0b00111111</td></tr>
+<tr class="separator:a80910e9c08d40f5ea50c3e25f1ce817b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8648b7b00b688aa913c8f4dcc0e36758" id="r_a8648b7b00b688aa913c8f4dcc0e36758"><td class="memItemLeft" align="right" valign="top">constexpr uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="aux_channel_controller_8cpp.html#a8648b7b00b688aa913c8f4dcc0e36758">MASK_SOURCE_ADDRESS</a> = 0b0000'0111'1111'1111</td></tr>
+<tr class="separator:a8648b7b00b688aa913c8f4dcc0e36758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a532a4fb28672f959619cee52852b3e83" name="a532a4fb28672f959619cee52852b3e83"></a>
@@ -117,14 +169,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac74c90dfe6a0650d439b96cd04d7b7a6" name="ac74c90dfe6a0650d439b96cd04d7b7a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac74c90dfe6a0650d439b96cd04d7b7a6">&#9670;&#160;</a></span>fnReadAuxdigital_t</h2>
+<a id="ab35828d618fe7ceb60f78c7116b2d61d" name="ab35828d618fe7ceb60f78c7116b2d61d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35828d618fe7ceb60f78c7116b2d61d">&#9670;&#160;</a></span>fnReadAuxdigital_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="aux_channel_controller_8cpp.html#ac74c90dfe6a0650d439b96cd04d7b7a6">fnReadAuxdigital_t</a> =  uint16_t (*)(uint8_t digitalPin)</td>
+          <td class="memname">using <a class="el" href="aux_channel_controller_8cpp.html#ab35828d618fe7ceb60f78c7116b2d61d">fnReadAuxdigital_t</a> =  decltype(&amp;digitalRead)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,7 +259,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="aux_channel_controller_8cpp.html#ac74c90dfe6a0650d439b96cd04d7b7a6">fnReadAuxdigital_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="aux_channel_controller_8cpp.html#ab35828d618fe7ceb60f78c7116b2d61d">fnReadAuxdigital_t</a>&#160;</td>
           <td class="paramname"><em>fnReadAuxdigital</em>&#160;</td>
         </tr>
         <tr>
@@ -216,6 +268,551 @@ Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a145a18aed12825ca95e79e51ece94ab6" name="a145a18aed12825ca95e79e51ece94ab6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a145a18aed12825ca95e79e51ece94ab6">&#9670;&#160;</a></span>getAnalogPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t getAnalogPin </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab14d53634e28d071ddce315fa0120bff" name="ab14d53634e28d071ddce315fa0120bff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14d53634e28d071ddce315fa0120bff">&#9670;&#160;</a></span>getDigitalPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t getDigitalPin </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37d60f5b4a610173ffcf1a8d0d7f1db8" name="a37d60f5b4a610173ffcf1a8d0d7f1db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37d60f5b4a610173ffcf1a8d0d7f1db8">&#9670;&#160;</a></span>initAuxChannels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initAuxChannels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig9.html">config9</a> &amp;&#160;</td>
+          <td class="paramname"><em>page9</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04aa742c9fb879632ff61b1ab6982cb7" name="a04aa742c9fb879632ff61b1ab6982cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04aa742c9fb879632ff61b1ab6982cb7">&#9670;&#160;</a></span>isAnalogInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isAnalogInput </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>selector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8a377b601c975a1fcddd4942283f4ea6" name="a8a377b601c975a1fcddd4942283f4ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a377b601c975a1fcddd4942283f4ea6">&#9670;&#160;</a></span>isDigitalInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isDigitalInput </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>selector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a158e0e7d3b94728390e55ab875512e86" name="a158e0e7d3b94728390e55ab875512e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a158e0e7d3b94728390e55ab875512e86">&#9670;&#160;</a></span>isExternalInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isExternalInput </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>selector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0248f4c923282c452e1021539a4236cc" name="a0248f4c923282c452e1021539a4236cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0248f4c923282c452e1021539a4236cc">&#9670;&#160;</a></span>_auxState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structaux_channel_controller_1_1detail_1_1state.html">state</a> _auxState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc5e5a77b96bede7470def4cc1bbd72d" name="acc5e5a77b96bede7470def4cc1bbd72d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc5e5a77b96bede7470def4cc1bbd72d">&#9670;&#160;</a></span>MASK_ANALOG_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_ANALOG_PIN = 0b00111111</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80910e9c08d40f5ea50c3e25f1ce817b" name="a80910e9c08d40f5ea50c3e25f1ce817b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80910e9c08d40f5ea50c3e25f1ce817b">&#9670;&#160;</a></span>MASK_DIGITAL_PIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_DIGITAL_PIN = 0b00111111</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af65090fa1bc9fe2dc0179e545bd6bb6f" name="af65090fa1bc9fe2dc0179e545bd6bb6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65090fa1bc9fe2dc0179e545bd6bb6f">&#9670;&#160;</a></span>MASK_SELECTORA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_SELECTORA = 0b00000011</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d7db59824f7ec60fd465c0a09d95d90" name="a0d7db59824f7ec60fd465c0a09d95d90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d7db59824f7ec60fd465c0a09d95d90">&#9670;&#160;</a></span>MASK_SELECTORB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_SELECTORB = 0b00001100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8648b7b00b688aa913c8f4dcc0e36758" name="a8648b7b00b688aa913c8f4dcc0e36758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8648b7b00b688aa913c8f4dcc0e36758">&#9670;&#160;</a></span>MASK_SOURCE_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint16_t MASK_SOURCE_ADDRESS = 0b0000'0111'1111'1111</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a83aadba0e365379c920a90d874a09510" name="a83aadba0e365379c920a90d874a09510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83aadba0e365379c920a90d874a09510">&#9670;&#160;</a></span>MASK_SOURCEA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_SOURCEA = 0b00100000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e1ddb544e22ec78a4162e166394a8ff" name="a0e1ddb544e22ec78a4162e166394a8ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e1ddb544e22ec78a4162e166394a8ff">&#9670;&#160;</a></span>MASK_SOURCEB</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_SOURCEB = 0b01000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a268039fa13c0eb878fdd5d2d30d72e3b" name="a268039fa13c0eb878fdd5d2d30d72e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a268039fa13c0eb878fdd5d2d30d72e3b">&#9670;&#160;</a></span>MASK_SOURCEC</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t MASK_SOURCEC = 0b10000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6d4b712737159fbf3955093f434cbcc6" name="a6d4b712737159fbf3955093f434cbcc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4b712737159fbf3955093f434cbcc6">&#9670;&#160;</a></span>SELECTORA_ANALOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SELECTORA_ANALOG = 0b00000010</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a61d5f11fdaca8c61c610704fa7377510" name="a61d5f11fdaca8c61c610704fa7377510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d5f11fdaca8c61c610704fa7377510">&#9670;&#160;</a></span>SELECTORA_DIGITAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SELECTORA_DIGITAL = 0b00000011</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdf29b764a9443a8732a1d15cc1563be" name="afdf29b764a9443a8732a1d15cc1563be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdf29b764a9443a8732a1d15cc1563be">&#9670;&#160;</a></span>SELECTORB_ANALOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SELECTORB_ANALOG = 0b00001000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a9677ce38697b60c8cae5f60cb35639" name="a5a9677ce38697b60c8cae5f60cb35639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a9677ce38697b60c8cae5f60cb35639">&#9670;&#160;</a></span>SELECTORB_DIGITAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SELECTORB_DIGITAL = 0b00001100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4f01b57c528f423fd7fb4f521a84ffd9" name="a4f01b57c528f423fd7fb4f521a84ffd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f01b57c528f423fd7fb4f521a84ffd9">&#9670;&#160;</a></span>SELECTORB_EXTERNAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SELECTORB_EXTERNAL = 0b00000100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a77644c0a8d7973df6ec9b7fc8a17112d" name="a77644c0a8d7973df6ec9b7fc8a17112d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77644c0a8d7973df6ec9b7fc8a17112d">&#9670;&#160;</a></span>SOURCEB_INTERNAL_CAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SOURCEB_INTERNAL_CAN = 0b01000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2097b7cd18add073d7e0a231fc105619" name="a2097b7cd18add073d7e0a231fc105619"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2097b7cd18add073d7e0a231fc105619">&#9670;&#160;</a></span>SOURCEB_SECONDARY_SERIAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SOURCEB_SECONDARY_SERIAL = 0b00000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1c977b0077a32530d8802062260f5285" name="a1c977b0077a32530d8802062260f5285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c977b0077a32530d8802062260f5285">&#9670;&#160;</a></span>SOURCEC_INTERNAL_CAN</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr uint8_t SOURCEC_INTERNAL_CAN = 0b10000000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

@@ -72,7 +72,7 @@ var searchData=
   ['flushrxbuffer_69',['flushRXbuffer',['../group__group-serial-comms-impl.html#ga4e15d4999ce2ad98c05d781f033a91e3',1,'comms.cpp']]],
   ['fncurmicros_5ft_70',['fnCurMicros_t',['../namespaceidle_controller_1_1detail.html#a7c8dcf6cae51633a495cf0e80b3858df',1,'idleController::detail']]],
   ['fnreadauxanalog_5ft_71',['fnReadAuxanalog_t',['../aux_channel_controller_8cpp.html#a532a4fb28672f959619cee52852b3e83',1,'auxChannelController.cpp']]],
-  ['fnreadauxdigital_5ft_72',['fnReadAuxdigital_t',['../aux_channel_controller_8cpp.html#ac74c90dfe6a0650d439b96cd04d7b7a6',1,'auxChannelController.cpp']]],
+  ['fnreadauxdigital_5ft_72',['fnReadAuxdigital_t',['../aux_channel_controller_8cpp.html#ab35828d618fe7ceb60f78c7116b2d61d',1,'auxChannelController.cpp']]],
   ['fnsendcancommand_5ft_73',['fnSendCanCommand_t',['../aux_channel_controller_8cpp.html#a468840424b6ad2fcbd240191ab0bb283',1,'auxChannelController.cpp']]],
   ['focus_74',['Ford ST170 (01-04 Focus)',['../group__dec__ford__st170.html',1,'']]],
   ['for_20mistsubishi_204b11_75',['36-2-1 For Mistsubishi 4B11',['../group__dec__36__2__1.html',1,'']]],

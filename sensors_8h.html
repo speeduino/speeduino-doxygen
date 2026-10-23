@@ -112,8 +112,8 @@ Macros</h2></td></tr>
 <tr class="separator:a02d55c320840c9f60cf3b53c50ed34d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3e37a136cdf9174ecfb254ff4c7f9a6" id="r_ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ab3e37a136cdf9174ecfb254ff4c7f9a6">VSS_SAMPLES</a>&#160;&#160;&#160;4U</td></tr>
 <tr class="separator:ab3e37a136cdf9174ecfb254ff4c7f9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32bc557955dd8d41a42867597194859a" id="r_a32bc557955dd8d41a42867597194859a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a32bc557955dd8d41a42867597194859a">BIT_SENSORS_AUX_ENBL</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a32bc557955dd8d41a42867597194859a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad384ddbbcecb9c8248ebd02fa09b8b02" id="r_ad384ddbbcecb9c8248ebd02fa09b8b02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ad384ddbbcecb9c8248ebd02fa09b8b02">BIT_SENSORS_UNUSED1</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ad384ddbbcecb9c8248ebd02fa09b8b02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff476909a117fbe2e06f239c69578e59" id="r_aff476909a117fbe2e06f239c69578e59"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#aff476909a117fbe2e06f239c69578e59">BIT_SENSORS_BARO_SAVED</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:aff476909a117fbe2e06f239c69578e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d0aa28517c31faa5092db04651518d" id="r_a26d0aa28517c31faa5092db04651518d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a26d0aa28517c31faa5092db04651518d">BIT_SENSORS_UNUSED2</a>&#160;&#160;&#160;2</td></tr>
@@ -165,10 +165,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a50f72c4000219b95063ab2cddb592586" id="r_a50f72c4000219b95063ab2cddb592586"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a50f72c4000219b95063ab2cddb592586">vssPulse</a> (void)</td></tr>
 <tr class="memdesc:a50f72c4000219b95063ab2cddb592586"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ISR function for VSS pulses.  <br /></td></tr>
 <tr class="separator:a50f72c4000219b95063ab2cddb592586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d90525c9e6c5514dd98142ac8ef943" id="r_af6d90525c9e6c5514dd98142ac8ef943"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#af6d90525c9e6c5514dd98142ac8ef943">readAuxanalog</a> (uint8_t analogPin)</td></tr>
-<tr class="separator:af6d90525c9e6c5514dd98142ac8ef943"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a675a36c43ce440456254784257241b50" id="r_a675a36c43ce440456254784257241b50"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a675a36c43ce440456254784257241b50">readAuxdigital</a> (uint8_t digitalPin)</td></tr>
-<tr class="separator:a675a36c43ce440456254784257241b50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f92ffd58e22ed6c8bc7ad1225bcc4a" id="r_a11f92ffd58e22ed6c8bc7ad1225bcc4a"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a11f92ffd58e22ed6c8bc7ad1225bcc4a">readAnalogSensor</a> (uint8_t pin)</td></tr>
+<tr class="separator:a11f92ffd58e22ed6c8bc7ad1225bcc4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10d77a83f3d9833acaf5651a660fe5a9" id="r_a10d77a83f3d9833acaf5651a660fe5a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a10d77a83f3d9833acaf5651a660fe5a9">initialiseTPS</a> (void)</td></tr>
 <tr class="memdesc:a10d77a83f3d9833acaf5651a660fe5a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initial reading of the TPS sensor, primarily to detect flood clear state.  <br /></td></tr>
 <tr class="separator:a10d77a83f3d9833acaf5651a660fe5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,8 +196,6 @@ Variables</h2></td></tr>
 <tr class="separator:ac0bf59920e6a8bb758bed55785d9c7b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8c08ca5c0e0c6083c3d22c21428ca14" id="r_ac8c08ca5c0e0c6083c3d22c21428ca14"><td class="memItemLeft" align="right" valign="top">volatile uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#ac8c08ca5c0e0c6083c3d22c21428ca14">flexPulseWidth</a></td></tr>
 <tr class="separator:ac8c08ca5c0e0c6083c3d22c21428ca14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30da07660429664e980f7e76628b1263" id="r_a30da07660429664e980f7e76628b1263"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a30da07660429664e980f7e76628b1263">statusSensors</a></td></tr>
-<tr class="separator:a30da07660429664e980f7e76628b1263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a676b6e42436241d158e7df24edaadfe7" id="r_a676b6e42436241d158e7df24edaadfe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table2d_8h.html#a3525fec1dc7559c6920450e9ac8c9085">table2D_u16_u8_32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a676b6e42436241d158e7df24edaadfe7">cltCalibrationTable</a></td></tr>
 <tr class="separator:a676b6e42436241d158e7df24edaadfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d07a7d39282522e96f87c6115f515d7" id="r_a8d07a7d39282522e96f87c6115f515d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="table2d_8h.html#a3525fec1dc7559c6920450e9ac8c9085">table2D_u16_u8_32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sensors_8h.html#a8d07a7d39282522e96f87c6115f515d7">iatCalibrationTable</a></td></tr>
@@ -352,20 +348,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a32bc557955dd8d41a42867597194859a" name="a32bc557955dd8d41a42867597194859a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32bc557955dd8d41a42867597194859a">&#9670;&#160;</a></span>BIT_SENSORS_AUX_ENBL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define BIT_SENSORS_AUX_ENBL&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aff476909a117fbe2e06f239c69578e59" name="aff476909a117fbe2e06f239c69578e59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff476909a117fbe2e06f239c69578e59">&#9670;&#160;</a></span>BIT_SENSORS_BARO_SAVED</h2>
 
@@ -374,6 +356,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define BIT_SENSORS_BARO_SAVED&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad384ddbbcecb9c8248ebd02fa09b8b02" name="ad384ddbbcecb9c8248ebd02fa09b8b02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad384ddbbcecb9c8248ebd02fa09b8b02">&#9670;&#160;</a></span>BIT_SENSORS_UNUSED1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BIT_SENSORS_UNUSED1&#160;&#160;&#160;0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -793,35 +789,17 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="af6d90525c9e6c5514dd98142ac8ef943" name="af6d90525c9e6c5514dd98142ac8ef943"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6d90525c9e6c5514dd98142ac8ef943">&#9670;&#160;</a></span>readAuxanalog()</h2>
+<a id="a11f92ffd58e22ed6c8bc7ad1225bcc4a" name="a11f92ffd58e22ed6c8bc7ad1225bcc4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f92ffd58e22ed6c8bc7ad1225bcc4a">&#9670;&#160;</a></span>readAnalogSensor()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t readAuxanalog </td>
+          <td class="memname">uint16_t readAnalogSensor </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>analogPin</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a675a36c43ce440456254784257241b50" name="a675a36c43ce440456254784257241b50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a675a36c43ce440456254784257241b50">&#9670;&#160;</a></span>readAuxdigital()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint16_t readAuxdigital </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>digitalPin</em></td><td>)</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1013,28 +991,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="table2d_8h.html#a3525fec1dc7559c6920450e9ac8c9085">table2D_u16_u8_32</a> o2CalibrationTable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a30da07660429664e980f7e76628b1263" name="a30da07660429664e980f7e76628b1263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30da07660429664e980f7e76628b1263">&#9670;&#160;</a></span>statusSensors</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t statusSensors</td>
         </tr>
       </table>
   </td>

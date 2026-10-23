@@ -8,5 +8,6 @@ var searchData=
   ['airconcontroller_5fdetails_2eh_5',['airconController_details.h',['../aircon_controller__details_8h.html',1,'']]],
   ['atomic_2eh_6',['atomic.h',['../atomic_8h.html',1,'']]],
   ['auxchannelcontroller_2ecpp_7',['auxChannelController.cpp',['../aux_channel_controller_8cpp.html',1,'']]],
-  ['auxchannelcontroller_2eh_8',['auxChannelController.h',['../aux_channel_controller_8h.html',1,'']]]
+  ['auxchannelcontroller_2eh_8',['auxChannelController.h',['../aux_channel_controller_8h.html',1,'']]],
+  ['auxchannelcontroller_5fdetail_2eh_9',['auxChannelController_detail.h',['../aux_channel_controller__detail_8h.html',1,'']]]
 ];

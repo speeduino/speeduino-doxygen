@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Speeduino: speeduino/src/decoders/crank_angle_calculator.h File Reference</title>
+<title>Speeduino: speeduino/src/decoders/shared/crank_angle_calculator.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,12 +70,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li><li class="navelem"><a class="el" href="dir_e4a66514fb29f537cc6ec306b5dcc979.html">src</a></li><li class="navelem"><a class="el" href="dir_211e6ed8ee7167c48611d34e94789c0a.html">decoders</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_9dd927a2de2c3597e2b3a7dd174a4cd6.html">speeduino</a></li><li class="navelem"><a class="el" href="dir_e4a66514fb29f537cc6ec306b5dcc979.html">src</a></li><li class="navelem"><a class="el" href="dir_211e6ed8ee7167c48611d34e94789c0a.html">decoders</a></li><li class="navelem"><a class="el" href="dir_7ae33349fb832ce96a26ca340ac5486e.html">shared</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">crank_angle_calculator.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -85,36 +87,56 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="nominmax_8h_source.html">src/utils/nominmax.h</a>&quot;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
 <code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="atomic_8h_source.html">atomic.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="decoder__state_8h_source.html">decoder_state.h</a>&quot;</code><br />
 </div>
 <p><a href="crank__angle__calculator_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlast__tooth__rev__calculator__t.html">last_tooth_rev_calculator_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a temporal adjustment based on when the tooth was last detected.  <a href="structlast__tooth__rev__calculator__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1last__tooth__rev__calculator__t.html">decoders::shared::last_tooth_rev_calculator_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a temporal adjustment based on when the tooth was last detected.  <a href="structdecoders_1_1shared_1_1last__tooth__rev__calculator__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtooth__interval__calculator__t.html">tooth_interval_calculator_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a temporal adjustment based on the gap between the 2 most recent teeth rather than the last full revolution.  <a href="structtooth__interval__calculator__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1tooth__interval__calculator__t.html">decoders::shared::tooth_interval_calculator_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a temporal adjustment based on the gap between the 2 most recent teeth rather than the last full revolution.  <a href="structdecoders_1_1shared_1_1tooth__interval__calculator__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlookup__initial__calculator__t.html">lookup_initial_calculator_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that looks up the initial crank angle from an array.  <a href="structlookup__initial__calculator__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1lookup__initial__calculator__t.html">decoders::shared::lookup_initial_calculator_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that looks up the initial crank angle from an array.  <a href="structdecoders_1_1shared_1_1lookup__initial__calculator__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcompute__initial__calculator__t.html">compute_initial_calculator_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes the initial crank angle from a tooth angle.  <a href="structcompute__initial__calculator__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1compute__initial__calculator__t.html">decoders::shared::compute_initial_calculator_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes the initial crank angle from a tooth angle.  <a href="structdecoders_1_1shared_1_1compute__initial__calculator__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsequential__correction__calculator__t.html">sequential_correction_calculator_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a revolution adjustment.  <a href="structsequential__correction__calculator__t.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1sequential__correction__calculator__t.html">decoders::shared::sequential_correction_calculator_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crank angle calculator that computes a revolution adjustment.  <a href="structdecoders_1_1shared_1_1sequential__correction__calculator__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimple__crank__angle__calculator__t.html">simple_crank_angle_calculator_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1simple__crank__angle__calculator__t.html">decoders::shared::simple_crank_angle_calculator_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlookup__crank__angle__calculator__t.html">lookup_crank_angle_calculator_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1lookup__crank__angle__calculator__t.html">decoders::shared::lookup_crank_angle_calculator_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtrigger__angle__crank__angle__calculator__t.html">trigger_angle_crank_angle_calculator_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1trigger__angle__crank__angle__calculator__t.html">decoders::shared::trigger_angle_crank_angle_calculator_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlookup__crank__angle__calculator__tooth__interval__t.html">lookup_crank_angle_calculator_tooth_interval_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1lookup__crank__angle__calculator__tooth__interval__t.html">decoders::shared::lookup_crank_angle_calculator_tooth_interval_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structcompute__crank__angle__calculator__tooth__interval__t.html">compute_crank_angle_calculator_tooth_interval_t</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structdecoders_1_1shared_1_1compute__crank__angle__calculator__tooth__interval__t.html">decoders::shared::compute_crank_angle_calculator_tooth_interval_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespacedecoders" id="r_namespacedecoders"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders.html">decoders</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacedecoders_1_1shared" id="r_namespacedecoders_1_1shared"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders_1_1shared.html">decoders::shared</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a04ebc95d9aca42b3d1c8103a7651a37f" id="r_a04ebc95d9aca42b3d1c8103a7651a37f"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders_1_1shared.html#a04ebc95d9aca42b3d1c8103a7651a37f">decoders::shared::atomic_make_lookup_caa</a> (const <a class="el" href="structdecoders_1_1shared_1_1state__t.html">state_t</a> &amp;decoderState)</td></tr>
+<tr class="separator:a04ebc95d9aca42b3d1c8103a7651a37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85693414eb273a8472ebede82dfd60c" id="r_aa85693414eb273a8472ebede82dfd60c"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders_1_1shared.html#aa85693414eb273a8472ebede82dfd60c">decoders::shared::atomic_make_lookup_caa_secondary</a> (const <a class="el" href="structdecoders_1_1shared_1_1state__t.html">state_t</a> &amp;decoderState)</td></tr>
+<tr class="separator:aa85693414eb273a8472ebede82dfd60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa463aa74fd46915f43a919cfc285e220" id="r_aa463aa74fd46915f43a919cfc285e220"><td class="memItemLeft" align="right" valign="top">static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders_1_1shared.html#aa463aa74fd46915f43a919cfc285e220">decoders::shared::atomic_make_angle_caa</a> (const <a class="el" href="structdecoders_1_1shared_1_1state__t.html">state_t</a> &amp;decoderState)</td></tr>
+<tr class="separator:aa463aa74fd46915f43a919cfc285e220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6312187c27e07fd6f49a522a50e83718" id="r_a6312187c27e07fd6f49a522a50e83718"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedecoders_1_1shared.html#a6312187c27e07fd6f49a522a50e83718">decoders::shared::clampCrankAngle</a> (int16_t <a class="el" href="scheduler__ignition__controller_8cpp.html#a8fb38dd18b97292439f0f82f937122c5">crankAngle</a>)</td></tr>
+<tr class="separator:a6312187c27e07fd6f49a522a50e83718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Crank calculations. To be reused by individual decoders. </p>
