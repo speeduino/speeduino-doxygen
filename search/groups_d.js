@@ -8,6 +8,5 @@ var searchData=
   ['distributor_5',['Basic Distributor',['../group__dec__dist.html',1,'']]],
   ['division_6',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
   ['dsm_20420a_20for_20the_20dsm_20eclipse_7',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]],
-  ['dual_20wheel_8',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]],
-  ['dual_20wheels_9',['Dual wheels',['../group__dec__dual.html',1,'']]]
+  ['dual_20wheel_8',['Non-360 Dual wheel',['../group__dec__non360.html',1,'']]]
 ];

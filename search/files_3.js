@@ -12,6 +12,8 @@ var searchData=
   ['decoders_2eh_9',['decoders.h',['../decoders_8h.html',1,'']]],
   ['digitalpin_2ecpp_10',['digitalPin.cpp',['../digital_pin_8cpp.html',1,'']]],
   ['digitalpin_2eh_11',['digitalPin.h',['../digital_pin_8h.html',1,'']]],
-  ['dwell_2ecpp_12',['dwell.cpp',['../dwell_8cpp.html',1,'']]],
-  ['dwell_2eh_13',['dwell.h',['../dwell_8h.html',1,'']]]
+  ['dualwheel_2ecpp_12',['dualWheel.cpp',['../dual_wheel_8cpp.html',1,'']]],
+  ['dualwheel_2eh_13',['dualWheel.h',['../dual_wheel_8h.html',1,'']]],
+  ['dwell_2ecpp_14',['dwell.cpp',['../dwell_8cpp.html',1,'']]],
+  ['dwell_2eh_15',['dwell.h',['../dwell_8h.html',1,'']]]
 ];

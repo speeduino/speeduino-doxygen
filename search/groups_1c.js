@@ -8,8 +8,7 @@ var searchData=
   ['to_2005_5',['Miata &apos;99 to &apos;05',['../group__miata__99__05.html',1,'']]],
   ['to_20ts_6',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
   ['tooth_20on_20cam_7',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
-  ['tooth_20wheel_8',['Missing tooth wheel',['../group__dec__miss.html',1,'']]],
-  ['trigger_20wheel_9',['36-2-2-2 Trigger wheel',['../group__dec__36__2__2__2.html',1,'']]],
-  ['ts_10',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
-  ['ts_20messages_11',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
+  ['trigger_20wheel_8',['36-2-2-2 Trigger wheel',['../group__dec__36__2__2__2.html',1,'']]],
+  ['ts_9',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
+  ['ts_20messages_10',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
 ];
