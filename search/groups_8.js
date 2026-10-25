@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['8_20cylinder_0',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
+  ['99_20to_2005_0',['Miata &apos;99 to &apos;05',['../group__miata__99__05.html',1,'']]]
 ];
