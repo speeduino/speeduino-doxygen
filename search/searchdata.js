@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   8: "abcdefilmnoprstv",
   9: "o",
   10: "_abcdefilmnoprstuvw",
-  11: "012346789abcdefghijklmnoprstuvwy",
+  11: "012346789abcdefhijklmnoprstuvwy",
   12: "cht"
 };
 
