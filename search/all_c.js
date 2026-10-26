@@ -374,6 +374,6 @@ var searchData=
   ['cycleminimumaccumulate_371',['cycleMinimumAccumulate',['../sensors_8cpp.html#a82d2a9d384f7acc0337f08ddf78b8760',1,'sensors.cpp']]],
   ['cycleminimumendcycle_372',['cycleMinimumEndCycle',['../sensors_8cpp.html#a33b4d6916804696d855950a2f5490215',1,'sensors.cpp']]],
   ['cycleminimummapreading_373',['cycleMinimumMAPReading',['../sensors_8cpp.html#a012a1b6a8d66c697634885ed22e562ed',1,'sensors.cpp']]],
-  ['cyl_374',['cyl',['../group__dec__daihatsu.html',1,'Daihatsu (3  and 4 cyl.)'],['../group__dec__jeep.html',1,'Jeep 2000 (6 cyl)']]],
+  ['cyl_374',['Daihatsu (3  and 4 cyl.)',['../group__dec__daihatsu.html',1,'']]],
   ['cylinder_375',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
 ];

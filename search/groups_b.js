@@ -11,6 +11,6 @@ var searchData=
   ['comms_20implementation_8',['Serial comms implementation',['../group__group-serial-comms-impl.html',1,'']]],
   ['crank_20calculation_20classes_9',['Crank calculation classes',['../group___crank_calcs.html',1,'']]],
   ['crank_20calculation_20mixins_10',['Crank calculation mixins',['../group___crank_calc_mixins.html',1,'']]],
-  ['cyl_11',['cyl',['../group__dec__daihatsu.html',1,'Daihatsu (3  and 4 cyl.)'],['../group__dec__jeep.html',1,'Jeep 2000 (6 cyl)']]],
+  ['cyl_11',['Daihatsu (3  and 4 cyl.)',['../group__dec__daihatsu.html',1,'']]],
   ['cylinder_12',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
 ];
