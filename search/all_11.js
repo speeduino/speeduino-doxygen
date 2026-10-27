@@ -1,7 +1,7 @@
 var searchData=
 [
   ['halfpercentage_0',['halfPercentage',['../maths_8h.html#aeaabbd719d960b3b342272e5328d1d31',1,'maths.h']]],
-  ['handletscommand_1',['handletscommand',['../ts_command_controller_8h.html#a10d8da7fbb705b480f33fec469986c8d',1,'handleTsCommand(uint16_t command, statuses &amp;current, config2 &amp;page2):&#160;tsCommandController.cpp'],['../ts_command_controller_8cpp.html#a10d8da7fbb705b480f33fec469986c8d',1,'handleTsCommand(uint16_t command, statuses &amp;current, config2 &amp;page2):&#160;tsCommandController.cpp']]],
+  ['handletscommand_1',['handletscommand',['../ts_command_controller_8cpp.html#a10d8da7fbb705b480f33fec469986c8d',1,'handleTsCommand(uint16_t command, statuses &amp;current, config2 &amp;page2):&#160;tsCommandController.cpp'],['../ts_command_controller_8h.html#a10d8da7fbb705b480f33fec469986c8d',1,'handleTsCommand(uint16_t command, statuses &amp;current, config2 &amp;page2):&#160;tsCommandController.cpp']]],
   ['hard_20coded_20response_20for_20some_20ts_20messages_2',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]],
   ['hard_5fcut_5ffull_3',['HARD_CUT_FULL',['../config__pages_8h.html#a4e2755895fb6afca202a4db8d8a4c469',1,'config_pages.h']]],
   ['hard_5fcut_5frolling_4',['HARD_CUT_ROLLING',['../config__pages_8h.html#a3f574396092d2300eb74e6a05e4e006c',1,'config_pages.h']]],
@@ -16,12 +16,13 @@ var searchData=
   ['hasmaxlimit_13',['hasMaxLimit',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#ab63def1ac77b7c0b150c0cb05617662e',1,'programmableIOControl_details::processing_channel_t']]],
   ['hasnextschedule_14',['hasNextSchedule',['../schedule__state__machine_8cpp.html#a5cb5d0f708345a681c3bf7b0a01cf735',1,'schedule_state_machine.cpp']]],
   ['haveswitchedtobatterypower_15',['haveSwitchedToBatteryPower',['../speeduino_8ino.html#acf75ddd1f94d2a2fa560b41d3b8dfad6',1,'speeduino.ino']]],
-  ['honda_20j_2032_16',['Honda J 32',['../group__dec__honda__j__32.html',1,'']]],
-  ['hondad17_2ecpp_17',['hondad17.cpp',['../hondad17_8cpp.html',1,'']]],
-  ['hondad17_2eh_18',['hondad17.h',['../hondad17_8h.html',1,'']]],
-  ['how_20to_20contribute_19',['How to contribute',['../how-to-contribute.html',1,'']]],
-  ['hwtest_5fign_5fpulsed_20',['HWTest_IGN_Pulsed',['../ts_command_controller_8cpp.html#ac442a653cbc8e26b3dbb470587bcbd67',1,'tsCommandController.cpp']]],
-  ['hwtest_5finj_5fpulsed_21',['HWTest_INJ_Pulsed',['../ts_command_controller_8cpp.html#ae76d6162fd42ed3e619bcc9267433e94',1,'tsCommandController.cpp']]],
-  ['hwtestignduration_22',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
-  ['hwtestinjduration_23',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
+  ['hondad17_2ecpp_16',['hondad17.cpp',['../hondad17_8cpp.html',1,'']]],
+  ['hondad17_2eh_17',['hondad17.h',['../hondad17_8h.html',1,'']]],
+  ['hondaj32_2ecpp_18',['hondaj32.cpp',['../hondaj32_8cpp.html',1,'']]],
+  ['hondaj32_2eh_19',['hondaj32.h',['../hondaj32_8h.html',1,'']]],
+  ['how_20to_20contribute_20',['How to contribute',['../how-to-contribute.html',1,'']]],
+  ['hwtest_5fign_5fpulsed_21',['HWTest_IGN_Pulsed',['../ts_command_controller_8cpp.html#ac442a653cbc8e26b3dbb470587bcbd67',1,'tsCommandController.cpp']]],
+  ['hwtest_5finj_5fpulsed_22',['HWTest_INJ_Pulsed',['../ts_command_controller_8cpp.html#ae76d6162fd42ed3e619bcc9267433e94',1,'tsCommandController.cpp']]],
+  ['hwtestignduration_23',['hwTestIgnDuration',['../structconfig13.html#a6b1a38736864cac5636c4abaedeccf4c',1,'config13']]],
+  ['hwtestinjduration_24',['hwTestInjDuration',['../structconfig13.html#a13aa7eef6129e4c8a89741b634ee7f36',1,'config13']]]
 ];

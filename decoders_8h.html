@@ -116,9 +116,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5bea697d8585bad6f29b108c32bc3569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4503164a98ea8d1e2502db663c25f53" id="r_ac4503164a98ea8d1e2502db663c25f53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ac4503164a98ea8d1e2502db663c25f53">triggerSetup_HondaD17</a> (void)</td></tr>
 <tr class="separator:ac4503164a98ea8d1e2502db663c25f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac779385a9168efebe16bdd701c4720ba" id="r_gac779385a9168efebe16bdd701c4720ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__honda__j__32.html#gac779385a9168efebe16bdd701c4720ba">triggerSetup_HondaJ32</a> (void)</td></tr>
-<tr class="memdesc:gac779385a9168efebe16bdd701c4720ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
-<tr class="separator:gac779385a9168efebe16bdd701c4720ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac779385a9168efebe16bdd701c4720ba" id="r_ac779385a9168efebe16bdd701c4720ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ac779385a9168efebe16bdd701c4720ba">triggerSetup_HondaJ32</a> (void)</td></tr>
+<tr class="separator:ac779385a9168efebe16bdd701c4720ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga8568f410fe242c5725813997230cc245" id="r_ga8568f410fe242c5725813997230cc245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__miata__99__05.html#ga8568f410fe242c5725813997230cc245">triggerSetup_Miata9905</a> (void)</td></tr>
 <tr class="memdesc:ga8568f410fe242c5725813997230cc245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
 <tr class="separator:ga8568f410fe242c5725813997230cc245"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -313,6 +312,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Honda D17 (1.7 liter 4 cyl SOHC). </p>
+
+</div>
+</div>
+<a id="ac779385a9168efebe16bdd701c4720ba" name="ac779385a9168efebe16bdd701c4720ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac779385a9168efebe16bdd701c4720ba">&#9670;&#160;</a></span>triggerSetup_HondaJ32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_HondaJ32 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Honda J 32 (3.2 liter 6 cyl SOHC). The Honda J32a4 (and all J series I'm aware of) has a crank trigger with nominal 24 teeth (22 teeth actually present). It has one missing tooth, then 7 teeth, then another missing tooth, then 15 teeth. The tooth rising edges all have uniform spacing between them, except for teeth 14 and 22, which measure about 18 degrees between rising edges, rather than 15 degrees as the other teeth do. These slightly larger teeth are immediately before a gap, and the extra 3 degrees is made up for in the gap, the gap being about 3 degrees smaller than might be nominally expected, such that the expected rotational angle is restored immediately after the gap (missing tooth) passes. <br  />
+ Teeth are represented as 0V at the ECU, no teeth are represented as 5V. Top dead center of cylinder number 1 occurs as we lose sight of (just pass) the first tooth in the string of 15 teeth (this is a rising edge). The second tooth in the string of 15 teeth is designated as tooth 1 in this code. This means that when the interrupt for tooth 1 fires (as we just pass tooth 1), crank angle = 360/24 = 15 degrees. It follows that the first tooth in the string of 7 teeth is tooth 16. </p>
 
 </div>
 </div>
