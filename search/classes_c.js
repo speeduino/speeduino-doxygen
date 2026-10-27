@@ -9,6 +9,7 @@ var searchData=
   ['state_6',['state',['../structaux_channel_controller_1_1detail_1_1state.html',1,'auxChannelController::detail']]],
   ['state_5ft_7',['state_t',['../structair_con_controller_1_1details_1_1state__t.html',1,'airConController::details::state_t'],['../structdecoders_1_1shared_1_1state__t.html',1,'decoders::shared::state_t'],['../structidle_controller_1_1detail_1_1state__t.html',1,'idleController::detail::state_t'],['../structign_bypass_controller_1_1details_1_1state__t.html',1,'ignBypassController::details::state_t'],['../structprogrammable_i_o_control__details_1_1state__t.html',1,'programmableIOControl_details::state_t']]],
   ['statuses_8',['statuses',['../structstatuses.html',1,'']]],
-  ['stepperidle_9',['StepperIdle',['../structidle_controller_1_1detail_1_1_stepper_idle.html',1,'idleController::detail']]],
-  ['storage_5fapi_5ft_10',['storage_api_t',['../structstorage__api__t.html',1,'']]]
+  ['stepperposition_5ft_9',['stepperPosition_t',['../structidle_controller_1_1detail_1_1stepper_position__t.html',1,'idleController::detail']]],
+  ['stepperstate_5ft_10',['stepperState_t',['../structidle_controller_1_1detail_1_1stepper_state__t.html',1,'idleController::detail']]],
+  ['storage_5fapi_5ft_11',['storage_api_t',['../structstorage__api__t.html',1,'']]]
 ];

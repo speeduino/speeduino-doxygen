@@ -27,7 +27,7 @@ var searchData=
   ['targetgap_24',['targetGap',['../structdecoders_1_1shared_1_1state__t.html#ac1ec13776f3c44df26efc036f82ec86c',1,'decoders::shared::state_t']]],
   ['targetgap2_25',['targetGap2',['../structdecoders_1_1shared_1_1state__t.html#ab9f61c553a83578b5a0749e0a43a8ba3',1,'decoders::shared::state_t']]],
   ['targetgap3_26',['targetGap3',['../structdecoders_1_1shared_1_1state__t.html#aa15fbd942064b5d4a69fe10d04e41a7f',1,'decoders::shared::state_t']]],
-  ['targetidlestep_27',['targetIdleStep',['../structidle_controller_1_1detail_1_1_stepper_idle.html#af05056bf21fa298d0bb1ad7e7c712aa6',1,'idleController::detail::StepperIdle']]],
+  ['targetstep_27',['targetStep',['../structidle_controller_1_1detail_1_1stepper_state__t.html#a17e72c98140925c1853ba80ee74f37b0',1,'idleController::detail::stepperState_t']]],
   ['temperature_28',['TEMPERATURE',['../units_8h.html#a3bebd1a56ca616b5be6a45452644bb4d',1,'units.h']]],
   ['tertiary_29',['tertiary',['../structdecoder__t.html#a562b99bed0f7a662c94227d50dc2c441',1,'decoder_t']]],
   ['testactive_30',['testActive',['../structstatuses.html#a256bd5d4b8e6608bd4b66d61d5588516',1,'statuses']]],

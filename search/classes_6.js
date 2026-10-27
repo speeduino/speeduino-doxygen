@@ -6,5 +6,7 @@ var searchData=
   ['integerpid_3',['integerPID',['../classinteger_p_i_d.html',1,'']]],
   ['integerpid_5fideal_4',['integerPID_ideal',['../classinteger_p_i_d__ideal.html',1,'']]],
   ['interrupt_5ft_5',['interrupt_t',['../structinterrupt__t.html',1,'']]],
-  ['invertableoutputpinadaper_5ft_6',['invertableOutputPinAdaper_t',['../classinvertable_output_pin_adaper__t.html',1,'']]]
+  ['invertableoutputpinadaper_5ft_6',['invertableOutputPinAdaper_t',['../classinvertable_output_pin_adaper__t.html',1,'']]],
+  ['invertableoutputpinadaper_5ft_3c_20fastoutputpin_5ft_20_3e_7',['invertableOutputPinAdaper_t&lt; fastOutputPin_t &gt;',['../classinvertable_output_pin_adaper__t.html',1,'']]],
+  ['invertableoutputpinadaper_5ft_3c_20outputpin_5ft_20_3e_8',['invertableOutputPinAdaper_t&lt; outputPin_t &gt;',['../classinvertable_output_pin_adaper__t.html',1,'']]]
 ];

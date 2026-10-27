@@ -77,20 +77,23 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">idleController_state.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="integer_p_i_d_8h_source.html">src/PID/integerPID.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="stepper_8h_source.html">stepper.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fast_output_pin_8h_source.html">src/pins/fastOutputPin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="output_pin_8h_source.html">src/pins/outputPin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="invertable_output_pin_8h_source.html">src/pins/invertableOutputPin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="input_pin_8h_source.html">src/pins/inputPin.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="pin_numbers__t_8h_source.html">src/pins/pinNumbers_t.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="config__pages_8h_source.html">config_pages.h</a>&quot;</code><br />
 </div>
 <p><a href="idle_controller__state_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">idleController::detail::StepperIdle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html">idleController::detail::state_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -105,14 +108,6 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a7c8dcf6cae51633a495cf0e80b3858df" id="r_a7c8dcf6cae51633a495cf0e80b3858df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceidle_controller_1_1detail.html#a7c8dcf6cae51633a495cf0e80b3858df">idleController::detail::fnCurMicros_t</a> = decltype(micros) *</td></tr>
 <tr class="separator:a7c8dcf6cae51633a495cf0e80b3858df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a296c02c17edd7793c72bf786c0239953" id="r_a296c02c17edd7793c72bf786c0239953"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953">idleController::detail::StepperStatus</a> : uint8_t { <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953a4b0d1e5b052d0dcd97f53fdb93351b1e">idleController::detail::SOFF</a>
-, <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b">idleController::detail::STEPPING</a>
-, <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b">idleController::detail::COOLING</a>
- }</td></tr>
-<tr class="separator:a296c02c17edd7793c72bf786c0239953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

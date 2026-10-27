@@ -33,7 +33,7 @@ var searchData=
   ['calculateduty_30',['calculateDuty',['../fan_controller_8cpp.html#ab9eaa2b62ce2c5473cacc623873dc32c',1,'fanController.cpp']]],
   ['calculatedutyonoffmode_31',['calculateDutyOnOffMode',['../fan_controller_8cpp.html#a85b48da86df8bc87d053b290febf22bb',1,'fanController.cpp']]],
   ['calculatefuelignitionchannelcut_32',['calculateFuelIgnitionChannelCut',['../engine_protection_8h.html#a7874bd9baedb46908bc6ccbdec465105',1,'engineProtection.h']]],
-  ['calculateidleload_33',['calculateIdleLoad',['../idle_8cpp.html#ad4950572b85c21488743121b0faad081',1,'idle.cpp']]],
+  ['calculateidleload_33',['calculateIdleLoad',['../idle_8cpp.html#a58fa4e9de959f87a99790ec65f5f50f8',1,'idle.cpp']]],
   ['calculateignitionangles_34',['calculateignitionangles',['../scheduler__ignition__controller_8h.html#a10450ef54bd67fdeed6ab520d569fa8a',1,'calculateIgnitionAngles(const config2 &amp;page2, const config4 &amp;page4, const config13 &amp;page13, statuses &amp;current):&#160;scheduler_ignition_controller.h'],['../scheduler__ignition__controller_8cpp.html#a084ff5bf81c35e4772bd0a0b10b6be0e',1,'calculateIgnitionAngles(IgnitionSchedule &amp;schedule, uint16_t dwellAngle, int8_t advance):&#160;scheduler_ignition_controller.cpp']]],
   ['calculateignitiontrailingrotary_35',['calculateIgnitionTrailingRotary',['../scheduler__ignition__controller_8cpp.html#ab3ba6a002d4879ef967d6e5696740431',1,'scheduler_ignition_controller.cpp']]],
   ['calculateinjectortimeout_36',['calculateInjectorTimeout',['../scheduler__fuel__controller_8cpp.html#af98ab7765a79f1cc88822d5cfd1e483d',1,'scheduler_fuel_controller.cpp']]],

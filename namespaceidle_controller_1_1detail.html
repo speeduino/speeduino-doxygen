@@ -86,7 +86,10 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html">state_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1_stepper_idle.html">StepperIdle</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1stepper_position__t.html">stepperPosition_t</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1stepper_state__t.html">stepperState_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Captures the state of the stepper motor.  <a href="structidle_controller_1_1detail_1_1stepper_state__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -96,10 +99,11 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a296c02c17edd7793c72bf786c0239953" id="r_a296c02c17edd7793c72bf786c0239953"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953">StepperStatus</a> : uint8_t { <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953a4b0d1e5b052d0dcd97f53fdb93351b1e">SOFF</a>
+<tr class="memitem:a296c02c17edd7793c72bf786c0239953" id="r_a296c02c17edd7793c72bf786c0239953"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953">StepperStatus</a> : uint8_t { <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953a88559a0cfd8250c9d65970cc145c92d4">OFF</a>
 , <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b">STEPPING</a>
 , <a class="el" href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b">COOLING</a>
  }</td></tr>
+<tr class="memdesc:a296c02c17edd7793c72bf786c0239953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stepper motor status.  <a href="namespaceidle_controller_1_1detail.html#a296c02c17edd7793c72bf786c0239953">More...</a><br /></td></tr>
 <tr class="separator:a296c02c17edd7793c72bf786c0239953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -137,11 +141,15 @@ Enumerations</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Stepper motor status. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953a4b0d1e5b052d0dcd97f53fdb93351b1e" name="a296c02c17edd7793c72bf786c0239953a4b0d1e5b052d0dcd97f53fdb93351b1e"></a>SOFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b" name="a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b"></a>STEPPING&#160;</td><td class="fielddoc"><p>a high pulse is currently being sent and will need to be turned off at some point. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953a88559a0cfd8250c9d65970cc145c92d4" name="a296c02c17edd7793c72bf786c0239953a88559a0cfd8250c9d65970cc145c92d4"></a>OFF&#160;</td><td class="fielddoc"><p>The motor is not stepping or cooling. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b" name="a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b"></a>COOLING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b" name="a296c02c17edd7793c72bf786c0239953a8c3cecf3f482ecc74902ce11978b465b"></a>STEPPING&#160;</td><td class="fielddoc"><p>The motor is moving. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b" name="a296c02c17edd7793c72bf786c0239953ab2577073f1d8225f9fbad6e3466e6b2b"></a>COOLING&#160;</td><td class="fielddoc"><p>The motor is in it's cooling phase. </p>
+</td></tr>
 </table>
 
 </div>

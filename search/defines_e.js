@@ -40,7 +40,7 @@ var searchData=
   ['secondary_5fserial_5fproto_5fmsdroid_37',['SECONDARY_SERIAL_PROTO_MSDROID',['../comms__secondary_8h.html#a8dd9bfcb8dc18255358cdbde7c1342c5',1,'comms_secondary.h']]],
   ['secondary_5fserial_5fproto_5frealdash_38',['SECONDARY_SERIAL_PROTO_REALDASH',['../comms__secondary_8h.html#a635567c55a1e395bfb941299f0a06b65',1,'comms_secondary.h']]],
   ['secondary_5fserial_5fproto_5ftunerstudio_39',['SECONDARY_SERIAL_PROTO_TUNERSTUDIO',['../comms__secondary_8h.html#a20b67e09d48e4cb49c9338febdb717db',1,'comms_secondary.h']]],
-  ['secondary_5fserial_5ft_40',['secondary_serial_t',['../board__avr2560_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy35.h'],['../board__teensy41_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy41.h']]],
+  ['secondary_5fserial_5ft_40',['secondary_serial_t',['../board__teensy35_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy35.h'],['../board__teensy41_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy41.h'],['../board__stm32__official_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_avr2560.h']]],
   ['secondaryserial_41',['secondarySerial',['../comms__secondary_8h.html#ae56004642fac544acad680959ddea8b2',1,'comms_secondary.h']]],
   ['serial_5fprint_5fspace_5fdelimited_5farray_42',['serial_print_space_delimited_array',['../comms__legacy_8cpp.html#a5b2ea18c2a7771751e6a6466bc4248a2',1,'comms_legacy.cpp']]],
   ['set_5fcallbacks_43',['SET_CALLBACKS',['../scheduler__fuel__controller_8cpp.html#a131a5bd7707f4b2e95daae2bff9ee350',1,'scheduler_fuel_controller.cpp']]],
@@ -52,9 +52,5 @@ var searchData=
   ['skip_5ftooth2_49',['SKIP_TOOTH2',['../decoders_8cpp.html#acbba70e2df4a63516ef98fb3f81c4700',1,'decoders.cpp']]],
   ['skip_5ftooth3_50',['SKIP_TOOTH3',['../decoders_8cpp.html#ab8f2641ae9a99e2c182d079e4eed46f9',1,'decoders.cpp']]],
   ['skip_5ftooth4_51',['SKIP_TOOTH4',['../decoders_8cpp.html#aa32adcb5ef1de64ed96de6e5f9e8df85',1,'decoders.cpp']]],
-  ['stepper_5fbackward_52',['STEPPER_BACKWARD',['../idle_8cpp.html#a93d48ab90c530af82df4cc6e16dfe660',1,'idle.cpp']]],
-  ['stepper_5fforward_53',['STEPPER_FORWARD',['../idle_8cpp.html#a1af5d7ca56b9c99fa30f31f7b5d327fa',1,'idle.cpp']]],
-  ['stepper_5fless_5fair_5fdirection_54',['STEPPER_LESS_AIR_DIRECTION',['../idle_8cpp.html#abe01e46cd428d4c16138f0da6fe3307f',1,'idle.cpp']]],
-  ['stepper_5fmore_5fair_5fdirection_55',['STEPPER_MORE_AIR_DIRECTION',['../idle_8cpp.html#a3873f5397605cc5552678388161bdf97',1,'idle.cpp']]],
-  ['stepper_5fpower_5fwhen_5factive_56',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8cpp.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.cpp']]]
+  ['stepper_5fpower_5fwhen_5factive_52',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8cpp.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.cpp']]]
 ];

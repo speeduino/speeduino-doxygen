@@ -7,7 +7,7 @@ var searchData=
   ['updateclutchstate_4',['updateClutchState',['../launch_controller_8cpp.html#a1c765e1f7a87f7b9313d59a9b858060d',1,'launchController.cpp']]],
   ['updatecrc_5',['updateCrc',['../group__group-serial-comms-impl.html#gae3a7361a0fbe48d258eb011a3fb42a8c',1,'comms.cpp']]],
   ['updatefuelpressure_6',['updateFuelPressure',['../sensors_8cpp.html#a185fde53af628a9d3e79f6c37a4fb290',1,'sensors.cpp']]],
-  ['updateidlestepandload_7',['updateIdleStepAndLoad',['../idle_8cpp.html#ab0a98dc7e3acbcbe98bec441bc1adcaf',1,'idle.cpp']]],
+  ['updateidlestepandload_7',['updateIdleStepAndLoad',['../idle_8cpp.html#acb1749e86c3cae0f7d710931a87ef5fb',1,'idle.cpp']]],
   ['updatelaunchandflatshift_8',['updatelaunchandflatshift',['../launch_controller_8cpp.html#abeccfe03282290f9b94cc1b083bdd835',1,'updateLaunchAndFlatShift(statuses &amp;current, const config2 &amp;page2, const config6 &amp;page6, const config10 &amp;page10, const config15 &amp;page15):&#160;launchController.cpp'],['../launch_controller_8h.html#abeccfe03282290f9b94cc1b083bdd835',1,'updateLaunchAndFlatShift(statuses &amp;current, const config2 &amp;page2, const config6 &amp;page6, const config10 &amp;page10, const config15 &amp;page15):&#160;launchController.cpp']]],
   ['updatelaunchflagscore_9',['updateLaunchFlagsCore',['../launch_controller_8cpp.html#ae5875dfdc27730da533769ddeedcb1f6',1,'launchController.cpp']]],
   ['updateobject_10',['updateObject',['../storage__api_8h.html#a39e71c020e9c61aa672e11059bbeefd6',1,'storage_api.h']]],
