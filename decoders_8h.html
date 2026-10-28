@@ -121,9 +121,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a8568f410fe242c5725813997230cc245" id="r_a8568f410fe242c5725813997230cc245"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a8568f410fe242c5725813997230cc245">triggerSetup_Miata9905</a> (void)</td></tr>
 <tr class="memdesc:a8568f410fe242c5725813997230cc245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
 <tr class="separator:a8568f410fe242c5725813997230cc245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab28c1082b9c115124b5bdde9486c0de2" id="r_gab28c1082b9c115124b5bdde9486c0de2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__mazda__au.html#gab28c1082b9c115124b5bdde9486c0de2">triggerSetup_MazdaAU</a> (void)</td></tr>
-<tr class="memdesc:gab28c1082b9c115124b5bdde9486c0de2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
-<tr class="separator:gab28c1082b9c115124b5bdde9486c0de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28c1082b9c115124b5bdde9486c0de2" id="r_ab28c1082b9c115124b5bdde9486c0de2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#ab28c1082b9c115124b5bdde9486c0de2">triggerSetup_MazdaAU</a> (void)</td></tr>
+<tr class="separator:ab28c1082b9c115124b5bdde9486c0de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadc323ef1d200e819d16ec0fbbd69f783" id="r_gadc323ef1d200e819d16ec0fbbd69f783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__non360.html#gadc323ef1d200e819d16ec0fbbd69f783">triggerSetup_non360</a> (void)</td></tr>
 <tr class="memdesc:gadc323ef1d200e819d16ec0fbbd69f783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
 <tr class="separator:gadc323ef1d200e819d16ec0fbbd69f783"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -370,6 +369,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Jeep 2000 - 24 crank teeth over 720 degrees, in groups of 4 ('91 to 2000 6 cylinder Jeep engines). Crank wheel is high for 360 crank degrees. Quite similar to the 24X setup. As we only need timing within 360 degrees, only 12 tooth angles are defined. Tooth number 1 represents the first tooth seen after the cam signal goes high. www.speeduino.com/forum/download/file.php?id=205 </p>
+
+</div>
+</div>
+<a id="ab28c1082b9c115124b5bdde9486c0de2" name="ab28c1082b9c115124b5bdde9486c0de2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28c1082b9c115124b5bdde9486c0de2">&#9670;&#160;</a></span>triggerSetup_MazdaAU()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_MazdaAU </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Mazda AU version. Tooth #2 is defined as the next crank tooth after the single cam tooth. Tooth number one is at 348* ATDC. </p>
 
 </div>
 </div>
