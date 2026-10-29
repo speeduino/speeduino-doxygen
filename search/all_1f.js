@@ -2,7 +2,7 @@ var searchData=
 [
   ['warmuppage_0',['warmupPage',['../pages_8h.html#a78287631df6fdb2407172e82c93646c8',1,'pages.h']]],
   ['weber_20marelli_1',['Weber-Marelli',['../group__dec__weber__marelli.html',1,'']]],
-  ['wheel_2',['wheel',['../group__dec__36__2__2__2.html',1,'36-2-2-2 Trigger wheel'],['../group__dec__non360.html',1,'Non-360 Dual wheel']]],
+  ['wheel_2',['36-2-2-2 Trigger wheel',['../group__dec__36__2__2__2.html',1,'']]],
   ['withinlaunchspeedlimit_3',['withinLaunchSpeedLimit',['../launch_controller_8cpp.html#a55af936a96766b823bed667365c3870c',1,'launchController.cpp']]],
   ['wmi_5fmode_5fclosedloop_4',['WMI_MODE_CLOSEDLOOP',['../config__pages_8h.html#a5cb3074e01f4bf27b664eed4f98b66ad',1,'config_pages.h']]],
   ['wmi_5fmode_5fopenloop_5',['WMI_MODE_OPENLOOP',['../config__pages_8h.html#a6495ce3fb42ee70c571a7bd013a1681e',1,'config_pages.h']]],
@@ -34,7 +34,7 @@ var searchData=
   ['wmitankemptypin_31',['wmiTankEmptyPin',['../vvt_controller_8cpp.html#a0fae13035fc81da1448184e54950c288',1,'vvtController.cpp']]],
   ['wmitps_32',['wmiTPS',['../structconfig10.html#a7323ac4c7d669e674b1e82d42e0e9766',1,'config10']]],
   ['word_33',['word',['../board__stm32__official_8h.html#ad70c0799a0be6d2066768752eaad976b',1,'board_stm32_official.h']]],
-  ['write_34',['write',['../structstorage__api__t.html#af6283e1d5b3e3eadcea5c2f49db019df',1,'storage_api_t::write'],['../namespace_e_e_p_r_o_m_api.html#a283b5e6be3bdee55d445684e7dd0b20f',1,'EEPROMApi::write()']]],
+  ['write_34',['write',['../namespace_e_e_p_r_o_m_api.html#a283b5e6be3bdee55d445684e7dd0b20f',1,'EEPROMApi::write()'],['../structstorage__api__t.html#af6283e1d5b3e3eadcea5c2f49db019df',1,'storage_api_t::write']]],
   ['write_5flocation_35',['write_location',['../structwrite__location.html',1,'']]],
   ['write_5frange_36',['write_range',['../storage_8cpp.html#acf75cd7cd16c60e69e7b81ab616d99a8',1,'write_range(const byte *pStart, const byte *pEnd, uint16_t address, uint16_t writesRemaining):&#160;storage.cpp'],['../storage_8cpp.html#a788632338265a59a46d29865772438f7',1,'write_range(Iter pStart, Iter pEnd, write_location location):&#160;storage.cpp']]],
   ['write_5ftrim_5ftable_37',['WRITE_TRIM_TABLE',['../storage_8cpp.html#a4257922a5b4c7633e319d0c4073ad320',1,'storage.cpp']]],
