@@ -1,16 +1,10 @@
 var searchData=
 [
-  ['calculation_20classes_0',['Crank calculation classes',['../group___crank_calcs.html',1,'']]],
-  ['calculation_20mixins_1',['Crank calculation mixins',['../group___crank_calc_mixins.html',1,'']]],
-  ['calibration_20table_20save_20load_2',['Calibration table save &amp; load',['../group__storage-calibration-tables.html',1,'']]],
-  ['cam_3',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
-  ['chrysler_20ngc_204_206_20and_208_20cylinder_4',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]],
-  ['classes_5',['Crank calculation classes',['../group___crank_calcs.html',1,'']]],
-  ['coded_20response_20for_20some_20ts_20messages_6',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]],
-  ['codes_20sent_20to_20ts_7',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
-  ['comms_20implementation_8',['Serial comms implementation',['../group__group-serial-comms-impl.html',1,'']]],
-  ['crank_20calculation_20classes_9',['Crank calculation classes',['../group___crank_calcs.html',1,'']]],
-  ['crank_20calculation_20mixins_10',['Crank calculation mixins',['../group___crank_calc_mixins.html',1,'']]],
-  ['cyl_11',['Daihatsu (3  and 4 cyl.)',['../group__dec__daihatsu.html',1,'']]],
-  ['cylinder_12',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
+  ['daihatsu_203_20and_204_20cyl_0',['Daihatsu (3  and 4 cyl.)',['../group__dec__daihatsu.html',1,'']]],
+  ['davidson_1',['Harley Davidson',['../group__dec__harley.html',1,'']]],
+  ['decoder_2',['Renix decoder',['../group__dec__renix.html',1,'']]],
+  ['decoder_20routines_3',['Universal Decoder Routines',['../group__dec__uni.html',1,'']]],
+  ['distributor_4',['Basic Distributor',['../group__dec__dist.html',1,'']]],
+  ['division_5',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
+  ['dsm_20420a_20for_20the_20dsm_20eclipse_6',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]]
 ];

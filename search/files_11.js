@@ -36,5 +36,7 @@ var searchData=
   ['storage_2eh_33',['storage.h',['../storage_8h.html',1,'']]],
   ['storage_5fapi_2ecpp_34',['storage_api.cpp',['../storage__api_8cpp.html',1,'']]],
   ['storage_5fapi_2eh_35',['storage_api.h',['../storage__api_8h.html',1,'']]],
-  ['storage_5fdetails_2eh_36',['storage_details.h',['../storage__details_8h.html',1,'']]]
+  ['storage_5fdetails_2eh_36',['storage_details.h',['../storage__details_8h.html',1,'']]],
+  ['subaru6_5f7_2ecpp_37',['subaru6_7.cpp',['../subaru6__7_8cpp.html',1,'']]],
+  ['subaru6_5f7_2eh_38',['subaru6_7.h',['../subaru6__7_8h.html',1,'']]]
 ];
