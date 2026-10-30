@@ -13,6 +13,7 @@ var searchData=
   ['decoders_3a_3amazdaau_10',['mazdaau',['../namespacedecoders_1_1mazdaau.html',1,'decoders']]],
   ['decoders_3a_3amiata9905_11',['miata9905',['../namespacedecoders_1_1miata9905.html',1,'decoders']]],
   ['decoders_3a_3amissing_5ftooth_12',['missing_tooth',['../namespacedecoders_1_1missing__tooth.html',1,'decoders']]],
-  ['decoders_3a_3anon360_13',['non360',['../namespacedecoders_1_1non360.html',1,'decoders']]],
-  ['decoders_3a_3ashared_14',['shared',['../namespacedecoders_1_1shared.html',1,'decoders']]]
+  ['decoders_3a_3anissan360_13',['nissan360',['../namespacedecoders_1_1nissan360.html',1,'decoders']]],
+  ['decoders_3a_3anon360_14',['non360',['../namespacedecoders_1_1non360.html',1,'decoders']]],
+  ['decoders_3a_3ashared_15',['shared',['../namespacedecoders_1_1shared.html',1,'decoders']]]
 ];

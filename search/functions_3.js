@@ -7,7 +7,7 @@ var searchData=
   ['calcendteeth_5frenix_4',['calcEndTeeth_Renix',['../group__dec__renix.html#ga2e398d7cb478d559ff3e3318eaacc9b5',1,'decoders.cpp']]],
   ['calcendteeth_5fsuzukik6a_5',['calcEndTeeth_SuzukiK6A',['../group___suzuki___k6_a.html#ga17870d24cd7ee71cf10e148a1e91c75e',1,'decoders.cpp']]],
   ['calcendtooth_6',['calcendtooth',['../namespacedecoders_1_1dual__wheel.html#a473c0d369f2b24d356eebe2fb6de5048',1,'decoders::dual_wheel::calcEndTooth()'],['../namespacedecoders_1_1missing__tooth.html#a0f5fdbf82e4219683f1bf93ae2798f23',1,'decoders::missing_tooth::calcEndTooth()']]],
-  ['calcendtooth_5fnissan360_7',['calcEndTooth_Nissan360',['../group__dec__nissan360.html#ga7def50a6e5c3c179c8aba2c529f57460',1,'decoders.cpp']]],
+  ['calcendtooth_5fnissan360_7',['calcEndTooth_Nissan360',['../namespacedecoders_1_1nissan360.html#a09a36f877ac01dcebd742d3d05898483',1,'decoders::nissan360']]],
   ['calcendtooth_5frovermems_8',['calcEndTooth_RoverMEMS',['../group__dec.html#ga4e023e7ad2388dd117736f4960f78522',1,'decoders.cpp']]],
   ['calcnitrousstagepercent_9',['calcNitrousStagePercent',['../fuel__calcs_8cpp.html#ae5d4c089863e28884b9f8d7890fa267e',1,'fuel_calcs.cpp']]],
   ['calcnitrousstagepulsewidth_10',['calcNitrousStagePulseWidth',['../fuel__calcs_8cpp.html#a8e49bf9441f060d27502c1bc8f899d76',1,'fuel_calcs.cpp']]],
