@@ -114,6 +114,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="non360_8h_source.html">src/decoders/non360.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="nissan360_8h_source.html">src/decoders/nissan360.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="subaru6__7_8h_source.html">src/decoders/subaru6_7.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="daihatsu_8h_source.html">src/decoders/daihatsu.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -219,14 +220,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga2ee3eefe43908d965e7e9c554d5fe38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5bff1467cc6a9e78f28dda5d66d9f1" id="r_aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aeb5bff1467cc6a9e78f28dda5d66d9f1">triggerSetup_Subaru67</a> (void)</td></tr>
 <tr class="separator:aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf87b92a965498fafa501d7b9242ee202" id="r_gaf87b92a965498fafa501d7b9242ee202"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__daihatsu.html#gaf87b92a965498fafa501d7b9242ee202">triggerPri_Daihatsu</a> (void)</td></tr>
-<tr class="separator:gaf87b92a965498fafa501d7b9242ee202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaeaee8952f34e8953cee36b0fe1cbe332" id="r_gaeaee8952f34e8953cee36b0fe1cbe332"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__daihatsu.html#gaeaee8952f34e8953cee36b0fe1cbe332">getRevolutionTime_Daihatsu</a> (void)</td></tr>
-<tr class="separator:gaeaee8952f34e8953cee36b0fe1cbe332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadf153ee58dd4f79c780860b6eb7f602e" id="r_gadf153ee58dd4f79c780860b6eb7f602e"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__daihatsu.html#gadf153ee58dd4f79c780860b6eb7f602e">getCrankAngle_Daihatsu</a> (uint32_t currMicros)</td></tr>
-<tr class="separator:gadf153ee58dd4f79c780860b6eb7f602e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaebee5c3abc715ba882b8d1fd8cbc968" id="r_gaaebee5c3abc715ba882b8d1fd8cbc968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__daihatsu.html#gaaebee5c3abc715ba882b8d1fd8cbc968">triggerSetup_Daihatsu</a> (void)</td></tr>
-<tr class="separator:gaaebee5c3abc715ba882b8d1fd8cbc968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebee5c3abc715ba882b8d1fd8cbc968" id="r_aaebee5c3abc715ba882b8d1fd8cbc968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aaebee5c3abc715ba882b8d1fd8cbc968">triggerSetup_Daihatsu</a> (void)</td></tr>
+<tr class="separator:aaebee5c3abc715ba882b8d1fd8cbc968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga677ee9d6ffb2cfae8abff969330e7245" id="r_ga677ee9d6ffb2cfae8abff969330e7245"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#ga677ee9d6ffb2cfae8abff969330e7245">triggerPri_Harley</a> (void)</td></tr>
 <tr class="separator:ga677ee9d6ffb2cfae8abff969330e7245"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab5d60731ff4edd3ae2f3f50f0f274bd2" id="r_gab5d60731ff4edd3ae2f3f50f0f274bd2"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#gab5d60731ff4edd3ae2f3f50f0f274bd2">getRevolutionTime_Harley</a> (void)</td></tr>
@@ -867,6 +862,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Audi with 135 teeth on the crank and 1 tooth on the cam. This is very similar to the dual wheel decoder, however due to the 135 teeth not dividing evenly into 360, only every 3rd crank tooth is used in calculating the crank angle. This effectively makes it a 45 tooth dual wheel setup. </p>
+
+</div>
+</div>
+<a id="aaebee5c3abc715ba882b8d1fd8cbc968" name="aaebee5c3abc715ba882b8d1fd8cbc968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebee5c3abc715ba882b8d1fd8cbc968">&#9670;&#160;</a></span>triggerSetup_Daihatsu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_Daihatsu </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Daihatsu +1 trigger for 3 and 4 cylinder engines. Tooth equal to the number of cylinders are evenly spaced on the cam. No position sensing (Distributor is retained), so crank angle is a made up figure based purely on the first teeth to be seen. Note: This is a very simple decoder. See <a href="http://www.megamanual.com/ms2/GM_7pinHEI.htm">http://www.megamanual.com/ms2/GM_7pinHEI.htm</a> </p>
 
 </div>
 </div>

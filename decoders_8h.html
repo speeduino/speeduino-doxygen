@@ -130,9 +130,8 @@ Functions</h2></td></tr>
 <tr class="separator:ga2ee3eefe43908d965e7e9c554d5fe38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5bff1467cc6a9e78f28dda5d66d9f1" id="r_aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aeb5bff1467cc6a9e78f28dda5d66d9f1">triggerSetup_Subaru67</a> (void)</td></tr>
 <tr class="separator:aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaaebee5c3abc715ba882b8d1fd8cbc968" id="r_gaaebee5c3abc715ba882b8d1fd8cbc968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__daihatsu.html#gaaebee5c3abc715ba882b8d1fd8cbc968">triggerSetup_Daihatsu</a> (void)</td></tr>
-<tr class="memdesc:gaaebee5c3abc715ba882b8d1fd8cbc968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
-<tr class="separator:gaaebee5c3abc715ba882b8d1fd8cbc968"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebee5c3abc715ba882b8d1fd8cbc968" id="r_aaebee5c3abc715ba882b8d1fd8cbc968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aaebee5c3abc715ba882b8d1fd8cbc968">triggerSetup_Daihatsu</a> (void)</td></tr>
+<tr class="separator:aaebee5c3abc715ba882b8d1fd8cbc968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaed0c456df895ee62ac39e81c0310089b" id="r_gaed0c456df895ee62ac39e81c0310089b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__harley.html#gaed0c456df895ee62ac39e81c0310089b">triggerSetup_Harley</a> (void)</td></tr>
 <tr class="memdesc:gaed0c456df895ee62ac39e81c0310089b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
 <tr class="separator:gaed0c456df895ee62ac39e81c0310089b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +249,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Audi with 135 teeth on the crank and 1 tooth on the cam. This is very similar to the dual wheel decoder, however due to the 135 teeth not dividing evenly into 360, only every 3rd crank tooth is used in calculating the crank angle. This effectively makes it a 45 tooth dual wheel setup. </p>
+
+</div>
+</div>
+<a id="aaebee5c3abc715ba882b8d1fd8cbc968" name="aaebee5c3abc715ba882b8d1fd8cbc968"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebee5c3abc715ba882b8d1fd8cbc968">&#9670;&#160;</a></span>triggerSetup_Daihatsu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_Daihatsu </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Daihatsu +1 trigger for 3 and 4 cylinder engines. Tooth equal to the number of cylinders are evenly spaced on the cam. No position sensing (Distributor is retained), so crank angle is a made up figure based purely on the first teeth to be seen. Note: This is a very simple decoder. See <a href="http://www.megamanual.com/ms2/GM_7pinHEI.htm">http://www.megamanual.com/ms2/GM_7pinHEI.htm</a> </p>
 
 </div>
 </div>

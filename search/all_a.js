@@ -279,7 +279,7 @@ var searchData=
   ['controlcounter_276',['controlCounter',['../structtacho_controller_1_1detail_1_1tacho__control__state.html#ac690065af202200ec4e74b0734972275',1,'tachoController::detail::tacho_control_state']]],
   ['conversionfactor_277',['conversionFactor',['../structconversion_factor.html',1,'']]],
   ['converttargettoduty_278',['convertTargetToDuty',['../boost_controller_8cpp.html#a55c19292f8616a2f5d1e4b29f6f6d26e',1,'boostController.cpp']]],
-  ['coolant_279',['coolant',['../structstatuses_1_1engine__protect__flags__t.html#ab7cc06bcf8ac337231e3eb52cc776f51',1,'statuses::engine_protect_flags_t::coolant'],['../structstatuses.html#a7a9f35075a213a363be285a3988a32da',1,'statuses::coolant']]],
+  ['coolant_279',['coolant',['../structstatuses.html#a7a9f35075a213a363be285a3988a32da',1,'statuses::coolant'],['../structstatuses_1_1engine__protect__flags__t.html#ab7cc06bcf8ac337231e3eb52cc776f51',1,'statuses::engine_protect_flags_t::coolant']]],
   ['coolantprotrpm_280',['coolantProtRPM',['../structconfig9.html#a475b9f57cf7958665b10bedf8c538120',1,'config9']]],
   ['coolantprottemp_281',['coolantProtTemp',['../structconfig9.html#a340715fb694894435925fd363071bb38',1,'config9']]],
   ['coolantsensor_282',['CoolantSensor',['../group__storage-calibration-tables.html#ggadc154ffce99bb9ec1202cfbb7d51ed10a849d8882a09bee6f3c5303d230f2adf3',1,'storage.h']]],
@@ -290,7 +290,7 @@ var searchData=
   ['core_5fteensy35_287',['CORE_TEENSY35',['../board__teensy35_8h.html#a518e4909c28382fdef8df8cd02d3fd87',1,'board_teensy35.h']]],
   ['core_5fteensy41_288',['CORE_TEENSY41',['../board__teensy41_8h.html#a551e5124e6ff1f504f733839df44c1fc',1,'board_teensy41.h']]],
   ['correctdwellclosedloop_289',['correctDwellClosedLoop',['../corrections_8cpp.html#a76253b3be55bd4478dd959add9ad64db',1,'corrections.cpp']]],
-  ['correctionaccel_290',['correctionaccel',['../corrections_8cpp.html#aa44dd4a47006403c1a9d40e2fef6e6b4',1,'correctionAccel(const aeTimeoutExpiredCallback_t onTimeoutExpired, const shouldResetCurrentAeCallback_t shouldResetCurrentAe, const shouldStartAeCallback_t shouldStartAe, const computAeCallback_t computeAe):&#160;corrections.cpp'],['../corrections_8cpp.html#a1b406302d79572aea242fb170bd4da03',1,'correctionAccel(void):&#160;corrections.cpp']]],
+  ['correctionaccel_290',['correctionaccel',['../corrections_8cpp.html#a1b406302d79572aea242fb170bd4da03',1,'correctionAccel(void):&#160;corrections.cpp'],['../corrections_8cpp.html#aa44dd4a47006403c1a9d40e2fef6e6b4',1,'correctionAccel(const aeTimeoutExpiredCallback_t onTimeoutExpired, const shouldResetCurrentAeCallback_t shouldResetCurrentAe, const shouldStartAeCallback_t shouldStartAe, const computAeCallback_t computeAe):&#160;corrections.cpp']]],
   ['correctionaccelmodemap_291',['correctionAccelModeMap',['../corrections_8cpp.html#a888a6fb11941a4e90c01900a3f51da69',1,'corrections.cpp']]],
   ['correctionaccelmodetps_292',['correctionAccelModeTps',['../corrections_8cpp.html#ad45e15982f2cc0272877dc8ea980b265',1,'corrections.cpp']]],
   ['correctionafrclosedloop_293',['correctionAFRClosedLoop',['../corrections_8cpp.html#ab5df2bd365fb3ff8a76f2c3cd80be071',1,'corrections.cpp']]],
@@ -299,7 +299,7 @@ var searchData=
   ['correctionbatvoltage_296',['correctionBatVoltage',['../corrections_8cpp.html#a8a94c4cf1766c143191074d0c103b881',1,'corrections.cpp']]],
   ['correctioncltadvance_297',['correctionCLTadvance',['../corrections_8cpp.html#af1162204829e06af029f94d288734e9d',1,'corrections.cpp']]],
   ['correctioncranking_298',['correctionCranking',['../corrections_8cpp.html#ad6f5d711a0c1dc5aad6b0a64e8876d94',1,'corrections.cpp']]],
-  ['correctioncrankingfixedtiming_299',['correctioncrankingfixedtiming',['../corrections_8cpp.html#a772dfea7ea13932573c8dbbc0933ca02',1,'correctionCrankingFixedTiming(int8_t advance):&#160;corrections.cpp'],['../corrections_8h.html#a772dfea7ea13932573c8dbbc0933ca02',1,'correctionCrankingFixedTiming(int8_t advance):&#160;corrections.cpp']]],
+  ['correctioncrankingfixedtiming_299',['correctioncrankingfixedtiming',['../corrections_8h.html#a772dfea7ea13932573c8dbbc0933ca02',1,'correctionCrankingFixedTiming(int8_t advance):&#160;corrections.cpp'],['../corrections_8cpp.html#a772dfea7ea13932573c8dbbc0933ca02',1,'correctionCrankingFixedTiming(int8_t advance):&#160;corrections.cpp']]],
   ['correctiondfco_300',['correctionDFCO',['../corrections_8cpp.html#ae2bfa8bf2b6b95bff448be5d4574c3ba',1,'corrections.cpp']]],
   ['correctiondfcofuel_301',['correctionDFCOfuel',['../corrections_8cpp.html#a77b70ee2d7c101615eba3c84f343f0c6',1,'corrections.cpp']]],
   ['correctiondfcoignition_302',['correctionDFCOignition',['../corrections_8cpp.html#afe09c6fe4ed0032f9989e7270ee140ee',1,'corrections.cpp']]],
@@ -345,7 +345,7 @@ var searchData=
   ['crankingpct_342',['crankingPct',['../structconfig2.html#a46d6cd573533b4b7875c8e827b8ae11c',1,'config2']]],
   ['crankmaths_2ecpp_343',['crankMaths.cpp',['../crank_maths_8cpp.html',1,'']]],
   ['crankmaths_2eh_344',['crankMaths.h',['../crank_maths_8h.html',1,'']]],
-  ['crankrpm_345',['crankrpm',['../structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae',1,'config4::crankRPM'],['../structstatuses.html#addffd5f8b9833a8e9e946c204b76641e',1,'statuses::crankRPM']]],
+  ['crankrpm_345',['crankrpm',['../structstatuses.html#addffd5f8b9833a8e9e946c204b76641e',1,'statuses::crankRPM'],['../structconfig4.html#a47cf89db0bfb840cdf1188ce249a9dae',1,'config4::crankRPM']]],
   ['crc32_5fcalibration_346',['CRC32_calibration',['../group__group-serial-comms-impl.html#gaa6a2ccd44b27d443d163bf3ed6b4be25',1,'comms.cpp']]],
   ['crc32_5fserial_347',['CRC32_serial',['../group__group-serial-comms-impl.html#gac772dbbd5148947d8cf56df07cb6ada7',1,'comms.cpp']]],
   ['crc_5ft_348',['crc_t',['../group__group-serial-comms-impl.html#ga19429693ab0bfa967896917ac1bbad23',1,'comms.cpp']]],
@@ -374,6 +374,5 @@ var searchData=
   ['cycleminimumaccumulate_371',['cycleMinimumAccumulate',['../sensors_8cpp.html#a82d2a9d384f7acc0337f08ddf78b8760',1,'sensors.cpp']]],
   ['cycleminimumendcycle_372',['cycleMinimumEndCycle',['../sensors_8cpp.html#a33b4d6916804696d855950a2f5490215',1,'sensors.cpp']]],
   ['cycleminimummapreading_373',['cycleMinimumMAPReading',['../sensors_8cpp.html#a012a1b6a8d66c697634885ed22e562ed',1,'sensors.cpp']]],
-  ['cyl_374',['Daihatsu (3  and 4 cyl.)',['../group__dec__daihatsu.html',1,'']]],
-  ['cylinder_375',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
+  ['cylinder_374',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
 ];
