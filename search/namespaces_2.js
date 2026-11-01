@@ -18,5 +18,6 @@ var searchData=
   ['decoders_3a_3anissan360_15',['nissan360',['../namespacedecoders_1_1nissan360.html',1,'decoders']]],
   ['decoders_3a_3anon360_16',['non360',['../namespacedecoders_1_1non360.html',1,'decoders']]],
   ['decoders_3a_3ashared_17',['shared',['../namespacedecoders_1_1shared.html',1,'decoders']]],
-  ['decoders_3a_3asubaru67_18',['subaru67',['../namespacedecoders_1_1subaru67.html',1,'decoders']]]
+  ['decoders_3a_3asubaru67_18',['subaru67',['../namespacedecoders_1_1subaru67.html',1,'decoders']]],
+  ['decoders_3a_3athirtysixminus222_19',['thirtysixminus222',['../namespacedecoders_1_1thirtysixminus222.html',1,'decoders']]]
 ];

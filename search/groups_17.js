@@ -7,7 +7,6 @@ var searchData=
   ['timer_20isrs_4',['timer isrs',['../group__fuel-schedule-_i_s_r.html',1,'Fuel schedule timer ISRs'],['../group__ignition-schedule-_i_s_r.html',1,'Ignition schedule timer ISRs']]],
   ['to_20ts_5',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
   ['tooth_20on_20cam_6',['Nissan 360 tooth on cam',['../group__dec__nissan360.html',1,'']]],
-  ['trigger_20wheel_7',['36-2-2-2 Trigger wheel',['../group__dec__36__2__2__2.html',1,'']]],
-  ['ts_8',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
-  ['ts_20messages_9',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
+  ['ts_7',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
+  ['ts_20messages_8',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
 ];
