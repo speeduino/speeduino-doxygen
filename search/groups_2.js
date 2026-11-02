@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['4_206_20and_208_20cylinder_0',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]],
-  ['420a_20for_20the_20dsm_20eclipse_1',['DSM 420a, For the DSM Eclipse',['../group__dec__dsm__420a.html',1,'']]]
+  ['4_206_20and_208_20cylinder_0',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vmax_0',['Yamaha Vmax',['../group__dec__vmax.html',1,'']]]
+  ['weber_20marelli_0',['Weber-Marelli',['../group__dec__weber__marelli.html',1,'']]]
 ];
