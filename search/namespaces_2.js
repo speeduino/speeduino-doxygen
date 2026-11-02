@@ -19,5 +19,6 @@ var searchData=
   ['decoders_3a_3anon360_16',['non360',['../namespacedecoders_1_1non360.html',1,'decoders']]],
   ['decoders_3a_3ashared_17',['shared',['../namespacedecoders_1_1shared.html',1,'decoders']]],
   ['decoders_3a_3asubaru67_18',['subaru67',['../namespacedecoders_1_1subaru67.html',1,'decoders']]],
-  ['decoders_3a_3athirtysixminus222_19',['thirtysixminus222',['../namespacedecoders_1_1thirtysixminus222.html',1,'decoders']]]
+  ['decoders_3a_3athirtysixminus21_19',['thirtysixminus21',['../namespacedecoders_1_1thirtysixminus21.html',1,'decoders']]],
+  ['decoders_3a_3athirtysixminus222_20',['thirtysixminus222',['../namespacedecoders_1_1thirtysixminus222.html',1,'decoders']]]
 ];

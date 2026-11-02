@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hard_20coded_20response_20for_20some_20ts_20messages_0',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
+  ['k6a_0',['Suzuki K6A',['../group___suzuki___k6_a.html',1,'']]]
 ];

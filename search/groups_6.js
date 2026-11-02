@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['8_20cylinder_0',['Chrysler NGC - 4, 6 and 8-cylinder',['../group__dec.html',1,'']]]
+  ['basic_20distributor_0',['Basic Distributor',['../group__dec__dist.html',1,'']]],
+  ['behavior_1',['Rounding behavior',['../group__group-rounded-div-behavior.html',1,'']]]
 ];
