@@ -227,9 +227,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa97aabb4df7ad61ab2d6d04807342c82" id="r_aa97aabb4df7ad61ab2d6d04807342c82"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#aa97aabb4df7ad61ab2d6d04807342c82">idleOn</a>: 1</td></tr>
 <tr class="memdesc:aa97aabb4df7ad61ab2d6d04807342c82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is the idle code active : true == active, false == inactive.  <br /></td></tr>
 <tr class="separator:aa97aabb4df7ad61ab2d6d04807342c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74ca6af7b44d6a5d85ac3fb78bf90241" id="r_a74ca6af7b44d6a5d85ac3fb78bf90241"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241">nitrousActive</a>: 1</td></tr>
-<tr class="memdesc:a74ca6af7b44d6a5d85ac3fb78bf90241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nitrous on (true) or off (false)  <br /></td></tr>
-<tr class="separator:a74ca6af7b44d6a5d85ac3fb78bf90241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73c5682eeb8212c1d73d30f118c20fbd" id="r_a73c5682eeb8212c1d73d30f118c20fbd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a73c5682eeb8212c1d73d30f118c20fbd">secondFuelTableActive</a>: 1</td></tr>
 <tr class="memdesc:a73c5682eeb8212c1d73d30f118c20fbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secondary fuel table is use (true) or not (false)  <br /></td></tr>
 <tr class="separator:a73c5682eeb8212c1d73d30f118c20fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -300,8 +297,9 @@ Public Attributes</h2></td></tr>
 <tr class="separator:addffd5f8b9833a8e9e946c204b76641e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc563b652711513215c67c2122ae7fb6" id="r_acc563b652711513215c67c2122ae7fb6"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#acc563b652711513215c67c2122ae7fb6">flexBoostCorrection</a></td></tr>
 <tr class="separator:acc563b652711513215c67c2122ae7fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab455fbf1cf370ff16c6c6ff9852bedfe" id="r_ab455fbf1cf370ff16c6c6ff9852bedfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe">nitrous_status</a></td></tr>
-<tr class="separator:ab455fbf1cf370ff16c6c6ff9852bedfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a324e866d5a69baae0e2f80444feb4bd5" id="r_a324e866d5a69baae0e2f80444feb4bd5"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a324e866d5a69baae0e2f80444feb4bd5">nitrousStatus</a></td></tr>
+<tr class="memdesc:a324e866d5a69baae0e2f80444feb4bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">NITROUS_OFF, NITROUS_STAGE1, NITROUS_BOTH.  <br /></td></tr>
+<tr class="separator:a324e866d5a69baae0e2f80444feb4bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5adf9c377ae4368e2d60155e10721b9f" id="r_a5adf9c377ae4368e2d60155e10721b9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f">nSquirts</a></td></tr>
 <tr class="memdesc:a5adf9c377ae4368e2d60155e10721b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of injector squirts per cycle (per injector)  <br /></td></tr>
 <tr class="separator:a5adf9c377ae4368e2d60155e10721b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1575,33 +1573,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab455fbf1cf370ff16c6c6ff9852bedfe" name="ab455fbf1cf370ff16c6c6ff9852bedfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab455fbf1cf370ff16c6c6ff9852bedfe">&#9670;&#160;</a></span>nitrous_status</h2>
+<a id="a324e866d5a69baae0e2f80444feb4bd5" name="a324e866d5a69baae0e2f80444feb4bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a324e866d5a69baae0e2f80444feb4bd5">&#9670;&#160;</a></span>nitrousStatus</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="statuses_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> statuses::nitrous_status</td>
+          <td class="memname">uint8_t statuses::nitrousStatus</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a74ca6af7b44d6a5d85ac3fb78bf90241" name="a74ca6af7b44d6a5d85ac3fb78bf90241"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74ca6af7b44d6a5d85ac3fb78bf90241">&#9670;&#160;</a></span>nitrousActive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool statuses::nitrousActive</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Nitrous on (true) or off (false) </p>
+<p>NITROUS_OFF, NITROUS_STAGE1, NITROUS_BOTH. </p>
 
 </div>
 </div>

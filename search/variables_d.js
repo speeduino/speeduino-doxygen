@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['n2o_5farming_5fpin_0',['n2o_arming_pin',['../nitrous_controller_8cpp.html#ab405983dcd43dc4c3c5ad3b71287e913',1,'n2o_arming_pin:&#160;nitrousController.cpp'],['../structconfig10.html#ad3687a56311203b7fd28dcc7a3a1b986',1,'config10::n2o_arming_pin']]],
+  ['n2o_5farming_5fpin_0',['n2o_arming_pin',['../structconfig10.html#ad3687a56311203b7fd28dcc7a3a1b986',1,'config10']]],
   ['n2o_5fenable_1',['n2o_enable',['../structconfig10.html#acf6e38bb8245d5975438d26db1d87bcb',1,'config10']]],
   ['n2o_5fmaxafr_2',['n2o_maxAFR',['../structconfig10.html#a0c2189d62857f49e89f9729118e181a8',1,'config10']]],
   ['n2o_5fmaxmap_3',['n2o_maxMAP',['../structconfig10.html#ac8ec1458885661d3b4d25a57aa38471e',1,'config10']]],
@@ -11,14 +11,14 @@ var searchData=
   ['n2o_5fstage1_5faddermin_8',['n2o_stage1_adderMin',['../structconfig10.html#a573c96f5a71d27a2ba7717bff0047f4d',1,'config10']]],
   ['n2o_5fstage1_5fmaxrpm_9',['n2o_stage1_maxRPM',['../structconfig10.html#ad1b558cf91890dd449d2b7dab669aa0b',1,'config10']]],
   ['n2o_5fstage1_5fminrpm_10',['n2o_stage1_minRPM',['../structconfig10.html#aa34f375a418df1467495fc6a55adbe34',1,'config10']]],
-  ['n2o_5fstage1_5fpin_11',['n2o_stage1_pin',['../structconfig10.html#ab9eb4c240d78f74eb846473d907c54d4',1,'config10::n2o_stage1_pin'],['../nitrous_controller_8cpp.html#ab188d5cd7c9b48908eb1456f2245c474',1,'n2o_stage1_pin:&#160;nitrousController.cpp']]],
+  ['n2o_5fstage1_5fpin_11',['n2o_stage1_pin',['../structconfig10.html#ab9eb4c240d78f74eb846473d907c54d4',1,'config10']]],
   ['n2o_5fstage1_5fretard_12',['n2o_stage1_retard',['../structconfig10.html#a4af74d43fc8202c4cedffcdbb3f9da03',1,'config10']]],
   ['n2o_5fstage1_5funused_13',['n2o_stage1_unused',['../structconfig10.html#a7b61176e7ee7d935ce18f3caa5bd48f7',1,'config10']]],
   ['n2o_5fstage2_5faddermax_14',['n2o_stage2_adderMax',['../structconfig10.html#abccf4bc1937703f1faee90310f3f5862',1,'config10']]],
   ['n2o_5fstage2_5faddermin_15',['n2o_stage2_adderMin',['../structconfig10.html#a96e6034accc42087e14f54824a3fd0f0',1,'config10']]],
   ['n2o_5fstage2_5fmaxrpm_16',['n2o_stage2_maxRPM',['../structconfig10.html#a720f7eb6e256badbc9aed70c64dd40fa',1,'config10']]],
   ['n2o_5fstage2_5fminrpm_17',['n2o_stage2_minRPM',['../structconfig10.html#adb23117ae2f998e7ef51705bda5028d3',1,'config10']]],
-  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10::n2o_stage2_pin'],['../nitrous_controller_8cpp.html#a17ea10eadf3aa62cc40c4b4d76c03a21',1,'n2o_stage2_pin:&#160;nitrousController.cpp']]],
+  ['n2o_5fstage2_5fpin_18',['n2o_stage2_pin',['../structconfig10.html#a793847770847ec4763d6133463f69f48',1,'config10']]],
   ['n2o_5fstage2_5fretard_19',['n2o_stage2_retard',['../structconfig10.html#ada7d03a75e86fed26e0edc5ccf1f5594',1,'config10']]],
   ['n2o_5fstage2_5funused_20',['n2o_stage2_unused',['../structconfig10.html#a5f0bab1267cecf5d37f4de24a80911ee',1,'config10']]],
   ['ncylinders_21',['nCylinders',['../structconfig2.html#ab048e09c3fcc835c6bb36bd41edf779f',1,'config2']]],
@@ -28,11 +28,10 @@ var searchData=
   ['nitrous_5foff_25',['NITROUS_OFF',['../config__pages_8h.html#a86e5b22df96d8453649c01d588f709db',1,'config_pages.h']]],
   ['nitrous_5fstage1_26',['NITROUS_STAGE1',['../config__pages_8h.html#a13843a18e9e57b98b852b0750b1b1409',1,'config_pages.h']]],
   ['nitrous_5fstage2_27',['NITROUS_STAGE2',['../config__pages_8h.html#a8a6a4950394decb01dcb209ac36b0e9e',1,'config_pages.h']]],
-  ['nitrous_5fstatus_28',['nitrous_status',['../structstatuses.html#ab455fbf1cf370ff16c6c6ff9852bedfe',1,'statuses']]],
-  ['nitrousactive_29',['nitrousActive',['../structstatuses.html#a74ca6af7b44d6a5d85ac3fb78bf90241',1,'statuses']]],
-  ['no_5ffuel_5fcorrection_30',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
-  ['noexcept_31',['noexcept',['../group__table__3d.html#ga76e040baf116c44c661710c111962f1a',1,'table3d.h']]],
-  ['not_5fa_5fpin_32',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
-  ['nsquirts_33',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
-  ['null_5ftrigger_34',['NULL_TRIGGER',['../decoder__builder_8cpp.html#a8c0598876fb667d9e6d6b6b0be80806c',1,'decoder_builder.cpp']]]
+  ['nitrousstatus_28',['nitrousStatus',['../structstatuses.html#a324e866d5a69baae0e2f80444feb4bd5',1,'statuses']]],
+  ['no_5ffuel_5fcorrection_29',['NO_FUEL_CORRECTION',['../corrections_8cpp.html#a3b923fbe991913a26e99f0c82b35b2b5',1,'corrections.cpp']]],
+  ['noexcept_30',['noexcept',['../group__table__3d.html#ga76e040baf116c44c661710c111962f1a',1,'table3d.h']]],
+  ['not_5fa_5fpin_31',['NOT_A_PIN',['../board__definition_8h.html#ac2746b46b109c3f51096be3a11cbc6fd',1,'board_definition.h']]],
+  ['nsquirts_32',['nSquirts',['../structstatuses.html#a5adf9c377ae4368e2d60155e10721b9f',1,'statuses']]],
+  ['null_5ftrigger_33',['NULL_TRIGGER',['../decoder__builder_8cpp.html#a8c0598876fb667d9e6d6b6b0be80806c',1,'decoder_builder.cpp']]]
 ];

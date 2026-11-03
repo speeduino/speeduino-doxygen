@@ -80,36 +80,82 @@ $(function() {
   <div class="headertitle"><div class="title">nitrousController.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="input_pin_8h_source.html">../../pins/inputPin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="output_pin_8h_source.html">../../pins/outputPin.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">../../../unit_testing.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="config__pages_8h_source.html">../../../config_pages.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="globals_8h_source.html">../../../globals.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="units_8h_source.html">../../../units.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="nitrous_controller_8h_source.html">nitrousController.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="nitrous_controller__state_8h_source.html">nitrousController_state.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unit__testing_8h_source.html">unit_testing.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="units_8h_source.html">units.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abcc26b872322445179253c834230007d" id="r_abcc26b872322445179253c834230007d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#abcc26b872322445179253c834230007d">getN2oArmPinPolarity</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:abcc26b872322445179253c834230007d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b200c2c053ba4b7583c7312330bc751" id="r_a0b200c2c053ba4b7583c7312330bc751"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a0b200c2c053ba4b7583c7312330bc751">initialiseN2oArmPin</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
-<tr class="separator:a0b200c2c053ba4b7583c7312330bc751"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a7fca4d165b557efeeeee2a8452b83" id="r_ac8a7fca4d165b557efeeeee2a8452b83"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#ac8a7fca4d165b557efeeeee2a8452b83">isStage1Enabled</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:ac8a7fca4d165b557efeeeee2a8452b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a527c8678e5eae32f50baca41837328a9" id="r_a527c8678e5eae32f50baca41837328a9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a527c8678e5eae32f50baca41837328a9">isStage2Enabled</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a527c8678e5eae32f50baca41837328a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1d12ac8e29ebffd82d9ab0d3dcf979" id="r_a1c1d12ac8e29ebffd82d9ab0d3dcf979"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a1c1d12ac8e29ebffd82d9ab0d3dcf979">initialiseN2oPins</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
 <tr class="separator:a1c1d12ac8e29ebffd82d9ab0d3dcf979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addf8ab48a86b4b3641dadd37fd29a8ba" id="r_addf8ab48a86b4b3641dadd37fd29a8ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#addf8ab48a86b4b3641dadd37fd29a8ba">initialiseNitrous</a> (void)</td></tr>
-<tr class="separator:addf8ab48a86b4b3641dadd37fd29a8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9156767bea1dd5393bba5f9605aea0a" id="r_ab9156767bea1dd5393bba5f9605aea0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#ab9156767bea1dd5393bba5f9605aea0a">nitrousControl</a> (void)</td></tr>
-<tr class="separator:ab9156767bea1dd5393bba5f9605aea0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69d47c7cee2a06f97ae46aafbdcef020" id="r_a69d47c7cee2a06f97ae46aafbdcef020"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a69d47c7cee2a06f97ae46aafbdcef020">isValidPin</a> (uint8_t pinNum)</td></tr>
+<tr class="separator:a69d47c7cee2a06f97ae46aafbdcef020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a969c1ccc266ee232f5794d1284131f" id="r_a1a969c1ccc266ee232f5794d1284131f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a1a969c1ccc266ee232f5794d1284131f">initialiseNitrous</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a1a969c1ccc266ee232f5794d1284131f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f56f328ffb6987d0d4b8866318a298" id="r_aa9f56f328ffb6987d0d4b8866318a298"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#aa9f56f328ffb6987d0d4b8866318a298">isArmed</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:aa9f56f328ffb6987d0d4b8866318a298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cedcfa10322213dd4f82bb97d34c1d7" id="r_a5cedcfa10322213dd4f82bb97d34c1d7"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a5cedcfa10322213dd4f82bb97d34c1d7">isStage1Active</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a5cedcfa10322213dd4f82bb97d34c1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52b5f7ee445e2abdfaf84787ded682a5" id="r_a52b5f7ee445e2abdfaf84787ded682a5"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a52b5f7ee445e2abdfaf84787ded682a5">isStage2Active</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a52b5f7ee445e2abdfaf84787ded682a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6e4421601afe5def083e53112ca548" id="r_a4e6e4421601afe5def083e53112ca548"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a4e6e4421601afe5def083e53112ca548">calcStatus</a> (const <a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a4e6e4421601afe5def083e53112ca548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17948e2867189d4e6794ba7a83435ecd" id="r_a17948e2867189d4e6794ba7a83435ecd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a17948e2867189d4e6794ba7a83435ecd">setPinState</a> (uint8_t status)</td></tr>
+<tr class="separator:a17948e2867189d4e6794ba7a83435ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebf9e51c0be417db37b069a8e91a42b" id="r_aaebf9e51c0be417db37b069a8e91a42b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#aaebf9e51c0be417db37b069a8e91a42b">nitrousControlCore</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:aaebf9e51c0be417db37b069a8e91a42b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97314b4ba25f4f0480d1335625f234ed" id="r_a97314b4ba25f4f0480d1335625f234ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a97314b4ba25f4f0480d1335625f234ed">nitrousControl</a> (<a class="el" href="structstatuses.html">statuses</a> &amp;<a class="el" href="scheduler__fuel__controller_8cpp.html#a106d27640980c78e8757d0952db96e9f">current</a>, const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a97314b4ba25f4f0480d1335625f234ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab405983dcd43dc4c3c5ad3b71287e913" id="r_ab405983dcd43dc4c3c5ad3b71287e913"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinput_pin__t.html">inputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#ab405983dcd43dc4c3c5ad3b71287e913">n2o_arming_pin</a></td></tr>
-<tr class="separator:ab405983dcd43dc4c3c5ad3b71287e913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab188d5cd7c9b48908eb1456f2245c474" id="r_ab188d5cd7c9b48908eb1456f2245c474"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classoutput_pin__t.html">outputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#ab188d5cd7c9b48908eb1456f2245c474">n2o_stage1_pin</a></td></tr>
-<tr class="separator:ab188d5cd7c9b48908eb1456f2245c474"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17ea10eadf3aa62cc40c4b4d76c03a21" id="r_a17ea10eadf3aa62cc40c4b4d76c03a21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classoutput_pin__t.html">outputPin_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#a17ea10eadf3aa62cc40c4b4d76c03a21">n2o_stage2_pin</a></td></tr>
-<tr class="separator:a17ea10eadf3aa62cc40c4b4d76c03a21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea83ad91c91a979dc5872828d7a158ec" id="r_aea83ad91c91a979dc5872828d7a158ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structnitrous_1_1detail_1_1state__t.html">nitrous::detail::state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="nitrous_controller_8cpp.html#aea83ad91c91a979dc5872828d7a158ec">_n2oState</a></td></tr>
+<tr class="separator:aea83ad91c91a979dc5872828d7a158ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a4e6e4421601afe5def083e53112ca548" name="a4e6e4421601afe5def083e53112ca548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e6e4421601afe5def083e53112ca548">&#9670;&#160;</a></span>calcStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t calcStatus </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abcc26b872322445179253c834230007d" name="abcc26b872322445179253c834230007d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcc26b872322445179253c834230007d">&#9670;&#160;</a></span>getN2oArmPinPolarity()</h2>
 
@@ -121,32 +167,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static uint8_t getN2oArmPinPolarity </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
-          <td class="paramname"><em>page10</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b200c2c053ba4b7583c7312330bc751" name="a0b200c2c053ba4b7583c7312330bc751"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b200c2c053ba4b7583c7312330bc751">&#9670;&#160;</a></span>initialiseN2oArmPin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void initialiseN2oArmPin </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
           <td class="paramname"><em>page10</em></td><td>)</td>
@@ -188,8 +208,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="addf8ab48a86b4b3641dadd37fd29a8ba" name="addf8ab48a86b4b3641dadd37fd29a8ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addf8ab48a86b4b3641dadd37fd29a8ba">&#9670;&#160;</a></span>initialiseNitrous()</h2>
+<a id="a1a969c1ccc266ee232f5794d1284131f" name="a1a969c1ccc266ee232f5794d1284131f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a969c1ccc266ee232f5794d1284131f">&#9670;&#160;</a></span>initialiseNitrous()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -197,17 +217,213 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void initialiseNitrous </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ab9156767bea1dd5393bba5f9605aea0a" name="ab9156767bea1dd5393bba5f9605aea0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9156767bea1dd5393bba5f9605aea0a">&#9670;&#160;</a></span>nitrousControl()</h2>
+<a id="aa9f56f328ffb6987d0d4b8866318a298" name="aa9f56f328ffb6987d0d4b8866318a298"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f56f328ffb6987d0d4b8866318a298">&#9670;&#160;</a></span>isArmed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isArmed </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5cedcfa10322213dd4f82bb97d34c1d7" name="a5cedcfa10322213dd4f82bb97d34c1d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cedcfa10322213dd4f82bb97d34c1d7">&#9670;&#160;</a></span>isStage1Active()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isStage1Active </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac8a7fca4d165b557efeeeee2a8452b83" name="ac8a7fca4d165b557efeeeee2a8452b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8a7fca4d165b557efeeeee2a8452b83">&#9670;&#160;</a></span>isStage1Enabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isStage1Enabled </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52b5f7ee445e2abdfaf84787ded682a5" name="a52b5f7ee445e2abdfaf84787ded682a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b5f7ee445e2abdfaf84787ded682a5">&#9670;&#160;</a></span>isStage2Active()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isStage2Active </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a527c8678e5eae32f50baca41837328a9" name="a527c8678e5eae32f50baca41837328a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a527c8678e5eae32f50baca41837328a9">&#9670;&#160;</a></span>isStage2Enabled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isStage2Enabled </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a69d47c7cee2a06f97ae46aafbdcef020" name="a69d47c7cee2a06f97ae46aafbdcef020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d47c7cee2a06f97ae46aafbdcef020">&#9670;&#160;</a></span>isValidPin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool isValidPin </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pinNum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97314b4ba25f4f0480d1335625f234ed" name="a97314b4ba25f4f0480d1335625f234ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97314b4ba25f4f0480d1335625f234ed">&#9670;&#160;</a></span>nitrousControl()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,52 +431,88 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void nitrousControl </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaebf9e51c0be417db37b069a8e91a42b" name="aaebf9e51c0be417db37b069a8e91a42b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebf9e51c0be417db37b069a8e91a42b">&#9670;&#160;</a></span>nitrousControlCore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> void nitrousControlCore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structstatuses.html">statuses</a> &amp;&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17948e2867189d4e6794ba7a83435ecd" name="a17948e2867189d4e6794ba7a83435ecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17948e2867189d4e6794ba7a83435ecd">&#9670;&#160;</a></span>setPinState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void setPinState </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="ab405983dcd43dc4c3c5ad3b71287e913" name="ab405983dcd43dc4c3c5ad3b71287e913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab405983dcd43dc4c3c5ad3b71287e913">&#9670;&#160;</a></span>n2o_arming_pin</h2>
+<a id="aea83ad91c91a979dc5872828d7a158ec" name="aea83ad91c91a979dc5872828d7a158ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea83ad91c91a979dc5872828d7a158ec">&#9670;&#160;</a></span>_n2oState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classinput_pin__t.html">inputPin_t</a> n2o_arming_pin</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab188d5cd7c9b48908eb1456f2245c474" name="ab188d5cd7c9b48908eb1456f2245c474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab188d5cd7c9b48908eb1456f2245c474">&#9670;&#160;</a></span>n2o_stage1_pin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classoutput_pin__t.html">outputPin_t</a> n2o_stage1_pin</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17ea10eadf3aa62cc40c4b4d76c03a21" name="a17ea10eadf3aa62cc40c4b4d76c03a21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17ea10eadf3aa62cc40c4b4d76c03a21">&#9670;&#160;</a></span>n2o_stage2_pin</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="classoutput_pin__t.html">outputPin_t</a> n2o_stage2_pin</td>
+          <td class="memname"><a class="el" href="unit__testing_8h.html#a2f63018251da5259db40a2cad4191ee6">TESTABLE_STATIC</a> <a class="el" href="structnitrous_1_1detail_1_1state__t.html">nitrous::detail::state_t</a> _n2oState</td>
         </tr>
       </table>
 </div><div class="memdoc">
