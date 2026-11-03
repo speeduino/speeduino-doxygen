@@ -3,7 +3,7 @@ var indexSectionsWithContent =
   0: "03468_abcdefghijklmnopqrstuvwxyz",
   1: "acdefgilnoprstvwx",
   2: "_adefipst",
-  3: "34abcdefghijlmnoprstuv",
+  3: "34abcdefghijlmnoprstuvw",
   4: "_abcdefghijklmnoprstuvwz",
   5: "_abcdefghiklmnopqrstuvwxyz",
   6: "abcdefgiqrstuv",
@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   8: "abcdefilmnoprstv",
   9: "o",
   10: "_abcdefilmnoprstuvw",
-  11: "03468abcdfhiklmnoprstuvwy",
+  11: "03468abcdfhiklmnoprstuvy",
   12: "cht"
 };
 
