@@ -1,6 +1,6 @@
 var indexSectionsWithContent =
 {
-  0: "03468_abcdefghijklmnopqrstuvwxyz",
+  0: "3468_abcdefghijklmnopqrstuvwxyz",
   1: "acdefgilnoprstvwx",
   2: "_adefinpst",
   3: "34abcdefghijlmnoprstuvw",
@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   8: "abcdefilmnoprstv",
   9: "o",
   10: "_abcdefilmnoprstuvw",
-  11: "03468abcdfhiklmnoprstuvy",
+  11: "3468abcdfhiklmnoprstuvy",
   12: "cht"
 };
 

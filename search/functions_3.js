@@ -19,7 +19,7 @@ var searchData=
   ['calcrollingcutpercentage_16',['calcRollingCutPercentage',['../engine_protection_8cpp.html#a94f3412d740c771a0cf28d95817c2fd8',1,'engineProtection.cpp']]],
   ['calcrollingcutrevolutions_17',['calcRollingCutRevolutions',['../engine_protection_8cpp.html#a37083aa39b87d71d99479a4868b5bd72',1,'engineProtection.cpp']]],
   ['calcscheduleangle_18',['calcScheduleAngle',['../scheduler__fuel__controller_8cpp.html#a50f24bd46860bb5988eaef5fde1cc40e',1,'scheduler_fuel_controller.cpp']]],
-  ['calcsetendteeth_5ffordst170_19',['calcSetEndTeeth_FordST170',['../group__dec__ford__st170.html#ga4fe1b31c74e29b3b799bd9e60ca3ed0e',1,'decoders.cpp']]],
+  ['calcsetendteeth_5ffordst170_19',['calcSetEndTeeth_FordST170',['../namespacedecoders_1_1st170.html#a2cbad601fb658783af6f94a889a025d8',1,'decoders::st170']]],
   ['calcsetendteeth_5fngc_20',['calcSetEndTeeth_NGC',['../group__dec.html#gafce2e8c998f4c6d214562d66986577af',1,'decoders.cpp']]],
   ['calcsetendteeth_5fngc_5fskipmissing_21',['calcSetEndTeeth_NGC_SkipMissing',['../group__dec.html#ga5bbf504722943d166bae2281a5ae411e',1,'decoders.cpp']]],
   ['calcstageprimarypw_22',['calcStagePrimaryPw',['../fuel__calcs_8cpp.html#a5319f81acb37c53e540087dfdbc66c4f',1,'fuel_calcs.cpp']]],
