@@ -124,6 +124,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="drz400_8h_source.html">src/decoders/drz400.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ngc_8h_source.html">src/decoders/ngc.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vmax_8h_source.html">src/decoders/vmax.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="renix_8h_source.html">src/decoders/renix.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -143,10 +144,6 @@ Macros</h2></td></tr>
 <tr class="separator:ab8f2641ae9a99e2c182d079e4eed46f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32adcb5ef1de64ed96de6e5f9e8df85" id="r_aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aa32adcb5ef1de64ed96de6e5f9e8df85">SKIP_TOOTH4</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d2793e7168a1b83523130c0367fed95" id="r_a8d2793e7168a1b83523130c0367fed95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a8d2793e7168a1b83523130c0367fed95">renixSystemLastToothTime</a>&#160;&#160;&#160;_decoderState.toothLastToothRisingTime</td></tr>
-<tr class="separator:a8d2793e7168a1b83523130c0367fed95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04fd26367d1126f0b30ebd1188fa2368" id="r_a04fd26367d1126f0b30ebd1188fa2368"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a04fd26367d1126f0b30ebd1188fa2368">renixSystemLastMinusOneToothTime</a>&#160;&#160;&#160;_decoderState.toothLastSecToothRisingTime</td></tr>
-<tr class="separator:a04fd26367d1126f0b30ebd1188fa2368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -245,12 +242,6 @@ Functions</h2></td></tr>
 <tr class="separator:a51240890b5b70762af2591206597a257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1af24862939b612e5614247e538fd54b" id="r_a1af24862939b612e5614247e538fd54b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1af24862939b612e5614247e538fd54b">triggerSetup_Vmax</a> (void)</td></tr>
 <tr class="separator:a1af24862939b612e5614247e538fd54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f54daa820297e5473e4456fe61d1664" id="r_a1f54daa820297e5473e4456fe61d1664"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1f54daa820297e5473e4456fe61d1664">triggerPri_Renix</a> (void)</td></tr>
-<tr class="separator:a1f54daa820297e5473e4456fe61d1664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e398d7cb478d559ff3e3318eaacc9b5" id="r_a2e398d7cb478d559ff3e3318eaacc9b5"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a2e398d7cb478d559ff3e3318eaacc9b5">calcEndTeeth_Renix</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
-<tr class="separator:a2e398d7cb478d559ff3e3318eaacc9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6dfa9bd0c1162316215b230f64e039e" id="r_af6dfa9bd0c1162316215b230f64e039e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#af6dfa9bd0c1162316215b230f64e039e">triggerSetEndTeeth_Renix</a> (void)</td></tr>
-<tr class="separator:af6dfa9bd0c1162316215b230f64e039e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776a492e0a77b0b2781acbe180969965" id="r_a776a492e0a77b0b2781acbe180969965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a776a492e0a77b0b2781acbe180969965">triggerSetup_Renix</a> (void)</td></tr>
 <tr class="separator:a776a492e0a77b0b2781acbe180969965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5bab8852ee8f20e1685e5916d630def" id="r_af5bab8852ee8f20e1685e5916d630def"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#af5bab8852ee8f20e1685e5916d630def">triggerRoverMEMSCommon</a> (uint32_t curTime)</td></tr>
@@ -338,36 +329,6 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a04fd26367d1126f0b30ebd1188fa2368" name="a04fd26367d1126f0b30ebd1188fa2368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04fd26367d1126f0b30ebd1188fa2368">&#9670;&#160;</a></span>renixSystemLastMinusOneToothTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define renixSystemLastMinusOneToothTime&#160;&#160;&#160;_decoderState.toothLastSecToothRisingTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8d2793e7168a1b83523130c0367fed95" name="a8d2793e7168a1b83523130c0367fed95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d2793e7168a1b83523130c0367fed95">&#9670;&#160;</a></span>renixSystemLastToothTime</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define renixSystemLastToothTime&#160;&#160;&#160;_decoderState.toothLastToothRisingTime</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Renix 44-2-2 and 66-2-2-2 decoder. <br  />
- Renix trigger wheel doesn't decode into 360 degrees nicely (360/44 = 8.18 degrees or 360/66 = 5.454545). Speeduino can't handle any teeth that have a decimal point. Solution is to count teeth, every 11 teeth = a proper angle. For 66 tooth decoder its 60 degrees per 11 teeth, for 44 tooth decoder its 90 degrees per 11 teeth. This means the system sees 4 teeth on the 44 tooth wheel and 6 teeth on the 66 tooth wheel. Double missing tooth in the pattern is actually a large tooth and a large gap. If the trigger is set to rising you'll see the start of the large tooth then the gap. If its not set to rising the code won't work due to seeing two gaps </p>
 
 </div>
 </div>
@@ -510,42 +471,6 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a2e398d7cb478d559ff3e3318eaacc9b5" name="a2e398d7cb478d559ff3e3318eaacc9b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e398d7cb478d559ff3e3318eaacc9b5">&#9670;&#160;</a></span>calcEndTeeth_Renix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static uint16_t calcEndTeeth_Renix </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
-          <td class="paramname"><em>schedule</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>toothAdder</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1184,32 +1109,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f54daa820297e5473e4456fe61d1664" name="a1f54daa820297e5473e4456fe61d1664"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f54daa820297e5473e4456fe61d1664">&#9670;&#160;</a></span>triggerPri_Renix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void triggerPri_Renix </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a58e0997625ad50d605eb3f8d42800bf3" name="a58e0997625ad50d605eb3f8d42800bf3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a58e0997625ad50d605eb3f8d42800bf3">&#9670;&#160;</a></span>triggerPri_RoverMEMS()</h2>
 
@@ -1433,32 +1332,6 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static void triggerSetEndTeeth_missingTooth </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af6dfa9bd0c1162316215b230f64e039e" name="af6dfa9bd0c1162316215b230f64e039e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6dfa9bd0c1162316215b230f64e039e">&#9670;&#160;</a></span>triggerSetEndTeeth_Renix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void triggerSetEndTeeth_Renix </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1943,6 +1816,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Renix 44-2-2 and 66-2-2-2 decoder. <br  />
+ Renix trigger wheel doesn't decode into 360 degrees nicely (360/44 = 8.18 degrees or 360/66 = 5.454545). Speeduino can't handle any teeth that have a decimal point. Solution is to count teeth, every 11 teeth = a proper angle. For 66 tooth decoder its 60 degrees per 11 teeth, for 44 tooth decoder its 90 degrees per 11 teeth. This means the system sees 4 teeth on the 44 tooth wheel and 6 teeth on the 66 tooth wheel. Double missing tooth in the pattern is actually a large tooth and a large gap. If the trigger is set to rising you'll see the start of the large tooth then the gap. If its not set to rising the code won't work due to seeing two gaps </p>
 
 </div>
 </div>

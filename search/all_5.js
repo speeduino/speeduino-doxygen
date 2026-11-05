@@ -5,7 +5,7 @@ var searchData=
   ['calcangularcylinderseparation_2',['calcAngularCylinderSeparation',['../scheduler__fuel__controller_8cpp.html#ad79b85cdac3abdf285a271a433848acf',1,'scheduler_fuel_controller.cpp']]],
   ['calcbasecutrevolutions_3',['calcBaseCutRevolutions',['../engine_protection_8cpp.html#a8a64f3d3195c4476d7a15ca3be02b038',1,'engineProtection.cpp']]],
   ['calcdeccelenrichment_4',['calcDeccelEnrichment',['../corrections_8cpp.html#a3046c7564b8982aea4664720f4a6e114',1,'corrections.cpp']]],
-  ['calcendteeth_5frenix_5',['calcEndTeeth_Renix',['../decoders_8cpp.html#a2e398d7cb478d559ff3e3318eaacc9b5',1,'decoders.cpp']]],
+  ['calcendteeth_5frenix_5',['calcEndTeeth_Renix',['../namespacedecoders_1_1renix.html#a630b02ce0ff296203e4e77b0c7771468',1,'decoders::renix']]],
   ['calcendteeth_5fsuzukik6a_6',['calcEndTeeth_SuzukiK6A',['../decoders_8cpp.html#a17870d24cd7ee71cf10e148a1e91c75e',1,'decoders.cpp']]],
   ['calcendtooth_7',['calcendtooth',['../namespacedecoders_1_1missing__tooth.html#a0f5fdbf82e4219683f1bf93ae2798f23',1,'decoders::missing_tooth::calcEndTooth()'],['../namespacedecoders_1_1dual__wheel.html#a473c0d369f2b24d356eebe2fb6de5048',1,'decoders::dual_wheel::calcEndTooth()']]],
   ['calcendtooth_5fnissan360_8',['calcEndTooth_Nissan360',['../namespacedecoders_1_1nissan360.html#a09a36f877ac01dcebd742d3d05898483',1,'decoders::nissan360']]],

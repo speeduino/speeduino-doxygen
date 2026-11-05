@@ -148,7 +148,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a51240890b5b70762af2591206597a257" id="r_a51240890b5b70762af2591206597a257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a51240890b5b70762af2591206597a257">triggerSetup_NGC</a> (void)</td></tr>
 <tr class="separator:a51240890b5b70762af2591206597a257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776a492e0a77b0b2781acbe180969965" id="r_a776a492e0a77b0b2781acbe180969965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#a776a492e0a77b0b2781acbe180969965">triggerSetup_Renix</a> (void)</td></tr>
-<tr class="memdesc:a776a492e0a77b0b2781acbe180969965"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
 <tr class="separator:a776a492e0a77b0b2781acbe180969965"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec4de82bf03b885f9a4399a6b1bfa4bc" id="r_aec4de82bf03b885f9a4399a6b1bfa4bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8h.html#aec4de82bf03b885f9a4399a6b1bfa4bc">triggerSetup_RoverMEMS</a> (void)</td></tr>
 <tr class="memdesc:aec4de82bf03b885f9a4399a6b1bfa4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup function for each decoder type.  <br /></td></tr>
@@ -661,8 +660,8 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Setup function for each decoder type. </p>
+<p>Renix 44-2-2 and 66-2-2-2 decoder. <br  />
+ Renix trigger wheel doesn't decode into 360 degrees nicely (360/44 = 8.18 degrees or 360/66 = 5.454545). Speeduino can't handle any teeth that have a decimal point. Solution is to count teeth, every 11 teeth = a proper angle. For 66 tooth decoder its 60 degrees per 11 teeth, for 44 tooth decoder its 90 degrees per 11 teeth. This means the system sees 4 teeth on the 44 tooth wheel and 6 teeth on the 66 tooth wheel. Double missing tooth in the pattern is actually a large tooth and a large gap. If the trigger is set to rising you'll see the start of the large tooth then the gap. If its not set to rising the code won't work due to seeing two gaps </p>
 
 </div>
 </div>
