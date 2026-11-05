@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['basic_20distributor_0',['Basic Distributor',['../group__dec__dist.html',1,'']]],
-  ['behavior_1',['Rounding behavior',['../group__group-rounded-div-behavior.html',1,'']]]
+  ['hard_20coded_20response_20for_20some_20ts_20messages_0',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]]
 ];

@@ -122,6 +122,8 @@ $(function() {
 <code>#include &quot;<a class="el" href="webber_8h_source.html">src/decoders/webber.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="st170_8h_source.html">src/decoders/st170.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="drz400_8h_source.html">src/decoders/drz400.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ngc_8h_source.html">src/decoders/ngc.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vmax_8h_source.html">src/decoders/vmax.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
@@ -141,37 +143,35 @@ Macros</h2></td></tr>
 <tr class="separator:ab8f2641ae9a99e2c182d079e4eed46f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa32adcb5ef1de64ed96de6e5f9e8df85" id="r_aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aa32adcb5ef1de64ed96de6e5f9e8df85">SKIP_TOOTH4</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:aa32adcb5ef1de64ed96de6e5f9e8df85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga735c16343b36f4140ef631447916a6b1" id="r_ga735c16343b36f4140ef631447916a6b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga735c16343b36f4140ef631447916a6b1">secondaryToothLastCount</a>&#160;&#160;&#160;_decoderState.checkSyncToothCount</td></tr>
-<tr class="separator:ga735c16343b36f4140ef631447916a6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d2793e7168a1b83523130c0367fed95" id="r_ga8d2793e7168a1b83523130c0367fed95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#ga8d2793e7168a1b83523130c0367fed95">renixSystemLastToothTime</a>&#160;&#160;&#160;_decoderState.toothLastToothRisingTime</td></tr>
-<tr class="separator:ga8d2793e7168a1b83523130c0367fed95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga04fd26367d1126f0b30ebd1188fa2368" id="r_ga04fd26367d1126f0b30ebd1188fa2368"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#ga04fd26367d1126f0b30ebd1188fa2368">renixSystemLastMinusOneToothTime</a>&#160;&#160;&#160;_decoderState.toothLastSecToothRisingTime</td></tr>
-<tr class="separator:ga04fd26367d1126f0b30ebd1188fa2368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2793e7168a1b83523130c0367fed95" id="r_a8d2793e7168a1b83523130c0367fed95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a8d2793e7168a1b83523130c0367fed95">renixSystemLastToothTime</a>&#160;&#160;&#160;_decoderState.toothLastToothRisingTime</td></tr>
+<tr class="separator:a8d2793e7168a1b83523130c0367fed95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04fd26367d1126f0b30ebd1188fa2368" id="r_a04fd26367d1126f0b30ebd1188fa2368"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a04fd26367d1126f0b30ebd1188fa2368">renixSystemLastMinusOneToothTime</a>&#160;&#160;&#160;_decoderState.toothLastSecToothRisingTime</td></tr>
+<tr class="separator:a04fd26367d1126f0b30ebd1188fa2368"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga7bb4f5342ba80b6846836c8e6432975a" id="r_ga7bb4f5342ba80b6846836c8e6432975a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a">addToothLogEntry</a> (unsigned long toothTime, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> whichTooth)</td></tr>
-<tr class="separator:ga7bb4f5342ba80b6846836c8e6432975a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga16521d008e98dde33c2b46311084c67e" id="r_ga16521d008e98dde33c2b46311084c67e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga16521d008e98dde33c2b46311084c67e">loggerPrimaryISR</a> (void)</td></tr>
-<tr class="separator:ga16521d008e98dde33c2b46311084c67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaea03d02f72cf6acf50787cf0ea5d8eed" id="r_gaea03d02f72cf6acf50787cf0ea5d8eed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gaea03d02f72cf6acf50787cf0ea5d8eed">loggerSecondaryISR</a> (void)</td></tr>
-<tr class="separator:gaea03d02f72cf6acf50787cf0ea5d8eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacd9814e949e3cc3c5cec3cba1d2a96f4" id="r_gacd9814e949e3cc3c5cec3cba1d2a96f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gacd9814e949e3cc3c5cec3cba1d2a96f4">loggerTertiaryISR</a> (void)</td></tr>
-<tr class="separator:gacd9814e949e3cc3c5cec3cba1d2a96f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab5272450c360b4c5c50d13d53b447f15" id="r_gab5272450c360b4c5c50d13d53b447f15"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdecoder__status__t.html">decoder_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gab5272450c360b4c5c50d13d53b447f15">sharedGetStatus</a> (void) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
-<tr class="separator:gab5272450c360b4c5c50d13d53b447f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga53b1bc746982dc064f88c1dca7e8161c" id="r_ga53b1bc746982dc064f88c1dca7e8161c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga53b1bc746982dc064f88c1dca7e8161c">sharedEngineIsRunning</a> (uint32_t curTime)</td></tr>
-<tr class="separator:ga53b1bc746982dc064f88c1dca7e8161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51da08bc2651bda1428921b72a797e45" id="r_ga51da08bc2651bda1428921b72a797e45"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdecoder__features__t.html">decoder_features_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga51da08bc2651bda1428921b72a797e45">sharedGetDecoderFeatures</a> (void)</td></tr>
-<tr class="separator:ga51da08bc2651bda1428921b72a797e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad9e5f95ac3e4b39f9a0667dc0fdff483" id="r_gad9e5f95ac3e4b39f9a0667dc0fdff483"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gad9e5f95ac3e4b39f9a0667dc0fdff483">sharedDecoderReset</a> (void)</td></tr>
-<tr class="separator:gad9e5f95ac3e4b39f9a0667dc0fdff483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6a5d7b9993588397420abe176df6008d" id="r_ga6a5d7b9993588397420abe176df6008d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga6a5d7b9993588397420abe176df6008d">getConfigPriTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
-<tr class="separator:ga6a5d7b9993588397420abe176df6008d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaacf9066ca4c01379f1f0e375757d9e1e" id="r_gaacf9066ca4c01379f1f0e375757d9e1e"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#gaacf9066ca4c01379f1f0e375757d9e1e">getConfigSecTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
-<tr class="separator:gaacf9066ca4c01379f1f0e375757d9e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga41504283afa2a844c4474756c9caf1c1" id="r_ga41504283afa2a844c4474756c9caf1c1"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__uni.html#ga41504283afa2a844c4474756c9caf1c1">getConfigTerTriggerEdge</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
-<tr class="separator:ga41504283afa2a844c4474756c9caf1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb4f5342ba80b6846836c8e6432975a" id="r_a7bb4f5342ba80b6846836c8e6432975a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a7bb4f5342ba80b6846836c8e6432975a">addToothLogEntry</a> (unsigned long toothTime, <a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a> whichTooth)</td></tr>
+<tr class="separator:a7bb4f5342ba80b6846836c8e6432975a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16521d008e98dde33c2b46311084c67e" id="r_a16521d008e98dde33c2b46311084c67e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a16521d008e98dde33c2b46311084c67e">loggerPrimaryISR</a> (void)</td></tr>
+<tr class="separator:a16521d008e98dde33c2b46311084c67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea03d02f72cf6acf50787cf0ea5d8eed" id="r_aea03d02f72cf6acf50787cf0ea5d8eed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aea03d02f72cf6acf50787cf0ea5d8eed">loggerSecondaryISR</a> (void)</td></tr>
+<tr class="separator:aea03d02f72cf6acf50787cf0ea5d8eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd9814e949e3cc3c5cec3cba1d2a96f4" id="r_acd9814e949e3cc3c5cec3cba1d2a96f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#acd9814e949e3cc3c5cec3cba1d2a96f4">loggerTertiaryISR</a> (void)</td></tr>
+<tr class="separator:acd9814e949e3cc3c5cec3cba1d2a96f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5272450c360b4c5c50d13d53b447f15" id="r_ab5272450c360b4c5c50d13d53b447f15"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdecoder__status__t.html">decoder_status_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ab5272450c360b4c5c50d13d53b447f15">sharedGetStatus</a> (void) <a class="el" href="group__table__3d.html#ga76e040baf116c44c661710c111962f1a">noexcept</a></td></tr>
+<tr class="separator:ab5272450c360b4c5c50d13d53b447f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53b1bc746982dc064f88c1dca7e8161c" id="r_a53b1bc746982dc064f88c1dca7e8161c"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a53b1bc746982dc064f88c1dca7e8161c">sharedEngineIsRunning</a> (uint32_t curTime)</td></tr>
+<tr class="separator:a53b1bc746982dc064f88c1dca7e8161c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51da08bc2651bda1428921b72a797e45" id="r_a51da08bc2651bda1428921b72a797e45"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structdecoder__features__t.html">decoder_features_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a51da08bc2651bda1428921b72a797e45">sharedGetDecoderFeatures</a> (void)</td></tr>
+<tr class="separator:a51da08bc2651bda1428921b72a797e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e5f95ac3e4b39f9a0667dc0fdff483" id="r_ad9e5f95ac3e4b39f9a0667dc0fdff483"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ad9e5f95ac3e4b39f9a0667dc0fdff483">sharedDecoderReset</a> (void)</td></tr>
+<tr class="separator:ad9e5f95ac3e4b39f9a0667dc0fdff483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a5d7b9993588397420abe176df6008d" id="r_a6a5d7b9993588397420abe176df6008d"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a6a5d7b9993588397420abe176df6008d">getConfigPriTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
+<tr class="separator:a6a5d7b9993588397420abe176df6008d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf9066ca4c01379f1f0e375757d9e1e" id="r_aacf9066ca4c01379f1f0e375757d9e1e"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aacf9066ca4c01379f1f0e375757d9e1e">getConfigSecTriggerEdge</a> (const <a class="el" href="structconfig4.html">config4</a> &amp;<a class="el" href="engine_protection_8cpp.html#a06a6da4ec6cb1dc4d8441511476129a1">page4</a>)</td></tr>
+<tr class="separator:aacf9066ca4c01379f1f0e375757d9e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41504283afa2a844c4474756c9caf1c1" id="r_a41504283afa2a844c4474756c9caf1c1"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a41504283afa2a844c4474756c9caf1c1">getConfigTerTriggerEdge</a> (const <a class="el" href="structconfig10.html">config10</a> &amp;<a class="el" href="engine_protection_8cpp.html#afd7fa06a22de3e5b9915ea53ce05a288">page10</a>)</td></tr>
+<tr class="separator:a41504283afa2a844c4474756c9caf1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ac160b1a04cb3e5ea6ea9fa31f09fb0" id="r_a4ac160b1a04cb3e5ea6ea9fa31f09fb0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4ac160b1a04cb3e5ea6ea9fa31f09fb0">triggerPri_missingTooth</a> (void)</td></tr>
 <tr class="separator:a4ac160b1a04cb3e5ea6ea9fa31f09fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fd2a5dd4c6033768e39bb9b38d0ee2e" id="r_a2fd2a5dd4c6033768e39bb9b38d0ee2e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a2fd2a5dd4c6033768e39bb9b38d0ee2e">triggerThird_missingTooth</a> (void)</td></tr>
@@ -197,8 +197,8 @@ Functions</h2></td></tr>
 <tr class="separator:a8c48ba45378494e5849b01b4afda65df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24c3aa0a00134a35f687d6e97b843ca9" id="r_a24c3aa0a00134a35f687d6e97b843ca9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a24c3aa0a00134a35f687d6e97b843ca9">triggerSetup_DualWheel</a> (void)</td></tr>
 <tr class="separator:a24c3aa0a00134a35f687d6e97b843ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga6dff48d2eedde421b6949ac190b8fe36" id="r_ga6dff48d2eedde421b6949ac190b8fe36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__dist.html#ga6dff48d2eedde421b6949ac190b8fe36">triggerSetup_BasicDistributor</a> (void)</td></tr>
-<tr class="separator:ga6dff48d2eedde421b6949ac190b8fe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dff48d2eedde421b6949ac190b8fe36" id="r_a6dff48d2eedde421b6949ac190b8fe36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a6dff48d2eedde421b6949ac190b8fe36">triggerSetup_BasicDistributor</a> (void)</td></tr>
+<tr class="separator:a6dff48d2eedde421b6949ac190b8fe36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef919755c43090f0a2203a2e4a7b72c" id="r_a6ef919755c43090f0a2203a2e4a7b72c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a6ef919755c43090f0a2203a2e4a7b72c">triggerSetup_GM7X</a> (void)</td></tr>
 <tr class="separator:a6ef919755c43090f0a2203a2e4a7b72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabf9de6079388006091d7df5db39ea8e" id="r_aabf9de6079388006091d7df5db39ea8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aabf9de6079388006091d7df5db39ea8e">triggerSetup_4G63</a> (void)</td></tr>
@@ -221,8 +221,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab28c1082b9c115124b5bdde9486c0de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc323ef1d200e819d16ec0fbbd69f783" id="r_adc323ef1d200e819d16ec0fbbd69f783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#adc323ef1d200e819d16ec0fbbd69f783">triggerSetup_non360</a> (void)</td></tr>
 <tr class="separator:adc323ef1d200e819d16ec0fbbd69f783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2ee3eefe43908d965e7e9c554d5fe38c" id="r_ga2ee3eefe43908d965e7e9c554d5fe38c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__nissan360.html#ga2ee3eefe43908d965e7e9c554d5fe38c">triggerSetup_Nissan360</a> (void)</td></tr>
-<tr class="separator:ga2ee3eefe43908d965e7e9c554d5fe38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee3eefe43908d965e7e9c554d5fe38c" id="r_a2ee3eefe43908d965e7e9c554d5fe38c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a2ee3eefe43908d965e7e9c554d5fe38c">triggerSetup_Nissan360</a> (void)</td></tr>
+<tr class="separator:a2ee3eefe43908d965e7e9c554d5fe38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb5bff1467cc6a9e78f28dda5d66d9f1" id="r_aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aeb5bff1467cc6a9e78f28dda5d66d9f1">triggerSetup_Subaru67</a> (void)</td></tr>
 <tr class="separator:aeb5bff1467cc6a9e78f28dda5d66d9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaebee5c3abc715ba882b8d1fd8cbc968" id="r_aaebee5c3abc715ba882b8d1fd8cbc968"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aaebee5c3abc715ba882b8d1fd8cbc968">triggerSetup_Daihatsu</a> (void)</td></tr>
@@ -241,76 +241,56 @@ Functions</h2></td></tr>
 <tr class="separator:ace41bccb124486d4b5a678ec8b6216b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fd161deefbe1040dc5b84019448eb3f" id="r_a7fd161deefbe1040dc5b84019448eb3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a7fd161deefbe1040dc5b84019448eb3f">triggerSetup_DRZ400</a> (void)</td></tr>
 <tr class="separator:a7fd161deefbe1040dc5b84019448eb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8be9c260521e740202bb50a2749e0bc5" id="r_ga8be9c260521e740202bb50a2749e0bc5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga8be9c260521e740202bb50a2749e0bc5">triggerPri_NGC</a> (void)</td></tr>
-<tr class="separator:ga8be9c260521e740202bb50a2749e0bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3a61597eace96b6124cdb27968433bf5" id="r_ga3a61597eace96b6124cdb27968433bf5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga3a61597eace96b6124cdb27968433bf5">triggerSec_NGC4</a> (void)</td></tr>
-<tr class="separator:ga3a61597eace96b6124cdb27968433bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga13866d0d523489a005e6ec9d0fa9e5eb" id="r_ga13866d0d523489a005e6ec9d0fa9e5eb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga13866d0d523489a005e6ec9d0fa9e5eb">triggerSec_NGC68</a> (void)</td></tr>
-<tr class="separator:ga13866d0d523489a005e6ec9d0fa9e5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadc299a2458a109bb7513ec3ab99ecdf2" id="r_gadc299a2458a109bb7513ec3ab99ecdf2"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gadc299a2458a109bb7513ec3ab99ecdf2">getRevolutionTime_NGC</a> (void)</td></tr>
-<tr class="separator:gadc299a2458a109bb7513ec3ab99ecdf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5bbf504722943d166bae2281a5ae411e" id="r_ga5bbf504722943d166bae2281a5ae411e"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga5bbf504722943d166bae2281a5ae411e">calcSetEndTeeth_NGC_SkipMissing</a> (uint16_t toothNum)</td></tr>
-<tr class="separator:ga5bbf504722943d166bae2281a5ae411e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafce2e8c998f4c6d214562d66986577af" id="r_gafce2e8c998f4c6d214562d66986577af"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gafce2e8c998f4c6d214562d66986577af">calcSetEndTeeth_NGC</a> (<a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
-<tr class="separator:gafce2e8c998f4c6d214562d66986577af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab3954990a8af881151b4cc725917f944" id="r_gab3954990a8af881151b4cc725917f944"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gab3954990a8af881151b4cc725917f944">triggerSetEndTeeth_NGC</a> (void)</td></tr>
-<tr class="separator:gab3954990a8af881151b4cc725917f944"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga51240890b5b70762af2591206597a257" id="r_ga51240890b5b70762af2591206597a257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga51240890b5b70762af2591206597a257">triggerSetup_NGC</a> (void)</td></tr>
-<tr class="separator:ga51240890b5b70762af2591206597a257"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae344dfa15498dc1ac3135e76c08b12fe" id="r_gae344dfa15498dc1ac3135e76c08b12fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__vmax.html#gae344dfa15498dc1ac3135e76c08b12fe">triggerPri_Vmax</a> (void)</td></tr>
-<tr class="separator:gae344dfa15498dc1ac3135e76c08b12fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae16e3bf1696418928afbee6b03dea525" id="r_gae16e3bf1696418928afbee6b03dea525"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__vmax.html#gae16e3bf1696418928afbee6b03dea525">getRevolutionTime_Vmax</a> (void)</td></tr>
-<tr class="separator:gae16e3bf1696418928afbee6b03dea525"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga99ded5c8776705545b2fda518f543a23" id="r_ga99ded5c8776705545b2fda518f543a23"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__vmax.html#ga99ded5c8776705545b2fda518f543a23">getCrankAngle_Vmax</a> (uint32_t currMicros)</td></tr>
-<tr class="separator:ga99ded5c8776705545b2fda518f543a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1af24862939b612e5614247e538fd54b" id="r_ga1af24862939b612e5614247e538fd54b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__vmax.html#ga1af24862939b612e5614247e538fd54b">triggerSetup_Vmax</a> (void)</td></tr>
-<tr class="separator:ga1af24862939b612e5614247e538fd54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1f54daa820297e5473e4456fe61d1664" id="r_ga1f54daa820297e5473e4456fe61d1664"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#ga1f54daa820297e5473e4456fe61d1664">triggerPri_Renix</a> (void)</td></tr>
-<tr class="separator:ga1f54daa820297e5473e4456fe61d1664"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2e398d7cb478d559ff3e3318eaacc9b5" id="r_ga2e398d7cb478d559ff3e3318eaacc9b5"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#ga2e398d7cb478d559ff3e3318eaacc9b5">calcEndTeeth_Renix</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
-<tr class="separator:ga2e398d7cb478d559ff3e3318eaacc9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf6dfa9bd0c1162316215b230f64e039e" id="r_gaf6dfa9bd0c1162316215b230f64e039e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#gaf6dfa9bd0c1162316215b230f64e039e">triggerSetEndTeeth_Renix</a> (void)</td></tr>
-<tr class="separator:gaf6dfa9bd0c1162316215b230f64e039e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga776a492e0a77b0b2781acbe180969965" id="r_ga776a492e0a77b0b2781acbe180969965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec__renix.html#ga776a492e0a77b0b2781acbe180969965">triggerSetup_Renix</a> (void)</td></tr>
-<tr class="separator:ga776a492e0a77b0b2781acbe180969965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf5bab8852ee8f20e1685e5916d630def" id="r_gaf5bab8852ee8f20e1685e5916d630def"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaf5bab8852ee8f20e1685e5916d630def">triggerRoverMEMSCommon</a> (uint32_t curTime)</td></tr>
-<tr class="separator:gaf5bab8852ee8f20e1685e5916d630def"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga58e0997625ad50d605eb3f8d42800bf3" id="r_ga58e0997625ad50d605eb3f8d42800bf3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga58e0997625ad50d605eb3f8d42800bf3">triggerPri_RoverMEMS</a> (void)</td></tr>
-<tr class="separator:ga58e0997625ad50d605eb3f8d42800bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2dd84fdfc5faa9fa8a97df595848986b" id="r_ga2dd84fdfc5faa9fa8a97df595848986b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga2dd84fdfc5faa9fa8a97df595848986b">triggerSec_RoverMEMS</a> (void)</td></tr>
-<tr class="separator:ga2dd84fdfc5faa9fa8a97df595848986b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa5510944870444da3585e28f8d2599e0" id="r_gaa5510944870444da3585e28f8d2599e0"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaa5510944870444da3585e28f8d2599e0">getRevolutionTime_RoverMEMS</a> (void)</td></tr>
-<tr class="separator:gaa5510944870444da3585e28f8d2599e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4e023e7ad2388dd117736f4960f78522" id="r_ga4e023e7ad2388dd117736f4960f78522"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#ga4e023e7ad2388dd117736f4960f78522">calcEndTooth_RoverMEMS</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
-<tr class="separator:ga4e023e7ad2388dd117736f4960f78522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaba56963b2fe97f1606220a1d7c749c76" id="r_gaba56963b2fe97f1606220a1d7c749c76"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaba56963b2fe97f1606220a1d7c749c76">triggerSetEndTeeth_RoverMEMS</a> (void)</td></tr>
-<tr class="separator:gaba56963b2fe97f1606220a1d7c749c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaec4de82bf03b885f9a4399a6b1bfa4bc" id="r_gaec4de82bf03b885f9a4399a6b1bfa4bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaec4de82bf03b885f9a4399a6b1bfa4bc">triggerSetup_RoverMEMS</a> (void)</td></tr>
-<tr class="separator:gaec4de82bf03b885f9a4399a6b1bfa4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac3f33bde1e81ad6a415269a4f8749a58" id="r_gac3f33bde1e81ad6a415269a4f8749a58"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#gac3f33bde1e81ad6a415269a4f8749a58">triggerPri_SuzukiK6A</a> (void)</td></tr>
-<tr class="separator:gac3f33bde1e81ad6a415269a4f8749a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadc984cb3bc84cf2cee4f3f69ee1834ae" id="r_gadc984cb3bc84cf2cee4f3f69ee1834ae"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#gadc984cb3bc84cf2cee4f3f69ee1834ae">getRevolutionTime_SuzukiK6A</a> (void)</td></tr>
-<tr class="separator:gadc984cb3bc84cf2cee4f3f69ee1834ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf1a360ab0d052c0cbb9fb4ef1e4ec841" id="r_gaf1a360ab0d052c0cbb9fb4ef1e4ec841"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#gaf1a360ab0d052c0cbb9fb4ef1e4ec841">getCrankAngle_SuzukiK6A</a> (uint32_t currMicros)</td></tr>
-<tr class="separator:gaf1a360ab0d052c0cbb9fb4ef1e4ec841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga17870d24cd7ee71cf10e148a1e91c75e" id="r_ga17870d24cd7ee71cf10e148a1e91c75e"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#ga17870d24cd7ee71cf10e148a1e91c75e">calcEndTeeth_SuzukiK6A</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule)</td></tr>
-<tr class="separator:ga17870d24cd7ee71cf10e148a1e91c75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafabfa90a801bea23fcd9f0232d197503" id="r_gafabfa90a801bea23fcd9f0232d197503"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#gafabfa90a801bea23fcd9f0232d197503">triggerSetEndTeeth_SuzukiK6A</a> (void)</td></tr>
-<tr class="separator:gafabfa90a801bea23fcd9f0232d197503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga79707cfbf445576a1adf54cb593cdd62" id="r_ga79707cfbf445576a1adf54cb593cdd62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___suzuki___k6_a.html#ga79707cfbf445576a1adf54cb593cdd62">triggerSetup_SuzukiK6A</a> (void)</td></tr>
-<tr class="separator:ga79707cfbf445576a1adf54cb593cdd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5daa8ef616958130fb0ec6b9567cfa31" id="r_ga5daa8ef616958130fb0ec6b9567cfa31"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#ga5daa8ef616958130fb0ec6b9567cfa31">triggerPri_FordTFI</a> (void)</td></tr>
-<tr class="separator:ga5daa8ef616958130fb0ec6b9567cfa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga210007d1c5fd79ac1f3f1d4188e70188" id="r_ga210007d1c5fd79ac1f3f1d4188e70188"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#ga210007d1c5fd79ac1f3f1d4188e70188">triggerSec_FordTFI</a> (void)</td></tr>
-<tr class="separator:ga210007d1c5fd79ac1f3f1d4188e70188"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab5e40f5605c993833d33bb531cb108e6" id="r_gab5e40f5605c993833d33bb531cb108e6"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#gab5e40f5605c993833d33bb531cb108e6">getRevolutionTime_FordTFI</a> (void)</td></tr>
-<tr class="separator:gab5e40f5605c993833d33bb531cb108e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga243310bf9028ed72d2fd2823a9f05757" id="r_ga243310bf9028ed72d2fd2823a9f05757"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#ga243310bf9028ed72d2fd2823a9f05757">getCrankAngle_FordTFI</a> (uint32_t currMicros)</td></tr>
-<tr class="separator:ga243310bf9028ed72d2fd2823a9f05757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4584818b3a1482c4e8a5aa0cfe07711e" id="r_ga4584818b3a1482c4e8a5aa0cfe07711e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#ga4584818b3a1482c4e8a5aa0cfe07711e">triggerSetEndTeeth_FordTFI</a> (void)</td></tr>
-<tr class="separator:ga4584818b3a1482c4e8a5aa0cfe07711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1204807041f28e9a781c3215d475fd52" id="r_ga1204807041f28e9a781c3215d475fd52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___ford___t_f_i.html#ga1204807041f28e9a781c3215d475fd52">triggerSetup_FordTFI</a> (void)</td></tr>
-<tr class="separator:ga1204807041f28e9a781c3215d475fd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51240890b5b70762af2591206597a257" id="r_a51240890b5b70762af2591206597a257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a51240890b5b70762af2591206597a257">triggerSetup_NGC</a> (void)</td></tr>
+<tr class="separator:a51240890b5b70762af2591206597a257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af24862939b612e5614247e538fd54b" id="r_a1af24862939b612e5614247e538fd54b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1af24862939b612e5614247e538fd54b">triggerSetup_Vmax</a> (void)</td></tr>
+<tr class="separator:a1af24862939b612e5614247e538fd54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f54daa820297e5473e4456fe61d1664" id="r_a1f54daa820297e5473e4456fe61d1664"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1f54daa820297e5473e4456fe61d1664">triggerPri_Renix</a> (void)</td></tr>
+<tr class="separator:a1f54daa820297e5473e4456fe61d1664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e398d7cb478d559ff3e3318eaacc9b5" id="r_a2e398d7cb478d559ff3e3318eaacc9b5"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a2e398d7cb478d559ff3e3318eaacc9b5">calcEndTeeth_Renix</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
+<tr class="separator:a2e398d7cb478d559ff3e3318eaacc9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6dfa9bd0c1162316215b230f64e039e" id="r_af6dfa9bd0c1162316215b230f64e039e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#af6dfa9bd0c1162316215b230f64e039e">triggerSetEndTeeth_Renix</a> (void)</td></tr>
+<tr class="separator:af6dfa9bd0c1162316215b230f64e039e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776a492e0a77b0b2781acbe180969965" id="r_a776a492e0a77b0b2781acbe180969965"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a776a492e0a77b0b2781acbe180969965">triggerSetup_Renix</a> (void)</td></tr>
+<tr class="separator:a776a492e0a77b0b2781acbe180969965"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5bab8852ee8f20e1685e5916d630def" id="r_af5bab8852ee8f20e1685e5916d630def"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#af5bab8852ee8f20e1685e5916d630def">triggerRoverMEMSCommon</a> (uint32_t curTime)</td></tr>
+<tr class="separator:af5bab8852ee8f20e1685e5916d630def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e0997625ad50d605eb3f8d42800bf3" id="r_a58e0997625ad50d605eb3f8d42800bf3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a58e0997625ad50d605eb3f8d42800bf3">triggerPri_RoverMEMS</a> (void)</td></tr>
+<tr class="separator:a58e0997625ad50d605eb3f8d42800bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd84fdfc5faa9fa8a97df595848986b" id="r_a2dd84fdfc5faa9fa8a97df595848986b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a2dd84fdfc5faa9fa8a97df595848986b">triggerSec_RoverMEMS</a> (void)</td></tr>
+<tr class="separator:a2dd84fdfc5faa9fa8a97df595848986b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5510944870444da3585e28f8d2599e0" id="r_aa5510944870444da3585e28f8d2599e0"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aa5510944870444da3585e28f8d2599e0">getRevolutionTime_RoverMEMS</a> (void)</td></tr>
+<tr class="separator:aa5510944870444da3585e28f8d2599e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e023e7ad2388dd117736f4960f78522" id="r_a4e023e7ad2388dd117736f4960f78522"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4e023e7ad2388dd117736f4960f78522">calcEndTooth_RoverMEMS</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule, uint8_t toothAdder)</td></tr>
+<tr class="separator:a4e023e7ad2388dd117736f4960f78522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba56963b2fe97f1606220a1d7c749c76" id="r_aba56963b2fe97f1606220a1d7c749c76"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aba56963b2fe97f1606220a1d7c749c76">triggerSetEndTeeth_RoverMEMS</a> (void)</td></tr>
+<tr class="separator:aba56963b2fe97f1606220a1d7c749c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec4de82bf03b885f9a4399a6b1bfa4bc" id="r_aec4de82bf03b885f9a4399a6b1bfa4bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aec4de82bf03b885f9a4399a6b1bfa4bc">triggerSetup_RoverMEMS</a> (void)</td></tr>
+<tr class="separator:aec4de82bf03b885f9a4399a6b1bfa4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f33bde1e81ad6a415269a4f8749a58" id="r_ac3f33bde1e81ad6a415269a4f8749a58"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ac3f33bde1e81ad6a415269a4f8749a58">triggerPri_SuzukiK6A</a> (void)</td></tr>
+<tr class="separator:ac3f33bde1e81ad6a415269a4f8749a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc984cb3bc84cf2cee4f3f69ee1834ae" id="r_adc984cb3bc84cf2cee4f3f69ee1834ae"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#adc984cb3bc84cf2cee4f3f69ee1834ae">getRevolutionTime_SuzukiK6A</a> (void)</td></tr>
+<tr class="separator:adc984cb3bc84cf2cee4f3f69ee1834ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a360ab0d052c0cbb9fb4ef1e4ec841" id="r_af1a360ab0d052c0cbb9fb4ef1e4ec841"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#af1a360ab0d052c0cbb9fb4ef1e4ec841">getCrankAngle_SuzukiK6A</a> (uint32_t currMicros)</td></tr>
+<tr class="separator:af1a360ab0d052c0cbb9fb4ef1e4ec841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17870d24cd7ee71cf10e148a1e91c75e" id="r_a17870d24cd7ee71cf10e148a1e91c75e"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a17870d24cd7ee71cf10e148a1e91c75e">calcEndTeeth_SuzukiK6A</a> (const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;schedule)</td></tr>
+<tr class="separator:a17870d24cd7ee71cf10e148a1e91c75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabfa90a801bea23fcd9f0232d197503" id="r_afabfa90a801bea23fcd9f0232d197503"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#afabfa90a801bea23fcd9f0232d197503">triggerSetEndTeeth_SuzukiK6A</a> (void)</td></tr>
+<tr class="separator:afabfa90a801bea23fcd9f0232d197503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79707cfbf445576a1adf54cb593cdd62" id="r_a79707cfbf445576a1adf54cb593cdd62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a79707cfbf445576a1adf54cb593cdd62">triggerSetup_SuzukiK6A</a> (void)</td></tr>
+<tr class="separator:a79707cfbf445576a1adf54cb593cdd62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5daa8ef616958130fb0ec6b9567cfa31" id="r_a5daa8ef616958130fb0ec6b9567cfa31"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a5daa8ef616958130fb0ec6b9567cfa31">triggerPri_FordTFI</a> (void)</td></tr>
+<tr class="separator:a5daa8ef616958130fb0ec6b9567cfa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210007d1c5fd79ac1f3f1d4188e70188" id="r_a210007d1c5fd79ac1f3f1d4188e70188"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a210007d1c5fd79ac1f3f1d4188e70188">triggerSec_FordTFI</a> (void)</td></tr>
+<tr class="separator:a210007d1c5fd79ac1f3f1d4188e70188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5e40f5605c993833d33bb531cb108e6" id="r_ab5e40f5605c993833d33bb531cb108e6"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#ab5e40f5605c993833d33bb531cb108e6">getRevolutionTime_FordTFI</a> (void)</td></tr>
+<tr class="separator:ab5e40f5605c993833d33bb531cb108e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243310bf9028ed72d2fd2823a9f05757" id="r_a243310bf9028ed72d2fd2823a9f05757"><td class="memItemLeft" align="right" valign="top">static int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a243310bf9028ed72d2fd2823a9f05757">getCrankAngle_FordTFI</a> (uint32_t currMicros)</td></tr>
+<tr class="separator:a243310bf9028ed72d2fd2823a9f05757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4584818b3a1482c4e8a5aa0cfe07711e" id="r_a4584818b3a1482c4e8a5aa0cfe07711e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a4584818b3a1482c4e8a5aa0cfe07711e">triggerSetEndTeeth_FordTFI</a> (void)</td></tr>
+<tr class="separator:a4584818b3a1482c4e8a5aa0cfe07711e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1204807041f28e9a781c3215d475fd52" id="r_a1204807041f28e9a781c3215d475fd52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structdecoder__t.html">decoder_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a1204807041f28e9a781c3215d475fd52">triggerSetup_FordTFI</a> (void)</td></tr>
+<tr class="separator:a1204807041f28e9a781c3215d475fd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -328,8 +308,8 @@ Variables</h2></td></tr>
 <tr class="separator:af7c6da4cce4efb811574a3de21e1c51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a980546b513dde96245b47184ac076e4f" id="r_a980546b513dde96245b47184ac076e4f"><td class="memItemLeft" align="right" valign="top">constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#a980546b513dde96245b47184ac076e4f">COMPOSITE_ENGINE_CYCLE</a> = 5</td></tr>
 <tr class="separator:a980546b513dde96245b47184ac076e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaafd320359e4b378e8172eac969b58fb9" id="r_gaafd320359e4b378e8172eac969b58fb9"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__dec.html#gaafd320359e4b378e8172eac969b58fb9">roverMEMSTeethSeen</a> = 0</td></tr>
-<tr class="separator:gaafd320359e4b378e8172eac969b58fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafd320359e4b378e8172eac969b58fb9" id="r_aafd320359e4b378e8172eac969b58fb9"><td class="memItemLeft" align="right" valign="top">volatile unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="decoders_8cpp.html#aafd320359e4b378e8172eac969b58fb9">roverMEMSTeethSeen</a> = 0</td></tr>
+<tr class="separator:aafd320359e4b378e8172eac969b58fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Crank and Cam decoders</p>
@@ -358,6 +338,36 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04fd26367d1126f0b30ebd1188fa2368" name="a04fd26367d1126f0b30ebd1188fa2368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04fd26367d1126f0b30ebd1188fa2368">&#9670;&#160;</a></span>renixSystemLastMinusOneToothTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define renixSystemLastMinusOneToothTime&#160;&#160;&#160;_decoderState.toothLastSecToothRisingTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d2793e7168a1b83523130c0367fed95" name="a8d2793e7168a1b83523130c0367fed95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2793e7168a1b83523130c0367fed95">&#9670;&#160;</a></span>renixSystemLastToothTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define renixSystemLastToothTime&#160;&#160;&#160;_decoderState.toothLastToothRisingTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Renix 44-2-2 and 66-2-2-2 decoder. <br  />
+ Renix trigger wheel doesn't decode into 360 degrees nicely (360/44 = 8.18 degrees or 360/66 = 5.454545). Speeduino can't handle any teeth that have a decimal point. Solution is to count teeth, every 11 teeth = a proper angle. For 66 tooth decoder its 60 degrees per 11 teeth, for 44 tooth decoder its 90 degrees per 11 teeth. This means the system sees 4 teeth on the 44 tooth wheel and 6 teeth on the 66 tooth wheel. Double missing tooth in the pattern is actually a large tooth and a large gap. If the trigger is set to rising you'll see the start of the large tooth then the gap. If its not set to rising the code won't work due to seeing two gaps </p>
 
 </div>
 </div>
@@ -460,6 +470,147 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a7bb4f5342ba80b6846836c8e6432975a" name="a7bb4f5342ba80b6846836c8e6432975a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb4f5342ba80b6846836c8e6432975a">&#9670;&#160;</a></span>addToothLogEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void addToothLogEntry </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>toothTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="config__pages_8h.html#a3eca60932ee4119828944ccd69a6272b">byte</a>&#160;</td>
+          <td class="paramname"><em>whichTooth</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Universal (shared between decoders) decoder routines. Add tooth log entry to toothHistory (array). Enabled by (either) currentStatus.toothLogEnabled and currentStatus.compositeTriggerUsed. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">toothTime</td><td>- Tooth Time </td></tr>
+    <tr><td class="paramname">whichTooth</td><td>- 0 for Primary (Crank), 2 for Secondary (Cam) 3 for Tertiary (Cam) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2e398d7cb478d559ff3e3318eaacc9b5" name="a2e398d7cb478d559ff3e3318eaacc9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e398d7cb478d559ff3e3318eaacc9b5">&#9670;&#160;</a></span>calcEndTeeth_Renix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t calcEndTeeth_Renix </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17870d24cd7ee71cf10e148a1e91c75e" name="a17870d24cd7ee71cf10e148a1e91c75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17870d24cd7ee71cf10e148a1e91c75e">&#9670;&#160;</a></span>calcEndTeeth_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t calcEndTeeth_SuzukiK6A </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e023e7ad2388dd117736f4960f78522" name="a4e023e7ad2388dd117736f4960f78522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e023e7ad2388dd117736f4960f78522">&#9670;&#160;</a></span>calcEndTooth_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int16_t calcEndTooth_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_ignition_schedule.html">IgnitionSchedule</a> &amp;&#160;</td>
+          <td class="paramname"><em>schedule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>toothAdder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aba68839972037b8043adf7af465f98bb" name="aba68839972037b8043adf7af465f98bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba68839972037b8043adf7af465f98bb">&#9670;&#160;</a></span>getCamAngle_Miata9905()</h2>
 
@@ -476,6 +627,84 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Miata '99 to '05 with 4x 70 degree duration teeth running at cam speed. Teeth believed to be at the same angles as the 4g63 decoder. Tooth #1 is defined as the next crank tooth after the crank signal is HIGH when the cam signal is falling. Tooth number one is at 355* ATDC. (See: www.forum.diyefi.org/viewtopic.php?f=56&amp;t=1077) </p>
+
+</div>
+</div>
+<a id="a6a5d7b9993588397420abe176df6008d" name="a6a5d7b9993588397420abe176df6008d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5d7b9993588397420abe176df6008d">&#9670;&#160;</a></span>getConfigPriTriggerEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t getConfigPriTriggerEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacf9066ca4c01379f1f0e375757d9e1e" name="aacf9066ca4c01379f1f0e375757d9e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacf9066ca4c01379f1f0e375757d9e1e">&#9670;&#160;</a></span>getConfigSecTriggerEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t getConfigSecTriggerEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig4.html">config4</a> &amp;&#160;</td>
+          <td class="paramname"><em>page4</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41504283afa2a844c4474756c9caf1c1" name="a41504283afa2a844c4474756c9caf1c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41504283afa2a844c4474756c9caf1c1">&#9670;&#160;</a></span>getConfigTerTriggerEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t getConfigTerTriggerEdge </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structconfig10.html">config10</a> &amp;&#160;</td>
+          <td class="paramname"><em>page10</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -505,6 +734,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a243310bf9028ed72d2fd2823a9f05757" name="a243310bf9028ed72d2fd2823a9f05757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243310bf9028ed72d2fd2823a9f05757">&#9670;&#160;</a></span>getCrankAngle_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int16_t getCrankAngle_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>currMicros</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ford TFI - Get Crank angle. </p>
+
+</div>
+</div>
 <a id="a164822468b5486373e842ca9d15be8ea" name="a164822468b5486373e842ca9d15be8ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a164822468b5486373e842ca9d15be8ea">&#9670;&#160;</a></span>getCrankAngle_missingTooth()</h2>
 
@@ -516,6 +772,32 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static int16_t getCrankAngle_missingTooth </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>currMicros</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1a360ab0d052c0cbb9fb4ef1e4ec841" name="af1a360ab0d052c0cbb9fb4ef1e4ec841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1a360ab0d052c0cbb9fb4ef1e4ec841">&#9670;&#160;</a></span>getCrankAngle_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int16_t getCrankAngle_SuzukiK6A </td>
           <td>(</td>
           <td class="paramtype">uint32_t&#160;</td>
           <td class="paramname"><em>currMicros</em></td><td>)</td>
@@ -557,6 +839,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab5e40f5605c993833d33bb531cb108e6" name="ab5e40f5605c993833d33bb531cb108e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e40f5605c993833d33bb531cb108e6">&#9670;&#160;</a></span>getRevolutionTime_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint32_t getRevolutionTime_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ford TFI - Get RPM. </p>
+
+</div>
+</div>
 <a id="a5bc583e26c36d3de2436c84bc9869c70" name="a5bc583e26c36d3de2436c84bc9869c70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bc583e26c36d3de2436c84bc9869c70">&#9670;&#160;</a></span>getRevolutionTime_missingTooth()</h2>
 
@@ -577,6 +886,219 @@ Variables</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5510944870444da3585e28f8d2599e0" name="aa5510944870444da3585e28f8d2599e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5510944870444da3585e28f8d2599e0">&#9670;&#160;</a></span>getRevolutionTime_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint32_t getRevolutionTime_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adc984cb3bc84cf2cee4f3f69ee1834ae" name="adc984cb3bc84cf2cee4f3f69ee1834ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc984cb3bc84cf2cee4f3f69ee1834ae">&#9670;&#160;</a></span>getRevolutionTime_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint32_t getRevolutionTime_SuzukiK6A </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16521d008e98dde33c2b46311084c67e" name="a16521d008e98dde33c2b46311084c67e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16521d008e98dde33c2b46311084c67e">&#9670;&#160;</a></span>loggerPrimaryISR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loggerPrimaryISR </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interrupt handler for primary trigger. This function is called on both the rising and falling edges of the primary trigger, when either the composite or tooth loggers are turned on. </p>
+
+</div>
+</div>
+<a id="aea03d02f72cf6acf50787cf0ea5d8eed" name="aea03d02f72cf6acf50787cf0ea5d8eed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea03d02f72cf6acf50787cf0ea5d8eed">&#9670;&#160;</a></span>loggerSecondaryISR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loggerSecondaryISR </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interrupt handler for secondary trigger. As loggerPrimaryISR, but for the secondary trigger. </p>
+
+</div>
+</div>
+<a id="acd9814e949e3cc3c5cec3cba1d2a96f4" name="acd9814e949e3cc3c5cec3cba1d2a96f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd9814e949e3cc3c5cec3cba1d2a96f4">&#9670;&#160;</a></span>loggerTertiaryISR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void loggerTertiaryISR </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Interrupt handler for third trigger. As loggerPrimaryISR, but for the third trigger. </p>
+
+</div>
+</div>
+<a id="ad9e5f95ac3e4b39f9a0667dc0fdff483" name="ad9e5f95ac3e4b39f9a0667dc0fdff483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e5f95ac3e4b39f9a0667dc0fdff483">&#9670;&#160;</a></span>sharedDecoderReset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sharedDecoderReset </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a53b1bc746982dc064f88c1dca7e8161c" name="a53b1bc746982dc064f88c1dca7e8161c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53b1bc746982dc064f88c1dca7e8161c">&#9670;&#160;</a></span>sharedEngineIsRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool sharedEngineIsRunning </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>curTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51da08bc2651bda1428921b72a797e45" name="a51da08bc2651bda1428921b72a797e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51da08bc2651bda1428921b72a797e45">&#9670;&#160;</a></span>sharedGetDecoderFeatures()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structdecoder__features__t.html">decoder_features_t</a> sharedGetDecoderFeatures </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab5272450c360b4c5c50d13d53b447f15" name="ab5272450c360b4c5c50d13d53b447f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5272450c360b4c5c50d13d53b447f15">&#9670;&#160;</a></span>sharedGetStatus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structdecoder__status__t.html">decoder_status_t</a> sharedGetStatus </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -609,6 +1131,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a5daa8ef616958130fb0ec6b9567cfa31" name="a5daa8ef616958130fb0ec6b9567cfa31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5daa8ef616958130fb0ec6b9567cfa31">&#9670;&#160;</a></span>triggerPri_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerPri_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ford TFI - Distributor mounted signal tooth wheel. Same number of teeth as cylinders. Evenly spaced rising edge triggers, Cylinder 1 has a narrow teeth and will have a signature falling edge Ford TFI Primary (Rising Edge). </p>
+
+</div>
+</div>
 <a id="a4ac160b1a04cb3e5ea6ea9fa31f09fb0" name="a4ac160b1a04cb3e5ea6ea9fa31f09fb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ac160b1a04cb3e5ea6ea9fa31f09fb0">&#9670;&#160;</a></span>triggerPri_missingTooth()</h2>
 
@@ -635,6 +1184,112 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a1f54daa820297e5473e4456fe61d1664" name="a1f54daa820297e5473e4456fe61d1664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f54daa820297e5473e4456fe61d1664">&#9670;&#160;</a></span>triggerPri_Renix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerPri_Renix </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a58e0997625ad50d605eb3f8d42800bf3" name="a58e0997625ad50d605eb3f8d42800bf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e0997625ad50d605eb3f8d42800bf3">&#9670;&#160;</a></span>triggerPri_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerPri_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac3f33bde1e81ad6a415269a4f8749a58" name="ac3f33bde1e81ad6a415269a4f8749a58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f33bde1e81ad6a415269a4f8749a58">&#9670;&#160;</a></span>triggerPri_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerPri_SuzukiK6A </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Suzuki K6A 3 cylinder engine</p>
+<p>(See: <a href="https://www.msextra.com/forums/viewtopic.php?t=74614">https://www.msextra.com/forums/viewtopic.php?t=74614</a>) </p>
+
+</div>
+</div>
+<a id="af5bab8852ee8f20e1685e5916d630def" name="af5bab8852ee8f20e1685e5916d630def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5bab8852ee8f20e1685e5916d630def">&#9670;&#160;</a></span>triggerRoverMEMSCommon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerRoverMEMSCommon </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>curTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a07c9a6d443dab7c53ae8358ed1e9126d" name="a07c9a6d443dab7c53ae8358ed1e9126d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a07c9a6d443dab7c53ae8358ed1e9126d">&#9670;&#160;</a></span>triggerSec_DualWheel()</h2>
 
@@ -646,6 +1301,59 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static void triggerSec_DualWheel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a210007d1c5fd79ac1f3f1d4188e70188" name="a210007d1c5fd79ac1f3f1d4188e70188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a210007d1c5fd79ac1f3f1d4188e70188">&#9670;&#160;</a></span>triggerSec_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSec_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ford TFI Secondary (Falling Edge). </p>
+
+</div>
+</div>
+<a id="a2dd84fdfc5faa9fa8a97df595848986b" name="a2dd84fdfc5faa9fa8a97df595848986b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd84fdfc5faa9fa8a97df595848986b">&#9670;&#160;</a></span>triggerSec_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSec_RoverMEMS </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -687,6 +1395,33 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a4584818b3a1482c4e8a5aa0cfe07711e" name="a4584818b3a1482c4e8a5aa0cfe07711e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4584818b3a1482c4e8a5aa0cfe07711e">&#9670;&#160;</a></span>triggerSetEndTeeth_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSetEndTeeth_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Ford TFI - Set End Teeth. </p>
+
+</div>
+</div>
 <a id="ad0efbfde018e9305f601afe9820801b5" name="ad0efbfde018e9305f601afe9820801b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad0efbfde018e9305f601afe9820801b5">&#9670;&#160;</a></span>triggerSetEndTeeth_missingTooth()</h2>
 
@@ -698,6 +1433,84 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">static void triggerSetEndTeeth_missingTooth </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6dfa9bd0c1162316215b230f64e039e" name="af6dfa9bd0c1162316215b230f64e039e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6dfa9bd0c1162316215b230f64e039e">&#9670;&#160;</a></span>triggerSetEndTeeth_Renix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSetEndTeeth_Renix </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba56963b2fe97f1606220a1d7c749c76" name="aba56963b2fe97f1606220a1d7c749c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba56963b2fe97f1606220a1d7c749c76">&#9670;&#160;</a></span>triggerSetEndTeeth_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSetEndTeeth_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afabfa90a801bea23fcd9f0232d197503" name="afabfa90a801bea23fcd9f0232d197503"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afabfa90a801bea23fcd9f0232d197503">&#9670;&#160;</a></span>triggerSetEndTeeth_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void triggerSetEndTeeth_SuzukiK6A </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -793,6 +1606,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a6dff48d2eedde421b6949ac190b8fe36" name="a6dff48d2eedde421b6949ac190b8fe36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dff48d2eedde421b6949ac190b8fe36">&#9670;&#160;</a></span>triggerSetup_BasicDistributor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_BasicDistributor </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Basic Distributor where tooth count is equal to the number of cylinders and teeth are evenly spaced on the cam. No position sensing (Distributor is retained) so crank angle is a made up figure based purely on the first teeth to be seen. Note: This is a very simple decoder. See <a href="http://www.megamanual.com/ms2/GM_7pinHEI.htm">http://www.megamanual.com/ms2/GM_7pinHEI.htm</a> </p>
+
+</div>
+</div>
 <a id="aaebee5c3abc715ba882b8d1fd8cbc968" name="aaebee5c3abc715ba882b8d1fd8cbc968"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaebee5c3abc715ba882b8d1fd8cbc968">&#9670;&#160;</a></span>triggerSetup_Daihatsu()</h2>
 
@@ -864,6 +1696,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Ford ST170 - a dedicated decoder for 01-04 Ford Focus ST170/SVT engine. Standard 36-1 trigger wheel running at crank speed and 8-3 trigger wheel running at cam speed. </p>
+
+</div>
+</div>
+<a id="a1204807041f28e9a781c3215d475fd52" name="a1204807041f28e9a781c3215d475fd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1204807041f28e9a781c3215d475fd52">&#9670;&#160;</a></span>triggerSetup_FordTFI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_FordTFI </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ford TFI Setup. </p>
 
 </div>
 </div>
@@ -1020,6 +1871,44 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a51240890b5b70762af2591206597a257" name="a51240890b5b70762af2591206597a257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51240890b5b70762af2591206597a257">&#9670;&#160;</a></span>triggerSetup_NGC()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_NGC </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Chrysler NGC - a dedicated decoder for vehicles with 4, 6 and 8 cylinder NGC pattern. 4-cyl: 36+2-2 crank wheel and 7 tooth cam 6-cyl: 36-2+2 crank wheel and 12 tooth cam in 6 groups 8-cyl: 36-2+2 crank wheel and 15 tooth cam in 8 groups The crank decoder uses the polarity of the missing teeth to determine position The 4-cyl cam decoder uses the polarity of the missing teeth to determine position The 6 and 8-cyl cam decoder uses the amount of teeth in the two previous groups of teeth to determine position </p>
+
+</div>
+</div>
+<a id="a2ee3eefe43908d965e7e9c554d5fe38c" name="a2ee3eefe43908d965e7e9c554d5fe38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee3eefe43908d965e7e9c554d5fe38c">&#9670;&#160;</a></span>triggerSetup_Nissan360()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_Nissan360 </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Nissan 360 tooth on cam (Optical trigger disc inside distributor housing). See <a href="http://wiki.r31skylineclub.com/index.php/Crank_Angle_Sensor">http://wiki.r31skylineclub.com/index.php/Crank_Angle_Sensor</a> . </p>
+
+</div>
+</div>
 <a id="adc323ef1d200e819d16ec0fbbd69f783" name="adc323ef1d200e819d16ec0fbbd69f783"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adc323ef1d200e819d16ec0fbbd69f783">&#9670;&#160;</a></span>triggerSetup_non360()</h2>
 
@@ -1039,6 +1928,42 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a776a492e0a77b0b2781acbe180969965" name="a776a492e0a77b0b2781acbe180969965"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776a492e0a77b0b2781acbe180969965">&#9670;&#160;</a></span>triggerSetup_Renix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_Renix </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec4de82bf03b885f9a4399a6b1bfa4bc" name="aec4de82bf03b885f9a4399a6b1bfa4bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec4de82bf03b885f9a4399a6b1bfa4bc">&#9670;&#160;</a></span>triggerSetup_RoverMEMS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_RoverMEMS </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeb5bff1467cc6a9e78f28dda5d66d9f1" name="aeb5bff1467cc6a9e78f28dda5d66d9f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb5bff1467cc6a9e78f28dda5d66d9f1">&#9670;&#160;</a></span>triggerSetup_Subaru67()</h2>
 
@@ -1055,6 +1980,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Subaru 6/7 Trigger pattern decoder for 6 tooth (irregularly spaced) crank and 7 tooth (also fairly irregular) cam wheels (eg late 90's Impreza 2.2). This seems to be present in late 90's Subaru. In 2001 Subaru moved to 36-2-2-2 (See: <a href="http://www.vems.hu/wiki/index.php?page=InputTrigger%2FSubaruTrigger">http://www.vems.hu/wiki/index.php?page=InputTrigger%2FSubaruTrigger</a> ). </p>
+
+</div>
+</div>
+<a id="a79707cfbf445576a1adf54cb593cdd62" name="a79707cfbf445576a1adf54cb593cdd62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79707cfbf445576a1adf54cb593cdd62">&#9670;&#160;</a></span>triggerSetup_SuzukiK6A()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_SuzukiK6A </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1093,6 +2036,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>36-2-2-2 crank based trigger wheel. A crank based trigger with a nominal 36 teeth, but 6 of these removed in 3 groups of 2. 2 of these groups are located concurrently. Note: This decoder supports both the H4 version (13-missing-16-missing-1-missing) and the H6 version of 36-2-2-2 (19-missing-10-missing-1-missing). The decoder checks which pattern is selected in order to determine the tooth number Note: www.thefactoryfiveforum.com/attachment.php?attachmentid=34279&amp;d=1412431418 </p>
+
+</div>
+</div>
+<a id="a1af24862939b612e5614247e538fd54b" name="a1af24862939b612e5614247e538fd54b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af24862939b612e5614247e538fd54b">&#9670;&#160;</a></span>triggerSetup_Vmax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structdecoder__t.html">decoder_t</a> triggerSetup_Vmax </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Yamaha Vmax 1990+ with 6 uneven teeth, triggering on the wide lobe. Within the decoder code, the sync tooth is referred to as tooth #1. Derived from Harley and made to work on the Yamah Vmax. Trigger is based on 'CHANGE' so we get a signal on the up and downward edges of the lobe. This is required to identify the wide lobe. </p>
 
 </div>
 </div>
@@ -1284,6 +2246,20 @@ Variables</h2></td></tr>
 <span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafd320359e4b378e8172eac969b58fb9" name="aafd320359e4b378e8172eac969b58fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafd320359e4b378e8172eac969b58fb9">&#9670;&#160;</a></span>roverMEMSTeethSeen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile unsigned long roverMEMSTeethSeen = 0</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

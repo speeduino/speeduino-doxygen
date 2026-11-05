@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['ignition_20schedule_20timer_20isrs_0',['Ignition schedule timer ISRs',['../group__ignition-schedule-_i_s_r.html',1,'']]],
-  ['implementation_1',['Serial comms implementation',['../group__group-serial-comms-impl.html',1,'']]],
-  ['integer_20division_2',['Rounding integer division',['../group__group-rounded-div.html',1,'']]],
-  ['isrs_3',['isrs',['../group__fuel-schedule-_i_s_r.html',1,'Fuel schedule timer ISRs'],['../group__ignition-schedule-_i_s_r.html',1,'Ignition schedule timer ISRs']]]
+  ['response_20for_20some_20ts_20messages_0',['Hard coded response for some TS messages',['../group__group-serial-hard-coded-responses.html',1,'']]],
+  ['return_20codes_20sent_20to_20ts_1',['Serial return codes sent to TS',['../group__group-serial-return-codes.html',1,'']]],
+  ['rounding_20behavior_2',['Rounding behavior',['../group__group-rounded-div-behavior.html',1,'']]],
+  ['rounding_20integer_20division_3',['Rounding integer division',['../group__group-rounded-div.html',1,'']]]
 ];

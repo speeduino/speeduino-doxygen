@@ -7,7 +7,7 @@ var searchData=
   ['accelenrichmentoff_4',['accelEnrichmentOff',['../corrections_8cpp.html#a508fd9d1960e7954020b2c12ebfd8466',1,'corrections.cpp']]],
   ['activate_5',['activate',['../classinteger_p_i_d.html#a1f1859f4b35a144bd8eaef66770f99a3',1,'integerPID']]],
   ['activationdelayexpired_6',['activationDelayExpired',['../structprogrammable_i_o_control__details_1_1processing__channel__t.html#a11cf7cc9876c847d9c6b096bb56f0bbe',1,'programmableIOControl_details::processing_channel_t']]],
-  ['addtoothlogentry_7',['addToothLogEntry',['../group__dec__uni.html#ga7bb4f5342ba80b6846836c8e6432975a',1,'decoders.cpp']]],
+  ['addtoothlogentry_7',['addToothLogEntry',['../decoders_8cpp.html#a7bb4f5342ba80b6846836c8e6432975a',1,'decoders.cpp']]],
   ['addwithoutoverflow_8',['addWithoutOverflow',['../group__group-serial-comms-impl.html#ga3a1c7dd7cd1bae9ef6f774f2d25df144',1,'comms.cpp']]],
   ['adjustcrankangle_9',['adjustcrankangle',['../scheduler_8cpp.html#a851c240492b6f906b3559a6f25314d61',1,'adjustCrankAngle(const statuses &amp;current, IgnitionSchedule &amp;schedule, int16_t crankAngle):&#160;scheduler.cpp'],['../scheduler_8h.html#a851c240492b6f906b3559a6f25314d61',1,'adjustCrankAngle(const statuses &amp;current, IgnitionSchedule &amp;schedule, int16_t crankAngle):&#160;scheduler.cpp']]],
   ['advance_10',['advance',['../pages_8cpp.html#aa08e4eac9c505234d62c0bb8c2c01f99',1,'advance(const page_iterator_t &amp;iter):&#160;pages.cpp'],['../pages_8h.html#a5a72453b79576e4855834673719536c8',1,'advance(const page_iterator_t &amp;it):&#160;pages.cpp']]],
