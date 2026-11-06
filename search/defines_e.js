@@ -40,7 +40,7 @@ var searchData=
   ['secondary_5fserial_5fproto_5fmsdroid_37',['SECONDARY_SERIAL_PROTO_MSDROID',['../comms__secondary_8h.html#a8dd9bfcb8dc18255358cdbde7c1342c5',1,'comms_secondary.h']]],
   ['secondary_5fserial_5fproto_5frealdash_38',['SECONDARY_SERIAL_PROTO_REALDASH',['../comms__secondary_8h.html#a635567c55a1e395bfb941299f0a06b65',1,'comms_secondary.h']]],
   ['secondary_5fserial_5fproto_5ftunerstudio_39',['SECONDARY_SERIAL_PROTO_TUNERSTUDIO',['../comms__secondary_8h.html#a20b67e09d48e4cb49c9338febdb717db',1,'comms_secondary.h']]],
-  ['secondary_5fserial_5ft_40',['secondary_serial_t',['../board__teensy35_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy35.h'],['../board__teensy41_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy41.h'],['../board__stm32__official_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_stm32_official.h'],['../board__avr2560_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_avr2560.h']]],
+  ['secondary_5fserial_5ft_40',['secondary_serial_t',['../board__avr2560_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_avr2560.h'],['../board__stm32__official_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_stm32_official.h'],['../board__teensy35_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy35.h'],['../board__teensy41_8h.html#ac078ae229ae4f5ed91dd41d14394e439',1,'SECONDARY_SERIAL_T:&#160;board_teensy41.h']]],
   ['secondaryserial_41',['secondarySerial',['../comms__secondary_8h.html#ae56004642fac544acad680959ddea8b2',1,'comms_secondary.h']]],
   ['secondarytoothlastcount_42',['secondaryToothLastCount',['../ngc_8cpp.html#a735c16343b36f4140ef631447916a6b1',1,'ngc.cpp']]],
   ['serial_5fprint_5fspace_5fdelimited_5farray_43',['serial_print_space_delimited_array',['../comms__legacy_8cpp.html#a5b2ea18c2a7771751e6a6466bc4248a2',1,'comms_legacy.cpp']]],
@@ -49,9 +49,5 @@ var searchData=
   ['set_5fcompare_46',['SET_COMPARE',['../board__definition_8h.html#a6a188777b3fa3f7f6e93124fee711846',1,'board_definition.h']]],
   ['set_5ffuel_5fchannel_47',['SET_FUEL_CHANNEL',['../scheduler__fuel__controller_8cpp.html#a095fd6ca4db6fcfae0278b7e6ad60513',1,'scheduler_fuel_controller.cpp']]],
   ['set_5fignition_5fchannel_48',['SET_IGNITION_CHANNEL',['../scheduler__ignition__controller_8cpp.html#aec703c7b4d9e47cbd4461e26ebd0546a',1,'scheduler_ignition_controller.cpp']]],
-  ['skip_5ftooth1_49',['SKIP_TOOTH1',['../decoders_8cpp.html#a42f5e89a25e4147493ade3b55fe8e9bc',1,'decoders.cpp']]],
-  ['skip_5ftooth2_50',['SKIP_TOOTH2',['../decoders_8cpp.html#acbba70e2df4a63516ef98fb3f81c4700',1,'decoders.cpp']]],
-  ['skip_5ftooth3_51',['SKIP_TOOTH3',['../decoders_8cpp.html#ab8f2641ae9a99e2c182d079e4eed46f9',1,'decoders.cpp']]],
-  ['skip_5ftooth4_52',['SKIP_TOOTH4',['../decoders_8cpp.html#aa32adcb5ef1de64ed96de6e5f9e8df85',1,'decoders.cpp']]],
-  ['stepper_5fpower_5fwhen_5factive_53',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8cpp.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.cpp']]]
+  ['stepper_5fpower_5fwhen_5factive_49',['STEPPER_POWER_WHEN_ACTIVE',['../idle_8cpp.html#a1db4ad99e44f9ac60e141ff9049bc0bb',1,'idle.cpp']]]
 ];
