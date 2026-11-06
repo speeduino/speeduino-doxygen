@@ -52,7 +52,7 @@ var searchData=
   ['serialpayload_49',['serialPayload',['../group__group-serial-comms-impl.html#gadeba8b1d4b4d2cba7023fb387a3c067d',1,'comms.cpp']]],
   ['serialpayloadlength_50',['serialPayloadLength',['../group__group-serial-comms-impl.html#gae6a46ee24ca592c2736d7f5b6451925b',1,'comms.cpp']]],
   ['serialreceivestarttime_51',['serialreceivestarttime',['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp'],['../group__group-serial-comms-impl.html#ga7d83b4ba298eb9c18465f7cd2b5d4dbc',1,'serialReceiveStartTime:&#160;comms.cpp']]],
-  ['serialsecondarystatusflag_52',['serialsecondarystatusflag',['../comms__legacy_8h.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp']]],
+  ['serialsecondarystatusflag_52',['serialsecondarystatusflag',['../comms__legacy_8cpp.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8h.html#a78952ad5f0bfbd8ab9417cefa5624d53',1,'serialSecondaryStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialstatusflag_53',['serialstatusflag',['../comms__legacy_8h.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp'],['../comms__legacy_8cpp.html#acfab5d46b2af852fde3daa71b84e78e0',1,'serialStatusFlag:&#160;comms_legacy.cpp']]],
   ['serialversion_54',['serialVersion',['../group__group-serial-hard-coded-responses.html#gacafb16836d4625d677a7f179dff00fb3',1,'comms.cpp']]],
   ['setendteeth_55',['setEndTeeth',['../structdecoder__t.html#a66061d142dd03c22186fff78cf99fda8',1,'decoder_t']]],
@@ -104,7 +104,7 @@ var searchData=
   ['stagingtable_101',['stagingtable',['../globals_8h.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp'],['../globals_8cpp.html#a166966a95e1ea13f2932e2c98a5ad1f4',1,'stagingTable:&#160;globals.cpp']]],
   ['start_102',['start',['../structpage__entity__t.html#a60e1cb1a3e9b1a5ce5e8058ba32332dc',1,'page_entity_t']]],
   ['startdelay_103',['startDelay',['../structair_con_controller_1_1details_1_1state__t.html#a9d8ebb0f8a01050992586629d4921804',1,'airConController::details::state_t']]],
-  ['startrevolutions_104',['startrevolutions',['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#abd88e10793edf10ef22d7d8b4f6fd045',1,'decoders::shared::tooth_speed_sample_t::startRevolutions']]],
+  ['startrevolutions_104',['startrevolutions',['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#abd88e10793edf10ef22d7d8b4f6fd045',1,'decoders::shared::tooth_speed_sample_t::startRevolutions'],['../structstatuses.html#a82790ba345e74526b69f895f959edc73',1,'statuses::startRevolutions']]],
   ['starttime_105',['startTime',['../structidle_controller_1_1detail_1_1stepper_state__t.html#a7d7a4cae72e6414e89db466ea1c448d2',1,'idleController::detail::stepperState_t']]],
   ['state_106',['state',['../programmable_i_o_control_8cpp.html#aee32c89a21511621a64a092665259bfd',1,'state:&#160;programmableIOControl.cpp'],['../namespacetacho_controller.html#a6b9620a4ddec20b335db9d89df7a20c1',1,'tachoController::state']]],
   ['status_107',['status',['../structidle_controller_1_1detail_1_1stepper_position__t.html#a2fd9ca7e63007ea8ebe13dc90576909c',1,'idleController::detail::stepperPosition_t::status'],['../structstatuses_1_1scheduler__cut__t.html#ac5a701f29b4e20da3c2a94ce96af5147',1,'statuses::scheduler_cut_t::status']]],
@@ -113,10 +113,9 @@ var searchData=
   ['stoich_110',['stoich',['../structconfig2.html#ab97d94aaffe9d86b49e971a24cef5268',1,'config2']]],
   ['storage_5fend_111',['STORAGE_END',['../storage_8cpp.html#aab37bcc66db3e13205c778b51d00eb0b',1,'storage.cpp']]],
   ['strokes_112',['strokes',['../structconfig2.html#a2561cf7a8670884e26f98f3821409a0e',1,'config2']]],
-  ['supports2ndderiv_113',['supports2ndDeriv',['../structdecoder__features__t.html#af4d2cf68e9ee15625f4d907365e935da',1,'decoder_features_t']]],
-  ['supportspertoothignition_114',['supportsPerToothIgnition',['../structdecoder__features__t.html#a59017213c03e87e87c6bcc281a99cd3c',1,'decoder_features_t']]],
-  ['supportssequential_115',['supportsSequential',['../structdecoder__features__t.html#a8af3d205c00648a3aad6f8b3a6e5d2b1',1,'decoder_features_t']]],
-  ['synclosscounter_116',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
-  ['syncstatus_117',['syncstatus',['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#aef013908126037b43f87071395d3db5c',1,'decoders::shared::tooth_speed_sample_t::syncStatus']]],
-  ['systemtemp_118',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
+  ['supportspertoothignition_113',['supportsPerToothIgnition',['../structdecoder__features__t.html#a59017213c03e87e87c6bcc281a99cd3c',1,'decoder_features_t']]],
+  ['supportssequential_114',['supportsSequential',['../structdecoder__features__t.html#a8af3d205c00648a3aad6f8b3a6e5d2b1',1,'decoder_features_t']]],
+  ['synclosscounter_115',['syncLossCounter',['../structstatuses.html#a089853ac4d94717cad239a069557e9d5',1,'statuses']]],
+  ['syncstatus_116',['syncstatus',['../structdecoder__status__t.html#a74d1cc17fed0a24e964baa12d811d6d0',1,'decoder_status_t::syncStatus'],['../structdecoders_1_1shared_1_1tooth__speed__sample__t.html#aef013908126037b43f87071395d3db5c',1,'decoders::shared::tooth_speed_sample_t::syncStatus']]],
+  ['systemtemp_117',['systemTemp',['../structstatuses.html#abaa6e07aa4eccdddd3a931a0a08eb266',1,'statuses']]]
 ];
