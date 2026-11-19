@@ -94,6 +94,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abba3258cebf2e01dbb421d96188770d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a5c18e5ba71ea43d01cfc13302f8f41" id="r_a9a5c18e5ba71ea43d01cfc13302f8f41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html#a9a5c18e5ba71ea43d01cfc13302f8f41">setPinLow</a> (void)</td></tr>
 <tr class="separator:a9a5c18e5ba71ea43d01cfc13302f8f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a7635e12bc7f4d0f9e3ad48625e966" id="r_ab4a7635e12bc7f4d0f9e3ad48625e966"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html#ab4a7635e12bc7f4d0f9e3ad48625e966">loadToPwmTicks</a> (uint8_t load) const</td></tr>
+<tr class="separator:ab4a7635e12bc7f4d0f9e3ad48625e966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f9a4b13ed335fd1308bcff6cfd0c387" id="r_a8f9a4b13ed335fd1308bcff6cfd0c387"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html#a8f9a4b13ed335fd1308bcff6cfd0c387">pwmTicksToLoad</a> (uint16_t pwmFreq)</td></tr>
+<tr class="separator:a8f9a4b13ed335fd1308bcff6cfd0c387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8190a76e03675da6197b436585e69dd" id="r_aa8190a76e03675da6197b436585e69dd"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html#aa8190a76e03675da6197b436585e69dd">rpmToPidCount</a> (uint16_t rpm) const</td></tr>
+<tr class="separator:aa8190a76e03675da6197b436585e69dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66e0965ce3ba4b1e6222a29f6ca505f0" id="r_a66e0965ce3ba4b1e6222a29f6ca505f0"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structidle_controller_1_1detail_1_1state__t.html#a66e0965ce3ba4b1e6222a29f6ca505f0">getPidMaxCount</a> (void) const</td></tr>
+<tr class="separator:a66e0965ce3ba4b1e6222a29f6ca505f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -205,6 +213,112 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a66e0965ce3ba4b1e6222a29f6ca505f0" name="a66e0965ce3ba4b1e6222a29f6ca505f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66e0965ce3ba4b1e6222a29f6ca505f0">&#9670;&#160;</a></span>getPidMaxCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t idleController::detail::state_t::getPidMaxCount </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a7635e12bc7f4d0f9e3ad48625e966" name="ab4a7635e12bc7f4d0f9e3ad48625e966"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a7635e12bc7f4d0f9e3ad48625e966">&#9670;&#160;</a></span>loadToPwmTicks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t idleController::detail::state_t::loadToPwmTicks </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>load</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Convert a duty percentage (0-100) to PWM timer ticks </p>
+
+</div>
+</div>
+<a id="a8f9a4b13ed335fd1308bcff6cfd0c387" name="a8f9a4b13ed335fd1308bcff6cfd0c387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f9a4b13ed335fd1308bcff6cfd0c387">&#9670;&#160;</a></span>pwmTicksToLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t idleController::detail::state_t::pwmTicksToLoad </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>pwmFreq</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Convert a PWM frequency (in Hz) to duty percentage (0-100) </p>
+
+</div>
+</div>
+<a id="aa8190a76e03675da6197b436585e69dd" name="aa8190a76e03675da6197b436585e69dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8190a76e03675da6197b436585e69dd">&#9670;&#160;</a></span>rpmToPidCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t idleController::detail::state_t::rpmToPidCount </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>rpm</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="abba3258cebf2e01dbb421d96188770d4" name="abba3258cebf2e01dbb421d96188770d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abba3258cebf2e01dbb421d96188770d4">&#9670;&#160;</a></span>setPinHigh()</h2>
 
